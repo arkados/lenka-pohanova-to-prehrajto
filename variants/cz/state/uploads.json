@@ -44796,28 +44796,29 @@
           "at": "2026-11-16T20:40:53.761152+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "76e9d38bca8447e7ba73113c191e2c36-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:40:58.478334+00:00",
-        "lease_expires_at": "2026-11-17T02:40:58.478345+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098548",
-        "size_bytes": 530076933
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098548",
-        "size_bytes": 530076933,
-        "source_bytes_read": 530076933,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098548",
         "source_bytes_read": 530076933,
         "elapsed_seconds": 44.757,
         "finished_at": "2026-11-16T20:42:25.298937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098548",
+          "size_bytes": 530076933,
+          "source_bytes_read": 530076933,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957436",
+        "source_url": "https://sdilej.cz/34957436/south-park-s10e01.-sefuv-navrat.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098548",
+        "display_name": "South Park S10E01 The Return of Chef 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:42:39.039440+00:00"
       }
     },
     "673:10:2": {
@@ -520693,7 +520694,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:42:34.877811+00:00",
+  "updated_at": "2026-11-16T20:42:39.039454+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
