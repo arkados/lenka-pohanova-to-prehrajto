@@ -51427,23 +51427,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:09:58.349161+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:51:53.628871+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T12:55:46.821044+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:28:55.811456+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "b50c6467344d4a5fa1b09fe41db7a5aa-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:28:13.869093+00:00",
-        "lease_expires_at": "2026-11-17T03:28:13.869105+00:00"
+      "source_repair_requested": {
+        "base": "30221177:https://sdilej.cz/30221177/south-park-s20e02-cz--lovec-cour.mkv",
+        "at": "2026-11-16T21:28:55.811415+00:00"
       }
     },
     "673:20:3": {
@@ -522098,13 +522096,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:28:51.776699+00:00",
+  "updated_at": "2026-11-16T21:28:55.811462+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:19:10",
           "at": "2026-11-16T21:28:24.710068+00:00"
+        },
+        {
+          "identity": "673:20:2",
+          "at": "2026-11-16T21:28:55.811415+00:00"
         }
       ],
       "retry_after": "2026-11-16T21:27:37.371534+00:00"
