@@ -50564,28 +50564,29 @@
           "at": "2026-11-16T21:23:21.943018+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3d2ad46218c747dbaa57d2afd03cbeb9-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:23:26.436197+00:00",
-        "lease_expires_at": "2026-11-17T03:23:26.436208+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099636",
-        "size_bytes": 552892675
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099636",
-        "size_bytes": 552892675,
-        "source_bytes_read": 552892675,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099636",
         "source_bytes_read": 552892675,
         "elapsed_seconds": 36.156,
         "finished_at": "2026-11-16T21:24:32.853031+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099636",
+          "size_bytes": 552892675,
+          "source_bytes_read": 552892675,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957849",
+        "source_url": "https://sdilej.cz/34957849/south-park-s18e05.-husty-zazracny-krovi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099636",
+        "display_name": "South Park S18E05 The Magic Bush 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:24:51.506431+00:00"
       }
     },
     "673:18:6": {
@@ -521992,7 +521993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:24:46.404873+00:00",
+  "updated_at": "2026-11-16T21:24:51.506447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
