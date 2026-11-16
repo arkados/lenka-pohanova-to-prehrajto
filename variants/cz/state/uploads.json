@@ -45558,23 +45558,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:41:38.685498+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:45:51.443539+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:13:55.243712+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:52:18.476922+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "e8142543cdfb4f33b16093c84d59ea79-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:51:37.193304+00:00",
-        "lease_expires_at": "2026-11-17T02:51:37.193316+00:00"
+      "source_repair_requested": {
+        "base": "30220769:https://sdilej.cz/30220769/south-park-s10e13-cz--bez-boze-bez-2-cz--cast-.mkv",
+        "at": "2026-11-16T20:52:18.476854+00:00"
       }
     },
     "673:10:14": {
@@ -521006,7 +521004,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:52:14.510815+00:00",
+  "updated_at": "2026-11-16T20:52:18.476931+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -521017,9 +521015,13 @@
         {
           "identity": "673:9:6",
           "at": "2026-11-16T20:51:43.920891+00:00"
+        },
+        {
+          "identity": "673:10:13",
+          "at": "2026-11-16T20:52:18.476854+00:00"
         }
       ],
-      "retry_after": "2026-11-16T20:50:47.066392+00:00"
+      "retry_after": "2026-11-16T21:02:18.476854+00:00"
     },
     "956": {
       "recent_failures": [
