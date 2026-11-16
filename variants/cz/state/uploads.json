@@ -124584,28 +124584,29 @@
           "at": "2026-11-16T21:47:58.818678+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "de172ca808d34cb1bebe4ac6949ed72f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:48:03.259230+00:00",
-        "lease_expires_at": "2026-11-17T03:48:03.259243+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31100136",
-        "size_bytes": 567132287
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100136",
-        "size_bytes": 567132287,
-        "source_bytes_read": 567132287,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100136",
         "source_bytes_read": 567132287,
         "elapsed_seconds": 51.833,
         "finished_at": "2026-11-16T21:49:23.469679+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100136",
+          "size_bytes": 567132287,
+          "source_bytes_read": 567132287,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35070228",
+        "source_url": "https://sdilej.cz/35070228/akta-x-s09e14-scary-monsters.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100136",
+        "display_name": "The X-Files S09E14 Scary Monsters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:49:33.950894+00:00"
       }
     },
     "104:9:15": {
@@ -522590,7 +522591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:49:28.229559+00:00",
+  "updated_at": "2026-11-16T21:49:33.950912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
