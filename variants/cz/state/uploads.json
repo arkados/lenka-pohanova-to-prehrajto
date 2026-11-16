@@ -49232,28 +49232,29 @@
           "at": "2026-11-16T21:20:32.823487+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "211f60103cee4fb5ad252c699ff27873-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:20:36.885263+00:00",
-        "lease_expires_at": "2026-11-17T03:20:36.885279+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099591",
-        "size_bytes": 612582732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099591",
-        "size_bytes": 612582732,
-        "source_bytes_read": 612582732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099591",
         "source_bytes_read": 612582732,
         "elapsed_seconds": 42.591,
         "finished_at": "2026-11-16T21:21:57.652230+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099591",
+          "size_bytes": 612582732,
+          "source_bytes_read": 612582732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957757",
+        "source_url": "https://sdilej.cz/34957757/south-park-s15e13.-dikuvzdani-na-historickem-kanalu.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099591",
+        "display_name": "South Park S15E13 A History Channel Thanksgiving 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:22:10.160958+00:00"
       }
     },
     "673:16:1": {
@@ -521905,7 +521906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:22:06.332927+00:00",
+  "updated_at": "2026-11-16T21:22:10.160973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
