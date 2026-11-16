@@ -518907,12 +518907,6 @@
     },
     "1553:2:10": {
       "episode_key": "fresh prince:s2:e10",
-      "claim": {
-        "worker_id": "5a6aa04b630e49898f7b68e6afe5c60d-worker-0",
-        "run_id": "43938036539",
-        "claimed_at": "2026-11-16T19:47:36.401417+00:00",
-        "lease_expires_at": "2026-11-17T01:47:36.401429+00:00"
-      },
       "source": {
         "source_id": "28200933",
         "source_url": "https://sdilej.cz/28200933/fresh-prince-s02e10-cz-dab-hd.mp4",
@@ -518937,22 +518931,29 @@
         "display_name": "The Fresh Prince of Bel-Air S02E10 Hi-Ho Silver 720p CZ Dabing",
         "prepared_at": "2026-11-16T19:47:49.251220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31097663",
-        "size_bytes": 288016502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31097663",
-        "size_bytes": 288016502,
-        "source_bytes_read": 288016502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31097663",
         "source_bytes_read": 288016502,
         "elapsed_seconds": 24.561,
         "finished_at": "2026-11-16T19:48:37.817550+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31097663",
+          "size_bytes": 288016502,
+          "source_bytes_read": 288016502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200933",
+        "source_url": "https://sdilej.cz/28200933/fresh-prince-s02e10-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31097663",
+        "display_name": "The Fresh Prince of Bel-Air S02E10 Hi-Ho Silver 720p CZ Dabing",
+        "uploaded_at": "2026-11-16T19:48:46.703478+00:00"
       }
     },
     "1553:2:11": {
@@ -519048,7 +519049,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T19:48:41.505212+00:00",
+  "updated_at": "2026-11-16T19:48:46.703492+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
