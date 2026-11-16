@@ -43643,28 +43643,29 @@
           "at": "2026-11-16T20:35:30.845800+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ffbbe8c08c094e08800e9edf7b7cf51a-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:35:34.593200+00:00",
-        "lease_expires_at": "2026-11-17T02:35:34.593210+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098438",
-        "size_bytes": 469837785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098438",
-        "size_bytes": 469837785,
-        "source_bytes_read": 469837785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098438",
         "source_bytes_read": 469837785,
         "elapsed_seconds": 37.476,
         "finished_at": "2026-11-16T20:36:48.258464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098438",
+          "size_bytes": 469837785,
+          "source_bytes_read": 469837785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957327",
+        "source_url": "https://sdilej.cz/34957327/south-park-s08e05.-nakladacka.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098438",
+        "display_name": "South Park S08E05 AWESOM-O 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:37:00.754164+00:00"
       }
     },
     "673:8:6": {
@@ -520517,7 +520518,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:36:56.058577+00:00",
+  "updated_at": "2026-11-16T20:37:00.754180+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
