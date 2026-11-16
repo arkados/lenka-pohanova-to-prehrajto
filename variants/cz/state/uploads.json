@@ -142809,28 +142809,29 @@
           "at": "2026-11-16T23:47:12.794528+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d770217319c840c9b8f23255810a91b3-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-16T23:47:17.253817+00:00",
-        "lease_expires_at": "2026-11-17T05:47:17.253830+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31101918",
-        "size_bytes": 258328341
-      },
-      "transfer_receipt": {
-        "target_video_id": "31101918",
-        "size_bytes": 258328341,
-        "source_bytes_read": 258328341,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31101918",
         "source_bytes_read": 258328341,
         "elapsed_seconds": 26.784,
         "finished_at": "2026-11-16T23:48:21.004293+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31101918",
+          "size_bytes": 258328341,
+          "source_bytes_read": 258328341,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412351",
+        "source_url": "https://sdilej.cz/30412351/takova-moderni-rodinka-s05e17-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31101918",
+        "display_name": "Modern Family S05E17 Other People's Children SD CZ Dabing",
+        "uploaded_at": "2026-11-16T23:48:34.243197+00:00"
       }
     },
     "1067:5:18": {
@@ -524213,7 +524214,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T23:48:28.952487+00:00",
+  "updated_at": "2026-11-16T23:48:34.243216+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
