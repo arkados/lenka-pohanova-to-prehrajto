@@ -48018,28 +48018,29 @@
           "at": "2026-11-16T21:06:07.824325+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2ae2e819998445dbadc7a00444db10d4-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:06:11.831324+00:00",
-        "lease_expires_at": "2026-11-17T03:06:11.831340+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099153",
-        "size_bytes": 516783654
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099153",
-        "size_bytes": 516783654,
-        "source_bytes_read": 516783654,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099153",
         "source_bytes_read": 516783654,
         "elapsed_seconds": 43.036,
         "finished_at": "2026-11-16T21:07:32.177162+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099153",
+          "size_bytes": 516783654,
+          "source_bytes_read": 516783654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957704",
+        "source_url": "https://sdilej.cz/34957704/south-park-s14e07.-zmrzaceny-leto.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099153",
+        "display_name": "South Park S14E07 Crippled Summer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:07:46.388899+00:00"
       }
     },
     "673:14:8": {
@@ -521477,7 +521478,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:07:41.633984+00:00",
+  "updated_at": "2026-11-16T21:07:46.388914+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
