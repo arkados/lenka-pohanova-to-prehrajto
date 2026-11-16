@@ -243772,23 +243772,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T16:07:31.065693+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T17:08:39.128474+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T19:25:57.472219+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:33:45.148784+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "fa46ae3e8fd54b94819eaa50e80348c7-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:33:22.838139+00:00",
-        "lease_expires_at": "2026-11-17T02:33:22.838150+00:00"
+      "source_repair_requested": {
+        "base": "34023803:https://sdilej.cz/34023803/utek-z-vezeni-s01e20-22-2005-cz-dab-1080p-dnes-vecer.mkv",
+        "at": "2026-11-16T20:33:45.148751+00:00"
       }
     },
     "1082:1:21": {
@@ -520410,7 +520408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:33:34.853679+00:00",
+  "updated_at": "2026-11-16T20:33:45.148790+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -520537,6 +520535,10 @@
         {
           "identity": "1082:1:9",
           "at": "2026-11-16T20:33:34.853636+00:00"
+        },
+        {
+          "identity": "1082:1:20",
+          "at": "2026-11-16T20:33:45.148751+00:00"
         }
       ],
       "retry_after": "2026-11-16T19:36:33.383848+00:00"
