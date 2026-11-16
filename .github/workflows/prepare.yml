@@ -38,11 +38,6 @@ jobs:
       - uses: actions/checkout@v4
         with:
           ref: main
-      - uses: actions/checkout@v4
-        with:
-          repository: Olbrasoft/sdilej-serialy
-          path: .upstream-runtime
-          persist-credentials: false
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
@@ -67,9 +62,6 @@ jobs:
           [[ "$STAGE" =~ ^(all|english)$ ]]
           [[ "$LIMIT" =~ ^[0-9]+$ && "$RUNTIME_MINUTES" =~ ^[0-9]+$ ]]
           (( LIMIT >= 1 && LIMIT <= 500 && RUNTIME_MINUTES >= 1 && RUNTIME_MINUTES <= 60 ))
-      - name: Import newly verified Czech sources
-        if: env.STAGE == 'all'
-        run: lenka-sync import --upstream .upstream-runtime --persist-git-state
       - name: Resolve official titles
         if: env.STAGE == 'all'
         run: lenka-sync titles --limit 200 --runtime-minutes 20 --persist-git-state

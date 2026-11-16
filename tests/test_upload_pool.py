@@ -3,8 +3,8 @@ import threading
 import time
 import pytest
 
-from sdilej_serialy.models import Episode
-from sdilej_serialy.source_transfer import SourceUnavailable
+from lenka_sync.series.models import Episode
+from lenka_sync.series.source_transfer import SourceUnavailable
 
 from lenka_sync import pipeline
 from lenka_sync.storage import atomic_json, read_json, write_rows

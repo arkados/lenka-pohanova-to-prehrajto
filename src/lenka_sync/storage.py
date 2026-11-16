@@ -5,8 +5,8 @@ from __future__ import annotations
 import gzip
 import json
 from pathlib import Path
-from sdilej_serialy.pipeline import atomic_json
-from sdilej_serialy.git_state import GitCheckpointPersister
+from lenka_sync.series.pipeline import atomic_json
+from lenka_sync.series.git_state import GitCheckpointPersister
 
 
 class Publisher(GitCheckpointPersister):

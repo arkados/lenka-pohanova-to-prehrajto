@@ -1,6 +1,6 @@
 import copy
 import pytest
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 from lenka_sync import reconcile
 from lenka_sync.state import VariantState
 

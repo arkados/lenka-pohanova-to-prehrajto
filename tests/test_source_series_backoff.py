@@ -1,9 +1,9 @@
 from copy import deepcopy
 from datetime import UTC, datetime, timedelta
 
-from sdilej_serialy.models import Episode
-from sdilej_serialy.source_transfer import SourceUnavailable
-from sdilej_to_prehrajto.models import Candidate
+from lenka_sync.series.models import Episode
+from lenka_sync.series.source_transfer import SourceUnavailable
+from lenka_sync.media.models import Candidate
 
 from lenka_sync.pipeline import planned
 from lenka_sync.state import VariantState

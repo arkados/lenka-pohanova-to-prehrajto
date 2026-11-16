@@ -1,10 +1,10 @@
-"""Import Czech originals, without another account's upload history."""
+"""Import optional verified source exports without another account's upload history."""
 
 from __future__ import annotations
 
 import copy
 from pathlib import Path
-from sdilej_serialy.quality import QUALITY_POLICY, resolution_rank
+from lenka_sync.series.quality import QUALITY_POLICY, resolution_rank
 
 from .policy import POLICY, verified_media
 from .storage import atomic_json, read_json, rows, write_rows

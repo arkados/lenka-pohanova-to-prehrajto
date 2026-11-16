@@ -2,11 +2,11 @@ import html
 from types import SimpleNamespace
 import pytest
 
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 from lenka_sync import transfer
 from lenka_sync.target import existing_episode, clean_name
 from lenka_sync.state import VariantState
-from sdilej_serialy.resilience import TargetPending
+from lenka_sync.series.resilience import TargetPending
 
 
 def response(body):
@@ -131,7 +131,7 @@ def test_real_english_transfer_allocates_a_different_id_than_existing_czech(tmp_
     monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
     monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 2)
     monkeypatch.setattr(transfer, "prepare_source", lambda _, candidate, __: candidate)
-    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
+    monkeypatch.setattr("lenka_sync.series.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
     calls = []
 
     def relay(_, __, candidate, *args, **kwargs):
@@ -216,7 +216,7 @@ def test_plain_transfer_allocates_own_id_next_to_subtitled_or_processing_target(
     monkeypatch.setattr(transfer.EpisodeSourceProvider, "authenticated", lambda *_: SimpleNamespace(session=object()))
     monkeypatch.setattr(transfer.prehrajto, "uploaded_video_count", lambda _: 2)
     monkeypatch.setattr(transfer, "prepare_source", lambda _, candidate, __: candidate)
-    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
+    monkeypatch.setattr("lenka_sync.series.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
 
     def relay(_, __, candidate, *args, **kwargs):
         kwargs["on_prepared"]("88", candidate.size_bytes)

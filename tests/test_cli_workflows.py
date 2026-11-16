@@ -25,3 +25,13 @@ def test_workflows_keep_preparation_and_upload_state_separate():
     assert upload["concurrency"]["cancel-in-progress"] is False
     assert "PREHRAJTO_PASSWORD" not in prepare["jobs"]["prepare"]["env"]
     assert "AUTOMATION_ENABLED" in upload["jobs"]["upload"]["if"]
+
+
+def test_workflows_do_not_checkout_another_repository():
+    directory = Path(__file__).parents[1] / ".github/workflows"
+    for path in directory.glob("*.yml"):
+        workflow = yaml.safe_load(path.read_text())
+        for job in workflow["jobs"].values():
+            for step in job["steps"]:
+                if step.get("uses", "").startswith("actions/checkout@"):
+                    assert "repository" not in step.get("with", {}), path.name

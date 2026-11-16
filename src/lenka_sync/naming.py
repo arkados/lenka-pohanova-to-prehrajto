@@ -7,7 +7,7 @@ from functools import lru_cache
 import re
 import unicodedata
 from anyascii import anyascii
-from sdilej_serialy.quality import resolution_label
+from lenka_sync.series.quality import resolution_label
 
 
 def normalized(value: str) -> str:

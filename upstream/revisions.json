@@ -6,5 +6,19 @@
     "subtitle_visual.py": "marketa-trefilova-to-prehrajto/src/marketa_sync/subtitle_visual.py",
     "language.py": "marketa-trefilova-to-prehrajto/src/sdilej_to_prehrajto/language.py"
   },
-  "adapted_serialy_local_revision": "bae4b490115fea6113751f8f615e78c05d4176cc"
+  "adapted_serialy_local_revision": "bae4b490115fea6113751f8f615e78c05d4176cc",
+  "sdilej-to-prehrajto": "40d0e7def076e69817d32ae7a7bbe375d6aa7995",
+  "bundled_modules": {
+    "src/lenka_sync/series": {
+      "origin": "sdilej-serialy/src/sdilej_serialy",
+      "revision": "a83ddf96d486711cd6477c34ef04ced791ab344a",
+      "notes": "Only discovery, state, transfer and subtitle support is included. Legacy multi-account runners and database access are excluded. The target login guard uses this project account policy."
+    },
+    "src/lenka_sync/media": {
+      "origin": "sdilej-to-prehrajto/src/sdilej_to_prehrajto",
+      "revision": "40d0e7def076e69817d32ae7a7bbe375d6aa7995",
+      "notes": "Only HTTP/media, matching, language and model primitives are included. Target login uses this project account policy."
+    }
+  },
+  "runtime_dependencies": "Historical provenance only. All project code is included locally; no upstream Git repository is required."
 }

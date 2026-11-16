@@ -8,13 +8,13 @@ import json
 import re
 import time
 
-from sdilej_serialy.episodes import episode_match, runtime_acceptable
-from sdilej_serialy.models import Episode
-from sdilej_serialy.quality import resolution_rank
-from sdilej_serialy.source_detail import parse_detail_html, resolve_original
-from sdilej_serialy.subtitle_media import extract_original, run_media, SubtitleUnavailable, normalize_srt
-from sdilej_to_prehrajto.models import LanguageTier, MatchTier
-from sdilej_to_prehrajto.sdilej import SdilejError
+from lenka_sync.series.episodes import episode_match, runtime_acceptable
+from lenka_sync.series.models import Episode
+from lenka_sync.series.quality import resolution_rank
+from lenka_sync.series.source_detail import parse_detail_html, resolve_original
+from lenka_sync.series.subtitle_media import extract_original, run_media, SubtitleUnavailable, normalize_srt
+from lenka_sync.media.models import LanguageTier, MatchTier
+from lenka_sync.media.sdilej import SdilejError
 
 from .policy import POLICY
 from .subtitle_visual import inspect_burned_in

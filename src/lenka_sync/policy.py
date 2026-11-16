@@ -5,7 +5,7 @@ from __future__ import annotations
 import re
 import hashlib
 from urllib.parse import urlsplit
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 
 TARGET_ACCOUNT_HASH = "19da1e635356d18e87b35f2950dec4e0fbefbea7bcaef2bd12f29c52ed4343e8"
 POLICY = "lenka-series-variants-v1"

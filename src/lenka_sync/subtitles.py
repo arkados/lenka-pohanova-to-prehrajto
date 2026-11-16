@@ -6,11 +6,11 @@ from datetime import UTC, datetime, timedelta
 import time
 from requests.adapters import HTTPAdapter
 
-from sdilej_serialy.episode_subtitles import attach, exact_source, read_target_view
-from sdilej_serialy.episodes import EpisodeSourceProvider
-from sdilej_serialy.pipeline import target_session
-from sdilej_serialy.subtitle_target import SubtitleTarget, TargetUnavailable, parse_listing, trusted_detail
-from sdilej_to_prehrajto import prehrajto
+from lenka_sync.series.episode_subtitles import attach, exact_source, read_target_view
+from lenka_sync.series.episodes import EpisodeSourceProvider
+from lenka_sync.series.pipeline import target_session
+from lenka_sync.series.subtitle_target import SubtitleTarget, TargetUnavailable, parse_listing, trusted_detail
+from lenka_sync.media import prehrajto
 
 from .naming import display_name, episode_search_phrase
 from .target import rename_video
@@ -105,7 +105,7 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                         state.save()
 
                 try:
-                    # The upstream helper's marker removal is separate from our final title.
+                    # Subtitle attachment keeps its durable state separate from our final title.
                     view = refresh()
                     if not reconcile_exact_track(row, record, entry, view, api, save):
                         attach(row, record, entry, view, api, provider, refresh, save, lambda _: None, deadline=deadline)
@@ -140,7 +140,7 @@ def followup(root, queue, state, titles, credentials, *, persist=None, runtime_m
                         rename(display_name(row, titles, subtitles_ready=True))
                         entry["title_updated"] = True
                 except Exception as error:
-                    from sdilej_serialy.git_state import CheckpointError
+                    from lenka_sync.series.git_state import CheckpointError
 
                     if isinstance(error, CheckpointError):
                         raise

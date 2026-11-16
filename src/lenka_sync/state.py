@@ -1,7 +1,7 @@
 """Variant-isolated durable upload histories bound to the Lenka account."""
 
-from sdilej_serialy.pipeline import EpisodeState
-from sdilej_serialy.source_transfer import SourceUnavailable
+from lenka_sync.series.pipeline import EpisodeState
+from lenka_sync.series.source_transfer import SourceUnavailable
 from datetime import UTC, datetime, timedelta
 from . import policy
 

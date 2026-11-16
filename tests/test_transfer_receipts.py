@@ -3,11 +3,11 @@ import copy
 import json
 import pytest
 
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 from lenka_sync import transfer
 from lenka_sync.state import VariantState
-from sdilej_to_prehrajto.models import Candidate
-from sdilej_serialy.resilience import TargetPending
+from lenka_sync.media.models import Candidate
+from lenka_sync.series.resilience import TargetPending
 
 
 def setup_transfer(monkeypatch):
@@ -63,7 +63,7 @@ def test_confirmed_upload_requires_exact_bytes_and_http_receipt(tmp_path, czech_
     setup_transfer(monkeypatch)
     czech_row["display_name"] = "The Big Bang Theory S01E01 Pilot CZ Dabing"
     state = VariantState(tmp_path / "uploads.json", "cz")
-    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
+    monkeypatch.setattr("lenka_sync.series.resilience.requests.post", lambda *_, **__: SimpleNamespace(status_code=201))
 
     def relay(_, __, candidate, *args, **kwargs):
         kwargs["on_prepared"]("777", candidate.size_bytes)
@@ -95,7 +95,7 @@ def test_current_gateway_keeps_receipt_and_request_completion_guards(tmp_path, c
         destinations.append(url)
         return SimpleNamespace(status_code=201)
 
-    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", post)
+    monkeypatch.setattr("lenka_sync.series.resilience.requests.post", post)
     request(sdk_destination, data=encoder)
     assert request.finished.is_set()
     assert not state.row(episode).get("transfer_receipt")
@@ -122,7 +122,7 @@ def test_failed_request_keeps_partial_byte_evidence_without_secret_messages(tmp_
         except TimeoutError as error:
             raise transfer.requests.ConnectionError("private-password") from error
 
-    monkeypatch.setattr("sdilej_serialy.resilience.requests.post", post)
+    monkeypatch.setattr("lenka_sync.series.resilience.requests.post", post)
     with pytest.raises(transfer.requests.ConnectionError):
         request(transfer.prehrajto.UPLOAD_URL, data=encoder)
     assert request.finished.is_set()

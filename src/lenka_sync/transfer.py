@@ -14,20 +14,20 @@ from datetime import UTC, datetime
 from collections.abc import Callable
 
 import requests
-from sdilej_to_prehrajto import prehrajto
-from sdilej_to_prehrajto.models import Candidate
-from sdilej_to_prehrajto.sdilej import SdilejError
+from lenka_sync.media import prehrajto
+from lenka_sync.media.models import Candidate
+from lenka_sync.media.sdilej import SdilejError
 
-from sdilej_serialy.episodes import EpisodeSourceProvider
-from sdilej_serialy.models import Episode
-from sdilej_serialy.pipeline import EpisodeState, target_session
+from lenka_sync.series.episodes import EpisodeSourceProvider
+from lenka_sync.series.models import Episode
+from lenka_sync.series.pipeline import EpisodeState, target_session
 from .target import existing_episode, rename_video, owned_name, clean_name
 from .policy import upload_eligible
 from .naming import target_text
 from .scheduling import execution_environment
-from sdilej_serialy.git_state import CheckpointError
-from sdilej_serialy.source_transfer import FreshSourceSession, SourceUnavailable
-from sdilej_serialy.resilience import (
+from lenka_sync.series.git_state import CheckpointError
+from lenka_sync.series.source_transfer import FreshSourceSession, SourceUnavailable
+from lenka_sync.series.resilience import (
     TargetPending, error_evidence, receipt_matches, transient_http,
 )
 
@@ -150,7 +150,7 @@ def prepare_source(provider, candidate, require_original_size):
             if (refreshed.source_id, refreshed.url) != (candidate.source_id, candidate.url):
                 raise RuntimeError("Verified source identity changed before upload")
             if require_original_size:
-                from sdilej_serialy.source_detail import resolve_original
+                from lenka_sync.series.source_detail import resolve_original
 
                 refreshed = resolve_original(provider.session, refreshed)
                 if not candidate.size_bytes or refreshed.size_bytes != candidate.size_bytes:

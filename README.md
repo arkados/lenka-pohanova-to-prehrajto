@@ -2,11 +2,16 @@
 
 Samostatný seriálový uploader pro jediný účet Lenky.
 Každá epizoda může mít českou variantu a dvě samostatné anglické varianty:
-s českými titulky a bez českých titulků. České zdroje přebírá
-z `Olbrasoft/sdilej-serialy`; pouze anglické verze dohledává na Sdílej.cz.
+s českými titulky a bez českých titulků. Projekt obsahuje vlastní katalog,
+ověřené české zdroje i historii přenosů; anglické verze dohledává na Sdílej.cz.
 Zdrojová videa se proudově přenášejí na Přehraj.to bez ukládání celého videa.
 Přihlašovací údaje patří do prostředí nebo GitHub Secrets. Veřejný kód
 obsahuje pouze otisk povoleného cílového e-mailu.
+
+Veškerý potřebný kód pro vyhledávání, přenosy, titulky a ukládání stavu je
+součástí `src/lenka_sync`, včetně podpůrných modulů `series` a `media`.
+Instalace ani GitHub Actions nestahují jiné projektové repozitáře a nepotřebují
+přístup k účtu Olbrasoft. Běžné veřejné knihovny se instalují z PyPI.
 
 ## Pojmenování
 
@@ -47,7 +52,12 @@ Ověřené výjimky lze zadat do `config/titles.json` ve skupinách `series` a `
 
 ## České zdroje a pořadí
 
-Import čte katalog, ověřený manifest a uložené fronty obou původních účtů.
+Provoz používá katalog a ověřené manifesty uložené přímo v tomto repozitáři.
+Příprava metadat a anglických variant pracuje s těmito místními daty;
+nesynchronizuje se s jiným GitHub projektem.
+
+Volitelný ruční import může načíst katalog, ověřené manifesty a uložené fronty
+z místního exportu. Není nutný pro instalaci ani pravidelný provoz.
 Ze všech ověřených zdrojů se vybírá nejvyšší rozlišení a v něm nejmenší soubor.
 Zahrnují se i publikovaná vylepšení kvality z původního projektu; dokončený
 starší upload nesmí přebít kvalitnější ověřený zdroj.
@@ -56,7 +66,7 @@ platnými rozměry, délkou, velikostí a stabilním detailovým odkazem.
 Z historie jiných účtů se nepřenášejí cílová ID, příznaky nahrání,
 rezervace, cookies ani dočasné autorizované adresy.
 
-Další import doplňuje nové epizody a vylepšuje dosud nepřidělené zdroje.
+Další ruční import doplňuje nové epizody a vylepšuje dosud nepřidělené zdroje.
 Zdroj již nahraného nebo rezervovaného videa zůstává vázaný na skutečně
 přenesený soubor; jeho historie se nepřepisuje nově nalezenou kvalitou.
 Jeden zdrojový soubor se nepřiřadí více epizodám. Pořadí se přebírá z
@@ -130,11 +140,16 @@ Stav je vázán na účet Lenky a konkrétní variantu. Jiný účet klient odm�
 ```bash
 python3 -m venv .venv
 .venv/bin/pip install -e '.[test]'
-.venv/bin/lenka-sync import --upstream ../sdilej-serialy
 .venv/bin/lenka-sync titles --limit 200
 .venv/bin/lenka-sync plan --limit 10
 .venv/bin/pytest
 ```
+
+Přiložený katalog a manifesty jsou připravené k použití. Další ověřená data
+lze volitelně přidat příkazem `lenka-sync import --upstream /path/to/source-export`.
+Export může obsahovat `backlog/series-episodes.jsonl.gz`,
+`manifests/selected-episodes.jsonl`, `manifests/quality-upgrades.jsonl`
+a fronty `dual/*/manifest.jsonl`, `additions.jsonl` a `state.json`.
 
 Režim `plan` nepotřebuje přihlašovací údaje a nic nenahrává.
 Pro `titles` nastav `TMDB_API_KEY`. Pro vyhledávání anglických zdrojů navíc
@@ -150,7 +165,8 @@ zapisovatelný remote `origin` s větví `main`; stav se potvrdí v Gitu před p
 ## GitHub Actions
 
 - `test`: testy a kontrola kódu při změně.
-- `prepare-sources`: hodinový import českých zdrojů, doplnění názvů a příprava anglických verzí.
+- `prepare-sources`: hodinové doplnění názvů a příprava anglických verzí
+  z vlastních českých manifestů.
   Ruční `stage=english` provede pouze vyhledání obou anglických variant; `limit`
   a `runtime_minutes` omezují počet epizod a délku vyhledávání.
 - `continuous-upload`: hodinový start, nejvýše 210 minut přijímá nové přenosy,
@@ -164,12 +180,13 @@ Uploader načítá průběžně připravované manifesty z Gitu.
 
 Secrets: `SDILEJ_EMAIL`, `SDILEJ_PASSWORD`, `PREHRAJTO_EMAIL`,
 `PREHRAJTO_PASSWORD`, `TMDB_API_KEY`. Zdrojový účet musí mít přístup
-k originálním rychlým downloadům. Existující účty Pavla, Zdeňka a Markéty
-slouží jako zdroj ověřených dat; tento projekt do nich nezapisuje.
+k originálním rychlým downloadům. Výchozí ověřená data pocházejí z dřívějších
+exportů; další běhy používají vlastní kopii katalogu, manifestů a historie.
 
-Přenosový adaptér vychází ze `sdilej-serialy/continuous.py`, detekce vypálených
-titulků a izolovaný Whisper z Markétina projektu. Původ a revize jsou v
-`upstream/revisions.json`; ostatní podpůrné moduly používá připnutá závislost.
+Přenosový adaptér a podpůrné moduly byly převzaté a upravené z původních
+projektů `sdilej-serialy`, `sdilej-to-prehrajto` a Markétina uploaderu.
+Původ a revize eviduje `upstream/revisions.json` pouze jako historii kódu;
+žádný z těchto projektů není instalační ani provozní závislostí.
 
 ## Rozlišení jazykových variant a provozní kontrola
 

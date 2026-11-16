@@ -64,7 +64,7 @@ def main(argv=None):
     elif args.mode == "prepare":
         result = prepare(root, limit=args.limit, runtime_minutes=args.runtime_minutes, persist=args.persist_git_state)
     elif args.mode == "subtitles":
-        from sdilej_serialy.git_state import GitCheckpointPersister
+        from lenka_sync.series.git_state import GitCheckpointPersister
 
         state = VariantState(root / "variants/en/state/uploads.json", "en")
         publisher = GitCheckpointPersister(root, (state.path,)) if args.persist_git_state else None
@@ -80,8 +80,8 @@ def main(argv=None):
             limit=args.limit,
         )
     elif args.mode == "reconcile":
-        from sdilej_serialy.git_state import GitCheckpointPersister
-        from sdilej_serialy.pipeline import target_session
+        from lenka_sync.series.git_state import GitCheckpointPersister
+        from lenka_sync.series.pipeline import target_session
         from .policy import target_credentials
         from .reconcile import repair_cross_variant_records, rename_tracked
         from .state import validate_target_ownership
@@ -115,7 +115,7 @@ def main(argv=None):
             variant=args.variant,
         )
     if args.persist_git_state and args.mode in {"import", "titles"}:
-        from sdilej_serialy.git_state import GitCheckpointPersister
+        from lenka_sync.series.git_state import GitCheckpointPersister
 
         paths = (
             (
@@ -136,7 +136,7 @@ def entrypoint():
         raise SystemExit(main())
     except Exception as error:
         # Exceptions may carry authenticated request URLs. Output only the type, status and stack locations.
-        from sdilej_serialy.resilience import error_evidence
+        from lenka_sync.series.resilience import error_evidence
 
         print(json.dumps({"failed": error_evidence(error)}))
         raise SystemExit(1) from None

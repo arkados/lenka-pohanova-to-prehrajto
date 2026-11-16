@@ -5,7 +5,7 @@ import math
 import os
 from statistics import median
 
-from sdilej_serialy.resilience import receipt_matches
+from lenka_sync.series.resilience import receipt_matches
 
 
 def execution_environment():

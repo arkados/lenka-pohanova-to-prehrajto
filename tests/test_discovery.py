@@ -2,10 +2,10 @@ import copy
 import pytest
 from types import SimpleNamespace
 
-from sdilej_serialy.models import Episode
-from sdilej_to_prehrajto.models import Candidate
-from sdilej_to_prehrajto.sdilej import SdilejError
-from sdilej_serialy.subtitle_media import SubtitleUnavailable
+from lenka_sync.series.models import Episode
+from lenka_sync.media.models import Candidate
+from lenka_sync.media.sdilej import SdilejError
+from lenka_sync.series.subtitle_media import SubtitleUnavailable
 
 from lenka_sync.discovery import EnglishDiscovery
 from lenka_sync.language import WhisperLanguageDetector, LanguageDetectionError

@@ -10,7 +10,10 @@ requires-python = ">=3.12"
 dependencies = [
   "anyascii==0.3.3",
   "pykakasi==2.3.0",
-  "sdilej-serialy @ git+https://github.com/Olbrasoft/sdilej-serialy.git@a83ddf96d486711cd6477c34ef04ced791ab344a",
+  "beautifulsoup4>=4.12",
+  "requests>=2.32",
+  "requests-toolbelt>=1.0",
+  "urllib3>=2",
 ]
 
 [project.optional-dependencies]

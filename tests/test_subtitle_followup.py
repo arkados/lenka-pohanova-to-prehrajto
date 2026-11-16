@@ -1,6 +1,6 @@
 import hashlib
 from types import SimpleNamespace
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 from lenka_sync import subtitles
 from lenka_sync.state import VariantState
 from lenka_sync.storage import atomic_json, read_json

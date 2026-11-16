@@ -3,7 +3,7 @@ from datetime import UTC, datetime
 import json
 from types import SimpleNamespace
 
-from sdilej_serialy.models import Episode
+from lenka_sync.series.models import Episode
 from lenka_sync.scheduling import execution_environment, select_transfers, upload_rate
 from lenka_sync.state import VariantState
 from lenka_sync.transfer import report_transfer_progress

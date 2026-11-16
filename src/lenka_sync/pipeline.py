@@ -9,12 +9,12 @@ import json
 import threading
 import time
 
-from sdilej_serialy.episodes import EpisodeSourceProvider
-from sdilej_serialy.git_state import GitCheckpointPersister
-from sdilej_serialy.pipeline import target_session
-from sdilej_serialy.resilience import receipt_matches, transient_http
-from sdilej_serialy.models import Episode
-from sdilej_serialy.source_transfer import SourceUnavailable
+from lenka_sync.series.episodes import EpisodeSourceProvider
+from lenka_sync.series.git_state import GitCheckpointPersister
+from lenka_sync.series.pipeline import target_session
+from lenka_sync.series.resilience import receipt_matches, transient_http
+from lenka_sync.series.models import Episode
+from lenka_sync.series.source_transfer import SourceUnavailable
 
 from .discovery import EnglishDiscovery
 from .language import WhisperLanguageDetector
@@ -237,7 +237,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                 try:
                     maintenance.result()
                 except Exception as error:
-                    from sdilej_serialy.git_state import CheckpointError
+                    from lenka_sync.series.git_state import CheckpointError
 
                     if isinstance(error, (CheckpointError, ValueError)):
                         raise

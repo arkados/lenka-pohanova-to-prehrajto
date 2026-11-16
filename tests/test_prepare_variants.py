@@ -1,8 +1,8 @@
 from copy import deepcopy
 from types import SimpleNamespace
 
-from sdilej_serialy.models import Episode
-from sdilej_to_prehrajto.models import Candidate
+from lenka_sync.series.models import Episode
+from lenka_sync.media.models import Candidate
 
 from lenka_sync.pipeline import prepare, sources
 from lenka_sync.policy import ENGLISH_SELECTION_POLICY

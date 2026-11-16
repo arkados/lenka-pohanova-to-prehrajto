@@ -26,10 +26,10 @@ jobs:
           import os
           import time
           from pathlib import Path
-          from sdilej_serialy.episodes import EpisodeSourceProvider
-          from sdilej_serialy.resilience import error_evidence
-          from sdilej_serialy.source_transfer import FreshSourceSession
-          from sdilej_to_prehrajto.models import Candidate
+          from lenka_sync.series.episodes import EpisodeSourceProvider
+          from lenka_sync.series.resilience import error_evidence
+          from lenka_sync.series.source_transfer import FreshSourceSession
+          from lenka_sync.media.models import Candidate
           from lenka_sync.transfer import prepare_source
 
           identity = "7382:1:2"
@@ -72,8 +72,8 @@ jobs:
           import time
           from urllib.parse import urlsplit
           import requests
-          from sdilej_serialy.resilience import error_evidence
-          from sdilej_to_prehrajto import prehrajto
+          from lenka_sync.series.resilience import error_evidence
+          from lenka_sync.media import prehrajto
           from lenka_sync.transfer import UPLOAD_URL
 
           host = urlsplit(prehrajto.UPLOAD_URL).hostname

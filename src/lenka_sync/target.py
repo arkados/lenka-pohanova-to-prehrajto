@@ -5,11 +5,11 @@ from __future__ import annotations
 import re
 import unicodedata
 from bs4 import BeautifulSoup
-from sdilej_serialy.target import episode_key, listing_rows
-from sdilej_to_prehrajto import prehrajto
+from lenka_sync.series.target import episode_key, listing_rows
+from lenka_sync.media import prehrajto
 import requests
 from requests.adapters import HTTPAdapter
-from sdilej_serialy.resilience import TargetPending
+from lenka_sync.series.resilience import TargetPending
 
 MEDIA_EXTENSION = re.compile(r"\.(?:mkv|mp4|avi|m4v|webm|mov|ts|m2ts|mpeg|mpg|wmv)$", re.I)
 EPISODE_CODE = re.compile(r"\bS\d+E\d+(?=\D|$)", re.I)

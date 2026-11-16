@@ -16,7 +16,7 @@ import time
 from functools import lru_cache
 from pathlib import Path
 
-from sdilej_serialy.subtitle_media import SubtitleUnavailable, extraction_timeout
+from lenka_sync.series.subtitle_media import SubtitleUnavailable, extraction_timeout
 
 VISUAL_POLICY = "burned-in-czech-v1"
 SAMPLE_FRACTIONS = (0.12, 0.26, 0.40, 0.54, 0.68, 0.82)
