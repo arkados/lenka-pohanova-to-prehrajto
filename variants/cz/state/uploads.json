@@ -61954,28 +61954,29 @@
           "at": "2026-11-16T21:43:40.986393+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f41846c46ce5478f9ce205a97ca4b8c5-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:43:44.634203+00:00",
-        "lease_expires_at": "2026-11-17T03:43:44.634214+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31100062",
-        "size_bytes": 571910460
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100062",
-        "size_bytes": 571910460,
-        "source_bytes_read": 571910460,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100062",
         "source_bytes_read": 571910460,
         "elapsed_seconds": 42.941,
         "finished_at": "2026-11-16T21:44:55.867969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100062",
+          "size_bytes": 571910460,
+          "source_bytes_read": 571910460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34134566",
+        "source_url": "https://sdilej.cz/34134566/star-trek-nova-generace-s02e14-faktor-ikarus.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100062",
+        "display_name": "Star Trek: The Next Generation S02E14 The Icarus Factor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:45:05.228904+00:00"
       }
     },
     "956:2:13": {
@@ -522485,7 +522486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:45:00.024154+00:00",
+  "updated_at": "2026-11-16T21:45:05.228922+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
