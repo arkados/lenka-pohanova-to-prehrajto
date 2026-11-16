@@ -518805,12 +518805,6 @@
     },
     "1553:2:6": {
       "episode_key": "fresh prince:s2:e6",
-      "claim": {
-        "worker_id": "412e368af2794434b19827443186bc12-worker-0",
-        "run_id": "43938036539",
-        "claimed_at": "2026-11-16T19:45:11.396422+00:00",
-        "lease_expires_at": "2026-11-17T01:45:11.396433+00:00"
-      },
       "source": {
         "source_id": "28200923",
         "source_url": "https://sdilej.cz/28200923/fresh-prince-s02e06-cz-dab-hd.mp4",
@@ -518835,22 +518829,29 @@
         "display_name": "The Fresh Prince of Bel-Air S02E06 Guess Who's Coming to Marry? 720p CZ Dabing",
         "prepared_at": "2026-11-16T19:45:25.877220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31097624",
-        "size_bytes": 259414018
-      },
-      "transfer_receipt": {
-        "target_video_id": "31097624",
-        "size_bytes": 259414018,
-        "source_bytes_read": 259414018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31097624",
         "source_bytes_read": 259414018,
         "elapsed_seconds": 14.326,
         "finished_at": "2026-11-16T19:46:04.482061+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31097624",
+          "size_bytes": 259414018,
+          "source_bytes_read": 259414018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200923",
+        "source_url": "https://sdilej.cz/28200923/fresh-prince-s02e06-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31097624",
+        "display_name": "The Fresh Prince of Bel-Air S02E06 Guess Who's Coming to Marry? 720p CZ Dabing",
+        "uploaded_at": "2026-11-16T19:46:13.458687+00:00"
       }
     }
   },
@@ -518859,7 +518860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T19:46:09.789461+00:00",
+  "updated_at": "2026-11-16T19:46:13.458700+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
