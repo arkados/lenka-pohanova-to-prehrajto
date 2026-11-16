@@ -51708,23 +51708,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:10:01.003075+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:52:09.268759+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T12:55:54.636774+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:29:24.998684+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "a48e42248aaf47f0985467cd83232dec-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:28:43.973531+00:00",
-        "lease_expires_at": "2026-11-17T03:28:43.973543+00:00"
+      "source_repair_requested": {
+        "base": "30221171:https://sdilej.cz/30221171/south-park-s20e08-cz--jen-pro-zvane.mkv",
+        "at": "2026-11-16T21:29:24.998615+00:00"
       }
     },
     "673:20:10": {
@@ -522112,7 +522110,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:29:21.400352+00:00",
+  "updated_at": "2026-11-16T21:29:24.998694+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -522123,9 +522121,13 @@
         {
           "identity": "673:20:2",
           "at": "2026-11-16T21:28:55.811415+00:00"
+        },
+        {
+          "identity": "673:20:8",
+          "at": "2026-11-16T21:29:24.998615+00:00"
         }
       ],
-      "retry_after": "2026-11-16T21:27:37.371534+00:00"
+      "retry_after": "2026-11-16T21:39:24.998615+00:00"
     },
     "956": {
       "recent_failures": [
