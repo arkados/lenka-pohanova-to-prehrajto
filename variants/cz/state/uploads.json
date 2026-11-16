@@ -523345,12 +523345,6 @@
     },
     "1553:2:18": {
       "episode_key": "fresh prince:s2:e18",
-      "claim": {
-        "worker_id": "956aeb7e98f24ceda3d22865c36df541-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:29:29.879707+00:00",
-        "lease_expires_at": "2026-11-17T04:29:29.879721+00:00"
-      },
       "source": {
         "source_id": "28200956",
         "source_url": "https://sdilej.cz/28200956/fresh-prince-s02e18-cz-dab-hd.mp4",
@@ -523375,22 +523369,29 @@
         "display_name": "The Fresh Prince of Bel-Air S02E18 Ill Will 720p CZ Dabing",
         "prepared_at": "2026-11-16T22:29:34.522557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31100837",
-        "size_bytes": 278200465
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100837",
-        "size_bytes": 278200465,
-        "source_bytes_read": 278200465,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100837",
         "source_bytes_read": 278200465,
         "elapsed_seconds": 22.094,
         "finished_at": "2026-11-16T22:30:13.954297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100837",
+          "size_bytes": 278200465,
+          "source_bytes_read": 278200465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200956",
+        "source_url": "https://sdilej.cz/28200956/fresh-prince-s02e18-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100837",
+        "display_name": "The Fresh Prince of Bel-Air S02E18 Ill Will 720p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:30:21.183120+00:00"
       }
     }
   },
@@ -523399,7 +523400,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:30:13.954318+00:00",
+  "updated_at": "2026-11-16T22:30:21.183135+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
