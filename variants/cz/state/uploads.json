@@ -41822,23 +41822,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T15:43:26.983925+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T16:54:16.126393+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T20:08:20.540964+00:00",
           "error": "HTTPError"
+        },
+        {
+          "at": "2026-11-16T20:28:18.539628+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "aa23141a0a8548a989b79df15270af9d-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:27:55.288929+00:00",
-        "lease_expires_at": "2026-11-17T02:27:55.288942+00:00"
+      "source_repair_requested": {
+        "base": "30221002:https://sdilej.cz/30221002/south-park-s06e06-cz--profesor-chaos.mkv",
+        "at": "2026-11-16T20:28:18.539570+00:00"
       }
     },
     "673:6:7": {
@@ -520258,21 +520256,13 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:28:14.236870+00:00",
+  "updated_at": "2026-11-16T20:28:18.539635+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
-          "identity": "673:6:9",
-          "at": "2026-11-16T20:16:36.073243+00:00"
-        },
-        {
-          "identity": "673:6:11",
-          "at": "2026-11-16T20:17:17.397749+00:00"
-        },
-        {
-          "identity": "673:6:12",
-          "at": "2026-11-16T20:17:21.491207+00:00"
+          "identity": "673:6:6",
+          "at": "2026-11-16T20:28:18.539570+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:27:21.491207+00:00"
