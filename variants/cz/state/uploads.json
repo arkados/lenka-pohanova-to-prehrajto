@@ -41675,28 +41675,29 @@
           "at": "2026-11-16T20:14:28.570342+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e9b97c3e669b496bb004ecf2cb75b9a6-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:14:33.595811+00:00",
-        "lease_expires_at": "2026-11-17T02:14:33.595821+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098031",
-        "size_bytes": 423033136
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098031",
-        "size_bytes": 423033136,
-        "source_bytes_read": 423033136,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098031",
         "source_bytes_read": 423033136,
         "elapsed_seconds": 36.211,
         "finished_at": "2026-11-16T20:15:42.997511+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098031",
+          "size_bytes": 423033136,
+          "source_bytes_read": 423033136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957200",
+        "source_url": "https://sdilej.cz/34957200/south-park-s06e04.-upoutavka.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098031",
+        "display_name": "South Park S06E04 Fun With Veal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:15:53.279903+00:00"
       }
     },
     "673:6:5": {
@@ -519858,7 +519859,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:15:47.570818+00:00",
+  "updated_at": "2026-11-16T20:15:53.279920+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
