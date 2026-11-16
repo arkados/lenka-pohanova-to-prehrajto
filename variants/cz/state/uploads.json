@@ -519300,12 +519300,6 @@
     },
     "1553:2:13": {
       "episode_key": "fresh prince:s2:e13",
-      "claim": {
-        "worker_id": "340991a24a484189b2b704dc94ce88b1-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T19:59:46.952266+00:00",
-        "lease_expires_at": "2026-11-17T01:59:46.952277+00:00"
-      },
       "source": {
         "source_id": "28200943",
         "source_url": "https://sdilej.cz/28200943/fresh-prince-s02e13-cz-dab-hd.mp4",
@@ -519329,7 +519323,17 @@
         },
         "display_name": "The Fresh Prince of Bel-Air S02E13 Christmas Show 720p CZ Dabing",
         "prepared_at": "2026-11-16T20:00:00.378644+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "28200943:https://sdilej.cz/28200943/fresh-prince-s02e13-cz-dab-hd.mp4",
+        "at": "2026-11-16T20:00:13.562047+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-16T20:00:13.562084+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1553:2:14": {
       "episode_key": "fresh prince:s2:e14",
@@ -519373,7 +519377,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:00:08.835666+00:00",
+  "updated_at": "2026-11-16T20:00:13.562089+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -519823,12 +519827,8 @@
     "1553": {
       "recent_failures": [
         {
-          "identity": "1553:1:16",
-          "at": "2026-11-16T19:42:54.543273+00:00"
-        },
-        {
-          "identity": "1553:1:15",
-          "at": "2026-11-16T19:43:00.206760+00:00"
+          "identity": "1553:2:13",
+          "at": "2026-11-16T20:00:13.562047+00:00"
         }
       ]
     }
