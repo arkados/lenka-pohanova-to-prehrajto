@@ -40566,28 +40566,29 @@
           "at": "2026-11-16T20:00:44.764731+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "582a73de2b204671b76f76d548f4d87f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:00:48.942641+00:00",
-        "lease_expires_at": "2026-11-17T02:00:48.942659+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31097847",
-        "size_bytes": 474246931
-      },
-      "transfer_receipt": {
-        "target_video_id": "31097847",
-        "size_bytes": 474246931,
-        "source_bytes_read": 474246931,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31097847",
         "source_bytes_read": 474246931,
         "elapsed_seconds": 34.136,
         "finished_at": "2026-11-16T20:01:59.999194+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31097847",
+          "size_bytes": 474246931,
+          "source_bytes_read": 474246931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957060",
+        "source_url": "https://sdilej.cz/34957060/south-park-s04e16.-dobrodruzstvi-bez-dohledu-rodicu.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31097847",
+        "display_name": "South Park S04E16 The Wacky Molestation Adventure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:02:11.177522+00:00"
       }
     },
     "673:4:17": {
@@ -519480,7 +519481,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:01:59.999211+00:00",
+  "updated_at": "2026-11-16T20:02:11.177553+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
