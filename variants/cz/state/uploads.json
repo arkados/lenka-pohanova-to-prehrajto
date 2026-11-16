@@ -48551,28 +48551,29 @@
           "at": "2026-11-16T21:08:49.056819+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b0b4a4bebe354cc99cef31fd978ffae5-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:08:53.091551+00:00",
-        "lease_expires_at": "2026-11-17T03:08:53.091562+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099216",
-        "size_bytes": 443920913
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099216",
-        "size_bytes": 443920913,
-        "source_bytes_read": 443920913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099216",
         "source_bytes_read": 443920913,
         "elapsed_seconds": 30.743,
         "finished_at": "2026-11-16T21:10:07.933107+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099216",
+          "size_bytes": 443920913,
+          "source_bytes_read": 443920913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34817374",
+        "source_url": "https://sdilej.cz/34817374/south-park-s15e04.-na-velikosti-zalezi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099216",
+        "display_name": "South Park S15E04 T.M.I. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:10:25.006047+00:00"
       }
     },
     "673:15:5": {
@@ -521567,7 +521568,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:10:21.041948+00:00",
+  "updated_at": "2026-11-16T21:10:25.006061+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
