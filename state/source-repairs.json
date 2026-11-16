@@ -1,4 +1,40 @@
 {
   "schema_version": 1,
-  "repairs": {}
+  "repairs": {
+    "cz:673:4:1": {
+      "policy": "verified-episode-source-repair-v1",
+      "identity": "673:4:1",
+      "variant": "cz",
+      "base": "30221128:https://sdilej.cz/30221128/south-park-s04e01-cz--zubni-vila.mkv",
+      "selected": {
+        "source_id": "34956998",
+        "url": "https://sdilej.cz/34956998/south-park-s04e01.-cartmanuv-trestny-cin.mp4",
+        "title": "South Park S04E01. Cartmanův trestný čin.mp4",
+        "size_bytes": 402069596,
+        "duration_sec": 1326,
+        "width": 1920,
+        "height": 1080,
+        "language_tier": "czech_audio",
+        "audio_language": "cs",
+        "language_probability": 0.971408486366272,
+        "language_evidence": "whisper_original_first_audio",
+        "match_tier": "strong",
+        "match_evidence": {
+          "expected_episode": "S04E01",
+          "episode_code_match": true,
+          "series_alias_match": true,
+          "unmatched_series_prefix": "",
+          "episode_codes_found": [
+            "S04E01"
+          ]
+        },
+        "query": null,
+        "filename": "South Park S04E01. Cartmanův trestný čin.mp4",
+        "mime_type": "video/mp4",
+        "video_codec": "h264"
+      },
+      "verified_at": "2026-11-16T19:50:33.800656+00:00",
+      "token": "9e4d90559bfecca37a7c517419e521875cd084ee94a47f4fe5f9c535c627bbe0"
+    }
+  }
 }
