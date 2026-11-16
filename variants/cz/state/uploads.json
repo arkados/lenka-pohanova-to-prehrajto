@@ -523924,12 +523924,6 @@
     },
     "1553:3:8": {
       "episode_key": "fresh prince:s3:e8",
-      "claim": {
-        "worker_id": "92f0267a507d465f8be76a6c71f9e761-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:54:18.839349+00:00",
-        "lease_expires_at": "2026-11-17T04:54:18.839364+00:00"
-      },
       "source": {
         "source_id": "28200989",
         "source_url": "https://sdilej.cz/28200989/fresh-prince-s03e08-cz-dab-hd.mp4",
@@ -523954,22 +523948,29 @@
         "display_name": "The Fresh Prince of Bel-Air S03E08 Boyz in the Woods 720p CZ Dabing",
         "prepared_at": "2026-11-16T22:54:25.172734+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31101221",
-        "size_bytes": 265502655
-      },
-      "transfer_receipt": {
-        "target_video_id": "31101221",
-        "size_bytes": 265502655,
-        "source_bytes_read": 265502655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31101221",
         "source_bytes_read": 265502655,
         "elapsed_seconds": 26.651,
         "finished_at": "2026-11-16T22:55:19.540176+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31101221",
+          "size_bytes": 265502655,
+          "source_bytes_read": 265502655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200989",
+        "source_url": "https://sdilej.cz/28200989/fresh-prince-s03e08-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31101221",
+        "display_name": "The Fresh Prince of Bel-Air S03E08 Boyz in the Woods 720p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:55:25.027024+00:00"
       }
     },
     "1553:3:9": {
@@ -524052,7 +524053,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:55:19.540198+00:00",
+  "updated_at": "2026-11-16T22:55:25.027040+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
