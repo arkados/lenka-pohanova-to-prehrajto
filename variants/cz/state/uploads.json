@@ -173803,28 +173803,29 @@
           "at": "2026-11-16T23:49:27.566639+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ec3a90f200e54e779e49eeb5f6fdf241-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-16T23:49:31.335264+00:00",
-        "lease_expires_at": "2026-11-17T05:49:31.335274+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31101951",
-        "size_bytes": 135165330
-      },
-      "transfer_receipt": {
-        "target_video_id": "31101951",
-        "size_bytes": 135165330,
-        "source_bytes_read": 135165330,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31101951",
         "source_bytes_read": 135165330,
         "elapsed_seconds": 12.566,
         "finished_at": "2026-11-16T23:50:34.191105+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31101951",
+          "size_bytes": 135165330,
+          "source_bytes_read": 135165330,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28257946",
+        "source_url": "https://sdilej.cz/28257946/mash-s02e07-031-.m.d.o.-mistni-domoroda-osoba.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31101951",
+        "display_name": "M*A*S*H S02E07 L.I.P. (Local Indigenous Personnel) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T23:50:46.002989+00:00"
       }
     },
     "108:2:8": {
@@ -524279,7 +524280,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T23:50:42.594676+00:00",
+  "updated_at": "2026-11-16T23:50:46.003003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
