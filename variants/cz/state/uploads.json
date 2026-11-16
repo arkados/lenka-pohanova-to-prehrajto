@@ -43219,23 +43219,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T12:42:18.660439+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T14:09:46.014721+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-15T16:30:02.217185+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:29:02.951356+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "7f665367c58b4821bca1dfad08e1ac1f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:28:43.178839+00:00",
-        "lease_expires_at": "2026-11-17T02:28:43.178848+00:00"
+      "source_repair_requested": {
+        "base": "30220884:https://sdilej.cz/30220884/south-park-s07e13-cz--tipni-to.mkv",
+        "at": "2026-11-16T20:29:02.951320+00:00"
       }
     },
     "673:7:15": {
@@ -520286,13 +520284,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:28:58.851542+00:00",
+  "updated_at": "2026-11-16T20:29:02.951362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:6:6",
           "at": "2026-11-16T20:28:18.539570+00:00"
+        },
+        {
+          "identity": "673:7:13",
+          "at": "2026-11-16T20:29:02.951320+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:27:21.491207+00:00"
