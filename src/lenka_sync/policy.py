@@ -11,7 +11,7 @@ TARGET_ACCOUNT_HASH = "19da1e635356d18e87b35f2950dec4e0fbefbea7bcaef2bd12f29c52e
 POLICY = "lenka-series-variants-v1"
 VARIANTS = ("cz", "en", "en_plain")
 ENGLISH_VARIANTS = ("en", "en_plain")
-ENGLISH_SELECTION_POLICY = "independent-subtitled-and-plain-v1"
+ENGLISH_SELECTION_POLICY = "original-language-subtitled-and-plain-v2"
 
 
 def stable_source(selected: dict) -> bool:
@@ -58,7 +58,10 @@ def verified_media(row: dict, language: str) -> bool:
 def upload_eligible(row: dict) -> bool:
     if row.get("lenka_policy") != POLICY or row.get("variant") not in VARIANTS:
         return False
-    if not verified_media(row, "cs" if row["variant"] == "cz" else "en"):
+    original_language = row.get("original_language", "en")
+    if not isinstance(original_language, str) or not re.fullmatch(r"[a-z]{2}", original_language):
+        return False
+    if not verified_media(row, "cs" if row["variant"] == "cz" else original_language):
         return False
     if row["variant"] == "cz":
         return row["selected"].get("language_tier") == "czech_audio"

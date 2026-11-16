@@ -81,7 +81,7 @@ def test_uncertain_subtitle_post_is_only_reconciled(tmp_path, english_row, title
     data = read_json(path)
     assert data["videos"]["777"]["status"] == "upload_unconfirmed"
     assert not data["videos"]["777"].get("title_updated")
-    assert not state.data["episodes"][english_row["identity"]]["upload"]["display_name"].endswith("CZ Titulky")
+    assert not state.data["episodes"][english_row["identity"]]["upload"]["display_name"].endswith("CZ titulky")
 
 
 def test_czech_label_is_added_only_after_target_content_verification(tmp_path, english_row, titles, monkeypatch):
@@ -91,7 +91,7 @@ def test_czech_label_is_added_only_after_target_content_verification(tmp_path, e
     monkeypatch.setattr(subtitles, "rename_video", lambda _, video_id, title: renamed.append((video_id, title)))
     monkeypatch.setattr("lenka_sync.transfer.target_confirmed", lambda *_: True)
     subtitles.followup(tmp_path, [english_row], state, titles, credentials())
-    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]
+    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ titulky")]
     saved = read_json(tmp_path / "variants/en/state/subtitles.json")
     assert saved["videos"]["777"]["title_updated"] is True
 
@@ -124,4 +124,4 @@ def test_uncertain_post_with_truncated_player_name_is_verified_without_another_p
     assert saved["title_updated"] is True
     assert saved["intent"]["subtitle_id"] == "11"
     assert saved["verified_sha256"] == english_row["subtitles"]["sha256"]
-    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ Titulky")]
+    assert renamed == [("777", "The Big Bang Theory S01E01 Pilot 1080p CZ titulky")]

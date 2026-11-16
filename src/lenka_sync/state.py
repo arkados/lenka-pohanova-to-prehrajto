@@ -2,6 +2,7 @@
 
 from lenka_sync.series.pipeline import EpisodeState
 from lenka_sync.series.source_transfer import SourceUnavailable
+from lenka_sync.series.models import Episode
 from datetime import UTC, datetime, timedelta
 from . import policy
 
@@ -61,6 +62,36 @@ class VariantState(EpisodeState):
         if lock is not None:
             self._lock = lock
 
+    def retry_deferred_identities(self):
+        deferred = super().retry_deferred_identities()
+        with self._lock:
+            return {identity for identity in deferred
+                    if self.data["episodes"][identity]["attempts"][-1]["at"]
+                    > self.data["episodes"][identity].get("source_retry_reset_at", "")}
+
+    def activate_source_repair(self, row):
+        from .source_repair import has_new_repair, source_key
+
+        episode = Episode.from_dict(row["episode"])
+        with self._lock:
+            record = self.row(episode)
+            if not has_new_repair(row, record):
+                return True
+            if any(record.get(field) for field in ("upload", "prepared_target", "claim", "review_target_id")):
+                return False
+            repair = row["source_repair"]
+            if record.get("source") and source_key(record["source"]) != repair["base"]:
+                return False
+            record["source_retry_reset_at"] = datetime.now(UTC).isoformat()
+            record["source_repair_token"] = repair["token"]
+            record.pop("source_repair_requested", None)
+            history = record.setdefault("source_repair_history", [])
+            if not history or history[-1]["token"] != repair["token"]:
+                history.append(dict(token=repair["token"], previous=repair["base"],
+                                    replacement=source_key(row["selected"]), at=record["source_retry_reset_at"]))
+            self.save()
+            return True
+
     def source_deferred_series(self, *, at=None):
         now = at or datetime.now(UTC)
         with self._lock:
@@ -73,7 +104,10 @@ class VariantState(EpisodeState):
         with self._lock:
             record = self.row(episode)
             if isinstance(error, SourceUnavailable) and record.get("source", {}).get("source_id") and not record.get("prepared_target"):
+                from .source_repair import source_key
+
                 now = datetime.now(UTC)
+                record["source_repair_requested"] = {"base": source_key(record["source"]), "at": now.isoformat()}
                 series_id = str(episode.series_id)
                 outage = self.data.setdefault("source_outages", {}).setdefault(series_id, {})
                 recent = {

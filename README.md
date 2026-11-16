@@ -1,9 +1,10 @@
 # Lenka Pohanová → Přehraj.to
 
 Samostatný seriálový uploader pro jediný účet Lenky.
-Každá epizoda může mít českou variantu a dvě samostatné anglické varianty:
+Každá epizoda může mít českou variantu a dvě samostatné varianty původního znění:
 s českými titulky a bez českých titulků. Projekt obsahuje vlastní katalog,
-ověřené české zdroje i historii přenosů; anglické verze dohledává na Sdílej.cz.
+ověřené české zdroje i historii přenosů; původní znění dohledává na Sdílej.cz
+podle původního jazyka seriálu, nejčastěji angličtiny.
 Zdrojová videa se proudově přenášejí na Přehraj.to bez ukládání celého videa.
 Přihlašovací údaje patří do prostředí nebo GitHub Secrets. Veřejný kód
 obsahuje pouze otisk povoleného cílového e-mailu.
@@ -32,8 +33,8 @@ Stejně pojmenované seriály se rozlišují rokem, případně katalogovým ID.
 | Varianta | Příklad názvu |
 | --- | --- |
 | Ověřený český zvuk | `The Big Bang Theory S01E01 Pilot 1080p CZ Dabing` |
-| Anglický zvuk a potvrzené české titulky | `The Big Bang Theory S01E01 Pilot 1080p CZ Titulky` |
-| Anglický zvuk bez českých titulků | `The Big Bang Theory S01E01 Pilot 1080p` |
+| Původní zvuk a potvrzené české titulky | `The Big Bang Theory S01E01 Pilot 1080p CZ titulky` |
+| Původní zvuk bez českých titulků | `The Big Bang Theory S01E01 Pilot 1080p` |
 | Neanglický původní název | `La casa de papel S01E01 Efectuar lo acordado 1440p CZ Dabing` |
 
 Rozlišení je vždy před jazykovým dodatkem: `SD`, `720p`, `1080p`, `1440p`
@@ -74,15 +75,18 @@ Jeden zdrojový soubor se nepřiřadí více epizodám. Pořadí se přebírá z
 nikoli z počtu přehrání. U stejné epizody má česká varianta přednost.
 Anglické vyhledávání zahrnuje pouze epizody s převzatým českým zdrojem.
 
-## Anglické verze a titulky
+## Původní znění a titulky
 
 Kontroluje se přesná identita seriálu a epizody, skutečná délka, rozlišení
 a původní soubor. Whisper ověřuje první zvukovou stopu ve třech oddělených
-vzorcích; alespoň dva musí jazyk potvrdit s důvěrou 0,65. Druhá anglická stopa
-v jinak českém souboru nestačí. Vyhledávají se anglické verze i u seriálů,
-jejichž původní jazyk je jiný.
+vzorcích; alespoň dva musí jazyk potvrdit s důvěrou 0,65. Druhá odpovídající stopa
+v jinak česky dabovaném souboru nestačí. Požadovaný původní jazyk určuje
+ověřený záznam seriálu v TMDB; například španělský seriál potřebuje španělský
+zvuk. U českého originálu už původní zvuk pokrývá česká varianta.
 
-Verze s českými titulky (`en`) a bez nich (`en_plain`) se vybírají a nahrávají
+Historické identifikátory `en` a `en_plain` se zachovávají kvůli historii
+uploadů, ale označují i jiné původní jazyky. Verze s českými titulky (`en`)
+a bez nich (`en_plain`) se vybírají a nahrávají
 samostatně. V každé skupině má přednost nejvyšší skutečné rozlišení, potom
 nejmenší soubor v této kvalitě. Například nalezené 1080p s titulky a 4K bez
 titulků se nahrají obě; stejně tak se zachovají obě varianty při shodném rozlišení.
@@ -93,10 +97,28 @@ prověří také dříve vybrané epizody, kterým druhá varianta zatím chybí
 
 Textové české titulky se získávají výhradně z přesného původního souboru
 nebo jeho vlastní stránky. Po zpracování videa se připojí, ověří se jejich jazyk
-i otisk obsahu v přehrávači a teprve potom se přidá dodatek `CZ Titulky`.
+i otisk obsahu v přehrávači a teprve potom se přidá dodatek `CZ titulky`.
 Nejasný výsledek odeslání titulků se pouze kontroluje, nikdy neposílá znovu.
 Vypálené titulky ověřuje stejný OCR postup jako u Markéty; OCR nevytváří titulky.
 Samostatné obrazové PGS stopy neopravňují k českému titulkovému označení.
+
+## Dohledávání nefunkčních zdrojů na pozadí
+
+Uploader po selhání zdroje zapíše požadavek do vlastní historie a pokračuje
+jinou epizodou. Vyhledávání neběží v přenosovém workeru. Samostatný workflow
+`repair-sources` průběžně čte tuto frontu a hledá náhrady podle přesné identity
+seriálu a epizody. Ověří skutečný soubor, délku, rozlišení a první zvukovou stopu.
+Ze všech dostupných originálů vybírá nejvyšší rozlišení a v něm nejmenší soubor;
+zvuk pak ověřuje v tomto pořadí. Nejasné ověření lepšího zdroje odloží výběr.
+
+Vyhledávač publikuje ověřené náhrady do `state/source-repairs.json` a vlastní
+postup do `state/source-repair-search.json`. Nezapisuje do uploadovacích historií
+ani nemění původní manifesty. Uploader si nové náhrady průběžně načítá a přijme
+je pouze před přidělením cílového ID, se shodnou vazbou na původní nefunkční
+zdroj. Dokončené, rezervované a nejisté přenosy zůstávají nedotčené.
+Čerstvá náhrada může obejít odklad starého nefunkčního odkazu; pokud selže i ona,
+její vlastní odklad se zachová. Přesun zdroje i důkazy o původních pokusech se
+uchovávají v historii. Vyhledávač má pouze přístupy ke Sdílej, bez hesla k cíli.
 
 ## Stav a přenosy
 
@@ -169,6 +191,8 @@ zapisovatelný remote `origin` s větví `main`; stav se potvrdí v Gitu před p
   z vlastních českých manifestů.
   Ruční `stage=english` provede pouze vyhledání obou anglických variant; `limit`
   a `runtime_minutes` omezují počet epizod a délku vyhledávání.
+- `repair-sources`: samostatný hodinový start, až 210 minut průběžně dohledává
+  ověřené náhrady nefunkčních českých i původních zdrojů.
 - `continuous-upload`: hodinový start, nejvýše 210 minut přijímá nové přenosy,
   poté nechá rozběhnuté přenosy doběhnout. Limit runneru je 350 minut.
   Ruční spuštění nabízí `plan`, `upload`, `continuous` a `subtitles`.
@@ -178,9 +202,10 @@ Před každým uploadovacím během se kontroluje přítomnost všech tří hist
 jejich vazba na účet a jedinečnost cílových ID. Dokončené položky se vynechávají;
 nejisté přenosy s přiděleným cílem se znovu neodesílají. Výchozí stav při přesunu
 z 16. listopadu 2026 dokumentuje `reports/migration-resume.json`.
-Příprava a upload mají oddělené concurrency skupiny a zapisují oddělené soubory.
+Příprava, dohledávání náhrad a upload mají oddělené concurrency skupiny
+a zapisují oddělené soubory.
 Všechny uploadovací a titulkové operace sdílejí jednu skupinu bez rušení přenosů.
-Uploader načítá průběžně připravované manifesty z Gitu.
+Uploader načítá průběžně připravované manifesty i ověřené náhrady z Gitu.
 
 Secrets: `SDILEJ_EMAIL`, `SDILEJ_PASSWORD`, `PREHRAJTO_EMAIL`,
 `PREHRAJTO_PASSWORD`, `TMDB_API_KEY`. Zdrojový účet musí mít přístup

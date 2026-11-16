@@ -1,4 +1,4 @@
-"""Select independent subtitled and plain English originals by resolution and size."""
+"""Verify episode identity, first-track speech, original resolution and file size."""
 
 from __future__ import annotations
 
@@ -26,6 +26,7 @@ class EnglishDiscovery:
         self.detector = detector
         self.probe = probe or self.probe_original
         self.visual = visual or inspect_burned_in
+        self.expected_language = "en"
 
     @staticmethod
     def probe_original(url):
@@ -47,7 +48,7 @@ class EnglishDiscovery:
             )
         )
 
-    def verify(self, episode, candidate, deadline):
+    def inspect_media(self, episode, candidate):
         detail = parse_detail_html(self.provider._get(candidate.url).text, candidate)
         detail = resolve_original(self.provider.session, detail)
         media = self.probe(detail.download_url)
@@ -56,8 +57,8 @@ class EnglishDiscovery:
         if not audio or not video:
             return None
         for stream in [audio[0], *(s for s in audio if s.get("disposition", {}).get("default"))]:
-            language = stream.get("tags", {}).get("language", "und").lower()
-            if language not in {"en", "eng", "english", "und", ""}:
+            language = normalized_language(stream.get("tags", {}).get("language", "und"))
+            if language not in {self.expected_language, "und", ""}:
                 return None
         duration = int(float(media.get("format", {}).get("duration") or 0))
         if not runtime_acceptable(episode, duration):
@@ -65,25 +66,34 @@ class EnglishDiscovery:
         tier, evidence = episode_match(episode, detail.title)
         if tier not in {MatchTier.SOLID, MatchTier.STRONG}:
             return None
+        return replace(
+            detail, duration_sec=duration, width=int(video["width"]), height=int(video["height"]),
+            video_codec=video.get("codec_name"), match_tier=tier, match_evidence=evidence,
+        )
+
+    def verify_speech(self, detail):
         # A dedicated detector extracts only the original file's first audio track.
-        language, confidence = self.detector.detect_consensus(detail.download_url, duration, preferred_language="en")
+        language, confidence = self.detector.detect_consensus(
+            detail.download_url, detail.duration_sec, preferred_language=self.expected_language,
+        )
         if confidence < 0.65:
-            raise SdilejError("English speech is inconclusive")
-        if language != "en":
+            raise SdilejError("Episode speech is inconclusive")
+        if language != self.expected_language:
             return None
-        detail = replace(
-            detail,
-            duration_sec=duration,
-            width=int(video["width"]),
-            height=int(video["height"]),
-            video_codec=video.get("codec_name"),
-            match_tier=tier,
-            match_evidence=evidence,
-            audio_language="en",
-            language_probability=confidence,
-            language_tier=LanguageTier.FOREIGN_AUDIO,
+        return replace(
+            detail, audio_language=self.expected_language, language_probability=confidence,
+            language_tier=LanguageTier.CZECH_AUDIO if self.expected_language == "cs" else LanguageTier.FOREIGN_AUDIO,
             language_evidence="whisper_original_first_audio",
         )
+
+    def verify_media(self, episode, candidate):
+        detail = self.inspect_media(episode, candidate)
+        return self.verify_speech(detail) if detail is not None else None
+
+    def verify(self, episode, candidate, deadline):
+        detail = self.verify_media(episode, candidate)
+        if detail is None:
+            return None
         proof = {"method": "none"}
         try:
             payload, _ = extract_original(
@@ -96,7 +106,7 @@ class EnglishDiscovery:
         except SubtitleUnavailable as error:
             if str(error) not in {"source_czech_text_missing", "source_czech_full_text_unsupported"}:
                 raise
-            visual = self.visual(detail.download_url, duration, deadline=deadline)
+            visual = self.visual(detail.download_url, detail.duration_sec, deadline=deadline)
             if visual.get("visual_status") == "uncertain":
                 raise SdilejError("Burned-in subtitle evidence is inconclusive")
             if visual.get("visual_status") == "czech_burned_in_verified":
@@ -107,11 +117,14 @@ class EnglishDiscovery:
         return detail, proof
 
     def discover(self, source, series, *, runtime_seconds=300):
+        self.expected_language = series.get("original_language") or "en"
+        if self.expected_language == "cs":
+            return {}
         # Search exactly the semantic episode whose Czech source was imported.
         episode = replace(
             Episode.from_dict(source["episode"]),
-            series_title=series.get("english_title") or series["original_title"],
-            series_original_title=series.get("original_title"),
+            series_title=series.get("english_title") or series.get("original_title") or source["episode"]["series_title"],
+            series_original_title=series.get("original_title") or source["episode"].get("series_original_title"),
         )
         deadline = time.monotonic() + runtime_seconds
         self.provider.discovery_timeout_seconds = runtime_seconds
@@ -125,6 +138,9 @@ class EnglishDiscovery:
                 found = self.verify(episode, candidate, deadline)
                 if found:
                     resolved.append(found)
+            except SdilejError as error:
+                if str(error) != "Source detail is temporarily unavailable; no original download link":
+                    incomplete = True
             except Exception:
                 # An unresolved original may have a higher resolution or smaller size.
                 incomplete = True
@@ -141,3 +157,49 @@ class EnglishDiscovery:
             if variant not in selected or rank(found) < rank(selected[variant]):
                 selected[variant] = found
         return selected
+
+
+def normalized_language(value):
+    aliases = {
+        "eng": "en", "english": "en", "ces": "cs", "cze": "cs", "czech": "cs", "jpn": "ja",
+        "kor": "ko", "rus": "ru", "spa": "es", "deu": "de", "ger": "de", "fra": "fr", "fre": "fr",
+        "ita": "it", "zho": "zh", "chi": "zh", "por": "pt", "ara": "ar", "tur": "tr", "hin": "hi",
+        "pol": "pl", "swe": "sv", "dan": "da", "nor": "no", "fin": "fi", "ukr": "uk", "nld": "nl",
+    }
+    value = value.lower()
+    return aliases.get(value, value)
+
+
+class CzechDiscovery(EnglishDiscovery):
+    """Inspect all available originals, then verify speech in quality/size order."""
+
+    def discover(self, source, series, *, runtime_seconds=600):
+        self.expected_language = "cs"
+        episode = Episode.from_dict(source["episode"])
+        deadline = time.monotonic() + runtime_seconds
+        self.provider.discovery_timeout_seconds = runtime_seconds
+        candidates = self.provider.search(episode)
+        inspected = []
+        for candidate in candidates:
+            if (candidate.source_id, candidate.url) == (source["selected"]["source_id"], source["selected"]["url"]):
+                continue
+            if time.monotonic() >= deadline:
+                raise SdilejError("Czech replacement verification did not complete")
+            try:
+                detail = self.inspect_media(episode, candidate)
+            except SdilejError as error:
+                # Missing detail pages are not available alternatives. Probe/audio
+                # uncertainty still defers selection rather than downgrading it.
+                if str(error) == "Source detail is temporarily unavailable; no original download link":
+                    continue
+                raise
+            if detail is not None:
+                inspected.append(detail)
+        inspected.sort(key=lambda item: (-resolution_rank(item.width, item.height), item.size_bytes, item.source_id))
+        for detail in inspected:
+            if time.monotonic() >= deadline:
+                raise SdilejError("Czech replacement verification did not complete")
+            verified = self.verify_speech(detail)
+            if verified is not None:
+                return {"cz": (verified, {"method": "none"})}
+        return {}

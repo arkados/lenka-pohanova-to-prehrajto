@@ -18,7 +18,7 @@ from .policy import VARIANTS
 def parser():
     result = argparse.ArgumentParser(description=__doc__)
     result.add_argument(
-        "mode", choices=["import", "titles", "plan", "prepare", "upload", "continuous", "subtitles", "reconcile"]
+        "mode", choices=["import", "titles", "plan", "prepare", "repair-sources", "upload", "continuous", "subtitles", "reconcile"]
     )
     result.add_argument("--root", type=Path, default=Path.cwd())
     result.add_argument("--upstream", type=Path)
@@ -43,12 +43,15 @@ def main(argv=None):
     elif args.mode == "titles":
         result = Metadata(root).resolve(limit=args.limit, runtime_minutes=args.runtime_minutes)
     elif args.mode == "plan":
+        from .source_repair import FEED_PATH
+        from .storage import read_json
         states = {
             variant: VariantState(root / f"variants/{variant}/state/uploads.json", variant) for variant in VARIANTS
         }
         queue = planned(
             sources(root), Metadata(root).snapshot(), states, args.limit,
             variants=VARIANTS if args.variant == "all" else (args.variant,),
+            repairs=read_json(root / FEED_PATH),
         )
         result = [
             {
@@ -63,6 +66,11 @@ def main(argv=None):
         ]
     elif args.mode == "prepare":
         result = prepare(root, limit=args.limit, runtime_minutes=args.runtime_minutes, persist=args.persist_git_state)
+    elif args.mode == "repair-sources":
+        from .source_repair import find_replacements
+
+        result = find_replacements(root, limit=args.limit, runtime_minutes=args.runtime_minutes,
+                                   persist=args.persist_git_state, continuous=True)
     elif args.mode == "subtitles":
         from lenka_sync.series.git_state import GitCheckpointPersister
 

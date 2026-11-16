@@ -29,6 +29,38 @@ def test_first_default_audio_cannot_be_proven_by_secondary_english(czech_row, mo
     assert discovery.verify(Episode.from_dict(czech_row["episode"]), candidate, 99999999) is None
 
 
+def test_original_audio_language_follows_series_metadata(czech_row, monkeypatch):
+    from lenka_sync.policy import POLICY, upload_eligible
+
+    candidate = Candidate.from_dict(czech_row["selected"])
+    candidate.download_url = "https://private.invalid/original"
+    provider = SimpleNamespace(_get=lambda _: SimpleNamespace(text=""), session=object(), search=lambda _: [candidate])
+    monkeypatch.setattr("lenka_sync.discovery.parse_detail_html", lambda _, __: candidate)
+    monkeypatch.setattr("lenka_sync.discovery.resolve_original", lambda _, detail: detail)
+
+    def no_subtitles(*_, **__):
+        raise SubtitleUnavailable("source_czech_text_missing")
+
+    monkeypatch.setattr("lenka_sync.discovery.extract_original", no_subtitles)
+    media = {"streams": [dict(codec_type="video", width=1920, height=1080),
+                         dict(codec_type="audio", tags={"language": "spa"})], "format": {"duration": 1320}}
+    detector = SimpleNamespace(detect_consensus=lambda *_, **kwargs: (kwargs["preferred_language"], 0.99))
+    discovery = EnglishDiscovery(provider, detector, probe=lambda _: media, visual=lambda *_, **__: {})
+    found = discovery.discover(czech_row, {"original_title": "The Big Bang Theory", "original_language": "es"})
+    selected, proof = found["en_plain"]
+    assert selected.audio_language == "es"
+    row = {**czech_row, "variant": "en_plain", "selected": selected.to_dict(), "subtitles": proof,
+           "original_language": "es", "lenka_policy": POLICY}
+    assert upload_eligible(row)
+    row["selected"]["audio_language"] = "en"
+    assert not upload_eligible(row)
+
+
+def test_czech_original_is_already_covered_by_the_czech_variant(czech_row):
+    discovery = EnglishDiscovery(None, None)
+    assert discovery.discover(czech_row, {"original_language": "cs"}) == {}
+
+
 def test_incomplete_scan_cannot_choose_subtitle_free_fallback(czech_row):
     first = Candidate.from_dict(czech_row["selected"])
     second = copy.deepcopy(first)

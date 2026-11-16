@@ -26,6 +26,7 @@ from .storage import Publisher, atomic_json, read_json, rows, write_rows
 from .subtitles import followup
 from .transfer import upload_continuously
 from .scheduling import select_transfers, upload_rate
+from .source_repair import FEED_PATH, has_new_repair, select_repair
 
 
 def credentials(environ=os.environ):
@@ -55,7 +56,7 @@ def validate_sources(queue):
     return queue
 
 
-def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None):
+def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None, repairs=None):
     if limit == 0:
         return []
     ready = []
@@ -67,11 +68,13 @@ def planned(queue, titles, states, limit=10, excluded=frozenset(), variants=None
         for source in queue.get(variant, []):
             identity = source["identity"]
             record = state.data["episodes"].get(identity, {})
+            source = select_repair(source, record, repairs or {})
+            repaired = has_new_repair(source, record)
             active_claim = record.get("claim", {}).get("lease_expires_at", "") > datetime.now(UTC).isoformat()
             if (
                 (variant, identity) in excluded
-                or identity in deferred
-                or str(source["episode"]["series_id"]) in unavailable_series and not record.get("prepared_target")
+                or identity in deferred and not repaired
+                or str(source["episode"]["series_id"]) in unavailable_series and not record.get("prepared_target") and not repaired
                 or record.get("upload")
                 or active_claim
                 or record.get("review_target_id")
@@ -142,7 +145,8 @@ def prepare(root, *, limit=50, runtime_minutes=40, persist=False, discovery=None
                 if variant not in ENGLISH_VARIANTS:
                     raise ValueError("Unknown discovered English variant")
                 row = {key: source[key] for key in ("identity", "episode", "catalog")}
-                row.update(selected=candidate.to_dict(), variant=variant, lenka_policy=POLICY, subtitles=proof)
+                row.update(selected=candidate.to_dict(), variant=variant, lenka_policy=POLICY, subtitles=proof,
+                           original_language=series.get("original_language", "en"))
                 if not upload_eligible(row):
                     raise ValueError("English source did not pass the variant policy")
                 discovered[variant] = row
@@ -250,7 +254,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                         variant: f"variants/{variant}/manifests/selected-episodes.jsonl" for variant in VARIANTS
                     }
                     snapshot = publisher.read_snapshot(
-                        [*manifest_paths.values(), "state/titles.json", "config/titles.json", "config/runtime.json"]
+                        [*manifest_paths.values(), "state/titles.json", "config/titles.json", "config/runtime.json", FEED_PATH]
                     )
                     for source_variant in VARIANTS:
                         remote = snapshot[manifest_paths[source_variant]]
@@ -262,9 +266,11 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                         kind: {**titles.get(kind, {}), **overrides.get(kind, {})} for kind in ("series", "episodes")
                     }
                     runtime = json.loads(snapshot["config/runtime.json"] or "{}")
+                    repairs = json.loads(snapshot[FEED_PATH] or "{}")
                 else:
                     queue, titles = sources(root), Metadata(root).snapshot()
                     runtime = read_json(root / "config/runtime.json")
+                    repairs = read_json(root / FEED_PATH)
                 draining = runtime.get("admit_uploads", True) is False
                 capacity = workers - len(pending)
                 if draining:
@@ -274,7 +280,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                 selected = []
                 if capacity > 0:
                     with lock:
-                        ready = planned(queue, titles, states, None, reserved, variants=selected_variants)
+                        ready = planned(queue, titles, states, None, reserved, variants=selected_variants, repairs=repairs)
                         rate = upload_rate(states, runtime)
                         selected = select_transfers(
                             ready, states, pending.values(), capacity=capacity, rate=rate,

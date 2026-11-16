@@ -7,9 +7,9 @@ from lenka_sync.policy import upload_eligible, target_credentials
 def test_names_follow_marketa(czech_row, english_row, titles):
     assert display_name(czech_row, titles) == "The Big Bang Theory S01E01 Pilot 1080p CZ Dabing"
     assert display_name(english_row, titles) == "The Big Bang Theory S01E01 Pilot 1080p"
-    assert display_name(english_row, titles, subtitles_ready=True).endswith("Pilot 1080p CZ Titulky")
+    assert display_name(english_row, titles, subtitles_ready=True).endswith("Pilot 1080p CZ titulky")
     english_row["subtitles"] = {"method": "burned_in_ocr_verified"}
-    assert display_name(english_row, titles).endswith("Pilot 1080p CZ Titulky")
+    assert display_name(english_row, titles).endswith("Pilot 1080p CZ titulky")
 
 
 def test_plain_version_never_gets_subtitle_suffix(plain_row, titles):

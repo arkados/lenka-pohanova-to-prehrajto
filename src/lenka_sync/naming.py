@@ -109,7 +109,7 @@ def display_name(row: dict, titles: dict, *, subtitles_ready=False, names=None) 
         return title
     proof = row.get("subtitles", {})
     title = title.replace("...", "…")
-    return title + " CZ Titulky" if (proof.get("method") == "burned_in_ocr_verified" or subtitles_ready) else title
+    return title + " CZ titulky" if (proof.get("method") == "burned_in_ocr_verified" or subtitles_ready) else title
 
 
 def episode_search_phrase(display: str) -> str:

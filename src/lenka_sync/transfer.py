@@ -373,6 +373,9 @@ def upload_continuously(
                     with state._lock:
                         # Check after acquiring the shared state lock as well:
                         # another worker's checkpoint can outlive the deadline.
+                        activate = getattr(state, "activate_source_repair", None)
+                        if activate is not None and not activate(row):
+                            continue
                         if admission_closed() or not state.claim(episode, f"{execution}-worker-{index}"):
                             continue
                     candidate = Candidate.from_dict(row["selected"])
