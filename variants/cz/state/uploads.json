@@ -522857,12 +522857,6 @@
     },
     "161:1:4": {
       "episode_key": "grimm:s1:e4",
-      "claim": {
-        "worker_id": "6ee7f7a5c2614253bf89cc6937cef64f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:04:34.738948+00:00",
-        "lease_expires_at": "2026-11-17T04:04:34.738965+00:00"
-      },
       "source": {
         "source_id": "30211164",
         "source_url": "https://sdilej.cz/30211164/grimm-s01e04.mkv",
@@ -522887,22 +522881,29 @@
         "display_name": "Grimm S01E04 Lonelyhearts 1080p CZ Dabing",
         "prepared_at": "2026-11-16T22:04:39.444292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31100411",
-        "size_bytes": 2605122908
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100411",
-        "size_bytes": 2605122908,
-        "source_bytes_read": 2605122908,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100411",
         "source_bytes_read": 2605122908,
         "elapsed_seconds": 364.238,
         "finished_at": "2026-11-16T22:11:02.003503+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100411",
+          "size_bytes": 2605122908,
+          "source_bytes_read": 2605122908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30211164",
+        "source_url": "https://sdilej.cz/30211164/grimm-s01e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100411",
+        "display_name": "Grimm S01E04 Lonelyhearts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:11:13.525872+00:00"
       }
     }
   },
@@ -522911,7 +522912,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:11:06.715974+00:00",
+  "updated_at": "2026-11-16T22:11:13.525884+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
