@@ -523308,12 +523308,6 @@
     },
     "1553:2:17": {
       "episode_key": "fresh prince:s2:e17",
-      "claim": {
-        "worker_id": "b461553056cf45ef87f72de9997b2b5b-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:28:59.961609+00:00",
-        "lease_expires_at": "2026-11-17T04:28:59.961626+00:00"
-      },
       "source": {
         "source_id": "28200954",
         "source_url": "https://sdilej.cz/28200954/fresh-prince-s02e17-cz-dab-hd.mp4",
@@ -523337,7 +523331,17 @@
         },
         "display_name": "The Fresh Prince of Bel-Air S02E17 Community Action 720p CZ Dabing",
         "prepared_at": "2026-11-16T22:29:05.363114+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "28200954:https://sdilej.cz/28200954/fresh-prince-s02e17-cz-dab-hd.mp4",
+        "at": "2026-11-16T22:29:18.065158+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-16T22:29:18.065194+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -523345,7 +523349,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:29:05.363131+00:00",
+  "updated_at": "2026-11-16T22:29:18.065200+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -523745,6 +523749,10 @@
         {
           "identity": "1553:2:15",
           "at": "2026-11-16T22:28:48.820071+00:00"
+        },
+        {
+          "identity": "1553:2:17",
+          "at": "2026-11-16T22:29:18.065158+00:00"
         }
       ],
       "retry_after": "2026-11-16T22:10:42.590494+00:00"
