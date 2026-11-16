@@ -44385,23 +44385,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:39:51.851882+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:44:00.289475+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:12:04.548099+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:51:43.920925+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "5612e87191c64d4da100a3511e7b8c04-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:51:22.727677+00:00",
-        "lease_expires_at": "2026-11-17T02:51:22.727691+00:00"
+      "source_repair_requested": {
+        "base": "30220906:https://sdilej.cz/30220906/south-park-s09e06-cz--cartmanuv-zivot-po-zivote.mkv",
+        "at": "2026-11-16T20:51:43.920891+00:00"
       }
     },
     "673:9:7": {
@@ -520985,13 +520983,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:51:37.193325+00:00",
+  "updated_at": "2026-11-16T20:51:43.920931+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:9:1",
           "at": "2026-11-16T20:51:14.894603+00:00"
+        },
+        {
+          "identity": "673:9:6",
+          "at": "2026-11-16T20:51:43.920891+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:50:47.066392+00:00"
