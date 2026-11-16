@@ -184677,28 +184677,29 @@
           "at": "2026-11-16T23:53:14.334585+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "cbfe73376fde49ea999dadee266a27ef-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-16T23:53:19.121107+00:00",
-        "lease_expires_at": "2026-11-17T05:53:19.121117+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31102013",
-        "size_bytes": 1228411010
-      },
-      "transfer_receipt": {
-        "target_video_id": "31102013",
-        "size_bytes": 1228411010,
-        "source_bytes_read": 1228411010,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31102013",
         "source_bytes_read": 1228411010,
         "elapsed_seconds": 105.902,
         "finished_at": "2026-11-16T23:55:35.410964+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31102013",
+          "size_bytes": 1228411010,
+          "source_bytes_read": 1228411010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31732084",
+        "source_url": "https://sdilej.cz/31732084/vsechny-velke-a-male-bytosti-s01e07-007-2020-fhd-predvanocni-noc-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31102013",
+        "display_name": "All Creatures Great & Small S01E07 The Night Before Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T23:55:45.697635+00:00"
       }
     },
     "2120:2:1": {
@@ -524379,7 +524380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T23:55:40.306035+00:00",
+  "updated_at": "2026-11-16T23:55:45.697651+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
