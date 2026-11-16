@@ -47829,28 +47829,29 @@
           "at": "2026-11-16T21:07:23.982148+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "095c6642677c4fafa382f550b71d9f81-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:07:28.036259+00:00",
-        "lease_expires_at": "2026-11-17T03:07:28.036271+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099179",
-        "size_bytes": 481870787
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099179",
-        "size_bytes": 481870787,
-        "source_bytes_read": 481870787,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099179",
         "source_bytes_read": 481870787,
         "elapsed_seconds": 42.885,
         "finished_at": "2026-11-16T21:08:44.925152+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099179",
+          "size_bytes": 481870787,
+          "source_bytes_read": 481870787,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957693",
+        "source_url": "https://sdilej.cz/34957693/south-park-s14e03.-lecive-smazene-kure.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099179",
+        "display_name": "South Park S14E03 Medicinal Fried Chicken 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:09:06.768199+00:00"
       }
     },
     "673:14:4": {
@@ -521521,7 +521522,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:09:01.729041+00:00",
+  "updated_at": "2026-11-16T21:09:06.768218+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
