@@ -43568,28 +43568,29 @@
           "at": "2026-11-16T20:33:49.125869+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5089e9bb785f45978e9ee6a809b06f34-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:33:54.154773+00:00",
-        "lease_expires_at": "2026-11-17T02:33:54.154787+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098414",
-        "size_bytes": 399720565
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098414",
-        "size_bytes": 399720565,
-        "source_bytes_read": 399720565,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098414",
         "source_bytes_read": 399720565,
         "elapsed_seconds": 32.261,
         "finished_at": "2026-11-16T20:34:54.915161+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098414",
+          "size_bytes": 399720565,
+          "source_bytes_read": 399720565,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957322",
+        "source_url": "https://sdilej.cz/34957322/south-park-s08e04.-umuceni-zida.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098414",
+        "display_name": "South Park S08E04 You Got F'd in the A 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:35:07.897492+00:00"
       }
     },
     "673:8:5": {
@@ -520471,7 +520472,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:35:03.665281+00:00",
+  "updated_at": "2026-11-16T20:35:07.897506+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
