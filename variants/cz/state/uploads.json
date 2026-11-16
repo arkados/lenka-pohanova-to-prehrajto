@@ -43786,28 +43786,29 @@
           "at": "2026-11-16T21:37:54.522943+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "75242bffe6604f4b9a36915d735fc801-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:37:58.517666+00:00",
-        "lease_expires_at": "2026-11-17T03:37:58.517678+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099952",
-        "size_bytes": 421013768
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099952",
-        "size_bytes": 421013768,
-        "source_bytes_read": 421013768,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099952",
         "source_bytes_read": 421013768,
         "elapsed_seconds": 26.925,
         "finished_at": "2026-11-16T21:39:00.621118+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099952",
+          "size_bytes": 421013768,
+          "source_bytes_read": 421013768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957330",
+        "source_url": "https://sdilej.cz/34957330/south-park-s08e06.-invaze-z-budoucnosti.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099952",
+        "display_name": "South Park S08E06 The Jeffersons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:39:18.513485+00:00"
       }
     },
     "673:8:7": {
@@ -522350,7 +522351,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:39:14.521249+00:00",
+  "updated_at": "2026-11-16T21:39:18.513501+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
