@@ -467870,23 +467870,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T15:18:57.272764+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T16:30:52.233527+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T17:35:10.913739+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:03:04.239118+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "ff6e4d4775ad4fb5afbe0c677b5d180f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:02:33.669440+00:00",
-        "lease_expires_at": "2026-11-17T02:02:33.669454+00:00"
+      "source_repair_requested": {
+        "base": "34984890:https://sdilej.cz/34984890/lucifer-s05e04-cz.mkv",
+        "at": "2026-11-16T20:03:04.239086+00:00"
       }
     },
     "30:5:5": {
@@ -519518,7 +519516,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:03:00.289606+00:00",
+  "updated_at": "2026-11-16T20:03:04.239124+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -519871,6 +519869,10 @@
         {
           "identity": "30:5:3",
           "at": "2026-11-16T20:02:37.601089+00:00"
+        },
+        {
+          "identity": "30:5:4",
+          "at": "2026-11-16T20:03:04.239086+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:01:52.362632+00:00"
