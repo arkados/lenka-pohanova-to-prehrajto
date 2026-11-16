@@ -42090,28 +42090,29 @@
           "at": "2026-11-16T20:18:42.049649+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "14c7f07309754c4681a97458653b4d97-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:18:46.195792+00:00",
-        "lease_expires_at": "2026-11-17T02:18:46.195807+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098092",
-        "size_bytes": 469183173
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098092",
-        "size_bytes": 469183173,
-        "source_bytes_read": 469183173,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098092",
         "source_bytes_read": 469183173,
         "elapsed_seconds": 40.771,
         "finished_at": "2026-11-16T20:19:56.141049+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098092",
+          "size_bytes": 469183173,
+          "source_bytes_read": 469183173,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957222",
+        "source_url": "https://sdilej.cz/34957222/south-park-s06e11.-unos-neni-sranda.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098092",
+        "display_name": "South Park S06E11 Child Abduction is Not Funny 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:20:04.425892+00:00"
       }
     },
     "673:6:12": {
@@ -519978,7 +519979,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:19:56.141066+00:00",
+  "updated_at": "2026-11-16T20:20:04.425909+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
