@@ -48701,28 +48701,29 @@
           "at": "2026-11-16T21:11:24.604415+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "611395e268444033814cc23d8fa16f2f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:11:29.604653+00:00",
-        "lease_expires_at": "2026-11-17T03:11:29.604669+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099289",
-        "size_bytes": 431052494
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099289",
-        "size_bytes": 431052494,
-        "source_bytes_read": 431052494,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099289",
         "source_bytes_read": 431052494,
         "elapsed_seconds": 31.84,
         "finished_at": "2026-11-16T21:12:38.395251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099289",
+          "size_bytes": 431052494,
+          "source_bytes_read": 431052494,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957741",
+        "source_url": "https://sdilej.cz/34957741/south-park-s15e06.-mestske-sushi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099289",
+        "display_name": "South Park S15E06 City Sushi 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:12:47.957654+00:00"
       }
     },
     "673:15:7": {
@@ -521647,7 +521648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:12:43.880761+00:00",
+  "updated_at": "2026-11-16T21:12:47.957671+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
