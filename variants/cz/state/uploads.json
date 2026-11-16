@@ -519425,12 +519425,6 @@
     },
     "1553:2:15": {
       "episode_key": "fresh prince:s2:e15",
-      "claim": {
-        "worker_id": "4f95058328fb4b789964d5c0e6419928-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:01:27.454728+00:00",
-        "lease_expires_at": "2026-11-17T02:01:27.454743+00:00"
-      },
       "source": {
         "source_id": "28200950",
         "source_url": "https://sdilej.cz/28200950/fresh-prince-s02e15-cz-dab-hd.mp4",
@@ -519454,7 +519448,17 @@
         },
         "display_name": "The Fresh Prince of Bel-Air S02E15 My Brother's Keeper 720p CZ Dabing",
         "prepared_at": "2026-11-16T20:01:33.468827+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "28200950:https://sdilej.cz/28200950/fresh-prince-s02e15-cz-dab-hd.mp4",
+        "at": "2026-11-16T20:01:46.693111+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-16T20:01:46.693146+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -519462,7 +519466,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:01:39.102203+00:00",
+  "updated_at": "2026-11-16T20:01:46.693152+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -519914,6 +519918,10 @@
         {
           "identity": "1553:2:13",
           "at": "2026-11-16T20:00:13.562047+00:00"
+        },
+        {
+          "identity": "1553:2:15",
+          "at": "2026-11-16T20:01:46.693111+00:00"
         }
       ]
     }
