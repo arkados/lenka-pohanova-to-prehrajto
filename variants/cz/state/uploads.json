@@ -45078,28 +45078,29 @@
           "at": "2026-11-16T20:42:59.265536+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "7e99fb2f4ef442e7a5d056808fbc60d9-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:43:03.534327+00:00",
-        "lease_expires_at": "2026-11-17T02:43:03.534342+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098609",
-        "size_bytes": 485626260
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098609",
-        "size_bytes": 485626260,
-        "source_bytes_read": 485626260,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098609",
         "source_bytes_read": 485626260,
         "elapsed_seconds": 43.987,
         "finished_at": "2026-11-16T20:44:27.739431+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098609",
+          "size_bytes": 485626260,
+          "source_bytes_read": 485626260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957451",
+        "source_url": "https://sdilej.cz/34957451/south-park-s10e06.-pracloved.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098609",
+        "display_name": "South Park S10E06 Manbearpig 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:44:45.308928+00:00"
       }
     },
     "673:10:7": {
@@ -520767,7 +520768,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:44:36.628472+00:00",
+  "updated_at": "2026-11-16T20:44:45.308942+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
