@@ -519009,12 +519009,6 @@
     },
     "1553:2:12": {
       "episode_key": "fresh prince:s2:e12",
-      "claim": {
-        "worker_id": "cebf614febd04d9f930b35ba507d4029-worker-0",
-        "run_id": "43938036539",
-        "claimed_at": "2026-11-16T19:48:06.063574+00:00",
-        "lease_expires_at": "2026-11-17T01:48:06.063585+00:00"
-      },
       "source": {
         "source_id": "28200938",
         "source_url": "https://sdilej.cz/28200938/fresh-prince-s02e12-cz-dab-hd.mp4",
@@ -519039,22 +519033,29 @@
         "display_name": "The Fresh Prince of Bel-Air S02E12 Something for Nothing 720p CZ Dabing",
         "prepared_at": "2026-11-16T19:48:17.735595+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31097674",
-        "size_bytes": 278141127
-      },
-      "transfer_receipt": {
-        "target_video_id": "31097674",
-        "size_bytes": 278141127,
-        "source_bytes_read": 278141127,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31097674",
         "source_bytes_read": 278141127,
         "elapsed_seconds": 17.49,
         "finished_at": "2026-11-16T19:48:58.269250+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31097674",
+          "size_bytes": 278141127,
+          "source_bytes_read": 278141127,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200938",
+        "source_url": "https://sdilej.cz/28200938/fresh-prince-s02e12-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31097674",
+        "display_name": "The Fresh Prince of Bel-Air S02E12 Something for Nothing 720p CZ Dabing",
+        "uploaded_at": "2026-11-16T19:49:02.900678+00:00"
       }
     }
   },
@@ -519063,7 +519064,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T19:48:58.269274+00:00",
+  "updated_at": "2026-11-16T19:49:02.900695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
