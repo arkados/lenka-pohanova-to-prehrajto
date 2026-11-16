@@ -43465,23 +43465,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:38:09.887312+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:42:14.504916+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:10:21.371697+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:40:15.066428+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "3d3f2fd644bf419eb70a4557c1457b95-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:39:56.737126+00:00",
-        "lease_expires_at": "2026-11-17T02:39:56.737136+00:00"
+      "source_repair_requested": {
+        "base": "30220986:https://sdilej.cz/30220986/south-park-s08e02-cz--vzhuru-se-steroidy.mkv",
+        "at": "2026-11-16T20:40:15.066394+00:00"
       }
     },
     "673:8:3": {
@@ -520606,13 +520604,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:40:06.312177+00:00",
+  "updated_at": "2026-11-16T20:40:15.066433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:4:13",
           "at": "2026-11-16T20:40:06.312132+00:00"
+        },
+        {
+          "identity": "673:8:2",
+          "at": "2026-11-16T20:40:15.066394+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:39:11.403684+00:00"
