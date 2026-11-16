@@ -43749,23 +43749,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:38:59.376867+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:43:20.150846+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:10:55.082726+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:40:47.066459+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "332729b4f74e476b9fa4059e2ce6e1e1-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:40:29.513126+00:00",
-        "lease_expires_at": "2026-11-17T02:40:29.513136+00:00"
+      "source_repair_requested": {
+        "base": "30220999:https://sdilej.cz/30220999/south-park-s08e07-cz--invaze-z-budoucnosti.mkv",
+        "at": "2026-11-16T20:40:47.066392+00:00"
       }
     },
     "673:8:8": {
@@ -520614,14 +520612,10 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:40:38.462078+00:00",
+  "updated_at": "2026-11-16T20:40:47.066466+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
-        {
-          "identity": "673:4:13",
-          "at": "2026-11-16T20:40:06.312132+00:00"
-        },
         {
           "identity": "673:8:2",
           "at": "2026-11-16T20:40:15.066394+00:00"
@@ -520629,9 +520623,13 @@
         {
           "identity": "673:8:6",
           "at": "2026-11-16T20:40:38.462011+00:00"
+        },
+        {
+          "identity": "673:8:7",
+          "at": "2026-11-16T20:40:47.066392+00:00"
         }
       ],
-      "retry_after": "2026-11-16T20:50:38.462011+00:00"
+      "retry_after": "2026-11-16T20:50:47.066392+00:00"
     },
     "956": {
       "recent_failures": [
