@@ -47763,23 +47763,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:48:18.224637+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:52:25.294150+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:33:05.369598+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:04:33.835866+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "dfa117f57cc14fefbd115d1894acd8cb-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:03:55.280142+00:00",
-        "lease_expires_at": "2026-11-17T03:03:55.280153+00:00"
+      "source_repair_requested": {
+        "base": "30220887:https://sdilej.cz/30220887/south-park-s14e03-cz--lecive-smazene-kure.mkv",
+        "at": "2026-11-16T21:04:33.835068+00:00"
       }
     },
     "673:14:4": {
@@ -521376,7 +521374,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:04:29.915948+00:00",
+  "updated_at": "2026-11-16T21:04:33.835879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -521387,9 +521385,13 @@
         {
           "identity": "673:14:2",
           "at": "2026-11-16T21:03:36.600170+00:00"
+        },
+        {
+          "identity": "673:14:3",
+          "at": "2026-11-16T21:04:33.835068+00:00"
         }
       ],
-      "retry_after": "2026-11-16T21:02:49.139111+00:00"
+      "retry_after": "2026-11-16T21:14:33.835068+00:00"
     },
     "956": {
       "recent_failures": [
