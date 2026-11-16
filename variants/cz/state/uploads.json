@@ -41305,23 +41305,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T15:43:17.722866+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T16:53:50.021809+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T17:56:21.613174+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T19:55:56.728860+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "de29bb8a29274c6498e836124e492116-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T19:55:34.544981+00:00",
-        "lease_expires_at": "2026-11-17T01:55:34.544991+00:00"
+      "source_repair_requested": {
+        "base": "30221035:https://sdilej.cz/30221035/south-park-s06e05-cz--upoutavka.mkv",
+        "at": "2026-11-16T19:55:56.728797+00:00"
       }
     },
     "673:6:6": {
@@ -519191,7 +519189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T19:55:49.925837+00:00",
+  "updated_at": "2026-11-16T19:55:56.728867+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -519202,9 +519200,13 @@
         {
           "identity": "673:6:2",
           "at": "2026-11-16T19:55:21.699005+00:00"
+        },
+        {
+          "identity": "673:6:5",
+          "at": "2026-11-16T19:55:56.728797+00:00"
         }
       ],
-      "retry_after": "2026-11-16T19:54:12.802080+00:00"
+      "retry_after": "2026-11-16T20:05:56.728797+00:00"
     },
     "956": {
       "recent_failures": [
