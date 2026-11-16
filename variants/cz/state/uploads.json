@@ -51022,28 +51022,29 @@
           "at": "2026-11-16T21:25:52.271380+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1039a391f29448009c9274001fde324f-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:25:56.008506+00:00",
-        "lease_expires_at": "2026-11-17T03:25:56.008522+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099700",
-        "size_bytes": 570427832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099700",
-        "size_bytes": 570427832,
-        "source_bytes_read": 570427832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099700",
         "source_bytes_read": 570427832,
         "elapsed_seconds": 52.87,
         "finished_at": "2026-11-16T21:27:30.242185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099700",
+          "size_bytes": 570427832,
+          "source_bytes_read": 570427832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957900",
+        "source_url": "https://sdilej.cz/34957900/south-park-s19e04.-kritik-restauraci.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099700",
+        "display_name": "South Park S19E04 You're Not Yelping 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:27:40.930218+00:00"
       }
     },
     "673:19:5": {
@@ -522061,7 +522062,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:27:34.881721+00:00",
+  "updated_at": "2026-11-16T21:27:40.930235+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
