@@ -49010,23 +49010,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:08:25.903837+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:50:07.943092+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T12:54:14.783928+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:16:20.003415+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "3d4df78ab53c4d6eb27946a884149662-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:16:02.055451+00:00",
-        "lease_expires_at": "2026-11-17T03:16:02.055461+00:00"
+      "source_repair_requested": {
+        "base": "30221011:https://sdilej.cz/30221011/south-park-s15e11-cz--broadwayske-bratrovani.mkv",
+        "at": "2026-11-16T21:16:20.003380+00:00"
       }
     },
     "673:15:12": {
@@ -521748,13 +521746,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:16:11.211875+00:00",
+  "updated_at": "2026-11-16T21:16:20.003421+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:15:10",
           "at": "2026-11-16T21:16:11.211830+00:00"
+        },
+        {
+          "identity": "673:15:11",
+          "at": "2026-11-16T21:16:20.003380+00:00"
         }
       ],
       "retry_after": "2026-11-16T21:14:57.876105+00:00"
