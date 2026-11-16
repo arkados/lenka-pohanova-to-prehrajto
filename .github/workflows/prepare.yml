@@ -28,9 +28,6 @@ jobs:
       STAGE: ${{ inputs.stage || 'all' }}
       LIMIT: ${{ inputs.limit || '100' }}
       RUNTIME_MINUTES: ${{ inputs.runtime_minutes || '40' }}
-      TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
-      SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
-      SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
       WHISPER_CPU_THREADS: '2'
       WHISPER_NUM_WORKERS: '1'
       HF_HOME: /tmp/huggingface
@@ -64,6 +61,11 @@ jobs:
           (( LIMIT >= 1 && LIMIT <= 500 && RUNTIME_MINUTES >= 1 && RUNTIME_MINUTES <= 60 ))
       - name: Resolve official titles
         if: env.STAGE == 'all'
+        env:
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
         run: lenka-sync titles --limit 200 --runtime-minutes 20 --persist-git-state
       - name: Discover English versions of imported episodes
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
         run: lenka-sync prepare --limit "$LIMIT" --runtime-minutes "$RUNTIME_MINUTES" --persist-git-state

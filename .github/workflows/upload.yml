@@ -33,10 +33,6 @@ jobs:
       LIMIT: ${{ inputs.limit || '3' }}
       WORKERS: ${{ inputs.workers || '3' }}
       VARIANT: ${{ inputs.variant || 'all' }}
-      SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
-      SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
-      PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
-      PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -55,7 +51,21 @@ jobs:
         run: |
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+      - name: Verify persisted upload history
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          from lenka_sync.state import audit_history
+
+          print(json.dumps(audit_history(Path.cwd())))
+          PY
       - name: Run the selected operation
+        env:
+          SDILEJ_EMAIL: ${{ secrets.SDILEJ_EMAIL }}
+          SDILEJ_PASSWORD: ${{ secrets.SDILEJ_PASSWORD }}
+          PREHRAJTO_EMAIL: ${{ secrets.PREHRAJTO_EMAIL }}
+          PREHRAJTO_PASSWORD: ${{ secrets.PREHRAJTO_PASSWORD }}
         shell: bash
         run: |
           set -euo pipefail

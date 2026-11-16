@@ -6,6 +6,31 @@ from datetime import UTC, datetime, timedelta
 from . import policy
 
 
+def audit_history(root):
+    """Refuse missing histories or reused target IDs before any remote operation."""
+    states = {}
+    targets = set()
+    summary = {}
+    for variant in policy.VARIANTS:
+        path = root / f"variants/{variant}/state/uploads.json"
+        if not path.is_file():
+            raise ValueError(f"Required upload history is missing for {variant}")
+        state = states[variant] = VariantState(path, variant)
+        completed = pending = 0
+        for record in state.data["episodes"].values():
+            completed += bool(record.get("upload"))
+            pending += bool(record.get("prepared_target"))
+            for field in ("upload", "prepared_target"):
+                video_id = record.get(field, {}).get("target_video_id")
+                if video_id is not None:
+                    if str(video_id) in targets:
+                        raise ValueError("Upload histories reuse a target video ID")
+                    targets.add(str(video_id))
+        summary[variant] = {"completed": completed, "pending": pending}
+    validate_target_ownership(states)
+    return summary
+
+
 def validate_target_ownership(states):
     owners = {}
     for variant, state in states.items():

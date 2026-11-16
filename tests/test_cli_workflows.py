@@ -35,3 +35,15 @@ def test_workflows_do_not_checkout_another_repository():
             for step in job["steps"]:
                 if step.get("uses", "").startswith("actions/checkout@"):
                     assert "repository" not in step.get("with", {}), path.name
+
+
+def test_workflow_secrets_are_available_only_to_service_operations():
+    directory = Path(__file__).parents[1] / ".github/workflows"
+    for path in directory.glob("*.yml"):
+        workflow = yaml.safe_load(path.read_text())
+        assert "secrets." not in str(workflow.get("env", {})), path.name
+        for job in workflow["jobs"].values():
+            assert "secrets." not in str(job.get("env", {})), path.name
+            for step in job["steps"]:
+                if "uses" in step or "pip install" in step.get("run", ""):
+                    assert "secrets." not in str(step.get("env", {})), path.name

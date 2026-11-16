@@ -1,8 +1,34 @@
 import pytest
 from lenka_sync.series.models import Episode
 from lenka_sync.pipeline import planned
-from lenka_sync.state import VariantState
+from lenka_sync.state import VariantState, audit_history
 from lenka_sync.storage import atomic_json
+
+
+def test_history_audit_rejects_a_missing_variant(tmp_path):
+    with pytest.raises(ValueError, match="history is missing"):
+        audit_history(tmp_path)
+
+
+def test_history_audit_preserves_completed_and_uncertain_targets(tmp_path, czech_row):
+    states = {
+        variant: VariantState(tmp_path / f"variants/{variant}/state/uploads.json", variant)
+        for variant in ("cz", "en", "en_plain")
+    }
+    episode = Episode.from_dict(czech_row["episode"])
+    states["cz"].success(episode, "1000", "completed")
+    states["en"].row(episode)["prepared_target"] = {"target_video_id": "1001"}
+    for state in states.values():
+        state.save()
+    assert audit_history(tmp_path) == {
+        "cz": {"completed": 1, "pending": 0},
+        "en": {"completed": 0, "pending": 1},
+        "en_plain": {"completed": 0, "pending": 0},
+    }
+    states["cz"].data["episodes"]["another:1:1"] = {"upload": {"target_video_id": "1000"}}
+    states["cz"].save()
+    with pytest.raises(ValueError, match="reuse a target"):
+        audit_history(tmp_path)
 
 
 def test_same_episode_has_two_independent_variants(tmp_path, czech_row, english_row, titles):

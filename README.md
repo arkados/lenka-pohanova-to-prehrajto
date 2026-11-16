@@ -174,6 +174,10 @@ zapisovatelný remote `origin` s větví `main`; stav se potvrdí v Gitu před p
   Ruční spuštění nabízí `plan`, `upload`, `continuous` a `subtitles`.
 
 Plánované běhy řídí proměnná `AUTOMATION_ENABLED=true`.
+Před každým uploadovacím během se kontroluje přítomnost všech tří historií,
+jejich vazba na účet a jedinečnost cílových ID. Dokončené položky se vynechávají;
+nejisté přenosy s přiděleným cílem se znovu neodesílají. Výchozí stav při přesunu
+z 16. listopadu 2026 dokumentuje `reports/migration-resume.json`.
 Příprava a upload mají oddělené concurrency skupiny a zapisují oddělené soubory.
 Všechny uploadovací a titulkové operace sdílejí jednu skupinu bez rušení přenosů.
 Uploader načítá průběžně připravované manifesty z Gitu.
@@ -182,6 +186,8 @@ Secrets: `SDILEJ_EMAIL`, `SDILEJ_PASSWORD`, `PREHRAJTO_EMAIL`,
 `PREHRAJTO_PASSWORD`, `TMDB_API_KEY`. Zdrojový účet musí mít přístup
 k originálním rychlým downloadům. Výchozí ověřená data pocházejí z dřívějších
 exportů; další běhy používají vlastní kopii katalogu, manifestů a historie.
+Přístupy jsou dostupné pouze konkrétním krokům pro práci se službami;
+instalace závislostí ani nahrávání diagnostických artefaktů je nedostávají.
 
 Přenosový adaptér a podpůrné moduly byly převzaté a upravené z původních
 projektů `sdilej-serialy`, `sdilej-to-prehrajto` a Markétina uploaderu.
