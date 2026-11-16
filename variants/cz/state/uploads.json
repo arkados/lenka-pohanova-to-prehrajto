@@ -173596,28 +173596,29 @@
           "at": "2026-11-16T23:48:13.721569+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ed7fc8dfadcb49c784cccf001e9dea0c-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-16T23:48:17.397992+00:00",
-        "lease_expires_at": "2026-11-17T05:48:17.398005+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31101933",
-        "size_bytes": 142973857
-      },
-      "transfer_receipt": {
-        "target_video_id": "31101933",
-        "size_bytes": 142973857,
-        "source_bytes_read": 142973857,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31101933",
         "source_bytes_read": 142973857,
         "elapsed_seconds": 11.176,
         "finished_at": "2026-11-16T23:49:05.341655+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31101933",
+          "size_bytes": 142973857,
+          "source_bytes_read": 142973857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28257933",
+        "source_url": "https://sdilej.cz/28257933/mash-s02e03-027-.radarova-zprava.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31101933",
+        "display_name": "M*A*S*H S02E03 Radar’s Report 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T23:49:18.601141+00:00"
       }
     },
     "108:2:4": {
@@ -524231,7 +524232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T23:49:14.102753+00:00",
+  "updated_at": "2026-11-16T23:49:18.601156+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
