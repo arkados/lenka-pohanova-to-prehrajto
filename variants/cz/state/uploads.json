@@ -44557,28 +44557,29 @@
           "at": "2026-11-16T21:41:09.197206+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8045454a81e24b2fbd450db1d540b157-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:41:13.516008+00:00",
-        "lease_expires_at": "2026-11-17T03:41:13.516020+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31100015",
-        "size_bytes": 368065487
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100015",
-        "size_bytes": 368065487,
-        "source_bytes_read": 368065487,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100015",
         "source_bytes_read": 368065487,
         "elapsed_seconds": 58.366,
         "finished_at": "2026-11-16T21:42:53.343035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100015",
+          "size_bytes": 368065487,
+          "source_bytes_read": 368065487,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34817147",
+        "source_url": "https://sdilej.cz/34817147/south-park-s09e06.-cartmanuv-zivot-po-zivote.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100015",
+        "display_name": "South Park S09E06 The Death of Eric Cartman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:43:06.822271+00:00"
       }
     },
     "673:9:7": {
@@ -522442,7 +522443,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:43:02.963360+00:00",
+  "updated_at": "2026-11-16T21:43:06.822285+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
