@@ -457163,23 +457163,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T14:26:43.705572+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T15:51:06.411017+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T17:02:44.986207+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T22:45:56.205454+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "23c3d9008ec545e58ddaa14606128b42-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:45:37.735010+00:00",
-        "lease_expires_at": "2026-11-17T04:45:37.735022+00:00"
+      "source_repair_requested": {
+        "base": "27884026:https://sdilej.cz/27884026/policie-chicago-02x16.avi",
+        "at": "2026-11-16T22:45:56.205384+00:00"
       }
     },
     "1085:2:17": {
@@ -523794,7 +523792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:45:50.335129+00:00",
+  "updated_at": "2026-11-16T22:45:56.205465+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -524065,9 +524063,13 @@
         {
           "identity": "1085:2:15",
           "at": "2026-11-16T22:45:46.442771+00:00"
+        },
+        {
+          "identity": "1085:2:16",
+          "at": "2026-11-16T22:45:56.205384+00:00"
         }
       ],
-      "retry_after": "2026-11-16T22:44:08.173135+00:00"
+      "retry_after": "2026-11-16T22:55:56.205384+00:00"
     },
     "1820": {
       "recent_failures": [
