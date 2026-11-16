@@ -493038,23 +493038,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T10:35:44.940762+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T12:12:16.319284+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T16:21:18.583177+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T22:53:25.793546+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "bef118b376184c478fd461281b785033-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:52:58.528696+00:00",
-        "lease_expires_at": "2026-11-17T04:52:58.528711+00:00"
+      "source_repair_requested": {
+        "base": "34668236:https://sdilej.cz/34668236/dobry-doktor-s02e05-cukr.mkv",
+        "at": "2026-11-16T22:53:25.793502+00:00"
       }
     },
     "577:2:5": {
@@ -523922,7 +523920,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:53:20.188660+00:00",
+  "updated_at": "2026-11-16T22:53:25.793555+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -524296,6 +524294,10 @@
         {
           "identity": "583:2:4",
           "at": "2026-11-16T22:52:40.367812+00:00"
+        },
+        {
+          "identity": "583:2:5",
+          "at": "2026-11-16T22:53:25.793502+00:00"
         }
       ],
       "retry_after": "2026-11-16T22:51:27.356559+00:00"
