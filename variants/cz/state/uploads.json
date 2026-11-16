@@ -398612,23 +398612,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T16:45:47.663271+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T17:47:31.130686+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T19:45:36.077091+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:12:05.065473+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "b04460b7659446c78ebd85a3d4dc92bd-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:11:33.565357+00:00",
-        "lease_expires_at": "2026-11-17T03:11:33.565368+00:00"
+      "source_repair_requested": {
+        "base": "35097238:https://sdilej.cz/35097238/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e14-080-2003-hd-soucit-sd-.mp4",
+        "at": "2026-11-16T21:12:05.065437+00:00"
       }
     },
     "1402:4:15": {
@@ -521620,7 +521618,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:12:00.171034+00:00",
+  "updated_at": "2026-11-16T21:12:05.065481+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -521850,6 +521848,10 @@
         {
           "identity": "1402:4:13",
           "at": "2026-11-16T21:11:20.377809+00:00"
+        },
+        {
+          "identity": "1402:4:14",
+          "at": "2026-11-16T21:12:05.065437+00:00"
         }
       ],
       "retry_after": "2026-11-16T21:10:34.960055+00:00"
