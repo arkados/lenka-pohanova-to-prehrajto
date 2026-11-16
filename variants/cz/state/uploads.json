@@ -45753,23 +45753,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T11:41:55.257040+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T12:46:25.535246+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T14:13:58.241885+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:52:49.139178+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "e446af38f6e74bec858cb26d2bbd53a5-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:52:14.510798+00:00",
-        "lease_expires_at": "2026-11-17T02:52:14.510807+00:00"
+      "source_repair_requested": {
+        "base": "30220813:https://sdilej.cz/30220813/south-park-s11e03-cz--vsi-eskapady.mkv",
+        "at": "2026-11-16T20:52:49.139111+00:00"
       }
     },
     "673:11:5": {
@@ -521015,14 +521013,10 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:52:44.395686+00:00",
+  "updated_at": "2026-11-16T20:52:49.139189+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
-        {
-          "identity": "673:9:1",
-          "at": "2026-11-16T20:51:14.894603+00:00"
-        },
         {
           "identity": "673:9:6",
           "at": "2026-11-16T20:51:43.920891+00:00"
@@ -521030,9 +521024,13 @@
         {
           "identity": "673:10:13",
           "at": "2026-11-16T20:52:18.476854+00:00"
+        },
+        {
+          "identity": "673:11:3",
+          "at": "2026-11-16T20:52:49.139111+00:00"
         }
       ],
-      "retry_after": "2026-11-16T21:02:18.476854+00:00"
+      "retry_after": "2026-11-16T21:02:49.139111+00:00"
     },
     "956": {
       "recent_failures": [
