@@ -41155,23 +41155,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T15:31:14.403997+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T16:42:00.422940+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T17:44:26.932726+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T19:55:21.699038+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "7d603f7c223240fab30f332b873dd135-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T19:54:43.895988+00:00",
-        "lease_expires_at": "2026-11-17T01:54:43.895997+00:00"
+      "source_repair_requested": {
+        "base": "30221030:https://sdilej.cz/30221030/south-park-s06e02-cz--vikend-v-aspenu.mkv",
+        "at": "2026-11-16T19:55:21.699005+00:00"
       }
     },
     "673:6:3": {
@@ -519168,13 +519166,17 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T19:55:15.637234+00:00",
+  "updated_at": "2026-11-16T19:55:21.699045+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
         {
           "identity": "673:6:3",
           "at": "2026-11-16T19:55:11.327104+00:00"
+        },
+        {
+          "identity": "673:6:2",
+          "at": "2026-11-16T19:55:21.699005+00:00"
         }
       ],
       "retry_after": "2026-11-16T19:54:12.802080+00:00"
