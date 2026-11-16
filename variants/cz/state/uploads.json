@@ -50357,28 +50357,29 @@
           "at": "2026-11-16T21:22:29.622545+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "afaa53c26ac54eeeaafe9c8c2562a518-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:22:33.452898+00:00",
-        "lease_expires_at": "2026-11-17T03:22:33.452911+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099625",
-        "size_bytes": 489181402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099625",
-        "size_bytes": 489181402,
-        "source_bytes_read": 489181402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099625",
         "source_bytes_read": 489181402,
         "elapsed_seconds": 42.591,
         "finished_at": "2026-11-16T21:24:05.991056+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099625",
+          "size_bytes": 489181402,
+          "source_bytes_read": 489181402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957833",
+        "source_url": "https://sdilej.cz/34957833/south-park-s18e01.-zafinancuj-si-sam.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099625",
+        "display_name": "South Park S18E01 Go Fund Yourself 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:24:13.731037+00:00"
       }
     },
     "673:18:2": {
@@ -521953,7 +521954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:24:05.991075+00:00",
+  "updated_at": "2026-11-16T21:24:13.731054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
