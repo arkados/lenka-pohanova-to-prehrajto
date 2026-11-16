@@ -523159,12 +523159,6 @@
     },
     "1603:7:8": {
       "episode_key": "pravá krev:s7:e8",
-      "claim": {
-        "worker_id": "9107abb9623042aabc99fb4de3056fc2-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:19:04.279318+00:00",
-        "lease_expires_at": "2026-11-17T04:19:04.279328+00:00"
-      },
       "source": {
         "source_id": "33615005",
         "source_url": "https://sdilej.cz/33615005/prava-krev-s07e08-o-krok-bliz.mkv",
@@ -523189,22 +523183,29 @@
         "display_name": "True Blood S07E08 Almost Home 1080p CZ Dabing",
         "prepared_at": "2026-11-16T22:19:09.074785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31100651",
-        "size_bytes": 1137940022
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100651",
-        "size_bytes": 1137940022,
-        "source_bytes_read": 1137940022,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100651",
         "source_bytes_read": 1137940022,
         "elapsed_seconds": 179.585,
         "finished_at": "2026-11-16T22:22:25.877290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100651",
+          "size_bytes": 1137940022,
+          "source_bytes_read": 1137940022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33615005",
+        "source_url": "https://sdilej.cz/33615005/prava-krev-s07e08-o-krok-bliz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100651",
+        "display_name": "True Blood S07E08 Almost Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:22:38.424364+00:00"
       }
     }
   },
@@ -523213,7 +523214,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:22:34.459962+00:00",
+  "updated_at": "2026-11-16T22:22:38.424378+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
