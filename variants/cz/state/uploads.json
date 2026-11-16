@@ -49151,28 +49151,29 @@
           "at": "2026-11-16T21:18:47.652945+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "62e75cb856f54b5f8103519be6907da3-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:18:52.257856+00:00",
-        "lease_expires_at": "2026-11-17T03:18:52.257869+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099558",
-        "size_bytes": 416177011
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099558",
-        "size_bytes": 416177011,
-        "source_bytes_read": 416177011,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099558",
         "source_bytes_read": 416177011,
         "elapsed_seconds": 28.616,
         "finished_at": "2026-11-16T21:20:03.033979+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099558",
+          "size_bytes": 416177011,
+          "source_bytes_read": 416177011,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957756",
+        "source_url": "https://sdilej.cz/34957756/south-park-s15e12.-jedno-procento.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099558",
+        "display_name": "South Park S15E12 1% 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:20:15.269065+00:00"
       }
     },
     "673:15:13": {
@@ -521867,7 +521868,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:20:11.362840+00:00",
+  "updated_at": "2026-11-16T21:20:15.269081+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
