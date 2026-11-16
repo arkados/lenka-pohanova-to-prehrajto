@@ -449050,23 +449050,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T16:28:46.091527+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T17:33:48.444290+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T19:35:28.749058+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:53:37.469032+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "8440096a0bf345c8834978e8345d5cb5-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:53:04.645305+00:00",
-        "lease_expires_at": "2026-11-17T02:53:04.645319+00:00"
+      "source_repair_requested": {
+        "base": "32203951:https://sdilej.cz/32203951/chicago-p.d.-policie-chicago-s01e04-czdab-x264.mkv",
+        "at": "2026-11-16T20:53:37.468995+00:00"
       }
     },
     "1085:1:5": {
@@ -521037,7 +521035,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:53:32.560472+00:00",
+  "updated_at": "2026-11-16T20:53:37.469038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -521292,6 +521290,10 @@
         {
           "identity": "1085:1:3",
           "at": "2026-11-16T20:50:41.435304+00:00"
+        },
+        {
+          "identity": "1085:1:4",
+          "at": "2026-11-16T20:53:37.468995+00:00"
         }
       ],
       "retry_after": "2026-11-16T20:09:23.880474+00:00"
