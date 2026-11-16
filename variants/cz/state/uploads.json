@@ -135044,28 +135044,29 @@
           "at": "2026-11-16T21:48:51.689270+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "213a9bd063304fefa3eddd6e807bb3fb-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:48:56.455224+00:00",
-        "lease_expires_at": "2026-11-17T03:48:56.455237+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31100145",
-        "size_bytes": 415880777
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100145",
-        "size_bytes": 415880777,
-        "source_bytes_read": 415880777,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100145",
         "source_bytes_read": 415880777,
         "elapsed_seconds": 29.432,
         "finished_at": "2026-11-16T21:49:52.581736+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100145",
+          "size_bytes": 415880777,
+          "source_bytes_read": 415880777,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799102",
+        "source_url": "https://sdilej.cz/34799102/hercule-poirot-s02e03-13-1990-sd-ztraceny-dul-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100145",
+        "display_name": "Agatha Christie's Poirot S02E03 The Lost Mine SD CZ Dabing",
+        "uploaded_at": "2026-11-16T21:50:00.011487+00:00"
       }
     },
     "2558:2:5": {
@@ -522616,7 +522617,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:49:56.380439+00:00",
+  "updated_at": "2026-11-16T21:50:00.011505+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
