@@ -46896,28 +46896,29 @@
           "at": "2026-11-16T20:58:17.014053+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d27ec14dd1ce4d88a6f708121a8a0a57-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:58:21.169469+00:00",
-        "lease_expires_at": "2026-11-17T02:58:21.169480+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099012",
-        "size_bytes": 569611870
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099012",
-        "size_bytes": 569611870,
-        "source_bytes_read": 569611870,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099012",
         "source_bytes_read": 569611870,
         "elapsed_seconds": 37.151,
         "finished_at": "2026-11-16T20:59:32.855371+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099012",
+          "size_bytes": 569611870,
+          "source_bytes_read": 569611870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957622",
+        "source_url": "https://sdilej.cz/34957622/south-park-s12e13.-muzikal-ze-zakladky.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099012",
+        "display_name": "South Park S12E13 Elementary School Musical 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:59:40.112398+00:00"
       }
     },
     "673:12:14": {
@@ -521217,7 +521218,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:59:32.855394+00:00",
+  "updated_at": "2026-11-16T20:59:40.112414+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
