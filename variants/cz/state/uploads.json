@@ -43408,28 +43408,29 @@
           "at": "2026-11-16T20:32:23.358396+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3788578f2bd74a92b8093343c8bdc0f5-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:32:27.052188+00:00",
-        "lease_expires_at": "2026-11-17T02:32:27.052199+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098396",
-        "size_bytes": 651209503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098396",
-        "size_bytes": 651209503,
-        "source_bytes_read": 651209503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098396",
         "source_bytes_read": 651209503,
         "elapsed_seconds": 73.122,
         "finished_at": "2026-11-16T20:34:22.031656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098396",
+          "size_bytes": 651209503,
+          "source_bytes_read": 651209503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957311",
+        "source_url": "https://sdilej.cz/34957311/south-park-s08e01.-mali-nindzove.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098396",
+        "display_name": "South Park S08E01 Good Times with Weapons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:34:31.287617+00:00"
       }
     },
     "673:8:2": {
@@ -520445,7 +520446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:34:27.217210+00:00",
+  "updated_at": "2026-11-16T20:34:31.287633+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
