@@ -523234,12 +523234,6 @@
     },
     "1603:7:9": {
       "episode_key": "pravá krev:s7:e9",
-      "claim": {
-        "worker_id": "e070776a9c6544c1afb6026ff2da1515-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:28:05.575230+00:00",
-        "lease_expires_at": "2026-11-17T04:28:05.575242+00:00"
-      },
       "source": {
         "source_id": "27636281",
         "source_url": "https://sdilej.cz/27636281/true-blood-s07e09-cz.mkv",
@@ -523264,22 +523258,29 @@
         "display_name": "True Blood S07E09 Love Is to Die 1080p CZ Dabing",
         "prepared_at": "2026-11-16T22:28:23.587374+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31100816",
-        "size_bytes": 708723832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100816",
-        "size_bytes": 708723832,
-        "source_bytes_read": 708723832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100816",
         "source_bytes_read": 708723832,
         "elapsed_seconds": 109.983,
         "finished_at": "2026-11-16T22:30:41.647322+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100816",
+          "size_bytes": 708723832,
+          "source_bytes_read": 708723832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27636281",
+        "source_url": "https://sdilej.cz/27636281/true-blood-s07e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100816",
+        "display_name": "True Blood S07E09 Love Is to Die 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:30:52.280647+00:00"
       }
     },
     "1603:7:10": {
@@ -523449,7 +523450,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:30:45.549463+00:00",
+  "updated_at": "2026-11-16T22:30:52.280664+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
