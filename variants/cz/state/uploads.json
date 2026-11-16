@@ -522812,12 +522812,6 @@
     },
     "161:1:3": {
       "episode_key": "grimm:s1:e3",
-      "claim": {
-        "worker_id": "098ba017e55f4ecb80aa2c71d3b41302-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T22:03:59.975987+00:00",
-        "lease_expires_at": "2026-11-17T04:03:59.976000+00:00"
-      },
       "source": {
         "source_id": "30211067",
         "source_url": "https://sdilej.cz/30211067/grimm-s01e03.mkv",
@@ -522842,22 +522836,29 @@
         "display_name": "Grimm S01E03 Beeware 1080p CZ Dabing",
         "prepared_at": "2026-11-16T22:04:09.144526+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31100408",
-        "size_bytes": 2607923987
-      },
-      "transfer_receipt": {
-        "target_video_id": "31100408",
-        "size_bytes": 2607923987,
-        "source_bytes_read": 2607923987,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31100408",
         "source_bytes_read": 2607923987,
         "elapsed_seconds": 310.129,
         "finished_at": "2026-11-16T22:09:39.959035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31100408",
+          "size_bytes": 2607923987,
+          "source_bytes_read": 2607923987,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30211067",
+        "source_url": "https://sdilej.cz/30211067/grimm-s01e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31100408",
+        "display_name": "Grimm S01E03 Beeware 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T22:09:52.746338+00:00"
       }
     },
     "161:1:4": {
@@ -522903,7 +522904,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T22:09:48.545855+00:00",
+  "updated_at": "2026-11-16T22:09:52.746353+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
