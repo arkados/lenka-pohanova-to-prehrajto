@@ -52459,28 +52459,29 @@
           "at": "2026-11-16T21:36:21.869947+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "bf54b97d43ad4010af4b9f9c84c8e3aa-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:36:25.634859+00:00",
-        "lease_expires_at": "2026-11-17T03:36:25.634869+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099932",
-        "size_bytes": 520511049
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099932",
-        "size_bytes": 520511049,
-        "source_bytes_read": 520511049,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099932",
         "source_bytes_read": 520511049,
         "elapsed_seconds": 118.953,
         "finished_at": "2026-11-16T21:39:08.570887+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099932",
+          "size_bytes": 520511049,
+          "source_bytes_read": 520511049,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34958001",
+        "source_url": "https://sdilej.cz/34958001/south-park-s21e10.-rozmackany-rajce.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099932",
+        "display_name": "South Park S21E10 Splatty Tomato 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:39:14.521232+00:00"
       }
     },
     "673:22:1": {
@@ -522349,7 +522350,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:39:08.570904+00:00",
+  "updated_at": "2026-11-16T21:39:14.521249+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
