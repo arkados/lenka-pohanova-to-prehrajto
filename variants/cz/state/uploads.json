@@ -45003,28 +45003,29 @@
           "at": "2026-11-16T20:41:57.718262+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "14629f22923e4b0197f4ab71c43d1866-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:42:02.715120+00:00",
-        "lease_expires_at": "2026-11-17T02:42:02.715130+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098570",
-        "size_bytes": 468607746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098570",
-        "size_bytes": 468607746,
-        "source_bytes_read": 468607746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098570",
         "source_bytes_read": 468607746,
         "elapsed_seconds": 37.406,
         "finished_at": "2026-11-16T20:43:11.820310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098570",
+          "size_bytes": 468607746,
+          "source_bytes_read": 468607746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957446",
+        "source_url": "https://sdilej.cz/34957446/south-park-s10e05.-milion-vlakenek.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098570",
+        "display_name": "South Park S10E05 A Million Little Fibers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:43:20.326666+00:00"
       }
     },
     "673:10:6": {
@@ -520727,7 +520728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:43:16.602606+00:00",
+  "updated_at": "2026-11-16T20:43:20.326680+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
