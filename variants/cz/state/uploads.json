@@ -49085,23 +49085,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:08:17.535121+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:50:23.893704+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T12:54:17.479840+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:17:09.711415+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "4efa91abef5e47a699eebc7ffeaf011a-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:16:46.462394+00:00",
-        "lease_expires_at": "2026-11-17T03:16:46.462404+00:00"
+      "source_repair_requested": {
+        "base": "30220973:https://sdilej.cz/30220973/south-park-s15e12-cz--jedno-procento.mkv",
+        "at": "2026-11-16T21:17:09.711345+00:00"
       }
     },
     "673:15:13": {
@@ -521788,7 +521786,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:17:05.051726+00:00",
+  "updated_at": "2026-11-16T21:17:09.711424+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -521799,9 +521797,13 @@
         {
           "identity": "673:15:11",
           "at": "2026-11-16T21:16:20.003380+00:00"
+        },
+        {
+          "identity": "673:15:12",
+          "at": "2026-11-16T21:17:09.711345+00:00"
         }
       ],
-      "retry_after": "2026-11-16T21:14:57.876105+00:00"
+      "retry_after": "2026-11-16T21:27:09.711345+00:00"
     },
     "956": {
       "recent_failures": [
