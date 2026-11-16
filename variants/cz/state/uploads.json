@@ -42960,28 +42960,29 @@
           "at": "2026-11-16T20:28:05.571988+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c276e95902f748f0b9d0a27f25d18be0-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:28:09.464814+00:00",
-        "lease_expires_at": "2026-11-17T02:28:09.464827+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31098340",
-        "size_bytes": 527599290
-      },
-      "transfer_receipt": {
-        "target_video_id": "31098340",
-        "size_bytes": 527599290,
-        "source_bytes_read": 527599290,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31098340",
         "source_bytes_read": 527599290,
         "elapsed_seconds": 89.06,
         "finished_at": "2026-11-16T20:30:15.072604+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31098340",
+          "size_bytes": 527599290,
+          "source_bytes_read": 527599290,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957273",
+        "source_url": "https://sdilej.cz/34957273/south-park-s07e08.-south-park-je-teplej.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31098340",
+        "display_name": "South Park S07E08 South Park is Gay 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T20:30:30.234544+00:00"
       }
     },
     "673:7:9": {
@@ -520332,7 +520333,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:30:26.480036+00:00",
+  "updated_at": "2026-11-16T20:30:30.234559+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
