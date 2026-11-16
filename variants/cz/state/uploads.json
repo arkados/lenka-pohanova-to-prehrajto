@@ -49142,23 +49142,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-10T10:08:42.015796+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-10T11:50:26.412334+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-10T12:54:34.086202+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T21:17:37.371635+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "4fae1ec9a82541f3be92797e24ef3785-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:17:05.051708+00:00",
-        "lease_expires_at": "2026-11-17T03:17:05.051718+00:00"
+      "source_repair_requested": {
+        "base": "30220870:https://sdilej.cz/30220870/south-park-s15e13-cz--dikuvzdani-na-historickem-kanalu.mkv",
+        "at": "2026-11-16T21:17:37.371534+00:00"
       }
     },
     "673:16:1": {
@@ -521798,14 +521796,10 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:17:33.218278+00:00",
+  "updated_at": "2026-11-16T21:17:37.371645+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
-        {
-          "identity": "673:15:10",
-          "at": "2026-11-16T21:16:11.211830+00:00"
-        },
         {
           "identity": "673:15:11",
           "at": "2026-11-16T21:16:20.003380+00:00"
@@ -521813,9 +521807,13 @@
         {
           "identity": "673:15:12",
           "at": "2026-11-16T21:17:09.711345+00:00"
+        },
+        {
+          "identity": "673:15:13",
+          "at": "2026-11-16T21:17:37.371534+00:00"
         }
       ],
-      "retry_after": "2026-11-16T21:27:09.711345+00:00"
+      "retry_after": "2026-11-16T21:27:37.371534+00:00"
     },
     "956": {
       "recent_failures": [
