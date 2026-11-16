@@ -47164,28 +47164,29 @@
           "at": "2026-11-16T21:02:13.395737+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "682ebba5f53c474a9943d86e4eb6cb58-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:02:17.237069+00:00",
-        "lease_expires_at": "2026-11-17T03:02:17.237084+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099086",
-        "size_bytes": 517114936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099086",
-        "size_bytes": 517114936,
-        "source_bytes_read": 517114936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099086",
         "source_bytes_read": 517114936,
         "elapsed_seconds": 58.477,
         "finished_at": "2026-11-16T21:03:59.353775+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099086",
+          "size_bytes": 517114936,
+          "source_bytes_read": 517114936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957632",
+        "source_url": "https://sdilej.cz/34957632/south-park-s13e03.-margaritak.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099086",
+        "display_name": "South Park S13E03 Margaritaville 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:04:07.610385+00:00"
       }
     },
     "673:13:4": {
@@ -521365,7 +521366,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:04:03.823124+00:00",
+  "updated_at": "2026-11-16T21:04:07.610400+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
