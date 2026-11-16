@@ -43861,28 +43861,29 @@
           "at": "2026-11-16T21:38:40.523511+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4676dd23fd0b4f1c9698d219f8b74607-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:38:44.625289+00:00",
-        "lease_expires_at": "2026-11-17T03:38:44.625299+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099962",
-        "size_bytes": 404769203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099962",
-        "size_bytes": 404769203,
-        "source_bytes_read": 404769203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099962",
         "source_bytes_read": 404769203,
         "elapsed_seconds": 31.902,
         "finished_at": "2026-11-16T21:39:45.552068+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099962",
+          "size_bytes": 404769203,
+          "source_bytes_read": 404769203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957333",
+        "source_url": "https://sdilej.cz/34957333/south-park-s08e07.-jeffersonovi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099962",
+        "display_name": "South Park S08E07 Goobacks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:39:57.728307+00:00"
       }
     },
     "673:8:8": {
@@ -522370,7 +522371,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:39:54.072372+00:00",
+  "updated_at": "2026-11-16T21:39:57.728322+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
