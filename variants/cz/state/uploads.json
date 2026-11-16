@@ -47754,28 +47754,29 @@
           "at": "2026-11-16T21:04:49.343725+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "9f38a92f70964d2d91aa1a1ef7421676-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T21:04:53.553924+00:00",
-        "lease_expires_at": "2026-11-17T03:04:53.553935+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31099131",
-        "size_bytes": 426205419
-      },
-      "transfer_receipt": {
-        "target_video_id": "31099131",
-        "size_bytes": 426205419,
-        "source_bytes_read": 426205419,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31099131",
         "source_bytes_read": 426205419,
         "elapsed_seconds": 36.565,
         "finished_at": "2026-11-16T21:06:03.837761+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31099131",
+          "size_bytes": 426205419,
+          "source_bytes_read": 426205419,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34957691",
+        "source_url": "https://sdilej.cz/34957691/south-park-s14e02.-pribeh-sourka-kundibala.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31099131",
+        "display_name": "South Park S14E02 The Tale of Scrotie McBoogerballs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-16T21:06:19.600152+00:00"
       }
     },
     "673:14:3": {
@@ -521441,7 +521442,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T21:06:15.774556+00:00",
+  "updated_at": "2026-11-16T21:06:19.600166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
