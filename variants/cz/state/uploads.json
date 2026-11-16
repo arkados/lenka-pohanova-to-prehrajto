@@ -42083,23 +42083,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-16T11:53:28.334855+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-16T14:20:33.013840+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-16T16:18:42.636670+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-16T20:17:21.491272+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "9d523b59b5204ec89b7cfc5ec608b0c0-worker-0",
-        "run_id": "43943542483",
-        "claimed_at": "2026-11-16T20:16:59.307395+00:00",
-        "lease_expires_at": "2026-11-17T02:16:59.307404+00:00"
+      "source_repair_requested": {
+        "base": "30221083:https://sdilej.cz/30221083/south-park-s06e12-cz--zebrik-do-nebe.mkv",
+        "at": "2026-11-16T20:17:21.491207+00:00"
       }
     },
     "673:6:13": {
@@ -519903,14 +519901,10 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-16T20:17:17.397829+00:00",
+  "updated_at": "2026-11-16T20:17:21.491280+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
-        {
-          "identity": "673:6:7",
-          "at": "2026-11-16T20:15:47.570771+00:00"
-        },
         {
           "identity": "673:6:9",
           "at": "2026-11-16T20:16:36.073243+00:00"
@@ -519918,9 +519912,13 @@
         {
           "identity": "673:6:11",
           "at": "2026-11-16T20:17:17.397749+00:00"
+        },
+        {
+          "identity": "673:6:12",
+          "at": "2026-11-16T20:17:21.491207+00:00"
         }
       ],
-      "retry_after": "2026-11-16T20:27:17.397749+00:00"
+      "retry_after": "2026-11-16T20:27:21.491207+00:00"
     },
     "956": {
       "recent_failures": [
