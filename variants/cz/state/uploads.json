@@ -408891,28 +408891,29 @@
           "at": "2026-11-17T00:50:43.419453+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "6bdf7653e003403a94c0aed6f61481aa-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:50:46.992814+00:00",
-        "lease_expires_at": "2026-11-17T06:50:46.992826+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103354",
-        "size_bytes": 525508569
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103354",
-        "size_bytes": 525508569,
-        "source_bytes_read": 525508569,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103354",
         "source_bytes_read": 525508569,
         "elapsed_seconds": 214.77,
         "finished_at": "2026-11-17T00:54:52.875344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103354",
+          "size_bytes": 525508569,
+          "source_bytes_read": 525508569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29094619",
+        "source_url": "https://sdilej.cz/29094619/zakon-a-poradek-utvar-pro-zvlastni-obeti-s05e05-096-2003-hd-vrozene-stesti-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103354",
+        "display_name": "Law & Order: Special Victims Unit S05E05 Serendipity 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:55:02.786455+00:00"
       }
     },
     "1402:5:6": {
@@ -526050,7 +526051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:54:57.409003+00:00",
+  "updated_at": "2026-11-17T00:55:02.786470+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
