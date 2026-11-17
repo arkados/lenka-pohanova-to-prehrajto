@@ -557769,12 +557769,6 @@
     },
     "1085:8:10": {
       "episode_key": "policie chicago:s8:e10",
-      "claim": {
-        "worker_id": "850c79f949c640158f7dc5bc61bbba31-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:33:00.300831+00:00",
-        "lease_expires_at": "2026-11-17T20:33:00.300842+00:00"
-      },
       "source": {
         "source_id": "30290355",
         "source_url": "https://sdilej.cz/30290355/chicago-p.d.-policie-chicago-s08e10-czdab.mp4",
@@ -557799,22 +557793,29 @@
         "display_name": "Chicago P.D. S08E10 The Radical Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:33:05.195866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31120590",
-        "size_bytes": 700781213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31120590",
-        "size_bytes": 700781213,
-        "source_bytes_read": 700781213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31120590",
         "source_bytes_read": 700781213,
         "elapsed_seconds": 91.996,
         "finished_at": "2026-11-17T14:35:02.589358+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31120590",
+          "size_bytes": 700781213,
+          "source_bytes_read": 700781213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290355",
+        "source_url": "https://sdilej.cz/30290355/chicago-p.d.-policie-chicago-s08e10-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31120590",
+        "display_name": "Chicago P.D. S08E10 The Radical Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T14:35:15.566655+00:00"
       }
     },
     "1085:8:11": {
@@ -557970,7 +557971,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:35:09.281161+00:00",
+  "updated_at": "2026-11-17T14:35:15.566667+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
