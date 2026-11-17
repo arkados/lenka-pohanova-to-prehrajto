@@ -551353,12 +551353,6 @@
     },
     "161:5:20": {
       "episode_key": "grimm:s5:e20",
-      "claim": {
-        "worker_id": "4fc4742806b9458c9d2648c3f6741e1a-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:16:25.423906+00:00",
-        "lease_expires_at": "2026-11-17T18:16:25.423916+00:00"
-      },
       "source": {
         "source_id": "31981122",
         "source_url": "https://sdilej.cz/31981122/grimm-s05e20.mp4",
@@ -551383,22 +551377,29 @@
         "display_name": "Grimm S05E20 Bad Night SD CZ Dabing",
         "prepared_at": "2026-11-17T12:16:39.453157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31117893",
-        "size_bytes": 177762494
-      },
-      "transfer_receipt": {
-        "target_video_id": "31117893",
-        "size_bytes": 177762494,
-        "source_bytes_read": 177762494,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31117893",
         "source_bytes_read": 177762494,
         "elapsed_seconds": 15.411,
         "finished_at": "2026-11-17T12:17:21.111492+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31117893",
+          "size_bytes": 177762494,
+          "source_bytes_read": 177762494,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981122",
+        "source_url": "https://sdilej.cz/31981122/grimm-s05e20.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31117893",
+        "display_name": "Grimm S05E20 Bad Night SD CZ Dabing",
+        "uploaded_at": "2026-11-17T12:17:31.045652+00:00"
       }
     },
     "161:5:22": {
@@ -551444,7 +551445,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:17:25.707653+00:00",
+  "updated_at": "2026-11-17T12:17:31.045666+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
