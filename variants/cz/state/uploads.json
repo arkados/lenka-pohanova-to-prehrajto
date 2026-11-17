@@ -575552,12 +575552,6 @@
     },
     "1098:4:21": {
       "episode_key": "jak prosté:s4:e21",
-      "claim": {
-        "worker_id": "7046a2e112704498911630be99fe4e00-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:46:53.137738+00:00",
-        "lease_expires_at": "2026-11-18T04:46:53.137756+00:00"
-      },
       "source": {
         "source_id": "28201707",
         "source_url": "https://sdilej.cz/28201707/jak-proste-s04e21.mkv",
@@ -575582,22 +575576,29 @@
         "display_name": "Elementary S04E21 Ain't Nothing Like the Real Thing 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:47:07.699458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131909",
-        "size_bytes": 749516401
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131909",
-        "size_bytes": 749516401,
-        "source_bytes_read": 749516401,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131909",
         "source_bytes_read": 749516401,
         "elapsed_seconds": 78.735,
         "finished_at": "2026-11-17T22:48:49.703769+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131909",
+          "size_bytes": 749516401,
+          "source_bytes_read": 749516401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201707",
+        "source_url": "https://sdilej.cz/28201707/jak-proste-s04e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131909",
+        "display_name": "Elementary S04E21 Ain't Nothing Like the Real Thing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:49:03.464483+00:00"
       }
     },
     "1098:4:22": {
@@ -575727,7 +575728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:48:58.984631+00:00",
+  "updated_at": "2026-11-17T22:49:03.464500+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
