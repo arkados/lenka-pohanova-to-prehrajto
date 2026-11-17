@@ -544441,12 +544441,6 @@
     },
     "1553:4:18": {
       "episode_key": "fresh prince:s4:e18",
-      "claim": {
-        "worker_id": "8e6edb8c5c8a4990a7284505076405d1-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:23:34.777231+00:00",
-        "lease_expires_at": "2026-11-17T13:23:34.777242+00:00"
-      },
       "source": {
         "source_id": "34905445",
         "source_url": "https://sdilej.cz/34905445/the-fresh-prince-of-bel-air-s04e18-stop-will-in-the-name-of-love.mkv",
@@ -544471,22 +544465,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E18 Stop Will! In the Name of Love 1080p CZ Dabing",
         "prepared_at": "2026-11-17T07:23:43.749400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112312",
-        "size_bytes": 1472377333
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112312",
-        "size_bytes": 1472377333,
-        "source_bytes_read": 1472377333,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112312",
         "source_bytes_read": 1472377333,
         "elapsed_seconds": 213.927,
         "finished_at": "2026-11-17T07:27:39.058395+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112312",
+          "size_bytes": 1472377333,
+          "source_bytes_read": 1472377333,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34905445",
+        "source_url": "https://sdilej.cz/34905445/the-fresh-prince-of-bel-air-s04e18-stop-will-in-the-name-of-love.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112312",
+        "display_name": "The Fresh Prince of Bel-Air S04E18 Stop Will! In the Name of Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:27:45.826577+00:00"
       }
     },
     "1553:4:21": {
@@ -544773,7 +544774,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:27:39.058414+00:00",
+  "updated_at": "2026-11-17T07:27:45.826594+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
