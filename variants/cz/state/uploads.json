@@ -578302,12 +578302,6 @@
     },
     "581:2:4": {
       "episode_key": "král tulsy:s2:e4",
-      "claim": {
-        "worker_id": "d48af5ad660a4e4682e490c5c23134b4-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:40:17.633672+00:00",
-        "lease_expires_at": "2026-11-18T05:40:17.633691+00:00"
-      },
       "source": {
         "source_id": "34346553",
         "source_url": "https://sdilej.cz/34346553/kral-tulsy-s02e04-hrdinove-a-padousi-cz-dabing-2160p-uhd.mkv",
@@ -578331,7 +578325,17 @@
         },
         "display_name": "Tulsa King S02E04 Heroes and Villains 4K CZ Dabing",
         "prepared_at": "2026-11-17T23:40:33.091554+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34346553:https://sdilej.cz/34346553/kral-tulsy-s02e04-hrdinove-a-padousi-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-17T23:40:49.050902+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:40:49.050945+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "581:2:5": {
       "episode_key": "král tulsy:s2:e5",
@@ -578376,7 +578380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:40:44.922263+00:00",
+  "updated_at": "2026-11-17T23:40:49.050951+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578808,12 +578812,12 @@
     "581": {
       "recent_failures": [
         {
-          "identity": "581:2:2",
-          "at": "2026-11-17T23:35:05.031820+00:00"
-        },
-        {
           "identity": "581:2:3",
           "at": "2026-11-17T23:40:04.291244+00:00"
+        },
+        {
+          "identity": "581:2:4",
+          "at": "2026-11-17T23:40:49.050902+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:27:18.608386+00:00"
