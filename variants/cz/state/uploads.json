@@ -562863,12 +562863,6 @@
     },
     "1396:1:2": {
       "episode_key": "na seznamu smrti:s1:e2",
-      "claim": {
-        "worker_id": "58377c0da7c74f25a8475e46fa5f04bf-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:41:47.531150+00:00",
-        "lease_expires_at": "2026-11-18T00:41:47.531161+00:00"
-      },
       "source": {
         "source_id": "22066409",
         "source_url": "https://sdilej.cz/22066409/na-seznamu-smrti-s01e02-cz-dabing-1080p.mp4",
@@ -562893,22 +562887,29 @@
         "display_name": "The Terminal List S01E02 Encoding 1080p CZ Dabing",
         "prepared_at": "2026-11-17T18:41:52.662073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31124767",
-        "size_bytes": 697433019
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124767",
-        "size_bytes": 697433019,
-        "source_bytes_read": 697433019,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124767",
         "source_bytes_read": 697433019,
         "elapsed_seconds": 91.412,
         "finished_at": "2026-11-17T18:44:04.938653+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124767",
+          "size_bytes": 697433019,
+          "source_bytes_read": 697433019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22066409",
+        "source_url": "https://sdilej.cz/22066409/na-seznamu-smrti-s01e02-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124767",
+        "display_name": "The Terminal List S01E02 Encoding 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T18:44:16.611678+00:00"
       }
     }
   },
@@ -562917,7 +562918,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:44:09.277313+00:00",
+  "updated_at": "2026-11-17T18:44:16.611695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
