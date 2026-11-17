@@ -543542,12 +543542,6 @@
     },
     "1553:4:3": {
       "episode_key": "fresh prince:s4:e3",
-      "claim": {
-        "worker_id": "3c47458924b74a7b9342510d8af8d117-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:13:34.304762+00:00",
-        "lease_expires_at": "2026-11-17T13:13:34.304772+00:00"
-      },
       "source": {
         "source_id": "28201033",
         "source_url": "https://sdilej.cz/28201033/fresh-prince-s04e03-cz-dab-hd.mp4",
@@ -543572,22 +543566,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E03 All Guts, No Glory 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:13:42.917600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112120",
-        "size_bytes": 291368500
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112120",
-        "size_bytes": 291368500,
-        "source_bytes_read": 291368500,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112120",
         "source_bytes_read": 291368500,
         "elapsed_seconds": 20.925,
         "finished_at": "2026-11-17T07:14:26.260483+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112120",
+          "size_bytes": 291368500,
+          "source_bytes_read": 291368500,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201033",
+        "source_url": "https://sdilej.cz/28201033/fresh-prince-s04e03-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112120",
+        "display_name": "The Fresh Prince of Bel-Air S04E03 All Guts, No Glory 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:14:35.182623+00:00"
       }
     }
   },
@@ -543596,7 +543597,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:14:30.096619+00:00",
+  "updated_at": "2026-11-17T07:14:35.182639+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
