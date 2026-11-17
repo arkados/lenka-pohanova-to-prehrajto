@@ -578013,12 +578013,6 @@
     },
     "1098:5:21": {
       "episode_key": "jak prosté:s5:e21",
-      "claim": {
-        "worker_id": "d036f02ed44542c8b567a75de69312cd-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:34:56.310046+00:00",
-        "lease_expires_at": "2026-11-18T05:34:56.310060+00:00"
-      },
       "source": {
         "source_id": "34434350",
         "source_url": "https://sdilej.cz/34434350/elementary-s05e21-cz-dabing-1080p-full-hd.mkv",
@@ -578042,7 +578036,17 @@
         },
         "display_name": "Elementary S05E21 Fly Into a Rage, Make a Bad Landing 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:35:00.934274+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434350:https://sdilej.cz/34434350/elementary-s05e21-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:35:13.787137+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:35:13.787203+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -578050,7 +578054,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:35:05.031873+00:00",
+  "updated_at": "2026-11-17T23:35:13.787211+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578465,16 +578469,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:5:18",
-          "at": "2026-11-17T23:24:08.112940+00:00"
-        },
-        {
-          "identity": "1098:5:19",
-          "at": "2026-11-17T23:24:25.179150+00:00"
-        },
-        {
-          "identity": "1098:5:20",
-          "at": "2026-11-17T23:24:47.190109+00:00"
+          "identity": "1098:5:21",
+          "at": "2026-11-17T23:35:13.787137+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:34:47.190109+00:00"
