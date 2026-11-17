@@ -576469,12 +576469,6 @@
     },
     "581:1:3": {
       "episode_key": "král tulsy:s1:e3",
-      "claim": {
-        "worker_id": "4bd659f396f94cb580ccb5fd66f16c7e-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:58:49.714023+00:00",
-        "lease_expires_at": "2026-11-18T04:58:49.714035+00:00"
-      },
       "source": {
         "source_id": "34345984",
         "source_url": "https://sdilej.cz/34345984/kral-tulsy-s01e03-rozmar-cz-dabing-2160p-uhd.mkv",
@@ -576498,7 +576492,17 @@
         },
         "display_name": "Tulsa King S01E03 Caprice 4K CZ Dabing",
         "prepared_at": "2026-11-17T22:59:03.199974+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34345984:https://sdilej.cz/34345984/kral-tulsy-s01e03-rozmar-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-17T22:59:18.792961+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T22:59:18.793001+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -576506,7 +576510,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:59:13.235592+00:00",
+  "updated_at": "2026-11-17T22:59:18.793010+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -576926,6 +576930,14 @@
         }
       ],
       "retry_after": "2026-11-17T23:04:05.590829+00:00"
+    },
+    "581": {
+      "recent_failures": [
+        {
+          "identity": "581:1:3",
+          "at": "2026-11-17T22:59:18.792961+00:00"
+        }
+      ]
     }
   }
 }
