@@ -562032,12 +562032,6 @@
     },
     "583:6:13": {
       "episode_key": "dobrý doktor:s6:e13",
-      "claim": {
-        "worker_id": "22c3f3f921b24a76b7d69218c77342e2-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:15:08.676597+00:00",
-        "lease_expires_at": "2026-11-18T00:15:08.676609+00:00"
-      },
       "source": {
         "source_id": "34669564",
         "source_url": "https://sdilej.cz/34669564/dobry-doktor-s06e13-39-rozdilu.mkv",
@@ -562061,7 +562055,17 @@
         },
         "display_name": "The Good Doctor S06E13 39 Differences 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:15:20.331060+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669564:https://sdilej.cz/34669564/dobry-doktor-s06e13-39-rozdilu.mkv",
+        "at": "2026-11-17T18:15:33.890572+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:15:33.890610+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -562069,7 +562073,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:15:25.053123+00:00",
+  "updated_at": "2026-11-17T18:15:33.890616+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -562415,6 +562419,10 @@
         {
           "identity": "583:6:12",
           "at": "2026-11-17T18:13:21.236309+00:00"
+        },
+        {
+          "identity": "583:6:13",
+          "at": "2026-11-17T18:15:33.890572+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:12:24.620086+00:00"
