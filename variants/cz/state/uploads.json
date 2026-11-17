@@ -555463,12 +555463,6 @@
     },
     "1085:6:20": {
       "episode_key": "policie chicago:s6:e20",
-      "claim": {
-        "worker_id": "4179e72ab99240c38414c6a1f8bfeda9-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:45:13.423720+00:00",
-        "lease_expires_at": "2026-11-17T19:45:13.423729+00:00"
-      },
       "source": {
         "source_id": "32204263",
         "source_url": "https://sdilej.cz/32204263/chicago-p.d.-policie-chicago-s06e20-czdab-x264.mkv",
@@ -555492,7 +555486,17 @@
         },
         "display_name": "Chicago P.D. S06E20 Sacrifice 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:45:25.289892+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204263:https://sdilej.cz/32204263/chicago-p.d.-policie-chicago-s06e20-czdab-x264.mkv",
+        "at": "2026-11-17T13:45:45.281776+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:45:45.281858+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:4:11": {
       "episode_key": "dobrý doktor:s4:e11",
@@ -555566,7 +555570,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:45:37.506564+00:00",
+  "updated_at": "2026-11-17T13:45:45.281864+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555791,19 +555795,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:6:18",
-          "at": "2026-11-17T13:44:51.574704+00:00"
-        },
-        {
           "identity": "1085:6:17",
           "at": "2026-11-17T13:45:01.905931+00:00"
         },
         {
           "identity": "1085:6:19",
           "at": "2026-11-17T13:45:09.065940+00:00"
+        },
+        {
+          "identity": "1085:6:20",
+          "at": "2026-11-17T13:45:45.281776+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:55:09.065940+00:00"
+      "retry_after": "2026-11-17T13:55:45.281776+00:00"
     },
     "1820": {
       "recent_failures": [
