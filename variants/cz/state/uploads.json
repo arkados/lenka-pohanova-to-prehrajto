@@ -550837,12 +550837,6 @@
     },
     "161:5:10": {
       "episode_key": "grimm:s5:e10",
-      "claim": {
-        "worker_id": "3cfe1713476c4fa1a23b267705198821-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T10:19:39.899304+00:00",
-        "lease_expires_at": "2026-11-17T16:19:39.899314+00:00"
-      },
       "source": {
         "source_id": "30237491",
         "source_url": "https://sdilej.cz/30237491/grimm-s05e10.mkv",
@@ -550867,22 +550861,29 @@
         "display_name": "Grimm S05E10 Map of the Seven Knights 1080p CZ Dabing",
         "prepared_at": "2026-11-17T10:19:44.267244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115643",
-        "size_bytes": 2587180482
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115643",
-        "size_bytes": 2587180482,
-        "source_bytes_read": 2587180482,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115643",
         "source_bytes_read": 2587180482,
         "elapsed_seconds": 314.366,
         "finished_at": "2026-11-17T10:25:19.782379+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115643",
+          "size_bytes": 2587180482,
+          "source_bytes_read": 2587180482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30237491",
+        "source_url": "https://sdilej.cz/30237491/grimm-s05e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115643",
+        "display_name": "Grimm S05E10 Map of the Seven Knights 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T10:25:27.814597+00:00"
       }
     },
     "161:5:11": {
@@ -550979,7 +550980,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T10:25:19.782398+00:00",
+  "updated_at": "2026-11-17T10:25:27.814610+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
