@@ -561982,28 +561982,29 @@
           "at": "2026-11-17T18:14:34.408082+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f9203b8ded2e4aa5897f4a8a989d76b2-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:14:38.668702+00:00",
-        "lease_expires_at": "2026-11-18T00:14:38.668716+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31124315",
-        "size_bytes": 639329844
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124315",
-        "size_bytes": 639329844,
-        "source_bytes_read": 639329844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124315",
         "source_bytes_read": 639329844,
         "elapsed_seconds": 76.354,
         "finished_at": "2026-11-17T18:16:26.321734+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124315",
+          "size_bytes": 639329844,
+          "source_bytes_read": 639329844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290412",
+        "source_url": "https://sdilej.cz/30290412/chicago-p.d.-policie-chicago-s09e19-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124315",
+        "display_name": "Chicago P.D. S09E19 Fool's Gold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T18:16:35.995906+00:00"
       }
     },
     "583:6:12": {
@@ -562160,7 +562161,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:16:26.321757+00:00",
+  "updated_at": "2026-11-17T18:16:35.995923+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
