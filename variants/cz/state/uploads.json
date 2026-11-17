@@ -557843,12 +557843,6 @@
     },
     "1085:8:12": {
       "episode_key": "policie chicago:s8:e12",
-      "claim": {
-        "worker_id": "c3f9b7aab063436ab25dd4925ab49089-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:34:05.481623+00:00",
-        "lease_expires_at": "2026-11-17T20:34:05.481634+00:00"
-      },
       "source": {
         "source_id": "27910118",
         "source_url": "https://sdilej.cz/27910118/policie-chicago-s08e12-cz-dabing.mkv",
@@ -557872,7 +557866,17 @@
         },
         "display_name": "Chicago P.D. S08E12 Due Process 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:34:14.294516+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27910118:https://sdilej.cz/27910118/policie-chicago-s08e12-cz-dabing.mkv",
+        "at": "2026-11-17T14:34:31.101491+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T14:34:31.101645+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:8:13": {
       "episode_key": "policie chicago:s8:e13",
@@ -557889,7 +557893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:34:25.748209+00:00",
+  "updated_at": "2026-11-17T14:34:31.101657+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -558120,9 +558124,13 @@
         {
           "identity": "1085:8:11",
           "at": "2026-11-17T14:34:09.714394+00:00"
+        },
+        {
+          "identity": "1085:8:12",
+          "at": "2026-11-17T14:34:31.101491+00:00"
         }
       ],
-      "retry_after": "2026-11-17T14:31:55.768181+00:00"
+      "retry_after": "2026-11-17T14:44:31.101491+00:00"
     },
     "1820": {
       "recent_failures": [
