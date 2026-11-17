@@ -571864,28 +571864,29 @@
           "at": "2026-11-17T21:53:11.563940+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "403c1d1cabff471dbc38f39e9317fd84-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:53:16.089743+00:00",
-        "lease_expires_at": "2026-11-18T03:53:16.089759+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31130183",
-        "size_bytes": 649167942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130183",
-        "size_bytes": 649167942,
-        "source_bytes_read": 649167942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130183",
         "source_bytes_read": 649167942,
         "elapsed_seconds": 57.486,
         "finished_at": "2026-11-17T21:55:05.910066+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130183",
+          "size_bytes": 649167942,
+          "source_bytes_read": 649167942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431558",
+        "source_url": "https://sdilej.cz/34431558/elementary.s03e10.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130183",
+        "display_name": "Elementary S03E10 Seed Money 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:55:16.034252+00:00"
       }
     },
     "1098:3:11": {
@@ -572222,7 +572223,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:55:10.017145+00:00",
+  "updated_at": "2026-11-17T21:55:16.034271+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
