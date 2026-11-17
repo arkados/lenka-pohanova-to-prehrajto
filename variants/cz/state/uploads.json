@@ -499500,28 +499500,29 @@
           "at": "2026-11-17T06:43:28.624404+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "6018a3fb99ed4909941c6aeca85f1f61-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:43:32.487489+00:00",
-        "lease_expires_at": "2026-11-17T12:43:32.487499+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111438",
-        "size_bytes": 667850301
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111438",
-        "size_bytes": 667850301,
-        "source_bytes_read": 667850301,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111438",
         "source_bytes_read": 667850301,
         "elapsed_seconds": 44.671,
         "finished_at": "2026-11-17T06:44:37.592906+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111438",
+          "size_bytes": 667850301,
+          "source_bytes_read": 667850301,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33823963",
+        "source_url": "https://sdilej.cz/33823963/dobry-doktor-s02e06-hevc-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111438",
+        "display_name": "The Good Doctor S02E06 Two-Ply (or Not Two-Ply) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T06:44:47.480687+00:00"
       }
     },
     "583:2:7": {
@@ -542466,7 +542467,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:44:43.703100+00:00",
+  "updated_at": "2026-11-17T06:44:47.480703+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
