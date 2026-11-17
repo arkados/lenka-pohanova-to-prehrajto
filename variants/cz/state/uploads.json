@@ -554915,12 +554915,6 @@
     },
     "1085:6:13": {
       "episode_key": "policie chicago:s6:e13",
-      "claim": {
-        "worker_id": "d7b4f30e784b44c0915aa82b10368a02-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:30:39.985515+00:00",
-        "lease_expires_at": "2026-11-17T19:30:39.985524+00:00"
-      },
       "source": {
         "source_id": "32204227",
         "source_url": "https://sdilej.cz/32204227/chicago-p.d.-policie-chicago-s06e13-czdab-x264.mkv",
@@ -554944,7 +554938,17 @@
         },
         "display_name": "Chicago P.D. S06E13 Night in Chicago 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:30:44.690891+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204227:https://sdilej.cz/32204227/chicago-p.d.-policie-chicago-s06e13-czdab-x264.mkv",
+        "at": "2026-11-17T13:30:56.712249+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:30:56.712310+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -554952,7 +554956,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:30:48.604605+00:00",
+  "updated_at": "2026-11-17T13:30:56.712316+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555183,9 +555187,13 @@
         {
           "identity": "1085:6:12",
           "at": "2026-11-17T13:30:48.604568+00:00"
+        },
+        {
+          "identity": "1085:6:13",
+          "at": "2026-11-17T13:30:56.712249+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:17:56.204497+00:00"
+      "retry_after": "2026-11-17T13:40:56.712249+00:00"
     },
     "1820": {
       "recent_failures": [
