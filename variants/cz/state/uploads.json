@@ -574280,12 +574280,6 @@
     },
     "1098:4:4": {
       "episode_key": "jak prosté:s4:e4",
-      "claim": {
-        "worker_id": "f5b99373897947559987554ff35db977-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:21:51.299700+00:00",
-        "lease_expires_at": "2026-11-18T04:21:51.299716+00:00"
-      },
       "source": {
         "source_id": "28201523",
         "source_url": "https://sdilej.cz/28201523/jak-proste-s04e04.mkv",
@@ -574310,22 +574304,29 @@
         "display_name": "Elementary S04E04 All My Exes Live in Essex 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:21:56.645492+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131071",
-        "size_bytes": 613996809
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131071",
-        "size_bytes": 613996809,
-        "source_bytes_read": 613996809,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131071",
         "source_bytes_read": 613996809,
         "elapsed_seconds": 54.514,
         "finished_at": "2026-11-17T22:23:12.564546+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131071",
+          "size_bytes": 613996809,
+          "source_bytes_read": 613996809,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201523",
+        "source_url": "https://sdilej.cz/28201523/jak-proste-s04e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131071",
+        "display_name": "Elementary S04E04 All My Exes Live in Essex 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:23:22.809280+00:00"
       }
     },
     "1098:4:5": {
@@ -574407,7 +574408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:23:16.963434+00:00",
+  "updated_at": "2026-11-17T22:23:22.809312+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
