@@ -540433,28 +540433,29 @@
           "at": "2026-11-17T05:43:45.767592+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b80065fc318140449ab97bad9f10957a-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:43:49.288646+00:00",
-        "lease_expires_at": "2026-11-17T11:43:49.288657+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109943",
-        "size_bytes": 828141561
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109943",
-        "size_bytes": 828141561,
-        "source_bytes_read": 828141561,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109943",
         "source_bytes_read": 828141561,
         "elapsed_seconds": 74.898,
         "finished_at": "2026-11-17T05:45:39.852860+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109943",
+          "size_bytes": 828141561,
+          "source_bytes_read": 828141561,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943763",
+        "source_url": "https://sdilej.cz/34943763/chicago-p.d.-s03e13-052-2016-hd-falesny-ploda-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109943",
+        "display_name": "Chicago P.D. S03E13 Hit Me 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:45:47.137689+00:00"
       }
     },
     "1085:3:14": {
@@ -540516,7 +540517,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:45:39.852878+00:00",
+  "updated_at": "2026-11-17T05:45:47.137705+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
