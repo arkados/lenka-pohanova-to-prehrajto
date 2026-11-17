@@ -563104,28 +563104,29 @@
           "at": "2026-11-17T18:53:27.479610+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "01279b4331e34cba8ecb48caa9a0ff75-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:53:31.756957+00:00",
-        "lease_expires_at": "2026-11-18T00:53:31.756968+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31125044",
-        "size_bytes": 1896256527
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125044",
-        "size_bytes": 1896256527,
-        "source_bytes_read": 1896256527,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125044",
         "source_bytes_read": 1896256527,
         "elapsed_seconds": 471.324,
         "finished_at": "2026-11-17T19:01:46.008190+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125044",
+          "size_bytes": 1896256527,
+          "source_bytes_read": 1896256527,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32564887",
+        "source_url": "https://sdilej.cz/32564887/dobry-doktor-s07e06-cz-dabing-ultra-hd-2160p-4k.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125044",
+        "display_name": "The Good Doctor S07E06 M.C.E. 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T19:01:56.386472+00:00"
       }
     },
     "583:7:7": {
@@ -563390,7 +563391,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:01:50.081173+00:00",
+  "updated_at": "2026-11-17T19:01:56.386490+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
