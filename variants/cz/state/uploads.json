@@ -564406,12 +564406,6 @@
     },
     "1098:1:13": {
       "episode_key": "jak prosté:s1:e13",
-      "claim": {
-        "worker_id": "f54141baf2aa47919b9dae3a9e2dcf33-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:34:35.932472+00:00",
-        "lease_expires_at": "2026-11-18T01:34:35.932485+00:00"
-      },
       "source": {
         "source_id": "34432265",
         "source_url": "https://sdilej.cz/34432265/elementary-s01e13-cz-dabing-1080p-full-hd.mkv",
@@ -564435,7 +564429,17 @@
         },
         "display_name": "Elementary S01E13 The Red Team 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:34:48.723489+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432265:https://sdilej.cz/34432265/elementary-s01e13-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:35:05.469638+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:35:05.469669+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -564443,7 +564447,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:34:59.620746+00:00",
+  "updated_at": "2026-11-17T19:35:05.469675+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564860,6 +564864,10 @@
         {
           "identity": "1098:1:10",
           "at": "2026-11-17T19:33:57.881510+00:00"
+        },
+        {
+          "identity": "1098:1:13",
+          "at": "2026-11-17T19:35:05.469638+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:31:04.745565+00:00"
