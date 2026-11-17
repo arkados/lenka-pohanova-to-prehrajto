@@ -291233,28 +291233,29 @@
           "at": "2026-11-17T01:10:51.434396+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4dd4b4c882684e5c8cb99cc81b7593eb-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T01:10:55.161768+00:00",
-        "lease_expires_at": "2026-11-17T07:10:55.161779+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103878",
-        "size_bytes": 695096856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103878",
-        "size_bytes": 695096856,
-        "source_bytes_read": 695096856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103878",
         "source_bytes_read": 695096856,
         "elapsed_seconds": 110.861,
         "finished_at": "2026-11-17T01:13:09.681532+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103878",
+          "size_bytes": 695096856,
+          "source_bytes_read": 695096856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16347236",
+        "source_url": "https://sdilej.cz/16347236/ze.zeme.na.mesic.s01e06.cz.dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103878",
+        "display_name": "From the Earth to the Moon S01E06 Mare Tranquilitatis SD CZ Dabing",
+        "uploaded_at": "2026-11-17T01:13:15.304943+00:00"
       }
     },
     "1500:1:7": {
@@ -526700,7 +526701,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T01:13:09.681551+00:00",
+  "updated_at": "2026-11-17T01:13:15.304959+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
