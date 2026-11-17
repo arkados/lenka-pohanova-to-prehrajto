@@ -399282,28 +399282,29 @@
           "at": "2026-11-17T00:38:09.319782+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "955dcbdda2364f86bf3ea75ed6473c9d-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:38:12.937035+00:00",
-        "lease_expires_at": "2026-11-17T06:38:12.937047+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103113",
-        "size_bytes": 536735709
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103113",
-        "size_bytes": 536735709,
-        "source_bytes_read": 536735709,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103113",
         "source_bytes_read": 536735709,
         "elapsed_seconds": 68.391,
         "finished_at": "2026-11-17T00:39:44.306133+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103113",
+          "size_bytes": 536735709,
+          "source_bytes_read": 536735709,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29094479",
+        "source_url": "https://sdilej.cz/29094479/zakon-a-poradek-utvar-pro-zvlastni-obeti-s04e11-077-2003-hd-chudak-holka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103113",
+        "display_name": "Law & Order: Special Victims Unit S04E11 Damaged 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:39:50.272584+00:00"
       }
     },
     "9201:1:9": {
@@ -525528,7 +525529,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:39:44.306152+00:00",
+  "updated_at": "2026-11-17T00:39:50.272600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
