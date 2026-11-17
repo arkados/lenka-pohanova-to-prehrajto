@@ -567326,12 +567326,6 @@
     },
     "1134:1:4": {
       "episode_key": "tráva:s1:e4",
-      "claim": {
-        "worker_id": "2194dd6f51b740b684b42e713c3c12b9-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:35:51.073614+00:00",
-        "lease_expires_at": "2026-11-18T02:35:51.073624+00:00"
-      },
       "source": {
         "source_id": "11791330",
         "source_url": "https://sdilej.cz/11791330/weeds.s01e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -567356,22 +567350,29 @@
         "display_name": "Weeds S01E04 Fashion of the Christ 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:36:00.336450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128006",
-        "size_bytes": 896106906
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128006",
-        "size_bytes": 896106906,
-        "source_bytes_read": 896106906,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128006",
         "source_bytes_read": 896106906,
         "elapsed_seconds": 164.382,
         "finished_at": "2026-11-17T20:39:07.574830+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128006",
+          "size_bytes": 896106906,
+          "source_bytes_read": 896106906,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11791330",
+        "source_url": "https://sdilej.cz/11791330/weeds.s01e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128006",
+        "display_name": "Weeds S01E04 Fashion of the Christ 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:39:16.120453+00:00"
       }
     },
     "1098:2:6": {
@@ -567417,7 +567418,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:39:07.574850+00:00",
+  "updated_at": "2026-11-17T20:39:16.120467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
