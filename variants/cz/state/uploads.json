@@ -540712,12 +540712,6 @@
     },
     "1085:3:18": {
       "episode_key": "policie chicago:s3:e18",
-      "claim": {
-        "worker_id": "47285b77c1ce437a9581974997315510-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:51:39.486133+00:00",
-        "lease_expires_at": "2026-11-17T11:51:39.486142+00:00"
-      },
       "source": {
         "source_id": "30987711",
         "source_url": "https://sdilej.cz/30987711/chicago-p.d.-policie-chicago-s03e18-czdab-x264.mkv",
@@ -540741,7 +540735,17 @@
         },
         "display_name": "Chicago P.D. S03E18 Kasual with a K 720p CZ Dabing",
         "prepared_at": "2026-11-17T05:51:47.623386+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987711:https://sdilej.cz/30987711/chicago-p.d.-policie-chicago-s03e18-czdab-x264.mkv",
+        "at": "2026-11-17T05:51:59.787859+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T05:51:59.787915+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -540749,7 +540753,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:51:56.244824+00:00",
+  "updated_at": "2026-11-17T05:51:59.787920+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -540996,9 +541000,13 @@
         {
           "identity": "1085:3:16",
           "at": "2026-11-17T05:51:23.224808+00:00"
+        },
+        {
+          "identity": "1085:3:18",
+          "at": "2026-11-17T05:51:59.787859+00:00"
         }
       ],
-      "retry_after": "2026-11-17T05:49:21.349978+00:00"
+      "retry_after": "2026-11-17T06:01:59.787859+00:00"
     },
     "1820": {
       "recent_failures": [
