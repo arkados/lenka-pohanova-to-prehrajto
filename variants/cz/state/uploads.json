@@ -574811,28 +574811,29 @@
           "at": "2026-11-17T22:37:33.992821+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ec7412e2ef08424f9e4725fd35178055-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:37:37.833665+00:00",
-        "lease_expires_at": "2026-11-18T04:37:37.833679+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31131552",
-        "size_bytes": 636940128
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131552",
-        "size_bytes": 636940128,
-        "source_bytes_read": 636940128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131552",
         "source_bytes_read": 636940128,
         "elapsed_seconds": 100.2,
         "finished_at": "2026-11-17T22:39:58.285673+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131552",
+          "size_bytes": 636940128,
+          "source_bytes_read": 636940128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431602",
+        "source_url": "https://sdilej.cz/34431602/elementary.s04e14.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131552",
+        "display_name": "Elementary S04E14 Who Is That Masked Man? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:40:07.320926+00:00"
       }
     },
     "1134:8:4": {
@@ -575235,7 +575236,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:39:58.285693+00:00",
+  "updated_at": "2026-11-17T22:40:07.320946+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
