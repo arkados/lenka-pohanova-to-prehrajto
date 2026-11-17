@@ -558908,12 +558908,6 @@
     },
     "583:5:18": {
       "episode_key": "dobrý doktor:s5:e18",
-      "claim": {
-        "worker_id": "469319811c164e8bbaeb67d00791cd1a-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:58:05.965488+00:00",
-        "lease_expires_at": "2026-11-17T20:58:05.965499+00:00"
-      },
       "source": {
         "source_id": "25793562",
         "source_url": "https://sdilej.cz/25793562/dobry-doktor-the-good-doctor-s05e18-hd-cz-dabing.mkv",
@@ -558938,22 +558932,29 @@
         "display_name": "The Good Doctor S05E18 Sons 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:58:11.059696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121148",
-        "size_bytes": 1700267206
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121148",
-        "size_bytes": 1700267206,
-        "source_bytes_read": 1700267206,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121148",
         "source_bytes_read": 1700267206,
         "elapsed_seconds": 121.009,
         "finished_at": "2026-11-17T15:00:31.529975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121148",
+          "size_bytes": 1700267206,
+          "source_bytes_read": 1700267206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25793562",
+        "source_url": "https://sdilej.cz/25793562/dobry-doktor-the-good-doctor-s05e18-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121148",
+        "display_name": "The Good Doctor S05E18 Sons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:00:39.573053+00:00"
       }
     }
   },
@@ -558962,7 +558963,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:00:31.529992+00:00",
+  "updated_at": "2026-11-17T15:00:39.573068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
