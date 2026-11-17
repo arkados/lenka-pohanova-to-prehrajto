@@ -567741,12 +567741,6 @@
     },
     "1134:1:8": {
       "episode_key": "tráva:s1:e8",
-      "claim": {
-        "worker_id": "fc10f2a0494e41dfa073cd08ad66f411-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:48:01.721850+00:00",
-        "lease_expires_at": "2026-11-18T02:48:01.721861+00:00"
-      },
       "source": {
         "source_id": "33230194",
         "source_url": "https://sdilej.cz/33230194/trava-s01e08-10-2005-cz-dab-svetla-za-trest.mkv",
@@ -567771,22 +567765,29 @@
         "display_name": "Weeds S01E08 The Punishment Light 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:48:07.021486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128319",
-        "size_bytes": 751684180
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128319",
-        "size_bytes": 751684180,
-        "source_bytes_read": 751684180,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128319",
         "source_bytes_read": 751684180,
         "elapsed_seconds": 73.881,
         "finished_at": "2026-11-17T20:49:42.980306+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128319",
+          "size_bytes": 751684180,
+          "source_bytes_read": 751684180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33230194",
+        "source_url": "https://sdilej.cz/33230194/trava-s01e08-10-2005-cz-dab-svetla-za-trest.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128319",
+        "display_name": "Weeds S01E08 The Punishment Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:49:52.696983+00:00"
       }
     }
   },
@@ -567795,7 +567796,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:49:46.856689+00:00",
+  "updated_at": "2026-11-17T20:49:52.697012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
