@@ -569578,12 +569578,6 @@
     },
     "1134:3:8": {
       "episode_key": "tráva:s3:e8",
-      "claim": {
-        "worker_id": "effcb74d39ba404eba3b16ed2f591559-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:15:00.351496+00:00",
-        "lease_expires_at": "2026-11-18T03:15:00.351512+00:00"
-      },
       "source": {
         "source_id": "27972326",
         "source_url": "https://sdilej.cz/27972326/trava-s03e08-cast-8.mkv",
@@ -569608,22 +569602,29 @@
         "display_name": "Weeds S03E08 The Two Mrs. Scottsons 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:15:05.344050+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129053",
-        "size_bytes": 547639229
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129053",
-        "size_bytes": 547639229,
-        "source_bytes_read": 547639229,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129053",
         "source_bytes_read": 547639229,
         "elapsed_seconds": 31.27,
         "finished_at": "2026-11-17T21:16:07.831774+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129053",
+          "size_bytes": 547639229,
+          "source_bytes_read": 547639229,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972326",
+        "source_url": "https://sdilej.cz/27972326/trava-s03e08-cast-8.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129053",
+        "display_name": "Weeds S03E08 The Two Mrs. Scottsons 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:16:17.722683+00:00"
       }
     },
     "1134:3:9": {
@@ -569705,7 +569706,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:16:12.087083+00:00",
+  "updated_at": "2026-11-17T21:16:17.722701+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
