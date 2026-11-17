@@ -558899,12 +558899,6 @@
     },
     "583:5:17": {
       "episode_key": "dobrý doktor:s5:e17",
-      "claim": {
-        "worker_id": "66443d2623cf4e69ba1e5c216d7bb63a-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:57:28.448292+00:00",
-        "lease_expires_at": "2026-11-17T20:57:28.448303+00:00"
-      },
       "source": {
         "source_id": "33824220",
         "source_url": "https://sdilej.cz/33824220/the.good.doctor.s05e17.1080p.10bit.amzn.web-dl.e-ac3.x265.hevc-vyndros.mkv",
@@ -558929,22 +558923,29 @@
         "display_name": "The Good Doctor S05E17 The Lea Show 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:57:41.152132+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121130",
-        "size_bytes": 995759646
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121130",
-        "size_bytes": 995759646,
-        "source_bytes_read": 995759646,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121130",
         "source_bytes_read": 995759646,
         "elapsed_seconds": 219.397,
         "finished_at": "2026-11-17T15:01:40.711559+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121130",
+          "size_bytes": 995759646,
+          "source_bytes_read": 995759646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824220",
+        "source_url": "https://sdilej.cz/33824220/the.good.doctor.s05e17.1080p.10bit.amzn.web-dl.e-ac3.x265.hevc-vyndros.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121130",
+        "display_name": "The Good Doctor S05E17 The Lea Show 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:01:53.787447+00:00"
       }
     },
     "583:5:18": {
@@ -559004,7 +559005,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:01:48.847097+00:00",
+  "updated_at": "2026-11-17T15:01:53.787461+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
