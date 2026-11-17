@@ -555826,12 +555826,6 @@
     },
     "1085:7:1": {
       "episode_key": "policie chicago:s7:e1",
-      "claim": {
-        "worker_id": "16244a82dd9541cf9902b9ec30bce112-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:56:48.648445+00:00",
-        "lease_expires_at": "2026-11-17T19:56:48.648455+00:00"
-      },
       "source": {
         "source_id": "32204276",
         "source_url": "https://sdilej.cz/32204276/chicago-p.d.-policie-chicago-s07e01-czdab-x264.mkv",
@@ -555855,7 +555849,17 @@
         },
         "display_name": "Chicago P.D. S07E01 Doubt 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:56:53.974525+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204276:https://sdilej.cz/32204276/chicago-p.d.-policie-chicago-s07e01-czdab-x264.mkv",
+        "at": "2026-11-17T13:57:08.099041+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:57:08.099105+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:7:2": {
       "episode_key": "policie chicago:s7:e2",
@@ -555872,7 +555876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:57:01.960040+00:00",
+  "updated_at": "2026-11-17T13:57:08.099114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -556119,9 +556123,13 @@
         {
           "identity": "1085:6:22",
           "at": "2026-11-17T13:56:57.880465+00:00"
+        },
+        {
+          "identity": "1085:7:1",
+          "at": "2026-11-17T13:57:08.099041+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:55:45.281776+00:00"
+      "retry_after": "2026-11-17T14:07:08.099041+00:00"
     },
     "1820": {
       "recent_failures": [
