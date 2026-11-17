@@ -573233,12 +573233,6 @@
     },
     "1098:3:21": {
       "episode_key": "jak prosté:s3:e21",
-      "claim": {
-        "worker_id": "0ffe8052a920473d86528611abc84f9a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:08:18.504664+00:00",
-        "lease_expires_at": "2026-11-18T04:08:18.504677+00:00"
-      },
       "source": {
         "source_id": "28201420",
         "source_url": "https://sdilej.cz/28201420/jak-proste-s03e21.mkv",
@@ -573263,22 +573257,29 @@
         "display_name": "Elementary S03E21 Under My Skin 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:08:32.125821+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130639",
-        "size_bytes": 574223047
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130639",
-        "size_bytes": 574223047,
-        "source_bytes_read": 574223047,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130639",
         "source_bytes_read": 574223047,
         "elapsed_seconds": 43.08,
         "finished_at": "2026-11-17T22:09:48.838605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130639",
+          "size_bytes": 574223047,
+          "source_bytes_read": 574223047,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201420",
+        "source_url": "https://sdilej.cz/28201420/jak-proste-s03e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130639",
+        "display_name": "Elementary S03E21 Under My Skin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:09:58.524929+00:00"
       }
     },
     "1098:3:22": {
@@ -573375,7 +573376,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:09:48.838622+00:00",
+  "updated_at": "2026-11-17T22:09:58.524947+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
