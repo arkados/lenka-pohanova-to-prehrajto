@@ -578214,12 +578214,6 @@
     },
     "1098:5:24": {
       "episode_key": "jak prosté:s5:e24",
-      "claim": {
-        "worker_id": "fb6f2bf88ec44b71bf3c82a982173acb-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:39:20.417919+00:00",
-        "lease_expires_at": "2026-11-18T05:39:20.417938+00:00"
-      },
       "source": {
         "source_id": "34434513",
         "source_url": "https://sdilej.cz/34434513/elementary-s05e24-cz-dabing-1080p-full-hd.mkv",
@@ -578243,7 +578237,17 @@
         },
         "display_name": "Elementary S05E24 Hurt Me, Hurt You 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:39:24.952582+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434513:https://sdilej.cz/34434513/elementary-s05e24-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:39:36.763101+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:39:36.763176+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -578251,7 +578255,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:39:24.952600+00:00",
+  "updated_at": "2026-11-17T23:39:36.763186+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578672,9 +578676,13 @@
         {
           "identity": "1098:5:23",
           "at": "2026-11-17T23:35:48.308529+00:00"
+        },
+        {
+          "identity": "1098:5:24",
+          "at": "2026-11-17T23:39:36.763101+00:00"
         }
       ],
-      "retry_after": "2026-11-17T23:34:47.190109+00:00"
+      "retry_after": "2026-11-17T23:49:36.763101+00:00"
     },
     "581": {
       "recent_failures": [
