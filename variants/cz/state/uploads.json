@@ -552245,28 +552245,29 @@
           "at": "2026-11-17T12:39:29.748565+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5627cdcc1790400bbc84f68bf1c3c846-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:39:33.927973+00:00",
-        "lease_expires_at": "2026-11-17T18:39:33.927983+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118429",
-        "size_bytes": 837290024
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118429",
-        "size_bytes": 837290024,
-        "source_bytes_read": 837290024,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118429",
         "source_bytes_read": 837290024,
         "elapsed_seconds": 53.899,
         "finished_at": "2026-11-17T12:40:49.025865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118429",
+          "size_bytes": 837290024,
+          "source_bytes_read": 837290024,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942792",
+        "source_url": "https://sdilej.cz/34942792/chicago-p.d.-s04e18-080-2017-hd-trocha-svetla-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118429",
+        "display_name": "Chicago P.D. S04E18 Little Bit of Light 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:40:59.876488+00:00"
       }
     }
   },
@@ -552275,7 +552276,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:40:55.755971+00:00",
+  "updated_at": "2026-11-17T12:40:59.876501+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
