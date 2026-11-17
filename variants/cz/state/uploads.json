@@ -542180,28 +542180,29 @@
           "at": "2026-11-17T12:21:56.599834+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "57275b95d0c74155b294e38779ad3030-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:22:00.597140+00:00",
-        "lease_expires_at": "2026-11-17T18:22:00.597151+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118034",
-        "size_bytes": 653073965
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118034",
-        "size_bytes": 653073965,
-        "source_bytes_read": 653073965,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118034",
         "source_bytes_read": 653073965,
         "elapsed_seconds": 96.968,
         "finished_at": "2026-11-17T12:24:01.038270+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118034",
+          "size_bytes": 653073965,
+          "source_bytes_read": 653073965,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32941868",
+        "source_url": "https://sdilej.cz/32941868/chicago-p.d.-policie-chicago-s03e18-czdab-x264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118034",
+        "display_name": "Chicago P.D. S03E18 Kasual with a K 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:24:07.727061+00:00"
       }
     },
     "1085:3:19": {
@@ -551550,7 +551551,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:24:01.038288+00:00",
+  "updated_at": "2026-11-17T12:24:07.727076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
