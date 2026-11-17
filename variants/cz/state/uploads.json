@@ -556033,12 +556033,6 @@
     },
     "583:4:15": {
       "episode_key": "dobrý doktor:s4:e15",
-      "claim": {
-        "worker_id": "e843a6f309064d65a964bb920b72d4a4-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:57:51.544864+00:00",
-        "lease_expires_at": "2026-11-17T19:57:51.544875+00:00"
-      },
       "source": {
         "source_id": "33824131",
         "source_url": "https://sdilej.cz/33824131/the.good.doctor.s04e15.1080p.hevc-vyndros.mkv",
@@ -556063,22 +556057,29 @@
         "display_name": "The Good Doctor S04E15 Waiting 1080p CZ Dabing",
         "prepared_at": "2026-11-17T13:58:06.618555+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31119742",
-        "size_bytes": 887005963
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119742",
-        "size_bytes": 887005963,
-        "source_bytes_read": 887005963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119742",
         "source_bytes_read": 887005963,
         "elapsed_seconds": 176.549,
         "finished_at": "2026-11-17T14:01:24.743791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119742",
+          "size_bytes": 887005963,
+          "source_bytes_read": 887005963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824131",
+        "source_url": "https://sdilej.cz/33824131/the.good.doctor.s04e15.1080p.hevc-vyndros.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119742",
+        "display_name": "The Good Doctor S04E15 Waiting 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T14:01:36.347250+00:00"
       }
     },
     "583:4:16": {
@@ -556124,7 +556125,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:01:29.825900+00:00",
+  "updated_at": "2026-11-17T14:01:36.347267+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
