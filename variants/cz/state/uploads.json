@@ -540289,12 +540289,6 @@
     },
     "1085:3:13": {
       "episode_key": "policie chicago:s3:e13",
-      "claim": {
-        "worker_id": "f3116797fc3a472289f08fed7e492b9d-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:38:39.144929+00:00",
-        "lease_expires_at": "2026-11-17T11:38:39.144939+00:00"
-      },
       "source": {
         "source_id": "32204052",
         "source_url": "https://sdilej.cz/32204052/chicago-p.d.-policie-chicago-s03e13-czdab-x264.mkv",
@@ -540318,7 +540312,17 @@
         },
         "display_name": "Chicago P.D. S03E13 Hit Me 720p CZ Dabing",
         "prepared_at": "2026-11-17T05:38:43.402831+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204052:https://sdilej.cz/32204052/chicago-p.d.-policie-chicago-s03e13-czdab-x264.mkv",
+        "at": "2026-11-17T05:38:54.936375+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T05:38:54.936407+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -540326,7 +540330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:38:43.402848+00:00",
+  "updated_at": "2026-11-17T05:38:54.936412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -540561,6 +540565,10 @@
         {
           "identity": "1085:3:9",
           "at": "2026-11-17T05:35:24.307397+00:00"
+        },
+        {
+          "identity": "1085:3:13",
+          "at": "2026-11-17T05:38:54.936375+00:00"
         }
       ],
       "retry_after": "2026-11-17T05:33:17.459933+00:00"
