@@ -565570,12 +565570,6 @@
     },
     "1098:1:20": {
       "episode_key": "jak prosté:s1:e20",
-      "claim": {
-        "worker_id": "ae7ee5e09f984fe78d8e133a5af24dea-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:58:54.366384+00:00",
-        "lease_expires_at": "2026-11-18T01:58:54.366395+00:00"
-      },
       "source": {
         "source_id": "34432362",
         "source_url": "https://sdilej.cz/34432362/elementary-s01e20-cz-dabing-1080p-full-hd.mkv",
@@ -565599,7 +565593,17 @@
         },
         "display_name": "Elementary S01E20 Dead Man's Switch 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:59:04.513752+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432362:https://sdilej.cz/34432362/elementary-s01e20-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:59:19.847248+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:59:19.847295+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:1:21": {
       "episode_key": "jak prosté:s1:e21",
@@ -565640,7 +565644,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:59:15.692159+00:00",
+  "updated_at": "2026-11-17T19:59:19.847302+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -566049,6 +566053,10 @@
         {
           "identity": "1098:1:13",
           "at": "2026-11-17T19:59:00.221136+00:00"
+        },
+        {
+          "identity": "1098:1:20",
+          "at": "2026-11-17T19:59:19.847248+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:58:07.026175+00:00"
