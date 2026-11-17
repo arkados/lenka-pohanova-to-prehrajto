@@ -563675,12 +563675,6 @@
     },
     "583:7:10": {
       "episode_key": "dobrý doktor:s7:e10",
-      "claim": {
-        "worker_id": "0f242ce05c8747ba9e8923eb713eb2fc-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:06:22.939025+00:00",
-        "lease_expires_at": "2026-11-18T01:06:22.939037+00:00"
-      },
       "source": {
         "source_id": "34669907",
         "source_url": "https://sdilej.cz/34669907/dobry-doktor-s07e10-sbohem.mkv",
@@ -563704,7 +563698,17 @@
         },
         "display_name": "The Good Doctor S07E10 Goodbye 4K CZ Dabing",
         "prepared_at": "2026-11-17T19:06:28.169361+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669907:https://sdilej.cz/34669907/dobry-doktor-s07e10-sbohem.mkv",
+        "at": "2026-11-17T19:06:41.787335+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:06:41.787371+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -563712,7 +563716,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:06:28.169378+00:00",
+  "updated_at": "2026-11-17T19:06:41.787376+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564066,6 +564070,10 @@
         {
           "identity": "583:7:9",
           "at": "2026-11-17T19:06:10.313001+00:00"
+        },
+        {
+          "identity": "583:7:10",
+          "at": "2026-11-17T19:06:41.787335+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:05:00.155022+00:00"
