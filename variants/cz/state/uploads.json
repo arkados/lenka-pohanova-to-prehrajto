@@ -493053,28 +493053,29 @@
           "at": "2026-11-17T06:31:40.407463+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "de050cc4acf84e5a9174d114e41a0678-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:31:44.421922+00:00",
-        "lease_expires_at": "2026-11-17T12:31:44.421933+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111176",
-        "size_bytes": 1552734913
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111176",
-        "size_bytes": 1552734913,
-        "source_bytes_read": 1552734913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111176",
         "source_bytes_read": 1552734913,
         "elapsed_seconds": 239.094,
         "finished_at": "2026-11-17T06:36:22.655038+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111176",
+          "size_bytes": 1552734913,
+          "source_bytes_read": 1552734913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526565",
+        "source_url": "https://sdilej.cz/32526565/dobry-doktor-s01e09-aspekty-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111176",
+        "display_name": "The Good Doctor S01E09 Intangibles 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:36:31.685862+00:00"
       }
     },
     "583:1:10": {
@@ -542094,7 +542095,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:36:26.912918+00:00",
+  "updated_at": "2026-11-17T06:36:31.685877+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
