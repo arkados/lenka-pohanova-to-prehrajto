@@ -573821,12 +573821,6 @@
     },
     "1134:7:6": {
       "episode_key": "tráva:s7:e6",
-      "claim": {
-        "worker_id": "f5b764975a4c4b5d93317ce5b7c80a93-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:15:33.524096+00:00",
-        "lease_expires_at": "2026-11-18T04:15:33.524108+00:00"
-      },
       "source": {
         "source_id": "11271026",
         "source_url": "https://sdilej.cz/11271026/weeds.s07e06.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -573851,22 +573845,29 @@
         "display_name": "Weeds S07E06 Object Impermanence 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:15:44.904455+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130877",
-        "size_bytes": 997017040
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130877",
-        "size_bytes": 997017040,
-        "source_bytes_read": 997017040,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130877",
         "source_bytes_read": 997017040,
         "elapsed_seconds": 106.301,
         "finished_at": "2026-11-17T22:17:53.207415+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130877",
+          "size_bytes": 997017040,
+          "source_bytes_read": 997017040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11271026",
+        "source_url": "https://sdilej.cz/11271026/weeds.s07e06.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130877",
+        "display_name": "Weeds S07E06 Object Impermanence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:17:59.326586+00:00"
       }
     },
     "1134:7:7": {
@@ -573949,7 +573950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:17:53.207435+00:00",
+  "updated_at": "2026-11-17T22:17:59.326603+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
