@@ -574127,12 +574127,6 @@
     },
     "1134:7:13": {
       "episode_key": "tráva:s7:e13",
-      "claim": {
-        "worker_id": "106186f98362457e8fbb1c3898cebe42-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:19:57.528960+00:00",
-        "lease_expires_at": "2026-11-18T04:19:57.528973+00:00"
-      },
       "source": {
         "source_id": "11272044",
         "source_url": "https://sdilej.cz/11272044/weeds.s07e13.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -574157,22 +574151,29 @@
         "display_name": "Weeds S07E13 Do Her / Don't Do Her 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:20:02.809227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131022",
-        "size_bytes": 922402506
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131022",
-        "size_bytes": 922402506,
-        "source_bytes_read": 922402506,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131022",
         "source_bytes_read": 922402506,
         "elapsed_seconds": 68.387,
         "finished_at": "2026-11-17T22:21:32.259336+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131022",
+          "size_bytes": 922402506,
+          "source_bytes_read": 922402506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11272044",
+        "source_url": "https://sdilej.cz/11272044/weeds.s07e13.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131022",
+        "display_name": "Weeds S07E13 Do Her / Don't Do Her 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:21:38.192507+00:00"
       }
     },
     "1134:8:1": {
@@ -574255,7 +574256,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:21:32.259356+00:00",
+  "updated_at": "2026-11-17T22:21:38.192524+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
