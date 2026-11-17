@@ -561921,12 +561921,6 @@
     },
     "583:6:12": {
       "episode_key": "dobrý doktor:s6:e12",
-      "claim": {
-        "worker_id": "d498385ce80f48c9b77ed057b4114d9c-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:12:49.248238+00:00",
-        "lease_expires_at": "2026-11-18T00:12:49.248255+00:00"
-      },
       "source": {
         "source_id": "34669513",
         "source_url": "https://sdilej.cz/34669513/dobry-doktor-s06e12-365-stupnu.mkv",
@@ -561950,7 +561944,17 @@
         },
         "display_name": "The Good Doctor S06E12 365 Degrees 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:13:03.041633+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669513:https://sdilej.cz/34669513/dobry-doktor-s06e12-365-stupnu.mkv",
+        "at": "2026-11-17T18:13:21.236309+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:13:21.236356+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -561958,7 +561962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:13:16.213730+00:00",
+  "updated_at": "2026-11-17T18:13:21.236361+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -562302,16 +562306,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:6:8",
-          "at": "2026-11-17T18:01:18.597781+00:00"
-        },
-        {
-          "identity": "583:6:9",
-          "at": "2026-11-17T18:01:49.181982+00:00"
-        },
-        {
-          "identity": "583:6:10",
-          "at": "2026-11-17T18:02:24.620086+00:00"
+          "identity": "583:6:12",
+          "at": "2026-11-17T18:13:21.236309+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:12:24.620086+00:00"
