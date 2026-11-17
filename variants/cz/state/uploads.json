@@ -561864,12 +561864,6 @@
     },
     "1085:9:19": {
       "episode_key": "policie chicago:s9:e19",
-      "claim": {
-        "worker_id": "89c311ac76a741439800289be49941ca-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:11:45.078511+00:00",
-        "lease_expires_at": "2026-11-18T00:11:45.078527+00:00"
-      },
       "source": {
         "source_id": "27956296",
         "source_url": "https://sdilej.cz/27956296/policie-chicago-s09e19.mp4",
@@ -561893,7 +561887,17 @@
         },
         "display_name": "Chicago P.D. S09E19 Fool's Gold 1080p CZ Dabing",
         "prepared_at": "2026-11-17T18:12:03.391529+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27956296:https://sdilej.cz/27956296/policie-chicago-s09e19.mp4",
+        "at": "2026-11-17T18:12:22.618396+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:12:22.618429+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -561901,7 +561905,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:12:17.474909+00:00",
+  "updated_at": "2026-11-17T18:12:22.618435+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -562128,6 +562132,10 @@
         {
           "identity": "1085:9:18",
           "at": "2026-11-17T18:11:29.873694+00:00"
+        },
+        {
+          "identity": "1085:9:19",
+          "at": "2026-11-17T18:12:22.618396+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:06:28.323589+00:00"
