@@ -572583,12 +572583,6 @@
     },
     "1134:6:7": {
       "episode_key": "tráva:s6:e7",
-      "claim": {
-        "worker_id": "bd1c28760b5b4d75998666c611cd0824-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:59:40.107994+00:00",
-        "lease_expires_at": "2026-11-18T03:59:40.108004+00:00"
-      },
       "source": {
         "source_id": "11516725",
         "source_url": "https://sdilej.cz/11516725/weeds.s06e07.480p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -572613,22 +572607,29 @@
         "display_name": "Weeds S06E07 Pinwheels and Whirligigs SD CZ Dabing",
         "prepared_at": "2026-11-17T21:59:45.307218+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130379",
-        "size_bytes": 210356634
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130379",
-        "size_bytes": 210356634,
-        "source_bytes_read": 210356634,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130379",
         "source_bytes_read": 210356634,
         "elapsed_seconds": 17.14,
         "finished_at": "2026-11-17T22:00:25.463369+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130379",
+          "size_bytes": 210356634,
+          "source_bytes_read": 210356634,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11516725",
+        "source_url": "https://sdilej.cz/11516725/weeds.s06e07.480p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130379",
+        "display_name": "Weeds S06E07 Pinwheels and Whirligigs SD CZ Dabing",
+        "uploaded_at": "2026-11-17T22:00:40.680076+00:00"
       }
     },
     "1134:6:8": {
@@ -572670,7 +572671,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:00:34.625039+00:00",
+  "updated_at": "2026-11-17T22:00:40.680092+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
