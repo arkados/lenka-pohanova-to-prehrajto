@@ -547359,12 +547359,6 @@
     },
     "161:2:18": {
       "episode_key": "grimm:s2:e18",
-      "claim": {
-        "worker_id": "3bfb6272042f4873a22c84290ea46970-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:31:25.605996+00:00",
-        "lease_expires_at": "2026-11-17T14:31:25.606006+00:00"
-      },
       "source": {
         "source_id": "30215215",
         "source_url": "https://sdilej.cz/30215215/grimm-s02e18.mkv",
@@ -547389,22 +547383,29 @@
         "display_name": "Grimm S02E18 Volcanalis 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:31:31.524816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31113880",
-        "size_bytes": 2591748663
-      },
-      "transfer_receipt": {
-        "target_video_id": "31113880",
-        "size_bytes": 2591748663,
-        "source_bytes_read": 2591748663,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31113880",
         "source_bytes_read": 2591748663,
         "elapsed_seconds": 240.503,
         "finished_at": "2026-11-17T08:35:52.569641+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31113880",
+          "size_bytes": 2591748663,
+          "source_bytes_read": 2591748663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30215215",
+        "source_url": "https://sdilej.cz/30215215/grimm-s02e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31113880",
+        "display_name": "Grimm S02E18 Volcanalis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:35:59.404382+00:00"
       }
     },
     "161:2:19": {
@@ -547487,7 +547488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:35:52.569659+00:00",
+  "updated_at": "2026-11-17T08:35:59.404397+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
