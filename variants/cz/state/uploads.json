@@ -551555,12 +551555,6 @@
     },
     "161:5:22": {
       "episode_key": "grimm:s5:e22",
-      "claim": {
-        "worker_id": "fd3af1c73c374deb82ed277aced09854-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:16:53.802596+00:00",
-        "lease_expires_at": "2026-11-17T18:16:53.802604+00:00"
-      },
       "source": {
         "source_id": "30237736",
         "source_url": "https://sdilej.cz/30237736/grimm-s05e22.mkv",
@@ -551585,22 +551579,29 @@
         "display_name": "Grimm S05E22 1080p CZ Dabing",
         "prepared_at": "2026-11-17T12:17:02.332529+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31117909",
-        "size_bytes": 2560896445
-      },
-      "transfer_receipt": {
-        "target_video_id": "31117909",
-        "size_bytes": 2560896445,
-        "source_bytes_read": 2560896445,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31117909",
         "source_bytes_read": 2560896445,
         "elapsed_seconds": 459.208,
         "finished_at": "2026-11-17T12:25:13.742776+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31117909",
+          "size_bytes": 2560896445,
+          "source_bytes_read": 2560896445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30237736",
+        "source_url": "https://sdilej.cz/30237736/grimm-s05e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31117909",
+        "display_name": "Grimm S05E22 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:25:24.332585+00:00"
       }
     }
   },
@@ -551609,7 +551610,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:25:18.753171+00:00",
+  "updated_at": "2026-11-17T12:25:24.332600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
