@@ -563930,28 +563930,29 @@
           "at": "2026-11-17T19:19:16.943074+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d16539550dbe411cb1a5052d4073633c-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:19:21.702723+00:00",
-        "lease_expires_at": "2026-11-18T01:19:21.702736+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31125847",
-        "size_bytes": 1161424732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125847",
-        "size_bytes": 1161424732,
-        "source_bytes_read": 1161424732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125847",
         "source_bytes_read": 1161424732,
         "elapsed_seconds": 210.694,
         "finished_at": "2026-11-17T19:23:17.753073+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125847",
+          "size_bytes": 1161424732,
+          "source_bytes_read": 1161424732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433524",
+        "source_url": "https://sdilej.cz/34433524/elementary.s01e05.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125847",
+        "display_name": "Elementary S01E05 Lesser Evils 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:23:26.821864+00:00"
       }
     },
     "1098:1:6": {
@@ -564159,7 +564160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:23:17.753094+00:00",
+  "updated_at": "2026-11-17T19:23:26.821880+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
