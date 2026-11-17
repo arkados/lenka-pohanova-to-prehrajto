@@ -549717,12 +549717,6 @@
     },
     "161:4:8": {
       "episode_key": "grimm:s4:e8",
-      "claim": {
-        "worker_id": "dc6c15ceb140497286f8c8bece7a451c-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:45:51.615273+00:00",
-        "lease_expires_at": "2026-11-17T15:45:51.615282+00:00"
-      },
       "source": {
         "source_id": "8069135",
         "source_url": "https://sdilej.cz/8069135/grimm-s04e08-chupacabra.mkv",
@@ -549747,22 +549741,29 @@
         "display_name": "Grimm S04E08 Chupacabra 720p CZ Dabing",
         "prepared_at": "2026-11-17T09:46:02.065844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115102",
-        "size_bytes": 375339474
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115102",
-        "size_bytes": 375339474,
-        "source_bytes_read": 375339474,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115102",
         "source_bytes_read": 375339474,
         "elapsed_seconds": 35.242,
         "finished_at": "2026-11-17T09:47:16.245791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115102",
+          "size_bytes": 375339474,
+          "source_bytes_read": 375339474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8069135",
+        "source_url": "https://sdilej.cz/8069135/grimm-s04e08-chupacabra.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115102",
+        "display_name": "Grimm S04E08 Chupacabra 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T09:47:27.047898+00:00"
       }
     }
   },
@@ -549771,7 +549772,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:47:22.707974+00:00",
+  "updated_at": "2026-11-17T09:47:27.047912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
