@@ -542319,12 +542319,6 @@
     },
     "1085:4:6": {
       "episode_key": "policie chicago:s4:e6",
-      "claim": {
-        "worker_id": "9fd64986a84845d09088ce8302b7a719-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:41:43.768434+00:00",
-        "lease_expires_at": "2026-11-17T12:41:43.768444+00:00"
-      },
       "source": {
         "source_id": "30987758",
         "source_url": "https://sdilej.cz/30987758/chicago-p.d.-policie-chicago-s04e06-czdab-x264.mkv",
@@ -542348,7 +542342,17 @@
         },
         "display_name": "Chicago P.D. S04E06 Some Friend 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:41:49.773873+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987758:https://sdilej.cz/30987758/chicago-p.d.-policie-chicago-s04e06-czdab-x264.mkv",
+        "at": "2026-11-17T06:42:04.786229+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:42:04.786283+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -542356,7 +542360,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:42:01.260838+00:00",
+  "updated_at": "2026-11-17T06:42:04.786289+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -542589,19 +542593,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:4:2",
-          "at": "2026-11-17T06:41:00.504744+00:00"
-        },
-        {
           "identity": "1085:4:4",
           "at": "2026-11-17T06:41:32.025169+00:00"
         },
         {
           "identity": "1085:4:5",
           "at": "2026-11-17T06:41:39.948926+00:00"
+        },
+        {
+          "identity": "1085:4:6",
+          "at": "2026-11-17T06:42:04.786229+00:00"
         }
       ],
-      "retry_after": "2026-11-17T06:51:39.948926+00:00"
+      "retry_after": "2026-11-17T06:52:04.786229+00:00"
     },
     "1820": {
       "recent_failures": [
