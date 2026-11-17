@@ -563493,28 +563493,29 @@
           "at": "2026-11-17T19:06:54.080367+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5b1433ee2c3f49b7a6112d30d82afe7c-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:06:58.524039+00:00",
-        "lease_expires_at": "2026-11-18T01:06:58.524051+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31125472",
-        "size_bytes": 1418129921
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125472",
-        "size_bytes": 1418129921,
-        "source_bytes_read": 1418129921,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125472",
         "source_bytes_read": 1418129921,
         "elapsed_seconds": 475.183,
         "finished_at": "2026-11-17T19:15:17.450485+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125472",
+          "size_bytes": 1418129921,
+          "source_bytes_read": 1418129921,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433494",
+        "source_url": "https://sdilej.cz/34433494/elementary.s01e01.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125472",
+        "display_name": "Elementary S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:15:26.174244+00:00"
       }
     },
     "1098:1:2": {
@@ -563835,7 +563836,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:15:17.450504+00:00",
+  "updated_at": "2026-11-17T19:15:26.174261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
