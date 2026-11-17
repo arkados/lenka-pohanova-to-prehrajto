@@ -577135,28 +577135,29 @@
           "at": "2026-11-17T23:13:28.205054+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "cad8cf8f94974f7fad0b314dd019bd89-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:13:32.453799+00:00",
-        "lease_expires_at": "2026-11-18T05:13:32.453815+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31132747",
-        "size_bytes": 579401626
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132747",
-        "size_bytes": 579401626,
-        "source_bytes_read": 579401626,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132747",
         "source_bytes_read": 579401626,
         "elapsed_seconds": 40.679,
         "finished_at": "2026-11-17T23:14:39.323901+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132747",
+          "size_bytes": 579401626,
+          "source_bytes_read": 579401626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431641",
+        "source_url": "https://sdilej.cz/34431641/elementary.s05e15.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132747",
+        "display_name": "Elementary S05E15 Wrong Side of the Road (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:14:55.349033+00:00"
       }
     }
   },
@@ -577165,7 +577166,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:14:51.011101+00:00",
+  "updated_at": "2026-11-17T23:14:55.349048+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
