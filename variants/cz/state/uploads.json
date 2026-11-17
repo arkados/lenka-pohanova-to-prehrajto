@@ -354749,28 +354749,29 @@
           "at": "2026-11-17T03:08:44.412041+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2c844f434de548e9944a2085ab274315-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T03:08:48.275357+00:00",
-        "lease_expires_at": "2026-11-17T09:08:48.275367+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31106503",
-        "size_bytes": 891035696
-      },
-      "transfer_receipt": {
-        "target_video_id": "31106503",
-        "size_bytes": 891035696,
-        "source_bytes_read": 891035696,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31106503",
         "source_bytes_read": 891035696,
         "elapsed_seconds": 60.582,
         "finished_at": "2026-11-17T03:10:13.532828+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31106503",
+          "size_bytes": 891035696,
+          "source_bytes_read": 891035696,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504690",
+        "source_url": "https://sdilej.cz/32504690/zivi-mrtvi-s08e13-nenech-nas-sejit-z-cesty.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31106503",
+        "display_name": "The Walking Dead S08E13 Do Not Send Us Astray 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T03:10:23.473712+00:00"
       }
     },
     "561:8:14": {
@@ -534329,7 +534330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T03:10:17.893353+00:00",
+  "updated_at": "2026-11-17T03:10:23.473727+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
