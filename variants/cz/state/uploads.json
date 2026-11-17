@@ -557806,12 +557806,6 @@
     },
     "1085:8:11": {
       "episode_key": "policie chicago:s8:e11",
-      "claim": {
-        "worker_id": "701f7a4aa6ba4b5abf57f9402d9090dd-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:33:42.842222+00:00",
-        "lease_expires_at": "2026-11-17T20:33:42.842232+00:00"
-      },
       "source": {
         "source_id": "27932879",
         "source_url": "https://sdilej.cz/27932879/policie-chicago-s08e11.mp4",
@@ -557835,7 +557829,17 @@
         },
         "display_name": "Chicago P.D. S08E11 Signs of Violence 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:33:53.225958+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27932879:https://sdilej.cz/27932879/policie-chicago-s08e11.mp4",
+        "at": "2026-11-17T14:34:09.714394+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T14:34:09.714428+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:8:12": {
       "episode_key": "policie chicago:s8:e12",
@@ -557852,7 +557856,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:34:05.481641+00:00",
+  "updated_at": "2026-11-17T14:34:09.714434+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -558079,6 +558083,10 @@
         {
           "identity": "1085:8:9",
           "at": "2026-11-17T14:32:48.631253+00:00"
+        },
+        {
+          "identity": "1085:8:11",
+          "at": "2026-11-17T14:34:09.714394+00:00"
         }
       ],
       "retry_after": "2026-11-17T14:31:55.768181+00:00"
