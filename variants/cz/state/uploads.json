@@ -575246,12 +575246,6 @@
     },
     "1098:4:15": {
       "episode_key": "jak prosté:s4:e15",
-      "claim": {
-        "worker_id": "d5ef4175d0af43b4a4675bf79cf3efca-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:40:22.193729+00:00",
-        "lease_expires_at": "2026-11-18T04:40:22.193746+00:00"
-      },
       "source": {
         "source_id": "28201640",
         "source_url": "https://sdilej.cz/28201640/jak-proste-s04e15.mkv",
@@ -575276,22 +575270,29 @@
         "display_name": "Elementary S04E15 Up to Heaven and Down to Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:40:27.078120+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131631",
-        "size_bytes": 645196474
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131631",
-        "size_bytes": 645196474,
-        "source_bytes_read": 645196474,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131631",
         "source_bytes_read": 645196474,
         "elapsed_seconds": 146.956,
         "finished_at": "2026-11-17T22:43:19.115396+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131631",
+          "size_bytes": 645196474,
+          "source_bytes_read": 645196474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201640",
+        "source_url": "https://sdilej.cz/28201640/jak-proste-s04e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131631",
+        "display_name": "Elementary S04E15 Up to Heaven and Down to Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:43:32.454557+00:00"
       }
     },
     "1098:4:16": {
@@ -575411,7 +575412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:43:28.316537+00:00",
+  "updated_at": "2026-11-17T22:43:32.454574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
