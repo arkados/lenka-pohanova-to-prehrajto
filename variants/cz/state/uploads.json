@@ -577703,12 +577703,6 @@
     },
     "1098:5:20": {
       "episode_key": "jak prosté:s5:e20",
-      "claim": {
-        "worker_id": "4952a5110b30498e898acd3465a3fab1-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:24:04.250153+00:00",
-        "lease_expires_at": "2026-11-18T05:24:04.250174+00:00"
-      },
       "source": {
         "source_id": "34434112",
         "source_url": "https://sdilej.cz/34434112/elementary-s05e20-cz-dabing-1080p-full-hd.mkv",
@@ -577732,7 +577726,17 @@
         },
         "display_name": "Elementary S05E20 The Art of Sleights and Deception 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:24:17.251507+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434112:https://sdilej.cz/34434112/elementary-s05e20-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:24:47.190109+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:24:47.190199+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -577740,7 +577744,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:24:42.112285+00:00",
+  "updated_at": "2026-11-17T23:24:47.190209+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578147,19 +578151,19 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:5:17",
-          "at": "2026-11-17T23:23:37.379377+00:00"
-        },
-        {
           "identity": "1098:5:18",
           "at": "2026-11-17T23:24:08.112940+00:00"
         },
         {
           "identity": "1098:5:19",
           "at": "2026-11-17T23:24:25.179150+00:00"
+        },
+        {
+          "identity": "1098:5:20",
+          "at": "2026-11-17T23:24:47.190109+00:00"
         }
       ],
-      "retry_after": "2026-11-17T23:34:25.179150+00:00"
+      "retry_after": "2026-11-17T23:34:47.190109+00:00"
     },
     "581": {
       "recent_failures": [
