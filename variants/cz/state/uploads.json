@@ -569233,12 +569233,6 @@
     },
     "1098:2:19": {
       "episode_key": "jak prosté:s2:e19",
-      "claim": {
-        "worker_id": "77d828208cbf4283b8cf83ef64897452-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:10:14.051135+00:00",
-        "lease_expires_at": "2026-11-18T03:10:14.051155+00:00"
-      },
       "source": {
         "source_id": "34432691",
         "source_url": "https://sdilej.cz/34432691/elementary-s02e19-cz-dabing-1080p-full-hd.mkv",
@@ -569262,7 +569256,17 @@
         },
         "display_name": "Elementary S02E19 The Many Mouths of Aaron Colville 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:10:18.922494+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432691:https://sdilej.cz/34432691/elementary-s02e19-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:10:31.082360+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:10:31.082398+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -569270,7 +569274,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:10:18.922512+00:00",
+  "updated_at": "2026-11-17T21:10:31.082404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -569679,6 +569683,10 @@
         {
           "identity": "1098:2:16",
           "at": "2026-11-17T21:09:16.086251+00:00"
+        },
+        {
+          "identity": "1098:2:19",
+          "at": "2026-11-17T21:10:31.082360+00:00"
         }
       ],
       "retry_after": "2026-11-17T21:06:53.391914+00:00"
