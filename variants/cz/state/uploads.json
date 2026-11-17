@@ -549921,12 +549921,6 @@
     },
     "161:4:14": {
       "episode_key": "grimm:s4:e14",
-      "claim": {
-        "worker_id": "da442aacff174d7cae8f709c512b7693-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:48:39.355808+00:00",
-        "lease_expires_at": "2026-11-17T15:48:39.355819+00:00"
-      },
       "source": {
         "source_id": "31981086",
         "source_url": "https://sdilej.cz/31981086/grimm-s04e14.mp4",
@@ -549951,22 +549945,29 @@
         "display_name": "Grimm S04E14 Bad Luck SD CZ Dabing",
         "prepared_at": "2026-11-17T09:48:47.459627+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115140",
-        "size_bytes": 234280601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115140",
-        "size_bytes": 234280601,
-        "source_bytes_read": 234280601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115140",
         "source_bytes_read": 234280601,
         "elapsed_seconds": 26.426,
         "finished_at": "2026-11-17T09:49:36.585675+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115140",
+          "size_bytes": 234280601,
+          "source_bytes_read": 234280601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981086",
+        "source_url": "https://sdilej.cz/31981086/grimm-s04e14.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115140",
+        "display_name": "Grimm S04E14 Bad Luck SD CZ Dabing",
+        "uploaded_at": "2026-11-17T09:49:41.659632+00:00"
       }
     },
     "161:4:15": {
@@ -550012,7 +550013,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:49:36.585691+00:00",
+  "updated_at": "2026-11-17T09:49:41.659649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
