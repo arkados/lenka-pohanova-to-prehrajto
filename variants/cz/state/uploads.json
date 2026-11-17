@@ -539931,28 +539931,29 @@
           "at": "2026-11-17T05:28:55.281785+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5e91473f883f40d19809d5c44d3cbb26-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:28:58.921436+00:00",
-        "lease_expires_at": "2026-11-17T11:28:58.921447+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109511",
-        "size_bytes": 832911944
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109511",
-        "size_bytes": 832911944,
-        "source_bytes_read": 832911944,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109511",
         "source_bytes_read": 832911944,
         "elapsed_seconds": 68.492,
         "finished_at": "2026-11-17T05:30:27.593763+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109511",
+          "size_bytes": 832911944,
+          "source_bytes_read": 832911944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942254",
+        "source_url": "https://sdilej.cz/34942254/chicago-p.d.-s03e07-046-2015-hd-mrtvy-chalpec-denik-a-spousta-moznosti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109511",
+        "display_name": "Chicago P.D. S03E07 A Dead Kid, a Notebook and a Lot of Maybes 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:30:32.889728+00:00"
       }
     }
   },
@@ -539961,7 +539962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:30:27.593781+00:00",
+  "updated_at": "2026-11-17T05:30:32.889745+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
