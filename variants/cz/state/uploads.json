@@ -543308,28 +543308,29 @@
           "at": "2026-11-17T12:48:03.307596+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a7f44be1b6834bf4970aa7d95bec3423-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:48:07.264977+00:00",
-        "lease_expires_at": "2026-11-17T18:48:07.264990+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118604",
-        "size_bytes": 1573474019
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118604",
-        "size_bytes": 1573474019,
-        "source_bytes_read": 1573474019,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118604",
         "source_bytes_read": 1573474019,
         "elapsed_seconds": 114.04,
         "finished_at": "2026-11-17T12:50:43.926367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118604",
+          "size_bytes": 1573474019,
+          "source_bytes_read": 1573474019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526841",
+        "source_url": "https://sdilej.cz/32526841/dobry-doktor-s02e16-vira-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118604",
+        "display_name": "The Good Doctor S02E16 Believe 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T12:50:58.072452+00:00"
       }
     },
     "583:2:17": {
@@ -552691,7 +552692,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:50:51.931691+00:00",
+  "updated_at": "2026-11-17T12:50:58.072467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
