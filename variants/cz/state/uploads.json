@@ -494410,28 +494410,29 @@
           "at": "2026-11-17T06:38:06.031919+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "6808b40a619c43c3953680442ecd5ae8-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:38:09.466060+00:00",
-        "lease_expires_at": "2026-11-17T12:38:09.466071+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111327",
-        "size_bytes": 1003540679
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111327",
-        "size_bytes": 1003540679,
-        "source_bytes_read": 1003540679,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111327",
         "source_bytes_read": 1003540679,
         "elapsed_seconds": 73.892,
         "finished_at": "2026-11-17T06:39:42.739797+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111327",
+          "size_bytes": 1003540679,
+          "source_bytes_read": 1003540679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35489515",
+        "source_url": "https://sdilej.cz/35489515/dobry-doktor-s01e13-sedm-duvodu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111327",
+        "display_name": "The Good Doctor S01E13 Seven Reasons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T06:39:49.616105+00:00"
       }
     },
     "583:1:14": {
@@ -542188,7 +542189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:39:42.739817+00:00",
+  "updated_at": "2026-11-17T06:39:49.616121+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
