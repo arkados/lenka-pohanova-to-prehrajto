@@ -544010,12 +544010,6 @@
     },
     "583:3:11": {
       "episode_key": "dobrý doktor:s3:e11",
-      "claim": {
-        "worker_id": "5f3d2641fc084be78285ae7a789f8c52-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:19:46.187400+00:00",
-        "lease_expires_at": "2026-11-17T13:19:46.187410+00:00"
-      },
       "source": {
         "source_id": "34668688",
         "source_url": "https://sdilej.cz/34668688/dobry-doktor-s03e11-zlomenina.mkv",
@@ -544039,7 +544033,17 @@
         },
         "display_name": "The Good Doctor S03E11 Fractured 4K CZ Dabing",
         "prepared_at": "2026-11-17T07:19:52.055492+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668688:https://sdilej.cz/34668688/dobry-doktor-s03e11-zlomenina.mkv",
+        "at": "2026-11-17T07:20:03.892381+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T07:20:03.892414+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:3:12": {
       "episode_key": "dobrý doktor:s3:e12",
@@ -544080,7 +544084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:19:59.826875+00:00",
+  "updated_at": "2026-11-17T07:20:03.892418+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -544438,6 +544442,10 @@
         {
           "identity": "583:3:9",
           "at": "2026-11-17T07:19:42.141964+00:00"
+        },
+        {
+          "identity": "583:3:11",
+          "at": "2026-11-17T07:20:03.892381+00:00"
         }
       ],
       "retry_after": "2026-11-17T07:17:06.372667+00:00"
