@@ -574615,12 +574615,6 @@
     },
     "1098:4:12": {
       "episode_key": "jak prosté:s4:e12",
-      "claim": {
-        "worker_id": "080976c4d24f498280f2b22e01eb1bad-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:25:25.353696+00:00",
-        "lease_expires_at": "2026-11-18T04:25:25.353709+00:00"
-      },
       "source": {
         "source_id": "28201603",
         "source_url": "https://sdilej.cz/28201603/jak-proste-s04e12.mkv",
@@ -574645,22 +574639,29 @@
         "display_name": "Elementary S04E12 A View With a Room 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:25:38.228351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131189",
-        "size_bytes": 672827716
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131189",
-        "size_bytes": 672827716,
-        "source_bytes_read": 672827716,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131189",
         "source_bytes_read": 672827716,
         "elapsed_seconds": 49.993,
         "finished_at": "2026-11-17T22:26:59.502657+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131189",
+          "size_bytes": 672827716,
+          "source_bytes_read": 672827716,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201603",
+        "source_url": "https://sdilej.cz/28201603/jak-proste-s04e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131189",
+        "display_name": "Elementary S04E12 A View With a Room 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:27:05.252197+00:00"
       }
     },
     "1098:4:13": {
@@ -574706,7 +574707,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:26:59.502677+00:00",
+  "updated_at": "2026-11-17T22:27:05.252217+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
