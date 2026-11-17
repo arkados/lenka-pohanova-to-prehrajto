@@ -577441,12 +577441,6 @@
     },
     "601:1:5": {
       "episode_key": "to: vítejte v derry:s1:e5",
-      "claim": {
-        "worker_id": "e48cba912c724bbcaedc2abdac2b9366-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:17:32.276994+00:00",
-        "lease_expires_at": "2026-11-18T05:17:32.277010+00:00"
-      },
       "source": {
         "source_id": "32700040",
         "source_url": "https://sdilej.cz/32700040/to-vitejte-v-derry-s01e05-29-neibolt-street.mkv",
@@ -577471,22 +577465,29 @@
         "display_name": "IT: Welcome to Derry S01E05 Neibolt Street 4K CZ Dabing",
         "prepared_at": "2026-11-17T23:17:45.017274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132842",
-        "size_bytes": 2618662426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132842",
-        "size_bytes": 2618662426,
-        "source_bytes_read": 2618662426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132842",
         "source_bytes_read": 2618662426,
         "elapsed_seconds": 261.311,
         "finished_at": "2026-11-17T23:22:41.217079+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132842",
+          "size_bytes": 2618662426,
+          "source_bytes_read": 2618662426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700040",
+        "source_url": "https://sdilej.cz/32700040/to-vitejte-v-derry-s01e05-29-neibolt-street.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132842",
+        "display_name": "IT: Welcome to Derry S01E05 Neibolt Street 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T23:22:51.220908+00:00"
       }
     },
     "601:1:6": {
@@ -577532,7 +577533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:22:46.865589+00:00",
+  "updated_at": "2026-11-17T23:22:51.220925+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
