@@ -502876,28 +502876,29 @@
           "at": "2026-11-17T06:47:48.680884+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "93e88b0efac0422f8d05c1fee7d13117-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:47:52.354574+00:00",
-        "lease_expires_at": "2026-11-17T12:47:52.354583+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111564",
-        "size_bytes": 765172646
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111564",
-        "size_bytes": 765172646,
-        "source_bytes_read": 765172646,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111564",
         "source_bytes_read": 765172646,
         "elapsed_seconds": 55.592,
         "finished_at": "2026-11-17T06:49:18.082666+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111564",
+          "size_bytes": 765172646,
+          "source_bytes_read": 765172646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13234485",
+        "source_url": "https://sdilej.cz/13234485/the.good.doctor.s02e14.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111564",
+        "display_name": "The Good Doctor S02E14 Faces 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T06:49:23.849954+00:00"
       }
     },
     "1326:1:1": {
@@ -542703,7 +542704,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:49:18.082682+00:00",
+  "updated_at": "2026-11-17T06:49:23.849970+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
