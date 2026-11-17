@@ -556547,12 +556547,6 @@
     },
     "1085:7:8": {
       "episode_key": "policie chicago:s7:e8",
-      "claim": {
-        "worker_id": "4b11f91bdf7445cb8e84a0026cf629ab-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:11:57.122309+00:00",
-        "lease_expires_at": "2026-11-17T20:11:57.122319+00:00"
-      },
       "source": {
         "source_id": "30290304",
         "source_url": "https://sdilej.cz/30290304/chicago-p.d.-policie-chicago-s07e08-czdab.mp4",
@@ -556577,22 +556571,29 @@
         "display_name": "Chicago P.D. S07E08 No Regrets SD CZ Dabing",
         "prepared_at": "2026-11-17T14:12:14.329949+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31120041",
-        "size_bytes": 435901053
-      },
-      "transfer_receipt": {
-        "target_video_id": "31120041",
-        "size_bytes": 435901053,
-        "source_bytes_read": 435901053,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31120041",
         "source_bytes_read": 435901053,
         "elapsed_seconds": 54.606,
         "finished_at": "2026-11-17T14:13:39.441192+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31120041",
+          "size_bytes": 435901053,
+          "source_bytes_read": 435901053,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290304",
+        "source_url": "https://sdilej.cz/30290304/chicago-p.d.-policie-chicago-s07e08-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31120041",
+        "display_name": "Chicago P.D. S07E08 No Regrets SD CZ Dabing",
+        "uploaded_at": "2026-11-17T14:13:54.008578+00:00"
       }
     },
     "1085:7:9": {
@@ -556702,7 +556703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:13:49.069141+00:00",
+  "updated_at": "2026-11-17T14:13:54.008593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
