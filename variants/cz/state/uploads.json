@@ -545320,12 +545320,6 @@
     },
     "1553:5:9": {
       "episode_key": "fresh prince:s5:e9",
-      "claim": {
-        "worker_id": "c0b406fe68144b74baddeb513104203d-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:33:46.563853+00:00",
-        "lease_expires_at": "2026-11-17T13:33:46.563862+00:00"
-      },
       "source": {
         "source_id": "26360746",
         "source_url": "https://sdilej.cz/26360746/the-fresh-prince-of-bel-air-s05e09-love-hurts.mkv",
@@ -545350,22 +545344,29 @@
         "display_name": "The Fresh Prince of Bel-Air S05E09 Love Hurts 1080p CZ Dabing",
         "prepared_at": "2026-11-17T07:33:54.459288+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112516",
-        "size_bytes": 1464859384
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112516",
-        "size_bytes": 1464859384,
-        "source_bytes_read": 1464859384,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112516",
         "source_bytes_read": 1464859384,
         "elapsed_seconds": 156.348,
         "finished_at": "2026-11-17T07:36:48.664360+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112516",
+          "size_bytes": 1464859384,
+          "source_bytes_read": 1464859384,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26360746",
+        "source_url": "https://sdilej.cz/26360746/the-fresh-prince-of-bel-air-s05e09-love-hurts.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112516",
+        "display_name": "The Fresh Prince of Bel-Air S05E09 Love Hurts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:36:55.562362+00:00"
       }
     },
     "1553:5:16": {
@@ -545411,7 +545412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:36:48.664379+00:00",
+  "updated_at": "2026-11-17T07:36:55.562380+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
