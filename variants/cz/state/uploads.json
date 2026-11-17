@@ -564291,12 +564291,6 @@
     },
     "1098:1:10": {
       "episode_key": "jak prosté:s1:e10",
-      "claim": {
-        "worker_id": "977b255ef4054c869b364b532ddfa1cc-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:33:36.956131+00:00",
-        "lease_expires_at": "2026-11-18T01:33:36.956143+00:00"
-      },
       "source": {
         "source_id": "34432220",
         "source_url": "https://sdilej.cz/34432220/elementary-s01e10-cz-dabing-1080p-full-hd.mkv",
@@ -564320,7 +564314,17 @@
         },
         "display_name": "Elementary S01E10 The Leviathan 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:33:42.112713+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432220:https://sdilej.cz/34432220/elementary-s01e10-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:33:57.881510+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:33:57.881553+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -564328,7 +564332,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:33:48.919461+00:00",
+  "updated_at": "2026-11-17T19:33:57.881558+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564743,16 +564747,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:1:5",
-          "at": "2026-11-17T19:16:23.605858+00:00"
-        },
-        {
-          "identity": "1098:1:7",
-          "at": "2026-11-17T19:20:33.194558+00:00"
-        },
-        {
-          "identity": "1098:1:8",
-          "at": "2026-11-17T19:21:04.745565+00:00"
+          "identity": "1098:1:10",
+          "at": "2026-11-17T19:33:57.881510+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:31:04.745565+00:00"
