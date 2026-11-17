@@ -574331,12 +574331,6 @@
     },
     "1098:4:5": {
       "episode_key": "jak prosté:s4:e5",
-      "claim": {
-        "worker_id": "17f163ce9c87487fa48f67db5c57bf60-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:22:29.398495+00:00",
-        "lease_expires_at": "2026-11-18T04:22:29.398510+00:00"
-      },
       "source": {
         "source_id": "28201533",
         "source_url": "https://sdilej.cz/28201533/jak-proste-s04e05.mkv",
@@ -574361,22 +574355,29 @@
         "display_name": "Elementary S04E05 The Games Underfoot 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:22:34.528094+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131090",
-        "size_bytes": 649302540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131090",
-        "size_bytes": 649302540,
-        "source_bytes_read": 649302540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131090",
         "source_bytes_read": 649302540,
         "elapsed_seconds": 43.823,
         "finished_at": "2026-11-17T22:23:46.136893+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131090",
+          "size_bytes": 649302540,
+          "source_bytes_read": 649302540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201533",
+        "source_url": "https://sdilej.cz/28201533/jak-proste-s04e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131090",
+        "display_name": "Elementary S04E05 The Games Underfoot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:23:56.926917+00:00"
       }
     },
     "1098:4:6": {
@@ -574458,7 +574459,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:23:50.393012+00:00",
+  "updated_at": "2026-11-17T22:23:56.926933+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
