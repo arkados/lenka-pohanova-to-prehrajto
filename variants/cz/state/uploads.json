@@ -552027,12 +552027,6 @@
     },
     "1085:4:16": {
       "episode_key": "policie chicago:s4:e16",
-      "claim": {
-        "worker_id": "5ecf498abf154eec88360f9bb5848baf-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:35:13.146386+00:00",
-        "lease_expires_at": "2026-11-17T18:35:13.146396+00:00"
-      },
       "source": {
         "source_id": "30987783",
         "source_url": "https://sdilej.cz/30987783/chicago-p.d.-policie-chicago-s04e16-czdab-x264.mkv",
@@ -552056,7 +552050,17 @@
         },
         "display_name": "Chicago P.D. S04E16 Emotional Proximity (II) 720p CZ Dabing",
         "prepared_at": "2026-11-17T12:35:25.041671+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987783:https://sdilej.cz/30987783/chicago-p.d.-policie-chicago-s04e16-czdab-x264.mkv",
+        "at": "2026-11-17T12:35:37.583857+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T12:35:37.583897+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -552064,7 +552068,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:35:25.041689+00:00",
+  "updated_at": "2026-11-17T12:35:37.583902+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -552289,16 +552293,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:3:23",
-          "at": "2026-11-17T12:12:41.819131+00:00"
-        },
-        {
-          "identity": "1085:4:1",
-          "at": "2026-11-17T12:12:47.730287+00:00"
-        },
-        {
-          "identity": "1085:4:2",
-          "at": "2026-11-17T12:12:53.368133+00:00"
+          "identity": "1085:4:16",
+          "at": "2026-11-17T12:35:37.583857+00:00"
         }
       ],
       "retry_after": "2026-11-17T12:22:53.368133+00:00"
