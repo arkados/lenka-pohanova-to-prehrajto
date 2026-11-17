@@ -480924,28 +480924,29 @@
           "at": "2026-11-17T06:18:53.671733+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "941e4e8ef4a443db9df4b05535665399-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:18:57.451391+00:00",
-        "lease_expires_at": "2026-11-17T12:18:57.451402+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110823",
-        "size_bytes": 558895344
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110823",
-        "size_bytes": 558895344,
-        "source_bytes_read": 558895344,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110823",
         "source_bytes_read": 558895344,
         "elapsed_seconds": 48.984,
         "finished_at": "2026-11-17T06:20:18.608644+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110823",
+          "size_bytes": 558895344,
+          "source_bytes_read": 558895344,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34939130",
+        "source_url": "https://sdilej.cz/34939130/reacher.s04e06.plum.out.of.luck.cz.dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110823",
+        "display_name": "Reacher S04E06 Plum Out of Luck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T06:20:30.943550+00:00"
       }
     },
     "277:4:7": {
@@ -541687,7 +541688,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:20:27.368452+00:00",
+  "updated_at": "2026-11-17T06:20:30.943565+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
