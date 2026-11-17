@@ -473919,28 +473919,29 @@
           "at": "2026-11-17T05:31:25.054667+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8676c3d654ea4e82a0b3d6724f78bfa4-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:31:28.514428+00:00",
-        "lease_expires_at": "2026-11-17T11:31:28.514438+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109592",
-        "size_bytes": 2398614272
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109592",
-        "size_bytes": 2398614272,
-        "source_bytes_read": 2398614272,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109592",
         "source_bytes_read": 2398614272,
         "elapsed_seconds": 446.045,
         "finished_at": "2026-11-17T05:39:13.800232+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109592",
+          "size_bytes": 2398614272,
+          "source_bytes_read": 2398614272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901588",
+        "source_url": "https://sdilej.cz/34901588/lucifer-s05e04-s-kuraty-to-vzdycky-spatne-skonci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109592",
+        "display_name": "Lucifer S05E04 It Never Ends Well for the Chicken 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T05:39:24.806652+00:00"
       }
     },
     "30:5:5": {
@@ -540380,7 +540381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:39:21.350048+00:00",
+  "updated_at": "2026-11-17T05:39:24.806668+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
