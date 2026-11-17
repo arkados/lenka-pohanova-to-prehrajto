@@ -543173,12 +543173,6 @@
     },
     "161:1:11": {
       "episode_key": "grimm:s1:e11",
-      "claim": {
-        "worker_id": "a46cd9aaa61f4dabb0b01f36c784271c-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:07:14.818633+00:00",
-        "lease_expires_at": "2026-11-17T13:07:14.818643+00:00"
-      },
       "source": {
         "source_id": "28260518",
         "source_url": "https://sdilej.cz/28260518/grimm-s01e11-1080p-10kbs.mkv",
@@ -543203,22 +543197,29 @@
         "display_name": "Grimm S01E11 Tarantella 1080p CZ Dabing",
         "prepared_at": "2026-11-17T07:07:23.563173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31111967",
-        "size_bytes": 566139900
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111967",
-        "size_bytes": 566139900,
-        "source_bytes_read": 566139900,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111967",
         "source_bytes_read": 566139900,
         "elapsed_seconds": 73.304,
         "finished_at": "2026-11-17T07:09:00.416501+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111967",
+          "size_bytes": 566139900,
+          "source_bytes_read": 566139900,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28260518",
+        "source_url": "https://sdilej.cz/28260518/grimm-s01e11-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111967",
+        "display_name": "Grimm S01E11 Tarantella 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:09:10.035228+00:00"
       }
     },
     "161:1:13": {
@@ -543277,7 +543278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:09:06.288884+00:00",
+  "updated_at": "2026-11-17T07:09:10.035242+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
