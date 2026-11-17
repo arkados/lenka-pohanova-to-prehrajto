@@ -578920,12 +578920,6 @@
     },
     "1098:6:10": {
       "episode_key": "jak prosté:s6:e10",
-      "claim": {
-        "worker_id": "02626e81d11647ab87d0f0c74ad8dc67-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:58:50.475559+00:00",
-        "lease_expires_at": "2026-11-18T05:58:50.475574+00:00"
-      },
       "source": {
         "source_id": "34434801",
         "source_url": "https://sdilej.cz/34434801/elementary-s06e10-cz-dabing-1080p-full-hd.mkv",
@@ -578949,7 +578943,17 @@
         },
         "display_name": "Elementary S06E10 The Adventure of the Ersatz Sobekneferu 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:58:55.230870+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434801:https://sdilej.cz/34434801/elementary-s06e10-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:59:07.122659+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:59:07.122697+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -578957,7 +578961,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:58:55.230887+00:00",
+  "updated_at": "2026-11-17T23:59:07.122704+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -579366,6 +579370,10 @@
         {
           "identity": "1098:6:9",
           "at": "2026-11-17T23:58:40.117747+00:00"
+        },
+        {
+          "identity": "1098:6:10",
+          "at": "2026-11-17T23:59:07.122659+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:49:36.763101+00:00"
