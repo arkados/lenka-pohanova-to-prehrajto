@@ -561479,12 +561479,6 @@
     },
     "583:6:10": {
       "episode_key": "dobrý doktor:s6:e10",
-      "claim": {
-        "worker_id": "08e46f49ac9b44e5a5dd92127e8a9b8f-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:02:01.504138+00:00",
-        "lease_expires_at": "2026-11-18T00:02:01.504151+00:00"
-      },
       "source": {
         "source_id": "34669494",
         "source_url": "https://sdilej.cz/34669494/dobry-doktor-s06e10-potichu-a-nahlas.mkv",
@@ -561508,7 +561502,17 @@
         },
         "display_name": "The Good Doctor S06E10 Quiet and Loud 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:02:11.164270+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669494:https://sdilej.cz/34669494/dobry-doktor-s06e10-potichu-a-nahlas.mkv",
+        "at": "2026-11-17T18:02:24.620086+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:02:24.620162+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -561516,7 +561520,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:02:15.311390+00:00",
+  "updated_at": "2026-11-17T18:02:24.620171+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -561870,9 +561874,13 @@
         {
           "identity": "583:6:9",
           "at": "2026-11-17T18:01:49.181982+00:00"
+        },
+        {
+          "identity": "583:6:10",
+          "at": "2026-11-17T18:02:24.620086+00:00"
         }
       ],
-      "retry_after": "2026-11-17T17:36:44.999431+00:00"
+      "retry_after": "2026-11-17T18:12:24.620086+00:00"
     },
     "1603": {
       "recent_failures": [
