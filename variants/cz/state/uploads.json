@@ -562708,12 +562708,6 @@
     },
     "583:7:3": {
       "episode_key": "dobrý doktor:s7:e3",
-      "claim": {
-        "worker_id": "0018a6aac22d491a8b05a65de1e7db06-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:38:20.415106+00:00",
-        "lease_expires_at": "2026-11-18T00:38:20.415117+00:00"
-      },
       "source": {
         "source_id": "34669874",
         "source_url": "https://sdilej.cz/34669874/dobry-doktor-s07e03-kriticka-podpora.mkv",
@@ -562737,7 +562731,17 @@
         },
         "display_name": "The Good Doctor S07E03 Critical Support 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:38:29.786263+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669874:https://sdilej.cz/34669874/dobry-doktor-s07e03-kriticka-podpora.mkv",
+        "at": "2026-11-17T18:38:43.258712+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:38:43.258761+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -562745,7 +562749,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:38:34.418096+00:00",
+  "updated_at": "2026-11-17T18:38:43.258772+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -563097,12 +563101,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:6:20",
-          "at": "2026-11-17T18:32:09.591877+00:00"
-        },
-        {
-          "identity": "583:7:1",
-          "at": "2026-11-17T18:33:29.334349+00:00"
+          "identity": "583:7:3",
+          "at": "2026-11-17T18:38:43.258712+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:12:24.620086+00:00"
