@@ -569985,12 +569985,6 @@
     },
     "1134:4:2": {
       "episode_key": "tráva:s4:e2",
-      "claim": {
-        "worker_id": "ee56ec63254d47c5ab50d9251688f147-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:19:20.088016+00:00",
-        "lease_expires_at": "2026-11-18T03:19:20.088028+00:00"
-      },
       "source": {
         "source_id": "27972398",
         "source_url": "https://sdilej.cz/27972398/trava-s04e02-cast-2.mkv",
@@ -570015,22 +570009,29 @@
         "display_name": "Weeds S04E02 Lady's a Charm 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:19:24.860846+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129145",
-        "size_bytes": 564524189
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129145",
-        "size_bytes": 564524189,
-        "source_bytes_read": 564524189,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129145",
         "source_bytes_read": 564524189,
         "elapsed_seconds": 46.504,
         "finished_at": "2026-11-17T21:20:36.109770+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129145",
+          "size_bytes": 564524189,
+          "source_bytes_read": 564524189,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972398",
+        "source_url": "https://sdilej.cz/27972398/trava-s04e02-cast-2.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129145",
+        "display_name": "Weeds S04E02 Lady's a Charm 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:20:50.584503+00:00"
       }
     },
     "1134:4:3": {
@@ -570075,7 +570076,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:20:45.752202+00:00",
+  "updated_at": "2026-11-17T21:20:50.584519+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
