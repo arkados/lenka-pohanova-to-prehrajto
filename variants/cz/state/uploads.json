@@ -567156,12 +567156,6 @@
     },
     "1134:1:1": {
       "episode_key": "tráva:s1:e1",
-      "claim": {
-        "worker_id": "3a1ee6ad6dc2439386848c032e6d73dd-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:33:36.400604+00:00",
-        "lease_expires_at": "2026-11-18T02:33:36.400614+00:00"
-      },
       "source": {
         "source_id": "11131950",
         "source_url": "https://sdilej.cz/11131950/weeds.s01e01.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -567186,22 +567180,29 @@
         "display_name": "Weeds S01E01 You Can't Miss the Bear 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:33:45.192265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31127934",
-        "size_bytes": 788084316
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127934",
-        "size_bytes": 788084316,
-        "source_bytes_read": 788084316,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127934",
         "source_bytes_read": 788084316,
         "elapsed_seconds": 58.97,
         "finished_at": "2026-11-17T20:35:16.188695+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127934",
+          "size_bytes": 788084316,
+          "source_bytes_read": 788084316,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11131950",
+        "source_url": "https://sdilej.cz/11131950/weeds.s01e01.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127934",
+        "display_name": "Weeds S01E01 You Can't Miss the Bear 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:35:29.515633+00:00"
       }
     },
     "1134:1:2": {
@@ -567247,7 +567248,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:35:25.084096+00:00",
+  "updated_at": "2026-11-17T20:35:29.515648+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
