@@ -567609,12 +567609,6 @@
     },
     "1134:1:6": {
       "episode_key": "tráva:s1:e6",
-      "claim": {
-        "worker_id": "334f55e5ec444d26a74a59289fd93128-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:44:43.041168+00:00",
-        "lease_expires_at": "2026-11-18T02:44:43.041178+00:00"
-      },
       "source": {
         "source_id": "27945623",
         "source_url": "https://sdilej.cz/27945623/trava-weeds-2011-s01e06-mrtva-zona-720p.mp4",
@@ -567639,22 +567633,29 @@
         "display_name": "Weeds S01E06 Dead in the Nethers 720p CZ Dabing",
         "prepared_at": "2026-11-17T20:44:47.840297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128212",
-        "size_bytes": 511549381
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128212",
-        "size_bytes": 511549381,
-        "source_bytes_read": 511549381,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128212",
         "source_bytes_read": 511549381,
         "elapsed_seconds": 42.085,
         "finished_at": "2026-11-17T20:45:54.412720+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128212",
+          "size_bytes": 511549381,
+          "source_bytes_read": 511549381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27945623",
+        "source_url": "https://sdilej.cz/27945623/trava-weeds-2011-s01e06-mrtva-zona-720p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128212",
+        "display_name": "Weeds S01E06 Dead in the Nethers 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:46:01.620310+00:00"
       }
     }
   },
@@ -567663,7 +567664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:45:54.412739+00:00",
+  "updated_at": "2026-11-17T20:46:01.620326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
