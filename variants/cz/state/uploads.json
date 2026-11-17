@@ -543383,12 +543383,6 @@
     },
     "1553:3:23": {
       "episode_key": "fresh prince:s3:e23",
-      "claim": {
-        "worker_id": "5a357ff664534be883729e0e1d6788ad-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:11:13.205499+00:00",
-        "lease_expires_at": "2026-11-17T13:11:13.205509+00:00"
-      },
       "source": {
         "source_id": "28201024",
         "source_url": "https://sdilej.cz/28201024/fresh-prince-s03e23-cz-dab-hd.mp4",
@@ -543413,22 +543407,29 @@
         "display_name": "The Fresh Prince of Bel-Air S03E23 The Way We Were 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:11:21.521025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112073",
-        "size_bytes": 273077558
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112073",
-        "size_bytes": 273077558,
-        "source_bytes_read": 273077558,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112073",
         "source_bytes_read": 273077558,
         "elapsed_seconds": 45.472,
         "finished_at": "2026-11-17T07:12:26.060891+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112073",
+          "size_bytes": 273077558,
+          "source_bytes_read": 273077558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201024",
+        "source_url": "https://sdilej.cz/28201024/fresh-prince-s03e23-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112073",
+        "display_name": "The Fresh Prince of Bel-Air S03E23 The Way We Were 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:12:40.298379+00:00"
       }
     },
     "1553:3:24": {
@@ -543488,7 +543489,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:12:35.574140+00:00",
+  "updated_at": "2026-11-17T07:12:40.298393+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
