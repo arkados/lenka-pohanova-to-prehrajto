@@ -552698,28 +552698,29 @@
           "at": "2026-11-17T12:55:16.198424+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4a15ca5892b94490901bb0e38ad74042-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:55:20.297426+00:00",
-        "lease_expires_at": "2026-11-17T18:55:20.297437+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118734",
-        "size_bytes": 827914037
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118734",
-        "size_bytes": 827914037,
-        "source_bytes_read": 827914037,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118734",
         "source_bytes_read": 827914037,
         "elapsed_seconds": 73.436,
         "finished_at": "2026-11-17T12:57:22.759848+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118734",
+          "size_bytes": 827914037,
+          "source_bytes_read": 827914037,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942830",
+        "source_url": "https://sdilej.cz/34942830/chicago-p.d.-s04e21-083-2017-hd-fagin-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118734",
+        "display_name": "Chicago P.D. S04E21 Fagin 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:57:33.938180+00:00"
       }
     },
     "1085:4:22": {
@@ -552795,7 +552796,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:57:29.746207+00:00",
+  "updated_at": "2026-11-17T12:57:33.938193+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
