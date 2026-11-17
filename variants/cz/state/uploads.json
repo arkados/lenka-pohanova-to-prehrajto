@@ -472857,28 +472857,29 @@
           "at": "2026-11-17T05:18:21.051527+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "7610edb122974003a98eb4541f46a00e-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:18:24.716182+00:00",
-        "lease_expires_at": "2026-11-17T11:18:24.716191+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109235",
-        "size_bytes": 2180208541
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109235",
-        "size_bytes": 2180208541,
-        "source_bytes_read": 2180208541,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109235",
         "source_bytes_read": 2180208541,
         "elapsed_seconds": 350.038,
         "finished_at": "2026-11-17T05:24:36.794521+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109235",
+          "size_bytes": 2180208541,
+          "source_bytes_read": 2180208541,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32999181",
+        "source_url": "https://sdilej.cz/32999181/lucifer-s04e02-tady-si-nekdo-cetl-dantovo-peklo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109235",
+        "display_name": "Lucifer S04E02 Somebody's Been Reading Dante's Inferno 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T05:24:42.233410+00:00"
       }
     },
     "30:4:3": {
@@ -539811,7 +539812,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:24:36.794537+00:00",
+  "updated_at": "2026-11-17T05:24:42.233426+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
