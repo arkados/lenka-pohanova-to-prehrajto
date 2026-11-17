@@ -549411,12 +549411,6 @@
     },
     "583:4:9": {
       "episode_key": "dobrý doktor:s4:e9",
-      "claim": {
-        "worker_id": "d5d967c8bf16414fa9d686f458eb49ca-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:43:00.350367+00:00",
-        "lease_expires_at": "2026-11-17T15:43:00.350377+00:00"
-      },
       "source": {
         "source_id": "33824105",
         "source_url": "https://sdilej.cz/33824105/the.good.doctor.s04e09.1080p.hevc-vyndros.mkv",
@@ -549441,22 +549435,29 @@
         "display_name": "The Good Doctor S04E09 Irresponsible Salad Bar Practices 1080p CZ Dabing",
         "prepared_at": "2026-11-17T09:43:06.416222+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115058",
-        "size_bytes": 969637825
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115058",
-        "size_bytes": 969637825,
-        "source_bytes_read": 969637825,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115058",
         "source_bytes_read": 969637825,
         "elapsed_seconds": 100.95,
         "finished_at": "2026-11-17T09:45:08.840362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115058",
+          "size_bytes": 969637825,
+          "source_bytes_read": 969637825,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824105",
+        "source_url": "https://sdilej.cz/33824105/the.good.doctor.s04e09.1080p.hevc-vyndros.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115058",
+        "display_name": "The Good Doctor S04E09 Irresponsible Salad Bar Practices 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T09:45:22.588201+00:00"
       }
     },
     "161:4:4": {
@@ -549616,7 +549617,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:45:18.154451+00:00",
+  "updated_at": "2026-11-17T09:45:22.588217+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
