@@ -569222,12 +569222,6 @@
     },
     "1098:2:18": {
       "episode_key": "jak prosté:s2:e18",
-      "claim": {
-        "worker_id": "d2738784e4724a5d92eee32668a1a6d1-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:09:32.062767+00:00",
-        "lease_expires_at": "2026-11-18T03:09:32.062788+00:00"
-      },
       "source": {
         "source_id": "28201019",
         "source_url": "https://sdilej.cz/28201019/jak-proste-s02e18.mkv",
@@ -569252,22 +569246,29 @@
         "display_name": "Elementary S02E18 The Hound of the Cancer Cells 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:09:36.970945+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128940",
-        "size_bytes": 591157821
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128940",
-        "size_bytes": 591157821,
-        "source_bytes_read": 591157821,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128940",
         "source_bytes_read": 591157821,
         "elapsed_seconds": 67.549,
         "finished_at": "2026-11-17T21:11:11.220875+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128940",
+          "size_bytes": 591157821,
+          "source_bytes_read": 591157821,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201019",
+        "source_url": "https://sdilej.cz/28201019/jak-proste-s02e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128940",
+        "display_name": "Elementary S02E18 The Hound of the Cancer Cells 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:11:27.969009+00:00"
       }
     },
     "1098:2:19": {
@@ -569350,7 +569351,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:11:21.883100+00:00",
+  "updated_at": "2026-11-17T21:11:27.969027+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
