@@ -542091,28 +542091,29 @@
           "at": "2026-11-17T12:17:51.051398+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1f400951bde84da09c8e9a7fc3899dfb-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:17:54.938685+00:00",
-        "lease_expires_at": "2026-11-17T18:17:54.938696+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31117931",
-        "size_bytes": 807661210
-      },
-      "transfer_receipt": {
-        "target_video_id": "31117931",
-        "size_bytes": 807661210,
-        "source_bytes_read": 807661210,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31117931",
         "source_bytes_read": 807661210,
         "elapsed_seconds": 190.78,
         "finished_at": "2026-11-17T12:21:37.352242+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31117931",
+          "size_bytes": 807661210,
+          "source_bytes_read": 807661210,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942429",
+        "source_url": "https://sdilej.cz/34942429/chicago-p.d.-s03e17-056-2016-hd-bratri-ve-zbrani-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31117931",
+        "display_name": "Chicago P.D. S03E17 Forty-Caliber Bread Crumb 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:21:45.067148+00:00"
       }
     },
     "1085:3:18": {
@@ -551490,7 +551491,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:21:37.352260+00:00",
+  "updated_at": "2026-11-17T12:21:45.067163+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
