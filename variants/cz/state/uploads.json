@@ -576576,28 +576576,29 @@
           "at": "2026-11-17T23:09:31.322246+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3365ccf8f0ed4149b6db3ccf113c6d62-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:09:35.365786+00:00",
-        "lease_expires_at": "2026-11-18T05:09:35.365800+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31132648",
-        "size_bytes": 312957779
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132648",
-        "size_bytes": 312957779,
-        "source_bytes_read": 312957779,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132648",
         "source_bytes_read": 312957779,
         "elapsed_seconds": 21.084,
         "finished_at": "2026-11-17T23:10:26.771813+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132648",
+          "size_bytes": 312957779,
+          "source_bytes_read": 312957779,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29791842",
+        "source_url": "https://sdilej.cz/29791842/kral-tulsy-s01e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132648",
+        "display_name": "Tulsa King S01E04 Visitation Place 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:10:34.070088+00:00"
       }
     },
     "581:1:5": {
@@ -577046,7 +577047,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:10:26.771834+00:00",
+  "updated_at": "2026-11-17T23:10:34.070106+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
