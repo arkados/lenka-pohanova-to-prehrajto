@@ -543973,12 +543973,6 @@
     },
     "583:3:9": {
       "episode_key": "dobrý doktor:s3:e9",
-      "claim": {
-        "worker_id": "371ce0b6271c4f44889a4f7a71e9cb8a-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:19:25.296551+00:00",
-        "lease_expires_at": "2026-11-17T13:19:25.296561+00:00"
-      },
       "source": {
         "source_id": "34668654",
         "source_url": "https://sdilej.cz/34668654/dobry-doktor-s03e09-nekompletni.mkv",
@@ -544002,7 +543996,17 @@
         },
         "display_name": "The Good Doctor S03E09 Incomplete 4K CZ Dabing",
         "prepared_at": "2026-11-17T07:19:29.654062+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668654:https://sdilej.cz/34668654/dobry-doktor-s03e09-nekompletni.mkv",
+        "at": "2026-11-17T07:19:42.141964+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T07:19:42.142002+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -544010,7 +544014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:19:33.673767+00:00",
+  "updated_at": "2026-11-17T07:19:42.142007+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -544366,16 +544370,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:2:18",
-          "at": "2026-11-17T07:06:39.822402+00:00"
-        },
-        {
-          "identity": "583:3:1",
-          "at": "2026-11-17T07:06:56.991711+00:00"
-        },
-        {
-          "identity": "583:3:2",
-          "at": "2026-11-17T07:07:06.372667+00:00"
+          "identity": "583:3:9",
+          "at": "2026-11-17T07:19:42.141964+00:00"
         }
       ],
       "retry_after": "2026-11-17T07:17:06.372667+00:00"
