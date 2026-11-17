@@ -550401,12 +550401,6 @@
     },
     "161:5:2": {
       "episode_key": "grimm:s5:e2",
-      "claim": {
-        "worker_id": "14170d3c8c8343128e1c891a69fdb9fd-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:59:39.599027+00:00",
-        "lease_expires_at": "2026-11-17T15:59:39.599038+00:00"
-      },
       "source": {
         "source_id": "31981098",
         "source_url": "https://sdilej.cz/31981098/grimm-s05e02.mp4",
@@ -550431,22 +550425,29 @@
         "display_name": "Grimm S05E02 Clear and Wesen Danger SD CZ Dabing",
         "prepared_at": "2026-11-17T09:59:43.948353+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115353",
-        "size_bytes": 200821602
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115353",
-        "size_bytes": 200821602,
-        "source_bytes_read": 200821602,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115353",
         "source_bytes_read": 200821602,
         "elapsed_seconds": 14.952,
         "finished_at": "2026-11-17T10:00:16.174466+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115353",
+          "size_bytes": 200821602,
+          "source_bytes_read": 200821602,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981098",
+        "source_url": "https://sdilej.cz/31981098/grimm-s05e02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115353",
+        "display_name": "Grimm S05E02 Clear and Wesen Danger SD CZ Dabing",
+        "uploaded_at": "2026-11-17T10:00:30.441915+00:00"
       }
     }
   },
@@ -550455,7 +550456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T10:00:16.174498+00:00",
+  "updated_at": "2026-11-17T10:00:30.441930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
