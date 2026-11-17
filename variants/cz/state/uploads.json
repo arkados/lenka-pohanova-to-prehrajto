@@ -473476,28 +473476,29 @@
           "at": "2026-11-17T05:24:54.100413+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4b261677f8474afd994b941c9649dbf8-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:24:59.219646+00:00",
-        "lease_expires_at": "2026-11-17T11:24:59.219659+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109389",
-        "size_bytes": 2171443034
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109389",
-        "size_bytes": 2171443034,
-        "source_bytes_read": 2171443034,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109389",
         "source_bytes_read": 2171443034,
         "elapsed_seconds": 194.871,
         "finished_at": "2026-11-17T05:28:33.445057+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109389",
+          "size_bytes": 2171443034,
+          "source_bytes_read": 2171443034,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32999204",
+        "source_url": "https://sdilej.cz/32999204/lucifer-s04e05-zemrit-vztyceny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109389",
+        "display_name": "Lucifer S04E05 Expire Erect 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T05:28:41.656328+00:00"
       }
     },
     "30:4:9": {
@@ -539901,7 +539902,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:28:33.445076+00:00",
+  "updated_at": "2026-11-17T05:28:41.656344+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
