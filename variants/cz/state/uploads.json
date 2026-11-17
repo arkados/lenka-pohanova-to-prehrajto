@@ -572285,12 +572285,6 @@
     },
     "1134:6:1": {
       "episode_key": "tráva:s6:e1",
-      "claim": {
-        "worker_id": "8ff1cafe33c640da9b4ac880e9ffc850-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:55:46.266638+00:00",
-        "lease_expires_at": "2026-11-18T03:55:46.266651+00:00"
-      },
       "source": {
         "source_id": "11243179",
         "source_url": "https://sdilej.cz/11243179/weeds.s06e01.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -572315,22 +572309,29 @@
         "display_name": "Weeds S06E01 Thwack 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:55:55.976342+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130268",
-        "size_bytes": 785625834
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130268",
-        "size_bytes": 785625834,
-        "source_bytes_read": 785625834,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130268",
         "source_bytes_read": 785625834,
         "elapsed_seconds": 46.147,
         "finished_at": "2026-11-17T21:57:07.750557+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130268",
+          "size_bytes": 785625834,
+          "source_bytes_read": 785625834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11243179",
+        "source_url": "https://sdilej.cz/11243179/weeds.s06e01.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130268",
+        "display_name": "Weeds S06E01 Thwack 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:57:13.760023+00:00"
       }
     },
     "1134:6:2": {
@@ -572376,7 +572377,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:57:07.750578+00:00",
+  "updated_at": "2026-11-17T21:57:13.760041+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
