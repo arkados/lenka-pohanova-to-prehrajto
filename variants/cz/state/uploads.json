@@ -544283,28 +544283,29 @@
           "at": "2026-11-17T12:30:23.800320+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3774369a99bc4516ab2857a508767ab0-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:30:29.249502+00:00",
-        "lease_expires_at": "2026-11-17T18:30:29.249511+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118258",
-        "size_bytes": 836630289
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118258",
-        "size_bytes": 836630289,
-        "source_bytes_read": 836630289,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118258",
         "source_bytes_read": 836630289,
         "elapsed_seconds": 65.732,
         "finished_at": "2026-11-17T12:32:04.700431+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118258",
+          "size_bytes": 836630289,
+          "source_bytes_read": 836630289,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942627",
+        "source_url": "https://sdilej.cz/34942627/chicago-p.d.-s04e08-070-2016-hd-neviditelny-strelec-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118258",
+        "display_name": "Chicago P.D. S04E08 A Shot Heard Round the World 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:32:12.136172+00:00"
       }
     },
     "583:3:3": {
@@ -551909,7 +551910,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:32:04.700450+00:00",
+  "updated_at": "2026-11-17T12:32:12.136187+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
