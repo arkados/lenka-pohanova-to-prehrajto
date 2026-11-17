@@ -578494,12 +578494,6 @@
     },
     "1098:6:2": {
       "episode_key": "jak prosté:s6:e2",
-      "claim": {
-        "worker_id": "b3e099bff5a545fa901ad2e5f9ea8e06-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:50:09.823196+00:00",
-        "lease_expires_at": "2026-11-18T05:50:09.823209+00:00"
-      },
       "source": {
         "source_id": "28202090",
         "source_url": "https://sdilej.cz/28202090/jak-proste-s06e02.mkv",
@@ -578524,22 +578518,29 @@
         "display_name": "Elementary S06E02 Once You've Ruled Out God 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:50:14.396008+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31133640",
-        "size_bytes": 641833601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133640",
-        "size_bytes": 641833601,
-        "source_bytes_read": 641833601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133640",
         "source_bytes_read": 641833601,
         "elapsed_seconds": 39.106,
         "finished_at": "2026-11-17T23:51:09.994161+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133640",
+          "size_bytes": 641833601,
+          "source_bytes_read": 641833601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202090",
+        "source_url": "https://sdilej.cz/28202090/jak-proste-s06e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133640",
+        "display_name": "Elementary S06E02 Once You've Ruled Out God 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:51:15.657402+00:00"
       }
     }
   },
@@ -578548,7 +578549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:51:09.994181+00:00",
+  "updated_at": "2026-11-17T23:51:15.657420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
