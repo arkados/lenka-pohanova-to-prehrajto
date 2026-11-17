@@ -570926,12 +570926,6 @@
     },
     "1098:3:2": {
       "episode_key": "jak prosté:s3:e2",
-      "claim": {
-        "worker_id": "22b7dc4e0c754707ad72774cd78d652e-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:35:40.764467+00:00",
-        "lease_expires_at": "2026-11-18T03:35:40.764482+00:00"
-      },
       "source": {
         "source_id": "34432997",
         "source_url": "https://sdilej.cz/34432997/elementary-s03e02-cz-dabing-1080p-full-hd.mkv",
@@ -570955,7 +570949,17 @@
         },
         "display_name": "Elementary S03E02 The Five Orange Pipz 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:36:05.409397+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432997:https://sdilej.cz/34432997/elementary-s03e02-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:36:18.602495+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:36:18.602531+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:3:3": {
       "episode_key": "jak prosté:s3:e3",
@@ -570999,7 +571003,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:36:10.746469+00:00",
+  "updated_at": "2026-11-17T21:36:18.602536+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -571416,6 +571420,10 @@
         {
           "identity": "1098:3:1",
           "at": "2026-11-17T21:35:24.088004+00:00"
+        },
+        {
+          "identity": "1098:3:2",
+          "at": "2026-11-17T21:36:18.602495+00:00"
         }
       ],
       "retry_after": "2026-11-17T21:33:15.255196+00:00"
