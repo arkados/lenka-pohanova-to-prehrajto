@@ -563862,12 +563862,6 @@
     },
     "1098:1:5": {
       "episode_key": "jak prosté:s1:e5",
-      "claim": {
-        "worker_id": "1f4bff8f59c34681a0b703fd621bff51-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:16:00.398202+00:00",
-        "lease_expires_at": "2026-11-18T01:16:00.398214+00:00"
-      },
       "source": {
         "source_id": "34432157",
         "source_url": "https://sdilej.cz/34432157/elementary-s01e05-cz-dabing-1080p-full-hd.mkv",
@@ -563891,7 +563885,17 @@
         },
         "display_name": "Elementary S01E05 Lesser Evils 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:16:10.106639+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432157:https://sdilej.cz/34432157/elementary-s01e05-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:16:23.605858+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:16:23.605899+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -563899,7 +563903,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:16:15.132023+00:00",
+  "updated_at": "2026-11-17T19:16:23.605905+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564310,16 +564314,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:1:1",
-          "at": "2026-11-17T19:02:42.904986+00:00"
-        },
-        {
-          "identity": "1098:1:2",
-          "at": "2026-11-17T19:03:24.143195+00:00"
-        },
-        {
-          "identity": "1098:1:3",
-          "at": "2026-11-17T19:03:33.098128+00:00"
+          "identity": "1098:1:5",
+          "at": "2026-11-17T19:16:23.605858+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:13:33.098128+00:00"
