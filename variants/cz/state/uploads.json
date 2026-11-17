@@ -554455,28 +554455,29 @@
           "at": "2026-11-17T13:24:43.313963+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b88cdd58f0a34dd8996d9fa5062abc56-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:24:47.093159+00:00",
-        "lease_expires_at": "2026-11-17T19:24:47.093169+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119231",
-        "size_bytes": 813986564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119231",
-        "size_bytes": 813986564,
-        "source_bytes_read": 813986564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119231",
         "source_bytes_read": 813986564,
         "elapsed_seconds": 225.047,
         "finished_at": "2026-11-17T13:29:01.641600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119231",
+          "size_bytes": 813986564,
+          "source_bytes_read": 813986564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943248",
+        "source_url": "https://sdilej.cz/34943248/chicago-p.d.-s06e03-110-2018-hd-mizerove-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119231",
+        "display_name": "Chicago P.D. S06E03 Bad Boys 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:29:12.953518+00:00"
       }
     },
     "1085:6:4": {
@@ -554788,7 +554789,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:29:08.371429+00:00",
+  "updated_at": "2026-11-17T13:29:12.953533+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
