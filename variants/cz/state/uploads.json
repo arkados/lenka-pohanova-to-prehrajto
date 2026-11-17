@@ -547497,12 +547497,6 @@
     },
     "161:2:21": {
       "episode_key": "grimm:s2:e21",
-      "claim": {
-        "worker_id": "86c6693c753e4de68359d4ab7cb37ebd-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:36:10.145478+00:00",
-        "lease_expires_at": "2026-11-17T14:36:10.145489+00:00"
-      },
       "source": {
         "source_id": "31981038",
         "source_url": "https://sdilej.cz/31981038/grimm-s02e21.mp4",
@@ -547527,22 +547521,29 @@
         "display_name": "Grimm S02E21 The Waking Dead (1) SD CZ Dabing",
         "prepared_at": "2026-11-17T08:36:14.587180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31113984",
-        "size_bytes": 199445741
-      },
-      "transfer_receipt": {
-        "target_video_id": "31113984",
-        "size_bytes": 199445741,
-        "source_bytes_read": 199445741,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31113984",
         "source_bytes_read": 199445741,
         "elapsed_seconds": 14.127,
         "finished_at": "2026-11-17T08:36:45.954243+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31113984",
+          "size_bytes": 199445741,
+          "source_bytes_read": 199445741,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981038",
+        "source_url": "https://sdilej.cz/31981038/grimm-s02e21.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31113984",
+        "display_name": "Grimm S02E21 The Waking Dead (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-17T08:36:54.825292+00:00"
       }
     }
   },
@@ -547551,7 +547552,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:36:49.596121+00:00",
+  "updated_at": "2026-11-17T08:36:54.825309+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
