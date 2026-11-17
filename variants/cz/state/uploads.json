@@ -554876,28 +554876,29 @@
           "at": "2026-11-17T13:32:34.314953+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "253bd140d54f4ab4a739f6dd986de725-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:32:39.385454+00:00",
-        "lease_expires_at": "2026-11-17T19:32:39.385464+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119329",
-        "size_bytes": 815841696
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119329",
-        "size_bytes": 815841696,
-        "source_bytes_read": 815841696,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119329",
         "source_bytes_read": 815841696,
         "elapsed_seconds": 230.477,
         "finished_at": "2026-11-17T13:36:53.244306+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119329",
+          "size_bytes": 815841696,
+          "source_bytes_read": 815841696,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943401",
+        "source_url": "https://sdilej.cz/34943401/chicago-p.d.-s06e10-117-2019-hd-bratrstvi-modrejch-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119329",
+        "display_name": "Chicago P.D. S06E10 Brotherhood 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:37:02.207682+00:00"
       }
     },
     "1085:6:11": {
@@ -555068,7 +555069,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:36:53.244323+00:00",
+  "updated_at": "2026-11-17T13:37:02.207697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
