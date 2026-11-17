@@ -542755,12 +542755,6 @@
     },
     "583:3:1": {
       "episode_key": "dobrý doktor:s3:e1",
-      "claim": {
-        "worker_id": "81542f99c88341b1837fe9c971bfda67-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:50:26.426752+00:00",
-        "lease_expires_at": "2026-11-17T12:50:26.426762+00:00"
-      },
       "source": {
         "source_id": "34668463",
         "source_url": "https://sdilej.cz/34668463/dobry-doktor-s03e01-katastrofa.mkv",
@@ -542784,7 +542778,17 @@
         },
         "display_name": "The Good Doctor S03E01 Disaster 4K CZ Dabing",
         "prepared_at": "2026-11-17T06:50:33.902148+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668463:https://sdilej.cz/34668463/dobry-doktor-s03e01-katastrofa.mkv",
+        "at": "2026-11-17T06:50:46.271292+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:50:46.271441+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -542792,7 +542796,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:50:42.512753+00:00",
+  "updated_at": "2026-11-17T06:50:46.271449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -543156,19 +543160,19 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:2:16",
-          "at": "2026-11-17T06:48:58.827604+00:00"
-        },
-        {
           "identity": "583:2:17",
           "at": "2026-11-17T06:49:27.461153+00:00"
         },
         {
           "identity": "583:2:18",
           "at": "2026-11-17T06:50:42.512692+00:00"
+        },
+        {
+          "identity": "583:3:1",
+          "at": "2026-11-17T06:50:46.271292+00:00"
         }
       ],
-      "retry_after": "2026-11-17T07:00:42.512692+00:00"
+      "retry_after": "2026-11-17T07:00:46.271292+00:00"
     },
     "1603": {
       "recent_failures": [
