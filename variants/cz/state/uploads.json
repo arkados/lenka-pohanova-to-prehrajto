@@ -559095,12 +559095,6 @@
     },
     "583:6:1": {
       "episode_key": "dobrý doktor:s6:e1",
-      "claim": {
-        "worker_id": "2d0f0de4e0694c10a3e5917eca1460ee-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T15:03:00.439407+00:00",
-        "lease_expires_at": "2026-11-17T21:03:00.439416+00:00"
-      },
       "source": {
         "source_id": "26629478",
         "source_url": "https://sdilej.cz/26629478/dobry-doktor-the-good-doctor-2022-s06e01-hd-cz-dabing.mkv",
@@ -559125,22 +559119,29 @@
         "display_name": "The Good Doctor S06E01 Afterparty 1080p CZ Dabing",
         "prepared_at": "2026-11-17T15:03:10.351787+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121267",
-        "size_bytes": 1941011284
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121267",
-        "size_bytes": 1941011284,
-        "source_bytes_read": 1941011284,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121267",
         "source_bytes_read": 1941011284,
         "elapsed_seconds": 338.077,
         "finished_at": "2026-11-17T15:09:09.150096+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121267",
+          "size_bytes": 1941011284,
+          "source_bytes_read": 1941011284,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26629478",
+        "source_url": "https://sdilej.cz/26629478/dobry-doktor-the-good-doctor-2022-s06e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121267",
+        "display_name": "The Good Doctor S06E01 Afterparty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:09:16.146306+00:00"
       }
     },
     "583:6:2": {
@@ -559413,7 +559414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:09:09.150116+00:00",
+  "updated_at": "2026-11-17T15:09:16.146323+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
