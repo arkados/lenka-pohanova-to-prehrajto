@@ -558274,12 +558274,6 @@
     },
     "583:5:12": {
       "episode_key": "dobrý doktor:s5:e12",
-      "claim": {
-        "worker_id": "9e5111b794834bcfa247414d20abb685-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:42:05.250129+00:00",
-        "lease_expires_at": "2026-11-17T20:42:05.250141+00:00"
-      },
       "source": {
         "source_id": "34669343",
         "source_url": "https://sdilej.cz/34669343/dobry-doktor-s05e12-pust.mkv",
@@ -558303,7 +558297,17 @@
         },
         "display_name": "The Good Doctor S05E12 Dry Spell 4K CZ Dabing",
         "prepared_at": "2026-11-17T14:42:10.227629+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669343:https://sdilej.cz/34669343/dobry-doktor-s05e12-pust.mkv",
+        "at": "2026-11-17T14:42:25.136484+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T14:42:25.136517+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -558311,7 +558315,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:42:20.403459+00:00",
+  "updated_at": "2026-11-17T14:42:25.136522+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -558659,8 +558663,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:4:16",
-          "at": "2026-11-17T13:58:28.193797+00:00"
+          "identity": "583:5:12",
+          "at": "2026-11-17T14:42:25.136484+00:00"
         }
       ],
       "retry_after": "2026-11-17T12:51:54.382284+00:00"
