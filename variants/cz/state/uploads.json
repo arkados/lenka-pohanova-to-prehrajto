@@ -540069,12 +540069,6 @@
     },
     "1085:3:9": {
       "episode_key": "policie chicago:s3:e9",
-      "claim": {
-        "worker_id": "e945413c5e514990837018a6892ac3bd-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:35:08.142398+00:00",
-        "lease_expires_at": "2026-11-17T11:35:08.142410+00:00"
-      },
       "source": {
         "source_id": "27883992",
         "source_url": "https://sdilej.cz/27883992/policie-chicago-03x09.avi",
@@ -540098,7 +540092,17 @@
         },
         "display_name": "Chicago P.D. S03E09 Never Forget I Love You SD CZ Dabing",
         "prepared_at": "2026-11-17T05:35:12.437785+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27883992:https://sdilej.cz/27883992/policie-chicago-03x09.avi",
+        "at": "2026-11-17T05:35:24.307397+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T05:35:24.307434+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -540106,7 +540110,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:35:12.437802+00:00",
+  "updated_at": "2026-11-17T05:35:24.307438+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -540339,16 +540343,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:3:5",
-          "at": "2026-11-17T05:22:21.868202+00:00"
-        },
-        {
-          "identity": "1085:3:6",
-          "at": "2026-11-17T05:22:50.619262+00:00"
-        },
-        {
-          "identity": "1085:3:7",
-          "at": "2026-11-17T05:23:17.459933+00:00"
+          "identity": "1085:3:9",
+          "at": "2026-11-17T05:35:24.307397+00:00"
         }
       ],
       "retry_after": "2026-11-17T05:33:17.459933+00:00"
