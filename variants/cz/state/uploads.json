@@ -502801,28 +502801,29 @@
           "at": "2026-11-17T06:45:48.014494+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "274c433f594b43308ccaaee40c34a698-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:45:51.674905+00:00",
-        "lease_expires_at": "2026-11-17T12:45:51.674916+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111512",
-        "size_bytes": 1578160291
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111512",
-        "size_bytes": 1578160291,
-        "source_bytes_read": 1578160291,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111512",
         "source_bytes_read": 1578160291,
         "elapsed_seconds": 110.275,
         "finished_at": "2026-11-17T06:48:08.256229+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111512",
+          "size_bytes": 1578160291,
+          "source_bytes_read": 1578160291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526823",
+        "source_url": "https://sdilej.cz/32526823/dobry-doktor-s02e13-srdce-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111512",
+        "display_name": "The Good Doctor S02E13 Xin 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:48:22.445789+00:00"
       }
     },
     "583:2:14": {
@@ -542599,7 +542600,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:48:15.830934+00:00",
+  "updated_at": "2026-11-17T06:48:22.445806+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
