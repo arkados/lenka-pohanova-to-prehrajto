@@ -550735,12 +550735,6 @@
     },
     "161:5:8": {
       "episode_key": "grimm:s5:e8",
-      "claim": {
-        "worker_id": "ad4da21b6ba74400b02d18d4b66df040-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T10:14:37.953120+00:00",
-        "lease_expires_at": "2026-11-17T16:14:37.953131+00:00"
-      },
       "source": {
         "source_id": "30237450",
         "source_url": "https://sdilej.cz/30237450/grimm-s05e08.mkv",
@@ -550765,22 +550759,29 @@
         "display_name": "Grimm S05E08 A Reptile Dysfunction 1080p CZ Dabing",
         "prepared_at": "2026-11-17T10:14:42.419169+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115575",
-        "size_bytes": 2590802480
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115575",
-        "size_bytes": 2590802480,
-        "source_bytes_read": 2590802480,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115575",
         "source_bytes_read": 2590802480,
         "elapsed_seconds": 307.104,
         "finished_at": "2026-11-17T10:20:09.248522+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115575",
+          "size_bytes": 2590802480,
+          "source_bytes_read": 2590802480,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30237450",
+        "source_url": "https://sdilej.cz/30237450/grimm-s05e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115575",
+        "display_name": "Grimm S05E08 A Reptile Dysfunction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T10:20:17.261474+00:00"
       }
     },
     "161:5:9": {
@@ -550910,7 +550911,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T10:20:13.530055+00:00",
+  "updated_at": "2026-11-17T10:20:17.261487+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
