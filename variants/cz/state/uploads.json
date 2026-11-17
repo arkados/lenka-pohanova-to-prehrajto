@@ -556337,12 +556337,6 @@
     },
     "1085:7:4": {
       "episode_key": "policie chicago:s7:e4",
-      "claim": {
-        "worker_id": "131d8c8c9fff450ea48334f4cc1ba26b-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:08:45.569021+00:00",
-        "lease_expires_at": "2026-11-17T20:08:45.569032+00:00"
-      },
       "source": {
         "source_id": "34943777",
         "source_url": "https://sdilej.cz/34943777/chicago-p.d.-s07e04-133-2019-hd-infekce-iii.-s-.mp4",
@@ -556367,22 +556361,29 @@
         "display_name": "Chicago P.D. S07E04 Infection, Part III (III) 720p CZ Dabing",
         "prepared_at": "2026-11-17T14:08:50.642334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31119952",
-        "size_bytes": 814262408
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119952",
-        "size_bytes": 814262408,
-        "source_bytes_read": 814262408,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119952",
         "source_bytes_read": 814262408,
         "elapsed_seconds": 84.051,
         "finished_at": "2026-11-17T14:10:33.329487+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119952",
+          "size_bytes": 814262408,
+          "source_bytes_read": 814262408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943777",
+        "source_url": "https://sdilej.cz/34943777/chicago-p.d.-s07e04-133-2019-hd-infekce-iii.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119952",
+        "display_name": "Chicago P.D. S07E04 Infection, Part III (III) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T14:10:43.333768+00:00"
       }
     },
     "1085:7:5": {
@@ -556465,7 +556466,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:10:33.329506+00:00",
+  "updated_at": "2026-11-17T14:10:43.333783+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
