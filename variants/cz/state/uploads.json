@@ -577863,28 +577863,29 @@
           "at": "2026-11-17T23:33:19.143770+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "0dbc84a65d1f41c6ae71b208b399553b-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:33:23.411731+00:00",
-        "lease_expires_at": "2026-11-18T05:33:23.411752+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133233",
-        "size_bytes": 579523044
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133233",
-        "size_bytes": 579523044,
-        "source_bytes_read": 579523044,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133233",
         "source_bytes_read": 579523044,
         "elapsed_seconds": 33.362,
         "finished_at": "2026-11-17T23:34:24.555571+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133233",
+          "size_bytes": 579523044,
+          "source_bytes_read": 579523044,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431648",
+        "source_url": "https://sdilej.cz/34431648/elementary.s05e19.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133233",
+        "display_name": "Elementary S05E19 High Heat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:34:34.278611+00:00"
       }
     },
     "1098:5:20": {
@@ -577981,7 +577982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:34:29.296753+00:00",
+  "updated_at": "2026-11-17T23:34:34.278627+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
