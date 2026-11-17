@@ -547081,12 +547081,6 @@
     },
     "583:3:19": {
       "episode_key": "dobrý doktor:s3:e19",
-      "claim": {
-        "worker_id": "a6d8942b72be4702803d21fcd0e761b8-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:29:06.785476+00:00",
-        "lease_expires_at": "2026-11-17T14:29:06.785486+00:00"
-      },
       "source": {
         "source_id": "34668796",
         "source_url": "https://sdilej.cz/34668796/dobry-doktor-s03e19-bolest.mkv",
@@ -547110,7 +547104,17 @@
         },
         "display_name": "The Good Doctor S03E19 Hurt (1) 4K CZ Dabing",
         "prepared_at": "2026-11-17T08:29:11.274751+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668796:https://sdilej.cz/34668796/dobry-doktor-s03e19-bolest.mkv",
+        "at": "2026-11-17T08:29:23.873209+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T08:29:23.873272+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -547118,7 +547122,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:29:15.448297+00:00",
+  "updated_at": "2026-11-17T08:29:23.873277+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -547474,19 +547478,19 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:3:9",
-          "at": "2026-11-17T08:28:20.553680+00:00"
-        },
-        {
           "identity": "583:3:11",
           "at": "2026-11-17T08:28:52.590917+00:00"
         },
         {
           "identity": "583:3:18",
           "at": "2026-11-17T08:29:15.448236+00:00"
+        },
+        {
+          "identity": "583:3:19",
+          "at": "2026-11-17T08:29:23.873209+00:00"
         }
       ],
-      "retry_after": "2026-11-17T08:39:15.448236+00:00"
+      "retry_after": "2026-11-17T08:39:23.873209+00:00"
     },
     "1603": {
       "recent_failures": [
