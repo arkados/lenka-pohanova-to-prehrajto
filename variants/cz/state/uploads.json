@@ -541558,12 +541558,6 @@
     },
     "30:6:9": {
       "episode_key": "lucifer:s6:e9",
-      "claim": {
-        "worker_id": "de3c745b225f4a8a9df4e88e990f9865-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:14:21.106131+00:00",
-        "lease_expires_at": "2026-11-17T12:14:21.106141+00:00"
-      },
       "source": {
         "source_id": "34901788",
         "source_url": "https://sdilej.cz/34901788/lucifer-s06e09-louceni-s-luciferem.mkv",
@@ -541588,22 +541582,29 @@
         "display_name": "Lucifer S06E09 Goodbye, Lucifer 4K CZ Dabing",
         "prepared_at": "2026-11-17T06:14:25.517039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31110719",
-        "size_bytes": 2851447117
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110719",
-        "size_bytes": 2851447117,
-        "source_bytes_read": 2851447117,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110719",
         "source_bytes_read": 2851447117,
         "elapsed_seconds": 338.678,
         "finished_at": "2026-11-17T06:20:22.087360+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110719",
+          "size_bytes": 2851447117,
+          "source_bytes_read": 2851447117,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901788",
+        "source_url": "https://sdilej.cz/34901788/lucifer-s06e09-louceni-s-luciferem.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110719",
+        "display_name": "Lucifer S06E09 Goodbye, Lucifer 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:20:27.368437+00:00"
       }
     },
     "30:6:10": {
@@ -541686,7 +541687,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:20:22.087389+00:00",
+  "updated_at": "2026-11-17T06:20:27.368452+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
