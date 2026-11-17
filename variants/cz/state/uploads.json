@@ -575705,12 +575705,6 @@
     },
     "1098:4:24": {
       "episode_key": "jak prosté:s4:e24",
-      "claim": {
-        "worker_id": "a271899566ca49b3b3fe5428a3752a46-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:48:53.991149+00:00",
-        "lease_expires_at": "2026-11-18T04:48:53.991165+00:00"
-      },
       "source": {
         "source_id": "28201750",
         "source_url": "https://sdilej.cz/28201750/jak-proste-s04e24.mkv",
@@ -575735,22 +575729,29 @@
         "display_name": "Elementary S04E24 A Difference in Kind 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:48:58.984614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131977",
-        "size_bytes": 609397970
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131977",
-        "size_bytes": 609397970,
-        "source_bytes_read": 609397970,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131977",
         "source_bytes_read": 609397970,
         "elapsed_seconds": 38.451,
         "finished_at": "2026-11-17T22:50:02.367028+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131977",
+          "size_bytes": 609397970,
+          "source_bytes_read": 609397970,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201750",
+        "source_url": "https://sdilej.cz/28201750/jak-proste-s04e24.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131977",
+        "display_name": "Elementary S04E24 A Difference in Kind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:50:13.628124+00:00"
       }
     },
     "1098:5:1": {
@@ -575832,7 +575833,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:50:07.820614+00:00",
+  "updated_at": "2026-11-17T22:50:13.628144+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
