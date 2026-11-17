@@ -492205,28 +492205,29 @@
           "at": "2026-11-17T06:23:34.629488+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5f154b65c15e40c7a2fa1d53606613ff-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:23:38.533901+00:00",
-        "lease_expires_at": "2026-11-17T12:23:38.533911+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110926",
-        "size_bytes": 1582052748
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110926",
-        "size_bytes": 1582052748,
-        "source_bytes_read": 1582052748,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110926",
         "source_bytes_read": 1582052748,
         "elapsed_seconds": 122.574,
         "finished_at": "2026-11-17T06:26:01.372511+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110926",
+          "size_bytes": 1582052748,
+          "source_bytes_read": 1582052748,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526396",
+        "source_url": "https://sdilej.cz/32526396/dobry-doktor-s01e04-trubky-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110926",
+        "display_name": "The Good Doctor S01E04 Pipes 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:26:08.604341+00:00"
       }
     },
     "583:1:5": {
@@ -541853,7 +541854,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:26:01.372530+00:00",
+  "updated_at": "2026-11-17T06:26:08.604357+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
