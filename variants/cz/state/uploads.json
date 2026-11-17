@@ -461763,28 +461763,29 @@
           "at": "2026-11-17T05:03:51.184182+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2a0bc1d79183421ba5459a50e209a630-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:03:55.368943+00:00",
-        "lease_expires_at": "2026-11-17T11:03:55.368954+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31108930",
-        "size_bytes": 835167488
-      },
-      "transfer_receipt": {
-        "target_video_id": "31108930",
-        "size_bytes": 835167488,
-        "source_bytes_read": 835167488,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31108930",
         "source_bytes_read": 835167488,
         "elapsed_seconds": 95.95,
         "finished_at": "2026-11-17T05:06:08.564903+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31108930",
+          "size_bytes": 835167488,
+          "source_bytes_read": 835167488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942099",
+        "source_url": "https://sdilej.cz/34942099/chicago-p.d.-s02e19-035-2015-hd-holky-zbrane-a-automaty-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31108930",
+        "display_name": "Chicago P.D. S02E19 The Three Gs 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:06:15.900482+00:00"
       }
     },
     "1812:3:4": {
@@ -539071,7 +539072,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:06:08.564923+00:00",
+  "updated_at": "2026-11-17T05:06:15.900499+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
