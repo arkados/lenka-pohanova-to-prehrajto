@@ -572838,12 +572838,6 @@
     },
     "1134:6:13": {
       "episode_key": "tráva:s6:e13",
-      "claim": {
-        "worker_id": "847f6d9c20db4c04b536e0d8f8721734-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:02:47.200231+00:00",
-        "lease_expires_at": "2026-11-18T04:02:47.200247+00:00"
-      },
       "source": {
         "source_id": "11249150",
         "source_url": "https://sdilej.cz/11249150/weeds.s06e13.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -572868,22 +572862,29 @@
         "display_name": "Weeds S06E13 Theoretical Love Is Not Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:03:08.719064+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130475",
-        "size_bytes": 864943851
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130475",
-        "size_bytes": 864943851,
-        "source_bytes_read": 864943851,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130475",
         "source_bytes_read": 864943851,
         "elapsed_seconds": 62.503,
         "finished_at": "2026-11-17T22:04:37.578699+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130475",
+          "size_bytes": 864943851,
+          "source_bytes_read": 864943851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11249150",
+        "source_url": "https://sdilej.cz/11249150/weeds.s06e13.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130475",
+        "display_name": "Weeds S06E13 Theoretical Love Is Not Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:04:50.282424+00:00"
       }
     },
     "1134:7:1": {
@@ -572943,7 +572944,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:04:46.321994+00:00",
+  "updated_at": "2026-11-17T22:04:50.282441+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
