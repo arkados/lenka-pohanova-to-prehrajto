@@ -564964,12 +564964,6 @@
     },
     "1098:1:17": {
       "episode_key": "jak prosté:s1:e17",
-      "claim": {
-        "worker_id": "ca53329268014d07ad22a939e472aa2f-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:47:22.707436+00:00",
-        "lease_expires_at": "2026-11-18T01:47:22.707452+00:00"
-      },
       "source": {
         "source_id": "28199601",
         "source_url": "https://sdilej.cz/28199601/jak-proste-s01e17.mkv",
@@ -564994,22 +564988,29 @@
         "display_name": "Elementary S01E17 Possibility Two 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:47:36.437360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31126755",
-        "size_bytes": 1011599400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31126755",
-        "size_bytes": 1011599400,
-        "source_bytes_read": 1011599400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31126755",
         "source_bytes_read": 1011599400,
         "elapsed_seconds": 96.308,
         "finished_at": "2026-11-17T19:49:38.906789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31126755",
+          "size_bytes": 1011599400,
+          "source_bytes_read": 1011599400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28199601",
+        "source_url": "https://sdilej.cz/28199601/jak-proste-s01e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31126755",
+        "display_name": "Elementary S01E17 Possibility Two 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:49:58.425320+00:00"
       }
     },
     "1098:1:18": {
@@ -565180,7 +565181,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:49:53.035374+00:00",
+  "updated_at": "2026-11-17T19:49:58.425334+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
