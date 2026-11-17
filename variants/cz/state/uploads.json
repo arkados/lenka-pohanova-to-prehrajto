@@ -542993,28 +542993,29 @@
           "at": "2026-11-17T12:27:41.283386+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "da455071001940358d9671e8047262c9-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:27:45.050779+00:00",
-        "lease_expires_at": "2026-11-17T18:27:45.050790+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118198",
-        "size_bytes": 805147629
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118198",
-        "size_bytes": 805147629,
-        "source_bytes_read": 805147629,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118198",
         "source_bytes_read": 805147629,
         "elapsed_seconds": 62.41,
         "finished_at": "2026-11-17T12:29:22.765110+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118198",
+          "size_bytes": 805147629,
+          "source_bytes_read": 805147629,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942564",
+        "source_url": "https://sdilej.cz/34942564/chicago-p.d.-s04e04-066-2016-hd-dostala-nas-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118198",
+        "display_name": "Chicago P.D. S04E04 Big Friends Big Enemies 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:29:30.492157+00:00"
       }
     },
     "1085:4:5": {
@@ -551790,7 +551791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:29:22.765131+00:00",
+  "updated_at": "2026-11-17T12:29:30.492172+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
