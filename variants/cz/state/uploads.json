@@ -555385,12 +555385,6 @@
     },
     "1085:6:18": {
       "episode_key": "policie chicago:s6:e18",
-      "claim": {
-        "worker_id": "8deab15fcf29445c9958cdc7853c6418-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:44:33.770419+00:00",
-        "lease_expires_at": "2026-11-17T19:44:33.770431+00:00"
-      },
       "source": {
         "source_id": "32204255",
         "source_url": "https://sdilej.cz/32204255/chicago-p.d.-policie-chicago-s06e18-czdab-x264.mkv",
@@ -555414,7 +555408,17 @@
         },
         "display_name": "Chicago P.D. S06E18 This City 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:44:38.767907+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204255:https://sdilej.cz/32204255/chicago-p.d.-policie-chicago-s06e18-czdab-x264.mkv",
+        "at": "2026-11-17T13:44:51.574704+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:44:51.574734+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:6:19": {
       "episode_key": "policie chicago:s6:e19",
@@ -555431,7 +555435,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:44:47.111240+00:00",
+  "updated_at": "2026-11-17T13:44:51.574738+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555658,6 +555662,10 @@
         {
           "identity": "1085:6:16",
           "at": "2026-11-17T13:44:12.197393+00:00"
+        },
+        {
+          "identity": "1085:6:18",
+          "at": "2026-11-17T13:44:51.574704+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:41:19.404221+00:00"
