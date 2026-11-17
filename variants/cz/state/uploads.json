@@ -335540,28 +335540,29 @@
           "at": "2026-11-17T00:20:35.252974+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f3296191096d4ed3bfaae7cc16898414-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:20:40.229119+00:00",
-        "lease_expires_at": "2026-11-17T06:20:40.229130+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31102606",
-        "size_bytes": 737183875
-      },
-      "transfer_receipt": {
-        "target_video_id": "31102606",
-        "size_bytes": 737183875,
-        "source_bytes_read": 737183875,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31102606",
         "source_bytes_read": 737183875,
         "elapsed_seconds": 76.845,
         "finished_at": "2026-11-17T00:22:27.533205+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31102606",
+          "size_bytes": 737183875,
+          "source_bytes_read": 737183875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29203441",
+        "source_url": "https://sdilej.cz/29203441/starosta-kingstownu-2023--s02e05-niciva-schranka-cz-2.0-avc-1080p-ludasj.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31102606",
+        "display_name": "Mayor of Kingstown S02E05 Kill Box 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:22:42.535994+00:00"
       }
     },
     "580:2:6": {
@@ -524939,7 +524940,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:22:38.156503+00:00",
+  "updated_at": "2026-11-17T00:22:42.536009+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
