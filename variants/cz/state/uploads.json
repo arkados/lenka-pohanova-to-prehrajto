@@ -485634,28 +485634,29 @@
           "at": "2026-11-17T06:19:01.055438+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "654aa4fa13a0428daa22e6e6e5bc2069-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:19:04.888729+00:00",
-        "lease_expires_at": "2026-11-17T12:19:04.888741+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110825",
-        "size_bytes": 6186128219
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110825",
-        "size_bytes": 6186128219,
-        "source_bytes_read": 6186128219,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110825",
         "source_bytes_read": 6186128219,
         "elapsed_seconds": 555.502,
         "finished_at": "2026-11-17T06:28:48.525798+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110825",
+          "size_bytes": 6186128219,
+          "source_bytes_read": 6186128219,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34473935",
+        "source_url": "https://sdilej.cz/34473935/jack-ryan-s03e06-duchove-2022-akcni-thriller-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110825",
+        "display_name": "Tom Clancy's Jack Ryan S03E06 Ghosts 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:28:55.863607+00:00"
       }
     },
     "765:3:7": {
@@ -541883,7 +541884,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:28:48.525817+00:00",
+  "updated_at": "2026-11-17T06:28:55.863623+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
