@@ -461688,28 +461688,29 @@
           "at": "2026-11-17T05:03:28.809145+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1d5cf932e07c467b97be341565818dc5-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:03:33.395712+00:00",
-        "lease_expires_at": "2026-11-17T11:03:33.395821+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31108927",
-        "size_bytes": 423513379
-      },
-      "transfer_receipt": {
-        "target_video_id": "31108927",
-        "size_bytes": 423513379,
-        "source_bytes_read": 423513379,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31108927",
         "source_bytes_read": 423513379,
         "elapsed_seconds": 58.467,
         "finished_at": "2026-11-17T05:05:09.664192+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31108927",
+          "size_bytes": 423513379,
+          "source_bytes_read": 423513379,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30289929",
+        "source_url": "https://sdilej.cz/30289929/chicago-p.d.-policie-chicago-s02e18-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31108927",
+        "display_name": "Chicago P.D. S02E18 Get Back to Even SD CZ Dabing",
+        "uploaded_at": "2026-11-17T05:05:16.101233+00:00"
       }
     },
     "1085:2:19": {
@@ -539037,7 +539038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:05:09.664210+00:00",
+  "updated_at": "2026-11-17T05:05:16.101250+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
