@@ -571797,28 +571797,29 @@
           "at": "2026-11-17T21:52:02.721833+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "31030a1f92c1400a8c8285e655859343-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:52:07.095188+00:00",
-        "lease_expires_at": "2026-11-18T03:52:07.095204+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31130136",
-        "size_bytes": 707383221
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130136",
-        "size_bytes": 707383221,
-        "source_bytes_read": 707383221,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130136",
         "source_bytes_read": 707383221,
         "elapsed_seconds": 39.114,
         "finished_at": "2026-11-17T21:53:24.343578+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130136",
+          "size_bytes": 707383221,
+          "source_bytes_read": 707383221,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431556",
+        "source_url": "https://sdilej.cz/34431556/elementary.s03e09.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130136",
+        "display_name": "Elementary S03E09 The Eternity Injection 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:53:34.529414+00:00"
       }
     },
     "1098:3:10": {
@@ -572113,7 +572114,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:53:28.651683+00:00",
+  "updated_at": "2026-11-17T21:53:34.529432+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
