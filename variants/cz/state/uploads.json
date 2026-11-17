@@ -573145,12 +573145,6 @@
     },
     "1098:3:19": {
       "episode_key": "jak prosté:s3:e19",
-      "claim": {
-        "worker_id": "f738b1fa691a4396baa178c763d4ec47-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:07:23.506328+00:00",
-        "lease_expires_at": "2026-11-18T04:07:23.506345+00:00"
-      },
       "source": {
         "source_id": "28201387",
         "source_url": "https://sdilej.cz/28201387/jak-proste-s03e19.mkv",
@@ -573175,22 +573169,29 @@
         "display_name": "Elementary S03E19 One Watson, One Holmes 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:07:29.938252+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130599",
-        "size_bytes": 565071968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130599",
-        "size_bytes": 565071968,
-        "source_bytes_read": 565071968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130599",
         "source_bytes_read": 565071968,
         "elapsed_seconds": 44.924,
         "finished_at": "2026-11-17T22:08:40.774243+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130599",
+          "size_bytes": 565071968,
+          "source_bytes_read": 565071968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201387",
+        "source_url": "https://sdilej.cz/28201387/jak-proste-s03e19.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130599",
+        "display_name": "Elementary S03E19 One Watson, One Holmes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:08:53.649503+00:00"
       }
     },
     "1098:3:20": {
@@ -573309,7 +573310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:08:48.890675+00:00",
+  "updated_at": "2026-11-17T22:08:53.649518+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
