@@ -562880,28 +562880,29 @@
           "at": "2026-11-17T18:44:26.564854+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a729fcadb8d842f4b7320b7b76eab97d-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:44:30.801355+00:00",
-        "lease_expires_at": "2026-11-18T00:44:30.801369+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31124817",
-        "size_bytes": 1920669886
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124817",
-        "size_bytes": 1920669886,
-        "source_bytes_read": 1920669886,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124817",
         "source_bytes_read": 1920669886,
         "elapsed_seconds": 553.275,
         "finished_at": "2026-11-17T18:54:17.826677+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124817",
+          "size_bytes": 1920669886,
+          "source_bytes_read": 1920669886,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32564827",
+        "source_url": "https://sdilej.cz/32564827/dobry-doktor-s07e05-cz-dabing-ultra-hd-2160p-4k.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124817",
+        "display_name": "The Good Doctor S07E05 Who at Peace 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T18:54:25.754855+00:00"
       }
     },
     "1396:1:2": {
@@ -563190,7 +563191,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:54:17.826697+00:00",
+  "updated_at": "2026-11-17T18:54:25.754872+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
