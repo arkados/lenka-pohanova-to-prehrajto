@@ -539173,12 +539173,6 @@
     },
     "1085:3:3": {
       "episode_key": "policie chicago:s3:e3",
-      "claim": {
-        "worker_id": "f209a72566ab4b53b0ee2ef9ab2a8a06-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:08:39.615149+00:00",
-        "lease_expires_at": "2026-11-17T11:08:39.615160+00:00"
-      },
       "source": {
         "source_id": "27883999",
         "source_url": "https://sdilej.cz/27883999/policie-chicago-03x03.avi",
@@ -539202,7 +539196,17 @@
         },
         "display_name": "Chicago P.D. S03E03 Actual Physical Violence SD CZ Dabing",
         "prepared_at": "2026-11-17T05:08:44.019563+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27883999:https://sdilej.cz/27883999/policie-chicago-03x03.avi",
+        "at": "2026-11-17T05:08:56.203560+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T05:08:56.203592+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -539210,7 +539214,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:08:44.019579+00:00",
+  "updated_at": "2026-11-17T05:08:56.203596+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -539445,6 +539449,10 @@
         {
           "identity": "1085:3:2",
           "at": "2026-11-17T05:08:28.698770+00:00"
+        },
+        {
+          "identity": "1085:3:3",
+          "at": "2026-11-17T05:08:56.203560+00:00"
         }
       ],
       "retry_after": "2026-11-17T01:12:50.614989+00:00"
