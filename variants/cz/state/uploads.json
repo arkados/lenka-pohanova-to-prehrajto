@@ -566877,12 +566877,6 @@
     },
     "1098:2:5": {
       "episode_key": "jak prosté:s2:e5",
-      "claim": {
-        "worker_id": "b204edc37f954a5a9d78c1871f8ef4ed-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:25:29.414525+00:00",
-        "lease_expires_at": "2026-11-18T02:25:29.414539+00:00"
-      },
       "source": {
         "source_id": "34432595",
         "source_url": "https://sdilej.cz/34432595/elementary-s02e05-cz-dabing-1080p-full-hd.mkv",
@@ -566906,7 +566900,17 @@
         },
         "display_name": "Elementary S02E05 Ancient History 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:25:46.427850+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432595:https://sdilej.cz/34432595/elementary-s02e05-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T20:26:05.124090+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T20:26:05.124302+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -566914,7 +566918,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:25:56.945496+00:00",
+  "updated_at": "2026-11-17T20:26:05.124316+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -567331,9 +567335,13 @@
         {
           "identity": "1098:2:4",
           "at": "2026-11-17T20:25:07.401654+00:00"
+        },
+        {
+          "identity": "1098:2:5",
+          "at": "2026-11-17T20:26:05.124090+00:00"
         }
       ],
-      "retry_after": "2026-11-17T20:23:09.351394+00:00"
+      "retry_after": "2026-11-17T20:36:05.124090+00:00"
     }
   }
 }
