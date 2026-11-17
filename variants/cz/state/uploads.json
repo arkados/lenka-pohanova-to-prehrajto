@@ -552822,12 +552822,6 @@
     },
     "1085:4:23": {
       "episode_key": "policie chicago:s4:e23",
-      "claim": {
-        "worker_id": "f01f138c55054197ad3658e012ffb82b-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:58:34.975923+00:00",
-        "lease_expires_at": "2026-11-17T18:58:34.975932+00:00"
-      },
       "source": {
         "source_id": "30290158",
         "source_url": "https://sdilej.cz/30290158/chicago-p.d.-policie-chicago-s04e23-czdab.mp4",
@@ -552852,22 +552846,29 @@
         "display_name": "Chicago P.D. S04E23 Fork in the Road SD CZ Dabing",
         "prepared_at": "2026-11-17T12:58:41.510229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31118788",
-        "size_bytes": 386250712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118788",
-        "size_bytes": 386250712,
-        "source_bytes_read": 386250712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118788",
         "source_bytes_read": 386250712,
         "elapsed_seconds": 32.797,
         "finished_at": "2026-11-17T12:59:35.569605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118788",
+          "size_bytes": 386250712,
+          "source_bytes_read": 386250712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290158",
+        "source_url": "https://sdilej.cz/30290158/chicago-p.d.-policie-chicago-s04e23-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118788",
+        "display_name": "Chicago P.D. S04E23 Fork in the Road SD CZ Dabing",
+        "uploaded_at": "2026-11-17T12:59:42.546478+00:00"
       }
     },
     "1085:5:1": {
@@ -552913,7 +552914,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:59:35.569622+00:00",
+  "updated_at": "2026-11-17T12:59:42.546493+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
