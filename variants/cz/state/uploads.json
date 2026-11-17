@@ -546082,28 +546082,29 @@
           "at": "2026-11-17T13:13:47.665343+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f731b505b4074c0da2433767e54f752c-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:13:54.652380+00:00",
-        "lease_expires_at": "2026-11-17T19:13:54.652390+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119062",
-        "size_bytes": 614841530
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119062",
-        "size_bytes": 614841530,
-        "source_bytes_read": 614841530,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119062",
         "source_bytes_read": 614841530,
         "elapsed_seconds": 40.392,
         "finished_at": "2026-11-17T13:15:01.055319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119062",
+          "size_bytes": 614841530,
+          "source_bytes_read": 614841530,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18481825",
+        "source_url": "https://sdilej.cz/18481825/dobry.doktor-the.good.doctor.2019.s03e17.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119062",
+        "display_name": "The Good Doctor S03E17 Fixation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:15:10.457609+00:00"
       }
     },
     "1553:5:1": {
@@ -553964,7 +553965,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:15:01.055337+00:00",
+  "updated_at": "2026-11-17T13:15:10.457628+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
