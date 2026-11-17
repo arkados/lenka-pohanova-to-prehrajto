@@ -573181,12 +573181,6 @@
     },
     "1098:3:20": {
       "episode_key": "jak prosté:s3:e20",
-      "claim": {
-        "worker_id": "f430775f629343579fdce03572385895-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:07:34.591587+00:00",
-        "lease_expires_at": "2026-11-18T04:07:34.591600+00:00"
-      },
       "source": {
         "source_id": "34433141",
         "source_url": "https://sdilej.cz/34433141/elementary-s03e20-cz-dabing-1080p-full-hd.mkv",
@@ -573210,7 +573204,17 @@
         },
         "display_name": "Elementary S03E20 A Stitch in Time 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:07:44.512625+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433141:https://sdilej.cz/34433141/elementary-s03e20-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T22:08:01.198774+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T22:08:01.198818+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -573218,7 +573222,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:07:56.676970+00:00",
+  "updated_at": "2026-11-17T22:08:01.198823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -573625,16 +573629,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:3:9",
-          "at": "2026-11-17T21:49:38.193382+00:00"
-        },
-        {
-          "identity": "1098:3:10",
-          "at": "2026-11-17T21:50:07.616829+00:00"
-        },
-        {
-          "identity": "1098:2:11",
-          "at": "2026-11-17T21:53:01.229429+00:00"
+          "identity": "1098:3:20",
+          "at": "2026-11-17T22:08:01.198774+00:00"
         }
       ],
       "retry_after": "2026-11-17T22:03:01.229429+00:00"
