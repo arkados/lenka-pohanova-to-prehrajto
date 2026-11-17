@@ -571236,12 +571236,6 @@
     },
     "1134:5:4": {
       "episode_key": "tráva:s5:e4",
-      "claim": {
-        "worker_id": "de92c55d6bb04d0abbcefe996a2f4ab7-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:39:50.325004+00:00",
-        "lease_expires_at": "2026-11-18T03:39:50.325020+00:00"
-      },
       "source": {
         "source_id": "27972515",
         "source_url": "https://sdilej.cz/27972515/trava-s05e04-cast-4.mkv",
@@ -571266,22 +571260,29 @@
         "display_name": "Weeds S05E04 Super Lucky Happy 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:39:59.993712+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129771",
-        "size_bytes": 563635003
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129771",
-        "size_bytes": 563635003,
-        "source_bytes_read": 563635003,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129771",
         "source_bytes_read": 563635003,
         "elapsed_seconds": 24.948,
         "finished_at": "2026-11-17T21:40:45.585212+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129771",
+          "size_bytes": 563635003,
+          "source_bytes_read": 563635003,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972515",
+        "source_url": "https://sdilej.cz/27972515/trava-s05e04-cast-4.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129771",
+        "display_name": "Weeds S05E04 Super Lucky Happy 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:40:52.361754+00:00"
       }
     }
   },
@@ -571290,7 +571291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:40:45.585232+00:00",
+  "updated_at": "2026-11-17T21:40:52.361774+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
