@@ -555301,12 +555301,6 @@
     },
     "1085:6:16": {
       "episode_key": "policie chicago:s6:e16",
-      "claim": {
-        "worker_id": "d90088da09b548c3be08ce964d63e798-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:43:51.288555+00:00",
-        "lease_expires_at": "2026-11-17T19:43:51.288566+00:00"
-      },
       "source": {
         "source_id": "32204245",
         "source_url": "https://sdilej.cz/32204245/chicago-p.d.-policie-chicago-s06e16-czdab-x264.mkv",
@@ -555330,7 +555324,17 @@
         },
         "display_name": "Chicago P.D. S06E16 The Forgotten 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:43:56.231113+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204245:https://sdilej.cz/32204245/chicago-p.d.-policie-chicago-s06e16-czdab-x264.mkv",
+        "at": "2026-11-17T13:44:12.197393+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:44:12.197434+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -555338,7 +555342,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:44:07.456155+00:00",
+  "updated_at": "2026-11-17T13:44:12.197440+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555563,16 +555567,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:6:12",
-          "at": "2026-11-17T13:30:48.604568+00:00"
-        },
-        {
-          "identity": "1085:6:13",
-          "at": "2026-11-17T13:30:56.712249+00:00"
-        },
-        {
-          "identity": "1085:6:14",
-          "at": "2026-11-17T13:31:19.404221+00:00"
+          "identity": "1085:6:16",
+          "at": "2026-11-17T13:44:12.197393+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:41:19.404221+00:00"
