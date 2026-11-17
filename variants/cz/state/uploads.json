@@ -546422,12 +546422,6 @@
     },
     "161:1:22": {
       "episode_key": "grimm:s1:e22",
-      "claim": {
-        "worker_id": "1de85e82bbdd44e2a9a0b29bfcc769e1-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:05:16.282236+00:00",
-        "lease_expires_at": "2026-11-17T14:05:16.282247+00:00"
-      },
       "source": {
         "source_id": "30212380",
         "source_url": "https://sdilej.cz/30212380/grimm-s01e22.mkv",
@@ -546452,22 +546446,29 @@
         "display_name": "Grimm S01E22 Woman in Black 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:05:21.985614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31113300",
-        "size_bytes": 2605810754
-      },
-      "transfer_receipt": {
-        "target_video_id": "31113300",
-        "size_bytes": 2605810754,
-        "source_bytes_read": 2605810754,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31113300",
         "source_bytes_read": 2605810754,
         "elapsed_seconds": 325.312,
         "finished_at": "2026-11-17T08:11:14.945656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31113300",
+          "size_bytes": 2605810754,
+          "source_bytes_read": 2605810754,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30212380",
+        "source_url": "https://sdilej.cz/30212380/grimm-s01e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31113300",
+        "display_name": "Grimm S01E22 Woman in Black 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:11:22.650470+00:00"
       }
     },
     "161:2:1": {
@@ -546550,7 +546551,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:11:14.945675+00:00",
+  "updated_at": "2026-11-17T08:11:22.650486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
