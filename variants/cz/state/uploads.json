@@ -491202,28 +491202,29 @@
           "at": "2026-11-17T06:12:15.457252+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "08c697d9909248fbafa90cdd83207a4b-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:12:19.024671+00:00",
-        "lease_expires_at": "2026-11-17T12:12:19.024682+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110659",
-        "size_bytes": 2366200466
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110659",
-        "size_bytes": 2366200466,
-        "source_bytes_read": 2366200466,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110659",
         "source_bytes_read": 2366200466,
         "elapsed_seconds": 172.42,
         "finished_at": "2026-11-17T06:15:31.417128+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110659",
+          "size_bytes": 2366200466,
+          "source_bytes_read": 2366200466,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901753",
+        "source_url": "https://sdilej.cz/34901753/lucifer-s06e06-s-tim-si-dneska-nevystacis.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110659",
+        "display_name": "Lucifer S06E06 A Lot Dirtier Than That 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:15:39.374533+00:00"
       }
     },
     "1112:2:22": {
@@ -541518,7 +541519,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:15:31.417147+00:00",
+  "updated_at": "2026-11-17T06:15:39.374549+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
