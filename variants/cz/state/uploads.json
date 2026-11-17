@@ -540500,28 +540500,29 @@
           "at": "2026-11-17T05:44:24.954716+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ee897cd2046f49988792ee87ac52a7de-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:44:28.571464+00:00",
-        "lease_expires_at": "2026-11-17T11:44:28.571476+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109948",
-        "size_bytes": 821567394
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109948",
-        "size_bytes": 821567394,
-        "source_bytes_read": 821567394,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109948",
         "source_bytes_read": 821567394,
         "elapsed_seconds": 61.981,
         "finished_at": "2026-11-17T05:45:52.626430+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109948",
+          "size_bytes": 821567394,
+          "source_bytes_read": 821567394,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942370",
+        "source_url": "https://sdilej.cz/34942370/chicago-p.d.-s03e14-053-2016-hd-balada-o-gregorym-williamsi-yatesovi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109948",
+        "display_name": "Chicago P.D. S03E14 The Song of Gregory Williams Yates (II) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:46:00.303978+00:00"
       }
     }
   },
@@ -540530,7 +540531,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:45:52.626449+00:00",
+  "updated_at": "2026-11-17T05:46:00.303994+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
