@@ -554964,12 +554964,6 @@
     },
     "1085:6:14": {
       "episode_key": "policie chicago:s6:e14",
-      "claim": {
-        "worker_id": "5c2998735adb4eb5b7c0754ac15e950f-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:31:01.004383+00:00",
-        "lease_expires_at": "2026-11-17T19:31:01.004393+00:00"
-      },
       "source": {
         "source_id": "32204233",
         "source_url": "https://sdilej.cz/32204233/chicago-p.d.-policie-chicago-s06e14-czdab-x264.mkv",
@@ -554993,7 +554987,17 @@
         },
         "display_name": "Chicago P.D. S06E14 Ties That Bind 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:31:07.340687+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204233:https://sdilej.cz/32204233/chicago-p.d.-policie-chicago-s06e14-czdab-x264.mkv",
+        "at": "2026-11-17T13:31:19.404221+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:31:19.404297+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -555001,7 +555005,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:31:15.377109+00:00",
+  "updated_at": "2026-11-17T13:31:19.404306+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555226,19 +555230,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:6:10",
-          "at": "2026-11-17T13:30:04.035327+00:00"
-        },
-        {
           "identity": "1085:6:12",
           "at": "2026-11-17T13:30:48.604568+00:00"
         },
         {
           "identity": "1085:6:13",
           "at": "2026-11-17T13:30:56.712249+00:00"
+        },
+        {
+          "identity": "1085:6:14",
+          "at": "2026-11-17T13:31:19.404221+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:40:56.712249+00:00"
+      "retry_after": "2026-11-17T13:41:19.404221+00:00"
     },
     "1820": {
       "recent_failures": [
