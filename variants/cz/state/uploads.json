@@ -574470,12 +574470,6 @@
     },
     "1098:4:9": {
       "episode_key": "jak prosté:s4:e9",
-      "claim": {
-        "worker_id": "f864f2c8ebf44c88962319ba9437260a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:24:17.628656+00:00",
-        "lease_expires_at": "2026-11-18T04:24:17.628670+00:00"
-      },
       "source": {
         "source_id": "34433478",
         "source_url": "https://sdilej.cz/34433478/elementary-s04e09-cz-dabing-1080p-full-hd.mkv",
@@ -574499,7 +574493,17 @@
         },
         "display_name": "Elementary S04E09 Murder Ex Machina 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:24:24.313471+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433478:https://sdilej.cz/34433478/elementary-s04e09-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T22:24:38.374570+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T22:24:38.374614+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:4:10": {
       "episode_key": "jak prosté:s4:e10",
@@ -574540,7 +574544,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:24:34.023202+00:00",
+  "updated_at": "2026-11-17T22:24:38.374619+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -574947,16 +574951,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:4:1",
-          "at": "2026-11-17T22:10:32.132440+00:00"
-        },
-        {
-          "identity": "1098:4:3",
-          "at": "2026-11-17T22:11:15.209514+00:00"
-        },
-        {
-          "identity": "1098:4:2",
-          "at": "2026-11-17T22:11:20.420932+00:00"
+          "identity": "1098:4:9",
+          "at": "2026-11-17T22:24:38.374570+00:00"
         }
       ],
       "retry_after": "2026-11-17T22:21:20.420932+00:00"
