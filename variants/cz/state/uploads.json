@@ -556011,12 +556011,6 @@
     },
     "583:4:16": {
       "episode_key": "dobrý doktor:s4:e16",
-      "claim": {
-        "worker_id": "6f572cb34ed2426a8652ec61851a878d-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:57:59.740446+00:00",
-        "lease_expires_at": "2026-11-17T19:57:59.740456+00:00"
-      },
       "source": {
         "source_id": "34669107",
         "source_url": "https://sdilej.cz/34669107/dobry-doktor-s04e16-dr.-ted.mkv",
@@ -556040,7 +556034,17 @@
         },
         "display_name": "The Good Doctor S04E16 Dr. Ted 4K CZ Dabing",
         "prepared_at": "2026-11-17T13:58:11.673442+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669107:https://sdilej.cz/34669107/dobry-doktor-s04e16-dr.-ted.mkv",
+        "at": "2026-11-17T13:58:28.193797+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:58:28.193862+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -556048,7 +556052,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:58:23.133443+00:00",
+  "updated_at": "2026-11-17T13:58:28.193868+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -556412,8 +556416,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:3:14",
-          "at": "2026-11-17T13:16:41.571142+00:00"
+          "identity": "583:4:16",
+          "at": "2026-11-17T13:58:28.193797+00:00"
         }
       ],
       "retry_after": "2026-11-17T12:51:54.382284+00:00"
