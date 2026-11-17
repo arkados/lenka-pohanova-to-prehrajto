@@ -548721,12 +548721,6 @@
     },
     "583:4:1": {
       "episode_key": "dobrý doktor:s4:e1",
-      "claim": {
-        "worker_id": "dc39f18a91954b67bd94cb8014cc0942-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:19:46.302202+00:00",
-        "lease_expires_at": "2026-11-17T15:19:46.302213+00:00"
-      },
       "source": {
         "source_id": "23922610",
         "source_url": "https://sdilej.cz/23922610/dobry-doktor-the-good-doctor-2020-s04e01-1080p-10bit-amzn-web-dl-ac3-x265-hevc-vyndros-czaudio.mkv",
@@ -548751,22 +548745,29 @@
         "display_name": "The Good Doctor S04E01 Frontline (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-17T09:19:56.638810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114741",
-        "size_bytes": 848725439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114741",
-        "size_bytes": 848725439,
-        "source_bytes_read": 848725439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114741",
         "source_bytes_read": 848725439,
         "elapsed_seconds": 138.18,
         "finished_at": "2026-11-17T09:22:40.895077+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114741",
+          "size_bytes": 848725439,
+          "source_bytes_read": 848725439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23922610",
+        "source_url": "https://sdilej.cz/23922610/dobry-doktor-the-good-doctor-2020-s04e01-1080p-10bit-amzn-web-dl-ac3-x265-hevc-vyndros-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114741",
+        "display_name": "The Good Doctor S04E01 Frontline (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T09:22:47.817787+00:00"
       }
     },
     "161:3:20": {
@@ -548849,7 +548850,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:22:40.895097+00:00",
+  "updated_at": "2026-11-17T09:22:47.817804+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
