@@ -493356,28 +493356,29 @@
           "at": "2026-11-17T06:36:15.513347+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f611360b52994cf6be3ecc7334e42c4e-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:36:19.237702+00:00",
-        "lease_expires_at": "2026-11-17T12:36:19.237713+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111290",
-        "size_bytes": 1563693383
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111290",
-        "size_bytes": 1563693383,
-        "source_bytes_read": 1563693383,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111290",
         "source_bytes_read": 1563693383,
         "elapsed_seconds": 328.958,
         "finished_at": "2026-11-17T06:42:15.404673+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111290",
+          "size_bytes": 1563693383,
+          "source_bytes_read": 1563693383,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526590",
+        "source_url": "https://sdilej.cz/32526590/dobry-doktor-s01e11-ostrovy-cast-prvni-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111290",
+        "display_name": "The Good Doctor S01E11 Islands (1) 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:42:29.442026+00:00"
       }
     },
     "9733:1:2": {
@@ -542389,7 +542390,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:42:25.963129+00:00",
+  "updated_at": "2026-11-17T06:42:29.442041+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
