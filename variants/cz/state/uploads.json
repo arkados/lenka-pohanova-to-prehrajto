@@ -565658,12 +565658,6 @@
     },
     "1098:1:22": {
       "episode_key": "jak prosté:s1:e22",
-      "claim": {
-        "worker_id": "6539cb3fed7745469c5b56dee6d09eae-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:59:24.322676+00:00",
-        "lease_expires_at": "2026-11-18T01:59:24.322689+00:00"
-      },
       "source": {
         "source_id": "28199693",
         "source_url": "https://sdilej.cz/28199693/jak-proste-s01e22.mkv",
@@ -565688,22 +565682,29 @@
         "display_name": "Elementary S01E22 Risk Management 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:59:34.983262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31127009",
-        "size_bytes": 1123900836
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127009",
-        "size_bytes": 1123900836,
-        "source_bytes_read": 1123900836,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127009",
         "source_bytes_read": 1123900836,
         "elapsed_seconds": 105.515,
         "finished_at": "2026-11-17T20:01:48.681727+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127009",
+          "size_bytes": 1123900836,
+          "source_bytes_read": 1123900836,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28199693",
+        "source_url": "https://sdilej.cz/28199693/jak-proste-s01e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127009",
+        "display_name": "Elementary S01E22 Risk Management 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:02:04.707920+00:00"
       }
     },
     "1098:2:1": {
@@ -565786,7 +565787,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:02:00.558349+00:00",
+  "updated_at": "2026-11-17T20:02:04.707936+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
