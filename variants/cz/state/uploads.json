@@ -563660,12 +563660,6 @@
     },
     "923:1:1": {
       "episode_key": "muž z vysokého zámku:s1:e1",
-      "claim": {
-        "worker_id": "3a3d8260976b43fc8172bd3a392f34b0-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:03:49.741958+00:00",
-        "lease_expires_at": "2026-11-18T01:03:49.741969+00:00"
-      },
       "source": {
         "source_id": "27855539",
         "source_url": "https://sdilej.cz/27855539/muz-z-vysokeho-zamku-s01e01-1080p-cz-dabing.mkv",
@@ -563690,22 +563684,29 @@
         "display_name": "The Man in the High Castle S01E01 The New World 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:03:59.977977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31125381",
-        "size_bytes": 1503269849
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125381",
-        "size_bytes": 1503269849,
-        "source_bytes_read": 1503269849,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125381",
         "source_bytes_read": 1503269849,
         "elapsed_seconds": 453.537,
         "finished_at": "2026-11-17T19:11:56.368182+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125381",
+          "size_bytes": 1503269849,
+          "source_bytes_read": 1503269849,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27855539",
+        "source_url": "https://sdilej.cz/27855539/muz-z-vysokeho-zamku-s01e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125381",
+        "display_name": "The Man in the High Castle S01E01 The New World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:12:08.505642+00:00"
       }
     },
     "583:7:9": {
@@ -563788,7 +563789,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:12:01.659548+00:00",
+  "updated_at": "2026-11-17T19:12:08.505658+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
