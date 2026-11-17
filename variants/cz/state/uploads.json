@@ -540120,12 +540120,6 @@
     },
     "1085:3:10": {
       "episode_key": "policie chicago:s3:e10",
-      "claim": {
-        "worker_id": "199b0d15258f41478cb524b481b1bb83-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:35:35.365276+00:00",
-        "lease_expires_at": "2026-11-17T11:35:35.365287+00:00"
-      },
       "source": {
         "source_id": "30290003",
         "source_url": "https://sdilej.cz/30290003/chicago-p.d.-policie-chicago-s03e10-czdab.mp4",
@@ -540150,22 +540144,29 @@
         "display_name": "Chicago P.D. S03E10 Now I'm God (III) SD CZ Dabing",
         "prepared_at": "2026-11-17T05:35:43.252008+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31109729",
-        "size_bytes": 405428158
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109729",
-        "size_bytes": 405428158,
-        "source_bytes_read": 405428158,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109729",
         "source_bytes_read": 405428158,
         "elapsed_seconds": 32.852,
         "finished_at": "2026-11-17T05:36:37.129734+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109729",
+          "size_bytes": 405428158,
+          "source_bytes_read": 405428158,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290003",
+        "source_url": "https://sdilej.cz/30290003/chicago-p.d.-policie-chicago-s03e10-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109729",
+        "display_name": "Chicago P.D. S03E10 Now I'm God (III) SD CZ Dabing",
+        "uploaded_at": "2026-11-17T05:36:44.248984+00:00"
       }
     },
     "1085:3:11": {
@@ -540211,7 +540212,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:36:37.129752+00:00",
+  "updated_at": "2026-11-17T05:36:44.248999+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
