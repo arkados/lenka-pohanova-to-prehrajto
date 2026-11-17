@@ -335747,28 +335747,29 @@
           "at": "2026-11-17T00:22:11.446437+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e47fa1125c63497c953c0fc12fb9b40e-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:22:15.032646+00:00",
-        "lease_expires_at": "2026-11-17T06:22:15.032659+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31102654",
-        "size_bytes": 688735254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31102654",
-        "size_bytes": 688735254,
-        "source_bytes_read": 688735254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31102654",
         "source_bytes_read": 688735254,
         "elapsed_seconds": 63.663,
         "finished_at": "2026-11-17T00:23:46.198720+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31102654",
+          "size_bytes": 688735254,
+          "source_bytes_read": 688735254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29203574",
+        "source_url": "https://sdilej.cz/29203574/starosta-kingstownu-2023--s02e09-mir-v-udoli-cz-2.0-avc-1080p-ludasj.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31102654",
+        "display_name": "Mayor of Kingstown S02E09 Peace in the Valley 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:23:55.270883+00:00"
       }
     },
     "580:2:10": {
@@ -524969,7 +524970,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:23:49.810481+00:00",
+  "updated_at": "2026-11-17T00:23:55.270897+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
