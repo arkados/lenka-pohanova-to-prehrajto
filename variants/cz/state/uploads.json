@@ -545004,12 +545004,6 @@
     },
     "583:3:16": {
       "episode_key": "dobrý doktor:s3:e16",
-      "claim": {
-        "worker_id": "685a556ab7f84167bf1ba685190cc9c8-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:31:14.187272+00:00",
-        "lease_expires_at": "2026-11-17T13:31:14.187282+00:00"
-      },
       "source": {
         "source_id": "34668759",
         "source_url": "https://sdilej.cz/34668759/dobry-doktor-s03e16-pitva.mkv",
@@ -545033,7 +545027,17 @@
         },
         "display_name": "The Good Doctor S03E16 Autopsy 4K CZ Dabing",
         "prepared_at": "2026-11-17T07:31:20.480673+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668759:https://sdilej.cz/34668759/dobry-doktor-s03e16-pitva.mkv",
+        "at": "2026-11-17T07:31:32.718869+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T07:31:32.718925+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:3:17": {
       "episode_key": "dobrý doktor:s3:e17",
@@ -545050,7 +545054,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:31:28.086346+00:00",
+  "updated_at": "2026-11-17T07:31:32.718929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -545412,9 +545416,13 @@
         {
           "identity": "583:3:15",
           "at": "2026-11-17T07:31:10.392993+00:00"
+        },
+        {
+          "identity": "583:3:16",
+          "at": "2026-11-17T07:31:32.718869+00:00"
         }
       ],
-      "retry_after": "2026-11-17T07:30:34.627554+00:00"
+      "retry_after": "2026-11-17T07:41:32.718869+00:00"
     },
     "1603": {
       "recent_failures": [
