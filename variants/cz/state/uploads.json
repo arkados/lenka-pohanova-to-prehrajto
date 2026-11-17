@@ -576719,12 +576719,6 @@
     },
     "1098:5:10": {
       "episode_key": "jak prosté:s5:e10",
-      "claim": {
-        "worker_id": "ee6ac1770a7c4774b1fd5fe647be46b5-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:04:38.684571+00:00",
-        "lease_expires_at": "2026-11-18T05:04:38.684584+00:00"
-      },
       "source": {
         "source_id": "28201901",
         "source_url": "https://sdilej.cz/28201901/jak-proste-s05e10.mkv",
@@ -576749,22 +576743,29 @@
         "display_name": "Elementary S05E10 Pick Your Poison 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:04:43.731020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132498",
-        "size_bytes": 577604116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132498",
-        "size_bytes": 577604116,
-        "source_bytes_read": 577604116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132498",
         "source_bytes_read": 577604116,
         "elapsed_seconds": 44.621,
         "finished_at": "2026-11-17T23:05:45.558586+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132498",
+          "size_bytes": 577604116,
+          "source_bytes_read": 577604116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201901",
+        "source_url": "https://sdilej.cz/28201901/jak-proste-s05e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132498",
+        "display_name": "Elementary S05E10 Pick Your Poison 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:05:51.982120+00:00"
       }
     }
   },
@@ -576773,7 +576774,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:05:45.558605+00:00",
+  "updated_at": "2026-11-17T23:05:51.982138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
