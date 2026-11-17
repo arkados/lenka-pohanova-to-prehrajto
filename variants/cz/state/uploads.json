@@ -542959,12 +542959,6 @@
     },
     "161:1:8": {
       "episode_key": "grimm:s1:e8",
-      "claim": {
-        "worker_id": "12ce3fe07e314543ae2863994fd0b9f7-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T06:58:44.463394+00:00",
-        "lease_expires_at": "2026-11-17T12:58:44.463406+00:00"
-      },
       "source": {
         "source_id": "30211815",
         "source_url": "https://sdilej.cz/30211815/grimm-s01e08.mkv",
@@ -542989,22 +542983,29 @@
         "display_name": "Grimm S01E08 Game Ogre 1080p CZ Dabing",
         "prepared_at": "2026-11-17T06:58:56.520779+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31111812",
-        "size_bytes": 2576732976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111812",
-        "size_bytes": 2576732976,
-        "source_bytes_read": 2576732976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111812",
         "source_bytes_read": 2576732976,
         "elapsed_seconds": 266.482,
         "finished_at": "2026-11-17T07:03:45.268601+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111812",
+          "size_bytes": 2576732976,
+          "source_bytes_read": 2576732976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30211815",
+        "source_url": "https://sdilej.cz/30211815/grimm-s01e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111812",
+        "display_name": "Grimm S01E08 Game Ogre 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:03:55.176955+00:00"
       }
     },
     "161:1:9": {
@@ -543050,7 +543051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:03:51.037408+00:00",
+  "updated_at": "2026-11-17T07:03:55.176969+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
