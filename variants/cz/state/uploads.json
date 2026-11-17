@@ -554878,12 +554878,6 @@
     },
     "1085:6:12": {
       "episode_key": "policie chicago:s6:e12",
-      "claim": {
-        "worker_id": "d1739480a48b4160b091d4aa54d81555-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:30:25.866951+00:00",
-        "lease_expires_at": "2026-11-17T19:30:25.866961+00:00"
-      },
       "source": {
         "source_id": "32204223",
         "source_url": "https://sdilej.cz/32204223/chicago-p.d.-policie-chicago-s06e12-czdab-x264.mkv",
@@ -554907,7 +554901,17 @@
         },
         "display_name": "Chicago P.D. S06E12 Outrage 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:30:32.431731+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204223:https://sdilej.cz/32204223/chicago-p.d.-policie-chicago-s06e12-czdab-x264.mkv",
+        "at": "2026-11-17T13:30:48.604568+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:30:48.604599+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:6:13": {
       "episode_key": "policie chicago:s6:e13",
@@ -554948,7 +554952,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:30:44.690907+00:00",
+  "updated_at": "2026-11-17T13:30:48.604605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555175,6 +555179,10 @@
         {
           "identity": "1085:6:10",
           "at": "2026-11-17T13:30:04.035327+00:00"
+        },
+        {
+          "identity": "1085:6:12",
+          "at": "2026-11-17T13:30:48.604568+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:17:56.204497+00:00"
