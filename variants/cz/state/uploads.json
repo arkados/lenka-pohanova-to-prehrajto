@@ -562658,28 +562658,29 @@
           "at": "2026-11-17T18:38:05.583796+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "391de10cfc924944aab1d486bb235337-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:38:10.538697+00:00",
-        "lease_expires_at": "2026-11-18T00:38:10.538711+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31124658",
-        "size_bytes": 1916966857
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124658",
-        "size_bytes": 1916966857,
-        "source_bytes_read": 1916966857,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124658",
         "source_bytes_read": 1916966857,
         "elapsed_seconds": 318.563,
         "finished_at": "2026-11-17T18:43:58.534360+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124658",
+          "size_bytes": 1916966857,
+          "source_bytes_read": 1916966857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32564666",
+        "source_url": "https://sdilej.cz/32564666/dobry-doktor-s07e01-cz-dabing-ultra-hd-2160p-4k.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124658",
+        "display_name": "The Good Doctor S07E01 Baby, Baby, Baby 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T18:44:09.277297+00:00"
       }
     },
     "583:7:2": {
@@ -562916,7 +562917,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:44:04.938674+00:00",
+  "updated_at": "2026-11-17T18:44:09.277313+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
