@@ -543834,12 +543834,6 @@
     },
     "583:3:3": {
       "episode_key": "dobrý doktor:s3:e3",
-      "claim": {
-        "worker_id": "acbf5e99e29149a0bfd64f9ed12d6f8d-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:17:26.280911+00:00",
-        "lease_expires_at": "2026-11-17T13:17:26.280921+00:00"
-      },
       "source": {
         "source_id": "17400329",
         "source_url": "https://sdilej.cz/17400329/dobry-doktor-the.good.doctor.s03e03.claire.1080p.10bit.amzn.web-dl.aac5.1.hevc-vyndros-cz-audio-.mkv",
@@ -543864,22 +543858,29 @@
         "display_name": "The Good Doctor S03E03 Claire 1080p CZ Dabing",
         "prepared_at": "2026-11-17T07:17:30.559534+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112189",
-        "size_bytes": 894174470
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112189",
-        "size_bytes": 894174470,
-        "source_bytes_read": 894174470,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112189",
         "source_bytes_read": 894174470,
         "elapsed_seconds": 71.188,
         "finished_at": "2026-11-17T07:19:05.028224+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112189",
+          "size_bytes": 894174470,
+          "source_bytes_read": 894174470,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17400329",
+        "source_url": "https://sdilej.cz/17400329/dobry-doktor-the.good.doctor.s03e03.claire.1080p.10bit.amzn.web-dl.aac5.1.hevc-vyndros-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112189",
+        "display_name": "The Good Doctor S03E03 Claire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:19:12.852239+00:00"
       }
     },
     "583:3:6": {
@@ -543962,7 +543963,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:19:05.028243+00:00",
+  "updated_at": "2026-11-17T07:19:12.852255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
