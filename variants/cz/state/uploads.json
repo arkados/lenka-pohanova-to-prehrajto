@@ -552607,28 +552607,29 @@
           "at": "2026-11-17T12:50:13.987472+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "6952f932b7704b5d9d1050ad9b0a5ddb-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:50:18.091852+00:00",
-        "lease_expires_at": "2026-11-17T18:50:18.091862+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118650",
-        "size_bytes": 661702314
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118650",
-        "size_bytes": 661702314,
-        "source_bytes_read": 661702314,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118650",
         "source_bytes_read": 661702314,
         "elapsed_seconds": 46.219,
         "finished_at": "2026-11-17T12:51:44.627019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118650",
+          "size_bytes": 661702314,
+          "source_bytes_read": 661702314,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32941931",
+        "source_url": "https://sdilej.cz/32941931/chicago-p.d.-policie-chicago-s04e20-czdab-x264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118650",
+        "display_name": "Chicago P.D. S04E20 Grasping for Salvation 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:51:55.643488+00:00"
       }
     },
     "1085:4:21": {
@@ -552711,7 +552712,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:51:49.518329+00:00",
+  "updated_at": "2026-11-17T12:51:55.643500+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
