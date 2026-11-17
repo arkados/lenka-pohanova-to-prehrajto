@@ -569833,12 +569833,6 @@
     },
     "1134:3:14": {
       "episode_key": "tráva:s3:e14",
-      "claim": {
-        "worker_id": "289e347e679541699d7dbd620ec39aba-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:18:00.947744+00:00",
-        "lease_expires_at": "2026-11-18T03:18:00.947760+00:00"
-      },
       "source": {
         "source_id": "27972364",
         "source_url": "https://sdilej.cz/27972364/trava-s03e14-cast-14.mkv",
@@ -569863,22 +569857,29 @@
         "display_name": "Weeds S03E14 Protection 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:18:06.075248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129123",
-        "size_bytes": 490729715
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129123",
-        "size_bytes": 490729715,
-        "source_bytes_read": 490729715,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129123",
         "source_bytes_read": 490729715,
         "elapsed_seconds": 26.343,
         "finished_at": "2026-11-17T21:18:54.583819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129123",
+          "size_bytes": 490729715,
+          "source_bytes_read": 490729715,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972364",
+        "source_url": "https://sdilej.cz/27972364/trava-s03e14-cast-14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129123",
+        "display_name": "Weeds S03E14 Protection 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:19:05.450675+00:00"
       }
     },
     "1134:3:15": {
@@ -569924,7 +569925,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:18:59.900776+00:00",
+  "updated_at": "2026-11-17T21:19:05.450693+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
