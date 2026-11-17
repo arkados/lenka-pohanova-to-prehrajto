@@ -555556,28 +555556,29 @@
           "at": "2026-11-17T13:49:43.063139+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e0eee642c3e94f1faa945b8d54468d37-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:49:46.863368+00:00",
-        "lease_expires_at": "2026-11-17T19:49:46.863379+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119595",
-        "size_bytes": 813309643
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119595",
-        "size_bytes": 813309643,
-        "source_bytes_read": 813309643,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119595",
         "source_bytes_read": 813309643,
         "elapsed_seconds": 185.901,
         "finished_at": "2026-11-17T13:53:32.035587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119595",
+          "size_bytes": 813309643,
+          "source_bytes_read": 813309643,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943561",
+        "source_url": "https://sdilej.cz/34943561/chicago-p.d.-s06e19-126-2019-hd-co-mohlo-byt-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119595",
+        "display_name": "Chicago P.D. S06E19 What Could Have Been 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:53:46.448368+00:00"
       }
     },
     "1085:6:20": {
@@ -555755,7 +555756,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:53:39.263613+00:00",
+  "updated_at": "2026-11-17T13:53:46.448383+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
