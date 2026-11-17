@@ -576835,12 +576835,6 @@
     },
     "1098:5:12": {
       "episode_key": "jak prosté:s5:e12",
-      "claim": {
-        "worker_id": "dd4cf47ee76741a09f38d536a0d6e53a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:07:44.036697+00:00",
-        "lease_expires_at": "2026-11-18T05:07:44.036713+00:00"
-      },
       "source": {
         "source_id": "34433885",
         "source_url": "https://sdilej.cz/34433885/elementary-s05e12-cz-dabing-1080p-full-hd.mkv",
@@ -576864,7 +576858,17 @@
         },
         "display_name": "Elementary S05E12 Crowned Clown, Downtown Brown 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:07:49.030321+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433885:https://sdilej.cz/34433885/elementary-s05e12-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:08:01.950139+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:08:01.950194+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -576872,7 +576876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:07:53.680950+00:00",
+  "updated_at": "2026-11-17T23:08:01.950204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -577279,16 +577283,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:5:7",
-          "at": "2026-11-17T22:52:58.568743+00:00"
-        },
-        {
-          "identity": "1098:5:8",
-          "at": "2026-11-17T22:53:33.095983+00:00"
-        },
-        {
-          "identity": "1098:5:9",
-          "at": "2026-11-17T22:54:05.590829+00:00"
+          "identity": "1098:5:12",
+          "at": "2026-11-17T23:08:01.950139+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:04:05.590829+00:00"
