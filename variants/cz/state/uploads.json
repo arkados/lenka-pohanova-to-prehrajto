@@ -544186,12 +544186,6 @@
     },
     "1553:4:11": {
       "episode_key": "fresh prince:s4:e11",
-      "claim": {
-        "worker_id": "fa15134343644e7a949104f0bf860951-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:20:57.564168+00:00",
-        "lease_expires_at": "2026-11-17T13:20:57.564177+00:00"
-      },
       "source": {
         "source_id": "28201055",
         "source_url": "https://sdilej.cz/28201055/fresh-prince-s04e11-cz-dab-hd.mp4",
@@ -544216,22 +544210,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E11 Take My Cousin… Please 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:21:02.739342+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112262",
-        "size_bytes": 294953079
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112262",
-        "size_bytes": 294953079,
-        "source_bytes_read": 294953079,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112262",
         "source_bytes_read": 294953079,
         "elapsed_seconds": 31.738,
         "finished_at": "2026-11-17T07:21:58.206523+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112262",
+          "size_bytes": 294953079,
+          "source_bytes_read": 294953079,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201055",
+        "source_url": "https://sdilej.cz/28201055/fresh-prince-s04e11-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112262",
+        "display_name": "The Fresh Prince of Bel-Air S04E11 Take My Cousin… Please 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:22:09.295058+00:00"
       }
     },
     "1553:4:12": {
@@ -544277,7 +544278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:22:03.901803+00:00",
+  "updated_at": "2026-11-17T07:22:09.295076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
