@@ -566446,12 +566446,6 @@
     },
     "923:4:1": {
       "episode_key": "muž z vysokého zámku:s4:e1",
-      "claim": {
-        "worker_id": "3f6f86310be445c7b567ca997b869c29-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:13:37.004119+00:00",
-        "lease_expires_at": "2026-11-18T02:13:37.004133+00:00"
-      },
       "source": {
         "source_id": "24545847",
         "source_url": "https://sdilej.cz/24545847/muz-z-vysokeho-zamku-the-man-in-the-high-castle-s04e01-hdtv-cz-dabing.mkv",
@@ -566476,22 +566470,29 @@
         "display_name": "The Man in the High Castle S04E01 Hexagram 64 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:13:46.589256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31127342",
-        "size_bytes": 2292947420
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127342",
-        "size_bytes": 2292947420,
-        "source_bytes_read": 2292947420,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127342",
         "source_bytes_read": 2292947420,
         "elapsed_seconds": 306.016,
         "finished_at": "2026-11-17T20:19:12.584816+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127342",
+          "size_bytes": 2292947420,
+          "source_bytes_read": 2292947420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24545847",
+        "source_url": "https://sdilej.cz/24545847/muz-z-vysokeho-zamku-the-man-in-the-high-castle-s04e01-hdtv-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127342",
+        "display_name": "The Man in the High Castle S04E01 Hexagram 64 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:19:25.065761+00:00"
       }
     },
     "923:4:2": {
@@ -566570,7 +566571,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:19:17.505899+00:00",
+  "updated_at": "2026-11-17T20:19:25.065778+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
