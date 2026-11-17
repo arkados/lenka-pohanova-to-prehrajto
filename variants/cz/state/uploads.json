@@ -559041,12 +559041,6 @@
     },
     "1085:9:1": {
       "episode_key": "policie chicago:s9:e1",
-      "claim": {
-        "worker_id": "73d06cded9c346d58642421a45386313-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T15:02:11.842237+00:00",
-        "lease_expires_at": "2026-11-17T21:02:11.842249+00:00"
-      },
       "source": {
         "source_id": "27956275",
         "source_url": "https://sdilej.cz/27956275/policie-chicago-s09e01.mp4",
@@ -559070,7 +559064,17 @@
         },
         "display_name": "Chicago P.D. S09E01 Closure 1080p CZ Dabing",
         "prepared_at": "2026-11-17T15:02:16.624029+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27956275:https://sdilej.cz/27956275/policie-chicago-s09e01.mp4",
+        "at": "2026-11-17T15:02:37.169282+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T15:02:37.169344+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -559078,7 +559082,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:02:33.053582+00:00",
+  "updated_at": "2026-11-17T15:02:37.169351+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -559319,19 +559323,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:8:11",
-          "at": "2026-11-17T15:01:08.518040+00:00"
-        },
-        {
           "identity": "1085:8:12",
           "at": "2026-11-17T15:01:44.977555+00:00"
         },
         {
           "identity": "1085:8:13",
           "at": "2026-11-17T15:02:02.165544+00:00"
+        },
+        {
+          "identity": "1085:9:1",
+          "at": "2026-11-17T15:02:37.169282+00:00"
         }
       ],
-      "retry_after": "2026-11-17T15:12:02.165544+00:00"
+      "retry_after": "2026-11-17T15:12:37.169282+00:00"
     },
     "1820": {
       "recent_failures": [
