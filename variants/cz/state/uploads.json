@@ -565610,28 +565610,29 @@
           "at": "2026-11-17T20:02:18.039072+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "20a62dc35d4849a5a4d30dc98d43a34e-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:02:22.575538+00:00",
-        "lease_expires_at": "2026-11-18T02:02:22.575551+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31127076",
-        "size_bytes": 943779956
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127076",
-        "size_bytes": 943779956,
-        "source_bytes_read": 943779956,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127076",
         "source_bytes_read": 943779956,
         "elapsed_seconds": 91.986,
         "finished_at": "2026-11-17T20:04:35.378678+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127076",
+          "size_bytes": 943779956,
+          "source_bytes_read": 943779956,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433577",
+        "source_url": "https://sdilej.cz/34433577/elementary.s01e20.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127076",
+        "display_name": "Elementary S01E20 Dead Man's Switch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:04:43.803499+00:00"
       }
     },
     "1098:1:21": {
@@ -565883,7 +565884,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:04:35.378697+00:00",
+  "updated_at": "2026-11-17T20:04:43.803518+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
