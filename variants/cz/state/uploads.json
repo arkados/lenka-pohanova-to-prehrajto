@@ -570213,12 +570213,6 @@
     },
     "1098:2:22": {
       "episode_key": "jak prosté:s2:e22",
-      "claim": {
-        "worker_id": "79368903cd3c414893f1e300a3172008-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:22:47.480441+00:00",
-        "lease_expires_at": "2026-11-18T03:22:47.480453+00:00"
-      },
       "source": {
         "source_id": "34432720",
         "source_url": "https://sdilej.cz/34432720/elementary-s02e22-cz-dabing-1080p-full-hd.mkv",
@@ -570242,7 +570236,17 @@
         },
         "display_name": "Elementary S02E22 Paint It Black 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:22:52.134040+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432720:https://sdilej.cz/34432720/elementary-s02e22-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:23:04.890163+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:23:04.890201+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -570250,7 +570254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:22:56.160208+00:00",
+  "updated_at": "2026-11-17T21:23:04.890206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -570659,6 +570663,10 @@
         {
           "identity": "1098:2:11",
           "at": "2026-11-17T21:22:26.838449+00:00"
+        },
+        {
+          "identity": "1098:2:22",
+          "at": "2026-11-17T21:23:04.890163+00:00"
         }
       ],
       "retry_after": "2026-11-17T21:21:17.099510+00:00"
