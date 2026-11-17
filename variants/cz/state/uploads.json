@@ -555789,12 +555789,6 @@
     },
     "1085:6:22": {
       "episode_key": "policie chicago:s6:e22",
-      "claim": {
-        "worker_id": "1415c49e8ff44bd69a66418b4e1804a7-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:56:33.650754+00:00",
-        "lease_expires_at": "2026-11-17T19:56:33.650764+00:00"
-      },
       "source": {
         "source_id": "32204272",
         "source_url": "https://sdilej.cz/32204272/chicago-p.d.-policie-chicago-s06e22-czdab-x264.mkv",
@@ -555818,7 +555812,17 @@
         },
         "display_name": "Chicago P.D. S06E22 Reckoning 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:56:43.779387+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204272:https://sdilej.cz/32204272/chicago-p.d.-policie-chicago-s06e22-czdab-x264.mkv",
+        "at": "2026-11-17T13:56:57.880465+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:56:57.880497+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:7:1": {
       "episode_key": "policie chicago:s7:e1",
@@ -555859,7 +555863,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:56:53.974540+00:00",
+  "updated_at": "2026-11-17T13:56:57.880503+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -556102,6 +556106,10 @@
         {
           "identity": "1085:6:21",
           "at": "2026-11-17T13:56:40.047558+00:00"
+        },
+        {
+          "identity": "1085:6:22",
+          "at": "2026-11-17T13:56:57.880465+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:55:45.281776+00:00"
