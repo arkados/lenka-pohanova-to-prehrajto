@@ -544788,12 +544788,6 @@
     },
     "1085:4:9": {
       "episode_key": "policie chicago:s4:e9",
-      "claim": {
-        "worker_id": "e8f6fdf5fd294f01900e4a136f00a622-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:28:24.928274+00:00",
-        "lease_expires_at": "2026-11-17T13:28:24.928289+00:00"
-      },
       "source": {
         "source_id": "34942640",
         "source_url": "https://sdilej.cz/34942640/chicago-p.d.-s04e09-071-2017-hd-ten-pripad-nepohrbivej-s-.mp4",
@@ -544818,22 +544812,29 @@
         "display_name": "Chicago P.D. S04E09 Don't Bury This Case (II) 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:28:29.479893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112399",
-        "size_bytes": 847483706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112399",
-        "size_bytes": 847483706,
-        "source_bytes_read": 847483706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112399",
         "source_bytes_read": 847483706,
         "elapsed_seconds": 72.05,
         "finished_at": "2026-11-17T07:30:00.289577+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112399",
+          "size_bytes": 847483706,
+          "source_bytes_read": 847483706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942640",
+        "source_url": "https://sdilej.cz/34942640/chicago-p.d.-s04e09-071-2017-hd-ten-pripad-nepohrbivej-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112399",
+        "display_name": "Chicago P.D. S04E09 Don't Bury This Case (II) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:30:08.666007+00:00"
       }
     },
     "1085:4:10": {
@@ -544879,7 +544880,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:30:00.289597+00:00",
+  "updated_at": "2026-11-17T07:30:08.666023+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
