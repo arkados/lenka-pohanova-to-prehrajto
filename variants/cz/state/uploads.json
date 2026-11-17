@@ -546035,28 +546035,29 @@
           "at": "2026-11-17T13:12:57.923742+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5c3ca63368794fe39aa217f25de48496-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:13:02.165689+00:00",
-        "lease_expires_at": "2026-11-17T19:13:02.165700+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119056",
-        "size_bytes": 1584671761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119056",
-        "size_bytes": 1584671761,
-        "source_bytes_read": 1584671761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119056",
         "source_bytes_read": 1584671761,
         "elapsed_seconds": 116.528,
         "finished_at": "2026-11-17T13:15:44.192858+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119056",
+          "size_bytes": 1584671761,
+          "source_bytes_read": 1584671761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526934",
+        "source_url": "https://sdilej.cz/32526934/dobry-doktor-s03e16-pitva-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119056",
+        "display_name": "The Good Doctor S03E16 Autopsy 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T13:16:04.171702+00:00"
       }
     },
     "583:3:17": {
@@ -554008,7 +554009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:15:58.372237+00:00",
+  "updated_at": "2026-11-17T13:16:04.171723+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
