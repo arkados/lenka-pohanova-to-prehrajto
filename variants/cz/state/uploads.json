@@ -554401,12 +554401,6 @@
     },
     "1085:6:3": {
       "episode_key": "policie chicago:s6:e3",
-      "claim": {
-        "worker_id": "2af972b64e6d40a196a54e214359478a-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:21:49.440862+00:00",
-        "lease_expires_at": "2026-11-17T19:21:49.440872+00:00"
-      },
       "source": {
         "source_id": "32204196",
         "source_url": "https://sdilej.cz/32204196/chicago-p.d.-policie-chicago-s06e03-czdab-x264.mkv",
@@ -554430,7 +554424,17 @@
         },
         "display_name": "Chicago P.D. S06E03 Bad Boys 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:21:59.540648+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204196:https://sdilej.cz/32204196/chicago-p.d.-policie-chicago-s06e03-czdab-x264.mkv",
+        "at": "2026-11-17T13:22:11.505995+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:22:11.506034+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:6:4": {
       "episode_key": "policie chicago:s6:e4",
@@ -554447,7 +554451,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:22:07.298278+00:00",
+  "updated_at": "2026-11-17T13:22:11.506040+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -554672,16 +554676,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:5:15",
-          "at": "2026-11-17T13:07:28.942268+00:00"
-        },
-        {
-          "identity": "1085:5:16",
-          "at": "2026-11-17T13:07:46.210446+00:00"
-        },
-        {
-          "identity": "1085:5:17",
-          "at": "2026-11-17T13:07:56.204497+00:00"
+          "identity": "1085:6:3",
+          "at": "2026-11-17T13:22:11.505995+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:17:56.204497+00:00"
