@@ -563032,12 +563032,6 @@
     },
     "583:7:6": {
       "episode_key": "dobrý doktor:s7:e6",
-      "claim": {
-        "worker_id": "df11c52932284357a5cea2e36e85a98f-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:50:15.184778+00:00",
-        "lease_expires_at": "2026-11-18T00:50:15.184792+00:00"
-      },
       "source": {
         "source_id": "34669888",
         "source_url": "https://sdilej.cz/34669888/dobry-doktor-s07e06-mimoradna-udalost.mkv",
@@ -563061,7 +563055,17 @@
         },
         "display_name": "The Good Doctor S07E06 M.C.E. 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:50:19.837694+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669888:https://sdilej.cz/34669888/dobry-doktor-s07e06-mimoradna-udalost.mkv",
+        "at": "2026-11-17T18:50:33.201425+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:50:33.201466+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -563069,7 +563073,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:50:19.837710+00:00",
+  "updated_at": "2026-11-17T18:50:33.201471+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -563421,16 +563425,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:7:3",
-          "at": "2026-11-17T18:38:43.258712+00:00"
-        },
-        {
-          "identity": "583:7:4",
-          "at": "2026-11-17T18:39:16.811930+00:00"
-        },
-        {
-          "identity": "583:7:5",
-          "at": "2026-11-17T18:39:46.920567+00:00"
+          "identity": "583:7:6",
+          "at": "2026-11-17T18:50:33.201425+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:49:46.920567+00:00"
