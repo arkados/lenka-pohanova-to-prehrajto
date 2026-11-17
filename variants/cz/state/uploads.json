@@ -559336,12 +559336,6 @@
     },
     "161:6:8": {
       "episode_key": "grimm:s6:e8",
-      "claim": {
-        "worker_id": "fab0a864e368440d919f2082d15715f5-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T15:05:58.503356+00:00",
-        "lease_expires_at": "2026-11-17T21:05:58.503367+00:00"
-      },
       "source": {
         "source_id": "30252149",
         "source_url": "https://sdilej.cz/30252149/grimm-s06e08.mkv",
@@ -559366,22 +559360,29 @@
         "display_name": "Grimm S06E08 The Son Also Rises 1080p CZ Dabing",
         "prepared_at": "2026-11-17T15:06:03.531006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121338",
-        "size_bytes": 2591756687
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121338",
-        "size_bytes": 2591756687,
-        "source_bytes_read": 2591756687,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121338",
         "source_bytes_read": 2591756687,
         "elapsed_seconds": 235.666,
         "finished_at": "2026-11-17T15:10:20.765878+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121338",
+          "size_bytes": 2591756687,
+          "source_bytes_read": 2591756687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30252149",
+        "source_url": "https://sdilej.cz/30252149/grimm-s06e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121338",
+        "display_name": "Grimm S06E08 The Son Also Rises 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:10:29.066038+00:00"
       }
     },
     "161:6:9": {
@@ -559427,7 +559428,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:10:20.765897+00:00",
+  "updated_at": "2026-11-17T15:10:29.066054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
