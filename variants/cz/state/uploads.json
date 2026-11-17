@@ -543761,28 +543761,29 @@
           "at": "2026-11-17T13:08:05.884049+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "551be6897eab49579958f3f2a5aca4ce-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:08:09.793304+00:00",
-        "lease_expires_at": "2026-11-17T19:08:09.793315+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118989",
-        "size_bytes": 633397444
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118989",
-        "size_bytes": 633397444,
-        "source_bytes_read": 633397444,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118989",
         "source_bytes_read": 633397444,
         "elapsed_seconds": 46.039,
         "finished_at": "2026-11-17T13:09:39.785175+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118989",
+          "size_bytes": 633397444,
+          "source_bytes_read": 633397444,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18481771",
+        "source_url": "https://sdilej.cz/18481771/dobry.doktor-the.good.doctor.2019.s03e02.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118989",
+        "display_name": "The Good Doctor S03E02 Debts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:09:52.902397+00:00"
       }
     },
     "161:1:10": {
@@ -553813,7 +553814,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:09:47.264690+00:00",
+  "updated_at": "2026-11-17T13:09:52.902412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
