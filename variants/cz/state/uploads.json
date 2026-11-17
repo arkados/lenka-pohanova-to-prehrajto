@@ -539848,28 +539848,29 @@
           "at": "2026-11-17T05:27:56.025447+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "63673916be864e5ba3c65514bf5c968c-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:27:59.755248+00:00",
-        "lease_expires_at": "2026-11-17T11:27:59.755259+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109484",
-        "size_bytes": 839560539
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109484",
-        "size_bytes": 839560539,
-        "source_bytes_read": 839560539,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109484",
         "source_bytes_read": 839560539,
         "elapsed_seconds": 74.763,
         "finished_at": "2026-11-17T05:29:35.154017+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109484",
+          "size_bytes": 839560539,
+          "source_bytes_read": 839560539,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942241",
+        "source_url": "https://sdilej.cz/34942241/chicago-p.d.-s03e06-045-2015-hd-nikdy-nevis-kdo-je-kdo-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109484",
+        "display_name": "Chicago P.D. S03E06 You Never Know Who's Who (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:29:42.096199+00:00"
       }
     },
     "1085:3:7": {
@@ -539931,7 +539932,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:29:35.154036+00:00",
+  "updated_at": "2026-11-17T05:29:42.096215+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
