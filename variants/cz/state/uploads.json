@@ -552545,12 +552545,6 @@
     },
     "1085:4:22": {
       "episode_key": "policie chicago:s4:e22",
-      "claim": {
-        "worker_id": "472cc555d984495d84ea5e429d6e7bf1-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:47:30.964692+00:00",
-        "lease_expires_at": "2026-11-17T18:47:30.964703+00:00"
-      },
       "source": {
         "source_id": "30987806",
         "source_url": "https://sdilej.cz/30987806/chicago-p.d.-policie-chicago-s04e22-czdab-x264.mkv",
@@ -552574,7 +552568,17 @@
         },
         "display_name": "Chicago P.D. S04E22 Army of One 720p CZ Dabing",
         "prepared_at": "2026-11-17T12:47:40.092969+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987806:https://sdilej.cz/30987806/chicago-p.d.-policie-chicago-s04e22-czdab-x264.mkv",
+        "at": "2026-11-17T12:47:53.043974+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T12:47:53.044045+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -552582,7 +552586,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:47:48.036800+00:00",
+  "updated_at": "2026-11-17T12:47:53.044053+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -552807,19 +552811,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:4:19",
-          "at": "2026-11-17T12:47:09.177564+00:00"
-        },
-        {
           "identity": "1085:4:20",
           "at": "2026-11-17T12:47:14.071918+00:00"
         },
         {
           "identity": "1085:4:21",
           "at": "2026-11-17T12:47:48.036721+00:00"
+        },
+        {
+          "identity": "1085:4:22",
+          "at": "2026-11-17T12:47:53.043974+00:00"
         }
       ],
-      "retry_after": "2026-11-17T12:57:48.036721+00:00"
+      "retry_after": "2026-11-17T12:57:53.043974+00:00"
     },
     "1820": {
       "recent_failures": [
