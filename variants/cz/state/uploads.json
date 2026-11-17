@@ -577191,12 +577191,6 @@
     },
     "581:1:6": {
       "episode_key": "král tulsy:s1:e6",
-      "claim": {
-        "worker_id": "ee27520953194027bedb6e7b7b9f61fb-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:15:09.495059+00:00",
-        "lease_expires_at": "2026-11-18T05:15:09.495081+00:00"
-      },
       "source": {
         "source_id": "31899550",
         "source_url": "https://sdilej.cz/31899550/kral-tulsy-s01e06-cz-dabing-1080p-full-hd-tulsa-king.mkv",
@@ -577221,22 +577215,29 @@
         "display_name": "Tulsa King S01E06 Stable 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:15:14.759169+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132795",
-        "size_bytes": 1214571335
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132795",
-        "size_bytes": 1214571335,
-        "source_bytes_read": 1214571335,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132795",
         "source_bytes_read": 1214571335,
         "elapsed_seconds": 76.121,
         "finished_at": "2026-11-17T23:16:58.801617+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132795",
+          "size_bytes": 1214571335,
+          "source_bytes_read": 1214571335,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31899550",
+        "source_url": "https://sdilej.cz/31899550/kral-tulsy-s01e06-cz-dabing-1080p-full-hd-tulsa-king.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132795",
+        "display_name": "Tulsa King S01E06 Stable 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:17:07.816695+00:00"
       }
     },
     "581:1:7": {
@@ -577385,7 +577386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:17:03.694263+00:00",
+  "updated_at": "2026-11-17T23:17:07.816710+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
