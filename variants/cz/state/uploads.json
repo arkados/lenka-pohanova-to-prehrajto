@@ -546624,12 +546624,6 @@
     },
     "161:2:4": {
       "episode_key": "grimm:s2:e4",
-      "claim": {
-        "worker_id": "e8e6dd6f2614476e98d57a9d3941f560-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:14:29.473964+00:00",
-        "lease_expires_at": "2026-11-17T14:14:29.473974+00:00"
-      },
       "source": {
         "source_id": "30214736",
         "source_url": "https://sdilej.cz/30214736/grimm-s02e04.mkv",
@@ -546654,22 +546648,29 @@
         "display_name": "Grimm S02E04 Quill 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:14:33.823511+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31113529",
-        "size_bytes": 2594823781
-      },
-      "transfer_receipt": {
-        "target_video_id": "31113529",
-        "size_bytes": 2594823781,
-        "source_bytes_read": 2594823781,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31113529",
         "source_bytes_read": 2594823781,
         "elapsed_seconds": 426.625,
         "finished_at": "2026-11-17T08:21:59.669957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31113529",
+          "size_bytes": 2594823781,
+          "source_bytes_read": 2594823781,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30214736",
+        "source_url": "https://sdilej.cz/30214736/grimm-s02e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31113529",
+        "display_name": "Grimm S02E04 Quill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:22:06.265190+00:00"
       }
     },
     "161:2:6": {
@@ -546715,7 +546716,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:21:59.669976+00:00",
+  "updated_at": "2026-11-17T08:22:06.265206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
