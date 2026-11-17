@@ -544580,12 +544580,6 @@
     },
     "1553:4:23": {
       "episode_key": "fresh prince:s4:e23",
-      "claim": {
-        "worker_id": "7d8aa715b82e40ef94a4dc845bbd56e8-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:25:14.869406+00:00",
-        "lease_expires_at": "2026-11-17T13:25:14.869416+00:00"
-      },
       "source": {
         "source_id": "28201084",
         "source_url": "https://sdilej.cz/28201084/fresh-prince-s04e23-cz-dab-hd.mp4",
@@ -544610,22 +544604,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E23 Mother's Day 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:25:19.145546+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112343",
-        "size_bytes": 282938107
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112343",
-        "size_bytes": 282938107,
-        "source_bytes_read": 282938107,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112343",
         "source_bytes_read": 282938107,
         "elapsed_seconds": 28.139,
         "finished_at": "2026-11-17T07:26:06.871860+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112343",
+          "size_bytes": 282938107,
+          "source_bytes_read": 282938107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201084",
+        "source_url": "https://sdilej.cz/28201084/fresh-prince-s04e23-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112343",
+        "display_name": "The Fresh Prince of Bel-Air S04E23 Mother's Day 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:26:16.691980+00:00"
       }
     },
     "1553:4:24": {
@@ -544671,7 +544672,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:26:11.628281+00:00",
+  "updated_at": "2026-11-17T07:26:16.691997+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
