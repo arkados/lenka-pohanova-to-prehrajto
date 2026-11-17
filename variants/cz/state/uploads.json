@@ -406395,28 +406395,29 @@
           "at": "2026-11-17T00:49:52.786169+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "0d6bd81991c143a88d3ed187ecc73896-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:49:56.386334+00:00",
-        "lease_expires_at": "2026-11-17T06:49:56.386345+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103342",
-        "size_bytes": 539891977
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103342",
-        "size_bytes": 539891977,
-        "source_bytes_read": 539891977,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103342",
         "source_bytes_read": 539891977,
         "elapsed_seconds": 40.63,
         "finished_at": "2026-11-17T00:51:08.959406+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103342",
+          "size_bytes": 539891977,
+          "source_bytes_read": 539891977,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29094600",
+        "source_url": "https://sdilej.cz/29094600/zakon-a-poradek-utvar-pro-zvlastni-obeti-s05e03-094-2003-sd-matka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103342",
+        "display_name": "Law & Order: Special Victims Unit S05E03 Mother SD CZ Dabing",
+        "uploaded_at": "2026-11-17T00:51:17.757864+00:00"
       }
     },
     "1402:5:4": {
@@ -525952,7 +525953,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:51:12.725777+00:00",
+  "updated_at": "2026-11-17T00:51:17.757879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
