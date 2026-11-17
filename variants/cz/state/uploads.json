@@ -564910,12 +564910,6 @@
     },
     "1098:1:16": {
       "episode_key": "jak prosté:s1:e16",
-      "claim": {
-        "worker_id": "9d28123d4fc24cc4ad31cf50efe13715-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:46:43.519030+00:00",
-        "lease_expires_at": "2026-11-18T01:46:43.519043+00:00"
-      },
       "source": {
         "source_id": "34432307",
         "source_url": "https://sdilej.cz/34432307/elementary-s01e16-cz-dabing-1080p-full-hd.mkv",
@@ -564939,7 +564933,17 @@
         },
         "display_name": "Elementary S01E16 Details 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:46:48.734256+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432307:https://sdilej.cz/34432307/elementary-s01e16-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:47:02.005119+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:47:02.005162+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -564947,7 +564951,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:46:57.771040+00:00",
+  "updated_at": "2026-11-17T19:47:02.005168+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -565354,16 +565358,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:1:10",
-          "at": "2026-11-17T19:33:57.881510+00:00"
-        },
-        {
-          "identity": "1098:1:13",
-          "at": "2026-11-17T19:35:05.469638+00:00"
-        },
-        {
-          "identity": "1098:1:14",
-          "at": "2026-11-17T19:35:40.610425+00:00"
+          "identity": "1098:1:16",
+          "at": "2026-11-17T19:47:02.005119+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:45:40.610425+00:00"
