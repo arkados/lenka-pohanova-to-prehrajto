@@ -563980,12 +563980,6 @@
     },
     "1098:1:7": {
       "episode_key": "jak prosté:s1:e7",
-      "claim": {
-        "worker_id": "0274f9a7de9b4aaaa21d2e99df7fcd68-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:20:14.225619+00:00",
-        "lease_expires_at": "2026-11-18T01:20:14.225631+00:00"
-      },
       "source": {
         "source_id": "34432170",
         "source_url": "https://sdilej.cz/34432170/elementary-s01e07-cz-dabing-1080p-full-hd.mkv",
@@ -564009,7 +564003,17 @@
         },
         "display_name": "Elementary S01E07 One Way to Get Off 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:20:19.981110+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432170:https://sdilej.cz/34432170/elementary-s01e07-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:20:33.194558+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:20:33.194592+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -564017,7 +564021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:20:19.981127+00:00",
+  "updated_at": "2026-11-17T19:20:33.194598+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564430,6 +564434,10 @@
         {
           "identity": "1098:1:5",
           "at": "2026-11-17T19:16:23.605858+00:00"
+        },
+        {
+          "identity": "1098:1:7",
+          "at": "2026-11-17T19:20:33.194558+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:13:33.098128+00:00"
