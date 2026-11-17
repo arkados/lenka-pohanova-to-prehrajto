@@ -481086,28 +481086,29 @@
           "at": "2026-11-17T06:05:44.071577+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "132f0e98197e4c57a652c431b8ae11c3-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:05:47.848221+00:00",
-        "lease_expires_at": "2026-11-17T12:05:47.848232+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110517",
-        "size_bytes": 2319312225
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110517",
-        "size_bytes": 2319312225,
-        "source_bytes_read": 2319312225,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110517",
         "source_bytes_read": 2319312225,
         "elapsed_seconds": 390.465,
         "finished_at": "2026-11-17T06:13:08.785261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110517",
+          "size_bytes": 2319312225,
+          "source_bytes_read": 2319312225,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901705",
+        "source_url": "https://sdilej.cz/34901705/lucifer-s05e16-sance-na-stastny-konec.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110517",
+        "display_name": "Lucifer S05E16 A Chance at a Happy Ending 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:13:14.578435+00:00"
       }
     },
     "30:6:1": {
@@ -541342,7 +541343,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:13:08.785277+00:00",
+  "updated_at": "2026-11-17T06:13:14.578451+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
