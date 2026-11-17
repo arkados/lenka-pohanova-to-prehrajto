@@ -577808,28 +577808,29 @@
           "at": "2026-11-17T23:32:38.419141+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "65a469ae78b840318a4182f8c37a4586-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:32:42.847188+00:00",
-        "lease_expires_at": "2026-11-18T05:32:42.847204+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133211",
-        "size_bytes": 582467844
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133211",
-        "size_bytes": 582467844,
-        "source_bytes_read": 582467844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133211",
         "source_bytes_read": 582467844,
         "elapsed_seconds": 309.387,
         "finished_at": "2026-11-17T23:38:17.939807+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133211",
+          "size_bytes": 582467844,
+          "source_bytes_read": 582467844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431647",
+        "source_url": "https://sdilej.cz/34431647/elementary.s05e18.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133211",
+        "display_name": "Elementary S05E18 Dead Man's Tale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:38:24.177610+00:00"
       }
     },
     "1098:5:19": {
@@ -578187,7 +578188,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:38:17.939828+00:00",
+  "updated_at": "2026-11-17T23:38:24.177629+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
