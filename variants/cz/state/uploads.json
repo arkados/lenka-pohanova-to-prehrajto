@@ -543275,12 +543275,6 @@
     },
     "1553:3:21": {
       "episode_key": "fresh prince:s3:e21",
-      "claim": {
-        "worker_id": "be435669d2334d47afdc354c88d30f53-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:09:59.605593+00:00",
-        "lease_expires_at": "2026-11-17T13:09:59.605604+00:00"
-      },
       "source": {
         "source_id": "28201018",
         "source_url": "https://sdilej.cz/28201018/fresh-prince-s03e21-cz-dab-hd.mp4",
@@ -543305,22 +543299,29 @@
         "display_name": "The Fresh Prince of Bel-Air S03E21 You Bet Your Life 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:10:12.847304+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112037",
-        "size_bytes": 259073840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112037",
-        "size_bytes": 259073840,
-        "source_bytes_read": 259073840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112037",
         "source_bytes_read": 259073840,
         "elapsed_seconds": 18.824,
         "finished_at": "2026-11-17T07:10:54.708798+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112037",
+          "size_bytes": 259073840,
+          "source_bytes_read": 259073840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201018",
+        "source_url": "https://sdilej.cz/28201018/fresh-prince-s03e21-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112037",
+        "display_name": "The Fresh Prince of Bel-Air S03E21 You Bet Your Life 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:11:03.255921+00:00"
       }
     },
     "1553:3:22": {
@@ -543380,7 +543381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:10:59.582017+00:00",
+  "updated_at": "2026-11-17T07:11:03.255937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
