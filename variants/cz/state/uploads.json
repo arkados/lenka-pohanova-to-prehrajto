@@ -575844,12 +575844,6 @@
     },
     "1098:5:3": {
       "episode_key": "jak prosté:s5:e3",
-      "claim": {
-        "worker_id": "761696acab3c4c4a85af3cefa1cea211-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:50:28.120516+00:00",
-        "lease_expires_at": "2026-11-18T04:50:28.120531+00:00"
-      },
       "source": {
         "source_id": "28201801",
         "source_url": "https://sdilej.cz/28201801/jak-proste-s05e03.mkv",
@@ -575874,22 +575868,29 @@
         "display_name": "Elementary S05E03 Render, and then Seize Her 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:50:33.367004+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132029",
-        "size_bytes": 665715229
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132029",
-        "size_bytes": 665715229,
-        "source_bytes_read": 665715229,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132029",
         "source_bytes_read": 665715229,
         "elapsed_seconds": 33.627,
         "finished_at": "2026-11-17T22:51:23.951603+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132029",
+          "size_bytes": 665715229,
+          "source_bytes_read": 665715229,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201801",
+        "source_url": "https://sdilej.cz/28201801/jak-proste-s05e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132029",
+        "display_name": "Elementary S05E03 Render, and then Seize Her 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:51:37.550372+00:00"
       }
     },
     "1098:5:4": {
@@ -575931,7 +575932,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:51:33.196888+00:00",
+  "updated_at": "2026-11-17T22:51:37.550387+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
