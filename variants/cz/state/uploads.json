@@ -542030,28 +542030,29 @@
           "at": "2026-11-17T12:17:37.362057+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "9899cf4e8b35426aab28e027596dd0fd-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:17:42.032574+00:00",
-        "lease_expires_at": "2026-11-17T18:17:42.032587+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31117923",
-        "size_bytes": 837991590
-      },
-      "transfer_receipt": {
-        "target_video_id": "31117923",
-        "size_bytes": 837991590,
-        "source_bytes_read": 837991590,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31117923",
         "source_bytes_read": 837991590,
         "elapsed_seconds": 243.894,
         "finished_at": "2026-11-17T12:22:16.192768+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31117923",
+          "size_bytes": 837991590,
+          "source_bytes_read": 837991590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942402",
+        "source_url": "https://sdilej.cz/34942402/chicago-p.d.-s03e16-055-2016-hd-pripady-ktere-je-treba-vyresit-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31117923",
+        "display_name": "Chicago P.D. S03E16 The Cases That Need to Be Solved 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:22:25.699141+00:00"
       }
     },
     "1085:3:17": {
@@ -551520,7 +551521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:22:20.121532+00:00",
+  "updated_at": "2026-11-17T12:22:25.699156+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
