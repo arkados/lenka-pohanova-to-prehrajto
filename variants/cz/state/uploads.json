@@ -544751,28 +544751,29 @@
           "at": "2026-11-17T13:08:18.171521+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1526c118dae64591b6b8c22d1ef30a86-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:08:22.310870+00:00",
-        "lease_expires_at": "2026-11-17T19:08:22.310885+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118992",
-        "size_bytes": 1593536113
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118992",
-        "size_bytes": 1593536113,
-        "source_bytes_read": 1593536113,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118992",
         "source_bytes_read": 1593536113,
         "elapsed_seconds": 102.631,
         "finished_at": "2026-11-17T13:10:38.711126+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118992",
+          "size_bytes": 1593536113,
+          "source_bytes_read": 1593536113,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526900",
+        "source_url": "https://sdilej.cz/32526900/dobry-doktor-s03e09-nekompletni-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118992",
+        "display_name": "The Good Doctor S03E09 Incomplete 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T13:10:46.791935+00:00"
       }
     },
     "583:3:11": {
@@ -553844,7 +553845,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:10:38.711144+00:00",
+  "updated_at": "2026-11-17T13:10:46.791950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
