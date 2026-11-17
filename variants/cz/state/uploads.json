@@ -455037,28 +455037,29 @@
           "at": "2026-11-17T01:16:08.415826+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c48f467ec6be4f0c81cab6d903c6e2e7-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T01:16:12.206075+00:00",
-        "lease_expires_at": "2026-11-17T07:16:12.206087+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31104042",
-        "size_bytes": 823969118
-      },
-      "transfer_receipt": {
-        "target_video_id": "31104042",
-        "size_bytes": 823969118,
-        "source_bytes_read": 823969118,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31104042",
         "source_bytes_read": 823969118,
         "elapsed_seconds": 118.937,
         "finished_at": "2026-11-17T01:18:38.378514+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31104042",
+          "size_bytes": 823969118,
+          "source_bytes_read": 823969118,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34941837",
+        "source_url": "https://sdilej.cz/34941837/chicago-p.d.-s02e05-021-2014-hd-pocestna-zena-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31104042",
+        "display_name": "Chicago P.D. S02E05 An Honest Woman 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T01:18:53.901130+00:00"
       }
     },
     "1820:3:4": {
@@ -526957,7 +526958,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T01:18:50.363831+00:00",
+  "updated_at": "2026-11-17T01:18:53.901145+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
