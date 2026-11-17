@@ -571790,12 +571790,6 @@
     },
     "1098:3:10": {
       "episode_key": "jak prosté:s3:e10",
-      "claim": {
-        "worker_id": "948d5ed2361344f99a4aac09c329ff0f-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:49:29.821401+00:00",
-        "lease_expires_at": "2026-11-18T03:49:29.821415+00:00"
-      },
       "source": {
         "source_id": "34433047",
         "source_url": "https://sdilej.cz/34433047/elementary-s03e10-cz-dabing-1080p-full-hd.mkv",
@@ -571819,7 +571813,17 @@
         },
         "display_name": "Elementary S03E10 Seed Money 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:49:47.844578+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433047:https://sdilej.cz/34433047/elementary-s03e10-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:50:07.616829+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:50:07.616877+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:3:11": {
       "episode_key": "jak prosté:s3:e11",
@@ -571873,7 +571877,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:50:03.426215+00:00",
+  "updated_at": "2026-11-17T21:50:07.616883+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -572282,6 +572286,10 @@
         {
           "identity": "1098:3:9",
           "at": "2026-11-17T21:49:38.193382+00:00"
+        },
+        {
+          "identity": "1098:3:10",
+          "at": "2026-11-17T21:50:07.616829+00:00"
         }
       ],
       "retry_after": "2026-11-17T21:46:48.699031+00:00"
