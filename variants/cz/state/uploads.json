@@ -577976,12 +577976,6 @@
     },
     "581:2:2": {
       "episode_key": "král tulsy:s2:e2",
-      "claim": {
-        "worker_id": "96ff58bbda55462baf838adb9b44dd13-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:34:45.993109+00:00",
-        "lease_expires_at": "2026-11-18T05:34:45.993127+00:00"
-      },
       "source": {
         "source_id": "34346227",
         "source_url": "https://sdilej.cz/34346227/kral-tulsy-s02e02-kansas-city-blues-cz-dabing-2160p-uhd.mkv",
@@ -578005,7 +577999,17 @@
         },
         "display_name": "Tulsa King S02E02 Kansas City Blues 4K CZ Dabing",
         "prepared_at": "2026-11-17T23:34:52.359873+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34346227:https://sdilej.cz/34346227/kral-tulsy-s02e02-kansas-city-blues-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-17T23:35:05.031820+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:35:05.031866+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:5:21": {
       "episode_key": "jak prosté:s5:e21",
@@ -578046,7 +578050,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:35:00.934302+00:00",
+  "updated_at": "2026-11-17T23:35:05.031873+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578480,6 +578484,10 @@
         {
           "identity": "581:2:1",
           "at": "2026-11-17T23:34:42.056577+00:00"
+        },
+        {
+          "identity": "581:2:2",
+          "at": "2026-11-17T23:35:05.031820+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:27:18.608386+00:00"
