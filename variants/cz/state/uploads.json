@@ -542657,28 +542657,29 @@
           "at": "2026-11-17T12:36:52.671799+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3ea36e1ae7884e9bbc2c8eb0a148602b-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:36:59.187869+00:00",
-        "lease_expires_at": "2026-11-17T18:36:59.187879+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118388",
-        "size_bytes": 2567036844
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118388",
-        "size_bytes": 2567036844,
-        "source_bytes_read": 2567036844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118388",
         "source_bytes_read": 2567036844,
         "elapsed_seconds": 197.0,
         "finished_at": "2026-11-17T12:41:04.798317+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118388",
+          "size_bytes": 2567036844,
+          "source_bytes_read": 2567036844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901766",
+        "source_url": "https://sdilej.cz/34901766/lucifer-s06e07-demonka-se-vdava.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118388",
+        "display_name": "Lucifer S06E07 My Best Fiend's Wedding 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T12:41:12.359709+00:00"
       }
     },
     "30:6:8": {
@@ -552289,7 +552290,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:41:04.798334+00:00",
+  "updated_at": "2026-11-17T12:41:12.359729+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
