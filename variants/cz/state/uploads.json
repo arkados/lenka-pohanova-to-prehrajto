@@ -568378,12 +568378,6 @@
     },
     "1134:2:5": {
       "episode_key": "tráva:s2:e5",
-      "claim": {
-        "worker_id": "8a8f52a626344ce1b10353a0af129507-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T20:58:58.270159+00:00",
-        "lease_expires_at": "2026-11-18T02:58:58.270175+00:00"
-      },
       "source": {
         "source_id": "11145525",
         "source_url": "https://sdilej.cz/11145525/weeds.s02e05.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -568408,22 +568402,29 @@
         "display_name": "Weeds S02E05 Mrs. Botwin's Neighborhood 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:59:08.078710+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128668",
-        "size_bytes": 750569862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128668",
-        "size_bytes": 750569862,
-        "source_bytes_read": 750569862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128668",
         "source_bytes_read": 750569862,
         "elapsed_seconds": 112.848,
         "finished_at": "2026-11-17T21:01:18.647740+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128668",
+          "size_bytes": 750569862,
+          "source_bytes_read": 750569862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11145525",
+        "source_url": "https://sdilej.cz/11145525/weeds.s02e05.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128668",
+        "display_name": "Weeds S02E05 Mrs. Botwin's Neighborhood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:01:29.515905+00:00"
       }
     },
     "1134:2:6": {
@@ -568520,7 +568521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:01:23.617439+00:00",
+  "updated_at": "2026-11-17T21:01:29.515925+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
