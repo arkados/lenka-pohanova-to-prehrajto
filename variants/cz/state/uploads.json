@@ -575486,12 +575486,6 @@
     },
     "1098:4:20": {
       "episode_key": "jak prosté:s4:e20",
-      "claim": {
-        "worker_id": "d8c8bb69047348c18887673391e161b3-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:44:59.450703+00:00",
-        "lease_expires_at": "2026-11-18T04:44:59.450716+00:00"
-      },
       "source": {
         "source_id": "28201693",
         "source_url": "https://sdilej.cz/28201693/jak-proste-s04e20.mkv",
@@ -575516,22 +575510,29 @@
         "display_name": "Elementary S04E20 Art Imitates Art 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:45:04.331721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131827",
-        "size_bytes": 660338024
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131827",
-        "size_bytes": 660338024,
-        "source_bytes_read": 660338024,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131827",
         "source_bytes_read": 660338024,
         "elapsed_seconds": 33.193,
         "finished_at": "2026-11-17T22:45:54.356575+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131827",
+          "size_bytes": 660338024,
+          "source_bytes_read": 660338024,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201693",
+        "source_url": "https://sdilej.cz/28201693/jak-proste-s04e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131827",
+        "display_name": "Elementary S04E20 Art Imitates Art 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:46:05.249559+00:00"
       }
     }
   },
@@ -575540,7 +575541,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:46:00.798477+00:00",
+  "updated_at": "2026-11-17T22:46:05.249581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
