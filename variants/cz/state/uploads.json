@@ -544913,12 +544913,6 @@
     },
     "1085:4:12": {
       "episode_key": "policie chicago:s4:e12",
-      "claim": {
-        "worker_id": "b7f8495c303e4fcda4d23d6dd445b0e6-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:30:22.762683+00:00",
-        "lease_expires_at": "2026-11-17T13:30:22.762692+00:00"
-      },
       "source": {
         "source_id": "30987775",
         "source_url": "https://sdilej.cz/30987775/chicago-p.d.-policie-chicago-s04e12-czdab-x264.mkv",
@@ -544942,7 +544936,17 @@
         },
         "display_name": "Chicago P.D. S04E12 Sanctuary 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:30:27.395092+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987775:https://sdilej.cz/30987775/chicago-p.d.-policie-chicago-s04e12-czdab-x264.mkv",
+        "at": "2026-11-17T07:30:39.041815+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T07:30:39.041875+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -544950,7 +544954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:30:31.182818+00:00",
+  "updated_at": "2026-11-17T07:30:39.041879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -545183,19 +545187,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:4:3",
-          "at": "2026-11-17T07:28:14.221784+00:00"
-        },
-        {
           "identity": "1085:4:10",
           "at": "2026-11-17T07:29:56.529718+00:00"
         },
         {
           "identity": "1085:4:11",
           "at": "2026-11-17T07:30:31.182751+00:00"
+        },
+        {
+          "identity": "1085:4:12",
+          "at": "2026-11-17T07:30:39.041815+00:00"
         }
       ],
-      "retry_after": "2026-11-17T07:40:31.182751+00:00"
+      "retry_after": "2026-11-17T07:40:39.041815+00:00"
     },
     "1820": {
       "recent_failures": [
