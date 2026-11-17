@@ -576770,12 +576770,6 @@
     },
     "1098:5:11": {
       "episode_key": "jak prosté:s5:e11",
-      "claim": {
-        "worker_id": "0e6aaa2a066540348c0ff035b4c02a54-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:06:03.945094+00:00",
-        "lease_expires_at": "2026-11-18T05:06:03.945110+00:00"
-      },
       "source": {
         "source_id": "28201911",
         "source_url": "https://sdilej.cz/28201911/jak-proste-s05e11.mkv",
@@ -576800,22 +576794,29 @@
         "display_name": "Elementary S05E11 Be My Guest 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:06:09.084678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132553",
-        "size_bytes": 570397547
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132553",
-        "size_bytes": 570397547,
-        "source_bytes_read": 570397547,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132553",
         "source_bytes_read": 570397547,
         "elapsed_seconds": 56.258,
         "finished_at": "2026-11-17T23:07:22.633792+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132553",
+          "size_bytes": 570397547,
+          "source_bytes_read": 570397547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201911",
+        "source_url": "https://sdilej.cz/28201911/jak-proste-s05e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132553",
+        "display_name": "Elementary S05E11 Be My Guest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:07:29.458109+00:00"
       }
     }
   },
@@ -576824,7 +576825,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:07:22.633813+00:00",
+  "updated_at": "2026-11-17T23:07:29.458129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
