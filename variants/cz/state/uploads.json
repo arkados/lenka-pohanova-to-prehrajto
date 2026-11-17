@@ -563402,12 +563402,6 @@
     },
     "1396:1:8": {
       "episode_key": "na seznamu smrti:s1:e8",
-      "claim": {
-        "worker_id": "6645dd4d593b431a98911014f9851286-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:02:13.162942+00:00",
-        "lease_expires_at": "2026-11-18T01:02:13.162954+00:00"
-      },
       "source": {
         "source_id": "22369873",
         "source_url": "https://sdilej.cz/22369873/na-seznamu-smrti-s01e08-cz-dabing-1080p.mp4",
@@ -563432,22 +563426,29 @@
         "display_name": "The Terminal List S01E08 Reclamation 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:02:22.028087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31125334",
-        "size_bytes": 953313995
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125334",
-        "size_bytes": 953313995,
-        "source_bytes_read": 953313995,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125334",
         "source_bytes_read": 953313995,
         "elapsed_seconds": 163.351,
         "finished_at": "2026-11-17T19:05:26.255568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125334",
+          "size_bytes": 953313995,
+          "source_bytes_read": 953313995,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22369873",
+        "source_url": "https://sdilej.cz/22369873/na-seznamu-smrti-s01e08-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125334",
+        "display_name": "The Terminal List S01E08 Reclamation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:05:34.418880+00:00"
       }
     },
     "1098:1:1": {
@@ -563641,7 +563642,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:05:26.255590+00:00",
+  "updated_at": "2026-11-17T19:05:34.418897+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
