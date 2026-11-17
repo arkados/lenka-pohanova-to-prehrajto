@@ -542667,12 +542667,6 @@
     },
     "583:2:17": {
       "episode_key": "dobrý doktor:s2:e17",
-      "claim": {
-        "worker_id": "a3d96df452ac4df49b3aa79e0128937a-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:49:09.522309+00:00",
-        "lease_expires_at": "2026-11-17T12:49:09.522321+00:00"
-      },
       "source": {
         "source_id": "34668440",
         "source_url": "https://sdilej.cz/34668440/dobry-doktor-s02e17-zhrouceni.mkv",
@@ -542696,7 +542690,17 @@
         },
         "display_name": "The Good Doctor S02E17 Breakdown 4K CZ Dabing",
         "prepared_at": "2026-11-17T06:49:14.241303+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668440:https://sdilej.cz/34668440/dobry-doktor-s02e17-zhrouceni.mkv",
+        "at": "2026-11-17T06:49:27.461153+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:49:27.461190+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -542704,7 +542708,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:49:23.849970+00:00",
+  "updated_at": "2026-11-17T06:49:27.461195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -543062,6 +543066,10 @@
         {
           "identity": "583:2:16",
           "at": "2026-11-17T06:48:58.827604+00:00"
+        },
+        {
+          "identity": "583:2:17",
+          "at": "2026-11-17T06:49:27.461153+00:00"
         }
       ],
       "retry_after": "2026-11-17T00:35:18.421179+00:00"
