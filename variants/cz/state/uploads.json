@@ -552873,12 +552873,6 @@
     },
     "1085:5:1": {
       "episode_key": "policie chicago:s5:e1",
-      "claim": {
-        "worker_id": "08518a11682343f0ae1dcf324b1f8369-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:58:45.579318+00:00",
-        "lease_expires_at": "2026-11-17T18:58:45.579328+00:00"
-      },
       "source": {
         "source_id": "30290161",
         "source_url": "https://sdilej.cz/30290161/chicago-p.d.-policie-chicago-s05e01-czdab.mp4",
@@ -552903,22 +552897,29 @@
         "display_name": "Chicago P.D. S05E01 Reform SD CZ Dabing",
         "prepared_at": "2026-11-17T12:58:54.308052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31118795",
-        "size_bytes": 448347323
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118795",
-        "size_bytes": 448347323,
-        "source_bytes_read": 448347323,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118795",
         "source_bytes_read": 448347323,
         "elapsed_seconds": 31.777,
         "finished_at": "2026-11-17T12:59:46.691846+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118795",
+          "size_bytes": 448347323,
+          "source_bytes_read": 448347323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290161",
+        "source_url": "https://sdilej.cz/30290161/chicago-p.d.-policie-chicago-s05e01-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118795",
+        "display_name": "Chicago P.D. S05E01 Reform SD CZ Dabing",
+        "uploaded_at": "2026-11-17T12:59:54.169122+00:00"
       }
     }
   },
@@ -552927,7 +552928,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:59:46.691865+00:00",
+  "updated_at": "2026-11-17T12:59:54.169136+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
