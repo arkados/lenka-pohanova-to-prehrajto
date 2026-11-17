@@ -578666,28 +578666,29 @@
           "at": "2026-11-17T23:55:24.132285+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5746aafa94ce4554a45f983ba7f4d845-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:55:28.421812+00:00",
-        "lease_expires_at": "2026-11-18T05:55:28.421830+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133750",
-        "size_bytes": 537430542
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133750",
-        "size_bytes": 537430542,
-        "source_bytes_read": 537430542,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133750",
         "source_bytes_read": 537430542,
         "elapsed_seconds": 38.368,
         "finished_at": "2026-11-17T23:56:27.281513+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133750",
+          "size_bytes": 537430542,
+          "source_bytes_read": 537430542,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431661",
+        "source_url": "https://sdilej.cz/34431661/elementary.s06e04.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133750",
+        "display_name": "Elementary S06E04 Our Time is Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:56:32.245534+00:00"
       }
     },
     "1098:6:5": {
@@ -578835,7 +578836,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:56:27.281535+00:00",
+  "updated_at": "2026-11-17T23:56:32.245551+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
