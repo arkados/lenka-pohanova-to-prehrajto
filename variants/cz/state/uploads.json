@@ -548318,12 +548318,6 @@
     },
     "161:3:13": {
       "episode_key": "grimm:s3:e13",
-      "claim": {
-        "worker_id": "d3bf55a5bbc74304ab908a8e50991fab-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:53:00.029760+00:00",
-        "lease_expires_at": "2026-11-17T14:53:00.029770+00:00"
-      },
       "source": {
         "source_id": "30220321",
         "source_url": "https://sdilej.cz/30220321/grimm-s03e13.mkv",
@@ -548348,22 +548342,29 @@
         "display_name": "Grimm S03E13 Revelation (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:53:04.404263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114319",
-        "size_bytes": 2602227553
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114319",
-        "size_bytes": 2602227553,
-        "source_bytes_read": 2602227553,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114319",
         "source_bytes_read": 2602227553,
         "elapsed_seconds": 370.859,
         "finished_at": "2026-11-17T08:59:35.910755+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114319",
+          "size_bytes": 2602227553,
+          "source_bytes_read": 2602227553,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30220321",
+        "source_url": "https://sdilej.cz/30220321/grimm-s03e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114319",
+        "display_name": "Grimm S03E13 Revelation (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:59:43.443126+00:00"
       }
     },
     "161:3:14": {
@@ -548460,7 +548461,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:59:35.910775+00:00",
+  "updated_at": "2026-11-17T08:59:43.443142+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
