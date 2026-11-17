@@ -559387,12 +559387,6 @@
     },
     "161:6:9": {
       "episode_key": "grimm:s6:e9",
-      "claim": {
-        "worker_id": "5376e16a35d640cc8dd5e136e83838e2-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T15:06:41.716739+00:00",
-        "lease_expires_at": "2026-11-17T21:06:41.716750+00:00"
-      },
       "source": {
         "source_id": "30252219",
         "source_url": "https://sdilej.cz/30252219/grimm-s06e09.mkv",
@@ -559417,22 +559411,29 @@
         "display_name": "Grimm S06E09 Tree People 1080p CZ Dabing",
         "prepared_at": "2026-11-17T15:06:47.381643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121353",
-        "size_bytes": 2573110669
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121353",
-        "size_bytes": 2573110669,
-        "source_bytes_read": 2573110669,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121353",
         "source_bytes_read": 2573110669,
         "elapsed_seconds": 285.283,
         "finished_at": "2026-11-17T15:11:50.376347+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121353",
+          "size_bytes": 2573110669,
+          "source_bytes_read": 2573110669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30252219",
+        "source_url": "https://sdilej.cz/30252219/grimm-s06e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121353",
+        "display_name": "Grimm S06E09 Tree People 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:11:57.850323+00:00"
       }
     },
     "161:6:10": {
@@ -559515,7 +559516,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:11:50.376366+00:00",
+  "updated_at": "2026-11-17T15:11:57.850339+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
