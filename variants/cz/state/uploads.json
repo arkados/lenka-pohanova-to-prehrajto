@@ -562435,12 +562435,6 @@
     },
     "583:6:20": {
       "episode_key": "dobrý doktor:s6:e20",
-      "claim": {
-        "worker_id": "08544d8f509a44d2b9c9ceffe45c5177-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:31:43.692135+00:00",
-        "lease_expires_at": "2026-11-18T00:31:43.692150+00:00"
-      },
       "source": {
         "source_id": "34669845",
         "source_url": "https://sdilej.cz/34669845/dobry-doktor-s06e20-pozehnani.mkv",
@@ -562464,7 +562458,17 @@
         },
         "display_name": "The Good Doctor S06E20 Blessed 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:31:53.372861+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669845:https://sdilej.cz/34669845/dobry-doktor-s06e20-pozehnani.mkv",
+        "at": "2026-11-17T18:32:09.591877+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:32:09.591916+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:6:21": {
       "episode_key": "dobrý doktor:s6:e21",
@@ -562508,7 +562512,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:32:05.322800+00:00",
+  "updated_at": "2026-11-17T18:32:09.591921+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -562868,12 +562872,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:6:12",
-          "at": "2026-11-17T18:13:21.236309+00:00"
-        },
-        {
-          "identity": "583:6:13",
-          "at": "2026-11-17T18:15:33.890572+00:00"
+          "identity": "583:6:20",
+          "at": "2026-11-17T18:32:09.591877+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:12:24.620086+00:00"
