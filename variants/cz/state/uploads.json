@@ -553661,12 +553661,6 @@
     },
     "1085:5:17": {
       "episode_key": "policie chicago:s5:e17",
-      "claim": {
-        "worker_id": "9c54a99555e34b048d03904c6ce243b5-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:07:25.409038+00:00",
-        "lease_expires_at": "2026-11-17T19:07:25.409049+00:00"
-      },
       "source": {
         "source_id": "32204172",
         "source_url": "https://sdilej.cz/32204172/chicago-p.d.-policie-chicago-s05e17-czdab-x264.mkv",
@@ -553690,7 +553684,17 @@
         },
         "display_name": "Chicago P.D. S05E17 Breaking Point 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:07:39.086075+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204172:https://sdilej.cz/32204172/chicago-p.d.-policie-chicago-s05e17-czdab-x264.mkv",
+        "at": "2026-11-17T13:07:56.204497+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:07:56.204560+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:5:18": {
       "episode_key": "policie chicago:s5:e18",
@@ -553707,7 +553711,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:07:50.425487+00:00",
+  "updated_at": "2026-11-17T13:07:56.204570+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -553948,19 +553952,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:5:14",
-          "at": "2026-11-17T13:07:01.456616+00:00"
-        },
-        {
           "identity": "1085:5:15",
           "at": "2026-11-17T13:07:28.942268+00:00"
         },
         {
           "identity": "1085:5:16",
           "at": "2026-11-17T13:07:46.210446+00:00"
+        },
+        {
+          "identity": "1085:5:17",
+          "at": "2026-11-17T13:07:56.204497+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:17:46.210446+00:00"
+      "retry_after": "2026-11-17T13:17:56.204497+00:00"
     },
     "1820": {
       "recent_failures": [
