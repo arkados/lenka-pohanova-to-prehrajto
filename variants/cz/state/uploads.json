@@ -569108,12 +569108,6 @@
     },
     "1098:2:16": {
       "episode_key": "jak prosté:s2:e16",
-      "claim": {
-        "worker_id": "73f7cdc171e143509b8c9db3cf00c3ba-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:08:52.206190+00:00",
-        "lease_expires_at": "2026-11-18T03:08:52.206204+00:00"
-      },
       "source": {
         "source_id": "34432671",
         "source_url": "https://sdilej.cz/34432671/elementary-s02e16-cz-dabing-1080p-full-hd.mkv",
@@ -569137,7 +569131,17 @@
         },
         "display_name": "Elementary S02E16 The One Percent Solution 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:09:01.193707+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432671:https://sdilej.cz/34432671/elementary-s02e16-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:09:16.086251+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:09:16.086320+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:2:17": {
       "episode_key": "jak prosté:s2:e17",
@@ -569181,7 +569185,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:09:11.828391+00:00",
+  "updated_at": "2026-11-17T21:09:16.086327+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -569588,16 +569592,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:2:9",
-          "at": "2026-11-17T20:55:22.552157+00:00"
-        },
-        {
-          "identity": "1098:2:11",
-          "at": "2026-11-17T20:56:05.038236+00:00"
-        },
-        {
-          "identity": "1098:2:13",
-          "at": "2026-11-17T20:56:53.391914+00:00"
+          "identity": "1098:2:16",
+          "at": "2026-11-17T21:09:16.086251+00:00"
         }
       ],
       "retry_after": "2026-11-17T21:06:53.391914+00:00"
