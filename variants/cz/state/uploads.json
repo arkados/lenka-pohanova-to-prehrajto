@@ -543099,12 +543099,6 @@
     },
     "583:3:2": {
       "episode_key": "dobrý doktor:s3:e2",
-      "claim": {
-        "worker_id": "3aa752e281ff491285593ca41c0e94d4-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:06:49.236530+00:00",
-        "lease_expires_at": "2026-11-17T13:06:49.236541+00:00"
-      },
       "source": {
         "source_id": "34668486",
         "source_url": "https://sdilej.cz/34668486/dobry-doktor-s03e02-dluhy.mkv",
@@ -543128,7 +543122,17 @@
         },
         "display_name": "The Good Doctor S03E02 Debts 4K CZ Dabing",
         "prepared_at": "2026-11-17T07:06:53.530326+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668486:https://sdilej.cz/34668486/dobry-doktor-s03e02-dluhy.mkv",
+        "at": "2026-11-17T07:07:06.372667+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T07:07:06.372724+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "161:1:10": {
       "episode_key": "grimm:s1:e10",
@@ -543145,7 +543149,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:07:00.877525+00:00",
+  "updated_at": "2026-11-17T07:07:06.372730+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -543501,19 +543505,19 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:2:17",
-          "at": "2026-11-17T07:06:31.120808+00:00"
-        },
-        {
           "identity": "583:2:18",
           "at": "2026-11-17T07:06:39.822402+00:00"
         },
         {
           "identity": "583:3:1",
           "at": "2026-11-17T07:06:56.991711+00:00"
+        },
+        {
+          "identity": "583:3:2",
+          "at": "2026-11-17T07:07:06.372667+00:00"
         }
       ],
-      "retry_after": "2026-11-17T07:16:56.991711+00:00"
+      "retry_after": "2026-11-17T07:17:06.372667+00:00"
     },
     "1603": {
       "recent_failures": [
