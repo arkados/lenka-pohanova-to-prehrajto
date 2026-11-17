@@ -572464,12 +572464,6 @@
     },
     "1134:6:4": {
       "episode_key": "tráva:s6:e4",
-      "claim": {
-        "worker_id": "002b521cbfed44a7b9a15b9b900fd51b-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:57:57.796546+00:00",
-        "lease_expires_at": "2026-11-18T03:57:57.796560+00:00"
-      },
       "source": {
         "source_id": "27972595",
         "source_url": "https://sdilej.cz/27972595/trava-s06e04-cast-4.mkv",
@@ -572494,22 +572488,29 @@
         "display_name": "Weeds S06E04 Bliss 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:58:07.119742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130329",
-        "size_bytes": 554041471
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130329",
-        "size_bytes": 554041471,
-        "source_bytes_read": 554041471,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130329",
         "source_bytes_read": 554041471,
         "elapsed_seconds": 38.849,
         "finished_at": "2026-11-17T21:59:14.092591+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130329",
+          "size_bytes": 554041471,
+          "source_bytes_read": 554041471,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972595",
+        "source_url": "https://sdilej.cz/27972595/trava-s06e04-cast-4.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130329",
+        "display_name": "Weeds S06E04 Bliss 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:59:23.966167+00:00"
       }
     },
     "1134:6:5": {
@@ -572555,7 +572556,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:59:18.950252+00:00",
+  "updated_at": "2026-11-17T21:59:23.966181+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
