@@ -475665,28 +475665,29 @@
           "at": "2026-11-17T05:57:34.768181+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f63f9981c07141dcb470ecbf9b3f40b3-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:57:38.388326+00:00",
-        "lease_expires_at": "2026-11-17T11:57:38.388336+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110332",
-        "size_bytes": 2669111726
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110332",
-        "size_bytes": 2669111726,
-        "source_bytes_read": 2669111726,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110332",
         "source_bytes_read": 2669111726,
         "elapsed_seconds": 249.918,
         "finished_at": "2026-11-17T06:02:11.693243+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110332",
+          "size_bytes": 2669111726,
+          "source_bytes_read": 2669111726,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901672",
+        "source_url": "https://sdilej.cz/34901672/lucifer-s05e13-takove-neskodne-sledovani.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110332",
+        "display_name": "Lucifer S05E13 A Little Harmless Stalking 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:02:17.772410+00:00"
       }
     },
     "30:5:14": {
@@ -540922,7 +540923,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:02:11.693266+00:00",
+  "updated_at": "2026-11-17T06:02:17.772426+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
