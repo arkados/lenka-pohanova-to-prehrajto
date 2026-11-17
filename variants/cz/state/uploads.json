@@ -561428,12 +561428,6 @@
     },
     "583:6:9": {
       "episode_key": "dobrý doktor:s6:e9",
-      "claim": {
-        "worker_id": "e66920ecc61b4cf79dd387b898cf8a5d-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:01:31.120279+00:00",
-        "lease_expires_at": "2026-11-18T00:01:31.120291+00:00"
-      },
       "source": {
         "source_id": "34669488",
         "source_url": "https://sdilej.cz/34669488/dobry-doktor-s06e09-nesnaz-se-me-predelat.mkv",
@@ -561457,7 +561451,17 @@
         },
         "display_name": "The Good Doctor S06E09 Broken or Not 4K CZ Dabing",
         "prepared_at": "2026-11-17T18:01:36.182035+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669488:https://sdilej.cz/34669488/dobry-doktor-s06e09-nesnaz-se-me-predelat.mkv",
+        "at": "2026-11-17T18:01:49.181982+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:01:49.182052+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -561465,7 +561469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:01:36.182052+00:00",
+  "updated_at": "2026-11-17T18:01:49.182059+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -561815,6 +561819,10 @@
         {
           "identity": "583:6:8",
           "at": "2026-11-17T18:01:18.597781+00:00"
+        },
+        {
+          "identity": "583:6:9",
+          "at": "2026-11-17T18:01:49.181982+00:00"
         }
       ],
       "retry_after": "2026-11-17T17:36:44.999431+00:00"
