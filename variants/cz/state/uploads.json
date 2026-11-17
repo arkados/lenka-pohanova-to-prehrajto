@@ -554593,12 +554593,6 @@
     },
     "1085:6:7": {
       "episode_key": "policie chicago:s6:e7",
-      "claim": {
-        "worker_id": "2e27e3c52ee24b74bf6cccbc97ada58b-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:23:17.726901+00:00",
-        "lease_expires_at": "2026-11-17T19:23:17.726910+00:00"
-      },
       "source": {
         "source_id": "30290231",
         "source_url": "https://sdilej.cz/30290231/chicago-p.d.-policie-chicago-s06e07-czdab.mp4",
@@ -554623,22 +554617,29 @@
         "display_name": "Chicago P.D. S06E07 Trigger SD CZ Dabing",
         "prepared_at": "2026-11-17T13:23:26.306666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31119212",
-        "size_bytes": 436548003
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119212",
-        "size_bytes": 436548003,
-        "source_bytes_read": 436548003,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119212",
         "source_bytes_read": 436548003,
         "elapsed_seconds": 117.485,
         "finished_at": "2026-11-17T13:25:45.472297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119212",
+          "size_bytes": 436548003,
+          "source_bytes_read": 436548003,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290231",
+        "source_url": "https://sdilej.cz/30290231/chicago-p.d.-policie-chicago-s06e07-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119212",
+        "display_name": "Chicago P.D. S06E07 Trigger SD CZ Dabing",
+        "uploaded_at": "2026-11-17T13:25:52.510570+00:00"
       }
     }
   },
@@ -554647,7 +554648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:25:45.472314+00:00",
+  "updated_at": "2026-11-17T13:25:52.510585+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
