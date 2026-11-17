@@ -548055,12 +548055,6 @@
     },
     "161:3:9": {
       "episode_key": "grimm:s3:e9",
-      "claim": {
-        "worker_id": "cfb3c521ba0d45aba4a896ce1bee652b-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:46:12.320382+00:00",
-        "lease_expires_at": "2026-11-17T14:46:12.320394+00:00"
-      },
       "source": {
         "source_id": "31981051",
         "source_url": "https://sdilej.cz/31981051/grimm-s03e09.mp4",
@@ -548085,22 +548079,29 @@
         "display_name": "Grimm S03E09 Red Menace SD CZ Dabing",
         "prepared_at": "2026-11-17T08:46:16.739234+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114190",
-        "size_bytes": 209748907
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114190",
-        "size_bytes": 209748907,
-        "source_bytes_read": 209748907,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114190",
         "source_bytes_read": 209748907,
         "elapsed_seconds": 18.974,
         "finished_at": "2026-11-17T08:46:52.193419+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114190",
+          "size_bytes": 209748907,
+          "source_bytes_read": 209748907,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981051",
+        "source_url": "https://sdilej.cz/31981051/grimm-s03e09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114190",
+        "display_name": "Grimm S03E09 Red Menace SD CZ Dabing",
+        "uploaded_at": "2026-11-17T08:46:57.431733+00:00"
       }
     }
   },
@@ -548109,7 +548110,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:46:52.193464+00:00",
+  "updated_at": "2026-11-17T08:46:57.431749+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
