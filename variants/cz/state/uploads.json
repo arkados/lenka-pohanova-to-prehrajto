@@ -553448,12 +553448,6 @@
     },
     "1085:5:12": {
       "episode_key": "policie chicago:s5:e12",
-      "claim": {
-        "worker_id": "cefa1fe16721443e9fd8c2719f3b077c-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:05:11.986134+00:00",
-        "lease_expires_at": "2026-11-17T19:05:11.986144+00:00"
-      },
       "source": {
         "source_id": "30290189",
         "source_url": "https://sdilej.cz/30290189/chicago-p.d.-policie-chicago-s05e12-czdab.mp4",
@@ -553478,22 +553472,29 @@
         "display_name": "Chicago P.D. S05E12 Captive SD CZ Dabing",
         "prepared_at": "2026-11-17T13:05:29.150516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31118945",
-        "size_bytes": 413039663
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118945",
-        "size_bytes": 413039663,
-        "source_bytes_read": 413039663,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118945",
         "source_bytes_read": 413039663,
         "elapsed_seconds": 34.016,
         "finished_at": "2026-11-17T13:06:30.399024+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118945",
+          "size_bytes": 413039663,
+          "source_bytes_read": 413039663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290189",
+        "source_url": "https://sdilej.cz/30290189/chicago-p.d.-policie-chicago-s05e12-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118945",
+        "display_name": "Chicago P.D. S05E12 Captive SD CZ Dabing",
+        "uploaded_at": "2026-11-17T13:06:38.102389+00:00"
       }
     },
     "1085:5:13": {
@@ -553539,7 +553540,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:06:30.399040+00:00",
+  "updated_at": "2026-11-17T13:06:38.102405+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
