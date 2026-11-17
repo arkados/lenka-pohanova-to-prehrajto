@@ -563863,28 +563863,29 @@
           "at": "2026-11-17T19:12:33.405907+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f4e14af2ddaa4237a14e0a34c0e4c62a-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:12:37.565597+00:00",
-        "lease_expires_at": "2026-11-18T01:12:37.565611+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31125650",
-        "size_bytes": 2026735766
-      },
-      "transfer_receipt": {
-        "target_video_id": "31125650",
-        "size_bytes": 2026735766,
-        "source_bytes_read": 2026735766,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31125650",
         "source_bytes_read": 2026735766,
         "elapsed_seconds": 487.675,
         "finished_at": "2026-11-17T19:21:21.188697+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31125650",
+          "size_bytes": 2026735766,
+          "source_bytes_read": 2026735766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32565878",
+        "source_url": "https://sdilej.cz/32565878/dobry-doktor-s07e10-cz-dabing-ultra-hd-2160p-4k.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31125650",
+        "display_name": "The Good Doctor S07E10 Goodbye 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T19:21:30.110508+00:00"
       }
     },
     "1098:1:5": {
@@ -564104,7 +564105,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:21:26.261350+00:00",
+  "updated_at": "2026-11-17T19:21:30.110522+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
