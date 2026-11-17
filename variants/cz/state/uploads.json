@@ -576921,28 +576921,29 @@
           "at": "2026-11-17T23:10:44.958473+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c327729a42d044db921b2e1c55aed151-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:10:49.431749+00:00",
-        "lease_expires_at": "2026-11-18T05:10:49.431764+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31132683",
-        "size_bytes": 732492203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132683",
-        "size_bytes": 732492203,
-        "source_bytes_read": 732492203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132683",
         "source_bytes_read": 732492203,
         "elapsed_seconds": 39.384,
         "finished_at": "2026-11-17T23:11:52.745118+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132683",
+          "size_bytes": 732492203,
+          "source_bytes_read": 732492203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11028525",
+        "source_url": "https://sdilej.cz/11028525/elementary.s05e12.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132683",
+        "display_name": "Elementary S05E12 Crowned Clown, Downtown Brown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:11:58.751512+00:00"
       }
     },
     "1098:5:13": {
@@ -577076,7 +577077,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:11:52.745139+00:00",
+  "updated_at": "2026-11-17T23:11:58.751529+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
