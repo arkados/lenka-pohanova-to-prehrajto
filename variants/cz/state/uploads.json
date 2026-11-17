@@ -542507,28 +542507,29 @@
           "at": "2026-11-17T12:24:58.100021+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2e7fcb5e0fe84bcb82ebd13067eebe60-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:25:02.095402+00:00",
-        "lease_expires_at": "2026-11-17T18:25:02.095416+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118127",
-        "size_bytes": 846362022
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118127",
-        "size_bytes": 846362022,
-        "source_bytes_read": 846362022,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118127",
         "source_bytes_read": 846362022,
         "elapsed_seconds": 59.865,
         "finished_at": "2026-11-17T12:26:35.543517+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118127",
+          "size_bytes": 846362022,
+          "source_bytes_read": 846362022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942501",
+        "source_url": "https://sdilej.cz/34942501/chicago-p.d.-s03e23-062-2016-hd-zacni-kopat-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118127",
+        "display_name": "Chicago P.D. S03E23 Start Digging 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:26:45.890638+00:00"
       }
     },
     "1085:4:1": {
@@ -551670,7 +551671,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:26:39.603548+00:00",
+  "updated_at": "2026-11-17T12:26:45.890654+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
