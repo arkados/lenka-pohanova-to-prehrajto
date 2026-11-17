@@ -540970,12 +540970,6 @@
     },
     "1085:3:20": {
       "episode_key": "policie chicago:s3:e20",
-      "claim": {
-        "worker_id": "cc40b18b8d3a47489ef2e607fe6a9894-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:03:34.370933+00:00",
-        "lease_expires_at": "2026-11-17T12:03:34.370944+00:00"
-      },
       "source": {
         "source_id": "30987722",
         "source_url": "https://sdilej.cz/30987722/chicago-p.d.-policie-chicago-s03e20-czdab-x264.mkv",
@@ -540999,7 +540993,17 @@
         },
         "display_name": "Chicago P.D. S03E20 In a Duffel Bag 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:03:42.691864+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987722:https://sdilej.cz/30987722/chicago-p.d.-policie-chicago-s03e20-czdab-x264.mkv",
+        "at": "2026-11-17T06:03:55.496910+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:03:55.496941+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:3:21": {
       "episode_key": "policie chicago:s3:e21",
@@ -541043,7 +541047,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:03:52.037683+00:00",
+  "updated_at": "2026-11-17T06:03:55.496947+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -541278,6 +541282,10 @@
         {
           "identity": "1085:3:19",
           "at": "2026-11-17T06:03:19.687785+00:00"
+        },
+        {
+          "identity": "1085:3:20",
+          "at": "2026-11-17T06:03:55.496910+00:00"
         }
       ],
       "retry_after": "2026-11-17T06:01:59.787859+00:00"
