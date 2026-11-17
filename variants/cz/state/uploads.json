@@ -548036,12 +548036,6 @@
     },
     "161:3:8": {
       "episode_key": "grimm:s3:e8",
-      "claim": {
-        "worker_id": "94e0136b152f463e8aa57beecc57a771-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:45:01.688408+00:00",
-        "lease_expires_at": "2026-11-17T14:45:01.688417+00:00"
-      },
       "source": {
         "source_id": "30220245",
         "source_url": "https://sdilej.cz/30220245/grimm-s03e08.mkv",
@@ -548066,22 +548060,29 @@
         "display_name": "Grimm S03E08 Twelve Days of Krampus 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:45:08.717292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114168",
-        "size_bytes": 2606093763
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114168",
-        "size_bytes": 2606093763,
-        "source_bytes_read": 2606093763,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114168",
         "source_bytes_read": 2606093763,
         "elapsed_seconds": 256.263,
         "finished_at": "2026-11-17T08:49:45.196852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114168",
+          "size_bytes": 2606093763,
+          "source_bytes_read": 2606093763,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30220245",
+        "source_url": "https://sdilej.cz/30220245/grimm-s03e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114168",
+        "display_name": "Grimm S03E08 Twelve Days of Krampus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:49:52.536651+00:00"
       }
     },
     "161:3:9": {
@@ -548215,7 +548216,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:49:45.196872+00:00",
+  "updated_at": "2026-11-17T08:49:52.536668+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
