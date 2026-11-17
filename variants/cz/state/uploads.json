@@ -541924,12 +541924,6 @@
     },
     "1085:4:3": {
       "episode_key": "policie chicago:s4:e3",
-      "claim": {
-        "worker_id": "cb6cee969b594825a10f35aa6912deeb-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:30:17.134555+00:00",
-        "lease_expires_at": "2026-11-17T12:30:17.134565+00:00"
-      },
       "source": {
         "source_id": "30987753",
         "source_url": "https://sdilej.cz/30987753/chicago-p.d.-policie-chicago-s04e03-czdab-x264.mkv",
@@ -541953,7 +541947,17 @@
         },
         "display_name": "Chicago P.D. S04E03 All Cylinders Firing 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:30:21.314849+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987753:https://sdilej.cz/30987753/chicago-p.d.-policie-chicago-s04e03-czdab-x264.mkv",
+        "at": "2026-11-17T06:30:34.349134+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:30:34.349410+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -541961,7 +541965,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:30:29.110391+00:00",
+  "updated_at": "2026-11-17T06:30:34.349416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -542194,19 +542198,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:3:20",
-          "at": "2026-11-17T06:29:50.526826+00:00"
-        },
-        {
           "identity": "1085:3:23",
           "at": "2026-11-17T06:30:25.845861+00:00"
         },
         {
           "identity": "1085:4:1",
           "at": "2026-11-17T06:30:29.110224+00:00"
+        },
+        {
+          "identity": "1085:4:3",
+          "at": "2026-11-17T06:30:34.349134+00:00"
         }
       ],
-      "retry_after": "2026-11-17T06:40:29.110224+00:00"
+      "retry_after": "2026-11-17T06:40:34.349134+00:00"
     },
     "1820": {
       "recent_failures": [
