@@ -578264,12 +578264,6 @@
     },
     "581:2:3": {
       "episode_key": "král tulsy:s2:e3",
-      "claim": {
-        "worker_id": "9c7ae804245f4e55a975a1df2bc337ce-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:39:47.451700+00:00",
-        "lease_expires_at": "2026-11-18T05:39:47.451716+00:00"
-      },
       "source": {
         "source_id": "34346356",
         "source_url": "https://sdilej.cz/34346356/kral-tulsy-s02e03-oklahoma-v.-manfredi-cz-dabing-2160p-uhd.mkv",
@@ -578293,7 +578287,17 @@
         },
         "display_name": "Tulsa King S02E03 Oklahoma v. Manfredi 4K CZ Dabing",
         "prepared_at": "2026-11-17T23:39:52.232950+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34346356:https://sdilej.cz/34346356/kral-tulsy-s02e03-oklahoma-v.-manfredi-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-17T23:40:04.291244+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:40:04.291284+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -578301,7 +578305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:39:57.391933+00:00",
+  "updated_at": "2026-11-17T23:40:04.291302+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578733,12 +578737,12 @@
     "581": {
       "recent_failures": [
         {
-          "identity": "581:2:1",
-          "at": "2026-11-17T23:34:42.056577+00:00"
-        },
-        {
           "identity": "581:2:2",
           "at": "2026-11-17T23:35:05.031820+00:00"
+        },
+        {
+          "identity": "581:2:3",
+          "at": "2026-11-17T23:40:04.291244+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:27:18.608386+00:00"
