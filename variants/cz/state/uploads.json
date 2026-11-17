@@ -573094,12 +573094,6 @@
     },
     "1098:3:18": {
       "episode_key": "jak prosté:s3:e18",
-      "claim": {
-        "worker_id": "1c073cdfdf534360a5fab3002980e808-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:06:44.360177+00:00",
-        "lease_expires_at": "2026-11-18T04:06:44.360189+00:00"
-      },
       "source": {
         "source_id": "28201375",
         "source_url": "https://sdilej.cz/28201375/jak-proste-s03e18.mkv",
@@ -573124,22 +573118,29 @@
         "display_name": "Elementary S03E18 The View from Olympus 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:06:49.241520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130576",
-        "size_bytes": 683981944
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130576",
-        "size_bytes": 683981944,
-        "source_bytes_read": 683981944,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130576",
         "source_bytes_read": 683981944,
         "elapsed_seconds": 43.597,
         "finished_at": "2026-11-17T22:07:56.676950+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130576",
+          "size_bytes": 683981944,
+          "source_bytes_read": 683981944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201375",
+        "source_url": "https://sdilej.cz/28201375/jak-proste-s03e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130576",
+        "display_name": "Elementary S03E18 The View from Olympus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:08:08.035482+00:00"
       }
     },
     "1098:3:19": {
@@ -573222,7 +573223,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:08:01.198823+00:00",
+  "updated_at": "2026-11-17T22:08:08.035501+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
