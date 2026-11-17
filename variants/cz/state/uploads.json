@@ -555422,28 +555422,29 @@
           "at": "2026-11-17T13:48:14.346942+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2a3e9a864c0647859d2ca8268d04cf82-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:48:18.585913+00:00",
-        "lease_expires_at": "2026-11-17T19:48:18.585924+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119574",
-        "size_bytes": 810312933
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119574",
-        "size_bytes": 810312933,
-        "source_bytes_read": 810312933,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119574",
         "source_bytes_read": 810312933,
         "elapsed_seconds": 78.006,
         "finished_at": "2026-11-17T13:50:01.460766+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119574",
+          "size_bytes": 810312933,
+          "source_bytes_read": 810312933,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943519",
+        "source_url": "https://sdilej.cz/34943519/chicago-p.d.-s06e17-124-2019-hd-ztracene-mladi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119574",
+        "display_name": "Chicago P.D. S06E17 Pain Killer 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:50:13.701146+00:00"
       }
     },
     "1085:6:18": {
@@ -555695,7 +555696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:50:08.942881+00:00",
+  "updated_at": "2026-11-17T13:50:13.701160+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
