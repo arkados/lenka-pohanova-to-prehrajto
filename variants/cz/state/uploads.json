@@ -543885,12 +543885,6 @@
     },
     "583:3:6": {
       "episode_key": "dobrý doktor:s3:e6",
-      "claim": {
-        "worker_id": "24fff530148644a584167f1de355b091-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:17:37.696439+00:00",
-        "lease_expires_at": "2026-11-17T13:17:37.696451+00:00"
-      },
       "source": {
         "source_id": "17400404",
         "source_url": "https://sdilej.cz/17400404/dobry-doktor-the.good.doctor.s03e06.45-degree.angle.1080p.10bit.amzn.web-dl.aac5.1.hevc-vyndros-cz-audio-.mkv",
@@ -543915,22 +543909,29 @@
         "display_name": "The Good Doctor S03E06 45-Degree Angle 1080p CZ Dabing",
         "prepared_at": "2026-11-17T07:17:46.536250+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112193",
-        "size_bytes": 813088862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112193",
-        "size_bytes": 813088862,
-        "source_bytes_read": 813088862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112193",
         "source_bytes_read": 813088862,
         "elapsed_seconds": 145.06,
         "finished_at": "2026-11-17T07:20:38.446415+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112193",
+          "size_bytes": 813088862,
+          "source_bytes_read": 813088862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17400404",
+        "source_url": "https://sdilej.cz/17400404/dobry-doktor-the.good.doctor.s03e06.45-degree.angle.1080p.10bit.amzn.web-dl.aac5.1.hevc-vyndros-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112193",
+        "display_name": "The Good Doctor S03E06 45-Degree Angle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:20:48.704084+00:00"
       }
     },
     "583:3:7": {
@@ -544174,7 +544175,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:20:42.850167+00:00",
+  "updated_at": "2026-11-17T07:20:48.704100+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
