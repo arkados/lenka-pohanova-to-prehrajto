@@ -547847,12 +547847,6 @@
     },
     "161:3:5": {
       "episode_key": "grimm:s3:e5",
-      "claim": {
-        "worker_id": "1269db33a6c64bb99e00b74c8343bce7-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:41:36.838920+00:00",
-        "lease_expires_at": "2026-11-17T14:41:36.838929+00:00"
-      },
       "source": {
         "source_id": "31981046",
         "source_url": "https://sdilej.cz/31981046/grimm-s03e05.mp4",
@@ -547877,22 +547871,29 @@
         "display_name": "Grimm S03E05 El Cucuy SD CZ Dabing",
         "prepared_at": "2026-11-17T08:41:41.152039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114094",
-        "size_bytes": 214182981
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114094",
-        "size_bytes": 214182981,
-        "source_bytes_read": 214182981,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114094",
         "source_bytes_read": 214182981,
         "elapsed_seconds": 15.072,
         "finished_at": "2026-11-17T08:42:12.703885+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114094",
+          "size_bytes": 214182981,
+          "source_bytes_read": 214182981,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981046",
+        "source_url": "https://sdilej.cz/31981046/grimm-s03e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114094",
+        "display_name": "Grimm S03E05 El Cucuy SD CZ Dabing",
+        "uploaded_at": "2026-11-17T08:42:18.760668+00:00"
       }
     }
   },
@@ -547901,7 +547902,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:42:12.703908+00:00",
+  "updated_at": "2026-11-17T08:42:18.760685+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
