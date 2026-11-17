@@ -563638,12 +563638,6 @@
     },
     "583:7:9": {
       "episode_key": "dobrý doktor:s7:e9",
-      "claim": {
-        "worker_id": "bf82dd612da4491c9636ab78eeb24e2a-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:05:49.653732+00:00",
-        "lease_expires_at": "2026-11-18T01:05:49.653744+00:00"
-      },
       "source": {
         "source_id": "34669904",
         "source_url": "https://sdilej.cz/34669904/dobry-doktor-s07e09-bezvyhradne.mkv",
@@ -563667,7 +563661,17 @@
         },
         "display_name": "The Good Doctor S07E09 Unconditional 4K CZ Dabing",
         "prepared_at": "2026-11-17T19:05:54.420369+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34669904:https://sdilej.cz/34669904/dobry-doktor-s07e09-bezvyhradne.mkv",
+        "at": "2026-11-17T19:06:10.313001+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:06:10.313044+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -563675,7 +563679,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:05:54.420387+00:00",
+  "updated_at": "2026-11-17T19:06:10.313049+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564027,16 +564031,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:7:6",
-          "at": "2026-11-17T18:50:33.201425+00:00"
-        },
-        {
-          "identity": "583:7:8",
-          "at": "2026-11-17T18:53:15.108140+00:00"
-        },
-        {
-          "identity": "583:7:4",
-          "at": "2026-11-17T18:55:00.155022+00:00"
+          "identity": "583:7:9",
+          "at": "2026-11-17T19:06:10.313001+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:05:00.155022+00:00"
