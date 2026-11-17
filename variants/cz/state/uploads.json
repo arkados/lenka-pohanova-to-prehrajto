@@ -546510,12 +546510,6 @@
     },
     "161:2:2": {
       "episode_key": "grimm:s2:e2",
-      "claim": {
-        "worker_id": "03cf6d48809f4cfa8efe4fec889bf29f-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:06:58.993007+00:00",
-        "lease_expires_at": "2026-11-17T14:06:58.993016+00:00"
-      },
       "source": {
         "source_id": "30214677",
         "source_url": "https://sdilej.cz/30214677/grimm-s02e02.mkv",
@@ -546540,22 +546534,29 @@
         "display_name": "Grimm S02E02 The Kiss 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:07:06.881211+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31113332",
-        "size_bytes": 2613262157
-      },
-      "transfer_receipt": {
-        "target_video_id": "31113332",
-        "size_bytes": 2613262157,
-        "source_bytes_read": 2613262157,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31113332",
         "source_bytes_read": 2613262157,
         "elapsed_seconds": 337.461,
         "finished_at": "2026-11-17T08:13:00.825300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31113332",
+          "size_bytes": 2613262157,
+          "source_bytes_read": 2613262157,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30214677",
+        "source_url": "https://sdilej.cz/30214677/grimm-s02e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31113332",
+        "display_name": "Grimm S02E02 The Kiss 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T08:13:06.370142+00:00"
       }
     },
     "161:2:3": {
@@ -546601,7 +546602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:13:00.825320+00:00",
+  "updated_at": "2026-11-17T08:13:06.370158+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
