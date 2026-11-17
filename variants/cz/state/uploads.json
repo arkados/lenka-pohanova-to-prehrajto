@@ -561787,12 +561787,6 @@
     },
     "1085:9:18": {
       "episode_key": "policie chicago:s9:e18",
-      "claim": {
-        "worker_id": "4ee6e51ea3e84cc59677bf4b5fbddee0-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:11:11.401624+00:00",
-        "lease_expires_at": "2026-11-18T00:11:11.401641+00:00"
-      },
       "source": {
         "source_id": "27956285",
         "source_url": "https://sdilej.cz/27956285/policie-chicago-s09e18.mp4",
@@ -561816,7 +561810,17 @@
         },
         "display_name": "Chicago P.D. S09E18 New Guard 1080p CZ Dabing",
         "prepared_at": "2026-11-17T18:11:16.512868+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27956285:https://sdilej.cz/27956285/policie-chicago-s09e18.mp4",
+        "at": "2026-11-17T18:11:29.873694+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T18:11:29.873737+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -561824,7 +561828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:11:16.512887+00:00",
+  "updated_at": "2026-11-17T18:11:29.873743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -562049,16 +562053,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:9:10",
-          "at": "2026-11-17T17:55:16.439463+00:00"
-        },
-        {
-          "identity": "1085:9:12",
-          "at": "2026-11-17T17:56:04.516211+00:00"
-        },
-        {
-          "identity": "1085:9:13",
-          "at": "2026-11-17T17:56:28.323589+00:00"
+          "identity": "1085:9:18",
+          "at": "2026-11-17T18:11:29.873694+00:00"
         }
       ],
       "retry_after": "2026-11-17T18:06:28.323589+00:00"
