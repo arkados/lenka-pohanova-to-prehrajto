@@ -553193,12 +553193,6 @@
     },
     "1085:5:7": {
       "episode_key": "policie chicago:s5:e7",
-      "claim": {
-        "worker_id": "2385a650e0784227a303cac025a27f86-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:02:51.872453+00:00",
-        "lease_expires_at": "2026-11-17T19:02:51.872464+00:00"
-      },
       "source": {
         "source_id": "30290177",
         "source_url": "https://sdilej.cz/30290177/chicago-p.d.-policie-chicago-s05e07-czdab.mp4",
@@ -553223,22 +553217,29 @@
         "display_name": "Chicago P.D. S05E07 Care Under Fire SD CZ Dabing",
         "prepared_at": "2026-11-17T13:02:56.764434+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31118896",
-        "size_bytes": 405574832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118896",
-        "size_bytes": 405574832,
-        "source_bytes_read": 405574832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118896",
         "source_bytes_read": 405574832,
         "elapsed_seconds": 28.513,
         "finished_at": "2026-11-17T13:03:53.477995+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118896",
+          "size_bytes": 405574832,
+          "source_bytes_read": 405574832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290177",
+        "source_url": "https://sdilej.cz/30290177/chicago-p.d.-policie-chicago-s05e07-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118896",
+        "display_name": "Chicago P.D. S05E07 Care Under Fire SD CZ Dabing",
+        "uploaded_at": "2026-11-17T13:04:05.962764+00:00"
       }
     },
     "1085:5:8": {
@@ -553320,7 +553321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:04:01.772441+00:00",
+  "updated_at": "2026-11-17T13:04:05.962777+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
