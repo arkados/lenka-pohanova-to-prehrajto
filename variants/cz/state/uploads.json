@@ -574808,12 +574808,6 @@
     },
     "1134:8:4": {
       "episode_key": "tráva:s8:e4",
-      "claim": {
-        "worker_id": "3a42d6ede4564599bd2d159a4289f046-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:31:02.959230+00:00",
-        "lease_expires_at": "2026-11-18T04:31:02.959246+00:00"
-      },
       "source": {
         "source_id": "11282884",
         "source_url": "https://sdilej.cz/11282884/weeds.s08e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -574838,22 +574832,29 @@
         "display_name": "Weeds S08E04 Only Judy Can Judge 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:31:17.402212+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131359",
-        "size_bytes": 740240579
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131359",
-        "size_bytes": 740240579,
-        "source_bytes_read": 740240579,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131359",
         "source_bytes_read": 740240579,
         "elapsed_seconds": 175.942,
         "finished_at": "2026-11-17T22:34:39.103854+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131359",
+          "size_bytes": 740240579,
+          "source_bytes_read": 740240579,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11282884",
+        "source_url": "https://sdilej.cz/11282884/weeds.s08e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131359",
+        "display_name": "Weeds S08E04 Only Judy Can Judge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:34:45.451854+00:00"
       }
     },
     "1134:8:3": {
@@ -575038,7 +575039,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:34:39.103875+00:00",
+  "updated_at": "2026-11-17T22:34:45.451870+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
