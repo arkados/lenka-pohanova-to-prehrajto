@@ -574215,12 +574215,6 @@
     },
     "1134:8:2": {
       "episode_key": "tráva:s8:e2",
-      "claim": {
-        "worker_id": "c205b80dc4784097bcb5584cd9206e6c-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:20:53.975053+00:00",
-        "lease_expires_at": "2026-11-18T04:20:53.975067+00:00"
-      },
       "source": {
         "source_id": "11282812",
         "source_url": "https://sdilej.cz/11282812/weeds.s08e02.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -574245,22 +574239,29 @@
         "display_name": "Weeds S08E02 A Beam of Sunshine 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:21:02.661889+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131050",
-        "size_bytes": 781613935
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131050",
-        "size_bytes": 781613935,
-        "source_bytes_read": 781613935,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131050",
         "source_bytes_read": 781613935,
         "elapsed_seconds": 41.042,
         "finished_at": "2026-11-17T22:22:07.367616+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131050",
+          "size_bytes": 781613935,
+          "source_bytes_read": 781613935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11282812",
+        "source_url": "https://sdilej.cz/11282812/weeds.s08e02.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131050",
+        "display_name": "Weeds S08E02 A Beam of Sunshine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:22:16.576911+00:00"
       }
     },
     "1098:4:4": {
@@ -574306,7 +574307,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:22:11.332445+00:00",
+  "updated_at": "2026-11-17T22:22:16.576930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
