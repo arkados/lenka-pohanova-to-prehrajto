@@ -475137,28 +475137,29 @@
           "at": "2026-11-17T05:46:04.029399+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ba5132c6f25e4f0e9b574cd39157a0c5-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:46:08.116626+00:00",
-        "lease_expires_at": "2026-11-17T11:46:08.116636+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110000",
-        "size_bytes": 2721484609
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110000",
-        "size_bytes": 2721484609,
-        "source_bytes_read": 2721484609,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110000",
         "source_bytes_read": 2721484609,
         "elapsed_seconds": 234.143,
         "finished_at": "2026-11-17T05:50:30.345996+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110000",
+          "size_bytes": 2721484609,
+          "source_bytes_read": 2721484609,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901630",
+        "source_url": "https://sdilej.cz/34901630/lucifer-s05e08-pozor-vyzrazeni-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110000",
+        "display_name": "Lucifer S05E08 Spoiler Alert 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T05:50:42.463363+00:00"
       }
     },
     "30:5:9": {
@@ -540604,7 +540605,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:50:37.276730+00:00",
+  "updated_at": "2026-11-17T05:50:42.463381+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
