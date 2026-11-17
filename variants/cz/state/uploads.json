@@ -542918,28 +542918,29 @@
           "at": "2026-11-17T12:26:57.464374+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "79fddd430a4a4f34bfd4ef496be0c117-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:27:02.846004+00:00",
-        "lease_expires_at": "2026-11-17T18:27:02.846016+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118183",
-        "size_bytes": 828822038
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118183",
-        "size_bytes": 828822038,
-        "source_bytes_read": 828822038,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118183",
         "source_bytes_read": 828822038,
         "elapsed_seconds": 56.605,
         "finished_at": "2026-11-17T12:28:25.909290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118183",
+          "size_bytes": 828822038,
+          "source_bytes_read": 828822038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942537",
+        "source_url": "https://sdilej.cz/34942537/chicago-p.d.-s04e03-065-2016-hd-na-plnej-plyn-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118183",
+        "display_name": "Chicago P.D. S04E03 All Cylinders Firing 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:28:38.591190+00:00"
       }
     },
     "1085:4:4": {
@@ -551756,7 +551757,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:28:31.843953+00:00",
+  "updated_at": "2026-11-17T12:28:38.591206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
