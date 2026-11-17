@@ -559219,12 +559219,6 @@
     },
     "161:6:6": {
       "episode_key": "grimm:s6:e6",
-      "claim": {
-        "worker_id": "ced87f80dbfa4acbae83ea6040fd20f8-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T15:04:10.204847+00:00",
-        "lease_expires_at": "2026-11-17T21:04:10.204858+00:00"
-      },
       "source": {
         "source_id": "31981133",
         "source_url": "https://sdilej.cz/31981133/grimm-s06e06.mp4",
@@ -559249,22 +559243,29 @@
         "display_name": "Grimm S06E06 Breakfast in Bed SD CZ Dabing",
         "prepared_at": "2026-11-17T15:04:18.970198+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31121295",
-        "size_bytes": 167593600
-      },
-      "transfer_receipt": {
-        "target_video_id": "31121295",
-        "size_bytes": 167593600,
-        "source_bytes_read": 167593600,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31121295",
         "source_bytes_read": 167593600,
         "elapsed_seconds": 12.389,
         "finished_at": "2026-11-17T15:04:53.793883+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31121295",
+          "size_bytes": 167593600,
+          "source_bytes_read": 167593600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981133",
+        "source_url": "https://sdilej.cz/31981133/grimm-s06e06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31121295",
+        "display_name": "Grimm S06E06 Breakfast in Bed SD CZ Dabing",
+        "uploaded_at": "2026-11-17T15:05:05.568603+00:00"
       }
     }
   },
@@ -559273,7 +559274,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:04:59.905161+00:00",
+  "updated_at": "2026-11-17T15:05:05.568618+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
