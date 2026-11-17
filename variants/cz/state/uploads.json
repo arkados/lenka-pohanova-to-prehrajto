@@ -547206,12 +547206,6 @@
     },
     "161:2:15": {
       "episode_key": "grimm:s2:e15",
-      "claim": {
-        "worker_id": "3574c9d6164f416bbc947534c27c9880-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:30:12.073621+00:00",
-        "lease_expires_at": "2026-11-17T14:30:12.073632+00:00"
-      },
       "source": {
         "source_id": "19995068",
         "source_url": "https://sdilej.cz/19995068/grimm.s02e15.1080p.bluray.x265-heteam-cz.mkv",
@@ -547235,7 +547229,17 @@
         },
         "display_name": "Grimm S02E15 Mr. Sandman 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:30:16.805910+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "19995068:https://sdilej.cz/19995068/grimm.s02e15.1080p.bluray.x265-heteam-cz.mkv",
+        "at": "2026-11-17T08:30:28.715156+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T08:30:28.715181+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -547243,7 +547247,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:30:16.805927+00:00",
+  "updated_at": "2026-11-17T08:30:28.715185+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -547634,6 +547638,14 @@
         }
       ],
       "retry_after": "2026-11-17T08:15:25.772391+00:00"
+    },
+    "161": {
+      "recent_failures": [
+        {
+          "identity": "161:2:15",
+          "at": "2026-11-17T08:30:28.715156+00:00"
+        }
+      ]
     }
   }
 }
