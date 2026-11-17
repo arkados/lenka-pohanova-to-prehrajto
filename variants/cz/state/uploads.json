@@ -452436,28 +452436,29 @@
           "at": "2026-11-17T01:02:04.999939+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2ad5329d147e4741b8afc2b9716ad9bf-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T01:02:09.797606+00:00",
-        "lease_expires_at": "2026-11-17T07:02:09.797618+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103590",
-        "size_bytes": 827843089
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103590",
-        "size_bytes": 827843089,
-        "source_bytes_read": 827843089,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103590",
         "source_bytes_read": 827843089,
         "elapsed_seconds": 93.631,
         "finished_at": "2026-11-17T01:04:11.271081+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103590",
+          "size_bytes": 827843089,
+          "source_bytes_read": 827843089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34941762",
+        "source_url": "https://sdilej.cz/34941762/chicago-p.d.-s01e07-008-2014-hd-cena-kterou-platime-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103590",
+        "display_name": "Chicago P.D. S01E07 The Price We Pay 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T01:04:20.374467+00:00"
       }
     },
     "1820:1:1": {
@@ -526439,7 +526440,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T01:04:14.895355+00:00",
+  "updated_at": "2026-11-17T01:04:20.374484+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
