@@ -570193,12 +570193,6 @@
     },
     "1098:2:21": {
       "episode_key": "jak prosté:s2:e21",
-      "claim": {
-        "worker_id": "37bb56e31b3a48d89357acc0255d6c4a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:22:43.056121+00:00",
-        "lease_expires_at": "2026-11-18T03:22:43.056134+00:00"
-      },
       "source": {
         "source_id": "34432712",
         "source_url": "https://sdilej.cz/34432712/elementary-s02e21-cz-dabing-1080p-full-hd.mkv",
@@ -570222,7 +570216,17 @@
         },
         "display_name": "Elementary S02E21 The Man with the Twisted Lip 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:22:56.160190+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432712:https://sdilej.cz/34432712/elementary-s02e21-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T21:23:15.255196+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T21:23:15.255458+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:2:22": {
       "episode_key": "jak prosté:s2:e22",
@@ -570267,7 +570271,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:23:09.510237+00:00",
+  "updated_at": "2026-11-17T21:23:15.255476+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -570680,9 +570684,13 @@
         {
           "identity": "1098:2:22",
           "at": "2026-11-17T21:23:04.890163+00:00"
+        },
+        {
+          "identity": "1098:2:21",
+          "at": "2026-11-17T21:23:15.255196+00:00"
         }
       ],
-      "retry_after": "2026-11-17T21:21:17.099510+00:00"
+      "retry_after": "2026-11-17T21:33:15.255196+00:00"
     }
   }
 }
