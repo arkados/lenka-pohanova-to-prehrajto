@@ -560729,12 +560729,6 @@
     },
     "1085:9:3": {
       "episode_key": "policie chicago:s9:e3",
-      "claim": {
-        "worker_id": "d6b4fbd6052749c58ab2bada53daffbd-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T17:50:15.300113+00:00",
-        "lease_expires_at": "2026-11-17T23:50:15.300126+00:00"
-      },
       "source": {
         "source_id": "30290380",
         "source_url": "https://sdilej.cz/30290380/chicago-p.d.-policie-chicago-s09e03-czdab.mp4",
@@ -560759,22 +560753,29 @@
         "display_name": "Chicago P.D. S09E03 The One Next to Me 1080p CZ Dabing",
         "prepared_at": "2026-11-17T17:50:26.342793+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31123978",
-        "size_bytes": 698030398
-      },
-      "transfer_receipt": {
-        "target_video_id": "31123978",
-        "size_bytes": 698030398,
-        "source_bytes_read": 698030398,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31123978",
         "source_bytes_read": 698030398,
         "elapsed_seconds": 84.596,
         "finished_at": "2026-11-17T17:52:12.561418+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31123978",
+          "size_bytes": 698030398,
+          "source_bytes_read": 698030398,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290380",
+        "source_url": "https://sdilej.cz/30290380/chicago-p.d.-policie-chicago-s09e03-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31123978",
+        "display_name": "Chicago P.D. S09E03 The One Next to Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T17:52:23.551251+00:00"
       }
     },
     "1085:9:4": {
@@ -560870,7 +560871,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T17:52:17.652316+00:00",
+  "updated_at": "2026-11-17T17:52:23.551265+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
