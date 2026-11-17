@@ -553244,12 +553244,6 @@
     },
     "1085:5:8": {
       "episode_key": "policie chicago:s5:e8",
-      "claim": {
-        "worker_id": "1fc91e4768d1420c9f9c3355b6f2bcc8-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:03:30.897149+00:00",
-        "lease_expires_at": "2026-11-17T19:03:30.897159+00:00"
-      },
       "source": {
         "source_id": "30290180",
         "source_url": "https://sdilej.cz/30290180/chicago-p.d.-policie-chicago-s05e08-czdab.mp4",
@@ -553274,22 +553268,29 @@
         "display_name": "Chicago P.D. S05E08 Politics SD CZ Dabing",
         "prepared_at": "2026-11-17T13:03:37.300497+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31118909",
-        "size_bytes": 409840670
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118909",
-        "size_bytes": 409840670,
-        "source_bytes_read": 409840670,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118909",
         "source_bytes_read": 409840670,
         "elapsed_seconds": 33.036,
         "finished_at": "2026-11-17T13:04:36.218119+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118909",
+          "size_bytes": 409840670,
+          "source_bytes_read": 409840670,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290180",
+        "source_url": "https://sdilej.cz/30290180/chicago-p.d.-policie-chicago-s05e08-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118909",
+        "display_name": "Chicago P.D. S05E08 Politics SD CZ Dabing",
+        "uploaded_at": "2026-11-17T13:04:48.049725+00:00"
       }
     },
     "1085:5:9": {
@@ -553385,7 +553386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:04:44.115856+00:00",
+  "updated_at": "2026-11-17T13:04:48.049743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
