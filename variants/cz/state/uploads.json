@@ -542270,12 +542270,6 @@
     },
     "1085:4:5": {
       "episode_key": "policie chicago:s4:e5",
-      "claim": {
-        "worker_id": "76ef1acc3a3e44058881c7aa85838d36-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:41:23.867846+00:00",
-        "lease_expires_at": "2026-11-17T12:41:23.867855+00:00"
-      },
       "source": {
         "source_id": "30987757",
         "source_url": "https://sdilej.cz/30987757/chicago-p.d.-policie-chicago-s04e05-czdab-x264.mkv",
@@ -542299,7 +542293,17 @@
         },
         "display_name": "Chicago P.D. S04E05 A War Zone 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:41:28.355372+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987757:https://sdilej.cz/30987757/chicago-p.d.-policie-chicago-s04e05-czdab-x264.mkv",
+        "at": "2026-11-17T06:41:39.948926+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:41:39.948981+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -542307,7 +542311,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:41:32.025205+00:00",
+  "updated_at": "2026-11-17T06:41:39.948985+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -542546,9 +542550,13 @@
         {
           "identity": "1085:4:4",
           "at": "2026-11-17T06:41:32.025169+00:00"
+        },
+        {
+          "identity": "1085:4:5",
+          "at": "2026-11-17T06:41:39.948926+00:00"
         }
       ],
-      "retry_after": "2026-11-17T06:40:34.349134+00:00"
+      "retry_after": "2026-11-17T06:51:39.948926+00:00"
     },
     "1820": {
       "recent_failures": [
