@@ -547759,12 +547759,6 @@
     },
     "583:3:20": {
       "episode_key": "dobrý doktor:s3:e20",
-      "claim": {
-        "worker_id": "8443afd142c64c889f8a7ac3a0062c33-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:40:42.693728+00:00",
-        "lease_expires_at": "2026-11-17T14:40:42.693738+00:00"
-      },
       "source": {
         "source_id": "34668807",
         "source_url": "https://sdilej.cz/34668807/dobry-doktor-s03e20-laska.mkv",
@@ -547788,7 +547782,17 @@
         },
         "display_name": "The Good Doctor S03E20 I Love You (2) 4K CZ Dabing",
         "prepared_at": "2026-11-17T08:40:47.317951+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668807:https://sdilej.cz/34668807/dobry-doktor-s03e20-laska.mkv",
+        "at": "2026-11-17T08:41:00.212872+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T08:41:00.212934+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -547796,7 +547800,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T08:40:47.317967+00:00",
+  "updated_at": "2026-11-17T08:41:00.212939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -548158,9 +548162,13 @@
         {
           "identity": "583:3:14",
           "at": "2026-11-17T08:40:31.938799+00:00"
+        },
+        {
+          "identity": "583:3:20",
+          "at": "2026-11-17T08:41:00.212872+00:00"
         }
       ],
-      "retry_after": "2026-11-17T08:39:23.873209+00:00"
+      "retry_after": "2026-11-17T08:51:00.212872+00:00"
     },
     "1603": {
       "recent_failures": [
