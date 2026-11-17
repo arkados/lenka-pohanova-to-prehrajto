@@ -492369,28 +492369,29 @@
           "at": "2026-11-17T06:26:19.507319+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d6e632d179e2437bad2256d18fcbf804-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:26:22.944449+00:00",
-        "lease_expires_at": "2026-11-17T12:26:22.944459+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31111011",
-        "size_bytes": 1567059525
-      },
-      "transfer_receipt": {
-        "target_video_id": "31111011",
-        "size_bytes": 1567059525,
-        "source_bytes_read": 1567059525,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31111011",
         "source_bytes_read": 1567059525,
         "elapsed_seconds": 183.168,
         "finished_at": "2026-11-17T06:29:46.269909+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31111011",
+          "size_bytes": 1567059525,
+          "source_bytes_read": 1567059525,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526444",
+        "source_url": "https://sdilej.cz/32526444/dobry-doktor-s01e06-neni-falesna-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31111011",
+        "display_name": "The Good Doctor S01E06 Not Fake 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T06:29:57.462385+00:00"
       }
     },
     "367:1:1": {
@@ -541919,7 +541920,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:29:50.526864+00:00",
+  "updated_at": "2026-11-17T06:29:57.462402+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
