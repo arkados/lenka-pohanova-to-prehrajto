@@ -568633,12 +568633,6 @@
     },
     "1134:2:10": {
       "episode_key": "tráva:s2:e10",
-      "claim": {
-        "worker_id": "1b2b9a21132a43f9af571615c4a6ad6a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:02:28.226510+00:00",
-        "lease_expires_at": "2026-11-18T03:02:28.226528+00:00"
-      },
       "source": {
         "source_id": "11791533",
         "source_url": "https://sdilej.cz/11791533/weeds.s02e10.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -568663,22 +568657,29 @@
         "display_name": "Weeds S02E10 Mile Deep and a Foot Wide 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:02:33.679379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128757",
-        "size_bytes": 1090434222
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128757",
-        "size_bytes": 1090434222,
-        "source_bytes_read": 1090434222,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128757",
         "source_bytes_read": 1090434222,
         "elapsed_seconds": 67.963,
         "finished_at": "2026-11-17T21:04:10.209460+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128757",
+          "size_bytes": 1090434222,
+          "source_bytes_read": 1090434222,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11791533",
+        "source_url": "https://sdilej.cz/11791533/weeds.s02e10.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128757",
+        "display_name": "Weeds S02E10 Mile Deep and a Foot Wide 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:04:26.723967+00:00"
       }
     },
     "1134:2:11": {
@@ -568775,7 +568776,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:04:22.088190+00:00",
+  "updated_at": "2026-11-17T21:04:26.723985+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
