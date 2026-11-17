@@ -577617,12 +577617,6 @@
     },
     "1098:5:18": {
       "episode_key": "jak prosté:s5:e18",
-      "claim": {
-        "worker_id": "d374b192c6fc44d79463b27453ca0d01-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:23:49.182705+00:00",
-        "lease_expires_at": "2026-11-18T05:23:49.182722+00:00"
-      },
       "source": {
         "source_id": "34434052",
         "source_url": "https://sdilej.cz/34434052/elementary-s05e18-cz-dabing-1080p-full-hd.mkv",
@@ -577646,7 +577640,17 @@
         },
         "display_name": "Elementary S05E18 Dead Man's Tale 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:23:55.951338+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434052:https://sdilej.cz/34434052/elementary-s05e18-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:24:08.112940+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:24:08.113189+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:5:19": {
       "episode_key": "jak prosté:s5:e19",
@@ -577672,7 +577676,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:24:04.250189+00:00",
+  "updated_at": "2026-11-17T23:24:08.113208+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578085,9 +578089,13 @@
         {
           "identity": "1098:5:17",
           "at": "2026-11-17T23:23:37.379377+00:00"
+        },
+        {
+          "identity": "1098:5:18",
+          "at": "2026-11-17T23:24:08.112940+00:00"
         }
       ],
-      "retry_after": "2026-11-17T23:19:09.132235+00:00"
+      "retry_after": "2026-11-17T23:34:08.112940+00:00"
     },
     "581": {
       "recent_failures": [
