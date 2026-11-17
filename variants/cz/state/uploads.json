@@ -550531,12 +550531,6 @@
     },
     "161:5:4": {
       "episode_key": "grimm:s5:e4",
-      "claim": {
-        "worker_id": "5e862a1d544b4b25bf3ccfd8e988481c-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T10:04:21.506184+00:00",
-        "lease_expires_at": "2026-11-17T16:04:21.506193+00:00"
-      },
       "source": {
         "source_id": "30237330",
         "source_url": "https://sdilej.cz/30237330/grimm-s05e04.mkv",
@@ -550561,22 +550555,29 @@
         "display_name": "Grimm S05E04 Maiden Quest 1080p CZ Dabing",
         "prepared_at": "2026-11-17T10:04:30.639353+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115434",
-        "size_bytes": 2593067471
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115434",
-        "size_bytes": 2593067471,
-        "source_bytes_read": 2593067471,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115434",
         "source_bytes_read": 2593067471,
         "elapsed_seconds": 659.509,
         "finished_at": "2026-11-17T10:15:49.348597+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115434",
+          "size_bytes": 2593067471,
+          "source_bytes_read": 2593067471,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30237330",
+        "source_url": "https://sdilej.cz/30237330/grimm-s05e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115434",
+        "display_name": "Grimm S05E04 Maiden Quest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T10:15:54.868160+00:00"
       }
     },
     "161:5:5": {
@@ -550761,7 +550762,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T10:15:49.348617+00:00",
+  "updated_at": "2026-11-17T10:15:54.868175+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
