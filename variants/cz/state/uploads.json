@@ -568327,12 +568327,6 @@
     },
     "1134:2:4": {
       "episode_key": "tráva:s2:e4",
-      "claim": {
-        "worker_id": "fe5ab3be2e4d4302a11b08316b6f6ff9-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T20:58:33.849356+00:00",
-        "lease_expires_at": "2026-11-18T02:58:33.849367+00:00"
-      },
       "source": {
         "source_id": "11791478",
         "source_url": "https://sdilej.cz/11791478/weeds.s02e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -568357,22 +568351,29 @@
         "display_name": "Weeds S02E04 A.K.A. The Plant 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:58:44.994334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128648",
-        "size_bytes": 880978870
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128648",
-        "size_bytes": 880978870,
-        "source_bytes_read": 880978870,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128648",
         "source_bytes_read": 880978870,
         "elapsed_seconds": 51.41,
         "finished_at": "2026-11-17T20:59:58.950942+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128648",
+          "size_bytes": 880978870,
+          "source_bytes_read": 880978870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11791478",
+        "source_url": "https://sdilej.cz/11791478/weeds.s02e04.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128648",
+        "display_name": "Weeds S02E04 A.K.A. The Plant 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:00:35.226517+00:00"
       }
     },
     "1134:2:5": {
@@ -568455,7 +568456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:00:31.118374+00:00",
+  "updated_at": "2026-11-17T21:00:35.226537+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
