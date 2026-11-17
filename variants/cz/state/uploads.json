@@ -549323,12 +549323,6 @@
     },
     "583:4:7": {
       "episode_key": "dobrý doktor:s4:e7",
-      "claim": {
-        "worker_id": "2d62ae83cdbe4d5e93f6508968dc4fd9-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:38:00.675533+00:00",
-        "lease_expires_at": "2026-11-17T15:38:00.675545+00:00"
-      },
       "source": {
         "source_id": "32526277",
         "source_url": "https://sdilej.cz/32526277/dobry-doktor-s04e07-princip-neurcitosti.mkv",
@@ -549353,22 +549347,29 @@
         "display_name": "The Good Doctor S04E07 The Uncertainty Principle 4K CZ Dabing",
         "prepared_at": "2026-11-17T09:38:05.351235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31115000",
-        "size_bytes": 1598145421
-      },
-      "transfer_receipt": {
-        "target_video_id": "31115000",
-        "size_bytes": 1598145421,
-        "source_bytes_read": 1598145421,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31115000",
         "source_bytes_read": 1598145421,
         "elapsed_seconds": 314.332,
         "finished_at": "2026-11-17T09:43:38.346814+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31115000",
+          "size_bytes": 1598145421,
+          "source_bytes_read": 1598145421,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526277",
+        "source_url": "https://sdilej.cz/32526277/dobry-doktor-s04e07-princip-neurcitosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31115000",
+        "display_name": "The Good Doctor S04E07 The Uncertainty Principle 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T09:43:45.778745+00:00"
       }
     },
     "583:4:8": {
@@ -549488,7 +549489,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:43:38.346833+00:00",
+  "updated_at": "2026-11-17T09:43:45.778761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
