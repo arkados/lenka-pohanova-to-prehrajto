@@ -566910,28 +566910,29 @@
           "at": "2026-11-17T20:29:12.068564+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1c1ee6ceda534f79a7b98edbbd5a01ad-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:29:17.263113+00:00",
-        "lease_expires_at": "2026-11-18T02:29:17.263125+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31127798",
-        "size_bytes": 724267271
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127798",
-        "size_bytes": 724267271,
-        "source_bytes_read": 724267271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127798",
         "source_bytes_read": 724267271,
         "elapsed_seconds": 193.689,
         "finished_at": "2026-11-17T20:33:07.458828+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127798",
+          "size_bytes": 724267271,
+          "source_bytes_read": 724267271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433602",
+        "source_url": "https://sdilej.cz/34433602/elementary.s02e04.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127798",
+        "display_name": "Elementary S02E04 Poison Pen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:33:20.092734+00:00"
       }
     },
     "1098:2:5": {
@@ -567095,7 +567096,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:33:16.339522+00:00",
+  "updated_at": "2026-11-17T20:33:20.092750+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
