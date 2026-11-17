@@ -544339,12 +544339,6 @@
     },
     "1553:4:15": {
       "episode_key": "fresh prince:s4:e15",
-      "claim": {
-        "worker_id": "2b99c753bd2f4a6bbb2551879bdf43f6-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:22:28.677982+00:00",
-        "lease_expires_at": "2026-11-17T13:22:28.677991+00:00"
-      },
       "source": {
         "source_id": "28201066",
         "source_url": "https://sdilej.cz/28201066/fresh-prince-s04e15-cz-dab-hd.mp4",
@@ -544369,22 +544363,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E15 Who's the Boss 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:22:45.195287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112297",
-        "size_bytes": 320069146
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112297",
-        "size_bytes": 320069146,
-        "source_bytes_read": 320069146,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112297",
         "source_bytes_read": 320069146,
         "elapsed_seconds": 32.628,
         "finished_at": "2026-11-17T07:23:39.689988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112297",
+          "size_bytes": 320069146,
+          "source_bytes_read": 320069146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201066",
+        "source_url": "https://sdilej.cz/28201066/fresh-prince-s04e15-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112297",
+        "display_name": "The Fresh Prince of Bel-Air S04E15 Who's the Boss 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:23:54.300953+00:00"
       }
     },
     "1553:4:16": {
@@ -544466,7 +544467,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:23:50.290179+00:00",
+  "updated_at": "2026-11-17T07:23:54.300968+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
