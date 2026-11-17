@@ -577529,12 +577529,6 @@
     },
     "1098:5:16": {
       "episode_key": "jak prosté:s5:e16",
-      "claim": {
-        "worker_id": "83b0495b83714aa59aa987ac7cccda9c-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:23:03.020020+00:00",
-        "lease_expires_at": "2026-11-18T05:23:03.020033+00:00"
-      },
       "source": {
         "source_id": "34433997",
         "source_url": "https://sdilej.cz/34433997/elementary-s05e16-cz-dabing-1080p-full-hd.mkv",
@@ -577558,7 +577552,17 @@
         },
         "display_name": "Elementary S05E16 Fidelity (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:23:12.322980+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433997:https://sdilej.cz/34433997/elementary-s05e16-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:23:24.169424+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:23:24.169468+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:5:17": {
       "episode_key": "jak prosté:s5:e17",
@@ -577599,7 +577603,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:23:16.525115+00:00",
+  "updated_at": "2026-11-17T23:23:24.169474+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578006,16 +578010,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:5:12",
-          "at": "2026-11-17T23:08:01.950139+00:00"
-        },
-        {
-          "identity": "1098:5:14",
-          "at": "2026-11-17T23:08:39.748654+00:00"
-        },
-        {
-          "identity": "1098:5:15",
-          "at": "2026-11-17T23:09:09.132235+00:00"
+          "identity": "1098:5:16",
+          "at": "2026-11-17T23:23:24.169424+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:19:09.132235+00:00"
