@@ -571396,12 +571396,6 @@
     },
     "1134:5:6": {
       "episode_key": "tráva:s5:e6",
-      "claim": {
-        "worker_id": "f7958717d346499cbb034edf9e4ef227-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:44:17.816761+00:00",
-        "lease_expires_at": "2026-11-18T03:44:17.816772+00:00"
-      },
       "source": {
         "source_id": "11234567",
         "source_url": "https://sdilej.cz/11234567/weeds.s05e06.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -571426,22 +571420,29 @@
         "display_name": "Weeds S05E06 A Modest Proposal 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:44:25.705100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129902",
-        "size_bytes": 752831007
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129902",
-        "size_bytes": 752831007,
-        "source_bytes_read": 752831007,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129902",
         "source_bytes_read": 752831007,
         "elapsed_seconds": 47.611,
         "finished_at": "2026-11-17T21:45:39.142860+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129902",
+          "size_bytes": 752831007,
+          "source_bytes_read": 752831007,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11234567",
+        "source_url": "https://sdilej.cz/11234567/weeds.s05e06.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129902",
+        "display_name": "Weeds S05E06 A Modest Proposal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:45:54.133750+00:00"
       }
     },
     "1134:5:7": {
@@ -571496,7 +571497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:45:47.806222+00:00",
+  "updated_at": "2026-11-17T21:45:54.133764+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
