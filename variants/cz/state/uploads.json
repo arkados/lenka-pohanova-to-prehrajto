@@ -567519,12 +567519,6 @@
     },
     "1098:2:8": {
       "episode_key": "jak prosté:s2:e8",
-      "claim": {
-        "worker_id": "2839b7d23ada4543bf42576b17ee008d-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:41:39.652345+00:00",
-        "lease_expires_at": "2026-11-18T02:41:39.652355+00:00"
-      },
       "source": {
         "source_id": "28200863",
         "source_url": "https://sdilej.cz/28200863/jak-proste-s02e08.mkv",
@@ -567549,22 +567543,29 @@
         "display_name": "Elementary S02E08 Blood is Thicker 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:41:45.931675+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128149",
-        "size_bytes": 655404631
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128149",
-        "size_bytes": 655404631,
-        "source_bytes_read": 655404631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128149",
         "source_bytes_read": 655404631,
         "elapsed_seconds": 67.343,
         "finished_at": "2026-11-17T20:43:27.772380+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128149",
+          "size_bytes": 655404631,
+          "source_bytes_read": 655404631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200863",
+        "source_url": "https://sdilej.cz/28200863/jak-proste-s02e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128149",
+        "display_name": "Elementary S02E08 Blood is Thicker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:43:37.698199+00:00"
       }
     }
   },
@@ -567573,7 +567574,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:43:33.633729+00:00",
+  "updated_at": "2026-11-17T20:43:37.698211+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
