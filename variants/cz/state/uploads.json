@@ -575167,12 +575167,6 @@
     },
     "1134:8:11": {
       "episode_key": "tráva:s8:e11",
-      "claim": {
-        "worker_id": "975abfc1d9e647f5bbf2c4a05f2761be-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:38:04.900411+00:00",
-        "lease_expires_at": "2026-11-18T04:38:04.900429+00:00"
-      },
       "source": {
         "source_id": "11283790",
         "source_url": "https://sdilej.cz/11283790/weeds.s08e11.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -575197,22 +575191,29 @@
         "display_name": "Weeds S08E11 God Willing and the Creek Don't Rise 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:38:22.090359+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31131565",
-        "size_bytes": 854826778
-      },
-      "transfer_receipt": {
-        "target_video_id": "31131565",
-        "size_bytes": 854826778,
-        "source_bytes_read": 854826778,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31131565",
         "source_bytes_read": 854826778,
         "elapsed_seconds": 67.63,
         "finished_at": "2026-11-17T22:39:46.532837+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31131565",
+          "size_bytes": 854826778,
+          "source_bytes_read": 854826778,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11283790",
+        "source_url": "https://sdilej.cz/11283790/weeds.s08e11.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31131565",
+        "display_name": "Weeds S08E11 God Willing and the Creek Don't Rise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:39:53.114864+00:00"
       }
     }
   },
@@ -575221,7 +575222,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:39:46.532856+00:00",
+  "updated_at": "2026-11-17T22:39:53.114879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
