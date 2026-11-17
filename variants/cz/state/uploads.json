@@ -247875,28 +247875,29 @@
           "at": "2026-11-17T03:06:37.062473+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c47bc5183eb54e8fbb81581af0e86424-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T03:06:40.600718+00:00",
-        "lease_expires_at": "2026-11-17T09:06:40.600727+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31106474",
-        "size_bytes": 531324611
-      },
-      "transfer_receipt": {
-        "target_video_id": "31106474",
-        "size_bytes": 531324611,
-        "source_bytes_read": 531324611,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31106474",
         "source_bytes_read": 531324611,
         "elapsed_seconds": 41.403,
         "finished_at": "2026-11-17T03:07:43.190426+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31106474",
+          "size_bytes": 531324611,
+          "source_bytes_read": 531324611,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27709107",
+        "source_url": "https://sdilej.cz/27709107/utek-z-vezeni-s04e04-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31106474",
+        "display_name": "Prison Break S04E04 Eagles and Angels 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T03:07:53.039001+00:00"
       }
     },
     "1082:4:5": {
@@ -534147,7 +534148,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T03:07:47.731718+00:00",
+  "updated_at": "2026-11-17T03:07:53.039017+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
