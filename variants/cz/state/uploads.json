@@ -571549,12 +571549,6 @@
     },
     "1134:5:9": {
       "episode_key": "tráva:s5:e9",
-      "claim": {
-        "worker_id": "64440457ab5d4e7a8a4ef4f75f13796e-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:46:12.467488+00:00",
-        "lease_expires_at": "2026-11-18T03:46:12.467501+00:00"
-      },
       "source": {
         "source_id": "11234611",
         "source_url": "https://sdilej.cz/11234611/weeds.s05e09.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -571579,22 +571573,29 @@
         "display_name": "Weeds S05E09 Suck 'n' Spit 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:46:24.012973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129965",
-        "size_bytes": 547806839
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129965",
-        "size_bytes": 547806839,
-        "source_bytes_read": 547806839,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129965",
         "source_bytes_read": 547806839,
         "elapsed_seconds": 34.113,
         "finished_at": "2026-11-17T21:47:16.103176+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129965",
+          "size_bytes": 547806839,
+          "source_bytes_read": 547806839,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11234611",
+        "source_url": "https://sdilej.cz/11234611/weeds.s05e09.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129965",
+        "display_name": "Weeds S05E09 Suck 'n' Spit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:47:29.967884+00:00"
       }
     },
     "1098:3:6": {
@@ -571636,7 +571637,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:47:25.096753+00:00",
+  "updated_at": "2026-11-17T21:47:29.967900+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
