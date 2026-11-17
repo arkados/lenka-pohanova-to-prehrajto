@@ -573029,12 +573029,6 @@
     },
     "1098:3:17": {
       "episode_key": "jak prosté:s3:e17",
-      "claim": {
-        "worker_id": "131ab8f6af8f404da36a3b7c8d098434-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:05:33.727406+00:00",
-        "lease_expires_at": "2026-11-18T04:05:33.727420+00:00"
-      },
       "source": {
         "source_id": "28201361",
         "source_url": "https://sdilej.cz/28201361/jak-proste-s03e17.mkv",
@@ -573059,22 +573053,29 @@
         "display_name": "Elementary S03E17 T-Bone and the Iceman 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:05:49.297131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130549",
-        "size_bytes": 594144264
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130549",
-        "size_bytes": 594144264,
-        "source_bytes_read": 594144264,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130549",
         "source_bytes_read": 594144264,
         "elapsed_seconds": 41.356,
         "finished_at": "2026-11-17T22:06:53.235982+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130549",
+          "size_bytes": 594144264,
+          "source_bytes_read": 594144264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201361",
+        "source_url": "https://sdilej.cz/28201361/jak-proste-s03e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130549",
+        "display_name": "Elementary S03E17 T-Bone and the Iceman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:07:03.444107+00:00"
       }
     },
     "1098:3:18": {
@@ -573119,7 +573120,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:06:57.391831+00:00",
+  "updated_at": "2026-11-17T22:07:03.444125+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
