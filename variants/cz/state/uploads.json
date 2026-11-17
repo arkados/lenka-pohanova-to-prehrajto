@@ -545079,12 +545079,6 @@
     },
     "1553:5:1": {
       "episode_key": "fresh prince:s5:e1",
-      "claim": {
-        "worker_id": "090fa3e03b1048f4bdc43c68a075b2c5-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:31:50.478145+00:00",
-        "lease_expires_at": "2026-11-17T13:31:50.478156+00:00"
-      },
       "source": {
         "source_id": "28201094",
         "source_url": "https://sdilej.cz/28201094/fresh-prince-s05e01-cz-dab-hd.mp4",
@@ -545109,22 +545103,29 @@
         "display_name": "The Fresh Prince of Bel-Air S05E01 The Client 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:32:01.575137+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112469",
-        "size_bytes": 284598496
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112469",
-        "size_bytes": 284598496,
-        "source_bytes_read": 284598496,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112469",
         "source_bytes_read": 284598496,
         "elapsed_seconds": 35.271,
         "finished_at": "2026-11-17T07:33:02.363611+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112469",
+          "size_bytes": 284598496,
+          "source_bytes_read": 284598496,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201094",
+        "source_url": "https://sdilej.cz/28201094/fresh-prince-s05e01-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112469",
+        "display_name": "The Fresh Prince of Bel-Air S05E01 The Client 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:33:09.330802+00:00"
       }
     },
     "1553:5:2": {
@@ -545221,7 +545222,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:33:02.363632+00:00",
+  "updated_at": "2026-11-17T07:33:09.330819+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
