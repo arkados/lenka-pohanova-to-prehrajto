@@ -575909,12 +575909,6 @@
     },
     "1098:5:4": {
       "episode_key": "jak prosté:s5:e4",
-      "claim": {
-        "worker_id": "c7bf58ada217475cb20783e0b9b3f584-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:51:28.323520+00:00",
-        "lease_expires_at": "2026-11-18T04:51:28.323539+00:00"
-      },
       "source": {
         "source_id": "28201816",
         "source_url": "https://sdilej.cz/28201816/jak-proste-s05e04.mkv",
@@ -575939,22 +575933,29 @@
         "display_name": "Elementary S05E04 Henny Penny the Sky is Falling 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:51:33.196871+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132067",
-        "size_bytes": 672300615
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132067",
-        "size_bytes": 672300615,
-        "source_bytes_read": 672300615,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132067",
         "source_bytes_read": 672300615,
         "elapsed_seconds": 89.988,
         "finished_at": "2026-11-17T22:53:27.194610+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132067",
+          "size_bytes": 672300615,
+          "source_bytes_read": 672300615,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201816",
+        "source_url": "https://sdilej.cz/28201816/jak-proste-s05e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132067",
+        "display_name": "Elementary S05E04 Henny Penny the Sky is Falling 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:53:39.007923+00:00"
       }
     },
     "1098:5:5": {
@@ -576125,7 +576126,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:53:33.096200+00:00",
+  "updated_at": "2026-11-17T22:53:39.007943+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
