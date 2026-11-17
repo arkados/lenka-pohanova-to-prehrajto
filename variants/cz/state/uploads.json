@@ -541122,12 +541122,6 @@
     },
     "1085:3:23": {
       "episode_key": "policie chicago:s3:e23",
-      "claim": {
-        "worker_id": "b0ef33032d3e4588a63cc90d89ef3151-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:05:00.384983+00:00",
-        "lease_expires_at": "2026-11-17T12:05:00.384993+00:00"
-      },
       "source": {
         "source_id": "30987737",
         "source_url": "https://sdilej.cz/30987737/chicago-p.d.-policie-chicago-s03e23-czdab-x264.mkv",
@@ -541151,7 +541145,17 @@
         },
         "display_name": "Chicago P.D. S03E23 Start Digging 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:05:13.900491+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987737:https://sdilej.cz/30987737/chicago-p.d.-policie-chicago-s03e23-czdab-x264.mkv",
+        "at": "2026-11-17T06:05:29.042824+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:05:29.042963+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:4:1": {
       "episode_key": "policie chicago:s4:e1",
@@ -541196,7 +541200,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:05:22.740559+00:00",
+  "updated_at": "2026-11-17T06:05:29.042970+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -541429,19 +541433,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:3:19",
-          "at": "2026-11-17T06:03:19.687785+00:00"
-        },
-        {
           "identity": "1085:3:20",
           "at": "2026-11-17T06:03:55.496910+00:00"
         },
         {
           "identity": "1085:4:1",
           "at": "2026-11-17T06:05:22.740497+00:00"
+        },
+        {
+          "identity": "1085:3:23",
+          "at": "2026-11-17T06:05:29.042824+00:00"
         }
       ],
-      "retry_after": "2026-11-17T06:15:22.740497+00:00"
+      "retry_after": "2026-11-17T06:15:29.042824+00:00"
     },
     "1820": {
       "recent_failures": [
