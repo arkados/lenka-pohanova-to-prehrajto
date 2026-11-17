@@ -453490,28 +453490,29 @@
           "at": "2026-11-17T01:03:50.112099+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5e5dfa58ee0a4efaa79997c61891062a-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T01:03:54.013212+00:00",
-        "lease_expires_at": "2026-11-17T07:03:54.013223+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31103649",
-        "size_bytes": 833071038
-      },
-      "transfer_receipt": {
-        "target_video_id": "31103649",
-        "size_bytes": 833071038,
-        "source_bytes_read": 833071038,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31103649",
         "source_bytes_read": 833071038,
         "elapsed_seconds": 74.117,
         "finished_at": "2026-11-17T01:05:32.785936+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31103649",
+          "size_bytes": 833071038,
+          "source_bytes_read": 833071038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34941777",
+        "source_url": "https://sdilej.cz/34941777/chicago-p.d.-s01e10-011-2014-hd-vira-ve-spravedlnost-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31103649",
+        "display_name": "Chicago P.D. S01E10 At Least It's Justice 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T01:05:39.877784+00:00"
       }
     },
     "1085:1:11": {
@@ -526469,7 +526470,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T01:05:32.785955+00:00",
+  "updated_at": "2026-11-17T01:05:39.877800+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
