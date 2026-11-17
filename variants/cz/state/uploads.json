@@ -568073,28 +568073,29 @@
           "at": "2026-11-17T20:58:16.678423+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b3b2571cfae8498a893a13e62a4a2097-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T20:58:20.780830+00:00",
-        "lease_expires_at": "2026-11-18T02:58:20.780850+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31128642",
-        "size_bytes": 676509085
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128642",
-        "size_bytes": 676509085,
-        "source_bytes_read": 676509085,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128642",
         "source_bytes_read": 676509085,
         "elapsed_seconds": 36.456,
         "finished_at": "2026-11-17T20:59:30.625698+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128642",
+          "size_bytes": 676509085,
+          "source_bytes_read": 676509085,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433623",
+        "source_url": "https://sdilej.cz/34433623/elementary.s02e09.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128642",
+        "display_name": "Elementary S02E09 On The Line 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:59:37.961673+00:00"
       }
     },
     "1098:2:10": {
@@ -568404,7 +568405,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:59:30.625718+00:00",
+  "updated_at": "2026-11-17T20:59:37.961692+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
