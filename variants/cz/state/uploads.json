@@ -544901,28 +544901,29 @@
           "at": "2026-11-17T13:10:58.014877+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f69e2f439da741138e32567355afe1ff-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:11:02.201320+00:00",
-        "lease_expires_at": "2026-11-17T19:11:02.201331+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119033",
-        "size_bytes": 1558503840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119033",
-        "size_bytes": 1558503840,
-        "source_bytes_read": 1558503840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119033",
         "source_bytes_read": 1558503840,
         "elapsed_seconds": 104.115,
         "finished_at": "2026-11-17T13:13:12.274752+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119033",
+          "size_bytes": 1558503840,
+          "source_bytes_read": 1558503840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526914",
+        "source_url": "https://sdilej.cz/32526914/dobry-doktor-s03e12-mutace-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119033",
+        "display_name": "The Good Doctor S03E12 Mutations 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T13:13:27.311967+00:00"
       }
     },
     "583:3:14": {
@@ -553929,7 +553930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:13:21.153692+00:00",
+  "updated_at": "2026-11-17T13:13:27.311981+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
