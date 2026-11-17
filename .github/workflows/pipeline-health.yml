@@ -2,6 +2,12 @@ name: pipeline-health
 
 on:
   workflow_dispatch:
+    inputs:
+      completed_run_id:
+        description: Upload run whose transfer job has already finished
+        type: string
+        required: false
+        default: ''
   schedule:
     - cron: '3,13,23,33,43,53 * * * *'
   workflow_run:
@@ -27,12 +33,15 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
           UPLOAD_WORKFLOW: upload.yml
+          COMPLETED_RUN_ID: ${{ inputs.completed_run_id || '' }}
         shell: bash
         run: |
           set -euo pipefail
+          [[ -z "$COMPLETED_RUN_ID" || "$COMPLETED_RUN_ID" =~ ^[0-9]+$ ]]
           active=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow "$UPLOAD_WORKFLOW" \
-            --limit 30 --json status \
-            --jq '[.[] | select(.status == "in_progress" or .status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length')
+            --limit 30 --json databaseId,status | \
+            jq --arg completed "$COMPLETED_RUN_ID" \
+            '[.[] | select((.databaseId | tostring) != $completed) | select(.status == "in_progress" or .status == "queued" or .status == "pending" or .status == "waiting" or .status == "requested")] | length')
           if [[ "$active" -gt 0 ]]; then
             echo "Upload is already active or queued; no additional run needed"
             exit 0

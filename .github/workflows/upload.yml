@@ -25,7 +25,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   upload:
-    if: github.event_name == 'workflow_dispatch' || vars.AUTOMATION_ENABLED == 'true'
+    if: (github.event_name == 'workflow_dispatch' && github.actor != 'github-actions[bot]') || vars.AUTOMATION_ENABLED == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 350
     env:
@@ -82,3 +82,24 @@ jobs:
             variants/*/state/
             reports/
           if-no-files-found: ignore
+
+  handoff:
+    needs: upload
+    if: always() && !cancelled() && vars.AUTOMATION_ENABLED == 'true'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      actions: write
+    steps:
+      - name: Back off after a failed upload runner
+        if: needs.upload.result == 'failure'
+        run: sleep 60
+      - name: Explicitly hand finished transfers to pipeline supervision
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          # Explicit workflow_dispatch also works for bot-started uploads.
+          # The transfer job is already terminal, even while this handoff runs.
+          gh workflow run pipeline-health.yml --repo "$GITHUB_REPOSITORY" \
+            -f completed_run_id="$GITHUB_RUN_ID"
