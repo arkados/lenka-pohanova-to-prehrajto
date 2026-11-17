@@ -560780,12 +560780,6 @@
     },
     "1085:9:4": {
       "episode_key": "policie chicago:s9:e4",
-      "claim": {
-        "worker_id": "b912229e82cc48f78e0a51c7a6f48fb6-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T17:50:21.408603+00:00",
-        "lease_expires_at": "2026-11-17T23:50:21.408622+00:00"
-      },
       "source": {
         "source_id": "30290383",
         "source_url": "https://sdilej.cz/30290383/chicago-p.d.-policie-chicago-s09e04-czdab.mp4",
@@ -560810,22 +560804,29 @@
         "display_name": "Chicago P.D. S09E04 In the Dark 1080p CZ Dabing",
         "prepared_at": "2026-11-17T17:50:39.214151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31123981",
-        "size_bytes": 656436362
-      },
-      "transfer_receipt": {
-        "target_video_id": "31123981",
-        "size_bytes": 656436362,
-        "source_bytes_read": 656436362,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31123981",
         "source_bytes_read": 656436362,
         "elapsed_seconds": 72.484,
         "finished_at": "2026-11-17T17:52:17.652297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31123981",
+          "size_bytes": 656436362,
+          "source_bytes_read": 656436362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290383",
+        "source_url": "https://sdilej.cz/30290383/chicago-p.d.-policie-chicago-s09e04-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31123981",
+        "display_name": "Chicago P.D. S09E04 In the Dark 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T17:52:29.694264+00:00"
       }
     },
     "1085:9:5": {
@@ -560871,7 +560872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T17:52:23.551265+00:00",
+  "updated_at": "2026-11-17T17:52:29.694281+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
