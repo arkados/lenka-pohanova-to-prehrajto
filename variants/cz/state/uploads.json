@@ -576251,12 +576251,6 @@
     },
     "1134:8:13": {
       "episode_key": "tráva:s8:e13",
-      "claim": {
-        "worker_id": "c6c88d59d7fe442e9409f529dd9deeeb-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:54:01.402713+00:00",
-        "lease_expires_at": "2026-11-18T04:54:01.402730+00:00"
-      },
       "source": {
         "source_id": "27973081",
         "source_url": "https://sdilej.cz/27973081/trava-s08e13-cast-13.mkv",
@@ -576281,22 +576275,29 @@
         "display_name": "Weeds S08E13 It's Time (2) 720p CZ Dabing",
         "prepared_at": "2026-11-17T22:54:14.777052+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132161",
-        "size_bytes": 601673285
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132161",
-        "size_bytes": 601673285,
-        "source_bytes_read": 601673285,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132161",
         "source_bytes_read": 601673285,
         "elapsed_seconds": 53.161,
         "finished_at": "2026-11-17T22:55:31.407372+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132161",
+          "size_bytes": 601673285,
+          "source_bytes_read": 601673285,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27973081",
+        "source_url": "https://sdilej.cz/27973081/trava-s08e13-cast-13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132161",
+        "display_name": "Weeds S08E13 It's Time (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:55:48.585265+00:00"
       }
     }
   },
@@ -576305,7 +576306,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:55:43.893703+00:00",
+  "updated_at": "2026-11-17T22:55:48.585280+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
