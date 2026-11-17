@@ -574757,12 +574757,6 @@
     },
     "1098:4:14": {
       "episode_key": "jak prosté:s4:e14",
-      "claim": {
-        "worker_id": "aaa3b0dfccea4f70ac6916ef6e16552f-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:28:53.979212+00:00",
-        "lease_expires_at": "2026-11-18T04:28:53.979226+00:00"
-      },
       "source": {
         "source_id": "34433534",
         "source_url": "https://sdilej.cz/34433534/elementary-s04e14-cz-dabing-1080p-full-hd.mkv",
@@ -574786,7 +574780,17 @@
         },
         "display_name": "Elementary S04E14 Who Is That Masked Man? 1080p CZ Dabing",
         "prepared_at": "2026-11-17T22:29:07.365228+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34433534:https://sdilej.cz/34433534/elementary-s04e14-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T22:29:27.550384+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T22:29:27.550454+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -574794,7 +574798,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:29:21.220876+00:00",
+  "updated_at": "2026-11-17T22:29:27.550464+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -575215,9 +575219,13 @@
         {
           "identity": "1098:4:11",
           "at": "2026-11-17T22:25:20.331545+00:00"
+        },
+        {
+          "identity": "1098:4:14",
+          "at": "2026-11-17T22:29:27.550384+00:00"
         }
       ],
-      "retry_after": "2026-11-17T22:21:20.420932+00:00"
+      "retry_after": "2026-11-17T22:39:27.550384+00:00"
     }
   }
 }
