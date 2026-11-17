@@ -555752,12 +555752,6 @@
     },
     "1085:6:21": {
       "episode_key": "policie chicago:s6:e21",
-      "claim": {
-        "worker_id": "86bd1573fcfe48f99b8214ec01cb72d9-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:56:21.392403+00:00",
-        "lease_expires_at": "2026-11-17T19:56:21.392414+00:00"
-      },
       "source": {
         "source_id": "32204270",
         "source_url": "https://sdilej.cz/32204270/chicago-p.d.-policie-chicago-s06e21-czdab-x264.mkv",
@@ -555781,7 +555775,17 @@
         },
         "display_name": "Chicago P.D. S06E21 Confession 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:56:25.679905+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204270:https://sdilej.cz/32204270/chicago-p.d.-policie-chicago-s06e21-czdab-x264.mkv",
+        "at": "2026-11-17T13:56:40.047558+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:56:40.047596+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1085:6:22": {
       "episode_key": "policie chicago:s6:e22",
@@ -555798,7 +555802,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:56:33.650772+00:00",
+  "updated_at": "2026-11-17T13:56:40.047601+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -556039,16 +556043,8 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:6:17",
-          "at": "2026-11-17T13:45:01.905931+00:00"
-        },
-        {
-          "identity": "1085:6:19",
-          "at": "2026-11-17T13:45:09.065940+00:00"
-        },
-        {
-          "identity": "1085:6:20",
-          "at": "2026-11-17T13:45:45.281776+00:00"
+          "identity": "1085:6:21",
+          "at": "2026-11-17T13:56:40.047558+00:00"
         }
       ],
       "retry_after": "2026-11-17T13:55:45.281776+00:00"
