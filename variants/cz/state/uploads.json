@@ -565607,12 +565607,6 @@
     },
     "1098:1:21": {
       "episode_key": "jak prosté:s1:e21",
-      "claim": {
-        "worker_id": "3a0a464ac22347cba31c801702c534d4-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:59:10.655153+00:00",
-        "lease_expires_at": "2026-11-18T01:59:10.655165+00:00"
-      },
       "source": {
         "source_id": "28199670",
         "source_url": "https://sdilej.cz/28199670/jak-proste-s01e21.mkv",
@@ -565637,22 +565631,29 @@
         "display_name": "Elementary S01E21 A Landmark Story 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:59:15.692141+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31127004",
-        "size_bytes": 989438871
-      },
-      "transfer_receipt": {
-        "target_video_id": "31127004",
-        "size_bytes": 989438871,
-        "source_bytes_read": 989438871,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31127004",
         "source_bytes_read": 989438871,
         "elapsed_seconds": 124.799,
         "finished_at": "2026-11-17T20:01:54.288868+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31127004",
+          "size_bytes": 989438871,
+          "source_bytes_read": 989438871,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28199670",
+        "source_url": "https://sdilej.cz/28199670/jak-proste-s01e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31127004",
+        "display_name": "Elementary S01E21 A Landmark Story 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:02:00.558333+00:00"
       }
     },
     "1098:1:22": {
@@ -565785,7 +565786,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:01:54.288888+00:00",
+  "updated_at": "2026-11-17T20:02:00.558349+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
