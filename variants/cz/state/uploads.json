@@ -568018,12 +568018,6 @@
     },
     "1098:2:9": {
       "episode_key": "jak prosté:s2:e9",
-      "claim": {
-        "worker_id": "4ce5a8d077af416897da50527c735e87-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T20:55:01.472164+00:00",
-        "lease_expires_at": "2026-11-18T02:55:01.472182+00:00"
-      },
       "source": {
         "source_id": "34432622",
         "source_url": "https://sdilej.cz/34432622/elementary-s02e09-cz-dabing-1080p-full-hd.mkv",
@@ -568047,7 +568041,17 @@
         },
         "display_name": "Elementary S02E09 On The Line 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:55:06.963735+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432622:https://sdilej.cz/34432622/elementary-s02e09-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T20:55:22.552157+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T20:55:22.552213+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -568055,7 +568059,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:55:18.066416+00:00",
+  "updated_at": "2026-11-17T20:55:22.552224+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -568462,16 +568466,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:1:16",
-          "at": "2026-11-17T20:42:16.818390+00:00"
-        },
-        {
-          "identity": "1098:1:18",
-          "at": "2026-11-17T20:43:04.103941+00:00"
-        },
-        {
-          "identity": "1098:1:19",
-          "at": "2026-11-17T20:44:28.257122+00:00"
+          "identity": "1098:2:9",
+          "at": "2026-11-17T20:55:22.552157+00:00"
         }
       ],
       "retry_after": "2026-11-17T20:54:28.257122+00:00"
