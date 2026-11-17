@@ -543696,12 +543696,6 @@
     },
     "1553:4:9": {
       "episode_key": "fresh prince:s4:e9",
-      "claim": {
-        "worker_id": "f1e49ddfc4c848b4ba2135cd84ee9a54-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:15:00.493185+00:00",
-        "lease_expires_at": "2026-11-17T13:15:00.493196+00:00"
-      },
       "source": {
         "source_id": "28201048",
         "source_url": "https://sdilej.cz/28201048/fresh-prince-s04e09-cz-dab-hd.mp4",
@@ -543726,22 +543720,29 @@
         "display_name": "The Fresh Prince of Bel-Air S04E09 Fresh Prince After Dark 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:15:16.363634+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112154",
-        "size_bytes": 319063963
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112154",
-        "size_bytes": 319063963,
-        "source_bytes_read": 319063963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112154",
         "source_bytes_read": 319063963,
         "elapsed_seconds": 22.616,
         "finished_at": "2026-11-17T07:16:03.683198+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112154",
+          "size_bytes": 319063963,
+          "source_bytes_read": 319063963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201048",
+        "source_url": "https://sdilej.cz/28201048/fresh-prince-s04e09-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112154",
+        "display_name": "The Fresh Prince of Bel-Air S04E09 Fresh Prince After Dark 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:16:14.454051+00:00"
       }
     }
   },
@@ -543750,7 +543751,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:16:08.139236+00:00",
+  "updated_at": "2026-11-17T07:16:14.454068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
