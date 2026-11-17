@@ -550217,12 +550217,6 @@
     },
     "1085:4:15": {
       "episode_key": "policie chicago:s4:e15",
-      "claim": {
-        "worker_id": "f794ac51f628481ba665ee2b3127c4ec-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:56:30.324809+00:00",
-        "lease_expires_at": "2026-11-17T15:56:30.324820+00:00"
-      },
       "source": {
         "source_id": "30987781",
         "source_url": "https://sdilej.cz/30987781/chicago-p.d.-policie-chicago-s04e15-czdab-x264.mkv",
@@ -550246,7 +550240,17 @@
         },
         "display_name": "Chicago P.D. S04E15 Favor, Affection, Malice or Ill-Will 720p CZ Dabing",
         "prepared_at": "2026-11-17T09:56:38.826362+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987781:https://sdilej.cz/30987781/chicago-p.d.-policie-chicago-s04e15-czdab-x264.mkv",
+        "at": "2026-11-17T09:56:50.858711+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T09:56:50.858776+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -550254,7 +550258,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:56:46.695289+00:00",
+  "updated_at": "2026-11-17T09:56:50.858783+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -550495,19 +550499,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:4:4",
-          "at": "2026-11-17T09:54:17.391498+00:00"
-        },
-        {
           "identity": "1085:4:12",
           "at": "2026-11-17T09:56:11.371306+00:00"
         },
         {
           "identity": "1085:4:14",
           "at": "2026-11-17T09:56:46.695221+00:00"
+        },
+        {
+          "identity": "1085:4:15",
+          "at": "2026-11-17T09:56:50.858711+00:00"
         }
       ],
-      "retry_after": "2026-11-17T10:06:46.695221+00:00"
+      "retry_after": "2026-11-17T10:06:50.858711+00:00"
     },
     "1820": {
       "recent_failures": [
