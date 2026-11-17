@@ -561223,28 +561223,29 @@
           "at": "2026-11-17T17:58:13.542348+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "fa3c4f5b1c894a77ad31bf9cdb2539c8-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T17:58:17.962062+00:00",
-        "lease_expires_at": "2026-11-17T23:58:17.962074+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31124100",
-        "size_bytes": 816857461
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124100",
-        "size_bytes": 816857461,
-        "source_bytes_read": 816857461,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124100",
         "source_bytes_read": 816857461,
         "elapsed_seconds": 116.71,
         "finished_at": "2026-11-17T18:00:42.063261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124100",
+          "size_bytes": 816857461,
+          "source_bytes_read": 816857461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34944357",
+        "source_url": "https://sdilej.cz/34944357/chicago-p.d.-s09e12-177-2022-hd-chranit-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124100",
+        "display_name": "Chicago P.D. S09E12 To Protect 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T18:00:48.568016+00:00"
       }
     },
     "1085:9:13": {
@@ -561394,7 +561395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:00:42.063281+00:00",
+  "updated_at": "2026-11-17T18:00:48.568037+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
