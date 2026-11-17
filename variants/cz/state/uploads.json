@@ -576872,12 +576872,6 @@
     },
     "1098:5:13": {
       "episode_key": "jak prosté:s5:e13",
-      "claim": {
-        "worker_id": "594f7235ea4d4a67aba5230880bd838b-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:08:10.700283+00:00",
-        "lease_expires_at": "2026-11-18T05:08:10.700312+00:00"
-      },
       "source": {
         "source_id": "23244933",
         "source_url": "https://sdilej.cz/23244933/jak.proste.s05e13.720p.web-dl.x264-cz.mkv",
@@ -576902,22 +576896,29 @@
         "display_name": "Elementary S05E13 Over a Barrel 720p CZ Dabing",
         "prepared_at": "2026-11-17T23:08:19.805989+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132614",
-        "size_bytes": 331704501
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132614",
-        "size_bytes": 331704501,
-        "source_bytes_read": 331704501,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132614",
         "source_bytes_read": 331704501,
         "elapsed_seconds": 22.699,
         "finished_at": "2026-11-17T23:09:02.446818+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132614",
+          "size_bytes": 331704501,
+          "source_bytes_read": 331704501,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23244933",
+        "source_url": "https://sdilej.cz/23244933/jak.proste.s05e13.720p.web-dl.x264-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132614",
+        "display_name": "Elementary S05E13 Over a Barrel 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T23:09:13.138153+00:00"
       }
     },
     "1098:5:14": {
@@ -577000,7 +577001,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:09:09.132486+00:00",
+  "updated_at": "2026-11-17T23:09:13.138172+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
