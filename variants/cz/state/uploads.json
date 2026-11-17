@@ -576175,12 +576175,6 @@
     },
     "1134:8:12": {
       "episode_key": "tráva:s8:e12",
-      "claim": {
-        "worker_id": "c9dfb66ff9c34d2688fe71c6a85299d3-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:53:57.293517+00:00",
-        "lease_expires_at": "2026-11-18T04:53:57.293530+00:00"
-      },
       "source": {
         "source_id": "27972898",
         "source_url": "https://sdilej.cz/27972898/trava-s08e12-cast-12.mkv",
@@ -576205,22 +576199,29 @@
         "display_name": "Weeds S08E12 It's Time (1) 720p CZ Dabing",
         "prepared_at": "2026-11-17T22:54:09.851072+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132157",
-        "size_bytes": 597761047
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132157",
-        "size_bytes": 597761047,
-        "source_bytes_read": 597761047,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132157",
         "source_bytes_read": 597761047,
         "elapsed_seconds": 39.865,
         "finished_at": "2026-11-17T22:55:13.922919+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132157",
+          "size_bytes": 597761047,
+          "source_bytes_read": 597761047,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972898",
+        "source_url": "https://sdilej.cz/27972898/trava-s08e12-cast-12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132157",
+        "display_name": "Weeds S08E12 It's Time (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:55:21.189900+00:00"
       }
     },
     "1134:8:13": {
@@ -576266,7 +576267,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:55:13.922939+00:00",
+  "updated_at": "2026-11-17T22:55:21.189921+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
