@@ -552064,12 +552064,6 @@
     },
     "1085:4:17": {
       "episode_key": "policie chicago:s4:e17",
-      "claim": {
-        "worker_id": "0fb6a92c6a16439b93fa82279514dd13-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:35:50.701373+00:00",
-        "lease_expires_at": "2026-11-17T18:35:50.701384+00:00"
-      },
       "source": {
         "source_id": "30987788",
         "source_url": "https://sdilej.cz/30987788/chicago-p.d.-policie-chicago-s04e17-czdab-x264.mkv",
@@ -552093,7 +552087,17 @@
         },
         "display_name": "Chicago P.D. S04E17 Remember the Devil 720p CZ Dabing",
         "prepared_at": "2026-11-17T12:35:55.216359+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987788:https://sdilej.cz/30987788/chicago-p.d.-policie-chicago-s04e17-czdab-x264.mkv",
+        "at": "2026-11-17T12:36:07.185541+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T12:36:07.185575+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -552101,7 +552105,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:35:55.216374+00:00",
+  "updated_at": "2026-11-17T12:36:07.185580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -552328,6 +552332,10 @@
         {
           "identity": "1085:4:16",
           "at": "2026-11-17T12:35:37.583857+00:00"
+        },
+        {
+          "identity": "1085:4:17",
+          "at": "2026-11-17T12:36:07.185541+00:00"
         }
       ],
       "retry_after": "2026-11-17T12:22:53.368133+00:00"
