@@ -573456,28 +573456,29 @@
           "at": "2026-11-17T22:12:28.102628+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "374f60f90c5049faa7244359ecd79e2d-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:12:32.213838+00:00",
-        "lease_expires_at": "2026-11-18T04:12:32.213856+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31130773",
-        "size_bytes": 670204229
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130773",
-        "size_bytes": 670204229,
-        "source_bytes_read": 670204229,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130773",
         "source_bytes_read": 670204229,
         "elapsed_seconds": 36.601,
         "finished_at": "2026-11-17T22:13:39.498647+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130773",
+          "size_bytes": 670204229,
+          "source_bytes_read": 670204229,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431585",
+        "source_url": "https://sdilej.cz/34431585/elementary.s04e01.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130773",
+        "display_name": "Elementary S04E01 The Past is Parent 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:13:58.872034+00:00"
       }
     },
     "1098:4:3": {
@@ -573711,7 +573712,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:13:53.375424+00:00",
+  "updated_at": "2026-11-17T22:13:58.872055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
