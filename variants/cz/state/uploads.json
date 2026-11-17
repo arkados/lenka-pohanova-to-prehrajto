@@ -564447,12 +564447,6 @@
     },
     "1098:1:14": {
       "episode_key": "jak prosté:s1:e14",
-      "claim": {
-        "worker_id": "a7bebc48a42c48229e613dbdffbb95a4-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:35:22.801839+00:00",
-        "lease_expires_at": "2026-11-18T01:35:22.801850+00:00"
-      },
       "source": {
         "source_id": "34432274",
         "source_url": "https://sdilej.cz/34432274/elementary-s01e14-cz-dabing-1080p-full-hd.mkv",
@@ -564476,7 +564470,17 @@
         },
         "display_name": "Elementary S01E14 The Deductionist 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:35:27.576653+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432274:https://sdilej.cz/34432274/elementary-s01e14-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:35:40.610425+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:35:40.610511+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -564484,7 +564488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:35:27.576671+00:00",
+  "updated_at": "2026-11-17T19:35:40.610522+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -564905,9 +564909,13 @@
         {
           "identity": "1098:1:13",
           "at": "2026-11-17T19:35:05.469638+00:00"
+        },
+        {
+          "identity": "1098:1:14",
+          "at": "2026-11-17T19:35:40.610425+00:00"
         }
       ],
-      "retry_after": "2026-11-17T19:31:04.745565+00:00"
+      "retry_after": "2026-11-17T19:45:40.610425+00:00"
     }
   }
 }
