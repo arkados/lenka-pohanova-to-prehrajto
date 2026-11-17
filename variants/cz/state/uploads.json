@@ -525027,12 +525027,6 @@
     },
     "1553:3:13": {
       "episode_key": "fresh prince:s3:e13",
-      "claim": {
-        "worker_id": "4df6f1ab84e44b1f9d812b57278392d5-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:29:28.866853+00:00",
-        "lease_expires_at": "2026-11-17T06:29:28.866864+00:00"
-      },
       "source": {
         "source_id": "28201000",
         "source_url": "https://sdilej.cz/28201000/fresh-prince-s03e13-cz-dab-hd.mp4",
@@ -525057,22 +525051,29 @@
         "display_name": "The Fresh Prince of Bel-Air S03E13 Mommy Nearest 720p CZ Dabing",
         "prepared_at": "2026-11-17T00:29:39.932817+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31102853",
-        "size_bytes": 345216905
-      },
-      "transfer_receipt": {
-        "target_video_id": "31102853",
-        "size_bytes": 345216905,
-        "source_bytes_read": 345216905,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31102853",
         "source_bytes_read": 345216905,
         "elapsed_seconds": 26.882,
         "finished_at": "2026-11-17T00:30:29.588656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31102853",
+          "size_bytes": 345216905,
+          "source_bytes_read": 345216905,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201000",
+        "source_url": "https://sdilej.cz/28201000/fresh-prince-s03e13-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31102853",
+        "display_name": "The Fresh Prince of Bel-Air S03E13 Mommy Nearest 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:30:38.269787+00:00"
       }
     },
     "1553:3:15": {
@@ -525131,7 +525132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:30:34.486283+00:00",
+  "updated_at": "2026-11-17T00:30:38.269803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
