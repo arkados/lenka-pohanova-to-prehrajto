@@ -462054,28 +462054,29 @@
           "at": "2026-11-17T05:14:38.566907+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5a448a3b79b84c4682d1e99c4742ac52-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:14:42.154521+00:00",
-        "lease_expires_at": "2026-11-17T11:14:42.154532+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109145",
-        "size_bytes": 1050443841
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109145",
-        "size_bytes": 1050443841,
-        "source_bytes_read": 1050443841,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109145",
         "source_bytes_read": 1050443841,
         "elapsed_seconds": 90.629,
         "finished_at": "2026-11-17T05:16:33.422633+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109145",
+          "size_bytes": 1050443841,
+          "source_bytes_read": 1050443841,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12560846",
+        "source_url": "https://sdilej.cz/12560846/the.deuce.s03e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109145",
+        "display_name": "The Deuce S03E06 This Trust Thing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T05:16:40.242132+00:00"
       }
     },
     "1812:3:7": {
@@ -539550,7 +539551,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:16:33.422652+00:00",
+  "updated_at": "2026-11-17T05:16:40.242148+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
