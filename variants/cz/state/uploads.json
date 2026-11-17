@@ -541527,12 +541527,6 @@
     },
     "1085:4:2": {
       "episode_key": "policie chicago:s4:e2",
-      "claim": {
-        "worker_id": "3b9faea4d494498f9fae58de9a7c012c-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:16:21.845260+00:00",
-        "lease_expires_at": "2026-11-17T12:16:21.845269+00:00"
-      },
       "source": {
         "source_id": "30987746",
         "source_url": "https://sdilej.cz/30987746/chicago-p.d.-policie-chicago-s04e02-czdab-x264.mkv",
@@ -541556,7 +541550,17 @@
         },
         "display_name": "Chicago P.D. S04E02 Made a Wrong Turn 720p CZ Dabing",
         "prepared_at": "2026-11-17T06:16:26.063831+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987746:https://sdilej.cz/30987746/chicago-p.d.-policie-chicago-s04e02-czdab-x264.mkv",
+        "at": "2026-11-17T06:16:37.886823+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:16:37.886890+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -541564,7 +541568,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:16:29.915318+00:00",
+  "updated_at": "2026-11-17T06:16:37.886897+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -541797,19 +541801,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:3:16",
-          "at": "2026-11-17T06:16:00.397587+00:00"
-        },
-        {
           "identity": "1085:3:17",
           "at": "2026-11-17T06:16:08.310187+00:00"
         },
         {
           "identity": "1085:3:18",
           "at": "2026-11-17T06:16:29.915248+00:00"
+        },
+        {
+          "identity": "1085:4:2",
+          "at": "2026-11-17T06:16:37.886823+00:00"
         }
       ],
-      "retry_after": "2026-11-17T06:26:29.915248+00:00"
+      "retry_after": "2026-11-17T06:26:37.886823+00:00"
     },
     "1820": {
       "recent_failures": [
