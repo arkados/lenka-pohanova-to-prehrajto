@@ -572002,12 +572002,6 @@
     },
     "1098:3:14": {
       "episode_key": "jak prosté:s3:e14",
-      "claim": {
-        "worker_id": "844d63d86df645ab9741f7c30afc228a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:51:28.614106+00:00",
-        "lease_expires_at": "2026-11-18T03:51:28.614122+00:00"
-      },
       "source": {
         "source_id": "28201321",
         "source_url": "https://sdilej.cz/28201321/jak-proste-s03e14.mkv",
@@ -572032,22 +572026,29 @@
         "display_name": "Elementary S03E14 The Female of the Species 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:51:34.594000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130114",
-        "size_bytes": 770575833
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130114",
-        "size_bytes": 770575833,
-        "source_bytes_read": 770575833,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130114",
         "source_bytes_read": 770575833,
         "elapsed_seconds": 42.682,
         "finished_at": "2026-11-17T21:52:42.625630+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130114",
+          "size_bytes": 770575833,
+          "source_bytes_read": 770575833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201321",
+        "source_url": "https://sdilej.cz/28201321/jak-proste-s03e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130114",
+        "display_name": "Elementary S03E14 The Female of the Species 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:52:53.890267+00:00"
       }
     }
   },
@@ -572056,7 +572057,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:52:47.479637+00:00",
+  "updated_at": "2026-11-17T21:52:53.890285+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
