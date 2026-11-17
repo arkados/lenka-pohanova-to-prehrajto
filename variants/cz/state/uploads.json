@@ -558993,28 +558993,29 @@
           "at": "2026-11-17T17:40:58.191338+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1db0b7c25d0349d49a0ae33b0cf1e63f-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T17:41:02.239932+00:00",
-        "lease_expires_at": "2026-11-17T23:41:02.239948+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31123845",
-        "size_bytes": 615853831
-      },
-      "transfer_receipt": {
-        "target_video_id": "31123845",
-        "size_bytes": 615853831,
-        "source_bytes_read": 615853831,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31123845",
         "source_bytes_read": 615853831,
         "elapsed_seconds": 60.012,
         "finished_at": "2026-11-17T17:42:28.168377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31123845",
+          "size_bytes": 615853831,
+          "source_bytes_read": 615853831,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32942276",
+        "source_url": "https://sdilej.cz/32942276/chicago-p.d.-policie-chicago-s08e15-czdab-x264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31123845",
+        "display_name": "Chicago P.D. S08E15 The Right Thing (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T17:42:36.754546+00:00"
       }
     },
     "161:6:3": {
@@ -560533,7 +560534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T17:42:28.168396+00:00",
+  "updated_at": "2026-11-17T17:42:36.754563+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
