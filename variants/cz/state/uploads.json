@@ -570356,12 +570356,6 @@
     },
     "1134:4:7": {
       "episode_key": "tráva:s4:e7",
-      "claim": {
-        "worker_id": "699b55e2e02c4a83975747860f63b042-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:23:41.396626+00:00",
-        "lease_expires_at": "2026-11-18T03:23:41.396639+00:00"
-      },
       "source": {
         "source_id": "27972431",
         "source_url": "https://sdilej.cz/27972431/trava-s04e07-cast-7.mkv",
@@ -570386,22 +570380,29 @@
         "display_name": "Weeds S04E07 Yes I Can 720p CZ Dabing",
         "prepared_at": "2026-11-17T21:23:50.280708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31129277",
-        "size_bytes": 542111971
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129277",
-        "size_bytes": 542111971,
-        "source_bytes_read": 542111971,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129277",
         "source_bytes_read": 542111971,
         "elapsed_seconds": 28.062,
         "finished_at": "2026-11-17T21:24:48.110760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129277",
+          "size_bytes": 542111971,
+          "source_bytes_read": 542111971,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27972431",
+        "source_url": "https://sdilej.cz/27972431/trava-s04e07-cast-7.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129277",
+        "display_name": "Weeds S04E07 Yes I Can 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:25:00.189417+00:00"
       }
     }
   },
@@ -570410,7 +570411,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:24:56.156430+00:00",
+  "updated_at": "2026-11-17T21:25:00.189433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
