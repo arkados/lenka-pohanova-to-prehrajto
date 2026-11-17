@@ -567442,12 +567442,6 @@
     },
     "1098:2:7": {
       "episode_key": "jak prosté:s2:e7",
-      "claim": {
-        "worker_id": "5d62edbba87c421fbc3c81e7803a28ee-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:39:29.168154+00:00",
-        "lease_expires_at": "2026-11-18T02:39:29.168165+00:00"
-      },
       "source": {
         "source_id": "28200844",
         "source_url": "https://sdilej.cz/28200844/jak-proste-s02e07.mkv",
@@ -567472,22 +567466,29 @@
         "display_name": "Elementary S02E07 The Marchioness 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:39:34.760673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128111",
-        "size_bytes": 788889377
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128111",
-        "size_bytes": 788889377,
-        "source_bytes_read": 788889377,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128111",
         "source_bytes_read": 788889377,
         "elapsed_seconds": 88.969,
         "finished_at": "2026-11-17T20:41:23.276840+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128111",
+          "size_bytes": 788889377,
+          "source_bytes_read": 788889377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28200844",
+        "source_url": "https://sdilej.cz/28200844/jak-proste-s02e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128111",
+        "display_name": "Elementary S02E07 The Marchioness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:41:33.313453+00:00"
       }
     }
   },
@@ -567496,7 +567497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:41:29.210340+00:00",
+  "updated_at": "2026-11-17T20:41:33.313467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
