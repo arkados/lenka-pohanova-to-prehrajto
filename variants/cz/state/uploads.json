@@ -563513,12 +563513,6 @@
     },
     "1098:1:3": {
       "episode_key": "jak prosté:s1:e3",
-      "claim": {
-        "worker_id": "d95329d9a6004d5484aed83beb1066aa-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:03:13.269158+00:00",
-        "lease_expires_at": "2026-11-18T01:03:13.269170+00:00"
-      },
       "source": {
         "source_id": "34432144",
         "source_url": "https://sdilej.cz/34432144/elementary-s01e03-cz-dabing-1080p-full-hd.mkv",
@@ -563542,7 +563536,17 @@
         },
         "display_name": "Elementary S01E03 Child Predator 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:03:19.735748+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432144:https://sdilej.cz/34432144/elementary-s01e03-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:03:33.098128+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:03:33.098188+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -563550,7 +563554,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:03:24.143234+00:00",
+  "updated_at": "2026-11-17T19:03:33.098194+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -563971,8 +563975,13 @@
         {
           "identity": "1098:1:2",
           "at": "2026-11-17T19:03:24.143195+00:00"
+        },
+        {
+          "identity": "1098:1:3",
+          "at": "2026-11-17T19:03:33.098128+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-17T19:13:33.098128+00:00"
     }
   }
 }
