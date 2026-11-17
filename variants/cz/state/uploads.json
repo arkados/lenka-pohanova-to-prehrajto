@@ -542616,12 +542616,6 @@
     },
     "583:2:16": {
       "episode_key": "dobrý doktor:s2:e16",
-      "claim": {
-        "worker_id": "dff2ea947d654ec09de1f8b581b5b7f9-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:48:38.967727+00:00",
-        "lease_expires_at": "2026-11-17T12:48:38.967737+00:00"
-      },
       "source": {
         "source_id": "34668425",
         "source_url": "https://sdilej.cz/34668425/dobry-doktor-s02e16-vira.mkv",
@@ -542645,7 +542639,17 @@
         },
         "display_name": "The Good Doctor S02E16 Believe 4K CZ Dabing",
         "prepared_at": "2026-11-17T06:48:46.590191+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668425:https://sdilej.cz/34668425/dobry-doktor-s02e16-vira.mkv",
+        "at": "2026-11-17T06:48:58.827604+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:48:58.827641+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -542653,7 +542657,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:48:50.211651+00:00",
+  "updated_at": "2026-11-17T06:48:58.827646+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -543009,16 +543013,8 @@
     "583": {
       "recent_failures": [
         {
-          "identity": "583:1:5",
-          "at": "2026-11-17T00:21:27.739024+00:00"
-        },
-        {
-          "identity": "583:1:6",
-          "at": "2026-11-17T00:21:59.600727+00:00"
-        },
-        {
-          "identity": "583:1:7",
-          "at": "2026-11-17T00:25:18.421179+00:00"
+          "identity": "583:2:16",
+          "at": "2026-11-17T06:48:58.827604+00:00"
         }
       ],
       "retry_after": "2026-11-17T00:35:18.421179+00:00"
