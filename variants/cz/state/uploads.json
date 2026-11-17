@@ -564348,12 +564348,6 @@
     },
     "1098:1:11": {
       "episode_key": "jak prosté:s1:e11",
-      "claim": {
-        "worker_id": "6fbcd6e2a1324cf6b0e674fb387d8502-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:34:19.100007+00:00",
-        "lease_expires_at": "2026-11-18T01:34:19.100019+00:00"
-      },
       "source": {
         "source_id": "28199408",
         "source_url": "https://sdilej.cz/28199408/jak-proste-s01e11.mkv",
@@ -564378,22 +564372,29 @@
         "display_name": "Elementary S01E11 Dirty Laundry 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:34:26.013575+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31126352",
-        "size_bytes": 867147483
-      },
-      "transfer_receipt": {
-        "target_video_id": "31126352",
-        "size_bytes": 867147483,
-        "source_bytes_read": 867147483,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31126352",
         "source_bytes_read": 867147483,
         "elapsed_seconds": 91.193,
         "finished_at": "2026-11-17T19:36:38.371185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31126352",
+          "size_bytes": 867147483,
+          "source_bytes_read": 867147483,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28199408",
+        "source_url": "https://sdilej.cz/28199408/jak-proste-s01e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31126352",
+        "display_name": "Elementary S01E11 Dirty Laundry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:36:48.729675+00:00"
       }
     },
     "1098:1:12": {
@@ -564513,7 +564514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:36:43.603408+00:00",
+  "updated_at": "2026-11-17T19:36:48.729691+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
