@@ -562639,12 +562639,6 @@
     },
     "583:7:2": {
       "episode_key": "dobrý doktor:s7:e2",
-      "claim": {
-        "worker_id": "733e5058c9634734ae718bf03aa8b9d0-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:34:13.318138+00:00",
-        "lease_expires_at": "2026-11-18T00:34:13.318151+00:00"
-      },
       "source": {
         "source_id": "33184916",
         "source_url": "https://sdilej.cz/33184916/dobry-doktor-07x02.mp4",
@@ -562669,22 +562663,29 @@
         "display_name": "The Good Doctor S07E02 Skin in the Game 1080p CZ Dabing",
         "prepared_at": "2026-11-17T18:34:19.398482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31124582",
-        "size_bytes": 840142731
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124582",
-        "size_bytes": 840142731,
-        "source_bytes_read": 840142731,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124582",
         "source_bytes_read": 840142731,
         "elapsed_seconds": 174.784,
         "finished_at": "2026-11-17T18:37:37.061480+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124582",
+          "size_bytes": 840142731,
+          "source_bytes_read": 840142731,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33184916",
+        "source_url": "https://sdilej.cz/33184916/dobry-doktor-07x02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124582",
+        "display_name": "The Good Doctor S07E02 Skin in the Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T18:37:49.590789+00:00"
       }
     }
   },
@@ -562693,7 +562694,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:37:45.439697+00:00",
+  "updated_at": "2026-11-17T18:37:49.590806+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
