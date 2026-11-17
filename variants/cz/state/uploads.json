@@ -555859,28 +555859,29 @@
           "at": "2026-11-17T14:00:53.050681+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "fbbed3c2671643e19bab40e9c22afe46-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:00:57.220960+00:00",
-        "lease_expires_at": "2026-11-17T20:00:57.220971+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119807",
-        "size_bytes": 818446529
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119807",
-        "size_bytes": 818446529,
-        "source_bytes_read": 818446529,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119807",
         "source_bytes_read": 818446529,
         "elapsed_seconds": 62.544,
         "finished_at": "2026-11-17T14:02:28.366602+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119807",
+          "size_bytes": 818446529,
+          "source_bytes_read": 818446529,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34943704",
+        "source_url": "https://sdilej.cz/34943704/chicago-p.d.-s06e22-129-2019-hd-zuctovani-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119807",
+        "display_name": "Chicago P.D. S06E22 Reckoning 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T14:02:40.827068+00:00"
       }
     },
     "1085:7:1": {
@@ -556169,7 +556170,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:02:37.030529+00:00",
+  "updated_at": "2026-11-17T14:02:40.827083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
