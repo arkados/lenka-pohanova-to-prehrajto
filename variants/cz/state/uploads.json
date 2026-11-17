@@ -492004,28 +492004,29 @@
           "at": "2026-11-17T06:22:00.873200+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "2b18deb279914f2085ac28e62dfbf834-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:22:04.637259+00:00",
-        "lease_expires_at": "2026-11-17T12:22:04.637269+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31110882",
-        "size_bytes": 744382429
-      },
-      "transfer_receipt": {
-        "target_video_id": "31110882",
-        "size_bytes": 744382429,
-        "source_bytes_read": 744382429,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31110882",
         "source_bytes_read": 744382429,
         "elapsed_seconds": 50.975,
         "finished_at": "2026-11-17T06:23:16.610146+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31110882",
+          "size_bytes": 744382429,
+          "source_bytes_read": 744382429,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18481605",
+        "source_url": "https://sdilej.cz/18481605/dobry.doktor-the.good.doctor.2017.s01e01.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31110882",
+        "display_name": "The Good Doctor S01E01 Burnt Food 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T06:23:23.104245+00:00"
       }
     },
     "583:1:2": {
@@ -541793,7 +541794,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:23:16.610165+00:00",
+  "updated_at": "2026-11-17T06:23:23.104262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
