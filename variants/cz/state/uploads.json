@@ -357782,28 +357782,29 @@
           "at": "2026-11-17T00:30:54.697528+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "86b3d065c8514bc59b906c843529ada1-worker-0",
-        "run_id": "43981196396",
-        "claimed_at": "2026-11-17T00:30:59.035653+00:00",
-        "lease_expires_at": "2026-11-17T06:30:59.035663+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31102900",
-        "size_bytes": 940063659
-      },
-      "transfer_receipt": {
-        "target_video_id": "31102900",
-        "size_bytes": 940063659,
-        "source_bytes_read": 940063659,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31102900",
         "source_bytes_read": 940063659,
         "elapsed_seconds": 242.411,
         "finished_at": "2026-11-17T00:35:33.300309+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31102900",
+          "size_bytes": 940063659,
+          "source_bytes_read": 940063659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32504968",
+        "source_url": "https://sdilej.cz/32504968/zivi-mrtvi-s11e22-vira.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31102900",
+        "display_name": "The Walking Dead S11E22 Faith 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T00:35:40.633087+00:00"
       }
     },
     "572:1:1": {
@@ -525378,7 +525379,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T00:35:33.300347+00:00",
+  "updated_at": "2026-11-17T00:35:40.633103+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
