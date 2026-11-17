@@ -548497,12 +548497,6 @@
     },
     "161:3:16": {
       "episode_key": "grimm:s3:e16",
-      "claim": {
-        "worker_id": "efd54396fa75469b9a8518b7a3377f3d-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T08:59:54.001100+00:00",
-        "lease_expires_at": "2026-11-17T14:59:54.001110+00:00"
-      },
       "source": {
         "source_id": "30220367",
         "source_url": "https://sdilej.cz/30220367/grimm-s03e16.mkv",
@@ -548527,22 +548521,29 @@
         "display_name": "Grimm S03E16 The Show Must Go On 1080p CZ Dabing",
         "prepared_at": "2026-11-17T08:59:58.426398+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114441",
-        "size_bytes": 2596422310
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114441",
-        "size_bytes": 2596422310,
-        "source_bytes_read": 2596422310,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114441",
         "source_bytes_read": 2596422310,
         "elapsed_seconds": 424.618,
         "finished_at": "2026-11-17T09:07:19.826361+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114441",
+          "size_bytes": 2596422310,
+          "source_bytes_read": 2596422310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30220367",
+        "source_url": "https://sdilej.cz/30220367/grimm-s03e16.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114441",
+        "display_name": "Grimm S03E16 The Show Must Go On 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T09:07:35.827186+00:00"
       }
     }
   },
@@ -548551,7 +548552,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:07:31.990581+00:00",
+  "updated_at": "2026-11-17T09:07:35.827199+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
