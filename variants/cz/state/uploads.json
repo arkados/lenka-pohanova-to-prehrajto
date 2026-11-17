@@ -567245,12 +567245,6 @@
     },
     "1134:1:3": {
       "episode_key": "tráva:s1:e3",
-      "claim": {
-        "worker_id": "158d5910e43341238fd43f6855beca43-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:35:46.807924+00:00",
-        "lease_expires_at": "2026-11-18T02:35:46.807934+00:00"
-      },
       "source": {
         "source_id": "11132018",
         "source_url": "https://sdilej.cz/11132018/weeds.s01e03.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -567275,22 +567269,29 @@
         "display_name": "Weeds S01E03 Good Sh#t Lollipop 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:35:56.243306+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31128004",
-        "size_bytes": 772638379
-      },
-      "transfer_receipt": {
-        "target_video_id": "31128004",
-        "size_bytes": 772638379,
-        "source_bytes_read": 772638379,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31128004",
         "source_bytes_read": 772638379,
         "elapsed_seconds": 61.494,
         "finished_at": "2026-11-17T20:37:19.623862+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31128004",
+          "size_bytes": 772638379,
+          "source_bytes_read": 772638379,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11132018",
+        "source_url": "https://sdilej.cz/11132018/weeds.s01e03.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31128004",
+        "display_name": "Weeds S01E03 Good Sh#t Lollipop 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T20:37:27.706928+00:00"
       }
     },
     "1134:1:4": {
@@ -567336,7 +567337,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:37:19.623880+00:00",
+  "updated_at": "2026-11-17T20:37:27.706943+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
