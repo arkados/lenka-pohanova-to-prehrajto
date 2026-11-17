@@ -555075,28 +555075,29 @@
           "at": "2026-11-17T13:37:47.288428+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e3b7d5b7cc924b149848211d15376c8a-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:37:51.162418+00:00",
-        "lease_expires_at": "2026-11-17T19:37:51.162428+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119384",
-        "size_bytes": 645278259
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119384",
-        "size_bytes": 645278259,
-        "source_bytes_read": 645278259,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119384",
         "source_bytes_read": 645278259,
         "elapsed_seconds": 84.029,
         "finished_at": "2026-11-17T13:39:43.563391+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119384",
+          "size_bytes": 645278259,
+          "source_bytes_read": 645278259,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32942097",
+        "source_url": "https://sdilej.cz/32942097/chicago-p.d.-policie-chicago-s06e13-czdab-x264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119384",
+        "display_name": "Chicago P.D. S06E13 Night in Chicago 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:39:53.254918+00:00"
       }
     },
     "1085:6:14": {
@@ -555158,7 +555159,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:39:47.461242+00:00",
+  "updated_at": "2026-11-17T13:39:53.254932+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
