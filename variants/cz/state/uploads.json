@@ -552111,28 +552111,29 @@
           "at": "2026-11-17T12:37:30.494077+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5b1946393c3e4086bcc14c62db775f2d-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:37:35.413791+00:00",
-        "lease_expires_at": "2026-11-17T18:37:35.413801+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31118396",
-        "size_bytes": 832537839
-      },
-      "transfer_receipt": {
-        "target_video_id": "31118396",
-        "size_bytes": 832537839,
-        "source_bytes_read": 832537839,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31118396",
         "source_bytes_read": 832537839,
         "elapsed_seconds": 62.895,
         "finished_at": "2026-11-17T12:39:06.957039+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31118396",
+          "size_bytes": 832537839,
+          "source_bytes_read": 832537839,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34942743",
+        "source_url": "https://sdilej.cz/34942743/chicago-p.d.-s04e16-078-2017-hd-doznani-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31118396",
+        "display_name": "Chicago P.D. S04E16 Emotional Proximity (II) 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T12:39:15.471923+00:00"
       }
     },
     "1085:4:17": {
@@ -552231,7 +552232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:39:06.957057+00:00",
+  "updated_at": "2026-11-17T12:39:15.471939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
