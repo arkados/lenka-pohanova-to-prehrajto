@@ -473007,28 +473007,29 @@
           "at": "2026-11-17T05:23:28.975557+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b21d259df4e7403298bc9c0a3a3a7e9b-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:23:32.538240+00:00",
-        "lease_expires_at": "2026-11-17T11:23:32.538249+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31109356",
-        "size_bytes": 2112111032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31109356",
-        "size_bytes": 2112111032,
-        "source_bytes_read": 2112111032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31109356",
         "source_bytes_read": 2112111032,
         "elapsed_seconds": 422.051,
         "finished_at": "2026-11-17T05:31:06.884851+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31109356",
+          "size_bytes": 2112111032,
+          "source_bytes_read": 2112111032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34901480",
+        "source_url": "https://sdilej.cz/34901480/lucifer-s04e04-vse-o-eve.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31109356",
+        "display_name": "Lucifer S04E04 All About Eve 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T05:31:14.604898+00:00"
       }
     },
     "31:1:1": {
@@ -539991,7 +539992,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:31:06.884870+00:00",
+  "updated_at": "2026-11-17T05:31:14.604916+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
