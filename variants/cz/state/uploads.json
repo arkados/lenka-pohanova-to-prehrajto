@@ -539237,12 +539237,6 @@
     },
     "1085:3:4": {
       "episode_key": "policie chicago:s3:e4",
-      "claim": {
-        "worker_id": "310301e8a0e74bf0a8b19f6313beb41b-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T05:09:08.893634+00:00",
-        "lease_expires_at": "2026-11-17T11:09:08.893643+00:00"
-      },
       "source": {
         "source_id": "27884002",
         "source_url": "https://sdilej.cz/27884002/policie-chicago-03x04.avi",
@@ -539266,7 +539260,17 @@
         },
         "display_name": "Chicago P.D. S03E04 Debts of the Past SD CZ Dabing",
         "prepared_at": "2026-11-17T05:09:13.128445+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27884002:https://sdilej.cz/27884002/policie-chicago-03x04.avi",
+        "at": "2026-11-17T05:09:30.894686+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T05:09:30.894738+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -539274,7 +539278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T05:09:27.256628+00:00",
+  "updated_at": "2026-11-17T05:09:30.894743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -539513,9 +539517,13 @@
         {
           "identity": "1085:3:3",
           "at": "2026-11-17T05:08:56.203560+00:00"
+        },
+        {
+          "identity": "1085:3:4",
+          "at": "2026-11-17T05:09:30.894686+00:00"
         }
       ],
-      "retry_after": "2026-11-17T01:12:50.614989+00:00"
+      "retry_after": "2026-11-17T05:19:30.894686+00:00"
     },
     "1820": {
       "recent_failures": [
