@@ -577493,28 +577493,29 @@
           "at": "2026-11-17T23:41:31.857900+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "dfcbd8367c8e44958b93a7a3174d53fd-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:41:36.082049+00:00",
-        "lease_expires_at": "2026-11-18T05:41:36.082066+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133420",
-        "size_bytes": 1836772318
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133420",
-        "size_bytes": 1836772318,
-        "source_bytes_read": 1836772318,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133420",
         "source_bytes_read": 1836772318,
         "elapsed_seconds": 364.45,
         "finished_at": "2026-11-17T23:48:06.126017+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133420",
+          "size_bytes": 1836772318,
+          "source_bytes_read": 1836772318,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35388820",
+        "source_url": "https://sdilej.cz/35388820/tulsa-king-s02e01-zpatky-v-sedle-cz-dabing-1080p-full-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133420",
+        "display_name": "Tulsa King S02E01 Back in the Saddle 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T23:48:12.344193+00:00"
       }
     },
     "601:1:4": {
@@ -578459,7 +578460,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:48:06.126037+00:00",
+  "updated_at": "2026-11-17T23:48:12.344210+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
