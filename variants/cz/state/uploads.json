@@ -542718,12 +542718,6 @@
     },
     "583:2:18": {
       "episode_key": "dobrý doktor:s2:e18",
-      "claim": {
-        "worker_id": "7409de50c3b94509b85b2e1950dd345c-worker-0",
-        "run_id": "44003251818",
-        "claimed_at": "2026-11-17T06:50:12.998037+00:00",
-        "lease_expires_at": "2026-11-17T12:50:12.998048+00:00"
-      },
       "source": {
         "source_id": "34668449",
         "source_url": "https://sdilej.cz/34668449/dobry-doktor-s02e18-trampolina.mkv",
@@ -542747,7 +542741,17 @@
         },
         "display_name": "The Good Doctor S02E18 Trampoline 4K CZ Dabing",
         "prepared_at": "2026-11-17T06:50:30.120875+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34668449:https://sdilej.cz/34668449/dobry-doktor-s02e18-trampolina.mkv",
+        "at": "2026-11-17T06:50:42.512692+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T06:50:42.512748+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:3:1": {
       "episode_key": "dobrý doktor:s3:e1",
@@ -542788,7 +542792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T06:50:37.278942+00:00",
+  "updated_at": "2026-11-17T06:50:42.512753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -543158,9 +543162,13 @@
         {
           "identity": "583:2:17",
           "at": "2026-11-17T06:49:27.461153+00:00"
+        },
+        {
+          "identity": "583:2:18",
+          "at": "2026-11-17T06:50:42.512692+00:00"
         }
       ],
-      "retry_after": "2026-11-17T00:35:18.421179+00:00"
+      "retry_after": "2026-11-17T07:00:42.512692+00:00"
     },
     "1603": {
       "recent_failures": [
