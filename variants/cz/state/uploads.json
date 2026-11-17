@@ -572146,12 +572146,6 @@
     },
     "1134:5:11": {
       "episode_key": "tráva:s5:e11",
-      "claim": {
-        "worker_id": "e1f3c3e5c7f841d2b676630e936f23fa-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:53:57.336479+00:00",
-        "lease_expires_at": "2026-11-18T03:53:57.336494+00:00"
-      },
       "source": {
         "source_id": "11234642",
         "source_url": "https://sdilej.cz/11234642/weeds.s05e11.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
@@ -572176,22 +572170,29 @@
         "display_name": "Weeds S05E11 Ducks and Tigers 1080p CZ Dabing",
         "prepared_at": "2026-11-17T21:54:06.613332+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31130197",
-        "size_bytes": 893307053
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130197",
-        "size_bytes": 893307053,
-        "source_bytes_read": 893307053,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130197",
         "source_bytes_read": 893307053,
         "elapsed_seconds": 58.834,
         "finished_at": "2026-11-17T21:55:25.739344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130197",
+          "size_bytes": 893307053,
+          "source_bytes_read": 893307053,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11234642",
+        "source_url": "https://sdilej.cz/11234642/weeds.s05e11.1080p.10bit.bluray.ac3.x265.hevc-silence-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130197",
+        "display_name": "Weeds S05E11 Ducks and Tigers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:55:31.120577+00:00"
       }
     },
     "1134:5:12": {
@@ -572237,7 +572238,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:55:25.739361+00:00",
+  "updated_at": "2026-11-17T21:55:31.120594+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
