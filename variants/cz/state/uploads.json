@@ -555622,28 +555622,29 @@
           "at": "2026-11-17T13:50:31.653235+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "fb50a034ff6c476984f3e252474f3c6e-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:50:36.014843+00:00",
-        "lease_expires_at": "2026-11-17T19:50:36.014865+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119607",
-        "size_bytes": 814344635
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119607",
-        "size_bytes": 814344635,
-        "source_bytes_read": 814344635,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119607",
         "source_bytes_read": 814344635,
         "elapsed_seconds": 142.43,
         "finished_at": "2026-11-17T13:53:21.183489+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119607",
+          "size_bytes": 814344635,
+          "source_bytes_read": 814344635,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34944506",
+        "source_url": "https://sdilej.cz/34944506/chicago-p.d.-s06e20-127-2019-hd-obet-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119607",
+        "display_name": "Chicago P.D. S06E20 Sacrifice 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T13:53:39.263597+00:00"
       }
     },
     "583:4:11": {
@@ -555754,7 +555755,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:53:32.035606+00:00",
+  "updated_at": "2026-11-17T13:53:39.263613+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
