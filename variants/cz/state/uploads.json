@@ -577579,12 +577579,6 @@
     },
     "1098:5:17": {
       "episode_key": "jak prosté:s5:e17",
-      "claim": {
-        "worker_id": "ed57cdf14b2e4080996d404c1e571ea3-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:23:07.401233+00:00",
-        "lease_expires_at": "2026-11-18T05:23:07.401250+00:00"
-      },
       "source": {
         "source_id": "34434027",
         "source_url": "https://sdilej.cz/34434027/elementary-s05e17-cz-dabing-1080p-full-hd.mkv",
@@ -577608,7 +577602,17 @@
         },
         "display_name": "Elementary S05E17 The Ballad of Lady Frances 1080p CZ Dabing",
         "prepared_at": "2026-11-17T23:23:16.525097+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34434027:https://sdilej.cz/34434027/elementary-s05e17-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T23:23:37.379377+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T23:23:37.379410+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -577616,7 +577620,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:23:28.410988+00:00",
+  "updated_at": "2026-11-17T23:23:37.379416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -578025,6 +578029,10 @@
         {
           "identity": "1098:5:16",
           "at": "2026-11-17T23:23:24.169424+00:00"
+        },
+        {
+          "identity": "1098:5:17",
+          "at": "2026-11-17T23:23:37.379377+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:19:09.132235+00:00"
