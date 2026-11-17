@@ -552115,12 +552115,6 @@
     },
     "1085:4:18": {
       "episode_key": "policie chicago:s4:e18",
-      "claim": {
-        "worker_id": "73777e7f7a3a4588a353d7be345e5388-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T12:36:20.235062+00:00",
-        "lease_expires_at": "2026-11-17T18:36:20.235073+00:00"
-      },
       "source": {
         "source_id": "30987792",
         "source_url": "https://sdilej.cz/30987792/chicago-p.d.-policie-chicago-s04e18-czdab-x264.mkv",
@@ -552144,7 +552138,17 @@
         },
         "display_name": "Chicago P.D. S04E18 Little Bit of Light 720p CZ Dabing",
         "prepared_at": "2026-11-17T12:36:25.146978+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "30987792:https://sdilej.cz/30987792/chicago-p.d.-policie-chicago-s04e18-czdab-x264.mkv",
+        "at": "2026-11-17T12:36:40.213212+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T12:36:40.214249+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -552152,7 +552156,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T12:36:36.325285+00:00",
+  "updated_at": "2026-11-17T12:36:40.214259+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -552383,9 +552387,13 @@
         {
           "identity": "1085:4:17",
           "at": "2026-11-17T12:36:07.185541+00:00"
+        },
+        {
+          "identity": "1085:4:18",
+          "at": "2026-11-17T12:36:40.213212+00:00"
         }
       ],
-      "retry_after": "2026-11-17T12:22:53.368133+00:00"
+      "retry_after": "2026-11-17T12:46:40.213212+00:00"
     },
     "1820": {
       "recent_failures": [
