@@ -560882,12 +560882,6 @@
     },
     "1085:9:6": {
       "episode_key": "policie chicago:s9:e6",
-      "claim": {
-        "worker_id": "802ac0bef7354fc69bb023b6e640144e-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T17:52:41.302482+00:00",
-        "lease_expires_at": "2026-11-17T23:52:41.302495+00:00"
-      },
       "source": {
         "source_id": "30290389",
         "source_url": "https://sdilej.cz/30290389/chicago-p.d.-policie-chicago-s09e06-czdab.mp4",
@@ -560912,22 +560906,29 @@
         "display_name": "Chicago P.D. S09E06 End of Watch 1080p CZ Dabing",
         "prepared_at": "2026-11-17T17:52:54.875214+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31124022",
-        "size_bytes": 734513884
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124022",
-        "size_bytes": 734513884,
-        "source_bytes_read": 734513884,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124022",
         "source_bytes_read": 734513884,
         "elapsed_seconds": 74.906,
         "finished_at": "2026-11-17T17:54:31.948340+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124022",
+          "size_bytes": 734513884,
+          "source_bytes_read": 734513884,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30290389",
+        "source_url": "https://sdilej.cz/30290389/chicago-p.d.-policie-chicago-s09e06-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124022",
+        "display_name": "Chicago P.D. S09E06 End of Watch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T17:54:41.138437+00:00"
       }
     },
     "1085:9:8": {
@@ -561010,7 +561011,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T17:54:31.948359+00:00",
+  "updated_at": "2026-11-17T17:54:41.138453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
