@@ -543414,12 +543414,6 @@
     },
     "1553:3:24": {
       "episode_key": "fresh prince:s3:e24",
-      "claim": {
-        "worker_id": "7e0585f0685a4c8995d4db45fb0d0a5e-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T07:11:17.334857+00:00",
-        "lease_expires_at": "2026-11-17T13:11:17.334866+00:00"
-      },
       "source": {
         "source_id": "28201026",
         "source_url": "https://sdilej.cz/28201026/fresh-prince-s03e24-cz-dab-hd.mp4",
@@ -543444,22 +543438,29 @@
         "display_name": "The Fresh Prince of Bel-Air S03E24 Six Degrees of Graduation 720p CZ Dabing",
         "prepared_at": "2026-11-17T07:11:25.000491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31112074",
-        "size_bytes": 311795062
-      },
-      "transfer_receipt": {
-        "target_video_id": "31112074",
-        "size_bytes": 311795062,
-        "source_bytes_read": 311795062,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31112074",
         "source_bytes_read": 311795062,
         "elapsed_seconds": 24.489,
         "finished_at": "2026-11-17T07:12:09.013070+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31112074",
+          "size_bytes": 311795062,
+          "source_bytes_read": 311795062,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28201026",
+        "source_url": "https://sdilej.cz/28201026/fresh-prince-s03e24-cz-dab-hd.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31112074",
+        "display_name": "The Fresh Prince of Bel-Air S03E24 Six Degrees of Graduation 720p CZ Dabing",
+        "uploaded_at": "2026-11-17T07:12:15.605973+00:00"
       }
     }
   },
@@ -543468,7 +543469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T07:12:09.013090+00:00",
+  "updated_at": "2026-11-17T07:12:15.605990+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
