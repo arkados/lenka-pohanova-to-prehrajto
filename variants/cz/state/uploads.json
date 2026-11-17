@@ -548846,12 +548846,6 @@
     },
     "161:3:22": {
       "episode_key": "grimm:s3:e22",
-      "claim": {
-        "worker_id": "a3fb6c2947594ff3882025c4e86b44e0-worker-0",
-        "run_id": "44034264250",
-        "claimed_at": "2026-11-17T09:23:27.348352+00:00",
-        "lease_expires_at": "2026-11-17T15:23:27.348364+00:00"
-      },
       "source": {
         "source_id": "31981069",
         "source_url": "https://sdilej.cz/31981069/grimm-s03e22.mp4",
@@ -548876,22 +548870,29 @@
         "display_name": "Grimm S03E22 Blonde Ambition SD CZ Dabing",
         "prepared_at": "2026-11-17T09:23:31.958984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31114792",
-        "size_bytes": 219463827
-      },
-      "transfer_receipt": {
-        "target_video_id": "31114792",
-        "size_bytes": 219463827,
-        "source_bytes_read": 219463827,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31114792",
         "source_bytes_read": 219463827,
         "elapsed_seconds": 14.845,
         "finished_at": "2026-11-17T09:24:03.401891+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31114792",
+          "size_bytes": 219463827,
+          "source_bytes_read": 219463827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31981069",
+        "source_url": "https://sdilej.cz/31981069/grimm-s03e22.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31114792",
+        "display_name": "Grimm S03E22 Blonde Ambition SD CZ Dabing",
+        "uploaded_at": "2026-11-17T09:24:10.347817+00:00"
       }
     }
   },
@@ -548900,7 +548901,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T09:24:03.401909+00:00",
+  "updated_at": "2026-11-17T09:24:10.347834+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
