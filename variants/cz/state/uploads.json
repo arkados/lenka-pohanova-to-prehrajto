@@ -573572,28 +573572,29 @@
           "at": "2026-11-17T22:13:43.915950+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3baeb044edaa486896bbc9ae639f6409-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:13:48.055736+00:00",
-        "lease_expires_at": "2026-11-18T04:13:48.055757+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31130822",
-        "size_bytes": 635851671
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130822",
-        "size_bytes": 635851671,
-        "source_bytes_read": 635851671,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130822",
         "source_bytes_read": 635851671,
         "elapsed_seconds": 47.98,
         "finished_at": "2026-11-17T22:15:06.608644+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130822",
+          "size_bytes": 635851671,
+          "source_bytes_read": 635851671,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431586",
+        "source_url": "https://sdilej.cz/34431586/elementary.s04e02.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130822",
+        "display_name": "Elementary S04E02 Evidence of Things Not Seen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:15:17.762574+00:00"
       }
     },
     "1134:7:2": {
@@ -573792,7 +573793,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:15:12.175352+00:00",
+  "updated_at": "2026-11-17T22:15:17.762591+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
