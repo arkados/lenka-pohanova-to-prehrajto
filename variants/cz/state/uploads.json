@@ -555426,12 +555426,6 @@
     },
     "1085:6:19": {
       "episode_key": "policie chicago:s6:e19",
-      "claim": {
-        "worker_id": "7b8403198d404015a466cde5e831fe91-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:44:42.963599+00:00",
-        "lease_expires_at": "2026-11-17T19:44:42.963610+00:00"
-      },
       "source": {
         "source_id": "32204260",
         "source_url": "https://sdilej.cz/32204260/chicago-p.d.-policie-chicago-s06e19-czdab-x264.mkv",
@@ -555455,7 +555449,17 @@
         },
         "display_name": "Chicago P.D. S06E19 What Could Have Been 720p CZ Dabing",
         "prepared_at": "2026-11-17T13:44:56.337003+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32204260:https://sdilej.cz/32204260/chicago-p.d.-policie-chicago-s06e19-czdab-x264.mkv",
+        "at": "2026-11-17T13:45:09.065940+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T13:45:09.066018+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -555463,7 +555467,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:45:01.905999+00:00",
+  "updated_at": "2026-11-17T13:45:09.066029+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -555688,19 +555692,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:6:16",
-          "at": "2026-11-17T13:44:12.197393+00:00"
-        },
-        {
           "identity": "1085:6:18",
           "at": "2026-11-17T13:44:51.574704+00:00"
         },
         {
           "identity": "1085:6:17",
           "at": "2026-11-17T13:45:01.905931+00:00"
+        },
+        {
+          "identity": "1085:6:19",
+          "at": "2026-11-17T13:45:09.065940+00:00"
         }
       ],
-      "retry_after": "2026-11-17T13:55:01.905931+00:00"
+      "retry_after": "2026-11-17T13:55:09.065940+00:00"
     },
     "1820": {
       "recent_failures": [
