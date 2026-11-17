@@ -564878,12 +564878,6 @@
     },
     "1098:1:15": {
       "episode_key": "jak prosté:s1:e15",
-      "claim": {
-        "worker_id": "8a1acb9cf6354389873cdfa1e8d1f2ab-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:46:39.492695+00:00",
-        "lease_expires_at": "2026-11-18T01:46:39.492707+00:00"
-      },
       "source": {
         "source_id": "34432295",
         "source_url": "https://sdilej.cz/34432295/elementary-s01e15-cz-dabing-1080p-full-hd.mkv",
@@ -564907,7 +564901,17 @@
         },
         "display_name": "Elementary S01E15 A Giant Gun, Filled with Drugs 1080p CZ Dabing",
         "prepared_at": "2026-11-17T19:46:57.771024+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432295:https://sdilej.cz/34432295/elementary-s01e15-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T19:47:12.209975+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T19:47:12.210049+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1098:1:16": {
       "episode_key": "jak prosté:s1:e16",
@@ -564952,7 +564956,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:47:06.137279+00:00",
+  "updated_at": "2026-11-17T19:47:12.210058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -565361,6 +565365,10 @@
         {
           "identity": "1098:1:16",
           "at": "2026-11-17T19:47:02.005119+00:00"
+        },
+        {
+          "identity": "1098:1:15",
+          "at": "2026-11-17T19:47:12.209975+00:00"
         }
       ],
       "retry_after": "2026-11-17T19:45:40.610425+00:00"
