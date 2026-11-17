@@ -566826,12 +566826,6 @@
     },
     "1098:2:4": {
       "episode_key": "jak prosté:s2:e4",
-      "claim": {
-        "worker_id": "e6bb699935f24503af405fb699652c2c-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T20:24:34.196647+00:00",
-        "lease_expires_at": "2026-11-18T02:24:34.196662+00:00"
-      },
       "source": {
         "source_id": "34432567",
         "source_url": "https://sdilej.cz/34432567/elementary-s02e04-cz-dabing-1080p-full-hd.mkv",
@@ -566855,7 +566849,17 @@
         },
         "display_name": "Elementary S02E04 Poison Pen 1080p CZ Dabing",
         "prepared_at": "2026-11-17T20:24:51.766901+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34432567:https://sdilej.cz/34432567/elementary-s02e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-17T20:25:07.401654+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T20:25:07.401687+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -566863,7 +566867,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T20:25:00.804490+00:00",
+  "updated_at": "2026-11-17T20:25:07.401693+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -567272,6 +567276,10 @@
         {
           "identity": "1098:2:3",
           "at": "2026-11-17T20:24:13.393503+00:00"
+        },
+        {
+          "identity": "1098:2:4",
+          "at": "2026-11-17T20:25:07.401654+00:00"
         }
       ],
       "retry_after": "2026-11-17T20:23:09.351394+00:00"
