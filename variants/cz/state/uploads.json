@@ -545960,28 +545960,29 @@
           "at": "2026-11-17T13:12:50.183145+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "765d909b883247bf90106d39ecc10def-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T13:12:54.178423+00:00",
-        "lease_expires_at": "2026-11-17T19:12:54.178431+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31119051",
-        "size_bytes": 1563788658
-      },
-      "transfer_receipt": {
-        "target_video_id": "31119051",
-        "size_bytes": 1563788658,
-        "source_bytes_read": 1563788658,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31119051",
         "source_bytes_read": 1563788658,
         "elapsed_seconds": 110.778,
         "finished_at": "2026-11-17T13:15:32.867558+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31119051",
+          "size_bytes": 1563788658,
+          "source_bytes_read": 1563788658,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32526930",
+        "source_url": "https://sdilej.cz/32526930/dobry-doktor-s03e15-nevyrcene-cz-dabing-uhd-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31119051",
+        "display_name": "The Good Doctor S03E15 Unsaid 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T13:15:53.569357+00:00"
       }
     },
     "583:3:16": {
@@ -554006,7 +554007,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T13:15:49.251017+00:00",
+  "updated_at": "2026-11-17T13:15:53.569370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
