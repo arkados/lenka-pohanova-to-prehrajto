@@ -558750,12 +558750,6 @@
     },
     "161:6:3": {
       "episode_key": "grimm:s6:e3",
-      "claim": {
-        "worker_id": "2ba1c81ade4142ebb6ac3177af2289f5-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:51:55.042631+00:00",
-        "lease_expires_at": "2026-11-17T20:51:55.042642+00:00"
-      },
       "source": {
         "source_id": "30251970",
         "source_url": "https://sdilej.cz/30251970/grimm-s06e03.mkv",
@@ -558780,22 +558774,29 @@
         "display_name": "Grimm S06E03 Oh Captain, My Captain 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:52:04.405585+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31120983",
-        "size_bytes": 2593149599
-      },
-      "transfer_receipt": {
-        "target_video_id": "31120983",
-        "size_bytes": 2593149599,
-        "source_bytes_read": 2593149599,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31120983",
         "source_bytes_read": 2593149599,
         "elapsed_seconds": 520.134,
         "finished_at": "2026-11-17T15:01:12.642879+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31120983",
+          "size_bytes": 2593149599,
+          "source_bytes_read": 2593149599,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30251970",
+        "source_url": "https://sdilej.cz/30251970/grimm-s06e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31120983",
+        "display_name": "Grimm S06E03 Oh Captain, My Captain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T15:01:20.453918+00:00"
       }
     },
     "161:6:4": {
@@ -558980,7 +558981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T15:01:12.642898+00:00",
+  "updated_at": "2026-11-17T15:01:20.453932+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
