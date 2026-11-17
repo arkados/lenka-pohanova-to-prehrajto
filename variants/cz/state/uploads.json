@@ -564545,28 +564545,29 @@
           "at": "2026-11-17T19:40:23.107256+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ff8576e161cc45798e87f39a1c23dde9-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T19:40:27.525156+00:00",
-        "lease_expires_at": "2026-11-18T01:40:27.525171+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31126534",
-        "size_bytes": 900149510
-      },
-      "transfer_receipt": {
-        "target_video_id": "31126534",
-        "size_bytes": 900149510,
-        "source_bytes_read": 900149510,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31126534",
         "source_bytes_read": 900149510,
         "elapsed_seconds": 125.833,
         "finished_at": "2026-11-17T19:43:26.012319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31126534",
+          "size_bytes": 900149510,
+          "source_bytes_read": 900149510,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34433554",
+        "source_url": "https://sdilej.cz/34433554/elementary.s01e14.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31126534",
+        "display_name": "Elementary S01E14 The Deductionist 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T19:43:41.775065+00:00"
       }
     },
     "923:1:5": {
@@ -564751,7 +564752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T19:43:35.803718+00:00",
+  "updated_at": "2026-11-17T19:43:41.775081+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
