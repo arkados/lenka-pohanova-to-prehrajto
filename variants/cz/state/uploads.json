@@ -571114,28 +571114,29 @@
           "at": "2026-11-17T21:42:16.860387+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "004e2a3cd60b4ae884892c9b1dc5667c-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:42:21.260042+00:00",
-        "lease_expires_at": "2026-11-18T03:42:21.260057+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31129843",
-        "size_bytes": 648374927
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129843",
-        "size_bytes": 648374927,
-        "source_bytes_read": 648374927,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129843",
         "source_bytes_read": 648374927,
         "elapsed_seconds": 50.9,
         "finished_at": "2026-11-17T21:43:48.519929+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129843",
+          "size_bytes": 648374927,
+          "source_bytes_read": 648374927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431551",
+        "source_url": "https://sdilej.cz/34431551/elementary.s03e04.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129843",
+        "display_name": "Elementary S03E04 Bella 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:43:59.667761+00:00"
       }
     },
     "1098:3:5": {
@@ -571385,7 +571386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:43:53.815182+00:00",
+  "updated_at": "2026-11-17T21:43:59.667778+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
