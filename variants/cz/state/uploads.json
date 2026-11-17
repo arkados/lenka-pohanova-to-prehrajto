@@ -557880,12 +557880,6 @@
     },
     "1085:8:13": {
       "episode_key": "policie chicago:s8:e13",
-      "claim": {
-        "worker_id": "9ba146f9a7094384bc2a4380c25bd3dd-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:34:25.748191+00:00",
-        "lease_expires_at": "2026-11-17T20:34:25.748201+00:00"
-      },
       "source": {
         "source_id": "27910122",
         "source_url": "https://sdilej.cz/27910122/policie-chicago-s08e13-cz-dabing.mkv",
@@ -557909,7 +557903,17 @@
         },
         "display_name": "Chicago P.D. S08E13 Trouble Dolls 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:34:36.058041+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27910122:https://sdilej.cz/27910122/policie-chicago-s08e13-cz-dabing.mkv",
+        "at": "2026-11-17T14:34:52.752017+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-17T14:34:52.752083+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "583:5:5": {
       "episode_key": "dobrý doktor:s5:e5",
@@ -557926,7 +557930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:34:47.541140+00:00",
+  "updated_at": "2026-11-17T14:34:52.752091+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -558151,19 +558155,19 @@
     "1085": {
       "recent_failures": [
         {
-          "identity": "1085:8:9",
-          "at": "2026-11-17T14:32:48.631253+00:00"
-        },
-        {
           "identity": "1085:8:11",
           "at": "2026-11-17T14:34:09.714394+00:00"
         },
         {
           "identity": "1085:8:12",
           "at": "2026-11-17T14:34:31.101491+00:00"
+        },
+        {
+          "identity": "1085:8:13",
+          "at": "2026-11-17T14:34:52.752017+00:00"
         }
       ],
-      "retry_after": "2026-11-17T14:44:31.101491+00:00"
+      "retry_after": "2026-11-17T14:44:52.752017+00:00"
     },
     "1820": {
       "recent_failures": [
