@@ -573523,28 +573523,29 @@
           "at": "2026-11-17T22:14:56.719720+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "872a0ff0f5f14e61af7c8aee4ecb98b4-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T22:15:01.697885+00:00",
-        "lease_expires_at": "2026-11-18T04:15:01.697905+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31130861",
-        "size_bytes": 593135372
-      },
-      "transfer_receipt": {
-        "target_video_id": "31130861",
-        "size_bytes": 593135372,
-        "source_bytes_read": 593135372,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31130861",
         "source_bytes_read": 593135372,
         "elapsed_seconds": 68.677,
         "finished_at": "2026-11-17T22:16:42.195520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31130861",
+          "size_bytes": 593135372,
+          "source_bytes_read": 593135372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431587",
+        "source_url": "https://sdilej.cz/34431587/elementary.s04e03.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31130861",
+        "display_name": "Elementary S04E03 Tag, You're Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T22:16:47.739913+00:00"
       }
     },
     "1098:4:2": {
@@ -573898,7 +573899,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T22:16:42.195539+00:00",
+  "updated_at": "2026-11-17T22:16:47.739930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
