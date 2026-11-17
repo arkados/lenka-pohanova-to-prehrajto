@@ -576682,12 +576682,6 @@
     },
     "601:1:3": {
       "episode_key": "to: vítejte v derry:s1:e3",
-      "claim": {
-        "worker_id": "bee09ae942794778bd91102cd6bf7b9f-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T23:00:54.205272+00:00",
-        "lease_expires_at": "2026-11-18T05:00:54.205325+00:00"
-      },
       "source": {
         "source_id": "32700028",
         "source_url": "https://sdilej.cz/32700028/to-vitejte-v-derry-s01e03-ted-to-vidis.mkv",
@@ -576712,22 +576706,29 @@
         "display_name": "IT: Welcome to Derry S01E03 Now You See It 4K CZ Dabing",
         "prepared_at": "2026-11-17T23:01:16.344978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31132400",
-        "size_bytes": 2755087873
-      },
-      "transfer_receipt": {
-        "target_video_id": "31132400",
-        "size_bytes": 2755087873,
-        "source_bytes_read": 2755087873,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31132400",
         "source_bytes_read": 2755087873,
         "elapsed_seconds": 362.314,
         "finished_at": "2026-11-17T23:07:39.396423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31132400",
+          "size_bytes": 2755087873,
+          "source_bytes_read": 2755087873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32700028",
+        "source_url": "https://sdilej.cz/32700028/to-vitejte-v-derry-s01e03-ted-to-vidis.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31132400",
+        "display_name": "IT: Welcome to Derry S01E03 Now You See It 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T23:07:53.680936+00:00"
       }
     },
     "1098:5:10": {
@@ -576871,7 +576872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T23:07:49.030341+00:00",
+  "updated_at": "2026-11-17T23:07:53.680950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
