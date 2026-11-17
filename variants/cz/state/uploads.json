@@ -561445,28 +561445,29 @@
           "at": "2026-11-17T18:05:46.519893+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "743505ff02ff402f83a1959bd1d21274-worker-0",
-        "run_id": "44135806610",
-        "claimed_at": "2026-11-17T18:05:50.788108+00:00",
-        "lease_expires_at": "2026-11-18T00:05:50.788123+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31124212",
-        "size_bytes": 1552306703
-      },
-      "transfer_receipt": {
-        "target_video_id": "31124212",
-        "size_bytes": 1552306703,
-        "source_bytes_read": 1552306703,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31124212",
         "source_bytes_read": 1552306703,
         "elapsed_seconds": 119.122,
         "finished_at": "2026-11-17T18:08:14.681232+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31124212",
+          "size_bytes": 1552306703,
+          "source_bytes_read": 1552306703,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32563471",
+        "source_url": "https://sdilej.cz/32563471/dobry-doktor-s06e08-cz-dabing-ultra-hd-2160p-4k.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31124212",
+        "display_name": "The Good Doctor S06E08 Sorry, Not Sorry 4K CZ Dabing",
+        "uploaded_at": "2026-11-17T18:08:21.872744+00:00"
       }
     },
     "583:6:9": {
@@ -561637,7 +561638,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T18:08:14.681255+00:00",
+  "updated_at": "2026-11-17T18:08:21.872762+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
