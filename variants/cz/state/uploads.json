@@ -558005,12 +558005,6 @@
     },
     "583:5:7": {
       "episode_key": "dobrý doktor:s5:e7",
-      "claim": {
-        "worker_id": "9c71d19386224edf9fdb73a1e2429ff9-worker-0",
-        "run_id": "44077503408",
-        "claimed_at": "2026-11-17T14:35:37.132321+00:00",
-        "lease_expires_at": "2026-11-17T20:35:37.132330+00:00"
-      },
       "source": {
         "source_id": "33824185",
         "source_url": "https://sdilej.cz/33824185/the.good.doctor.s05e07.1080p.10bit.amzn.web-dl.e-ac3.x265.hevc-vyndros.mkv",
@@ -558035,22 +558029,29 @@
         "display_name": "The Good Doctor S05E07 Expired 1080p CZ Dabing",
         "prepared_at": "2026-11-17T14:35:46.893523+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31120655",
-        "size_bytes": 940157991
-      },
-      "transfer_receipt": {
-        "target_video_id": "31120655",
-        "size_bytes": 940157991,
-        "source_bytes_read": 940157991,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31120655",
         "source_bytes_read": 940157991,
         "elapsed_seconds": 118.116,
         "finished_at": "2026-11-17T14:38:06.924450+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31120655",
+          "size_bytes": 940157991,
+          "source_bytes_read": 940157991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33824185",
+        "source_url": "https://sdilej.cz/33824185/the.good.doctor.s05e07.1080p.10bit.amzn.web-dl.e-ac3.x265.hevc-vyndros.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31120655",
+        "display_name": "The Good Doctor S05E07 Expired 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T14:38:13.176423+00:00"
       }
     }
   },
@@ -558059,7 +558060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T14:38:06.924474+00:00",
+  "updated_at": "2026-11-17T14:38:13.176439+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
