@@ -569331,28 +569331,29 @@
           "at": "2026-11-17T21:12:58.323496+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "0fd121d248644d53a0f507e53a6cf7dc-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-17T21:13:07.039590+00:00",
-        "lease_expires_at": "2026-11-18T03:13:07.039609+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31129011",
-        "size_bytes": 628315458
-      },
-      "transfer_receipt": {
-        "target_video_id": "31129011",
-        "size_bytes": 628315458,
-        "source_bytes_read": 628315458,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31129011",
         "source_bytes_read": 628315458,
         "elapsed_seconds": 61.626,
         "finished_at": "2026-11-17T21:14:42.513792+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31129011",
+          "size_bytes": 628315458,
+          "source_bytes_read": 628315458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431535",
+        "source_url": "https://sdilej.cz/34431535/elementary.s02e19.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31129011",
+        "display_name": "Elementary S02E19 The Many Mouths of Aaron Colville 1080p CZ Dabing",
+        "uploaded_at": "2026-11-17T21:14:49.256761+00:00"
       }
     },
     "1098:2:20": {
@@ -569553,7 +569554,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-17T21:14:42.513812+00:00",
+  "updated_at": "2026-11-17T21:14:49.256777+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
