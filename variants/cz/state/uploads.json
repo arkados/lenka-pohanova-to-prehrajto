@@ -630257,12 +630257,6 @@
     },
     "920:10:22": {
       "episode_key": "sběratelé kostí:s10:e22",
-      "claim": {
-        "worker_id": "739683fbed2c44d0bac203cf0de318e2-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:41:27.545150+00:00",
-        "lease_expires_at": "2026-11-19T03:41:27.545166+00:00"
-      },
       "source": {
         "source_id": "35256898",
         "source_url": "https://sdilej.cz/35256898/sberatele-kosti-s10e22-2015-czdab.1080p-posledni-pripad.mkv",
@@ -630287,22 +630281,29 @@
         "display_name": "Bones S10E22 The Next in the Last 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:41:45.250124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160835",
-        "size_bytes": 519066400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160835",
-        "size_bytes": 519066400,
-        "source_bytes_read": 519066400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160835",
         "source_bytes_read": 519066400,
         "elapsed_seconds": 24.752,
         "finished_at": "2026-11-18T21:42:35.602890+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160835",
+          "size_bytes": 519066400,
+          "source_bytes_read": 519066400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256898",
+        "source_url": "https://sdilej.cz/35256898/sberatele-kosti-s10e22-2015-czdab.1080p-posledni-pripad.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160835",
+        "display_name": "Bones S10E22 The Next in the Last 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:42:45.178949+00:00"
       }
     },
     "920:11:1": {
@@ -630381,7 +630382,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:42:40.759559+00:00",
+  "updated_at": "2026-11-18T21:42:45.178969+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
