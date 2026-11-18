@@ -617863,12 +617863,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "0fd1ceaf88744982a3d30ff1ac8a59ca-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:12:48.454246+00:00",
-        "lease_expires_at": "2026-11-19T00:12:48.454263+00:00"
-      },
       "source": {
         "source_id": "33299546",
         "source_url": "https://sdilej.cz/33299546/nova-holka-s02e07-new-girl-dvdrip-czdabing.avi",
@@ -617893,22 +617887,29 @@
         "display_name": "New Girl S02E07 Menzies SD CZ Dabing",
         "prepared_at": "2026-11-18T18:12:53.540878+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157016",
-        "size_bytes": 184969216
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157016",
-        "size_bytes": 184969216,
-        "source_bytes_read": 184969216,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157016",
         "source_bytes_read": 184969216,
         "elapsed_seconds": 17.491,
         "finished_at": "2026-11-18T18:13:45.965557+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157016",
+          "size_bytes": 184969216,
+          "source_bytes_read": 184969216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33299546",
+        "source_url": "https://sdilej.cz/33299546/nova-holka-s02e07-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157016",
+        "display_name": "New Girl S02E07 Menzies SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:14:04.069826+00:00"
       }
     },
     "1117:2:8": {
@@ -618626,7 +618627,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:13:56.828804+00:00",
+  "updated_at": "2026-11-18T18:14:04.069845+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
