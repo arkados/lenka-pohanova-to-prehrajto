@@ -596468,12 +596468,6 @@
     },
     "1765:5:1": {
       "episode_key": "záchranáři l. a.:s5:e1",
-      "claim": {
-        "worker_id": "84349c2fc74a49bbb225fc785b523aed-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:26:18.081083+00:00",
-        "lease_expires_at": "2026-11-18T12:26:18.081097+00:00"
-      },
       "source": {
         "source_id": "34634775",
         "source_url": "https://sdilej.cz/34634775/9-1-1-s05e01.mp4",
@@ -596498,22 +596492,29 @@
         "display_name": "9-1-1 S05E01 Panic 1080p CZ Dabing",
         "prepared_at": "2026-11-18T06:26:23.434154+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142712",
-        "size_bytes": 2334199080
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142712",
-        "size_bytes": 2334199080,
-        "source_bytes_read": 2334199080,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142712",
         "source_bytes_read": 2334199080,
         "elapsed_seconds": 238.878,
         "finished_at": "2026-11-18T06:30:40.807103+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142712",
+          "size_bytes": 2334199080,
+          "source_bytes_read": 2334199080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634775",
+        "source_url": "https://sdilej.cz/34634775/9-1-1-s05e01.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142712",
+        "display_name": "9-1-1 S05E01 Panic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T06:30:46.857705+00:00"
       }
     },
     "1765:5:2": {
@@ -596559,7 +596560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:30:40.807123+00:00",
+  "updated_at": "2026-11-18T06:30:46.857728+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
