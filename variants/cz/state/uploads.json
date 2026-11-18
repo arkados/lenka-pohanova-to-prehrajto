@@ -589813,12 +589813,6 @@
     },
     "1765:3:1": {
       "episode_key": "záchranáři l. a.:s3:e1",
-      "claim": {
-        "worker_id": "b9faa551293f4b37b2c194dc95d678a8-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:43:56.989886+00:00",
-        "lease_expires_at": "2026-11-18T09:43:56.989903+00:00"
-      },
       "source": {
         "source_id": "35339631",
         "source_url": "https://sdilej.cz/35339631/9-1-1-s03e01-cz-dabing.mkv",
@@ -589842,7 +589836,17 @@
         },
         "display_name": "9-1-1 S03E01 Kids Today 720p CZ Dabing",
         "prepared_at": "2026-11-18T03:44:05.362310+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339631:https://sdilej.cz/35339631/9-1-1-s03e01-cz-dabing.mkv",
+        "at": "2026-11-18T03:44:21.619949+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:44:21.619985+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1765:3:2": {
       "episode_key": "záchranáři l. a.:s3:e2",
@@ -589859,7 +589863,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:44:17.148206+00:00",
+  "updated_at": "2026-11-18T03:44:21.619992+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590297,6 +590301,14 @@
         }
       ],
       "retry_after": "2026-11-18T03:53:48.181973+00:00"
+    },
+    "1765": {
+      "recent_failures": [
+        {
+          "identity": "1765:3:1",
+          "at": "2026-11-18T03:44:21.619949+00:00"
+        }
+      ]
     }
   }
 }
