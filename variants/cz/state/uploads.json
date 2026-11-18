@@ -580745,12 +580745,6 @@
     },
     "581:3:1": {
       "episode_key": "král tulsy:s3:e1",
-      "claim": {
-        "worker_id": "6e2bda54ee304c5bbb39fa61e7c4b6b3-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:40:07.068743+00:00",
-        "lease_expires_at": "2026-11-18T06:40:07.068759+00:00"
-      },
       "source": {
         "source_id": "34347035",
         "source_url": "https://sdilej.cz/34347035/kral-tulsy-s03e01-krev-a-bourbon-cz-dabing-2160p-uhd.mkv",
@@ -580774,7 +580768,17 @@
         },
         "display_name": "Tulsa King S03E01 Blood and Bourbon 4K CZ Dabing",
         "prepared_at": "2026-11-18T00:40:11.544978+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34347035:https://sdilej.cz/34347035/kral-tulsy-s03e01-krev-a-bourbon-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-18T00:40:23.326919+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:40:23.326956+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -580782,7 +580786,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:40:11.544998+00:00",
+  "updated_at": "2026-11-18T00:40:23.326960+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -581200,6 +581204,10 @@
         {
           "identity": "581:2:10",
           "at": "2026-11-18T00:39:56.500405+00:00"
+        },
+        {
+          "identity": "581:3:1",
+          "at": "2026-11-18T00:40:23.326919+00:00"
         }
       ],
       "retry_after": "2026-11-18T00:38:54.228604+00:00"
