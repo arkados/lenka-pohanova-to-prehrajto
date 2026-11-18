@@ -579673,12 +579673,6 @@
     },
     "1098:7:2": {
       "episode_key": "jak prosté:s7:e2",
-      "claim": {
-        "worker_id": "81d4c518813e4980aa1d7f635367a3ed-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:11:24.459531+00:00",
-        "lease_expires_at": "2026-11-18T06:11:24.459548+00:00"
-      },
       "source": {
         "source_id": "19085805",
         "source_url": "https://sdilej.cz/19085805/jak-proste-s07e02-1080p-cz.dab.mkv",
@@ -579703,22 +579697,29 @@
         "display_name": "Elementary S07E02 Gutshot 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:11:30.013578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134106",
-        "size_bytes": 1024526026
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134106",
-        "size_bytes": 1024526026,
-        "source_bytes_read": 1024526026,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134106",
         "source_bytes_read": 1024526026,
         "elapsed_seconds": 93.421,
         "finished_at": "2026-11-18T00:13:23.571066+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134106",
+          "size_bytes": 1024526026,
+          "source_bytes_read": 1024526026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19085805",
+        "source_url": "https://sdilej.cz/19085805/jak-proste-s07e02-1080p-cz.dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134106",
+        "display_name": "Elementary S07E02 Gutshot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:13:30.834234+00:00"
       }
     },
     "1098:7:3": {
@@ -579801,7 +579802,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:13:23.571087+00:00",
+  "updated_at": "2026-11-18T00:13:30.834257+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
