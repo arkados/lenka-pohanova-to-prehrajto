@@ -632784,12 +632784,6 @@
     },
     "1405:1:17": {
       "episode_key": "námořní vyšetřovací služba:s1:e17",
-      "claim": {
-        "worker_id": "e343734df5cf4dc5a0432875a194fa4b-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:42:10.884047+00:00",
-        "lease_expires_at": "2026-11-19T04:42:10.884057+00:00"
-      },
       "source": {
         "source_id": "33959443",
         "source_url": "https://sdilej.cz/33959443/ncis-s01e17-cz.mp4",
@@ -632814,22 +632808,29 @@
         "display_name": "NCIS S01E17 The Truth Is Out There 1440p CZ Dabing",
         "prepared_at": "2026-11-18T22:42:25.208140+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161886",
-        "size_bytes": 2786634584
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161886",
-        "size_bytes": 2786634584,
-        "source_bytes_read": 2786634584,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161886",
         "source_bytes_read": 2786634584,
         "elapsed_seconds": 177.001,
         "finished_at": "2026-11-18T22:45:53.246497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161886",
+          "size_bytes": 2786634584,
+          "source_bytes_read": 2786634584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33959443",
+        "source_url": "https://sdilej.cz/33959443/ncis-s01e17-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161886",
+        "display_name": "NCIS S01E17 The Truth Is Out There 1440p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:45:59.430284+00:00"
       }
     },
     "1405:1:16": {
@@ -632875,7 +632876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:45:53.246518+00:00",
+  "updated_at": "2026-11-18T22:45:59.430299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
