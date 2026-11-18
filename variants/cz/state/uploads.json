@@ -588485,12 +588485,6 @@
     },
     "4301:2:6": {
       "episode_key": "4 bloky:s2:e6",
-      "claim": {
-        "worker_id": "dd66fed3451a43f98eb46e9bf487fe9f-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:05:40.102344+00:00",
-        "lease_expires_at": "2026-11-18T09:05:40.102359+00:00"
-      },
       "source": {
         "source_id": "15016254",
         "source_url": "https://sdilej.cz/15016254/4.bloky.02x06.1080i.hevc.hdtv.cz.mkv",
@@ -588515,22 +588509,29 @@
         "display_name": "4 Blocks S02E06 Wiedergutmachung 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:05:48.368125+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138141",
-        "size_bytes": 611727910
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138141",
-        "size_bytes": 611727910,
-        "source_bytes_read": 611727910,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138141",
         "source_bytes_read": 611727910,
         "elapsed_seconds": 91.509,
         "finished_at": "2026-11-18T03:07:39.100644+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138141",
+          "size_bytes": 611727910,
+          "source_bytes_read": 611727910,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15016254",
+        "source_url": "https://sdilej.cz/15016254/4.bloky.02x06.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138141",
+        "display_name": "4 Blocks S02E06 Wiedergutmachung 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:07:49.200686+00:00"
       }
     }
   },
@@ -588539,7 +588540,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:07:42.817773+00:00",
+  "updated_at": "2026-11-18T03:07:49.200702+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
