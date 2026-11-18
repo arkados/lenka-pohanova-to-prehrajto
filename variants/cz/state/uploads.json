@@ -619224,12 +619224,6 @@
     },
     "1117:5:4": {
       "episode_key": "nová holka:s5:e4",
-      "claim": {
-        "worker_id": "b2dd8f6fdf7145abbf7e53e2d0f0d37c-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:22:27.748856+00:00",
-        "lease_expires_at": "2026-11-19T00:22:27.748877+00:00"
-      },
       "source": {
         "source_id": "31746849",
         "source_url": "https://sdilej.cz/31746849/nova-holka-05x04.avi",
@@ -619254,22 +619248,29 @@
         "display_name": "New Girl S05E04 No Girl SD CZ Dabing",
         "prepared_at": "2026-11-18T18:22:45.992130+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157159",
-        "size_bytes": 326191104
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157159",
-        "size_bytes": 326191104,
-        "source_bytes_read": 326191104,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157159",
         "source_bytes_read": 326191104,
         "elapsed_seconds": 21.56,
         "finished_at": "2026-11-18T18:23:39.688078+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157159",
+          "size_bytes": 326191104,
+          "source_bytes_read": 326191104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31746849",
+        "source_url": "https://sdilej.cz/31746849/nova-holka-05x04.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157159",
+        "display_name": "New Girl S05E04 No Girl SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:23:48.293563+00:00"
       }
     }
   },
@@ -619278,7 +619279,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:23:39.688103+00:00",
+  "updated_at": "2026-11-18T18:23:48.293580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
