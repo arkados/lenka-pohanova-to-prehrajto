@@ -579724,12 +579724,6 @@
     },
     "1098:7:3": {
       "episode_key": "jak prosté:s7:e3",
-      "claim": {
-        "worker_id": "3212b4da09ce408f8604724085b5a117-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:12:02.033602+00:00",
-        "lease_expires_at": "2026-11-18T06:12:02.033615+00:00"
-      },
       "source": {
         "source_id": "28202785",
         "source_url": "https://sdilej.cz/28202785/jak-proste-s07e03.mkv",
@@ -579754,22 +579748,29 @@
         "display_name": "Elementary S07E03 The Price of Admission 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:12:06.902810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134120",
-        "size_bytes": 1021804119
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134120",
-        "size_bytes": 1021804119,
-        "source_bytes_read": 1021804119,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134120",
         "source_bytes_read": 1021804119,
         "elapsed_seconds": 242.21,
         "finished_at": "2026-11-18T00:16:26.487146+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134120",
+          "size_bytes": 1021804119,
+          "source_bytes_read": 1021804119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202785",
+        "source_url": "https://sdilej.cz/28202785/jak-proste-s07e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134120",
+        "display_name": "Elementary S07E03 The Price of Admission 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:16:39.726006+00:00"
       }
     },
     "1098:7:4": {
@@ -579903,7 +579904,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:16:30.639677+00:00",
+  "updated_at": "2026-11-18T00:16:39.726023+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
