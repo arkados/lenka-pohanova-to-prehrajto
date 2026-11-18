@@ -633670,12 +633670,6 @@
     },
     "1405:2:15": {
       "episode_key": "námořní vyšetřovací služba:s2:e15",
-      "claim": {
-        "worker_id": "92ad85c49b804edeb9d754d14a14dccf-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:01:01.236535+00:00",
-        "lease_expires_at": "2026-11-19T05:01:01.236545+00:00"
-      },
       "source": {
         "source_id": "33972869",
         "source_url": "https://sdilej.cz/33972869/ncis-s02e15-cz.mp4",
@@ -633700,22 +633694,29 @@
         "display_name": "NCIS S02E15 Caught on Tape 720p CZ Dabing",
         "prepared_at": "2026-11-18T23:01:06.897411+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162371",
-        "size_bytes": 1152610431
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162371",
-        "size_bytes": 1152610431,
-        "source_bytes_read": 1152610431,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162371",
         "source_bytes_read": 1152610431,
         "elapsed_seconds": 90.1,
         "finished_at": "2026-11-18T23:03:11.821482+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162371",
+          "size_bytes": 1152610431,
+          "source_bytes_read": 1152610431,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33972869",
+        "source_url": "https://sdilej.cz/33972869/ncis-s02e15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162371",
+        "display_name": "NCIS S02E15 Caught on Tape 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:03:22.546138+00:00"
       }
     }
   },
@@ -633724,7 +633725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:03:18.370904+00:00",
+  "updated_at": "2026-11-18T23:03:22.546154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
