@@ -601174,12 +601174,6 @@
     },
     "1967:9:6": {
       "episode_key": "vraždy v midsomeru:s9:e6",
-      "claim": {
-        "worker_id": "7476e2bfbc814aa082b37b1c30f62280-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:58:58.676300+00:00",
-        "lease_expires_at": "2026-11-18T15:58:58.676310+00:00"
-      },
       "source": {
         "source_id": "27574254",
         "source_url": "https://sdilej.cz/27574254/vrazdy-v-midsomeru-s09e06-venkovsky-zivot.mkv",
@@ -601204,22 +601198,29 @@
         "display_name": "Midsomer Murders S09E06 Country Matters 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:59:07.856198+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31147452",
-        "size_bytes": 2036258781
-      },
-      "transfer_receipt": {
-        "target_video_id": "31147452",
-        "size_bytes": 2036258781,
-        "source_bytes_read": 2036258781,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31147452",
         "source_bytes_read": 2036258781,
         "elapsed_seconds": 284.217,
         "finished_at": "2026-11-18T10:04:12.139912+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31147452",
+          "size_bytes": 2036258781,
+          "source_bytes_read": 2036258781,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27574254",
+        "source_url": "https://sdilej.cz/27574254/vrazdy-v-midsomeru-s09e06-venkovsky-zivot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31147452",
+        "display_name": "Midsomer Murders S09E06 Country Matters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T10:04:19.304245+00:00"
       }
     },
     "1967:9:7": {
@@ -601302,7 +601303,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T10:04:12.139932+00:00",
+  "updated_at": "2026-11-18T10:04:19.304262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
