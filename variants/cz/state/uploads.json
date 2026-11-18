@@ -608177,12 +608177,6 @@
     },
     "576:7:6": {
       "episode_key": "tým seal:s7:e6",
-      "claim": {
-        "worker_id": "151a05ae41fa4e77b682da36a38e59da-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:52:34.204193+00:00",
-        "lease_expires_at": "2026-11-18T19:52:34.204210+00:00"
-      },
       "source": {
         "source_id": "30995220",
         "source_url": "https://sdilej.cz/30995220/tym-seal--2024-s07e06-cz-dab1080p.mkv",
@@ -608207,22 +608201,29 @@
         "display_name": "SEAL Team S07E06 Hundred-Year Marathon 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:52:43.191419+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152673",
-        "size_bytes": 2509144749
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152673",
-        "size_bytes": 2509144749,
-        "source_bytes_read": 2509144749,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152673",
         "source_bytes_read": 2509144749,
         "elapsed_seconds": 401.094,
         "finished_at": "2026-11-18T13:59:44.832240+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152673",
+          "size_bytes": 2509144749,
+          "source_bytes_read": 2509144749,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30995220",
+        "source_url": "https://sdilej.cz/30995220/tym-seal--2024-s07e06-cz-dab1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152673",
+        "display_name": "SEAL Team S07E06 Hundred-Year Marathon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:59:52.795096+00:00"
       }
     },
     "576:7:7": {
@@ -608305,7 +608306,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:59:44.832258+00:00",
+  "updated_at": "2026-11-18T13:59:52.795114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
