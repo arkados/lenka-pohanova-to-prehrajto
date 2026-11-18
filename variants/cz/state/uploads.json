@@ -583415,12 +583415,6 @@
     },
     "590:3:7": {
       "episode_key": "smrt nás spojí:s3:e7",
-      "claim": {
-        "worker_id": "dbb397ef37a14ab3853e57dc1c9bf88d-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:47:41.468865+00:00",
-        "lease_expires_at": "2026-11-18T07:47:41.468879+00:00"
-      },
       "source": {
         "source_id": "27918073",
         "source_url": "https://sdilej.cz/27918073/smrt-nas-spoji-s03e07-1080p-cz-dabing.mkv",
@@ -583445,22 +583439,29 @@
         "display_name": "Dead to Me S03E07 Can We Be Honest? 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:47:50.784244+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136500",
-        "size_bytes": 367695109
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136500",
-        "size_bytes": 367695109,
-        "source_bytes_read": 367695109,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136500",
         "source_bytes_read": 367695109,
         "elapsed_seconds": 22.861,
         "finished_at": "2026-11-18T01:48:32.661430+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136500",
+          "size_bytes": 367695109,
+          "source_bytes_read": 367695109,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27918073",
+        "source_url": "https://sdilej.cz/27918073/smrt-nas-spoji-s03e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136500",
+        "display_name": "Dead to Me S03E07 Can We Be Honest? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:48:40.165478+00:00"
       }
     }
   },
@@ -583469,7 +583470,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:48:32.661454+00:00",
+  "updated_at": "2026-11-18T01:48:40.165495+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
