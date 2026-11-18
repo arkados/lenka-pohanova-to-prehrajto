@@ -609605,12 +609605,6 @@
     },
     "1195:2:10": {
       "episode_key": "exorcista:s2:e10",
-      "claim": {
-        "worker_id": "ac103fac230348acbe26814fdcec2bcc-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T14:57:47.746959+00:00",
-        "lease_expires_at": "2026-11-18T20:57:47.746975+00:00"
-      },
       "source": {
         "source_id": "27762936",
         "source_url": "https://sdilej.cz/27762936/exorcista-the-exorcist-s02e10-hd-cz-dabing.mkv",
@@ -609635,22 +609629,29 @@
         "display_name": "The Exorcist S02E10 Unworthy 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:57:52.323876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153858",
-        "size_bytes": 1238602846
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153858",
-        "size_bytes": 1238602846,
-        "source_bytes_read": 1238602846,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153858",
         "source_bytes_read": 1238602846,
         "elapsed_seconds": 504.264,
         "finished_at": "2026-11-18T15:06:33.368926+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153858",
+          "size_bytes": 1238602846,
+          "source_bytes_read": 1238602846,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27762936",
+        "source_url": "https://sdilej.cz/27762936/exorcista-the-exorcist-s02e10-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153858",
+        "display_name": "The Exorcist S02E10 Unworthy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:06:42.188759+00:00"
       }
     },
     "2175:1:1": {
@@ -609733,7 +609734,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:06:33.368946+00:00",
+  "updated_at": "2026-11-18T15:06:42.188780+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
