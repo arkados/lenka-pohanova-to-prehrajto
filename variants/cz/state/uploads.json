@@ -628200,12 +628200,6 @@
     },
     "920:9:15": {
       "episode_key": "sběratelé kostí:s9:e15",
-      "claim": {
-        "worker_id": "557d6b9e2c424af48631d25ddefb9156-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:03:28.129991+00:00",
-        "lease_expires_at": "2026-11-19T03:03:28.130008+00:00"
-      },
       "source": {
         "source_id": "26731911",
         "source_url": "https://sdilej.cz/26731911/sberatele-kosti-09x15.avi",
@@ -628230,22 +628224,29 @@
         "display_name": "Bones S09E15 The Heiress in the Hill SD CZ Dabing",
         "prepared_at": "2026-11-18T21:03:33.610309+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159918",
-        "size_bytes": 490783346
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159918",
-        "size_bytes": 490783346,
-        "source_bytes_read": 490783346,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159918",
         "source_bytes_read": 490783346,
         "elapsed_seconds": 33.346,
         "finished_at": "2026-11-18T21:04:33.438857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159918",
+          "size_bytes": 490783346,
+          "source_bytes_read": 490783346,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26731911",
+        "source_url": "https://sdilej.cz/26731911/sberatele-kosti-09x15.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159918",
+        "display_name": "Bones S09E15 The Heiress in the Hill SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:04:41.059052+00:00"
       }
     }
   },
@@ -628254,7 +628255,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:04:33.438876+00:00",
+  "updated_at": "2026-11-18T21:04:41.059072+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
