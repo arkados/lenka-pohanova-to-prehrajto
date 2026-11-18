@@ -604781,12 +604781,6 @@
     },
     "576:1:22": {
       "episode_key": "tým seal:s1:e22",
-      "claim": {
-        "worker_id": "2cb5629eb0964594ace02ddc1e52648c-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:36:47.798507+00:00",
-        "lease_expires_at": "2026-11-18T18:36:47.798523+00:00"
-      },
       "source": {
         "source_id": "29670184",
         "source_url": "https://sdilej.cz/29670184/seal-team-s01e22-1080p-cz-dabing.mkv",
@@ -604811,22 +604805,29 @@
         "display_name": "SEAL Team S01E22 The Cost of Doing Business 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:36:52.742085+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151299",
-        "size_bytes": 873974372
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151299",
-        "size_bytes": 873974372,
-        "source_bytes_read": 873974372,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151299",
         "source_bytes_read": 873974372,
         "elapsed_seconds": 94.551,
         "finished_at": "2026-11-18T12:38:46.064080+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151299",
+          "size_bytes": 873974372,
+          "source_bytes_read": 873974372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29670184",
+        "source_url": "https://sdilej.cz/29670184/seal-team-s01e22-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151299",
+        "display_name": "SEAL Team S01E22 The Cost of Doing Business 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:38:55.931476+00:00"
       }
     },
     "576:2:1": {
@@ -604872,7 +604873,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:38:46.064100+00:00",
+  "updated_at": "2026-11-18T12:38:55.931490+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
