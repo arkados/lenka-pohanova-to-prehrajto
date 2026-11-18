@@ -610427,12 +610427,6 @@
     },
     "2209:1:4": {
       "episode_key": "třetí hlídka:s1:e4",
-      "claim": {
-        "worker_id": "fa654b0fabb54669a6d2cfc3e1558348-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:27:15.100416+00:00",
-        "lease_expires_at": "2026-11-18T21:27:15.100430+00:00"
-      },
       "source": {
         "source_id": "32457105",
         "source_url": "https://sdilej.cz/32457105/treti-hlidka-s01e04-ty-s-tim-nadelas-caviku-1999-hdtv-1080p-czdab.mkv",
@@ -610457,22 +610451,29 @@
         "display_name": "Third Watch S01E04 Hell Is What You Make of It 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:27:20.836390+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154369",
-        "size_bytes": 1740389729
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154369",
-        "size_bytes": 1740389729,
-        "source_bytes_read": 1740389729,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154369",
         "source_bytes_read": 1740389729,
         "elapsed_seconds": 130.008,
         "finished_at": "2026-11-18T15:29:47.373456+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154369",
+          "size_bytes": 1740389729,
+          "source_bytes_read": 1740389729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457105",
+        "source_url": "https://sdilej.cz/32457105/treti-hlidka-s01e04-ty-s-tim-nadelas-caviku-1999-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154369",
+        "display_name": "Third Watch S01E04 Hell Is What You Make of It 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:30:01.773366+00:00"
       }
     },
     "2209:1:5": {
@@ -610518,7 +610519,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:29:57.522929+00:00",
+  "updated_at": "2026-11-18T15:30:01.773386+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
