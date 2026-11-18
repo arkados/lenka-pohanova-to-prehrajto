@@ -596870,12 +596870,6 @@
     },
     "4102:1:9": {
       "episode_key": "scooby-doo na stopě:s1:e9",
-      "claim": {
-        "worker_id": "a8f37cd941164cdfa19849390bdd0d4f-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:36:40.416053+00:00",
-        "lease_expires_at": "2026-11-18T12:36:40.416065+00:00"
-      },
       "source": {
         "source_id": "25054586",
         "source_url": "https://sdilej.cz/25054586/scooby-doo-na-stope-1x09-strasidelne-divadlo.avi",
@@ -596900,22 +596894,29 @@
         "display_name": "Scooby-Doo, Where Are You! S01E09 The Backstage Rage SD CZ Dabing",
         "prepared_at": "2026-11-18T06:36:53.755594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142951",
-        "size_bytes": 155072020
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142951",
-        "size_bytes": 155072020,
-        "source_bytes_read": 155072020,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142951",
         "source_bytes_read": 155072020,
         "elapsed_seconds": 17.735,
         "finished_at": "2026-11-18T06:37:35.081595+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142951",
+          "size_bytes": 155072020,
+          "source_bytes_read": 155072020,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25054586",
+        "source_url": "https://sdilej.cz/25054586/scooby-doo-na-stope-1x09-strasidelne-divadlo.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142951",
+        "display_name": "Scooby-Doo, Where Are You! S01E09 The Backstage Rage SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:37:47.534679+00:00"
       }
     },
     "4102:1:10": {
@@ -596983,7 +596984,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:37:43.790251+00:00",
+  "updated_at": "2026-11-18T06:37:47.534693+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
