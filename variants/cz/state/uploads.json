@@ -581563,12 +581563,6 @@
     },
     "3618:2:3": {
       "episode_key": "k smíchu:s2:e3",
-      "claim": {
-        "worker_id": "d84880a6655f438a9c61248974d4297a-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:05:57.054951+00:00",
-        "lease_expires_at": "2026-11-18T07:05:57.054970+00:00"
-      },
       "source": {
         "source_id": "33163001",
         "source_url": "https://sdilej.cz/33163001/k-smichu-s02e03-10-2020-cz-dab-1080p-posloucham.mkv",
@@ -581593,22 +581587,29 @@
         "display_name": "Kidding S02E03 I'm Listening 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:06:01.472867+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135507",
-        "size_bytes": 1880095106
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135507",
-        "size_bytes": 1880095106,
-        "source_bytes_read": 1880095106,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135507",
         "source_bytes_read": 1880095106,
         "elapsed_seconds": 359.154,
         "finished_at": "2026-11-18T01:12:15.883010+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135507",
+          "size_bytes": 1880095106,
+          "source_bytes_read": 1880095106,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163001",
+        "source_url": "https://sdilej.cz/33163001/k-smichu-s02e03-10-2020-cz-dab-1080p-posloucham.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135507",
+        "display_name": "Kidding S02E03 I'm Listening 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:12:23.188299+00:00"
       }
     },
     "3618:2:5": {
@@ -581691,7 +581692,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:12:15.883048+00:00",
+  "updated_at": "2026-11-18T01:12:23.188320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
