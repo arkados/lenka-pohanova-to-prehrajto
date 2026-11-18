@@ -626145,12 +626145,6 @@
     },
     "920:7:7": {
       "episode_key": "sběratelé kostí:s7:e7",
-      "claim": {
-        "worker_id": "3a20e442f7344345a507cb373f377422-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:17:25.771049+00:00",
-        "lease_expires_at": "2026-11-19T02:17:25.771067+00:00"
-      },
       "source": {
         "source_id": "35233586",
         "source_url": "https://sdilej.cz/35233586/sberatele-kosti-s07e07-2012-czdab.1080p-vezen-v-potrubi.mkv",
@@ -626175,22 +626169,29 @@
         "display_name": "Bones S07E07 The Prisoner in the Pipe 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:17:31.234124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159160",
-        "size_bytes": 721318266
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159160",
-        "size_bytes": 721318266,
-        "source_bytes_read": 721318266,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159160",
         "source_bytes_read": 721318266,
         "elapsed_seconds": 41.894,
         "finished_at": "2026-11-18T20:18:32.960899+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159160",
+          "size_bytes": 721318266,
+          "source_bytes_read": 721318266,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35233586",
+        "source_url": "https://sdilej.cz/35233586/sberatele-kosti-s07e07-2012-czdab.1080p-vezen-v-potrubi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159160",
+        "display_name": "Bones S07E07 The Prisoner in the Pipe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:18:48.436783+00:00"
       }
     },
     "920:7:8": {
@@ -626208,7 +626209,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:18:43.153244+00:00",
+  "updated_at": "2026-11-18T20:18:48.436803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
