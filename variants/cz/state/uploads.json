@@ -631574,12 +631574,6 @@
     },
     "920:12:4": {
       "episode_key": "sběratelé kostí:s12:e4",
-      "claim": {
-        "worker_id": "e3a482c7f46a49caaac10cf2759c6112-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:12:48.925472+00:00",
-        "lease_expires_at": "2026-11-19T04:12:48.925482+00:00"
-      },
       "source": {
         "source_id": "35011614",
         "source_url": "https://sdilej.cz/35011614/bones-s12e04.mkv",
@@ -631604,22 +631598,29 @@
         "display_name": "Bones S12E04 The Price for the Past 1080p CZ Dabing",
         "prepared_at": "2026-11-18T22:13:02.148286+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161304",
-        "size_bytes": 649999941
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161304",
-        "size_bytes": 649999941,
-        "source_bytes_read": 649999941,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161304",
         "source_bytes_read": 649999941,
         "elapsed_seconds": 44.373,
         "finished_at": "2026-11-18T22:14:19.980941+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161304",
+          "size_bytes": 649999941,
+          "source_bytes_read": 649999941,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35011614",
+        "source_url": "https://sdilej.cz/35011614/bones-s12e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161304",
+        "display_name": "Bones S12E04 The Price for the Past 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:14:30.241835+00:00"
       }
     },
     "920:12:5": {
@@ -631711,7 +631712,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:14:25.055107+00:00",
+  "updated_at": "2026-11-18T22:14:30.241850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
