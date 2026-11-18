@@ -597227,12 +597227,6 @@
     },
     "4102:2:2": {
       "episode_key": "scooby-doo na stopě:s2:e2",
-      "claim": {
-        "worker_id": "bbbe5c1e178541c8aa50ab81f3d9c572-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:39:47.612772+00:00",
-        "lease_expires_at": "2026-11-18T12:39:47.612788+00:00"
-      },
       "source": {
         "source_id": "25054657",
         "source_url": "https://sdilej.cz/25054657/scooby-doo-na-stope-2x02-zahadna-maska.avi",
@@ -597257,22 +597251,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E02 Mystery Mask Mix-Up SD CZ Dabing",
         "prepared_at": "2026-11-18T06:39:52.484947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143008",
-        "size_bytes": 298864640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143008",
-        "size_bytes": 298864640,
-        "source_bytes_read": 298864640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143008",
         "source_bytes_read": 298864640,
         "elapsed_seconds": 24.344,
         "finished_at": "2026-11-18T06:40:45.762995+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143008",
+          "size_bytes": 298864640,
+          "source_bytes_read": 298864640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25054657",
+        "source_url": "https://sdilej.cz/25054657/scooby-doo-na-stope-2x02-zahadna-maska.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143008",
+        "display_name": "Scooby-Doo, Where Are You! S02E02 Mystery Mask Mix-Up SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:40:59.209549+00:00"
       }
     },
     "4102:2:4": {
@@ -597314,7 +597315,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:40:54.976012+00:00",
+  "updated_at": "2026-11-18T06:40:59.209568+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
