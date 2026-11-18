@@ -616687,12 +616687,6 @@
     },
     "1117:1:7": {
       "episode_key": "nová holka:s1:e7",
-      "claim": {
-        "worker_id": "a7fa13b520e744cea6e4eb2c29dc0c40-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:40:57.114074+00:00",
-        "lease_expires_at": "2026-11-18T23:40:57.114087+00:00"
-      },
       "source": {
         "source_id": "33264625",
         "source_url": "https://sdilej.cz/33264625/nova-holka-s01e07-new-girl-dvdrip-czdabing.avi",
@@ -616717,22 +616711,29 @@
         "display_name": "New Girl S01E07 Bells SD CZ Dabing",
         "prepared_at": "2026-11-18T17:41:06.436267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156514",
-        "size_bytes": 181262336
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156514",
-        "size_bytes": 181262336,
-        "source_bytes_read": 181262336,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156514",
         "source_bytes_read": 181262336,
         "elapsed_seconds": 11.237,
         "finished_at": "2026-11-18T17:41:36.653289+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156514",
+          "size_bytes": 181262336,
+          "source_bytes_read": 181262336,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264625",
+        "source_url": "https://sdilej.cz/33264625/nova-holka-s01e07-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156514",
+        "display_name": "New Girl S01E07 Bells SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:41:43.980494+00:00"
       }
     }
   },
@@ -616741,7 +616742,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:41:36.653307+00:00",
+  "updated_at": "2026-11-18T17:41:43.980516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
