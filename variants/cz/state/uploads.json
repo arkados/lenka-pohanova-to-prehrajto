@@ -616142,12 +616142,6 @@
     },
     "1117:1:4": {
       "episode_key": "nová holka:s1:e4",
-      "claim": {
-        "worker_id": "5011e31d5fc242abbe301b7fe36fe086-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:31:40.470611+00:00",
-        "lease_expires_at": "2026-11-18T23:31:40.470635+00:00"
-      },
       "source": {
         "source_id": "6286045",
         "source_url": "https://sdilej.cz/6286045/nova-holka-s01e04-cz-dabing-by-led.avi",
@@ -616172,22 +616166,29 @@
         "display_name": "New Girl S01E04 Naked SD CZ Dabing",
         "prepared_at": "2026-11-18T17:31:50.705931+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156396",
-        "size_bytes": 181144472
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156396",
-        "size_bytes": 181144472,
-        "source_bytes_read": 181144472,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156396",
         "source_bytes_read": 181144472,
         "elapsed_seconds": 15.448,
         "finished_at": "2026-11-18T17:32:47.050776+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156396",
+          "size_bytes": 181144472,
+          "source_bytes_read": 181144472,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6286045",
+        "source_url": "https://sdilej.cz/6286045/nova-holka-s01e04-cz-dabing-by-led.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156396",
+        "display_name": "New Girl S01E04 Naked SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:33:04.903305+00:00"
       }
     },
     "1117:1:5": {
@@ -616266,7 +616267,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:32:59.344862+00:00",
+  "updated_at": "2026-11-18T17:33:04.903321+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
