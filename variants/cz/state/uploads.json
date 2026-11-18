@@ -633002,12 +633002,6 @@
     },
     "1405:1:21": {
       "episode_key": "námořní vyšetřovací služba:s1:e21",
-      "claim": {
-        "worker_id": "5f0fe72ebc134601a9c5ab664f444567-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:47:02.441078+00:00",
-        "lease_expires_at": "2026-11-19T04:47:02.441089+00:00"
-      },
       "source": {
         "source_id": "33959469",
         "source_url": "https://sdilej.cz/33959469/ncis-s01e21-cz.mp4",
@@ -633032,22 +633026,29 @@
         "display_name": "NCIS S01E21 Split Decision 1440p CZ Dabing",
         "prepared_at": "2026-11-18T22:47:10.718378+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161970",
-        "size_bytes": 2884092564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161970",
-        "size_bytes": 2884092564,
-        "source_bytes_read": 2884092564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161970",
         "source_bytes_read": 2884092564,
         "elapsed_seconds": 247.545,
         "finished_at": "2026-11-18T22:51:42.439275+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161970",
+          "size_bytes": 2884092564,
+          "source_bytes_read": 2884092564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33959469",
+        "source_url": "https://sdilej.cz/33959469/ncis-s01e21-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161970",
+        "display_name": "NCIS S01E21 Split Decision 1440p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:51:49.575568+00:00"
       }
     }
   },
@@ -633056,7 +633057,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:51:42.439296+00:00",
+  "updated_at": "2026-11-18T22:51:49.575585+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
