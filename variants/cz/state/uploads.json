@@ -630902,12 +630902,6 @@
     },
     "920:11:17": {
       "episode_key": "sběratelé kostí:s11:e17",
-      "claim": {
-        "worker_id": "5bff20f9071d4508ac97d9058079ca33-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:00:34.922203+00:00",
-        "lease_expires_at": "2026-11-19T04:00:34.922212+00:00"
-      },
       "source": {
         "source_id": "27579246",
         "source_url": "https://sdilej.cz/27579246/sberatele-kosti-s11e17-cz.mkv",
@@ -630932,22 +630926,29 @@
         "display_name": "Bones S11E17 The Secret in the Service 720p CZ Dabing",
         "prepared_at": "2026-11-18T22:00:39.880224+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161119",
-        "size_bytes": 388742184
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161119",
-        "size_bytes": 388742184,
-        "source_bytes_read": 388742184,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161119",
         "source_bytes_read": 388742184,
         "elapsed_seconds": 30.46,
         "finished_at": "2026-11-18T22:01:35.795853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161119",
+          "size_bytes": 388742184,
+          "source_bytes_read": 388742184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579246",
+        "source_url": "https://sdilej.cz/27579246/sberatele-kosti-s11e17-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161119",
+        "display_name": "Bones S11E17 The Secret in the Service 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:01:49.604531+00:00"
       }
     },
     "920:11:18": {
@@ -631028,7 +631029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:01:44.790770+00:00",
+  "updated_at": "2026-11-18T22:01:49.604547+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
