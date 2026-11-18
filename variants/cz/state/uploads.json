@@ -612155,12 +612155,6 @@
     },
     "2209:3:18": {
       "episode_key": "třetí hlídka:s3:e18",
-      "claim": {
-        "worker_id": "02e5d85ba9e04520aa1e0ce69dd3a200-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:01:02.561781+00:00",
-        "lease_expires_at": "2026-11-18T22:01:02.561796+00:00"
-      },
       "source": {
         "source_id": "23852575",
         "source_url": "https://sdilej.cz/23852575/treti-hlidka-s03e18-neodpustitelne.avi",
@@ -612185,22 +612179,29 @@
         "display_name": "Third Watch S03E18 The Greater Good SD CZ Dabing",
         "prepared_at": "2026-11-18T16:01:12.534464+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154927",
-        "size_bytes": 419538944
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154927",
-        "size_bytes": 419538944,
-        "source_bytes_read": 419538944,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154927",
         "source_bytes_read": 419538944,
         "elapsed_seconds": 26.413,
         "finished_at": "2026-11-18T16:02:07.826344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154927",
+          "size_bytes": 419538944,
+          "source_bytes_read": 419538944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23852575",
+        "source_url": "https://sdilej.cz/23852575/treti-hlidka-s03e18-neodpustitelne.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154927",
+        "display_name": "Third Watch S03E18 The Greater Good SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:02:22.638112+00:00"
       }
     },
     "2209:3:19": {
@@ -612295,7 +612296,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:02:18.503142+00:00",
+  "updated_at": "2026-11-18T16:02:22.638130+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
