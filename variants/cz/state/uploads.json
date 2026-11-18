@@ -625790,28 +625790,29 @@
           "at": "2026-11-18T21:32:20.398663+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8b86f878aade4b7591fec9c22054c002-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:32:24.865137+00:00",
-        "lease_expires_at": "2026-11-19T03:32:24.865154+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31160628",
-        "size_bytes": 1243148498
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160628",
-        "size_bytes": 1243148498,
-        "source_bytes_read": 1243148498,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160628",
         "source_bytes_read": 1243148498,
         "elapsed_seconds": 60.922,
         "finished_at": "2026-11-18T21:34:18.339304+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160628",
+          "size_bytes": 1243148498,
+          "source_bytes_read": 1243148498,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35231625",
+        "source_url": "https://sdilej.cz/35231625/sberatele-kosti-s06e12-2011-czdab.1080p-sestry-v-hrichu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160628",
+        "display_name": "Bones S06E12 The Sin in the Sisterhood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:34:32.087464+00:00"
       }
     },
     "920:6:16": {
@@ -629699,7 +629700,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:34:24.227032+00:00",
+  "updated_at": "2026-11-18T21:34:32.087482+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
