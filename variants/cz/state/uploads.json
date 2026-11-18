@@ -622918,12 +622918,6 @@
     },
     "920:3:7": {
       "episode_key": "sběratelé kostí:s3:e7",
-      "claim": {
-        "worker_id": "f277996addad4ae39ceb4c944d28936d-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:19:33.138680+00:00",
-        "lease_expires_at": "2026-11-19T01:19:33.138697+00:00"
-      },
       "source": {
         "source_id": "23925502",
         "source_url": "https://sdilej.cz/23925502/bones.-2005-.s03e07.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
@@ -622948,22 +622942,29 @@
         "display_name": "Bones S03E07 Boy in the Time Capsule 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:19:57.582937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158248",
-        "size_bytes": 843433238
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158248",
-        "size_bytes": 843433238,
-        "source_bytes_read": 843433238,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158248",
         "source_bytes_read": 843433238,
         "elapsed_seconds": 66.016,
         "finished_at": "2026-11-18T19:21:29.492015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158248",
+          "size_bytes": 843433238,
+          "source_bytes_read": 843433238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23925502",
+        "source_url": "https://sdilej.cz/23925502/bones.-2005-.s03e07.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158248",
+        "display_name": "Bones S03E07 Boy in the Time Capsule 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:21:35.060844+00:00"
       }
     },
     "920:3:8": {
@@ -623059,7 +623060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:21:29.492042+00:00",
+  "updated_at": "2026-11-18T19:21:35.060865+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
