@@ -602231,12 +602231,6 @@
     },
     "1967:23:2": {
       "episode_key": "vraždy v midsomeru:s23:e2",
-      "claim": {
-        "worker_id": "1b70a43e576b4a08a5584de5f27b2513-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T11:03:48.592339+00:00",
-        "lease_expires_at": "2026-11-18T17:03:48.592349+00:00"
-      },
       "source": {
         "source_id": "25161943",
         "source_url": "https://sdilej.cz/25161943/vrazdy-v-midsomeru-23x02-pavucina-lzi.mp4",
@@ -602261,22 +602255,29 @@
         "display_name": "Midsomer Murders S23E02 The Debt of Lies SD CZ Dabing",
         "prepared_at": "2026-11-18T11:03:53.668696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31149456",
-        "size_bytes": 1085554513
-      },
-      "transfer_receipt": {
-        "target_video_id": "31149456",
-        "size_bytes": 1085554513,
-        "source_bytes_read": 1085554513,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31149456",
         "source_bytes_read": 1085554513,
         "elapsed_seconds": 262.769,
         "finished_at": "2026-11-18T11:08:40.132090+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31149456",
+          "size_bytes": 1085554513,
+          "source_bytes_read": 1085554513,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25161943",
+        "source_url": "https://sdilej.cz/25161943/vrazdy-v-midsomeru-23x02-pavucina-lzi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31149456",
+        "display_name": "Midsomer Murders S23E02 The Debt of Lies SD CZ Dabing",
+        "uploaded_at": "2026-11-18T11:08:48.023109+00:00"
       }
     },
     "1967:23:3": {
@@ -602322,7 +602323,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:08:40.132110+00:00",
+  "updated_at": "2026-11-18T11:08:48.023127+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
