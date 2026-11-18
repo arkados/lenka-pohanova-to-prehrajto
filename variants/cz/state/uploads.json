@@ -586614,12 +586614,6 @@
     },
     "922:2:12": {
       "episode_key": "kazatel:s2:e12",
-      "claim": {
-        "worker_id": "e132a4e6731b44769efd1b7a3c21e2f3-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:42:39.772670+00:00",
-        "lease_expires_at": "2026-11-18T08:42:39.772683+00:00"
-      },
       "source": {
         "source_id": "32925200",
         "source_url": "https://sdilej.cz/32925200/kazatel-s02e12-on-your-knees.mkv",
@@ -586644,22 +586638,29 @@
         "display_name": "Preacher S02E12 On Your Knees 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:42:49.491844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137610",
-        "size_bytes": 673525641
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137610",
-        "size_bytes": 673525641,
-        "source_bytes_read": 673525641,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137610",
         "source_bytes_read": 673525641,
         "elapsed_seconds": 58.844,
         "finished_at": "2026-11-18T02:44:14.624527+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137610",
+          "size_bytes": 673525641,
+          "source_bytes_read": 673525641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32925200",
+        "source_url": "https://sdilej.cz/32925200/kazatel-s02e12-on-your-knees.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137610",
+        "display_name": "Preacher S02E12 On Your Knees 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:44:22.342910+00:00"
       }
     },
     "922:2:13": {
@@ -586775,7 +586776,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:44:18.819457+00:00",
+  "updated_at": "2026-11-18T02:44:22.342929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
