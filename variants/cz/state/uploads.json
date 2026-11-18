@@ -619003,12 +619003,6 @@
     },
     "1117:5:1": {
       "episode_key": "nová holka:s5:e1",
-      "claim": {
-        "worker_id": "74fba4e9c5514d96bb0f7477db0a76b8-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:19:07.913927+00:00",
-        "lease_expires_at": "2026-11-19T00:19:07.913946+00:00"
-      },
       "source": {
         "source_id": "7401004",
         "source_url": "https://sdilej.cz/7401004/nova-holka-s05e01-new-girl-tvrip-czdabing.avi",
@@ -619033,22 +619027,29 @@
         "display_name": "New Girl S05E01 Big Mama P SD CZ Dabing",
         "prepared_at": "2026-11-18T18:19:17.488357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157112",
-        "size_bytes": 337453540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157112",
-        "size_bytes": 337453540,
-        "source_bytes_read": 337453540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157112",
         "source_bytes_read": 337453540,
         "elapsed_seconds": 32.277,
         "finished_at": "2026-11-18T18:20:22.672410+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157112",
+          "size_bytes": 337453540,
+          "source_bytes_read": 337453540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7401004",
+        "source_url": "https://sdilej.cz/7401004/nova-holka-s05e01-new-girl-tvrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157112",
+        "display_name": "New Girl S05E01 Big Mama P SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:20:28.816810+00:00"
       }
     },
     "1117:5:2": {
@@ -619131,7 +619132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:20:22.672448+00:00",
+  "updated_at": "2026-11-18T18:20:28.816831+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
