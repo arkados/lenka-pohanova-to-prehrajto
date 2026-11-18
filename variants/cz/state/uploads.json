@@ -590147,28 +590147,29 @@
           "at": "2026-11-18T04:01:51.388891+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "cedb3161e06040a7b985c972e43b30fc-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:01:55.370084+00:00",
-        "lease_expires_at": "2026-11-18T10:01:55.370103+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31139246",
-        "size_bytes": 1739866197
-      },
-      "transfer_receipt": {
-        "target_video_id": "31139246",
-        "size_bytes": 1739866197,
-        "source_bytes_read": 1739866197,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31139246",
         "source_bytes_read": 1739866197,
         "elapsed_seconds": 371.697,
         "finished_at": "2026-11-18T04:08:55.927920+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31139246",
+          "size_bytes": 1739866197,
+          "source_bytes_read": 1739866197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607903",
+        "source_url": "https://sdilej.cz/30607903/agent-s01e01-imigrant.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31139246",
+        "display_name": "The Spy S01E01 The Immigrant 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:09:08.465421+00:00"
       }
     },
     "792:1:2": {
@@ -590826,7 +590827,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:09:04.591576+00:00",
+  "updated_at": "2026-11-18T04:09:08.465435+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
