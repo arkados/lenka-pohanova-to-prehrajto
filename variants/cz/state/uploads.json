@@ -622200,12 +622200,6 @@
     },
     "920:2:12": {
       "episode_key": "sběratelé kostí:s2:e12",
-      "claim": {
-        "worker_id": "e2bbb5ec67c54b41afeff0a2c18c6baa-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:07:11.616429+00:00",
-        "lease_expires_at": "2026-11-19T01:07:11.616447+00:00"
-      },
       "source": {
         "source_id": "35211393",
         "source_url": "https://sdilej.cz/35211393/sberatele-kosti-s02e12-2007-czdab.1080p-muz-v-cele.mkv",
@@ -622230,22 +622224,29 @@
         "display_name": "Bones S02E12 The Man in the Cell 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:07:25.544890+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158057",
-        "size_bytes": 916055460
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158057",
-        "size_bytes": 916055460,
-        "source_bytes_read": 916055460,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158057",
         "source_bytes_read": 916055460,
         "elapsed_seconds": 56.57,
         "finished_at": "2026-11-18T19:08:43.760365+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158057",
+          "size_bytes": 916055460,
+          "source_bytes_read": 916055460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211393",
+        "source_url": "https://sdilej.cz/35211393/sberatele-kosti-s02e12-2007-czdab.1080p-muz-v-cele.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158057",
+        "display_name": "Bones S02E12 The Man in the Cell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:08:57.207360+00:00"
       }
     },
     "920:2:14": {
@@ -622341,7 +622342,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:08:52.274008+00:00",
+  "updated_at": "2026-11-18T19:08:57.207398+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
