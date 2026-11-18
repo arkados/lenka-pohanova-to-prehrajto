@@ -627962,12 +627962,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "eec2c1fbec764ad8a439477dc373a868-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:06:34.292666+00:00",
-        "lease_expires_at": "2026-11-19T03:06:34.292685+00:00"
-      },
       "source": {
         "source_id": "29561849",
         "source_url": "https://sdilej.cz/29561849/sberatele-kosti-09x05.avi",
@@ -627992,22 +627986,29 @@
         "display_name": "Bones S09E05 The Lady on the List SD CZ Dabing",
         "prepared_at": "2026-11-18T21:06:49.911370+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159979",
-        "size_bytes": 496941690
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159979",
-        "size_bytes": 496941690,
-        "source_bytes_read": 496941690,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159979",
         "source_bytes_read": 496941690,
         "elapsed_seconds": 29.366,
         "finished_at": "2026-11-18T21:07:44.854857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159979",
+          "size_bytes": 496941690,
+          "source_bytes_read": 496941690,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29561849",
+        "source_url": "https://sdilej.cz/29561849/sberatele-kosti-09x05.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159979",
+        "display_name": "Bones S09E05 The Lady on the List SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:07:55.426489+00:00"
       }
     },
     "920:9:6": {
@@ -628316,7 +628317,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:07:50.840616+00:00",
+  "updated_at": "2026-11-18T21:07:55.426509+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
