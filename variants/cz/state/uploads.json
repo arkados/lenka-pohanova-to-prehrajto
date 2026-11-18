@@ -617845,12 +617845,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "2e3a92eb3d654d2ba3eecf452316590a-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:22:23.437717+00:00",
-        "lease_expires_at": "2026-11-19T00:22:23.437736+00:00"
-      },
       "source": {
         "source_id": "29472511",
         "source_url": "https://sdilej.cz/29472511/the-umbrella-academy-s04e05-1080p-cz-dabing.mkv",
@@ -617875,22 +617869,29 @@
         "display_name": "The Umbrella Academy S04E05 Six Years, Five Months, and Two Days 1080p CZ Dabing",
         "prepared_at": "2026-11-18T18:22:41.085455+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157158",
-        "size_bytes": 808080738
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157158",
-        "size_bytes": 808080738,
-        "source_bytes_read": 808080738,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157158",
         "source_bytes_read": 808080738,
         "elapsed_seconds": 78.494,
         "finished_at": "2026-11-18T18:24:35.142618+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157158",
+          "size_bytes": 808080738,
+          "source_bytes_read": 808080738,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29472511",
+        "source_url": "https://sdilej.cz/29472511/the-umbrella-academy-s04e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157158",
+        "display_name": "The Umbrella Academy S04E05 Six Years, Five Months, and Two Days 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T18:24:44.993560+00:00"
       }
     },
     "1166:4:6": {
@@ -619325,7 +619326,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:24:40.504767+00:00",
+  "updated_at": "2026-11-18T18:24:44.993580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
