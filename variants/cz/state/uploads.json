@@ -614028,12 +614028,6 @@
     },
     "58:4:3": {
       "episode_key": "zaklínač:s4:e3",
-      "claim": {
-        "worker_id": "2dc00153a07941659d3a5771ee4abc66-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:39:37.649288+00:00",
-        "lease_expires_at": "2026-11-18T22:39:37.649306+00:00"
-      },
       "source": {
         "source_id": "32363795",
         "source_url": "https://sdilej.cz/32363795/zaklinac-s04e03-bozi-soud.mkv",
@@ -614058,22 +614052,29 @@
         "display_name": "The Witcher S04E03 Trial by Ordeal 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:39:42.572771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155625",
-        "size_bytes": 2355295213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155625",
-        "size_bytes": 2355295213,
-        "source_bytes_read": 2355295213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155625",
         "source_bytes_read": 2355295213,
         "elapsed_seconds": 133.442,
         "finished_at": "2026-11-18T16:42:13.809510+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155625",
+          "size_bytes": 2355295213,
+          "source_bytes_read": 2355295213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32363795",
+        "source_url": "https://sdilej.cz/32363795/zaklinac-s04e03-bozi-soud.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155625",
+        "display_name": "The Witcher S04E03 Trial by Ordeal 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:42:20.822802+00:00"
       }
     },
     "58:4:4": {
@@ -614119,7 +614120,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:42:13.809532+00:00",
+  "updated_at": "2026-11-18T16:42:20.822822+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
