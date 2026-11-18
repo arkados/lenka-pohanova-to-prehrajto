@@ -589936,12 +589936,6 @@
     },
     "1765:3:4": {
       "episode_key": "záchranáři l. a.:s3:e4",
-      "claim": {
-        "worker_id": "7c49208c99894d2e867815b976a5817f-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:44:55.080730+00:00",
-        "lease_expires_at": "2026-11-18T09:44:55.080748+00:00"
-      },
       "source": {
         "source_id": "35339652",
         "source_url": "https://sdilej.cz/35339652/9-1-1-s03e04-cz-dabing.mkv",
@@ -589965,7 +589959,17 @@
         },
         "display_name": "9-1-1 S03E04 Triggers 720p CZ Dabing",
         "prepared_at": "2026-11-18T03:45:03.876889+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339652:https://sdilej.cz/35339652/9-1-1-s03e04-cz-dabing.mkv",
+        "at": "2026-11-18T03:45:20.504508+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:45:20.504595+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -589973,7 +589977,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:45:16.877795+00:00",
+  "updated_at": "2026-11-18T03:45:20.504602+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590415,19 +590419,19 @@
     "1765": {
       "recent_failures": [
         {
-          "identity": "1765:3:1",
-          "at": "2026-11-18T03:44:21.619949+00:00"
-        },
-        {
           "identity": "1765:3:2",
           "at": "2026-11-18T03:44:41.360772+00:00"
         },
         {
           "identity": "1765:3:3",
           "at": "2026-11-18T03:45:00.115608+00:00"
+        },
+        {
+          "identity": "1765:3:4",
+          "at": "2026-11-18T03:45:20.504508+00:00"
         }
       ],
-      "retry_after": "2026-11-18T03:55:00.115608+00:00"
+      "retry_after": "2026-11-18T03:55:20.504508+00:00"
     }
   }
 }
