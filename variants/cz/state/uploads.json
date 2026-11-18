@@ -599667,12 +599667,6 @@
     },
     "1967:4:2": {
       "episode_key": "vraždy v midsomeru:s4:e2",
-      "claim": {
-        "worker_id": "f0c3ea3543de4688bc00212267b45702-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T08:23:53.593928+00:00",
-        "lease_expires_at": "2026-11-18T14:23:53.593941+00:00"
-      },
       "source": {
         "source_id": "29252517",
         "source_url": "https://sdilej.cz/29252517/vrazdy-v-midsomeru-s04e02-smrtici-andel.mkv",
@@ -599697,22 +599691,29 @@
         "display_name": "Midsomer Murders S04E02 Destroying Angel 1080p CZ Dabing",
         "prepared_at": "2026-11-18T08:23:58.786200+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31145100",
-        "size_bytes": 2166661862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31145100",
-        "size_bytes": 2166661862,
-        "source_bytes_read": 2166661862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31145100",
         "source_bytes_read": 2166661862,
         "elapsed_seconds": 157.891,
         "finished_at": "2026-11-18T08:26:53.710029+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31145100",
+          "size_bytes": 2166661862,
+          "source_bytes_read": 2166661862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29252517",
+        "source_url": "https://sdilej.cz/29252517/vrazdy-v-midsomeru-s04e02-smrtici-andel.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31145100",
+        "display_name": "Midsomer Murders S04E02 Destroying Angel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T08:26:59.207748+00:00"
       }
     }
   },
@@ -599721,7 +599722,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T08:26:53.710049+00:00",
+  "updated_at": "2026-11-18T08:26:59.207764+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
