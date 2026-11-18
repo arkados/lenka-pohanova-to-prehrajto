@@ -604118,12 +604118,6 @@
     },
     "576:1:9": {
       "episode_key": "tým seal:s1:e9",
-      "claim": {
-        "worker_id": "efed3b1e349e4ddbb6cffa63013f5cb2-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:21:58.735897+00:00",
-        "lease_expires_at": "2026-11-18T18:21:58.735917+00:00"
-      },
       "source": {
         "source_id": "29670086",
         "source_url": "https://sdilej.cz/29670086/seal-team-s01e09-1080p-cz-dabing.mkv",
@@ -604148,22 +604142,29 @@
         "display_name": "SEAL Team S01E09 Rolling Dark 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:22:17.496414+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150991",
-        "size_bytes": 855349134
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150991",
-        "size_bytes": 855349134,
-        "source_bytes_read": 855349134,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150991",
         "source_bytes_read": 855349134,
         "elapsed_seconds": 74.191,
         "finished_at": "2026-11-18T12:23:53.311213+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150991",
+          "size_bytes": 855349134,
+          "source_bytes_read": 855349134,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29670086",
+        "source_url": "https://sdilej.cz/29670086/seal-team-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150991",
+        "display_name": "SEAL Team S01E09 Rolling Dark 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:24:01.890439+00:00"
       }
     },
     "576:1:10": {
@@ -604209,7 +604210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:23:53.311233+00:00",
+  "updated_at": "2026-11-18T12:24:01.890459+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
