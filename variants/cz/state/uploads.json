@@ -612461,12 +612461,6 @@
     },
     "2209:4:15": {
       "episode_key": "třetí hlídka:s4:e15",
-      "claim": {
-        "worker_id": "3f7fec98907248758063d64bb7e456b0-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:04:17.942960+00:00",
-        "lease_expires_at": "2026-11-18T22:04:17.942978+00:00"
-      },
       "source": {
         "source_id": "23959435",
         "source_url": "https://sdilej.cz/23959435/treti-hlidka-s04e15-zavislost-2.-cast.avi",
@@ -612491,22 +612485,29 @@
         "display_name": "Third Watch S04E15 Collateral Damage (2) SD CZ Dabing",
         "prepared_at": "2026-11-18T16:04:26.831468+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154983",
-        "size_bytes": 419538944
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154983",
-        "size_bytes": 419538944,
-        "source_bytes_read": 419538944,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154983",
         "source_bytes_read": 419538944,
         "elapsed_seconds": 24.315,
         "finished_at": "2026-11-18T16:05:16.886763+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154983",
+          "size_bytes": 419538944,
+          "source_bytes_read": 419538944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23959435",
+        "source_url": "https://sdilej.cz/23959435/treti-hlidka-s04e15-zavislost-2.-cast.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154983",
+        "display_name": "Third Watch S04E15 Collateral Damage (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:05:28.790300+00:00"
       }
     },
     "2209:4:16": {
@@ -612552,7 +612553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:05:24.405004+00:00",
+  "updated_at": "2026-11-18T16:05:28.790324+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
