@@ -612869,12 +612869,6 @@
     },
     "58:1:4": {
       "episode_key": "zaklínač:s1:e4",
-      "claim": {
-        "worker_id": "8b691b374fcd4531a2c7ce7564f5da9e-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:09:51.197759+00:00",
-        "lease_expires_at": "2026-11-18T22:09:51.197777+00:00"
-      },
       "source": {
         "source_id": "32677142",
         "source_url": "https://sdilej.cz/32677142/the-witcher-s01e04-cz-dabing-ultra-hd-.mkv",
@@ -612899,22 +612893,29 @@
         "display_name": "The Witcher S01E04 Of Banquets, Bastards and Burials 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:09:56.171068+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155074",
-        "size_bytes": 2930464410
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155074",
-        "size_bytes": 2930464410,
-        "source_bytes_read": 2930464410,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155074",
         "source_bytes_read": 2930464410,
         "elapsed_seconds": 176.511,
         "finished_at": "2026-11-18T16:13:15.152090+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155074",
+          "size_bytes": 2930464410,
+          "source_bytes_read": 2930464410,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32677142",
+        "source_url": "https://sdilej.cz/32677142/the-witcher-s01e04-cz-dabing-ultra-hd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155074",
+        "display_name": "The Witcher S01E04 Of Banquets, Bastards and Burials 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:13:22.747838+00:00"
       }
     },
     "58:1:5": {
@@ -613011,7 +613012,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:13:15.152124+00:00",
+  "updated_at": "2026-11-18T16:13:22.747859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
