@@ -587188,28 +587188,29 @@
           "at": "2026-11-18T04:27:19.141398+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b0ad06f11d634ba19b4bd33043c4efda-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:27:23.551639+00:00",
-        "lease_expires_at": "2026-11-18T10:27:23.551661+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31140128",
-        "size_bytes": 629667348
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140128",
-        "size_bytes": 629667348,
-        "source_bytes_read": 629667348,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140128",
         "source_bytes_read": 629667348,
         "elapsed_seconds": 77.053,
         "finished_at": "2026-11-18T04:29:12.085325+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140128",
+          "size_bytes": 629667348,
+          "source_bytes_read": 629667348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10597053",
+        "source_url": "https://sdilej.cz/10597053/preacher.s03e03.1080p.10bit.amzn.web-dl.ac3.x265.hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140128",
+        "display_name": "Preacher S03E03 Gonna Hurt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:29:24.785002+00:00"
       }
     },
     "922:3:4": {
@@ -592352,7 +592353,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:29:20.952105+00:00",
+  "updated_at": "2026-11-18T04:29:24.785019+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
