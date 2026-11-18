@@ -630155,12 +630155,6 @@
     },
     "920:10:20": {
       "episode_key": "sběratelé kostí:s10:e20",
-      "claim": {
-        "worker_id": "8b4f28042665485e858f21519b3bf4d6-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:39:55.690162+00:00",
-        "lease_expires_at": "2026-11-19T03:39:55.690178+00:00"
-      },
       "source": {
         "source_id": "35256886",
         "source_url": "https://sdilej.cz/35256886/sberatele-kosti-s10e20-2015-czdab.1080p-mrtvola-v-rece.mkv",
@@ -630185,22 +630179,29 @@
         "display_name": "Bones S10E20 The Woman in the Whirlpool 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:40:06.082943+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160797",
-        "size_bytes": 493105618
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160797",
-        "size_bytes": 493105618,
-        "source_bytes_read": 493105618,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160797",
         "source_bytes_read": 493105618,
         "elapsed_seconds": 21.741,
         "finished_at": "2026-11-18T21:40:54.636987+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160797",
+          "size_bytes": 493105618,
+          "source_bytes_read": 493105618,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256886",
+        "source_url": "https://sdilej.cz/35256886/sberatele-kosti-s10e20-2015-czdab.1080p-mrtvola-v-rece.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160797",
+        "display_name": "Bones S10E20 The Woman in the Whirlpool 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:41:10.166996+00:00"
       }
     }
   },
@@ -630209,7 +630210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:41:05.684730+00:00",
+  "updated_at": "2026-11-18T21:41:10.167016+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
