@@ -591238,12 +591238,6 @@
     },
     "1765:3:11": {
       "episode_key": "záchranáři l. a.:s3:e11",
-      "claim": {
-        "worker_id": "9625d8003bdf46cd9a71284e59deabc3-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:13:17.196282+00:00",
-        "lease_expires_at": "2026-11-18T10:13:17.196295+00:00"
-      },
       "source": {
         "source_id": "35339692",
         "source_url": "https://sdilej.cz/35339692/9-1-1-s03e11-cz-dabing.mkv",
@@ -591267,7 +591261,17 @@
         },
         "display_name": "9-1-1 S03E11 Seize the Day 720p CZ Dabing",
         "prepared_at": "2026-11-18T04:13:31.141121+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339692:https://sdilej.cz/35339692/9-1-1-s03e11-cz-dabing.mkv",
+        "at": "2026-11-18T04:13:44.527462+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T04:13:44.527785+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1143:2:1": {
       "episode_key": "dokonalý podraz:s2:e1",
@@ -591308,7 +591312,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:13:40.021332+00:00",
+  "updated_at": "2026-11-18T04:13:44.527796+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -591734,19 +591738,19 @@
     "1765": {
       "recent_failures": [
         {
-          "identity": "1765:3:6",
-          "at": "2026-11-18T04:12:59.714222+00:00"
-        },
-        {
           "identity": "1765:3:7",
           "at": "2026-11-18T04:13:07.906991+00:00"
         },
         {
           "identity": "1765:3:8",
           "at": "2026-11-18T04:13:35.748691+00:00"
+        },
+        {
+          "identity": "1765:3:11",
+          "at": "2026-11-18T04:13:44.527462+00:00"
         }
       ],
-      "retry_after": "2026-11-18T04:23:35.748691+00:00"
+      "retry_after": "2026-11-18T04:23:44.527462+00:00"
     },
     "792": {
       "recent_failures": [
