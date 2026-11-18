@@ -585046,12 +585046,6 @@
     },
     "574:2:1": {
       "episode_key": "da vinciho démoni:s2:e1",
-      "claim": {
-        "worker_id": "f035afb0eb114897bbf229d8388b05cb-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:17:02.820958+00:00",
-        "lease_expires_at": "2026-11-18T08:17:02.820971+00:00"
-      },
       "source": {
         "source_id": "6500303",
         "source_url": "https://sdilej.cz/6500303/da-vinciho-demoni-s02e01-krev-na-rukou-cz-dabing.avi",
@@ -585076,22 +585070,29 @@
         "display_name": "Da Vinci's Demons S02E01 The Blood of Man SD CZ Dabing",
         "prepared_at": "2026-11-18T02:17:06.978040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137148",
-        "size_bytes": 357208420
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137148",
-        "size_bytes": 357208420,
-        "source_bytes_read": 357208420,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137148",
         "source_bytes_read": 357208420,
         "elapsed_seconds": 26.76,
         "finished_at": "2026-11-18T02:17:50.495852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137148",
+          "size_bytes": 357208420,
+          "source_bytes_read": 357208420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6500303",
+        "source_url": "https://sdilej.cz/6500303/da-vinciho-demoni-s02e01-krev-na-rukou-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137148",
+        "display_name": "Da Vinci's Demons S02E01 The Blood of Man SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:17:56.245121+00:00"
       }
     }
   },
@@ -585100,7 +585101,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:17:50.495871+00:00",
+  "updated_at": "2026-11-18T02:17:56.245138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
