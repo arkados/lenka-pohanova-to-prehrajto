@@ -579147,12 +579147,6 @@
     },
     "1098:6:13": {
       "episode_key": "jak prosté:s6:e13",
-      "claim": {
-        "worker_id": "ca6aaa961fd742cab9cd516db44f6eca-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:03:34.082648+00:00",
-        "lease_expires_at": "2026-11-18T06:03:34.082664+00:00"
-      },
       "source": {
         "source_id": "28202227",
         "source_url": "https://sdilej.cz/28202227/jak-proste-s06e13.mkv",
@@ -579177,22 +579171,29 @@
         "display_name": "Elementary S06E13 Breathe 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:03:38.821157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31133937",
-        "size_bytes": 553848651
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133937",
-        "size_bytes": 553848651,
-        "source_bytes_read": 553848651,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133937",
         "source_bytes_read": 553848651,
         "elapsed_seconds": 89.943,
         "finished_at": "2026-11-18T00:05:26.531482+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133937",
+          "size_bytes": 553848651,
+          "source_bytes_read": 553848651,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202227",
+        "source_url": "https://sdilej.cz/28202227/jak-proste-s06e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133937",
+        "display_name": "Elementary S06E13 Breathe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:05:34.485486+00:00"
       }
     },
     "1098:6:14": {
@@ -579238,7 +579239,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:05:26.531503+00:00",
+  "updated_at": "2026-11-18T00:05:34.485505+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
