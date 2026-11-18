@@ -619405,12 +619405,6 @@
     },
     "1117:5:10": {
       "episode_key": "nová holka:s5:e10",
-      "claim": {
-        "worker_id": "7767852c66c84f7a828114ac119b33a9-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:27:41.929618+00:00",
-        "lease_expires_at": "2026-11-19T00:27:41.929634+00:00"
-      },
       "source": {
         "source_id": "7992883",
         "source_url": "https://sdilej.cz/7992883/nova.holka.05x10.dvb-t.cz.avi",
@@ -619435,22 +619429,29 @@
         "display_name": "New Girl S05E10 Goosebumps Walkaway SD CZ Dabing",
         "prepared_at": "2026-11-18T18:27:56.163626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157219",
-        "size_bytes": 317429400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157219",
-        "size_bytes": 317429400,
-        "source_bytes_read": 317429400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157219",
         "source_bytes_read": 317429400,
         "elapsed_seconds": 30.008,
         "finished_at": "2026-11-18T18:29:02.328126+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157219",
+          "size_bytes": 317429400,
+          "source_bytes_read": 317429400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992883",
+        "source_url": "https://sdilej.cz/7992883/nova.holka.05x10.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157219",
+        "display_name": "New Girl S05E10 Goosebumps Walkaway SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:29:16.927007+00:00"
       }
     },
     "1117:5:11": {
@@ -619561,7 +619562,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:29:12.064913+00:00",
+  "updated_at": "2026-11-18T18:29:16.927028+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
