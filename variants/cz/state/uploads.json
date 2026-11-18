@@ -622608,12 +622608,6 @@
     },
     "920:3:1": {
       "episode_key": "sběratelé kostí:s3:e1",
-      "claim": {
-        "worker_id": "21d16f2f3f3d4fe2802892248826a542-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:13:32.052505+00:00",
-        "lease_expires_at": "2026-11-19T01:13:32.052526+00:00"
-      },
       "source": {
         "source_id": "35211771",
         "source_url": "https://sdilej.cz/35211771/sberatele-kosti-s03e01-2007-czdab.1080p-lebka-na-prednim-skle.mkv",
@@ -622638,22 +622632,29 @@
         "display_name": "Bones S03E01 The Widow's Son in the Windshield 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:13:42.631075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158163",
-        "size_bytes": 663632248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158163",
-        "size_bytes": 663632248,
-        "source_bytes_read": 663632248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158163",
         "source_bytes_read": 663632248,
         "elapsed_seconds": 48.374,
         "finished_at": "2026-11-18T19:15:03.784789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158163",
+          "size_bytes": 663632248,
+          "source_bytes_read": 663632248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211771",
+        "source_url": "https://sdilej.cz/35211771/sberatele-kosti-s03e01-2007-czdab.1080p-lebka-na-prednim-skle.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158163",
+        "display_name": "Bones S03E01 The Widow's Son in the Windshield 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:15:15.395916+00:00"
       }
     },
     "920:3:2": {
@@ -622735,7 +622736,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:15:08.766070+00:00",
+  "updated_at": "2026-11-18T19:15:15.395936+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
