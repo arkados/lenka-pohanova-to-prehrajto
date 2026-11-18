@@ -599273,12 +599273,6 @@
     },
     "1967:1:3": {
       "episode_key": "vraždy v midsomeru:s1:e3",
-      "claim": {
-        "worker_id": "bc5553a693dd445aba0fc97ad6037098-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T07:52:56.068290+00:00",
-        "lease_expires_at": "2026-11-18T13:52:56.068300+00:00"
-      },
       "source": {
         "source_id": "27560850",
         "source_url": "https://sdilej.cz/27560850/vrazdy-v-midsomeru-s01e03-smrt-darebaka.mkv",
@@ -599303,22 +599297,29 @@
         "display_name": "Midsomer Murders S01E03 Death of a Hollow Man 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:53:04.977324+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144550",
-        "size_bytes": 2238293454
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144550",
-        "size_bytes": 2238293454,
-        "source_bytes_read": 2238293454,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144550",
         "source_bytes_read": 2238293454,
         "elapsed_seconds": 616.881,
         "finished_at": "2026-11-18T08:03:42.869183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144550",
+          "size_bytes": 2238293454,
+          "source_bytes_read": 2238293454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27560850",
+        "source_url": "https://sdilej.cz/27560850/vrazdy-v-midsomeru-s01e03-smrt-darebaka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144550",
+        "display_name": "Midsomer Murders S01E03 Death of a Hollow Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T08:03:48.872224+00:00"
       }
     },
     "1967:1:4": {
@@ -599364,7 +599365,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T08:03:42.869219+00:00",
+  "updated_at": "2026-11-18T08:03:48.872239+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
