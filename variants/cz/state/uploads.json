@@ -624281,12 +624281,6 @@
     },
     "920:5:3": {
       "episode_key": "sběratelé kostí:s5:e3",
-      "claim": {
-        "worker_id": "09e43aaad88e4386a1a4329fadd0aef8-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:43:17.981426+00:00",
-        "lease_expires_at": "2026-11-19T01:43:17.981441+00:00"
-      },
       "source": {
         "source_id": "28702774",
         "source_url": "https://sdilej.cz/28702774/sberatele-kosti-05x03.avi",
@@ -624311,22 +624305,29 @@
         "display_name": "Bones S05E03 The Plain in the Prodigy SD CZ Dabing",
         "prepared_at": "2026-11-18T19:43:44.720020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158581",
-        "size_bytes": 340197942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158581",
-        "size_bytes": 340197942,
-        "source_bytes_read": 340197942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158581",
         "source_bytes_read": 340197942,
         "elapsed_seconds": 15.066,
         "finished_at": "2026-11-18T19:44:21.617777+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158581",
+          "size_bytes": 340197942,
+          "source_bytes_read": 340197942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28702774",
+        "source_url": "https://sdilej.cz/28702774/sberatele-kosti-05x03.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158581",
+        "display_name": "Bones S05E03 The Plain in the Prodigy SD CZ Dabing",
+        "uploaded_at": "2026-11-18T19:44:32.465327+00:00"
       }
     }
   },
@@ -624335,7 +624336,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:44:26.458277+00:00",
+  "updated_at": "2026-11-18T19:44:32.465346+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
