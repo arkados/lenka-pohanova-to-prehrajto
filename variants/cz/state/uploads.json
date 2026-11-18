@@ -602755,12 +602755,6 @@
     },
     "2542:2:4": {
       "episode_key": "inspektor george gently:s2:e4",
-      "claim": {
-        "worker_id": "214485e2169f4d14ada121ed37e454f3-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T11:32:07.120056+00:00",
-        "lease_expires_at": "2026-11-18T17:32:07.120077+00:00"
-      },
       "source": {
         "source_id": "23479927",
         "source_url": "https://sdilej.cz/23479927/inspektor-george-gently-02x04-mrtvy-ve-mlyne-1080i-hevc-hdtv-cz.mkv",
@@ -602785,22 +602779,29 @@
         "display_name": "Inspector George Gently S02E04 Gently Through the Mill 1080p CZ Dabing",
         "prepared_at": "2026-11-18T11:32:13.249075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31149988",
-        "size_bytes": 1105896326
-      },
-      "transfer_receipt": {
-        "target_video_id": "31149988",
-        "size_bytes": 1105896326,
-        "source_bytes_read": 1105896326,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31149988",
         "source_bytes_read": 1105896326,
         "elapsed_seconds": 259.38,
         "finished_at": "2026-11-18T11:36:55.126072+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31149988",
+          "size_bytes": 1105896326,
+          "source_bytes_read": 1105896326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23479927",
+        "source_url": "https://sdilej.cz/23479927/inspektor-george-gently-02x04-mrtvy-ve-mlyne-1080i-hevc-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31149988",
+        "display_name": "Inspector George Gently S02E04 Gently Through the Mill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:37:01.092988+00:00"
       }
     },
     "2542:3:1": {
@@ -602883,7 +602884,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:36:55.126090+00:00",
+  "updated_at": "2026-11-18T11:37:01.093004+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
