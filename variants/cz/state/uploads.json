@@ -624503,12 +624503,6 @@
     },
     "920:5:7": {
       "episode_key": "sběratelé kostí:s5:e7",
-      "claim": {
-        "worker_id": "5230c2fa32644e66a7c2ddeceb1d35aa-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:46:21.150883+00:00",
-        "lease_expires_at": "2026-11-19T01:46:21.150900+00:00"
-      },
       "source": {
         "source_id": "35213223",
         "source_url": "https://sdilej.cz/35213223/sberatele-kosti-s05e07-2009-czdab.1080p-trpaslik-v-bahne.mkv",
@@ -624533,22 +624527,29 @@
         "display_name": "Bones S05E07 The Dwarf in the Dirt 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:46:50.931642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158655",
-        "size_bytes": 950048531
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158655",
-        "size_bytes": 950048531,
-        "source_bytes_read": 950048531,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158655",
         "source_bytes_read": 950048531,
         "elapsed_seconds": 51.593,
         "finished_at": "2026-11-18T19:48:14.392317+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158655",
+          "size_bytes": 950048531,
+          "source_bytes_read": 950048531,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35213223",
+        "source_url": "https://sdilej.cz/35213223/sberatele-kosti-s05e07-2009-czdab.1080p-trpaslik-v-bahne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158655",
+        "display_name": "Bones S05E07 The Dwarf in the Dirt 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:48:31.443621+00:00"
       }
     },
     "920:5:8": {
@@ -624682,7 +624683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:48:25.380686+00:00",
+  "updated_at": "2026-11-18T19:48:31.443639+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
