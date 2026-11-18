@@ -594273,12 +594273,6 @@
     },
     "1217:3:7": {
       "episode_key": "pustiny:s3:e7",
-      "claim": {
-        "worker_id": "7857ea21e1b54251bd0eeb30f380bb02-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:14:13.633546+00:00",
-        "lease_expires_at": "2026-11-18T11:14:13.633559+00:00"
-      },
       "source": {
         "source_id": "30660633",
         "source_url": "https://sdilej.cz/30660633/pustiny-into-the-badlands-s03e07.cz.mkv",
@@ -594303,22 +594297,29 @@
         "display_name": "Into the Badlands S03E07 Dragonfly's Last Dance 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:14:30.668170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141310",
-        "size_bytes": 875589596
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141310",
-        "size_bytes": 875589596,
-        "source_bytes_read": 875589596,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141310",
         "source_bytes_read": 875589596,
         "elapsed_seconds": 130.967,
         "finished_at": "2026-11-18T05:17:01.566805+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141310",
+          "size_bytes": 875589596,
+          "source_bytes_read": 875589596,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660633",
+        "source_url": "https://sdilej.cz/30660633/pustiny-into-the-badlands-s03e07.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141310",
+        "display_name": "Into the Badlands S03E07 Dragonfly's Last Dance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:17:12.305262+00:00"
       }
     },
     "1217:3:8": {
@@ -594448,7 +594449,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:17:06.411349+00:00",
+  "updated_at": "2026-11-18T05:17:12.305282+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
