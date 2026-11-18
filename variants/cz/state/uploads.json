@@ -580377,12 +580377,6 @@
     },
     "581:2:6": {
       "episode_key": "král tulsy:s2:e6",
-      "claim": {
-        "worker_id": "d4acc7cc5d4b424492e15fccb199623b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:27:33.983476+00:00",
-        "lease_expires_at": "2026-11-18T06:27:33.983492+00:00"
-      },
       "source": {
         "source_id": "34346952",
         "source_url": "https://sdilej.cz/34346952/kral-tulsy-s02e06-navigator-cz-dabing-2160p-uhd.mkv",
@@ -580406,7 +580400,17 @@
         },
         "display_name": "Tulsa King S02E06 Navigator 4K CZ Dabing",
         "prepared_at": "2026-11-18T00:27:38.127754+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34346952:https://sdilej.cz/34346952/kral-tulsy-s02e06-navigator-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-18T00:27:50.001717+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:27:50.001756+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -580414,7 +580418,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:27:42.276103+00:00",
+  "updated_at": "2026-11-18T00:27:50.001761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -580822,12 +580826,8 @@
     "581": {
       "recent_failures": [
         {
-          "identity": "581:2:3",
-          "at": "2026-11-17T23:40:04.291244+00:00"
-        },
-        {
-          "identity": "581:2:4",
-          "at": "2026-11-17T23:40:49.050902+00:00"
+          "identity": "581:2:6",
+          "at": "2026-11-18T00:27:50.001717+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:27:18.608386+00:00"
