@@ -632339,12 +632339,6 @@
     },
     "1405:1:7": {
       "episode_key": "námořní vyšetřovací služba:s1:e7",
-      "claim": {
-        "worker_id": "27adaa38ea4e4c908401c07621019da9-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:29:11.743196+00:00",
-        "lease_expires_at": "2026-11-19T04:29:11.743209+00:00"
-      },
       "source": {
         "source_id": "33959368",
         "source_url": "https://sdilej.cz/33959368/ncis-s01e07-cz.mp4",
@@ -632369,22 +632363,29 @@
         "display_name": "NCIS S01E07 Sub Rosa 1440p CZ Dabing",
         "prepared_at": "2026-11-18T22:29:24.151709+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161611",
-        "size_bytes": 2921036252
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161611",
-        "size_bytes": 2921036252,
-        "source_bytes_read": 2921036252,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161611",
         "source_bytes_read": 2921036252,
         "elapsed_seconds": 239.439,
         "finished_at": "2026-11-18T22:33:47.943757+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161611",
+          "size_bytes": 2921036252,
+          "source_bytes_read": 2921036252,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33959368",
+        "source_url": "https://sdilej.cz/33959368/ncis-s01e07-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161611",
+        "display_name": "NCIS S01E07 Sub Rosa 1440p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:34:03.623497+00:00"
       }
     },
     "1405:1:8": {
@@ -632514,7 +632515,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:33:59.397194+00:00",
+  "updated_at": "2026-11-18T22:34:03.623511+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
