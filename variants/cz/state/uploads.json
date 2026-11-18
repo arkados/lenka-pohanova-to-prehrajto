@@ -586790,12 +586790,6 @@
     },
     "922:3:3": {
       "episode_key": "kazatel:s3:e3",
-      "claim": {
-        "worker_id": "98e5d7c3d74e46c985abb29d617f6de6-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:44:34.070398+00:00",
-        "lease_expires_at": "2026-11-18T08:44:34.070414+00:00"
-      },
       "source": {
         "source_id": "33820207",
         "source_url": "https://sdilej.cz/33820207/kazatel-s03e03-cz-dabing-1080p-full-hd.mkv",
@@ -586819,7 +586813,17 @@
         },
         "display_name": "Preacher S03E03 Gonna Hurt 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:44:46.748661+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820207:https://sdilej.cz/33820207/kazatel-s03e03-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T02:45:04.410229+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T02:45:04.410297+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "922:3:4": {
       "episode_key": "kazatel:s3:e4",
@@ -586863,7 +586867,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:44:59.162381+00:00",
+  "updated_at": "2026-11-18T02:45:04.410304+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -587294,9 +587298,13 @@
         {
           "identity": "922:3:2",
           "at": "2026-11-18T02:44:30.226540+00:00"
+        },
+        {
+          "identity": "922:3:3",
+          "at": "2026-11-18T02:45:04.410229+00:00"
         }
       ],
-      "retry_after": "2026-11-18T02:36:49.314688+00:00"
+      "retry_after": "2026-11-18T02:55:04.410229+00:00"
     }
   }
 }
