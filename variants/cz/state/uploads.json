@@ -625280,12 +625280,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "01733c98e0f14e27a40e726dfdd9c9a0-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:14:32.511974+00:00",
-        "lease_expires_at": "2026-11-19T02:14:32.511991+00:00"
-      },
       "source": {
         "source_id": "22842184",
         "source_url": "https://sdilej.cz/22842184/sberatele-kosti-06x03.avi",
@@ -625310,22 +625304,29 @@
         "display_name": "Bones S06E03 The Maggots in the Meathead SD CZ Dabing",
         "prepared_at": "2026-11-18T20:14:48.134931+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159109",
-        "size_bytes": 349641902
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159109",
-        "size_bytes": 349641902,
-        "source_bytes_read": 349641902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159109",
         "source_bytes_read": 349641902,
         "elapsed_seconds": 28.776,
         "finished_at": "2026-11-18T20:15:47.549172+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159109",
+          "size_bytes": 349641902,
+          "source_bytes_read": 349641902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22842184",
+        "source_url": "https://sdilej.cz/22842184/sberatele-kosti-06x03.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159109",
+        "display_name": "Bones S06E03 The Maggots in the Meathead SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:16:01.056297+00:00"
       }
     },
     "920:6:4": {
@@ -626059,7 +626060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:15:56.794428+00:00",
+  "updated_at": "2026-11-18T20:16:01.056331+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
