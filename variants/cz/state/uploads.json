@@ -580433,12 +580433,6 @@
     },
     "581:2:7": {
       "episode_key": "král tulsy:s2:e7",
-      "claim": {
-        "worker_id": "5d8e7445e56c449fbd3d824bdfbe72b0-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:27:53.731224+00:00",
-        "lease_expires_at": "2026-11-18T06:27:53.731237+00:00"
-      },
       "source": {
         "source_id": "34346968",
         "source_url": "https://sdilej.cz/34346968/kral-tulsy-s02e07-zivotni-podpora-cz-dabing-2160p-uhd.mkv",
@@ -580462,7 +580456,17 @@
         },
         "display_name": "Tulsa King S02E07 Life Support 4K CZ Dabing",
         "prepared_at": "2026-11-18T00:27:59.624233+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34346968:https://sdilej.cz/34346968/kral-tulsy-s02e07-zivotni-podpora-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-18T00:28:11.346820+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:28:11.346855+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -580470,7 +580474,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:28:07.162328+00:00",
+  "updated_at": "2026-11-18T00:28:11.346859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -580880,6 +580884,10 @@
         {
           "identity": "581:2:6",
           "at": "2026-11-18T00:27:50.001717+00:00"
+        },
+        {
+          "identity": "581:2:7",
+          "at": "2026-11-18T00:28:11.346820+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:27:18.608386+00:00"
