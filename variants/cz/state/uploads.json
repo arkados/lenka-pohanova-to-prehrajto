@@ -620684,12 +620684,6 @@
     },
     "920:1:4": {
       "episode_key": "sběratelé kostí:s1:e4",
-      "claim": {
-        "worker_id": "7d70da5e77a34aaf8515ca0fac835ef4-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:43:54.932350+00:00",
-        "lease_expires_at": "2026-11-19T00:43:54.932365+00:00"
-      },
       "source": {
         "source_id": "29506873",
         "source_url": "https://sdilej.cz/29506873/sberatele-kosti-01x04.avi",
@@ -620714,22 +620708,29 @@
         "display_name": "Bones S01E04 The Man in the Bear SD CZ Dabing",
         "prepared_at": "2026-11-18T18:44:04.627531+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157527",
-        "size_bytes": 419518464
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157527",
-        "size_bytes": 419518464,
-        "source_bytes_read": 419518464,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157527",
         "source_bytes_read": 419518464,
         "elapsed_seconds": 25.75,
         "finished_at": "2026-11-18T18:44:54.590972+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157527",
+          "size_bytes": 419518464,
+          "source_bytes_read": 419518464,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29506873",
+        "source_url": "https://sdilej.cz/29506873/sberatele-kosti-01x04.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157527",
+        "display_name": "Bones S01E04 The Man in the Bear SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:45:13.939597+00:00"
       }
     },
     "920:1:5": {
@@ -620807,7 +620808,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:45:09.630269+00:00",
+  "updated_at": "2026-11-18T18:45:13.939617+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
