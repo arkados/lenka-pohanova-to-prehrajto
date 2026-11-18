@@ -589887,12 +589887,6 @@
     },
     "1765:3:3": {
       "episode_key": "záchranáři l. a.:s3:e3",
-      "claim": {
-        "worker_id": "9bed168aed524764823ad1fd43d4229e-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:44:37.364541+00:00",
-        "lease_expires_at": "2026-11-18T09:44:37.364557+00:00"
-      },
       "source": {
         "source_id": "35339646",
         "source_url": "https://sdilej.cz/35339646/9-1-1-s03e03-cz-dabing.mkv",
@@ -589916,7 +589910,17 @@
         },
         "display_name": "9-1-1 S03E03 The Searchers 720p CZ Dabing",
         "prepared_at": "2026-11-18T03:44:45.293382+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339646:https://sdilej.cz/35339646/9-1-1-s03e03-cz-dabing.mkv",
+        "at": "2026-11-18T03:45:00.115608+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:45:00.115692+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1765:3:4": {
       "episode_key": "záchranáři l. a.:s3:e4",
@@ -589933,7 +589937,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:44:55.080756+00:00",
+  "updated_at": "2026-11-18T03:45:00.115699+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590381,8 +590385,13 @@
         {
           "identity": "1765:3:2",
           "at": "2026-11-18T03:44:41.360772+00:00"
+        },
+        {
+          "identity": "1765:3:3",
+          "at": "2026-11-18T03:45:00.115608+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-18T03:55:00.115608+00:00"
     }
   }
 }
