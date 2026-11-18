@@ -622714,12 +622714,6 @@
     },
     "920:3:3": {
       "episode_key": "sběratelé kostí:s3:e3",
-      "claim": {
-        "worker_id": "54f1a0785aa744feae2c5e0614ab7f2b-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:14:54.216462+00:00",
-        "lease_expires_at": "2026-11-19T01:14:54.216478+00:00"
-      },
       "source": {
         "source_id": "35211801",
         "source_url": "https://sdilej.cz/35211801/sberatele-kosti-s03e03-2007-czdab.1080p-smrt-kone.mkv",
@@ -622744,22 +622738,29 @@
         "display_name": "Bones S03E03 Death in the Saddle 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:14:59.179977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158183",
-        "size_bytes": 846323072
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158183",
-        "size_bytes": 846323072,
-        "source_bytes_read": 846323072,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158183",
         "source_bytes_read": 846323072,
         "elapsed_seconds": 65.712,
         "finished_at": "2026-11-18T19:16:37.801969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158183",
+          "size_bytes": 846323072,
+          "source_bytes_read": 846323072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211801",
+        "source_url": "https://sdilej.cz/35211801/sberatele-kosti-s03e03-2007-czdab.1080p-smrt-kone.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158183",
+        "display_name": "Bones S03E03 Death in the Saddle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:16:49.217738+00:00"
       }
     },
     "920:3:4": {
@@ -622805,7 +622806,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:16:42.996558+00:00",
+  "updated_at": "2026-11-18T19:16:49.217757+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
