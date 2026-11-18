@@ -606698,12 +606698,6 @@
     },
     "576:4:5": {
       "episode_key": "tým seal:s4:e5",
-      "claim": {
-        "worker_id": "f2e86c70b714460e8e4e5403de299fe1-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:15:38.851091+00:00",
-        "lease_expires_at": "2026-11-18T19:15:38.851108+00:00"
-      },
       "source": {
         "source_id": "29865463",
         "source_url": "https://sdilej.cz/29865463/seal-team-s04e05-1080p-cz-dabing.mkv",
@@ -606728,22 +606722,29 @@
         "display_name": "SEAL Team S04E05 The Carrot or The Stick 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:15:44.442219+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152008",
-        "size_bytes": 867676840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152008",
-        "size_bytes": 867676840,
-        "source_bytes_read": 867676840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152008",
         "source_bytes_read": 867676840,
         "elapsed_seconds": 144.744,
         "finished_at": "2026-11-18T13:18:31.438318+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152008",
+          "size_bytes": 867676840,
+          "source_bytes_read": 867676840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29865463",
+        "source_url": "https://sdilej.cz/29865463/seal-team-s04e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152008",
+        "display_name": "SEAL Team S04E05 The Carrot or The Stick 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:18:55.383015+00:00"
       }
     },
     "576:4:8": {
@@ -606923,7 +606924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:18:51.138722+00:00",
+  "updated_at": "2026-11-18T13:18:55.383031+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
