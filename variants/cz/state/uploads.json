@@ -606772,12 +606772,6 @@
     },
     "576:4:11": {
       "episode_key": "tým seal:s4:e11",
-      "claim": {
-        "worker_id": "d4d3bb2e0d4e44e1baf77a60469ec459-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:15:58.683529+00:00",
-        "lease_expires_at": "2026-11-18T19:15:58.683541+00:00"
-      },
       "source": {
         "source_id": "29865621",
         "source_url": "https://sdilej.cz/29865621/seal-team-s04e11-1080p-cz-dabing.mkv",
@@ -606802,22 +606796,29 @@
         "display_name": "SEAL Team S04E11 Limits of Loyalty 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:16:11.274443+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152020",
-        "size_bytes": 868769260
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152020",
-        "size_bytes": 868769260,
-        "source_bytes_read": 868769260,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152020",
         "source_bytes_read": 868769260,
         "elapsed_seconds": 51.175,
         "finished_at": "2026-11-18T13:17:26.313623+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152020",
+          "size_bytes": 868769260,
+          "source_bytes_read": 868769260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29865621",
+        "source_url": "https://sdilej.cz/29865621/seal-team-s04e11-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152020",
+        "display_name": "SEAL Team S04E11 Limits of Loyalty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:17:34.244308+00:00"
       }
     }
   },
@@ -606826,7 +606827,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:17:26.313641+00:00",
+  "updated_at": "2026-11-18T13:17:34.244326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
