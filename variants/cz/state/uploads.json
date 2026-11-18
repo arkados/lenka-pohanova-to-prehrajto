@@ -600803,12 +600803,6 @@
     },
     "1967:8:7": {
       "episode_key": "vraždy v midsomeru:s8:e7",
-      "claim": {
-        "worker_id": "3090e3bb66d64cb5ae34a1e70297b4f5-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:35:21.938024+00:00",
-        "lease_expires_at": "2026-11-18T15:35:21.938036+00:00"
-      },
       "source": {
         "source_id": "27573225",
         "source_url": "https://sdilej.cz/27573225/vrazdy-v-midsomeru-s08e07-rodinna-firma.mkv",
@@ -600833,22 +600827,29 @@
         "display_name": "Midsomer Murders S08E07 Hidden Depths 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:35:26.713178+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31146738",
-        "size_bytes": 2055769005
-      },
-      "transfer_receipt": {
-        "target_video_id": "31146738",
-        "size_bytes": 2055769005,
-        "source_bytes_read": 2055769005,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31146738",
         "source_bytes_read": 2055769005,
         "elapsed_seconds": 253.623,
         "finished_at": "2026-11-18T09:39:56.492310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31146738",
+          "size_bytes": 2055769005,
+          "source_bytes_read": 2055769005,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27573225",
+        "source_url": "https://sdilej.cz/27573225/vrazdy-v-midsomeru-s08e07-rodinna-firma.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31146738",
+        "display_name": "Midsomer Murders S08E07 Hidden Depths 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:40:04.195801+00:00"
       }
     },
     "1967:8:8": {
@@ -600894,7 +600895,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:39:56.492329+00:00",
+  "updated_at": "2026-11-18T09:40:04.195816+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
