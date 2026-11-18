@@ -598879,12 +598879,6 @@
     },
     "1765:5:7": {
       "episode_key": "záchranáři l. a.:s5:e7",
-      "claim": {
-        "worker_id": "153055baf4394538b81fee3eb6ca9b58-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T07:24:01.237889+00:00",
-        "lease_expires_at": "2026-11-18T13:24:01.237902+00:00"
-      },
       "source": {
         "source_id": "34634840",
         "source_url": "https://sdilej.cz/34634840/9-1-1-s05e07.mp4",
@@ -598909,22 +598903,29 @@
         "display_name": "9-1-1 S05E07 Ghost Stories 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:24:07.054123+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144099",
-        "size_bytes": 2246187681
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144099",
-        "size_bytes": 2246187681,
-        "source_bytes_read": 2246187681,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144099",
         "source_bytes_read": 2246187681,
         "elapsed_seconds": 401.369,
         "finished_at": "2026-11-18T07:31:08.285834+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144099",
+          "size_bytes": 2246187681,
+          "source_bytes_read": 2246187681,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634840",
+        "source_url": "https://sdilej.cz/34634840/9-1-1-s05e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144099",
+        "display_name": "9-1-1 S05E07 Ghost Stories 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:31:16.395675+00:00"
       }
     },
     "1765:5:8": {
@@ -599007,7 +599008,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:31:08.285855+00:00",
+  "updated_at": "2026-11-18T07:31:16.395694+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
