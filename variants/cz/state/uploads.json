@@ -634277,12 +634277,6 @@
     },
     "1405:3:8": {
       "episode_key": "námořní vyšetřovací služba:s3:e8",
-      "claim": {
-        "worker_id": "d3388dba32814d649a11a70b934ed1a1-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:15:24.890167+00:00",
-        "lease_expires_at": "2026-11-19T05:15:24.890178+00:00"
-      },
       "source": {
         "source_id": "30679779",
         "source_url": "https://sdilej.cz/30679779/namorni-vysetrovaci-sluzba-s03e08.mkv",
@@ -634307,22 +634301,29 @@
         "display_name": "NCIS S03E08 Under Covers 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:15:29.712463+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162659",
-        "size_bytes": 994352677
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162659",
-        "size_bytes": 994352677,
-        "source_bytes_read": 994352677,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162659",
         "source_bytes_read": 994352677,
         "elapsed_seconds": 77.272,
         "finished_at": "2026-11-18T23:17:08.438649+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162659",
+          "size_bytes": 994352677,
+          "source_bytes_read": 994352677,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30679779",
+        "source_url": "https://sdilej.cz/30679779/namorni-vysetrovaci-sluzba-s03e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162659",
+        "display_name": "NCIS S03E08 Under Covers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:17:17.945234+00:00"
       }
     },
     "1405:3:9": {
@@ -634405,7 +634406,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:17:08.438669+00:00",
+  "updated_at": "2026-11-18T23:17:17.945249+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
