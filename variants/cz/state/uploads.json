@@ -609044,12 +609044,6 @@
     },
     "1195:1:9": {
       "episode_key": "exorcista:s1:e9",
-      "claim": {
-        "worker_id": "e3816418c3844397bbcb96d00966b799-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T14:34:35.845061+00:00",
-        "lease_expires_at": "2026-11-18T20:34:35.845079+00:00"
-      },
       "source": {
         "source_id": "27762898",
         "source_url": "https://sdilej.cz/27762898/exorcista-the-exorcist-s01e09-hd-cz-dabing.mkv",
@@ -609074,22 +609068,29 @@
         "display_name": "The Exorcist S01E09 Chapter Nine: 162 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:34:41.374826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153432",
-        "size_bytes": 1282626022
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153432",
-        "size_bytes": 1282626022,
-        "source_bytes_read": 1282626022,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153432",
         "source_bytes_read": 1282626022,
         "elapsed_seconds": 547.928,
         "finished_at": "2026-11-18T14:44:16.082704+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153432",
+          "size_bytes": 1282626022,
+          "source_bytes_read": 1282626022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27762898",
+        "source_url": "https://sdilej.cz/27762898/exorcista-the-exorcist-s01e09-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153432",
+        "display_name": "The Exorcist S01E09 Chapter Nine: 162 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T14:44:26.465201+00:00"
       }
     },
     "1195:1:10": {
@@ -609324,7 +609325,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T14:44:19.925334+00:00",
+  "updated_at": "2026-11-18T14:44:26.465218+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
