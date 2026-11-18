@@ -588682,12 +588682,6 @@
     },
     "922:3:10": {
       "episode_key": "kazatel:s3:e10",
-      "claim": {
-        "worker_id": "6a468c6d855b4d9f8c2c90a19a03158c-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:10:46.610898+00:00",
-        "lease_expires_at": "2026-11-18T09:10:46.610912+00:00"
-      },
       "source": {
         "source_id": "33820248",
         "source_url": "https://sdilej.cz/33820248/kazatel-s03e10-cz-dabing-1080p-full-hd.mkv",
@@ -588711,7 +588705,17 @@
         },
         "display_name": "Preacher S03E10 The Light Above 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:10:51.247773+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820248:https://sdilej.cz/33820248/kazatel-s03e10-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T03:11:03.121010+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:11:03.121100+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -588719,7 +588723,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:10:55.313493+00:00",
+  "updated_at": "2026-11-18T03:11:03.121107+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -589142,9 +589146,13 @@
         {
           "identity": "922:3:2",
           "at": "2026-11-18T03:10:33.487244+00:00"
+        },
+        {
+          "identity": "922:3:10",
+          "at": "2026-11-18T03:11:03.121010+00:00"
         }
       ],
-      "retry_after": "2026-11-18T03:09:15.844932+00:00"
+      "retry_after": "2026-11-18T03:21:03.121010+00:00"
     }
   }
 }
