@@ -625337,12 +625337,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "41c805526db849ffb20f0a5fa449e431-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:14:58.546666+00:00",
-        "lease_expires_at": "2026-11-19T02:14:58.546684+00:00"
-      },
       "source": {
         "source_id": "35231342",
         "source_url": "https://sdilej.cz/35231342/sberatele-kosti-s06e04-2010-czdab.1080p-hlava-v-kontejneru.mkv",
@@ -625367,22 +625361,29 @@
         "display_name": "Bones S06E04 The Body and the Bounty 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:15:08.541804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159115",
-        "size_bytes": 1275031036
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159115",
-        "size_bytes": 1275031036,
-        "source_bytes_read": 1275031036,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159115",
         "source_bytes_read": 1275031036,
         "elapsed_seconds": 156.977,
         "finished_at": "2026-11-18T20:18:15.473004+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159115",
+          "size_bytes": 1275031036,
+          "source_bytes_read": 1275031036,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35231342",
+        "source_url": "https://sdilej.cz/35231342/sberatele-kosti-s06e04-2010-czdab.1080p-hlava-v-kontejneru.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159115",
+        "display_name": "Bones S06E04 The Body and the Bounty 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:18:22.759474+00:00"
       }
     },
     "920:6:7": {
@@ -626179,7 +626180,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:18:15.473031+00:00",
+  "updated_at": "2026-11-18T20:18:22.759492+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
