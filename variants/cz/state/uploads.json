@@ -587170,12 +587170,6 @@
     },
     "2690:1:13": {
       "episode_key": "rodinka na kousky:s1:e13",
-      "claim": {
-        "worker_id": "a4ec5c9ed18a4e37a03b5c24af5536ac-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:47:57.576795+00:00",
-        "lease_expires_at": "2026-11-18T08:47:57.576811+00:00"
-      },
       "source": {
         "source_id": "6298643",
         "source_url": "https://sdilej.cz/6298643/rodinka.na.kousky.01x13.dvb-t.cz.avi",
@@ -587200,22 +587194,29 @@
         "display_name": "Life in Pieces S01E13 Party Lobster Gym Sale SD CZ Dabing",
         "prepared_at": "2026-11-18T02:48:16.516678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137754",
-        "size_bytes": 310755166
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137754",
-        "size_bytes": 310755166,
-        "source_bytes_read": 310755166,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137754",
         "source_bytes_read": 310755166,
         "elapsed_seconds": 19.405,
         "finished_at": "2026-11-18T02:49:04.192679+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137754",
+          "size_bytes": 310755166,
+          "source_bytes_read": 310755166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6298643",
+        "source_url": "https://sdilej.cz/6298643/rodinka.na.kousky.01x13.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137754",
+        "display_name": "Life in Pieces S01E13 Party Lobster Gym Sale SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:49:13.952253+00:00"
       }
     },
     "2690:1:14": {
@@ -587297,7 +587298,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:49:10.006184+00:00",
+  "updated_at": "2026-11-18T02:49:13.952271+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
