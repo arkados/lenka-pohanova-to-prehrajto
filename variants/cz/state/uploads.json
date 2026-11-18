@@ -607653,12 +607653,6 @@
     },
     "576:6:2": {
       "episode_key": "tým seal:s6:e2",
-      "claim": {
-        "worker_id": "6088068ab3f74855b8f8468ff2c05017-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:35:23.557832+00:00",
-        "lease_expires_at": "2026-11-18T19:35:23.557844+00:00"
-      },
       "source": {
         "source_id": "29983688",
         "source_url": "https://sdilej.cz/29983688/seal-team-s06e02-1080p-cz-dabing.mkv",
@@ -607683,22 +607677,29 @@
         "display_name": "SEAL Team S06E02 Crawl, Walk, Run 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:35:32.932500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152378",
-        "size_bytes": 964466399
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152378",
-        "size_bytes": 964466399,
-        "source_bytes_read": 964466399,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152378",
         "source_bytes_read": 964466399,
         "elapsed_seconds": 209.572,
         "finished_at": "2026-11-18T13:39:26.711308+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152378",
+          "size_bytes": 964466399,
+          "source_bytes_read": 964466399,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29983688",
+        "source_url": "https://sdilej.cz/29983688/seal-team-s06e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152378",
+        "display_name": "SEAL Team S06E02 Crawl, Walk, Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:39:34.014318+00:00"
       }
     },
     "576:6:4": {
@@ -607744,7 +607745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:39:26.711327+00:00",
+  "updated_at": "2026-11-18T13:39:34.014336+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
