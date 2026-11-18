@@ -628106,12 +628106,6 @@
     },
     "920:9:13": {
       "episode_key": "sběratelé kostí:s9:e13",
-      "claim": {
-        "worker_id": "ae76cb4b56074d2594d5c7472e6e3f3b-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:02:38.755807+00:00",
-        "lease_expires_at": "2026-11-19T03:02:38.755828+00:00"
-      },
       "source": {
         "source_id": "31064800",
         "source_url": "https://sdilej.cz/31064800/sberatele-kosti-09x13.avi",
@@ -628136,22 +628130,29 @@
         "display_name": "Bones S09E13 Big in the Philippines SD CZ Dabing",
         "prepared_at": "2026-11-18T21:02:52.293215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159909",
-        "size_bytes": 500672780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159909",
-        "size_bytes": 500672780,
-        "source_bytes_read": 500672780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159909",
         "source_bytes_read": 500672780,
         "elapsed_seconds": 28.013,
         "finished_at": "2026-11-18T21:03:57.823535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159909",
+          "size_bytes": 500672780,
+          "source_bytes_read": 500672780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31064800",
+        "source_url": "https://sdilej.cz/31064800/sberatele-kosti-09x13.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159909",
+        "display_name": "Bones S09E13 Big in the Philippines SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:04:08.919580+00:00"
       }
     },
     "920:9:14": {
@@ -628234,7 +628235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:04:02.481358+00:00",
+  "updated_at": "2026-11-18T21:04:08.919599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
