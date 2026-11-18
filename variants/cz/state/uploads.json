@@ -600562,12 +600562,6 @@
     },
     "1967:7:3": {
       "episode_key": "vraždy v midsomeru:s7:e3",
-      "claim": {
-        "worker_id": "ee5eb4c2d41a454ebe141d8e81c45ccc-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:20:56.801534+00:00",
-        "lease_expires_at": "2026-11-18T15:20:56.801545+00:00"
-      },
       "source": {
         "source_id": "27570301",
         "source_url": "https://sdilej.cz/27570301/vrazdy-v-midsomeru-s07e03-kral-rybar.mkv",
@@ -600592,22 +600586,29 @@
         "display_name": "Midsomer Murders S07E03 The Fisher King 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:21:05.820829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31146368",
-        "size_bytes": 2068558042
-      },
-      "transfer_receipt": {
-        "target_video_id": "31146368",
-        "size_bytes": 2068558042,
-        "source_bytes_read": 2068558042,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31146368",
         "source_bytes_read": 2068558042,
         "elapsed_seconds": 641.592,
         "finished_at": "2026-11-18T09:32:08.548659+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31146368",
+          "size_bytes": 2068558042,
+          "source_bytes_read": 2068558042,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27570301",
+        "source_url": "https://sdilej.cz/27570301/vrazdy-v-midsomeru-s07e03-kral-rybar.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31146368",
+        "display_name": "Midsomer Murders S07E03 The Fisher King 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:32:15.193918+00:00"
       }
     },
     "1967:8:1": {
@@ -600741,7 +600742,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:32:08.548680+00:00",
+  "updated_at": "2026-11-18T09:32:15.193937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
