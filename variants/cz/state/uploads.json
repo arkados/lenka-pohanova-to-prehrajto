@@ -596550,12 +596550,6 @@
     },
     "4102:1:1": {
       "episode_key": "scooby-doo na stopě:s1:e1",
-      "claim": {
-        "worker_id": "20e7aed66a5941ccb7d6fd56f5f4ed1c-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:31:38.932279+00:00",
-        "lease_expires_at": "2026-11-18T12:31:38.932292+00:00"
-      },
       "source": {
         "source_id": "25373272",
         "source_url": "https://sdilej.cz/25373272/scooby-doo.na.stope.s01e01.noc.zahadneho.rytire.sdtv.x264-pip.mp4",
@@ -596580,22 +596574,29 @@
         "display_name": "Scooby-Doo, Where Are You! S01E01 What a Night for a Knight SD CZ Dabing",
         "prepared_at": "2026-11-18T06:31:52.211828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142839",
-        "size_bytes": 147431522
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142839",
-        "size_bytes": 147431522,
-        "source_bytes_read": 147431522,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142839",
         "source_bytes_read": 147431522,
         "elapsed_seconds": 10.506,
         "finished_at": "2026-11-18T06:32:25.572791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142839",
+          "size_bytes": 147431522,
+          "source_bytes_read": 147431522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25373272",
+        "source_url": "https://sdilej.cz/25373272/scooby-doo.na.stope.s01e01.noc.zahadneho.rytire.sdtv.x264-pip.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142839",
+        "display_name": "Scooby-Doo, Where Are You! S01E01 What a Night for a Knight SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:32:36.245462+00:00"
       }
     },
     "4102:1:2": {
@@ -596654,7 +596655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:32:29.701018+00:00",
+  "updated_at": "2026-11-18T06:32:36.245482+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
