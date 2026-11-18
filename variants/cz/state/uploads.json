@@ -586280,12 +586280,6 @@
     },
     "2690:1:2": {
       "episode_key": "rodinka na kousky:s1:e2",
-      "claim": {
-        "worker_id": "f7efd7de4b214b9db4b671bcf4c4ff61-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:35:47.690204+00:00",
-        "lease_expires_at": "2026-11-18T08:35:47.690216+00:00"
-      },
       "source": {
         "source_id": "6105995",
         "source_url": "https://sdilej.cz/6105995/rodinka.na.kousky.01x02.dvb-t.cz.avi",
@@ -586310,22 +586304,29 @@
         "display_name": "Life in Pieces S01E02 Interruptus Date Breast Movin' SD CZ Dabing",
         "prepared_at": "2026-11-18T02:35:56.095086+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137494",
-        "size_bytes": 336054560
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137494",
-        "size_bytes": 336054560,
-        "source_bytes_read": 336054560,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137494",
         "source_bytes_read": 336054560,
         "elapsed_seconds": 29.194,
         "finished_at": "2026-11-18T02:36:44.405272+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137494",
+          "size_bytes": 336054560,
+          "source_bytes_read": 336054560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6105995",
+        "source_url": "https://sdilej.cz/6105995/rodinka.na.kousky.01x02.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137494",
+        "display_name": "Life in Pieces S01E02 Interruptus Date Breast Movin' SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:36:49.307847+00:00"
       }
     }
   },
@@ -586334,7 +586335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:36:44.405292+00:00",
+  "updated_at": "2026-11-18T02:36:49.307868+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
