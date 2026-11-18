@@ -613232,12 +613232,6 @@
     },
     "58:2:3": {
       "episode_key": "zaklínač:s2:e3",
-      "claim": {
-        "worker_id": "e7d8c44f7d914c3e87670474eddd147e-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:17:40.174199+00:00",
-        "lease_expires_at": "2026-11-18T22:17:40.174237+00:00"
-      },
       "source": {
         "source_id": "19211263",
         "source_url": "https://sdilej.cz/19211263/zaklinac-the-witcher-s02e03-ztraty-cz-dabing.mkv",
@@ -613262,22 +613256,29 @@
         "display_name": "The Witcher S02E03 What Is Lost 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:17:44.909348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155198",
-        "size_bytes": 5487258112
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155198",
-        "size_bytes": 5487258112,
-        "source_bytes_read": 5487258112,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155198",
         "source_bytes_read": 5487258112,
         "elapsed_seconds": 327.376,
         "finished_at": "2026-11-18T16:23:33.865555+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155198",
+          "size_bytes": 5487258112,
+          "source_bytes_read": 5487258112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19211263",
+        "source_url": "https://sdilej.cz/19211263/zaklinac-the-witcher-s02e03-ztraty-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155198",
+        "display_name": "The Witcher S02E03 What Is Lost 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:23:40.722942+00:00"
       }
     },
     "58:2:4": {
@@ -613425,7 +613426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:23:33.865589+00:00",
+  "updated_at": "2026-11-18T16:23:40.722963+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
