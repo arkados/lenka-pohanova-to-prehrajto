@@ -597176,12 +597176,6 @@
     },
     "4102:2:1": {
       "episode_key": "scooby-doo na stopě:s2:e1",
-      "claim": {
-        "worker_id": "3b979805d6d9465ea1e3cf36d59a1721-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:39:43.540381+00:00",
-        "lease_expires_at": "2026-11-18T12:39:43.540396+00:00"
-      },
       "source": {
         "source_id": "28552430",
         "source_url": "https://sdilej.cz/28552430/scooby-doo-na-stope-2x01-kdo-vas-najde-pane-hyde.avi",
@@ -597206,22 +597200,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E01 Nowhere to Hyde SD CZ Dabing",
         "prepared_at": "2026-11-18T06:39:56.330632+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143010",
-        "size_bytes": 153567484
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143010",
-        "size_bytes": 153567484,
-        "source_bytes_read": 153567484,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143010",
         "source_bytes_read": 153567484,
         "elapsed_seconds": 14.845,
         "finished_at": "2026-11-18T06:40:40.957195+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143010",
+          "size_bytes": 153567484,
+          "source_bytes_read": 153567484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28552430",
+        "source_url": "https://sdilej.cz/28552430/scooby-doo-na-stope-2x01-kdo-vas-najde-pane-hyde.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143010",
+        "display_name": "Scooby-Doo, Where Are You! S02E01 Nowhere to Hyde SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:40:54.975995+00:00"
       }
     },
     "4102:2:2": {
@@ -597313,7 +597314,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:40:50.108461+00:00",
+  "updated_at": "2026-11-18T06:40:54.976012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
