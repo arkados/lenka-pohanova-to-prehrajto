@@ -632135,12 +632135,6 @@
     },
     "1405:1:3": {
       "episode_key": "námořní vyšetřovací služba:s1:e3",
-      "claim": {
-        "worker_id": "6434ff7df8234fea9d2a1137a5d628de-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:19:33.179185+00:00",
-        "lease_expires_at": "2026-11-19T04:19:33.179193+00:00"
-      },
       "source": {
         "source_id": "33959337",
         "source_url": "https://sdilej.cz/33959337/ncis-s01e03-cz.mp4",
@@ -632165,22 +632159,29 @@
         "display_name": "NCIS S01E03 Seadog 1440p CZ Dabing",
         "prepared_at": "2026-11-18T22:19:42.359559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161388",
-        "size_bytes": 2696463307
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161388",
-        "size_bytes": 2696463307,
-        "source_bytes_read": 2696463307,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161388",
         "source_bytes_read": 2696463307,
         "elapsed_seconds": 182.144,
         "finished_at": "2026-11-18T22:23:08.396914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161388",
+          "size_bytes": 2696463307,
+          "source_bytes_read": 2696463307,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33959337",
+        "source_url": "https://sdilej.cz/33959337/ncis-s01e03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161388",
+        "display_name": "NCIS S01E03 Seadog 1440p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:23:16.749197+00:00"
       }
     }
   },
@@ -632189,7 +632190,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:23:08.396930+00:00",
+  "updated_at": "2026-11-18T22:23:16.749212+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
