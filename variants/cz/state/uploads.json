@@ -612971,12 +612971,6 @@
     },
     "58:1:6": {
       "episode_key": "zaklínač:s1:e6",
-      "claim": {
-        "worker_id": "8b55af78bc5e4cecbc3b8f50fdea325e-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:11:12.652166+00:00",
-        "lease_expires_at": "2026-11-18T22:11:12.652185+00:00"
-      },
       "source": {
         "source_id": "32677181",
         "source_url": "https://sdilej.cz/32677181/the-witcher-s01e06-cz-dabing-ultra-hd-.mkv",
@@ -613001,22 +612995,29 @@
         "display_name": "The Witcher S01E06 Rare Species 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:11:18.173534+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155096",
-        "size_bytes": 2803775047
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155096",
-        "size_bytes": 2803775047,
-        "source_bytes_read": 2803775047,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155096",
         "source_bytes_read": 2803775047,
         "elapsed_seconds": 166.583,
         "finished_at": "2026-11-18T16:14:25.848520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155096",
+          "size_bytes": 2803775047,
+          "source_bytes_read": 2803775047,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32677181",
+        "source_url": "https://sdilej.cz/32677181/the-witcher-s01e06-cz-dabing-ultra-hd-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155096",
+        "display_name": "The Witcher S01E06 Rare Species 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:14:32.518836+00:00"
       }
     },
     "58:1:7": {
@@ -613099,7 +613100,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:14:25.848546+00:00",
+  "updated_at": "2026-11-18T16:14:32.518857+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
