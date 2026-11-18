@@ -579979,12 +579979,6 @@
     },
     "1098:7:8": {
       "episode_key": "jak prosté:s7:e8",
-      "claim": {
-        "worker_id": "d0ccfd7161394549bd2a54d0f3556655-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:17:11.176155+00:00",
-        "lease_expires_at": "2026-11-18T06:17:11.176175+00:00"
-      },
       "source": {
         "source_id": "28202871",
         "source_url": "https://sdilej.cz/28202871/jak-proste-s07e08.mkv",
@@ -580009,22 +580003,29 @@
         "display_name": "Elementary S07E08 Miss Understood 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:17:20.422729+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134265",
-        "size_bytes": 991640400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134265",
-        "size_bytes": 991640400,
-        "source_bytes_read": 991640400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134265",
         "source_bytes_read": 991640400,
         "elapsed_seconds": 186.269,
         "finished_at": "2026-11-18T00:20:47.662922+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134265",
+          "size_bytes": 991640400,
+          "source_bytes_read": 991640400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202871",
+        "source_url": "https://sdilej.cz/28202871/jak-proste-s07e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134265",
+        "display_name": "Elementary S07E08 Miss Understood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:20:56.376824+00:00"
       }
     },
     "1098:7:9": {
@@ -580144,7 +580145,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:20:47.662941+00:00",
+  "updated_at": "2026-11-18T00:20:56.376843+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
