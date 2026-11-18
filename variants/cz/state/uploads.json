@@ -634226,12 +634226,6 @@
     },
     "1405:3:7": {
       "episode_key": "námořní vyšetřovací služba:s3:e7",
-      "claim": {
-        "worker_id": "5e1c4730d2ef4fff9a8074c3bcfea5b4-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:14:43.803951+00:00",
-        "lease_expires_at": "2026-11-19T05:14:43.803962+00:00"
-      },
       "source": {
         "source_id": "30701924",
         "source_url": "https://sdilej.cz/30701924/namorni-vysetrovaci-sluzba-s03e07.mkv",
@@ -634256,22 +634250,29 @@
         "display_name": "NCIS S03E07 Honor Code 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:14:48.802782+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162644",
-        "size_bytes": 1003757507
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162644",
-        "size_bytes": 1003757507,
-        "source_bytes_read": 1003757507,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162644",
         "source_bytes_read": 1003757507,
         "elapsed_seconds": 63.27,
         "finished_at": "2026-11-18T23:16:14.685590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162644",
+          "size_bytes": 1003757507,
+          "source_bytes_read": 1003757507,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30701924",
+        "source_url": "https://sdilej.cz/30701924/namorni-vysetrovaci-sluzba-s03e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162644",
+        "display_name": "NCIS S03E07 Honor Code 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:16:20.923615+00:00"
       }
     },
     "1405:3:8": {
@@ -634354,7 +634355,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:16:14.685608+00:00",
+  "updated_at": "2026-11-18T23:16:20.923630+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
