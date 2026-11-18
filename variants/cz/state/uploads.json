@@ -602296,12 +602296,6 @@
     },
     "1967:23:3": {
       "episode_key": "vraždy v midsomeru:s23:e3",
-      "claim": {
-        "worker_id": "9ec448006ed64ccb834ee5da2529e83b-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T11:04:17.373591+00:00",
-        "lease_expires_at": "2026-11-18T17:04:17.373601+00:00"
-      },
       "source": {
         "source_id": "32411768",
         "source_url": "https://sdilej.cz/32411768/vrazdy-v-midsomeru-23x03-zrnko-pravdy.mkv",
@@ -602326,22 +602320,29 @@
         "display_name": "Midsomer Murders S23E03 A Grain of Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-18T11:04:23.828578+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31149464",
-        "size_bytes": 2065278484
-      },
-      "transfer_receipt": {
-        "target_video_id": "31149464",
-        "size_bytes": 2065278484,
-        "source_bytes_read": 2065278484,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31149464",
         "source_bytes_read": 2065278484,
         "elapsed_seconds": 433.411,
         "finished_at": "2026-11-18T11:11:56.840463+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31149464",
+          "size_bytes": 2065278484,
+          "source_bytes_read": 2065278484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411768",
+        "source_url": "https://sdilej.cz/32411768/vrazdy-v-midsomeru-23x03-zrnko-pravdy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31149464",
+        "display_name": "Midsomer Murders S23E03 A Grain of Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:12:03.982956+00:00"
       }
     },
     "1765:5:17": {
@@ -602387,7 +602388,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:11:56.840481+00:00",
+  "updated_at": "2026-11-18T11:12:03.982971+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
