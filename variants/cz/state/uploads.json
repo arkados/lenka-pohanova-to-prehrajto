@@ -617732,28 +617732,29 @@
           "at": "2026-11-18T21:30:12.410047+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "73cae027ddaf416185516a1388dcc2b8-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:30:16.563435+00:00",
-        "lease_expires_at": "2026-11-19T03:30:16.563454+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31160590",
-        "size_bytes": 1089539002
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160590",
-        "size_bytes": 1089539002,
-        "source_bytes_read": 1089539002,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160590",
         "source_bytes_read": 1089539002,
         "elapsed_seconds": 54.158,
         "finished_at": "2026-11-18T21:32:04.100187+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160590",
+          "size_bytes": 1089539002,
+          "source_bytes_read": 1089539002,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26433757",
+        "source_url": "https://sdilej.cz/26433757/the-umbrella-academy-2022--s03e10-zapomneni-cz-avc-1080p-ludasj-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160590",
+        "display_name": "The Umbrella Academy S03E10 Oblivion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:32:11.750183+00:00"
       }
     },
     "1166:4:1": {
@@ -629604,7 +629605,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:32:04.100216+00:00",
+  "updated_at": "2026-11-18T21:32:11.750206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
