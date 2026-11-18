@@ -582291,12 +582291,6 @@
     },
     "590:1:5": {
       "episode_key": "smrt nás spojí:s1:e5",
-      "claim": {
-        "worker_id": "d748fb3986004a4d88601833b37159a3-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:29:13.613667+00:00",
-        "lease_expires_at": "2026-11-18T07:29:13.613683+00:00"
-      },
       "source": {
         "source_id": "13442116",
         "source_url": "https://sdilej.cz/13442116/dead.to.me.s01e05.1080p.webrip.cz.dabing.5.1.mkv",
@@ -582321,22 +582315,29 @@
         "display_name": "Dead to Me S01E05 I've Gotta Get Away 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:29:18.453334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136020",
-        "size_bytes": 1021307988
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136020",
-        "size_bytes": 1021307988,
-        "source_bytes_read": 1021307988,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136020",
         "source_bytes_read": 1021307988,
         "elapsed_seconds": 115.771,
         "finished_at": "2026-11-18T01:31:36.201353+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136020",
+          "size_bytes": 1021307988,
+          "source_bytes_read": 1021307988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13442116",
+        "source_url": "https://sdilej.cz/13442116/dead.to.me.s01e05.1080p.webrip.cz.dabing.5.1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136020",
+        "display_name": "Dead to Me S01E05 I've Gotta Get Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:31:48.734801+00:00"
       }
     },
     "590:1:6": {
@@ -582381,7 +582382,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:31:44.155009+00:00",
+  "updated_at": "2026-11-18T01:31:48.734816+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
