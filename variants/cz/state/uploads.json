@@ -596525,12 +596525,6 @@
     },
     "1765:5:2": {
       "episode_key": "záchranáři l. a.:s5:e2",
-      "claim": {
-        "worker_id": "0437428b7b1348d3be44beea61466358-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:27:49.022144+00:00",
-        "lease_expires_at": "2026-11-18T12:27:49.022157+00:00"
-      },
       "source": {
         "source_id": "34634786",
         "source_url": "https://sdilej.cz/34634786/9-1-1-s05e02.mp4",
@@ -596555,22 +596549,29 @@
         "display_name": "9-1-1 S05E02 Desperate Times 1080p CZ Dabing",
         "prepared_at": "2026-11-18T06:27:53.475259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142742",
-        "size_bytes": 2309915061
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142742",
-        "size_bytes": 2309915061,
-        "source_bytes_read": 2309915061,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142742",
         "source_bytes_read": 2309915061,
         "elapsed_seconds": 420.57,
         "finished_at": "2026-11-18T06:35:12.509791+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142742",
+          "size_bytes": 2309915061,
+          "source_bytes_read": 2309915061,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634786",
+        "source_url": "https://sdilej.cz/34634786/9-1-1-s05e02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142742",
+        "display_name": "9-1-1 S05E02 Desperate Times 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T06:35:31.279158+00:00"
       }
     },
     "4102:1:1": {
@@ -596885,7 +596886,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:35:26.071062+00:00",
+  "updated_at": "2026-11-18T06:35:31.279175+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
