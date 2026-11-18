@@ -628170,12 +628170,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "e419cff48654432ba9fdb078f2f2ae4f-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:12:15.975266+00:00",
-        "lease_expires_at": "2026-11-19T03:12:15.975283+00:00"
-      },
       "source": {
         "source_id": "31064771",
         "source_url": "https://sdilej.cz/31064771/sberatele-kosti-09x09.avi",
@@ -628200,22 +628194,29 @@
         "display_name": "Bones S09E09 The Fury in the Jury SD CZ Dabing",
         "prepared_at": "2026-11-18T21:12:32.192770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160096",
-        "size_bytes": 509567612
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160096",
-        "size_bytes": 509567612,
-        "source_bytes_read": 509567612,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160096",
         "source_bytes_read": 509567612,
         "elapsed_seconds": 35.05,
         "finished_at": "2026-11-18T21:13:41.774309+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160096",
+          "size_bytes": 509567612,
+          "source_bytes_read": 509567612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31064771",
+        "source_url": "https://sdilej.cz/31064771/sberatele-kosti-09x09.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160096",
+        "display_name": "Bones S09E09 The Fury in the Jury SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:13:48.274912+00:00"
       }
     },
     "920:9:8": {
@@ -628573,7 +628574,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:13:41.774332+00:00",
+  "updated_at": "2026-11-18T21:13:48.274932+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
