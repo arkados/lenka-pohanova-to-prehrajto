@@ -612257,12 +612257,6 @@
     },
     "2209:3:20": {
       "episode_key": "třetí hlídka:s3:e20",
-      "claim": {
-        "worker_id": "e5a61deb48bb429da3dde5e65dd2a988-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:01:56.312594+00:00",
-        "lease_expires_at": "2026-11-18T22:01:56.312610+00:00"
-      },
       "source": {
         "source_id": "23852630",
         "source_url": "https://sdilej.cz/23852630/treti-hlidka-s03e20-bez-zabran.avi",
@@ -612287,22 +612281,29 @@
         "display_name": "Third Watch S03E20 Two Hundred and Thirty-Three Days SD CZ Dabing",
         "prepared_at": "2026-11-18T16:02:03.575825+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154943",
-        "size_bytes": 419543040
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154943",
-        "size_bytes": 419543040,
-        "source_bytes_read": 419543040,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154943",
         "source_bytes_read": 419543040,
         "elapsed_seconds": 28.78,
         "finished_at": "2026-11-18T16:03:04.046335+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154943",
+          "size_bytes": 419543040,
+          "source_bytes_read": 419543040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23852630",
+        "source_url": "https://sdilej.cz/23852630/treti-hlidka-s03e20-bez-zabran.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154943",
+        "display_name": "Third Watch S03E20 Two Hundred and Thirty-Three Days SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:03:17.338062+00:00"
       }
     },
     "2209:3:21": {
@@ -612384,7 +612385,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:03:12.580801+00:00",
+  "updated_at": "2026-11-18T16:03:17.338080+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
