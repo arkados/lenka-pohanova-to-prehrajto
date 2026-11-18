@@ -587272,12 +587272,6 @@
     },
     "2690:1:15": {
       "episode_key": "rodinka na kousky:s1:e15",
-      "claim": {
-        "worker_id": "6341ffa36e3f4d05a0064aa98083c88a-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:48:41.594437+00:00",
-        "lease_expires_at": "2026-11-18T08:48:41.594449+00:00"
-      },
       "source": {
         "source_id": "6316876",
         "source_url": "https://sdilej.cz/6316876/rodinka.na.kousky.01x15.dvb-t.cz.avi",
@@ -587302,22 +587296,29 @@
         "display_name": "Life in Pieces S01E15 Soccer Gigi TV Mikey SD CZ Dabing",
         "prepared_at": "2026-11-18T02:48:55.237911+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137770",
-        "size_bytes": 297049752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137770",
-        "size_bytes": 297049752,
-        "source_bytes_read": 297049752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137770",
         "source_bytes_read": 297049752,
         "elapsed_seconds": 18.664,
         "finished_at": "2026-11-18T02:49:44.688195+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137770",
+          "size_bytes": 297049752,
+          "source_bytes_read": 297049752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6316876",
+        "source_url": "https://sdilej.cz/6316876/rodinka.na.kousky.01x15.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137770",
+        "display_name": "Life in Pieces S01E15 Soccer Gigi TV Mikey SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:49:54.857479+00:00"
       }
     }
   },
@@ -587326,7 +587327,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:49:50.082263+00:00",
+  "updated_at": "2026-11-18T02:49:54.857506+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
