@@ -617841,12 +617841,12 @@
     },
     "1117:2:7": {
       "episode_key": "nová holka:s2:e7",
-      "claim": {
-        "worker_id": "aadaec2043cb4cc38cd855f26603d57a-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:55:24.548561+00:00",
-        "lease_expires_at": "2026-11-18T23:55:24.548576+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-18T17:57:09.785533+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -617854,7 +617854,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:57:05.255011+00:00",
+  "updated_at": "2026-11-18T17:57:09.785557+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
