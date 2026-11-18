@@ -616352,12 +616352,6 @@
     },
     "1166:3:3": {
       "episode_key": "umbrella academy:s3:e3",
-      "claim": {
-        "worker_id": "24923982bf074161814fa199df246568-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:34:07.363931+00:00",
-        "lease_expires_at": "2026-11-18T23:34:07.363946+00:00"
-      },
       "source": {
         "source_id": "32940765",
         "source_url": "https://sdilej.cz/32940765/the-umbrella-academy-s03e03-cz-dabing.mkv",
@@ -616382,22 +616376,29 @@
         "display_name": "The Umbrella Academy S03E03 Pocket Full of Lightning 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:34:17.924335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156432",
-        "size_bytes": 787117577
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156432",
-        "size_bytes": 787117577,
-        "source_bytes_read": 787117577,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156432",
         "source_bytes_read": 787117577,
         "elapsed_seconds": 76.428,
         "finished_at": "2026-11-18T17:36:00.308535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156432",
+          "size_bytes": 787117577,
+          "source_bytes_read": 787117577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32940765",
+        "source_url": "https://sdilej.cz/32940765/the-umbrella-academy-s03e03-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156432",
+        "display_name": "The Umbrella Academy S03E03 Pocket Full of Lightning 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T17:36:06.858735+00:00"
       }
     },
     "1166:3:4": {
@@ -616443,7 +616444,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:36:00.308566+00:00",
+  "updated_at": "2026-11-18T17:36:06.858757+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
