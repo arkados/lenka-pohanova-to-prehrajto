@@ -595445,12 +595445,6 @@
     },
     "3970:1:5": {
       "episode_key": "tron: povstání:s1:e5",
-      "claim": {
-        "worker_id": "285004ec4dcc4c5d9a581c2b00bc0055-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:53:32.953113+00:00",
-        "lease_expires_at": "2026-11-18T11:53:32.953130+00:00"
-      },
       "source": {
         "source_id": "33178499",
         "source_url": "https://sdilej.cz/33178499/tron-uprising-01x05-identity-anim-eng-cz-dab..mkv",
@@ -595475,22 +595469,29 @@
         "display_name": "TRON: Uprising S01E05 Isolated 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:53:37.926019+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142115",
-        "size_bytes": 734800462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142115",
-        "size_bytes": 734800462,
-        "source_bytes_read": 734800462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142115",
         "source_bytes_read": 734800462,
         "elapsed_seconds": 80.204,
         "finished_at": "2026-11-18T05:55:15.872887+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142115",
+          "size_bytes": 734800462,
+          "source_bytes_read": 734800462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33178499",
+        "source_url": "https://sdilej.cz/33178499/tron-uprising-01x05-identity-anim-eng-cz-dab..mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142115",
+        "display_name": "TRON: Uprising S01E05 Isolated 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:55:21.798030+00:00"
       }
     }
   },
@@ -595499,7 +595500,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:55:15.872906+00:00",
+  "updated_at": "2026-11-18T05:55:21.798048+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
