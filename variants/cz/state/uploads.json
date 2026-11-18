@@ -593861,12 +593861,6 @@
     },
     "1217:2:9": {
       "episode_key": "pustiny:s2:e9",
-      "claim": {
-        "worker_id": "9159bd8d31de415a993b662a58baf56b-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:06:24.640982+00:00",
-        "lease_expires_at": "2026-11-18T11:06:24.641004+00:00"
-      },
       "source": {
         "source_id": "33184276",
         "source_url": "https://sdilej.cz/33184276/pustiny-into-the-badlands-s02e09-cz-dabing.mkv",
@@ -593891,22 +593885,29 @@
         "display_name": "Into the Badlands S02E09 Nightingale Sings No More 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:06:29.282134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141133",
-        "size_bytes": 880317718
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141133",
-        "size_bytes": 880317718,
-        "source_bytes_read": 880317718,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141133",
         "source_bytes_read": 880317718,
         "elapsed_seconds": 80.146,
         "finished_at": "2026-11-18T05:08:08.472402+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141133",
+          "size_bytes": 880317718,
+          "source_bytes_read": 880317718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33184276",
+        "source_url": "https://sdilej.cz/33184276/pustiny-into-the-badlands-s02e09-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141133",
+        "display_name": "Into the Badlands S02E09 Nightingale Sings No More 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:08:17.478205+00:00"
       }
     },
     "1217:2:10": {
@@ -593989,7 +593990,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:08:08.472422+00:00",
+  "updated_at": "2026-11-18T05:08:17.478223+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
