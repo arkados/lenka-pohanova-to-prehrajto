@@ -590153,12 +590153,6 @@
     },
     "792:1:3": {
       "episode_key": "agent:s1:e3",
-      "claim": {
-        "worker_id": "827db9a398e2415287f99864d0eaa944-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:48:26.189513+00:00",
-        "lease_expires_at": "2026-11-18T09:48:26.189533+00:00"
-      },
       "source": {
         "source_id": "17937668",
         "source_url": "https://sdilej.cz/17937668/agent-the-spy-s01e03-sam-v-damasku-2019-cz-1080p.web-dl.dd-5.1.h.264.mkv",
@@ -590183,22 +590177,29 @@
         "display_name": "The Spy S01E03 Alone in Damascus 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:48:30.529685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138875",
-        "size_bytes": 2617913421
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138875",
-        "size_bytes": 2617913421,
-        "source_bytes_read": 2617913421,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138875",
         "source_bytes_read": 2617913421,
         "elapsed_seconds": 373.888,
         "finished_at": "2026-11-18T03:55:02.498384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138875",
+          "size_bytes": 2617913421,
+          "source_bytes_read": 2617913421,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17937668",
+        "source_url": "https://sdilej.cz/17937668/agent-the-spy-s01e03-sam-v-damasku-2019-cz-1080p.web-dl.dd-5.1.h.264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138875",
+        "display_name": "The Spy S01E03 Alone in Damascus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:55:14.022552+00:00"
       }
     },
     "792:1:4": {
@@ -590304,7 +590305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:55:10.349564+00:00",
+  "updated_at": "2026-11-18T03:55:14.022570+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
