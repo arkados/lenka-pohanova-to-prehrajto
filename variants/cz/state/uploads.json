@@ -596921,12 +596921,6 @@
     },
     "4102:1:10": {
       "episode_key": "scooby-doo na stopě:s1:e10",
-      "claim": {
-        "worker_id": "53525e0a49344b2cb92a0111fd5de1d9-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:36:48.811124+00:00",
-        "lease_expires_at": "2026-11-18T12:36:48.811136+00:00"
-      },
       "source": {
         "source_id": "25054591",
         "source_url": "https://sdilej.cz/25054591/scooby-doo-na-stope-1x10-blazinec-v-manezi.avi",
@@ -596951,22 +596945,29 @@
         "display_name": "Scooby-Doo, Where Are You! S01E10 Bedlam in the Big Top SD CZ Dabing",
         "prepared_at": "2026-11-18T06:37:08.162664+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142954",
-        "size_bytes": 154895552
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142954",
-        "size_bytes": 154895552,
-        "source_bytes_read": 154895552,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142954",
         "source_bytes_read": 154895552,
         "elapsed_seconds": 11.1,
         "finished_at": "2026-11-18T06:37:43.790230+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142954",
+          "size_bytes": 154895552,
+          "source_bytes_read": 154895552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25054591",
+        "source_url": "https://sdilej.cz/25054591/scooby-doo-na-stope-1x10-blazinec-v-manezi.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142954",
+        "display_name": "Scooby-Doo, Where Are You! S01E10 Bedlam in the Big Top SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:37:57.217716+00:00"
       }
     },
     "4102:1:12": {
@@ -597008,7 +597009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:37:52.068480+00:00",
+  "updated_at": "2026-11-18T06:37:57.217734+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
