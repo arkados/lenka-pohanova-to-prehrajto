@@ -599871,12 +599871,6 @@
     },
     "1967:4:6": {
       "episode_key": "vraždy v midsomeru:s4:e6",
-      "claim": {
-        "worker_id": "4ba02eb658f243cbb43748b9553e92ba-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T08:34:05.759522+00:00",
-        "lease_expires_at": "2026-11-18T14:34:05.759532+00:00"
-      },
       "source": {
         "source_id": "27568483",
         "source_url": "https://sdilej.cz/27568483/vrazdy-v-midsomeru-s04e06-zkazene-ovoce.mkv",
@@ -599901,22 +599895,29 @@
         "display_name": "Midsomer Murders S04E06 Tainted Fruit 1080p CZ Dabing",
         "prepared_at": "2026-11-18T08:34:10.358551+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31145310",
-        "size_bytes": 2153542161
-      },
-      "transfer_receipt": {
-        "target_video_id": "31145310",
-        "size_bytes": 2153542161,
-        "source_bytes_read": 2153542161,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31145310",
         "source_bytes_read": 2153542161,
         "elapsed_seconds": 213.706,
         "finished_at": "2026-11-18T08:38:00.345595+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31145310",
+          "size_bytes": 2153542161,
+          "source_bytes_read": 2153542161,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27568483",
+        "source_url": "https://sdilej.cz/27568483/vrazdy-v-midsomeru-s04e06-zkazene-ovoce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31145310",
+        "display_name": "Midsomer Murders S04E06 Tainted Fruit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T08:38:06.894865+00:00"
       }
     }
   },
@@ -599925,7 +599926,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T08:38:00.345614+00:00",
+  "updated_at": "2026-11-18T08:38:06.894881+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
