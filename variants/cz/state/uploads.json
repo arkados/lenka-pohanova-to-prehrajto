@@ -621806,12 +621806,6 @@
     },
     "920:2:4": {
       "episode_key": "sběratelé kostí:s2:e4",
-      "claim": {
-        "worker_id": "00bf308497fd41dd8b1674ab1c4234dc-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:57:55.383088+00:00",
-        "lease_expires_at": "2026-11-19T00:57:55.383106+00:00"
-      },
       "source": {
         "source_id": "27574097",
         "source_url": "https://sdilej.cz/27574097/sberatele-kosti-s02e04-cz.mkv",
@@ -621836,22 +621830,29 @@
         "display_name": "Bones S02E04 The Blonde in the Game 1080p CZ Dabing",
         "prepared_at": "2026-11-18T18:58:00.694577+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157885",
-        "size_bytes": 571698808
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157885",
-        "size_bytes": 571698808,
-        "source_bytes_read": 571698808,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157885",
         "source_bytes_read": 571698808,
         "elapsed_seconds": 30.858,
         "finished_at": "2026-11-18T18:59:13.987314+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157885",
+          "size_bytes": 571698808,
+          "source_bytes_read": 571698808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27574097",
+        "source_url": "https://sdilej.cz/27574097/sberatele-kosti-s02e04-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157885",
+        "display_name": "Bones S02E04 The Blonde in the Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T18:59:28.910407+00:00"
       }
     },
     "920:2:5": {
@@ -621930,7 +621931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:59:23.806450+00:00",
+  "updated_at": "2026-11-18T18:59:28.910426+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
