@@ -580994,12 +580994,6 @@
     },
     "3618:1:4": {
       "episode_key": "k smíchu:s1:e4",
-      "claim": {
-        "worker_id": "f1921d442a084591802c741484901003-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:51:01.281521+00:00",
-        "lease_expires_at": "2026-11-18T06:51:01.281537+00:00"
-      },
       "source": {
         "source_id": "33162944",
         "source_url": "https://sdilej.cz/33162944/k-smichu-s01e04-10-2018-cz-dab-1080p-sbohem-mami.mkv",
@@ -581024,22 +581018,29 @@
         "display_name": "Kidding S01E04 Bye, Mom 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:51:06.141681+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135157",
-        "size_bytes": 1724478160
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135157",
-        "size_bytes": 1724478160,
-        "source_bytes_read": 1724478160,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135157",
         "source_bytes_read": 1724478160,
         "elapsed_seconds": 275.768,
         "finished_at": "2026-11-18T00:55:59.018867+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135157",
+          "size_bytes": 1724478160,
+          "source_bytes_read": 1724478160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33162944",
+        "source_url": "https://sdilej.cz/33162944/k-smichu-s01e04-10-2018-cz-dab-1080p-sbohem-mami.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135157",
+        "display_name": "Kidding S01E04 Bye, Mom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:56:05.167411+00:00"
       }
     },
     "3618:1:5": {
@@ -581136,7 +581137,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:55:59.018888+00:00",
+  "updated_at": "2026-11-18T00:56:05.167433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
