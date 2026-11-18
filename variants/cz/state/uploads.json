@@ -589977,12 +589977,6 @@
     },
     "792:1:1": {
       "episode_key": "agent:s1:e1",
-      "claim": {
-        "worker_id": "ad7399f9bb574a719046730f9d4d0f64-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:45:40.532558+00:00",
-        "lease_expires_at": "2026-11-18T09:45:40.532578+00:00"
-      },
       "source": {
         "source_id": "33994550",
         "source_url": "https://sdilej.cz/33994550/agent-s01e01-10-2022-cz-dab-jsi-spion.mkv",
@@ -590006,7 +590000,17 @@
         },
         "display_name": "The Spy S01E01 The Immigrant 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:45:44.798876+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33994550:https://sdilej.cz/33994550/agent-s01e01-10-2022-cz-dab-jsi-spion.mkv",
+        "at": "2026-11-18T03:45:56.499079+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:45:56.499111+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -590014,7 +590018,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:45:44.798898+00:00",
+  "updated_at": "2026-11-18T03:45:56.499116+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590469,6 +590473,14 @@
         }
       ],
       "retry_after": "2026-11-18T03:55:20.504508+00:00"
+    },
+    "792": {
+      "recent_failures": [
+        {
+          "identity": "792:1:1",
+          "at": "2026-11-18T03:45:56.499079+00:00"
+        }
+      ]
     }
   }
 }
