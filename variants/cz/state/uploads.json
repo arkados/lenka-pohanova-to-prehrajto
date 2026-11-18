@@ -621523,12 +621523,6 @@
     },
     "920:1:21": {
       "episode_key": "sběratelé kostí:s1:e21",
-      "claim": {
-        "worker_id": "3387cfebe3f04afdab162469e7c668fd-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:54:29.346508+00:00",
-        "lease_expires_at": "2026-11-19T00:54:29.346522+00:00"
-      },
       "source": {
         "source_id": "26709750",
         "source_url": "https://sdilej.cz/26709750/sberatele-kosti-01x21.avi",
@@ -621553,22 +621547,29 @@
         "display_name": "Bones S01E21 The Soldier on the Grave SD CZ Dabing",
         "prepared_at": "2026-11-18T18:54:43.055570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157831",
-        "size_bytes": 416505856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157831",
-        "size_bytes": 416505856,
-        "source_bytes_read": 416505856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157831",
         "source_bytes_read": 416505856,
         "elapsed_seconds": 18.22,
         "finished_at": "2026-11-18T18:55:23.896512+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157831",
+          "size_bytes": 416505856,
+          "source_bytes_read": 416505856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26709750",
+        "source_url": "https://sdilej.cz/26709750/sberatele-kosti-01x21.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157831",
+        "display_name": "Bones S01E21 The Soldier on the Grave SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:55:29.722094+00:00"
       }
     }
   },
@@ -621577,7 +621578,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:55:23.896541+00:00",
+  "updated_at": "2026-11-18T18:55:29.722112+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
