@@ -599171,12 +599171,6 @@
     },
     "1967:1:1": {
       "episode_key": "vraždy v midsomeru:s1:e1",
-      "claim": {
-        "worker_id": "bb242f9e39a749339a9be856f09a8293-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T07:47:52.809484+00:00",
-        "lease_expires_at": "2026-11-18T13:47:52.809496+00:00"
-      },
       "source": {
         "source_id": "27560265",
         "source_url": "https://sdilej.cz/27560265/vrazdy-v-midsomeru-s01e01-smrt-stare-damy.mkv",
@@ -599201,22 +599195,29 @@
         "display_name": "Midsomer Murders S01E01 The Killings at Badger's Drift 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:47:57.311252+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144472",
-        "size_bytes": 2224753263
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144472",
-        "size_bytes": 2224753263,
-        "source_bytes_read": 2224753263,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144472",
         "source_bytes_read": 2224753263,
         "elapsed_seconds": 235.504,
         "finished_at": "2026-11-18T07:52:08.506156+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144472",
+          "size_bytes": 2224753263,
+          "source_bytes_read": 2224753263,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27560265",
+        "source_url": "https://sdilej.cz/27560265/vrazdy-v-midsomeru-s01e01-smrt-stare-damy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144472",
+        "display_name": "Midsomer Murders S01E01 The Killings at Badger's Drift 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:52:15.737595+00:00"
       }
     },
     "1967:1:2": {
@@ -599262,7 +599263,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:52:08.506175+00:00",
+  "updated_at": "2026-11-18T07:52:15.737612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
