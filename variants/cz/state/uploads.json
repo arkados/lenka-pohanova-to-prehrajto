@@ -580506,28 +580506,29 @@
           "at": "2026-11-18T04:07:32.695587+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "384e59bafb134d6da1135fa27d67dd4d-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:07:37.047450+00:00",
-        "lease_expires_at": "2026-11-18T10:07:37.047465+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31139384",
-        "size_bytes": 669687218
-      },
-      "transfer_receipt": {
-        "target_video_id": "31139384",
-        "size_bytes": 669687218,
-        "source_bytes_read": 669687218,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31139384",
         "source_bytes_read": 669687218,
         "elapsed_seconds": 65.866,
         "finished_at": "2026-11-18T04:09:13.938251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31139384",
+          "size_bytes": 669687218,
+          "source_bytes_read": 669687218,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31415077",
+        "source_url": "https://sdilej.cz/31415077/kral-tulsy-s02e07-zivotni-podpora-1080p-czdab-h265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31139384",
+        "display_name": "Tulsa King S02E07 Life Support 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:09:23.736962+00:00"
       }
     },
     "581:2:8": {
@@ -590834,7 +590835,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:09:19.707245+00:00",
+  "updated_at": "2026-11-18T04:09:23.736977+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
