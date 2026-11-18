@@ -579249,12 +579249,6 @@
     },
     "1098:6:15": {
       "episode_key": "jak prosté:s6:e15",
-      "claim": {
-        "worker_id": "5e7dc46bcf16416d9fb5cc33062fa8df-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:05:42.999936+00:00",
-        "lease_expires_at": "2026-11-18T06:05:42.999951+00:00"
-      },
       "source": {
         "source_id": "28202253",
         "source_url": "https://sdilej.cz/28202253/jak-proste-s06e15.mkv",
@@ -579279,22 +579273,29 @@
         "display_name": "Elementary S06E15 How to Get a Head 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:05:56.162349+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31133986",
-        "size_bytes": 634275440
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133986",
-        "size_bytes": 634275440,
-        "source_bytes_read": 634275440,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133986",
         "source_bytes_read": 634275440,
         "elapsed_seconds": 29.113,
         "finished_at": "2026-11-18T00:06:46.851022+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133986",
+          "size_bytes": 634275440,
+          "source_bytes_read": 634275440,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202253",
+        "source_url": "https://sdilej.cz/28202253/jak-proste-s06e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133986",
+        "display_name": "Elementary S06E15 How to Get a Head 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:06:57.031785+00:00"
       }
     },
     "1098:6:16": {
@@ -579377,7 +579378,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:06:51.123782+00:00",
+  "updated_at": "2026-11-18T00:06:57.031800+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
