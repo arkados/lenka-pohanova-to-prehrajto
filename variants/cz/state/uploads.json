@@ -605050,12 +605050,6 @@
     },
     "576:2:5": {
       "episode_key": "tým seal:s2:e5",
-      "claim": {
-        "worker_id": "5160ae4f5bf54cd8943af8564eb46c05-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:41:39.932884+00:00",
-        "lease_expires_at": "2026-11-18T18:41:39.932898+00:00"
-      },
       "source": {
         "source_id": "29680110",
         "source_url": "https://sdilej.cz/29680110/seal-team-s02e05-1080p-cz-dabing.mkv",
@@ -605080,22 +605074,29 @@
         "display_name": "SEAL Team S02E05 Say Again Your Last 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:41:48.754991+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151396",
-        "size_bytes": 839581324
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151396",
-        "size_bytes": 839581324,
-        "source_bytes_read": 839581324,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151396",
         "source_bytes_read": 839581324,
         "elapsed_seconds": 244.813,
         "finished_at": "2026-11-18T12:46:13.505700+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151396",
+          "size_bytes": 839581324,
+          "source_bytes_read": 839581324,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29680110",
+        "source_url": "https://sdilej.cz/29680110/seal-team-s02e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151396",
+        "display_name": "SEAL Team S02E05 Say Again Your Last 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:46:20.948998+00:00"
       }
     },
     "576:2:6": {
@@ -605178,7 +605179,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:46:13.505719+00:00",
+  "updated_at": "2026-11-18T12:46:20.949011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
