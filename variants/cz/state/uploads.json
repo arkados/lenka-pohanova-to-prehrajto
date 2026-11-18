@@ -594222,12 +594222,6 @@
     },
     "1217:3:6": {
       "episode_key": "pustiny:s3:e6",
-      "claim": {
-        "worker_id": "34270d5ceef5451db3fe47df3d229142-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:14:03.129592+00:00",
-        "lease_expires_at": "2026-11-18T11:14:03.129606+00:00"
-      },
       "source": {
         "source_id": "30660621",
         "source_url": "https://sdilej.cz/30660621/pustiny-into-the-badlands-s03e06.cz.mkv",
@@ -594252,22 +594246,29 @@
         "display_name": "Into the Badlands S03E06 Black Wind Howls 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:14:09.634159+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141302",
-        "size_bytes": 893183906
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141302",
-        "size_bytes": 893183906,
-        "source_bytes_read": 893183906,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141302",
         "source_bytes_read": 893183906,
         "elapsed_seconds": 80.249,
         "finished_at": "2026-11-18T05:15:50.916671+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141302",
+          "size_bytes": 893183906,
+          "source_bytes_read": 893183906,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660621",
+        "source_url": "https://sdilej.cz/30660621/pustiny-into-the-badlands-s03e06.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141302",
+        "display_name": "Into the Badlands S03E06 Black Wind Howls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:15:57.027396+00:00"
       }
     },
     "1217:3:7": {
@@ -594350,7 +594351,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:15:50.916694+00:00",
+  "updated_at": "2026-11-18T05:15:57.027416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
