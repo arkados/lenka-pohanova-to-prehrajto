@@ -598967,12 +598967,6 @@
     },
     "1765:5:9": {
       "episode_key": "záchranáři l. a.:s5:e9",
-      "claim": {
-        "worker_id": "333f9a47dccc49fb8d448851e4cfc077-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T07:28:01.328894+00:00",
-        "lease_expires_at": "2026-11-18T13:28:01.328909+00:00"
-      },
       "source": {
         "source_id": "34634867",
         "source_url": "https://sdilej.cz/34634867/9-1-1-s05e09.mp4",
@@ -598997,22 +598991,29 @@
         "display_name": "9-1-1 S05E09 Past Is Prologue 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:28:06.161665+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144162",
-        "size_bytes": 2296360417
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144162",
-        "size_bytes": 2296360417,
-        "source_bytes_read": 2296360417,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144162",
         "source_bytes_read": 2296360417,
         "elapsed_seconds": 430.949,
         "finished_at": "2026-11-18T07:35:35.952854+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144162",
+          "size_bytes": 2296360417,
+          "source_bytes_read": 2296360417,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634867",
+        "source_url": "https://sdilej.cz/34634867/9-1-1-s05e09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144162",
+        "display_name": "9-1-1 S05E09 Past Is Prologue 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:35:41.948646+00:00"
       }
     }
   },
@@ -599021,7 +599022,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:35:35.952873+00:00",
+  "updated_at": "2026-11-18T07:35:41.948673+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
