@@ -627571,12 +627571,6 @@
     },
     "920:8:22": {
       "episode_key": "sběratelé kostí:s8:e22",
-      "claim": {
-        "worker_id": "98274dd107ff448b9f885f0653496db9-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:38:10.542059+00:00",
-        "lease_expires_at": "2026-11-19T02:38:10.542076+00:00"
-      },
       "source": {
         "source_id": "30995328",
         "source_url": "https://sdilej.cz/30995328/sberatele-kosti-s08e22-cz-dabing-1080p.mkv",
@@ -627601,22 +627595,29 @@
         "display_name": "Bones S08E22 The Party in the Pants 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:38:17.095346+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159483",
-        "size_bytes": 809609144
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159483",
-        "size_bytes": 809609144,
-        "source_bytes_read": 809609144,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159483",
         "source_bytes_read": 809609144,
         "elapsed_seconds": 38.033,
         "finished_at": "2026-11-18T20:39:22.577615+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159483",
+          "size_bytes": 809609144,
+          "source_bytes_read": 809609144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30995328",
+        "source_url": "https://sdilej.cz/30995328/sberatele-kosti-s08e22-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159483",
+        "display_name": "Bones S08E22 The Party in the Pants 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:39:36.328983+00:00"
       }
     },
     "920:8:23": {
@@ -627712,7 +627713,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:39:31.493413+00:00",
+  "updated_at": "2026-11-18T20:39:36.329000+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
