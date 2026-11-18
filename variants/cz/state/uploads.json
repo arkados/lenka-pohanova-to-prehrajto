@@ -581732,12 +581732,6 @@
     },
     "581:3:7": {
       "episode_key": "král tulsy:s3:e7",
-      "claim": {
-        "worker_id": "dd10b2b53bf54fecbc15ad7b5843d96d-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:12:59.547577+00:00",
-        "lease_expires_at": "2026-11-18T07:12:59.547594+00:00"
-      },
       "source": {
         "source_id": "32323496",
         "source_url": "https://sdilej.cz/32323496/tulsa-king-s03e07-2160p-cz-dabing.mkv",
@@ -581762,22 +581756,29 @@
         "display_name": "Tulsa King S03E07 Art of War 4K CZ Dabing",
         "prepared_at": "2026-11-18T01:13:03.983387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135632",
-        "size_bytes": 4646396999
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135632",
-        "size_bytes": 4646396999,
-        "source_bytes_read": 4646396999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135632",
         "source_bytes_read": 4646396999,
         "elapsed_seconds": 701.029,
         "finished_at": "2026-11-18T01:25:01.050573+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135632",
+          "size_bytes": 4646396999,
+          "source_bytes_read": 4646396999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32323496",
+        "source_url": "https://sdilej.cz/32323496/tulsa-king-s03e07-2160p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135632",
+        "display_name": "Tulsa King S03E07 Art of War 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T01:25:08.894072+00:00"
       }
     },
     "581:3:8": {
@@ -582101,7 +582102,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:25:01.050595+00:00",
+  "updated_at": "2026-11-18T01:25:08.894094+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
