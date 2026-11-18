@@ -588244,12 +588244,6 @@
     },
     "4301:2:1": {
       "episode_key": "4 bloky:s2:e1",
-      "claim": {
-        "worker_id": "a0dd823036dc46f7ae63a40276dddfcc-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:02:04.956775+00:00",
-        "lease_expires_at": "2026-11-18T09:02:04.956788+00:00"
-      },
       "source": {
         "source_id": "14491163",
         "source_url": "https://sdilej.cz/14491163/4.bloky.02x01.hdtv.cz.avi",
@@ -588274,22 +588268,29 @@
         "display_name": "4 Blocks S02E01 Feuer SD CZ Dabing",
         "prepared_at": "2026-11-18T03:02:09.265605+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138078",
-        "size_bytes": 771385322
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138078",
-        "size_bytes": 771385322,
-        "source_bytes_read": 771385322,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138078",
         "source_bytes_read": 771385322,
         "elapsed_seconds": 44.782,
         "finished_at": "2026-11-18T03:03:11.119610+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138078",
+          "size_bytes": 771385322,
+          "source_bytes_read": 771385322,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14491163",
+        "source_url": "https://sdilej.cz/14491163/4.bloky.02x01.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138078",
+        "display_name": "4 Blocks S02E01 Feuer SD CZ Dabing",
+        "uploaded_at": "2026-11-18T03:03:24.421894+00:00"
       }
     },
     "4301:2:2": {
@@ -588331,7 +588332,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:03:20.743826+00:00",
+  "updated_at": "2026-11-18T03:03:24.421916+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
