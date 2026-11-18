@@ -611135,12 +611135,6 @@
     },
     "2209:1:18": {
       "episode_key": "třetí hlídka:s1:e18",
-      "claim": {
-        "worker_id": "c2ab6b9f26544c81a24158f8b76678af-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:43:14.488261+00:00",
-        "lease_expires_at": "2026-11-18T21:43:14.488275+00:00"
-      },
       "source": {
         "source_id": "33700501",
         "source_url": "https://sdilej.cz/33700501/treti-hlidka-s01e18-muzi-2000-hdtv-1080p-czdab.mkv",
@@ -611165,22 +611159,29 @@
         "display_name": "Third Watch S01E18 Men 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:43:32.805335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154644",
-        "size_bytes": 1725535617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154644",
-        "size_bytes": 1725535617,
-        "source_bytes_read": 1725535617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154644",
         "source_bytes_read": 1725535617,
         "elapsed_seconds": 135.679,
         "finished_at": "2026-11-18T15:46:12.272731+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154644",
+          "size_bytes": 1725535617,
+          "source_bytes_read": 1725535617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33700501",
+        "source_url": "https://sdilej.cz/33700501/treti-hlidka-s01e18-muzi-2000-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154644",
+        "display_name": "Third Watch S01E18 Men 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:46:20.143094+00:00"
       }
     },
     "2209:1:19": {
@@ -611263,7 +611264,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:46:12.272752+00:00",
+  "updated_at": "2026-11-18T15:46:20.143112+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
