@@ -588599,12 +588599,6 @@
     },
     "4301:3:1": {
       "episode_key": "4 bloky:s3:e1",
-      "claim": {
-        "worker_id": "3b5c66d743ef4d70aaff3025342b87e8-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:08:00.829493+00:00",
-        "lease_expires_at": "2026-11-18T09:08:00.829506+00:00"
-      },
       "source": {
         "source_id": "15863171",
         "source_url": "https://sdilej.cz/15863171/4.bloky.03x01.1080i.hevc.hdtv.cz.mkv",
@@ -588629,22 +588623,29 @@
         "display_name": "4 Blocks S03E01 Ali 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:08:10.046566+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138186",
-        "size_bytes": 525287712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138186",
-        "size_bytes": 525287712,
-        "source_bytes_read": 525287712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138186",
         "source_bytes_read": 525287712,
         "elapsed_seconds": 50.366,
         "finished_at": "2026-11-18T03:09:27.501207+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138186",
+          "size_bytes": 525287712,
+          "source_bytes_read": 525287712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15863171",
+        "source_url": "https://sdilej.cz/15863171/4.bloky.03x01.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138186",
+        "display_name": "4 Blocks S03E01 Ali 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:09:36.642282+00:00"
       }
     }
   },
@@ -588653,7 +588654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:09:30.992702+00:00",
+  "updated_at": "2026-11-18T03:09:36.642301+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
