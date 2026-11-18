@@ -580002,12 +580002,6 @@
     },
     "1098:7:9": {
       "episode_key": "jak prosté:s7:e9",
-      "claim": {
-        "worker_id": "5b89e539e5fe43779a7cbb276bcc48d8-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:18:12.383827+00:00",
-        "lease_expires_at": "2026-11-18T06:18:12.383840+00:00"
-      },
       "source": {
         "source_id": "34435656",
         "source_url": "https://sdilej.cz/34435656/elementary-s07e09-cz-dabing-1080p-full-hd.mkv",
@@ -580031,7 +580025,17 @@
         },
         "display_name": "Elementary S07E09 On the Scent 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:18:17.562317+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34435656:https://sdilej.cz/34435656/elementary-s07e09-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T00:18:30.158953+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:18:30.158992+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -580039,7 +580043,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:18:17.562336+00:00",
+  "updated_at": "2026-11-18T00:18:30.158998+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -580438,8 +580442,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:6:16",
-          "at": "2026-11-18T00:06:06.408865+00:00"
+          "identity": "1098:7:9",
+          "at": "2026-11-18T00:18:30.158953+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:49:36.763101+00:00"
