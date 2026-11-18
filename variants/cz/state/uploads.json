@@ -588835,12 +588835,6 @@
     },
     "4301:3:4": {
       "episode_key": "4 bloky:s3:e4",
-      "claim": {
-        "worker_id": "73213ef734c748d6b9da969066d0f4e2-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:14:16.235145+00:00",
-        "lease_expires_at": "2026-11-18T09:14:16.235159+00:00"
-      },
       "source": {
         "source_id": "15863396",
         "source_url": "https://sdilej.cz/15863396/4.bloky.03x04.1080i.hevc.hdtv.cz.mkv",
@@ -588865,22 +588859,29 @@
         "display_name": "4 Blocks S03E04 Diamanten 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:14:20.905231+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138289",
-        "size_bytes": 596198349
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138289",
-        "size_bytes": 596198349,
-        "source_bytes_read": 596198349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138289",
         "source_bytes_read": 596198349,
         "elapsed_seconds": 36.089,
         "finished_at": "2026-11-18T03:15:12.160464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138289",
+          "size_bytes": 596198349,
+          "source_bytes_read": 596198349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15863396",
+        "source_url": "https://sdilej.cz/15863396/4.bloky.03x04.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138289",
+        "display_name": "4 Blocks S03E04 Diamanten 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:15:18.209477+00:00"
       }
     }
   },
@@ -588889,7 +588890,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:15:12.160483+00:00",
+  "updated_at": "2026-11-18T03:15:18.209495+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
