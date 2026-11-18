@@ -620225,12 +620225,6 @@
     },
     "1117:6:11": {
       "episode_key": "nová holka:s6:e11",
-      "claim": {
-        "worker_id": "8443d9d853d84457aa43bcb8b201896f-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:37:42.121472+00:00",
-        "lease_expires_at": "2026-11-19T00:37:42.121489+00:00"
-      },
       "source": {
         "source_id": "31747598",
         "source_url": "https://sdilej.cz/31747598/nova-holka-s06e11-cz.avi",
@@ -620255,22 +620249,29 @@
         "display_name": "New Girl S06E11 Raisin's Back SD CZ Dabing",
         "prepared_at": "2026-11-18T18:37:55.837954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157360",
-        "size_bytes": 211279446
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157360",
-        "size_bytes": 211279446,
-        "source_bytes_read": 211279446,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157360",
         "source_bytes_read": 211279446,
         "elapsed_seconds": 20.685,
         "finished_at": "2026-11-18T18:38:42.944456+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157360",
+          "size_bytes": 211279446,
+          "source_bytes_read": 211279446,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31747598",
+        "source_url": "https://sdilej.cz/31747598/nova-holka-s06e11-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157360",
+        "display_name": "New Girl S06E11 Raisin's Back SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:38:58.669656+00:00"
       }
     },
     "1117:6:15": {
@@ -620315,7 +620316,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:38:53.575828+00:00",
+  "updated_at": "2026-11-18T18:38:58.669676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
