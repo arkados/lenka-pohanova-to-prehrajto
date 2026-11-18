@@ -589087,12 +589087,6 @@
     },
     "4301:3:6": {
       "episode_key": "4 bloky:s3:e6",
-      "claim": {
-        "worker_id": "2ca9dea6d3444f9e9df8831f95f85776-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:19:25.636769+00:00",
-        "lease_expires_at": "2026-11-18T09:19:25.636784+00:00"
-      },
       "source": {
         "source_id": "17958235",
         "source_url": "https://sdilej.cz/17958235/4.bloky.03x06.1080i.hdtv.cz.mkv",
@@ -589117,22 +589111,29 @@
         "display_name": "4 Blocks S03E06 Brüder für immer 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:19:34.610700+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138386",
-        "size_bytes": 2864151669
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138386",
-        "size_bytes": 2864151669,
-        "source_bytes_read": 2864151669,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138386",
         "source_bytes_read": 2864151669,
         "elapsed_seconds": 390.087,
         "finished_at": "2026-11-18T03:26:30.149724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138386",
+          "size_bytes": 2864151669,
+          "source_bytes_read": 2864151669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17958235",
+        "source_url": "https://sdilej.cz/17958235/4.bloky.03x06.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138386",
+        "display_name": "4 Blocks S03E06 Brüder für immer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:26:36.367515+00:00"
       }
     },
     "1765:1:4": {
@@ -589192,7 +589193,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:26:30.149742+00:00",
+  "updated_at": "2026-11-18T03:26:36.367536+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
