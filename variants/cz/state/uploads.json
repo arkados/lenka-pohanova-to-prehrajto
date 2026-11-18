@@ -624605,12 +624605,6 @@
     },
     "920:5:9": {
       "episode_key": "sběratelé kostí:s5:e9",
-      "claim": {
-        "worker_id": "d305f39a832f4e31a9d5fc2493e048fd-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:47:44.060747+00:00",
-        "lease_expires_at": "2026-11-19T01:47:44.060767+00:00"
-      },
       "source": {
         "source_id": "35213239",
         "source_url": "https://sdilej.cz/35213239/sberatele-kosti-s05e09-2009-czdab.1080p-sampion-v-oleji.mkv",
@@ -624635,22 +624629,29 @@
         "display_name": "Bones S05E09 The Gamer in the Grease 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:47:54.732742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158683",
-        "size_bytes": 902234671
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158683",
-        "size_bytes": 902234671,
-        "source_bytes_read": 902234671,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158683",
         "source_bytes_read": 902234671,
         "elapsed_seconds": 82.4,
         "finished_at": "2026-11-18T19:49:55.820574+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158683",
+          "size_bytes": 902234671,
+          "source_bytes_read": 902234671,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35213239",
+        "source_url": "https://sdilej.cz/35213239/sberatele-kosti-s05e09-2009-czdab.1080p-sampion-v-oleji.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158683",
+        "display_name": "Bones S05E09 The Gamer in the Grease 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:50:02.486839+00:00"
       }
     },
     "920:5:10": {
@@ -624798,7 +624799,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:49:55.820601+00:00",
+  "updated_at": "2026-11-18T19:50:02.486858+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
