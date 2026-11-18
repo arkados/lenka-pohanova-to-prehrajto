@@ -617123,12 +617123,6 @@
     },
     "1117:1:17": {
       "episode_key": "nová holka:s1:e17",
-      "claim": {
-        "worker_id": "976e5554a18345fc801f3f3a732ca957-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:45:44.299427+00:00",
-        "lease_expires_at": "2026-11-18T23:45:44.299443+00:00"
-      },
       "source": {
         "source_id": "33264638",
         "source_url": "https://sdilej.cz/33264638/nova-holka-s01e17-new-girl-dvdrip-czdabing.avi",
@@ -617153,22 +617147,29 @@
         "display_name": "New Girl S01E17 Fancyman (1) SD CZ Dabing",
         "prepared_at": "2026-11-18T17:45:50.862091+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156588",
-        "size_bytes": 181217280
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156588",
-        "size_bytes": 181217280,
-        "source_bytes_read": 181217280,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156588",
         "source_bytes_read": 181217280,
         "elapsed_seconds": 20.881,
         "finished_at": "2026-11-18T17:46:43.323520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156588",
+          "size_bytes": 181217280,
+          "source_bytes_read": 181217280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264638",
+        "source_url": "https://sdilej.cz/33264638/nova-holka-s01e17-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156588",
+        "display_name": "New Girl S01E17 Fancyman (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:46:55.000057+00:00"
       }
     },
     "1117:1:18": {
@@ -617250,7 +617251,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:46:49.105806+00:00",
+  "updated_at": "2026-11-18T17:46:55.000077+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
