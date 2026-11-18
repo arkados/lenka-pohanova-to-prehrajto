@@ -580553,12 +580553,6 @@
     },
     "601:1:8": {
       "episode_key": "to: vítejte v derry:s1:e8",
-      "claim": {
-        "worker_id": "37a8346f542e4901a65e0becac5d8bf8-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:29:29.862725+00:00",
-        "lease_expires_at": "2026-11-18T06:29:29.862737+00:00"
-      },
       "source": {
         "source_id": "32839499",
         "source_url": "https://sdilej.cz/32839499/to-vitejte-v-derry-s01e08-cz-dabing-it-welcome-to-derry-byst.mkv",
@@ -580583,22 +580577,29 @@
         "display_name": "IT: Welcome to Derry S01E08 Winter Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:29:34.396044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134552",
-        "size_bytes": 593101584
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134552",
-        "size_bytes": 593101584,
-        "source_bytes_read": 593101584,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134552",
         "source_bytes_read": 593101584,
         "elapsed_seconds": 301.621,
         "finished_at": "2026-11-18T00:34:55.934576+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134552",
+          "size_bytes": 593101584,
+          "source_bytes_read": 593101584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32839499",
+        "source_url": "https://sdilej.cz/32839499/to-vitejte-v-derry-s01e08-cz-dabing-it-welcome-to-derry-byst.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134552",
+        "display_name": "IT: Welcome to Derry S01E08 Winter Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:35:10.431020+00:00"
       }
     },
     "3618:1:1": {
@@ -580644,7 +580645,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:35:06.618519+00:00",
+  "updated_at": "2026-11-18T00:35:10.431054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
