@@ -583213,12 +583213,6 @@
     },
     "590:3:3": {
       "episode_key": "smrt nás spojí:s3:e3",
-      "claim": {
-        "worker_id": "c5bc133eeb524bea86ccf8fa18a7619b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:45:27.619179+00:00",
-        "lease_expires_at": "2026-11-18T07:45:27.619194+00:00"
-      },
       "source": {
         "source_id": "27906939",
         "source_url": "https://sdilej.cz/27906939/smrt-nas-spoji-s03e03-1080p-cz-dabing.mkv",
@@ -583243,22 +583237,29 @@
         "display_name": "Dead to Me S03E03 Look at What We Have Here 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:45:39.754641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136449",
-        "size_bytes": 636554099
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136449",
-        "size_bytes": 636554099,
-        "source_bytes_read": 636554099,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136449",
         "source_bytes_read": 636554099,
         "elapsed_seconds": 35.753,
         "finished_at": "2026-11-18T01:46:38.379818+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136449",
+          "size_bytes": 636554099,
+          "source_bytes_read": 636554099,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27906939",
+        "source_url": "https://sdilej.cz/27906939/smrt-nas-spoji-s03e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136449",
+        "display_name": "Dead to Me S03E03 Look at What We Have Here 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:46:46.970268+00:00"
       }
     },
     "590:3:4": {
@@ -583317,7 +583318,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:46:43.518947+00:00",
+  "updated_at": "2026-11-18T01:46:46.970285+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
