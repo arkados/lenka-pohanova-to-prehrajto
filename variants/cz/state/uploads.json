@@ -595123,12 +595123,6 @@
     },
     "4870:1:2": {
       "episode_key": "hledání aljašky:s1:e2",
-      "claim": {
-        "worker_id": "00c86cdc052e493e816d423c0211733d-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:30:24.102267+00:00",
-        "lease_expires_at": "2026-11-18T11:30:24.102283+00:00"
-      },
       "source": {
         "source_id": "12645888",
         "source_url": "https://sdilej.cz/12645888/hledani-aljasky-s1e02-2019-1080p-cz.avi",
@@ -595153,22 +595147,29 @@
         "display_name": "Looking for Alaska S01E02 \"Tell Them I Said Something…\" 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:30:33.745788+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141602",
-        "size_bytes": 919782998
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141602",
-        "size_bytes": 919782998,
-        "source_bytes_read": 919782998,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141602",
         "source_bytes_read": 919782998,
         "elapsed_seconds": 152.732,
         "finished_at": "2026-11-18T05:33:24.087619+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141602",
+          "size_bytes": 919782998,
+          "source_bytes_read": 919782998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12645888",
+        "source_url": "https://sdilej.cz/12645888/hledani-aljasky-s1e02-2019-1080p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141602",
+        "display_name": "Looking for Alaska S01E02 \"Tell Them I Said Something…\" 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:33:31.204956+00:00"
       }
     }
   },
@@ -595177,7 +595178,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:33:24.087640+00:00",
+  "updated_at": "2026-11-18T05:33:31.204974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
