@@ -592042,12 +592042,6 @@
     },
     "1848:1:2": {
       "episode_key": "poloviční chlap:s1:e2",
-      "claim": {
-        "worker_id": "886fc63ce1514c7fb12ae1878cf7f2ae-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:22:12.266468+00:00",
-        "lease_expires_at": "2026-11-18T10:22:12.266481+00:00"
-      },
       "source": {
         "source_id": "34148537",
         "source_url": "https://sdilej.cz/34148537/half-man-s01e02-cz-dabing-1080p-full-hd.mkv",
@@ -592071,7 +592065,17 @@
         },
         "display_name": "Half Man S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-18T04:22:17.554227+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34148537:https://sdilej.cz/34148537/half-man-s01e02-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T04:22:30.361251+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T04:22:30.361278+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -592079,7 +592083,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:22:17.554245+00:00",
+  "updated_at": "2026-11-18T04:22:30.361282+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -592524,6 +592528,14 @@
         {
           "identity": "792:1:1",
           "at": "2026-11-18T03:45:56.499079+00:00"
+        }
+      ]
+    },
+    "1848": {
+      "recent_failures": [
+        {
+          "identity": "1848:1:2",
+          "at": "2026-11-18T04:22:30.361251+00:00"
         }
       ]
     }
