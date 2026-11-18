@@ -587125,12 +587125,6 @@
     },
     "2690:1:12": {
       "episode_key": "rodinka na kousky:s1:e12",
-      "claim": {
-        "worker_id": "4e529a043bb84d5792474368079fd6a4-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:47:11.832756+00:00",
-        "lease_expires_at": "2026-11-18T08:47:11.832771+00:00"
-      },
       "source": {
         "source_id": "6258783",
         "source_url": "https://sdilej.cz/6258783/rodinka.na.kousky.01x12.dvb-t.cz.avi",
@@ -587155,22 +587149,29 @@
         "display_name": "Life in Pieces S01E12 Bite Flight Wing-Man Bonnie SD CZ Dabing",
         "prepared_at": "2026-11-18T02:47:16.463901+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137722",
-        "size_bytes": 298590942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137722",
-        "size_bytes": 298590942,
-        "source_bytes_read": 298590942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137722",
         "source_bytes_read": 298590942,
         "elapsed_seconds": 27.162,
         "finished_at": "2026-11-18T02:48:02.651321+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137722",
+          "size_bytes": 298590942,
+          "source_bytes_read": 298590942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6258783",
+        "source_url": "https://sdilej.cz/6258783/rodinka.na.kousky.01x12.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137722",
+        "display_name": "Life in Pieces S01E12 Bite Flight Wing-Man Bonnie SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:48:11.339745+00:00"
       }
     },
     "2690:1:13": {
@@ -587188,7 +587189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:48:06.628415+00:00",
+  "updated_at": "2026-11-18T02:48:11.339775+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
