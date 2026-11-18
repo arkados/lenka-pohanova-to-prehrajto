@@ -597443,12 +597443,6 @@
     },
     "4102:2:7": {
       "episode_key": "scooby-doo na stopě:s2:e7",
-      "claim": {
-        "worker_id": "27c4ff543b5f41cfb38faf541b18e449-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:44:48.916546+00:00",
-        "lease_expires_at": "2026-11-18T12:44:48.916561+00:00"
-      },
       "source": {
         "source_id": "25054684",
         "source_url": "https://sdilej.cz/25054684/scooby-doo-na-stope-2x07-kdo-se-boji-vlkodlaka.avi",
@@ -597473,22 +597467,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E07 Who's Afraid of the Big Bad Werewolf? SD CZ Dabing",
         "prepared_at": "2026-11-18T06:45:04.817593+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143127",
-        "size_bytes": 155711604
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143127",
-        "size_bytes": 155711604,
-        "source_bytes_read": 155711604,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143127",
         "source_bytes_read": 155711604,
         "elapsed_seconds": 13.1,
         "finished_at": "2026-11-18T06:45:42.808617+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143127",
+          "size_bytes": 155711604,
+          "source_bytes_read": 155711604,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25054684",
+        "source_url": "https://sdilej.cz/25054684/scooby-doo-na-stope-2x07-kdo-se-boji-vlkodlaka.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143127",
+        "display_name": "Scooby-Doo, Where Are You! S02E07 Who's Afraid of the Big Bad Werewolf? SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:45:56.609493+00:00"
       }
     },
     "4102:2:8": {
@@ -597534,7 +597535,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:45:52.187996+00:00",
+  "updated_at": "2026-11-18T06:45:56.609510+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
