@@ -586155,12 +586155,6 @@
     },
     "650:1:5": {
       "episode_key": "jednotka:s1:e5",
-      "claim": {
-        "worker_id": "55d90f01cf9447598f7a68624558a344-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:34:10.431568+00:00",
-        "lease_expires_at": "2026-11-18T08:34:10.431582+00:00"
-      },
       "source": {
         "source_id": "32028495",
         "source_url": "https://sdilej.cz/32028495/task-s01e05-cz-dab-2025-1080p-by-pefto.mkv",
@@ -586185,22 +586179,29 @@
         "display_name": "Task S01E05 Vagrants 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:34:18.429512+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137474",
-        "size_bytes": 828184191
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137474",
-        "size_bytes": 828184191,
-        "source_bytes_read": 828184191,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137474",
         "source_bytes_read": 828184191,
         "elapsed_seconds": 49.098,
         "finished_at": "2026-11-18T02:35:26.925213+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137474",
+          "size_bytes": 828184191,
+          "source_bytes_read": 828184191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32028495",
+        "source_url": "https://sdilej.cz/32028495/task-s01e05-cz-dab-2025-1080p-by-pefto.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137474",
+        "display_name": "Task S01E05 Vagrants 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:35:34.018121+00:00"
       }
     },
     "650:1:6": {
@@ -586246,7 +586247,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:35:26.925236+00:00",
+  "updated_at": "2026-11-18T02:35:34.018139+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
