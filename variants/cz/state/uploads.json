@@ -628127,12 +628127,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "ddf83017319a47b7a65330e87543d82d-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:13:01.331931+00:00",
-        "lease_expires_at": "2026-11-19T03:13:01.331947+00:00"
-      },
       "source": {
         "source_id": "26731700",
         "source_url": "https://sdilej.cz/26731700/sberatele-kosti-09x10.avi",
@@ -628157,22 +628151,29 @@
         "display_name": "Bones S09E10 The Mystery in the Meat SD CZ Dabing",
         "prepared_at": "2026-11-18T21:13:12.972546+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160111",
-        "size_bytes": 513035994
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160111",
-        "size_bytes": 513035994,
-        "source_bytes_read": 513035994,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160111",
         "source_bytes_read": 513035994,
         "elapsed_seconds": 32.552,
         "finished_at": "2026-11-18T21:14:10.435114+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160111",
+          "size_bytes": 513035994,
+          "source_bytes_read": 513035994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26731700",
+        "source_url": "https://sdilej.cz/26731700/sberatele-kosti-09x10.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160111",
+        "display_name": "Bones S09E10 The Mystery in the Meat SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:14:24.475457+00:00"
       }
     },
     "920:9:9": {
@@ -628633,7 +628634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:14:19.305287+00:00",
+  "updated_at": "2026-11-18T21:14:24.475476+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
