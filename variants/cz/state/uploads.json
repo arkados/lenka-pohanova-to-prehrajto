@@ -579877,12 +579877,6 @@
     },
     "1098:7:6": {
       "episode_key": "jak prosté:s7:e6",
-      "claim": {
-        "worker_id": "09449d7d58a04297924d5c978facda1c-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:16:06.635247+00:00",
-        "lease_expires_at": "2026-11-18T06:16:06.635266+00:00"
-      },
       "source": {
         "source_id": "28202839",
         "source_url": "https://sdilej.cz/28202839/jak-proste-s07e06.mkv",
@@ -579907,22 +579901,29 @@
         "display_name": "Elementary S07E06 Command: Delete 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:16:14.172322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134234",
-        "size_bytes": 1029309827
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134234",
-        "size_bytes": 1029309827,
-        "source_bytes_read": 1029309827,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134234",
         "source_bytes_read": 1029309827,
         "elapsed_seconds": 73.259,
         "finished_at": "2026-11-18T00:17:51.779530+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134234",
+          "size_bytes": 1029309827,
+          "source_bytes_read": 1029309827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202839",
+        "source_url": "https://sdilej.cz/28202839/jak-proste-s07e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134234",
+        "display_name": "Elementary S07E06 Command: Delete 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:17:59.277390+00:00"
       }
     },
     "1098:7:7": {
@@ -580005,7 +580006,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:17:51.779552+00:00",
+  "updated_at": "2026-11-18T00:17:59.277408+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
