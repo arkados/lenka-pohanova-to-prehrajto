@@ -614093,12 +614093,6 @@
     },
     "58:4:4": {
       "episode_key": "zaklínač:s4:e4",
-      "claim": {
-        "worker_id": "429b2a0cb4784ba7ae0965e451050f8b-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:41:39.093264+00:00",
-        "lease_expires_at": "2026-11-18T22:41:39.093280+00:00"
-      },
       "source": {
         "source_id": "32329154",
         "source_url": "https://sdilej.cz/32329154/zaklinac-s04e04-kazani-o-preziti.mkv",
@@ -614123,22 +614117,29 @@
         "display_name": "The Witcher S04E04 A Sermon of Survival 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:41:45.187680+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155662",
-        "size_bytes": 2509248475
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155662",
-        "size_bytes": 2509248475,
-        "source_bytes_read": 2509248475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155662",
         "source_bytes_read": 2509248475,
         "elapsed_seconds": 160.56,
         "finished_at": "2026-11-18T16:44:44.843033+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155662",
+          "size_bytes": 2509248475,
+          "source_bytes_read": 2509248475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32329154",
+        "source_url": "https://sdilej.cz/32329154/zaklinac-s04e04-kazani-o-preziti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155662",
+        "display_name": "The Witcher S04E04 A Sermon of Survival 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:44:52.238739+00:00"
       }
     },
     "58:4:5": {
@@ -614221,7 +614222,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:44:44.843052+00:00",
+  "updated_at": "2026-11-18T16:44:52.238760+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
