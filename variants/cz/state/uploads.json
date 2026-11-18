@@ -620169,12 +620169,6 @@
     },
     "1117:6:8": {
       "episode_key": "nová holka:s6:e8",
-      "claim": {
-        "worker_id": "85f40d9907df415988ae1ecdcf0a06aa-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:36:49.646459+00:00",
-        "lease_expires_at": "2026-11-19T00:36:49.646474+00:00"
-      },
       "source": {
         "source_id": "7992985",
         "source_url": "https://sdilej.cz/7992985/nova.holka.06x08.dvb-t.cz.avi",
@@ -620199,22 +620193,29 @@
         "display_name": "New Girl S06E08 James Wonder SD CZ Dabing",
         "prepared_at": "2026-11-18T18:36:59.826007+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157345",
-        "size_bytes": 339288254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157345",
-        "size_bytes": 339288254,
-        "source_bytes_read": 339288254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157345",
         "source_bytes_read": 339288254,
         "elapsed_seconds": 17.438,
         "finished_at": "2026-11-18T18:37:46.537989+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157345",
+          "size_bytes": 339288254,
+          "source_bytes_read": 339288254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992985",
+        "source_url": "https://sdilej.cz/7992985/nova.holka.06x08.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157345",
+        "display_name": "New Girl S06E08 James Wonder SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:38:01.022739+00:00"
       }
     },
     "1117:6:11": {
@@ -620256,7 +620257,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:37:55.837972+00:00",
+  "updated_at": "2026-11-18T18:38:01.022758+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
