@@ -631041,12 +631041,6 @@
     },
     "920:11:20": {
       "episode_key": "sběratelé kostí:s11:e20",
-      "claim": {
-        "worker_id": "5841a44549ac451d9ef6fb17ddd9576a-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:02:07.830467+00:00",
-        "lease_expires_at": "2026-11-19T04:02:07.830483+00:00"
-      },
       "source": {
         "source_id": "27579257",
         "source_url": "https://sdilej.cz/27579257/sberatele-kosti-s11e20-cz.mkv",
@@ -631071,22 +631065,29 @@
         "display_name": "Bones S11E20 The Stiff in the Cliff 720p CZ Dabing",
         "prepared_at": "2026-11-18T22:02:15.009632+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161152",
-        "size_bytes": 418843064
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161152",
-        "size_bytes": 418843064,
-        "source_bytes_read": 418843064,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161152",
         "source_bytes_read": 418843064,
         "elapsed_seconds": 23.792,
         "finished_at": "2026-11-18T22:03:00.223300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161152",
+          "size_bytes": 418843064,
+          "source_bytes_read": 418843064,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579257",
+        "source_url": "https://sdilej.cz/27579257/sberatele-kosti-s11e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161152",
+        "display_name": "Bones S11E20 The Stiff in the Cliff 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:03:11.298253+00:00"
       }
     },
     "920:11:21": {
@@ -631131,7 +631132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:03:05.680675+00:00",
+  "updated_at": "2026-11-18T22:03:11.298269+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
