@@ -636373,12 +636373,6 @@
     },
     "1405:5:1": {
       "episode_key": "námořní vyšetřovací služba:s5:e1",
-      "claim": {
-        "worker_id": "be6fa1f1707546c387723483343f40a8-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:52:44.324661+00:00",
-        "lease_expires_at": "2026-11-19T05:52:44.324670+00:00"
-      },
       "source": {
         "source_id": "31639742",
         "source_url": "https://sdilej.cz/31639742/namorni-vysetrovaci-sluzba-s05e01.mkv",
@@ -636403,22 +636397,29 @@
         "display_name": "NCIS S05E01 Bury Your Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:52:48.783026+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163622",
-        "size_bytes": 997268427
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163622",
-        "size_bytes": 997268427,
-        "source_bytes_read": 997268427,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163622",
         "source_bytes_read": 997268427,
         "elapsed_seconds": 65.788,
         "finished_at": "2026-11-18T23:54:15.794416+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163622",
+          "size_bytes": 997268427,
+          "source_bytes_read": 997268427,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31639742",
+        "source_url": "https://sdilej.cz/31639742/namorni-vysetrovaci-sluzba-s05e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163622",
+        "display_name": "NCIS S05E01 Bury Your Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:54:30.572648+00:00"
       }
     },
     "1405:5:2": {
@@ -636500,7 +636501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:54:26.036536+00:00",
+  "updated_at": "2026-11-18T23:54:30.572662+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
