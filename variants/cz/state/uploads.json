@@ -609183,12 +609183,6 @@
     },
     "1195:2:2": {
       "episode_key": "exorcista:s2:e2",
-      "claim": {
-        "worker_id": "24e79b8195da43d78e373cb7521b0b9c-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T14:39:37.326672+00:00",
-        "lease_expires_at": "2026-11-18T20:39:37.326691+00:00"
-      },
       "source": {
         "source_id": "30014680",
         "source_url": "https://sdilej.cz/30014680/exorcista-s02e02-1080p-cz-en-audio.mkv",
@@ -609213,22 +609207,29 @@
         "display_name": "The Exorcist S02E02 Safe as Houses 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:39:47.397944+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153538",
-        "size_bytes": 968678810
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153538",
-        "size_bytes": 968678810,
-        "source_bytes_read": 968678810,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153538",
         "source_bytes_read": 968678810,
         "elapsed_seconds": 215.927,
         "finished_at": "2026-11-18T14:43:49.460048+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153538",
+          "size_bytes": 968678810,
+          "source_bytes_read": 968678810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30014680",
+        "source_url": "https://sdilej.cz/30014680/exorcista-s02e02-1080p-cz-en-audio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153538",
+        "display_name": "The Exorcist S02E02 Safe as Houses 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T14:43:56.731795+00:00"
       }
     },
     "1195:2:3": {
@@ -609274,7 +609275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T14:43:49.460067+00:00",
+  "updated_at": "2026-11-18T14:43:56.731810+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
