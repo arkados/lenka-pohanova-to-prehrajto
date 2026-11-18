@@ -599140,12 +599140,6 @@
     },
     "1169:3:8": {
       "episode_key": "lidé:s3:e8",
-      "claim": {
-        "worker_id": "59b945df4ad74bbdaa3d29344e12649d-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T07:43:30.964253+00:00",
-        "lease_expires_at": "2026-11-18T13:43:30.964263+00:00"
-      },
       "source": {
         "source_id": "32932720",
         "source_url": "https://sdilej.cz/32932720/humans-s03e08.mkv",
@@ -599170,22 +599164,29 @@
         "display_name": "Humans S03E08 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:43:36.205162+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144399",
-        "size_bytes": 998175645
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144399",
-        "size_bytes": 998175645,
-        "source_bytes_read": 998175645,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144399",
         "source_bytes_read": 998175645,
         "elapsed_seconds": 519.648,
         "finished_at": "2026-11-18T07:52:35.937769+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144399",
+          "size_bytes": 998175645,
+          "source_bytes_read": 998175645,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32932720",
+        "source_url": "https://sdilej.cz/32932720/humans-s03e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144399",
+        "display_name": "Humans S03E08 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:52:41.891923+00:00"
       }
     },
     "1967:1:1": {
@@ -599282,7 +599283,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:52:35.937790+00:00",
+  "updated_at": "2026-11-18T07:52:41.891939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
