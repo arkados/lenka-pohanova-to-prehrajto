@@ -636169,12 +636169,6 @@
     },
     "1405:4:21": {
       "episode_key": "námořní vyšetřovací služba:s4:e21",
-      "claim": {
-        "worker_id": "defb924f35494bfb9360da035b7e8b51-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:47:53.492957+00:00",
-        "lease_expires_at": "2026-11-19T05:47:53.492966+00:00"
-      },
       "source": {
         "source_id": "30679774",
         "source_url": "https://sdilej.cz/30679774/namorni-vysetrovaci-sluzba-s04e21.mkv",
@@ -636215,7 +636209,13 @@
         "elapsed_seconds": 61.698,
         "finished_at": "2026-11-18T23:49:29.827525+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T23:49:34.147442+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     },
     "1405:4:22": {
       "episode_key": "námořní vyšetřovací služba:s4:e22",
@@ -636260,7 +636260,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:49:29.827546+00:00",
+  "updated_at": "2026-11-18T23:49:34.147456+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
