@@ -580833,12 +580833,6 @@
     },
     "581:3:3": {
       "episode_key": "král tulsy:s3:e3",
-      "claim": {
-        "worker_id": "c54ed55c48ff4208b00a3ed0c17fd102-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:40:49.148206+00:00",
-        "lease_expires_at": "2026-11-18T06:40:49.148218+00:00"
-      },
       "source": {
         "source_id": "32494429",
         "source_url": "https://sdilej.cz/32494429/kral-tulsy-2025-s03e03-czdab-uhd-g-a-og.mkv",
@@ -580863,22 +580857,29 @@
         "display_name": "Tulsa King S03E03 The G and the OG 4K CZ Dabing",
         "prepared_at": "2026-11-18T00:40:57.530458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134886",
-        "size_bytes": 2250876698
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134886",
-        "size_bytes": 2250876698,
-        "source_bytes_read": 2250876698,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134886",
         "source_bytes_read": 2250876698,
         "elapsed_seconds": 284.622,
         "finished_at": "2026-11-18T00:45:59.612703+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134886",
+          "size_bytes": 2250876698,
+          "source_bytes_read": 2250876698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32494429",
+        "source_url": "https://sdilej.cz/32494429/kral-tulsy-2025-s03e03-czdab-uhd-g-a-og.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134886",
+        "display_name": "Tulsa King S03E03 The G and the OG 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T00:46:08.287295+00:00"
       }
     }
   },
@@ -580887,7 +580888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:45:59.612721+00:00",
+  "updated_at": "2026-11-18T00:46:08.287315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
