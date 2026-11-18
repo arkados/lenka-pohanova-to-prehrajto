@@ -633753,12 +633753,6 @@
     },
     "1405:2:20": {
       "episode_key": "námořní vyšetřovací služba:s2:e20",
-      "claim": {
-        "worker_id": "c7a1d45cc7f74bd6a588941ab6e8e35f-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:03:49.483586+00:00",
-        "lease_expires_at": "2026-11-19T05:03:49.483596+00:00"
-      },
       "source": {
         "source_id": "33972883",
         "source_url": "https://sdilej.cz/33972883/ncis-s02e20-cz.mp4",
@@ -633783,22 +633777,29 @@
         "display_name": "NCIS S02E20 Red Cell 720p CZ Dabing",
         "prepared_at": "2026-11-18T23:04:13.956885+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162456",
-        "size_bytes": 1159450468
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162456",
-        "size_bytes": 1159450468,
-        "source_bytes_read": 1159450468,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162456",
         "source_bytes_read": 1159450468,
         "elapsed_seconds": 82.4,
         "finished_at": "2026-11-18T23:05:59.616896+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162456",
+          "size_bytes": 1159450468,
+          "source_bytes_read": 1159450468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33972883",
+        "source_url": "https://sdilej.cz/33972883/ncis-s02e20-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162456",
+        "display_name": "NCIS S02E20 Red Cell 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:06:11.976052+00:00"
       }
     },
     "1405:2:22": {
@@ -633857,7 +633858,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:06:03.878542+00:00",
+  "updated_at": "2026-11-18T23:06:11.976066+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
