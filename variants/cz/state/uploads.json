@@ -599593,12 +599593,6 @@
     },
     "1967:3:4": {
       "episode_key": "vraždy v midsomeru:s3:e4",
-      "claim": {
-        "worker_id": "7c4487a6289545f797c5ff6bc3b62623-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T08:19:38.476711+00:00",
-        "lease_expires_at": "2026-11-18T14:19:38.476722+00:00"
-      },
       "source": {
         "source_id": "27567408",
         "source_url": "https://sdilej.cz/27567408/vrazdy-v-midsomeru-s03e04-hlasy-ze-zahrobi.mkv",
@@ -599623,22 +599617,29 @@
         "display_name": "Midsomer Murders S03E04 Beyond the Grave 1080p CZ Dabing",
         "prepared_at": "2026-11-18T08:19:51.404976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31145014",
-        "size_bytes": 2235478418
-      },
-      "transfer_receipt": {
-        "target_video_id": "31145014",
-        "size_bytes": 2235478418,
-        "source_bytes_read": 2235478418,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31145014",
         "source_bytes_read": 2235478418,
         "elapsed_seconds": 572.206,
         "finished_at": "2026-11-18T08:29:46.321237+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31145014",
+          "size_bytes": 2235478418,
+          "source_bytes_read": 2235478418,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27567408",
+        "source_url": "https://sdilej.cz/27567408/vrazdy-v-midsomeru-s03e04-hlasy-ze-zahrobi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31145014",
+        "display_name": "Midsomer Murders S03E04 Beyond the Grave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T08:29:53.532368+00:00"
       }
     },
     "1967:4:1": {
@@ -599823,7 +599824,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T08:29:46.321254+00:00",
+  "updated_at": "2026-11-18T08:29:53.532383+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
