@@ -593796,12 +593796,6 @@
     },
     "1765:3:13": {
       "episode_key": "záchranáři l. a.:s3:e13",
-      "claim": {
-        "worker_id": "6fd7fdb83c2d42649512ce0954549d7b-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:05:55.291922+00:00",
-        "lease_expires_at": "2026-11-18T11:05:55.291939+00:00"
-      },
       "source": {
         "source_id": "35339699",
         "source_url": "https://sdilej.cz/35339699/9-1-1-s03e13-cz-dabing.mkv",
@@ -593825,7 +593819,17 @@
         },
         "display_name": "9-1-1 S03E13 Pinned 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:05:59.885533+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339699:https://sdilej.cz/35339699/9-1-1-s03e13-cz-dabing.mkv",
+        "at": "2026-11-18T05:06:13.002433+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T05:06:13.002499+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -593833,7 +593837,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:05:59.885551+00:00",
+  "updated_at": "2026-11-18T05:06:13.002504+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -594273,9 +594277,13 @@
         {
           "identity": "1765:3:6",
           "at": "2026-11-18T05:05:43.984358+00:00"
+        },
+        {
+          "identity": "1765:3:13",
+          "at": "2026-11-18T05:06:13.002433+00:00"
         }
       ],
-      "retry_after": "2026-11-18T05:04:45.384980+00:00"
+      "retry_after": "2026-11-18T05:16:13.002433+00:00"
     },
     "792": {
       "recent_failures": [
