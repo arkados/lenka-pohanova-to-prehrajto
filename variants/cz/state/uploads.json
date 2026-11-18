@@ -610880,12 +610880,6 @@
     },
     "2209:1:13": {
       "episode_key": "třetí hlídka:s1:e13",
-      "claim": {
-        "worker_id": "c22496b888d14e4ab109691aa87c9c35-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:36:41.532491+00:00",
-        "lease_expires_at": "2026-11-18T21:36:41.532511+00:00"
-      },
       "source": {
         "source_id": "32457310",
         "source_url": "https://sdilej.cz/32457310/treti-hlidka-s01e13-bratrske-pouto-2000-hdtv-1080p-czdab.mkv",
@@ -610910,22 +610904,29 @@
         "display_name": "Third Watch S01E13 This Band of Brothers 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:37:05.233256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154543",
-        "size_bytes": 1766646846
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154543",
-        "size_bytes": 1766646846,
-        "source_bytes_read": 1766646846,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154543",
         "source_bytes_read": 1766646846,
         "elapsed_seconds": 129.797,
         "finished_at": "2026-11-18T15:39:47.667252+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154543",
+          "size_bytes": 1766646846,
+          "source_bytes_read": 1766646846,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457310",
+        "source_url": "https://sdilej.cz/32457310/treti-hlidka-s01e13-bratrske-pouto-2000-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154543",
+        "display_name": "Third Watch S01E13 This Band of Brothers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:39:54.344659+00:00"
       }
     },
     "2209:1:14": {
@@ -611022,7 +611023,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:39:47.667278+00:00",
+  "updated_at": "2026-11-18T15:39:54.344680+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
