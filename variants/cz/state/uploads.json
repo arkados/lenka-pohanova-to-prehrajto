@@ -634022,12 +634022,6 @@
     },
     "1405:3:3": {
       "episode_key": "námořní vyšetřovací služba:s3:e3",
-      "claim": {
-        "worker_id": "d5eade0a0780450fa286b4c66a50c89c-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:12:21.016468+00:00",
-        "lease_expires_at": "2026-11-19T05:12:21.016479+00:00"
-      },
       "source": {
         "source_id": "30701933",
         "source_url": "https://sdilej.cz/30701933/namorni-vysetrovaci-sluzba-s03e03.mkv",
@@ -634052,22 +634046,29 @@
         "display_name": "NCIS S03E03 Mind Games 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:12:34.662013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162585",
-        "size_bytes": 993460298
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162585",
-        "size_bytes": 993460298,
-        "source_bytes_read": 993460298,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162585",
         "source_bytes_read": 993460298,
         "elapsed_seconds": 88.386,
         "finished_at": "2026-11-18T23:14:22.546777+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162585",
+          "size_bytes": 993460298,
+          "source_bytes_read": 993460298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30701933",
+        "source_url": "https://sdilej.cz/30701933/namorni-vysetrovaci-sluzba-s03e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162585",
+        "display_name": "NCIS S03E03 Mind Games 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:14:31.799627+00:00"
       }
     },
     "1405:3:4": {
@@ -634201,7 +634202,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:14:26.343426+00:00",
+  "updated_at": "2026-11-18T23:14:31.799643+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
