@@ -613124,12 +613124,6 @@
     },
     "58:2:1": {
       "episode_key": "zaklínač:s2:e1",
-      "claim": {
-        "worker_id": "dc40cec02f454bfcb78dbea4343cd89b-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:14:44.011412+00:00",
-        "lease_expires_at": "2026-11-18T22:14:44.011428+00:00"
-      },
       "source": {
         "source_id": "32452889",
         "source_url": "https://sdilej.cz/32452889/zaklinac-s02e01-zrnko-pravdy.mkv",
@@ -613154,22 +613148,29 @@
         "display_name": "The Witcher S02E01 A Grain of Truth 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:14:49.437278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155150",
-        "size_bytes": 2943775156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155150",
-        "size_bytes": 2943775156,
-        "source_bytes_read": 2943775156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155150",
         "source_bytes_read": 2943775156,
         "elapsed_seconds": 175.571,
         "finished_at": "2026-11-18T16:18:03.809028+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155150",
+          "size_bytes": 2943775156,
+          "source_bytes_read": 2943775156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452889",
+        "source_url": "https://sdilej.cz/32452889/zaklinac-s02e01-zrnko-pravdy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155150",
+        "display_name": "The Witcher S02E01 A Grain of Truth 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:18:11.308623+00:00"
       }
     },
     "58:2:2": {
@@ -613252,7 +613253,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:18:03.809064+00:00",
+  "updated_at": "2026-11-18T16:18:11.308661+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
