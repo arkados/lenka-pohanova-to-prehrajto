@@ -605153,12 +605153,6 @@
     },
     "576:2:7": {
       "episode_key": "tým seal:s2:e7",
-      "claim": {
-        "worker_id": "dedb09367bb1486b934edc8c35d55bc3-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:43:47.787297+00:00",
-        "lease_expires_at": "2026-11-18T18:43:47.787309+00:00"
-      },
       "source": {
         "source_id": "29680120",
         "source_url": "https://sdilej.cz/29680120/seal-team-s02e07-1080p-cz-dabing.mkv",
@@ -605183,22 +605177,29 @@
         "display_name": "SEAL Team S02E07 Outside the Wire 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:43:52.807792+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151439",
-        "size_bytes": 853320022
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151439",
-        "size_bytes": 853320022,
-        "source_bytes_read": 853320022,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151439",
         "source_bytes_read": 853320022,
         "elapsed_seconds": 154.973,
         "finished_at": "2026-11-18T12:46:48.595623+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151439",
+          "size_bytes": 853320022,
+          "source_bytes_read": 853320022,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29680120",
+        "source_url": "https://sdilej.cz/29680120/seal-team-s02e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151439",
+        "display_name": "SEAL Team S02E07 Outside the Wire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:47:04.400272+00:00"
       }
     }
   },
@@ -605207,7 +605208,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:46:59.881592+00:00",
+  "updated_at": "2026-11-18T12:47:04.400295+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
