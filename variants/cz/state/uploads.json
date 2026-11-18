@@ -622047,12 +622047,6 @@
     },
     "920:2:9": {
       "episode_key": "sběratelé kostí:s2:e9",
-      "claim": {
-        "worker_id": "500cfe3bd03e43e689dcd1fadc3bbb37-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:00:56.116881+00:00",
-        "lease_expires_at": "2026-11-19T01:00:56.116896+00:00"
-      },
       "source": {
         "source_id": "27574184",
         "source_url": "https://sdilej.cz/27574184/sberatele-kosti-s02e09-cz.mkv",
@@ -622077,22 +622071,29 @@
         "display_name": "Bones S02E09 Aliens in a Spaceship 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:01:02.508735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157942",
-        "size_bytes": 521885529
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157942",
-        "size_bytes": 521885529,
-        "source_bytes_read": 521885529,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157942",
         "source_bytes_read": 521885529,
         "elapsed_seconds": 25.86,
         "finished_at": "2026-11-18T19:01:52.602990+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157942",
+          "size_bytes": 521885529,
+          "source_bytes_read": 521885529,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27574184",
+        "source_url": "https://sdilej.cz/27574184/sberatele-kosti-s02e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157942",
+        "display_name": "Bones S02E09 Aliens in a Spaceship 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:02:03.028250+00:00"
       }
     },
     "920:2:10": {
@@ -622171,7 +622172,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:01:57.619987+00:00",
+  "updated_at": "2026-11-18T19:02:03.028273+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
