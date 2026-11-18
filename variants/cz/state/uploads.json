@@ -587425,12 +587425,6 @@
     },
     "2690:1:19": {
       "episode_key": "rodinka na kousky:s1:e19",
-      "claim": {
-        "worker_id": "c207a0a1d98f41719f36a3277991ca8e-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:52:15.686399+00:00",
-        "lease_expires_at": "2026-11-18T08:52:15.686415+00:00"
-      },
       "source": {
         "source_id": "6395874",
         "source_url": "https://sdilej.cz/6395874/rodinka.na.kousky.01x19.dvb-t.cz.avi",
@@ -587455,22 +587449,29 @@
         "display_name": "Life in Pieces S01E19 Pestilence War Famine Death SD CZ Dabing",
         "prepared_at": "2026-11-18T02:52:24.569716+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137830",
-        "size_bytes": 325373952
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137830",
-        "size_bytes": 325373952,
-        "source_bytes_read": 325373952,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137830",
         "source_bytes_read": 325373952,
         "elapsed_seconds": 28.06,
         "finished_at": "2026-11-18T02:53:13.012850+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137830",
+          "size_bytes": 325373952,
+          "source_bytes_read": 325373952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6395874",
+        "source_url": "https://sdilej.cz/6395874/rodinka.na.kousky.01x19.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137830",
+        "display_name": "Life in Pieces S01E19 Pestilence War Famine Death SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:53:22.485199+00:00"
       }
     },
     "2690:1:20": {
@@ -587553,7 +587554,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:53:17.668947+00:00",
+  "updated_at": "2026-11-18T02:53:22.485220+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
