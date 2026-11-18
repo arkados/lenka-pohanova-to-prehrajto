@@ -613889,12 +613889,6 @@
     },
     "58:3:8": {
       "episode_key": "zaklínač:s3:e8",
-      "claim": {
-        "worker_id": "22adeb4ed6e347bbb2713d6e433b7de5-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:35:42.742412+00:00",
-        "lease_expires_at": "2026-11-18T22:35:42.742427+00:00"
-      },
       "source": {
         "source_id": "32453008",
         "source_url": "https://sdilej.cz/32453008/zaklinac-s03e08-cena-chaosu.mkv",
@@ -613919,22 +613913,29 @@
         "display_name": "The Witcher S03E08 The Cost of Chaos 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:35:51.161338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155543",
-        "size_bytes": 2996729919
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155543",
-        "size_bytes": 2996729919,
-        "source_bytes_read": 2996729919,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155543",
         "source_bytes_read": 2996729919,
         "elapsed_seconds": 170.445,
         "finished_at": "2026-11-18T16:39:08.436640+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155543",
+          "size_bytes": 2996729919,
+          "source_bytes_read": 2996729919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32453008",
+        "source_url": "https://sdilej.cz/32453008/zaklinac-s03e08-cena-chaosu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155543",
+        "display_name": "The Witcher S03E08 The Cost of Chaos 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:39:23.734683+00:00"
       }
     },
     "58:4:1": {
@@ -614016,7 +614017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:39:17.200004+00:00",
+  "updated_at": "2026-11-18T16:39:23.734704+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
