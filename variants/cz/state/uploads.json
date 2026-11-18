@@ -593276,12 +593276,6 @@
     },
     "1217:1:5": {
       "episode_key": "pustiny:s1:e5",
-      "claim": {
-        "worker_id": "2c27800cbe9f4bd1bcf8d3b7dc1de7ed-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:55:08.051363+00:00",
-        "lease_expires_at": "2026-11-18T10:55:08.051378+00:00"
-      },
       "source": {
         "source_id": "33184209",
         "source_url": "https://sdilej.cz/33184209/pustiny-into-the-badlands-s01e05-cz-dabing.mkv",
@@ -593306,22 +593300,29 @@
         "display_name": "Into the Badlands S01E05 Snake Creeps Down 1080p CZ Dabing",
         "prepared_at": "2026-11-18T04:55:17.630589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31140915",
-        "size_bytes": 898210051
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140915",
-        "size_bytes": 898210051,
-        "source_bytes_read": 898210051,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140915",
         "source_bytes_read": 898210051,
         "elapsed_seconds": 94.459,
         "finished_at": "2026-11-18T04:57:16.707720+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140915",
+          "size_bytes": 898210051,
+          "source_bytes_read": 898210051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33184209",
+        "source_url": "https://sdilej.cz/33184209/pustiny-into-the-badlands-s01e05-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140915",
+        "display_name": "Into the Badlands S01E05 Snake Creeps Down 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:57:25.289268+00:00"
       }
     },
     "1217:1:6": {
@@ -593404,7 +593405,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:57:16.707739+00:00",
+  "updated_at": "2026-11-18T04:57:25.289285+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
