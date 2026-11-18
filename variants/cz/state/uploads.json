@@ -615163,12 +615163,6 @@
     },
     "1166:2:1": {
       "episode_key": "umbrella academy:s2:e1",
-      "claim": {
-        "worker_id": "cf74f6aa61ad4f32b9f299e2e0001169-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:18:01.163263+00:00",
-        "lease_expires_at": "2026-11-18T23:18:01.163281+00:00"
-      },
       "source": {
         "source_id": "32940712",
         "source_url": "https://sdilej.cz/32940712/the-umbrella-academy-s02e01-cz-dabing.mkv",
@@ -615193,22 +615187,29 @@
         "display_name": "The Umbrella Academy S02E01 Right Back Where We Started 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:18:11.390798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156243",
-        "size_bytes": 696299532
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156243",
-        "size_bytes": 696299532,
-        "source_bytes_read": 696299532,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156243",
         "source_bytes_read": 696299532,
         "elapsed_seconds": 39.118,
         "finished_at": "2026-11-18T17:19:12.161029+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156243",
+          "size_bytes": 696299532,
+          "source_bytes_read": 696299532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32940712",
+        "source_url": "https://sdilej.cz/32940712/the-umbrella-academy-s02e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156243",
+        "display_name": "The Umbrella Academy S02E01 Right Back Where We Started 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T17:19:26.102772+00:00"
       }
     },
     "1166:2:2": {
@@ -615253,7 +615254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:19:21.958692+00:00",
+  "updated_at": "2026-11-18T17:19:26.102797+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
