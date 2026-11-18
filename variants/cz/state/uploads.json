@@ -622390,12 +622390,6 @@
     },
     "920:2:18": {
       "episode_key": "sběratelé kostí:s2:e18",
-      "claim": {
-        "worker_id": "b1715a2ece704a9a9793963b76346ec1-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:09:17.904481+00:00",
-        "lease_expires_at": "2026-11-19T01:09:17.904495+00:00"
-      },
       "source": {
         "source_id": "27574356",
         "source_url": "https://sdilej.cz/27574356/sberatele-kosti-s02e18-cz.mkv",
@@ -622420,22 +622414,29 @@
         "display_name": "Bones S02E18 The Killer in the Concrete 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:09:23.364893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158089",
-        "size_bytes": 617240879
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158089",
-        "size_bytes": 617240879,
-        "source_bytes_read": 617240879,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158089",
         "source_bytes_read": 617240879,
         "elapsed_seconds": 33.131,
         "finished_at": "2026-11-18T19:10:26.580991+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158089",
+          "size_bytes": 617240879,
+          "source_bytes_read": 617240879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27574356",
+        "source_url": "https://sdilej.cz/27574356/sberatele-kosti-s02e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158089",
+        "display_name": "Bones S02E18 The Killer in the Concrete 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:10:37.093234+00:00"
       }
     },
     "920:2:19": {
@@ -622481,7 +622482,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:10:31.274407+00:00",
+  "updated_at": "2026-11-18T19:10:37.093254+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
