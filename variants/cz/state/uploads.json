@@ -588046,12 +588046,6 @@
     },
     "4301:1:2": {
       "episode_key": "4 bloky:s1:e2",
-      "claim": {
-        "worker_id": "d52303d776214a1e931d00be2773b26b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:59:24.882556+00:00",
-        "lease_expires_at": "2026-11-18T08:59:24.882573+00:00"
-      },
       "source": {
         "source_id": "25833362",
         "source_url": "https://sdilej.cz/25833362/4-bloky-s01e02-dil-2.mkv",
@@ -588076,22 +588070,29 @@
         "display_name": "4 Blocks S01E02 Die falsche Neun 720p CZ Dabing",
         "prepared_at": "2026-11-18T02:59:41.254970+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138005",
-        "size_bytes": 1679057145
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138005",
-        "size_bytes": 1679057145,
-        "source_bytes_read": 1679057145,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138005",
         "source_bytes_read": 1679057145,
         "elapsed_seconds": 155.655,
         "finished_at": "2026-11-18T03:02:50.841452+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138005",
+          "size_bytes": 1679057145,
+          "source_bytes_read": 1679057145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25833362",
+        "source_url": "https://sdilej.cz/25833362/4-bloky-s01e02-dil-2.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138005",
+        "display_name": "4 Blocks S01E02 Die falsche Neun 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:03:00.717571+00:00"
       }
     },
     "4301:1:1": {
@@ -588290,7 +588291,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:02:55.033741+00:00",
+  "updated_at": "2026-11-18T03:03:00.717593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
