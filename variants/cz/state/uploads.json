@@ -598726,12 +598726,6 @@
     },
     "1765:5:4": {
       "episode_key": "záchranáři l. a.:s5:e4",
-      "claim": {
-        "worker_id": "85aeade5312d493fbbcb717b420eb375-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T07:19:49.539668+00:00",
-        "lease_expires_at": "2026-11-18T13:19:49.539686+00:00"
-      },
       "source": {
         "source_id": "34634802",
         "source_url": "https://sdilej.cz/34634802/9-1-1-s05e04.mp4",
@@ -598756,22 +598750,29 @@
         "display_name": "9-1-1 S05E04 Home and Away 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:20:03.952629+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144041",
-        "size_bytes": 2282821628
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144041",
-        "size_bytes": 2282821628,
-        "source_bytes_read": 2282821628,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144041",
         "source_bytes_read": 2282821628,
         "elapsed_seconds": 364.522,
         "finished_at": "2026-11-18T07:26:30.724385+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144041",
+          "size_bytes": 2282821628,
+          "source_bytes_read": 2282821628,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634802",
+        "source_url": "https://sdilej.cz/34634802/9-1-1-s05e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144041",
+        "display_name": "9-1-1 S05E04 Home and Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:26:39.484123+00:00"
       }
     },
     "1765:5:5": {
@@ -598905,7 +598906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:26:30.724404+00:00",
+  "updated_at": "2026-11-18T07:26:39.484142+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
