@@ -584621,12 +584621,6 @@
     },
     "922:1:8": {
       "episode_key": "kazatel:s1:e8",
-      "claim": {
-        "worker_id": "0cf5aaa92733480980d1730a67e00863-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:09:51.830071+00:00",
-        "lease_expires_at": "2026-11-18T08:09:51.830084+00:00"
-      },
       "source": {
         "source_id": "6305001",
         "source_url": "https://sdilej.cz/6305001/preacher.s01e08.1080p.web-dl.6ch.x265.hevc-psa-czaudio-.mkv",
@@ -584651,22 +584645,29 @@
         "display_name": "Preacher S01E08 El Valero 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:09:56.413950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137008",
-        "size_bytes": 592658023
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137008",
-        "size_bytes": 592658023,
-        "source_bytes_read": 592658023,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137008",
         "source_bytes_read": 592658023,
         "elapsed_seconds": 97.627,
         "finished_at": "2026-11-18T02:11:49.876649+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137008",
+          "size_bytes": 592658023,
+          "source_bytes_read": 592658023,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6305001",
+        "source_url": "https://sdilej.cz/6305001/preacher.s01e08.1080p.web-dl.6ch.x265.hevc-psa-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137008",
+        "display_name": "Preacher S01E08 El Valero 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:11:58.664256+00:00"
       }
     },
     "922:1:9": {
@@ -584786,7 +584787,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:11:53.557556+00:00",
+  "updated_at": "2026-11-18T02:11:58.664272+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
