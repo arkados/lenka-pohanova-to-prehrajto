@@ -584172,12 +584172,6 @@
     },
     "139:1:8": {
       "episode_key": "nový papež:s1:e8",
-      "claim": {
-        "worker_id": "9c0b741ffb4e4f35934f9c98861f9d1b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:59:30.994531+00:00",
-        "lease_expires_at": "2026-11-18T07:59:30.994547+00:00"
-      },
       "source": {
         "source_id": "12989250",
         "source_url": "https://sdilej.cz/12989250/novy-papez-the-new-pope-s01e08-cz-dab.mkv",
@@ -584202,22 +584196,29 @@
         "display_name": "The New Pope S01E08 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:59:35.349773+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136777",
-        "size_bytes": 1306579089
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136777",
-        "size_bytes": 1306579089,
-        "source_bytes_read": 1306579089,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136777",
         "source_bytes_read": 1306579089,
         "elapsed_seconds": 122.814,
         "finished_at": "2026-11-18T02:01:53.581555+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136777",
+          "size_bytes": 1306579089,
+          "source_bytes_read": 1306579089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12989250",
+        "source_url": "https://sdilej.cz/12989250/novy-papez-the-new-pope-s01e08-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136777",
+        "display_name": "The New Pope S01E08 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:02:01.671066+00:00"
       }
     },
     "139:1:9": {
@@ -584263,7 +584264,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:01:53.581574+00:00",
+  "updated_at": "2026-11-18T02:02:01.671085+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
