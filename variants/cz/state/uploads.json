@@ -635901,12 +635901,6 @@
     },
     "1405:4:16": {
       "episode_key": "námořní vyšetřovací služba:s4:e16",
-      "claim": {
-        "worker_id": "77e707c951584114ac270f2a5389f9b5-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:44:06.657601+00:00",
-        "lease_expires_at": "2026-11-19T05:44:06.657611+00:00"
-      },
       "source": {
         "source_id": "30679773",
         "source_url": "https://sdilej.cz/30679773/namorni-vysetrovaci-sluzba-s04e16.mkv",
@@ -635931,22 +635925,29 @@
         "display_name": "NCIS S04E16 Dead Man Walking 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:44:11.684930+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163370",
-        "size_bytes": 1034932489
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163370",
-        "size_bytes": 1034932489,
-        "source_bytes_read": 1034932489,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163370",
         "source_bytes_read": 1034932489,
         "elapsed_seconds": 55.98,
         "finished_at": "2026-11-18T23:45:25.722775+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163370",
+          "size_bytes": 1034932489,
+          "source_bytes_read": 1034932489,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30679773",
+        "source_url": "https://sdilej.cz/30679773/namorni-vysetrovaci-sluzba-s04e16.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163370",
+        "display_name": "NCIS S04E16 Dead Man Walking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:45:35.544478+00:00"
       }
     },
     "1405:4:17": {
@@ -635988,7 +635989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:45:29.897515+00:00",
+  "updated_at": "2026-11-18T23:45:35.544495+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
