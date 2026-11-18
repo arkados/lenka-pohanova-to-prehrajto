@@ -594449,12 +594449,6 @@
     },
     "1765:3:15": {
       "episode_key": "záchranáři l. a.:s3:e15",
-      "claim": {
-        "worker_id": "aab9bbadcf57455d87f71b5a9147f6b7-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:17:23.980719+00:00",
-        "lease_expires_at": "2026-11-18T11:17:23.980739+00:00"
-      },
       "source": {
         "source_id": "35339709",
         "source_url": "https://sdilej.cz/35339709/9-1-1-s03e15-cz-dabing.mkv",
@@ -594478,7 +594472,17 @@
         },
         "display_name": "9-1-1 S03E15 Eddie Begins 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:17:30.257800+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339709:https://sdilej.cz/35339709/9-1-1-s03e15-cz-dabing.mkv",
+        "at": "2026-11-18T05:17:44.059833+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T05:17:44.059870+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1765:3:16": {
       "episode_key": "záchranáři l. a.:s3:e16",
@@ -594519,7 +594523,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:17:39.743918+00:00",
+  "updated_at": "2026-11-18T05:17:44.059874+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -594947,6 +594951,10 @@
         {
           "identity": "1765:3:14",
           "at": "2026-11-18T05:17:19.619278+00:00"
+        },
+        {
+          "identity": "1765:3:15",
+          "at": "2026-11-18T05:17:44.059833+00:00"
         }
       ],
       "retry_after": "2026-11-18T05:16:13.002433+00:00"
