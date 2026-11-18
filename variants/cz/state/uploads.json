@@ -582602,12 +582602,6 @@
     },
     "590:2:1": {
       "episode_key": "smrt nás spojí:s2:e1",
-      "claim": {
-        "worker_id": "b47918afd41e47608a4826c106272220-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:34:29.752741+00:00",
-        "lease_expires_at": "2026-11-18T07:34:29.752759+00:00"
-      },
       "source": {
         "source_id": "27806962",
         "source_url": "https://sdilej.cz/27806962/smrt-nas-spoji-s02e01-1080p-cz-dabing.mkv",
@@ -582632,22 +582626,29 @@
         "display_name": "Dead to Me S02E01 You Know What You Did 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:34:34.245683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136153",
-        "size_bytes": 575510364
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136153",
-        "size_bytes": 575510364,
-        "source_bytes_read": 575510364,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136153",
         "source_bytes_read": 575510364,
         "elapsed_seconds": 74.469,
         "finished_at": "2026-11-18T01:36:05.005201+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136153",
+          "size_bytes": 575510364,
+          "source_bytes_read": 575510364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27806962",
+        "source_url": "https://sdilej.cz/27806962/smrt-nas-spoji-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136153",
+        "display_name": "Dead to Me S02E01 You Know What You Did 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:36:19.420758+00:00"
       }
     }
   },
@@ -582656,7 +582657,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:36:15.887683+00:00",
+  "updated_at": "2026-11-18T01:36:19.420776+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
