@@ -579337,12 +579337,6 @@
     },
     "1098:6:17": {
       "episode_key": "jak prosté:s6:e17",
-      "claim": {
-        "worker_id": "2e0812c8aaf94230830844873c4423f9-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:06:19.480415+00:00",
-        "lease_expires_at": "2026-11-18T06:06:19.480431+00:00"
-      },
       "source": {
         "source_id": "28202297",
         "source_url": "https://sdilej.cz/28202297/jak-proste-s06e17.mkv",
@@ -579367,22 +579361,29 @@
         "display_name": "Elementary S06E17 The Worms Crawl In, The Worms Crawl Out 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:06:24.683422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31133994",
-        "size_bytes": 750602623
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133994",
-        "size_bytes": 750602623,
-        "source_bytes_read": 750602623,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133994",
         "source_bytes_read": 750602623,
         "elapsed_seconds": 59.599,
         "finished_at": "2026-11-18T00:07:53.732262+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133994",
+          "size_bytes": 750602623,
+          "source_bytes_read": 750602623,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202297",
+        "source_url": "https://sdilej.cz/28202297/jak-proste-s06e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133994",
+        "display_name": "Elementary S06E17 The Worms Crawl In, The Worms Crawl Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:08:00.682085+00:00"
       }
     },
     "1098:6:18": {
@@ -579465,7 +579466,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:07:53.732282+00:00",
+  "updated_at": "2026-11-18T00:08:00.682103+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
