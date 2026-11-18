@@ -620370,12 +620370,6 @@
     },
     "1117:6:18": {
       "episode_key": "nová holka:s6:e18",
-      "claim": {
-        "worker_id": "b0d3c404e780424db587a214a2305cd7-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:39:18.096308+00:00",
-        "lease_expires_at": "2026-11-19T00:39:18.096325+00:00"
-      },
       "source": {
         "source_id": "33299379",
         "source_url": "https://sdilej.cz/33299379/nova.holka-s06e18.avi",
@@ -620400,22 +620394,29 @@
         "display_name": "New Girl S06E18 Young Adult SD CZ Dabing",
         "prepared_at": "2026-11-18T18:39:27.513603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157392",
-        "size_bytes": 276927496
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157392",
-        "size_bytes": 276927496,
-        "source_bytes_read": 276927496,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157392",
         "source_bytes_read": 276927496,
         "elapsed_seconds": 17.68,
         "finished_at": "2026-11-18T18:40:17.615721+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157392",
+          "size_bytes": 276927496,
+          "source_bytes_read": 276927496,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33299379",
+        "source_url": "https://sdilej.cz/33299379/nova.holka-s06e18.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157392",
+        "display_name": "New Girl S06E18 Young Adult SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:40:24.875036+00:00"
       }
     }
   },
@@ -620424,7 +620425,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:40:17.615740+00:00",
+  "updated_at": "2026-11-18T18:40:24.875053+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
