@@ -615688,12 +615688,6 @@
     },
     "1809:1:1": {
       "episode_key": "kluk spolkne vesmír:s1:e1",
-      "claim": {
-        "worker_id": "a5e19a854cfe4d54a6de7e0396392028-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:24:10.100796+00:00",
-        "lease_expires_at": "2026-11-18T23:24:10.100812+00:00"
-      },
       "source": {
         "source_id": "28519689",
         "source_url": "https://sdilej.cz/28519689/kluk-spolkne-vesmir-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -615718,22 +615712,29 @@
         "display_name": "Boy Swallows Universe S01E01 Boy Smells Rat 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:24:15.485414+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156314",
-        "size_bytes": 644730555
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156314",
-        "size_bytes": 644730555,
-        "source_bytes_read": 644730555,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156314",
         "source_bytes_read": 644730555,
         "elapsed_seconds": 42.235,
         "finished_at": "2026-11-18T17:25:29.558075+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156314",
+          "size_bytes": 644730555,
+          "source_bytes_read": 644730555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28519689",
+        "source_url": "https://sdilej.cz/28519689/kluk-spolkne-vesmir-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156314",
+        "display_name": "Boy Swallows Universe S01E01 Boy Smells Rat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T17:25:43.648425+00:00"
       }
     }
   },
@@ -615742,7 +615743,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:25:37.750730+00:00",
+  "updated_at": "2026-11-18T17:25:43.648449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
