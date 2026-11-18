@@ -579271,12 +579271,6 @@
     },
     "1098:6:16": {
       "episode_key": "jak prosté:s6:e16",
-      "claim": {
-        "worker_id": "137231a73aca479eb055a0c1e0c87063-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:05:47.226084+00:00",
-        "lease_expires_at": "2026-11-18T06:05:47.226099+00:00"
-      },
       "source": {
         "source_id": "34435172",
         "source_url": "https://sdilej.cz/34435172/elementary-s06e16-cz-dabing-1080p-full-hd.mkv",
@@ -579300,7 +579294,17 @@
         },
         "display_name": "Elementary S06E16 Uncanny Valley of the Dolls 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:05:51.934568+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34435172:https://sdilej.cz/34435172/elementary-s06e16-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T00:06:06.408865+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:06:06.408912+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -579308,7 +579312,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:06:02.192248+00:00",
+  "updated_at": "2026-11-18T00:06:06.408918+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -579707,12 +579711,8 @@
     "1098": {
       "recent_failures": [
         {
-          "identity": "1098:6:9",
-          "at": "2026-11-17T23:58:40.117747+00:00"
-        },
-        {
-          "identity": "1098:6:10",
-          "at": "2026-11-17T23:59:07.122659+00:00"
+          "identity": "1098:6:16",
+          "at": "2026-11-18T00:06:06.408865+00:00"
         }
       ],
       "retry_after": "2026-11-17T23:49:36.763101+00:00"
