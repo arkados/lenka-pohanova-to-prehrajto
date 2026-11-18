@@ -589850,12 +589850,6 @@
     },
     "1765:3:2": {
       "episode_key": "záchranáři l. a.:s3:e2",
-      "claim": {
-        "worker_id": "5269aa52c10f4cfbaef0c7ee8b9b9b1a-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:44:13.479349+00:00",
-        "lease_expires_at": "2026-11-18T09:44:13.479364+00:00"
-      },
       "source": {
         "source_id": "35339637",
         "source_url": "https://sdilej.cz/35339637/9-1-1-s03e02-cz-dabing.mkv",
@@ -589879,7 +589873,17 @@
         },
         "display_name": "9-1-1 S03E02 Sink or Swim 720p CZ Dabing",
         "prepared_at": "2026-11-18T03:44:25.426826+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339637:https://sdilej.cz/35339637/9-1-1-s03e02-cz-dabing.mkv",
+        "at": "2026-11-18T03:44:41.360772+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:44:41.360815+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1765:3:3": {
       "episode_key": "záchranáři l. a.:s3:e3",
@@ -589896,7 +589900,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:44:37.364565+00:00",
+  "updated_at": "2026-11-18T03:44:41.360823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590340,6 +590344,10 @@
         {
           "identity": "1765:3:1",
           "at": "2026-11-18T03:44:21.619949+00:00"
+        },
+        {
+          "identity": "1765:3:2",
+          "at": "2026-11-18T03:44:41.360772+00:00"
         }
       ]
     }
