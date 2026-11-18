@@ -604948,12 +604948,6 @@
     },
     "576:2:3": {
       "episode_key": "tým seal:s2:e3",
-      "claim": {
-        "worker_id": "b401da4063ad48d9a351d6f85c3089be-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:39:46.538007+00:00",
-        "lease_expires_at": "2026-11-18T18:39:46.538025+00:00"
-      },
       "source": {
         "source_id": "29680101",
         "source_url": "https://sdilej.cz/29680101/seal-team-s02e03-1080p-cz-dabing.mkv",
@@ -604978,22 +604972,29 @@
         "display_name": "SEAL Team S02E03 The Worst of Conditions 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:39:51.440647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151345",
-        "size_bytes": 857616581
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151345",
-        "size_bytes": 857616581,
-        "source_bytes_read": 857616581,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151345",
         "source_bytes_read": 857616581,
         "elapsed_seconds": 66.739,
         "finished_at": "2026-11-18T12:41:20.174955+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151345",
+          "size_bytes": 857616581,
+          "source_bytes_read": 857616581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29680101",
+        "source_url": "https://sdilej.cz/29680101/seal-team-s02e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151345",
+        "display_name": "SEAL Team S02E03 The Worst of Conditions 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:41:31.263332+00:00"
       }
     },
     "576:2:4": {
@@ -605039,7 +605040,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:41:24.100790+00:00",
+  "updated_at": "2026-11-18T12:41:31.263349+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
