@@ -592807,12 +592807,6 @@
     },
     "1275:1:9": {
       "episode_key": "já a robot:s1:e9",
-      "claim": {
-        "worker_id": "9f337f465d114193b94d97029f910d46-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:42:23.370907+00:00",
-        "lease_expires_at": "2026-11-18T10:42:23.370920+00:00"
-      },
       "source": {
         "source_id": "34330115",
         "source_url": "https://sdilej.cz/34330115/almost-human-01x09-cz-dab-.mp4",
@@ -592837,22 +592831,29 @@
         "display_name": "Almost Human S01E09 Unbound 720p CZ Dabing",
         "prepared_at": "2026-11-18T04:42:29.723053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31140528",
-        "size_bytes": 550376035
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140528",
-        "size_bytes": 550376035,
-        "source_bytes_read": 550376035,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140528",
         "source_bytes_read": 550376035,
         "elapsed_seconds": 48.011,
         "finished_at": "2026-11-18T04:43:48.173630+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140528",
+          "size_bytes": 550376035,
+          "source_bytes_read": 550376035,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34330115",
+        "source_url": "https://sdilej.cz/34330115/almost-human-01x09-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140528",
+        "display_name": "Almost Human S01E09 Unbound 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:43:54.368767+00:00"
       }
     },
     "1275:1:10": {
@@ -592898,7 +592899,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:43:48.173645+00:00",
+  "updated_at": "2026-11-18T04:43:54.368785+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
