@@ -615719,28 +615719,29 @@
           "at": "2026-11-18T21:26:22.519715+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4cea2e4982a543279bc276a70ad4b4a8-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:26:26.930771+00:00",
-        "lease_expires_at": "2026-11-19T03:26:26.930790+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31160501",
-        "size_bytes": 955325269
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160501",
-        "size_bytes": 955325269,
-        "source_bytes_read": 955325269,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160501",
         "source_bytes_read": 955325269,
         "elapsed_seconds": 65.706,
         "finished_at": "2026-11-18T21:28:09.152151+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160501",
+          "size_bytes": 955325269,
+          "source_bytes_read": 955325269,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32006743",
+        "source_url": "https://sdilej.cz/32006743/umbrella-academy-s02e10-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160501",
+        "display_name": "The Umbrella Academy S02E10 The End of Something 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:28:23.076795+00:00"
       }
     },
     "1809:1:2": {
@@ -629479,7 +629480,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:28:18.604736+00:00",
+  "updated_at": "2026-11-18T21:28:23.076812+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
