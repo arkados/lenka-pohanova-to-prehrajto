@@ -604029,12 +604029,6 @@
     },
     "576:1:7": {
       "episode_key": "tým seal:s1:e7",
-      "claim": {
-        "worker_id": "8531c518e5eb41b58f0ae0e3ab3dbd92-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:17:39.526227+00:00",
-        "lease_expires_at": "2026-11-18T18:17:39.526249+00:00"
-      },
       "source": {
         "source_id": "29669390",
         "source_url": "https://sdilej.cz/29669390/seal-team-s01e07-1080p-cz-dabing.mkv",
@@ -604059,22 +604053,29 @@
         "display_name": "SEAL Team S01E07 Borderlines 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:17:44.115838+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150914",
-        "size_bytes": 869024046
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150914",
-        "size_bytes": 869024046,
-        "source_bytes_read": 869024046,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150914",
         "source_bytes_read": 869024046,
         "elapsed_seconds": 81.063,
         "finished_at": "2026-11-18T12:19:33.121576+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150914",
+          "size_bytes": 869024046,
+          "source_bytes_read": 869024046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29669390",
+        "source_url": "https://sdilej.cz/29669390/seal-team-s01e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150914",
+        "display_name": "SEAL Team S01E07 Borderlines 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:19:46.620439+00:00"
       }
     }
   },
@@ -604083,7 +604084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:19:37.942402+00:00",
+  "updated_at": "2026-11-18T12:19:46.620457+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
