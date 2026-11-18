@@ -586665,12 +586665,6 @@
     },
     "922:2:13": {
       "episode_key": "kazatel:s2:e13",
-      "claim": {
-        "worker_id": "562856d4c0bd46e281fda8d536ccdd23-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:42:57.189869+00:00",
-        "lease_expires_at": "2026-11-18T08:42:57.189885+00:00"
-      },
       "source": {
         "source_id": "32925208",
         "source_url": "https://sdilej.cz/32925208/kazatel-s02e13-the-end-of-the-road.mkv",
@@ -586695,22 +586689,29 @@
         "display_name": "Preacher S02E13 The End of the Road 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:43:05.871093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137615",
-        "size_bytes": 795712176
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137615",
-        "size_bytes": 795712176,
-        "source_bytes_read": 795712176,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137615",
         "source_bytes_read": 795712176,
         "elapsed_seconds": 69.452,
         "finished_at": "2026-11-18T02:44:39.357435+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137615",
+          "size_bytes": 795712176,
+          "source_bytes_read": 795712176,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32925208",
+        "source_url": "https://sdilej.cz/32925208/kazatel-s02e13-the-end-of-the-road.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137615",
+        "display_name": "Preacher S02E13 The End of the Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:44:54.514872+00:00"
       }
     },
     "922:3:1": {
@@ -586859,7 +586860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:44:50.997559+00:00",
+  "updated_at": "2026-11-18T02:44:54.514901+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
