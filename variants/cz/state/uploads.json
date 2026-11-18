@@ -579018,28 +579018,29 @@
           "at": "2026-11-18T00:02:25.194587+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a982fecf5cde483ba451a027333a108a-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:02:29.524869+00:00",
-        "lease_expires_at": "2026-11-18T06:02:29.524881+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133921",
-        "size_bytes": 692768829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133921",
-        "size_bytes": 692768829,
-        "source_bytes_read": 692768829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133921",
         "source_bytes_read": 692768829,
         "elapsed_seconds": 101.894,
         "finished_at": "2026-11-18T00:04:33.436543+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133921",
+          "size_bytes": 692768829,
+          "source_bytes_read": 692768829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431675",
+        "source_url": "https://sdilej.cz/34431675/elementary.s06e10.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133921",
+        "display_name": "Elementary S06E10 The Adventure of the Ersatz Sobekneferu 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:04:41.406552+00:00"
       }
     },
     "1098:6:11": {
@@ -579173,7 +579174,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:04:33.436562+00:00",
+  "updated_at": "2026-11-18T00:04:41.406573+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
