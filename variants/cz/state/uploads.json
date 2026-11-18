@@ -597385,12 +597385,6 @@
     },
     "4102:2:6": {
       "episode_key": "scooby-doo na stopě:s2:e6",
-      "claim": {
-        "worker_id": "a0bb96ffb6d24c1e8d18b7a5afb24f7e-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:41:20.507519+00:00",
-        "lease_expires_at": "2026-11-18T12:41:20.507535+00:00"
-      },
       "source": {
         "source_id": "25054676",
         "source_url": "https://sdilej.cz/25054676/scooby-doo-na-stope-2x06-postrach-havajskych-ostrovu.avi",
@@ -597415,22 +597409,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E06 A Tiki Scare Is No Fair SD CZ Dabing",
         "prepared_at": "2026-11-18T06:41:30.880516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143041",
-        "size_bytes": 155261254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143041",
-        "size_bytes": 155261254,
-        "source_bytes_read": 155261254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143041",
         "source_bytes_read": 155261254,
         "elapsed_seconds": 13.122,
         "finished_at": "2026-11-18T06:42:10.785135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143041",
+          "size_bytes": 155261254,
+          "source_bytes_read": 155261254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25054676",
+        "source_url": "https://sdilej.cz/25054676/scooby-doo-na-stope-2x06-postrach-havajskych-ostrovu.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143041",
+        "display_name": "Scooby-Doo, Where Are You! S02E06 A Tiki Scare Is No Fair SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:42:29.612383+00:00"
       }
     }
   },
@@ -597439,7 +597440,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:42:24.207552+00:00",
+  "updated_at": "2026-11-18T06:42:29.612399+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
