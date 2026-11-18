@@ -620785,12 +620785,6 @@
     },
     "920:1:6": {
       "episode_key": "sběratelé kostí:s1:e6",
-      "claim": {
-        "worker_id": "ef50dfe379b946dc89ed06826ad99b06-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:44:58.951716+00:00",
-        "lease_expires_at": "2026-11-19T00:44:58.951730+00:00"
-      },
       "source": {
         "source_id": "26709386",
         "source_url": "https://sdilej.cz/26709386/sberatele-kosti-01x06.avi",
@@ -620815,22 +620809,29 @@
         "display_name": "Bones S01E06 The Man in the Wall SD CZ Dabing",
         "prepared_at": "2026-11-18T18:45:09.630248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157562",
-        "size_bytes": 358918144
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157562",
-        "size_bytes": 358918144,
-        "source_bytes_read": 358918144,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157562",
         "source_bytes_read": 358918144,
         "elapsed_seconds": 25.961,
         "finished_at": "2026-11-18T18:46:00.648349+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157562",
+          "size_bytes": 358918144,
+          "source_bytes_read": 358918144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26709386",
+        "source_url": "https://sdilej.cz/26709386/sberatele-kosti-01x06.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157562",
+        "display_name": "Bones S01E06 The Man in the Wall SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:46:11.568459+00:00"
       }
     },
     "920:1:7": {
@@ -620876,7 +620877,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:46:06.909175+00:00",
+  "updated_at": "2026-11-18T18:46:11.568478+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
