@@ -613263,12 +613263,6 @@
     },
     "58:2:4": {
       "episode_key": "zaklínač:s2:e4",
-      "claim": {
-        "worker_id": "d89a415926d545b09f473a4e20e53867-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:19:30.847605+00:00",
-        "lease_expires_at": "2026-11-18T22:19:30.847623+00:00"
-      },
       "source": {
         "source_id": "32452937",
         "source_url": "https://sdilej.cz/32452937/zaklinac-s02e04-tajne-zpravy-z-redanie.mkv",
@@ -613293,22 +613287,29 @@
         "display_name": "The Witcher S02E04 Redanian Intelligence 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:19:44.089423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155236",
-        "size_bytes": 2557661663
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155236",
-        "size_bytes": 2557661663,
-        "source_bytes_read": 2557661663,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155236",
         "source_bytes_read": 2557661663,
         "elapsed_seconds": 135.693,
         "finished_at": "2026-11-18T16:22:24.022291+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155236",
+          "size_bytes": 2557661663,
+          "source_bytes_read": 2557661663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452937",
+        "source_url": "https://sdilej.cz/32452937/zaklinac-s02e04-tajne-zpravy-z-redanie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155236",
+        "display_name": "The Witcher S02E04 Redanian Intelligence 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:22:36.113525+00:00"
       }
     },
     "58:2:5": {
@@ -613368,7 +613369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:22:28.608856+00:00",
+  "updated_at": "2026-11-18T16:22:36.113538+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
