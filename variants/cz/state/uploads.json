@@ -606545,12 +606545,6 @@
     },
     "576:3:16": {
       "episode_key": "tým seal:s3:e16",
-      "claim": {
-        "worker_id": "12cd5cb96fa64f6db730f7a63f7dea04-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:12:29.968519+00:00",
-        "lease_expires_at": "2026-11-18T19:12:29.968540+00:00"
-      },
       "source": {
         "source_id": "18484563",
         "source_url": "https://sdilej.cz/18484563/seal.team.2019.s03e16.1080p.10bit.amzn.web-dl.ac3.x265.hevc-joy.utr-czaudio.mkv",
@@ -606575,22 +606569,29 @@
         "display_name": "SEAL Team S03E16 Drawdown 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:12:39.653777+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151955",
-        "size_bytes": 489982413
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151955",
-        "size_bytes": 489982413,
-        "source_bytes_read": 489982413,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151955",
         "source_bytes_read": 489982413,
         "elapsed_seconds": 140.303,
         "finished_at": "2026-11-18T13:15:23.170777+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151955",
+          "size_bytes": 489982413,
+          "source_bytes_read": 489982413,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18484563",
+        "source_url": "https://sdilej.cz/18484563/seal.team.2019.s03e16.1080p.10bit.amzn.web-dl.ac3.x265.hevc-joy.utr-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151955",
+        "display_name": "SEAL Team S03E16 Drawdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:15:33.843329+00:00"
       }
     },
     "576:3:17": {
@@ -606701,7 +606702,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:15:29.388683+00:00",
+  "updated_at": "2026-11-18T13:15:33.843347+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
