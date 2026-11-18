@@ -589108,12 +589108,6 @@
     },
     "1765:1:4": {
       "episode_key": "záchranáři l. a.:s1:e4",
-      "claim": {
-        "worker_id": "0bc51e46622e46e6b8eff85f5b4afda2-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:19:52.010501+00:00",
-        "lease_expires_at": "2026-11-18T09:19:52.010516+00:00"
-      },
       "source": {
         "source_id": "34814719",
         "source_url": "https://sdilej.cz/34814719/zachranari-l.-a-s01e04-10-2018-cz-dabing-1080p-fhd-nejhorsi-den.mkv",
@@ -589138,22 +589132,29 @@
         "display_name": "9-1-1 S01E04 Worst Day Ever 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:20:03.901896+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138402",
-        "size_bytes": 1854033663
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138402",
-        "size_bytes": 1854033663,
-        "source_bytes_read": 1854033663,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138402",
         "source_bytes_read": 1854033663,
         "elapsed_seconds": 287.309,
         "finished_at": "2026-11-18T03:25:10.698924+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138402",
+          "size_bytes": 1854033663,
+          "source_bytes_read": 1854033663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34814719",
+        "source_url": "https://sdilej.cz/34814719/zachranari-l.-a-s01e04-10-2018-cz-dabing-1080p-fhd-nejhorsi-den.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138402",
+        "display_name": "9-1-1 S01E04 Worst Day Ever 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:25:18.010819+00:00"
       }
     }
   },
@@ -589162,7 +589163,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:25:10.698944+00:00",
+  "updated_at": "2026-11-18T03:25:18.010840+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
