@@ -607208,12 +607208,6 @@
     },
     "576:5:6": {
       "episode_key": "tým seal:s5:e6",
-      "claim": {
-        "worker_id": "bd9f9be7fa704d5e9ab2a17c4a7536dc-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:25:50.967025+00:00",
-        "lease_expires_at": "2026-11-18T19:25:50.967037+00:00"
-      },
       "source": {
         "source_id": "29906820",
         "source_url": "https://sdilej.cz/29906820/seal-team-s05e06-1080p-cz-dabing.mkv",
@@ -607238,22 +607232,29 @@
         "display_name": "SEAL Team S05E06 Man on Fire (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:25:56.286850+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152204",
-        "size_bytes": 862344784
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152204",
-        "size_bytes": 862344784,
-        "source_bytes_read": 862344784,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152204",
         "source_bytes_read": 862344784,
         "elapsed_seconds": 85.083,
         "finished_at": "2026-11-18T13:27:41.093826+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152204",
+          "size_bytes": 862344784,
+          "source_bytes_read": 862344784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29906820",
+        "source_url": "https://sdilej.cz/29906820/seal-team-s05e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152204",
+        "display_name": "SEAL Team S05E06 Man on Fire (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:27:49.313010+00:00"
       }
     },
     "576:5:7": {
@@ -607336,7 +607337,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:27:41.093845+00:00",
+  "updated_at": "2026-11-18T13:27:49.313026+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
