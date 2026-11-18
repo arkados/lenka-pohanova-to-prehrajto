@@ -618140,12 +618140,6 @@
     },
     "1117:2:24": {
       "episode_key": "nová holka:s2:e24",
-      "claim": {
-        "worker_id": "21f8501bcb0741d18a252a56d8ca83ef-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:08:28.790597+00:00",
-        "lease_expires_at": "2026-11-19T00:08:28.790616+00:00"
-      },
       "source": {
         "source_id": "33299540",
         "source_url": "https://sdilej.cz/33299540/nova-holka-s02e24-new-girl-dvdrip-czdabing.avi",
@@ -618170,22 +618164,29 @@
         "display_name": "New Girl S02E24 Winston's Birthday SD CZ Dabing",
         "prepared_at": "2026-11-18T18:08:42.231196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156932",
-        "size_bytes": 184823808
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156932",
-        "size_bytes": 184823808,
-        "source_bytes_read": 184823808,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156932",
         "source_bytes_read": 184823808,
         "elapsed_seconds": 14.208,
         "finished_at": "2026-11-18T18:09:20.957804+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156932",
+          "size_bytes": 184823808,
+          "source_bytes_read": 184823808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33299540",
+        "source_url": "https://sdilej.cz/33299540/nova-holka-s02e24-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156932",
+        "display_name": "New Girl S02E24 Winston's Birthday SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:09:39.093706+00:00"
       }
     },
     "1117:3:1": {
@@ -618263,7 +618264,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:09:33.922843+00:00",
+  "updated_at": "2026-11-18T18:09:39.093725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
