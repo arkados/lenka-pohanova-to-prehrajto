@@ -581794,12 +581794,6 @@
     },
     "581:3:9": {
       "episode_key": "král tulsy:s3:e9",
-      "claim": {
-        "worker_id": "4875822c8dae45ff839a15b6f7ce1337-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:13:54.983620+00:00",
-        "lease_expires_at": "2026-11-18T07:13:54.983634+00:00"
-      },
       "source": {
         "source_id": "34347206",
         "source_url": "https://sdilej.cz/34347206/kral-tulsy-s03e09-mrtva-vaha-cz-dabing-2160p-uhd.mkv",
@@ -581823,7 +581817,17 @@
         },
         "display_name": "Tulsa King S03E09 Dead Weight 4K CZ Dabing",
         "prepared_at": "2026-11-18T01:14:04.523568+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34347206:https://sdilej.cz/34347206/kral-tulsy-s03e09-mrtva-vaha-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-18T01:14:16.559968+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T01:14:16.560001+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -581831,7 +581835,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:14:08.172997+00:00",
+  "updated_at": "2026-11-18T01:14:16.560005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -582241,6 +582245,10 @@
         {
           "identity": "581:3:4",
           "at": "2026-11-18T01:12:49.478287+00:00"
+        },
+        {
+          "identity": "581:3:9",
+          "at": "2026-11-18T01:14:16.559968+00:00"
         }
       ],
       "retry_after": "2026-11-18T01:10:18.223454+00:00"
