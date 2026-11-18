@@ -586739,12 +586739,6 @@
     },
     "922:3:2": {
       "episode_key": "kazatel:s3:e2",
-      "claim": {
-        "worker_id": "46c366c9ba224657b9e5de13c5d09024-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:44:11.075058+00:00",
-        "lease_expires_at": "2026-11-18T08:44:11.075077+00:00"
-      },
       "source": {
         "source_id": "33820201",
         "source_url": "https://sdilej.cz/33820201/kazatel-s03e02-cz-dabing-1080p-full-hd.mkv",
@@ -586768,7 +586762,17 @@
         },
         "display_name": "Preacher S03E02 Sonsabitches 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:44:18.819441+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820201:https://sdilej.cz/33820201/kazatel-s03e02-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T02:44:30.226540+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T02:44:30.226569+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -586776,7 +586780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:44:22.342929+00:00",
+  "updated_at": "2026-11-18T02:44:30.226573+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -587203,6 +587207,10 @@
         {
           "identity": "922:3:1",
           "at": "2026-11-18T02:43:34.025509+00:00"
+        },
+        {
+          "identity": "922:3:2",
+          "at": "2026-11-18T02:44:30.226540+00:00"
         }
       ],
       "retry_after": "2026-11-18T02:36:49.314688+00:00"
