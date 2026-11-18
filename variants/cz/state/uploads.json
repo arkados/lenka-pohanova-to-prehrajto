@@ -596703,12 +596703,6 @@
     },
     "4102:1:4": {
       "episode_key": "scooby-doo na stopě:s1:e4",
-      "claim": {
-        "worker_id": "0b2d07c44d0f4a69bc2aa4e2de248503-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:32:55.098431+00:00",
-        "lease_expires_at": "2026-11-18T12:32:55.098440+00:00"
-      },
       "source": {
         "source_id": "25373276",
         "source_url": "https://sdilej.cz/25373276/scooby-doo.na.stope.s01e04.hled.si.sveho.sdtv.x264-pip.mp4",
@@ -596733,22 +596727,29 @@
         "display_name": "Scooby-Doo, Where Are You! S01E04 Mine Your Own Business SD CZ Dabing",
         "prepared_at": "2026-11-18T06:33:04.429366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142874",
-        "size_bytes": 147347857
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142874",
-        "size_bytes": 147347857,
-        "source_bytes_read": 147347857,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142874",
         "source_bytes_read": 147347857,
         "elapsed_seconds": 10.751,
         "finished_at": "2026-11-18T06:33:37.829723+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142874",
+          "size_bytes": 147347857,
+          "source_bytes_read": 147347857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25373276",
+        "source_url": "https://sdilej.cz/25373276/scooby-doo.na.stope.s01e04.hled.si.sveho.sdtv.x264-pip.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142874",
+        "display_name": "Scooby-Doo, Where Are You! S01E04 Mine Your Own Business SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:33:51.565309+00:00"
       }
     }
   },
@@ -596757,7 +596758,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:33:47.554919+00:00",
+  "updated_at": "2026-11-18T06:33:51.565328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
