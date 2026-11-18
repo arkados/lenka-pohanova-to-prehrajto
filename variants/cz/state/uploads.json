@@ -586104,12 +586104,6 @@
     },
     "650:1:4": {
       "episode_key": "jednotka:s1:e4",
-      "claim": {
-        "worker_id": "eb3f6d67b812451a985585e5c10ec481-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:34:06.853911+00:00",
-        "lease_expires_at": "2026-11-18T08:34:06.853926+00:00"
-      },
       "source": {
         "source_id": "32383264",
         "source_url": "https://sdilej.cz/32383264/jednotka-s01e04-cz-dab-vsechny-cesty-av1-bytrx.mkv",
@@ -586134,22 +586128,29 @@
         "display_name": "Task S01E04 All Roads 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:34:14.821409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137473",
-        "size_bytes": 512347112
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137473",
-        "size_bytes": 512347112,
-        "source_bytes_read": 512347112,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137473",
         "source_bytes_read": 512347112,
         "elapsed_seconds": 38.26,
         "finished_at": "2026-11-18T02:35:12.848916+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137473",
+          "size_bytes": 512347112,
+          "source_bytes_read": 512347112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32383264",
+        "source_url": "https://sdilej.cz/32383264/jednotka-s01e04-cz-dab-vsechny-cesty-av1-bytrx.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137473",
+        "display_name": "Task S01E04 All Roads 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:35:23.020607+00:00"
       }
     },
     "650:1:5": {
@@ -586232,7 +586233,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:35:17.471369+00:00",
+  "updated_at": "2026-11-18T02:35:23.020628+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
