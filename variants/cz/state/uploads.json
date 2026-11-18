@@ -608993,12 +608993,6 @@
     },
     "1195:1:8": {
       "episode_key": "exorcista:s1:e8",
-      "claim": {
-        "worker_id": "864bcab7f25943db8e14cca56f3c38e5-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T14:33:05.711694+00:00",
-        "lease_expires_at": "2026-11-18T20:33:05.711710+00:00"
-      },
       "source": {
         "source_id": "27762895",
         "source_url": "https://sdilej.cz/27762895/exorcista-the-exorcist-s01e08-hd-cz-dabing.mkv",
@@ -609023,22 +609017,29 @@
         "display_name": "The Exorcist S01E08 Chapter Eight: The Griefbearers 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:33:10.895997+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153393",
-        "size_bytes": 1270474264
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153393",
-        "size_bytes": 1270474264,
-        "source_bytes_read": 1270474264,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153393",
         "source_bytes_read": 1270474264,
         "elapsed_seconds": 248.507,
         "finished_at": "2026-11-18T14:37:38.356600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153393",
+          "size_bytes": 1270474264,
+          "source_bytes_read": 1270474264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27762895",
+        "source_url": "https://sdilej.cz/27762895/exorcista-the-exorcist-s01e08-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153393",
+        "display_name": "The Exorcist S01E08 Chapter Eight: The Griefbearers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T14:37:44.807387+00:00"
       }
     },
     "1195:1:9": {
@@ -609121,7 +609122,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T14:37:38.356619+00:00",
+  "updated_at": "2026-11-18T14:37:44.807401+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
