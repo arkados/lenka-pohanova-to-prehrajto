@@ -605141,28 +605141,29 @@
           "at": "2026-11-18T12:46:35.712234+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "eedfdd8a9ee443588bfab527a58c2ab1-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:46:40.050614+00:00",
-        "lease_expires_at": "2026-11-18T18:46:40.050627+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31151495",
-        "size_bytes": 362544926
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151495",
-        "size_bytes": 362544926,
-        "source_bytes_read": 362544926,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151495",
         "source_bytes_read": 362544926,
         "elapsed_seconds": 29.637,
         "finished_at": "2026-11-18T12:47:49.732753+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151495",
+          "size_bytes": 362544926,
+          "source_bytes_read": 362544926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11626665",
+        "source_url": "https://sdilej.cz/11626665/tym-seal-s02e06-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151495",
+        "display_name": "SEAL Team S02E06 Hold What You Got SD CZ Dabing",
+        "uploaded_at": "2026-11-18T12:47:58.568759+00:00"
       }
     },
     "576:2:7": {
@@ -605259,7 +605260,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:47:49.732773+00:00",
+  "updated_at": "2026-11-18T12:47:58.568779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
