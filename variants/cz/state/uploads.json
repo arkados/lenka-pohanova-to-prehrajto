@@ -588005,12 +588005,6 @@
     },
     "922:3:9": {
       "episode_key": "kazatel:s3:e9",
-      "claim": {
-        "worker_id": "d6cc662e67c44a7e9e709a7058b4bfc4-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:58:49.951052+00:00",
-        "lease_expires_at": "2026-11-18T08:58:49.951070+00:00"
-      },
       "source": {
         "source_id": "33820245",
         "source_url": "https://sdilej.cz/33820245/kazatel-s03e09-cz-dabing-1080p-full-hd.mkv",
@@ -588034,7 +588028,17 @@
         },
         "display_name": "Preacher S03E09 Schwanzkopf 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:58:58.430049+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820245:https://sdilej.cz/33820245/kazatel-s03e09-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T02:59:10.822867+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T02:59:10.822940+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -588042,7 +588046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:59:06.674851+00:00",
+  "updated_at": "2026-11-18T02:59:10.822946+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -588467,19 +588471,19 @@
     "922": {
       "recent_failures": [
         {
-          "identity": "922:1:4",
-          "at": "2026-11-18T02:56:05.094354+00:00"
-        },
-        {
           "identity": "922:1:6",
           "at": "2026-11-18T02:56:41.939773+00:00"
         },
         {
           "identity": "922:3:1",
           "at": "2026-11-18T02:59:06.674741+00:00"
+        },
+        {
+          "identity": "922:3:9",
+          "at": "2026-11-18T02:59:10.822867+00:00"
         }
       ],
-      "retry_after": "2026-11-18T03:09:06.674741+00:00"
+      "retry_after": "2026-11-18T03:09:10.822867+00:00"
     }
   }
 }
