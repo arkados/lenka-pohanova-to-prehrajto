@@ -624396,12 +624396,6 @@
     },
     "920:5:5": {
       "episode_key": "sběratelé kostí:s5:e5",
-      "claim": {
-        "worker_id": "a6698c81ad1e40bc920c91a659904591-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:44:46.368741+00:00",
-        "lease_expires_at": "2026-11-19T01:44:46.368756+00:00"
-      },
       "source": {
         "source_id": "8212964",
         "source_url": "https://sdilej.cz/8212964/bones-sberatele-kosti-s05e05-czdab.avi",
@@ -624426,22 +624420,29 @@
         "display_name": "Bones S05E05 A Night at the Bones Museum SD CZ Dabing",
         "prepared_at": "2026-11-18T19:44:51.610133+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158604",
-        "size_bytes": 417269760
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158604",
-        "size_bytes": 417269760,
-        "source_bytes_read": 417269760,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158604",
         "source_bytes_read": 417269760,
         "elapsed_seconds": 29.144,
         "finished_at": "2026-11-18T19:45:50.354826+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158604",
+          "size_bytes": 417269760,
+          "source_bytes_read": 417269760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8212964",
+        "source_url": "https://sdilej.cz/8212964/bones-sberatele-kosti-s05e05-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158604",
+        "display_name": "Bones S05E05 A Night at the Bones Museum SD CZ Dabing",
+        "uploaded_at": "2026-11-18T19:46:04.296349+00:00"
       }
     },
     "920:5:6": {
@@ -624487,7 +624488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:45:59.831878+00:00",
+  "updated_at": "2026-11-18T19:46:04.296367+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
