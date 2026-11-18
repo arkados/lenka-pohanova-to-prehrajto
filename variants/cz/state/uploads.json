@@ -584417,12 +584417,6 @@
     },
     "922:1:4": {
       "episode_key": "kazatel:s1:e4",
-      "claim": {
-        "worker_id": "17c1c35326724c1cb3acab64868db0c9-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:07:53.321631+00:00",
-        "lease_expires_at": "2026-11-18T08:07:53.321645+00:00"
-      },
       "source": {
         "source_id": "33820386",
         "source_url": "https://sdilej.cz/33820386/kazatel-s01e04-cz-dabing-1080p-full-hd.mkv",
@@ -584446,7 +584440,17 @@
         },
         "display_name": "Preacher S01E04 Monster Swamp 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:07:57.444075+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820386:https://sdilej.cz/33820386/kazatel-s01e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T02:08:09.292589+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T02:08:09.292618+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -584454,7 +584458,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:07:57.444096+00:00",
+  "updated_at": "2026-11-18T02:08:09.292622+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -584867,6 +584871,14 @@
         }
       ],
       "retry_after": "2026-11-18T01:41:40.307779+00:00"
+    },
+    "922": {
+      "recent_failures": [
+        {
+          "identity": "922:1:4",
+          "at": "2026-11-18T02:08:09.292589+00:00"
+        }
+      ]
     }
   }
 }
