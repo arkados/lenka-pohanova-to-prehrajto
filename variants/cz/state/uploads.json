@@ -603149,12 +603149,6 @@
     },
     "2542:5:3": {
       "episode_key": "inspektor george gently:s5:e3",
-      "claim": {
-        "worker_id": "d8ce6649a30c4d729cb9d55eba99770e-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T11:44:03.152199+00:00",
-        "lease_expires_at": "2026-11-18T17:44:03.152213+00:00"
-      },
       "source": {
         "source_id": "21887345",
         "source_url": "https://sdilej.cz/21887345/inspektor-george-gently-s05e03-2012-hd-ztracene-dite-sd-.mp4",
@@ -603179,22 +603173,29 @@
         "display_name": "Inspector George Gently S05E03 The Lost Child 720p CZ Dabing",
         "prepared_at": "2026-11-18T11:44:22.261875+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150231",
-        "size_bytes": 1375182843
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150231",
-        "size_bytes": 1375182843,
-        "source_bytes_read": 1375182843,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150231",
         "source_bytes_read": 1375182843,
         "elapsed_seconds": 377.957,
         "finished_at": "2026-11-18T11:50:59.014370+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150231",
+          "size_bytes": 1375182843,
+          "source_bytes_read": 1375182843,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21887345",
+        "source_url": "https://sdilej.cz/21887345/inspektor-george-gently-s05e03-2012-hd-ztracene-dite-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150231",
+        "display_name": "Inspector George Gently S05E03 The Lost Child 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:51:06.329143+00:00"
       }
     }
   },
@@ -603203,7 +603204,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:50:59.014390+00:00",
+  "updated_at": "2026-11-18T11:51:06.329161+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
