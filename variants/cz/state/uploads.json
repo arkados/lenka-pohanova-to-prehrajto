@@ -614297,12 +614297,6 @@
     },
     "58:4:8": {
       "episode_key": "zaklínač:s4:e8",
-      "claim": {
-        "worker_id": "1a6dd09d40b04bf38a89feffb7ea632a-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:46:38.974759+00:00",
-        "lease_expires_at": "2026-11-18T22:46:38.974778+00:00"
-      },
       "source": {
         "source_id": "32302937",
         "source_url": "https://sdilej.cz/32302937/zaklinac-s04e08-krest-ohnem.mkv",
@@ -614327,22 +614321,29 @@
         "display_name": "The Witcher S04E08 Baptism of Fire 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:46:56.295538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155768",
-        "size_bytes": 2309176838
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155768",
-        "size_bytes": 2309176838,
-        "source_bytes_read": 2309176838,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155768",
         "source_bytes_read": 2309176838,
         "elapsed_seconds": 138.652,
         "finished_at": "2026-11-18T16:49:35.818273+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155768",
+          "size_bytes": 2309176838,
+          "source_bytes_read": 2309176838,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32302937",
+        "source_url": "https://sdilej.cz/32302937/zaklinac-s04e08-krest-ohnem.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155768",
+        "display_name": "The Witcher S04E08 Baptism of Fire 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:49:41.855434+00:00"
       }
     },
     "3194:1:2": {
@@ -614425,7 +614426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:49:35.818293+00:00",
+  "updated_at": "2026-11-18T16:49:41.855453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
