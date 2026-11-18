@@ -621194,12 +621194,6 @@
     },
     "920:1:14": {
       "episode_key": "sběratelé kostí:s1:e14",
-      "claim": {
-        "worker_id": "564054c88572416ebfc5e0002fdb389a-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:50:10.414925+00:00",
-        "lease_expires_at": "2026-11-19T00:50:10.414943+00:00"
-      },
       "source": {
         "source_id": "7051015",
         "source_url": "https://sdilej.cz/7051015/sberatele-kosti-s01e14.avi",
@@ -621224,22 +621218,29 @@
         "display_name": "Bones S01E14 The Man on the Fairway SD CZ Dabing",
         "prepared_at": "2026-11-18T18:50:16.444339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157718",
-        "size_bytes": 363530240
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157718",
-        "size_bytes": 363530240,
-        "source_bytes_read": 363530240,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157718",
         "source_bytes_read": 363530240,
         "elapsed_seconds": 31.452,
         "finished_at": "2026-11-18T18:51:19.461514+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157718",
+          "size_bytes": 363530240,
+          "source_bytes_read": 363530240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7051015",
+        "source_url": "https://sdilej.cz/7051015/sberatele-kosti-s01e14.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157718",
+        "display_name": "Bones S01E14 The Man on the Fairway SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:51:30.464874+00:00"
       }
     },
     "920:1:15": {
@@ -621299,7 +621300,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:51:26.173126+00:00",
+  "updated_at": "2026-11-18T18:51:30.464894+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
