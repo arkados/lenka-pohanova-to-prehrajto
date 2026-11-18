@@ -584343,12 +584343,6 @@
     },
     "922:1:2": {
       "episode_key": "kazatel:s1:e2",
-      "claim": {
-        "worker_id": "ffecb2b7bb914e7d91c8c4fc757dc698-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:06:40.988796+00:00",
-        "lease_expires_at": "2026-11-18T08:06:40.988808+00:00"
-      },
       "source": {
         "source_id": "32875465",
         "source_url": "https://sdilej.cz/32875465/kazatel-preacher-s01e02-see-cz-dab.-1080p.mkv",
@@ -584373,22 +584367,29 @@
         "display_name": "Preacher S01E02 See 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:06:45.339835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136940",
-        "size_bytes": 934878769
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136940",
-        "size_bytes": 934878769,
-        "source_bytes_read": 934878769,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136940",
         "source_bytes_read": 934878769,
         "elapsed_seconds": 189.164,
         "finished_at": "2026-11-18T02:10:12.248850+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136940",
+          "size_bytes": 934878769,
+          "source_bytes_read": 934878769,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875465",
+        "source_url": "https://sdilej.cz/32875465/kazatel-preacher-s01e02-see-cz-dab.-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136940",
+        "display_name": "Preacher S01E02 See 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:10:17.573251+00:00"
       }
     },
     "922:1:3": {
@@ -584647,7 +584648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:10:12.248871+00:00",
+  "updated_at": "2026-11-18T02:10:17.573266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
