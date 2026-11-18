@@ -586262,12 +586262,6 @@
     },
     "650:1:7": {
       "episode_key": "jednotka:s1:e7",
-      "claim": {
-        "worker_id": "23131d8f803e4fd6a64767564f5aa732-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:35:37.825847+00:00",
-        "lease_expires_at": "2026-11-18T08:35:37.825861+00:00"
-      },
       "source": {
         "source_id": "32383267",
         "source_url": "https://sdilej.cz/32383267/jednotka-s01e07-cz-dab-tichy-jemny-hlas-av1-bytrx.mkv",
@@ -586292,22 +586286,29 @@
         "display_name": "Task S01E07 A Still Small Voice 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:35:43.804545+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137489",
-        "size_bytes": 674109557
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137489",
-        "size_bytes": 674109557,
-        "source_bytes_read": 674109557,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137489",
         "source_bytes_read": 674109557,
         "elapsed_seconds": 53.856,
         "finished_at": "2026-11-18T02:36:58.532088+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137489",
+          "size_bytes": 674109557,
+          "source_bytes_read": 674109557,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32383267",
+        "source_url": "https://sdilej.cz/32383267/jednotka-s01e07-cz-dab-tichy-jemny-hlas-av1-bytrx.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137489",
+        "display_name": "Task S01E07 A Still Small Voice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:37:09.964289+00:00"
       }
     },
     "2690:1:2": {
@@ -586367,7 +586368,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:37:06.039670+00:00",
+  "updated_at": "2026-11-18T02:37:09.964310+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
