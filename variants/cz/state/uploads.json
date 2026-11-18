@@ -636220,12 +636220,6 @@
     },
     "1405:4:22": {
       "episode_key": "námořní vyšetřovací služba:s4:e22",
-      "claim": {
-        "worker_id": "f057723f46c743ef8ddbe0b84f2fd97d-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:48:48.006116+00:00",
-        "lease_expires_at": "2026-11-19T05:48:48.006128+00:00"
-      },
       "source": {
         "source_id": "33977206",
         "source_url": "https://sdilej.cz/33977206/ncis-s04e22-cz.mp4",
@@ -636250,22 +636244,29 @@
         "display_name": "NCIS S04E22 In the Dark 720p CZ Dabing",
         "prepared_at": "2026-11-18T23:48:54.189753+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163511",
-        "size_bytes": 1155921987
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163511",
-        "size_bytes": 1155921987,
-        "source_bytes_read": 1155921987,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163511",
         "source_bytes_read": 1155921987,
         "elapsed_seconds": 76.875,
         "finished_at": "2026-11-18T23:50:28.891147+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163511",
+          "size_bytes": 1155921987,
+          "source_bytes_read": 1155921987,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33977206",
+        "source_url": "https://sdilej.cz/33977206/ncis-s04e22-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163511",
+        "display_name": "NCIS S04E22 In the Dark 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:50:34.901431+00:00"
       }
     }
   },
@@ -636274,7 +636275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:50:28.891167+00:00",
+  "updated_at": "2026-11-18T23:50:34.901448+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
