@@ -594412,12 +594412,6 @@
     },
     "1765:3:14": {
       "episode_key": "záchranáři l. a.:s3:e14",
-      "claim": {
-        "worker_id": "373b3c0d9fa4402cb887614165cfbbeb-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:16:57.599618+00:00",
-        "lease_expires_at": "2026-11-18T11:16:57.599634+00:00"
-      },
       "source": {
         "source_id": "35339704",
         "source_url": "https://sdilej.cz/35339704/9-1-1-s03e14-cz-dabing.mkv",
@@ -594441,7 +594435,17 @@
         },
         "display_name": "9-1-1 S03E14 The Taking of Dispatch 9-1-1 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:17:06.411329+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339704:https://sdilej.cz/35339704/9-1-1-s03e14-cz-dabing.mkv",
+        "at": "2026-11-18T05:17:19.619278+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T05:17:19.619385+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -594449,7 +594453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:17:12.305282+00:00",
+  "updated_at": "2026-11-18T05:17:19.619391+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -594875,16 +594879,8 @@
     "1765": {
       "recent_failures": [
         {
-          "identity": "1765:3:5",
-          "at": "2026-11-18T05:05:13.716805+00:00"
-        },
-        {
-          "identity": "1765:3:6",
-          "at": "2026-11-18T05:05:43.984358+00:00"
-        },
-        {
-          "identity": "1765:3:13",
-          "at": "2026-11-18T05:06:13.002433+00:00"
+          "identity": "1765:3:14",
+          "at": "2026-11-18T05:17:19.619278+00:00"
         }
       ],
       "retry_after": "2026-11-18T05:16:13.002433+00:00"
