@@ -619595,12 +619595,6 @@
     },
     "1117:5:15": {
       "episode_key": "nová holka:s5:e15",
-      "claim": {
-        "worker_id": "15eade03eacd401c84357b587b592033-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:30:25.325015+00:00",
-        "lease_expires_at": "2026-11-19T00:30:25.325031+00:00"
-      },
       "source": {
         "source_id": "7992901",
         "source_url": "https://sdilej.cz/7992901/nova.holka.05x15.dvb-t.cz.avi",
@@ -619625,22 +619619,29 @@
         "display_name": "New Girl S05E15 Jeff Day SD CZ Dabing",
         "prepared_at": "2026-11-18T18:30:34.556451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157266",
-        "size_bytes": 338905968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157266",
-        "size_bytes": 338905968,
-        "source_bytes_read": 338905968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157266",
         "source_bytes_read": 338905968,
         "elapsed_seconds": 24.097,
         "finished_at": "2026-11-18T18:31:26.376601+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157266",
+          "size_bytes": 338905968,
+          "source_bytes_read": 338905968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992901",
+        "source_url": "https://sdilej.cz/7992901/nova.holka.05x15.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157266",
+        "display_name": "New Girl S05E15 Jeff Day SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:31:34.521308+00:00"
       }
     },
     "1117:5:17": {
@@ -619686,7 +619687,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:31:26.376621+00:00",
+  "updated_at": "2026-11-18T18:31:34.521327+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
