@@ -609801,12 +609801,6 @@
     },
     "2175:1:4": {
       "episode_key": "sestřička jackie:s1:e4",
-      "claim": {
-        "worker_id": "6a58e3a51cb143a18061117517c3a522-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:11:34.591255+00:00",
-        "lease_expires_at": "2026-11-18T21:11:34.591270+00:00"
-      },
       "source": {
         "source_id": "27657033",
         "source_url": "https://sdilej.cz/27657033/sestricka-jackie-nurse-jackie-s01e04-hd-cz-dabing.mkv",
@@ -609831,22 +609825,29 @@
         "display_name": "Nurse Jackie S01E04 School Nurse 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:11:39.565309+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154078",
-        "size_bytes": 1587259931
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154078",
-        "size_bytes": 1587259931,
-        "source_bytes_read": 1587259931,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154078",
         "source_bytes_read": 1587259931,
         "elapsed_seconds": 349.027,
         "finished_at": "2026-11-18T15:17:47.231472+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154078",
+          "size_bytes": 1587259931,
+          "source_bytes_read": 1587259931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27657033",
+        "source_url": "https://sdilej.cz/27657033/sestricka-jackie-nurse-jackie-s01e04-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154078",
+        "display_name": "Nurse Jackie S01E04 School Nurse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:18:01.193802+00:00"
       }
     },
     "769:1:1": {
@@ -609906,7 +609907,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:17:56.812379+00:00",
+  "updated_at": "2026-11-18T15:18:01.193824+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
