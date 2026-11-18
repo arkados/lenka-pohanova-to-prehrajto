@@ -617721,12 +617721,6 @@
     },
     "1166:4:3": {
       "episode_key": "umbrella academy:s4:e3",
-      "claim": {
-        "worker_id": "1ae50a30e527444791701492583f5d50-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:52:24.865151+00:00",
-        "lease_expires_at": "2026-11-18T23:52:24.865167+00:00"
-      },
       "source": {
         "source_id": "29472412",
         "source_url": "https://sdilej.cz/29472412/the-umbrella-academy-s04e03-1080p-cz-dabing.mkv",
@@ -617751,22 +617745,29 @@
         "display_name": "The Umbrella Academy S04E03 The Squid and the Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:52:37.961803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156704",
-        "size_bytes": 843622650
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156704",
-        "size_bytes": 843622650,
-        "source_bytes_read": 843622650,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156704",
         "source_bytes_read": 843622650,
         "elapsed_seconds": 105.856,
         "finished_at": "2026-11-18T17:54:46.931851+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156704",
+          "size_bytes": 843622650,
+          "source_bytes_read": 843622650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29472412",
+        "source_url": "https://sdilej.cz/29472412/the-umbrella-academy-s04e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156704",
+        "display_name": "The Umbrella Academy S04E03 The Squid and the Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T17:55:00.379903+00:00"
       }
     },
     "1166:4:4": {
@@ -617825,7 +617826,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:54:56.049183+00:00",
+  "updated_at": "2026-11-18T17:55:00.379924+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
