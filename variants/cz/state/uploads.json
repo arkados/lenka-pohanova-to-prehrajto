@@ -620888,12 +620888,6 @@
     },
     "920:1:8": {
       "episode_key": "sběratelé kostí:s1:e8",
-      "claim": {
-        "worker_id": "f982e460dc0345f58095e849e984d6cc-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:46:27.442126+00:00",
-        "lease_expires_at": "2026-11-19T00:46:27.442143+00:00"
-      },
       "source": {
         "source_id": "26709443",
         "source_url": "https://sdilej.cz/26709443/sberatele-kosti-01x08.avi",
@@ -620918,22 +620912,29 @@
         "display_name": "Bones S01E08 The Girl in the Fridge SD CZ Dabing",
         "prepared_at": "2026-11-18T18:46:37.393131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157606",
-        "size_bytes": 416700416
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157606",
-        "size_bytes": 416700416,
-        "source_bytes_read": 416700416,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157606",
         "source_bytes_read": 416700416,
         "elapsed_seconds": 39.477,
         "finished_at": "2026-11-18T18:47:39.644538+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157606",
+          "size_bytes": 416700416,
+          "source_bytes_read": 416700416,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26709443",
+        "source_url": "https://sdilej.cz/26709443/sberatele-kosti-01x08.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157606",
+        "display_name": "Bones S01E08 The Girl in the Fridge SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:47:52.465763+00:00"
       }
     },
     "920:1:9": {
@@ -620993,7 +620994,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:47:44.654295+00:00",
+  "updated_at": "2026-11-18T18:47:52.465782+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
