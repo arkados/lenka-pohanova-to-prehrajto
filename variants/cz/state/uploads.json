@@ -626500,12 +626500,6 @@
     },
     "920:8:1": {
       "episode_key": "sběratelé kostí:s8:e1",
-      "claim": {
-        "worker_id": "da9d739dd57940e48000c5ab665beb29-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:22:48.460539+00:00",
-        "lease_expires_at": "2026-11-19T02:22:48.460557+00:00"
-      },
       "source": {
         "source_id": "8212871",
         "source_url": "https://sdilej.cz/8212871/bones-sberatele-kosti-s08e01-czdab.avi",
@@ -626530,22 +626524,29 @@
         "display_name": "Bones S08E01 The Future in the Past SD CZ Dabing",
         "prepared_at": "2026-11-18T20:22:53.430020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159263",
-        "size_bytes": 359375800
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159263",
-        "size_bytes": 359375800,
-        "source_bytes_read": 359375800,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159263",
         "source_bytes_read": 359375800,
         "elapsed_seconds": 23.236,
         "finished_at": "2026-11-18T20:23:44.635410+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159263",
+          "size_bytes": 359375800,
+          "source_bytes_read": 359375800,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8212871",
+        "source_url": "https://sdilej.cz/8212871/bones-sberatele-kosti-s08e01-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159263",
+        "display_name": "Bones S08E01 The Future in the Past SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:23:55.404527+00:00"
       }
     },
     "920:8:2": {
@@ -626590,7 +626591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:23:49.139929+00:00",
+  "updated_at": "2026-11-18T20:23:55.404548+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
