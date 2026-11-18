@@ -631106,12 +631106,6 @@
     },
     "920:11:21": {
       "episode_key": "sběratelé kostí:s11:e21",
-      "claim": {
-        "worker_id": "e6e7ba2fadd346bc8e841785009b9e54-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:02:49.178244+00:00",
-        "lease_expires_at": "2026-11-19T04:02:49.178256+00:00"
-      },
       "source": {
         "source_id": "27579262",
         "source_url": "https://sdilej.cz/27579262/sberatele-kosti-s11e21-cz.mkv",
@@ -631136,22 +631130,29 @@
         "display_name": "Bones S11E21 The Jewel in the Crown 720p CZ Dabing",
         "prepared_at": "2026-11-18T22:02:54.863653+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161169",
-        "size_bytes": 407979133
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161169",
-        "size_bytes": 407979133,
-        "source_bytes_read": 407979133,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161169",
         "source_bytes_read": 407979133,
         "elapsed_seconds": 23.421,
         "finished_at": "2026-11-18T22:03:49.486324+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161169",
+          "size_bytes": 407979133,
+          "source_bytes_read": 407979133,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579262",
+        "source_url": "https://sdilej.cz/27579262/sberatele-kosti-s11e21-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161169",
+        "display_name": "Bones S11E21 The Jewel in the Crown 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:04:02.338207+00:00"
       }
     },
     "920:11:22": {
@@ -631230,7 +631231,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:03:58.102320+00:00",
+  "updated_at": "2026-11-18T22:04:02.338222+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
