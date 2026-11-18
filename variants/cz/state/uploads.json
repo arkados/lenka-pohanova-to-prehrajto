@@ -610574,12 +610574,6 @@
     },
     "2209:1:7": {
       "episode_key": "třetí hlídka:s1:e7",
-      "claim": {
-        "worker_id": "66c0052ee4ae4454a77c709fb4052ff9-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:30:58.624244+00:00",
-        "lease_expires_at": "2026-11-18T21:30:58.624258+00:00"
-      },
       "source": {
         "source_id": "32457168",
         "source_url": "https://sdilej.cz/32457168/treti-hlidka-s01e07-impuls-1999-hdtv-1080p-czdab.mkv",
@@ -610604,22 +610598,29 @@
         "display_name": "Third Watch S01E07 Impulse 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:31:04.678433+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154433",
-        "size_bytes": 1744440694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154433",
-        "size_bytes": 1744440694,
-        "source_bytes_read": 1744440694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154433",
         "source_bytes_read": 1744440694,
         "elapsed_seconds": 125.64,
         "finished_at": "2026-11-18T15:33:41.536831+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154433",
+          "size_bytes": 1744440694,
+          "source_bytes_read": 1744440694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457168",
+        "source_url": "https://sdilej.cz/32457168/treti-hlidka-s01e07-impuls-1999-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154433",
+        "display_name": "Third Watch S01E07 Impulse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:33:48.932415+00:00"
       }
     },
     "2209:1:8": {
@@ -610716,7 +610717,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:33:41.536857+00:00",
+  "updated_at": "2026-11-18T15:33:48.932434+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
