@@ -590752,12 +590752,6 @@
     },
     "1143:1:7": {
       "episode_key": "dokonalý podraz:s1:e7",
-      "claim": {
-        "worker_id": "55afb18614ff4172b0a75a630145d00c-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:07:41.149635+00:00",
-        "lease_expires_at": "2026-11-18T10:07:41.149647+00:00"
-      },
       "source": {
         "source_id": "22267362",
         "source_url": "https://sdilej.cz/22267362/dokonaly-podraz-s01e07-czdab.avi",
@@ -590782,22 +590776,29 @@
         "display_name": "Leverage S01E07 The Wedding Job SD CZ Dabing",
         "prepared_at": "2026-11-18T04:07:50.917285+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31139387",
-        "size_bytes": 338166994
-      },
-      "transfer_receipt": {
-        "target_video_id": "31139387",
-        "size_bytes": 338166994,
-        "source_bytes_read": 338166994,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31139387",
         "source_bytes_read": 338166994,
         "elapsed_seconds": 25.142,
         "finished_at": "2026-11-18T04:08:37.102220+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31139387",
+          "size_bytes": 338166994,
+          "source_bytes_read": 338166994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22267362",
+        "source_url": "https://sdilej.cz/22267362/dokonaly-podraz-s01e07-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31139387",
+        "display_name": "Leverage S01E07 The Wedding Job SD CZ Dabing",
+        "uploaded_at": "2026-11-18T04:08:44.680360+00:00"
       }
     }
   },
@@ -590806,7 +590807,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:08:37.102239+00:00",
+  "updated_at": "2026-11-18T04:08:44.680377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
