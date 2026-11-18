@@ -586001,12 +586001,6 @@
     },
     "650:1:2": {
       "episode_key": "jednotka:s1:e2",
-      "claim": {
-        "worker_id": "5a0d22b988c04febb64fdc8b0c23d8d5-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:32:10.372902+00:00",
-        "lease_expires_at": "2026-11-18T08:32:10.372916+00:00"
-      },
       "source": {
         "source_id": "32383262",
         "source_url": "https://sdilej.cz/32383262/jednotka-s01e02-cz-dab-vypovedi-rodiny-av1-bytrx.mkv",
@@ -586031,22 +586025,29 @@
         "display_name": "Task S01E02 Family Statements 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:32:18.719347+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137446",
-        "size_bytes": 584520473
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137446",
-        "size_bytes": 584520473,
-        "source_bytes_read": 584520473,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137446",
         "source_bytes_read": 584520473,
         "elapsed_seconds": 58.805,
         "finished_at": "2026-11-18T02:33:42.064560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137446",
+          "size_bytes": 584520473,
+          "source_bytes_read": 584520473,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32383262",
+        "source_url": "https://sdilej.cz/32383262/jednotka-s01e02-cz-dab-vypovedi-rodiny-av1-bytrx.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137446",
+        "display_name": "Task S01E02 Family Statements 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:33:51.944825+00:00"
       }
     },
     "650:1:3": {
@@ -586092,7 +586093,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:33:46.005955+00:00",
+  "updated_at": "2026-11-18T02:33:51.944847+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
