@@ -625497,12 +625497,6 @@
     },
     "920:6:16": {
       "episode_key": "sběratelé kostí:s6:e16",
-      "claim": {
-        "worker_id": "f355beabf901459788acb80837b62c73-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:03:26.660925+00:00",
-        "lease_expires_at": "2026-11-19T02:03:26.660943+00:00"
-      },
       "source": {
         "source_id": "24722347",
         "source_url": "https://sdilej.cz/24722347/bones.-2005-.s06e16.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
@@ -625527,22 +625521,29 @@
         "display_name": "Bones S06E16 The Blackout in the Blizzard 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:03:38.313118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158948",
-        "size_bytes": 1806543654
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158948",
-        "size_bytes": 1806543654,
-        "source_bytes_read": 1806543654,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158948",
         "source_bytes_read": 1806543654,
         "elapsed_seconds": 120.571,
         "finished_at": "2026-11-18T20:06:12.515693+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158948",
+          "size_bytes": 1806543654,
+          "source_bytes_read": 1806543654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24722347",
+        "source_url": "https://sdilej.cz/24722347/bones.-2005-.s06e16.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158948",
+        "display_name": "Bones S06E16 The Blackout in the Blizzard 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:06:22.315234+00:00"
       }
     }
   },
@@ -625551,7 +625552,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:06:17.653688+00:00",
+  "updated_at": "2026-11-18T20:06:22.315251+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
