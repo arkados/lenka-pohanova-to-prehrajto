@@ -624128,12 +624128,6 @@
     },
     "920:4:22": {
       "episode_key": "sběratelé kostí:s4:e22",
-      "claim": {
-        "worker_id": "a22c4c5f59a343de9e006e6f7f7510cb-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:40:23.775296+00:00",
-        "lease_expires_at": "2026-11-19T01:40:23.775312+00:00"
-      },
       "source": {
         "source_id": "8212976",
         "source_url": "https://sdilej.cz/8212976/bones-sberatele-kosti-s04e22-czdab.avi",
@@ -624158,22 +624152,29 @@
         "display_name": "Bones S04E22 The Double Death of the Dearly Departed SD CZ Dabing",
         "prepared_at": "2026-11-18T19:40:34.301328+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158535",
-        "size_bytes": 414746624
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158535",
-        "size_bytes": 414746624,
-        "source_bytes_read": 414746624,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158535",
         "source_bytes_read": 414746624,
         "elapsed_seconds": 18.872,
         "finished_at": "2026-11-18T19:41:17.501971+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158535",
+          "size_bytes": 414746624,
+          "source_bytes_read": 414746624,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8212976",
+        "source_url": "https://sdilej.cz/8212976/bones-sberatele-kosti-s04e22-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158535",
+        "display_name": "Bones S04E22 The Double Death of the Dearly Departed SD CZ Dabing",
+        "uploaded_at": "2026-11-18T19:41:28.051949+00:00"
       }
     }
   },
@@ -624182,7 +624183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:41:22.337502+00:00",
+  "updated_at": "2026-11-18T19:41:28.051968+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
