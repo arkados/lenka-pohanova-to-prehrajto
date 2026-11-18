@@ -612790,12 +612790,6 @@
     },
     "58:1:3": {
       "episode_key": "zaklínač:s1:e3",
-      "claim": {
-        "worker_id": "edfe1bf4363c43c69a35ede7da644d0d-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:08:14.299167+00:00",
-        "lease_expires_at": "2026-11-18T22:08:14.299187+00:00"
-      },
       "source": {
         "source_id": "32008745",
         "source_url": "https://sdilej.cz/32008745/zaklinac-2019-1x03.mp4",
@@ -612820,22 +612814,29 @@
         "display_name": "The Witcher S01E03 Betrayer Moon 720p CZ Dabing",
         "prepared_at": "2026-11-18T16:08:24.427405+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155048",
-        "size_bytes": 535372347
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155048",
-        "size_bytes": 535372347,
-        "source_bytes_read": 535372347,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155048",
         "source_bytes_read": 535372347,
         "elapsed_seconds": 43.034,
         "finished_at": "2026-11-18T16:09:31.321297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155048",
+          "size_bytes": 535372347,
+          "source_bytes_read": 535372347,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32008745",
+        "source_url": "https://sdilej.cz/32008745/zaklinac-2019-1x03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155048",
+        "display_name": "The Witcher S01E03 Betrayer Moon 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T16:09:40.433186+00:00"
       }
     }
   },
@@ -612844,7 +612845,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:09:31.321321+00:00",
+  "updated_at": "2026-11-18T16:09:40.433222+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
