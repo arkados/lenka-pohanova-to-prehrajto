@@ -581908,12 +581908,6 @@
     },
     "3618:2:7": {
       "episode_key": "k smíchu:s2:e7",
-      "claim": {
-        "worker_id": "01594897bc624e1bbe880702062845ff-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:18:42.081654+00:00",
-        "lease_expires_at": "2026-11-18T07:18:42.081667+00:00"
-      },
       "source": {
         "source_id": "33163013",
         "source_url": "https://sdilej.cz/33163013/k-smichu-s02e07-10-2020-cz-dab-1080p-dekovna-rec.mkv",
@@ -581938,22 +581932,29 @@
         "display_name": "Kidding S02E07 The Acceptance Speech 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:18:47.741874+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135770",
-        "size_bytes": 1706757497
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135770",
-        "size_bytes": 1706757497,
-        "source_bytes_read": 1706757497,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135770",
         "source_bytes_read": 1706757497,
         "elapsed_seconds": 242.866,
         "finished_at": "2026-11-18T01:23:13.138508+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135770",
+          "size_bytes": 1706757497,
+          "source_bytes_read": 1706757497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33163013",
+        "source_url": "https://sdilej.cz/33163013/k-smichu-s02e07-10-2020-cz-dab-1080p-dekovna-rec.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135770",
+        "display_name": "Kidding S02E07 The Acceptance Speech 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:23:21.737897+00:00"
       }
     },
     "3618:2:9": {
@@ -582013,7 +582014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:23:13.138531+00:00",
+  "updated_at": "2026-11-18T01:23:21.737917+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
