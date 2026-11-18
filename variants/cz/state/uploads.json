@@ -580465,12 +580465,6 @@
     },
     "581:2:8": {
       "episode_key": "král tulsy:s2:e8",
-      "claim": {
-        "worker_id": "ef3d21670e454f7eb433df8ebbb5ddd8-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:28:31.391657+00:00",
-        "lease_expires_at": "2026-11-18T06:28:31.391676+00:00"
-      },
       "source": {
         "source_id": "30013311",
         "source_url": "https://sdilej.cz/30013311/tulsa-king-s02e08-1080p-cz-dabing.mkv",
@@ -580495,22 +580489,29 @@
         "display_name": "Tulsa King S02E08 Under New Management 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:28:50.415358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134531",
-        "size_bytes": 988909954
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134531",
-        "size_bytes": 988909954,
-        "source_bytes_read": 988909954,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134531",
         "source_bytes_read": 988909954,
         "elapsed_seconds": 348.479,
         "finished_at": "2026-11-18T00:35:00.872120+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134531",
+          "size_bytes": 988909954,
+          "source_bytes_read": 988909954,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30013311",
+        "source_url": "https://sdilej.cz/30013311/tulsa-king-s02e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134531",
+        "display_name": "Tulsa King S02E08 Under New Management 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:35:06.618500+00:00"
       }
     },
     "581:2:9": {
@@ -580643,7 +580644,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:35:00.872139+00:00",
+  "updated_at": "2026-11-18T00:35:06.618519+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
