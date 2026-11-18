@@ -603214,12 +603214,6 @@
     },
     "2542:5:4": {
       "episode_key": "inspektor george gently:s5:e4",
-      "claim": {
-        "worker_id": "ffacf3a562154e1d9b95c682adaef261-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T11:51:51.923365+00:00",
-        "lease_expires_at": "2026-11-18T17:51:51.923375+00:00"
-      },
       "source": {
         "source_id": "21887443",
         "source_url": "https://sdilej.cz/21887443/inspektor-george-gently-s05e04-2012-hd-gently-v-katedrale-sd-.mp4",
@@ -603244,22 +603238,29 @@
         "display_name": "Inspector George Gently S05E04 Gently in the Cathedral 720p CZ Dabing",
         "prepared_at": "2026-11-18T11:51:56.351354+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150388",
-        "size_bytes": 1399288468
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150388",
-        "size_bytes": 1399288468,
-        "source_bytes_read": 1399288468,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150388",
         "source_bytes_read": 1399288468,
         "elapsed_seconds": 236.98,
         "finished_at": "2026-11-18T11:56:12.936202+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150388",
+          "size_bytes": 1399288468,
+          "source_bytes_read": 1399288468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21887443",
+        "source_url": "https://sdilej.cz/21887443/inspektor-george-gently-s05e04-2012-hd-gently-v-katedrale-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150388",
+        "display_name": "Inspector George Gently S05E04 Gently in the Cathedral 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:56:19.959662+00:00"
       }
     },
     "2542:6:1": {
@@ -603342,7 +603343,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:56:12.936220+00:00",
+  "updated_at": "2026-11-18T11:56:19.959681+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
