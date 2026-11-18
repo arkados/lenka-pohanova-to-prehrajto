@@ -606086,12 +606086,6 @@
     },
     "576:3:3": {
       "episode_key": "tým seal:s3:e3",
-      "claim": {
-        "worker_id": "79e4ca16d5d2454c8d3098d35b397051-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:06:34.321119+00:00",
-        "lease_expires_at": "2026-11-18T19:06:34.321132+00:00"
-      },
       "source": {
         "source_id": "33666360",
         "source_url": "https://sdilej.cz/33666360/seal.team.s03e03-cz.mkv",
@@ -606116,22 +606110,29 @@
         "display_name": "SEAL Team S03E03 Theory and Methodology 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:06:47.419770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151845",
-        "size_bytes": 405866831
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151845",
-        "size_bytes": 405866831,
-        "source_bytes_read": 405866831,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151845",
         "source_bytes_read": 405866831,
         "elapsed_seconds": 96.711,
         "finished_at": "2026-11-18T13:08:46.108656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151845",
+          "size_bytes": 405866831,
+          "source_bytes_read": 405866831,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33666360",
+        "source_url": "https://sdilej.cz/33666360/seal.team.s03e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151845",
+        "display_name": "SEAL Team S03E03 Theory and Methodology 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:08:57.859636+00:00"
       }
     },
     "576:3:4": {
@@ -606279,7 +606280,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:08:50.354459+00:00",
+  "updated_at": "2026-11-18T13:08:57.859658+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
