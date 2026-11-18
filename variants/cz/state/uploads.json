@@ -584819,12 +584819,6 @@
     },
     "574:1:3": {
       "episode_key": "da vinciho démoni:s1:e3",
-      "claim": {
-        "worker_id": "c2d75754a0254bdb991fa369515dbd3f-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:12:14.751967+00:00",
-        "lease_expires_at": "2026-11-18T08:12:14.751980+00:00"
-      },
       "source": {
         "source_id": "33670495",
         "source_url": "https://sdilej.cz/33670495/da-vinciho-demoni-s01e03.mp4",
@@ -584849,22 +584843,29 @@
         "display_name": "Da Vinci's Demons S01E03 The Prisoner 720p CZ Dabing",
         "prepared_at": "2026-11-18T02:12:22.698460+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137053",
-        "size_bytes": 873797982
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137053",
-        "size_bytes": 873797982,
-        "source_bytes_read": 873797982,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137053",
         "source_bytes_read": 873797982,
         "elapsed_seconds": 242.551,
         "finished_at": "2026-11-18T02:16:45.572673+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137053",
+          "size_bytes": 873797982,
+          "source_bytes_read": 873797982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33670495",
+        "source_url": "https://sdilej.cz/33670495/da-vinciho-demoni-s01e03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137053",
+        "display_name": "Da Vinci's Demons S01E03 The Prisoner 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:16:52.318812+00:00"
       }
     },
     "574:1:4": {
@@ -585049,7 +585050,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:16:45.572695+00:00",
+  "updated_at": "2026-11-18T02:16:52.318829+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
