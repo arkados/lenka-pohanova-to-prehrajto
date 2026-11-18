@@ -589444,28 +589444,29 @@
           "at": "2026-11-18T03:40:08.469270+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a435b4d5aefa41d6854d488159c3cd90-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:40:14.185803+00:00",
-        "lease_expires_at": "2026-11-18T09:40:14.185818+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31138722",
-        "size_bytes": 871247423
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138722",
-        "size_bytes": 871247423,
-        "source_bytes_read": 871247423,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138722",
         "source_bytes_read": 871247423,
         "elapsed_seconds": 87.52,
         "finished_at": "2026-11-18T03:42:16.766279+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138722",
+          "size_bytes": 871247423,
+          "source_bytes_read": 871247423,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660456",
+        "source_url": "https://sdilej.cz/30660456/kazatel-preacher-s04e02-1080p-10bit-bluray-ac3-x265-hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138722",
+        "display_name": "Preacher S04E02 Last Supper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:42:24.154265+00:00"
       }
     },
     "922:4:3": {
@@ -589627,7 +589628,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:42:16.766308+00:00",
+  "updated_at": "2026-11-18T03:42:24.154283+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
