@@ -635850,12 +635850,6 @@
     },
     "1405:4:15": {
       "episode_key": "námořní vyšetřovací služba:s4:e15",
-      "claim": {
-        "worker_id": "b689b9b5c8a64bdfbbe08d40e9784f8f-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:43:35.578774+00:00",
-        "lease_expires_at": "2026-11-19T05:43:35.578785+00:00"
-      },
       "source": {
         "source_id": "31596181",
         "source_url": "https://sdilej.cz/31596181/namorni-vysetrovaci-sluzba-s04e15.mkv",
@@ -635880,22 +635874,29 @@
         "display_name": "NCIS S04E15 Friends and Lovers 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:43:45.490039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163356",
-        "size_bytes": 999353982
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163356",
-        "size_bytes": 999353982,
-        "source_bytes_read": 999353982,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163356",
         "source_bytes_read": 999353982,
         "elapsed_seconds": 56.722,
         "finished_at": "2026-11-18T23:45:03.371029+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163356",
+          "size_bytes": 999353982,
+          "source_bytes_read": 999353982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31596181",
+        "source_url": "https://sdilej.cz/31596181/namorni-vysetrovaci-sluzba-s04e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163356",
+        "display_name": "NCIS S04E15 Friends and Lovers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:45:10.259607+00:00"
       }
     },
     "1405:4:16": {
@@ -635941,7 +635942,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:45:03.371049+00:00",
+  "updated_at": "2026-11-18T23:45:10.259624+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
