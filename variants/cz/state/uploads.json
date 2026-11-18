@@ -630683,12 +630683,6 @@
     },
     "920:11:13": {
       "episode_key": "sběratelé kostí:s11:e13",
-      "claim": {
-        "worker_id": "a793a98b5e11454fa5631076cf8fb127-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:50:47.013082+00:00",
-        "lease_expires_at": "2026-11-19T03:50:47.013098+00:00"
-      },
       "source": {
         "source_id": "27579227",
         "source_url": "https://sdilej.cz/27579227/sberatele-kosti-s11e13-cz.mkv",
@@ -630729,7 +630723,13 @@
         "elapsed_seconds": 15.61,
         "finished_at": "2026-11-18T21:52:15.061173+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T21:54:01.975725+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "920:11:12": {
       "episode_key": "sběratelé kostí:s11:e12",
@@ -630755,7 +630755,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:52:37.854782+00:00",
+  "updated_at": "2026-11-18T21:54:01.975744+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
