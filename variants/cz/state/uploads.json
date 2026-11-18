@@ -594917,12 +594917,6 @@
     },
     "1246:4:6": {
       "episode_key": "aféra:s4:e6",
-      "claim": {
-        "worker_id": "c701b63df2e44cb19e374186b03a4970-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:26:36.529367+00:00",
-        "lease_expires_at": "2026-11-18T11:26:36.529384+00:00"
-      },
       "source": {
         "source_id": "10210898",
         "source_url": "https://sdilej.cz/10210898/afera.04x06.hdtv.cz.avi",
@@ -594947,22 +594941,29 @@
         "display_name": "The Affair S04E06 406 SD CZ Dabing",
         "prepared_at": "2026-11-18T05:26:41.398585+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141534",
-        "size_bytes": 579670778
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141534",
-        "size_bytes": 579670778,
-        "source_bytes_read": 579670778,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141534",
         "source_bytes_read": 579670778,
         "elapsed_seconds": 39.923,
         "finished_at": "2026-11-18T05:27:45.192597+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141534",
+          "size_bytes": 579670778,
+          "source_bytes_read": 579670778,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10210898",
+        "source_url": "https://sdilej.cz/10210898/afera.04x06.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141534",
+        "display_name": "The Affair S04E06 406 SD CZ Dabing",
+        "uploaded_at": "2026-11-18T05:27:50.822372+00:00"
       }
     },
     "1246:5:9": {
@@ -595008,7 +595009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:27:45.192618+00:00",
+  "updated_at": "2026-11-18T05:27:50.822405+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
