@@ -634430,12 +634430,6 @@
     },
     "1405:3:11": {
       "episode_key": "námořní vyšetřovací služba:s3:e11",
-      "claim": {
-        "worker_id": "6953658977984de3830fd6264132823f-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:17:31.460582+00:00",
-        "lease_expires_at": "2026-11-19T05:17:31.460593+00:00"
-      },
       "source": {
         "source_id": "30585125",
         "source_url": "https://sdilej.cz/30585125/namorni-vysetrovaci-sluzba-s03e11.mkv",
@@ -634460,22 +634454,29 @@
         "display_name": "NCIS S03E11 Model Behavior 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:17:40.610356+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162724",
-        "size_bytes": 1009986581
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162724",
-        "size_bytes": 1009986581,
-        "source_bytes_read": 1009986581,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162724",
         "source_bytes_read": 1009986581,
         "elapsed_seconds": 55.958,
         "finished_at": "2026-11-18T23:19:06.299020+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162724",
+          "size_bytes": 1009986581,
+          "source_bytes_read": 1009986581,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30585125",
+        "source_url": "https://sdilej.cz/30585125/namorni-vysetrovaci-sluzba-s03e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162724",
+        "display_name": "NCIS S03E11 Model Behavior 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:19:17.808533+00:00"
       }
     },
     "1405:3:12": {
@@ -634571,7 +634572,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:19:12.131991+00:00",
+  "updated_at": "2026-11-18T23:19:17.808549+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
