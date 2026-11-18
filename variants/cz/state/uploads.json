@@ -602908,12 +602908,6 @@
     },
     "2542:4:1": {
       "episode_key": "inspektor george gently:s4:e1",
-      "claim": {
-        "worker_id": "353fe6b1adcf464b8e899a923292514c-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T11:37:11.977666+00:00",
-        "lease_expires_at": "2026-11-18T17:37:11.977677+00:00"
-      },
       "source": {
         "source_id": "21886679",
         "source_url": "https://sdilej.cz/21886679/inspektor-george-gently-s04e01-2011-hd-gently-vzhuru-nohama-sd-.mp4",
@@ -602938,22 +602932,29 @@
         "display_name": "Inspector George Gently S04E01 Gently Upside Down 720p CZ Dabing",
         "prepared_at": "2026-11-18T11:37:16.728299+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150084",
-        "size_bytes": 1419878042
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150084",
-        "size_bytes": 1419878042,
-        "source_bytes_read": 1419878042,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150084",
         "source_bytes_read": 1419878042,
         "elapsed_seconds": 245.635,
         "finished_at": "2026-11-18T11:41:38.939740+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150084",
+          "size_bytes": 1419878042,
+          "source_bytes_read": 1419878042,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21886679",
+        "source_url": "https://sdilej.cz/21886679/inspektor-george-gently-s04e01-2011-hd-gently-vzhuru-nohama-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150084",
+        "display_name": "Inspector George Gently S04E01 Gently Upside Down 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:41:47.517338+00:00"
       }
     },
     "2542:4:2": {
@@ -603036,7 +603037,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:41:38.939759+00:00",
+  "updated_at": "2026-11-18T11:41:47.517355+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
