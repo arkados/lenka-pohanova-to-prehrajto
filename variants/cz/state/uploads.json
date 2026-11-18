@@ -619660,12 +619660,6 @@
     },
     "1117:5:17": {
       "episode_key": "nová holka:s5:e17",
-      "claim": {
-        "worker_id": "e6543cb182fd4f2184edba088b013b58-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:30:29.611568+00:00",
-        "lease_expires_at": "2026-11-19T00:30:29.611584+00:00"
-      },
       "source": {
         "source_id": "7992911",
         "source_url": "https://sdilej.cz/7992911/nova.holka.05x17.dvb-t.cz.avi",
@@ -619690,22 +619684,29 @@
         "display_name": "New Girl S05E17 Road Trip SD CZ Dabing",
         "prepared_at": "2026-11-18T18:30:48.548122+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157273",
-        "size_bytes": 338866734
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157273",
-        "size_bytes": 338866734,
-        "source_bytes_read": 338866734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157273",
         "source_bytes_read": 338866734,
         "elapsed_seconds": 52.099,
         "finished_at": "2026-11-18T18:32:11.541572+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157273",
+          "size_bytes": 338866734,
+          "source_bytes_read": 338866734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992911",
+        "source_url": "https://sdilej.cz/7992911/nova.holka.05x17.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157273",
+        "display_name": "New Girl S05E17 Road Trip SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:32:27.315298+00:00"
       }
     },
     "1117:5:18": {
@@ -619750,7 +619751,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:32:21.134192+00:00",
+  "updated_at": "2026-11-18T18:32:27.315317+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
