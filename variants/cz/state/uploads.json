@@ -604438,12 +604438,6 @@
     },
     "576:1:15": {
       "episode_key": "tým seal:s1:e15",
-      "claim": {
-        "worker_id": "e078e99895964c89804a3e0b8ef85b40-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:27:59.962687+00:00",
-        "lease_expires_at": "2026-11-18T18:27:59.962704+00:00"
-      },
       "source": {
         "source_id": "29670134",
         "source_url": "https://sdilej.cz/29670134/seal-team-s01e15-1080p-cz-dabing.mkv",
@@ -604468,22 +604462,29 @@
         "display_name": "SEAL Team S01E15 No Man's Land 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:28:05.170366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151112",
-        "size_bytes": 858959571
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151112",
-        "size_bytes": 858959571,
-        "source_bytes_read": 858959571,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151112",
         "source_bytes_read": 858959571,
         "elapsed_seconds": 100.286,
         "finished_at": "2026-11-18T12:30:08.082147+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151112",
+          "size_bytes": 858959571,
+          "source_bytes_read": 858959571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29670134",
+        "source_url": "https://sdilej.cz/29670134/seal-team-s01e15-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151112",
+        "display_name": "SEAL Team S01E15 No Man's Land 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:30:18.752751+00:00"
       }
     }
   },
@@ -604492,7 +604493,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:30:14.300052+00:00",
+  "updated_at": "2026-11-18T12:30:18.752771+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
