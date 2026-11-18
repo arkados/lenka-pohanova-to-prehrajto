@@ -621996,12 +621996,6 @@
     },
     "920:2:8": {
       "episode_key": "sběratelé kostí:s2:e8",
-      "claim": {
-        "worker_id": "6699955f4b454b3e95d0967c5f873fe2-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:00:32.985216+00:00",
-        "lease_expires_at": "2026-11-19T01:00:32.985231+00:00"
-      },
       "source": {
         "source_id": "33562458",
         "source_url": "https://sdilej.cz/33562458/sberatele-kosti-s02e08-cz-dabing-1080p.mkv",
@@ -622025,7 +622019,17 @@
         },
         "display_name": "Bones S02E08 The Woman in the Sand 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:00:38.837854+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33562458:https://sdilej.cz/33562458/sberatele-kosti-s02e08-cz-dabing-1080p.mkv",
+        "at": "2026-11-18T19:00:51.504880+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T19:00:51.504909+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -622033,7 +622037,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:00:43.264744+00:00",
+  "updated_at": "2026-11-18T19:00:51.504915+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -622513,6 +622517,14 @@
         }
       ],
       "retry_after": "2026-11-18T18:21:29.104392+00:00"
+    },
+    "920": {
+      "recent_failures": [
+        {
+          "identity": "920:2:8",
+          "at": "2026-11-18T19:00:51.504880+00:00"
+        }
+      ]
     }
   }
 }
