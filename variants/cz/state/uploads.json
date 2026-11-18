@@ -620582,12 +620582,6 @@
     },
     "1117:6:22": {
       "episode_key": "nová holka:s6:e22",
-      "claim": {
-        "worker_id": "1bfb446d416446938ec07f066c5b2600-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:43:12.010783+00:00",
-        "lease_expires_at": "2026-11-19T00:43:12.010799+00:00"
-      },
       "source": {
         "source_id": "7993031",
         "source_url": "https://sdilej.cz/7993031/nova.holka.06x22.dvb-t.cz.avi",
@@ -620612,22 +620606,29 @@
         "display_name": "New Girl S06E22 Five Stars for Beezus SD CZ Dabing",
         "prepared_at": "2026-11-18T18:43:41.118732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157517",
-        "size_bytes": 299979232
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157517",
-        "size_bytes": 299979232,
-        "source_bytes_read": 299979232,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157517",
         "source_bytes_read": 299979232,
         "elapsed_seconds": 25.586,
         "finished_at": "2026-11-18T18:44:32.884574+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157517",
+          "size_bytes": 299979232,
+          "source_bytes_read": 299979232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7993031",
+        "source_url": "https://sdilej.cz/7993031/nova.holka.06x22.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157517",
+        "display_name": "New Girl S06E22 Five Stars for Beezus SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:44:39.481910+00:00"
       }
     },
     "920:1:2": {
@@ -620724,7 +620725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:44:32.884596+00:00",
+  "updated_at": "2026-11-18T18:44:39.481930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
