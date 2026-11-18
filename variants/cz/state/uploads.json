@@ -600307,12 +600307,6 @@
     },
     "1765:5:11": {
       "episode_key": "záchranáři l. a.:s5:e11",
-      "claim": {
-        "worker_id": "6f0cfb2f202e4c48a8187eb8d3e6f5e1-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:03:48.578961+00:00",
-        "lease_expires_at": "2026-11-18T15:03:48.578973+00:00"
-      },
       "source": {
         "source_id": "34634895",
         "source_url": "https://sdilej.cz/34634895/9-1-1-s05e11.mp4",
@@ -600337,22 +600331,29 @@
         "display_name": "9-1-1 S05E11 Outside Looking In 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:03:53.565329+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31145951",
-        "size_bytes": 2302285999
-      },
-      "transfer_receipt": {
-        "target_video_id": "31145951",
-        "size_bytes": 2302285999,
-        "source_bytes_read": 2302285999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31145951",
         "source_bytes_read": 2302285999,
         "elapsed_seconds": 590.111,
         "finished_at": "2026-11-18T09:14:07.248779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31145951",
+          "size_bytes": 2302285999,
+          "source_bytes_read": 2302285999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634895",
+        "source_url": "https://sdilej.cz/34634895/9-1-1-s05e11.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31145951",
+        "display_name": "9-1-1 S05E11 Outside Looking In 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:14:17.274106+00:00"
       }
     },
     "1765:5:12": {
@@ -600435,7 +600436,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:14:11.221531+00:00",
+  "updated_at": "2026-11-18T09:14:17.274123+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
