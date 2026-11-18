@@ -617225,12 +617225,6 @@
     },
     "1117:1:19": {
       "episode_key": "nová holka:s1:e19",
-      "claim": {
-        "worker_id": "d12249e00520479d8df637debba8337a-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:46:33.687521+00:00",
-        "lease_expires_at": "2026-11-18T23:46:33.687534+00:00"
-      },
       "source": {
         "source_id": "4996095",
         "source_url": "https://sdilej.cz/4996095/nova-holka-01x19-dvdrip-xvid-cz.avi",
@@ -617255,22 +617249,29 @@
         "display_name": "New Girl S01E19 Secrets SD CZ Dabing",
         "prepared_at": "2026-11-18T17:46:38.416636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156600",
-        "size_bytes": 182183936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156600",
-        "size_bytes": 182183936,
-        "source_bytes_read": 182183936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156600",
         "source_bytes_read": 182183936,
         "elapsed_seconds": 119.146,
         "finished_at": "2026-11-18T17:49:05.590891+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156600",
+          "size_bytes": 182183936,
+          "source_bytes_read": 182183936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "4996095",
+        "source_url": "https://sdilej.cz/4996095/nova-holka-01x19-dvdrip-xvid-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156600",
+        "display_name": "New Girl S01E19 Secrets SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:49:12.786875+00:00"
       }
     },
     "1117:1:20": {
@@ -617418,7 +617419,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:49:05.590921+00:00",
+  "updated_at": "2026-11-18T17:49:12.786895+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
