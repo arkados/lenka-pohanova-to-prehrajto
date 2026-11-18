@@ -615542,28 +615542,29 @@
           "at": "2026-11-18T21:24:44.857284+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ba748aa21e874629abbfbb45e1f5c21c-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:24:49.918336+00:00",
-        "lease_expires_at": "2026-11-19T03:24:49.918354+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31160461",
-        "size_bytes": 919595626
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160461",
-        "size_bytes": 919595626,
-        "source_bytes_read": 919595626,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160461",
         "source_bytes_read": 919595626,
         "elapsed_seconds": 47.226,
         "finished_at": "2026-11-18T21:26:18.035495+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160461",
+          "size_bytes": 919595626,
+          "source_bytes_read": 919595626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32006653",
+        "source_url": "https://sdilej.cz/32006653/umbrella-academy-s02e07-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160461",
+        "display_name": "The Umbrella Academy S02E07 Öga for Öga 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:26:37.517840+00:00"
       }
     },
     "1166:2:8": {
@@ -629386,7 +629387,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:26:32.508426+00:00",
+  "updated_at": "2026-11-18T21:26:37.517858+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
