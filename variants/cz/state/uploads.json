@@ -600874,12 +600874,6 @@
     },
     "1967:8:8": {
       "episode_key": "vraždy v midsomeru:s8:e8",
-      "claim": {
-        "worker_id": "e926cc48a76844e4a10b4b3714afddaa-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:37:13.946769+00:00",
-        "lease_expires_at": "2026-11-18T15:37:13.946782+00:00"
-      },
       "source": {
         "source_id": "29262044",
         "source_url": "https://sdilej.cz/29262044/vrazdy-v-midsomeru-s08e08-rapsodie-z-midsomeru.mkv",
@@ -600904,22 +600898,29 @@
         "display_name": "Midsomer Murders S08E08 Sauce for the Goose 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:37:18.703603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31146808",
-        "size_bytes": 2051024040
-      },
-      "transfer_receipt": {
-        "target_video_id": "31146808",
-        "size_bytes": 2051024040,
-        "source_bytes_read": 2051024040,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31146808",
         "source_bytes_read": 2051024040,
         "elapsed_seconds": 800.828,
         "finished_at": "2026-11-18T09:50:57.078138+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31146808",
+          "size_bytes": 2051024040,
+          "source_bytes_read": 2051024040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29262044",
+        "source_url": "https://sdilej.cz/29262044/vrazdy-v-midsomeru-s08e08-rapsodie-z-midsomeru.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31146808",
+        "display_name": "Midsomer Murders S08E08 Sauce for the Goose 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:51:02.881870+00:00"
       }
     },
     "1967:9:2": {
@@ -601016,7 +601017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:50:57.078155+00:00",
+  "updated_at": "2026-11-18T09:51:02.881886+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
