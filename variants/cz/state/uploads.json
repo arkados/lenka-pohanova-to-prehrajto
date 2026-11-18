@@ -587035,28 +587035,29 @@
           "at": "2026-11-18T03:26:48.797541+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d9423641df7d430db3b274872fa3d3eb-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:26:52.794555+00:00",
-        "lease_expires_at": "2026-11-18T09:26:52.794572+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31138511",
-        "size_bytes": 1240541766
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138511",
-        "size_bytes": 1240541766,
-        "source_bytes_read": 1240541766,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138511",
         "source_bytes_read": 1240541766,
         "elapsed_seconds": 260.795,
         "finished_at": "2026-11-18T03:31:33.859614+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138511",
+          "size_bytes": 1240541766,
+          "source_bytes_read": 1240541766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10597011",
+        "source_url": "https://sdilej.cz/10597011/preacher.s03e02.1080p.10bit.amzn.web-dl.ac3.x265.hevc-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138511",
+        "display_name": "Preacher S03E02 Sonsabitches 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:31:46.741161+00:00"
       }
     },
     "922:3:3": {
@@ -589292,7 +589293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:31:42.289431+00:00",
+  "updated_at": "2026-11-18T03:31:46.741181+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
