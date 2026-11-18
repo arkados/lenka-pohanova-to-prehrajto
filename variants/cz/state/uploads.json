@@ -594486,12 +594486,6 @@
     },
     "1765:3:16": {
       "episode_key": "záchranáři l. a.:s3:e16",
-      "claim": {
-        "worker_id": "24bc91ac2bc841d9bb7c3acd06ef5428-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:17:34.706453+00:00",
-        "lease_expires_at": "2026-11-18T11:17:34.706470+00:00"
-      },
       "source": {
         "source_id": "35339712",
         "source_url": "https://sdilej.cz/35339712/9-1-1-s03e16-cz-dabing.mkv",
@@ -594515,7 +594509,17 @@
         },
         "display_name": "9-1-1 S03E16 The One That Got Away 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:17:39.743898+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339712:https://sdilej.cz/35339712/9-1-1-s03e16-cz-dabing.mkv",
+        "at": "2026-11-18T05:17:52.956553+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T05:17:52.956623+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -594523,7 +594527,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:17:44.059874+00:00",
+  "updated_at": "2026-11-18T05:17:52.956629+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -594955,9 +594959,13 @@
         {
           "identity": "1765:3:15",
           "at": "2026-11-18T05:17:44.059833+00:00"
+        },
+        {
+          "identity": "1765:3:16",
+          "at": "2026-11-18T05:17:52.956553+00:00"
         }
       ],
-      "retry_after": "2026-11-18T05:16:13.002433+00:00"
+      "retry_after": "2026-11-18T05:27:52.956553+00:00"
     },
     "792": {
       "recent_failures": [
