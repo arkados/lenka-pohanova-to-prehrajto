@@ -612665,12 +612665,6 @@
     },
     "2209:6:14": {
       "episode_key": "třetí hlídka:s6:e14",
-      "claim": {
-        "worker_id": "bc0be274ed074bb58ee0e14ec9f246fc-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:06:36.690846+00:00",
-        "lease_expires_at": "2026-11-18T22:06:36.690863+00:00"
-      },
       "source": {
         "source_id": "31764173",
         "source_url": "https://sdilej.cz/31764173/treti-hlidka-s06e14-kuchynsky-drez-tv-rip-cz.avi",
@@ -612695,22 +612689,29 @@
         "display_name": "Third Watch S06E14 The Kitchen Sink SD CZ Dabing",
         "prepared_at": "2026-11-18T16:06:41.814937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155014",
-        "size_bytes": 419440640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155014",
-        "size_bytes": 419440640,
-        "source_bytes_read": 419440640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155014",
         "source_bytes_read": 419440640,
         "elapsed_seconds": 31.792,
         "finished_at": "2026-11-18T16:07:37.714384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155014",
+          "size_bytes": 419440640,
+          "source_bytes_read": 419440640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31764173",
+        "source_url": "https://sdilej.cz/31764173/treti-hlidka-s06e14-kuchynsky-drez-tv-rip-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155014",
+        "display_name": "Third Watch S06E14 The Kitchen Sink SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:07:56.099277+00:00"
       }
     },
     "58:1:1": {
@@ -612755,7 +612756,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:07:52.125989+00:00",
+  "updated_at": "2026-11-18T16:07:56.099300+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
