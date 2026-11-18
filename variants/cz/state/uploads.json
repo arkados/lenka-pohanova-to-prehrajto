@@ -636563,12 +636563,6 @@
     },
     "1405:5:5": {
       "episode_key": "námořní vyšetřovací služba:s5:e5",
-      "claim": {
-        "worker_id": "b1f84c4b9d1c4de8a9d78576574c1e34-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:55:46.979453+00:00",
-        "lease_expires_at": "2026-11-19T05:55:46.979461+00:00"
-      },
       "source": {
         "source_id": "30835659",
         "source_url": "https://sdilej.cz/30835659/namorni-vysetrovaci-sluzba-s05e05-1-.mkv",
@@ -636593,22 +636587,29 @@
         "display_name": "NCIS S05E05 Leap of Faith 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:55:51.795935+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163679",
-        "size_bytes": 657898704
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163679",
-        "size_bytes": 657898704,
-        "source_bytes_read": 657898704,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163679",
         "source_bytes_read": 657898704,
         "elapsed_seconds": 43.607,
         "finished_at": "2026-11-18T23:56:56.493535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163679",
+          "size_bytes": 657898704,
+          "source_bytes_read": 657898704,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30835659",
+        "source_url": "https://sdilej.cz/30835659/namorni-vysetrovaci-sluzba-s05e05-1-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163679",
+        "display_name": "NCIS S05E05 Leap of Faith 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:57:06.144594+00:00"
       }
     },
     "1405:5:6": {
@@ -636654,7 +636655,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:57:00.767363+00:00",
+  "updated_at": "2026-11-18T23:57:06.144609+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
