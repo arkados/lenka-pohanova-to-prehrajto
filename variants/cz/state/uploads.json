@@ -622441,12 +622441,6 @@
     },
     "920:2:19": {
       "episode_key": "sběratelé kostí:s2:e19",
-      "claim": {
-        "worker_id": "bf7da4c3f9f648099f6a4d279820a0ce-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:10:09.625256+00:00",
-        "lease_expires_at": "2026-11-19T01:10:09.625274+00:00"
-      },
       "source": {
         "source_id": "30996208",
         "source_url": "https://sdilej.cz/30996208/sberatele-kosti-s02e19-cz-dabing-1080p.mkv",
@@ -622471,22 +622465,29 @@
         "display_name": "Bones S02E19 Spaceman in a Crater 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:10:15.103416+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158108",
-        "size_bytes": 913691745
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158108",
-        "size_bytes": 913691745,
-        "source_bytes_read": 913691745,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158108",
         "source_bytes_read": 913691745,
         "elapsed_seconds": 88.711,
         "finished_at": "2026-11-18T19:12:04.622046+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158108",
+          "size_bytes": 913691745,
+          "source_bytes_read": 913691745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30996208",
+        "source_url": "https://sdilej.cz/30996208/sberatele-kosti-s02e19-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158108",
+        "display_name": "Bones S02E19 Spaceman in a Crater 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:12:11.463823+00:00"
       }
     },
     "920:2:20": {
@@ -622532,7 +622533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:12:04.622066+00:00",
+  "updated_at": "2026-11-18T19:12:11.463842+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
