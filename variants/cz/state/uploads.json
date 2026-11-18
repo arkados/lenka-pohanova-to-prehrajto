@@ -589735,28 +589735,29 @@
           "at": "2026-11-18T03:47:26.428828+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d178ccda6ae14a88915de0c14081e410-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:47:30.752306+00:00",
-        "lease_expires_at": "2026-11-18T09:47:30.752329+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31138862",
-        "size_bytes": 858201882
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138862",
-        "size_bytes": 858201882,
-        "source_bytes_read": 858201882,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138862",
         "source_bytes_read": 858201882,
         "elapsed_seconds": 80.322,
         "finished_at": "2026-11-18T03:49:13.957608+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138862",
+          "size_bytes": 858201882,
+          "source_bytes_read": 858201882,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661306",
+        "source_url": "https://sdilej.cz/30661306/kazatel-preacher-s04e07-1080p-10bit-bluray-ac3-x265-hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138862",
+        "display_name": "Preacher S04E07 Messiahs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:49:20.584736+00:00"
       }
     },
     "922:4:8": {
@@ -590149,7 +590150,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:49:13.957628+00:00",
+  "updated_at": "2026-11-18T03:49:20.584753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
