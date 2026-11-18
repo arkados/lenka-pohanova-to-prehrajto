@@ -608557,12 +608557,6 @@
     },
     "3728:1:6": {
       "episode_key": "útěk z vězení v dannemoře:s1:e6",
-      "claim": {
-        "worker_id": "48cb6d89e129411da2bb7b5f1e2b4521-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T14:15:48.136714+00:00",
-        "lease_expires_at": "2026-11-18T20:15:48.136733+00:00"
-      },
       "source": {
         "source_id": "32216689",
         "source_url": "https://sdilej.cz/32216689/utek-z-vezeni-v-dannemore-s01e06-07-2018-cz-dab-1080p-part-6.mkv",
@@ -608587,22 +608581,29 @@
         "display_name": "Escape at Dannemora S01E06 Part 6 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:15:52.964611+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153086",
-        "size_bytes": 621425851
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153086",
-        "size_bytes": 621425851,
-        "source_bytes_read": 621425851,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153086",
         "source_bytes_read": 621425851,
         "elapsed_seconds": 86.452,
         "finished_at": "2026-11-18T14:17:37.526189+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153086",
+          "size_bytes": 621425851,
+          "source_bytes_read": 621425851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32216689",
+        "source_url": "https://sdilej.cz/32216689/utek-z-vezeni-v-dannemore-s01e06-07-2018-cz-dab-1080p-part-6.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153086",
+        "display_name": "Escape at Dannemora S01E06 Part 6 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T14:17:44.747559+00:00"
       }
     }
   },
@@ -608611,7 +608612,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T14:17:37.526208+00:00",
+  "updated_at": "2026-11-18T14:17:44.747577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
