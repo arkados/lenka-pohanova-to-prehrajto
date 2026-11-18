@@ -626194,12 +626194,6 @@
     },
     "920:7:8": {
       "episode_key": "sběratelé kostí:s7:e8",
-      "claim": {
-        "worker_id": "7344bc2e1e7f41dbb6b9c1ca938dc008-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:18:43.153212+00:00",
-        "lease_expires_at": "2026-11-19T02:18:43.153232+00:00"
-      },
       "source": {
         "source_id": "35000903",
         "source_url": "https://sdilej.cz/35000903/bones.-2005-.s07e08.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
@@ -626224,22 +626218,29 @@
         "display_name": "Bones S07E08 The Bump in the Road 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:18:59.528964+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159186",
-        "size_bytes": 766792454
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159186",
-        "size_bytes": 766792454,
-        "source_bytes_read": 766792454,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159186",
         "source_bytes_read": 766792454,
         "elapsed_seconds": 42.961,
         "finished_at": "2026-11-18T20:20:13.514986+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159186",
+          "size_bytes": 766792454,
+          "source_bytes_read": 766792454,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35000903",
+        "source_url": "https://sdilej.cz/35000903/bones.-2005-.s07e08.1080p.10bit.web-dl.ac3.x265.hevc-edge2020-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159186",
+        "display_name": "Bones S07E08 The Bump in the Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:20:28.263920+00:00"
       }
     },
     "920:7:9": {
@@ -626299,7 +626300,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:20:23.030206+00:00",
+  "updated_at": "2026-11-18T20:20:28.263942+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
