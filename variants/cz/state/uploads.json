@@ -612410,12 +612410,6 @@
     },
     "2209:4:10": {
       "episode_key": "třetí hlídka:s4:e10",
-      "claim": {
-        "worker_id": "cfd69e7e71d144f3a4f635ccb926809f-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:03:31.611004+00:00",
-        "lease_expires_at": "2026-11-18T22:03:31.611021+00:00"
-      },
       "source": {
         "source_id": "23959322",
         "source_url": "https://sdilej.cz/23959322/treti-hlidka-s04e10-spravedlnost-2.-cast.avi",
@@ -612440,22 +612434,29 @@
         "display_name": "Third Watch S04E10 Crime and Punishment (2) SD CZ Dabing",
         "prepared_at": "2026-11-18T16:03:36.269716+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154971",
-        "size_bytes": 419532800
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154971",
-        "size_bytes": 419532800,
-        "source_bytes_read": 419532800,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154971",
         "source_bytes_read": 419532800,
         "elapsed_seconds": 38.567,
         "finished_at": "2026-11-18T16:04:39.640538+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154971",
+          "size_bytes": 419532800,
+          "source_bytes_read": 419532800,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23959322",
+        "source_url": "https://sdilej.cz/23959322/treti-hlidka-s04e10-spravedlnost-2.-cast.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154971",
+        "display_name": "Third Watch S04E10 Crime and Punishment (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:04:56.526400+00:00"
       }
     },
     "2209:4:15": {
@@ -612538,7 +612539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:04:52.553640+00:00",
+  "updated_at": "2026-11-18T16:04:56.526420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
