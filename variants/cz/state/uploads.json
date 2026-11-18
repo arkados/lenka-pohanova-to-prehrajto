@@ -612614,12 +612614,6 @@
     },
     "2209:5:3": {
       "episode_key": "třetí hlídka:s5:e3",
-      "claim": {
-        "worker_id": "0d1682d534154f5ca5c943f95665faf4-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:06:28.409505+00:00",
-        "lease_expires_at": "2026-11-18T22:06:28.409522+00:00"
-      },
       "source": {
         "source_id": "23973765",
         "source_url": "https://sdilej.cz/23973765/treti-hlidka-s05e03-karantena.avi",
@@ -612644,22 +612638,29 @@
         "display_name": "Third Watch S05E03 Lockdown SD CZ Dabing",
         "prepared_at": "2026-11-18T16:06:46.156899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155016",
-        "size_bytes": 354615296
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155016",
-        "size_bytes": 354615296,
-        "source_bytes_read": 354615296,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155016",
         "source_bytes_read": 354615296,
         "elapsed_seconds": 28.453,
         "finished_at": "2026-11-18T16:07:41.759008+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155016",
+          "size_bytes": 354615296,
+          "source_bytes_read": 354615296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23973765",
+        "source_url": "https://sdilej.cz/23973765/treti-hlidka-s05e03-karantena.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155016",
+        "display_name": "Third Watch S05E03 Lockdown SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:07:52.125970+00:00"
       }
     },
     "2209:6:14": {
@@ -612754,7 +612755,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:07:46.439647+00:00",
+  "updated_at": "2026-11-18T16:07:52.125989+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
