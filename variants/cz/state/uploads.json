@@ -627315,12 +627315,6 @@
     },
     "920:8:17": {
       "episode_key": "sběratelé kostí:s8:e17",
-      "claim": {
-        "worker_id": "754153cb951247fb806fc98e585c0430-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:34:40.484727+00:00",
-        "lease_expires_at": "2026-11-19T02:34:40.484747+00:00"
-      },
       "source": {
         "source_id": "28427189",
         "source_url": "https://sdilej.cz/28427189/sberatele-kosti-08x17.avi",
@@ -627345,22 +627339,29 @@
         "display_name": "Bones S08E17 The Fact in the Fiction SD CZ Dabing",
         "prepared_at": "2026-11-18T20:35:06.699195+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159447",
-        "size_bytes": 362250240
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159447",
-        "size_bytes": 362250240,
-        "source_bytes_read": 362250240,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159447",
         "source_bytes_read": 362250240,
         "elapsed_seconds": 24.088,
         "finished_at": "2026-11-18T20:35:52.649843+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159447",
+          "size_bytes": 362250240,
+          "source_bytes_read": 362250240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28427189",
+        "source_url": "https://sdilej.cz/28427189/sberatele-kosti-08x17.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159447",
+        "display_name": "Bones S08E17 The Fact in the Fiction SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:36:08.535602+00:00"
       }
     },
     "920:8:18": {
@@ -627394,6 +627395,9 @@
         },
         "display_name": "Bones S08E18 The Survivor in the Soap SD CZ Dabing",
         "prepared_at": "2026-11-18T20:35:57.562279+00:00"
+      },
+      "prepared_target": {
+        "creation_intent": true
       }
     }
   },
@@ -627402,7 +627406,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:36:02.850059+00:00",
+  "updated_at": "2026-11-18T20:36:08.535620+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
