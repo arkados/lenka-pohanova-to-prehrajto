@@ -585435,12 +585435,6 @@
     },
     "922:2:2": {
       "episode_key": "kazatel:s2:e2",
-      "claim": {
-        "worker_id": "6e5e82e00e154bb4a0d0d63eb8d02a0a-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:22:42.295098+00:00",
-        "lease_expires_at": "2026-11-18T08:22:42.295111+00:00"
-      },
       "source": {
         "source_id": "32924972",
         "source_url": "https://sdilej.cz/32924972/kazatel-s02e02-mumbai-sky-tower.mkv",
@@ -585465,22 +585459,29 @@
         "display_name": "Preacher S02E02 Mumbai Sky Tower 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:22:46.619577+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137255",
-        "size_bytes": 629606114
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137255",
-        "size_bytes": 629606114,
-        "source_bytes_read": 629606114,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137255",
         "source_bytes_read": 629606114,
         "elapsed_seconds": 42.416,
         "finished_at": "2026-11-18T02:23:48.479326+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137255",
+          "size_bytes": 629606114,
+          "source_bytes_read": 629606114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32924972",
+        "source_url": "https://sdilej.cz/32924972/kazatel-s02e02-mumbai-sky-tower.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137255",
+        "display_name": "Preacher S02E02 Mumbai Sky Tower 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:24:04.633384+00:00"
       }
     },
     "922:2:3": {
@@ -585558,7 +585559,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:24:00.012226+00:00",
+  "updated_at": "2026-11-18T02:24:04.633401+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
