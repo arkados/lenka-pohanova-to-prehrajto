@@ -593722,12 +593722,6 @@
     },
     "1217:2:7": {
       "episode_key": "pustiny:s2:e7",
-      "claim": {
-        "worker_id": "6ac898a5f88741aead7a80c88de5a769-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:04:02.713889+00:00",
-        "lease_expires_at": "2026-11-18T11:04:02.713909+00:00"
-      },
       "source": {
         "source_id": "33184261",
         "source_url": "https://sdilej.cz/33184261/pustiny-into-the-badlands-s02e07-cz-dabing.mkv",
@@ -593752,22 +593746,29 @@
         "display_name": "Into the Badlands S02E07 Black Heart, White Mountain 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:04:12.868204+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141093",
-        "size_bytes": 847236214
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141093",
-        "size_bytes": 847236214,
-        "source_bytes_read": 847236214,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141093",
         "source_bytes_read": 847236214,
         "elapsed_seconds": 117.988,
         "finished_at": "2026-11-18T05:06:40.053213+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141093",
+          "size_bytes": 847236214,
+          "source_bytes_read": 847236214,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33184261",
+        "source_url": "https://sdilej.cz/33184261/pustiny-into-the-badlands-s02e07-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141093",
+        "display_name": "Into the Badlands S02E07 Black Heart, White Mountain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:06:49.984229+00:00"
       }
     },
     "1217:2:8": {
@@ -593887,7 +593888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:06:44.492913+00:00",
+  "updated_at": "2026-11-18T05:06:49.984248+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
