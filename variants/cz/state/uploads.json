@@ -592681,12 +592681,6 @@
     },
     "1275:1:7": {
       "episode_key": "já a robot:s1:e7",
-      "claim": {
-        "worker_id": "eb3216a281634104a5e44a37e6ffbf74-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:37:30.576191+00:00",
-        "lease_expires_at": "2026-11-18T10:37:30.576209+00:00"
-      },
       "source": {
         "source_id": "29486905",
         "source_url": "https://sdilej.cz/29486905/ja-a-robot-s01e07.mp4",
@@ -592711,22 +592705,29 @@
         "display_name": "Almost Human S01E07 Simon Says 1080p CZ Dabing",
         "prepared_at": "2026-11-18T04:37:35.455280+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31140408",
-        "size_bytes": 996268325
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140408",
-        "size_bytes": 996268325,
-        "source_bytes_read": 996268325,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140408",
         "source_bytes_read": 996268325,
         "elapsed_seconds": 89.169,
         "finished_at": "2026-11-18T04:39:25.910702+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140408",
+          "size_bytes": 996268325,
+          "source_bytes_read": 996268325,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29486905",
+        "source_url": "https://sdilej.cz/29486905/ja-a-robot-s01e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140408",
+        "display_name": "Almost Human S01E07 Simon Says 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:39:40.230625+00:00"
       }
     }
   },
@@ -592735,7 +592736,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:39:35.995423+00:00",
+  "updated_at": "2026-11-18T04:39:40.230641+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
