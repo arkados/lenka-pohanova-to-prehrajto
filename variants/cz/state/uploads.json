@@ -601072,12 +601072,6 @@
     },
     "1967:9:4": {
       "episode_key": "vraždy v midsomeru:s9:e4",
-      "claim": {
-        "worker_id": "fe6655ff659b4428856bc208a55e878b-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:53:07.993437+00:00",
-        "lease_expires_at": "2026-11-18T15:53:07.993447+00:00"
-      },
       "source": {
         "source_id": "29262363",
         "source_url": "https://sdilej.cz/29262363/vrazdy-v-midsomeru-s09e04-na-nespravne-stope.mkv",
@@ -601102,22 +601096,29 @@
         "display_name": "Midsomer Murders S09E04 Down Among the Dead Men 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:53:12.802983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31147275",
-        "size_bytes": 2044922060
-      },
-      "transfer_receipt": {
-        "target_video_id": "31147275",
-        "size_bytes": 2044922060,
-        "source_bytes_read": 2044922060,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31147275",
         "source_bytes_read": 2044922060,
         "elapsed_seconds": 308.212,
         "finished_at": "2026-11-18T09:58:38.169226+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31147275",
+          "size_bytes": 2044922060,
+          "source_bytes_read": 2044922060,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29262363",
+        "source_url": "https://sdilej.cz/29262363/vrazdy-v-midsomeru-s09e04-na-nespravne-stope.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31147275",
+        "display_name": "Midsomer Murders S09E04 Down Among the Dead Men 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:58:45.825249+00:00"
       }
     },
     "1967:9:5": {
@@ -601163,7 +601164,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:58:38.169246+00:00",
+  "updated_at": "2026-11-18T09:58:45.825267+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
