@@ -599083,12 +599083,6 @@
     },
     "1169:3:7": {
       "episode_key": "lidé:s3:e7",
-      "claim": {
-        "worker_id": "69d4fc7e0a494a76a137229536bdf024-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T07:42:48.820437+00:00",
-        "lease_expires_at": "2026-11-18T13:42:48.820453+00:00"
-      },
       "source": {
         "source_id": "32932684",
         "source_url": "https://sdilej.cz/32932684/humans-s03e07.mkv",
@@ -599113,22 +599107,29 @@
         "display_name": "Humans S03E07 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:42:57.210049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144390",
-        "size_bytes": 1009580009
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144390",
-        "size_bytes": 1009580009,
-        "source_bytes_read": 1009580009,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144390",
         "source_bytes_read": 1009580009,
         "elapsed_seconds": 347.67,
         "finished_at": "2026-11-18T07:49:10.234240+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144390",
+          "size_bytes": 1009580009,
+          "source_bytes_read": 1009580009,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32932684",
+        "source_url": "https://sdilej.cz/32932684/humans-s03e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144390",
+        "display_name": "Humans S03E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:49:16.764908+00:00"
       }
     },
     "1169:3:8": {
@@ -599211,7 +599212,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:49:10.234260+00:00",
+  "updated_at": "2026-11-18T07:49:16.764931+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
