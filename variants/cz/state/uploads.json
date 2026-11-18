@@ -613634,12 +613634,6 @@
     },
     "58:3:3": {
       "episode_key": "zaklínač:s3:e3",
-      "claim": {
-        "worker_id": "079643716f534636bd7088b92413f1a1-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:31:00.736895+00:00",
-        "lease_expires_at": "2026-11-18T22:31:00.736908+00:00"
-      },
       "source": {
         "source_id": "32452990",
         "source_url": "https://sdilej.cz/32452990/zaklinac-s03e03-zase-spolu.mkv",
@@ -613664,22 +613658,29 @@
         "display_name": "The Witcher S03E03 Reunion 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:31:05.635053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155453",
-        "size_bytes": 2862637992
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155453",
-        "size_bytes": 2862637992,
-        "source_bytes_read": 2862637992,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155453",
         "source_bytes_read": 2862637992,
         "elapsed_seconds": 207.659,
         "finished_at": "2026-11-18T16:35:04.471292+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155453",
+          "size_bytes": 2862637992,
+          "source_bytes_read": 2862637992,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452990",
+        "source_url": "https://sdilej.cz/32452990/zaklinac-s03e03-zase-spolu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155453",
+        "display_name": "The Witcher S03E03 Reunion 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:35:21.172178+00:00"
       }
     },
     "58:3:4": {
@@ -613823,7 +613824,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:35:16.902449+00:00",
+  "updated_at": "2026-11-18T16:35:21.172195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
