@@ -579928,12 +579928,6 @@
     },
     "1098:7:7": {
       "episode_key": "jak prosté:s7:e7",
-      "claim": {
-        "worker_id": "85b9cc5e656c41c79efb2328807f4212-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:16:57.500481+00:00",
-        "lease_expires_at": "2026-11-18T06:16:57.500494+00:00"
-      },
       "source": {
         "source_id": "28202858",
         "source_url": "https://sdilej.cz/28202858/jak-proste-s07e07.mkv",
@@ -579958,22 +579952,29 @@
         "display_name": "Elementary S07E07 From Russia with Drugs 1080p CZ Dabing",
         "prepared_at": "2026-11-18T00:17:06.738023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31134259",
-        "size_bytes": 983283012
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134259",
-        "size_bytes": 983283012,
-        "source_bytes_read": 983283012,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134259",
         "source_bytes_read": 983283012,
         "elapsed_seconds": 62.129,
         "finished_at": "2026-11-18T00:18:34.059980+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134259",
+          "size_bytes": 983283012,
+          "source_bytes_read": 983283012,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202858",
+        "source_url": "https://sdilej.cz/28202858/jak-proste-s07e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134259",
+        "display_name": "Elementary S07E07 From Russia with Drugs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:18:41.844555+00:00"
       }
     },
     "1098:7:8": {
@@ -580056,7 +580057,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:18:34.060011+00:00",
+  "updated_at": "2026-11-18T00:18:41.844572+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
