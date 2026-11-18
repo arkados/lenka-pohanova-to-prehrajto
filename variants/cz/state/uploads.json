@@ -612512,12 +612512,6 @@
     },
     "2209:4:16": {
       "episode_key": "třetí hlídka:s4:e16",
-      "claim": {
-        "worker_id": "6b9d732aaf3a4954ac411c362fb94253-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:04:22.116029+00:00",
-        "lease_expires_at": "2026-11-18T22:04:22.116053+00:00"
-      },
       "source": {
         "source_id": "23959470",
         "source_url": "https://sdilej.cz/23959470/treti-hlidka-s04e16-tisnove-volani.avi",
@@ -612542,22 +612536,29 @@
         "display_name": "Third Watch S04E16 10-13 SD CZ Dabing",
         "prepared_at": "2026-11-18T16:04:31.006164+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154986",
-        "size_bytes": 419512320
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154986",
-        "size_bytes": 419512320,
-        "source_bytes_read": 419512320,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154986",
         "source_bytes_read": 419512320,
         "elapsed_seconds": 29.265,
         "finished_at": "2026-11-18T16:05:34.210097+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154986",
+          "size_bytes": 419512320,
+          "source_bytes_read": 419512320,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23959470",
+        "source_url": "https://sdilej.cz/23959470/treti-hlidka-s04e16-tisnove-volani.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154986",
+        "display_name": "Third Watch S04E16 10-13 SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:05:40.983551+00:00"
       }
     }
   },
@@ -612566,7 +612567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:05:34.210138+00:00",
+  "updated_at": "2026-11-18T16:05:40.983577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
