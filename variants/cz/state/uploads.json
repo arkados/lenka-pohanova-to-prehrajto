@@ -630206,12 +630206,6 @@
     },
     "920:10:21": {
       "episode_key": "sběratelé kostí:s10:e21",
-      "claim": {
-        "worker_id": "bc32771b2440483b90473f321a179d33-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:41:15.117143+00:00",
-        "lease_expires_at": "2026-11-19T03:41:15.117159+00:00"
-      },
       "source": {
         "source_id": "35256890",
         "source_url": "https://sdilej.cz/35256890/sberatele-kosti-s10e21-2015-czdab.1080p-smrt-v-ohni.mkv",
@@ -630236,22 +630230,29 @@
         "display_name": "Bones S10E21 The Life in the Light 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:41:21.392087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160828",
-        "size_bytes": 533370953
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160828",
-        "size_bytes": 533370953,
-        "source_bytes_read": 533370953,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160828",
         "source_bytes_read": 533370953,
         "elapsed_seconds": 27.452,
         "finished_at": "2026-11-18T21:42:12.847639+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160828",
+          "size_bytes": 533370953,
+          "source_bytes_read": 533370953,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256890",
+        "source_url": "https://sdilej.cz/35256890/sberatele-kosti-s10e21-2015-czdab.1080p-smrt-v-ohni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160828",
+        "display_name": "Bones S10E21 The Life in the Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:42:19.277037+00:00"
       }
     },
     "920:10:22": {
@@ -630334,7 +630335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:42:12.847663+00:00",
+  "updated_at": "2026-11-18T21:42:19.277056+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
