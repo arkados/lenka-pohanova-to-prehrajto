@@ -620619,12 +620619,6 @@
     },
     "920:1:2": {
       "episode_key": "sběratelé kostí:s1:e2",
-      "claim": {
-        "worker_id": "1a980620611c49da9e47ffa2efa2e483-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:43:16.627795+00:00",
-        "lease_expires_at": "2026-11-19T00:43:16.627816+00:00"
-      },
       "source": {
         "source_id": "29506800",
         "source_url": "https://sdilej.cz/29506800/sberatele-kosti-01x02.avi",
@@ -620649,22 +620643,29 @@
         "display_name": "Bones S01E02 The Man in the S.U.V. SD CZ Dabing",
         "prepared_at": "2026-11-18T18:43:26.694344+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157510",
-        "size_bytes": 417548288
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157510",
-        "size_bytes": 417548288,
-        "source_bytes_read": 417548288,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157510",
         "source_bytes_read": 417548288,
         "elapsed_seconds": 25.488,
         "finished_at": "2026-11-18T18:44:17.472323+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157510",
+          "size_bytes": 417548288,
+          "source_bytes_read": 417548288,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29506800",
+        "source_url": "https://sdilej.cz/29506800/sberatele-kosti-01x02.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157510",
+        "display_name": "Bones S01E02 The Man in the S.U.V. SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:44:28.323392+00:00"
       }
     },
     "920:1:4": {
@@ -620710,7 +620711,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:44:21.942373+00:00",
+  "updated_at": "2026-11-18T18:44:28.323411+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
