@@ -592130,12 +592130,6 @@
     },
     "1848:1:5": {
       "episode_key": "poloviční chlap:s1:e5",
-      "claim": {
-        "worker_id": "8ca0c7ee0a2141108755e9e2763b55ee-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:23:16.362291+00:00",
-        "lease_expires_at": "2026-11-18T10:23:16.362303+00:00"
-      },
       "source": {
         "source_id": "34390501",
         "source_url": "https://sdilej.cz/34390501/half-man-s01e05-czen-dabing.mp4",
@@ -592160,22 +592154,29 @@
         "display_name": "Half Man S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-18T04:23:21.215427+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31140007",
-        "size_bytes": 829088796
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140007",
-        "size_bytes": 829088796,
-        "source_bytes_read": 829088796,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140007",
         "source_bytes_read": 829088796,
         "elapsed_seconds": 67.186,
         "finished_at": "2026-11-18T04:24:46.347841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140007",
+          "size_bytes": 829088796,
+          "source_bytes_read": 829088796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34390501",
+        "source_url": "https://sdilej.cz/34390501/half-man-s01e05-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140007",
+        "display_name": "Half Man S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:24:53.621340+00:00"
       }
     }
   },
@@ -592184,7 +592185,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:24:46.347864+00:00",
+  "updated_at": "2026-11-18T04:24:53.621358+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
