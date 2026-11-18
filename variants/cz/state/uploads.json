@@ -604999,12 +604999,6 @@
     },
     "576:2:4": {
       "episode_key": "tým seal:s2:e4",
-      "claim": {
-        "worker_id": "24177575ab584b18ad919a6bfe9b9ae5-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:40:56.011299+00:00",
-        "lease_expires_at": "2026-11-18T18:40:56.011317+00:00"
-      },
       "source": {
         "source_id": "29680105",
         "source_url": "https://sdilej.cz/29680105/seal-team-s02e04-1080p-cz-dabing.mkv",
@@ -605029,22 +605023,29 @@
         "display_name": "SEAL Team S02E04 All That Matters 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:41:01.124136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151382",
-        "size_bytes": 854615887
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151382",
-        "size_bytes": 854615887,
-        "source_bytes_read": 854615887,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151382",
         "source_bytes_read": 854615887,
         "elapsed_seconds": 279.903,
         "finished_at": "2026-11-18T12:46:00.076836+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151382",
+          "size_bytes": 854615887,
+          "source_bytes_read": 854615887,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29680105",
+        "source_url": "https://sdilej.cz/29680105/seal-team-s02e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151382",
+        "display_name": "SEAL Team S02E04 All That Matters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:46:06.632779+00:00"
       }
     },
     "576:2:5": {
@@ -605164,7 +605165,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:46:00.076854+00:00",
+  "updated_at": "2026-11-18T12:46:06.632796+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
