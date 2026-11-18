@@ -625587,12 +625587,6 @@
     },
     "920:6:21": {
       "episode_key": "sběratelé kostí:s6:e21",
-      "claim": {
-        "worker_id": "1c5c6425c02e4e83a249535afdd7320b-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:09:15.394820+00:00",
-        "lease_expires_at": "2026-11-19T02:09:15.394838+00:00"
-      },
       "source": {
         "source_id": "35232139",
         "source_url": "https://sdilej.cz/35232139/sberatele-kosti-s06e21-2011-czdab.1080p-znameni-v-tichu.mkv",
@@ -625617,22 +625611,29 @@
         "display_name": "Bones S06E21 The Signs in the Silence 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:09:30.602993+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159018",
-        "size_bytes": 878116835
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159018",
-        "size_bytes": 878116835,
-        "source_bytes_read": 878116835,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159018",
         "source_bytes_read": 878116835,
         "elapsed_seconds": 91.893,
         "finished_at": "2026-11-18T20:11:46.390588+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159018",
+          "size_bytes": 878116835,
+          "source_bytes_read": 878116835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35232139",
+        "source_url": "https://sdilej.cz/35232139/sberatele-kosti-s06e21-2011-czdab.1080p-znameni-v-tichu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159018",
+        "display_name": "Bones S06E21 The Signs in the Silence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:11:56.854487+00:00"
       }
     },
     "920:6:20": {
@@ -625776,7 +625777,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:11:52.069607+00:00",
+  "updated_at": "2026-11-18T20:11:56.854505+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
