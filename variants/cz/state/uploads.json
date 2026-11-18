@@ -588754,12 +588754,6 @@
     },
     "4301:3:3": {
       "episode_key": "4 bloky:s3:e3",
-      "claim": {
-        "worker_id": "bcc9e649ce854f38b16e11417cfa01b4-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:11:20.984251+00:00",
-        "lease_expires_at": "2026-11-18T09:11:20.984264+00:00"
-      },
       "source": {
         "source_id": "15432823",
         "source_url": "https://sdilej.cz/15432823/4.bloky.03x03.hdtv.cz.avi",
@@ -588784,22 +588778,29 @@
         "display_name": "4 Blocks S03E03 Vertrauter Feind SD CZ Dabing",
         "prepared_at": "2026-11-18T03:11:29.625134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138239",
-        "size_bytes": 743504230
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138239",
-        "size_bytes": 743504230,
-        "source_bytes_read": 743504230,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138239",
         "source_bytes_read": 743504230,
         "elapsed_seconds": 42.69,
         "finished_at": "2026-11-18T03:12:33.735089+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138239",
+          "size_bytes": 743504230,
+          "source_bytes_read": 743504230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15432823",
+        "source_url": "https://sdilej.cz/15432823/4.bloky.03x03.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138239",
+        "display_name": "4 Blocks S03E03 Vertrauter Feind SD CZ Dabing",
+        "uploaded_at": "2026-11-18T03:12:41.464130+00:00"
       }
     }
   },
@@ -588808,7 +588809,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:12:33.735117+00:00",
+  "updated_at": "2026-11-18T03:12:41.464147+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
