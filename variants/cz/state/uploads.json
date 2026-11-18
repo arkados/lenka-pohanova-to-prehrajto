@@ -611186,12 +611186,6 @@
     },
     "2209:1:19": {
       "episode_key": "třetí hlídka:s1:e19",
-      "claim": {
-        "worker_id": "6301a3f7369c46b5bddf0b6be20b8a28-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:43:48.587094+00:00",
-        "lease_expires_at": "2026-11-18T21:43:48.587104+00:00"
-      },
       "source": {
         "source_id": "33700642",
         "source_url": "https://sdilej.cz/33700642/treti-hlidka-s01e19-je-tu-jaro-parada-2000-hdtv-1080p-czdab.mkv",
@@ -611216,22 +611210,29 @@
         "display_name": "Third Watch S01E19 Spring Forward, Fall Back 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:44:00.774803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154655",
-        "size_bytes": 1743658326
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154655",
-        "size_bytes": 1743658326,
-        "source_bytes_read": 1743658326,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154655",
         "source_bytes_read": 1743658326,
         "elapsed_seconds": 166.276,
         "finished_at": "2026-11-18T15:47:08.435461+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154655",
+          "size_bytes": 1743658326,
+          "source_bytes_read": 1743658326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33700642",
+        "source_url": "https://sdilej.cz/33700642/treti-hlidka-s01e19-je-tu-jaro-parada-2000-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154655",
+        "display_name": "Third Watch S01E19 Spring Forward, Fall Back 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:47:22.495595+00:00"
       }
     },
     "2209:1:20": {
@@ -611361,7 +611362,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:47:18.471889+00:00",
+  "updated_at": "2026-11-18T15:47:22.495616+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
