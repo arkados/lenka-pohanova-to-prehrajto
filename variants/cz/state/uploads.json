@@ -602091,12 +602091,6 @@
     },
     "1967:22:1": {
       "episode_key": "vraždy v midsomeru:s22:e1",
-      "claim": {
-        "worker_id": "672d85ea5d48421e809290f4955869b5-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T10:53:36.452778+00:00",
-        "lease_expires_at": "2026-11-18T16:53:36.452789+00:00"
-      },
       "source": {
         "source_id": "34192475",
         "source_url": "https://sdilej.cz/34192475/vrazdy-v-midsomeru-s22e01-06-2021-cz-dab-1080p-vlci-lovec-z-little-worthy.mp4",
@@ -602121,22 +602115,29 @@
         "display_name": "Midsomer Murders S22E01 The Wolf Hunter of Little Worthy 1080p CZ Dabing",
         "prepared_at": "2026-11-18T10:53:41.311994+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31149200",
-        "size_bytes": 2169401296
-      },
-      "transfer_receipt": {
-        "target_video_id": "31149200",
-        "size_bytes": 2169401296,
-        "source_bytes_read": 2169401296,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31149200",
         "source_bytes_read": 2169401296,
         "elapsed_seconds": 514.297,
         "finished_at": "2026-11-18T11:02:32.686472+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31149200",
+          "size_bytes": 2169401296,
+          "source_bytes_read": 2169401296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192475",
+        "source_url": "https://sdilej.cz/34192475/vrazdy-v-midsomeru-s22e01-06-2021-cz-dab-1080p-vlci-lovec-z-little-worthy.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31149200",
+        "display_name": "Midsomer Murders S22E01 The Wolf Hunter of Little Worthy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:02:44.609545+00:00"
       }
     },
     "1967:22:2": {
@@ -602182,7 +602183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:02:36.767185+00:00",
+  "updated_at": "2026-11-18T11:02:44.609561+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
