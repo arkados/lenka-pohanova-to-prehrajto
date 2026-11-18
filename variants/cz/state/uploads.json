@@ -580892,12 +580892,6 @@
     },
     "581:3:4": {
       "episode_key": "král tulsy:s3:e4",
-      "claim": {
-        "worker_id": "6d377356e71a4f1892ef178ce91ed085-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T00:47:45.624171+00:00",
-        "lease_expires_at": "2026-11-18T06:47:45.624187+00:00"
-      },
       "source": {
         "source_id": "34347086",
         "source_url": "https://sdilej.cz/34347086/kral-tulsy-s03e04-zirani-dolu-do-hlavne-cz-dabing-2160p-uhd.mkv",
@@ -580921,7 +580915,17 @@
         },
         "display_name": "Tulsa King S03E04 Staring Down the Barrel 4K CZ Dabing",
         "prepared_at": "2026-11-18T00:47:50.377597+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34347086:https://sdilej.cz/34347086/kral-tulsy-s03e04-zirani-dolu-do-hlavne-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-18T00:48:02.890915+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T00:48:02.890982+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -580929,7 +580933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:47:50.377617+00:00",
+  "updated_at": "2026-11-18T00:48:02.890987+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -581343,9 +581347,13 @@
         {
           "identity": "581:2:9",
           "at": "2026-11-18T00:47:35.396120+00:00"
+        },
+        {
+          "identity": "581:3:4",
+          "at": "2026-11-18T00:48:02.890915+00:00"
         }
       ],
-      "retry_after": "2026-11-18T00:38:54.228604+00:00"
+      "retry_after": "2026-11-18T00:58:02.890915+00:00"
     }
   }
 }
