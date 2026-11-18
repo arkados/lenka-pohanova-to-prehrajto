@@ -626863,12 +626863,6 @@
     },
     "920:8:8": {
       "episode_key": "sběratelé kostí:s8:e8",
-      "claim": {
-        "worker_id": "2b760e1416724a8e9d228623b76ed2be-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:27:59.504061+00:00",
-        "lease_expires_at": "2026-11-19T02:27:59.504080+00:00"
-      },
       "source": {
         "source_id": "8212861",
         "source_url": "https://sdilej.cz/8212861/bones-sberatele-kosti-s08e08-czdab.avi",
@@ -626893,22 +626887,29 @@
         "display_name": "Bones S08E08 The But in the Joke SD CZ Dabing",
         "prepared_at": "2026-11-18T20:28:10.322891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159363",
-        "size_bytes": 405076328
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159363",
-        "size_bytes": 405076328,
-        "source_bytes_read": 405076328,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159363",
         "source_bytes_read": 405076328,
         "elapsed_seconds": 20.006,
         "finished_at": "2026-11-18T20:28:58.572094+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159363",
+          "size_bytes": 405076328,
+          "source_bytes_read": 405076328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8212861",
+        "source_url": "https://sdilej.cz/8212861/bones-sberatele-kosti-s08e08-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159363",
+        "display_name": "Bones S08E08 The But in the Joke SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:29:12.931523+00:00"
       }
     }
   },
@@ -626917,7 +626918,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:29:08.661344+00:00",
+  "updated_at": "2026-11-18T20:29:12.931542+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
