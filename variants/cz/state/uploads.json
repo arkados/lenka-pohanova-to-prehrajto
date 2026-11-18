@@ -596258,12 +596258,6 @@
     },
     "315:2:6": {
       "episode_key": "ted:s2:e6",
-      "claim": {
-        "worker_id": "63fcd37384534384a4aa78d79078bc72-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:16:19.383477+00:00",
-        "lease_expires_at": "2026-11-18T12:16:19.383490+00:00"
-      },
       "source": {
         "source_id": "34085035",
         "source_url": "https://sdilej.cz/34085035/ted-s02e06-roe-v.-weed.mkv",
@@ -596288,22 +596282,29 @@
         "display_name": "ted S02E06 Roe v. Weed 4K CZ Dabing",
         "prepared_at": "2026-11-18T06:16:25.091241+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142555",
-        "size_bytes": 1432306335
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142555",
-        "size_bytes": 1432306335,
-        "source_bytes_read": 1432306335,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142555",
         "source_bytes_read": 1432306335,
         "elapsed_seconds": 499.298,
         "finished_at": "2026-11-18T06:25:04.804778+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142555",
+          "size_bytes": 1432306335,
+          "source_bytes_read": 1432306335,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34085035",
+        "source_url": "https://sdilej.cz/34085035/ted-s02e06-roe-v.-weed.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142555",
+        "display_name": "ted S02E06 Roe v. Weed 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T06:25:11.258807+00:00"
       }
     },
     "315:2:7": {
@@ -596386,7 +596387,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:25:04.804799+00:00",
+  "updated_at": "2026-11-18T06:25:11.258822+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
