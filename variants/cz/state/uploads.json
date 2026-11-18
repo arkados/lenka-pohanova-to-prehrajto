@@ -617984,12 +617984,6 @@
     },
     "1117:2:20": {
       "episode_key": "nová holka:s2:e20",
-      "claim": {
-        "worker_id": "32c4568e94ba414abd5c279a8ffb21b7-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:06:10.376228+00:00",
-        "lease_expires_at": "2026-11-19T00:06:10.376247+00:00"
-      },
       "source": {
         "source_id": "33299657",
         "source_url": "https://sdilej.cz/33299657/nova-holka-s02e20-new-girl-dvdrip-czdabing.avi",
@@ -618014,22 +618008,29 @@
         "display_name": "New Girl S02E20 Chicago SD CZ Dabing",
         "prepared_at": "2026-11-18T18:06:23.763683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156905",
-        "size_bytes": 188139520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156905",
-        "size_bytes": 188139520,
-        "source_bytes_read": 188139520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156905",
         "source_bytes_read": 188139520,
         "elapsed_seconds": 14.471,
         "finished_at": "2026-11-18T18:07:11.979923+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156905",
+          "size_bytes": 188139520,
+          "source_bytes_read": 188139520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33299657",
+        "source_url": "https://sdilej.cz/33299657/nova-holka-s02e20-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156905",
+        "display_name": "New Girl S02E20 Chicago SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:07:22.693453+00:00"
       }
     }
   },
@@ -618038,7 +618039,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:07:18.127452+00:00",
+  "updated_at": "2026-11-18T18:07:22.693471+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
