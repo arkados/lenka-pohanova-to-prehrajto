@@ -603622,12 +603622,6 @@
     },
     "2542:8:1": {
       "episode_key": "inspektor george gently:s8:e1",
-      "claim": {
-        "worker_id": "11bd8bd6be18429f9ea7f87667276d42-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:07:56.538626+00:00",
-        "lease_expires_at": "2026-11-18T18:07:56.538645+00:00"
-      },
       "source": {
         "source_id": "17334962",
         "source_url": "https://sdilej.cz/17334962/inspektor.george.gently.08x01.1080i.hevc.hdtv.cz.mkv",
@@ -603652,22 +603646,29 @@
         "display_name": "Inspector George Gently S08E01 Gently Liberated 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:08:01.226105+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150732",
-        "size_bytes": 1068843936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150732",
-        "size_bytes": 1068843936,
-        "source_bytes_read": 1068843936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150732",
         "source_bytes_read": 1068843936,
         "elapsed_seconds": 243.649,
         "finished_at": "2026-11-18T12:12:32.679798+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150732",
+          "size_bytes": 1068843936,
+          "source_bytes_read": 1068843936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17334962",
+        "source_url": "https://sdilej.cz/17334962/inspektor.george.gently.08x01.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150732",
+        "display_name": "Inspector George Gently S08E01 Gently Liberated 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:12:40.223006+00:00"
       }
     },
     "2542:8:2": {
@@ -603852,7 +603853,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:12:32.679817+00:00",
+  "updated_at": "2026-11-18T12:12:40.223025+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
