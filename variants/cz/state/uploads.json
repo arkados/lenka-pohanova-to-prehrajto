@@ -586535,12 +586535,6 @@
     },
     "922:2:11": {
       "episode_key": "kazatel:s2:e11",
-      "claim": {
-        "worker_id": "3c1f82c48d134b67bc73365687324655-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:41:20.743173+00:00",
-        "lease_expires_at": "2026-11-18T08:41:20.743185+00:00"
-      },
       "source": {
         "source_id": "32925193",
         "source_url": "https://sdilej.cz/32925193/kazatel-s02e11-backdoors.mkv",
@@ -586565,22 +586559,29 @@
         "display_name": "Preacher S02E11 Backdoors 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:41:25.347367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137579",
-        "size_bytes": 659123172
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137579",
-        "size_bytes": 659123172,
-        "source_bytes_read": 659123172,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137579",
         "source_bytes_read": 659123172,
         "elapsed_seconds": 38.547,
         "finished_at": "2026-11-18T02:42:19.779627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137579",
+          "size_bytes": 659123172,
+          "source_bytes_read": 659123172,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32925193",
+        "source_url": "https://sdilej.cz/32925193/kazatel-s02e11-backdoors.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137579",
+        "display_name": "Preacher S02E11 Backdoors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:42:25.150817+00:00"
       }
     }
   },
@@ -586589,7 +586590,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:42:19.779647+00:00",
+  "updated_at": "2026-11-18T02:42:25.150837+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
