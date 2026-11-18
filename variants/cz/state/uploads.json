@@ -580070,28 +580070,29 @@
           "at": "2026-11-18T00:21:10.453796+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "abd0b6e6f5284a4a858232ef8ea6e98c-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:21:15.083391+00:00",
-        "lease_expires_at": "2026-11-18T06:21:15.083408+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31134392",
-        "size_bytes": 979600138
-      },
-      "transfer_receipt": {
-        "target_video_id": "31134392",
-        "size_bytes": 979600138,
-        "source_bytes_read": 979600138,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31134392",
         "source_bytes_read": 979600138,
         "elapsed_seconds": 131.15,
         "finished_at": "2026-11-18T00:24:06.323086+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31134392",
+          "size_bytes": 979600138,
+          "source_bytes_read": 979600138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431704",
+        "source_url": "https://sdilej.cz/34431704/elementary.s07e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31134392",
+        "display_name": "Elementary S07E09 On the Scent 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:24:12.144087+00:00"
       }
     },
     "1098:7:10": {
@@ -580276,7 +580277,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:24:06.323106+00:00",
+  "updated_at": "2026-11-18T00:24:12.144104+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
