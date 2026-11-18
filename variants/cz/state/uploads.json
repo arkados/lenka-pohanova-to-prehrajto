@@ -619340,12 +619340,6 @@
     },
     "1117:5:6": {
       "episode_key": "nová holka:s5:e6",
-      "claim": {
-        "worker_id": "6cd2c59442e14f9ba3d2c3b4daa78c0a-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:25:48.529141+00:00",
-        "lease_expires_at": "2026-11-19T00:25:48.529158+00:00"
-      },
       "source": {
         "source_id": "24225568",
         "source_url": "https://sdilej.cz/24225568/nova-holka-05x06.avi",
@@ -619370,22 +619364,29 @@
         "display_name": "New Girl S05E06 Reagan SD CZ Dabing",
         "prepared_at": "2026-11-18T18:25:53.645439+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157187",
-        "size_bytes": 305580032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157187",
-        "size_bytes": 305580032,
-        "source_bytes_read": 305580032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157187",
         "source_bytes_read": 305580032,
         "elapsed_seconds": 18.615,
         "finished_at": "2026-11-18T18:26:34.875562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157187",
+          "size_bytes": 305580032,
+          "source_bytes_read": 305580032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24225568",
+        "source_url": "https://sdilej.cz/24225568/nova-holka-05x06.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157187",
+        "display_name": "New Girl S05E06 Reagan SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:26:43.893213+00:00"
       }
     }
   },
@@ -619394,7 +619395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:26:39.249123+00:00",
+  "updated_at": "2026-11-18T18:26:43.893230+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
