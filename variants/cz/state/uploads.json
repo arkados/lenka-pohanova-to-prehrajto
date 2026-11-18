@@ -611376,12 +611376,6 @@
     },
     "2209:2:1": {
       "episode_key": "třetí hlídka:s2:e1",
-      "claim": {
-        "worker_id": "9589ec5a36234fa191e40e42f001979f-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:47:38.971319+00:00",
-        "lease_expires_at": "2026-11-18T21:47:38.971334+00:00"
-      },
       "source": {
         "source_id": "31587110",
         "source_url": "https://sdilej.cz/31587110/treti-hlidka-s02e01-podzemi-2000-czdab-h264.mkv",
@@ -611406,22 +611400,29 @@
         "display_name": "Third Watch S02E01 The Lost 720p CZ Dabing",
         "prepared_at": "2026-11-18T15:47:44.031262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154721",
-        "size_bytes": 929308603
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154721",
-        "size_bytes": 929308603,
-        "source_bytes_read": 929308603,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154721",
         "source_bytes_read": 929308603,
         "elapsed_seconds": 51.44,
         "finished_at": "2026-11-18T15:48:55.855959+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154721",
+          "size_bytes": 929308603,
+          "source_bytes_read": 929308603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31587110",
+        "source_url": "https://sdilej.cz/31587110/treti-hlidka-s02e01-podzemi-2000-czdab-h264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154721",
+        "display_name": "Third Watch S02E01 The Lost 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:49:03.793993+00:00"
       }
     }
   },
@@ -611430,7 +611431,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:48:55.855980+00:00",
+  "updated_at": "2026-11-18T15:49:03.794012+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
