@@ -612104,12 +612104,6 @@
     },
     "2209:3:17": {
       "episode_key": "třetí hlídka:s3:e17",
-      "claim": {
-        "worker_id": "dc9f7ed75b8e4316a60a616ac1602f48-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:00:12.879562+00:00",
-        "lease_expires_at": "2026-11-18T22:00:12.879580+00:00"
-      },
       "source": {
         "source_id": "23852557",
         "source_url": "https://sdilej.cz/23852557/treti-hlidka-s03e17-utek.avi",
@@ -612134,22 +612128,29 @@
         "display_name": "Third Watch S03E17 The Unforgiven SD CZ Dabing",
         "prepared_at": "2026-11-18T16:00:27.315316+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154920",
-        "size_bytes": 419584000
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154920",
-        "size_bytes": 419584000,
-        "source_bytes_read": 419584000,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154920",
         "source_bytes_read": 419584000,
         "elapsed_seconds": 30.016,
         "finished_at": "2026-11-18T16:01:26.392242+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154920",
+          "size_bytes": 419584000,
+          "source_bytes_read": 419584000,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23852557",
+        "source_url": "https://sdilej.cz/23852557/treti-hlidka-s03e17-utek.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154920",
+        "display_name": "Third Watch S03E17 The Unforgiven SD CZ Dabing",
+        "uploaded_at": "2026-11-18T16:01:41.452091+00:00"
       }
     },
     "2209:3:18": {
@@ -612222,7 +612223,8 @@
         "prepared_at": "2026-11-18T16:01:16.740629+00:00"
       },
       "prepared_target": {
-        "creation_intent": true
+        "target_video_id": "31154929",
+        "size_bytes": 419606528
       }
     }
   },
@@ -612231,7 +612233,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:01:34.514011+00:00",
+  "updated_at": "2026-11-18T16:01:41.452112+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
