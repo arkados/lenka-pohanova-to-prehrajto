@@ -625244,12 +625244,6 @@
     },
     "920:6:7": {
       "episode_key": "sběratelé kostí:s6:e7",
-      "claim": {
-        "worker_id": "e1f7a2d41509488897d65e51848288a9-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:59:20.203593+00:00",
-        "lease_expires_at": "2026-11-19T01:59:20.203613+00:00"
-      },
       "source": {
         "source_id": "35231407",
         "source_url": "https://sdilej.cz/35231407/sberatele-kosti-s06e07-2010-czdab.1080p-kraska-v-cokolade.mkv",
@@ -625274,22 +625268,29 @@
         "display_name": "Bones S06E07 The Babe in the Bar 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:00:32.409739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158915",
-        "size_bytes": 1176503525
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158915",
-        "size_bytes": 1176503525,
-        "source_bytes_read": 1176503525,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158915",
         "source_bytes_read": 1176503525,
         "elapsed_seconds": 87.669,
         "finished_at": "2026-11-18T20:02:36.045075+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158915",
+          "size_bytes": 1176503525,
+          "source_bytes_read": 1176503525,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35231407",
+        "source_url": "https://sdilej.cz/35231407/sberatele-kosti-s06e07-2010-czdab.1080p-kraska-v-cokolade.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158915",
+        "display_name": "Bones S06E07 The Babe in the Bar 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:02:45.347670+00:00"
       }
     },
     "920:6:5": {
@@ -625442,7 +625443,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:02:40.375154+00:00",
+  "updated_at": "2026-11-18T20:02:45.347697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
