@@ -626908,12 +626908,6 @@
     },
     "920:8:9": {
       "episode_key": "sběratelé kostí:s8:e9",
-      "claim": {
-        "worker_id": "8511df42978441b8bb2bfa0aa8265e46-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:29:28.367414+00:00",
-        "lease_expires_at": "2026-11-19T02:29:28.367431+00:00"
-      },
       "source": {
         "source_id": "31064210",
         "source_url": "https://sdilej.cz/31064210/sberatele-kosti-08x09.avi",
@@ -626938,22 +626932,29 @@
         "display_name": "Bones S08E09 The Ghost in the Machine SD CZ Dabing",
         "prepared_at": "2026-11-18T20:29:48.349606+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159381",
-        "size_bytes": 587972542
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159381",
-        "size_bytes": 587972542,
-        "source_bytes_read": 587972542,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159381",
         "source_bytes_read": 587972542,
         "elapsed_seconds": 52.894,
         "finished_at": "2026-11-18T20:31:17.925113+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159381",
+          "size_bytes": 587972542,
+          "source_bytes_read": 587972542,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31064210",
+        "source_url": "https://sdilej.cz/31064210/sberatele-kosti-08x09.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159381",
+        "display_name": "Bones S08E09 The Ghost in the Machine SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:31:29.060937+00:00"
       }
     },
     "920:8:10": {
@@ -627086,7 +627087,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:31:22.635555+00:00",
+  "updated_at": "2026-11-18T20:31:29.060956+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
