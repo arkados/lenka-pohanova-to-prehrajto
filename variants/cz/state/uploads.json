@@ -625777,12 +625777,6 @@
     },
     "920:7:1": {
       "episode_key": "sběratelé kostí:s7:e1",
-      "claim": {
-        "worker_id": "4ba7fbf7f4864305bb9f41b5868f4a34-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:12:01.634705+00:00",
-        "lease_expires_at": "2026-11-19T02:12:01.634721+00:00"
-      },
       "source": {
         "source_id": "30995351",
         "source_url": "https://sdilej.cz/30995351/sberatele-kosti-s07e01-cz-dabing-1080p.mkv",
@@ -625807,22 +625801,29 @@
         "display_name": "Bones S07E01 The Memories in the Shallow Grave 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:12:11.860439+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159062",
-        "size_bytes": 730254295
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159062",
-        "size_bytes": 730254295,
-        "source_bytes_read": 730254295,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159062",
         "source_bytes_read": 730254295,
         "elapsed_seconds": 48.173,
         "finished_at": "2026-11-18T20:13:30.548809+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159062",
+          "size_bytes": 730254295,
+          "source_bytes_read": 730254295,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30995351",
+        "source_url": "https://sdilej.cz/30995351/sberatele-kosti-s07e01-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159062",
+        "display_name": "Bones S07E01 The Memories in the Shallow Grave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:13:37.536935+00:00"
       }
     },
     "920:7:2": {
@@ -625882,7 +625883,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:13:30.548838+00:00",
+  "updated_at": "2026-11-18T20:13:37.536954+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
