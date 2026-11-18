@@ -632529,12 +632529,6 @@
     },
     "1405:1:11": {
       "episode_key": "námořní vyšetřovací služba:s1:e11",
-      "claim": {
-        "worker_id": "55600549bf1d469fa98199fe4bb0c638-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T22:34:20.014499+00:00",
-        "lease_expires_at": "2026-11-19T04:34:20.014507+00:00"
-      },
       "source": {
         "source_id": "33959398",
         "source_url": "https://sdilej.cz/33959398/ncis-s01e11-cz.mp4",
@@ -632559,22 +632553,29 @@
         "display_name": "NCIS S01E11 Eye Spy 1440p CZ Dabing",
         "prepared_at": "2026-11-18T22:34:25.026713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31161759",
-        "size_bytes": 2846119150
-      },
-      "transfer_receipt": {
-        "target_video_id": "31161759",
-        "size_bytes": 2846119150,
-        "source_bytes_read": 2846119150,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31161759",
         "source_bytes_read": 2846119150,
         "elapsed_seconds": 152.217,
         "finished_at": "2026-11-18T22:37:14.823972+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31161759",
+          "size_bytes": 2846119150,
+          "source_bytes_read": 2846119150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33959398",
+        "source_url": "https://sdilej.cz/33959398/ncis-s01e11-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31161759",
+        "display_name": "NCIS S01E11 Eye Spy 1440p CZ Dabing",
+        "uploaded_at": "2026-11-18T22:37:25.825867+00:00"
       }
     }
   },
@@ -632583,7 +632584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T22:37:20.012348+00:00",
+  "updated_at": "2026-11-18T22:37:25.825883+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
