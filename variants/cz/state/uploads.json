@@ -628598,12 +628598,6 @@
     },
     "920:9:17": {
       "episode_key": "sběratelé kostí:s9:e17",
-      "claim": {
-        "worker_id": "98f467518b2a41158749645f3af4fedc-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:14:04.017823+00:00",
-        "lease_expires_at": "2026-11-19T03:14:04.017847+00:00"
-      },
       "source": {
         "source_id": "35256650",
         "source_url": "https://sdilej.cz/35256650/sberatele-kosti-s09e17-2014-czdab.1080p-konec-vymahace.mkv",
@@ -628628,22 +628622,29 @@
         "display_name": "Bones S09E17 The Repo Man in the Septic Tank 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:14:19.305268+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160135",
-        "size_bytes": 531794237
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160135",
-        "size_bytes": 531794237,
-        "source_bytes_read": 531794237,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160135",
         "source_bytes_read": 531794237,
         "elapsed_seconds": 29.181,
         "finished_at": "2026-11-18T21:15:15.574950+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160135",
+          "size_bytes": 531794237,
+          "source_bytes_read": 531794237,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256650",
+        "source_url": "https://sdilej.cz/35256650/sberatele-kosti-s09e17-2014-czdab.1080p-konec-vymahace.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160135",
+        "display_name": "Bones S09E17 The Repo Man in the Septic Tank 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:15:30.144842+00:00"
       }
     }
   },
@@ -628652,7 +628653,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:15:22.533329+00:00",
+  "updated_at": "2026-11-18T21:15:30.144860+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
