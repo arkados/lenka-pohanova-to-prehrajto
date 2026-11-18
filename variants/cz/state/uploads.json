@@ -592087,12 +592087,6 @@
     },
     "2042:1:8": {
       "episode_key": "vlast:s1:e8",
-      "claim": {
-        "worker_id": "20d3977b12b44e9ab248b51da27fb96e-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:21:31.176388+00:00",
-        "lease_expires_at": "2026-11-18T10:21:31.176400+00:00"
-      },
       "source": {
         "source_id": "14614649",
         "source_url": "https://sdilej.cz/14614649/vlast.01x08.1080i.hdtv.cz.mkv",
@@ -592117,22 +592111,29 @@
         "display_name": "Patria S01E08 Mañana de domingo 1080p CZ Dabing",
         "prepared_at": "2026-11-18T04:21:36.262924+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31139943",
-        "size_bytes": 3355325126
-      },
-      "transfer_receipt": {
-        "target_video_id": "31139943",
-        "size_bytes": 3355325126,
-        "source_bytes_read": 3355325126,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31139943",
         "source_bytes_read": 3355325126,
         "elapsed_seconds": 438.549,
         "finished_at": "2026-11-18T04:29:20.952086+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31139943",
+          "size_bytes": 3355325126,
+          "source_bytes_read": 3355325126,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14614649",
+        "source_url": "https://sdilej.cz/14614649/vlast.01x08.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31139943",
+        "display_name": "Patria S01E08 Mañana de domingo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:29:35.470781+00:00"
       }
     },
     "1848:1:2": {
@@ -592354,7 +592355,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:29:28.732975+00:00",
+  "updated_at": "2026-11-18T04:29:35.470803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
