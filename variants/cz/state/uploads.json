@@ -619289,12 +619289,6 @@
     },
     "1117:5:5": {
       "episode_key": "nová holka:s5:e5",
-      "claim": {
-        "worker_id": "13e270519a884bb79fd73065095b653e-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:24:30.673082+00:00",
-        "lease_expires_at": "2026-11-19T00:24:30.673101+00:00"
-      },
       "source": {
         "source_id": "7992777",
         "source_url": "https://sdilej.cz/7992777/nova.holka.05x05.dvb-t.cz.avi",
@@ -619319,22 +619313,29 @@
         "display_name": "New Girl S05E05 Bob & Carol & Nick & Schmidt SD CZ Dabing",
         "prepared_at": "2026-11-18T18:24:40.504748+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157177",
-        "size_bytes": 333062826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157177",
-        "size_bytes": 333062826,
-        "source_bytes_read": 333062826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157177",
         "source_bytes_read": 333062826,
         "elapsed_seconds": 23.539,
         "finished_at": "2026-11-18T18:25:26.382357+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157177",
+          "size_bytes": 333062826,
+          "source_bytes_read": 333062826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992777",
+        "source_url": "https://sdilej.cz/7992777/nova.holka.05x05.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157177",
+        "display_name": "New Girl S05E05 Bob & Carol & Nick & Schmidt SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:25:33.172906+00:00"
       }
     }
   },
@@ -619343,7 +619344,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:25:26.382395+00:00",
+  "updated_at": "2026-11-18T18:25:33.172923+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
