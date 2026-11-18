@@ -584468,12 +584468,6 @@
     },
     "922:1:5": {
       "episode_key": "kazatel:s1:e5",
-      "claim": {
-        "worker_id": "f09a4198f7fe4df0b5a337c6e7682fcc-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:08:20.475085+00:00",
-        "lease_expires_at": "2026-11-18T08:08:20.475098+00:00"
-      },
       "source": {
         "source_id": "6145482",
         "source_url": "https://sdilej.cz/6145482/preacher.s01e05.1080p.web-dl.6ch.x265.hevc-psa-czaudio-.mkv",
@@ -584498,22 +584492,29 @@
         "display_name": "Preacher S01E05 South Will Rise Again 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:08:27.052200+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31136975",
-        "size_bytes": 565524465
-      },
-      "transfer_receipt": {
-        "target_video_id": "31136975",
-        "size_bytes": 565524465,
-        "source_bytes_read": 565524465,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31136975",
         "source_bytes_read": 565524465,
         "elapsed_seconds": 41.712,
         "finished_at": "2026-11-18T02:09:26.926042+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31136975",
+          "size_bytes": 565524465,
+          "source_bytes_read": 565524465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6145482",
+        "source_url": "https://sdilej.cz/6145482/preacher.s01e05.1080p.web-dl.6ch.x265.hevc-psa-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31136975",
+        "display_name": "Preacher S01E05 South Will Rise Again 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:09:36.882998+00:00"
       }
     },
     "922:1:6": {
@@ -584592,7 +584593,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:09:31.548735+00:00",
+  "updated_at": "2026-11-18T02:09:36.883016+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
