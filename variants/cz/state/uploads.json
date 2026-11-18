@@ -589836,12 +589836,6 @@
     },
     "1765:1:9": {
       "episode_key": "záchranáři l. a.:s1:e9",
-      "claim": {
-        "worker_id": "f67019c565954b6b8af9a3ba78900a5b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:43:52.120193+00:00",
-        "lease_expires_at": "2026-11-18T09:43:52.120211+00:00"
-      },
       "source": {
         "source_id": "34814785",
         "source_url": "https://sdilej.cz/34814785/zachranari-l.-a-s01e09-10-2018-cz-dabing-1080p-fhd-v-pasti.mkv",
@@ -589866,22 +589860,29 @@
         "display_name": "9-1-1 S01E09 Trapped 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:44:01.539356+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138817",
-        "size_bytes": 1914064309
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138817",
-        "size_bytes": 1914064309,
-        "source_bytes_read": 1914064309,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138817",
         "source_bytes_read": 1914064309,
         "elapsed_seconds": 332.337,
         "finished_at": "2026-11-18T03:49:54.263485+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138817",
+          "size_bytes": 1914064309,
+          "source_bytes_read": 1914064309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34814785",
+        "source_url": "https://sdilej.cz/34814785/zachranari-l.-a-s01e09-10-2018-cz-dabing-1080p-fhd-v-pasti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138817",
+        "display_name": "9-1-1 S01E09 Trapped 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:50:02.051629+00:00"
       }
     },
     "1765:3:1": {
@@ -590163,7 +590164,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:49:54.263503+00:00",
+  "updated_at": "2026-11-18T03:50:02.051650+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
