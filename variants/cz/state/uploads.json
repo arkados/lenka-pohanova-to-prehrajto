@@ -595254,28 +595254,29 @@
           "at": "2026-11-18T05:45:44.990688+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e80cd3c11cec408a8c0d8fc1de925b18-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:45:49.500066+00:00",
-        "lease_expires_at": "2026-11-18T11:45:49.500086+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31141907",
-        "size_bytes": 5110673721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141907",
-        "size_bytes": 5110673721,
-        "source_bytes_read": 5110673721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141907",
         "source_bytes_read": 5110673721,
         "elapsed_seconds": 934.826,
         "finished_at": "2026-11-18T06:02:01.182413+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141907",
+          "size_bytes": 5110673721,
+          "source_bytes_read": 5110673721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12619412",
+        "source_url": "https://sdilej.cz/12619412/hledani.aljasky.01x03.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141907",
+        "display_name": "Looking for Alaska S01E03 “I've Never Felt Better…” 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T06:02:16.423397+00:00"
       }
     },
     "4870:1:4": {
@@ -595707,7 +595708,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:02:12.427549+00:00",
+  "updated_at": "2026-11-18T06:02:16.423412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
