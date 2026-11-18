@@ -594310,12 +594310,6 @@
     },
     "1217:3:8": {
       "episode_key": "pustiny:s3:e8",
-      "claim": {
-        "worker_id": "68bc523f0d4b4d8eb3f4244689df62f4-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:14:50.532303+00:00",
-        "lease_expires_at": "2026-11-18T11:14:50.532314+00:00"
-      },
       "source": {
         "source_id": "30660634",
         "source_url": "https://sdilej.cz/30660634/pustiny-into-the-badlands-s03e08.cz.mkv",
@@ -594340,22 +594334,29 @@
         "display_name": "Into the Badlands S03E08 Leopard Catches Cloud 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:14:55.284182+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141318",
-        "size_bytes": 889848963
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141318",
-        "size_bytes": 889848963,
-        "source_bytes_read": 889848963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141318",
         "source_bytes_read": 889848963,
         "elapsed_seconds": 82.449,
         "finished_at": "2026-11-18T05:16:38.792178+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141318",
+          "size_bytes": 889848963,
+          "source_bytes_read": 889848963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660634",
+        "source_url": "https://sdilej.cz/30660634/pustiny-into-the-badlands-s03e08.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141318",
+        "display_name": "Into the Badlands S03E08 Leopard Catches Cloud 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:16:46.182021+00:00"
       }
     },
     "1217:3:9": {
@@ -594401,7 +594402,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:16:38.792197+00:00",
+  "updated_at": "2026-11-18T05:16:46.182038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
