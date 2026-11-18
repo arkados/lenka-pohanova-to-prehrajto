@@ -623224,12 +623224,6 @@
     },
     "920:3:13": {
       "episode_key": "sběratelé kostí:s3:e13",
-      "claim": {
-        "worker_id": "a36188d87a8c44cf82d9ca902205a715-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:23:36.532563+00:00",
-        "lease_expires_at": "2026-11-19T01:23:36.532580+00:00"
-      },
       "source": {
         "source_id": "35211952",
         "source_url": "https://sdilej.cz/35211952/sberatele-kosti-s03e13-2008-czdab.1080p-rozsudek.mkv",
@@ -623254,22 +623248,29 @@
         "display_name": "Bones S03E13 The Verdict in the Story 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:23:41.976749+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158298",
-        "size_bytes": 835196125
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158298",
-        "size_bytes": 835196125,
-        "source_bytes_read": 835196125,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158298",
         "source_bytes_read": 835196125,
         "elapsed_seconds": 64.769,
         "finished_at": "2026-11-18T19:25:07.994434+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158298",
+          "size_bytes": 835196125,
+          "source_bytes_read": 835196125,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211952",
+        "source_url": "https://sdilej.cz/35211952/sberatele-kosti-s03e13-2008-czdab.1080p-rozsudek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158298",
+        "display_name": "Bones S03E13 The Verdict in the Story 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:25:20.986796+00:00"
       }
     },
     "920:3:14": {
@@ -623287,7 +623288,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:25:16.607350+00:00",
+  "updated_at": "2026-11-18T19:25:20.986814+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
