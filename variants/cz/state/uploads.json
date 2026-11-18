@@ -587227,12 +587227,6 @@
     },
     "2690:1:14": {
       "episode_key": "rodinka na kousky:s1:e14",
-      "claim": {
-        "worker_id": "7d59bdd950054037bd2f4e069b672518-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:48:32.514764+00:00",
-        "lease_expires_at": "2026-11-18T08:48:32.514777+00:00"
-      },
       "source": {
         "source_id": "6298676",
         "source_url": "https://sdilej.cz/6298676/rodinka.na.kousky.01x14.dvb-t.cz.avi",
@@ -587257,22 +587251,29 @@
         "display_name": "Life in Pieces S01E14 Will Trash Book Spa SD CZ Dabing",
         "prepared_at": "2026-11-18T02:48:45.409345+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137763",
-        "size_bytes": 297574842
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137763",
-        "size_bytes": 297574842,
-        "source_bytes_read": 297574842,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137763",
         "source_bytes_read": 297574842,
         "elapsed_seconds": 25.15,
         "finished_at": "2026-11-18T02:49:32.509871+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137763",
+          "size_bytes": 297574842,
+          "source_bytes_read": 297574842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6298676",
+        "source_url": "https://sdilej.cz/6298676/rodinka.na.kousky.01x14.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137763",
+        "display_name": "Life in Pieces S01E14 Will Trash Book Spa SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:49:40.733966+00:00"
       }
     },
     "2690:1:15": {
@@ -587318,7 +587319,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:49:36.818211+00:00",
+  "updated_at": "2026-11-18T02:49:40.733991+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
