@@ -607156,12 +607156,6 @@
     },
     "576:5:5": {
       "episode_key": "tým seal:s5:e5",
-      "claim": {
-        "worker_id": "8754bf9e84f54c41b0ac57c465b8d0d6-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T13:24:41.601506+00:00",
-        "lease_expires_at": "2026-11-18T19:24:41.601518+00:00"
-      },
       "source": {
         "source_id": "29906802",
         "source_url": "https://sdilej.cz/29906802/seal-team-s05e05-1080p-cz-dabing.mkv",
@@ -607186,22 +607180,29 @@
         "display_name": "SEAL Team S05E05 Frog on the Tracks (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-18T13:24:46.674115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31152180",
-        "size_bytes": 839520246
-      },
-      "transfer_receipt": {
-        "target_video_id": "31152180",
-        "size_bytes": 839520246,
-        "source_bytes_read": 839520246,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31152180",
         "source_bytes_read": 839520246,
         "elapsed_seconds": 72.318,
         "finished_at": "2026-11-18T13:26:20.649674+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31152180",
+          "size_bytes": 839520246,
+          "source_bytes_read": 839520246,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29906802",
+        "source_url": "https://sdilej.cz/29906802/seal-team-s05e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31152180",
+        "display_name": "SEAL Team S05E05 Frog on the Tracks (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T13:26:30.040947+00:00"
       }
     },
     "576:5:6": {
@@ -607247,7 +607248,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T13:26:24.820954+00:00",
+  "updated_at": "2026-11-18T13:26:30.040963+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
