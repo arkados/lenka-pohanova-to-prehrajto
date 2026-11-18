@@ -589668,28 +589668,29 @@
           "at": "2026-11-18T03:45:13.069678+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "bfe296ec95bf48fc8778ac3eac9e9337-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:45:16.877765+00:00",
-        "lease_expires_at": "2026-11-18T09:45:16.877785+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31138833",
-        "size_bytes": 801836382
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138833",
-        "size_bytes": 801836382,
-        "source_bytes_read": 801836382,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138833",
         "source_bytes_read": 801836382,
         "elapsed_seconds": 85.831,
         "finished_at": "2026-11-18T03:47:06.361269+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138833",
+          "size_bytes": 801836382,
+          "source_bytes_read": 801836382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13125872",
+        "source_url": "https://sdilej.cz/13125872/preacher.s04e06.1080p.10bit.bluray.ac3.x265.hevc-vyndros-cztitulky-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138833",
+        "display_name": "Preacher S04E06 The Lost Apostle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:47:15.967726+00:00"
       }
     },
     "922:4:7": {
@@ -590068,7 +590069,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:47:06.361291+00:00",
+  "updated_at": "2026-11-18T03:47:15.967748+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
