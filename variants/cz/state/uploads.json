@@ -630512,12 +630512,6 @@
     },
     "920:11:5": {
       "episode_key": "sběratelé kostí:s11:e5",
-      "claim": {
-        "worker_id": "8be4897cbdfe4c2a959140f49b1c142c-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:44:05.175765+00:00",
-        "lease_expires_at": "2026-11-19T03:44:05.175781+00:00"
-      },
       "source": {
         "source_id": "27579179",
         "source_url": "https://sdilej.cz/27579179/sberatele-kosti-s11e05-cz.mkv",
@@ -630542,22 +630536,29 @@
         "display_name": "Bones S11E05 The Resurrection in the Remains (I) 720p CZ Dabing",
         "prepared_at": "2026-11-18T21:44:10.359424+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160885",
-        "size_bytes": 423266524
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160885",
-        "size_bytes": 423266524,
-        "source_bytes_read": 423266524,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160885",
         "source_bytes_read": 423266524,
         "elapsed_seconds": 23.845,
         "finished_at": "2026-11-18T21:44:56.410062+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160885",
+          "size_bytes": 423266524,
+          "source_bytes_read": 423266524,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579179",
+        "source_url": "https://sdilej.cz/27579179/sberatele-kosti-s11e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160885",
+        "display_name": "Bones S11E05 The Resurrection in the Remains (I) 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:45:13.511734+00:00"
       }
     },
     "920:11:6": {
@@ -630608,7 +630609,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:45:06.985946+00:00",
+  "updated_at": "2026-11-18T21:45:13.511751+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
