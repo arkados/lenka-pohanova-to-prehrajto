@@ -624542,12 +624542,6 @@
     },
     "920:5:8": {
       "episode_key": "sběratelé kostí:s5:e8",
-      "claim": {
-        "worker_id": "1711865f9f554f7684d43263701088ff-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:46:26.522915+00:00",
-        "lease_expires_at": "2026-11-19T01:46:26.522932+00:00"
-      },
       "source": {
         "source_id": "28702809",
         "source_url": "https://sdilej.cz/28702809/sberatele-kosti-05x08.avi",
@@ -624572,22 +624566,29 @@
         "display_name": "Bones S05E08 The Foot in the Foreclosure SD CZ Dabing",
         "prepared_at": "2026-11-18T19:46:36.243073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158644",
-        "size_bytes": 333623704
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158644",
-        "size_bytes": 333623704,
-        "source_bytes_read": 333623704,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158644",
         "source_bytes_read": 333623704,
         "elapsed_seconds": 20.926,
         "finished_at": "2026-11-18T19:47:21.764862+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158644",
+          "size_bytes": 333623704,
+          "source_bytes_read": 333623704,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28702809",
+        "source_url": "https://sdilej.cz/28702809/sberatele-kosti-05x08.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158644",
+        "display_name": "Bones S05E08 The Foot in the Foreclosure SD CZ Dabing",
+        "uploaded_at": "2026-11-18T19:47:28.579561+00:00"
       }
     }
   },
@@ -624596,7 +624597,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:47:21.764886+00:00",
+  "updated_at": "2026-11-18T19:47:28.579580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
