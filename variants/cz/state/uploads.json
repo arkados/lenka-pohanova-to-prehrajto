@@ -615567,12 +615567,6 @@
     },
     "1166:2:10": {
       "episode_key": "umbrella academy:s2:e10",
-      "claim": {
-        "worker_id": "02f3f24f2d5e495a8108c6b5325539e4-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:22:54.478970+00:00",
-        "lease_expires_at": "2026-11-18T23:22:54.478983+00:00"
-      },
       "source": {
         "source_id": "35160659",
         "source_url": "https://sdilej.cz/35160659/umbrella-academy-s02e10-cz-dabing.mkv",
@@ -615596,7 +615590,17 @@
         },
         "display_name": "The Umbrella Academy S02E10 The End of Something 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:22:58.995462+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35160659:https://sdilej.cz/35160659/umbrella-academy-s02e10-cz-dabing.mkv",
+        "at": "2026-11-18T17:23:11.975117+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T17:23:11.975189+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -615604,7 +615608,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:22:58.995482+00:00",
+  "updated_at": "2026-11-18T17:23:11.975195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -616085,8 +616089,13 @@
         {
           "identity": "1166:2:7",
           "at": "2026-11-18T17:21:53.498714+00:00"
+        },
+        {
+          "identity": "1166:2:10",
+          "at": "2026-11-18T17:23:11.975117+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-18T17:33:11.975117+00:00"
     }
   }
 }
