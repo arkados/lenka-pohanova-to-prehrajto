@@ -578951,28 +578951,29 @@
           "at": "2026-11-18T00:00:43.227218+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "95e1673961fb47609397628adbdcecdd-worker-0",
-        "run_id": "44138680555",
-        "claimed_at": "2026-11-18T00:00:47.620186+00:00",
-        "lease_expires_at": "2026-11-18T06:00:47.620199+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31133869",
-        "size_bytes": 799682094
-      },
-      "transfer_receipt": {
-        "target_video_id": "31133869",
-        "size_bytes": 799682094,
-        "source_bytes_read": 799682094,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31133869",
         "source_bytes_read": 799682094,
         "elapsed_seconds": 58.117,
         "finished_at": "2026-11-18T00:02:07.613585+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31133869",
+          "size_bytes": 799682094,
+          "source_bytes_read": 799682094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34431672",
+        "source_url": "https://sdilej.cz/34431672/elementary.s06e09.1080p.10bit.amzn.web-dl.ac3.x265-rzerox-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31133869",
+        "display_name": "Elementary S06E09 Nobody Lives Forever 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T00:02:13.740447+00:00"
       }
     },
     "1098:6:10": {
@@ -579092,7 +579093,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T00:02:07.613606+00:00",
+  "updated_at": "2026-11-18T00:02:13.740466+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
