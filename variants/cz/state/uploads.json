@@ -613708,12 +613708,6 @@
     },
     "58:3:5": {
       "episode_key": "zaklínač:s3:e5",
-      "claim": {
-        "worker_id": "55d8b759e25a46c3b53bc74239aef980-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:32:06.702444+00:00",
-        "lease_expires_at": "2026-11-18T22:32:06.702461+00:00"
-      },
       "source": {
         "source_id": "32452999",
         "source_url": "https://sdilej.cz/32452999/zaklinac-s03e05-umeni-klamu.mkv",
@@ -613738,22 +613732,29 @@
         "display_name": "The Witcher S03E05 The Art of the Illusion 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:32:14.319809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155469",
-        "size_bytes": 2307122173
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155469",
-        "size_bytes": 2307122173,
-        "source_bytes_read": 2307122173,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155469",
         "source_bytes_read": 2307122173,
         "elapsed_seconds": 128.649,
         "finished_at": "2026-11-18T16:34:41.035931+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155469",
+          "size_bytes": 2307122173,
+          "source_bytes_read": 2307122173,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452999",
+        "source_url": "https://sdilej.cz/32452999/zaklinac-s03e05-umeni-klamu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155469",
+        "display_name": "The Witcher S03E05 The Art of the Illusion 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:34:47.025525+00:00"
       }
     }
   },
@@ -613762,7 +613763,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:34:41.035955+00:00",
+  "updated_at": "2026-11-18T16:34:47.025545+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
