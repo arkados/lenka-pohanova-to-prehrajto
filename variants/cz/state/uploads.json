@@ -594574,12 +594574,6 @@
     },
     "1217:3:10": {
       "episode_key": "pustiny:s3:e10",
-      "claim": {
-        "worker_id": "0296d96ba1a745d59156dfffed7ef235-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:18:16.172026+00:00",
-        "lease_expires_at": "2026-11-18T11:18:16.172039+00:00"
-      },
       "source": {
         "source_id": "30660646",
         "source_url": "https://sdilej.cz/30660646/pustiny-into-the-badlands-s03e10.cz.mkv",
@@ -594604,22 +594598,29 @@
         "display_name": "Into the Badlands S03E10 Raven's Feather, Phoenix Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:18:25.529155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141363",
-        "size_bytes": 885141721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141363",
-        "size_bytes": 885141721,
-        "source_bytes_read": 885141721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141363",
         "source_bytes_read": 885141721,
         "elapsed_seconds": 210.96,
         "finished_at": "2026-11-18T05:22:18.171877+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141363",
+          "size_bytes": 885141721,
+          "source_bytes_read": 885141721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660646",
+        "source_url": "https://sdilej.cz/30660646/pustiny-into-the-badlands-s03e10.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141363",
+        "display_name": "Into the Badlands S03E10 Raven's Feather, Phoenix Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:22:28.094202+00:00"
       }
     },
     "1217:3:11": {
@@ -594702,7 +594703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:22:18.171897+00:00",
+  "updated_at": "2026-11-18T05:22:28.094222+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
