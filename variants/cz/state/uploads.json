@@ -596805,12 +596805,6 @@
     },
     "4102:1:7": {
       "episode_key": "scooby-doo na stopě:s1:e7",
-      "claim": {
-        "worker_id": "6789c7ddd2a34f488b0f6f179a9538fc-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:34:06.183937+00:00",
-        "lease_expires_at": "2026-11-18T12:34:06.183953+00:00"
-      },
       "source": {
         "source_id": "28552382",
         "source_url": "https://sdilej.cz/28552382/scooby-doo-na-stope-1x07-neopicte-se-po-lidoopovi.avi",
@@ -596835,22 +596829,29 @@
         "display_name": "Scooby-Doo, Where Are You! S01E07 Never Ape an Ape Man SD CZ Dabing",
         "prepared_at": "2026-11-18T06:34:14.989776+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142898",
-        "size_bytes": 154886722
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142898",
-        "size_bytes": 154886722,
-        "source_bytes_read": 154886722,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142898",
         "source_bytes_read": 154886722,
         "elapsed_seconds": 14.212,
         "finished_at": "2026-11-18T06:34:51.321958+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142898",
+          "size_bytes": 154886722,
+          "source_bytes_read": 154886722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28552382",
+        "source_url": "https://sdilej.cz/28552382/scooby-doo-na-stope-1x07-neopicte-se-po-lidoopovi.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142898",
+        "display_name": "Scooby-Doo, Where Are You! S01E07 Never Ape an Ape Man SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:35:04.427545+00:00"
       }
     }
   },
@@ -596859,7 +596860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:34:57.355266+00:00",
+  "updated_at": "2026-11-18T06:35:04.427567+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
