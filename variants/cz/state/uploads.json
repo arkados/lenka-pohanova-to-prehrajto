@@ -629696,12 +629696,6 @@
     },
     "920:10:11": {
       "episode_key": "sběratelé kostí:s10:e11",
-      "claim": {
-        "worker_id": "c4bd230d58974807a4f610b5591cf700-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:34:54.982580+00:00",
-        "lease_expires_at": "2026-11-19T03:34:54.982596+00:00"
-      },
       "source": {
         "source_id": "35256847",
         "source_url": "https://sdilej.cz/35256847/sberatele-kosti-s10e11-2015-czdab.1080p-jasnovidka-ve-strome.mkv",
@@ -629726,22 +629720,29 @@
         "display_name": "Bones S10E11 The Psychic in the Soup 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:35:07.566659+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160670",
-        "size_bytes": 478207826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160670",
-        "size_bytes": 478207826,
-        "source_bytes_read": 478207826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160670",
         "source_bytes_read": 478207826,
         "elapsed_seconds": 34.142,
         "finished_at": "2026-11-18T21:36:15.315442+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160670",
+          "size_bytes": 478207826,
+          "source_bytes_read": 478207826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256847",
+        "source_url": "https://sdilej.cz/35256847/sberatele-kosti-s10e11-2015-czdab.1080p-jasnovidka-ve-strome.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160670",
+        "display_name": "Bones S10E11 The Psychic in the Soup 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:36:26.873042+00:00"
       }
     },
     "920:10:12": {
@@ -629824,7 +629825,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:36:19.519791+00:00",
+  "updated_at": "2026-11-18T21:36:26.873061+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
