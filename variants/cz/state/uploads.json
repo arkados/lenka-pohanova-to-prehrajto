@@ -600497,12 +600497,6 @@
     },
     "1967:7:1": {
       "episode_key": "vraždy v midsomeru:s7:e1",
-      "claim": {
-        "worker_id": "0c2636fa6cb84a59962cbcd162c8c4d7-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T09:17:39.921150+00:00",
-        "lease_expires_at": "2026-11-18T15:17:39.921164+00:00"
-      },
       "source": {
         "source_id": "27569926",
         "source_url": "https://sdilej.cz/27569926/vrazdy-v-midsomeru-s07e01-lesni-muz.mkv",
@@ -600527,22 +600521,29 @@
         "display_name": "Midsomer Murders S07E01 The Green Man 1080p CZ Dabing",
         "prepared_at": "2026-11-18T09:17:44.854672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31146280",
-        "size_bytes": 2165348890
-      },
-      "transfer_receipt": {
-        "target_video_id": "31146280",
-        "size_bytes": 2165348890,
-        "source_bytes_read": 2165348890,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31146280",
         "source_bytes_read": 2165348890,
         "elapsed_seconds": 155.635,
         "finished_at": "2026-11-18T09:20:36.799823+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31146280",
+          "size_bytes": 2165348890,
+          "source_bytes_read": 2165348890,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27569926",
+        "source_url": "https://sdilej.cz/27569926/vrazdy-v-midsomeru-s07e01-lesni-muz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31146280",
+        "display_name": "Midsomer Murders S07E01 The Green Man 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T09:20:46.779890+00:00"
       }
     }
   },
@@ -600551,7 +600552,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T09:20:41.073684+00:00",
+  "updated_at": "2026-11-18T09:20:46.779907+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
