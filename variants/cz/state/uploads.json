@@ -613430,12 +613430,6 @@
     },
     "58:2:7": {
       "episode_key": "zaklínač:s2:e7",
-      "claim": {
-        "worker_id": "a803aaac8d644f6ebba5f50f7a8c5c28-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:24:35.541324+00:00",
-        "lease_expires_at": "2026-11-18T22:24:35.541338+00:00"
-      },
       "source": {
         "source_id": "32452962",
         "source_url": "https://sdilej.cz/32452962/zaklinac-s02e07-voleth-meir.mkv",
@@ -613460,22 +613454,29 @@
         "display_name": "The Witcher S02E07 Voleth Meir 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:24:40.354023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155330",
-        "size_bytes": 2503426442
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155330",
-        "size_bytes": 2503426442,
-        "source_bytes_read": 2503426442,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155330",
         "source_bytes_read": 2503426442,
         "elapsed_seconds": 149.426,
         "finished_at": "2026-11-18T16:27:30.696637+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155330",
+          "size_bytes": 2503426442,
+          "source_bytes_read": 2503426442,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452962",
+        "source_url": "https://sdilej.cz/32452962/zaklinac-s02e07-voleth-meir.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155330",
+        "display_name": "The Witcher S02E07 Voleth Meir 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:27:38.591308+00:00"
       }
     },
     "58:2:8": {
@@ -613558,7 +613559,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:27:30.696674+00:00",
+  "updated_at": "2026-11-18T16:27:38.591328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
