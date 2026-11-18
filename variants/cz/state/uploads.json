@@ -617072,12 +617072,6 @@
     },
     "1117:1:16": {
       "episode_key": "nová holka:s1:e16",
-      "claim": {
-        "worker_id": "1510b7f193bc4c8aa4a654e89d49824a-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:45:01.576976+00:00",
-        "lease_expires_at": "2026-11-18T23:45:01.576992+00:00"
-      },
       "source": {
         "source_id": "33264636",
         "source_url": "https://sdilej.cz/33264636/nova-holka-s01e16-new-girl-dvdrip-czdabing.avi",
@@ -617102,22 +617096,29 @@
         "display_name": "New Girl S01E16 Control SD CZ Dabing",
         "prepared_at": "2026-11-18T17:45:12.669940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156573",
-        "size_bytes": 181350400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156573",
-        "size_bytes": 181350400,
-        "source_bytes_read": 181350400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156573",
         "source_bytes_read": 181350400,
         "elapsed_seconds": 13.417,
         "finished_at": "2026-11-18T17:45:55.208948+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156573",
+          "size_bytes": 181350400,
+          "source_bytes_read": 181350400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264636",
+        "source_url": "https://sdilej.cz/33264636/nova-holka-s01e16-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156573",
+        "display_name": "New Girl S01E16 Control SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:46:13.477740+00:00"
       }
     },
     "1117:1:17": {
@@ -617195,7 +617196,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:46:08.314366+00:00",
+  "updated_at": "2026-11-18T17:46:13.477766+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
