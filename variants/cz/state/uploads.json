@@ -629900,12 +629900,6 @@
     },
     "920:10:15": {
       "episode_key": "sběratelé kostí:s10:e15",
-      "claim": {
-        "worker_id": "e873962dc8bf456c8f3235879bf1d0d8-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:37:21.279866+00:00",
-        "lease_expires_at": "2026-11-19T03:37:21.279882+00:00"
-      },
       "source": {
         "source_id": "35256864",
         "source_url": "https://sdilej.cz/35256864/sberatele-kosti-s10e15-2015-czdab.1080p-nebezpecna-hra.mkv",
@@ -629930,22 +629924,29 @@
         "display_name": "Bones S10E15 The Eye in the Sky 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:37:31.291944+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160730",
-        "size_bytes": 528104017
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160730",
-        "size_bytes": 528104017,
-        "source_bytes_read": 528104017,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160730",
         "source_bytes_read": 528104017,
         "elapsed_seconds": 45.408,
         "finished_at": "2026-11-18T21:38:46.340508+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160730",
+          "size_bytes": 528104017,
+          "source_bytes_read": 528104017,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35256864",
+        "source_url": "https://sdilej.cz/35256864/sberatele-kosti-s10e15-2015-czdab.1080p-nebezpecna-hra.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160730",
+        "display_name": "Bones S10E15 The Eye in the Sky 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:38:53.264470+00:00"
       }
     },
     "920:10:16": {
@@ -630028,7 +630029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:38:46.340526+00:00",
+  "updated_at": "2026-11-18T21:38:53.264489+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
