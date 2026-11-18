@@ -618487,12 +618487,6 @@
     },
     "1117:3:23": {
       "episode_key": "nová holka:s3:e23",
-      "claim": {
-        "worker_id": "f3605edca72a4788afeaedea5207d77f-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:11:49.545996+00:00",
-        "lease_expires_at": "2026-11-19T00:11:49.546011+00:00"
-      },
       "source": {
         "source_id": "7554041",
         "source_url": "https://sdilej.cz/7554041/nova.holka.03x23-plavba.avi",
@@ -618517,22 +618511,29 @@
         "display_name": "New Girl S03E23 Cruise SD CZ Dabing",
         "prepared_at": "2026-11-18T18:11:58.135470+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156999",
-        "size_bytes": 336925746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156999",
-        "size_bytes": 336925746,
-        "source_bytes_read": 336925746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156999",
         "source_bytes_read": 336925746,
         "elapsed_seconds": 28.329,
         "finished_at": "2026-11-18T18:12:58.075908+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156999",
+          "size_bytes": 336925746,
+          "source_bytes_read": 336925746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7554041",
+        "source_url": "https://sdilej.cz/7554041/nova.holka.03x23-plavba.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156999",
+        "display_name": "New Girl S03E23 Cruise SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:13:14.434022+00:00"
       }
     }
   },
@@ -618541,7 +618542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:13:07.269568+00:00",
+  "updated_at": "2026-11-18T18:13:14.434041+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
