@@ -615303,12 +615303,6 @@
     },
     "1166:2:4": {
       "episode_key": "umbrella academy:s2:e4",
-      "claim": {
-        "worker_id": "8435dff085884f798a22e3e5ceb72e27-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:19:52.947050+00:00",
-        "lease_expires_at": "2026-11-18T23:19:52.947067+00:00"
-      },
       "source": {
         "source_id": "32940726",
         "source_url": "https://sdilej.cz/32940726/the-umbrella-academy-s02e04-cz-dabing.mkv",
@@ -615333,22 +615327,29 @@
         "display_name": "The Umbrella Academy S02E04 The Majestic 12 1080p CZ Dabing",
         "prepared_at": "2026-11-18T17:19:57.939756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156267",
-        "size_bytes": 685857779
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156267",
-        "size_bytes": 685857779,
-        "source_bytes_read": 685857779,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156267",
         "source_bytes_read": 685857779,
         "elapsed_seconds": 49.294,
         "finished_at": "2026-11-18T17:21:09.512914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156267",
+          "size_bytes": 685857779,
+          "source_bytes_read": 685857779,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32940726",
+        "source_url": "https://sdilej.cz/32940726/the-umbrella-academy-s02e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156267",
+        "display_name": "The Umbrella Academy S02E04 The Majestic 12 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T17:21:20.508094+00:00"
       }
     },
     "1166:2:5": {
@@ -615431,7 +615432,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:21:13.798382+00:00",
+  "updated_at": "2026-11-18T17:21:20.508114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
