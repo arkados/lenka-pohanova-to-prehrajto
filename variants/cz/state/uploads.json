@@ -616193,12 +616193,6 @@
     },
     "1117:1:5": {
       "episode_key": "nová holka:s1:e5",
-      "claim": {
-        "worker_id": "98366a51b05440dbacecd33ec9676c80-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T17:32:26.207418+00:00",
-        "lease_expires_at": "2026-11-18T23:32:26.207437+00:00"
-      },
       "source": {
         "source_id": "33264622",
         "source_url": "https://sdilej.cz/33264622/nova-holka-s01e05-new-girl-dvdrip-czdabing.avi",
@@ -616223,22 +616217,29 @@
         "display_name": "New Girl S01E05 Cece Crashes SD CZ Dabing",
         "prepared_at": "2026-11-18T17:32:32.387005+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156404",
-        "size_bytes": 181043200
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156404",
-        "size_bytes": 181043200,
-        "source_bytes_read": 181043200,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156404",
         "source_bytes_read": 181043200,
         "elapsed_seconds": 12.678,
         "finished_at": "2026-11-18T17:33:16.853710+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156404",
+          "size_bytes": 181043200,
+          "source_bytes_read": 181043200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264622",
+        "source_url": "https://sdilej.cz/33264622/nova-holka-s01e05-new-girl-dvdrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156404",
+        "display_name": "New Girl S01E05 Cece Crashes SD CZ Dabing",
+        "uploaded_at": "2026-11-18T17:33:30.568979+00:00"
       }
     },
     "1117:1:6": {
@@ -616284,7 +616285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T17:33:21.748883+00:00",
+  "updated_at": "2026-11-18T17:33:30.568998+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
