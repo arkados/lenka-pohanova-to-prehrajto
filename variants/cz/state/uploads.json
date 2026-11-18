@@ -602959,12 +602959,6 @@
     },
     "2542:4:2": {
       "episode_key": "inspektor george gently:s4:e2",
-      "claim": {
-        "worker_id": "34892c36492f4ed8b0bf956b40157c9c-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T11:38:20.515237+00:00",
-        "lease_expires_at": "2026-11-18T17:38:20.515252+00:00"
-      },
       "source": {
         "source_id": "16455148",
         "source_url": "https://sdilej.cz/16455148/inspector.george.gently.04x02.1080i.hevc.hdtv.cz.mkv",
@@ -602989,22 +602983,29 @@
         "display_name": "Inspector George Gently S04E02 Goodbye China 1080p CZ Dabing",
         "prepared_at": "2026-11-18T11:38:27.501074+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31150115",
-        "size_bytes": 1078461895
-      },
-      "transfer_receipt": {
-        "target_video_id": "31150115",
-        "size_bytes": 1078461895,
-        "source_bytes_read": 1078461895,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31150115",
         "source_bytes_read": 1078461895,
         "elapsed_seconds": 212.489,
         "finished_at": "2026-11-18T11:42:19.873890+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31150115",
+          "size_bytes": 1078461895,
+          "source_bytes_read": 1078461895,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16455148",
+        "source_url": "https://sdilej.cz/16455148/inspector.george.gently.04x02.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31150115",
+        "display_name": "Inspector George Gently S04E02 Goodbye China 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T11:42:27.571707+00:00"
       }
     },
     "2542:5:1": {
@@ -603050,7 +603051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T11:42:19.873910+00:00",
+  "updated_at": "2026-11-18T11:42:27.571725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
