@@ -630359,12 +630359,6 @@
     },
     "920:11:2": {
       "episode_key": "sběratelé kostí:s11:e2",
-      "claim": {
-        "worker_id": "f006795f75fa42869ffb387a3644635d-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:42:31.260500+00:00",
-        "lease_expires_at": "2026-11-19T03:42:31.260514+00:00"
-      },
       "source": {
         "source_id": "32255568",
         "source_url": "https://sdilej.cz/32255568/sberatele-kosti-s11e02-bratr-ve-sklepe-sd-czdab.mkv",
@@ -630389,22 +630383,29 @@
         "display_name": "Bones S11E02 The Brother in the Basement SD CZ Dabing",
         "prepared_at": "2026-11-18T21:42:40.759540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160856",
-        "size_bytes": 355968213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160856",
-        "size_bytes": 355968213,
-        "source_bytes_read": 355968213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160856",
         "source_bytes_read": 355968213,
         "elapsed_seconds": 26.6,
         "finished_at": "2026-11-18T21:43:40.837716+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160856",
+          "size_bytes": 355968213,
+          "source_bytes_read": 355968213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32255568",
+        "source_url": "https://sdilej.cz/32255568/sberatele-kosti-s11e02-bratr-ve-sklepe-sd-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160856",
+        "display_name": "Bones S11E02 The Brother in the Basement SD CZ Dabing",
+        "uploaded_at": "2026-11-18T21:43:51.256734+00:00"
       }
     },
     "920:11:3": {
@@ -630486,7 +630487,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:43:45.316407+00:00",
+  "updated_at": "2026-11-18T21:43:51.256751+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
