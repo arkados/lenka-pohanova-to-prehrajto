@@ -622251,12 +622251,6 @@
     },
     "920:2:14": {
       "episode_key": "sběratelé kostí:s2:e14",
-      "claim": {
-        "worker_id": "194bf55409724b7b8cb187d33187cd53-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:07:38.200623+00:00",
-        "lease_expires_at": "2026-11-19T01:07:38.200639+00:00"
-      },
       "source": {
         "source_id": "27574247",
         "source_url": "https://sdilej.cz/27574247/sberatele-kosti-s02e14-cz.mkv",
@@ -622281,22 +622275,29 @@
         "display_name": "Bones S02E14 The Man in the Mansion 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:07:56.591107+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158067",
-        "size_bytes": 572215091
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158067",
-        "size_bytes": 572215091,
-        "source_bytes_read": 572215091,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158067",
         "source_bytes_read": 572215091,
         "elapsed_seconds": 27.739,
         "finished_at": "2026-11-18T19:08:52.273980+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158067",
+          "size_bytes": 572215091,
+          "source_bytes_read": 572215091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27574247",
+        "source_url": "https://sdilej.cz/27574247/sberatele-kosti-s02e14-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158067",
+        "display_name": "Bones S02E14 The Man in the Mansion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:09:02.954739+00:00"
       }
     },
     "920:2:15": {
@@ -622342,7 +622343,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:08:57.207398+00:00",
+  "updated_at": "2026-11-18T19:09:02.954759+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
