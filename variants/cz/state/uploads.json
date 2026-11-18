@@ -601990,12 +601990,6 @@
     },
     "1967:18:4": {
       "episode_key": "vraždy v midsomeru:s18:e4",
-      "claim": {
-        "worker_id": "13819c4549fa4aa9be8519fc02ec87b8-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T10:46:24.285893+00:00",
-        "lease_expires_at": "2026-11-18T16:46:24.285903+00:00"
-      },
       "source": {
         "source_id": "32411068",
         "source_url": "https://sdilej.cz/32411068/vrazdy-v-midsomeru-18x04-smrtici-umeni.mkv",
@@ -602020,22 +602014,29 @@
         "display_name": "Midsomer Murders S18E04 A Dying Art 1080p CZ Dabing",
         "prepared_at": "2026-11-18T10:46:29.493021+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31149022",
-        "size_bytes": 2081177407
-      },
-      "transfer_receipt": {
-        "target_video_id": "31149022",
-        "size_bytes": 2081177407,
-        "source_bytes_read": 2081177407,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31149022",
         "source_bytes_read": 2081177407,
         "elapsed_seconds": 592.865,
         "finished_at": "2026-11-18T10:56:48.407874+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31149022",
+          "size_bytes": 2081177407,
+          "source_bytes_read": 2081177407,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411068",
+        "source_url": "https://sdilej.cz/32411068/vrazdy-v-midsomeru-18x04-smrtici-umeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31149022",
+        "display_name": "Midsomer Murders S18E04 A Dying Art 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T10:56:55.537248+00:00"
       }
     },
     "1967:18:6": {
@@ -602118,7 +602119,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T10:56:48.407894+00:00",
+  "updated_at": "2026-11-18T10:56:55.537262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
