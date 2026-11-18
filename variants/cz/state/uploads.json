@@ -610676,12 +610676,6 @@
     },
     "2209:1:9": {
       "episode_key": "třetí hlídka:s1:e9",
-      "claim": {
-        "worker_id": "b1d74490aba54ad28f3212761695dbfb-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:32:55.831474+00:00",
-        "lease_expires_at": "2026-11-18T21:32:55.831490+00:00"
-      },
       "source": {
         "source_id": "32457575",
         "source_url": "https://sdilej.cz/32457575/treti-hlidka-s01e09-moderni-vzhled-pro-lepsi-zivot-1999-hdtv-1080p-czdab.mkv",
@@ -610706,22 +610700,29 @@
         "display_name": "Third Watch S01E09 Modern Designs for Better Living 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:33:00.581056+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154475",
-        "size_bytes": 1741004280
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154475",
-        "size_bytes": 1741004280,
-        "source_bytes_read": 1741004280,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154475",
         "source_bytes_read": 1741004280,
         "elapsed_seconds": 146.046,
         "finished_at": "2026-11-18T15:35:45.497274+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154475",
+          "size_bytes": 1741004280,
+          "source_bytes_read": 1741004280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457575",
+        "source_url": "https://sdilej.cz/32457575/treti-hlidka-s01e09-moderni-vzhled-pro-lepsi-zivot-1999-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154475",
+        "display_name": "Third Watch S01E09 Modern Designs for Better Living 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:35:52.340874+00:00"
       }
     },
     "2209:1:10": {
@@ -610804,7 +610805,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:35:45.497294+00:00",
+  "updated_at": "2026-11-18T15:35:52.340894+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
