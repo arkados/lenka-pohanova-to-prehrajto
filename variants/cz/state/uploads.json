@@ -597335,12 +597335,6 @@
     },
     "4102:2:5": {
       "episode_key": "scooby-doo na stopě:s2:e5",
-      "claim": {
-        "worker_id": "ad02bc30390d4c938838f7dd68719382-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:41:16.036681+00:00",
-        "lease_expires_at": "2026-11-18T12:41:16.036694+00:00"
-      },
       "source": {
         "source_id": "28552458",
         "source_url": "https://sdilej.cz/28552458/scooby-doo-na-stope-2x05-strasidelny-dum.avi",
@@ -597365,22 +597359,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E05 Haunted House Hang-Up SD CZ Dabing",
         "prepared_at": "2026-11-18T06:41:25.771235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143040",
-        "size_bytes": 153732686
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143040",
-        "size_bytes": 153732686,
-        "source_bytes_read": 153732686,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143040",
         "source_bytes_read": 153732686,
         "elapsed_seconds": 17.367,
         "finished_at": "2026-11-18T06:42:14.831844+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143040",
+          "size_bytes": 153732686,
+          "source_bytes_read": 153732686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28552458",
+        "source_url": "https://sdilej.cz/28552458/scooby-doo-na-stope-2x05-strasidelny-dum.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143040",
+        "display_name": "Scooby-Doo, Where Are You! S02E05 Haunted House Hang-Up SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:42:33.622695+00:00"
       }
     },
     "4102:2:6": {
@@ -597440,7 +597441,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:42:29.612399+00:00",
+  "updated_at": "2026-11-18T06:42:33.622706+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
