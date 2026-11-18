@@ -611594,12 +611594,6 @@
     },
     "2209:3:3": {
       "episode_key": "třetí hlídka:s3:e3",
-      "claim": {
-        "worker_id": "5dad164f99954d91aea658c19bf35a8c-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:50:48.042241+00:00",
-        "lease_expires_at": "2026-11-18T21:50:48.042257+00:00"
-      },
       "source": {
         "source_id": "23852114",
         "source_url": "https://sdilej.cz/23852114/treti-hlidka-s03e03-nasledky.avi",
@@ -611624,22 +611618,29 @@
         "display_name": "Third Watch S03E03 The Relay SD CZ Dabing",
         "prepared_at": "2026-11-18T15:51:06.345000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154776",
-        "size_bytes": 366788004
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154776",
-        "size_bytes": 366788004,
-        "source_bytes_read": 366788004,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154776",
         "source_bytes_read": 366788004,
         "elapsed_seconds": 27.666,
         "finished_at": "2026-11-18T15:52:06.320990+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154776",
+          "size_bytes": 366788004,
+          "source_bytes_read": 366788004,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23852114",
+        "source_url": "https://sdilej.cz/23852114/treti-hlidka-s03e03-nasledky.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154776",
+        "display_name": "Third Watch S03E03 The Relay SD CZ Dabing",
+        "uploaded_at": "2026-11-18T15:52:13.721721+00:00"
       }
     },
     "2209:3:4": {
@@ -611722,7 +611723,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:52:06.321013+00:00",
+  "updated_at": "2026-11-18T15:52:13.721741+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
