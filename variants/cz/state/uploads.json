@@ -611542,12 +611542,6 @@
     },
     "2209:3:2": {
       "episode_key": "třetí hlídka:s3:e2",
-      "claim": {
-        "worker_id": "fe8afb3dc2214610822ad7390a938cdc-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:49:57.887614+00:00",
-        "lease_expires_at": "2026-11-18T21:49:57.887627+00:00"
-      },
       "source": {
         "source_id": "11989530",
         "source_url": "https://sdilej.cz/11989530/treti-hlidka-s03e02-desateho-zari.avi",
@@ -611572,22 +611566,29 @@
         "display_name": "Third Watch S03E02 After Time SD CZ Dabing",
         "prepared_at": "2026-11-18T15:50:03.050798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154752",
-        "size_bytes": 419608576
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154752",
-        "size_bytes": 419608576,
-        "source_bytes_read": 419608576,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154752",
         "source_bytes_read": 419608576,
         "elapsed_seconds": 27.094,
         "finished_at": "2026-11-18T15:50:52.230866+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154752",
+          "size_bytes": 419608576,
+          "source_bytes_read": 419608576,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11989530",
+        "source_url": "https://sdilej.cz/11989530/treti-hlidka-s03e02-desateho-zari.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154752",
+        "display_name": "Third Watch S03E02 After Time SD CZ Dabing",
+        "uploaded_at": "2026-11-18T15:51:01.501578+00:00"
       }
     },
     "2209:3:3": {
@@ -611605,7 +611606,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:50:57.626293+00:00",
+  "updated_at": "2026-11-18T15:51:01.501601+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
