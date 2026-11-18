@@ -629056,12 +629056,6 @@
     },
     "920:10:2": {
       "episode_key": "sběratelé kostí:s10:e2",
-      "claim": {
-        "worker_id": "988080a73871439485217ac3583d5ee7-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T21:20:02.781091+00:00",
-        "lease_expires_at": "2026-11-19T03:20:02.781108+00:00"
-      },
       "source": {
         "source_id": "27577571",
         "source_url": "https://sdilej.cz/27577571/sberatele-kosti-s10e02-cz.mkv",
@@ -629086,22 +629080,29 @@
         "display_name": "Bones S10E02 The Lance to the Heart 1080p CZ Dabing",
         "prepared_at": "2026-11-18T21:20:07.796573+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31160304",
-        "size_bytes": 525967579
-      },
-      "transfer_receipt": {
-        "target_video_id": "31160304",
-        "size_bytes": 525967579,
-        "source_bytes_read": 525967579,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31160304",
         "source_bytes_read": 525967579,
         "elapsed_seconds": 28.262,
         "finished_at": "2026-11-18T21:21:14.827319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31160304",
+          "size_bytes": 525967579,
+          "source_bytes_read": 525967579,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27577571",
+        "source_url": "https://sdilej.cz/27577571/sberatele-kosti-s10e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31160304",
+        "display_name": "Bones S10E02 The Lance to the Heart 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T21:21:26.549737+00:00"
       }
     }
   },
@@ -629110,7 +629111,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T21:21:19.861670+00:00",
+  "updated_at": "2026-11-18T21:21:26.549755+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
