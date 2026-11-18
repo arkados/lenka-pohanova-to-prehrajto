@@ -612753,12 +612753,6 @@
     },
     "58:1:2": {
       "episode_key": "zaklínač:s1:e2",
-      "claim": {
-        "worker_id": "4ab277ba8a33490bbd174b5c16e96bfe-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:08:09.490998+00:00",
-        "lease_expires_at": "2026-11-18T22:08:09.491018+00:00"
-      },
       "source": {
         "source_id": "12854061",
         "source_url": "https://sdilej.cz/12854061/zaklinac.s01e02.ctyri.marky.2160p.10bit.webrip.6ch.cz.x265.hevc-bb.mkv",
@@ -612783,22 +612777,29 @@
         "display_name": "The Witcher S01E02 Four Marks 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:08:18.737038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155045",
-        "size_bytes": 1730006175
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155045",
-        "size_bytes": 1730006175,
-        "source_bytes_read": 1730006175,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155045",
         "source_bytes_read": 1730006175,
         "elapsed_seconds": 97.599,
         "finished_at": "2026-11-18T16:10:19.765780+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155045",
+          "size_bytes": 1730006175,
+          "source_bytes_read": 1730006175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12854061",
+        "source_url": "https://sdilej.cz/12854061/zaklinac.s01e02.ctyri.marky.2160p.10bit.webrip.6ch.cz.x265.hevc-bb.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155045",
+        "display_name": "The Witcher S01E02 Four Marks 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:10:26.374005+00:00"
       }
     },
     "58:1:3": {
@@ -612895,7 +612896,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:10:19.765799+00:00",
+  "updated_at": "2026-11-18T16:10:26.374025+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
