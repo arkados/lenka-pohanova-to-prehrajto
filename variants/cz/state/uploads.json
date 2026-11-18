@@ -627469,12 +627469,6 @@
     },
     "920:8:20": {
       "episode_key": "sběratelé kostí:s8:e20",
-      "claim": {
-        "worker_id": "9c06a38d0a1845b7b46943ac11909a9e-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:36:38.864998+00:00",
-        "lease_expires_at": "2026-11-19T02:36:38.865013+00:00"
-      },
       "source": {
         "source_id": "30995295",
         "source_url": "https://sdilej.cz/30995295/sberatele-kosti-s08e20-cz-dabing-1080p.mkv",
@@ -627499,22 +627493,29 @@
         "display_name": "Bones S08E20 The Blood from the Stones 1080p CZ Dabing",
         "prepared_at": "2026-11-18T20:36:49.208666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159467",
-        "size_bytes": 865137962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159467",
-        "size_bytes": 865137962,
-        "source_bytes_read": 865137962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159467",
         "source_bytes_read": 865137962,
         "elapsed_seconds": 39.367,
         "finished_at": "2026-11-18T20:37:59.552615+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159467",
+          "size_bytes": 865137962,
+          "source_bytes_read": 865137962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30995295",
+        "source_url": "https://sdilej.cz/30995295/sberatele-kosti-s08e20-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159467",
+        "display_name": "Bones S08E20 The Blood from the Stones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T20:38:05.767571+00:00"
       }
     },
     "920:8:21": {
@@ -627560,7 +627561,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:37:59.552638+00:00",
+  "updated_at": "2026-11-18T20:38:05.767591+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
