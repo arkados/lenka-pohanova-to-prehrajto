@@ -620735,12 +620735,6 @@
     },
     "920:1:5": {
       "episode_key": "sběratelé kostí:s1:e5",
-      "claim": {
-        "worker_id": "2406ffdb530e410882fedc89f03d2ae9-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:44:43.806988+00:00",
-        "lease_expires_at": "2026-11-19T00:44:43.807010+00:00"
-      },
       "source": {
         "source_id": "27573815",
         "source_url": "https://sdilej.cz/27573815/sberatele-kosti-s01e05-cz.mkv",
@@ -620765,22 +620759,29 @@
         "display_name": "Bones S01E05 A Boy in a Bush 1080p CZ Dabing",
         "prepared_at": "2026-11-18T18:44:50.398241+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157558",
-        "size_bytes": 591783818
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157558",
-        "size_bytes": 591783818,
-        "source_bytes_read": 591783818,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157558",
         "source_bytes_read": 591783818,
         "elapsed_seconds": 43.72,
         "finished_at": "2026-11-18T18:46:06.909137+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157558",
+          "size_bytes": 591783818,
+          "source_bytes_read": 591783818,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27573815",
+        "source_url": "https://sdilej.cz/27573815/sberatele-kosti-s01e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157558",
+        "display_name": "Bones S01E05 A Boy in a Bush 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T18:46:17.587337+00:00"
       }
     },
     "920:1:6": {
@@ -620877,7 +620878,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:46:11.568478+00:00",
+  "updated_at": "2026-11-18T18:46:17.587356+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
