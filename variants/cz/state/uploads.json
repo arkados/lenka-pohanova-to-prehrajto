@@ -581461,12 +581461,6 @@
     },
     "3618:2:1": {
       "episode_key": "k smíchu:s2:e1",
-      "claim": {
-        "worker_id": "212858211429428ea10745c29b280d58-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:02:51.995362+00:00",
-        "lease_expires_at": "2026-11-18T07:02:51.995377+00:00"
-      },
       "source": {
         "source_id": "33162989",
         "source_url": "https://sdilej.cz/33162989/k-smichu-s02e01-10-2020-cz-dab-1080p-nejcistsi-jatra-v-columbusu.mkv",
@@ -581491,22 +581485,29 @@
         "display_name": "Kidding S02E01 The Cleanest Liver in Columbus, Ohio 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:03:00.230001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135444",
-        "size_bytes": 1792930729
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135444",
-        "size_bytes": 1792930729,
-        "source_bytes_read": 1792930729,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135444",
         "source_bytes_read": 1792930729,
         "elapsed_seconds": 226.305,
         "finished_at": "2026-11-18T01:07:05.255681+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135444",
+          "size_bytes": 1792930729,
+          "source_bytes_read": 1792930729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33162989",
+        "source_url": "https://sdilej.cz/33162989/k-smichu-s02e01-10-2020-cz-dab-1080p-nejcistsi-jatra-v-columbusu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135444",
+        "display_name": "Kidding S02E01 The Cleanest Liver in Columbus, Ohio 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:07:12.248297+00:00"
       }
     },
     "3618:2:2": {
@@ -581589,7 +581590,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:07:05.255703+00:00",
+  "updated_at": "2026-11-18T01:07:12.248319+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
