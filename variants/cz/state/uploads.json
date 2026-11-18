@@ -587374,12 +587374,6 @@
     },
     "2690:1:17": {
       "episode_key": "rodinka na kousky:s1:e17",
-      "claim": {
-        "worker_id": "905956bcc43b4ef4bef68ba62b096762-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:51:37.104445+00:00",
-        "lease_expires_at": "2026-11-18T08:51:37.104461+00:00"
-      },
       "source": {
         "source_id": "6363176",
         "source_url": "https://sdilej.cz/6363176/rodinka.na.kousky.01x17.dvb-t.cz.avi",
@@ -587404,22 +587398,29 @@
         "display_name": "Life in Pieces S01E17 Hair Recital Rainbow Mom SD CZ Dabing",
         "prepared_at": "2026-11-18T02:51:41.469611+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137807",
-        "size_bytes": 271150350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137807",
-        "size_bytes": 271150350,
-        "source_bytes_read": 271150350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137807",
         "source_bytes_read": 271150350,
         "elapsed_seconds": 22.053,
         "finished_at": "2026-11-18T02:52:28.589592+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137807",
+          "size_bytes": 271150350,
+          "source_bytes_read": 271150350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6363176",
+        "source_url": "https://sdilej.cz/6363176/rodinka.na.kousky.01x17.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137807",
+        "display_name": "Life in Pieces S01E17 Hair Recital Rainbow Mom SD CZ Dabing",
+        "uploaded_at": "2026-11-18T02:52:44.952770+00:00"
       }
     },
     "2690:1:19": {
@@ -587498,7 +587499,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:52:40.968500+00:00",
+  "updated_at": "2026-11-18T02:52:44.952788+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
