@@ -598828,12 +598828,6 @@
     },
     "1765:5:6": {
       "episode_key": "záchranáři l. a.:s5:e6",
-      "claim": {
-        "worker_id": "43054cdb7b904fc888fea645b4046e74-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T07:23:18.108854+00:00",
-        "lease_expires_at": "2026-11-18T13:23:18.108866+00:00"
-      },
       "source": {
         "source_id": "34634824",
         "source_url": "https://sdilej.cz/34634824/9-1-1-s05e06.mp4",
@@ -598858,22 +598852,29 @@
         "display_name": "9-1-1 S05E06 Brawl in Cell Block 9-1-1 1080p CZ Dabing",
         "prepared_at": "2026-11-18T07:23:24.264672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31144085",
-        "size_bytes": 2260942045
-      },
-      "transfer_receipt": {
-        "target_video_id": "31144085",
-        "size_bytes": 2260942045,
-        "source_bytes_read": 2260942045,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31144085",
         "source_bytes_read": 2260942045,
         "elapsed_seconds": 233.307,
         "finished_at": "2026-11-18T07:27:38.561089+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31144085",
+          "size_bytes": 2260942045,
+          "source_bytes_read": 2260942045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634824",
+        "source_url": "https://sdilej.cz/34634824/9-1-1-s05e06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31144085",
+        "display_name": "9-1-1 S05E06 Brawl in Cell Block 9-1-1 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T07:27:48.802669+00:00"
       }
     },
     "1765:5:7": {
@@ -598956,7 +598957,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T07:27:38.561111+00:00",
+  "updated_at": "2026-11-18T07:27:48.802688+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
