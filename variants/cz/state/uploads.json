@@ -594537,12 +594537,6 @@
     },
     "1765:3:18": {
       "episode_key": "záchranáři l. a.:s3:e18",
-      "claim": {
-        "worker_id": "45fa374399e24caa8f2ecaa11fdf8eff-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:17:57.139248+00:00",
-        "lease_expires_at": "2026-11-18T11:17:57.139267+00:00"
-      },
       "source": {
         "source_id": "35339716",
         "source_url": "https://sdilej.cz/35339716/9-1-1-s03e18-cz-dabing.mkv",
@@ -594566,7 +594560,17 @@
         },
         "display_name": "9-1-1 S03E18 What's Next? 720p CZ Dabing",
         "prepared_at": "2026-11-18T05:18:08.007009+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339716:https://sdilej.cz/35339716/9-1-1-s03e18-cz-dabing.mkv",
+        "at": "2026-11-18T05:18:21.626277+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T05:18:21.626329+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1217:3:10": {
       "episode_key": "pustiny:s3:e10",
@@ -594583,7 +594587,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:18:16.172046+00:00",
+  "updated_at": "2026-11-18T05:18:21.626335+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -595009,19 +595013,19 @@
     "1765": {
       "recent_failures": [
         {
-          "identity": "1765:3:14",
-          "at": "2026-11-18T05:17:19.619278+00:00"
-        },
-        {
           "identity": "1765:3:15",
           "at": "2026-11-18T05:17:44.059833+00:00"
         },
         {
           "identity": "1765:3:16",
           "at": "2026-11-18T05:17:52.956553+00:00"
+        },
+        {
+          "identity": "1765:3:18",
+          "at": "2026-11-18T05:18:21.626277+00:00"
         }
       ],
-      "retry_after": "2026-11-18T05:27:52.956553+00:00"
+      "retry_after": "2026-11-18T05:28:21.626277+00:00"
     },
     "792": {
       "recent_failures": [
