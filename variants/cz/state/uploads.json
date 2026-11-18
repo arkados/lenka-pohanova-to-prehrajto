@@ -623122,12 +623122,6 @@
     },
     "920:3:11": {
       "episode_key": "sběratelé kostí:s3:e11",
-      "claim": {
-        "worker_id": "e89aa7abd8a043ea96394d9c4ec2b874-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T19:21:54.478032+00:00",
-        "lease_expires_at": "2026-11-19T01:21:54.478049+00:00"
-      },
       "source": {
         "source_id": "35211920",
         "source_url": "https://sdilej.cz/35211920/sberatele-kosti-s03e11-2008-czdab.1080p-konec-hvezdy.mkv",
@@ -623152,22 +623146,29 @@
         "display_name": "Bones S03E11 Player Under Pressure 1080p CZ Dabing",
         "prepared_at": "2026-11-18T19:21:59.536651+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31158273",
-        "size_bytes": 1058256746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31158273",
-        "size_bytes": 1058256746,
-        "source_bytes_read": 1058256746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31158273",
         "source_bytes_read": 1058256746,
         "elapsed_seconds": 110.829,
         "finished_at": "2026-11-18T19:24:17.828229+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31158273",
+          "size_bytes": 1058256746,
+          "source_bytes_read": 1058256746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211920",
+        "source_url": "https://sdilej.cz/35211920/sberatele-kosti-s03e11-2008-czdab.1080p-konec-hvezdy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31158273",
+        "display_name": "Bones S03E11 Player Under Pressure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T19:24:25.317832+00:00"
       }
     },
     "920:3:12": {
@@ -623250,7 +623251,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T19:24:17.828250+00:00",
+  "updated_at": "2026-11-18T19:24:25.317850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
