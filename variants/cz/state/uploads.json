@@ -634531,12 +634531,6 @@
     },
     "1405:3:13": {
       "episode_key": "námořní vyšetřovací služba:s3:e13",
-      "claim": {
-        "worker_id": "77d04d9e612e4db1a6630ef6ec86c3ec-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-18T23:18:19.685026+00:00",
-        "lease_expires_at": "2026-11-19T05:18:19.685035+00:00"
-      },
       "source": {
         "source_id": "30585123",
         "source_url": "https://sdilej.cz/30585123/namorni-vysetrovaci-sluzba-s03e13.mkv",
@@ -634561,22 +634555,29 @@
         "display_name": "NCIS S03E13 Deception 1080p CZ Dabing",
         "prepared_at": "2026-11-18T23:18:29.028567+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31162748",
-        "size_bytes": 1002359065
-      },
-      "transfer_receipt": {
-        "target_video_id": "31162748",
-        "size_bytes": 1002359065,
-        "source_bytes_read": 1002359065,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31162748",
         "source_bytes_read": 1002359065,
         "elapsed_seconds": 78.288,
         "finished_at": "2026-11-18T23:20:07.914694+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31162748",
+          "size_bytes": 1002359065,
+          "source_bytes_read": 1002359065,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30585123",
+        "source_url": "https://sdilej.cz/30585123/namorni-vysetrovaci-sluzba-s03e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31162748",
+        "display_name": "NCIS S03E13 Deception 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T23:20:13.947984+00:00"
       }
     }
   },
@@ -634585,7 +634586,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T23:20:07.914712+00:00",
+  "updated_at": "2026-11-18T23:20:13.948000+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
