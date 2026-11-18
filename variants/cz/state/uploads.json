@@ -588747,12 +588747,6 @@
     },
     "4301:3:2": {
       "episode_key": "4 bloky:s3:e2",
-      "claim": {
-        "worker_id": "a8781c35d6ad400ab84cf777ab3016fd-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:11:17.271753+00:00",
-        "lease_expires_at": "2026-11-18T09:11:17.271768+00:00"
-      },
       "source": {
         "source_id": "32433956",
         "source_url": "https://sdilej.cz/32433956/4-bloky-s03e02-06-2019-cz-dab-1080p-cesta-penez.mkv",
@@ -588777,22 +588771,29 @@
         "display_name": "4 Blocks S03E02 Der Weg des Geldes 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:11:25.740689+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31138238",
-        "size_bytes": 3110334494
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138238",
-        "size_bytes": 3110334494,
-        "source_bytes_read": 3110334494,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138238",
         "source_bytes_read": 3110334494,
         "elapsed_seconds": 341.541,
         "finished_at": "2026-11-18T03:17:26.175098+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138238",
+          "size_bytes": 3110334494,
+          "source_bytes_read": 3110334494,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32433956",
+        "source_url": "https://sdilej.cz/32433956/4-bloky-s03e02-06-2019-cz-dab-1080p-cesta-penez.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138238",
+        "display_name": "4 Blocks S03E02 Der Weg des Geldes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:17:34.666570+00:00"
       }
     },
     "4301:3:3": {
@@ -588940,7 +588941,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:17:26.175126+00:00",
+  "updated_at": "2026-11-18T03:17:34.666589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
