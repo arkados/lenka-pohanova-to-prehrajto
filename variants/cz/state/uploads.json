@@ -585578,12 +585578,6 @@
     },
     "922:2:5": {
       "episode_key": "kazatel:s2:e5",
-      "claim": {
-        "worker_id": "43d35944cf3a4851a21aee31cb7b1501-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:24:48.417848+00:00",
-        "lease_expires_at": "2026-11-18T08:24:48.417862+00:00"
-      },
       "source": {
         "source_id": "32925141",
         "source_url": "https://sdilej.cz/32925141/kazatel-s02e05-dallas.mkv",
@@ -585608,22 +585602,29 @@
         "display_name": "Preacher S02E05 Dallas 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:24:52.885854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137324",
-        "size_bytes": 596915484
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137324",
-        "size_bytes": 596915484,
-        "source_bytes_read": 596915484,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137324",
         "source_bytes_read": 596915484,
         "elapsed_seconds": 69.11,
         "finished_at": "2026-11-18T02:26:17.576094+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137324",
+          "size_bytes": 596915484,
+          "source_bytes_read": 596915484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32925141",
+        "source_url": "https://sdilej.cz/32925141/kazatel-s02e05-dallas.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137324",
+        "display_name": "Preacher S02E05 Dallas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:26:23.503460+00:00"
       }
     },
     "922:2:6": {
@@ -585669,7 +585670,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:26:17.576116+00:00",
+  "updated_at": "2026-11-18T02:26:23.503480+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
