@@ -610982,12 +610982,6 @@
     },
     "2209:1:15": {
       "episode_key": "třetí hlídka:s1:e15",
-      "claim": {
-        "worker_id": "a752e7e4fdcc4cd290ed383642d2f033-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:39:12.666935+00:00",
-        "lease_expires_at": "2026-11-18T21:39:12.666951+00:00"
-      },
       "source": {
         "source_id": "32457665",
         "source_url": "https://sdilej.cz/32457665/treti-hlidka-s01e15-straznik-ve-hre-2000-hdtv-1080p-czdab.mkv",
@@ -611012,22 +611006,29 @@
         "display_name": "Third Watch S01E15 Officer Involved 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:39:17.293017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154569",
-        "size_bytes": 1727617038
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154569",
-        "size_bytes": 1727617038,
-        "source_bytes_read": 1727617038,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154569",
         "source_bytes_read": 1727617038,
         "elapsed_seconds": 140.616,
         "finished_at": "2026-11-18T15:42:08.282783+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154569",
+          "size_bytes": 1727617038,
+          "source_bytes_read": 1727617038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457665",
+        "source_url": "https://sdilej.cz/32457665/treti-hlidka-s01e15-straznik-ve-hre-2000-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154569",
+        "display_name": "Third Watch S01E15 Officer Involved 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:42:18.954255+00:00"
       }
     },
     "2209:1:16": {
@@ -611123,7 +611124,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:42:12.621403+00:00",
+  "updated_at": "2026-11-18T15:42:18.954279+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
