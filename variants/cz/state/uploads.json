@@ -608789,12 +608789,6 @@
     },
     "1195:1:4": {
       "episode_key": "exorcista:s1:e4",
-      "claim": {
-        "worker_id": "5075f587eed4496aab6e75ece806b7ec-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T14:27:41.580229+00:00",
-        "lease_expires_at": "2026-11-18T20:27:41.580245+00:00"
-      },
       "source": {
         "source_id": "29907180",
         "source_url": "https://sdilej.cz/29907180/exorcista-s01e04-1080p-cz-en-audio.mkv",
@@ -608819,22 +608813,29 @@
         "display_name": "The Exorcist S01E04 Chapter Four: The Moveable Feast 1080p CZ Dabing",
         "prepared_at": "2026-11-18T14:27:47.285351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31153301",
-        "size_bytes": 900034673
-      },
-      "transfer_receipt": {
-        "target_video_id": "31153301",
-        "size_bytes": 900034673,
-        "source_bytes_read": 900034673,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31153301",
         "source_bytes_read": 900034673,
         "elapsed_seconds": 386.247,
         "finished_at": "2026-11-18T14:34:31.460645+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31153301",
+          "size_bytes": 900034673,
+          "source_bytes_read": 900034673,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29907180",
+        "source_url": "https://sdilej.cz/29907180/exorcista-s01e04-1080p-cz-en-audio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31153301",
+        "display_name": "The Exorcist S01E04 Chapter Four: The Moveable Feast 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T14:34:45.714580+00:00"
       }
     },
     "1195:1:5": {
@@ -609066,7 +609067,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T14:34:41.374844+00:00",
+  "updated_at": "2026-11-18T14:34:45.714597+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
