@@ -581038,28 +581038,29 @@
           "at": "2026-11-18T03:17:48.186258+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d5d9e2b64bc54e828c3d29e49f632dd7-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:17:51.802797+00:00",
-        "lease_expires_at": "2026-11-18T09:17:51.802812+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31138356",
-        "size_bytes": 461772384
-      },
-      "transfer_receipt": {
-        "target_video_id": "31138356",
-        "size_bytes": 461772384,
-        "source_bytes_read": 461772384,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31138356",
         "source_bytes_read": 461772384,
         "elapsed_seconds": 25.419,
         "finished_at": "2026-11-18T03:18:38.481987+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31138356",
+          "size_bytes": 461772384,
+          "source_bytes_read": 461772384,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32115245",
+        "source_url": "https://sdilej.cz/32115245/kral-tulsy-s03e04-fhd-1080p-cz-en-zirani-dolu-do-hlavne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31138356",
+        "display_name": "Tulsa King S03E04 Staring Down the Barrel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T03:18:44.853885+00:00"
       }
     },
     "3618:1:3": {
@@ -588970,7 +588971,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:18:38.482009+00:00",
+  "updated_at": "2026-11-18T03:18:44.853904+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
