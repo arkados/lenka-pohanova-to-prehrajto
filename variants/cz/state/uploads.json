@@ -601531,12 +601531,6 @@
     },
     "1967:10:3": {
       "episode_key": "vraždy v midsomeru:s10:e3",
-      "claim": {
-        "worker_id": "9130ec9a63894932af9aba1fe9c112e9-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T10:18:42.479153+00:00",
-        "lease_expires_at": "2026-11-18T16:18:42.479164+00:00"
-      },
       "source": {
         "source_id": "27575340",
         "source_url": "https://sdilej.cz/27575340/vrazdy-v-midsomeru-s10e03-skleneny-kral.mkv",
@@ -601561,22 +601555,29 @@
         "display_name": "Midsomer Murders S10E03 The King's Crystal 1080p CZ Dabing",
         "prepared_at": "2026-11-18T10:18:47.246887+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31148103",
-        "size_bytes": 2012482958
-      },
-      "transfer_receipt": {
-        "target_video_id": "31148103",
-        "size_bytes": 2012482958,
-        "source_bytes_read": 2012482958,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31148103",
         "source_bytes_read": 2012482958,
         "elapsed_seconds": 514.093,
         "finished_at": "2026-11-18T10:27:37.565371+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31148103",
+          "size_bytes": 2012482958,
+          "source_bytes_read": 2012482958,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27575340",
+        "source_url": "https://sdilej.cz/27575340/vrazdy-v-midsomeru-s10e03-skleneny-kral.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31148103",
+        "display_name": "Midsomer Murders S10E03 The King's Crystal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T10:27:45.047276+00:00"
       }
     },
     "1967:10:4": {
@@ -601659,7 +601660,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T10:27:37.565390+00:00",
+  "updated_at": "2026-11-18T10:27:45.047294+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
