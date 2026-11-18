@@ -618604,12 +618604,6 @@
     },
     "1117:4:3": {
       "episode_key": "nová holka:s4:e3",
-      "claim": {
-        "worker_id": "b2a2d3c6d314446db4bab067e0165608-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:13:36.479535+00:00",
-        "lease_expires_at": "2026-11-19T00:13:36.479551+00:00"
-      },
       "source": {
         "source_id": "9567115",
         "source_url": "https://sdilej.cz/9567115/nova-holka-04x03-cz.avi",
@@ -618634,22 +618628,29 @@
         "display_name": "New Girl S04E03 Julie Berkman's Older Sister SD CZ Dabing",
         "prepared_at": "2026-11-18T18:13:56.828785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157037",
-        "size_bytes": 186002718
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157037",
-        "size_bytes": 186002718,
-        "source_bytes_read": 186002718,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157037",
         "source_bytes_read": 186002718,
         "elapsed_seconds": 15.891,
         "finished_at": "2026-11-18T18:14:44.467297+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157037",
+          "size_bytes": 186002718,
+          "source_bytes_read": 186002718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9567115",
+        "source_url": "https://sdilej.cz/9567115/nova-holka-04x03-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157037",
+        "display_name": "New Girl S04E03 Julie Berkman's Older Sister SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:14:55.402107+00:00"
       }
     },
     "1117:4:6": {
@@ -618695,7 +618696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:14:49.694740+00:00",
+  "updated_at": "2026-11-18T18:14:55.402128+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
