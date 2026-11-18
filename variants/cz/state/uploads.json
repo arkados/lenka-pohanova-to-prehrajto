@@ -586688,12 +586688,6 @@
     },
     "922:3:1": {
       "episode_key": "kazatel:s3:e1",
-      "claim": {
-        "worker_id": "fcc63c78db0d429b9b99101e555dee0b-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:43:13.478844+00:00",
-        "lease_expires_at": "2026-11-18T08:43:13.478857+00:00"
-      },
       "source": {
         "source_id": "33820195",
         "source_url": "https://sdilej.cz/33820195/kazatel-s03e01-cz-dabing-1080p-full-hd.mkv",
@@ -586717,7 +586711,17 @@
         },
         "display_name": "Preacher S03E01 Angelville 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:43:21.363131+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820195:https://sdilej.cz/33820195/kazatel-s03e01-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T02:43:34.025509+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T02:43:34.025550+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -586725,7 +586729,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:43:26.282197+00:00",
+  "updated_at": "2026-11-18T02:43:34.025554+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -587154,16 +587158,8 @@
     "922": {
       "recent_failures": [
         {
-          "identity": "922:1:4",
-          "at": "2026-11-18T02:23:35.225211+00:00"
-        },
-        {
-          "identity": "922:1:6",
-          "at": "2026-11-18T02:24:38.790348+00:00"
-        },
-        {
-          "identity": "922:1:10",
-          "at": "2026-11-18T02:26:49.314688+00:00"
+          "identity": "922:3:1",
+          "at": "2026-11-18T02:43:34.025509+00:00"
         }
       ],
       "retry_after": "2026-11-18T02:36:49.314688+00:00"
