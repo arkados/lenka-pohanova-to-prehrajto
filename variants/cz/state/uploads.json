@@ -605219,12 +605219,6 @@
     },
     "576:2:8": {
       "episode_key": "tým seal:s2:e8",
-      "claim": {
-        "worker_id": "1e825646e1d94d81bb733820ef9e8da3-worker-0",
-        "run_id": "44293155618",
-        "claimed_at": "2026-11-18T12:47:08.809675+00:00",
-        "lease_expires_at": "2026-11-18T18:47:08.809691+00:00"
-      },
       "source": {
         "source_id": "29680121",
         "source_url": "https://sdilej.cz/29680121/seal-team-s02e08-1080p-cz-dabing.mkv",
@@ -605249,22 +605243,29 @@
         "display_name": "SEAL Team S02E08 Parallax 1080p CZ Dabing",
         "prepared_at": "2026-11-18T12:47:19.255600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31151506",
-        "size_bytes": 798551260
-      },
-      "transfer_receipt": {
-        "target_video_id": "31151506",
-        "size_bytes": 798551260,
-        "source_bytes_read": 798551260,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31151506",
         "source_bytes_read": 798551260,
         "elapsed_seconds": 226.22,
         "finished_at": "2026-11-18T12:51:27.823443+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31151506",
+          "size_bytes": 798551260,
+          "source_bytes_read": 798551260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29680121",
+        "source_url": "https://sdilej.cz/29680121/seal-team-s02e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31151506",
+        "display_name": "SEAL Team S02E08 Parallax 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T12:51:38.541472+00:00"
       }
     },
     "576:2:9": {
@@ -605310,7 +605311,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T12:51:32.127976+00:00",
+  "updated_at": "2026-11-18T12:51:38.541491+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
