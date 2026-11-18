@@ -613481,12 +613481,6 @@
     },
     "58:2:8": {
       "episode_key": "zaklínač:s2:e8",
-      "claim": {
-        "worker_id": "3299a6608af948dc9ffb2dd086d4a8c1-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:25:41.608867+00:00",
-        "lease_expires_at": "2026-11-18T22:25:41.608882+00:00"
-      },
       "source": {
         "source_id": "32452971",
         "source_url": "https://sdilej.cz/32452971/zaklinac-s02e08-rodina.mkv",
@@ -613511,22 +613505,29 @@
         "display_name": "The Witcher S02E08 Family 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:25:46.612468+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155346",
-        "size_bytes": 2521749096
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155346",
-        "size_bytes": 2521749096,
-        "source_bytes_read": 2521749096,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155346",
         "source_bytes_read": 2521749096,
         "elapsed_seconds": 172.109,
         "finished_at": "2026-11-18T16:28:59.309915+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155346",
+          "size_bytes": 2521749096,
+          "source_bytes_read": 2521749096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452971",
+        "source_url": "https://sdilej.cz/32452971/zaklinac-s02e08-rodina.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155346",
+        "display_name": "The Witcher S02E08 Family 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:29:07.324367+00:00"
       }
     },
     "58:3:1": {
@@ -613609,7 +613610,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:28:59.309934+00:00",
+  "updated_at": "2026-11-18T16:29:07.324390+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
