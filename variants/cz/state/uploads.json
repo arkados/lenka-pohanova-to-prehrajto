@@ -614150,12 +614150,6 @@
     },
     "58:4:5": {
       "episode_key": "zaklínač:s4:e5",
-      "claim": {
-        "worker_id": "68387fa16c2a40eea57ae475ba24105a-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T16:42:35.226528+00:00",
-        "lease_expires_at": "2026-11-18T22:42:35.226546+00:00"
-      },
       "source": {
         "source_id": "32271795",
         "source_url": "https://sdilej.cz/32271795/zaklinac-2025-s04e05-czdab-uhd-radost-z-vareni.mkv",
@@ -614180,22 +614174,29 @@
         "display_name": "The Witcher S04E05 The Joy of Cooking 4K CZ Dabing",
         "prepared_at": "2026-11-18T16:42:40.202009+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31155682",
-        "size_bytes": 2548254617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31155682",
-        "size_bytes": 2548254617,
-        "source_bytes_read": 2548254617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31155682",
         "source_bytes_read": 2548254617,
         "elapsed_seconds": 180.716,
         "finished_at": "2026-11-18T16:46:02.765291+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31155682",
+          "size_bytes": 2548254617,
+          "source_bytes_read": 2548254617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32271795",
+        "source_url": "https://sdilej.cz/32271795/zaklinac-2025-s04e05-czdab-uhd-radost-z-vareni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31155682",
+        "display_name": "The Witcher S04E05 The Joy of Cooking 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T16:46:24.678400+00:00"
       }
     },
     "58:4:6": {
@@ -614255,7 +614256,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T16:46:19.932215+00:00",
+  "updated_at": "2026-11-18T16:46:24.678420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
