@@ -611899,12 +611899,6 @@
     },
     "2209:3:10": {
       "episode_key": "třetí hlídka:s3:e10",
-      "claim": {
-        "worker_id": "003dbdaf466a4fb097b4811090729900-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:57:54.319861+00:00",
-        "lease_expires_at": "2026-11-18T21:57:54.319877+00:00"
-      },
       "source": {
         "source_id": "11989578",
         "source_url": "https://sdilej.cz/11989578/treti-hlidka-s03e10-zmena.avi",
@@ -611929,22 +611923,29 @@
         "display_name": "Third Watch S03E10 Old Dogs, New Tricks SD CZ Dabing",
         "prepared_at": "2026-11-18T15:57:59.247470+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154881",
-        "size_bytes": 419577856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154881",
-        "size_bytes": 419577856,
-        "source_bytes_read": 419577856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154881",
         "source_bytes_read": 419577856,
         "elapsed_seconds": 30.168,
         "finished_at": "2026-11-18T15:58:51.664374+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154881",
+          "size_bytes": 419577856,
+          "source_bytes_read": 419577856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11989578",
+        "source_url": "https://sdilej.cz/11989578/treti-hlidka-s03e10-zmena.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154881",
+        "display_name": "Third Watch S03E10 Old Dogs, New Tricks SD CZ Dabing",
+        "uploaded_at": "2026-11-18T15:59:09.094206+00:00"
       }
     },
     "2209:3:11": {
@@ -611990,7 +611991,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:59:04.585847+00:00",
+  "updated_at": "2026-11-18T15:59:09.094229+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
