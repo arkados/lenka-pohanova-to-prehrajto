@@ -586212,12 +586212,6 @@
     },
     "650:1:6": {
       "episode_key": "jednotka:s1:e6",
-      "claim": {
-        "worker_id": "38d6aee5adf345cfbbb081ff7a563f0d-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:34:58.285811+00:00",
-        "lease_expires_at": "2026-11-18T08:34:58.285828+00:00"
-      },
       "source": {
         "source_id": "32383266",
         "source_url": "https://sdilej.cz/32383266/jednotka-s01e06-cz-dab-za-hranicemi-predstav-o-dobru-a-zlu-tece-reka-av1-bytrx.mkv",
@@ -586242,22 +586236,29 @@
         "display_name": "Task S01E06 Out beyond ideas of wrongdoing and rightdoing, there is a river. 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:35:02.968502+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137482",
-        "size_bytes": 723878491
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137482",
-        "size_bytes": 723878491,
-        "source_bytes_read": 723878491,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137482",
         "source_bytes_read": 723878491,
         "elapsed_seconds": 103.473,
         "finished_at": "2026-11-18T02:37:06.039644+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137482",
+          "size_bytes": 723878491,
+          "source_bytes_read": 723878491,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32383266",
+        "source_url": "https://sdilej.cz/32383266/jednotka-s01e06-cz-dab-za-hranicemi-predstav-o-dobru-a-zlu-tece-reka-av1-bytrx.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137482",
+        "display_name": "Task S01E06 Out beyond ideas of wrongdoing and rightdoing, there is a river. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:37:18.098856+00:00"
       }
     },
     "650:1:7": {
@@ -586368,7 +586369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:37:13.807314+00:00",
+  "updated_at": "2026-11-18T02:37:18.098868+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
