@@ -597278,12 +597278,6 @@
     },
     "4102:2:4": {
       "episode_key": "scooby-doo na stopě:s2:e4",
-      "claim": {
-        "worker_id": "c631961b0c074a7abd899265f44efa80-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:40:36.538620+00:00",
-        "lease_expires_at": "2026-11-18T12:40:36.538635+00:00"
-      },
       "source": {
         "source_id": "28552455",
         "source_url": "https://sdilej.cz/28552455/scooby-doo-na-stope-2x04-ledova-hruza.avi",
@@ -597308,22 +597302,29 @@
         "display_name": "Scooby-Doo, Where Are You! S02E04 Jeepers, It's the Creeper SD CZ Dabing",
         "prepared_at": "2026-11-18T06:40:50.108444+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31143030",
-        "size_bytes": 154076808
-      },
-      "transfer_receipt": {
-        "target_video_id": "31143030",
-        "size_bytes": 154076808,
-        "source_bytes_read": 154076808,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31143030",
         "source_bytes_read": 154076808,
         "elapsed_seconds": 21.11,
         "finished_at": "2026-11-18T06:41:44.145800+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31143030",
+          "size_bytes": 154076808,
+          "source_bytes_read": 154076808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28552455",
+        "source_url": "https://sdilej.cz/28552455/scooby-doo-na-stope-2x04-ledova-hruza.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31143030",
+        "display_name": "Scooby-Doo, Where Are You! S02E04 Jeepers, It's the Creeper SD CZ Dabing",
+        "uploaded_at": "2026-11-18T06:41:59.165369+00:00"
       }
     },
     "4102:2:5": {
@@ -597406,7 +597407,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:41:53.536165+00:00",
+  "updated_at": "2026-11-18T06:41:59.165387+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
