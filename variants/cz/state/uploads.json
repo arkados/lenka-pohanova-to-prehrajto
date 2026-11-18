@@ -589628,12 +589628,6 @@
     },
     "922:4:6": {
       "episode_key": "kazatel:s4:e6",
-      "claim": {
-        "worker_id": "0ceb8e364c2742b5abfd4df7f85f005e-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T03:42:42.050936+00:00",
-        "lease_expires_at": "2026-11-18T09:42:42.050951+00:00"
-      },
       "source": {
         "source_id": "33820300",
         "source_url": "https://sdilej.cz/33820300/kazatel-s04e06-cz-dabing-1080p-full-hd.mkv",
@@ -589657,7 +589651,17 @@
         },
         "display_name": "Preacher S04E06 The Lost Apostle 1080p CZ Dabing",
         "prepared_at": "2026-11-18T03:42:54.583618+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33820300:https://sdilej.cz/33820300/kazatel-s04e06-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-18T03:43:07.071305+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-18T03:43:07.071337+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -589665,7 +589669,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T03:42:59.762335+00:00",
+  "updated_at": "2026-11-18T03:43:07.071341+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -590092,6 +590096,10 @@
         {
           "identity": "922:3:3",
           "at": "2026-11-18T03:42:50.130755+00:00"
+        },
+        {
+          "identity": "922:4:6",
+          "at": "2026-11-18T03:43:07.071305+00:00"
         }
       ],
       "retry_after": "2026-11-18T03:21:07.914786+00:00"
