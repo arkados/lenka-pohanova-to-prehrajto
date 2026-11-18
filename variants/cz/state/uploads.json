@@ -594815,12 +594815,6 @@
     },
     "1217:3:15": {
       "episode_key": "pustiny:s3:e15",
-      "claim": {
-        "worker_id": "e803bd2db28843aca56a5c0ffe965351-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T05:23:46.046942+00:00",
-        "lease_expires_at": "2026-11-18T11:23:46.046955+00:00"
-      },
       "source": {
         "source_id": "30660687",
         "source_url": "https://sdilej.cz/30660687/pustiny-into-the-badlands-s03e15.cz.mkv",
@@ -594845,22 +594839,29 @@
         "display_name": "Into the Badlands S03E15 Requiem for the Fallen 1080p CZ Dabing",
         "prepared_at": "2026-11-18T05:23:50.916060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31141478",
-        "size_bytes": 871111185
-      },
-      "transfer_receipt": {
-        "target_video_id": "31141478",
-        "size_bytes": 871111185,
-        "source_bytes_read": 871111185,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31141478",
         "source_bytes_read": 871111185,
         "elapsed_seconds": 119.82,
         "finished_at": "2026-11-18T05:26:11.133107+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31141478",
+          "size_bytes": 871111185,
+          "source_bytes_read": 871111185,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660687",
+        "source_url": "https://sdilej.cz/30660687/pustiny-into-the-badlands-s03e15.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31141478",
+        "display_name": "Into the Badlands S03E15 Requiem for the Fallen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T05:26:19.704383+00:00"
       }
     },
     "1217:3:16": {
@@ -594902,7 +594903,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T05:26:15.775962+00:00",
+  "updated_at": "2026-11-18T05:26:19.704398+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
