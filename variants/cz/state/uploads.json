@@ -586447,12 +586447,6 @@
     },
     "922:2:9": {
       "episode_key": "kazatel:s2:e9",
-      "claim": {
-        "worker_id": "8b2187eaa2af44c5b40d33b0ef2006b6-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T02:39:05.181557+00:00",
-        "lease_expires_at": "2026-11-18T08:39:05.181571+00:00"
-      },
       "source": {
         "source_id": "32924952",
         "source_url": "https://sdilej.cz/32924952/kazatel-s02e09-puzzle-piece.mkv",
@@ -586477,22 +586471,29 @@
         "display_name": "Preacher S02E09 Puzzle Piece 1080p CZ Dabing",
         "prepared_at": "2026-11-18T02:39:09.866617+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31137544",
-        "size_bytes": 611195574
-      },
-      "transfer_receipt": {
-        "target_video_id": "31137544",
-        "size_bytes": 611195574,
-        "source_bytes_read": 611195574,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31137544",
         "source_bytes_read": 611195574,
         "elapsed_seconds": 66.104,
         "finished_at": "2026-11-18T02:40:37.772518+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31137544",
+          "size_bytes": 611195574,
+          "source_bytes_read": 611195574,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32924952",
+        "source_url": "https://sdilej.cz/32924952/kazatel-s02e09-puzzle-piece.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31137544",
+        "display_name": "Preacher S02E09 Puzzle Piece 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T02:40:44.363348+00:00"
       }
     }
   },
@@ -586501,7 +586502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T02:40:37.772539+00:00",
+  "updated_at": "2026-11-18T02:40:44.363368+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
