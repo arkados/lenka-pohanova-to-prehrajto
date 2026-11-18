@@ -601837,12 +601837,6 @@
     },
     "1967:14:8": {
       "episode_key": "vraždy v midsomeru:s14:e8",
-      "claim": {
-        "worker_id": "bffee010f72c4bbc92fad19ee7facde1-worker-0",
-        "run_id": "44260613984",
-        "claimed_at": "2026-11-18T10:36:51.110540+00:00",
-        "lease_expires_at": "2026-11-18T16:36:51.110550+00:00"
-      },
       "source": {
         "source_id": "27587927",
         "source_url": "https://sdilej.cz/27587927/vrazdy-v-midsomeru-s14e08-milovnici-vzacneho-ptactva-bila-a-cerna-labut-.mkv",
@@ -601867,22 +601861,29 @@
         "display_name": "Midsomer Murders S14E08 A Rare Bird 1080p CZ Dabing",
         "prepared_at": "2026-11-18T10:36:55.642091+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31148748",
-        "size_bytes": 1926638475
-      },
-      "transfer_receipt": {
-        "target_video_id": "31148748",
-        "size_bytes": 1926638475,
-        "source_bytes_read": 1926638475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31148748",
         "source_bytes_read": 1926638475,
         "elapsed_seconds": 563.043,
         "finished_at": "2026-11-18T10:46:34.531886+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31148748",
+          "size_bytes": 1926638475,
+          "source_bytes_read": 1926638475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27587927",
+        "source_url": "https://sdilej.cz/27587927/vrazdy-v-midsomeru-s14e08-milovnici-vzacneho-ptactva-bila-a-cerna-labut-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31148748",
+        "display_name": "Midsomer Murders S14E08 A Rare Bird 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T10:46:45.497813+00:00"
       }
     },
     "1967:18:1": {
@@ -602015,7 +602016,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T10:46:38.967113+00:00",
+  "updated_at": "2026-11-18T10:46:45.497832+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
