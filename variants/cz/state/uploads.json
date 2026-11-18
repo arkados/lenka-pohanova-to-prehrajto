@@ -619505,12 +619505,6 @@
     },
     "1117:5:12": {
       "episode_key": "nová holka:s5:e12",
-      "claim": {
-        "worker_id": "5482c7f9091f4fa0a1ffb17eb9fd0ada-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T18:27:51.026518+00:00",
-        "lease_expires_at": "2026-11-19T00:27:51.026536+00:00"
-      },
       "source": {
         "source_id": "7992891",
         "source_url": "https://sdilej.cz/7992891/nova.holka.05x12.dvb-t.cz.avi",
@@ -619535,22 +619529,29 @@
         "display_name": "New Girl S05E12 D-Day SD CZ Dabing",
         "prepared_at": "2026-11-18T18:28:01.426040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157221",
-        "size_bytes": 331882550
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157221",
-        "size_bytes": 331882550,
-        "source_bytes_read": 331882550,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157221",
         "source_bytes_read": 331882550,
         "elapsed_seconds": 19.572,
         "finished_at": "2026-11-18T18:28:52.992630+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157221",
+          "size_bytes": 331882550,
+          "source_bytes_read": 331882550,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7992891",
+        "source_url": "https://sdilej.cz/7992891/nova.holka.05x12.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157221",
+        "display_name": "New Girl S05E12 D-Day SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:29:06.761254+00:00"
       }
     }
   },
@@ -619559,7 +619560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:29:02.328148+00:00",
+  "updated_at": "2026-11-18T18:29:06.761272+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
