@@ -626244,12 +626244,6 @@
     },
     "920:7:9": {
       "episode_key": "sběratelé kostí:s7:e9",
-      "claim": {
-        "worker_id": "67b39e922f9b4e2db8c89bb88e7e348a-worker-0",
-        "run_id": "44368824209",
-        "claimed_at": "2026-11-18T20:19:05.772696+00:00",
-        "lease_expires_at": "2026-11-19T02:19:05.772716+00:00"
-      },
       "source": {
         "source_id": "29543801",
         "source_url": "https://sdilej.cz/29543801/sberatele-kosti-07x09.avi",
@@ -626274,22 +626268,29 @@
         "display_name": "Bones S07E09 The Don't in the Do SD CZ Dabing",
         "prepared_at": "2026-11-18T20:19:23.795317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31159195",
-        "size_bytes": 277448868
-      },
-      "transfer_receipt": {
-        "target_video_id": "31159195",
-        "size_bytes": 277448868,
-        "source_bytes_read": 277448868,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31159195",
         "source_bytes_read": 277448868,
         "elapsed_seconds": 18.44,
         "finished_at": "2026-11-18T20:20:08.688841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31159195",
+          "size_bytes": 277448868,
+          "source_bytes_read": 277448868,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29543801",
+        "source_url": "https://sdilej.cz/29543801/sberatele-kosti-07x09.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31159195",
+        "display_name": "Bones S07E09 The Don't in the Do SD CZ Dabing",
+        "uploaded_at": "2026-11-18T20:20:23.030188+00:00"
       }
     }
   },
@@ -626298,7 +626299,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T20:20:18.549033+00:00",
+  "updated_at": "2026-11-18T20:20:23.030206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
