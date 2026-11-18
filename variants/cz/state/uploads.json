@@ -596105,12 +596105,6 @@
     },
     "315:2:3": {
       "episode_key": "ted:s2:e3",
-      "claim": {
-        "worker_id": "0af604348ad14161881bb0007f9d879f-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T06:09:43.938170+00:00",
-        "lease_expires_at": "2026-11-18T12:09:43.938183+00:00"
-      },
       "source": {
         "source_id": "34085009",
         "source_url": "https://sdilej.cz/34085009/ted-s02e03-kobky-a-dealeri.mkv",
@@ -596135,22 +596129,29 @@
         "display_name": "ted S02E03 Dungeons & Dealers 4K CZ Dabing",
         "prepared_at": "2026-11-18T06:09:48.812691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31142468",
-        "size_bytes": 1426864687
-      },
-      "transfer_receipt": {
-        "target_video_id": "31142468",
-        "size_bytes": 1426864687,
-        "source_bytes_read": 1426864687,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31142468",
         "source_bytes_read": 1426864687,
         "elapsed_seconds": 353.301,
         "finished_at": "2026-11-18T06:16:00.641088+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31142468",
+          "size_bytes": 1426864687,
+          "source_bytes_read": 1426864687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34085009",
+        "source_url": "https://sdilej.cz/34085009/ted-s02e03-kobky-a-dealeri.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31142468",
+        "display_name": "ted S02E03 Dungeons & Dealers 4K CZ Dabing",
+        "uploaded_at": "2026-11-18T06:16:08.438436+00:00"
       }
     },
     "315:2:4": {
@@ -596233,7 +596234,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T06:16:00.641108+00:00",
+  "updated_at": "2026-11-18T06:16:08.438454+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
