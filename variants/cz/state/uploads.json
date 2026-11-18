@@ -610917,12 +610917,6 @@
     },
     "2209:1:14": {
       "episode_key": "třetí hlídka:s1:e14",
-      "claim": {
-        "worker_id": "c765025b9ac84d168d8fc79f51e6693d-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:37:18.493554+00:00",
-        "lease_expires_at": "2026-11-18T21:37:18.493570+00:00"
-      },
       "source": {
         "source_id": "32457339",
         "source_url": "https://sdilej.cz/32457339/treti-hlidka-s01e14-32-kulek-a-zlomene-srdce-2000-hdtv-1080p-czdab.mkv",
@@ -610947,22 +610941,29 @@
         "display_name": "Third Watch S01E14 32 Bullets and a Broken Heart 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:37:23.047296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154546",
-        "size_bytes": 1756287721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154546",
-        "size_bytes": 1756287721,
-        "source_bytes_read": 1756287721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154546",
         "source_bytes_read": 1756287721,
         "elapsed_seconds": 95.775,
         "finished_at": "2026-11-18T15:39:21.297070+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154546",
+          "size_bytes": 1756287721,
+          "source_bytes_read": 1756287721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457339",
+        "source_url": "https://sdilej.cz/32457339/treti-hlidka-s01e14-32-kulek-a-zlomene-srdce-2000-hdtv-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154546",
+        "display_name": "Third Watch S01E14 32 Bullets and a Broken Heart 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:39:38.188366+00:00"
       }
     },
     "2209:1:15": {
@@ -611007,7 +611008,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:39:28.688774+00:00",
+  "updated_at": "2026-11-18T15:39:38.188387+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
