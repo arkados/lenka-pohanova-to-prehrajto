@@ -618352,12 +618352,6 @@
     },
     "1117:3:13": {
       "episode_key": "nová holka:s3:e13",
-      "claim": {
-        "worker_id": "a68b13a4e3e940d49b7997c134785c61-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:11:24.271146+00:00",
-        "lease_expires_at": "2026-11-19T00:11:24.271162+00:00"
-      },
       "source": {
         "source_id": "33264707",
         "source_url": "https://sdilej.cz/33264707/nova-holka-s03e13-cz.avi",
@@ -618382,22 +618376,29 @@
         "display_name": "New Girl S03E13 Birthday SD CZ Dabing",
         "prepared_at": "2026-11-18T18:11:34.628521+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31156992",
-        "size_bytes": 187145964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31156992",
-        "size_bytes": 187145964,
-        "source_bytes_read": 187145964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31156992",
         "source_bytes_read": 187145964,
         "elapsed_seconds": 12.145,
         "finished_at": "2026-11-18T18:12:15.825169+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31156992",
+          "size_bytes": 187145964,
+          "source_bytes_read": 187145964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33264707",
+        "source_url": "https://sdilej.cz/33264707/nova-holka-s03e13-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31156992",
+        "display_name": "New Girl S03E13 Birthday SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:12:30.968638+00:00"
       }
     },
     "1117:3:15": {
@@ -618480,7 +618481,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:12:25.674478+00:00",
+  "updated_at": "2026-11-18T18:12:30.968670+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
