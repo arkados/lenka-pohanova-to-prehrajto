@@ -592508,12 +592508,6 @@
     },
     "1275:1:4": {
       "episode_key": "já a robot:s1:e4",
-      "claim": {
-        "worker_id": "a9606700d0c04a09a2b1e8479c6606ec-worker-0",
-        "run_id": "44226592468",
-        "claimed_at": "2026-11-18T04:35:01.701843+00:00",
-        "lease_expires_at": "2026-11-18T10:35:01.701863+00:00"
-      },
       "source": {
         "source_id": "34330103",
         "source_url": "https://sdilej.cz/34330103/almost-human-01x04-cz-dab-.mp4",
@@ -592538,22 +592532,29 @@
         "display_name": "Almost Human S01E04 The Bends 720p CZ Dabing",
         "prepared_at": "2026-11-18T04:35:15.807840+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31140335",
-        "size_bytes": 514810854
-      },
-      "transfer_receipt": {
-        "target_video_id": "31140335",
-        "size_bytes": 514810854,
-        "source_bytes_read": 514810854,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31140335",
         "source_bytes_read": 514810854,
         "elapsed_seconds": 46.534,
         "finished_at": "2026-11-18T04:36:31.980368+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31140335",
+          "size_bytes": 514810854,
+          "source_bytes_read": 514810854,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34330103",
+        "source_url": "https://sdilej.cz/34330103/almost-human-01x04-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31140335",
+        "display_name": "Almost Human S01E04 The Bends 720p CZ Dabing",
+        "uploaded_at": "2026-11-18T04:36:38.536104+00:00"
       }
     },
     "1275:1:5": {
@@ -592599,7 +592600,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T04:36:31.980388+00:00",
+  "updated_at": "2026-11-18T04:36:38.536123+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
