@@ -618553,12 +618553,6 @@
     },
     "1117:4:2": {
       "episode_key": "nová holka:s4:e2",
-      "claim": {
-        "worker_id": "4d4943cdb6cb466ca095d7011e361b8d-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T18:13:25.908502+00:00",
-        "lease_expires_at": "2026-11-19T00:13:25.908521+00:00"
-      },
       "source": {
         "source_id": "28235278",
         "source_url": "https://sdilej.cz/28235278/new.girl.s04e02.dvb-t.cz.avi",
@@ -618583,22 +618577,29 @@
         "display_name": "New Girl S04E02 Dice SD CZ Dabing",
         "prepared_at": "2026-11-18T18:13:30.805925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31157028",
-        "size_bytes": 337704482
-      },
-      "transfer_receipt": {
-        "target_video_id": "31157028",
-        "size_bytes": 337704482,
-        "source_bytes_read": 337704482,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31157028",
         "source_bytes_read": 337704482,
         "elapsed_seconds": 26.118,
         "finished_at": "2026-11-18T18:14:26.112093+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31157028",
+          "size_bytes": 337704482,
+          "source_bytes_read": 337704482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28235278",
+        "source_url": "https://sdilej.cz/28235278/new.girl.s04e02.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31157028",
+        "display_name": "New Girl S04E02 Dice SD CZ Dabing",
+        "uploaded_at": "2026-11-18T18:14:35.271792+00:00"
       }
     },
     "1117:4:3": {
@@ -618677,7 +618678,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T18:14:30.950938+00:00",
+  "updated_at": "2026-11-18T18:14:35.271819+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
