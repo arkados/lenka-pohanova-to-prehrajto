@@ -582061,12 +582061,6 @@
     },
     "590:1:1": {
       "episode_key": "smrt nás spojí:s1:e1",
-      "claim": {
-        "worker_id": "1487af18b4c84635ae16eb00a8330328-worker-0",
-        "run_id": "44174084538",
-        "claimed_at": "2026-11-18T01:23:35.174302+00:00",
-        "lease_expires_at": "2026-11-18T07:23:35.174316+00:00"
-      },
       "source": {
         "source_id": "11979329",
         "source_url": "https://sdilej.cz/11979329/dead.to.me.s01e01.1080p.nf.webrip.ddp5.1.x264.cz.dabing.mkv",
@@ -582091,22 +582085,29 @@
         "display_name": "Dead to Me S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-18T01:23:43.464602+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31135865",
-        "size_bytes": 2326854110
-      },
-      "transfer_receipt": {
-        "target_video_id": "31135865",
-        "size_bytes": 2326854110,
-        "source_bytes_read": 2326854110,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31135865",
         "source_bytes_read": 2326854110,
         "elapsed_seconds": 201.921,
         "finished_at": "2026-11-18T01:27:23.170504+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31135865",
+          "size_bytes": 2326854110,
+          "source_bytes_read": 2326854110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11979329",
+        "source_url": "https://sdilej.cz/11979329/dead.to.me.s01e01.1080p.nf.webrip.ddp5.1.x264.cz.dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31135865",
+        "display_name": "Dead to Me S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T01:27:30.474880+00:00"
       }
     },
     "590:1:2": {
@@ -582203,7 +582204,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T01:27:23.170525+00:00",
+  "updated_at": "2026-11-18T01:27:30.474900+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
