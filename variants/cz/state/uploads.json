@@ -610268,12 +610268,6 @@
     },
     "2209:1:1": {
       "episode_key": "třetí hlídka:s1:e1",
-      "claim": {
-        "worker_id": "c096b110c8ad48249343d3fc1dc86aa3-worker-0",
-        "run_id": "44296786071",
-        "claimed_at": "2026-11-18T15:24:56.928886+00:00",
-        "lease_expires_at": "2026-11-18T21:24:56.928901+00:00"
-      },
       "source": {
         "source_id": "32739443",
         "source_url": "https://sdilej.cz/32739443/treti-hlidka-s01e01-vitejte-na-camelotu-1999-.mp4",
@@ -610298,22 +610292,29 @@
         "display_name": "Third Watch S01E01 Welcome to Camelot 1080p CZ Dabing",
         "prepared_at": "2026-11-18T15:25:01.622742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31154340",
-        "size_bytes": 1197658029
-      },
-      "transfer_receipt": {
-        "target_video_id": "31154340",
-        "size_bytes": 1197658029,
-        "source_bytes_read": 1197658029,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31154340",
         "source_bytes_read": 1197658029,
         "elapsed_seconds": 83.724,
         "finished_at": "2026-11-18T15:26:41.990000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31154340",
+          "size_bytes": 1197658029,
+          "source_bytes_read": 1197658029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32739443",
+        "source_url": "https://sdilej.cz/32739443/treti-hlidka-s01e01-vitejte-na-camelotu-1999-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31154340",
+        "display_name": "Third Watch S01E01 Welcome to Camelot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-18T15:27:00.017454+00:00"
       }
     },
     "2209:1:2": {
@@ -610395,7 +610396,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-18T15:26:55.733351+00:00",
+  "updated_at": "2026-11-18T15:27:00.017471+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
