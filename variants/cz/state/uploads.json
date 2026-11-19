@@ -657663,12 +657663,6 @@
     },
     "940:3:7": {
       "episode_key": "jmenuju se earl:s3:e7",
-      "claim": {
-        "worker_id": "5e856599c67048e8bb82142e60c70947-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:46:41.513737+00:00",
-        "lease_expires_at": "2026-11-19T13:46:41.513755+00:00"
-      },
       "source": {
         "source_id": "31003069",
         "source_url": "https://sdilej.cz/31003069/jmenuju-se-earl-s03e07-zase-jsme-hrali-v-serialu-1.dil-czdab-h264.mkv",
@@ -657693,22 +657687,29 @@
         "display_name": "My Name Is Earl S03E07 Randy In Charge (…Of Our Days and Our Nights) 720p CZ Dabing",
         "prepared_at": "2026-11-19T07:46:46.928860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31175175",
-        "size_bytes": 408129720
-      },
-      "transfer_receipt": {
-        "target_video_id": "31175175",
-        "size_bytes": 408129720,
-        "source_bytes_read": 408129720,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31175175",
         "source_bytes_read": 408129720,
         "elapsed_seconds": 58.847,
         "finished_at": "2026-11-19T07:48:06.179181+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31175175",
+          "size_bytes": 408129720,
+          "source_bytes_read": 408129720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31003069",
+        "source_url": "https://sdilej.cz/31003069/jmenuju-se-earl-s03e07-zase-jsme-hrali-v-serialu-1.dil-czdab-h264.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31175175",
+        "display_name": "My Name Is Earl S03E07 Randy In Charge (…Of Our Days and Our Nights) 720p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:48:13.666240+00:00"
       }
     }
   },
@@ -657717,7 +657718,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:48:06.179213+00:00",
+  "updated_at": "2026-11-19T07:48:13.666263+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
