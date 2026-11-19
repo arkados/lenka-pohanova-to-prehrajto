@@ -652795,12 +652795,6 @@
     },
     "3:6:3": {
       "episode_key": "malý sheldon:s6:e3",
-      "claim": {
-        "worker_id": "c9335b9a75a64b8f8fb1867d34001d97-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:09:32.231695+00:00",
-        "lease_expires_at": "2026-11-19T11:09:32.231710+00:00"
-      },
       "source": {
         "source_id": "30305806",
         "source_url": "https://sdilej.cz/30305806/maly-sheldon-s06e03-czdab.mp4",
@@ -652825,22 +652819,29 @@
         "display_name": "Young Sheldon S06E03 Passion's Harvest and a Sheldocracy 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:09:38.546702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170907",
-        "size_bytes": 694013669
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170907",
-        "size_bytes": 694013669,
-        "source_bytes_read": 694013669,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170907",
         "source_bytes_read": 694013669,
         "elapsed_seconds": 252.538,
         "finished_at": "2026-11-19T05:14:18.691548+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170907",
+          "size_bytes": 694013669,
+          "source_bytes_read": 694013669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305806",
+        "source_url": "https://sdilej.cz/30305806/maly-sheldon-s06e03-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170907",
+        "display_name": "Young Sheldon S06E03 Passion's Harvest and a Sheldocracy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:14:33.592080+00:00"
       }
     }
   },
@@ -652849,7 +652850,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:14:28.171263+00:00",
+  "updated_at": "2026-11-19T05:14:33.592103+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
