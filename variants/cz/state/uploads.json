@@ -680943,15 +680943,13 @@
         {
           "at": "2026-11-19T17:47:57.008356+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-19T18:41:37.471152+00:00",
+          "error": "SourceUnavailable"
         }
       ],
       "episode_key": "tři mušketýři:s2:e1",
-      "claim": {
-        "worker_id": "86e0565fae094c1fb1b347d9e8045ab4-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T18:41:13.892899+00:00",
-        "lease_expires_at": "2026-11-20T00:41:13.892909+00:00"
-      },
       "source": {
         "source_id": "33734255",
         "source_url": "https://sdilej.cz/33734255/tri-musketyri-s02e01-cz-dabing-full-hd.mkv",
@@ -680975,6 +680973,10 @@
         },
         "display_name": "The Musketeers S02E01 Keep Your Friends Close 720p CZ Dabing",
         "prepared_at": "2026-11-19T18:41:23.631582+00:00"
+      },
+      "source_repair_requested": {
+        "base": "33734255:https://sdilej.cz/33734255/tri-musketyri-s02e01-cz-dabing-full-hd.mkv",
+        "at": "2026-11-19T18:41:37.471013+00:00"
       }
     },
     "1628:2:2": {
@@ -682323,7 +682325,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T18:41:32.571888+00:00",
+  "updated_at": "2026-11-19T18:41:37.471160+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -682874,8 +682876,13 @@
         {
           "identity": "1628:1:9",
           "at": "2026-11-19T18:39:41.598796+00:00"
+        },
+        {
+          "identity": "1628:2:1",
+          "at": "2026-11-19T18:41:37.471013+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-19T18:51:37.471013+00:00"
     }
   }
 }
