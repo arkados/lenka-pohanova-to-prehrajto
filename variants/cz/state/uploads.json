@@ -639177,12 +639177,6 @@
     },
     "1405:7:12": {
       "episode_key": "námořní vyšetřovací služba:s7:e12",
-      "claim": {
-        "worker_id": "e122bad673d74c60a1d577a6ffbd8ae9-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:37:33.034176+00:00",
-        "lease_expires_at": "2026-11-19T06:37:33.034186+00:00"
-      },
       "source": {
         "source_id": "30701925",
         "source_url": "https://sdilej.cz/30701925/namorni-vysetrovaci-sluzba-s07e12.mkv",
@@ -639207,22 +639201,29 @@
         "display_name": "NCIS S07E12 Flesh and Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:37:37.709929+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164467",
-        "size_bytes": 1020596815
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164467",
-        "size_bytes": 1020596815,
-        "source_bytes_read": 1020596815,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164467",
         "source_bytes_read": 1020596815,
         "elapsed_seconds": 70.976,
         "finished_at": "2026-11-19T00:39:08.995537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164467",
+          "size_bytes": 1020596815,
+          "source_bytes_read": 1020596815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30701925",
+        "source_url": "https://sdilej.cz/30701925/namorni-vysetrovaci-sluzba-s07e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164467",
+        "display_name": "NCIS S07E12 Flesh and Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:39:19.980959+00:00"
       }
     }
   },
@@ -639231,7 +639232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:39:13.731712+00:00",
+  "updated_at": "2026-11-19T00:39:19.980976+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
