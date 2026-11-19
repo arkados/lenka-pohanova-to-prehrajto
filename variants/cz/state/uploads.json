@@ -651217,12 +651217,6 @@
     },
     "3:4:13": {
       "episode_key": "malý sheldon:s4:e13",
-      "claim": {
-        "worker_id": "eb5cdc8dc0b940c5b16792d319871d3d-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:25:19.651815+00:00",
-        "lease_expires_at": "2026-11-19T10:25:19.651826+00:00"
-      },
       "source": {
         "source_id": "29311554",
         "source_url": "https://sdilej.cz/29311554/maly-sheldon-young-sheldon-s04e13-cz-hdtv-hevc-1080i.mkv",
@@ -651247,22 +651241,29 @@
         "display_name": "Young Sheldon S04E13 The Geezer Bus and a New Model for Education 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:25:33.407109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170090",
-        "size_bytes": 203074425
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170090",
-        "size_bytes": 203074425,
-        "source_bytes_read": 203074425,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170090",
         "source_bytes_read": 203074425,
         "elapsed_seconds": 21.682,
         "finished_at": "2026-11-19T04:26:19.067346+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170090",
+          "size_bytes": 203074425,
+          "source_bytes_read": 203074425,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29311554",
+        "source_url": "https://sdilej.cz/29311554/maly-sheldon-young-sheldon-s04e13-cz-hdtv-hevc-1080i.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170090",
+        "display_name": "Young Sheldon S04E13 The Geezer Bus and a New Model for Education 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:26:32.862020+00:00"
       }
     },
     "3:4:14": {
@@ -651308,7 +651309,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:26:28.273257+00:00",
+  "updated_at": "2026-11-19T04:26:32.862041+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
