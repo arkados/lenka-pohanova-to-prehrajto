@@ -646742,12 +646742,6 @@
     },
     "72:2:6": {
       "episode_key": "hříšnice:s2:e6",
-      "claim": {
-        "worker_id": "150b900c1fcf4cf5aa951f5386927186-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:10:04.809241+00:00",
-        "lease_expires_at": "2026-11-19T09:10:04.809253+00:00"
-      },
       "source": {
         "source_id": "33551475",
         "source_url": "https://sdilej.cz/33551475/hrisnice-s02e06-cz-dabing.mp4",
@@ -646771,7 +646765,17 @@
         },
         "display_name": "The Sinner S02E06 Part VI 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:10:12.950944+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33551475:https://sdilej.cz/33551475/hrisnice-s02e06-cz-dabing.mp4",
+        "at": "2026-11-19T03:10:25.443923+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-19T03:10:25.443956+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -646779,7 +646783,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:10:12.950961+00:00",
+  "updated_at": "2026-11-19T03:10:25.443960+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -647285,6 +647289,10 @@
         {
           "identity": "72:2:5",
           "at": "2026-11-19T03:09:39.343618+00:00"
+        },
+        {
+          "identity": "72:2:6",
+          "at": "2026-11-19T03:10:25.443923+00:00"
         }
       ]
     }
