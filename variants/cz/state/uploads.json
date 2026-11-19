@@ -657204,12 +657204,6 @@
     },
     "940:2:19": {
       "episode_key": "jmenuju se earl:s2:e19",
-      "claim": {
-        "worker_id": "51096ea729f047a6bd7bf65c86fe8a89-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:29:25.578901+00:00",
-        "lease_expires_at": "2026-11-19T13:29:25.578913+00:00"
-      },
       "source": {
         "source_id": "29459226",
         "source_url": "https://sdilej.cz/29459226/jmenuju-se-earl-s02e19-obtezoval-reporterku.mkv",
@@ -657234,22 +657228,29 @@
         "display_name": "My Name Is Earl S02E19 Harassed a Reporter 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:29:30.741155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174584",
-        "size_bytes": 663635357
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174584",
-        "size_bytes": 663635357,
-        "source_bytes_read": 663635357,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174584",
         "source_bytes_read": 663635357,
         "elapsed_seconds": 106.996,
         "finished_at": "2026-11-19T07:31:37.033198+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174584",
+          "size_bytes": 663635357,
+          "source_bytes_read": 663635357,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459226",
+        "source_url": "https://sdilej.cz/29459226/jmenuju-se-earl-s02e19-obtezoval-reporterku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174584",
+        "display_name": "My Name Is Earl S02E19 Harassed a Reporter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:31:45.038654+00:00"
       }
     }
   },
@@ -657258,7 +657259,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:31:37.033228+00:00",
+  "updated_at": "2026-11-19T07:31:45.038675+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
