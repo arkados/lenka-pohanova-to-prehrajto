@@ -643265,12 +643265,6 @@
     },
     "1405:11:19": {
       "episode_key": "námořní vyšetřovací služba:s11:e19",
-      "claim": {
-        "worker_id": "a3a809807d494a17814173c3eda95f04-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:52:25.950805+00:00",
-        "lease_expires_at": "2026-11-19T07:52:25.950815+00:00"
-      },
       "source": {
         "source_id": "30658931",
         "source_url": "https://sdilej.cz/30658931/namorni-vysetrovaci-sluzba-s11e19.mkv",
@@ -643295,22 +643289,29 @@
         "display_name": "NCIS S11E19 Crescent City (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:52:30.862206+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165718",
-        "size_bytes": 936878591
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165718",
-        "size_bytes": 936878591,
-        "source_bytes_read": 936878591,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165718",
         "source_bytes_read": 936878591,
         "elapsed_seconds": 175.238,
         "finished_at": "2026-11-19T01:55:43.468683+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165718",
+          "size_bytes": 936878591,
+          "source_bytes_read": 936878591,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30658931",
+        "source_url": "https://sdilej.cz/30658931/namorni-vysetrovaci-sluzba-s11e19.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165718",
+        "display_name": "NCIS S11E19 Crescent City (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:55:53.346928+00:00"
       }
     },
     "1405:11:21": {
@@ -643407,7 +643408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:55:47.494991+00:00",
+  "updated_at": "2026-11-19T01:55:53.346943+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
