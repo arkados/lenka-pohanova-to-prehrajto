@@ -679292,12 +679292,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s2:e3",
-      "claim": {
-        "worker_id": "73e545aa1bb344dc942e39fcde310bb4-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:49:31.786854+00:00",
-        "lease_expires_at": "2026-11-20T02:49:31.786869+00:00"
-      },
       "source": {
         "source_id": "29875909",
         "source_url": "https://sdilej.cz/29875909/smrtonosna-zbran-s02e03.mp4",
@@ -679322,22 +679316,29 @@
         "display_name": "Lethal Weapon S02E03 Born to Run 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:49:36.976229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190477",
-        "size_bytes": 1144967164
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190477",
-        "size_bytes": 1144967164,
-        "source_bytes_read": 1144967164,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190477",
         "source_bytes_read": 1144967164,
         "elapsed_seconds": 63.936,
         "finished_at": "2026-11-19T20:51:07.467648+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190477",
+          "size_bytes": 1144967164,
+          "source_bytes_read": 1144967164,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875909",
+        "source_url": "https://sdilej.cz/29875909/smrtonosna-zbran-s02e03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190477",
+        "display_name": "Lethal Weapon S02E03 Born to Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:51:21.780752+00:00"
       }
     },
     "1382:2:2": {
@@ -685898,7 +685899,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:51:11.816218+00:00",
+  "updated_at": "2026-11-19T20:51:21.780768+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
