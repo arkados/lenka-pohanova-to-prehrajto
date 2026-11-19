@@ -664888,12 +664888,6 @@
     },
     "2257:1:4": {
       "episode_key": "cizinka: krev mé krve:s1:e4",
-      "claim": {
-        "worker_id": "a035d642404a447a80cc4e7c2d840221-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T11:37:42.897618+00:00",
-        "lease_expires_at": "2026-11-19T17:37:42.897627+00:00"
-      },
       "source": {
         "source_id": "32695462",
         "source_url": "https://sdilej.cz/32695462/cizinka-krev-me-krve-2025-s01e04-czdab-1080p-vojakovo-srdce.mkv",
@@ -664918,22 +664912,29 @@
         "display_name": "Outlander: Blood of My Blood S01E04 A Soldier's Heart 1080p CZ Dabing",
         "prepared_at": "2026-11-19T11:37:58.011130+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31181877",
-        "size_bytes": 1159698840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31181877",
-        "size_bytes": 1159698840,
-        "source_bytes_read": 1159698840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31181877",
         "source_bytes_read": 1159698840,
         "elapsed_seconds": 334.658,
         "finished_at": "2026-11-19T11:43:59.316402+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31181877",
+          "size_bytes": 1159698840,
+          "source_bytes_read": 1159698840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32695462",
+        "source_url": "https://sdilej.cz/32695462/cizinka-krev-me-krve-2025-s01e04-czdab-1080p-vojakovo-srdce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31181877",
+        "display_name": "Outlander: Blood of My Blood S01E04 A Soldier's Heart 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T11:44:08.096512+00:00"
       }
     },
     "2257:1:5": {
@@ -665118,7 +665119,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T11:43:59.316420+00:00",
+  "updated_at": "2026-11-19T11:44:08.096527+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
