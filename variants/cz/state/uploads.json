@@ -659475,12 +659475,6 @@
     },
     "620:1:1": {
       "episode_key": "advokát:s1:e1",
-      "claim": {
-        "worker_id": "a84b148faf9f4490a19d99a55de1a9d0-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T08:50:05.664421+00:00",
-        "lease_expires_at": "2026-11-19T14:50:05.664434+00:00"
-      },
       "source": {
         "source_id": "33048132",
         "source_url": "https://sdilej.cz/33048132/the-lincoln-lawyer-s01e01-cz-dabing.mkv",
@@ -659505,22 +659499,29 @@
         "display_name": "The Lincoln Lawyer S01E01 He Rides Again 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:50:16.091406+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31177177",
-        "size_bytes": 637087650
-      },
-      "transfer_receipt": {
-        "target_video_id": "31177177",
-        "size_bytes": 637087650,
-        "source_bytes_read": 637087650,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31177177",
         "source_bytes_read": 637087650,
         "elapsed_seconds": 253.28,
         "finished_at": "2026-11-19T08:55:02.524216+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31177177",
+          "size_bytes": 637087650,
+          "source_bytes_read": 637087650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33048132",
+        "source_url": "https://sdilej.cz/33048132/the-lincoln-lawyer-s01e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31177177",
+        "display_name": "The Lincoln Lawyer S01E01 He Rides Again 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T08:55:15.212795+00:00"
       }
     },
     "620:1:2": {
@@ -659617,7 +659618,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T08:55:10.518622+00:00",
+  "updated_at": "2026-11-19T08:55:15.212809+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
