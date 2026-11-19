@@ -673555,12 +673555,6 @@
     },
     "55:3:3": {
       "episode_key": "superman a lois:s3:e3",
-      "claim": {
-        "worker_id": "517bdb6109884f33b143b63b21499984-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:38:15.075471+00:00",
-        "lease_expires_at": "2026-11-19T21:38:15.075492+00:00"
-      },
       "source": {
         "source_id": "34691939",
         "source_url": "https://sdilej.cz/34691939/superman-a-lois-s03e03-chladnokrevne-cz.mkv",
@@ -673585,22 +673579,29 @@
         "display_name": "Superman & Lois S03E03 In Cold Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:38:27.646572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186291",
-        "size_bytes": 383014405
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186291",
-        "size_bytes": 383014405,
-        "source_bytes_read": 383014405,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186291",
         "source_bytes_read": 383014405,
         "elapsed_seconds": 20.179,
         "finished_at": "2026-11-19T15:39:20.686649+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186291",
+          "size_bytes": 383014405,
+          "source_bytes_read": 383014405,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34691939",
+        "source_url": "https://sdilej.cz/34691939/superman-a-lois-s03e03-chladnokrevne-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186291",
+        "display_name": "Superman & Lois S03E03 In Cold Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:39:31.988095+00:00"
       }
     },
     "55:3:4": {
@@ -673683,7 +673684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:39:25.931378+00:00",
+  "updated_at": "2026-11-19T15:39:31.988111+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
