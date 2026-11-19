@@ -660903,12 +660903,6 @@
     },
     "620:3:9": {
       "episode_key": "advokát:s3:e9",
-      "claim": {
-        "worker_id": "540d4f2e4c874fe6845fb1c32e164143-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:36:13.703784+00:00",
-        "lease_expires_at": "2026-11-19T15:36:13.703798+00:00"
-      },
       "source": {
         "source_id": "33169836",
         "source_url": "https://sdilej.cz/33169836/advokat-s03e09-1080p-cz-en-d.chove.mkv",
@@ -660933,22 +660927,29 @@
         "display_name": "The Lincoln Lawyer S03E09 Ghosts 1080p CZ Dabing",
         "prepared_at": "2026-11-19T09:36:19.291702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31178498",
-        "size_bytes": 584290378
-      },
-      "transfer_receipt": {
-        "target_video_id": "31178498",
-        "size_bytes": 584290378,
-        "source_bytes_read": 584290378,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31178498",
         "source_bytes_read": 584290378,
         "elapsed_seconds": 117.152,
         "finished_at": "2026-11-19T09:38:40.464235+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31178498",
+          "size_bytes": 584290378,
+          "source_bytes_read": 584290378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33169836",
+        "source_url": "https://sdilej.cz/33169836/advokat-s03e09-1080p-cz-en-d.chove.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31178498",
+        "display_name": "The Lincoln Lawyer S03E09 Ghosts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:38:52.521209+00:00"
       }
     },
     "620:3:10": {
@@ -660994,7 +660995,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:38:45.225416+00:00",
+  "updated_at": "2026-11-19T09:38:52.521223+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
