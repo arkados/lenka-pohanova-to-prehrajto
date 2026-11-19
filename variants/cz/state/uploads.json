@@ -680982,12 +680982,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s3:e7",
-      "claim": {
-        "worker_id": "febbdeb4bc564efd983cb96c8aa19011-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:23:45.076140+00:00",
-        "lease_expires_at": "2026-11-20T03:23:45.076149+00:00"
-      },
       "source": {
         "source_id": "29875978",
         "source_url": "https://sdilej.cz/29875978/smrtonosna-zbran-s03e07.mp4",
@@ -681012,22 +681006,29 @@
         "display_name": "Lethal Weapon S03E07 Bali 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:23:54.980312+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190814",
-        "size_bytes": 1001167225
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190814",
-        "size_bytes": 1001167225,
-        "source_bytes_read": 1001167225,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190814",
         "source_bytes_read": 1001167225,
         "elapsed_seconds": 118.72,
         "finished_at": "2026-11-19T21:26:17.541141+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190814",
+          "size_bytes": 1001167225,
+          "source_bytes_read": 1001167225,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875978",
+        "source_url": "https://sdilej.cz/29875978/smrtonosna-zbran-s03e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190814",
+        "display_name": "Lethal Weapon S03E07 Bali 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:26:27.862963+00:00"
       }
     },
     "1382:3:8": {
@@ -687218,7 +687219,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:26:21.855930+00:00",
+  "updated_at": "2026-11-19T21:26:27.862980+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
