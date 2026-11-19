@@ -686891,12 +686891,6 @@
         }
       ],
       "episode_key": "paní ministryně:s1:e5",
-      "claim": {
-        "worker_id": "9be46dee063242bfa5f57bc01eef532a-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:50:06.813658+00:00",
-        "lease_expires_at": "2026-11-20T04:50:06.813672+00:00"
-      },
       "source": {
         "source_id": "12011208",
         "source_url": "https://sdilej.cz/12011208/pani.ministryne.01x05.1080i.hdtv.cz.mkv",
@@ -686921,22 +686915,29 @@
         "display_name": "Madam Secretary S01E05 Blame Canada 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:50:12.341422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191839",
-        "size_bytes": 3035087439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191839",
-        "size_bytes": 3035087439,
-        "source_bytes_read": 3035087439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191839",
         "source_bytes_read": 3035087439,
         "elapsed_seconds": 337.526,
         "finished_at": "2026-11-19T22:56:08.544277+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191839",
+          "size_bytes": 3035087439,
+          "source_bytes_read": 3035087439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12011208",
+        "source_url": "https://sdilej.cz/12011208/pani.ministryne.01x05.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191839",
+        "display_name": "Madam Secretary S01E05 Blame Canada 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:56:23.041937+00:00"
       }
     },
     "1128:1:6": {
@@ -691038,7 +691039,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:56:18.407035+00:00",
+  "updated_at": "2026-11-19T22:56:23.041954+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
