@@ -646464,12 +646464,6 @@
     },
     "72:1:8": {
       "episode_key": "hříšnice:s1:e8",
-      "claim": {
-        "worker_id": "46fd2a9781944d48b14109d0fc624bc6-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:05:36.194082+00:00",
-        "lease_expires_at": "2026-11-19T09:05:36.194094+00:00"
-      },
       "source": {
         "source_id": "33159384",
         "source_url": "https://sdilej.cz/33159384/hrisnice-s01e08-1080p-cz-en-cast-viii.mkv",
@@ -646494,22 +646488,29 @@
         "display_name": "The Sinner S01E08 Part VIII 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:05:41.538691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167795",
-        "size_bytes": 514054984
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167795",
-        "size_bytes": 514054984,
-        "source_bytes_read": 514054984,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167795",
         "source_bytes_read": 514054984,
         "elapsed_seconds": 36.218,
         "finished_at": "2026-11-19T03:06:40.577376+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167795",
+          "size_bytes": 514054984,
+          "source_bytes_read": 514054984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33159384",
+        "source_url": "https://sdilej.cz/33159384/hrisnice-s01e08-1080p-cz-en-cast-viii.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167795",
+        "display_name": "The Sinner S01E08 Part VIII 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:06:51.499466+00:00"
       }
     },
     "72:2:1": {
@@ -646554,7 +646555,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:06:45.545725+00:00",
+  "updated_at": "2026-11-19T03:06:51.499483+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
