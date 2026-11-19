@@ -681632,12 +681632,6 @@
         }
       ],
       "episode_key": "za rozbřesku:s1:e2",
-      "claim": {
-        "worker_id": "89d0a9dc705a47cab14048cf1b6ca20c-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:33:11.932275+00:00",
-        "lease_expires_at": "2026-11-20T03:33:11.932289+00:00"
-      },
       "source": {
         "source_id": "33323686",
         "source_url": "https://sdilej.cz/33323686/day-break-za-rozbresku-s01e02-czdab.mp4",
@@ -681662,22 +681656,29 @@
         "display_name": "Day Break S01E02 What If They Run SD CZ Dabing",
         "prepared_at": "2026-11-19T21:33:31.787701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190902",
-        "size_bytes": 348593153
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190902",
-        "size_bytes": 348593153,
-        "source_bytes_read": 348593153,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190902",
         "source_bytes_read": 348593153,
         "elapsed_seconds": 30.302,
         "finished_at": "2026-11-19T21:34:32.654846+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190902",
+          "size_bytes": 348593153,
+          "source_bytes_read": 348593153,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33323686",
+        "source_url": "https://sdilej.cz/33323686/day-break-za-rozbresku-s01e02-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190902",
+        "display_name": "Day Break S01E02 What If They Run SD CZ Dabing",
+        "uploaded_at": "2026-11-19T21:34:48.050661+00:00"
       }
     },
     "1383:1:1": {
@@ -687724,7 +687725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:34:42.317379+00:00",
+  "updated_at": "2026-11-19T21:34:48.050675+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
