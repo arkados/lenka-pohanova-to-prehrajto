@@ -673606,12 +673606,6 @@
     },
     "55:3:4": {
       "episode_key": "superman a lois:s3:e4",
-      "claim": {
-        "worker_id": "5d08b844115748d8b4f84c2562026580-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:38:39.336664+00:00",
-        "lease_expires_at": "2026-11-19T21:38:39.336681+00:00"
-      },
       "source": {
         "source_id": "34689127",
         "source_url": "https://sdilej.cz/34689127/superman-a-lois-s03e04-blizko-domova-cz.mkv",
@@ -673636,22 +673630,29 @@
         "display_name": "Superman & Lois S03E04 Too Close to Home 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:38:54.809610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186301",
-        "size_bytes": 394752481
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186301",
-        "size_bytes": 394752481,
-        "source_bytes_read": 394752481,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186301",
         "source_bytes_read": 394752481,
         "elapsed_seconds": 32.622,
         "finished_at": "2026-11-19T15:39:55.686596+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186301",
+          "size_bytes": 394752481,
+          "source_bytes_read": 394752481,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34689127",
+        "source_url": "https://sdilej.cz/34689127/superman-a-lois-s03e04-blizko-domova-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186301",
+        "display_name": "Superman & Lois S03E04 Too Close to Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:40:17.445744+00:00"
       }
     },
     "55:3:5": {
@@ -673747,7 +673748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:40:12.226812+00:00",
+  "updated_at": "2026-11-19T15:40:17.445761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
