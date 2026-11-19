@@ -644693,12 +644693,6 @@
     },
     "1405:15:20": {
       "episode_key": "námořní vyšetřovací služba:s15:e20",
-      "claim": {
-        "worker_id": "5ae59d3538224314816bb10b1a4a175a-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:19:27.652770+00:00",
-        "lease_expires_at": "2026-11-19T08:19:27.652781+00:00"
-      },
       "source": {
         "source_id": "30836873",
         "source_url": "https://sdilej.cz/30836873/namorni-vysetrovaci-sluzba-s15e20.mkv",
@@ -644723,22 +644717,29 @@
         "display_name": "NCIS S15E20 Sight Unseen 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:19:32.315801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166231",
-        "size_bytes": 469132414
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166231",
-        "size_bytes": 469132414,
-        "source_bytes_read": 469132414,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166231",
         "source_bytes_read": 469132414,
         "elapsed_seconds": 32.419,
         "finished_at": "2026-11-19T02:20:34.000488+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166231",
+          "size_bytes": 469132414,
+          "source_bytes_read": 469132414,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836873",
+        "source_url": "https://sdilej.cz/30836873/namorni-vysetrovaci-sluzba-s15e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166231",
+        "display_name": "NCIS S15E20 Sight Unseen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:20:45.277234+00:00"
       }
     }
   },
@@ -644747,7 +644748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:20:40.716003+00:00",
+  "updated_at": "2026-11-19T02:20:45.277251+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
