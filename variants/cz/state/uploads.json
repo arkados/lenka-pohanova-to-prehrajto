@@ -650401,12 +650401,6 @@
     },
     "3:3:18": {
       "episode_key": "malý sheldon:s3:e18",
-      "claim": {
-        "worker_id": "b76c320d73d84359a66b779294acc4cc-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:12:53.987762+00:00",
-        "lease_expires_at": "2026-11-19T10:12:53.987778+00:00"
-      },
       "source": {
         "source_id": "29311716",
         "source_url": "https://sdilej.cz/29311716/maly-sheldon-young-sheldon-s03e18-cz-en-hevc-1080p.mkv",
@@ -650431,22 +650425,29 @@
         "display_name": "Young Sheldon S03E18 A Couple Bruised Ribs and a Cereal Box Ghost Detector 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:13:11.965278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169721",
-        "size_bytes": 279847373
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169721",
-        "size_bytes": 279847373,
-        "source_bytes_read": 279847373,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169721",
         "source_bytes_read": 279847373,
         "elapsed_seconds": 22.234,
         "finished_at": "2026-11-19T04:14:03.283874+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169721",
+          "size_bytes": 279847373,
+          "source_bytes_read": 279847373,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29311716",
+        "source_url": "https://sdilej.cz/29311716/maly-sheldon-young-sheldon-s03e18-cz-en-hevc-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169721",
+        "display_name": "Young Sheldon S03E18 A Couple Bruised Ribs and a Cereal Box Ghost Detector 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:14:18.585193+00:00"
       }
     }
   },
@@ -650455,7 +650456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:14:14.232553+00:00",
+  "updated_at": "2026-11-19T04:14:18.585208+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
