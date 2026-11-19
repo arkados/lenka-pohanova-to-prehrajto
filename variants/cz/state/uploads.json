@@ -657385,12 +657385,6 @@
     },
     "940:2:22": {
       "episode_key": "jmenuju se earl:s2:e22",
-      "claim": {
-        "worker_id": "348d19ed5a694558a70da1c9bf6cb342-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:34:51.146610+00:00",
-        "lease_expires_at": "2026-11-19T13:34:51.146628+00:00"
-      },
       "source": {
         "source_id": "29459311",
         "source_url": "https://sdilej.cz/29459311/jmenuju-se-earl-s02e22-shanim-praci.mkv",
@@ -657415,22 +657409,29 @@
         "display_name": "My Name Is Earl S02E22 Get a Real Job 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:34:56.960724+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174797",
-        "size_bytes": 754118605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174797",
-        "size_bytes": 754118605,
-        "source_bytes_read": 754118605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174797",
         "source_bytes_read": 754118605,
         "elapsed_seconds": 367.006,
         "finished_at": "2026-11-19T07:41:28.076423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174797",
+          "size_bytes": 754118605,
+          "source_bytes_read": 754118605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459311",
+        "source_url": "https://sdilej.cz/29459311/jmenuju-se-earl-s02e22-shanim-praci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174797",
+        "display_name": "My Name Is Earl S02E22 Get a Real Job 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:41:41.161740+00:00"
       }
     },
     "940:2:23": {
@@ -657526,7 +657527,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:41:34.167813+00:00",
+  "updated_at": "2026-11-19T07:41:41.161759+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
