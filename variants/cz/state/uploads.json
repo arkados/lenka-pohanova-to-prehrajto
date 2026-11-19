@@ -643163,12 +643163,6 @@
     },
     "1405:11:16": {
       "episode_key": "námořní vyšetřovací služba:s11:e16",
-      "claim": {
-        "worker_id": "2fd61ccd0fbc476c8af0f4248800030d-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:51:08.269475+00:00",
-        "lease_expires_at": "2026-11-19T07:51:08.269487+00:00"
-      },
       "source": {
         "source_id": "30836563",
         "source_url": "https://sdilej.cz/30836563/namorni-vysetrovaci-sluzba-s11e16.mkv",
@@ -643193,22 +643187,29 @@
         "display_name": "NCIS S11E16 Dressed to Kill 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:51:20.974125+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165696",
-        "size_bytes": 1006887969
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165696",
-        "size_bytes": 1006887969,
-        "source_bytes_read": 1006887969,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165696",
         "source_bytes_read": 1006887969,
         "elapsed_seconds": 79.167,
         "finished_at": "2026-11-19T01:53:03.140449+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165696",
+          "size_bytes": 1006887969,
+          "source_bytes_read": 1006887969,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836563",
+        "source_url": "https://sdilej.cz/30836563/namorni-vysetrovaci-sluzba-s11e16.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165696",
+        "display_name": "NCIS S11E16 Dressed to Kill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:53:11.040464+00:00"
       }
     },
     "1405:11:18": {
@@ -643291,7 +643292,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:53:03.140468+00:00",
+  "updated_at": "2026-11-19T01:53:11.040481+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
