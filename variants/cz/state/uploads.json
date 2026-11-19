@@ -642806,12 +642806,6 @@
     },
     "1405:11:2": {
       "episode_key": "námořní vyšetřovací služba:s11:e2",
-      "claim": {
-        "worker_id": "0ab319ba0fca4ac9ab1bf650932106da-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:44:37.760269+00:00",
-        "lease_expires_at": "2026-11-19T07:44:37.760280+00:00"
-      },
       "source": {
         "source_id": "30658947",
         "source_url": "https://sdilej.cz/30658947/namorni-vysetrovaci-sluzba-s11e02.mkv",
@@ -642836,22 +642830,29 @@
         "display_name": "NCIS S11E02 Past, Present, and Future 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:44:49.770888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165572",
-        "size_bytes": 1008293985
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165572",
-        "size_bytes": 1008293985,
-        "source_bytes_read": 1008293985,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165572",
         "source_bytes_read": 1008293985,
         "elapsed_seconds": 134.308,
         "finished_at": "2026-11-19T01:47:29.608362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165572",
+          "size_bytes": 1008293985,
+          "source_bytes_read": 1008293985,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30658947",
+        "source_url": "https://sdilej.cz/30658947/namorni-vysetrovaci-sluzba-s11e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165572",
+        "display_name": "NCIS S11E02 Past, Present, and Future 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:47:47.263822+00:00"
       }
     },
     "1405:11:4": {
@@ -643031,7 +643032,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:47:42.634666+00:00",
+  "updated_at": "2026-11-19T01:47:47.263836+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
