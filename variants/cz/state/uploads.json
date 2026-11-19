@@ -675717,12 +675717,6 @@
         }
       ],
       "episode_key": "doktoři:s2:e2",
-      "claim": {
-        "worker_id": "ee90e3ba99724d3ea242a8d3cbf116d7-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:25:08.452476+00:00",
-        "lease_expires_at": "2026-11-20T01:25:08.452488+00:00"
-      },
       "source": {
         "source_id": "29286505",
         "source_url": "https://sdilej.cz/29286505/doktori-s02e02.mp4",
@@ -675747,22 +675741,29 @@
         "display_name": "The Resident S02E02 The Prince & The Pauper 1080p CZ Dabing",
         "prepared_at": "2026-11-19T19:25:24.055085+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189511",
-        "size_bytes": 998537251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189511",
-        "size_bytes": 998537251,
-        "source_bytes_read": 998537251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189511",
         "source_bytes_read": 998537251,
         "elapsed_seconds": 59.892,
         "finished_at": "2026-11-19T19:26:59.274308+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189511",
+          "size_bytes": 998537251,
+          "source_bytes_read": 998537251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29286505",
+        "source_url": "https://sdilej.cz/29286505/doktori-s02e02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189511",
+        "display_name": "The Resident S02E02 The Prince & The Pauper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T19:27:08.887126+00:00"
       }
     },
     "2592:2:4": {
@@ -683203,7 +683204,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:27:03.492245+00:00",
+  "updated_at": "2026-11-19T19:27:08.887143+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
