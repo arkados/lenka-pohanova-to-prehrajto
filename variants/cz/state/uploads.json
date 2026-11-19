@@ -674000,12 +674000,6 @@
     },
     "55:3:12": {
       "episode_key": "superman a lois:s3:e12",
-      "claim": {
-        "worker_id": "da63ef27f9d94d5b9a67187047bab365-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:43:28.259123+00:00",
-        "lease_expires_at": "2026-11-19T21:43:28.259155+00:00"
-      },
       "source": {
         "source_id": "30549223",
         "source_url": "https://sdilej.cz/30549223/superman-a-lois-s03e12-bezpravi-czdab-h265.mkv",
@@ -674030,22 +674024,29 @@
         "display_name": "Superman & Lois S03E12 Injustice 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:43:33.858241+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186412",
-        "size_bytes": 793638051
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186412",
-        "size_bytes": 793638051,
-        "source_bytes_read": 793638051,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186412",
         "source_bytes_read": 793638051,
         "elapsed_seconds": 114.243,
         "finished_at": "2026-11-19T15:45:45.935453+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186412",
+          "size_bytes": 793638051,
+          "source_bytes_read": 793638051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30549223",
+        "source_url": "https://sdilej.cz/30549223/superman-a-lois-s03e12-bezpravi-czdab-h265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186412",
+        "display_name": "Superman & Lois S03E12 Injustice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:45:57.601282+00:00"
       }
     }
   },
@@ -674054,7 +674055,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:45:50.823820+00:00",
+  "updated_at": "2026-11-19T15:45:57.601299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
