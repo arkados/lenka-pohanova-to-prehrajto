@@ -657436,12 +657436,6 @@
     },
     "940:2:23": {
       "episode_key": "jmenuju se earl:s2:e23",
-      "claim": {
-        "worker_id": "a6b8c355bf19439c826a66c734841eaa-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:38:56.095206+00:00",
-        "lease_expires_at": "2026-11-19T13:38:56.095221+00:00"
-      },
       "source": {
         "source_id": "29459342",
         "source_url": "https://sdilej.cz/29459342/jmenuju-se-earl-s02e23-u-soudu.mkv",
@@ -657466,22 +657460,29 @@
         "display_name": "My Name Is Earl S02E23 The Trial 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:39:02.118436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174943",
-        "size_bytes": 909309168
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174943",
-        "size_bytes": 909309168,
-        "source_bytes_read": 909309168,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174943",
         "source_bytes_read": 909309168,
         "elapsed_seconds": 127.405,
         "finished_at": "2026-11-19T07:41:34.167783+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174943",
+          "size_bytes": 909309168,
+          "source_bytes_read": 909309168,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459342",
+        "source_url": "https://sdilej.cz/29459342/jmenuju-se-earl-s02e23-u-soudu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174943",
+        "display_name": "My Name Is Earl S02E23 The Trial 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:41:45.570292+00:00"
       }
     },
     "940:3:1": {
@@ -657527,7 +657528,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:41:41.161759+00:00",
+  "updated_at": "2026-11-19T07:41:45.570311+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
