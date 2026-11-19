@@ -640613,12 +640613,6 @@
     },
     "1405:8:18": {
       "episode_key": "námořní vyšetřovací služba:s8:e18",
-      "claim": {
-        "worker_id": "f8c4344be1c24a3a94f218cee861d822-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:58:09.626842+00:00",
-        "lease_expires_at": "2026-11-19T06:58:09.626852+00:00"
-      },
       "source": {
         "source_id": "33980174",
         "source_url": "https://sdilej.cz/33980174/ncis-s08e18-cz.mp4",
@@ -640643,22 +640637,29 @@
         "display_name": "NCIS S08E18 Out of the Frying Pan… 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:58:16.643067+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164734",
-        "size_bytes": 828565614
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164734",
-        "size_bytes": 828565614,
-        "source_bytes_read": 828565614,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164734",
         "source_bytes_read": 828565614,
         "elapsed_seconds": 60.688,
         "finished_at": "2026-11-19T00:59:43.185310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164734",
+          "size_bytes": 828565614,
+          "source_bytes_read": 828565614,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33980174",
+        "source_url": "https://sdilej.cz/33980174/ncis-s08e18-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164734",
+        "display_name": "NCIS S08E18 Out of the Frying Pan… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:59:50.385183+00:00"
       }
     },
     "1405:8:19": {
@@ -640741,7 +640742,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:59:43.185329+00:00",
+  "updated_at": "2026-11-19T00:59:50.385198+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
