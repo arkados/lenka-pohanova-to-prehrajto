@@ -648435,12 +648435,6 @@
     },
     "3:1:13": {
       "episode_key": "malý sheldon:s1:e13",
-      "claim": {
-        "worker_id": "bda3e003129043dab9deae30c2bc7cd6-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:46:12.198910+00:00",
-        "lease_expires_at": "2026-11-19T09:46:12.198921+00:00"
-      },
       "source": {
         "source_id": "13411750",
         "source_url": "https://sdilej.cz/13411750/maly-sheldon-young-sheldon-s01e13-cz-dabing-1080p.mkv",
@@ -648465,22 +648459,29 @@
         "display_name": "Young Sheldon S01E13 A Sneeze, Detention, and Sissy Spacek 720p CZ Dabing",
         "prepared_at": "2026-11-19T03:46:17.207738+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168846",
-        "size_bytes": 551756570
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168846",
-        "size_bytes": 551756570,
-        "source_bytes_read": 551756570,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168846",
         "source_bytes_read": 551756570,
         "elapsed_seconds": 175.979,
         "finished_at": "2026-11-19T03:49:43.579238+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168846",
+          "size_bytes": 551756570,
+          "source_bytes_read": 551756570,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13411750",
+        "source_url": "https://sdilej.cz/13411750/maly-sheldon-young-sheldon-s01e13-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168846",
+        "display_name": "Young Sheldon S01E13 A Sneeze, Detention, and Sissy Spacek 720p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:49:53.581001+00:00"
       }
     },
     "3:1:15": {
@@ -648573,7 +648574,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:49:48.802053+00:00",
+  "updated_at": "2026-11-19T03:49:53.581019+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
