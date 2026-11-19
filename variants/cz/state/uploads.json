@@ -645801,12 +645801,6 @@
     },
     "1405:22:5": {
       "episode_key": "námořní vyšetřovací služba:s22:e5",
-      "claim": {
-        "worker_id": "7405d88d7e744c71bb261e7fc297c69c-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:49:43.379843+00:00",
-        "lease_expires_at": "2026-11-19T08:49:43.379855+00:00"
-      },
       "source": {
         "source_id": "34819471",
         "source_url": "https://sdilej.cz/34819471/ncis-s22e05-cz.mp4",
@@ -645831,22 +645825,29 @@
         "display_name": "NCIS S22E05 In from the Cold 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:49:48.412206+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167149",
-        "size_bytes": 796595655
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167149",
-        "size_bytes": 796595655,
-        "source_bytes_read": 796595655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167149",
         "source_bytes_read": 796595655,
         "elapsed_seconds": 155.292,
         "finished_at": "2026-11-19T02:52:43.509562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167149",
+          "size_bytes": 796595655,
+          "source_bytes_read": 796595655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34819471",
+        "source_url": "https://sdilej.cz/34819471/ncis-s22e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167149",
+        "display_name": "NCIS S22E05 In from the Cold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:52:50.929230+00:00"
       }
     },
     "1405:22:6": {
@@ -645892,7 +645893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:52:43.509582+00:00",
+  "updated_at": "2026-11-19T02:52:50.929250+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
