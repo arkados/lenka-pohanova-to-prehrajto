@@ -644744,12 +644744,6 @@
     },
     "1405:15:21": {
       "episode_key": "námořní vyšetřovací služba:s15:e21",
-      "claim": {
-        "worker_id": "5cbedd48428648e79885bef6732c00a0-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:20:50.265388+00:00",
-        "lease_expires_at": "2026-11-19T08:20:50.265398+00:00"
-      },
       "source": {
         "source_id": "30836875",
         "source_url": "https://sdilej.cz/30836875/namorni-vysetrovaci-sluzba-s15e21.mkv",
@@ -644774,22 +644768,29 @@
         "display_name": "NCIS S15E21 One Step Forward 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:20:55.753872+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166257",
-        "size_bytes": 478848571
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166257",
-        "size_bytes": 478848571,
-        "source_bytes_read": 478848571,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166257",
         "source_bytes_read": 478848571,
         "elapsed_seconds": 37.264,
         "finished_at": "2026-11-19T02:21:55.739855+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166257",
+          "size_bytes": 478848571,
+          "source_bytes_read": 478848571,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836875",
+        "source_url": "https://sdilej.cz/30836875/namorni-vysetrovaci-sluzba-s15e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166257",
+        "display_name": "NCIS S15E21 One Step Forward 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:22:01.726210+00:00"
       }
     },
     "1405:15:22": {
@@ -644872,7 +644873,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:21:55.739875+00:00",
+  "updated_at": "2026-11-19T02:22:01.726227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
