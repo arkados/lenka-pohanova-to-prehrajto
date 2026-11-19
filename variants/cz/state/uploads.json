@@ -677927,12 +677927,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e14",
-      "claim": {
-        "worker_id": "c0261c41f290446a8c0a30742d9f3d4c-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:31:45.393423+00:00",
-        "lease_expires_at": "2026-11-20T02:31:45.393434+00:00"
-      },
       "source": {
         "source_id": "29367647",
         "source_url": "https://sdilej.cz/29367647/doktori-s03e14.mp4",
@@ -677957,22 +677951,29 @@
         "display_name": "The Resident S03E14 The Flea 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:31:54.848199+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190275",
-        "size_bytes": 739685714
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190275",
-        "size_bytes": 739685714,
-        "source_bytes_read": 739685714,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190275",
         "source_bytes_read": 739685714,
         "elapsed_seconds": 93.065,
         "finished_at": "2026-11-19T20:33:59.844870+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190275",
+          "size_bytes": 739685714,
+          "source_bytes_read": 739685714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367647",
+        "source_url": "https://sdilej.cz/29367647/doktori-s03e14.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190275",
+        "display_name": "The Resident S03E14 The Flea 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:34:08.275789+00:00"
       }
     },
     "2592:3:15": {
@@ -684870,7 +684871,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:33:59.844889+00:00",
+  "updated_at": "2026-11-19T20:34:08.275807+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
