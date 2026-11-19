@@ -676124,12 +676124,6 @@
         }
       ],
       "episode_key": "doktoři:s2:e10",
-      "claim": {
-        "worker_id": "94b98cfe2da54b7b94293a0078f45c10-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:04:53.686765+00:00",
-        "lease_expires_at": "2026-11-20T02:04:53.686776+00:00"
-      },
       "source": {
         "source_id": "29286514",
         "source_url": "https://sdilej.cz/29286514/doktori-s02e10.mp4",
@@ -676154,22 +676148,29 @@
         "display_name": "The Resident S02E10 After the Fall 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:05:10.233732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189949",
-        "size_bytes": 811879721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189949",
-        "size_bytes": 811879721,
-        "source_bytes_read": 811879721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189949",
         "source_bytes_read": 811879721,
         "elapsed_seconds": 52.453,
         "finished_at": "2026-11-19T20:06:41.068419+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189949",
+          "size_bytes": 811879721,
+          "source_bytes_read": 811879721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29286514",
+        "source_url": "https://sdilej.cz/29286514/doktori-s02e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189949",
+        "display_name": "The Resident S02E10 After the Fall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:06:48.296785+00:00"
       }
     },
     "2592:2:9": {
@@ -683533,7 +683534,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:06:41.068440+00:00",
+  "updated_at": "2026-11-19T20:06:48.296797+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
