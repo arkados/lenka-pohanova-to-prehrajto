@@ -676636,12 +676636,6 @@
         }
       ],
       "episode_key": "doktoři:s2:e17",
-      "claim": {
-        "worker_id": "3ac2b6c7360240f0bc2406b4ce8d95f5-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:11:25.016161+00:00",
-        "lease_expires_at": "2026-11-20T02:11:25.016171+00:00"
-      },
       "source": {
         "source_id": "29286523",
         "source_url": "https://sdilej.cz/29286523/doktori-s02e17.mp4",
@@ -676666,22 +676660,29 @@
         "display_name": "The Resident S02E17 Betrayal 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:11:35.386800+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190024",
-        "size_bytes": 831730514
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190024",
-        "size_bytes": 831730514,
-        "source_bytes_read": 831730514,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190024",
         "source_bytes_read": 831730514,
         "elapsed_seconds": 54.213,
         "finished_at": "2026-11-19T20:12:54.401821+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190024",
+          "size_bytes": 831730514,
+          "source_bytes_read": 831730514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29286523",
+        "source_url": "https://sdilej.cz/29286523/doktori-s02e17.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190024",
+        "display_name": "The Resident S02E17 Betrayal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:13:04.401273+00:00"
       }
     },
     "2592:2:19": {
@@ -683813,7 +683814,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:12:59.352834+00:00",
+  "updated_at": "2026-11-19T20:13:04.401288+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
