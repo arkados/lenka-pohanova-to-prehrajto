@@ -653597,12 +653597,6 @@
     },
     "3:6:19": {
       "episode_key": "malý sheldon:s6:e19",
-      "claim": {
-        "worker_id": "5b5d6ed33ddd430ab79f00db2e8ec1a9-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:31:32.435817+00:00",
-        "lease_expires_at": "2026-11-19T11:31:32.435829+00:00"
-      },
       "source": {
         "source_id": "30305831",
         "source_url": "https://sdilej.cz/30305831/maly-sheldon-s06e19-czdab.mp4",
@@ -653627,22 +653621,29 @@
         "display_name": "Young Sheldon S06E19 A New Weather Girl and a Stay-at-Home Coddler 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:31:41.943905+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171488",
-        "size_bytes": 667991617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171488",
-        "size_bytes": 667991617,
-        "source_bytes_read": 667991617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171488",
         "source_bytes_read": 667991617,
         "elapsed_seconds": 264.141,
         "finished_at": "2026-11-19T05:36:30.470302+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171488",
+          "size_bytes": 667991617,
+          "source_bytes_read": 667991617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305831",
+        "source_url": "https://sdilej.cz/30305831/maly-sheldon-s06e19-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171488",
+        "display_name": "Young Sheldon S06E19 A New Weather Girl and a Stay-at-Home Coddler 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:36:40.321281+00:00"
       }
     },
     "3:6:20": {
@@ -653739,7 +653740,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:36:30.470331+00:00",
+  "updated_at": "2026-11-19T05:36:40.321302+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
