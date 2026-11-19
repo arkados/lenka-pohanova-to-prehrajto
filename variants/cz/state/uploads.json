@@ -677413,12 +677413,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e6",
-      "claim": {
-        "worker_id": "7b7ff2286c7b418398f354dc7c696827-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:23:18.873466+00:00",
-        "lease_expires_at": "2026-11-20T02:23:18.873478+00:00"
-      },
       "source": {
         "source_id": "29367615",
         "source_url": "https://sdilej.cz/29367615/doktori-s03e06.mp4",
@@ -677443,22 +677437,29 @@
         "display_name": "The Resident S03E06 Nurses' Day 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:23:24.774694+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190167",
-        "size_bytes": 849356116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190167",
-        "size_bytes": 849356116,
-        "source_bytes_read": 849356116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190167",
         "source_bytes_read": 849356116,
         "elapsed_seconds": 60.302,
         "finished_at": "2026-11-19T20:24:47.785013+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190167",
+          "size_bytes": 849356116,
+          "source_bytes_read": 849356116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367615",
+        "source_url": "https://sdilej.cz/29367615/doktori-s03e06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190167",
+        "display_name": "The Resident S03E06 Nurses' Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:24:57.726490+00:00"
       }
     },
     "2592:3:7": {
@@ -684449,7 +684450,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:24:52.998114+00:00",
+  "updated_at": "2026-11-19T20:24:57.726504+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
