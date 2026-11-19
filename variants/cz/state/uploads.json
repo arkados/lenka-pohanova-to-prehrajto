@@ -650789,12 +650789,6 @@
     },
     "3:4:5": {
       "episode_key": "malý sheldon:s4:e5",
-      "claim": {
-        "worker_id": "3fd432df5ab84dc2a5c3c8e08d301b0d-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:20:33.365797+00:00",
-        "lease_expires_at": "2026-11-19T10:20:33.365812+00:00"
-      },
       "source": {
         "source_id": "22817293",
         "source_url": "https://sdilej.cz/22817293/maly-sheldon-s04e05.hdtv.avi",
@@ -650819,22 +650813,29 @@
         "display_name": "Young Sheldon S04E05 A Musty Crypt and a Stick to Pee On SD CZ Dabing",
         "prepared_at": "2026-11-19T04:20:43.864503+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169953",
-        "size_bytes": 264621186
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169953",
-        "size_bytes": 264621186,
-        "source_bytes_read": 264621186,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169953",
         "source_bytes_read": 264621186,
         "elapsed_seconds": 27.307,
         "finished_at": "2026-11-19T04:21:39.415185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169953",
+          "size_bytes": 264621186,
+          "source_bytes_read": 264621186,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22817293",
+        "source_url": "https://sdilej.cz/22817293/maly-sheldon-s04e05.hdtv.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169953",
+        "display_name": "Young Sheldon S04E05 A Musty Crypt and a Stick to Pee On SD CZ Dabing",
+        "uploaded_at": "2026-11-19T04:21:51.265307+00:00"
       }
     }
   },
@@ -650843,7 +650844,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:21:46.932901+00:00",
+  "updated_at": "2026-11-19T04:21:51.265325+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
