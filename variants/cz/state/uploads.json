@@ -647201,12 +647201,6 @@
     },
     "3:1:8": {
       "episode_key": "malý sheldon:s1:e8",
-      "claim": {
-        "worker_id": "cb1106ac881942c3b7edfcc4061037a0-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:19:02.578478+00:00",
-        "lease_expires_at": "2026-11-19T09:19:02.578489+00:00"
-      },
       "source": {
         "source_id": "29311924",
         "source_url": "https://sdilej.cz/29311924/maly-sheldon-young-sheldon-s01e08-en-cz-hevc-1080p.mkv",
@@ -647231,22 +647225,29 @@
         "display_name": "Young Sheldon S01E08 Cape Canaveral, Schrödinger's Cat, and Cyndi Lauper's Hair 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:19:12.292028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168200",
-        "size_bytes": 208456318
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168200",
-        "size_bytes": 208456318,
-        "source_bytes_read": 208456318,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168200",
         "source_bytes_read": 208456318,
         "elapsed_seconds": 15.62,
         "finished_at": "2026-11-19T03:20:02.483342+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168200",
+          "size_bytes": 208456318,
+          "source_bytes_read": 208456318,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29311924",
+        "source_url": "https://sdilej.cz/29311924/maly-sheldon-young-sheldon-s01e08-en-cz-hevc-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168200",
+        "display_name": "Young Sheldon S01E08 Cape Canaveral, Schrödinger's Cat, and Cyndi Lauper's Hair 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:20:18.248478+00:00"
       }
     },
     "3:1:9": {
@@ -647288,7 +647289,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:20:14.226524+00:00",
+  "updated_at": "2026-11-19T03:20:18.248493+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
