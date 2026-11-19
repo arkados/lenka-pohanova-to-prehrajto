@@ -643404,12 +643404,6 @@
     },
     "1405:11:23": {
       "episode_key": "námořní vyšetřovací služba:s11:e23",
-      "claim": {
-        "worker_id": "239c8848614b4122bde1adf877036254-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:56:07.194082+00:00",
-        "lease_expires_at": "2026-11-19T07:56:07.194091+00:00"
-      },
       "source": {
         "source_id": "30836602",
         "source_url": "https://sdilej.cz/30836602/namorni-vysetrovaci-sluzba-s11e23.mkv",
@@ -643434,22 +643428,29 @@
         "display_name": "NCIS S11E23 The Admiral's Daughter 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:56:17.160126+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165804",
-        "size_bytes": 984584931
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165804",
-        "size_bytes": 984584931,
-        "source_bytes_read": 984584931,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165804",
         "source_bytes_read": 984584931,
         "elapsed_seconds": 192.452,
         "finished_at": "2026-11-19T01:59:48.956288+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165804",
+          "size_bytes": 984584931,
+          "source_bytes_read": 984584931,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836602",
+        "source_url": "https://sdilej.cz/30836602/namorni-vysetrovaci-sluzba-s11e23.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165804",
+        "display_name": "NCIS S11E23 The Admiral's Daughter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:59:56.908343+00:00"
       }
     },
     "1405:11:24": {
@@ -643495,7 +643496,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:59:48.956308+00:00",
+  "updated_at": "2026-11-19T01:59:56.908360+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
