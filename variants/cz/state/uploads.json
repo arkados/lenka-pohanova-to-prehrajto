@@ -682737,12 +682737,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s1:e3",
-      "claim": {
-        "worker_id": "c70b7a35aaeb4bb6b003f66fbe5d3d9a-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:46:29.543015+00:00",
-        "lease_expires_at": "2026-11-20T03:46:29.543026+00:00"
-      },
       "source": {
         "source_id": "34776017",
         "source_url": "https://sdilej.cz/34776017/smrt-v-raji-s01e03-08-2011-cz-dabing-1080p-fhd-predvidani-vrazdy.mp4",
@@ -682767,22 +682761,29 @@
         "display_name": "Death in Paradise S01E03 Predicting Murder 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:46:44.387226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191047",
-        "size_bytes": 2002187154
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191047",
-        "size_bytes": 2002187154,
-        "source_bytes_read": 2002187154,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191047",
         "source_bytes_read": 2002187154,
         "elapsed_seconds": 148.834,
         "finished_at": "2026-11-19T21:49:38.532479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191047",
+          "size_bytes": 2002187154,
+          "source_bytes_read": 2002187154,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34776017",
+        "source_url": "https://sdilej.cz/34776017/smrt-v-raji-s01e03-08-2011-cz-dabing-1080p-fhd-predvidani-vrazdy.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191047",
+        "display_name": "Death in Paradise S01E03 Predicting Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:50:11.138511+00:00"
       }
     },
     "1783:2:1": {
@@ -688475,7 +688476,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:49:38.532499+00:00",
+  "updated_at": "2026-11-19T21:50:11.138527+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
