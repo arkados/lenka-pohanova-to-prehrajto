@@ -656926,12 +656926,6 @@
     },
     "940:2:13": {
       "episode_key": "jmenuju se earl:s2:e13",
-      "claim": {
-        "worker_id": "bf739ba32799477d9d313d5c10bd9692-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:23:18.894598+00:00",
-        "lease_expires_at": "2026-11-19T13:23:18.894610+00:00"
-      },
       "source": {
         "source_id": "29459002",
         "source_url": "https://sdilej.cz/29459002/jmenuju-se-earl-s02e13-zakopany-poklad.mkv",
@@ -656956,22 +656950,29 @@
         "display_name": "My Name Is Earl S02E13 Buried Treasure 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:23:32.761518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174315",
-        "size_bytes": 654196271
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174315",
-        "size_bytes": 654196271,
-        "source_bytes_read": 654196271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174315",
         "source_bytes_read": 654196271,
         "elapsed_seconds": 240.842,
         "finished_at": "2026-11-19T07:28:03.079518+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174315",
+          "size_bytes": 654196271,
+          "source_bytes_read": 654196271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459002",
+        "source_url": "https://sdilej.cz/29459002/jmenuju-se-earl-s02e13-zakopany-poklad.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174315",
+        "display_name": "My Name Is Earl S02E13 Buried Treasure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:28:11.673293+00:00"
       }
     },
     "940:2:14": {
@@ -657156,7 +657157,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:28:03.079547+00:00",
+  "updated_at": "2026-11-19T07:28:11.673320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
