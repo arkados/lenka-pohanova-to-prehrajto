@@ -636869,12 +636869,6 @@
     },
     "1405:5:11": {
       "episode_key": "námořní vyšetřovací služba:s5:e11",
-      "claim": {
-        "worker_id": "88d670355fb94ebd900d19d58ea23cc0-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:00:18.660574+00:00",
-        "lease_expires_at": "2026-11-19T06:00:18.660586+00:00"
-      },
       "source": {
         "source_id": "16064762",
         "source_url": "https://sdilej.cz/16064762/ncis-s05e11-kmeny.mkv",
@@ -636899,22 +636893,29 @@
         "display_name": "NCIS S05E11 Tribes SD CZ Dabing",
         "prepared_at": "2026-11-19T00:00:23.509534+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31163789",
-        "size_bytes": 333420752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31163789",
-        "size_bytes": 333420752,
-        "source_bytes_read": 333420752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31163789",
         "source_bytes_read": 333420752,
         "elapsed_seconds": 22.701,
         "finished_at": "2026-11-19T00:01:05.548503+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31163789",
+          "size_bytes": 333420752,
+          "source_bytes_read": 333420752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16064762",
+        "source_url": "https://sdilej.cz/16064762/ncis-s05e11-kmeny.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31163789",
+        "display_name": "NCIS S05E11 Tribes SD CZ Dabing",
+        "uploaded_at": "2026-11-19T00:01:16.048745+00:00"
       }
     }
   },
@@ -636923,7 +636924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:01:11.789173+00:00",
+  "updated_at": "2026-11-19T00:01:16.048761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
