@@ -654515,12 +654515,6 @@
     },
     "3285:1:6": {
       "episode_key": "bude líp:s1:e6",
-      "claim": {
-        "worker_id": "f89a7889632f4f6ba43134f8758fe82a-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:04:26.203561+00:00",
-        "lease_expires_at": "2026-11-19T12:04:26.203579+00:00"
-      },
       "source": {
         "source_id": "9620222",
         "source_url": "https://sdilej.cz/9620222/bude.lip.01x06.hdtv.cz.avi",
@@ -654545,22 +654539,29 @@
         "display_name": "Better Things S01E06 Alarms SD CZ Dabing",
         "prepared_at": "2026-11-19T06:04:31.797208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172163",
-        "size_bytes": 383383810
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172163",
-        "size_bytes": 383383810,
-        "source_bytes_read": 383383810,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172163",
         "source_bytes_read": 383383810,
         "elapsed_seconds": 111.065,
         "finished_at": "2026-11-19T06:06:42.307051+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172163",
+          "size_bytes": 383383810,
+          "source_bytes_read": 383383810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9620222",
+        "source_url": "https://sdilej.cz/9620222/bude.lip.01x06.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172163",
+        "display_name": "Better Things S01E06 Alarms SD CZ Dabing",
+        "uploaded_at": "2026-11-19T06:06:50.191293+00:00"
       }
     },
     "3285:1:9": {
@@ -654606,7 +654607,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:06:42.307078+00:00",
+  "updated_at": "2026-11-19T06:06:50.191318+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
