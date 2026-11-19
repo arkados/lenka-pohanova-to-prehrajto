@@ -688656,12 +688656,6 @@
         }
       ],
       "episode_key": "paní ministryně:s2:e9",
-      "claim": {
-        "worker_id": "c75f61ad06e643b89fcd9d22c540ab75-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:39:00.851304+00:00",
-        "lease_expires_at": "2026-11-20T05:39:00.851320+00:00"
-      },
       "source": {
         "source_id": "12088016",
         "source_url": "https://sdilej.cz/12088016/pani.ministryne.02x09.1080i.hdtv.cz.mkv",
@@ -688686,22 +688680,29 @@
         "display_name": "Madam Secretary S02E09 Russian Roulette 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:39:06.804423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192619",
-        "size_bytes": 3036941214
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192619",
-        "size_bytes": 3036941214,
-        "source_bytes_read": 3036941214,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192619",
         "source_bytes_read": 3036941214,
         "elapsed_seconds": 507.706,
         "finished_at": "2026-11-19T23:47:59.799929+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192619",
+          "size_bytes": 3036941214,
+          "source_bytes_read": 3036941214,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12088016",
+        "source_url": "https://sdilej.cz/12088016/pani.ministryne.02x09.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192619",
+        "display_name": "Madam Secretary S02E09 Russian Roulette 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:48:06.773912+00:00"
       }
     },
     "1128:2:12": {
@@ -692365,7 +692366,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:47:59.799948+00:00",
+  "updated_at": "2026-11-19T23:48:06.773930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
