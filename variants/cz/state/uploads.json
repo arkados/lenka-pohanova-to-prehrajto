@@ -676034,12 +676034,6 @@
         }
       ],
       "episode_key": "doktoři:s2:e6",
-      "claim": {
-        "worker_id": "d0c95a26f6284dedbbd4b52f86417c3a-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:28:35.492584+00:00",
-        "lease_expires_at": "2026-11-20T01:28:35.492594+00:00"
-      },
       "source": {
         "source_id": "29286511",
         "source_url": "https://sdilej.cz/29286511/doktori-s02e06.mp4",
@@ -676064,22 +676058,29 @@
         "display_name": "The Resident S02E06 Nightmares 1080p CZ Dabing",
         "prepared_at": "2026-11-19T19:28:46.446822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189553",
-        "size_bytes": 1024590412
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189553",
-        "size_bytes": 1024590412,
-        "source_bytes_read": 1024590412,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189553",
         "source_bytes_read": 1024590412,
         "elapsed_seconds": 68.493,
         "finished_at": "2026-11-19T19:30:15.994406+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189553",
+          "size_bytes": 1024590412,
+          "source_bytes_read": 1024590412,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29286511",
+        "source_url": "https://sdilej.cz/29286511/doktori-s02e06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189553",
+        "display_name": "The Resident S02E06 Nightmares 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T19:30:29.798944+00:00"
       }
     },
     "2592:2:8": {
@@ -683371,7 +683372,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:30:25.453464+00:00",
+  "updated_at": "2026-11-19T19:30:29.798958+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
