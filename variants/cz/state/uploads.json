@@ -683160,12 +683160,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s3:e3",
-      "claim": {
-        "worker_id": "d57fc6903bee42c3a992cbad8e326976-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:07:57.522953+00:00",
-        "lease_expires_at": "2026-11-20T04:07:57.522970+00:00"
-      },
       "source": {
         "source_id": "35380586",
         "source_url": "https://sdilej.cz/35380586/smrt-v-raji-03x03.mp4",
@@ -683190,22 +683184,29 @@
         "display_name": "Death in Paradise S03E03 An Artistic Murder 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:08:20.173917+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191257",
-        "size_bytes": 1049564910
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191257",
-        "size_bytes": 1049564910,
-        "source_bytes_read": 1049564910,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191257",
         "source_bytes_read": 1049564910,
         "elapsed_seconds": 66.872,
         "finished_at": "2026-11-19T22:09:59.574881+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191257",
+          "size_bytes": 1049564910,
+          "source_bytes_read": 1049564910,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35380586",
+        "source_url": "https://sdilej.cz/35380586/smrt-v-raji-03x03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191257",
+        "display_name": "Death in Paradise S03E03 An Artistic Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:10:06.429042+00:00"
       }
     },
     "1783:3:4": {
@@ -688843,7 +688844,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:09:59.574902+00:00",
+  "updated_at": "2026-11-19T22:10:06.429059+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
