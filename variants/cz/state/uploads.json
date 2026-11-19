@@ -674203,12 +674203,6 @@
     },
     "55:4:3": {
       "episode_key": "superman a lois:s4:e3",
-      "claim": {
-        "worker_id": "9185fe203f664e7c84bc799ba92f16e4-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:53:53.473852+00:00",
-        "lease_expires_at": "2026-11-19T21:53:53.473867+00:00"
-      },
       "source": {
         "source_id": "30148173",
         "source_url": "https://sdilej.cz/30148173/superman-a-lois-s04e03.mp4",
@@ -674233,22 +674227,29 @@
         "display_name": "Superman & Lois S04E03 Always My Hero 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:54:03.222559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186604",
-        "size_bytes": 439193502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186604",
-        "size_bytes": 439193502,
-        "source_bytes_read": 439193502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186604",
         "source_bytes_read": 439193502,
         "elapsed_seconds": 34.581,
         "finished_at": "2026-11-19T15:55:04.386636+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186604",
+          "size_bytes": 439193502,
+          "source_bytes_read": 439193502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30148173",
+        "source_url": "https://sdilej.cz/30148173/superman-a-lois-s04e03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186604",
+        "display_name": "Superman & Lois S04E03 Always My Hero 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:55:14.898192+00:00"
       }
     }
   },
@@ -674257,7 +674258,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:55:09.189006+00:00",
+  "updated_at": "2026-11-19T15:55:14.898208+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
