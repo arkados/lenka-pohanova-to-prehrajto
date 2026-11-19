@@ -658085,12 +658085,6 @@
     },
     "940:4:1": {
       "episode_key": "jmenuju se earl:s4:e1",
-      "claim": {
-        "worker_id": "2f5d65313e0f43559a0c2aa82e6c5adc-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:56:00.567501+00:00",
-        "lease_expires_at": "2026-11-19T13:56:00.567516+00:00"
-      },
       "source": {
         "source_id": "29460388",
         "source_url": "https://sdilej.cz/29460388/jmenuju-se-earl-s04e01-posledni-klapka.mkv",
@@ -658115,22 +658109,29 @@
         "display_name": "My Name Is Earl S04E01 The Magic Hour 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:56:05.951721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31175520",
-        "size_bytes": 719797504
-      },
-      "transfer_receipt": {
-        "target_video_id": "31175520",
-        "size_bytes": 719797504,
-        "source_bytes_read": 719797504,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31175520",
         "source_bytes_read": 719797504,
         "elapsed_seconds": 103.251,
         "finished_at": "2026-11-19T07:58:08.955469+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31175520",
+          "size_bytes": 719797504,
+          "source_bytes_read": 719797504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29460388",
+        "source_url": "https://sdilej.cz/29460388/jmenuju-se-earl-s04e01-posledni-klapka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31175520",
+        "display_name": "My Name Is Earl S04E01 The Magic Hour 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:58:17.201218+00:00"
       }
     },
     "940:4:2": {
@@ -658176,7 +658177,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:58:08.955498+00:00",
+  "updated_at": "2026-11-19T07:58:17.201240+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
