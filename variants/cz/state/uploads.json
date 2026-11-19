@@ -687551,12 +687551,6 @@
         }
       ],
       "episode_key": "paní ministryně:s1:e15",
-      "claim": {
-        "worker_id": "5301004e143d43e8ba8276567a9326ff-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:11:47.385797+00:00",
-        "lease_expires_at": "2026-11-20T05:11:47.385808+00:00"
-      },
       "source": {
         "source_id": "12043640",
         "source_url": "https://sdilej.cz/12043640/pani.ministryne.01x15.1080i.hdtv.cz.mkv",
@@ -687581,22 +687575,29 @@
         "display_name": "Madam Secretary S01E15 The Ninth Circle 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:12:06.102150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192211",
-        "size_bytes": 3008414918
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192211",
-        "size_bytes": 3008414918,
-        "source_bytes_read": 3008414918,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192211",
         "source_bytes_read": 3008414918,
         "elapsed_seconds": 175.559,
         "finished_at": "2026-11-19T23:15:30.114344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192211",
+          "size_bytes": 3008414918,
+          "source_bytes_read": 3008414918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12043640",
+        "source_url": "https://sdilej.cz/12043640/pani.ministryne.01x15.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192211",
+        "display_name": "Madam Secretary S01E15 The Ninth Circle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:15:42.538322+00:00"
       }
     },
     "1128:1:16": {
@@ -691413,7 +691414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:15:36.188243+00:00",
+  "updated_at": "2026-11-19T23:15:42.538341+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
