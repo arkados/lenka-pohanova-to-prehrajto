@@ -667952,12 +667952,6 @@
     },
     "897:1:8": {
       "episode_key": "teror:s1:e8",
-      "claim": {
-        "worker_id": "45a25c7a26ab4509952fe317a5ea446a-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:26:21.156983+00:00",
-        "lease_expires_at": "2026-11-19T19:26:21.157001+00:00"
-      },
       "source": {
         "source_id": "34188628",
         "source_url": "https://sdilej.cz/34188628/teror-s01e08.mkv",
@@ -667982,22 +667976,29 @@
         "display_name": "The Terror S01E08 Terror Camp Clear 1080p CZ Dabing",
         "prepared_at": "2026-11-19T13:26:26.520362+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31183888",
-        "size_bytes": 1024590984
-      },
-      "transfer_receipt": {
-        "target_video_id": "31183888",
-        "size_bytes": 1024590984,
-        "source_bytes_read": 1024590984,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31183888",
         "source_bytes_read": 1024590984,
         "elapsed_seconds": 66.309,
         "finished_at": "2026-11-19T13:27:52.674530+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31183888",
+          "size_bytes": 1024590984,
+          "source_bytes_read": 1024590984,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34188628",
+        "source_url": "https://sdilej.cz/34188628/teror-s01e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31183888",
+        "display_name": "The Terror S01E08 Terror Camp Clear 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T13:27:59.650318+00:00"
       }
     }
   },
@@ -668006,7 +668007,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:27:52.674548+00:00",
+  "updated_at": "2026-11-19T13:27:59.650334+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
