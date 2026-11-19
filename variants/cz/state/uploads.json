@@ -645699,12 +645699,6 @@
     },
     "1405:22:3": {
       "episode_key": "námořní vyšetřovací služba:s22:e3",
-      "claim": {
-        "worker_id": "39f0e65548ee4fe98e0b5fa8b0ff5c31-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:47:48.567753+00:00",
-        "lease_expires_at": "2026-11-19T08:47:48.567764+00:00"
-      },
       "source": {
         "source_id": "34819465",
         "source_url": "https://sdilej.cz/34819465/ncis-s22e03-cz.mp4",
@@ -645729,22 +645723,29 @@
         "display_name": "NCIS S22E03 The Trouble with Hal 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:47:53.654204+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166979",
-        "size_bytes": 823497521
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166979",
-        "size_bytes": 823497521,
-        "source_bytes_read": 823497521,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166979",
         "source_bytes_read": 823497521,
         "elapsed_seconds": 64.568,
         "finished_at": "2026-11-19T02:49:21.941529+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166979",
+          "size_bytes": 823497521,
+          "source_bytes_read": 823497521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34819465",
+        "source_url": "https://sdilej.cz/34819465/ncis-s22e03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166979",
+        "display_name": "NCIS S22E03 The Trouble with Hal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:49:32.636763+00:00"
       }
     },
     "1405:22:4": {
@@ -645790,7 +645791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:49:21.941545+00:00",
+  "updated_at": "2026-11-19T02:49:32.636779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
