@@ -666390,12 +666390,6 @@
     },
     "592:2:9": {
       "episode_key": "star wars: vadná várka:s2:e9",
-      "claim": {
-        "worker_id": "202a51b1ebad4f039869d08748641026-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T12:08:55.772960+00:00",
-        "lease_expires_at": "2026-11-19T18:08:55.772969+00:00"
-      },
       "source": {
         "source_id": "28944438",
         "source_url": "https://sdilej.cz/28944438/star-wars-vadna-varka-s02e09-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -666420,22 +666414,29 @@
         "display_name": "Star Wars: The Bad Batch S02E09 The Crossing 1080p CZ Dabing",
         "prepared_at": "2026-11-19T12:09:02.997780+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31182465",
-        "size_bytes": 287492997
-      },
-      "transfer_receipt": {
-        "target_video_id": "31182465",
-        "size_bytes": 287492997,
-        "source_bytes_read": 287492997,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31182465",
         "source_bytes_read": 287492997,
         "elapsed_seconds": 47.646,
         "finished_at": "2026-11-19T12:10:16.200658+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31182465",
+          "size_bytes": 287492997,
+          "source_bytes_read": 287492997,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28944438",
+        "source_url": "https://sdilej.cz/28944438/star-wars-vadna-varka-s02e09-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31182465",
+        "display_name": "Star Wars: The Bad Batch S02E09 The Crossing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T12:10:23.740472+00:00"
       }
     },
     "592:2:10": {
@@ -666481,7 +666482,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T12:10:16.200676+00:00",
+  "updated_at": "2026-11-19T12:10:23.740488+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
