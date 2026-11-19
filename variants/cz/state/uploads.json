@@ -654681,12 +654681,6 @@
     },
     "3285:2:9": {
       "episode_key": "bude líp:s2:e9",
-      "claim": {
-        "worker_id": "8e26e2e1e64b41ec924f405e6f39da0c-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:09:36.167759+00:00",
-        "lease_expires_at": "2026-11-19T12:09:36.167781+00:00"
-      },
       "source": {
         "source_id": "8729311",
         "source_url": "https://sdilej.cz/8729311/bude.lip.02x09.hdtv.cz.avi",
@@ -654711,22 +654705,29 @@
         "display_name": "Better Things S02E09 White Rock SD CZ Dabing",
         "prepared_at": "2026-11-19T06:09:47.388626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172306",
-        "size_bytes": 469465040
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172306",
-        "size_bytes": 469465040,
-        "source_bytes_read": 469465040,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172306",
         "source_bytes_read": 469465040,
         "elapsed_seconds": 82.266,
         "finished_at": "2026-11-19T06:11:32.937602+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172306",
+          "size_bytes": 469465040,
+          "source_bytes_read": 469465040,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8729311",
+        "source_url": "https://sdilej.cz/8729311/bude.lip.02x09.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172306",
+        "display_name": "Better Things S02E09 White Rock SD CZ Dabing",
+        "uploaded_at": "2026-11-19T06:11:46.819435+00:00"
       }
     },
     "3285:3:2": {
@@ -654772,7 +654773,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:11:40.588898+00:00",
+  "updated_at": "2026-11-19T06:11:46.819458+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
