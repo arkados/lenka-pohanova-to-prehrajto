@@ -684169,12 +684169,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s4:e8",
-      "claim": {
-        "worker_id": "a54f7c6e0fcc41d0a1dd3f2616ccca2a-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:22:36.636308+00:00",
-        "lease_expires_at": "2026-11-20T04:22:36.636324+00:00"
-      },
       "source": {
         "source_id": "35380614",
         "source_url": "https://sdilej.cz/35380614/smrt-v-raji-04x08.mp4",
@@ -684199,22 +684193,29 @@
         "display_name": "Death in Paradise S04E08 Unlike Father, Unlike Son 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:22:44.293205+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191449",
-        "size_bytes": 1119425376
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191449",
-        "size_bytes": 1119425376,
-        "source_bytes_read": 1119425376,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191449",
         "source_bytes_read": 1119425376,
         "elapsed_seconds": 64.811,
         "finished_at": "2026-11-19T22:24:30.741574+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191449",
+          "size_bytes": 1119425376,
+          "source_bytes_read": 1119425376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35380614",
+        "source_url": "https://sdilej.cz/35380614/smrt-v-raji-04x08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191449",
+        "display_name": "Death in Paradise S04E08 Unlike Father, Unlike Son 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:24:38.686694+00:00"
       }
     },
     "1783:5:2": {
@@ -689538,7 +689539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:24:30.741594+00:00",
+  "updated_at": "2026-11-19T22:24:38.686712+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
