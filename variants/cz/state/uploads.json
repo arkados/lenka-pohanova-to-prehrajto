@@ -665194,12 +665194,6 @@
     },
     "2257:1:10": {
       "episode_key": "cizinka: krev mé krve:s1:e10",
-      "claim": {
-        "worker_id": "0ca3a5276239403c9854f54eac978890-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T11:51:33.182411+00:00",
-        "lease_expires_at": "2026-11-19T17:51:33.182423+00:00"
-      },
       "source": {
         "source_id": "32695476",
         "source_url": "https://sdilej.cz/32695476/cizinka-krev-me-krve-2025-s01e10-czdab-1080p-something-borrowed.mkv",
@@ -665224,22 +665218,29 @@
         "display_name": "Outlander: Blood of My Blood S01E10 Something Borrowed 1080p CZ Dabing",
         "prepared_at": "2026-11-19T11:51:44.730037+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31182092",
-        "size_bytes": 2032079911
-      },
-      "transfer_receipt": {
-        "target_video_id": "31182092",
-        "size_bytes": 2032079911,
-        "source_bytes_read": 2032079911,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31182092",
         "source_bytes_read": 2032079911,
         "elapsed_seconds": 391.631,
         "finished_at": "2026-11-19T11:58:42.861383+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31182092",
+          "size_bytes": 2032079911,
+          "source_bytes_read": 2032079911,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32695476",
+        "source_url": "https://sdilej.cz/32695476/cizinka-krev-me-krve-2025-s01e10-czdab-1080p-something-borrowed.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31182092",
+        "display_name": "Outlander: Blood of My Blood S01E10 Something Borrowed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T11:59:07.074826+00:00"
       }
     },
     "592:1:1": {
@@ -665766,7 +665767,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T11:59:01.697313+00:00",
+  "updated_at": "2026-11-19T11:59:07.074841+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
