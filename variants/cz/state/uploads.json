@@ -675508,12 +675508,6 @@
         }
       ],
       "episode_key": "doktoři:s1:e5",
-      "claim": {
-        "worker_id": "22721581d57245fcb459bde5715dce6f-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:23:01.033340+00:00",
-        "lease_expires_at": "2026-11-20T01:23:01.033353+00:00"
-      },
       "source": {
         "source_id": "25271131",
         "source_url": "https://sdilej.cz/25271131/doktori-s01e05-o-nic-moudrejsi.avi",
@@ -675538,22 +675532,29 @@
         "display_name": "The Resident S01E05 None the Wiser SD CZ Dabing",
         "prepared_at": "2026-11-19T19:23:21.036630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189493",
-        "size_bytes": 450823694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189493",
-        "size_bytes": 450823694,
-        "source_bytes_read": 450823694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189493",
         "source_bytes_read": 450823694,
         "elapsed_seconds": 31.686,
         "finished_at": "2026-11-19T19:24:16.974830+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189493",
+          "size_bytes": 450823694,
+          "source_bytes_read": 450823694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25271131",
+        "source_url": "https://sdilej.cz/25271131/doktori-s01e05-o-nic-moudrejsi.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189493",
+        "display_name": "The Resident S01E05 None the Wiser SD CZ Dabing",
+        "uploaded_at": "2026-11-19T19:24:24.499743+00:00"
       }
     },
     "2592:2:1": {
@@ -683008,7 +683009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:24:16.974849+00:00",
+  "updated_at": "2026-11-19T19:24:24.499759+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
