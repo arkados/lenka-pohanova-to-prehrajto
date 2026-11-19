@@ -686502,12 +686502,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s13:e8",
-      "claim": {
-        "worker_id": "f8f0c3300ff34a1eabba59afab99d5b1-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:44:12.115233+00:00",
-        "lease_expires_at": "2026-11-20T04:44:12.115247+00:00"
-      },
       "source": {
         "source_id": "35429478",
         "source_url": "https://sdilej.cz/35429478/smrt-v-raji-13x08.mp4",
@@ -686532,22 +686526,29 @@
         "display_name": "Death in Paradise S13E08 A Murder in the Skies 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:44:25.438226+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191750",
-        "size_bytes": 1062310277
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191750",
-        "size_bytes": 1062310277,
-        "source_bytes_read": 1062310277,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191750",
         "source_bytes_read": 1062310277,
         "elapsed_seconds": 149.171,
         "finished_at": "2026-11-19T22:47:21.923205+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191750",
+          "size_bytes": 1062310277,
+          "source_bytes_read": 1062310277,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35429478",
+        "source_url": "https://sdilej.cz/35429478/smrt-v-raji-13x08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191750",
+        "display_name": "Death in Paradise S13E08 A Murder in the Skies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:47:28.185552+00:00"
       }
     },
     "1128:1:2": {
@@ -690649,7 +690650,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:47:21.923225+00:00",
+  "updated_at": "2026-11-19T22:47:28.185570+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
