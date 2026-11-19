@@ -661655,12 +661655,6 @@
     },
     "2198:1:4": {
       "episode_key": "tenkrát poprvé:s1:e4",
-      "claim": {
-        "worker_id": "2bc76b09910c454b930eaaedd241c92b-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:00:14.425489+00:00",
-        "lease_expires_at": "2026-11-19T16:00:14.425498+00:00"
-      },
       "source": {
         "source_id": "22523438",
         "source_url": "https://sdilej.cz/22523438/tenkrat-poprve-never-have-i-ever-s01e04-cz-dabing-1080p-iv-n-2020.mkv",
@@ -661685,22 +661679,29 @@
         "display_name": "Never Have I Ever S01E04 … felt super Indian 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:00:29.235118+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179240",
-        "size_bytes": 849430461
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179240",
-        "size_bytes": 849430461,
-        "source_bytes_read": 849430461,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179240",
         "source_bytes_read": 849430461,
         "elapsed_seconds": 122.02,
         "finished_at": "2026-11-19T10:02:53.603527+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179240",
+          "size_bytes": 849430461,
+          "source_bytes_read": 849430461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22523438",
+        "source_url": "https://sdilej.cz/22523438/tenkrat-poprve-never-have-i-ever-s01e04-cz-dabing-1080p-iv-n-2020.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179240",
+        "display_name": "Never Have I Ever S01E04 … felt super Indian 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:03:02.503216+00:00"
       }
     },
     "2198:1:5": {
@@ -661718,7 +661719,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:02:53.603546+00:00",
+  "updated_at": "2026-11-19T10:03:02.503232+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
