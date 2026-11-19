@@ -647817,12 +647817,6 @@
     },
     "72:3:6": {
       "episode_key": "hříšnice:s3:e6",
-      "claim": {
-        "worker_id": "8dd66a0d54ba4c25b76e18ace7e8509e-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:30:56.525939+00:00",
-        "lease_expires_at": "2026-11-19T09:30:56.525949+00:00"
-      },
       "source": {
         "source_id": "33238754",
         "source_url": "https://sdilej.cz/33238754/hrisnice-s03e06-1080p-cz-en.mkv",
@@ -647847,22 +647841,29 @@
         "display_name": "The Sinner S03E06 Part VI 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:31:10.491728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168430",
-        "size_bytes": 564465868
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168430",
-        "size_bytes": 564465868,
-        "source_bytes_read": 564465868,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168430",
         "source_bytes_read": 564465868,
         "elapsed_seconds": 267.042,
         "finished_at": "2026-11-19T03:35:59.755963+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168430",
+          "size_bytes": 564465868,
+          "source_bytes_read": 564465868,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33238754",
+        "source_url": "https://sdilej.cz/33238754/hrisnice-s03e06-1080p-cz-en.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168430",
+        "display_name": "The Sinner S03E06 Part VI 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:36:06.212486+00:00"
       }
     },
     "72:3:7": {
@@ -647996,7 +647997,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:35:59.755982+00:00",
+  "updated_at": "2026-11-19T03:36:06.212508+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
