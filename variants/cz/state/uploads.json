@@ -653815,12 +653815,6 @@
     },
     "3:7:1": {
       "episode_key": "malý sheldon:s7:e1",
-      "claim": {
-        "worker_id": "21c903e3a7904671b0f14a6579d4e3e4-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:37:23.174359+00:00",
-        "lease_expires_at": "2026-11-19T11:37:23.174370+00:00"
-      },
       "source": {
         "source_id": "29292550",
         "source_url": "https://sdilej.cz/29292550/young.sheldon.s07e01.mkv",
@@ -653845,22 +653839,29 @@
         "display_name": "Young Sheldon S07E01 A Wiener Schnitzel and Underwear in a Tree 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:37:33.377079+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171598",
-        "size_bytes": 729808896
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171598",
-        "size_bytes": 729808896,
-        "source_bytes_read": 729808896,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171598",
         "source_bytes_read": 729808896,
         "elapsed_seconds": 394.297,
         "finished_at": "2026-11-19T05:44:36.036589+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171598",
+          "size_bytes": 729808896,
+          "source_bytes_read": 729808896,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29292550",
+        "source_url": "https://sdilej.cz/29292550/young.sheldon.s07e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171598",
+        "display_name": "Young Sheldon S07E01 A Wiener Schnitzel and Underwear in a Tree 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:44:44.464663+00:00"
       }
     },
     "3:7:2": {
@@ -653906,7 +653907,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:44:36.036619+00:00",
+  "updated_at": "2026-11-19T05:44:44.464682+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
