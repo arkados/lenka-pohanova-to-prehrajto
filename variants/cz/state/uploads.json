@@ -651619,12 +651619,6 @@
     },
     "3:5:3": {
       "episode_key": "malý sheldon:s5:e3",
-      "claim": {
-        "worker_id": "4bece12de0e84cca8357dc38454759e1-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:29:46.409139+00:00",
-        "lease_expires_at": "2026-11-19T10:29:46.409151+00:00"
-      },
       "source": {
         "source_id": "28824642",
         "source_url": "https://sdilej.cz/28824642/maly-sheldon-s05e03-086-2021-full-hd-potencialni-energie-a-koralka-na-lavicce-v-parku-sd-.mp4",
@@ -651649,22 +651643,29 @@
         "display_name": "Young Sheldon S05E03 Potential Energy and Hooch on a Park Bench 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:29:51.119090+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170181",
-        "size_bytes": 388989603
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170181",
-        "size_bytes": 388989603,
-        "source_bytes_read": 388989603,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170181",
         "source_bytes_read": 388989603,
         "elapsed_seconds": 106.48,
         "finished_at": "2026-11-19T04:31:58.494264+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170181",
+          "size_bytes": 388989603,
+          "source_bytes_read": 388989603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28824642",
+        "source_url": "https://sdilej.cz/28824642/maly-sheldon-s05e03-086-2021-full-hd-potencialni-energie-a-koralka-na-lavicce-v-parku-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170181",
+        "display_name": "Young Sheldon S05E03 Potential Energy and Hooch on a Park Bench 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:32:16.246515+00:00"
       }
     },
     "3:5:4": {
@@ -651798,7 +651799,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:32:12.148155+00:00",
+  "updated_at": "2026-11-19T04:32:16.246529+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
