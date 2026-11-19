@@ -681878,12 +681878,6 @@
         }
       ],
       "episode_key": "za rozbřesku:s1:e5",
-      "claim": {
-        "worker_id": "526d69d498d24e6586c705d3e74ff94c-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:34:22.988570+00:00",
-        "lease_expires_at": "2026-11-20T03:34:22.988581+00:00"
-      },
       "source": {
         "source_id": "33323690",
         "source_url": "https://sdilej.cz/33323690/day-break-za-rozbresku-s01e05-czdab.mp4",
@@ -681908,22 +681902,29 @@
         "display_name": "Day Break S01E05 What If They're Stuck SD CZ Dabing",
         "prepared_at": "2026-11-19T21:34:28.110403+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190915",
-        "size_bytes": 354456534
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190915",
-        "size_bytes": 354456534,
-        "source_bytes_read": 354456534,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190915",
         "source_bytes_read": 354456534,
         "elapsed_seconds": 21.508,
         "finished_at": "2026-11-19T21:35:27.340187+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190915",
+          "size_bytes": 354456534,
+          "source_bytes_read": 354456534,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33323690",
+        "source_url": "https://sdilej.cz/33323690/day-break-za-rozbresku-s01e05-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190915",
+        "display_name": "Day Break S01E05 What If They're Stuck SD CZ Dabing",
+        "uploaded_at": "2026-11-19T21:35:44.937471+00:00"
       }
     },
     "1383:1:7": {
@@ -687806,7 +687807,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:35:40.571618+00:00",
+  "updated_at": "2026-11-19T21:35:44.937488+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
