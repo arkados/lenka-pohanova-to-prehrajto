@@ -654144,12 +654144,6 @@
     },
     "3:7:8": {
       "episode_key": "malý sheldon:s7:e8",
-      "claim": {
-        "worker_id": "20601dea13d1407d8f40822b81f96741-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:52:07.975016+00:00",
-        "lease_expires_at": "2026-11-19T11:52:07.975035+00:00"
-      },
       "source": {
         "source_id": "30305852",
         "source_url": "https://sdilej.cz/30305852/maly-sheldon-s07e08-czdab.mp4",
@@ -654174,22 +654168,29 @@
         "display_name": "Young Sheldon S07E08 An Ankle Monitor and a Big Plastic Crap House 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:52:13.800421+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171840",
-        "size_bytes": 973741436
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171840",
-        "size_bytes": 973741436,
-        "source_bytes_read": 973741436,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171840",
         "source_bytes_read": 973741436,
         "elapsed_seconds": 162.521,
         "finished_at": "2026-11-19T05:55:16.025457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171840",
+          "size_bytes": 973741436,
+          "source_bytes_read": 973741436,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305852",
+        "source_url": "https://sdilej.cz/30305852/maly-sheldon-s07e08-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171840",
+        "display_name": "Young Sheldon S07E08 An Ankle Monitor and a Big Plastic Crap House 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:55:26.336988+00:00"
       }
     }
   },
@@ -654198,7 +654199,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:55:16.025484+00:00",
+  "updated_at": "2026-11-19T05:55:26.337009+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
