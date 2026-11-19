@@ -646266,12 +646266,6 @@
     },
     "72:1:4": {
       "episode_key": "hříšnice:s1:e4",
-      "claim": {
-        "worker_id": "cd5b255cb14f40bebfd8ab526e9acb38-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:01:25.184020+00:00",
-        "lease_expires_at": "2026-11-19T09:01:25.184036+00:00"
-      },
       "source": {
         "source_id": "33159373",
         "source_url": "https://sdilej.cz/33159373/hrisnice-s01e04-1080p-cz-en-cast-iv.mkv",
@@ -646296,22 +646290,29 @@
         "display_name": "The Sinner S01E04 Part IV 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:01:30.020400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167671",
-        "size_bytes": 527969840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167671",
-        "size_bytes": 527969840,
-        "source_bytes_read": 527969840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167671",
         "source_bytes_read": 527969840,
         "elapsed_seconds": 45.576,
         "finished_at": "2026-11-19T03:02:35.087539+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167671",
+          "size_bytes": 527969840,
+          "source_bytes_read": 527969840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33159373",
+        "source_url": "https://sdilej.cz/33159373/hrisnice-s01e04-1080p-cz-en-cast-iv.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167671",
+        "display_name": "The Sinner S01E04 Part IV 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:02:44.242765+00:00"
       }
     }
   },
@@ -646320,7 +646321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:02:39.990715+00:00",
+  "updated_at": "2026-11-19T03:02:44.242779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
