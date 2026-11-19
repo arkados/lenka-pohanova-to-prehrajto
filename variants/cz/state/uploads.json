@@ -647353,12 +647353,6 @@
     },
     "3:1:11": {
       "episode_key": "malý sheldon:s1:e11",
-      "claim": {
-        "worker_id": "cc868d1d0e2e4ebb9c7d05fff031a8e5-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:20:44.368362+00:00",
-        "lease_expires_at": "2026-11-19T09:20:44.368376+00:00"
-      },
       "source": {
         "source_id": "34980735",
         "source_url": "https://sdilej.cz/34980735/maly-sheldon-s01e11-demoni-nedelni-skola-a-prvocisla.mkv",
@@ -647383,22 +647377,29 @@
         "display_name": "Young Sheldon S01E11 Demons, Sunday School, and Prime Numbers 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:20:55.925808+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168238",
-        "size_bytes": 218861594
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168238",
-        "size_bytes": 218861594,
-        "source_bytes_read": 218861594,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168238",
         "source_bytes_read": 218861594,
         "elapsed_seconds": 13.705,
         "finished_at": "2026-11-19T03:21:48.204100+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168238",
+          "size_bytes": 218861594,
+          "source_bytes_read": 218861594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34980735",
+        "source_url": "https://sdilej.cz/34980735/maly-sheldon-s01e11-demoni-nedelni-skola-a-prvocisla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168238",
+        "display_name": "Young Sheldon S01E11 Demons, Sunday School, and Prime Numbers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:22:01.250907+00:00"
       }
     },
     "72:2:8": {
@@ -647444,7 +647445,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:21:57.015131+00:00",
+  "updated_at": "2026-11-19T03:22:01.250924+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
