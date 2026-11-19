@@ -658799,12 +658799,6 @@
     },
     "940:4:15": {
       "episode_key": "jmenuju se earl:s4:e15",
-      "claim": {
-        "worker_id": "9166364706564abdacd90991dbfae8ea-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T08:23:20.962458+00:00",
-        "lease_expires_at": "2026-11-19T14:23:20.962478+00:00"
-      },
       "source": {
         "source_id": "33056984",
         "source_url": "https://sdilej.cz/33056984/jmenuju-se-earl-s04e15-cz-dabing.mkv",
@@ -658829,22 +658823,29 @@
         "display_name": "My Name Is Earl S04E15 Darnell Outed (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:23:26.521530+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31176320",
-        "size_bytes": 709396160
-      },
-      "transfer_receipt": {
-        "target_video_id": "31176320",
-        "size_bytes": 709396160,
-        "source_bytes_read": 709396160,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31176320",
         "source_bytes_read": 709396160,
         "elapsed_seconds": 282.595,
         "finished_at": "2026-11-19T08:28:33.840934+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31176320",
+          "size_bytes": 709396160,
+          "source_bytes_read": 709396160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33056984",
+        "source_url": "https://sdilej.cz/33056984/jmenuju-se-earl-s04e15-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31176320",
+        "display_name": "My Name Is Earl S04E15 Darnell Outed (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T08:28:43.136002+00:00"
       }
     },
     "940:4:16": {
@@ -658890,7 +658891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T08:28:33.840962+00:00",
+  "updated_at": "2026-11-19T08:28:43.136028+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
