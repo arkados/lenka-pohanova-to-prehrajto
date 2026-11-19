@@ -654195,12 +654195,6 @@
     },
     "3:7:9": {
       "episode_key": "malý sheldon:s7:e9",
-      "claim": {
-        "worker_id": "52bffb60967f432697b35225e52dcaf6-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:57:20.487421+00:00",
-        "lease_expires_at": "2026-11-19T11:57:20.487441+00:00"
-      },
       "source": {
         "source_id": "30305854",
         "source_url": "https://sdilej.cz/30305854/maly-sheldon-s07e09-czdab.mp4",
@@ -654225,22 +654219,29 @@
         "display_name": "Young Sheldon S07E09 A Fancy Article and a Scholarship for a Baby 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:57:25.885601+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171971",
-        "size_bytes": 871325763
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171971",
-        "size_bytes": 871325763,
-        "source_bytes_read": 871325763,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171971",
         "source_bytes_read": 871325763,
         "elapsed_seconds": 78.6,
         "finished_at": "2026-11-19T05:59:05.128309+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171971",
+          "size_bytes": 871325763,
+          "source_bytes_read": 871325763,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305854",
+        "source_url": "https://sdilej.cz/30305854/maly-sheldon-s07e09-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171971",
+        "display_name": "Young Sheldon S07E09 A Fancy Article and a Scholarship for a Baby 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:59:12.823908+00:00"
       }
     }
   },
@@ -654249,7 +654250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:59:05.128340+00:00",
+  "updated_at": "2026-11-19T05:59:12.823932+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
