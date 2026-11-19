@@ -686610,12 +686610,6 @@
         }
       ],
       "episode_key": "paní ministryně:s1:e1",
-      "claim": {
-        "worker_id": "3cb6085770f44eab95605ac7eea0ae6d-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:46:20.780624+00:00",
-        "lease_expires_at": "2026-11-20T04:46:20.780647+00:00"
-      },
       "source": {
         "source_id": "12008127",
         "source_url": "https://sdilej.cz/12008127/pani.ministryne.01x01.hdtv.cz.avi",
@@ -686640,22 +686634,29 @@
         "display_name": "Madam Secretary S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-19T22:46:31.525599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191785",
-        "size_bytes": 576885756
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191785",
-        "size_bytes": 576885756,
-        "source_bytes_read": 576885756,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191785",
         "source_bytes_read": 576885756,
         "elapsed_seconds": 44.389,
         "finished_at": "2026-11-19T22:47:36.925738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191785",
+          "size_bytes": 576885756,
+          "source_bytes_read": 576885756,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12008127",
+        "source_url": "https://sdilej.cz/12008127/pani.ministryne.01x01.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191785",
+        "display_name": "Madam Secretary S01E01 Pilot SD CZ Dabing",
+        "uploaded_at": "2026-11-19T22:47:53.958065+00:00"
       }
     },
     "1128:1:3": {
@@ -690680,7 +690681,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:47:49.203268+00:00",
+  "updated_at": "2026-11-19T22:47:53.958083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
