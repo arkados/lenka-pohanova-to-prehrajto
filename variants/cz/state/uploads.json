@@ -659629,12 +659629,6 @@
     },
     "620:1:4": {
       "episode_key": "advokát:s1:e4",
-      "claim": {
-        "worker_id": "1807528dd7524294ad58096a30e51bac-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T08:55:32.284691+00:00",
-        "lease_expires_at": "2026-11-19T14:55:32.284702+00:00"
-      },
       "source": {
         "source_id": "33048563",
         "source_url": "https://sdilej.cz/33048563/the-lincoln-lawyer-s01e04-cz-dabing.mkv",
@@ -659659,22 +659653,29 @@
         "display_name": "The Lincoln Lawyer S01E04 Chaos Theory 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:55:43.224600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31177335",
-        "size_bytes": 638024461
-      },
-      "transfer_receipt": {
-        "target_video_id": "31177335",
-        "size_bytes": 638024461,
-        "source_bytes_read": 638024461,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31177335",
         "source_bytes_read": 638024461,
         "elapsed_seconds": 462.308,
         "finished_at": "2026-11-19T09:03:49.388209+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31177335",
+          "size_bytes": 638024461,
+          "source_bytes_read": 638024461,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33048563",
+        "source_url": "https://sdilej.cz/33048563/the-lincoln-lawyer-s01e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31177335",
+        "display_name": "The Lincoln Lawyer S01E04 Chaos Theory 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:04:01.506709+00:00"
       }
     },
     "620:1:5": {
@@ -659808,7 +659809,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:03:54.707961+00:00",
+  "updated_at": "2026-11-19T09:04:01.506735+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
