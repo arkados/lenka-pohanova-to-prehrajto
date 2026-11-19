@@ -650344,12 +650344,6 @@
     },
     "3:3:13": {
       "episode_key": "malý sheldon:s3:e13",
-      "claim": {
-        "worker_id": "e0f40d0a877d4b228a2e21edfd64e313-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:12:44.424967+00:00",
-        "lease_expires_at": "2026-11-19T10:12:44.424975+00:00"
-      },
       "source": {
         "source_id": "13631375",
         "source_url": "https://sdilej.cz/13631375/maly.sheldon-s03e13-cz.mkv",
@@ -650374,22 +650368,29 @@
         "display_name": "Young Sheldon S03E13 Contracts, Rules and a Little Bit of Pig Brains SD CZ Dabing",
         "prepared_at": "2026-11-19T04:12:58.134893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169717",
-        "size_bytes": 125630655
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169717",
-        "size_bytes": 125630655,
-        "source_bytes_read": 125630655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169717",
         "source_bytes_read": 125630655,
         "elapsed_seconds": 19.185,
         "finished_at": "2026-11-19T04:13:47.288837+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169717",
+          "size_bytes": 125630655,
+          "source_bytes_read": 125630655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13631375",
+        "source_url": "https://sdilej.cz/13631375/maly.sheldon-s03e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169717",
+        "display_name": "Young Sheldon S03E13 Contracts, Rules and a Little Bit of Pig Brains SD CZ Dabing",
+        "uploaded_at": "2026-11-19T04:13:58.949284+00:00"
       }
     },
     "3:3:18": {
@@ -650435,7 +650436,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:13:51.268291+00:00",
+  "updated_at": "2026-11-19T04:13:58.949296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
