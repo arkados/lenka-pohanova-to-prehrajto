@@ -637451,12 +637451,6 @@
     },
     "1405:6:3": {
       "episode_key": "námořní vyšetřovací služba:s6:e3",
-      "claim": {
-        "worker_id": "96943f9a71de4584b865798b35b74b04-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:09:08.175737+00:00",
-        "lease_expires_at": "2026-11-19T06:09:08.175747+00:00"
-      },
       "source": {
         "source_id": "30835802",
         "source_url": "https://sdilej.cz/30835802/namorni-vysetrovaci-sluzba-s06e03-1-.mkv",
@@ -637481,22 +637475,29 @@
         "display_name": "NCIS S06E03 Capitol Offense 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:09:17.890420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164027",
-        "size_bytes": 523792199
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164027",
-        "size_bytes": 523792199,
-        "source_bytes_read": 523792199,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164027",
         "source_bytes_read": 523792199,
         "elapsed_seconds": 33.405,
         "finished_at": "2026-11-19T00:10:14.291367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164027",
+          "size_bytes": 523792199,
+          "source_bytes_read": 523792199,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30835802",
+        "source_url": "https://sdilej.cz/30835802/namorni-vysetrovaci-sluzba-s06e03-1-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164027",
+        "display_name": "NCIS S06E03 Capitol Offense 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:10:27.327481+00:00"
       }
     },
     "1405:6:4": {
@@ -637542,7 +637543,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:10:22.470926+00:00",
+  "updated_at": "2026-11-19T00:10:27.327496+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
