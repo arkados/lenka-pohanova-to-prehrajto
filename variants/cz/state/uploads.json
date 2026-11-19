@@ -674269,12 +674269,6 @@
     },
     "55:4:4": {
       "episode_key": "superman a lois:s4:e4",
-      "claim": {
-        "worker_id": "fe957aa0be414a608999e7014264d07f-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:55:32.163443+00:00",
-        "lease_expires_at": "2026-11-19T21:55:32.163460+00:00"
-      },
       "source": {
         "source_id": "34689293",
         "source_url": "https://sdilej.cz/34689293/superman-a-lois-s04e04-jedna-dokonala-svatba-cz.mkv",
@@ -674299,22 +674293,29 @@
         "display_name": "Superman & Lois S04E04 A Perfectly Good Wedding 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:55:46.803307+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186623",
-        "size_bytes": 457989637
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186623",
-        "size_bytes": 457989637,
-        "source_bytes_read": 457989637,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186623",
         "source_bytes_read": 457989637,
         "elapsed_seconds": 62.241,
         "finished_at": "2026-11-19T15:57:19.714407+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186623",
+          "size_bytes": 457989637,
+          "source_bytes_read": 457989637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34689293",
+        "source_url": "https://sdilej.cz/34689293/superman-a-lois-s04e04-jedna-dokonala-svatba-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186623",
+        "display_name": "Superman & Lois S04E04 A Perfectly Good Wedding 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:57:27.256041+00:00"
       }
     },
     "55:4:5": {
@@ -674360,7 +674361,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:57:19.714434+00:00",
+  "updated_at": "2026-11-19T15:57:27.256058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
