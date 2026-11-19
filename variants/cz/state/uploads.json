@@ -661738,12 +661738,6 @@
           "error": "ConnectionError"
         }
       ],
-      "claim": {
-        "worker_id": "3e1fb81bafdf42119c09f0d475da355b-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:18:58.800851+00:00",
-        "lease_expires_at": "2026-11-19T16:18:58.800862+00:00"
-      },
       "source": {
         "source_id": "31378303",
         "source_url": "https://sdilej.cz/31378303/tenkrat-poprve-s01e05-kdyz-jsem-vyvolala-jaderny-konflikt-2020-komedie-czdab.mkv",
@@ -661768,22 +661762,29 @@
         "display_name": "Never Have I Ever S01E05 … started a nuclear war 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:19:10.306023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179773",
-        "size_bytes": 785473644
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179773",
-        "size_bytes": 785473644,
-        "source_bytes_read": 785473644,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179773",
         "source_bytes_read": 785473644,
         "elapsed_seconds": 213.215,
         "finished_at": "2026-11-19T10:23:12.155621+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179773",
+          "size_bytes": 785473644,
+          "source_bytes_read": 785473644,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31378303",
+        "source_url": "https://sdilej.cz/31378303/tenkrat-poprve-s01e05-kdyz-jsem-vyvolala-jaderny-konflikt-2020-komedie-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179773",
+        "display_name": "Never Have I Ever S01E05 … started a nuclear war 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:23:28.737974+00:00"
       }
     },
     "2198:1:6": {
@@ -662353,7 +662354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:23:22.763212+00:00",
+  "updated_at": "2026-11-19T10:23:28.737988+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
