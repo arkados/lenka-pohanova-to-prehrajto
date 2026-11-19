@@ -649885,12 +649885,6 @@
     },
     "3:3:3": {
       "episode_key": "malý sheldon:s3:e3",
-      "claim": {
-        "worker_id": "4a6cd2337a804d4e84afcb8a398abafa-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:07:07.374413+00:00",
-        "lease_expires_at": "2026-11-19T10:07:07.374423+00:00"
-      },
       "source": {
         "source_id": "31072310",
         "source_url": "https://sdilej.cz/31072310/maly-sheldon-s03e03-podnikatelista-a-naplacany-zadek-czdab-h265.mkv",
@@ -649915,22 +649909,29 @@
         "display_name": "Young Sheldon S03E03 An Entrepreneurialist and a Swat on the Bottom 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:07:17.392369+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169518",
-        "size_bytes": 251499942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169518",
-        "size_bytes": 251499942,
-        "source_bytes_read": 251499942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169518",
         "source_bytes_read": 251499942,
         "elapsed_seconds": 25.202,
         "finished_at": "2026-11-19T04:08:09.980197+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169518",
+          "size_bytes": 251499942,
+          "source_bytes_read": 251499942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31072310",
+        "source_url": "https://sdilej.cz/31072310/maly-sheldon-s03e03-podnikatelista-a-naplacany-zadek-czdab-h265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169518",
+        "display_name": "Young Sheldon S03E03 An Entrepreneurialist and a Swat on the Bottom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:08:23.165934+00:00"
       }
     },
     "3:3:4": {
@@ -650009,7 +650010,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:08:19.062669+00:00",
+  "updated_at": "2026-11-19T04:08:23.165949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
