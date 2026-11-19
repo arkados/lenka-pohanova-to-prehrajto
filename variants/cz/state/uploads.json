@@ -642653,12 +642653,6 @@
     },
     "1405:10:23": {
       "episode_key": "námořní vyšetřovací služba:s10:e23",
-      "claim": {
-        "worker_id": "8896ef98a05149a3b8af6cb9194ef9a9-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:42:14.072282+00:00",
-        "lease_expires_at": "2026-11-19T07:42:14.072293+00:00"
-      },
       "source": {
         "source_id": "30869878",
         "source_url": "https://sdilej.cz/30869878/namorni-vysetrovaci-sluzba-s10e23.mkv",
@@ -642683,22 +642677,29 @@
         "display_name": "NCIS S10E23 Double Blind 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:42:31.776196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165536",
-        "size_bytes": 986547559
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165536",
-        "size_bytes": 986547559,
-        "source_bytes_read": 986547559,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165536",
         "source_bytes_read": 986547559,
         "elapsed_seconds": 72.717,
         "finished_at": "2026-11-19T01:44:13.424251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165536",
+          "size_bytes": 986547559,
+          "source_bytes_read": 986547559,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30869878",
+        "source_url": "https://sdilej.cz/30869878/namorni-vysetrovaci-sluzba-s10e23.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165536",
+        "display_name": "NCIS S10E23 Double Blind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:44:23.177205+00:00"
       }
     },
     "1405:10:22": {
@@ -642794,7 +642795,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:44:17.434541+00:00",
+  "updated_at": "2026-11-19T01:44:23.177221+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
