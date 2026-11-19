@@ -656467,12 +656467,6 @@
     },
     "940:2:3": {
       "episode_key": "jmenuju se earl:s2:e3",
-      "claim": {
-        "worker_id": "e77de8de25124236bf763085bbb30c49-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:05:14.620960+00:00",
-        "lease_expires_at": "2026-11-19T13:05:14.620972+00:00"
-      },
       "source": {
         "source_id": "29458415",
         "source_url": "https://sdilej.cz/29458415/jmenuju-se-earl-s02e03-kabinet-zrud.mkv",
@@ -656497,22 +656491,29 @@
         "display_name": "My Name Is Earl S02E03 Sticks & Stones 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:05:21.410207+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31173681",
-        "size_bytes": 663720485
-      },
-      "transfer_receipt": {
-        "target_video_id": "31173681",
-        "size_bytes": 663720485,
-        "source_bytes_read": 663720485,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31173681",
         "source_bytes_read": 663720485,
         "elapsed_seconds": 183.587,
         "finished_at": "2026-11-19T07:08:48.919879+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31173681",
+          "size_bytes": 663720485,
+          "source_bytes_read": 663720485,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29458415",
+        "source_url": "https://sdilej.cz/29458415/jmenuju-se-earl-s02e03-kabinet-zrud.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31173681",
+        "display_name": "My Name Is Earl S02E03 Sticks & Stones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:08:58.202974+00:00"
       }
     },
     "940:2:4": {
@@ -656595,7 +656596,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:08:48.919903+00:00",
+  "updated_at": "2026-11-19T07:08:58.202996+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
