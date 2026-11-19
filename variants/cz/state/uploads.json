@@ -662072,12 +662072,6 @@
     },
     "2198:2:3": {
       "episode_key": "tenkrát poprvé:s2:e3",
-      "claim": {
-        "worker_id": "62a2fcd8cde148338b19715d9011501d-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:11:48.141499+00:00",
-        "lease_expires_at": "2026-11-19T16:11:48.141507+00:00"
-      },
       "source": {
         "source_id": "27674916",
         "source_url": "https://sdilej.cz/27674916/tenkrat-poprve-s02e03-cz.mkv",
@@ -662102,22 +662096,29 @@
         "display_name": "Never Have I Ever S02E03 … opened a textbook 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:12:04.994834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179595",
-        "size_bytes": 599132076
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179595",
-        "size_bytes": 599132076,
-        "source_bytes_read": 599132076,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179595",
         "source_bytes_read": 599132076,
         "elapsed_seconds": 118.045,
         "finished_at": "2026-11-19T10:14:27.060983+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179595",
+          "size_bytes": 599132076,
+          "source_bytes_read": 599132076,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27674916",
+        "source_url": "https://sdilej.cz/27674916/tenkrat-poprve-s02e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179595",
+        "display_name": "Never Have I Ever S02E03 … opened a textbook 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:14:40.765977+00:00"
       }
     },
     "2198:2:4": {
@@ -662159,7 +662160,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:14:36.376605+00:00",
+  "updated_at": "2026-11-19T10:14:40.765991+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
