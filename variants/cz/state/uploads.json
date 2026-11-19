@@ -660496,12 +660496,6 @@
     },
     "620:3:1": {
       "episode_key": "advokát:s3:e1",
-      "claim": {
-        "worker_id": "49b184ed6b094f99a00f338027e00063-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:27:50.467961+00:00",
-        "lease_expires_at": "2026-11-19T15:27:50.467971+00:00"
-      },
       "source": {
         "source_id": "33169798",
         "source_url": "https://sdilej.cz/33169798/advokat-s03e01-1080p-cz-en-la-culebra.mkv",
@@ -660526,22 +660520,29 @@
         "display_name": "The Lincoln Lawyer S03E01 La Culebra 1080p CZ Dabing",
         "prepared_at": "2026-11-19T09:27:56.314213+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31178268",
-        "size_bytes": 601570309
-      },
-      "transfer_receipt": {
-        "target_video_id": "31178268",
-        "size_bytes": 601570309,
-        "source_bytes_read": 601570309,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31178268",
         "source_bytes_read": 601570309,
         "elapsed_seconds": 208.788,
         "finished_at": "2026-11-19T09:31:48.169954+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31178268",
+          "size_bytes": 601570309,
+          "source_bytes_read": 601570309,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33169798",
+        "source_url": "https://sdilej.cz/33169798/advokat-s03e01-1080p-cz-en-la-culebra.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31178268",
+        "display_name": "The Lincoln Lawyer S03E01 La Culebra 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:32:00.001992+00:00"
       }
     },
     "620:3:2": {
@@ -660623,7 +660624,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:31:53.458482+00:00",
+  "updated_at": "2026-11-19T09:32:00.002009+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
