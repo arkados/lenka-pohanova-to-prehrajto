@@ -661932,12 +661932,6 @@
     },
     "2198:1:10": {
       "episode_key": "tenkrát poprvé:s1:e10",
-      "claim": {
-        "worker_id": "acfa4cb7abce4073969b2633e3eb1c1a-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:08:54.964951+00:00",
-        "lease_expires_at": "2026-11-19T16:08:54.964961+00:00"
-      },
       "source": {
         "source_id": "27674816",
         "source_url": "https://sdilej.cz/27674816/tenkrat-poprve-s01e10-cz.mkv",
@@ -661962,22 +661956,29 @@
         "display_name": "Never Have I Ever S01E10 … said I'm sorry 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:09:00.483562+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179493",
-        "size_bytes": 637950851
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179493",
-        "size_bytes": 637950851,
-        "source_bytes_read": 637950851,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179493",
         "source_bytes_read": 637950851,
         "elapsed_seconds": 65.543,
         "finished_at": "2026-11-19T10:10:28.384035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179493",
+          "size_bytes": 637950851,
+          "source_bytes_read": 637950851,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27674816",
+        "source_url": "https://sdilej.cz/27674816/tenkrat-poprve-s01e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179493",
+        "display_name": "Never Have I Ever S01E10 … said I'm sorry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:10:40.676584+00:00"
       }
     }
   },
@@ -661986,7 +661987,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:10:33.643795+00:00",
+  "updated_at": "2026-11-19T10:10:40.676596+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
