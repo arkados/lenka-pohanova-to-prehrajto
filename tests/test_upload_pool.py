@@ -1,7 +1,9 @@
 import copy
 import threading
 import time
+
 import pytest
+import requests
 
 from lenka_sync.series.models import Episode
 from lenka_sync.series.source_transfer import SourceUnavailable
@@ -56,10 +58,20 @@ def test_three_workers_are_shared_across_variants(
     monkeypatch.setattr(pipeline, "followup", lambda *_, **__: {"checked": 0})
     lock = threading.Lock()
     active = maximum = 0
+    logins = 0
+
+    def authenticate(*_):
+        nonlocal logins
+        logins += 1
+        session = requests.Session()
+        session.cookies.set("SDILEJ", "test")
+        return pipeline.EpisodeSourceProvider(session)
 
     def transfer(selected, state, **kwargs):
         nonlocal active, maximum
         assert kwargs["workers"] == 1 and kwargs["require_original_size"]
+        with kwargs["source_login"]().session as session:
+            assert session.cookies.get("SDILEJ") == "test"
         with lock:
             active += 1
             maximum = max(maximum, active)
@@ -70,16 +82,18 @@ def test_three_workers_are_shared_across_variants(
             active -= 1
         return {"uploaded_or_reconciled": 1}
 
+    monkeypatch.setattr(pipeline.EpisodeSourceProvider, "authenticated", authenticate)
     monkeypatch.setattr(pipeline, "upload_continuously", transfer)
     result = pipeline.upload(tmp_path, workers=3, limit=5, runtime_minutes=1, persist=persist)
     assert result["confirmed_uploads"] == 5
     assert maximum == 3
+    assert logins == 1
     for variant in ("cz", "en"):
         assert len(read_json(tmp_path / f"variants/{variant}/state/uploads.json")["episodes"]) == 2
     assert len(read_json(tmp_path / "variants/en_plain/state/uploads.json")["episodes"]) == 1
 
 
-def test_source_login_outage_defers_without_losing_other_variant(tmp_path, czech_row, english_row, titles, monkeypatch):
+def test_unavailable_episode_is_deferred(tmp_path, czech_row, english_row, titles, monkeypatch):
     seed(tmp_path, czech_row, english_row, titles)
     monkeypatch.setattr(pipeline, "credentials", lambda: {})
     monkeypatch.setattr(pipeline, "followup", lambda *_, **__: {})
@@ -92,6 +106,34 @@ def test_source_login_outage_defers_without_losing_other_variant(tmp_path, czech
     assert result["confirmed_uploads"] == 0
     state = read_json(tmp_path / "variants/cz/state/uploads.json")
     assert state["episodes"]["42:1:1"]["attempts"][-1]["error"] == "SourceUnavailable"
+
+
+def test_authentication_outage_yields_runner_without_charging_episodes(
+    tmp_path, czech_row, english_row, titles, monkeypatch, capsys
+):
+    seed(tmp_path, czech_row, english_row, titles)
+    monkeypatch.setattr(
+        pipeline, "credentials",
+        lambda: dict(source_email="source", source_password="test", target_email="target", target_password="test"),
+    )
+    monkeypatch.setattr(pipeline, "followup", lambda *_, **__: {})
+    attempts = []
+
+    def authenticate(*_):
+        attempts.append(True)
+        response = requests.Response()
+        response.status_code = 403
+        raise requests.HTTPError("private request URL", response=response)
+
+    monkeypatch.setattr(pipeline.EpisodeSourceProvider, "authenticated", authenticate)
+    with pytest.raises(pipeline.SourceAuthenticationError):
+        pipeline.upload(tmp_path, workers=3, limit=3, runtime_minutes=1)
+    assert len(attempts) == 1
+    assert not list(tmp_path.glob("variants/*/state/uploads.json"))
+    output = capsys.readouterr().out
+    assert "source_authentication_failed" in output
+    assert "'http_status': 403" in output
+    assert "private request URL" not in output
 
 
 @pytest.mark.parametrize("persist", [False, True])

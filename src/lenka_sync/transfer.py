@@ -12,6 +12,7 @@ import unicodedata
 import json
 from datetime import UTC, datetime
 from collections.abc import Callable
+from contextlib import ExitStack
 
 import requests
 from lenka_sync.media import prehrajto
@@ -220,6 +221,7 @@ def upload_continuously(
     keep_waiting: Callable[[], bool] | None = None,
     claim_deadline: float | None = None,
     require_original_size: bool = False,
+    source_login: Callable[[], EpisodeSourceProvider] | None = None,
     target_login: Callable[[], object] | None = None,
     stop_event: threading.Event | None = None,
     select_source: Callable[[dict], dict] | None = None,
@@ -249,14 +251,18 @@ def upload_continuously(
 
     def login_pair(_index: int):
         try:
-            provider = EpisodeSourceProvider.authenticated(source_email, source_password)
+            if source_login is None:
+                provider = EpisodeSourceProvider.authenticated(source_email, source_password)
+            else:
+                provider = source_login()
+                source_sessions.callback(provider.session.close)
         except (SdilejError, requests.RequestException) as error:
             if recover_source_errors:
                 raise SourceUnavailable("Source login unavailable") from error
             raise
         return provider, (target_login() if target_login else target_session(target_email, target_password))
 
-    with concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
+    with ExitStack() as source_sessions, concurrent.futures.ThreadPoolExecutor(max_workers=workers) as executor:
         pairs = list(executor.map(login_pair, range(workers)))
         before = prehrajto.uploaded_video_count(pairs[0][1])
         execution = uuid.uuid4().hex

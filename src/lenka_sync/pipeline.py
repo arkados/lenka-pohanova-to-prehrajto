@@ -9,10 +9,13 @@ import json
 import threading
 import time
 
+import requests
+
+from lenka_sync.media.sdilej import SdilejError
 from lenka_sync.series.episodes import EpisodeSourceProvider
 from lenka_sync.series.git_state import GitCheckpointPersister
 from lenka_sync.series.pipeline import target_session
-from lenka_sync.series.resilience import receipt_matches, transient_http
+from lenka_sync.series.resilience import error_evidence, receipt_matches, transient_http
 from lenka_sync.series.models import Episode
 from lenka_sync.series.source_transfer import SourceUnavailable
 
@@ -27,6 +30,10 @@ from .subtitles import followup
 from .transfer import upload_continuously
 from .scheduling import select_transfers, upload_rate
 from .source_repair import FEED_PATH, has_new_repair, select_repair
+
+
+class SourceAuthenticationError(RuntimeError):
+    """The uploader could not establish its shared source login."""
 
 
 def credentials(environ=os.environ):
@@ -197,6 +204,30 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
     next_subtitles = 0
     subtitle_dirty = False
     queue, titles = sources(root), Metadata(root).snapshot()
+    source_login_lock = threading.Lock()
+    source_provider, source_login_expires = None, 0
+    source_login_failed = False
+
+    def source_login():
+        nonlocal source_provider, source_login_expires, source_login_failed
+        with source_login_lock:
+            if source_login_failed:
+                raise SourceAuthenticationError("Source authentication failed for this runner")
+            if source_provider is None or time.monotonic() >= source_login_expires:
+                try:
+                    source_provider = EpisodeSourceProvider.authenticated(
+                        creds["source_email"], creds["source_password"]
+                    )
+                except (SdilejError, requests.RequestException) as error:
+                    source_login_failed = True
+                    stop.set()
+                    print(f"source_authentication_failed={error_evidence(error)}", flush=True)
+                    raise SourceAuthenticationError("Source authentication failed for this runner") from None
+                # Each transfer gets independent connections and a copy of the
+                # login cookies. The seed no longer needs open connections.
+                source_provider.session.close()
+                source_login_expires = time.monotonic() + 15 * 60
+            return source_provider.fork_worker()
 
     def execute(row):
         try:
@@ -205,6 +236,7 @@ def upload(root, *, workers=3, limit=3, runtime_minutes=240, continuous=False, p
                 states[row["variant"]],
                 workers=1,
                 **creds,
+                source_login=source_login,
                 target_login=lambda: target_session(
                     creds["target_email"], creds["target_password"], expected_email=creds["target_email"]
                 ),
