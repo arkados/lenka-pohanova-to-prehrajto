@@ -657320,12 +657320,6 @@
     },
     "940:2:21": {
       "episode_key": "jmenuju se earl:s2:e21",
-      "claim": {
-        "worker_id": "fae0a8c70b194fe692806f671218e50e-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:34:45.770029+00:00",
-        "lease_expires_at": "2026-11-19T13:34:45.770046+00:00"
-      },
       "source": {
         "source_id": "20954985",
         "source_url": "https://sdilej.cz/20954985/jmenuju-se-earl-my-name-is-earl-s02e21-zpatky-na-stredni-g.e.d.-cz-dabing.mkv",
@@ -657350,22 +657344,29 @@
         "display_name": "My Name Is Earl S02E21 G.E.D. 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:35:01.519904+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174802",
-        "size_bytes": 664763430
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174802",
-        "size_bytes": 664763430,
-        "source_bytes_read": 664763430,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174802",
         "source_bytes_read": 664763430,
         "elapsed_seconds": 151.743,
         "finished_at": "2026-11-19T07:37:58.632622+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174802",
+          "size_bytes": 664763430,
+          "source_bytes_read": 664763430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20954985",
+        "source_url": "https://sdilej.cz/20954985/jmenuju-se-earl-my-name-is-earl-s02e21-zpatky-na-stredni-g.e.d.-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174802",
+        "display_name": "My Name Is Earl S02E21 G.E.D. 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:38:08.125962+00:00"
       }
     },
     "940:2:22": {
@@ -657411,7 +657412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:37:58.632646+00:00",
+  "updated_at": "2026-11-19T07:38:08.125987+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
