@@ -642041,12 +642041,6 @@
     },
     "1405:10:9": {
       "episode_key": "námořní vyšetřovací služba:s10:e9",
-      "claim": {
-        "worker_id": "86d20e2465e440938cdf420141758bde-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:28:44.075052+00:00",
-        "lease_expires_at": "2026-11-19T07:28:44.075066+00:00"
-      },
       "source": {
         "source_id": "30836437",
         "source_url": "https://sdilej.cz/30836437/namorni-vysetrovaci-sluzba-s10e09.mkv",
@@ -642071,22 +642065,29 @@
         "display_name": "NCIS S10E09 Devil's Trifecta 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:28:57.879200+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165295",
-        "size_bytes": 996137674
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165295",
-        "size_bytes": 996137674,
-        "source_bytes_read": 996137674,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165295",
         "source_bytes_read": 996137674,
         "elapsed_seconds": 151.856,
         "finished_at": "2026-11-19T01:32:01.527048+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165295",
+          "size_bytes": 996137674,
+          "source_bytes_read": 996137674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836437",
+        "source_url": "https://sdilej.cz/30836437/namorni-vysetrovaci-sluzba-s10e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165295",
+        "display_name": "NCIS S10E09 Devil's Trifecta 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:32:09.937393+00:00"
       }
     },
     "1405:10:10": {
@@ -642271,7 +642272,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:32:01.527066+00:00",
+  "updated_at": "2026-11-19T01:32:09.937410+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
