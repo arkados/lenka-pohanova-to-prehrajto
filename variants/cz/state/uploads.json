@@ -656773,12 +656773,6 @@
     },
     "940:2:10": {
       "episode_key": "jmenuju se earl:s2:e10",
-      "claim": {
-        "worker_id": "3541a60df28d493fa3b4b163c4818dc2-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:13:46.240364+00:00",
-        "lease_expires_at": "2026-11-19T13:13:46.240380+00:00"
-      },
       "source": {
         "source_id": "33042762",
         "source_url": "https://sdilej.cz/33042762/jmenuju-se-earl-s02e10-cz-dabing.mkv",
@@ -656803,22 +656797,29 @@
         "display_name": "My Name Is Earl S02E10 South of the Border (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:13:51.925317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31173940",
-        "size_bytes": 658196082
-      },
-      "transfer_receipt": {
-        "target_video_id": "31173940",
-        "size_bytes": 658196082,
-        "source_bytes_read": 658196082,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31173940",
         "source_bytes_read": 658196082,
         "elapsed_seconds": 228.409,
         "finished_at": "2026-11-19T07:18:04.534557+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31173940",
+          "size_bytes": 658196082,
+          "source_bytes_read": 658196082,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33042762",
+        "source_url": "https://sdilej.cz/33042762/jmenuju-se-earl-s02e10-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31173940",
+        "display_name": "My Name Is Earl S02E10 South of the Border (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:18:13.090538+00:00"
       }
     }
   },
@@ -656827,7 +656828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:18:04.534579+00:00",
+  "updated_at": "2026-11-19T07:18:13.090564+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
