@@ -671295,12 +671295,6 @@
     },
     "2916:1:3": {
       "episode_key": "cestovatel:s1:e3",
-      "claim": {
-        "worker_id": "745a8a8cb509410b9ad955bba2c7069e-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:27:58.360225+00:00",
-        "lease_expires_at": "2026-11-19T20:27:58.360242+00:00"
-      },
       "source": {
         "source_id": "30407879",
         "source_url": "https://sdilej.cz/30407879/cestovatel-s01e03-czdab.mkv",
@@ -671325,22 +671319,29 @@
         "display_name": "Journeyman S01E03 Game Three SD CZ Dabing",
         "prepared_at": "2026-11-19T14:28:03.685708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184941",
-        "size_bytes": 311379180
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184941",
-        "size_bytes": 311379180,
-        "source_bytes_read": 311379180,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184941",
         "source_bytes_read": 311379180,
         "elapsed_seconds": 81.136,
         "finished_at": "2026-11-19T14:29:47.530971+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184941",
+          "size_bytes": 311379180,
+          "source_bytes_read": 311379180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30407879",
+        "source_url": "https://sdilej.cz/30407879/cestovatel-s01e03-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184941",
+        "display_name": "Journeyman S01E03 Game Three SD CZ Dabing",
+        "uploaded_at": "2026-11-19T14:29:57.820058+00:00"
       }
     },
     "2916:1:4": {
@@ -671422,7 +671423,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:29:51.995941+00:00",
+  "updated_at": "2026-11-19T14:29:57.820074+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
