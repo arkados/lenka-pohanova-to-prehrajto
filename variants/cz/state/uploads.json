@@ -663562,12 +663562,6 @@
     },
     "1066:1:6": {
       "episode_key": "obchoďák:s1:e6",
-      "claim": {
-        "worker_id": "7c6d40a0ade443538b382da7d0b7b1cc-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T11:01:31.892736+00:00",
-        "lease_expires_at": "2026-11-19T17:01:31.892745+00:00"
-      },
       "source": {
         "source_id": "29083098",
         "source_url": "https://sdilej.cz/29083098/superstore-s01e06-hd-cz-en-dabing.mkv",
@@ -663592,22 +663586,29 @@
         "display_name": "Superstore S01E06 Secret Shopper 1080p CZ Dabing",
         "prepared_at": "2026-11-19T11:01:42.493331+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31181019",
-        "size_bytes": 695866605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31181019",
-        "size_bytes": 695866605,
-        "source_bytes_read": 695866605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31181019",
         "source_bytes_read": 695866605,
         "elapsed_seconds": 194.872,
         "finished_at": "2026-11-19T11:05:35.001442+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31181019",
+          "size_bytes": 695866605,
+          "source_bytes_read": 695866605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29083098",
+        "source_url": "https://sdilej.cz/29083098/superstore-s01e06-hd-cz-en-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31181019",
+        "display_name": "Superstore S01E06 Secret Shopper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T11:05:41.615173+00:00"
       }
     },
     "1066:1:7": {
@@ -663690,7 +663691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T11:05:35.001459+00:00",
+  "updated_at": "2026-11-19T11:05:41.615200+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
