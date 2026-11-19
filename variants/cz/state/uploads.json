@@ -644081,12 +644081,6 @@
     },
     "1405:15:7": {
       "episode_key": "námořní vyšetřovací služba:s15:e7",
-      "claim": {
-        "worker_id": "3fd2cec9e61048b8bca589cccaef5279-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:08:01.516322+00:00",
-        "lease_expires_at": "2026-11-19T08:08:01.516335+00:00"
-      },
       "source": {
         "source_id": "30836832",
         "source_url": "https://sdilej.cz/30836832/namorni-vysetrovaci-sluzba-s15e07.mkv",
@@ -644111,22 +644105,29 @@
         "display_name": "NCIS S15E07 Burden of Proof 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:08:10.772561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166046",
-        "size_bytes": 453208904
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166046",
-        "size_bytes": 453208904,
-        "source_bytes_read": 453208904,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166046",
         "source_bytes_read": 453208904,
         "elapsed_seconds": 68.687,
         "finished_at": "2026-11-19T02:09:41.108454+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166046",
+          "size_bytes": 453208904,
+          "source_bytes_read": 453208904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836832",
+        "source_url": "https://sdilej.cz/30836832/namorni-vysetrovaci-sluzba-s15e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166046",
+        "display_name": "NCIS S15E07 Burden of Proof 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:09:47.138129+00:00"
       }
     },
     "1405:15:8": {
@@ -644209,7 +644210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:09:41.108473+00:00",
+  "updated_at": "2026-11-19T02:09:47.138145+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
