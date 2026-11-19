@@ -674937,12 +674937,6 @@
         }
       ],
       "episode_key": "nejsilnější hlas:s1:e2",
-      "claim": {
-        "worker_id": "4e51a569f7e1421d8bd8fbd84d698f3a-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:10:15.555490+00:00",
-        "lease_expires_at": "2026-11-20T01:10:15.555502+00:00"
-      },
       "source": {
         "source_id": "32018304",
         "source_url": "https://sdilej.cz/32018304/nejsilnejsi-hlas-s01e02-cz-dabing-1080p-full-hd.mkv",
@@ -674967,22 +674961,29 @@
         "display_name": "The Loudest Voice S01E02 2001 1080p CZ Dabing",
         "prepared_at": "2026-11-19T19:10:25.769683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189320",
-        "size_bytes": 862236058
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189320",
-        "size_bytes": 862236058,
-        "source_bytes_read": 862236058,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189320",
         "source_bytes_read": 862236058,
         "elapsed_seconds": 48.031,
         "finished_at": "2026-11-19T19:11:38.489655+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189320",
+          "size_bytes": 862236058,
+          "source_bytes_read": 862236058,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32018304",
+        "source_url": "https://sdilej.cz/32018304/nejsilnejsi-hlas-s01e02-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189320",
+        "display_name": "The Loudest Voice S01E02 2001 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T19:11:50.031121+00:00"
       }
     },
     "997:1:4": {
@@ -682615,7 +682616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:11:44.035780+00:00",
+  "updated_at": "2026-11-19T19:11:50.031137+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
