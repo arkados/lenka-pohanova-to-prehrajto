@@ -642894,12 +642894,6 @@
     },
     "1405:11:8": {
       "episode_key": "námořní vyšetřovací služba:s11:e8",
-      "claim": {
-        "worker_id": "eca0c83946bb420aa2d4b8290f6bee6e-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:45:17.077556+00:00",
-        "lease_expires_at": "2026-11-19T07:45:17.077566+00:00"
-      },
       "source": {
         "source_id": "30658949",
         "source_url": "https://sdilej.cz/30658949/namorni-vysetrovaci-sluzba-s11e08.mkv",
@@ -642924,22 +642918,29 @@
         "display_name": "NCIS S11E08 Alibi 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:45:26.890557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165581",
-        "size_bytes": 983705177
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165581",
-        "size_bytes": 983705177,
-        "source_bytes_read": 983705177,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165581",
         "source_bytes_read": 983705177,
         "elapsed_seconds": 81.722,
         "finished_at": "2026-11-19T01:47:06.796647+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165581",
+          "size_bytes": 983705177,
+          "source_bytes_read": 983705177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30658949",
+        "source_url": "https://sdilej.cz/30658949/namorni-vysetrovaci-sluzba-s11e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165581",
+        "display_name": "NCIS S11E08 Alibi 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:47:15.450824+00:00"
       }
     }
   },
@@ -642948,7 +642949,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:47:06.796668+00:00",
+  "updated_at": "2026-11-19T01:47:15.450840+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
