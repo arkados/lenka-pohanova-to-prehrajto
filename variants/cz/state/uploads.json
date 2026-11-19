@@ -668884,12 +668884,6 @@
     },
     "1270:1:4": {
       "episode_key": "takoví normální mimozemšťané:s1:e4",
-      "claim": {
-        "worker_id": "1f3f0846ebe34808a25d1c77503b7c67-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:54:48.594992+00:00",
-        "lease_expires_at": "2026-11-19T19:54:48.595008+00:00"
-      },
       "source": {
         "source_id": "30412832",
         "source_url": "https://sdilej.cz/30412832/takovi-normalni-mimozemstane-s01e04-czdab.mp4",
@@ -668914,22 +668908,29 @@
         "display_name": "3rd Rock from the Sun S01E04 Dick Is From Mars, Sally Is From Venus SD CZ Dabing",
         "prepared_at": "2026-11-19T13:54:54.105191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184364",
-        "size_bytes": 319207326
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184364",
-        "size_bytes": 319207326,
-        "source_bytes_read": 319207326,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184364",
         "source_bytes_read": 319207326,
         "elapsed_seconds": 65.375,
         "finished_at": "2026-11-19T13:56:17.563081+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184364",
+          "size_bytes": 319207326,
+          "source_bytes_read": 319207326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412832",
+        "source_url": "https://sdilej.cz/30412832/takovi-normalni-mimozemstane-s01e04-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184364",
+        "display_name": "3rd Rock from the Sun S01E04 Dick Is From Mars, Sally Is From Venus SD CZ Dabing",
+        "uploaded_at": "2026-11-19T13:56:29.020752+00:00"
       }
     }
   },
@@ -668938,7 +668939,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:56:22.119693+00:00",
+  "updated_at": "2026-11-19T13:56:29.020768+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
