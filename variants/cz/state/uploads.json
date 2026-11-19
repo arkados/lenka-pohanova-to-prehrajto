@@ -670020,12 +670020,6 @@
     },
     "1270:3:17": {
       "episode_key": "takoví normální mimozemšťané:s3:e17",
-      "claim": {
-        "worker_id": "9439f0114ef84a3988cbc3d7d15092fb-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:11:50.541470+00:00",
-        "lease_expires_at": "2026-11-19T20:11:50.541489+00:00"
-      },
       "source": {
         "source_id": "30412928",
         "source_url": "https://sdilej.cz/30412928/takovi-normalni-mimozemstane-s03e17-czdab.mp4",
@@ -670050,22 +670044,29 @@
         "display_name": "3rd Rock from the Sun S03E17 Auto Eurodicka SD CZ Dabing",
         "prepared_at": "2026-11-19T14:11:56.951486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184663",
-        "size_bytes": 300848308
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184663",
-        "size_bytes": 300848308,
-        "source_bytes_read": 300848308,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184663",
         "source_bytes_read": 300848308,
         "elapsed_seconds": 18.827,
         "finished_at": "2026-11-19T14:12:41.192022+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184663",
+          "size_bytes": 300848308,
+          "source_bytes_read": 300848308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412928",
+        "source_url": "https://sdilej.cz/30412928/takovi-normalni-mimozemstane-s03e17-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184663",
+        "display_name": "3rd Rock from the Sun S03E17 Auto Eurodicka SD CZ Dabing",
+        "uploaded_at": "2026-11-19T14:12:55.506047+00:00"
       }
     },
     "1270:3:18": {
@@ -670120,7 +670121,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:12:50.810934+00:00",
+  "updated_at": "2026-11-19T14:12:55.506064+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
