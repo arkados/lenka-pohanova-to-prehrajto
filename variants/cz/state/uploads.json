@@ -689046,12 +689046,6 @@
         }
       ],
       "episode_key": "paní ministryně:s2:e19",
-      "claim": {
-        "worker_id": "01cf2b8cea624e0ea1140f2f4f9c0786-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:51:32.909277+00:00",
-        "lease_expires_at": "2026-11-20T05:51:32.909290+00:00"
-      },
       "source": {
         "source_id": "12111326",
         "source_url": "https://sdilej.cz/12111326/pani.ministryne.02x19.1080i.hdtv.cz.mkv",
@@ -689076,22 +689070,29 @@
         "display_name": "Madam Secretary S02E19 Desperate Remedies 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:51:38.396860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192788",
-        "size_bytes": 2939035994
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192788",
-        "size_bytes": 2939035994,
-        "source_bytes_read": 2939035994,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192788",
         "source_bytes_read": 2939035994,
         "elapsed_seconds": 202.352,
         "finished_at": "2026-11-19T23:55:19.667128+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192788",
+          "size_bytes": 2939035994,
+          "source_bytes_read": 2939035994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12111326",
+        "source_url": "https://sdilej.cz/12111326/pani.ministryne.02x19.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192788",
+        "display_name": "Madam Secretary S02E19 Desperate Remedies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:55:31.803329+00:00"
       }
     },
     "1128:2:18": {
@@ -692704,7 +692705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:55:24.982444+00:00",
+  "updated_at": "2026-11-19T23:55:31.803345+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
