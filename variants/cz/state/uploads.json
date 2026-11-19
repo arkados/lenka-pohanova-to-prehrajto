@@ -654566,12 +654566,6 @@
     },
     "3285:1:9": {
       "episode_key": "bude líp:s1:e9",
-      "claim": {
-        "worker_id": "454ee046bb404a6f9a89538333862dd0-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:06:00.052460+00:00",
-        "lease_expires_at": "2026-11-19T12:06:00.052480+00:00"
-      },
       "source": {
         "source_id": "9623249",
         "source_url": "https://sdilej.cz/9623249/bude.lip.01x09.hdtv.cz.avi",
@@ -654596,22 +654590,29 @@
         "display_name": "Better Things S01E09 Hair of the Dog SD CZ Dabing",
         "prepared_at": "2026-11-19T06:06:05.591460+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172225",
-        "size_bytes": 278880274
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172225",
-        "size_bytes": 278880274,
-        "source_bytes_read": 278880274,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172225",
         "source_bytes_read": 278880274,
         "elapsed_seconds": 31.547,
         "finished_at": "2026-11-19T06:06:56.244600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172225",
+          "size_bytes": 278880274,
+          "source_bytes_read": 278880274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9623249",
+        "source_url": "https://sdilej.cz/9623249/bude.lip.01x09.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172225",
+        "display_name": "Better Things S01E09 Hair of the Dog SD CZ Dabing",
+        "uploaded_at": "2026-11-19T06:07:05.900995+00:00"
       }
     }
   },
@@ -654620,7 +654621,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:06:56.244628+00:00",
+  "updated_at": "2026-11-19T06:07:05.901020+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
