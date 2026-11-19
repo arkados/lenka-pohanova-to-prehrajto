@@ -668541,12 +668541,6 @@
     },
     "897:2:9": {
       "episode_key": "teror:s2:e9",
-      "claim": {
-        "worker_id": "a6dfd8ecfa844915848352b454f6e61f-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:45:25.780870+00:00",
-        "lease_expires_at": "2026-11-19T19:45:25.780886+00:00"
-      },
       "source": {
         "source_id": "26595175",
         "source_url": "https://sdilej.cz/26595175/the-terror-teror-s02e09-cz-dabing-1080p.mkv",
@@ -668571,22 +668565,29 @@
         "display_name": "The Terror S02E09 Come and Get Me 1080p CZ Dabing",
         "prepared_at": "2026-11-19T13:45:45.057553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184191",
-        "size_bytes": 833045525
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184191",
-        "size_bytes": 833045525,
-        "source_bytes_read": 833045525,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184191",
         "source_bytes_read": 833045525,
         "elapsed_seconds": 90.727,
         "finished_at": "2026-11-19T13:47:40.275023+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184191",
+          "size_bytes": 833045525,
+          "source_bytes_read": 833045525,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26595175",
+        "source_url": "https://sdilej.cz/26595175/the-terror-teror-s02e09-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184191",
+        "display_name": "The Terror S02E09 Come and Get Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T13:47:51.055153+00:00"
       }
     },
     "897:2:10": {
@@ -668668,7 +668669,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:47:44.610092+00:00",
+  "updated_at": "2026-11-19T13:47:51.055177+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
