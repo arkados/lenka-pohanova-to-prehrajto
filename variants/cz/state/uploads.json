@@ -671488,28 +671488,29 @@
           "at": "2026-11-19T14:50:24.252823+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ca12bceca0af423bbbaf30e5ba9b359b-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:50:29.213270+00:00",
-        "lease_expires_at": "2026-11-19T20:50:29.213285+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31185272",
-        "size_bytes": 2419451544
-      },
-      "transfer_receipt": {
-        "target_video_id": "31185272",
-        "size_bytes": 2419451544,
-        "source_bytes_read": 2419451544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31185272",
         "source_bytes_read": 2419451544,
         "elapsed_seconds": 204.657,
         "finished_at": "2026-11-19T14:54:34.366733+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31185272",
+          "size_bytes": 2419451544,
+          "source_bytes_read": 2419451544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34239880",
+        "source_url": "https://sdilej.cz/34239880/na-vejsce-s01e01-dohoda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31185272",
+        "display_name": "Off Campus S01E01 The Deal 4K CZ Dabing",
+        "uploaded_at": "2026-11-19T14:54:46.275395+00:00"
       }
     },
     "5114:1:2": {
@@ -671796,7 +671797,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:54:34.366785+00:00",
+  "updated_at": "2026-11-19T14:54:46.275412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
