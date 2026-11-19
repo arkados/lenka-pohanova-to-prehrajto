@@ -647303,12 +647303,6 @@
     },
     "3:1:10": {
       "episode_key": "malý sheldon:s1:e10",
-      "claim": {
-        "worker_id": "fb46307c13f1437798cb0f9086b14fd5-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:20:38.673882+00:00",
-        "lease_expires_at": "2026-11-19T09:20:38.673894+00:00"
-      },
       "source": {
         "source_id": "13411680",
         "source_url": "https://sdilej.cz/13411680/maly-sheldon-young-sheldon-s01e10-cz-dabing-1080p.mkv",
@@ -647333,22 +647327,29 @@
         "display_name": "Young Sheldon S01E10 An Eagle Feather, a String Bean, and an Eskimo 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:20:49.618049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168235",
-        "size_bytes": 324578018
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168235",
-        "size_bytes": 324578018,
-        "source_bytes_read": 324578018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168235",
         "source_bytes_read": 324578018,
         "elapsed_seconds": 27.865,
         "finished_at": "2026-11-19T03:21:53.040111+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168235",
+          "size_bytes": 324578018,
+          "source_bytes_read": 324578018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13411680",
+        "source_url": "https://sdilej.cz/13411680/maly-sheldon-young-sheldon-s01e10-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168235",
+        "display_name": "Young Sheldon S01E10 An Eagle Feather, a String Bean, and an Eskimo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:22:06.169194+00:00"
       }
     },
     "3:1:11": {
@@ -647445,7 +647446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:22:01.250924+00:00",
+  "updated_at": "2026-11-19T03:22:06.169210+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
