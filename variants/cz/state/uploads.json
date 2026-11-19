@@ -667368,12 +667368,6 @@
     },
     "592:3:11": {
       "episode_key": "star wars: vadná várka:s3:e11",
-      "claim": {
-        "worker_id": "a00bc95a66b94fea94d23e81f9546e7d-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T12:57:28.374112+00:00",
-        "lease_expires_at": "2026-11-19T18:57:28.374130+00:00"
-      },
       "source": {
         "source_id": "28550743",
         "source_url": "https://sdilej.cz/28550743/star-wars-vadna-varka-star-wars-the-bad-batch-s03e11-2160p-dd-5.1-hdr-cz-dabing.mkv",
@@ -667398,22 +667392,29 @@
         "display_name": "Star Wars: The Bad Batch S03E11 Point of No Return 4K CZ Dabing",
         "prepared_at": "2026-11-19T12:57:33.468886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31183432",
-        "size_bytes": 2584486204
-      },
-      "transfer_receipt": {
-        "target_video_id": "31183432",
-        "size_bytes": 2584486204,
-        "source_bytes_read": 2584486204,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31183432",
         "source_bytes_read": 2584486204,
         "elapsed_seconds": 693.916,
         "finished_at": "2026-11-19T13:09:25.506739+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31183432",
+          "size_bytes": 2584486204,
+          "source_bytes_read": 2584486204,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28550743",
+        "source_url": "https://sdilej.cz/28550743/star-wars-vadna-varka-star-wars-the-bad-batch-s03e11-2160p-dd-5.1-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31183432",
+        "display_name": "Star Wars: The Bad Batch S03E11 Point of No Return 4K CZ Dabing",
+        "uploaded_at": "2026-11-19T13:09:34.523042+00:00"
       }
     },
     "592:3:12": {
@@ -667547,7 +667548,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:09:25.506758+00:00",
+  "updated_at": "2026-11-19T13:09:34.523059+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
