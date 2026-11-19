@@ -640867,12 +640867,6 @@
     },
     "1405:8:23": {
       "episode_key": "námořní vyšetřovací služba:s8:e23",
-      "claim": {
-        "worker_id": "abefaec5327744e5a2f662ca1f05c17d-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T01:00:49.218539+00:00",
-        "lease_expires_at": "2026-11-19T07:00:49.218549+00:00"
-      },
       "source": {
         "source_id": "33980315",
         "source_url": "https://sdilej.cz/33980315/ncis-s08e23-cz.mp4",
@@ -640897,22 +640891,29 @@
         "display_name": "NCIS S08E23 Swan Song 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:00:59.183365+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164779",
-        "size_bytes": 828105262
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164779",
-        "size_bytes": 828105262,
-        "source_bytes_read": 828105262,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164779",
         "source_bytes_read": 828105262,
         "elapsed_seconds": 44.484,
         "finished_at": "2026-11-19T01:02:19.721694+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164779",
+          "size_bytes": 828105262,
+          "source_bytes_read": 828105262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33980315",
+        "source_url": "https://sdilej.cz/33980315/ncis-s08e23-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164779",
+        "display_name": "NCIS S08E23 Swan Song 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:02:26.118480+00:00"
       }
     },
     "1405:8:24": {
@@ -640958,7 +640959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:02:19.721716+00:00",
+  "updated_at": "2026-11-19T01:02:26.118497+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
