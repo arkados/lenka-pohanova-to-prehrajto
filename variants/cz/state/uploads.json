@@ -663868,12 +663868,6 @@
     },
     "1066:2:1": {
       "episode_key": "obchoďák:s2:e1",
-      "claim": {
-        "worker_id": "cd3e091179494496874b55ce1ffe54ee-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T11:08:28.736961+00:00",
-        "lease_expires_at": "2026-11-19T17:08:28.736973+00:00"
-      },
       "source": {
         "source_id": "29089303",
         "source_url": "https://sdilej.cz/29089303/superstore-s02e01-hd-cz-dabing.mkv",
@@ -663898,22 +663892,29 @@
         "display_name": "Superstore S02E01 Olympics 1080p CZ Dabing",
         "prepared_at": "2026-11-19T11:08:34.239163+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31181224",
-        "size_bytes": 699369933
-      },
-      "transfer_receipt": {
-        "target_video_id": "31181224",
-        "size_bytes": 699369933,
-        "source_bytes_read": 699369933,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31181224",
         "source_bytes_read": 699369933,
         "elapsed_seconds": 133.149,
         "finished_at": "2026-11-19T11:11:06.214286+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31181224",
+          "size_bytes": 699369933,
+          "source_bytes_read": 699369933,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29089303",
+        "source_url": "https://sdilej.cz/29089303/superstore-s02e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31181224",
+        "display_name": "Superstore S02E01 Olympics 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T11:11:15.262121+00:00"
       }
     },
     "1066:2:2": {
@@ -663996,7 +663997,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T11:11:06.214305+00:00",
+  "updated_at": "2026-11-19T11:11:15.262136+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
