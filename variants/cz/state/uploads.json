@@ -654770,12 +654770,6 @@
     },
     "3285:3:4": {
       "episode_key": "bude líp:s3:e4",
-      "claim": {
-        "worker_id": "56b43814dafd4d4686a21a04727fcb7c-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:12:06.364080+00:00",
-        "lease_expires_at": "2026-11-19T12:12:06.364101+00:00"
-      },
       "source": {
         "source_id": "11464111",
         "source_url": "https://sdilej.cz/11464111/bude.lip.03x04.hdtv.cz.avi",
@@ -654800,22 +654794,29 @@
         "display_name": "Better Things S03E04 Monsters in the Moonlight SD CZ Dabing",
         "prepared_at": "2026-11-19T06:12:21.499826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172392",
-        "size_bytes": 353206464
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172392",
-        "size_bytes": 353206464,
-        "source_bytes_read": 353206464,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172392",
         "source_bytes_read": 353206464,
         "elapsed_seconds": 41.886,
         "finished_at": "2026-11-19T06:13:30.069301+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172392",
+          "size_bytes": 353206464,
+          "source_bytes_read": 353206464,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11464111",
+        "source_url": "https://sdilej.cz/11464111/bude.lip.03x04.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172392",
+        "display_name": "Better Things S03E04 Monsters in the Moonlight SD CZ Dabing",
+        "uploaded_at": "2026-11-19T06:13:38.855558+00:00"
       }
     },
     "3285:3:5": {
@@ -654861,7 +654862,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:13:30.069330+00:00",
+  "updated_at": "2026-11-19T06:13:38.855582+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
