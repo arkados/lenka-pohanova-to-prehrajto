@@ -658711,12 +658711,6 @@
     },
     "940:4:13": {
       "episode_key": "jmenuju se earl:s4:e13",
-      "claim": {
-        "worker_id": "d158b445bf1645e6adaff83fed4ea255-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T08:20:21.019625+00:00",
-        "lease_expires_at": "2026-11-19T14:20:21.019642+00:00"
-      },
       "source": {
         "source_id": "29460611",
         "source_url": "https://sdilej.cz/29460611/jmenuju-se-earl-s04e13-sirotek-earl.mkv",
@@ -658741,22 +658735,29 @@
         "display_name": "My Name Is Earl S04E13 Orphan Earl 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:20:40.285624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31176258",
-        "size_bytes": 725586976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31176258",
-        "size_bytes": 725586976,
-        "source_bytes_read": 725586976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31176258",
         "source_bytes_read": 725586976,
         "elapsed_seconds": 377.344,
         "finished_at": "2026-11-19T08:27:32.298888+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31176258",
+          "size_bytes": 725586976,
+          "source_bytes_read": 725586976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29460611",
+        "source_url": "https://sdilej.cz/29460611/jmenuju-se-earl-s04e13-sirotek-earl.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31176258",
+        "display_name": "My Name Is Earl S04E13 Orphan Earl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T08:27:39.635035+00:00"
       }
     },
     "940:4:14": {
@@ -658839,7 +658840,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T08:27:32.298916+00:00",
+  "updated_at": "2026-11-19T08:27:39.635062+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
