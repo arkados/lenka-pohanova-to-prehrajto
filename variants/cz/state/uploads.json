@@ -655484,12 +655484,6 @@
     },
     "940:1:8": {
       "episode_key": "jmenuju se earl:s1:e8",
-      "claim": {
-        "worker_id": "5d659e994c9b4052bd04ee5b8438816f-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:37:05.528664+00:00",
-        "lease_expires_at": "2026-11-19T12:37:05.528688+00:00"
-      },
       "source": {
         "source_id": "15656170",
         "source_url": "https://sdilej.cz/15656170/jmenuju-se-earl-s01e08-joy-se-vdava.mkv",
@@ -655514,22 +655508,29 @@
         "display_name": "My Name Is Earl S01E08 Joy's Wedding 1080p CZ Dabing",
         "prepared_at": "2026-11-19T06:37:15.789789+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172974",
-        "size_bytes": 679397402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172974",
-        "size_bytes": 679397402,
-        "source_bytes_read": 679397402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172974",
         "source_bytes_read": 679397402,
         "elapsed_seconds": 102.476,
         "finished_at": "2026-11-19T06:39:21.714017+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172974",
+          "size_bytes": 679397402,
+          "source_bytes_read": 679397402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15656170",
+        "source_url": "https://sdilej.cz/15656170/jmenuju-se-earl-s01e08-joy-se-vdava.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172974",
+        "display_name": "My Name Is Earl S01E08 Joy's Wedding 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T06:39:30.534674+00:00"
       }
     },
     "940:1:9": {
@@ -655575,7 +655576,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:39:21.714043+00:00",
+  "updated_at": "2026-11-19T06:39:30.534697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
