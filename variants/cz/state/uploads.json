@@ -687421,12 +687421,6 @@
         }
       ],
       "episode_key": "paní ministryně:s1:e13",
-      "claim": {
-        "worker_id": "d138b34faca34aea8c12b859f4b8133e-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:11:17.833723+00:00",
-        "lease_expires_at": "2026-11-20T05:11:17.833738+00:00"
-      },
       "source": {
         "source_id": "12032798",
         "source_url": "https://sdilej.cz/12032798/pani.ministryne.01x13.1080i.hdtv.cz.mkv",
@@ -687451,22 +687445,29 @@
         "display_name": "Madam Secretary S01E13 Chains of Command 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:11:34.021208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192196",
-        "size_bytes": 3029437362
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192196",
-        "size_bytes": 3029437362,
-        "source_bytes_read": 3029437362,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192196",
         "source_bytes_read": 3029437362,
         "elapsed_seconds": 168.918,
         "finished_at": "2026-11-19T23:14:50.319504+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192196",
+          "size_bytes": 3029437362,
+          "source_bytes_read": 3029437362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12032798",
+        "source_url": "https://sdilej.cz/12032798/pani.ministryne.01x13.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192196",
+        "display_name": "Madam Secretary S01E13 Chains of Command 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:14:57.151678+00:00"
       }
     },
     "1128:1:14": {
@@ -691385,7 +691386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:14:50.319524+00:00",
+  "updated_at": "2026-11-19T23:14:57.151698+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
