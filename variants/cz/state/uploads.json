@@ -648280,12 +648280,6 @@
     },
     "72:4:7": {
       "episode_key": "hříšnice:s4:e7",
-      "claim": {
-        "worker_id": "a468ce21feba4e159024ee142a88fd5d-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:45:32.074098+00:00",
-        "lease_expires_at": "2026-11-19T09:45:32.074113+00:00"
-      },
       "source": {
         "source_id": "33551846",
         "source_url": "https://sdilej.cz/33551846/hrisnice-s04e07-cz-dabing.mp4",
@@ -648309,7 +648303,17 @@
         },
         "display_name": "The Sinner S04E07 Part VII 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:45:40.842328+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33551846:https://sdilej.cz/33551846/hrisnice-s04e07-cz-dabing.mp4",
+        "at": "2026-11-19T03:45:53.212089+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-19T03:45:53.212126+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "72:4:8": {
       "episode_key": "hříšnice:s4:e8",
@@ -648350,7 +648354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:45:44.991171+00:00",
+  "updated_at": "2026-11-19T03:45:53.212132+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -648864,6 +648868,10 @@
         {
           "identity": "72:4:6",
           "at": "2026-11-19T03:45:18.062641+00:00"
+        },
+        {
+          "identity": "72:4:7",
+          "at": "2026-11-19T03:45:53.212089+00:00"
         }
       ],
       "retry_after": "2026-11-19T03:21:14.357055+00:00"
