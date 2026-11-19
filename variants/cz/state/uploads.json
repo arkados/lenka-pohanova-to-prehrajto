@@ -647150,12 +647150,6 @@
     },
     "3:1:7": {
       "episode_key": "malý sheldon:s1:e7",
-      "claim": {
-        "worker_id": "64f634ca46be40f686156988f9026174-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:18:44.317071+00:00",
-        "lease_expires_at": "2026-11-19T09:18:44.317086+00:00"
-      },
       "source": {
         "source_id": "34980719",
         "source_url": "https://sdilej.cz/34980719/maly-sheldon-s01e07-bucek-voodoo-a-tajny-zavod.mkv",
@@ -647180,22 +647174,29 @@
         "display_name": "Young Sheldon S01E07 A Brisket, Voodoo, and Cannonball Run 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:18:54.187234+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31168190",
-        "size_bytes": 301247648
-      },
-      "transfer_receipt": {
-        "target_video_id": "31168190",
-        "size_bytes": 301247648,
-        "source_bytes_read": 301247648,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31168190",
         "source_bytes_read": 301247648,
         "elapsed_seconds": 29.952,
         "finished_at": "2026-11-19T03:19:53.580273+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31168190",
+          "size_bytes": 301247648,
+          "source_bytes_read": 301247648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34980719",
+        "source_url": "https://sdilej.cz/34980719/maly-sheldon-s01e07-bucek-voodoo-a-tajny-zavod.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31168190",
+        "display_name": "Young Sheldon S01E07 A Brisket, Voodoo, and Cannonball Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:20:14.226507+00:00"
       }
     },
     "3:1:8": {
@@ -647287,7 +647288,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:20:10.138841+00:00",
+  "updated_at": "2026-11-19T03:20:14.226524+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
