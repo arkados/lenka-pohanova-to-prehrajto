@@ -662905,12 +662905,6 @@
     },
     "2198:4:1": {
       "episode_key": "tenkrát poprvé:s4:e1",
-      "claim": {
-        "worker_id": "40d7556fbe2545bdaeaeb785fc6b8187-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:41:38.001954+00:00",
-        "lease_expires_at": "2026-11-19T16:41:38.001964+00:00"
-      },
       "source": {
         "source_id": "27675520",
         "source_url": "https://sdilej.cz/27675520/tenkrat-poprve-s04e01-cz.mkv",
@@ -662935,22 +662929,29 @@
         "display_name": "Never Have I Ever S04E01 …lost my virginity 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:41:56.241917+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31180423",
-        "size_bytes": 1067604214
-      },
-      "transfer_receipt": {
-        "target_video_id": "31180423",
-        "size_bytes": 1067604214,
-        "source_bytes_read": 1067604214,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31180423",
         "source_bytes_read": 1067604214,
         "elapsed_seconds": 297.915,
         "finished_at": "2026-11-19T10:47:27.328015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31180423",
+          "size_bytes": 1067604214,
+          "source_bytes_read": 1067604214,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27675520",
+        "source_url": "https://sdilej.cz/27675520/tenkrat-poprve-s04e01-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31180423",
+        "display_name": "Never Have I Ever S04E01 …lost my virginity 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:47:33.466732+00:00"
       }
     },
     "2198:4:2": {
@@ -663047,7 +663048,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:47:27.328030+00:00",
+  "updated_at": "2026-11-19T10:47:33.466746+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
