@@ -660060,12 +660060,6 @@
     },
     "620:2:3": {
       "episode_key": "advokát:s2:e3",
-      "claim": {
-        "worker_id": "2c42ddf609034e3d96e641e11cee33a4-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:14:07.797551+00:00",
-        "lease_expires_at": "2026-11-19T15:14:07.797564+00:00"
-      },
       "source": {
         "source_id": "33029077",
         "source_url": "https://sdilej.cz/33029077/advokat-s02e03-cz-dabing-1080p-full-hd.mkv",
@@ -660090,22 +660084,29 @@
         "display_name": "The Lincoln Lawyer S02E03 Conflicts 1080p CZ Dabing",
         "prepared_at": "2026-11-19T09:14:13.155279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31177873",
-        "size_bytes": 756405861
-      },
-      "transfer_receipt": {
-        "target_video_id": "31177873",
-        "size_bytes": 756405861,
-        "source_bytes_read": 756405861,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31177873",
         "source_bytes_read": 756405861,
         "elapsed_seconds": 65.236,
         "finished_at": "2026-11-19T09:15:38.155141+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31177873",
+          "size_bytes": 756405861,
+          "source_bytes_read": 756405861,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33029077",
+        "source_url": "https://sdilej.cz/33029077/advokat-s02e03-cz-dabing-1080p-full-hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31177873",
+        "display_name": "The Lincoln Lawyer S02E03 Conflicts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:15:46.306488+00:00"
       }
     }
   },
@@ -660114,7 +660115,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:15:38.155159+00:00",
+  "updated_at": "2026-11-19T09:15:46.306507+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
