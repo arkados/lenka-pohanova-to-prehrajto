@@ -671434,12 +671434,6 @@
     },
     "5114:1:1": {
       "episode_key": "na vejšce:s1:e1",
-      "claim": {
-        "worker_id": "f630d32a4f21490b96d35372e565d4d6-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:30:17.623505+00:00",
-        "lease_expires_at": "2026-11-19T20:30:17.623524+00:00"
-      },
       "source": {
         "source_id": "34256971",
         "source_url": "https://sdilej.cz/34256971/na-vejsce-s01e01-dohoda-cz-dabing-2160p-uhd.mkv",
@@ -671463,7 +671457,17 @@
         },
         "display_name": "Off Campus S01E01 The Deal 4K CZ Dabing",
         "prepared_at": "2026-11-19T14:30:23.966594+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34256971:https://sdilej.cz/34256971/na-vejsce-s01e01-dohoda-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-19T14:30:38.391513+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-19T14:30:38.391539+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -671471,7 +671475,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:30:29.435849+00:00",
+  "updated_at": "2026-11-19T14:30:38.391545+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -672014,6 +672018,14 @@
         {
           "identity": "592:1:12",
           "at": "2026-11-19T12:00:01.462980+00:00"
+        }
+      ]
+    },
+    "5114": {
+      "recent_failures": [
+        {
+          "identity": "5114:1:1",
+          "at": "2026-11-19T14:30:38.391513+00:00"
         }
       ]
     }
