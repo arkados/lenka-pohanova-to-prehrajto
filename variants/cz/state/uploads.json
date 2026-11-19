@@ -651421,12 +651421,6 @@
     },
     "3:4:17": {
       "episode_key": "malý sheldon:s4:e17",
-      "claim": {
-        "worker_id": "a95984cad5de4a53a3b5c9d3521f79ff-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:27:21.114689+00:00",
-        "lease_expires_at": "2026-11-19T10:27:21.114704+00:00"
-      },
       "source": {
         "source_id": "34727725",
         "source_url": "https://sdilej.cz/34727725/maly-sheldon-s04e17-cerna-dira-czdab-h265.mkv",
@@ -651451,22 +651445,29 @@
         "display_name": "Young Sheldon S04E17 A Black Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:27:30.800767+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170131",
-        "size_bytes": 236447589
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170131",
-        "size_bytes": 236447589,
-        "source_bytes_read": 236447589,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170131",
         "source_bytes_read": 236447589,
         "elapsed_seconds": 15.449,
         "finished_at": "2026-11-19T04:28:08.701661+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170131",
+          "size_bytes": 236447589,
+          "source_bytes_read": 236447589,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34727725",
+        "source_url": "https://sdilej.cz/34727725/maly-sheldon-s04e17-cerna-dira-czdab-h265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170131",
+        "display_name": "Young Sheldon S04E17 A Black Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:28:22.881000+00:00"
       }
     }
   },
@@ -651475,7 +651476,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:28:18.860194+00:00",
+  "updated_at": "2026-11-19T04:28:22.881015+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
