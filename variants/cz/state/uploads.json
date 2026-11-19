@@ -646121,12 +646121,6 @@
     },
     "72:1:1": {
       "episode_key": "hříšnice:s1:e1",
-      "claim": {
-        "worker_id": "3c60170c7c4b4f81bab6b1e8e2c1e993-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:59:34.552946+00:00",
-        "lease_expires_at": "2026-11-19T08:59:34.552957+00:00"
-      },
       "source": {
         "source_id": "33159365",
         "source_url": "https://sdilej.cz/33159365/hrisnice-s01e01-1080p-cz-en-cast-i.mkv",
@@ -646151,22 +646145,29 @@
         "display_name": "The Sinner S01E01 Part I 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:59:49.533686+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167614",
-        "size_bytes": 566555451
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167614",
-        "size_bytes": 566555451,
-        "source_bytes_read": 566555451,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167614",
         "source_bytes_read": 566555451,
         "elapsed_seconds": 118.163,
         "finished_at": "2026-11-19T03:02:12.360926+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167614",
+          "size_bytes": 566555451,
+          "source_bytes_read": 566555451,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33159365",
+        "source_url": "https://sdilej.cz/33159365/hrisnice-s01e01-1080p-cz-en-cast-i.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167614",
+        "display_name": "The Sinner S01E01 Part I 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:02:20.222007+00:00"
       }
     },
     "72:1:2": {
@@ -646300,7 +646301,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:02:12.360946+00:00",
+  "updated_at": "2026-11-19T03:02:20.222023+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
