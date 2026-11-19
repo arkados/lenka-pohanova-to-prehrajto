@@ -646704,12 +646704,6 @@
     },
     "72:2:5": {
       "episode_key": "hříšnice:s2:e5",
-      "claim": {
-        "worker_id": "16271dba530c45c1ad572b133fdd2b29-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:09:16.807181+00:00",
-        "lease_expires_at": "2026-11-19T09:09:16.807194+00:00"
-      },
       "source": {
         "source_id": "33551459",
         "source_url": "https://sdilej.cz/33551459/hrisnice-s02e05-cz-dabing.mp4",
@@ -646733,7 +646727,17 @@
         },
         "display_name": "The Sinner S02E05 Part V 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:09:26.622341+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33551459:https://sdilej.cz/33551459/hrisnice-s02e05-cz-dabing.mp4",
+        "at": "2026-11-19T03:09:39.343618+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-19T03:09:39.343643+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -646741,7 +646745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:09:31.081485+00:00",
+  "updated_at": "2026-11-19T03:09:39.343648+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -647239,6 +647243,14 @@
         {
           "identity": "920:2:8",
           "at": "2026-11-18T21:27:28.491675+00:00"
+        }
+      ]
+    },
+    "72": {
+      "recent_failures": [
+        {
+          "identity": "72:2:5",
+          "at": "2026-11-19T03:09:39.343618+00:00"
         }
       ]
     }
