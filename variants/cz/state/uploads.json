@@ -680311,12 +680311,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s2:e18",
-      "claim": {
-        "worker_id": "29be24871872476ba97eb6dd70d3ceb2-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:12:23.826010+00:00",
-        "lease_expires_at": "2026-11-20T03:12:23.826026+00:00"
-      },
       "source": {
         "source_id": "29875950",
         "source_url": "https://sdilej.cz/29875950/smrtonosna-zbran-s02e18.mp4",
@@ -680341,22 +680335,29 @@
         "display_name": "Lethal Weapon S02E18 Frankie Comes to Hollywood 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:12:38.136854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190694",
-        "size_bytes": 1141347392
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190694",
-        "size_bytes": 1141347392,
-        "source_bytes_read": 1141347392,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190694",
         "source_bytes_read": 1141347392,
         "elapsed_seconds": 132.951,
         "finished_at": "2026-11-19T21:15:15.563712+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190694",
+          "size_bytes": 1141347392,
+          "source_bytes_read": 1141347392,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875950",
+        "source_url": "https://sdilej.cz/29875950/smrtonosna-zbran-s02e18.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190694",
+        "display_name": "Lethal Weapon S02E18 Frankie Comes to Hollywood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:15:24.932875+00:00"
       }
     },
     "1382:2:20": {
@@ -686627,7 +686628,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:15:15.563730+00:00",
+  "updated_at": "2026-11-19T21:15:24.932891+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
