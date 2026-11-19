@@ -676766,12 +676766,6 @@
         }
       ],
       "episode_key": "doktoři:s2:e18",
-      "claim": {
-        "worker_id": "c1101348d8ed4de0a5a8d4c2810b7689-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:13:34.285792+00:00",
-        "lease_expires_at": "2026-11-20T02:13:34.285804+00:00"
-      },
       "source": {
         "source_id": "31327438",
         "source_url": "https://sdilej.cz/31327438/doktori.02x18.webrip.cz.avi",
@@ -676796,22 +676790,29 @@
         "display_name": "The Resident S02E18 Emergency Contact SD CZ Dabing",
         "prepared_at": "2026-11-19T20:13:48.604543+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190046",
-        "size_bytes": 601882570
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190046",
-        "size_bytes": 601882570,
-        "source_bytes_read": 601882570,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190046",
         "source_bytes_read": 601882570,
         "elapsed_seconds": 42.979,
         "finished_at": "2026-11-19T20:14:58.702300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190046",
+          "size_bytes": 601882570,
+          "source_bytes_read": 601882570,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31327438",
+        "source_url": "https://sdilej.cz/31327438/doktori.02x18.webrip.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190046",
+        "display_name": "The Resident S02E18 Emergency Contact SD CZ Dabing",
+        "uploaded_at": "2026-11-19T20:15:10.701413+00:00"
       }
     },
     "2592:2:20": {
@@ -683911,7 +683912,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:15:04.163353+00:00",
+  "updated_at": "2026-11-19T20:15:10.701429+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
