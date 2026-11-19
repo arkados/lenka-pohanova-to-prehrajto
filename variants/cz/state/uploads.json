@@ -667813,12 +667813,6 @@
     },
     "897:1:5": {
       "episode_key": "teror:s1:e5",
-      "claim": {
-        "worker_id": "2048c55aad0f4aefb3590cd7b516d7b6-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:22:43.120802+00:00",
-        "lease_expires_at": "2026-11-19T19:22:43.120819+00:00"
-      },
       "source": {
         "source_id": "26595115",
         "source_url": "https://sdilej.cz/26595115/the-terror-teror-s01e05-cz-dabing-1080p.mkv",
@@ -667843,22 +667837,29 @@
         "display_name": "The Terror S01E05 First Shot a Winner, Lads 1080p CZ Dabing",
         "prepared_at": "2026-11-19T13:22:53.442938+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31183834",
-        "size_bytes": 902268419
-      },
-      "transfer_receipt": {
-        "target_video_id": "31183834",
-        "size_bytes": 902268419,
-        "source_bytes_read": 902268419,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31183834",
         "source_bytes_read": 902268419,
         "elapsed_seconds": 324.922,
         "finished_at": "2026-11-19T13:28:42.734660+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31183834",
+          "size_bytes": 902268419,
+          "source_bytes_read": 902268419,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26595115",
+        "source_url": "https://sdilej.cz/26595115/the-terror-teror-s01e05-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31183834",
+        "display_name": "The Terror S01E05 First Shot a Winner, Lads 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T13:28:50.868232+00:00"
       }
     },
     "897:1:6": {
@@ -668057,7 +668058,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:28:42.734678+00:00",
+  "updated_at": "2026-11-19T13:28:50.868247+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
