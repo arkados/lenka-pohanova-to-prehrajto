@@ -662338,12 +662338,6 @@
     },
     "2198:2:7": {
       "episode_key": "tenkrát poprvé:s2:e7",
-      "claim": {
-        "worker_id": "ad1e98a567a041d7be55487b508fb292-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:23:58.530109+00:00",
-        "lease_expires_at": "2026-11-19T16:23:58.530119+00:00"
-      },
       "source": {
         "source_id": "27675060",
         "source_url": "https://sdilej.cz/27675060/tenkrat-poprve-s02e07-cz.mkv",
@@ -662368,22 +662362,29 @@
         "display_name": "Never Have I Ever S02E07 … begged for forgiveness 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:24:13.881940+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179926",
-        "size_bytes": 646150326
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179926",
-        "size_bytes": 646150326,
-        "source_bytes_read": 646150326,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179926",
         "source_bytes_read": 646150326,
         "elapsed_seconds": 146.104,
         "finished_at": "2026-11-19T10:27:05.127539+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179926",
+          "size_bytes": 646150326,
+          "source_bytes_read": 646150326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27675060",
+        "source_url": "https://sdilej.cz/27675060/tenkrat-poprve-s02e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179926",
+        "display_name": "Never Have I Ever S02E07 … begged for forgiveness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:27:12.440043+00:00"
       }
     },
     "2198:2:8": {
@@ -662466,7 +662467,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:27:05.127556+00:00",
+  "updated_at": "2026-11-19T10:27:12.440058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
