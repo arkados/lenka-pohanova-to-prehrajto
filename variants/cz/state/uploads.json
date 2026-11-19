@@ -657932,12 +657932,6 @@
     },
     "940:3:14": {
       "episode_key": "jmenuju se earl:s3:e14",
-      "claim": {
-        "worker_id": "d3879fa03efc49bba9269597025c2aa0-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:52:41.399033+00:00",
-        "lease_expires_at": "2026-11-19T13:52:41.399052+00:00"
-      },
       "source": {
         "source_id": "31003351",
         "source_url": "https://sdilej.cz/31003351/jmenuju-se-earl-s03e14-earle-neumirej-1.cast.mkv",
@@ -657962,22 +657956,29 @@
         "display_name": "My Name Is Earl S03E14 No Heads and a Duffel Bag 720p CZ Dabing",
         "prepared_at": "2026-11-19T07:52:56.431999+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31175421",
-        "size_bytes": 386192047
-      },
-      "transfer_receipt": {
-        "target_video_id": "31175421",
-        "size_bytes": 386192047,
-        "source_bytes_read": 386192047,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31175421",
         "source_bytes_read": 386192047,
         "elapsed_seconds": 56.324,
         "finished_at": "2026-11-19T07:54:18.028032+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31175421",
+          "size_bytes": 386192047,
+          "source_bytes_read": 386192047,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31003351",
+        "source_url": "https://sdilej.cz/31003351/jmenuju-se-earl-s03e14-earle-neumirej-1.cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31175421",
+        "display_name": "My Name Is Earl S03E14 No Heads and a Duffel Bag 720p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:54:25.602652+00:00"
       }
     },
     "940:3:16": {
@@ -658023,7 +658024,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:54:18.028061+00:00",
+  "updated_at": "2026-11-19T07:54:25.602674+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
