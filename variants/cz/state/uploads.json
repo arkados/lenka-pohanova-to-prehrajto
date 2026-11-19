@@ -663956,12 +663956,6 @@
     },
     "1066:2:3": {
       "episode_key": "obchoďák:s2:e3",
-      "claim": {
-        "worker_id": "b470998a010946ddb6fa069358297a8e-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T11:10:14.463438+00:00",
-        "lease_expires_at": "2026-11-19T17:10:14.463447+00:00"
-      },
       "source": {
         "source_id": "29089372",
         "source_url": "https://sdilej.cz/29089372/superstore-s02e03-hd-cz-dabing.mkv",
@@ -663986,22 +663980,29 @@
         "display_name": "Superstore S02E03 Back to Work 1080p CZ Dabing",
         "prepared_at": "2026-11-19T11:10:24.564209+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31181282",
-        "size_bytes": 699825472
-      },
-      "transfer_receipt": {
-        "target_video_id": "31181282",
-        "size_bytes": 699825472,
-        "source_bytes_read": 699825472,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31181282",
         "source_bytes_read": 699825472,
         "elapsed_seconds": 135.079,
         "finished_at": "2026-11-19T11:13:03.796807+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31181282",
+          "size_bytes": 699825472,
+          "source_bytes_read": 699825472,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29089372",
+        "source_url": "https://sdilej.cz/29089372/superstore-s02e03-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31181282",
+        "display_name": "Superstore S02E03 Back to Work 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T11:13:19.385156+00:00"
       }
     },
     "1066:2:11": {
@@ -664043,7 +664044,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T11:13:14.626370+00:00",
+  "updated_at": "2026-11-19T11:13:19.385169+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
