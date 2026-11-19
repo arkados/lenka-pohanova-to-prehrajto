@@ -641670,12 +641670,6 @@
     },
     "1405:10:2": {
       "episode_key": "námořní vyšetřovací služba:s10:e2",
-      "claim": {
-        "worker_id": "22113724a30041d49a14b2e666f9a488-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T01:18:55.328408+00:00",
-        "lease_expires_at": "2026-11-19T07:18:55.328418+00:00"
-      },
       "source": {
         "source_id": "30836395",
         "source_url": "https://sdilej.cz/30836395/namorni-vysetrovaci-sluzba-s10e02.mkv",
@@ -641700,22 +641694,29 @@
         "display_name": "NCIS S10E02 Recovery 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:19:00.138215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165110",
-        "size_bytes": 1011779183
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165110",
-        "size_bytes": 1011779183,
-        "source_bytes_read": 1011779183,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165110",
         "source_bytes_read": 1011779183,
         "elapsed_seconds": 102.104,
         "finished_at": "2026-11-19T01:21:00.509325+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165110",
+          "size_bytes": 1011779183,
+          "source_bytes_read": 1011779183,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836395",
+        "source_url": "https://sdilej.cz/30836395/namorni-vysetrovaci-sluzba-s10e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165110",
+        "display_name": "NCIS S10E02 Recovery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:21:10.945117+00:00"
       }
     },
     "1405:10:3": {
@@ -641761,7 +641762,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:21:00.509343+00:00",
+  "updated_at": "2026-11-19T01:21:10.945133+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
