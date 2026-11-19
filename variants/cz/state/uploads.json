@@ -659731,12 +659731,6 @@
     },
     "620:1:6": {
       "episode_key": "advokát:s1:e6",
-      "claim": {
-        "worker_id": "c8c283e7088a48878c20f067145878e8-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:03:16.175968+00:00",
-        "lease_expires_at": "2026-11-19T15:03:16.175979+00:00"
-      },
       "source": {
         "source_id": "28383303",
         "source_url": "https://sdilej.cz/28383303/advokat-s01e06-1080p-cz-dabing.mkv",
@@ -659761,22 +659755,29 @@
         "display_name": "The Lincoln Lawyer S01E06 Bent 1080p CZ Dabing",
         "prepared_at": "2026-11-19T09:03:26.053053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31177558",
-        "size_bytes": 943633391
-      },
-      "transfer_receipt": {
-        "target_video_id": "31177558",
-        "size_bytes": 943633391,
-        "source_bytes_read": 943633391,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31177558",
         "source_bytes_read": 943633391,
         "elapsed_seconds": 378.377,
         "finished_at": "2026-11-19T09:10:07.765568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31177558",
+          "size_bytes": 943633391,
+          "source_bytes_read": 943633391,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28383303",
+        "source_url": "https://sdilej.cz/28383303/advokat-s01e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31177558",
+        "display_name": "The Lincoln Lawyer S01E06 Bent 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:10:15.540781+00:00"
       }
     },
     "620:1:7": {
@@ -659859,7 +659860,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:10:07.765588+00:00",
+  "updated_at": "2026-11-19T09:10:15.540795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
