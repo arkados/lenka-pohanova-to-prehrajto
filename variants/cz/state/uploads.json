@@ -683672,12 +683672,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s4:e3",
-      "claim": {
-        "worker_id": "ef6c2592dfa842cdbef52a0f78b3dc6b-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:18:44.742542+00:00",
-        "lease_expires_at": "2026-11-20T04:18:44.742554+00:00"
-      },
       "source": {
         "source_id": "35380603",
         "source_url": "https://sdilej.cz/35380603/smrt-v-raji-04x03.mp4",
@@ -683702,22 +683696,29 @@
         "display_name": "Death in Paradise S04E03 Damned If You Do… 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:18:54.335347+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191396",
-        "size_bytes": 1093714121
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191396",
-        "size_bytes": 1093714121,
-        "source_bytes_read": 1093714121,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191396",
         "source_bytes_read": 1093714121,
         "elapsed_seconds": 84.363,
         "finished_at": "2026-11-19T22:20:56.244263+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191396",
+          "size_bytes": 1093714121,
+          "source_bytes_read": 1093714121,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35380603",
+        "source_url": "https://sdilej.cz/35380603/smrt-v-raji-04x03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191396",
+        "display_name": "Death in Paradise S04E03 Damned If You Do… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:21:04.531763+00:00"
       }
     },
     "1783:4:2": {
@@ -689302,7 +689303,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:20:56.244283+00:00",
+  "updated_at": "2026-11-19T22:21:04.531783+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
