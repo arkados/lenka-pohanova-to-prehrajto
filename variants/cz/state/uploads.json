@@ -673912,12 +673912,6 @@
     },
     "55:3:10": {
       "episode_key": "superman a lois:s3:e10",
-      "claim": {
-        "worker_id": "4f906f3d34b249528e434f66bff001f5-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:42:34.189366+00:00",
-        "lease_expires_at": "2026-11-19T21:42:34.189381+00:00"
-      },
       "source": {
         "source_id": "34692016",
         "source_url": "https://sdilej.cz/34692016/superman-a-lois-s03e10-kolizni-kurz-cz.mkv",
@@ -673942,22 +673936,29 @@
         "display_name": "Superman & Lois S03E10 Collision Course 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:42:41.145657+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186392",
-        "size_bytes": 349868037
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186392",
-        "size_bytes": 349868037,
-        "source_bytes_read": 349868037,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186392",
         "source_bytes_read": 349868037,
         "elapsed_seconds": 47.762,
         "finished_at": "2026-11-19T15:44:03.775270+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186392",
+          "size_bytes": 349868037,
+          "source_bytes_read": 349868037,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34692016",
+        "source_url": "https://sdilej.cz/34692016/superman-a-lois-s03e10-kolizni-kurz-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186392",
+        "display_name": "Superman & Lois S03E10 Collision Course 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:44:10.615229+00:00"
       }
     },
     "55:3:11": {
@@ -674040,7 +674041,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:44:03.775289+00:00",
+  "updated_at": "2026-11-19T15:44:10.615246+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
