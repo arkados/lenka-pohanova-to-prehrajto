@@ -646399,12 +646399,6 @@
     },
     "72:1:7": {
       "episode_key": "hříšnice:s1:e7",
-      "claim": {
-        "worker_id": "565849e71ab4450f956342bb987fb65b-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:04:14.960049+00:00",
-        "lease_expires_at": "2026-11-19T09:04:14.960059+00:00"
-      },
       "source": {
         "source_id": "33159381",
         "source_url": "https://sdilej.cz/33159381/hrisnice-s01e07-1080p-cz-en-cast-vii.mkv",
@@ -646429,22 +646423,29 @@
         "display_name": "The Sinner S01E07 Part VII 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:04:27.481060+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167755",
-        "size_bytes": 489196634
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167755",
-        "size_bytes": 489196634,
-        "source_bytes_read": 489196634,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167755",
         "source_bytes_read": 489196634,
         "elapsed_seconds": 32.243,
         "finished_at": "2026-11-19T03:05:16.861087+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167755",
+          "size_bytes": 489196634,
+          "source_bytes_read": 489196634,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33159381",
+        "source_url": "https://sdilej.cz/33159381/hrisnice-s01e07-1080p-cz-en-cast-vii.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167755",
+        "display_name": "The Sinner S01E07 Part VII 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:05:23.889240+00:00"
       }
     }
   },
@@ -646453,7 +646454,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:05:16.861106+00:00",
+  "updated_at": "2026-11-19T03:05:23.889257+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
