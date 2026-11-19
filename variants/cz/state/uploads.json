@@ -642755,12 +642755,6 @@
     },
     "1405:10:24": {
       "episode_key": "námořní vyšetřovací služba:s10:e24",
-      "claim": {
-        "worker_id": "9598712936044890947593d9b6c1fabf-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:42:22.356901+00:00",
-        "lease_expires_at": "2026-11-19T07:42:22.356911+00:00"
-      },
       "source": {
         "source_id": "30836499",
         "source_url": "https://sdilej.cz/30836499/namorni-vysetrovaci-sluzba-s10e24.mkv",
@@ -642785,22 +642779,29 @@
         "display_name": "NCIS S10E24 Damned If You Do 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:42:27.110834+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165535",
-        "size_bytes": 1001933070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165535",
-        "size_bytes": 1001933070,
-        "source_bytes_read": 1001933070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165535",
         "source_bytes_read": 1001933070,
         "elapsed_seconds": 109.356,
         "finished_at": "2026-11-19T01:44:45.832738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165535",
+          "size_bytes": 1001933070,
+          "source_bytes_read": 1001933070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836499",
+        "source_url": "https://sdilej.cz/30836499/namorni-vysetrovaci-sluzba-s10e24.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165535",
+        "display_name": "NCIS S10E24 Damned If You Do 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:44:53.635322+00:00"
       }
     },
     "1405:11:2": {
@@ -642851,7 +642852,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:44:49.770903+00:00",
+  "updated_at": "2026-11-19T01:44:53.635337+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
