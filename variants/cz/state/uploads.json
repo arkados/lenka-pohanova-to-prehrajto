@@ -671858,12 +671858,6 @@
     },
     "3892:1:20": {
       "episode_key": "jak vycvičit draky:s1:e20",
-      "claim": {
-        "worker_id": "d12b03677f744a0c89c349507cca6e02-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:02:50.125045+00:00",
-        "lease_expires_at": "2026-11-19T21:02:50.125063+00:00"
-      },
       "source": {
         "source_id": "28212182",
         "source_url": "https://sdilej.cz/28212182/jak-vycvicit-draky-s01e20-cz.mkv",
@@ -671888,22 +671882,29 @@
         "display_name": "DreamWorks Dragons S01E20 We Are Family (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:02:55.608736+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31185482",
-        "size_bytes": 813797605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31185482",
-        "size_bytes": 813797605,
-        "source_bytes_read": 813797605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31185482",
         "source_bytes_read": 813797605,
         "elapsed_seconds": 59.713,
         "finished_at": "2026-11-19T15:04:14.562930+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31185482",
+          "size_bytes": 813797605,
+          "source_bytes_read": 813797605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28212182",
+        "source_url": "https://sdilej.cz/28212182/jak-vycvicit-draky-s01e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31185482",
+        "display_name": "DreamWorks Dragons S01E20 We Are Family (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:04:23.307495+00:00"
       }
     }
   },
@@ -671912,7 +671913,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:04:19.025764+00:00",
+  "updated_at": "2026-11-19T15:04:23.307515+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
