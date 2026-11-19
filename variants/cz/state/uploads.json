@@ -675199,12 +675199,6 @@
         }
       ],
       "episode_key": "nejsilnější hlas:s1:e6",
-      "claim": {
-        "worker_id": "a23966b47bda49a59265f72a7f237952-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:13:09.964664+00:00",
-        "lease_expires_at": "2026-11-20T01:13:09.964674+00:00"
-      },
       "source": {
         "source_id": "12199253",
         "source_url": "https://sdilej.cz/12199253/nejsilnejsi.hlas.01x06.hdtv.cz.avi",
@@ -675229,22 +675223,29 @@
         "display_name": "The Loudest Voice S01E06 2015 SD CZ Dabing",
         "prepared_at": "2026-11-19T19:13:14.929626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189347",
-        "size_bytes": 662096962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189347",
-        "size_bytes": 662096962,
-        "source_bytes_read": 662096962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189347",
         "source_bytes_read": 662096962,
         "elapsed_seconds": 47.108,
         "finished_at": "2026-11-19T19:14:20.937287+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189347",
+          "size_bytes": 662096962,
+          "source_bytes_read": 662096962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12199253",
+        "source_url": "https://sdilej.cz/12199253/nejsilnejsi.hlas.01x06.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189347",
+        "display_name": "The Loudest Voice S01E06 2015 SD CZ Dabing",
+        "uploaded_at": "2026-11-19T19:14:28.697478+00:00"
       }
     },
     "2592:1:1": {
@@ -682728,7 +682729,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:14:20.937306+00:00",
+  "updated_at": "2026-11-19T19:14:28.697493+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
