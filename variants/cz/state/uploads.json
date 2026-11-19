@@ -642078,12 +642078,6 @@
     },
     "1405:10:10": {
       "episode_key": "námořní vyšetřovací služba:s10:e10",
-      "claim": {
-        "worker_id": "5a66ef58479145bc8c31955c99822ef5-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:28:48.264916+00:00",
-        "lease_expires_at": "2026-11-19T07:28:48.264930+00:00"
-      },
       "source": {
         "source_id": "30836440",
         "source_url": "https://sdilej.cz/30836440/namorni-vysetrovaci-sluzba-s10e10.mkv",
@@ -642108,22 +642102,29 @@
         "display_name": "NCIS S10E10 You Better Watch Out 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:28:53.684381+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165293",
-        "size_bytes": 997497706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165293",
-        "size_bytes": 997497706,
-        "source_bytes_read": 997497706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165293",
         "source_bytes_read": 997497706,
         "elapsed_seconds": 67.901,
         "finished_at": "2026-11-19T01:30:28.624868+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165293",
+          "size_bytes": 997497706,
+          "source_bytes_read": 997497706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836440",
+        "source_url": "https://sdilej.cz/30836440/namorni-vysetrovaci-sluzba-s10e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165293",
+        "display_name": "NCIS S10E10 You Better Watch Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:30:34.866929+00:00"
       }
     },
     "1405:10:11": {
@@ -642169,7 +642170,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:30:28.624892+00:00",
+  "updated_at": "2026-11-19T01:30:34.866946+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
