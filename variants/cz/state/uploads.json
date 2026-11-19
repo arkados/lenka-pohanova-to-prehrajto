@@ -681242,12 +681242,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s3:e11",
-      "claim": {
-        "worker_id": "3797eea1c6ac493f94d853ec633ab0b1-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:26:44.341168+00:00",
-        "lease_expires_at": "2026-11-20T03:26:44.341179+00:00"
-      },
       "source": {
         "source_id": "29875987",
         "source_url": "https://sdilej.cz/29875987/smrtonosna-zbran-s03e11.mp4",
@@ -681272,22 +681266,29 @@
         "display_name": "Lethal Weapon S03E11 Dial M for Murtaugh 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:26:49.326673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190840",
-        "size_bytes": 1099918817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190840",
-        "size_bytes": 1099918817,
-        "source_bytes_read": 1099918817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190840",
         "source_bytes_read": 1099918817,
         "elapsed_seconds": 75.877,
         "finished_at": "2026-11-19T21:28:27.920840+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190840",
+          "size_bytes": 1099918817,
+          "source_bytes_read": 1099918817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875987",
+        "source_url": "https://sdilej.cz/29875987/smrtonosna-zbran-s03e11.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190840",
+        "display_name": "Lethal Weapon S03E11 Dial M for Murtaugh 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:28:37.972203+00:00"
       }
     },
     "1382:3:12": {
@@ -687334,7 +687335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:28:27.920862+00:00",
+  "updated_at": "2026-11-19T21:28:37.972219+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
