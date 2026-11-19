@@ -666121,12 +666121,6 @@
     },
     "592:2:3": {
       "episode_key": "star wars: vadná várka:s2:e3",
-      "claim": {
-        "worker_id": "b30fa53110484778b18998a2817d6963-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T12:04:43.800327+00:00",
-        "lease_expires_at": "2026-11-19T18:04:43.800340+00:00"
-      },
       "source": {
         "source_id": "28944371",
         "source_url": "https://sdilej.cz/28944371/star-wars-vadna-varka-s02e03-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -666151,22 +666145,29 @@
         "display_name": "Star Wars: The Bad Batch S02E03 The Solitary Clone 1080p CZ Dabing",
         "prepared_at": "2026-11-19T12:04:49.361572+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31182347",
-        "size_bytes": 370941590
-      },
-      "transfer_receipt": {
-        "target_video_id": "31182347",
-        "size_bytes": 370941590,
-        "source_bytes_read": 370941590,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31182347",
         "source_bytes_read": 370941590,
         "elapsed_seconds": 32.95,
         "finished_at": "2026-11-19T12:05:50.040816+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31182347",
+          "size_bytes": 370941590,
+          "source_bytes_read": 370941590,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28944371",
+        "source_url": "https://sdilej.cz/28944371/star-wars-vadna-varka-s02e03-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31182347",
+        "display_name": "Star Wars: The Bad Batch S02E03 The Solitary Clone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T12:06:01.358760+00:00"
       }
     },
     "592:2:4": {
@@ -666212,7 +666213,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T12:05:54.630672+00:00",
+  "updated_at": "2026-11-19T12:06:01.358776+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
