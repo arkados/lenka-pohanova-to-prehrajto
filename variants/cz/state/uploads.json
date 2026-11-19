@@ -687368,12 +687368,6 @@
         }
       ],
       "episode_key": "paní ministryně:s1:e12",
-      "claim": {
-        "worker_id": "66c6cd5c247d48af9d6b9c3fda129981-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:04:17.576281+00:00",
-        "lease_expires_at": "2026-11-20T05:04:17.576294+00:00"
-      },
       "source": {
         "source_id": "12031447",
         "source_url": "https://sdilej.cz/12031447/pani.ministryne.01x12.1080i.hdtv.cz.mkv",
@@ -687398,22 +687392,29 @@
         "display_name": "Madam Secretary S01E12 Standoff 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:04:23.492816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192059",
-        "size_bytes": 3032707497
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192059",
-        "size_bytes": 3032707497,
-        "source_bytes_read": 3032707497,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192059",
         "source_bytes_read": 3032707497,
         "elapsed_seconds": 212.497,
         "finished_at": "2026-11-19T23:08:16.965975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192059",
+          "size_bytes": 3032707497,
+          "source_bytes_read": 3032707497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12031447",
+        "source_url": "https://sdilej.cz/12031447/pani.ministryne.01x12.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192059",
+        "display_name": "Madam Secretary S01E12 Standoff 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:08:32.722434+00:00"
       }
     },
     "1128:1:13": {
@@ -691278,7 +691279,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:08:27.784432+00:00",
+  "updated_at": "2026-11-19T23:08:32.722451+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
