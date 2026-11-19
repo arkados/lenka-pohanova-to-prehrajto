@@ -677602,12 +677602,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e9",
-      "claim": {
-        "worker_id": "31ccf0f945f148af9bac5319831f8957-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:26:09.355400+00:00",
-        "lease_expires_at": "2026-11-20T02:26:09.355415+00:00"
-      },
       "source": {
         "source_id": "29367621",
         "source_url": "https://sdilej.cz/29367621/doktori-s03e09.mp4",
@@ -677632,22 +677626,29 @@
         "display_name": "The Resident S03E09 Out for Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:26:14.684001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190199",
-        "size_bytes": 876448197
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190199",
-        "size_bytes": 876448197,
-        "source_bytes_read": 876448197,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190199",
         "source_bytes_read": 876448197,
         "elapsed_seconds": 50.316,
         "finished_at": "2026-11-19T20:27:36.510674+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190199",
+          "size_bytes": 876448197,
+          "source_bytes_read": 876448197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367621",
+        "source_url": "https://sdilej.cz/29367621/doktori-s03e09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190199",
+        "display_name": "The Resident S03E09 Out for Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:27:48.279391+00:00"
       }
     },
     "2592:3:10": {
@@ -684624,7 +684625,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:27:42.132008+00:00",
+  "updated_at": "2026-11-19T20:27:48.279407+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
