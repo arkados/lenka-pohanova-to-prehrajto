@@ -683822,12 +683822,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s4:e4",
-      "claim": {
-        "worker_id": "4577540363624703a63858994ce73e57-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:19:22.353219+00:00",
-        "lease_expires_at": "2026-11-20T04:19:22.353233+00:00"
-      },
       "source": {
         "source_id": "35380605",
         "source_url": "https://sdilej.cz/35380605/smrt-v-raji-04x04.mp4",
@@ -683852,22 +683846,29 @@
         "display_name": "Death in Paradise S04E04 Until Death Do You Part 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:19:32.790560+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191400",
-        "size_bytes": 1047819875
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191400",
-        "size_bytes": 1047819875,
-        "source_bytes_read": 1047819875,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191400",
         "source_bytes_read": 1047819875,
         "elapsed_seconds": 103.527,
         "finished_at": "2026-11-19T22:21:47.523349+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191400",
+          "size_bytes": 1047819875,
+          "source_bytes_read": 1047819875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35380605",
+        "source_url": "https://sdilej.cz/35380605/smrt-v-raji-04x04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191400",
+        "display_name": "Death in Paradise S04E04 Until Death Do You Part 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:22:00.607808+00:00"
       }
     },
     "1783:4:6": {
@@ -689374,7 +689375,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:21:55.247005+00:00",
+  "updated_at": "2026-11-19T22:22:00.607828+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
