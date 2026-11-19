@@ -638012,12 +638012,6 @@
     },
     "1405:6:14": {
       "episode_key": "námořní vyšetřovací služba:s6:e14",
-      "claim": {
-        "worker_id": "931177363e194705b484ed53470e974a-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:19:15.615147+00:00",
-        "lease_expires_at": "2026-11-19T06:19:15.615159+00:00"
-      },
       "source": {
         "source_id": "31270933",
         "source_url": "https://sdilej.cz/31270933/namorni-vysetrovaci-sluzba-s06e14.mkv",
@@ -638042,22 +638036,29 @@
         "display_name": "NCIS S06E14 Love and War 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:19:21.100899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164203",
-        "size_bytes": 1002989752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164203",
-        "size_bytes": 1002989752,
-        "source_bytes_read": 1002989752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164203",
         "source_bytes_read": 1002989752,
         "elapsed_seconds": 65.243,
         "finished_at": "2026-11-19T00:20:46.086036+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164203",
+          "size_bytes": 1002989752,
+          "source_bytes_read": 1002989752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31270933",
+        "source_url": "https://sdilej.cz/31270933/namorni-vysetrovaci-sluzba-s06e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164203",
+        "display_name": "NCIS S06E14 Love and War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:20:56.789596+00:00"
       }
     },
     "1405:6:15": {
@@ -638139,7 +638140,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:20:50.159052+00:00",
+  "updated_at": "2026-11-19T00:20:56.789612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
