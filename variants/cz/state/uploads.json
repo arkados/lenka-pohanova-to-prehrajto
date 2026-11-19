@@ -645611,12 +645611,6 @@
     },
     "1405:22:1": {
       "episode_key": "námořní vyšetřovací služba:s22:e1",
-      "claim": {
-        "worker_id": "bb3e23d8b5dd45c5970dda83dc41a3da-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:45:40.735629+00:00",
-        "lease_expires_at": "2026-11-19T08:45:40.735640+00:00"
-      },
       "source": {
         "source_id": "34819457",
         "source_url": "https://sdilej.cz/34819457/ncis-s22e01-cz.mp4",
@@ -645641,22 +645635,29 @@
         "display_name": "NCIS S22E01 Empty Nest 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:45:51.187920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166883",
-        "size_bytes": 966019684
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166883",
-        "size_bytes": 966019684,
-        "source_bytes_read": 966019684,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166883",
         "source_bytes_read": 966019684,
         "elapsed_seconds": 117.316,
         "finished_at": "2026-11-19T02:48:16.348427+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166883",
+          "size_bytes": 966019684,
+          "source_bytes_read": 966019684,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34819457",
+        "source_url": "https://sdilej.cz/34819457/ncis-s22e01-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166883",
+        "display_name": "NCIS S22E01 Empty Nest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:48:27.085292+00:00"
       }
     },
     "1405:22:2": {
@@ -645739,7 +645740,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:48:21.093153+00:00",
+  "updated_at": "2026-11-19T02:48:27.085308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
