@@ -677277,12 +677277,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e4",
-      "claim": {
-        "worker_id": "b770cc0527904fecb05ad53ba5ff5b10-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:22:15.310818+00:00",
-        "lease_expires_at": "2026-11-20T02:22:15.310828+00:00"
-      },
       "source": {
         "source_id": "29367593",
         "source_url": "https://sdilej.cz/29367593/doktori-s03e04.mp4",
@@ -677307,22 +677301,29 @@
         "display_name": "The Resident S03E04 Belief System 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:22:23.190798+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190155",
-        "size_bytes": 747326873
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190155",
-        "size_bytes": 747326873,
-        "source_bytes_read": 747326873,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190155",
         "source_bytes_read": 747326873,
         "elapsed_seconds": 55.213,
         "finished_at": "2026-11-19T20:23:45.313922+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190155",
+          "size_bytes": 747326873,
+          "source_bytes_read": 747326873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367593",
+        "source_url": "https://sdilej.cz/29367593/doktori-s03e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190155",
+        "display_name": "The Resident S03E04 Belief System 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:23:52.755368+00:00"
       }
     },
     "2592:3:5": {
@@ -684380,7 +684381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:23:45.313941+00:00",
+  "updated_at": "2026-11-19T20:23:52.755385+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
