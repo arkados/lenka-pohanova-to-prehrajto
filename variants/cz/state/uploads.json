@@ -666288,12 +666288,6 @@
     },
     "592:2:7": {
       "episode_key": "star wars: vadná várka:s2:e7",
-      "claim": {
-        "worker_id": "36e3b994a7784b8bb49733aaa2d379f6-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T12:07:12.331243+00:00",
-        "lease_expires_at": "2026-11-19T18:07:12.331255+00:00"
-      },
       "source": {
         "source_id": "28944423",
         "source_url": "https://sdilej.cz/28944423/star-wars-vadna-varka-s02e07-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -666318,22 +666312,29 @@
         "display_name": "Star Wars: The Bad Batch S02E07 The Clone Conspiracy (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T12:07:18.521698+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31182418",
-        "size_bytes": 289906305
-      },
-      "transfer_receipt": {
-        "target_video_id": "31182418",
-        "size_bytes": 289906305,
-        "source_bytes_read": 289906305,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31182418",
         "source_bytes_read": 289906305,
         "elapsed_seconds": 35.058,
         "finished_at": "2026-11-19T12:08:36.471497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31182418",
+          "size_bytes": 289906305,
+          "source_bytes_read": 289906305,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28944423",
+        "source_url": "https://sdilej.cz/28944423/star-wars-vadna-varka-s02e07-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31182418",
+        "display_name": "Star Wars: The Bad Batch S02E07 The Clone Conspiracy (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T12:08:51.497821+00:00"
       }
     },
     "592:2:8": {
@@ -666379,7 +666380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T12:08:42.702519+00:00",
+  "updated_at": "2026-11-19T12:08:51.497837+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
