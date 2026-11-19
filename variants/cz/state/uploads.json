@@ -668490,12 +668490,6 @@
     },
     "897:2:8": {
       "episode_key": "teror:s2:e8",
-      "claim": {
-        "worker_id": "29ee97cf9809460fa9e769da47d81ea1-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:45:01.060176+00:00",
-        "lease_expires_at": "2026-11-19T19:45:01.060194+00:00"
-      },
       "source": {
         "source_id": "34146800",
         "source_url": "https://sdilej.cz/34146800/teror-s02e08-018-2019-fhd-muj-mily-clapec-s-.mp4",
@@ -668520,22 +668514,29 @@
         "display_name": "The Terror S02E08 My Sweet Boy 1080p CZ Dabing",
         "prepared_at": "2026-11-19T13:45:13.395233+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184179",
-        "size_bytes": 894133336
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184179",
-        "size_bytes": 894133336,
-        "source_bytes_read": 894133336,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184179",
         "source_bytes_read": 894133336,
         "elapsed_seconds": 91.535,
         "finished_at": "2026-11-19T13:47:10.407737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184179",
+          "size_bytes": 894133336,
+          "source_bytes_read": 894133336,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34146800",
+        "source_url": "https://sdilej.cz/34146800/teror-s02e08-018-2019-fhd-muj-mily-clapec-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184179",
+        "display_name": "The Terror S02E08 My Sweet Boy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T13:47:18.117095+00:00"
       }
     },
     "897:2:9": {
@@ -668618,7 +668619,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:47:10.407755+00:00",
+  "updated_at": "2026-11-19T13:47:18.117112+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
