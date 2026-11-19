@@ -682087,12 +682087,6 @@
         }
       ],
       "episode_key": "za rozbřesku:s1:e8",
-      "claim": {
-        "worker_id": "ab0f7b54a9354dbca12fabb357262ba5-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:36:04.922605+00:00",
-        "lease_expires_at": "2026-11-20T03:36:04.922614+00:00"
-      },
       "source": {
         "source_id": "33479641",
         "source_url": "https://sdilej.cz/33479641/za-rozbresku-s01e08-13-2006-cz-dab-1080p-co-kdyz-lze.mkv",
@@ -682117,22 +682111,29 @@
         "display_name": "Day Break S01E08 What If She's Lying 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:36:10.149647+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190931",
-        "size_bytes": 1571068749
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190931",
-        "size_bytes": 1571068749,
-        "source_bytes_read": 1571068749,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190931",
         "source_bytes_read": 1571068749,
         "elapsed_seconds": 124.502,
         "finished_at": "2026-11-19T21:38:49.548511+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190931",
+          "size_bytes": 1571068749,
+          "source_bytes_read": 1571068749,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33479641",
+        "source_url": "https://sdilej.cz/33479641/za-rozbresku-s01e08-13-2006-cz-dab-1080p-co-kdyz-lze.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190931",
+        "display_name": "Day Break S01E08 What If She's Lying 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:39:01.113849+00:00"
       }
     },
     "1383:1:12": {
@@ -688054,7 +688055,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:38:54.944471+00:00",
+  "updated_at": "2026-11-19T21:39:01.113864+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
