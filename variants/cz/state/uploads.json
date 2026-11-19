@@ -677537,12 +677537,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e8",
-      "claim": {
-        "worker_id": "6b0315f5c2444f0184940eb9a31cfd6a-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:25:20.562916+00:00",
-        "lease_expires_at": "2026-11-20T02:25:20.562926+00:00"
-      },
       "source": {
         "source_id": "29367618",
         "source_url": "https://sdilej.cz/29367618/doktori-s03e08.mp4",
@@ -677567,22 +677561,29 @@
         "display_name": "The Resident S03E08 Peking Duck Day 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:25:25.934517+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190190",
-        "size_bytes": 719835766
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190190",
-        "size_bytes": 719835766,
-        "source_bytes_read": 719835766,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190190",
         "source_bytes_read": 719835766,
         "elapsed_seconds": 65.939,
         "finished_at": "2026-11-19T20:27:00.322531+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190190",
+          "size_bytes": 719835766,
+          "source_bytes_read": 719835766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367618",
+        "source_url": "https://sdilej.cz/29367618/doktori-s03e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190190",
+        "display_name": "The Resident S03E08 Peking Duck Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:27:11.397813+00:00"
       }
     },
     "2592:3:9": {
@@ -684575,7 +684576,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:27:05.523749+00:00",
+  "updated_at": "2026-11-19T20:27:11.397828+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
