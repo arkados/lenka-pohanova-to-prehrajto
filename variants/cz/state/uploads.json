@@ -681313,12 +681313,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s3:e12",
-      "claim": {
-        "worker_id": "824ad5870b1c4994902393a4f1e562bb-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:27:48.800976+00:00",
-        "lease_expires_at": "2026-11-20T03:27:48.800989+00:00"
-      },
       "source": {
         "source_id": "29875992",
         "source_url": "https://sdilej.cz/29875992/smrtonosna-zbran-s03e12.mp4",
@@ -681343,22 +681337,29 @@
         "display_name": "Lethal Weapon S03E12 The Roger and Me 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:27:53.988565+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190848",
-        "size_bytes": 1014411702
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190848",
-        "size_bytes": 1014411702,
-        "source_bytes_read": 1014411702,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190848",
         "source_bytes_read": 1014411702,
         "elapsed_seconds": 67.977,
         "finished_at": "2026-11-19T21:29:29.889935+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190848",
+          "size_bytes": 1014411702,
+          "source_bytes_read": 1014411702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875992",
+        "source_url": "https://sdilej.cz/29875992/smrtonosna-zbran-s03e12.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190848",
+        "display_name": "Lethal Weapon S03E12 The Roger and Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:29:43.932842+00:00"
       }
     },
     "1382:3:13": {
@@ -687389,7 +687390,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:29:39.512683+00:00",
+  "updated_at": "2026-11-19T21:29:43.932856+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
