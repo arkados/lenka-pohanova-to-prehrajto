@@ -680787,12 +680787,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s3:e4",
-      "claim": {
-        "worker_id": "6e8f885a83514173b5a64856dd469f8f-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:21:20.806697+00:00",
-        "lease_expires_at": "2026-11-20T03:21:20.806709+00:00"
-      },
       "source": {
         "source_id": "29875969",
         "source_url": "https://sdilej.cz/29875969/smrtonosna-zbran-s03e04.mp4",
@@ -680817,22 +680811,29 @@
         "display_name": "Lethal Weapon S03E04 Leo Getz Justice 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:21:30.470193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190792",
-        "size_bytes": 1099082891
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190792",
-        "size_bytes": 1099082891,
-        "source_bytes_read": 1099082891,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190792",
         "source_bytes_read": 1099082891,
         "elapsed_seconds": 68.862,
         "finished_at": "2026-11-19T21:23:04.327789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190792",
+          "size_bytes": 1099082891,
+          "source_bytes_read": 1099082891,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875969",
+        "source_url": "https://sdilej.cz/29875969/smrtonosna-zbran-s03e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190792",
+        "display_name": "Lethal Weapon S03E04 Leo Getz Justice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:23:16.564130+00:00"
       }
     },
     "1382:3:5": {
@@ -686998,7 +686999,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:23:09.001553+00:00",
+  "updated_at": "2026-11-19T21:23:16.564145+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
