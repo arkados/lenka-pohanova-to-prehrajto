@@ -672535,12 +672535,6 @@
     },
     "55:1:13": {
       "episode_key": "superman a lois:s1:e13",
-      "claim": {
-        "worker_id": "5d846c95249249a498cf4c6a4cd1ebcd-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:14:03.513252+00:00",
-        "lease_expires_at": "2026-11-19T21:14:03.513274+00:00"
-      },
       "source": {
         "source_id": "34670546",
         "source_url": "https://sdilej.cz/34670546/superman-a-lois-s01e13-zalozni-plan-czdab-h265-2021.mkv",
@@ -672565,22 +672559,29 @@
         "display_name": "Superman & Lois S01E13 Fail Safe 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:14:13.602756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31185659",
-        "size_bytes": 640318927
-      },
-      "transfer_receipt": {
-        "target_video_id": "31185659",
-        "size_bytes": 640318927,
-        "source_bytes_read": 640318927,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31185659",
         "source_bytes_read": 640318927,
         "elapsed_seconds": 99.115,
         "finished_at": "2026-11-19T15:16:19.917003+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31185659",
+          "size_bytes": 640318927,
+          "source_bytes_read": 640318927,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34670546",
+        "source_url": "https://sdilej.cz/34670546/superman-a-lois-s01e13-zalozni-plan-czdab-h265-2021.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31185659",
+        "display_name": "Superman & Lois S01E13 Fail Safe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:16:26.486072+00:00"
       }
     },
     "55:1:14": {
@@ -672714,7 +672715,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:16:19.917026+00:00",
+  "updated_at": "2026-11-19T15:16:26.486087+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
