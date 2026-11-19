@@ -638879,12 +638879,6 @@
     },
     "1405:7:6": {
       "episode_key": "námořní vyšetřovací služba:s7:e6",
-      "claim": {
-        "worker_id": "26ed4fef4aac4dd5829489f911c6fb67-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:34:11.478597+00:00",
-        "lease_expires_at": "2026-11-19T06:34:11.478607+00:00"
-      },
       "source": {
         "source_id": "30701947",
         "source_url": "https://sdilej.cz/30701947/namorni-vysetrovaci-sluzba-s07e06.mkv",
@@ -638909,22 +638903,29 @@
         "display_name": "NCIS S07E06 Outlaws and In-Laws 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:34:20.115985+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164433",
-        "size_bytes": 1012451369
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164433",
-        "size_bytes": 1012451369,
-        "source_bytes_read": 1012451369,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164433",
         "source_bytes_read": 1012451369,
         "elapsed_seconds": 56.681,
         "finished_at": "2026-11-19T00:35:39.735760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164433",
+          "size_bytes": 1012451369,
+          "source_bytes_read": 1012451369,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30701947",
+        "source_url": "https://sdilej.cz/30701947/namorni-vysetrovaci-sluzba-s07e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164433",
+        "display_name": "NCIS S07E06 Outlaws and In-Laws 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:35:45.722098+00:00"
       }
     },
     "1405:7:7": {
@@ -639007,7 +639008,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:35:39.735780+00:00",
+  "updated_at": "2026-11-19T00:35:45.722115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
