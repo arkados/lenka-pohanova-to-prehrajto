@@ -679357,12 +679357,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s2:e2",
-      "claim": {
-        "worker_id": "95f84838d56846ed8f2e14c2759b0dda-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:48:52.908269+00:00",
-        "lease_expires_at": "2026-11-20T02:48:52.908283+00:00"
-      },
       "source": {
         "source_id": "12349758",
         "source_url": "https://sdilej.cz/12349758/lethal.weapon.s02e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -679387,22 +679381,29 @@
         "display_name": "Lethal Weapon S02E02 Dancing in September 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:49:11.784566+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190476",
-        "size_bytes": 1234746936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190476",
-        "size_bytes": 1234746936,
-        "source_bytes_read": 1234746936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190476",
         "source_bytes_read": 1234746936,
         "elapsed_seconds": 133.583,
         "finished_at": "2026-11-19T20:52:01.990575+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190476",
+          "size_bytes": 1234746936,
+          "source_bytes_read": 1234746936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12349758",
+        "source_url": "https://sdilej.cz/12349758/lethal.weapon.s02e02.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190476",
+        "display_name": "Lethal Weapon S02E02 Dancing in September 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:52:08.862582+00:00"
       }
     },
     "1382:2:4": {
@@ -685948,7 +685949,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:52:01.990599+00:00",
+  "updated_at": "2026-11-19T20:52:08.862599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
