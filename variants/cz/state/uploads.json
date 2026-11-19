@@ -678545,12 +678545,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s1:e5",
-      "claim": {
-        "worker_id": "e90d299e9f91448aae718664058c17da-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:39:13.314807+00:00",
-        "lease_expires_at": "2026-11-20T02:39:13.314819+00:00"
-      },
       "source": {
         "source_id": "22428753",
         "source_url": "https://sdilej.cz/22428753/smrtonosna-zbran-s01e05-czdab-bluray-720p.mkv",
@@ -678575,22 +678569,29 @@
         "display_name": "Lethal Weapon S01E05 Spilt Milk 720p CZ Dabing",
         "prepared_at": "2026-11-19T20:39:18.215755+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190357",
-        "size_bytes": 383736567
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190357",
-        "size_bytes": 383736567,
-        "source_bytes_read": 383736567,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190357",
         "source_bytes_read": 383736567,
         "elapsed_seconds": 32.226,
         "finished_at": "2026-11-19T20:40:09.347457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190357",
+          "size_bytes": 383736567,
+          "source_bytes_read": 383736567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22428753",
+        "source_url": "https://sdilej.cz/22428753/smrtonosna-zbran-s01e05-czdab-bluray-720p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190357",
+        "display_name": "Lethal Weapon S01E05 Spilt Milk 720p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:40:24.321346+00:00"
       }
     },
     "1382:1:7": {
@@ -685258,7 +685259,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:40:19.198561+00:00",
+  "updated_at": "2026-11-19T20:40:24.321378+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
