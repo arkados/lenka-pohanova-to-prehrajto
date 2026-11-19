@@ -688916,12 +688916,6 @@
         }
       ],
       "episode_key": "paní ministryně:s2:e15",
-      "claim": {
-        "worker_id": "c31a4cc8f0ce400cbdc968e49b7f0ebb-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:48:16.607189+00:00",
-        "lease_expires_at": "2026-11-20T05:48:16.607207+00:00"
-      },
       "source": {
         "source_id": "12103883",
         "source_url": "https://sdilej.cz/12103883/pani.ministryne.02x15.1080i.hdtv.cz.mkv",
@@ -688946,22 +688940,29 @@
         "display_name": "Madam Secretary S02E15 Right of the Boom 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:48:21.977924+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192748",
-        "size_bytes": 2842176432
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192748",
-        "size_bytes": 2842176432,
-        "source_bytes_read": 2842176432,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192748",
         "source_bytes_read": 2842176432,
         "elapsed_seconds": 286.917,
         "finished_at": "2026-11-19T23:53:27.464359+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192748",
+          "size_bytes": 2842176432,
+          "source_bytes_read": 2842176432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12103883",
+        "source_url": "https://sdilej.cz/12103883/pani.ministryne.02x15.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192748",
+        "display_name": "Madam Secretary S02E15 Right of the Boom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:53:34.250436+00:00"
       }
     },
     "1128:2:17": {
@@ -692561,7 +692562,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:53:27.464379+00:00",
+  "updated_at": "2026-11-19T23:53:34.250453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
