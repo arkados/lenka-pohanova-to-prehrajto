@@ -650140,12 +650140,6 @@
     },
     "3:3:8": {
       "episode_key": "malý sheldon:s3:e8",
-      "claim": {
-        "worker_id": "648f155cb3bc411cabe18c567ad59743-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:09:37.389625+00:00",
-        "lease_expires_at": "2026-11-19T10:09:37.389636+00:00"
-      },
       "source": {
         "source_id": "29311652",
         "source_url": "https://sdilej.cz/29311652/maly-sheldon-young-sheldon-s03e08-cz-en-hevc-1080p.mkv",
@@ -650170,22 +650164,29 @@
         "display_name": "Young Sheldon S03E08 The Sin of Greed and a Chimichanga from Chi-chi's 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:09:42.359510+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169593",
-        "size_bytes": 299807781
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169593",
-        "size_bytes": 299807781,
-        "source_bytes_read": 299807781,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169593",
         "source_bytes_read": 299807781,
         "elapsed_seconds": 31.646,
         "finished_at": "2026-11-19T04:10:39.069134+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169593",
+          "size_bytes": 299807781,
+          "source_bytes_read": 299807781,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29311652",
+        "source_url": "https://sdilej.cz/29311652/maly-sheldon-young-sheldon-s03e08-cz-en-hevc-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169593",
+        "display_name": "Young Sheldon S03E08 The Sin of Greed and a Chimichanga from Chi-chi's 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:10:55.637051+00:00"
       }
     },
     "3:3:9": {
@@ -650264,7 +650265,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:10:49.491777+00:00",
+  "updated_at": "2026-11-19T04:10:55.637067+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
