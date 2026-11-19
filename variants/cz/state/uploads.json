@@ -675197,12 +675197,6 @@
         }
       ],
       "episode_key": "nejsilnější hlas:s1:e7",
-      "claim": {
-        "worker_id": "e2eccb807ea24045bc10149f97a69986-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:14:33.097299+00:00",
-        "lease_expires_at": "2026-11-20T01:14:33.097310+00:00"
-      },
       "source": {
         "source_id": "12236078",
         "source_url": "https://sdilej.cz/12236078/nejsilnejsi.hlas.01x07.1080i.hdtv.cz.mkv",
@@ -675227,22 +675221,29 @@
         "display_name": "The Loudest Voice S01E07 2016 1080p CZ Dabing",
         "prepared_at": "2026-11-19T19:14:40.717308+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189367",
-        "size_bytes": 4967957574
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189367",
-        "size_bytes": 4967957574,
-        "source_bytes_read": 4967957574,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189367",
         "source_bytes_read": 4967957574,
         "elapsed_seconds": 405.844,
         "finished_at": "2026-11-19T19:21:52.115128+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189367",
+          "size_bytes": 4967957574,
+          "source_bytes_read": 4967957574,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12236078",
+        "source_url": "https://sdilej.cz/12236078/nejsilnejsi.hlas.01x07.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189367",
+        "display_name": "The Loudest Voice S01E07 2016 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T19:22:04.031466+00:00"
       }
     },
     "997:1:6": {
@@ -682875,7 +682876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:21:56.779009+00:00",
+  "updated_at": "2026-11-19T19:22:04.031482+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
