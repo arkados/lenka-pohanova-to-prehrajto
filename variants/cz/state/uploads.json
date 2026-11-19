@@ -651656,12 +651656,6 @@
     },
     "3:5:4": {
       "episode_key": "malý sheldon:s5:e4",
-      "claim": {
-        "worker_id": "5b068a1abd154c6aa39c2602fe8cfcc6-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:30:28.135555+00:00",
-        "lease_expires_at": "2026-11-19T10:30:28.135566+00:00"
-      },
       "source": {
         "source_id": "34728270",
         "source_url": "https://sdilej.cz/34728270/maly-sheldon-s05e04-087-2021-full-hd-laryfary-a-tajna-mistnost-sd-.mp4",
@@ -651686,22 +651680,29 @@
         "display_name": "Young Sheldon S05E04 Pish Posh and a Secret Back Room 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:30:34.078434+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170201",
-        "size_bytes": 377394863
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170201",
-        "size_bytes": 377394863,
-        "source_bytes_read": 377394863,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170201",
         "source_bytes_read": 377394863,
         "elapsed_seconds": 23.648,
         "finished_at": "2026-11-19T04:31:15.340708+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170201",
+          "size_bytes": 377394863,
+          "source_bytes_read": 377394863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34728270",
+        "source_url": "https://sdilej.cz/34728270/maly-sheldon-s05e04-087-2021-full-hd-laryfary-a-tajna-mistnost-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170201",
+        "display_name": "Young Sheldon S05E04 Pish Posh and a Secret Back Room 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:31:25.265492+00:00"
       }
     }
   },
@@ -651710,7 +651711,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:31:19.456430+00:00",
+  "updated_at": "2026-11-19T04:31:25.265508+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
