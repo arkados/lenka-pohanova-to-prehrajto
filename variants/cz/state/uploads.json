@@ -657255,12 +657255,6 @@
     },
     "940:2:20": {
       "episode_key": "jmenuju se earl:s2:e20",
-      "claim": {
-        "worker_id": "6757883ab0cb4f05b5123edef8ccccf4-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:31:58.750340+00:00",
-        "lease_expires_at": "2026-11-19T13:31:58.750354+00:00"
-      },
       "source": {
         "source_id": "29459262",
         "source_url": "https://sdilej.cz/29459262/jmenuju-se-earl-s02e20-do-kouli.mkv",
@@ -657285,22 +657279,29 @@
         "display_name": "My Name Is Earl S02E20 Two Balls, Two Strikes 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:32:04.342705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31174683",
-        "size_bytes": 662510502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31174683",
-        "size_bytes": 662510502,
-        "source_bytes_read": 662510502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31174683",
         "source_bytes_read": 662510502,
         "elapsed_seconds": 88.767,
         "finished_at": "2026-11-19T07:33:52.249180+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31174683",
+          "size_bytes": 662510502,
+          "source_bytes_read": 662510502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459262",
+        "source_url": "https://sdilej.cz/29459262/jmenuju-se-earl-s02e20-do-kouli.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31174683",
+        "display_name": "My Name Is Earl S02E20 Two Balls, Two Strikes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:33:59.826791+00:00"
       }
     }
   },
@@ -657309,7 +657310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:33:52.249206+00:00",
+  "updated_at": "2026-11-19T07:33:59.826813+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
