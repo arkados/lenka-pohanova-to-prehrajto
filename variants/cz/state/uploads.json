@@ -656620,12 +656620,6 @@
     },
     "940:2:6": {
       "episode_key": "jmenuju se earl:s2:e6",
-      "claim": {
-        "worker_id": "5a6c7ba1c1fe4f5d8a37e3d2932b1130-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:11:03.399671+00:00",
-        "lease_expires_at": "2026-11-19T13:11:03.399691+00:00"
-      },
       "source": {
         "source_id": "33041083",
         "source_url": "https://sdilej.cz/33041083/jmenuju-se-earl-s02e06-cz-dabing.mkv",
@@ -656650,22 +656644,29 @@
         "display_name": "My Name Is Earl S02E06 Made a Lady Think I Was God 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:11:09.088009+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31173857",
-        "size_bytes": 667062710
-      },
-      "transfer_receipt": {
-        "target_video_id": "31173857",
-        "size_bytes": 667062710,
-        "source_bytes_read": 667062710,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31173857",
         "source_bytes_read": 667062710,
         "elapsed_seconds": 166.492,
         "finished_at": "2026-11-19T07:14:19.934859+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31173857",
+          "size_bytes": 667062710,
+          "source_bytes_read": 667062710,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33041083",
+        "source_url": "https://sdilej.cz/33041083/jmenuju-se-earl-s02e06-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31173857",
+        "display_name": "My Name Is Earl S02E06 Made a Lady Think I Was God 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:14:26.732058+00:00"
       }
     },
     "940:2:7": {
@@ -656799,7 +656800,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:14:19.934889+00:00",
+  "updated_at": "2026-11-19T07:14:26.732082+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
