@@ -682217,12 +682217,6 @@
         }
       ],
       "episode_key": "angličanka:s1:e2",
-      "claim": {
-        "worker_id": "197acda4cb94412cbc28bad0a5850d0b-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:38:38.755977+00:00",
-        "lease_expires_at": "2026-11-20T03:38:38.755989+00:00"
-      },
       "source": {
         "source_id": "24510723",
         "source_url": "https://sdilej.cz/24510723/anglicanka-s01e02-cz-dabing-hd-1080p.mp4",
@@ -682247,22 +682241,29 @@
         "display_name": "The English S01E02 Path of the Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:38:44.101520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190955",
-        "size_bytes": 702158791
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190955",
-        "size_bytes": 702158791,
-        "source_bytes_read": 702158791,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190955",
         "source_bytes_read": 702158791,
         "elapsed_seconds": 38.228,
         "finished_at": "2026-11-19T21:39:53.540891+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190955",
+          "size_bytes": 702158791,
+          "source_bytes_read": 702158791,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24510723",
+        "source_url": "https://sdilej.cz/24510723/anglicanka-s01e02-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190955",
+        "display_name": "The English S01E02 Path of the Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:40:08.452796+00:00"
       }
     },
     "388:1:1": {
@@ -688149,7 +688150,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:40:03.328413+00:00",
+  "updated_at": "2026-11-19T21:40:08.452811+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
