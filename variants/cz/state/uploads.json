@@ -686376,12 +686376,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s13:e7",
-      "claim": {
-        "worker_id": "8eb3b3a0655e4fbebbec7fb5fba1e0c4-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:43:23.569477+00:00",
-        "lease_expires_at": "2026-11-20T04:43:23.569492+00:00"
-      },
       "source": {
         "source_id": "35429475",
         "source_url": "https://sdilej.cz/35429475/smrt-v-raji-13x07.mp4",
@@ -686406,22 +686400,29 @@
         "display_name": "Death in Paradise S13E07 A Tale of Two Islands 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:43:48.603895+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191743",
-        "size_bytes": 1052318826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191743",
-        "size_bytes": 1052318826,
-        "source_bytes_read": 1052318826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191743",
         "source_bytes_read": 1052318826,
         "elapsed_seconds": 74.659,
         "finished_at": "2026-11-19T22:45:42.527742+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191743",
+          "size_bytes": 1052318826,
+          "source_bytes_read": 1052318826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35429475",
+        "source_url": "https://sdilej.cz/35429475/smrt-v-raji-13x07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191743",
+        "display_name": "Death in Paradise S13E07 A Tale of Two Islands 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:45:55.833064+00:00"
       }
     },
     "6886:1:1": {
@@ -690555,7 +690556,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:45:51.116941+00:00",
+  "updated_at": "2026-11-19T22:45:55.833080+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
