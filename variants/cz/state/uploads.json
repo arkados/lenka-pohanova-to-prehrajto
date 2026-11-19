@@ -682658,12 +682658,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s1:e2",
-      "claim": {
-        "worker_id": "b687ccc57015405aaeab758cbb6f2050-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:43:28.678325+00:00",
-        "lease_expires_at": "2026-11-20T03:43:28.678334+00:00"
-      },
       "source": {
         "source_id": "35357351",
         "source_url": "https://sdilej.cz/35357351/smrt-v-raji-01x02.mp4",
@@ -682688,22 +682682,29 @@
         "display_name": "Death in Paradise S01E02 Wicked Wedding Night 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:43:38.965426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191019",
-        "size_bytes": 1042986222
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191019",
-        "size_bytes": 1042986222,
-        "source_bytes_read": 1042986222,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191019",
         "source_bytes_read": 1042986222,
         "elapsed_seconds": 123.833,
         "finished_at": "2026-11-19T21:46:08.372707+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191019",
+          "size_bytes": 1042986222,
+          "source_bytes_read": 1042986222,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35357351",
+        "source_url": "https://sdilej.cz/35357351/smrt-v-raji-01x02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191019",
+        "display_name": "Death in Paradise S01E02 Wicked Wedding Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:46:19.475666+00:00"
       }
     },
     "1783:1:3": {
@@ -688363,7 +688364,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:46:14.730865+00:00",
+  "updated_at": "2026-11-19T21:46:19.475680+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
