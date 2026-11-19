@@ -643928,12 +643928,6 @@
     },
     "1405:15:3": {
       "episode_key": "námořní vyšetřovací služba:s15:e3",
-      "claim": {
-        "worker_id": "b8eb19427ce543ce9784bd37f46c3d9a-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:06:29.795952+00:00",
-        "lease_expires_at": "2026-11-19T08:06:29.795964+00:00"
-      },
       "source": {
         "source_id": "30836809",
         "source_url": "https://sdilej.cz/30836809/namorni-vysetrovaci-sluzba-s15e03.mkv",
@@ -643958,22 +643952,29 @@
         "display_name": "NCIS S15E03 Exit Strategy 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:06:38.239828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31166012",
-        "size_bytes": 457698132
-      },
-      "transfer_receipt": {
-        "target_video_id": "31166012",
-        "size_bytes": 457698132,
-        "source_bytes_read": 457698132,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31166012",
         "source_bytes_read": 457698132,
         "elapsed_seconds": 28.622,
         "finished_at": "2026-11-19T02:07:36.527668+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31166012",
+          "size_bytes": 457698132,
+          "source_bytes_read": 457698132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836809",
+        "source_url": "https://sdilej.cz/30836809/namorni-vysetrovaci-sluzba-s15e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31166012",
+        "display_name": "NCIS S15E03 Exit Strategy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:07:50.669971+00:00"
       }
     },
     "1405:15:4": {
@@ -644056,7 +644057,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:07:40.788645+00:00",
+  "updated_at": "2026-11-19T02:07:50.669986+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
