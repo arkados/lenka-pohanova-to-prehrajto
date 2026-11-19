@@ -663432,12 +663432,6 @@
     },
     "1066:1:4": {
       "episode_key": "obchoďák:s1:e4",
-      "claim": {
-        "worker_id": "16f472d9a0b74eaea0a1fd50877b2f35-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T10:57:33.720334+00:00",
-        "lease_expires_at": "2026-11-19T16:57:33.720343+00:00"
-      },
       "source": {
         "source_id": "29083080",
         "source_url": "https://sdilej.cz/29083080/superstore-s01e04-hd-cz-en-dabing.mkv",
@@ -663462,22 +663456,29 @@
         "display_name": "Superstore S01E04 Mannequin 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:57:43.482299+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31180908",
-        "size_bytes": 700050786
-      },
-      "transfer_receipt": {
-        "target_video_id": "31180908",
-        "size_bytes": 700050786,
-        "source_bytes_read": 700050786,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31180908",
         "source_bytes_read": 700050786,
         "elapsed_seconds": 101.981,
         "finished_at": "2026-11-19T10:59:48.219035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31180908",
+          "size_bytes": 700050786,
+          "source_bytes_read": 700050786,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29083080",
+        "source_url": "https://sdilej.cz/29083080/superstore-s01e04-hd-cz-en-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31180908",
+        "display_name": "Superstore S01E04 Mannequin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:59:56.664136+00:00"
       }
     }
   },
@@ -663486,7 +663487,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:59:48.219058+00:00",
+  "updated_at": "2026-11-19T10:59:56.664150+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
