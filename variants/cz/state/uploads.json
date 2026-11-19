@@ -685285,12 +685285,6 @@
         }
       ],
       "episode_key": "smrt v ráji:s7:e2",
-      "claim": {
-        "worker_id": "df46c5091d884ecbb462b2db93412ab7-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T22:39:22.675336+00:00",
-        "lease_expires_at": "2026-11-20T04:39:22.675353+00:00"
-      },
       "source": {
         "source_id": "35411377",
         "source_url": "https://sdilej.cz/35411377/smrt-v-raji-07x02.mp4",
@@ -685315,22 +685309,29 @@
         "display_name": "Death in Paradise S07E02 The Stakes Are High 1080p CZ Dabing",
         "prepared_at": "2026-11-19T22:39:27.864115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31191687",
-        "size_bytes": 1053445785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31191687",
-        "size_bytes": 1053445785,
-        "source_bytes_read": 1053445785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31191687",
         "source_bytes_read": 1053445785,
         "elapsed_seconds": 80.329,
         "finished_at": "2026-11-19T22:41:12.275861+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31191687",
+          "size_bytes": 1053445785,
+          "source_bytes_read": 1053445785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35411377",
+        "source_url": "https://sdilej.cz/35411377/smrt-v-raji-07x02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31191687",
+        "display_name": "Death in Paradise S07E02 The Stakes Are High 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T22:41:20.487407+00:00"
       }
     },
     "1783:8:8": {
@@ -690364,7 +690365,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T22:41:12.275882+00:00",
+  "updated_at": "2026-11-19T22:41:20.487427+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
