@@ -680527,12 +680527,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s2:e22",
-      "claim": {
-        "worker_id": "837b2bbdb6a9487d9547ce6149466689-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T21:18:49.048430+00:00",
-        "lease_expires_at": "2026-11-20T03:18:49.048442+00:00"
-      },
       "source": {
         "source_id": "29875957",
         "source_url": "https://sdilej.cz/29875957/smrtonosna-zbran-s02e22.mp4",
@@ -680557,22 +680551,29 @@
         "display_name": "Lethal Weapon S02E22 One Day More 1080p CZ Dabing",
         "prepared_at": "2026-11-19T21:19:02.513450+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190764",
-        "size_bytes": 1140079801
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190764",
-        "size_bytes": 1140079801,
-        "source_bytes_read": 1140079801,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190764",
         "source_bytes_read": 1140079801,
         "elapsed_seconds": 77.188,
         "finished_at": "2026-11-19T21:20:45.078279+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190764",
+          "size_bytes": 1140079801,
+          "source_bytes_read": 1140079801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875957",
+        "source_url": "https://sdilej.cz/29875957/smrtonosna-zbran-s02e22.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190764",
+        "display_name": "Lethal Weapon S02E22 One Day More 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T21:20:51.449680+00:00"
       }
     },
     "1382:3:1": {
@@ -686830,7 +686831,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T21:20:45.078299+00:00",
+  "updated_at": "2026-11-19T21:20:51.449697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
