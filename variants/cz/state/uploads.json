@@ -654872,12 +654872,6 @@
     },
     "3285:3:8": {
       "episode_key": "bude líp:s3:e8",
-      "claim": {
-        "worker_id": "078a38a0a6474d848d36955eacc6fcff-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:16:11.257122+00:00",
-        "lease_expires_at": "2026-11-19T12:16:11.257150+00:00"
-      },
       "source": {
         "source_id": "11645888",
         "source_url": "https://sdilej.cz/11645888/bude.lip.03x08.hdtv.cz.avi",
@@ -654902,22 +654896,29 @@
         "display_name": "Better Things S03E08 Easter SD CZ Dabing",
         "prepared_at": "2026-11-19T06:16:26.485823+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172486",
-        "size_bytes": 374648680
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172486",
-        "size_bytes": 374648680,
-        "source_bytes_read": 374648680,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172486",
         "source_bytes_read": 374648680,
         "elapsed_seconds": 30.845,
         "finished_at": "2026-11-19T06:17:20.946300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172486",
+          "size_bytes": 374648680,
+          "source_bytes_read": 374648680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11645888",
+        "source_url": "https://sdilej.cz/11645888/bude.lip.03x08.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172486",
+        "display_name": "Better Things S03E08 Easter SD CZ Dabing",
+        "uploaded_at": "2026-11-19T06:17:30.141683+00:00"
       }
     }
   },
@@ -654926,7 +654927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:17:20.946328+00:00",
+  "updated_at": "2026-11-19T06:17:30.141708+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
