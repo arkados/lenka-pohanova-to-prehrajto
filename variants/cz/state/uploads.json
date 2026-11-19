@@ -638381,12 +638381,6 @@
     },
     "1405:6:21": {
       "episode_key": "námořní vyšetřovací služba:s6:e21",
-      "claim": {
-        "worker_id": "dbe81f965315450d899f0ceeb84304d5-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:23:55.972244+00:00",
-        "lease_expires_at": "2026-11-19T06:23:55.972254+00:00"
-      },
       "source": {
         "source_id": "31270936",
         "source_url": "https://sdilej.cz/31270936/namorni-vysetrovaci-sluzba-s06e21.mkv",
@@ -638411,22 +638405,29 @@
         "display_name": "NCIS S06E21 Toxic 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:24:00.651727+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164285",
-        "size_bytes": 1012714244
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164285",
-        "size_bytes": 1012714244,
-        "source_bytes_read": 1012714244,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164285",
         "source_bytes_read": 1012714244,
         "elapsed_seconds": 54.454,
         "finished_at": "2026-11-19T00:25:22.311213+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164285",
+          "size_bytes": 1012714244,
+          "source_bytes_read": 1012714244,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31270936",
+        "source_url": "https://sdilej.cz/31270936/namorni-vysetrovaci-sluzba-s06e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164285",
+        "display_name": "NCIS S06E21 Toxic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:25:31.064340+00:00"
       }
     }
   },
@@ -638435,7 +638436,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:25:26.221261+00:00",
+  "updated_at": "2026-11-19T00:25:31.064357+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
