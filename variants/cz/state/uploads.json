@@ -678823,12 +678823,6 @@
         }
       ],
       "episode_key": "smrtonosná zbraň:s1:e10",
-      "claim": {
-        "worker_id": "9e13f915126f4ef18ae23e1cb112f6d6-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:43:59.597985+00:00",
-        "lease_expires_at": "2026-11-20T02:43:59.597996+00:00"
-      },
       "source": {
         "source_id": "9060333",
         "source_url": "https://sdilej.cz/9060333/lethal.weapon.s01e10.1080p.bluray.10-bit.ac3.x265-qman-utr-czaudio-.mkv",
@@ -678853,22 +678847,29 @@
         "display_name": "Lethal Weapon S01E10 Homebodies 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:44:04.802150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190407",
-        "size_bytes": 1250225146
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190407",
-        "size_bytes": 1250225146,
-        "source_bytes_read": 1250225146,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190407",
         "source_bytes_read": 1250225146,
         "elapsed_seconds": 71.688,
         "finished_at": "2026-11-19T20:45:37.203205+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190407",
+          "size_bytes": 1250225146,
+          "source_bytes_read": 1250225146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9060333",
+        "source_url": "https://sdilej.cz/9060333/lethal.weapon.s01e10.1080p.bluray.10-bit.ac3.x265-qman-utr-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190407",
+        "display_name": "Lethal Weapon S01E10 Homebodies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:45:47.947374+00:00"
       }
     },
     "1382:1:11": {
@@ -685506,7 +685507,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:45:42.239753+00:00",
+  "updated_at": "2026-11-19T20:45:47.947390+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
