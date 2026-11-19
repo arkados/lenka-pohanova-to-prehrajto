@@ -677673,12 +677673,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e10",
-      "claim": {
-        "worker_id": "d07d064d60f54220a8ea636fac8bd5fb-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:26:49.122108+00:00",
-        "lease_expires_at": "2026-11-20T02:26:49.122118+00:00"
-      },
       "source": {
         "source_id": "29367623",
         "source_url": "https://sdilej.cz/29367623/doktori-s03e10.mp4",
@@ -677703,22 +677697,29 @@
         "display_name": "The Resident S03E10 Whistleblower 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:26:54.977162+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190203",
-        "size_bytes": 817027225
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190203",
-        "size_bytes": 817027225,
-        "source_bytes_read": 817027225,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190203",
         "source_bytes_read": 817027225,
         "elapsed_seconds": 47.009,
         "finished_at": "2026-11-19T20:28:09.210908+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190203",
+          "size_bytes": 817027225,
+          "source_bytes_read": 817027225,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367623",
+        "source_url": "https://sdilej.cz/29367623/doktori-s03e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190203",
+        "display_name": "The Resident S03E10 Whistleblower 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:28:19.658355+00:00"
       }
     },
     "2592:3:12": {
@@ -684645,7 +684646,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:28:15.182077+00:00",
+  "updated_at": "2026-11-19T20:28:19.658385+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
