@@ -645668,12 +645668,6 @@
     },
     "1405:22:2": {
       "episode_key": "námořní vyšetřovací služba:s22:e2",
-      "claim": {
-        "worker_id": "bfe332de103a448a8553920aa1021231-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:47:44.516708+00:00",
-        "lease_expires_at": "2026-11-19T08:47:44.516718+00:00"
-      },
       "source": {
         "source_id": "31561759",
         "source_url": "https://sdilej.cz/31561759/ncis.s22e02.foreign.bodies.1080p.amzn.web-dl.ddp5.1.h.264-cz-dab.mkv",
@@ -645698,22 +645692,29 @@
         "display_name": "NCIS S22E02 Foreign Bodies 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:47:58.125835+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167002",
-        "size_bytes": 2943660632
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167002",
-        "size_bytes": 2943660632,
-        "source_bytes_read": 2943660632,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167002",
         "source_bytes_read": 2943660632,
         "elapsed_seconds": 637.136,
         "finished_at": "2026-11-19T02:59:02.783067+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167002",
+          "size_bytes": 2943660632,
+          "source_bytes_read": 2943660632,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31561759",
+        "source_url": "https://sdilej.cz/31561759/ncis.s22e02.foreign.bodies.1080p.amzn.web-dl.ddp5.1.h.264-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167002",
+        "display_name": "NCIS S22E02 Foreign Bodies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:59:14.855773+00:00"
       }
     },
     "1405:22:3": {
@@ -646116,7 +646117,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:59:07.661284+00:00",
+  "updated_at": "2026-11-19T02:59:14.855789+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
