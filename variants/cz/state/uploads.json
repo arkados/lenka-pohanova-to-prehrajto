@@ -660699,12 +660699,6 @@
     },
     "620:3:5": {
       "episode_key": "advokát:s3:e5",
-      "claim": {
-        "worker_id": "1765b5ff2bbd4eafae67edd2be0cb3af-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:32:48.846126+00:00",
-        "lease_expires_at": "2026-11-19T15:32:48.846139+00:00"
-      },
       "source": {
         "source_id": "33169817",
         "source_url": "https://sdilej.cz/33169817/advokat-s03e05-1080p-cz-en-co-se-stane-ve-victorville.mkv",
@@ -660729,22 +660723,29 @@
         "display_name": "The Lincoln Lawyer S03E05 What Happens in Victorville 1080p CZ Dabing",
         "prepared_at": "2026-11-19T09:32:54.355730+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31178401",
-        "size_bytes": 641324617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31178401",
-        "size_bytes": 641324617,
-        "source_bytes_read": 641324617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31178401",
         "source_bytes_read": 641324617,
         "elapsed_seconds": 60.667,
         "finished_at": "2026-11-19T09:34:15.257167+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31178401",
+          "size_bytes": 641324617,
+          "source_bytes_read": 641324617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33169817",
+        "source_url": "https://sdilej.cz/33169817/advokat-s03e05-1080p-cz-en-co-se-stane-ve-victorville.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31178401",
+        "display_name": "The Lincoln Lawyer S03E05 What Happens in Victorville 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T09:34:29.664843+00:00"
       }
     },
     "620:3:6": {
@@ -660789,7 +660790,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T09:34:24.840623+00:00",
+  "updated_at": "2026-11-19T09:34:29.664858+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
