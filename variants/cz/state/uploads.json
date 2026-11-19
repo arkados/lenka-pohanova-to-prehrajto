@@ -654019,12 +654019,6 @@
     },
     "3:7:5": {
       "episode_key": "malý sheldon:s7:e5",
-      "claim": {
-        "worker_id": "573bcc08f9594451befebe11fefcb280-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:48:37.685437+00:00",
-        "lease_expires_at": "2026-11-19T11:48:37.685451+00:00"
-      },
       "source": {
         "source_id": "30305847",
         "source_url": "https://sdilej.cz/30305847/maly-sheldon-s07e05-czdab.mp4",
@@ -654049,22 +654043,29 @@
         "display_name": "Young Sheldon S07E05 A Frankenstein's Monster and a Crazy Church Guy 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:49:02.645812+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171782",
-        "size_bytes": 857669308
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171782",
-        "size_bytes": 857669308,
-        "source_bytes_read": 857669308,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171782",
         "source_bytes_read": 857669308,
         "elapsed_seconds": 137.922,
         "finished_at": "2026-11-19T05:51:45.769045+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171782",
+          "size_bytes": 857669308,
+          "source_bytes_read": 857669308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305847",
+        "source_url": "https://sdilej.cz/30305847/maly-sheldon-s07e05-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171782",
+        "display_name": "Young Sheldon S07E05 A Frankenstein's Monster and a Crazy Church Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:51:54.713720+00:00"
       }
     },
     "3:7:6": {
@@ -654147,7 +654148,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:51:45.769071+00:00",
+  "updated_at": "2026-11-19T05:51:54.713743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
