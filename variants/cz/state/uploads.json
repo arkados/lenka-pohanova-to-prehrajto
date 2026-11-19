@@ -655178,12 +655178,6 @@
     },
     "940:1:2": {
       "episode_key": "jmenuju se earl:s1:e2",
-      "claim": {
-        "worker_id": "6d456b7934da4f10b4e88444983869e2-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:24:16.602567+00:00",
-        "lease_expires_at": "2026-11-19T12:24:16.602585+00:00"
-      },
       "source": {
         "source_id": "29457693",
         "source_url": "https://sdilej.cz/29457693/jmenuju-se-earl-s01e02-earl-prestava-kourit.mkv",
@@ -655208,22 +655202,29 @@
         "display_name": "My Name Is Earl S01E02 Quit Smoking 1080p CZ Dabing",
         "prepared_at": "2026-11-19T06:24:21.945784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172635",
-        "size_bytes": 667283197
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172635",
-        "size_bytes": 667283197,
-        "source_bytes_read": 667283197,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172635",
         "source_bytes_read": 667283197,
         "elapsed_seconds": 380.461,
         "finished_at": "2026-11-19T06:31:02.238966+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172635",
+          "size_bytes": 667283197,
+          "source_bytes_read": 667283197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29457693",
+        "source_url": "https://sdilej.cz/29457693/jmenuju-se-earl-s01e02-earl-prestava-kourit.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172635",
+        "display_name": "My Name Is Earl S01E02 Quit Smoking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T06:31:09.611881+00:00"
       }
     },
     "940:1:3": {
@@ -655269,7 +655270,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:31:02.238993+00:00",
+  "updated_at": "2026-11-19T06:31:09.611906+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
