@@ -653866,12 +653866,6 @@
     },
     "3:7:2": {
       "episode_key": "malý sheldon:s7:e2",
-      "claim": {
-        "worker_id": "a2fd6a32c3474cccbdc65770bc761e4f-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:43:16.728256+00:00",
-        "lease_expires_at": "2026-11-19T11:43:16.728271+00:00"
-      },
       "source": {
         "source_id": "30305841",
         "source_url": "https://sdilej.cz/30305841/maly-sheldon-s07e02-czdab.mp4",
@@ -653896,22 +653890,29 @@
         "display_name": "Young Sheldon S07E02 A Roulette Wheel and a Piano Playing Dog 1080p CZ Dabing",
         "prepared_at": "2026-11-19T05:43:22.058596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31171681",
-        "size_bytes": 807631243
-      },
-      "transfer_receipt": {
-        "target_video_id": "31171681",
-        "size_bytes": 807631243,
-        "source_bytes_read": 807631243,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31171681",
         "source_bytes_read": 807631243,
         "elapsed_seconds": 309.314,
         "finished_at": "2026-11-19T05:48:52.381472+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31171681",
+          "size_bytes": 807631243,
+          "source_bytes_read": 807631243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30305841",
+        "source_url": "https://sdilej.cz/30305841/maly-sheldon-s07e02-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31171681",
+        "display_name": "Young Sheldon S07E02 A Roulette Wheel and a Piano Playing Dog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:49:17.515429+00:00"
       }
     },
     "3:7:3": {
@@ -654095,7 +654096,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:49:12.086229+00:00",
+  "updated_at": "2026-11-19T05:49:17.515447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
