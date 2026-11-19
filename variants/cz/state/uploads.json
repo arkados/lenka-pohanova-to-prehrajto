@@ -639542,12 +639542,6 @@
     },
     "1405:7:19": {
       "episode_key": "námořní vyšetřovací služba:s7:e19",
-      "claim": {
-        "worker_id": "8866aaef192f42f898d54a023eea369e-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:44:38.618239+00:00",
-        "lease_expires_at": "2026-11-19T06:44:38.618249+00:00"
-      },
       "source": {
         "source_id": "33980176",
         "source_url": "https://sdilej.cz/33980176/ncis-s07e19-cz.mp4",
@@ -639572,22 +639566,29 @@
         "display_name": "NCIS S07E19 Guilty Pleasure 720p CZ Dabing",
         "prepared_at": "2026-11-19T00:44:48.435767+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164551",
-        "size_bytes": 1134777164
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164551",
-        "size_bytes": 1134777164,
-        "source_bytes_read": 1134777164,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164551",
         "source_bytes_read": 1134777164,
         "elapsed_seconds": 104.22,
         "finished_at": "2026-11-19T00:46:59.610988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164551",
+          "size_bytes": 1134777164,
+          "source_bytes_read": 1134777164,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33980176",
+        "source_url": "https://sdilej.cz/33980176/ncis-s07e19-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164551",
+        "display_name": "NCIS S07E19 Guilty Pleasure 720p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:47:15.063848+00:00"
       }
     },
     "1405:7:20": {
@@ -639735,7 +639736,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:47:07.718598+00:00",
+  "updated_at": "2026-11-19T00:47:15.063865+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
