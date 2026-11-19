@@ -669765,12 +669765,6 @@
     },
     "1270:3:2": {
       "episode_key": "takoví normální mimozemšťané:s3:e2",
-      "claim": {
-        "worker_id": "c2b314093b1f47b082527b376721771e-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:07:56.745707+00:00",
-        "lease_expires_at": "2026-11-19T20:07:56.745729+00:00"
-      },
       "source": {
         "source_id": "30412904",
         "source_url": "https://sdilej.cz/30412904/takovi-normalni-mimozemstane-s03e02-czdab.mp4",
@@ -669795,22 +669789,29 @@
         "display_name": "3rd Rock from the Sun S03E02 Fun with Dick and Janet (2) SD CZ Dabing",
         "prepared_at": "2026-11-19T14:08:02.238482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184569",
-        "size_bytes": 301292032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184569",
-        "size_bytes": 301292032,
-        "source_bytes_read": 301292032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184569",
         "source_bytes_read": 301292032,
         "elapsed_seconds": 55.29,
         "finished_at": "2026-11-19T14:09:28.156048+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184569",
+          "size_bytes": 301292032,
+          "source_bytes_read": 301292032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30412904",
+        "source_url": "https://sdilej.cz/30412904/takovi-normalni-mimozemstane-s03e02-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184569",
+        "display_name": "3rd Rock from the Sun S03E02 Fun with Dick and Janet (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-19T14:09:36.440349+00:00"
       }
     },
     "1270:3:6": {
@@ -669907,7 +669908,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:09:28.156071+00:00",
+  "updated_at": "2026-11-19T14:09:36.440366+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
