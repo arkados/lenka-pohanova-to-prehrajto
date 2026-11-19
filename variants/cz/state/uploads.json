@@ -649681,12 +649681,6 @@
     },
     "3:2:20": {
       "episode_key": "malý sheldon:s2:e20",
-      "claim": {
-        "worker_id": "ed4217077d3541129a60009134fbae87-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:05:23.409352+00:00",
-        "lease_expires_at": "2026-11-19T10:05:23.409363+00:00"
-      },
       "source": {
         "source_id": "23158549",
         "source_url": "https://sdilej.cz/23158549/maly-sheldon-young-sheldon-s02e20-hd-cz-dabing.mkv",
@@ -649711,22 +649705,29 @@
         "display_name": "Young Sheldon S02E20 A Proposal and a Popsicle Stick Cross 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:05:36.471960+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169450",
-        "size_bytes": 247275000
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169450",
-        "size_bytes": 247275000,
-        "source_bytes_read": 247275000,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169450",
         "source_bytes_read": 247275000,
         "elapsed_seconds": 23.71,
         "finished_at": "2026-11-19T04:06:25.895544+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169450",
+          "size_bytes": 247275000,
+          "source_bytes_read": 247275000,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23158549",
+        "source_url": "https://sdilej.cz/23158549/maly-sheldon-young-sheldon-s02e20-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169450",
+        "display_name": "Young Sheldon S02E20 A Proposal and a Popsicle Stick Cross 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:06:32.852195+00:00"
       }
     },
     "3:2:22": {
@@ -649809,7 +649810,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:06:25.895564+00:00",
+  "updated_at": "2026-11-19T04:06:32.852211+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
