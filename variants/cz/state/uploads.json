@@ -678186,12 +678186,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e17",
-      "claim": {
-        "worker_id": "ad8c04b5761e4e9789a01f09a5b78054-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:34:19.632979+00:00",
-        "lease_expires_at": "2026-11-20T02:34:19.632991+00:00"
-      },
       "source": {
         "source_id": "29367651",
         "source_url": "https://sdilej.cz/29367651/doktori-s03e17.mp4",
@@ -678216,22 +678210,29 @@
         "display_name": "The Resident S03E17 Doll E. Wood 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:34:29.904438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190301",
-        "size_bytes": 870736162
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190301",
-        "size_bytes": 870736162,
-        "source_bytes_read": 870736162,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190301",
         "source_bytes_read": 870736162,
         "elapsed_seconds": 85.126,
         "finished_at": "2026-11-19T20:36:23.994158+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190301",
+          "size_bytes": 870736162,
+          "source_bytes_read": 870736162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367651",
+        "source_url": "https://sdilej.cz/29367651/doktori-s03e17.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190301",
+        "display_name": "The Resident S03E17 Doll E. Wood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:36:31.946487+00:00"
       }
     },
     "2592:3:20": {
@@ -685030,7 +685031,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:36:23.994179+00:00",
+  "updated_at": "2026-11-19T20:36:31.946506+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
