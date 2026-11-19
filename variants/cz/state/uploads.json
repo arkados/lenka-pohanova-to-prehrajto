@@ -678252,12 +678252,6 @@
         }
       ],
       "episode_key": "doktoři:s3:e20",
-      "claim": {
-        "worker_id": "4c6c1f291d5d46b68e1df7630f51ed3b-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T20:35:13.755282+00:00",
-        "lease_expires_at": "2026-11-20T02:35:13.755295+00:00"
-      },
       "source": {
         "source_id": "29367657",
         "source_url": "https://sdilej.cz/29367657/doktori-s03e20.mp4",
@@ -678282,22 +678276,29 @@
         "display_name": "The Resident S03E20 Burn It All Down 1080p CZ Dabing",
         "prepared_at": "2026-11-19T20:35:23.565170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31190312",
-        "size_bytes": 769184989
-      },
-      "transfer_receipt": {
-        "target_video_id": "31190312",
-        "size_bytes": 769184989,
-        "source_bytes_read": 769184989,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31190312",
         "source_bytes_read": 769184989,
         "elapsed_seconds": 56.102,
         "finished_at": "2026-11-19T20:36:42.136246+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31190312",
+          "size_bytes": 769184989,
+          "source_bytes_read": 769184989,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29367657",
+        "source_url": "https://sdilej.cz/29367657/doktori-s03e20.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31190312",
+        "display_name": "The Resident S03E20 Burn It All Down 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T20:36:48.977407+00:00"
       }
     },
     "1382:1:3": {
@@ -685045,7 +685046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T20:36:42.136263+00:00",
+  "updated_at": "2026-11-19T20:36:48.977423+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
