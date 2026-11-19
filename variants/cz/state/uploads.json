@@ -645954,12 +645954,6 @@
     },
     "1405:22:8": {
       "episode_key": "námořní vyšetřovací služba:s22:e8",
-      "claim": {
-        "worker_id": "a422f7cc45d14988b8f49a523d0f992f-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T02:53:48.145923+00:00",
-        "lease_expires_at": "2026-11-19T08:53:48.145935+00:00"
-      },
       "source": {
         "source_id": "34819512",
         "source_url": "https://sdilej.cz/34819512/ncis-s22e08-cz.mp4",
@@ -645984,22 +645978,29 @@
         "display_name": "NCIS S22E08 Out of Control 1080p CZ Dabing",
         "prepared_at": "2026-11-19T02:53:54.136409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31167422",
-        "size_bytes": 840983211
-      },
-      "transfer_receipt": {
-        "target_video_id": "31167422",
-        "size_bytes": 840983211,
-        "source_bytes_read": 840983211,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31167422",
         "source_bytes_read": 840983211,
         "elapsed_seconds": 79.664,
         "finished_at": "2026-11-19T02:55:37.823008+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31167422",
+          "size_bytes": 840983211,
+          "source_bytes_read": 840983211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34819512",
+        "source_url": "https://sdilej.cz/34819512/ncis-s22e08-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31167422",
+        "display_name": "NCIS S22E08 Out of Control 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T02:55:48.365703+00:00"
       }
     }
   },
@@ -646008,7 +646009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T02:55:44.004657+00:00",
+  "updated_at": "2026-11-19T02:55:48.365719+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
