@@ -668235,12 +668235,6 @@
     },
     "897:2:3": {
       "episode_key": "teror:s2:e3",
-      "claim": {
-        "worker_id": "5c7f2a2ea7ae4e88aa646a1799c4e971-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T13:33:17.853611+00:00",
-        "lease_expires_at": "2026-11-19T19:33:17.853626+00:00"
-      },
       "source": {
         "source_id": "12256716",
         "source_url": "https://sdilej.cz/12256716/teror.s02e03.gaman.web-dl.1080p.hevc.cz.mkv",
@@ -668265,22 +668259,29 @@
         "display_name": "The Terror S02E03 Gaman 1080p CZ Dabing",
         "prepared_at": "2026-11-19T13:33:24.500973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31183998",
-        "size_bytes": 570090155
-      },
-      "transfer_receipt": {
-        "target_video_id": "31183998",
-        "size_bytes": 570090155,
-        "source_bytes_read": 570090155,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31183998",
         "source_bytes_read": 570090155,
         "elapsed_seconds": 234.096,
         "finished_at": "2026-11-19T13:37:44.977678+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31183998",
+          "size_bytes": 570090155,
+          "source_bytes_read": 570090155,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12256716",
+        "source_url": "https://sdilej.cz/12256716/teror.s02e03.gaman.web-dl.1080p.hevc.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31183998",
+        "display_name": "The Terror S02E03 Gaman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T13:37:53.056330+00:00"
       }
     },
     "897:2:4": {
@@ -668414,7 +668415,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T13:37:44.977694+00:00",
+  "updated_at": "2026-11-19T13:37:53.056352+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
