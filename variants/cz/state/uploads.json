@@ -648741,12 +648741,6 @@
     },
     "3:2:2": {
       "episode_key": "malý sheldon:s2:e2",
-      "claim": {
-        "worker_id": "f5ac3be6607a4a0cbf1b30f38e540eea-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T03:53:58.761846+00:00",
-        "lease_expires_at": "2026-11-19T09:53:58.761858+00:00"
-      },
       "source": {
         "source_id": "23158205",
         "source_url": "https://sdilej.cz/23158205/maly-sheldon-young-sheldon-s02e02-hd-cz-dabing.mkv",
@@ -648771,22 +648765,29 @@
         "display_name": "Young Sheldon S02E02 A Rival Prodigy and Sir Isaac Neutron 1080p CZ Dabing",
         "prepared_at": "2026-11-19T03:54:12.589139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169083",
-        "size_bytes": 256918389
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169083",
-        "size_bytes": 256918389,
-        "source_bytes_read": 256918389,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169083",
         "source_bytes_read": 256918389,
         "elapsed_seconds": 16.822,
         "finished_at": "2026-11-19T03:54:51.585942+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169083",
+          "size_bytes": 256918389,
+          "source_bytes_read": 256918389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23158205",
+        "source_url": "https://sdilej.cz/23158205/maly-sheldon-young-sheldon-s02e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169083",
+        "display_name": "Young Sheldon S02E02 A Rival Prodigy and Sir Isaac Neutron 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T03:54:57.294519+00:00"
       }
     },
     "3:2:3": {
@@ -648832,7 +648833,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T03:54:51.585962+00:00",
+  "updated_at": "2026-11-19T03:54:57.294537+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
