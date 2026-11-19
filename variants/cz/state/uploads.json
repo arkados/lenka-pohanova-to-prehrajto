@@ -640562,12 +640562,6 @@
     },
     "1405:8:17": {
       "episode_key": "námořní vyšetřovací služba:s8:e17",
-      "claim": {
-        "worker_id": "a9b790e8f3ee41e9ad78dbb50a3dd7f9-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:57:30.020634+00:00",
-        "lease_expires_at": "2026-11-19T06:57:30.020645+00:00"
-      },
       "source": {
         "source_id": "30836158",
         "source_url": "https://sdilej.cz/30836158/namorni-vysetrovaci-sluzba-s08e17.mkv",
@@ -640592,22 +640586,29 @@
         "display_name": "NCIS S08E17 One Last Score 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:57:38.685976+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164725",
-        "size_bytes": 640557526
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164725",
-        "size_bytes": 640557526,
-        "source_bytes_read": 640557526,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164725",
         "source_bytes_read": 640557526,
         "elapsed_seconds": 34.822,
         "finished_at": "2026-11-19T00:58:42.496407+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164725",
+          "size_bytes": 640557526,
+          "source_bytes_read": 640557526,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836158",
+        "source_url": "https://sdilej.cz/30836158/namorni-vysetrovaci-sluzba-s08e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164725",
+        "display_name": "NCIS S08E17 One Last Score 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:58:59.400225+00:00"
       }
     },
     "1405:8:18": {
@@ -640690,7 +640691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:58:54.624364+00:00",
+  "updated_at": "2026-11-19T00:58:59.400239+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
