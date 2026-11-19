@@ -659323,12 +659323,6 @@
     },
     "940:4:25": {
       "episode_key": "jmenuju se earl:s4:e25",
-      "claim": {
-        "worker_id": "77c09ba06b91468aafbc288afe523db8-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T08:47:26.449027+00:00",
-        "lease_expires_at": "2026-11-19T14:47:26.449041+00:00"
-      },
       "source": {
         "source_id": "33058634",
         "source_url": "https://sdilej.cz/33058634/jmenuju-se-earl-s04e25-cz-dabing.mkv",
@@ -659353,22 +659347,29 @@
         "display_name": "My Name Is Earl S04E25 Inside Probe (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:47:44.278388+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31177090",
-        "size_bytes": 713680072
-      },
-      "transfer_receipt": {
-        "target_video_id": "31177090",
-        "size_bytes": 713680072,
-        "source_bytes_read": 713680072,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31177090",
         "source_bytes_read": 713680072,
         "elapsed_seconds": 83.82,
         "finished_at": "2026-11-19T08:49:33.011675+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31177090",
+          "size_bytes": 713680072,
+          "source_bytes_read": 713680072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33058634",
+        "source_url": "https://sdilej.cz/33058634/jmenuju-se-earl-s04e25-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31177090",
+        "display_name": "My Name Is Earl S04E25 Inside Probe (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T08:49:50.211817+00:00"
       }
     },
     "940:4:26": {
@@ -659414,7 +659415,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T08:49:44.649462+00:00",
+  "updated_at": "2026-11-19T08:49:50.211833+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
