@@ -652550,28 +652550,29 @@
           "at": "2026-11-19T05:07:39.894594+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f978bf3610794bc986b588a71dfb0af1-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T05:07:45.205413+00:00",
-        "lease_expires_at": "2026-11-19T11:07:45.205427+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31170877",
-        "size_bytes": 545983227
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170877",
-        "size_bytes": 545983227,
-        "source_bytes_read": 545983227,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170877",
         "source_bytes_read": 545983227,
         "elapsed_seconds": 234.731,
         "finished_at": "2026-11-19T05:12:25.873556+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170877",
+          "size_bytes": 545983227,
+          "source_bytes_read": 545983227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31072814",
+        "source_url": "https://sdilej.cz/31072814/maly-sheldon-s05e20-strycek-sheldon-a-hormonalni-bourlivak.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170877",
+        "display_name": "Young Sheldon S05E20 Uncle Sheldon and a Hormonal Firecracker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T05:12:34.636258+00:00"
       }
     },
     "3:5:21": {
@@ -652821,7 +652822,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T05:12:25.873590+00:00",
+  "updated_at": "2026-11-19T05:12:34.636280+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
