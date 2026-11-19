@@ -671923,12 +671923,6 @@
     },
     "55:1:1": {
       "episode_key": "superman a lois:s1:e1",
-      "claim": {
-        "worker_id": "88554fbbfc0e4fd7a0d83f93ca99ceaa-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:04:41.592348+00:00",
-        "lease_expires_at": "2026-11-19T21:04:41.592362+00:00"
-      },
       "source": {
         "source_id": "26871815",
         "source_url": "https://sdilej.cz/26871815/superman-a-lois-s01e01-pilot.mkv",
@@ -671953,22 +671947,29 @@
         "display_name": "Superman & Lois S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:05:02.460083+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31185513",
-        "size_bytes": 184549376
-      },
-      "transfer_receipt": {
-        "target_video_id": "31185513",
-        "size_bytes": 184549376,
-        "source_bytes_read": 184549376,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31185513",
         "source_bytes_read": 184549376,
         "elapsed_seconds": 16.074,
         "finished_at": "2026-11-19T15:05:48.520234+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31185513",
+          "size_bytes": 184549376,
+          "source_bytes_read": 184549376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26871815",
+        "source_url": "https://sdilej.cz/26871815/superman-a-lois-s01e01-pilot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31185513",
+        "display_name": "Superman & Lois S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:05:56.087523+00:00"
       }
     },
     "55:1:2": {
@@ -672051,7 +672052,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:05:48.520255+00:00",
+  "updated_at": "2026-11-19T15:05:56.087540+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
