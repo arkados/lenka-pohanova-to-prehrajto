@@ -656249,12 +656249,6 @@
     },
     "940:1:23": {
       "episode_key": "jmenuju se earl:s1:e23",
-      "claim": {
-        "worker_id": "be6a548fea1b4e18a69e38245e0f6014-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:59:27.496822+00:00",
-        "lease_expires_at": "2026-11-19T12:59:27.496837+00:00"
-      },
       "source": {
         "source_id": "33040501",
         "source_url": "https://sdilej.cz/33040501/jmenuju-se-earl-s01e23-cz-dabing.mkv",
@@ -656279,22 +656273,29 @@
         "display_name": "My Name Is Earl S01E23 BB 1080p CZ Dabing",
         "prepared_at": "2026-11-19T06:59:45.487460+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31173517",
-        "size_bytes": 636349156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31173517",
-        "size_bytes": 636349156,
-        "source_bytes_read": 636349156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31173517",
         "source_bytes_read": 636349156,
         "elapsed_seconds": 72.821,
         "finished_at": "2026-11-19T07:01:30.425926+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31173517",
+          "size_bytes": 636349156,
+          "source_bytes_read": 636349156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33040501",
+        "source_url": "https://sdilej.cz/33040501/jmenuju-se-earl-s01e23-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31173517",
+        "display_name": "My Name Is Earl S01E23 BB 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:01:39.069146+00:00"
       }
     },
     "940:1:24": {
@@ -656340,7 +656341,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:01:30.425951+00:00",
+  "updated_at": "2026-11-19T07:01:39.069170+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
