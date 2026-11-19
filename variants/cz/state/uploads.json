@@ -655090,12 +655090,6 @@
     },
     "3285:5:2": {
       "episode_key": "bude líp:s5:e2",
-      "claim": {
-        "worker_id": "960375c2001f4a8ba04f43b38b869de8-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T06:22:13.249642+00:00",
-        "lease_expires_at": "2026-11-19T12:22:13.249662+00:00"
-      },
       "source": {
         "source_id": "21783948",
         "source_url": "https://sdilej.cz/21783948/bude.lip.05x02.1080i.hdtv.cz.mkv",
@@ -655120,22 +655114,29 @@
         "display_name": "Better Things S05E02 Rip Taylor's Cell Phone 1080p CZ Dabing",
         "prepared_at": "2026-11-19T06:22:28.020685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31172591",
-        "size_bytes": 1540714759
-      },
-      "transfer_receipt": {
-        "target_video_id": "31172591",
-        "size_bytes": 1540714759,
-        "source_bytes_read": 1540714759,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31172591",
         "source_bytes_read": 1540714759,
         "elapsed_seconds": 801.967,
         "finished_at": "2026-11-19T06:36:09.015583+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31172591",
+          "size_bytes": 1540714759,
+          "source_bytes_read": 1540714759,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21783948",
+        "source_url": "https://sdilej.cz/21783948/bude.lip.05x02.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31172591",
+        "display_name": "Better Things S05E02 Rip Taylor's Cell Phone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T06:36:18.204899+00:00"
       }
     },
     "940:1:1": {
@@ -655436,7 +655437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T06:36:09.015613+00:00",
+  "updated_at": "2026-11-19T06:36:18.204922+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
