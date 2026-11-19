@@ -661618,12 +661618,6 @@
     },
     "2198:1:3": {
       "episode_key": "tenkrát poprvé:s1:e3",
-      "claim": {
-        "worker_id": "5abf9d27abac47299351a297002091ab-worker-0",
-        "run_id": "44489385653",
-        "claimed_at": "2026-11-19T09:59:53.356156+00:00",
-        "lease_expires_at": "2026-11-19T15:59:53.356167+00:00"
-      },
       "source": {
         "source_id": "21584591",
         "source_url": "https://sdilej.cz/21584591/tenkrat-poprve-never-have-i-ever-s01e03-hd-5.1-cz-dabing.mkv",
@@ -661648,22 +661642,29 @@
         "display_name": "Never Have I Ever S01E03 … gotten drunk with the popular kids 1080p CZ Dabing",
         "prepared_at": "2026-11-19T10:00:00.340540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31179230",
-        "size_bytes": 1271581203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31179230",
-        "size_bytes": 1271581203,
-        "source_bytes_read": 1271581203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31179230",
         "source_bytes_read": 1271581203,
         "elapsed_seconds": 257.601,
         "finished_at": "2026-11-19T10:04:42.257284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31179230",
+          "size_bytes": 1271581203,
+          "source_bytes_read": 1271581203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21584591",
+        "source_url": "https://sdilej.cz/21584591/tenkrat-poprve-never-have-i-ever-s01e03-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31179230",
+        "display_name": "Never Have I Ever S01E03 … gotten drunk with the popular kids 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T10:04:48.475589+00:00"
       }
     },
     "2198:1:4": {
@@ -661732,7 +661733,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T10:04:42.257305+00:00",
+  "updated_at": "2026-11-19T10:04:48.475604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
