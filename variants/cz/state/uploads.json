@@ -688136,12 +688136,6 @@
         }
       ],
       "episode_key": "paní ministryně:s2:e3",
-      "claim": {
-        "worker_id": "378d7931fcaf4168b4bf0caae474d72b-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-19T23:28:50.771813+00:00",
-        "lease_expires_at": "2026-11-20T05:28:50.771828+00:00"
-      },
       "source": {
         "source_id": "12077842",
         "source_url": "https://sdilej.cz/12077842/pani.ministryne.02x03.1080i.hdtv.cz.mkv",
@@ -688166,22 +688160,29 @@
         "display_name": "Madam Secretary S02E03 The Rusalka 1080p CZ Dabing",
         "prepared_at": "2026-11-19T23:29:02.319779+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31192478",
-        "size_bytes": 3036672387
-      },
-      "transfer_receipt": {
-        "target_video_id": "31192478",
-        "size_bytes": 3036672387,
-        "source_bytes_read": 3036672387,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31192478",
         "source_bytes_read": 3036672387,
         "elapsed_seconds": 334.389,
         "finished_at": "2026-11-19T23:35:03.148906+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31192478",
+          "size_bytes": 3036672387,
+          "source_bytes_read": 3036672387,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12077842",
+        "source_url": "https://sdilej.cz/12077842/pani.ministryne.02x03.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31192478",
+        "display_name": "Madam Secretary S02E03 The Rusalka 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T23:35:09.751338+00:00"
       }
     },
     "1128:2:2": {
@@ -691973,7 +691974,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T23:35:03.148929+00:00",
+  "updated_at": "2026-11-19T23:35:09.751356+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
