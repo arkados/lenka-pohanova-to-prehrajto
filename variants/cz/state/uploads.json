@@ -671522,12 +671522,6 @@
     },
     "5114:1:3": {
       "episode_key": "na vejšce:s1:e3",
-      "claim": {
-        "worker_id": "0a5f7cfc3eea4d8184fdfd33eef98ec4-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T14:30:54.369034+00:00",
-        "lease_expires_at": "2026-11-19T20:30:54.369053+00:00"
-      },
       "source": {
         "source_id": "34710401",
         "source_url": "https://sdilej.cz/34710401/na-vejsce-s01e03-08-2026-cz-dabing-2160p-uhd-orga-smus.mkv",
@@ -671552,22 +671546,29 @@
         "display_name": "Off Campus S01E03 The Orgasm 4K CZ Dabing",
         "prepared_at": "2026-11-19T14:31:04.560734+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31184999",
-        "size_bytes": 1852065390
-      },
-      "transfer_receipt": {
-        "target_video_id": "31184999",
-        "size_bytes": 1852065390,
-        "source_bytes_read": 1852065390,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31184999",
         "source_bytes_read": 1852065390,
         "elapsed_seconds": 693.986,
         "finished_at": "2026-11-19T14:43:02.617748+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31184999",
+          "size_bytes": 1852065390,
+          "source_bytes_read": 1852065390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34710401",
+        "source_url": "https://sdilej.cz/34710401/na-vejsce-s01e03-08-2026-cz-dabing-2160p-uhd-orga-smus.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31184999",
+        "display_name": "Off Campus S01E03 The Orgasm 4K CZ Dabing",
+        "uploaded_at": "2026-11-19T14:43:09.900762+00:00"
       }
     },
     "5114:1:4": {
@@ -671664,7 +671665,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T14:43:02.617766+00:00",
+  "updated_at": "2026-11-19T14:43:09.900780+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
