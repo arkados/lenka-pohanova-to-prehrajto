@@ -652605,12 +652605,6 @@
     },
     "3:6:1": {
       "episode_key": "malý sheldon:s6:e1",
-      "claim": {
-        "worker_id": "b7c1b7360a3041d1afc981377ecde978-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:57:09.686089+00:00",
-        "lease_expires_at": "2026-11-19T10:57:09.686098+00:00"
-      },
       "source": {
         "source_id": "28825118",
         "source_url": "https://sdilej.cz/28825118/maly-sheldon-s06e01-106-2022-full-hd-ctyri-sta-kartonu-neproclenych-cigaret-a-synovnice-sd-.mp4",
@@ -652635,22 +652629,29 @@
         "display_name": "Young Sheldon S06E01 Four Hundred Cartons of Undeclared Cigarettes and a Niblingo 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:57:14.640611+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31170658",
-        "size_bytes": 380791046
-      },
-      "transfer_receipt": {
-        "target_video_id": "31170658",
-        "size_bytes": 380791046,
-        "source_bytes_read": 380791046,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31170658",
         "source_bytes_read": 380791046,
         "elapsed_seconds": 23.34,
         "finished_at": "2026-11-19T04:57:54.939593+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31170658",
+          "size_bytes": 380791046,
+          "source_bytes_read": 380791046,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825118",
+        "source_url": "https://sdilej.cz/28825118/maly-sheldon-s06e01-106-2022-full-hd-ctyri-sta-kartonu-neproclenych-cigaret-a-synovnice-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31170658",
+        "display_name": "Young Sheldon S06E01 Four Hundred Cartons of Undeclared Cigarettes and a Niblingo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:58:03.091696+00:00"
       }
     }
   },
@@ -652659,7 +652660,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:57:54.939636+00:00",
+  "updated_at": "2026-11-19T04:58:03.091712+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
