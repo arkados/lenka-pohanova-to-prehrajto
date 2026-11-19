@@ -649987,12 +649987,6 @@
     },
     "3:3:5": {
       "episode_key": "malý sheldon:s3:e5",
-      "claim": {
-        "worker_id": "d74c57ada15145789281cd970e7a3068-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T04:08:14.330970+00:00",
-        "lease_expires_at": "2026-11-19T10:08:14.330981+00:00"
-      },
       "source": {
         "source_id": "29311625",
         "source_url": "https://sdilej.cz/29311625/maly-sheldon-young-sheldon-s03e05-cz-en-hevc-1080p.mkv",
@@ -650017,22 +650011,29 @@
         "display_name": "Young Sheldon S03E05 A Pineapple and the Bosom of Male Friendship 1080p CZ Dabing",
         "prepared_at": "2026-11-19T04:08:19.062650+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31169546",
-        "size_bytes": 286134816
-      },
-      "transfer_receipt": {
-        "target_video_id": "31169546",
-        "size_bytes": 286134816,
-        "source_bytes_read": 286134816,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31169546",
         "source_bytes_read": 286134816,
         "elapsed_seconds": 18.694,
         "finished_at": "2026-11-19T04:09:06.820804+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31169546",
+          "size_bytes": 286134816,
+          "source_bytes_read": 286134816,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29311625",
+        "source_url": "https://sdilej.cz/29311625/maly-sheldon-young-sheldon-s03e05-cz-en-hevc-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31169546",
+        "display_name": "Young Sheldon S03E05 A Pineapple and the Bosom of Male Friendship 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T04:09:19.457493+00:00"
       }
     },
     "3:3:6": {
@@ -650111,7 +650112,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T04:09:15.484263+00:00",
+  "updated_at": "2026-11-19T04:09:19.457510+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
