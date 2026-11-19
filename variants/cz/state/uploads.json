@@ -639695,12 +639695,6 @@
     },
     "1405:7:22": {
       "episode_key": "námořní vyšetřovací služba:s7:e22",
-      "claim": {
-        "worker_id": "d6bcdec5d9284440a676828f3af3169e-worker-0",
-        "run_id": "44391667985",
-        "claimed_at": "2026-11-19T00:46:41.948051+00:00",
-        "lease_expires_at": "2026-11-19T06:46:41.948061+00:00"
-      },
       "source": {
         "source_id": "30815763",
         "source_url": "https://sdilej.cz/30815763/namorni-vysetrovaci-sluzba-s07e22.mkv",
@@ -639725,22 +639719,29 @@
         "display_name": "NCIS S07E22 Borderland 1080p CZ Dabing",
         "prepared_at": "2026-11-19T00:46:46.889310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31164579",
-        "size_bytes": 1008248410
-      },
-      "transfer_receipt": {
-        "target_video_id": "31164579",
-        "size_bytes": 1008248410,
-        "source_bytes_read": 1008248410,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31164579",
         "source_bytes_read": 1008248410,
         "elapsed_seconds": 71.502,
         "finished_at": "2026-11-19T00:48:24.939015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31164579",
+          "size_bytes": 1008248410,
+          "source_bytes_read": 1008248410,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30815763",
+        "source_url": "https://sdilej.cz/30815763/namorni-vysetrovaci-sluzba-s07e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31164579",
+        "display_name": "NCIS S07E22 Borderland 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T00:48:44.040455+00:00"
       }
     },
     "1405:7:23": {
@@ -639850,7 +639851,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T00:48:39.927736+00:00",
+  "updated_at": "2026-11-19T00:48:44.040472+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
