@@ -674872,12 +674872,6 @@
         }
       ],
       "episode_key": "vražedné šifry:s2:e2",
-      "claim": {
-        "worker_id": "1e560c1780c3443daf4dfdd9263c41aa-worker-0",
-        "run_id": "44586127355",
-        "claimed_at": "2026-11-19T19:08:07.671005+00:00",
-        "lease_expires_at": "2026-11-20T01:08:07.671017+00:00"
-      },
       "source": {
         "source_id": "26388751",
         "source_url": "https://sdilej.cz/26388751/vrazedne-sifry-s02e02.cz.webrip.1080p.h264.c4u.mp4",
@@ -674902,22 +674896,29 @@
         "display_name": "The Bletchley Circle S02E02 Blood on Their Hands (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-19T19:08:23.473784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31189295",
-        "size_bytes": 1226826155
-      },
-      "transfer_receipt": {
-        "target_video_id": "31189295",
-        "size_bytes": 1226826155,
-        "source_bytes_read": 1226826155,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31189295",
         "source_bytes_read": 1226826155,
         "elapsed_seconds": 127.321,
         "finished_at": "2026-11-19T19:10:58.766753+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31189295",
+          "size_bytes": 1226826155,
+          "source_bytes_read": 1226826155,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26388751",
+        "source_url": "https://sdilej.cz/26388751/vrazedne-sifry-s02e02.cz.webrip.1080p.h264.c4u.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31189295",
+        "display_name": "The Bletchley Circle S02E02 Blood on Their Hands (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T19:11:09.034165+00:00"
       }
     },
     "997:1:2": {
@@ -682563,7 +682564,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T19:11:04.200115+00:00",
+  "updated_at": "2026-11-19T19:11:09.034180+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
