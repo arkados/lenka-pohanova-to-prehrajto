@@ -657792,12 +657792,6 @@
     },
     "940:3:10": {
       "episode_key": "jmenuju se earl:s3:e10",
-      "claim": {
-        "worker_id": "01c6b6eb2cc34711a55f9e8218459e8d-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T07:48:44.422263+00:00",
-        "lease_expires_at": "2026-11-19T13:48:44.422281+00:00"
-      },
       "source": {
         "source_id": "33048944",
         "source_url": "https://sdilej.cz/33048944/jmenuju-se-earl-s03e10-cz-dabing.mkv",
@@ -657822,22 +657816,29 @@
         "display_name": "My Name Is Earl S03E10 Early Release 1080p CZ Dabing",
         "prepared_at": "2026-11-19T07:49:00.527025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31175288",
-        "size_bytes": 676798978
-      },
-      "transfer_receipt": {
-        "target_video_id": "31175288",
-        "size_bytes": 676798978,
-        "source_bytes_read": 676798978,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31175288",
         "source_bytes_read": 676798978,
         "elapsed_seconds": 94.974,
         "finished_at": "2026-11-19T07:51:13.066914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31175288",
+          "size_bytes": 676798978,
+          "source_bytes_read": 676798978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33048944",
+        "source_url": "https://sdilej.cz/33048944/jmenuju-se-earl-s03e10-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31175288",
+        "display_name": "My Name Is Earl S03E10 Early Release 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T07:51:26.541978+00:00"
       }
     },
     "940:3:11": {
@@ -657883,7 +657884,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T07:51:19.829514+00:00",
+  "updated_at": "2026-11-19T07:51:26.542000+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
