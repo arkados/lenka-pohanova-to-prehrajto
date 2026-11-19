@@ -674153,12 +674153,6 @@
     },
     "55:4:2": {
       "episode_key": "superman a lois:s4:e2",
-      "claim": {
-        "worker_id": "78abb75dea6345c7ac23d1608bb6cbb7-worker-0",
-        "run_id": "44525629742",
-        "claimed_at": "2026-11-19T15:53:41.277090+00:00",
-        "lease_expires_at": "2026-11-19T21:53:41.277106+00:00"
-      },
       "source": {
         "source_id": "30148172",
         "source_url": "https://sdilej.cz/30148172/superman-a-lois-s04e02.mp4",
@@ -674183,22 +674177,29 @@
         "display_name": "Superman & Lois S04E02 A World Without 1080p CZ Dabing",
         "prepared_at": "2026-11-19T15:53:48.500366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31186595",
-        "size_bytes": 391068633
-      },
-      "transfer_receipt": {
-        "target_video_id": "31186595",
-        "size_bytes": 391068633,
-        "source_bytes_read": 391068633,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31186595",
         "source_bytes_read": 391068633,
         "elapsed_seconds": 42.823,
         "finished_at": "2026-11-19T15:55:09.188983+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31186595",
+          "size_bytes": 391068633,
+          "source_bytes_read": 391068633,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30148172",
+        "source_url": "https://sdilej.cz/30148172/superman-a-lois-s04e02.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31186595",
+        "display_name": "Superman & Lois S04E02 A World Without 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T15:55:21.312929+00:00"
       }
     },
     "55:4:3": {
@@ -674258,7 +674259,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T15:55:14.898208+00:00",
+  "updated_at": "2026-11-19T15:55:21.312947+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
