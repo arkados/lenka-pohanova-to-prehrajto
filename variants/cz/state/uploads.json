@@ -659017,12 +659017,6 @@
     },
     "940:4:19": {
       "episode_key": "jmenuju se earl:s4:e19",
-      "claim": {
-        "worker_id": "72123e385cdb4b578a8f742321d83b9a-worker-0",
-        "run_id": "44445171614",
-        "claimed_at": "2026-11-19T08:33:54.928145+00:00",
-        "lease_expires_at": "2026-11-19T14:33:54.928161+00:00"
-      },
       "source": {
         "source_id": "33057930",
         "source_url": "https://sdilej.cz/33057930/jmenuju-se-earl-s04e19-cz-dabing.mkv",
@@ -659047,22 +659041,29 @@
         "display_name": "My Name Is Earl S04E19 My Name Is Alias 1080p CZ Dabing",
         "prepared_at": "2026-11-19T08:34:00.762815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31176682",
-        "size_bytes": 714078168
-      },
-      "transfer_receipt": {
-        "target_video_id": "31176682",
-        "size_bytes": 714078168,
-        "source_bytes_read": 714078168,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31176682",
         "source_bytes_read": 714078168,
         "elapsed_seconds": 172.464,
         "finished_at": "2026-11-19T08:37:14.083240+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31176682",
+          "size_bytes": 714078168,
+          "source_bytes_read": 714078168,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33057930",
+        "source_url": "https://sdilej.cz/33057930/jmenuju-se-earl-s04e19-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31176682",
+        "display_name": "My Name Is Earl S04E19 My Name Is Alias 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T08:37:22.023293+00:00"
       }
     },
     "940:4:20": {
@@ -659108,7 +659109,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T08:37:14.083263+00:00",
+  "updated_at": "2026-11-19T08:37:22.023427+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
