@@ -642231,12 +642231,6 @@
     },
     "1405:10:13": {
       "episode_key": "námořní vyšetřovací služba:s10:e13",
-      "claim": {
-        "worker_id": "680dc0f0aa0b47978391f17ec8d44d2d-worker-0",
-        "run_id": "44436995842",
-        "claimed_at": "2026-11-19T01:31:31.416106+00:00",
-        "lease_expires_at": "2026-11-19T07:31:31.416122+00:00"
-      },
       "source": {
         "source_id": "30836459",
         "source_url": "https://sdilej.cz/30836459/namorni-vysetrovaci-sluzba-s10e13.mkv",
@@ -642261,22 +642255,29 @@
         "display_name": "NCIS S10E13 Hit and Run 1080p CZ Dabing",
         "prepared_at": "2026-11-19T01:31:40.492201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31165344",
-        "size_bytes": 1012301052
-      },
-      "transfer_receipt": {
-        "target_video_id": "31165344",
-        "size_bytes": 1012301052,
-        "source_bytes_read": 1012301052,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31165344",
         "source_bytes_read": 1012301052,
         "elapsed_seconds": 115.417,
         "finished_at": "2026-11-19T01:33:56.944755+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31165344",
+          "size_bytes": 1012301052,
+          "source_bytes_read": 1012301052,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836459",
+        "source_url": "https://sdilej.cz/30836459/namorni-vysetrovaci-sluzba-s10e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31165344",
+        "display_name": "NCIS S10E13 Hit and Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-19T01:34:04.489316+00:00"
       }
     },
     "1405:10:14": {
@@ -642322,7 +642323,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-19T01:33:56.944775+00:00",
+  "updated_at": "2026-11-19T01:34:04.489333+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
