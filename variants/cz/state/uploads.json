@@ -703908,12 +703908,6 @@
         }
       ],
       "episode_key": "upíří deníky:s2:e11",
-      "claim": {
-        "worker_id": "6276d7e2616244d3a95f368473a9eaf9-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:44:34.051179+00:00",
-        "lease_expires_at": "2026-11-20T10:44:34.051191+00:00"
-      },
       "source": {
         "source_id": "34580552",
         "source_url": "https://sdilej.cz/34580552/upiri-deniky-s02e11-za-svitu-mesice-cz-dabing-h265-2010.mkv",
@@ -703938,22 +703932,29 @@
         "display_name": "The Vampire Diaries S02E11 By the Light of the Moon 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:44:39.420144+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196952",
-        "size_bytes": 749237972
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196952",
-        "size_bytes": 749237972,
-        "source_bytes_read": 749237972,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196952",
         "source_bytes_read": 749237972,
         "elapsed_seconds": 102.789,
         "finished_at": "2026-11-20T04:46:44.221487+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196952",
+          "size_bytes": 749237972,
+          "source_bytes_read": 749237972,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34580552",
+        "source_url": "https://sdilej.cz/34580552/upiri-deniky-s02e11-za-svitu-mesice-cz-dabing-h265-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196952",
+        "display_name": "The Vampire Diaries S02E11 By the Light of the Moon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:46:52.569348+00:00"
       }
     },
     "1119:2:13": {
@@ -704301,7 +704302,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:46:44.221504+00:00",
+  "updated_at": "2026-11-20T04:46:52.569363+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
