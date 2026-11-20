@@ -718691,12 +718691,6 @@
     },
     "1084:5:20": {
       "episode_key": "zoufalé manželky:s5:e20",
-      "claim": {
-        "worker_id": "7380ecd62d664930b4d12d6e63478d5d-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:54:57.322411+00:00",
-        "lease_expires_at": "2026-11-20T16:54:57.322424+00:00"
-      },
       "source": {
         "source_id": "34400359",
         "source_url": "https://sdilej.cz/34400359/zoufale-manzelky-s05e20-107-2009-hd-tajnosti-a-lzi-s-.mp4",
@@ -718721,22 +718715,29 @@
         "display_name": "Desperate Housewives S05E20 Rose's Turn 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:55:03.281754+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202410",
-        "size_bytes": 881660759
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202410",
-        "size_bytes": 881660759,
-        "source_bytes_read": 881660759,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202410",
         "source_bytes_read": 881660759,
         "elapsed_seconds": 109.483,
         "finished_at": "2026-11-20T10:57:12.340601+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202410",
+          "size_bytes": 881660759,
+          "source_bytes_read": 881660759,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400359",
+        "source_url": "https://sdilej.cz/34400359/zoufale-manzelky-s05e20-107-2009-hd-tajnosti-a-lzi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202410",
+        "display_name": "Desperate Housewives S05E20 Rose's Turn 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:57:23.478582+00:00"
       }
     },
     "1084:5:21": {
@@ -718832,7 +718833,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:57:17.139995+00:00",
+  "updated_at": "2026-11-20T10:57:23.478599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
