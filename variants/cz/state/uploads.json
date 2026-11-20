@@ -703010,12 +703010,6 @@
         }
       ],
       "episode_key": "upíří deníky:s1:e18",
-      "claim": {
-        "worker_id": "d812c798c726425b9a727fbcee8106ae-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:20:11.014805+00:00",
-        "lease_expires_at": "2026-11-20T10:20:11.014815+00:00"
-      },
       "source": {
         "source_id": "30067473",
         "source_url": "https://sdilej.cz/30067473/upiri-deniky-s01e18.mkv",
@@ -703040,22 +703034,29 @@
         "display_name": "The Vampire Diaries S01E18 Under Control 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:20:18.104157+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196509",
-        "size_bytes": 1838035788
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196509",
-        "size_bytes": 1838035788,
-        "source_bytes_read": 1838035788,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196509",
         "source_bytes_read": 1838035788,
         "elapsed_seconds": 155.146,
         "finished_at": "2026-11-20T04:23:22.821461+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196509",
+          "size_bytes": 1838035788,
+          "source_bytes_read": 1838035788,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30067473",
+        "source_url": "https://sdilej.cz/30067473/upiri-deniky-s01e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196509",
+        "display_name": "The Vampire Diaries S01E18 Under Control 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:23:28.995334+00:00"
       }
     },
     "1119:1:17": {
@@ -703664,7 +703665,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:23:22.821479+00:00",
+  "updated_at": "2026-11-20T04:23:28.995348+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
