@@ -734523,12 +734523,6 @@
     },
     "1065:9:3": {
       "episode_key": "kriminálka las vegas:s9:e3",
-      "claim": {
-        "worker_id": "abdbe12b7cbb429cb14ce2f585d9d265-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:53:58.055386+00:00",
-        "lease_expires_at": "2026-11-20T22:53:58.055403+00:00"
-      },
       "source": {
         "source_id": "27227968",
         "source_url": "https://sdilej.cz/27227968/kriminalka-las-vegas-s09e03-185-2008-sd-umeni-napodobuje-zivot-sd-.mp4",
@@ -734553,22 +734547,29 @@
         "display_name": "CSI: Crime Scene Investigation S09E03 Art Imitates Life SD CZ Dabing",
         "prepared_at": "2026-11-20T16:54:13.361035+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208923",
-        "size_bytes": 364792097
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208923",
-        "size_bytes": 364792097,
-        "source_bytes_read": 364792097,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208923",
         "source_bytes_read": 364792097,
         "elapsed_seconds": 28.94,
         "finished_at": "2026-11-20T16:55:23.947414+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208923",
+          "size_bytes": 364792097,
+          "source_bytes_read": 364792097,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27227968",
+        "source_url": "https://sdilej.cz/27227968/kriminalka-las-vegas-s09e03-185-2008-sd-umeni-napodobuje-zivot-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208923",
+        "display_name": "CSI: Crime Scene Investigation S09E03 Art Imitates Life SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:55:32.692136+00:00"
       }
     },
     "1065:9:4": {
@@ -734614,7 +734615,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:55:23.947435+00:00",
+  "updated_at": "2026-11-20T16:55:32.692165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
