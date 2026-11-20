@@ -742382,12 +742382,6 @@
     },
     "210:3:3": {
       "episode_key": "věčnost:s3:e3",
-      "claim": {
-        "worker_id": "19930f8ef3a94a67a20eedaba26538dd-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:30:37.345365+00:00",
-        "lease_expires_at": "2026-11-21T02:30:37.345375+00:00"
-      },
       "source": {
         "source_id": "29218573",
         "source_url": "https://sdilej.cz/29218573/vecnost-s03e03-1080p-cz-dabing.mkv",
@@ -742412,22 +742406,29 @@
         "display_name": "Upload S03E03 CyberDiscountDay 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:30:51.395022+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212832",
-        "size_bytes": 1295235082
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212832",
-        "size_bytes": 1295235082,
-        "source_bytes_read": 1295235082,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212832",
         "source_bytes_read": 1295235082,
         "elapsed_seconds": 97.402,
         "finished_at": "2026-11-20T20:33:00.486975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212832",
+          "size_bytes": 1295235082,
+          "source_bytes_read": 1295235082,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218573",
+        "source_url": "https://sdilej.cz/29218573/vecnost-s03e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212832",
+        "display_name": "Upload S03E03 CyberDiscountDay 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:33:19.312293+00:00"
       }
     },
     "210:3:4": {
@@ -742472,7 +742473,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:33:12.225585+00:00",
+  "updated_at": "2026-11-20T20:33:19.312310+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
