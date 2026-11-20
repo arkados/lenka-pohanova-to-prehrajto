@@ -696631,28 +696631,29 @@
           "at": "2026-11-20T02:57:20.051056+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1f2f33277dfb45aea082300d180f1790-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:57:27.216372+00:00",
-        "lease_expires_at": "2026-11-20T08:57:27.216382+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31195239",
-        "size_bytes": 761982228
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195239",
-        "size_bytes": 761982228,
-        "source_bytes_read": 761982228,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195239",
         "source_bytes_read": 761982228,
         "elapsed_seconds": 45.477,
         "finished_at": "2026-11-20T02:58:47.037544+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195239",
+          "size_bytes": 761982228,
+          "source_bytes_read": 761982228,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29271721",
+        "source_url": "https://sdilej.cz/29271721/tri-musketyri-s02e02-012-2015-hd-jako-prosty-clovek-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195239",
+        "display_name": "The Musketeers S02E02 An Ordinary Man 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:59:00.533330+00:00"
       }
     },
     "1628:2:3": {
@@ -700612,7 +700613,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:58:55.884269+00:00",
+  "updated_at": "2026-11-20T02:59:00.533346+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
