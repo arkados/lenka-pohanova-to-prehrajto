@@ -743657,12 +743657,6 @@
     },
     "619:2:6": {
       "episode_key": "tohle nikdo nechce:s2:e6",
-      "claim": {
-        "worker_id": "4daea46035314e87b556986fa2f65778-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:51:39.802169+00:00",
-        "lease_expires_at": "2026-11-21T02:51:39.802180+00:00"
-      },
       "source": {
         "source_id": "32237737",
         "source_url": "https://sdilej.cz/32237737/nobody.wants.this.s02e06.1080p.10bit.webrip.6ch.x265.hevc-psa.mkv",
@@ -743687,22 +743681,29 @@
         "display_name": "Nobody Wants This S02E06 Anything Can Happen 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:51:55.198160+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213170",
-        "size_bytes": 741708468
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213170",
-        "size_bytes": 741708468,
-        "source_bytes_read": 741708468,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213170",
         "source_bytes_read": 741708468,
         "elapsed_seconds": 32.192,
         "finished_at": "2026-11-20T20:53:05.280682+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213170",
+          "size_bytes": 741708468,
+          "source_bytes_read": 741708468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32237737",
+        "source_url": "https://sdilej.cz/32237737/nobody.wants.this.s02e06.1080p.10bit.webrip.6ch.x265.hevc-psa.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213170",
+        "display_name": "Nobody Wants This S02E06 Anything Can Happen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:53:12.598371+00:00"
       }
     },
     "619:2:7": {
@@ -743748,7 +743749,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:53:05.280699+00:00",
+  "updated_at": "2026-11-20T20:53:12.598382+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
