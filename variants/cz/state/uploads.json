@@ -716019,12 +716019,6 @@
     },
     "1084:3:6": {
       "episode_key": "zoufalé manželky:s3:e6",
-      "claim": {
-        "worker_id": "5deb87c130ab4856a12157ca25a7028e-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:45:00.342443+00:00",
-        "lease_expires_at": "2026-11-20T15:45:00.342455+00:00"
-      },
       "source": {
         "source_id": "27620006",
         "source_url": "https://sdilej.cz/27620006/zoufale-manzelky-s03e06-cz.mkv",
@@ -716049,22 +716043,29 @@
         "display_name": "Desperate Housewives S03E06 Sweetheart, I Have to Confess 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:45:05.601246+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201117",
-        "size_bytes": 940918175
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201117",
-        "size_bytes": 940918175,
-        "source_bytes_read": 940918175,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201117",
         "source_bytes_read": 940918175,
         "elapsed_seconds": 192.387,
         "finished_at": "2026-11-20T09:48:52.013423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201117",
+          "size_bytes": 940918175,
+          "source_bytes_read": 940918175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620006",
+        "source_url": "https://sdilej.cz/27620006/zoufale-manzelky-s03e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201117",
+        "display_name": "Desperate Housewives S03E06 Sweetheart, I Have to Confess 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:49:01.295499+00:00"
       }
     },
     "1084:3:7": {
@@ -716110,7 +716111,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:48:52.013441+00:00",
+  "updated_at": "2026-11-20T09:49:01.295516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
