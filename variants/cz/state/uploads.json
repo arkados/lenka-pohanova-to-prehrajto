@@ -691748,12 +691748,6 @@
         }
       ],
       "episode_key": "paní ministryně:s5:e19",
-      "claim": {
-        "worker_id": "25237228138144e6b8caabc0d687ed73-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T00:54:03.058507+00:00",
-        "lease_expires_at": "2026-11-20T06:54:03.058520+00:00"
-      },
       "source": {
         "source_id": "33671003",
         "source_url": "https://sdilej.cz/33671003/madam-secretary-s05e19.mp4",
@@ -691778,22 +691772,29 @@
         "display_name": "Madam Secretary S05E19 The Great Experiment 1080p CZ Dabing",
         "prepared_at": "2026-11-20T00:54:14.640853+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193551",
-        "size_bytes": 2410108324
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193551",
-        "size_bytes": 2410108324,
-        "source_bytes_read": 2410108324,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193551",
         "source_bytes_read": 2410108324,
         "elapsed_seconds": 144.672,
         "finished_at": "2026-11-20T00:57:01.939783+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193551",
+          "size_bytes": 2410108324,
+          "source_bytes_read": 2410108324,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33671003",
+        "source_url": "https://sdilej.cz/33671003/madam-secretary-s05e19.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193551",
+        "display_name": "Madam Secretary S05E19 The Great Experiment 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T00:57:10.512330+00:00"
       }
     },
     "1735:1:1": {
@@ -694570,7 +694571,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T00:57:01.939804+00:00",
+  "updated_at": "2026-11-20T00:57:10.512347+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
