@@ -726916,12 +726916,6 @@
     },
     "1065:1:9": {
       "episode_key": "kriminálka las vegas:s1:e9",
-      "claim": {
-        "worker_id": "dfb9d6edba8841828341db5ce077d42b-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:42:09.065824+00:00",
-        "lease_expires_at": "2026-11-20T19:42:09.065841+00:00"
-      },
       "source": {
         "source_id": "29943353",
         "source_url": "https://sdilej.cz/29943353/kriminalka-las-vegas-s01e09-1080p-cz-dabing.mkv",
@@ -726946,22 +726940,29 @@
         "display_name": "CSI: Crime Scene Investigation S01E09 Unfriendly Skies 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:42:15.164024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205536",
-        "size_bytes": 2677934250
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205536",
-        "size_bytes": 2677934250,
-        "source_bytes_read": 2677934250,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205536",
         "source_bytes_read": 2677934250,
         "elapsed_seconds": 478.184,
         "finished_at": "2026-11-20T13:50:42.549216+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205536",
+          "size_bytes": 2677934250,
+          "source_bytes_read": 2677934250,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29943353",
+        "source_url": "https://sdilej.cz/29943353/kriminalka-las-vegas-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205536",
+        "display_name": "CSI: Crime Scene Investigation S01E09 Unfriendly Skies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:50:53.801341+00:00"
       }
     },
     "1065:1:10": {
@@ -727021,7 +727022,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:50:48.570217+00:00",
+  "updated_at": "2026-11-20T13:50:53.801356+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
