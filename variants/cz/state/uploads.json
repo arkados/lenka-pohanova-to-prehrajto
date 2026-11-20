@@ -740477,16 +740477,6 @@
         "display_name": "CSI: Crime Scene Investigation S15E01 The CSI Effect 1080p CZ Dabing",
         "prepared_at": "2026-11-20T18:38:51.817300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31211219",
-        "size_bytes": 2538250880
-      },
-      "transfer_receipt": {
-        "target_video_id": "31211219",
-        "size_bytes": 2538250880,
-        "source_bytes_read": 2538250880,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31211219",
         "source_bytes_read": 2538250880,
@@ -740500,11 +740490,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "5445aaf2982b432497a44658c5c453ed-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T19:04:13.473818+00:00",
-        "lease_expires_at": "2026-11-21T01:04:13.473838+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31211219",
+          "size_bytes": 2538250880,
+          "source_bytes_read": 2538250880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34673194",
+        "source_url": "https://sdilej.cz/34673194/kriminalka-las-vegas-s15e01-18-2014-cz-dab-1080p-csi-syndrom.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31211219",
+        "display_name": "CSI: Crime Scene Investigation S15E01 The CSI Effect 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T19:04:24.924930+00:00"
       }
     },
     "1065:15:2": {
@@ -740546,7 +740547,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T19:04:19.085010+00:00",
+  "updated_at": "2026-11-20T19:04:24.924951+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
