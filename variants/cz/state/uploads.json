@@ -696542,12 +696542,6 @@
         }
       ],
       "episode_key": "na straně zákona:s1:e5",
-      "claim": {
-        "worker_id": "ed526d2c6300463385f81ea1af61e544-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:56:52.579233+00:00",
-        "lease_expires_at": "2026-11-20T07:56:52.579242+00:00"
-      },
       "source": {
         "source_id": "32637806",
         "source_url": "https://sdilej.cz/32637806/na-strane-zakona-s01e05-epizoda-5-2015-krimi-komedie-czdab.mp4",
@@ -696572,22 +696566,29 @@
         "display_name": "No Offence S01E05 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:57:03.527662+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194419",
-        "size_bytes": 600502311
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194419",
-        "size_bytes": 600502311,
-        "source_bytes_read": 600502311,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194419",
         "source_bytes_read": 600502311,
         "elapsed_seconds": 38.993,
         "finished_at": "2026-11-20T01:58:04.349260+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194419",
+          "size_bytes": 600502311,
+          "source_bytes_read": 600502311,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32637806",
+        "source_url": "https://sdilej.cz/32637806/na-strane-zakona-s01e05-epizoda-5-2015-krimi-komedie-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194419",
+        "display_name": "No Offence S01E05 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:58:20.338222+00:00"
       }
     },
     "3891:1:4": {
@@ -697888,7 +697889,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:58:13.665797+00:00",
+  "updated_at": "2026-11-20T01:58:20.338237+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
