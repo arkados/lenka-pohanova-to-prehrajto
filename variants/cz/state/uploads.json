@@ -745619,12 +745619,6 @@
     },
     "643:2:7": {
       "episode_key": "čas čarodějnic:s2:e7",
-      "claim": {
-        "worker_id": "1832d695da5e4896bf25d4bbaffe8857-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:26:20.900664+00:00",
-        "lease_expires_at": "2026-11-21T03:26:20.900676+00:00"
-      },
       "source": {
         "source_id": "33258840",
         "source_url": "https://sdilej.cz/33258840/cas-carodejnic-s02e07-cz-dabing.mkv",
@@ -745648,7 +745642,17 @@
         },
         "display_name": "A Discovery of Witches S02E07 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:26:26.905414+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33258840:https://sdilej.cz/33258840/cas-carodejnic-s02e07-cz-dabing.mkv",
+        "at": "2026-11-20T21:26:43.002784+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T21:26:43.002845+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "643:2:8": {
       "episode_key": "čas čarodějnic:s2:e8",
@@ -745665,7 +745669,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:26:37.421154+00:00",
+  "updated_at": "2026-11-20T21:26:43.002851+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -746255,9 +746259,13 @@
         {
           "identity": "643:2:6",
           "at": "2026-11-20T21:26:37.421112+00:00"
+        },
+        {
+          "identity": "643:2:7",
+          "at": "2026-11-20T21:26:43.002784+00:00"
         }
       ],
-      "retry_after": "2026-11-20T21:24:12.588740+00:00"
+      "retry_after": "2026-11-20T21:36:43.002784+00:00"
     }
   }
 }
