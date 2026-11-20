@@ -714044,12 +714044,6 @@
     },
     "1084:1:10": {
       "episode_key": "zoufalé manželky:s1:e10",
-      "claim": {
-        "worker_id": "e5a98a7e14984b64bdec3f3bf6a7348e-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:05:47.340229+00:00",
-        "lease_expires_at": "2026-11-20T15:05:47.340240+00:00"
-      },
       "source": {
         "source_id": "27618535",
         "source_url": "https://sdilej.cz/27618535/zoufale-manzelky-s01e10-cz.mkv",
@@ -714074,22 +714068,29 @@
         "display_name": "Desperate Housewives S01E10 Come Back to Me 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:05:57.344686+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200501",
-        "size_bytes": 549730887
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200501",
-        "size_bytes": 549730887,
-        "source_bytes_read": 549730887,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200501",
         "source_bytes_read": 549730887,
         "elapsed_seconds": 42.805,
         "finished_at": "2026-11-20T09:07:07.807736+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200501",
+          "size_bytes": 549730887,
+          "source_bytes_read": 549730887,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27618535",
+        "source_url": "https://sdilej.cz/27618535/zoufale-manzelky-s01e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200501",
+        "display_name": "Desperate Housewives S01E10 Come Back to Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:07:21.033764+00:00"
       }
     },
     "1084:1:11": {
@@ -714135,7 +714136,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:07:16.675923+00:00",
+  "updated_at": "2026-11-20T09:07:21.033779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
