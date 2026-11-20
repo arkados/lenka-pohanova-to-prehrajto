@@ -692686,12 +692686,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e3",
-      "claim": {
-        "worker_id": "98e7afa5ed5f4a53bec54ee7bcd5f1c2-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T01:13:41.528658+00:00",
-        "lease_expires_at": "2026-11-20T07:13:41.528677+00:00"
-      },
       "source": {
         "source_id": "33647010",
         "source_url": "https://sdilej.cz/33647010/smer-jih-01x03-cz.mp4",
@@ -692716,22 +692710,29 @@
         "display_name": "Due South S01E03 Manhunt 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:14:07.325679+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193819",
-        "size_bytes": 897115991
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193819",
-        "size_bytes": 897115991,
-        "source_bytes_read": 897115991,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193819",
         "source_bytes_read": 897115991,
         "elapsed_seconds": 41.427,
         "finished_at": "2026-11-20T01:15:17.003933+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193819",
+          "size_bytes": 897115991,
+          "source_bytes_read": 897115991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647010",
+        "source_url": "https://sdilej.cz/33647010/smer-jih-01x03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193819",
+        "display_name": "Due South S01E03 Manhunt 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:15:37.905218+00:00"
       }
     },
     "2234:1:4": {
@@ -695318,7 +695319,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:15:32.233318+00:00",
+  "updated_at": "2026-11-20T01:15:37.905234+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
