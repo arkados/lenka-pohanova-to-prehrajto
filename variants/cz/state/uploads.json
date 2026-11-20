@@ -708267,12 +708267,6 @@
     },
     "1119:6:6": {
       "episode_key": "upíří deníky:s6:e6",
-      "claim": {
-        "worker_id": "2c3ae04cc24c421083bc2a6a7bfd2adc-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:14:44.964562+00:00",
-        "lease_expires_at": "2026-11-20T12:14:44.964574+00:00"
-      },
       "source": {
         "source_id": "34602698",
         "source_url": "https://sdilej.cz/34602698/upiri-deniky-s06e06-cim-vic-me-ignorujes-tim-jsem-cz-dabing-h265-2014-bliz.mkv",
@@ -708297,22 +708291,29 @@
         "display_name": "The Vampire Diaries S06E06 The More You Ignore Me, The Closer I Get 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:15:00.720014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198281",
-        "size_bytes": 766371195
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198281",
-        "size_bytes": 766371195,
-        "source_bytes_read": 766371195,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198281",
         "source_bytes_read": 766371195,
         "elapsed_seconds": 43.353,
         "finished_at": "2026-11-20T06:16:05.520129+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198281",
+          "size_bytes": 766371195,
+          "source_bytes_read": 766371195,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34602698",
+        "source_url": "https://sdilej.cz/34602698/upiri-deniky-s06e06-cim-vic-me-ignorujes-tim-jsem-cz-dabing-h265-2014-bliz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198281",
+        "display_name": "The Vampire Diaries S06E06 The More You Ignore Me, The Closer I Get 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:16:18.012931+00:00"
       }
     }
   },
@@ -708321,7 +708322,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:16:11.582292+00:00",
+  "updated_at": "2026-11-20T06:16:18.012949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
