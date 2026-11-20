@@ -694571,12 +694571,6 @@
         }
       ],
       "episode_key": "směr jih:s2:e11",
-      "claim": {
-        "worker_id": "5a108a4be29545b8a563032e07998b8f-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:39:39.467440+00:00",
-        "lease_expires_at": "2026-11-20T07:39:39.467452+00:00"
-      },
       "source": {
         "source_id": "33647846",
         "source_url": "https://sdilej.cz/33647846/smer-jih-02x11-cz.mp4",
@@ -694601,22 +694595,29 @@
         "display_name": "Due South S02E11 We are the Eggmen 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:39:50.890704+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194207",
-        "size_bytes": 871239254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194207",
-        "size_bytes": 871239254,
-        "source_bytes_read": 871239254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194207",
         "source_bytes_read": 871239254,
         "elapsed_seconds": 59.644,
         "finished_at": "2026-11-20T01:41:13.858618+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194207",
+          "size_bytes": 871239254,
+          "source_bytes_read": 871239254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647846",
+        "source_url": "https://sdilej.cz/33647846/smer-jih-02x11-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194207",
+        "display_name": "Due South S02E11 We are the Eggmen 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:41:22.548739+00:00"
       }
     },
     "2234:2:12": {
@@ -696740,7 +696741,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:41:13.858636+00:00",
+  "updated_at": "2026-11-20T01:41:22.548753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
