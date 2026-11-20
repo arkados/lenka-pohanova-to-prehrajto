@@ -689891,12 +689891,6 @@
         }
       ],
       "episode_key": "paní ministryně:s3:e10",
-      "claim": {
-        "worker_id": "3223673671384752a66e7ae2c7686fe4-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T00:12:30.189240+00:00",
-        "lease_expires_at": "2026-11-20T06:12:30.189257+00:00"
-      },
       "source": {
         "source_id": "12149589",
         "source_url": "https://sdilej.cz/12149589/pani.ministryne.03x10.1080i.hdtv.cz.mkv",
@@ -689921,22 +689915,29 @@
         "display_name": "Madam Secretary S03E10 The Race 1080p CZ Dabing",
         "prepared_at": "2026-11-20T00:12:46.090974+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193045",
-        "size_bytes": 2980435018
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193045",
-        "size_bytes": 2980435018,
-        "source_bytes_read": 2980435018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193045",
         "source_bytes_read": 2980435018,
         "elapsed_seconds": 310.56,
         "finished_at": "2026-11-20T00:18:24.743748+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193045",
+          "size_bytes": 2980435018,
+          "source_bytes_read": 2980435018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12149589",
+        "source_url": "https://sdilej.cz/12149589/pani.ministryne.03x10.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193045",
+        "display_name": "Madam Secretary S03E10 The Race 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T00:18:32.373983+00:00"
       }
     },
     "1128:3:11": {
@@ -693345,7 +693346,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T00:18:24.743770+00:00",
+  "updated_at": "2026-11-20T00:18:32.374003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
