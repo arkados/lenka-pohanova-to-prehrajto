@@ -720642,12 +720642,6 @@
     },
     "1084:7:7": {
       "episode_key": "zoufalé manželky:s7:e7",
-      "claim": {
-        "worker_id": "bf4a2ff1aa8f46f8b7556c06364f4d42-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:41:33.896512+00:00",
-        "lease_expires_at": "2026-11-20T17:41:33.896523+00:00"
-      },
       "source": {
         "source_id": "27625852",
         "source_url": "https://sdilej.cz/27625852/zoufale-manzelky-s07e07-cz.mkv",
@@ -720672,22 +720666,29 @@
         "display_name": "Desperate Housewives S07E07 A Humiliating Business 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:41:39.490866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203324",
-        "size_bytes": 928955013
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203324",
-        "size_bytes": 928955013,
-        "source_bytes_read": 928955013,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203324",
         "source_bytes_read": 928955013,
         "elapsed_seconds": 79.625,
         "finished_at": "2026-11-20T11:43:19.570145+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203324",
+          "size_bytes": 928955013,
+          "source_bytes_read": 928955013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625852",
+        "source_url": "https://sdilej.cz/27625852/zoufale-manzelky-s07e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203324",
+        "display_name": "Desperate Housewives S07E07 A Humiliating Business 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:43:35.244213+00:00"
       }
     }
   },
@@ -720696,7 +720697,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:43:29.357059+00:00",
+  "updated_at": "2026-11-20T11:43:35.244232+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
