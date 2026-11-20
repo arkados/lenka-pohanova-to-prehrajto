@@ -747293,12 +747293,6 @@
     },
     "38:2:9": {
       "episode_key": "průměrňákovi:s2:e9",
-      "claim": {
-        "worker_id": "0467b738efd14ef6b8e44d4cd49436b0-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:22:38.078090+00:00",
-        "lease_expires_at": "2026-11-21T04:22:38.078101+00:00"
-      },
       "source": {
         "source_id": "27601123",
         "source_url": "https://sdilej.cz/27601123/prumernakovi-s02e09-cz.mkv",
@@ -747323,22 +747317,29 @@
         "display_name": "The Middle S02E09 Thanksgiving II 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:22:44.027935+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214454",
-        "size_bytes": 959359446
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214454",
-        "size_bytes": 959359446,
-        "source_bytes_read": 959359446,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214454",
         "source_bytes_read": 959359446,
         "elapsed_seconds": 87.553,
         "finished_at": "2026-11-20T22:24:41.653767+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214454",
+          "size_bytes": 959359446,
+          "source_bytes_read": 959359446,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27601123",
+        "source_url": "https://sdilej.cz/27601123/prumernakovi-s02e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214454",
+        "display_name": "The Middle S02E09 Thanksgiving II 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:24:48.811393+00:00"
       }
     },
     "38:2:10": {
@@ -747421,7 +747422,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:24:41.653787+00:00",
+  "updated_at": "2026-11-20T22:24:48.811431+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
