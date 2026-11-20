@@ -712106,12 +712106,6 @@
     },
     "2409:7:2": {
       "episode_key": "vraždy v brokenwoodu:s7:e2",
-      "claim": {
-        "worker_id": "c396030aefc1457a9cd2d399e34e0bfb-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T08:02:03.659535+00:00",
-        "lease_expires_at": "2026-11-20T14:02:03.659546+00:00"
-      },
       "source": {
         "source_id": "30607927",
         "source_url": "https://sdilej.cz/30607927/vrazdy-v-brokenwoodu-s07e02-026-2020-hd-carodejky-z-brokenwoodu-s-.mp4",
@@ -712136,22 +712130,29 @@
         "display_name": "The Brokenwood Mysteries S07E02 The Witches of Brokenwood 720p CZ Dabing",
         "prepared_at": "2026-11-20T08:02:09.994740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199629",
-        "size_bytes": 1210094766
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199629",
-        "size_bytes": 1210094766,
-        "source_bytes_read": 1210094766,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199629",
         "source_bytes_read": 1210094766,
         "elapsed_seconds": 346.793,
         "finished_at": "2026-11-20T08:08:16.339154+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199629",
+          "size_bytes": 1210094766,
+          "source_bytes_read": 1210094766,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607927",
+        "source_url": "https://sdilej.cz/30607927/vrazdy-v-brokenwoodu-s07e02-026-2020-hd-carodejky-z-brokenwoodu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199629",
+        "display_name": "The Brokenwood Mysteries S07E02 The Witches of Brokenwood 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:08:23.538618+00:00"
       }
     },
     "2409:7:4": {
@@ -712285,7 +712286,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:08:16.339172+00:00",
+  "updated_at": "2026-11-20T08:08:23.538634+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
