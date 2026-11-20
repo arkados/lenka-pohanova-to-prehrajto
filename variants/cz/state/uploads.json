@@ -717772,12 +717772,6 @@
     },
     "1084:5:2": {
       "episode_key": "zoufalé manželky:s5:e2",
-      "claim": {
-        "worker_id": "6e99667cc60f418c9b698153f55bc0d2-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:31:44.568763+00:00",
-        "lease_expires_at": "2026-11-20T16:31:44.568778+00:00"
-      },
       "source": {
         "source_id": "34400276",
         "source_url": "https://sdilej.cz/34400276/zoufale-manzelky-s05e02-089-2008-hd-my-jsme-stastni-vy-jste-stastni-s-.mp4",
@@ -717802,22 +717796,29 @@
         "display_name": "Desperate Housewives S05E02 We're So Happy You're So Happy 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:31:55.890428+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201978",
-        "size_bytes": 881455212
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201978",
-        "size_bytes": 881455212,
-        "source_bytes_read": 881455212,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201978",
         "source_bytes_read": 881455212,
         "elapsed_seconds": 98.162,
         "finished_at": "2026-11-20T10:33:57.064166+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201978",
+          "size_bytes": 881455212,
+          "source_bytes_read": 881455212,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400276",
+        "source_url": "https://sdilej.cz/34400276/zoufale-manzelky-s05e02-089-2008-hd-my-jsme-stastni-vy-jste-stastni-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201978",
+        "display_name": "Desperate Housewives S05E02 We're So Happy You're So Happy 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:34:10.059760+00:00"
       }
     },
     "1084:5:3": {
@@ -717863,7 +717864,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:34:02.340675+00:00",
+  "updated_at": "2026-11-20T10:34:10.059779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
