@@ -704706,12 +704706,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e6",
-      "claim": {
-        "worker_id": "816e39e9fb724f78a44cafc2a965b6b6-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T04:59:00.222675+00:00",
-        "lease_expires_at": "2026-11-20T10:59:00.222686+00:00"
-      },
       "source": {
         "source_id": "34590933",
         "source_url": "https://sdilej.cz/34590933/upiri-deniky-s03e06-prvni-skolni-den-cz-dabing-h265-2011.mkv",
@@ -704736,22 +704730,29 @@
         "display_name": "The Vampire Diaries S03E06 Smells Like Teen Spirit 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:59:05.440135+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197194",
-        "size_bytes": 605765001
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197194",
-        "size_bytes": 605765001,
-        "source_bytes_read": 605765001,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197194",
         "source_bytes_read": 605765001,
         "elapsed_seconds": 37.535,
         "finished_at": "2026-11-20T05:00:01.679628+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197194",
+          "size_bytes": 605765001,
+          "source_bytes_read": 605765001,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34590933",
+        "source_url": "https://sdilej.cz/34590933/upiri-deniky-s03e06-prvni-skolni-den-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197194",
+        "display_name": "The Vampire Diaries S03E06 Smells Like Teen Spirit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:00:12.433599+00:00"
       }
     },
     "1119:3:5": {
@@ -705001,7 +705002,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:00:06.055068+00:00",
+  "updated_at": "2026-11-20T05:00:12.433617+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
