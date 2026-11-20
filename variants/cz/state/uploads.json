@@ -707508,12 +707508,6 @@
     },
     "1119:5:13": {
       "episode_key": "upíří deníky:s5:e13",
-      "claim": {
-        "worker_id": "6b34504c455e4b1fb363a1e2ba8452cc-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:51:20.683786+00:00",
-        "lease_expires_at": "2026-11-20T11:51:20.683799+00:00"
-      },
       "source": {
         "source_id": "30079508",
         "source_url": "https://sdilej.cz/30079508/upiri-deniky-s05e13.mkv",
@@ -707538,22 +707532,29 @@
         "display_name": "The Vampire Diaries S05E13 Total Eclipse of the Heart 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:51:26.008767+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197935",
-        "size_bytes": 1425939308
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197935",
-        "size_bytes": 1425939308,
-        "source_bytes_read": 1425939308,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197935",
         "source_bytes_read": 1425939308,
         "elapsed_seconds": 143.125,
         "finished_at": "2026-11-20T05:54:07.975500+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197935",
+          "size_bytes": 1425939308,
+          "source_bytes_read": 1425939308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079508",
+        "source_url": "https://sdilej.cz/30079508/upiri-deniky-s05e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197935",
+        "display_name": "The Vampire Diaries S05E13 Total Eclipse of the Heart 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:54:16.070068+00:00"
       }
     }
   },
@@ -707562,7 +707563,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:54:07.975517+00:00",
+  "updated_at": "2026-11-20T05:54:16.070085+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
