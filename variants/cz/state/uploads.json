@@ -740402,12 +740402,6 @@
     },
     "1065:14:22": {
       "episode_key": "kriminálka las vegas:s14:e22",
-      "claim": {
-        "worker_id": "75427eb2b1ae4aedb4a5c3346dae18ed-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T18:36:03.717694+00:00",
-        "lease_expires_at": "2026-11-21T00:36:03.717722+00:00"
-      },
       "source": {
         "source_id": "34149581",
         "source_url": "https://sdilej.cz/34149581/kriminalka-las-vegas-s14e22-1080p-cz.mkv",
@@ -740432,22 +740426,29 @@
         "display_name": "CSI: Crime Scene Investigation S14E22 Dead in His Tracks 1080p CZ Dabing",
         "prepared_at": "2026-11-20T18:36:15.670974+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31211174",
-        "size_bytes": 1020546554
-      },
-      "transfer_receipt": {
-        "target_video_id": "31211174",
-        "size_bytes": 1020546554,
-        "source_bytes_read": 1020546554,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31211174",
         "source_bytes_read": 1020546554,
         "elapsed_seconds": 151.353,
         "finished_at": "2026-11-20T18:39:13.552759+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31211174",
+          "size_bytes": 1020546554,
+          "source_bytes_read": 1020546554,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149581",
+        "source_url": "https://sdilej.cz/34149581/kriminalka-las-vegas-s14e22-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31211174",
+        "display_name": "CSI: Crime Scene Investigation S14E22 Dead in His Tracks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T18:39:26.873262+00:00"
       }
     },
     "1065:15:1": {
@@ -740493,7 +740494,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T18:39:19.506443+00:00",
+  "updated_at": "2026-11-20T18:39:26.873282+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
