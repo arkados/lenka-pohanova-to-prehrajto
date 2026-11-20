@@ -707159,12 +707159,6 @@
     },
     "1119:5:6": {
       "episode_key": "upíří deníky:s5:e6",
-      "claim": {
-        "worker_id": "d711a80c339f4b77a7fe494832f4243d-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:42:38.786806+00:00",
-        "lease_expires_at": "2026-11-20T11:42:38.786817+00:00"
-      },
       "source": {
         "source_id": "30079456",
         "source_url": "https://sdilej.cz/30079456/upiri-deniky-s05e06.mkv",
@@ -707189,22 +707183,29 @@
         "display_name": "The Vampire Diaries S05E06 Handle with Care 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:42:48.288400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197802",
-        "size_bytes": 1409153061
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197802",
-        "size_bytes": 1409153061,
-        "source_bytes_read": 1409153061,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197802",
         "source_bytes_read": 1409153061,
         "elapsed_seconds": 150.453,
         "finished_at": "2026-11-20T05:45:41.276891+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197802",
+          "size_bytes": 1409153061,
+          "source_bytes_read": 1409153061,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079456",
+        "source_url": "https://sdilej.cz/30079456/upiri-deniky-s05e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197802",
+        "display_name": "The Vampire Diaries S05E06 Handle with Care 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:45:55.168179+00:00"
       }
     },
     "1119:5:7": {
@@ -707259,7 +707260,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:45:50.505650+00:00",
+  "updated_at": "2026-11-20T05:45:55.168195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
