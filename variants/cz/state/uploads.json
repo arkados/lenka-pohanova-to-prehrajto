@@ -740973,12 +740973,6 @@
     },
     "1065:15:11": {
       "episode_key": "kriminálka las vegas:s15:e11",
-      "claim": {
-        "worker_id": "60e635d6f88747508c6707ce63ae5b0f-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T19:12:48.531081+00:00",
-        "lease_expires_at": "2026-11-21T01:12:48.531098+00:00"
-      },
       "source": {
         "source_id": "34205961",
         "source_url": "https://sdilej.cz/34205961/kriminalka-las-vegas-s15e11-1080p-cz.mkv",
@@ -741003,22 +740997,29 @@
         "display_name": "CSI: Crime Scene Investigation S15E11 Angle of Attack 1080p CZ Dabing",
         "prepared_at": "2026-11-20T19:13:00.464409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31211782",
-        "size_bytes": 1019962372
-      },
-      "transfer_receipt": {
-        "target_video_id": "31211782",
-        "size_bytes": 1019962372,
-        "source_bytes_read": 1019962372,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31211782",
         "source_bytes_read": 1019962372,
         "elapsed_seconds": 60.442,
         "finished_at": "2026-11-20T19:14:28.320987+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31211782",
+          "size_bytes": 1019962372,
+          "source_bytes_read": 1019962372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34205961",
+        "source_url": "https://sdilej.cz/34205961/kriminalka-las-vegas-s15e11-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31211782",
+        "display_name": "CSI: Crime Scene Investigation S15E11 Angle of Attack 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T19:14:36.304966+00:00"
       }
     }
   },
@@ -741027,7 +741028,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T19:14:28.321012+00:00",
+  "updated_at": "2026-11-20T19:14:36.304984+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
