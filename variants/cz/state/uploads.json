@@ -711238,12 +711238,6 @@
     },
     "2409:2:4": {
       "episode_key": "vraždy v brokenwoodu:s2:e4",
-      "claim": {
-        "worker_id": "ac18c1c92bec41538f3ee148b31119d9-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:33:58.637570+00:00",
-        "lease_expires_at": "2026-11-20T13:33:58.637582+00:00"
-      },
       "source": {
         "source_id": "30607744",
         "source_url": "https://sdilej.cz/30607744/vrazdy-v-brokenwoodu-s02e04-008-2015-hd-krvava-ruz-s-.mp4",
@@ -711268,22 +711262,29 @@
         "display_name": "The Brokenwood Mysteries S02E04 Blood Pink 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:34:03.725082+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199256",
-        "size_bytes": 1168153334
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199256",
-        "size_bytes": 1168153334,
-        "source_bytes_read": 1168153334,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199256",
         "source_bytes_read": 1168153334,
         "elapsed_seconds": 463.784,
         "finished_at": "2026-11-20T07:42:05.067715+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199256",
+          "size_bytes": 1168153334,
+          "source_bytes_read": 1168153334,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607744",
+        "source_url": "https://sdilej.cz/30607744/vrazdy-v-brokenwoodu-s02e04-008-2015-hd-krvava-ruz-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199256",
+        "display_name": "The Brokenwood Mysteries S02E04 Blood Pink 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:42:19.863539+00:00"
       }
     },
     "2409:3:1": {
@@ -711343,7 +711344,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:42:14.085164+00:00",
+  "updated_at": "2026-11-20T07:42:19.863555+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
