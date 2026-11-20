@@ -737648,12 +737648,6 @@
     },
     "1065:12:12": {
       "episode_key": "kriminálka las vegas:s12:e12",
-      "claim": {
-        "worker_id": "4e92eeb26d2d40e69a049da42444fd01-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:43:35.896312+00:00",
-        "lease_expires_at": "2026-11-20T23:43:35.896328+00:00"
-      },
       "source": {
         "source_id": "22312391",
         "source_url": "https://sdilej.cz/22312391/kriminalka-las-vegas-12x12-czdab.avi",
@@ -737678,22 +737672,29 @@
         "display_name": "CSI: Crime Scene Investigation S12E12 Willows in the Wind (2) SD CZ Dabing",
         "prepared_at": "2026-11-20T17:43:42.107659+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210146",
-        "size_bytes": 387723658
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210146",
-        "size_bytes": 387723658,
-        "source_bytes_read": 387723658,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210146",
         "source_bytes_read": 387723658,
         "elapsed_seconds": 34.932,
         "finished_at": "2026-11-20T17:44:44.029754+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210146",
+          "size_bytes": 387723658,
+          "source_bytes_read": 387723658,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22312391",
+        "source_url": "https://sdilej.cz/22312391/kriminalka-las-vegas-12x12-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210146",
+        "display_name": "CSI: Crime Scene Investigation S12E12 Willows in the Wind (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:45:11.182542+00:00"
       }
     },
     "1065:12:13": {
@@ -737775,7 +737776,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:45:05.009183+00:00",
+  "updated_at": "2026-11-20T17:45:11.182557+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
