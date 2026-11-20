@@ -694636,12 +694636,6 @@
         }
       ],
       "episode_key": "směr jih:s2:e12",
-      "claim": {
-        "worker_id": "3b9677587a2149aaa24e1df720761dcd-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:40:41.542689+00:00",
-        "lease_expires_at": "2026-11-20T07:40:41.542699+00:00"
-      },
       "source": {
         "source_id": "33647848",
         "source_url": "https://sdilej.cz/33647848/smer-jih-02x12-cz.mp4",
@@ -694666,22 +694660,29 @@
         "display_name": "Due South S02E12 Some Like It Red 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:40:47.010807+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194213",
-        "size_bytes": 864023769
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194213",
-        "size_bytes": 864023769,
-        "source_bytes_read": 864023769,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194213",
         "source_bytes_read": 864023769,
         "elapsed_seconds": 53.651,
         "finished_at": "2026-11-20T01:42:05.526046+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194213",
+          "size_bytes": 864023769,
+          "source_bytes_read": 864023769,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647848",
+        "source_url": "https://sdilej.cz/33647848/smer-jih-02x12-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194213",
+        "display_name": "Due South S02E12 Some Like It Red 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:42:17.405765+00:00"
       }
     },
     "2234:2:14": {
@@ -696824,7 +696825,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:42:11.326910+00:00",
+  "updated_at": "2026-11-20T01:42:17.405780+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
