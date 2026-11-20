@@ -693403,12 +693403,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e15",
-      "claim": {
-        "worker_id": "3b2e82592dfa4c0b8f1b739f39c97db2-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:24:55.858514+00:00",
-        "lease_expires_at": "2026-11-20T07:24:55.858527+00:00"
-      },
       "source": {
         "source_id": "33647125",
         "source_url": "https://sdilej.cz/33647125/smer-jih-01x15-cz.mp4",
@@ -693433,22 +693427,29 @@
         "display_name": "Due South S01E15 The Wild Bunch 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:25:07.422215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194002",
-        "size_bytes": 886401792
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194002",
-        "size_bytes": 886401792,
-        "source_bytes_read": 886401792,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194002",
         "source_bytes_read": 886401792,
         "elapsed_seconds": 49.657,
         "finished_at": "2026-11-20T01:26:35.181718+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194002",
+          "size_bytes": 886401792,
+          "source_bytes_read": 886401792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647125",
+        "source_url": "https://sdilej.cz/33647125/smer-jih-01x15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194002",
+        "display_name": "Due South S01E15 The Wild Bunch 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:26:46.605572+00:00"
       }
     },
     "2234:1:17": {
@@ -695809,7 +695810,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:26:40.854251+00:00",
+  "updated_at": "2026-11-20T01:26:46.605588+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
