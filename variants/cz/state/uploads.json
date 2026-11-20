@@ -695490,12 +695490,6 @@
         }
       ],
       "episode_key": "posedlost:s1:e3",
-      "claim": {
-        "worker_id": "de8c11f5315f4e01b7ee734f41a9b9de-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:49:55.107925+00:00",
-        "lease_expires_at": "2026-11-20T07:49:55.107936+00:00"
-      },
       "source": {
         "source_id": "34736441",
         "source_url": "https://sdilej.cz/34736441/furious-2026-s01e03-1080p-cz-dabing.mkv",
@@ -695520,22 +695514,29 @@
         "display_name": "Furious S01E03 Memory Distortion 1080p CZ Dabing",
         "prepared_at": "2026-11-20T01:50:00.689038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194335",
-        "size_bytes": 1855826145
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194335",
-        "size_bytes": 1855826145,
-        "source_bytes_read": 1855826145,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194335",
         "source_bytes_read": 1855826145,
         "elapsed_seconds": 115.867,
         "finished_at": "2026-11-20T01:52:20.110367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194335",
+          "size_bytes": 1855826145,
+          "source_bytes_read": 1855826145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34736441",
+        "source_url": "https://sdilej.cz/34736441/furious-2026-s01e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194335",
+        "display_name": "Furious S01E03 Memory Distortion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:52:28.043656+00:00"
       }
     },
     "10458:1:5": {
@@ -697468,7 +697469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:52:20.110383+00:00",
+  "updated_at": "2026-11-20T01:52:28.043669+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
