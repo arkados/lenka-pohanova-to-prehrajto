@@ -706031,12 +706031,6 @@
         }
       ],
       "episode_key": "upíří deníky:s4:e5",
-      "claim": {
-        "worker_id": "f5b87be132b74fc390d56da43569374f-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:20:03.037281+00:00",
-        "lease_expires_at": "2026-11-20T11:20:03.037290+00:00"
-      },
       "source": {
         "source_id": "34593657",
         "source_url": "https://sdilej.cz/34593657/upiri-deniky-s04e05-vrah-cz-dabing-h265-2012.mkv",
@@ -706061,22 +706055,29 @@
         "display_name": "The Vampire Diaries S04E05 The Killer 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:20:19.527603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197494",
-        "size_bytes": 569677929
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197494",
-        "size_bytes": 569677929,
-        "source_bytes_read": 569677929,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197494",
         "source_bytes_read": 569677929,
         "elapsed_seconds": 85.029,
         "finished_at": "2026-11-20T05:22:19.373763+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197494",
+          "size_bytes": 569677929,
+          "source_bytes_read": 569677929,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34593657",
+        "source_url": "https://sdilej.cz/34593657/upiri-deniky-s04e05-vrah-cz-dabing-h265-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197494",
+        "display_name": "The Vampire Diaries S04E05 The Killer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:22:25.765022+00:00"
       }
     },
     "1119:4:7": {
@@ -706178,7 +706179,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:22:19.373783+00:00",
+  "updated_at": "2026-11-20T05:22:25.765039+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
