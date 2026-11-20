@@ -716747,12 +716747,6 @@
     },
     "1084:3:20": {
       "episode_key": "zoufalé manželky:s3:e20",
-      "claim": {
-        "worker_id": "6573f31686ab4960b0340e14aebbbb2a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:02:00.742139+00:00",
-        "lease_expires_at": "2026-11-20T16:02:00.742157+00:00"
-      },
       "source": {
         "source_id": "34400175",
         "source_url": "https://sdilej.cz/34400175/zoufale-manzelky-s03e20-067-2007-hd-klepy-s-.mp4",
@@ -716777,22 +716771,29 @@
         "display_name": "Desperate Housewives S03E20 Gossip 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:02:06.566394+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201420",
-        "size_bytes": 934001414
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201420",
-        "size_bytes": 934001414,
-        "source_bytes_read": 934001414,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201420",
         "source_bytes_read": 934001414,
         "elapsed_seconds": 229.027,
         "finished_at": "2026-11-20T10:06:15.666937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201420",
+          "size_bytes": 934001414,
+          "source_bytes_read": 934001414,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400175",
+        "source_url": "https://sdilej.cz/34400175/zoufale-manzelky-s03e20-067-2007-hd-klepy-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201420",
+        "display_name": "Desperate Housewives S03E20 Gossip 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:06:30.046347+00:00"
       }
     },
     "1084:3:21": {
@@ -716875,7 +716876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:06:15.666957+00:00",
+  "updated_at": "2026-11-20T10:06:30.046364+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
