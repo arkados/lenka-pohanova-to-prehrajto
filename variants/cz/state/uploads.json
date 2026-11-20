@@ -721399,28 +721399,29 @@
           "at": "2026-11-20T12:00:10.358366+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "202003ad74f543a4a1ae5384c1dcbf1d-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T12:00:15.210659+00:00",
-        "lease_expires_at": "2026-11-20T18:00:15.210671+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31203739",
-        "size_bytes": 875655725
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203739",
-        "size_bytes": 875655725,
-        "source_bytes_read": 875655725,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203739",
         "source_bytes_read": 875655725,
         "elapsed_seconds": 109.172,
         "finished_at": "2026-11-20T12:03:01.856072+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203739",
+          "size_bytes": 875655725,
+          "source_bytes_read": 875655725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400538",
+        "source_url": "https://sdilej.cz/34400538/zoufale-manzelky-s07e20-154-2011-hd-v-nedeli-se-otravim-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203739",
+        "display_name": "Desperate Housewives S07E20 I'll Swallow Poison on Sunday 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:03:08.529394+00:00"
       }
     },
     "1084:7:21": {
@@ -721635,7 +721636,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:03:01.856089+00:00",
+  "updated_at": "2026-11-20T12:03:08.529410+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
