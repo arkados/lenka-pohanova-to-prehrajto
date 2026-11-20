@@ -700474,12 +700474,6 @@
         }
       ],
       "episode_key": "život v barvě s davidem attenboroughem:s1:e1",
-      "claim": {
-        "worker_id": "3f01aba50e87436ebb435f568930869b-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:16:37.067867+00:00",
-        "lease_expires_at": "2026-11-20T09:16:37.067881+00:00"
-      },
       "source": {
         "source_id": "23589067",
         "source_url": "https://sdilej.cz/23589067/zivot-v-barve-s-davidem-attenboroughem-2021-s01e01-barevne-videni-h264-cz-.mp4",
@@ -700504,22 +700498,29 @@
         "display_name": "Attenborough's Life in Colour S01E01 Seeing in Colour 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:16:47.216317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195545",
-        "size_bytes": 1294313256
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195545",
-        "size_bytes": 1294313256,
-        "source_bytes_read": 1294313256,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195545",
         "source_bytes_read": 1294313256,
         "elapsed_seconds": 127.739,
         "finished_at": "2026-11-20T03:19:17.120186+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195545",
+          "size_bytes": 1294313256,
+          "source_bytes_read": 1294313256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "23589067",
+        "source_url": "https://sdilej.cz/23589067/zivot-v-barve-s-davidem-attenboroughem-2021-s01e01-barevne-videni-h264-cz-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195545",
+        "display_name": "Attenborough's Life in Colour S01E01 Seeing in Colour 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:19:25.580074+00:00"
       }
     },
     "4726:3:1": {
@@ -701288,7 +701289,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:19:17.120205+00:00",
+  "updated_at": "2026-11-20T03:19:25.580090+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
