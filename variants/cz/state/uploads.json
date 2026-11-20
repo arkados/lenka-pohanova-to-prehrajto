@@ -742660,12 +742660,6 @@
     },
     "210:4:1": {
       "episode_key": "věčnost:s4:e1",
-      "claim": {
-        "worker_id": "cd0f1d8fc1364ff59bef88d81978727a-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:36:00.931751+00:00",
-        "lease_expires_at": "2026-11-21T02:36:00.931765+00:00"
-      },
       "source": {
         "source_id": "31652144",
         "source_url": "https://sdilej.cz/31652144/upload-s04e01-cz-dab-by-pefto-.mkv",
@@ -742690,22 +742684,29 @@
         "display_name": "Upload S04E01 Wedding Weekend 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:36:12.029657+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212927",
-        "size_bytes": 507673385
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212927",
-        "size_bytes": 507673385,
-        "source_bytes_read": 507673385,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212927",
         "source_bytes_read": 507673385,
         "elapsed_seconds": 48.098,
         "finished_at": "2026-11-20T20:37:26.035724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212927",
+          "size_bytes": 507673385,
+          "source_bytes_read": 507673385,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31652144",
+        "source_url": "https://sdilej.cz/31652144/upload-s04e01-cz-dab-by-pefto-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212927",
+        "display_name": "Upload S04E01 Wedding Weekend 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:37:33.580632+00:00"
       }
     }
   },
@@ -742714,7 +742715,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:37:26.035745+00:00",
+  "updated_at": "2026-11-20T20:37:33.580653+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
