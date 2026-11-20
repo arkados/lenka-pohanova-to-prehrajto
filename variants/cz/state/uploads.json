@@ -707298,12 +707298,6 @@
     },
     "1119:5:9": {
       "episode_key": "upíří deníky:s5:e9",
-      "claim": {
-        "worker_id": "91a2114792c04a3f8f388e70a850281c-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:46:20.170373+00:00",
-        "lease_expires_at": "2026-11-20T11:46:20.170384+00:00"
-      },
       "source": {
         "source_id": "30079486",
         "source_url": "https://sdilej.cz/30079486/upiri-deniky-s05e09.mkv",
@@ -707328,22 +707322,29 @@
         "display_name": "The Vampire Diaries S05E09 The Cell 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:46:37.715489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197863",
-        "size_bytes": 1419824885
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197863",
-        "size_bytes": 1419824885,
-        "source_bytes_read": 1419824885,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197863",
         "source_bytes_read": 1419824885,
         "elapsed_seconds": 142.101,
         "finished_at": "2026-11-20T05:49:26.753590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197863",
+          "size_bytes": 1419824885,
+          "source_bytes_read": 1419824885,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079486",
+        "source_url": "https://sdilej.cz/30079486/upiri-deniky-s05e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197863",
+        "display_name": "The Vampire Diaries S05E09 The Cell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:49:37.585181+00:00"
       }
     },
     "1119:5:10": {
@@ -707402,7 +707403,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:49:31.933702+00:00",
+  "updated_at": "2026-11-20T05:49:37.585198+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
