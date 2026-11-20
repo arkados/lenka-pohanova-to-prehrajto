@@ -729613,12 +729613,6 @@
     },
     "1065:3:18": {
       "episode_key": "kriminálka las vegas:s3:e18",
-      "claim": {
-        "worker_id": "55ce0fd3c5014904948ea2d95ea97e44-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T15:19:32.947009+00:00",
-        "lease_expires_at": "2026-11-20T21:19:32.947024+00:00"
-      },
       "source": {
         "source_id": "29958507",
         "source_url": "https://sdilej.cz/29958507/kriminalka-las-vegas-s03e18-1080p-cz-dabing.mkv",
@@ -729643,22 +729637,29 @@
         "display_name": "CSI: Crime Scene Investigation S03E18 Precious Metal 1080p CZ Dabing",
         "prepared_at": "2026-11-20T15:19:38.634550+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31207085",
-        "size_bytes": 2599983817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31207085",
-        "size_bytes": 2599983817,
-        "source_bytes_read": 2599983817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31207085",
         "source_bytes_read": 2599983817,
         "elapsed_seconds": 176.619,
         "finished_at": "2026-11-20T15:22:55.741806+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31207085",
+          "size_bytes": 2599983817,
+          "source_bytes_read": 2599983817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29958507",
+        "source_url": "https://sdilej.cz/29958507/kriminalka-las-vegas-s03e18-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31207085",
+        "display_name": "CSI: Crime Scene Investigation S03E18 Precious Metal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T15:23:04.055343+00:00"
       }
     },
     "1065:3:19": {
@@ -729704,7 +729705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:22:55.741827+00:00",
+  "updated_at": "2026-11-20T15:23:04.055363+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
