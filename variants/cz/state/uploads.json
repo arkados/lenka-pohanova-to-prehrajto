@@ -690346,12 +690346,6 @@
         }
       ],
       "episode_key": "paní ministryně:s3:e17",
-      "claim": {
-        "worker_id": "e8f6d1a7fc2742e896cab4df920753e1-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T00:22:32.804728+00:00",
-        "lease_expires_at": "2026-11-20T06:22:32.804742+00:00"
-      },
       "source": {
         "source_id": "12182438",
         "source_url": "https://sdilej.cz/12182438/pani-ministryne-03x17-sblizeni.mkv",
@@ -690376,22 +690370,29 @@
         "display_name": "Madam Secretary S03E17 Convergence 1080p CZ Dabing",
         "prepared_at": "2026-11-20T00:22:37.771331+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193170",
-        "size_bytes": 2988773274
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193170",
-        "size_bytes": 2988773274,
-        "source_bytes_read": 2988773274,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193170",
         "source_bytes_read": 2988773274,
         "elapsed_seconds": 261.606,
         "finished_at": "2026-11-20T00:27:21.659578+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193170",
+          "size_bytes": 2988773274,
+          "source_bytes_read": 2988773274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12182438",
+        "source_url": "https://sdilej.cz/12182438/pani-ministryne-03x17-sblizeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193170",
+        "display_name": "Madam Secretary S03E17 Convergence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T00:27:33.585175+00:00"
       }
     },
     "1128:3:19": {
@@ -693603,7 +693604,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T00:27:26.401317+00:00",
+  "updated_at": "2026-11-20T00:27:33.585192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
