@@ -692296,12 +692296,6 @@
         }
       ],
       "episode_key": "agatha christie: slečna marplová:s3:e2",
-      "claim": {
-        "worker_id": "70f89d97e58041d19b55489177b907a2-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T01:03:21.038951+00:00",
-        "lease_expires_at": "2026-11-20T07:03:21.038963+00:00"
-      },
       "source": {
         "source_id": "22943795",
         "source_url": "https://sdilej.cz/22943795/agatha-christie-s-marple-s03e02-cz-dabing.mp4",
@@ -692326,22 +692320,29 @@
         "display_name": "Agatha Christie's Marple S03E02 Ordeal by Innocence 1080p CZ Dabing",
         "prepared_at": "2026-11-20T01:03:27.051739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193686",
-        "size_bytes": 2173443562
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193686",
-        "size_bytes": 2173443562,
-        "source_bytes_read": 2173443562,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193686",
         "source_bytes_read": 2173443562,
         "elapsed_seconds": 99.48,
         "finished_at": "2026-11-20T01:05:30.739521+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193686",
+          "size_bytes": 2173443562,
+          "source_bytes_read": 2173443562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22943795",
+        "source_url": "https://sdilej.cz/22943795/agatha-christie-s-marple-s03e02-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193686",
+        "display_name": "Agatha Christie's Marple S03E02 Ordeal by Innocence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:05:51.581727+00:00"
       }
     },
     "3380:5:1": {
@@ -695021,7 +695022,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:05:46.655268+00:00",
+  "updated_at": "2026-11-20T01:05:51.581744+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
