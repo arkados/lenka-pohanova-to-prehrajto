@@ -740630,12 +740630,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "37a909a0389344e389ff0987bfb23767-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T19:11:40.076974+00:00",
-        "lease_expires_at": "2026-11-21T01:11:40.076990+00:00"
-      },
       "source": {
         "source_id": "34673236",
         "source_url": "https://sdilej.cz/34673236/kriminalka-las-vegas-s15e04-18-2014-cz-dab-1080p-kniha-stinu.mkv",
@@ -740660,22 +740654,29 @@
         "display_name": "CSI: Crime Scene Investigation S15E04 The Book of Shadows 1080p CZ Dabing",
         "prepared_at": "2026-11-20T19:11:51.545481+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31211754",
-        "size_bytes": 2551104313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31211754",
-        "size_bytes": 2551104313,
-        "source_bytes_read": 2551104313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31211754",
         "source_bytes_read": 2551104313,
         "elapsed_seconds": 211.973,
         "finished_at": "2026-11-20T19:15:59.507647+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31211754",
+          "size_bytes": 2551104313,
+          "source_bytes_read": 2551104313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34673236",
+        "source_url": "https://sdilej.cz/34673236/kriminalka-las-vegas-s15e04-18-2014-cz-dab-1080p-kniha-stinu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31211754",
+        "display_name": "CSI: Crime Scene Investigation S15E04 The Book of Shadows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T19:16:10.161389+00:00"
       }
     },
     "1065:15:5": {
@@ -741041,7 +741042,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T19:15:59.507668+00:00",
+  "updated_at": "2026-11-20T19:16:10.161408+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
