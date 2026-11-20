@@ -731690,12 +731690,6 @@
     },
     "1065:5:17": {
       "episode_key": "kriminálka las vegas:s5:e17",
-      "claim": {
-        "worker_id": "16dd086defaa4763aa165e3311614026-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:07:45.755577+00:00",
-        "lease_expires_at": "2026-11-20T22:07:45.755591+00:00"
-      },
       "source": {
         "source_id": "24904799",
         "source_url": "https://sdilej.cz/24904799/kriminalka-las-vegas-05x17-nutkani.avi",
@@ -731720,22 +731714,29 @@
         "display_name": "CSI: Crime Scene Investigation S05E17 Compulsion SD CZ Dabing",
         "prepared_at": "2026-11-20T16:07:52.211177+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208060",
-        "size_bytes": 366866432
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208060",
-        "size_bytes": 366866432,
-        "source_bytes_read": 366866432,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208060",
         "source_bytes_read": 366866432,
         "elapsed_seconds": 24.291,
         "finished_at": "2026-11-20T16:08:37.670988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208060",
+          "size_bytes": 366866432,
+          "source_bytes_read": 366866432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24904799",
+        "source_url": "https://sdilej.cz/24904799/kriminalka-las-vegas-05x17-nutkani.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208060",
+        "display_name": "CSI: Crime Scene Investigation S05E17 Compulsion SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:08:45.494614+00:00"
       }
     }
   },
@@ -731744,7 +731745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:08:37.671010+00:00",
+  "updated_at": "2026-11-20T16:08:45.494642+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
