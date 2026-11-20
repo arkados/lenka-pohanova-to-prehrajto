@@ -712826,12 +712826,6 @@
     },
     "2409:11:4": {
       "episode_key": "vraždy v brokenwoodu:s11:e4",
-      "claim": {
-        "worker_id": "c125900c76f44540aa671b02a389687c-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T08:38:26.678722+00:00",
-        "lease_expires_at": "2026-11-20T14:38:26.678734+00:00"
-      },
       "source": {
         "source_id": "34430984",
         "source_url": "https://sdilej.cz/34430984/vrazdy-v-brokenwoodu-s11e04-smrt-drahe-polovicky.mkv",
@@ -712856,22 +712850,29 @@
         "display_name": "The Brokenwood Mysteries S11E04 How the Other Half Dies 1080p CZ Dabing",
         "prepared_at": "2026-11-20T08:38:36.629570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200131",
-        "size_bytes": 2206016555
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200131",
-        "size_bytes": 2206016555,
-        "source_bytes_read": 2206016555,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200131",
         "source_bytes_read": 2206016555,
         "elapsed_seconds": 649.801,
         "finished_at": "2026-11-20T08:50:00.817724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200131",
+          "size_bytes": 2206016555,
+          "source_bytes_read": 2206016555,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34430984",
+        "source_url": "https://sdilej.cz/34430984/vrazdy-v-brokenwoodu-s11e04-smrt-drahe-polovicky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200131",
+        "display_name": "The Brokenwood Mysteries S11E04 How the Other Half Dies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:50:11.799771+00:00"
       }
     },
     "1618:1:1": {
@@ -713297,7 +713298,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:50:06.233139+00:00",
+  "updated_at": "2026-11-20T08:50:11.799786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
