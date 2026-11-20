@@ -742739,12 +742739,6 @@
     },
     "210:4:2": {
       "episode_key": "věčnost:s4:e2",
-      "claim": {
-        "worker_id": "cf5e71fc33d248bdaec2729d694ea0ba-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:37:44.100851+00:00",
-        "lease_expires_at": "2026-11-21T02:37:44.100873+00:00"
-      },
       "source": {
         "source_id": "32332394",
         "source_url": "https://sdilej.cz/32332394/vecnost-s04e02-pracovni-zatez-2025-1080p-cz.mkv",
@@ -742769,22 +742763,29 @@
         "display_name": "Upload S04E02 Workload 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:37:56.846487+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212954",
-        "size_bytes": 815115939
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212954",
-        "size_bytes": 815115939,
-        "source_bytes_read": 815115939,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212954",
         "source_bytes_read": 815115939,
         "elapsed_seconds": 52.648,
         "finished_at": "2026-11-20T20:39:14.938717+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212954",
+          "size_bytes": 815115939,
+          "source_bytes_read": 815115939,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32332394",
+        "source_url": "https://sdilej.cz/32332394/vecnost-s04e02-pracovni-zatez-2025-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212954",
+        "display_name": "Upload S04E02 Workload 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:39:26.902348+00:00"
       }
     },
     "210:4:3": {
@@ -742867,7 +742868,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:39:20.086990+00:00",
+  "updated_at": "2026-11-20T20:39:26.902370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
