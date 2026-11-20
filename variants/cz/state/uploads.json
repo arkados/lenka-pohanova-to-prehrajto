@@ -708332,12 +708332,6 @@
     },
     "1119:6:7": {
       "episode_key": "upíří deníky:s6:e7",
-      "claim": {
-        "worker_id": "53d4add6b6a34de49ac3dd2f56ff60ac-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:17:53.174297+00:00",
-        "lease_expires_at": "2026-11-20T12:17:53.174308+00:00"
-      },
       "source": {
         "source_id": "30080526",
         "source_url": "https://sdilej.cz/30080526/upiri-deniky-s06e07.mkv",
@@ -708362,22 +708356,29 @@
         "display_name": "The Vampire Diaries S06E07 Do You Remember the First Time? 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:18:05.441031+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198318",
-        "size_bytes": 619364989
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198318",
-        "size_bytes": 619364989,
-        "source_bytes_read": 619364989,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198318",
         "source_bytes_read": 619364989,
         "elapsed_seconds": 47.164,
         "finished_at": "2026-11-20T06:19:19.508461+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198318",
+          "size_bytes": 619364989,
+          "source_bytes_read": 619364989,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30080526",
+        "source_url": "https://sdilej.cz/30080526/upiri-deniky-s06e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198318",
+        "display_name": "The Vampire Diaries S06E07 Do You Remember the First Time? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:19:33.258340+00:00"
       }
     },
     "1119:6:8": {
@@ -708419,7 +708420,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:19:28.278089+00:00",
+  "updated_at": "2026-11-20T06:19:33.258356+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
