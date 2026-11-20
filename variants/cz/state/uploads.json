@@ -742586,12 +742586,6 @@
     },
     "210:3:7": {
       "episode_key": "věčnost:s3:e7",
-      "claim": {
-        "worker_id": "06fd043b5f61465fb6d2472c6e9e20e0-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:35:44.605343+00:00",
-        "lease_expires_at": "2026-11-21T02:35:44.605357+00:00"
-      },
       "source": {
         "source_id": "29218680",
         "source_url": "https://sdilej.cz/29218680/vecnost-s03e07-1080p-cz-dabing.mkv",
@@ -742616,22 +742610,29 @@
         "display_name": "Upload S03E07 Upload Day 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:35:50.818758+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212922",
-        "size_bytes": 1225940226
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212922",
-        "size_bytes": 1225940226,
-        "source_bytes_read": 1225940226,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212922",
         "source_bytes_read": 1225940226,
         "elapsed_seconds": 87.797,
         "finished_at": "2026-11-20T20:37:51.054669+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212922",
+          "size_bytes": 1225940226,
+          "source_bytes_read": 1225940226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218680",
+        "source_url": "https://sdilej.cz/29218680/vecnost-s03e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212922",
+        "display_name": "Upload S03E07 Upload Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:38:02.575245+00:00"
       }
     },
     "210:3:8": {
@@ -742761,7 +742762,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:37:56.846505+00:00",
+  "updated_at": "2026-11-20T20:38:02.575286+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
