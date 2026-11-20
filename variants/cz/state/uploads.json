@@ -713353,12 +713353,6 @@
     },
     "756:1:4": {
       "episode_key": "půlnoční mše:s1:e4",
-      "claim": {
-        "worker_id": "285bb798a43044ca90a7c6e283db5982-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T08:50:42.767192+00:00",
-        "lease_expires_at": "2026-11-20T14:50:42.767203+00:00"
-      },
       "source": {
         "source_id": "33036466",
         "source_url": "https://sdilej.cz/33036466/midnight-mass-s01e04-czen-dabing.mp4",
@@ -713383,22 +713377,29 @@
         "display_name": "Midnight Mass S01E04 Book IV: Lamentations 1080p CZ Dabing",
         "prepared_at": "2026-11-20T08:50:52.273605+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200301",
-        "size_bytes": 793837401
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200301",
-        "size_bytes": 793837401,
-        "source_bytes_read": 793837401,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200301",
         "source_bytes_read": 793837401,
         "elapsed_seconds": 204.594,
         "finished_at": "2026-11-20T08:54:41.651085+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200301",
+          "size_bytes": 793837401,
+          "source_bytes_read": 793837401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33036466",
+        "source_url": "https://sdilej.cz/33036466/midnight-mass-s01e04-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200301",
+        "display_name": "Midnight Mass S01E04 Book IV: Lamentations 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:54:50.940574+00:00"
       }
     }
   },
@@ -713407,7 +713408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:54:41.651104+00:00",
+  "updated_at": "2026-11-20T08:54:50.940590+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
