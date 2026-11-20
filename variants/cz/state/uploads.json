@@ -734574,12 +734574,6 @@
     },
     "1065:9:4": {
       "episode_key": "kriminálka las vegas:s9:e4",
-      "claim": {
-        "worker_id": "b74998f630384b15bf163ccf190ab816-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:54:46.424707+00:00",
-        "lease_expires_at": "2026-11-20T22:54:46.424724+00:00"
-      },
       "source": {
         "source_id": "27225668",
         "source_url": "https://sdilej.cz/27225668/kriminalka-las-vegas-s09e04-186-2008-sd-jsme-jedne-krve-sd-.mp4",
@@ -734604,22 +734598,29 @@
         "display_name": "CSI: Crime Scene Investigation S09E04 Let It Bleed SD CZ Dabing",
         "prepared_at": "2026-11-20T16:54:58.089883+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208937",
-        "size_bytes": 359353753
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208937",
-        "size_bytes": 359353753,
-        "source_bytes_read": 359353753,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208937",
         "source_bytes_read": 359353753,
         "elapsed_seconds": 33.875,
         "finished_at": "2026-11-20T16:56:05.540409+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208937",
+          "size_bytes": 359353753,
+          "source_bytes_read": 359353753,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27225668",
+        "source_url": "https://sdilej.cz/27225668/kriminalka-las-vegas-s09e04-186-2008-sd-jsme-jedne-krve-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208937",
+        "display_name": "CSI: Crime Scene Investigation S09E04 Let It Bleed SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:56:24.304541+00:00"
       }
     },
     "1065:9:5": {
@@ -734698,7 +734699,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:56:18.690527+00:00",
+  "updated_at": "2026-11-20T16:56:24.304557+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
