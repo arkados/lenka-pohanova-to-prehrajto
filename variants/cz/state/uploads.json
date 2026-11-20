@@ -707975,12 +707975,6 @@
     },
     "1119:5:22": {
       "episode_key": "upíří deníky:s5:e22",
-      "claim": {
-        "worker_id": "2619444a3c574beb9135852d4cbbba7e-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:03:24.666424+00:00",
-        "lease_expires_at": "2026-11-20T12:03:24.666436+00:00"
-      },
       "source": {
         "source_id": "30079556",
         "source_url": "https://sdilej.cz/30079556/upiri-deniky-s05e22.mkv",
@@ -708005,22 +707999,29 @@
         "display_name": "The Vampire Diaries S05E22 Home 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:03:38.084187+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198098",
-        "size_bytes": 1427106875
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198098",
-        "size_bytes": 1427106875,
-        "source_bytes_read": 1427106875,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198098",
         "source_bytes_read": 1427106875,
         "elapsed_seconds": 322.438,
         "finished_at": "2026-11-20T06:09:23.364679+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198098",
+          "size_bytes": 1427106875,
+          "source_bytes_read": 1427106875,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079556",
+        "source_url": "https://sdilej.cz/30079556/upiri-deniky-s05e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198098",
+        "display_name": "The Vampire Diaries S05E22 Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:09:40.615134+00:00"
       }
     },
     "1119:6:1": {
@@ -708080,7 +708081,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:09:32.554416+00:00",
+  "updated_at": "2026-11-20T06:09:40.615148+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
