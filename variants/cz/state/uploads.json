@@ -710919,12 +710919,6 @@
     },
     "1119:8:16": {
       "episode_key": "upíří deníky:s8:e16",
-      "claim": {
-        "worker_id": "1e5bd6aacbd14beebc654cdb32b80209-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:24:52.184162+00:00",
-        "lease_expires_at": "2026-11-20T13:24:52.184174+00:00"
-      },
       "source": {
         "source_id": "30095745",
         "source_url": "https://sdilej.cz/30095745/upiri-deniky-s08e16.mkv",
@@ -710949,22 +710943,29 @@
         "display_name": "The Vampire Diaries S08E16 I Was Feeling Epic 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:24:57.193296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199154",
-        "size_bytes": 1918486678
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199154",
-        "size_bytes": 1918486678,
-        "source_bytes_read": 1918486678,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199154",
         "source_bytes_read": 1918486678,
         "elapsed_seconds": 196.327,
         "finished_at": "2026-11-20T07:28:34.664954+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199154",
+          "size_bytes": 1918486678,
+          "source_bytes_read": 1918486678,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30095745",
+        "source_url": "https://sdilej.cz/30095745/upiri-deniky-s08e16.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199154",
+        "display_name": "The Vampire Diaries S08E16 I Was Feeling Epic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:28:41.997471+00:00"
       }
     },
     "2409:1:1": {
@@ -711010,7 +711011,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:28:34.664972+00:00",
+  "updated_at": "2026-11-20T07:28:41.997490+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
