@@ -749165,12 +749165,6 @@
     },
     "38:3:22": {
       "episode_key": "průměrňákovi:s3:e22",
-      "claim": {
-        "worker_id": "80e04d9c84ee49209ed4ba0683264a20-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:10:30.649866+00:00",
-        "lease_expires_at": "2026-11-21T05:10:30.649876+00:00"
-      },
       "source": {
         "source_id": "27602882",
         "source_url": "https://sdilej.cz/27602882/prumernakovi-s03e22-cz.mkv",
@@ -749195,22 +749189,29 @@
         "display_name": "The Middle S03E22 The Clover 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:11:02.193305+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215151",
-        "size_bytes": 953583232
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215151",
-        "size_bytes": 953583232,
-        "source_bytes_read": 953583232,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215151",
         "source_bytes_read": 953583232,
         "elapsed_seconds": 67.803,
         "finished_at": "2026-11-20T23:12:44.106375+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215151",
+          "size_bytes": 953583232,
+          "source_bytes_read": 953583232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27602882",
+        "source_url": "https://sdilej.cz/27602882/prumernakovi-s03e22-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215151",
+        "display_name": "The Middle S03E22 The Clover 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:13:00.413184+00:00"
       }
     }
   },
@@ -749219,7 +749220,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:12:55.173911+00:00",
+  "updated_at": "2026-11-20T23:13:00.413200+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
