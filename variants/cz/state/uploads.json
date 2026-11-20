@@ -747191,12 +747191,6 @@
     },
     "38:2:7": {
       "episode_key": "průměrňákovi:s2:e7",
-      "claim": {
-        "worker_id": "e04bc28f37b64c43bd1e4d6ba4a1c821-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:20:38.855537+00:00",
-        "lease_expires_at": "2026-11-21T04:20:38.855546+00:00"
-      },
       "source": {
         "source_id": "27601065",
         "source_url": "https://sdilej.cz/27601065/prumernakovi-s02e07-cz.mkv",
@@ -747221,22 +747215,29 @@
         "display_name": "The Middle S02E07 A Birthday Story 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:20:59.795120+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214430",
-        "size_bytes": 955581267
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214430",
-        "size_bytes": 955581267,
-        "source_bytes_read": 955581267,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214430",
         "source_bytes_read": 955581267,
         "elapsed_seconds": 90.236,
         "finished_at": "2026-11-20T22:22:57.893848+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214430",
+          "size_bytes": 955581267,
+          "source_bytes_read": 955581267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27601065",
+        "source_url": "https://sdilej.cz/27601065/prumernakovi-s02e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214430",
+        "display_name": "The Middle S02E07 A Birthday Story 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:23:15.988473+00:00"
       }
     },
     "38:2:8": {
@@ -747332,7 +747333,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:23:08.005114+00:00",
+  "updated_at": "2026-11-20T22:23:15.988488+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
