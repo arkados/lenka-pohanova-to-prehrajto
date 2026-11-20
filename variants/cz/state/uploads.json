@@ -714815,12 +714815,6 @@
     },
     "1084:2:3": {
       "episode_key": "zoufalé manželky:s2:e3",
-      "claim": {
-        "worker_id": "20807102e8e84bbba7af6cf2e88793b1-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:17:18.077714+00:00",
-        "lease_expires_at": "2026-11-20T15:17:18.077726+00:00"
-      },
       "source": {
         "source_id": "32763902",
         "source_url": "https://sdilej.cz/32763902/zoufale-manzelky-2005-s02e03-czdab-hd-me-se-nikdy-nezbavis.mkv",
@@ -714845,22 +714839,29 @@
         "display_name": "Desperate Housewives S02E03 You'll Never Get Away from Me 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:17:38.314805+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200669",
-        "size_bytes": 553153253
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200669",
-        "size_bytes": 553153253,
-        "source_bytes_read": 553153253,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200669",
         "source_bytes_read": 553153253,
         "elapsed_seconds": 72.934,
         "finished_at": "2026-11-20T09:19:22.854174+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200669",
+          "size_bytes": 553153253,
+          "source_bytes_read": 553153253,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763902",
+        "source_url": "https://sdilej.cz/32763902/zoufale-manzelky-2005-s02e03-czdab-hd-me-se-nikdy-nezbavis.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200669",
+        "display_name": "Desperate Housewives S02E03 You'll Never Get Away from Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:19:35.113067+00:00"
       }
     }
   },
@@ -714869,7 +714870,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:19:30.531684+00:00",
+  "updated_at": "2026-11-20T09:19:35.113083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
