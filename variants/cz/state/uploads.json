@@ -700797,12 +700797,6 @@
         }
       ],
       "episode_key": "návrat na výsluní:s3:e7",
-      "claim": {
-        "worker_id": "e20fe26e0cb74dcbbf163987e8e6386d-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:30:03.236972+00:00",
-        "lease_expires_at": "2026-11-20T09:30:03.237026+00:00"
-      },
       "source": {
         "source_id": "34173551",
         "source_url": "https://sdilej.cz/34173551/navrat-na-vysluni-s03e07-valerie-a-pozarni-sbor.mkv",
@@ -700827,22 +700821,29 @@
         "display_name": "The Comeback S03E07 Valerie Chases the Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:30:08.711360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195719",
-        "size_bytes": 907433810
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195719",
-        "size_bytes": 907433810,
-        "source_bytes_read": 907433810,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195719",
         "source_bytes_read": 907433810,
         "elapsed_seconds": 125.232,
         "finished_at": "2026-11-20T03:32:36.380188+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195719",
+          "size_bytes": 907433810,
+          "source_bytes_read": 907433810,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34173551",
+        "source_url": "https://sdilej.cz/34173551/navrat-na-vysluni-s03e07-valerie-a-pozarni-sbor.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195719",
+        "display_name": "The Comeback S03E07 Valerie Chases the Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:32:46.048367+00:00"
       }
     },
     "1975:1:5": {
@@ -701563,7 +701564,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:32:41.550403+00:00",
+  "updated_at": "2026-11-20T03:32:46.048383+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
