@@ -732126,12 +732126,6 @@
     },
     "1065:6:1": {
       "episode_key": "kriminálka las vegas:s6:e1",
-      "claim": {
-        "worker_id": "a03d73b5a3b14fdda95db1cdf4df8d05-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:15:33.188201+00:00",
-        "lease_expires_at": "2026-11-20T22:15:33.188217+00:00"
-      },
       "source": {
         "source_id": "27224772",
         "source_url": "https://sdilej.cz/27224772/kriminalka-las-vegas-s06e01-118-2005-sd-tela-v-pohybu-sd-.mp4",
@@ -732156,22 +732150,29 @@
         "display_name": "CSI: Crime Scene Investigation S06E01 Bodies in Motion SD CZ Dabing",
         "prepared_at": "2026-11-20T16:15:41.051833+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208176",
-        "size_bytes": 358696312
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208176",
-        "size_bytes": 358696312,
-        "source_bytes_read": 358696312,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208176",
         "source_bytes_read": 358696312,
         "elapsed_seconds": 29.985,
         "finished_at": "2026-11-20T16:16:53.363517+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208176",
+          "size_bytes": 358696312,
+          "source_bytes_read": 358696312,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27224772",
+        "source_url": "https://sdilej.cz/27224772/kriminalka-las-vegas-s06e01-118-2005-sd-tela-v-pohybu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208176",
+        "display_name": "CSI: Crime Scene Investigation S06E01 Bodies in Motion SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:17:05.430360+00:00"
       }
     },
     "1065:6:2": {
@@ -732254,7 +732255,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:16:58.339426+00:00",
+  "updated_at": "2026-11-20T16:17:05.430380+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
