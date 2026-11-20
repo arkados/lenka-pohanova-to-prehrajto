@@ -722243,28 +722243,29 @@
           "at": "2026-11-20T12:16:16.020450+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4f884290c06b498bb955fa0038e627a2-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:16:21.106096+00:00",
-        "lease_expires_at": "2026-11-20T18:16:21.106116+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31204070",
-        "size_bytes": 879536087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204070",
-        "size_bytes": 879536087,
-        "source_bytes_read": 879536087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204070",
         "source_bytes_read": 879536087,
         "elapsed_seconds": 76.16,
         "finished_at": "2026-11-20T12:18:21.484386+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204070",
+          "size_bytes": 879536087,
+          "source_bytes_read": 879536087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400566",
+        "source_url": "https://sdilej.cz/34400566/zoufale-manzelky-s08e04-161-2011-hd-skola-ran-osudu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204070",
+        "display_name": "Desperate Housewives S08E04 School of Hard Knocks 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:18:35.115985+00:00"
       }
     },
     "1084:8:5": {
@@ -722579,7 +722580,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:18:27.098518+00:00",
+  "updated_at": "2026-11-20T12:18:35.116003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
