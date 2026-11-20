@@ -723328,12 +723328,6 @@
     },
     "1461:3:16": {
       "episode_key": "closer: nové případy:s3:e16",
-      "claim": {
-        "worker_id": "9087aa4cf162481392726b43ed7985cf-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:34:51.621189+00:00",
-        "lease_expires_at": "2026-11-20T18:34:51.621206+00:00"
-      },
       "source": {
         "source_id": "11396488",
         "source_url": "https://sdilej.cz/11396488/closer-nove-pripady-03x16-web-dl-cz.avi",
@@ -723358,22 +723352,29 @@
         "display_name": "Major Crimes S03E16 Leap of Faith SD CZ Dabing",
         "prepared_at": "2026-11-20T12:34:57.453485+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204376",
-        "size_bytes": 369668204
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204376",
-        "size_bytes": 369668204,
-        "source_bytes_read": 369668204,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204376",
         "source_bytes_read": 369668204,
         "elapsed_seconds": 36.428,
         "finished_at": "2026-11-20T12:36:02.743587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204376",
+          "size_bytes": 369668204,
+          "source_bytes_read": 369668204,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11396488",
+        "source_url": "https://sdilej.cz/11396488/closer-nove-pripady-03x16-web-dl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204376",
+        "display_name": "Major Crimes S03E16 Leap of Faith SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:36:15.816423+00:00"
       }
     },
     "1461:3:17": {
@@ -723419,7 +723420,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:36:09.485742+00:00",
+  "updated_at": "2026-11-20T12:36:15.816443+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
