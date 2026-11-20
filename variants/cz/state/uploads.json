@@ -714350,12 +714350,6 @@
     },
     "1084:1:17": {
       "episode_key": "zoufalé manželky:s1:e17",
-      "claim": {
-        "worker_id": "d2d4593036f24142af2f2c724e716dae-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:10:36.346959+00:00",
-        "lease_expires_at": "2026-11-20T15:10:36.346976+00:00"
-      },
       "source": {
         "source_id": "34399933",
         "source_url": "https://sdilej.cz/34399933/zoufale-manzelky-s01e17-017-2005-hd-zadny-duvod-k-oslavam-s-.mp4",
@@ -714380,22 +714374,29 @@
         "display_name": "Desperate Housewives S01E17 There Won't Be Trumpets 720p CZ Dabing",
         "prepared_at": "2026-11-20T09:11:01.970159+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200572",
-        "size_bytes": 925846715
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200572",
-        "size_bytes": 925846715,
-        "source_bytes_read": 925846715,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200572",
         "source_bytes_read": 925846715,
         "elapsed_seconds": 82.909,
         "finished_at": "2026-11-20T09:12:55.239933+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200572",
+          "size_bytes": 925846715,
+          "source_bytes_read": 925846715,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34399933",
+        "source_url": "https://sdilej.cz/34399933/zoufale-manzelky-s01e17-017-2005-hd-zadny-duvod-k-oslavam-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200572",
+        "display_name": "Desperate Housewives S01E17 There Won't Be Trumpets 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:13:16.433003+00:00"
       }
     },
     "1084:1:18": {
@@ -714491,7 +714492,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:13:09.699446+00:00",
+  "updated_at": "2026-11-20T09:13:16.433022+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
