@@ -700210,12 +700210,6 @@
         }
       ],
       "episode_key": "prcek:s3:e10",
-      "claim": {
-        "worker_id": "c389cbcb4b0a44cdadb9867c0e686dba-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:05:28.501075+00:00",
-        "lease_expires_at": "2026-11-20T09:05:28.501085+00:00"
-      },
       "source": {
         "source_id": "14431670",
         "source_url": "https://sdilej.cz/14431670/el.chapo.s03e10.1080p.10bit.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -700240,22 +700234,29 @@
         "display_name": "El Chapo S03E10 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:05:35.133803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195370",
-        "size_bytes": 1336066128
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195370",
-        "size_bytes": 1336066128,
-        "source_bytes_read": 1336066128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195370",
         "source_bytes_read": 1336066128,
         "elapsed_seconds": 166.132,
         "finished_at": "2026-11-20T03:08:48.886132+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195370",
+          "size_bytes": 1336066128,
+          "source_bytes_read": 1336066128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14431670",
+        "source_url": "https://sdilej.cz/14431670/el.chapo.s03e10.1080p.10bit.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195370",
+        "display_name": "El Chapo S03E10 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:08:59.839766+00:00"
       }
     },
     "695:3:11": {
@@ -701189,7 +701190,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:08:54.193876+00:00",
+  "updated_at": "2026-11-20T03:08:59.839786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
