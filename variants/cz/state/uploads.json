@@ -713214,12 +713214,6 @@
     },
     "756:1:1": {
       "episode_key": "půlnoční mše:s1:e1",
-      "claim": {
-        "worker_id": "41f9f8478bca45eda3cacdeaea938901-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T08:47:23.368632+00:00",
-        "lease_expires_at": "2026-11-20T14:47:23.368648+00:00"
-      },
       "source": {
         "source_id": "33036478",
         "source_url": "https://sdilej.cz/33036478/midnight-mass-s01e01-czen-dabing.mp4",
@@ -713244,22 +713238,29 @@
         "display_name": "Midnight Mass S01E01 Book I: Genesis 1080p CZ Dabing",
         "prepared_at": "2026-11-20T08:47:28.760005+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200248",
-        "size_bytes": 1034663294
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200248",
-        "size_bytes": 1034663294,
-        "source_bytes_read": 1034663294,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200248",
         "source_bytes_read": 1034663294,
         "elapsed_seconds": 98.46,
         "finished_at": "2026-11-20T08:49:30.649534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200248",
+          "size_bytes": 1034663294,
+          "source_bytes_read": 1034663294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33036478",
+        "source_url": "https://sdilej.cz/33036478/midnight-mass-s01e01-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200248",
+        "display_name": "Midnight Mass S01E01 Book I: Genesis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:49:44.606177+00:00"
       }
     }
   },
@@ -713268,7 +713269,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:49:36.784810+00:00",
+  "updated_at": "2026-11-20T08:49:44.606190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
