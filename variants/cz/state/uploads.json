@@ -746780,12 +746780,6 @@
     },
     "38:2:1": {
       "episode_key": "průměrňákovi:s2:e1",
-      "claim": {
-        "worker_id": "05dcbd8a0867449daa6bf6d20ee81930-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:12:40.350992+00:00",
-        "lease_expires_at": "2026-11-21T04:12:40.351001+00:00"
-      },
       "source": {
         "source_id": "27600916",
         "source_url": "https://sdilej.cz/27600916/prumernakovi-s02e01-cz.mkv",
@@ -746810,22 +746804,29 @@
         "display_name": "The Middle S02E01 Back to School 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:12:56.446164+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214302",
-        "size_bytes": 955891861
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214302",
-        "size_bytes": 955891861,
-        "source_bytes_read": 955891861,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214302",
         "source_bytes_read": 955891861,
         "elapsed_seconds": 68.569,
         "finished_at": "2026-11-20T22:14:35.947456+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214302",
+          "size_bytes": 955891861,
+          "source_bytes_read": 955891861,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27600916",
+        "source_url": "https://sdilej.cz/27600916/prumernakovi-s02e01-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214302",
+        "display_name": "The Middle S02E01 Back to School 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:14:47.855022+00:00"
       }
     },
     "38:2:2": {
@@ -746871,7 +746872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:14:42.010165+00:00",
+  "updated_at": "2026-11-20T22:14:47.855040+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
