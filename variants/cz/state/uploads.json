@@ -737240,12 +737240,6 @@
     },
     "1065:12:4": {
       "episode_key": "kriminálka las vegas:s12:e4",
-      "claim": {
-        "worker_id": "5de7414c7026406fa7dd88d575afc169-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:38:39.269415+00:00",
-        "lease_expires_at": "2026-11-20T23:38:39.269433+00:00"
-      },
       "source": {
         "source_id": "27228712",
         "source_url": "https://sdilej.cz/27228712/kriminalka-las-vegas-s12e04-255-2011-sd-pokojova-sluzba-sd-.mp4",
@@ -737270,22 +737264,29 @@
         "display_name": "CSI: Crime Scene Investigation S12E04 Maid Man SD CZ Dabing",
         "prepared_at": "2026-11-20T17:38:45.252963+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210029",
-        "size_bytes": 372839175
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210029",
-        "size_bytes": 372839175,
-        "source_bytes_read": 372839175,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210029",
         "source_bytes_read": 372839175,
         "elapsed_seconds": 32.645,
         "finished_at": "2026-11-20T17:39:47.208919+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210029",
+          "size_bytes": 372839175,
+          "source_bytes_read": 372839175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27228712",
+        "source_url": "https://sdilej.cz/27228712/kriminalka-las-vegas-s12e04-255-2011-sd-pokojova-sluzba-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210029",
+        "display_name": "CSI: Crime Scene Investigation S12E04 Maid Man SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:40:01.753731+00:00"
       }
     },
     "1065:12:5": {
@@ -737344,7 +737345,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:39:53.770703+00:00",
+  "updated_at": "2026-11-20T17:40:01.753764+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
