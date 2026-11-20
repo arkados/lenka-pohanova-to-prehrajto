@@ -718793,12 +718793,6 @@
     },
     "1084:5:22": {
       "episode_key": "zoufalé manželky:s5:e22",
-      "claim": {
-        "worker_id": "22ef4980db7a49e5bef5e4b10a5f92ea-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:56:18.221340+00:00",
-        "lease_expires_at": "2026-11-20T16:56:18.221354+00:00"
-      },
       "source": {
         "source_id": "34400364",
         "source_url": "https://sdilej.cz/34400364/zoufale-manzelky-s05e22-109-2009-hd-vezmes-si-me-s-.mp4",
@@ -718823,22 +718817,29 @@
         "display_name": "Desperate Housewives S05E22 Marry Me a Little 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:56:23.745619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202434",
-        "size_bytes": 871424445
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202434",
-        "size_bytes": 871424445,
-        "source_bytes_read": 871424445,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202434",
         "source_bytes_read": 871424445,
         "elapsed_seconds": 90.851,
         "finished_at": "2026-11-20T10:58:16.433312+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202434",
+          "size_bytes": 871424445,
+          "source_bytes_read": 871424445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400364",
+        "source_url": "https://sdilej.cz/34400364/zoufale-manzelky-s05e22-109-2009-hd-vezmes-si-me-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202434",
+        "display_name": "Desperate Housewives S05E22 Marry Me a Little 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:58:28.105051+00:00"
       }
     },
     "1084:5:24": {
@@ -718921,7 +718922,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:58:21.622654+00:00",
+  "updated_at": "2026-11-20T10:58:28.105067+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
