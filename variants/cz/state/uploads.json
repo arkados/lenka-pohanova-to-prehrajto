@@ -716186,12 +716186,6 @@
     },
     "1084:3:9": {
       "episode_key": "zoufalé manželky:s3:e9",
-      "claim": {
-        "worker_id": "da6cf54c26264f63ba54f975a26e2660-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:50:55.898403+00:00",
-        "lease_expires_at": "2026-11-20T15:50:55.898413+00:00"
-      },
       "source": {
         "source_id": "27620052",
         "source_url": "https://sdilej.cz/27620052/zoufale-manzelky-s03e09-cz.mkv",
@@ -716216,22 +716210,29 @@
         "display_name": "Desperate Housewives S03E09 Beautiful Girls 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:51:06.312619+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201229",
-        "size_bytes": 933961913
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201229",
-        "size_bytes": 933961913,
-        "source_bytes_read": 933961913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201229",
         "source_bytes_read": 933961913,
         "elapsed_seconds": 83.065,
         "finished_at": "2026-11-20T09:52:50.729627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201229",
+          "size_bytes": 933961913,
+          "source_bytes_read": 933961913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620052",
+        "source_url": "https://sdilej.cz/27620052/zoufale-manzelky-s03e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201229",
+        "display_name": "Desperate Housewives S03E09 Beautiful Girls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:52:59.071376+00:00"
       }
     },
     "1084:3:10": {
@@ -716314,7 +716315,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:52:50.729646+00:00",
+  "updated_at": "2026-11-20T09:52:59.071393+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
