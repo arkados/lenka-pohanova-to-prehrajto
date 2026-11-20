@@ -740453,12 +740453,6 @@
     },
     "1065:15:1": {
       "episode_key": "kriminálka las vegas:s15:e1",
-      "claim": {
-        "worker_id": "a705fd7fab6046d799f82262ab9937ac-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T18:38:45.902588+00:00",
-        "lease_expires_at": "2026-11-21T00:38:45.902605+00:00"
-      },
       "source": {
         "source_id": "34673194",
         "source_url": "https://sdilej.cz/34673194/kriminalka-las-vegas-s15e01-18-2014-cz-dab-1080p-csi-syndrom.mkv",
@@ -740499,7 +740493,13 @@
         "elapsed_seconds": 467.125,
         "finished_at": "2026-11-20T18:47:12.267593+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T18:48:48.480584+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1065:15:2": {
       "episode_key": "kriminálka las vegas:s15:e2",
@@ -740525,7 +740525,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T18:47:12.267614+00:00",
+  "updated_at": "2026-11-20T18:48:48.480605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
