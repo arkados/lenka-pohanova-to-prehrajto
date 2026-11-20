@@ -690216,12 +690216,6 @@
         }
       ],
       "episode_key": "paní ministryně:s3:e16",
-      "claim": {
-        "worker_id": "ef92c5a7f19d42ef9019869b1a8db3d6-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T00:20:09.729233+00:00",
-        "lease_expires_at": "2026-11-20T06:20:09.729253+00:00"
-      },
       "source": {
         "source_id": "12182258",
         "source_url": "https://sdilej.cz/12182258/pani-ministryne-03x16-nastupce.mkv",
@@ -690246,22 +690240,29 @@
         "display_name": "Madam Secretary S03E16 Swept Away 1080p CZ Dabing",
         "prepared_at": "2026-11-20T00:20:15.138155+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193133",
-        "size_bytes": 2996794842
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193133",
-        "size_bytes": 2996794842,
-        "source_bytes_read": 2996794842,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193133",
         "source_bytes_read": 2996794842,
         "elapsed_seconds": 343.61,
         "finished_at": "2026-11-20T00:26:16.904630+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193133",
+          "size_bytes": 2996794842,
+          "source_bytes_read": 2996794842,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12182258",
+        "source_url": "https://sdilej.cz/12182258/pani-ministryne-03x16-nastupce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193133",
+        "display_name": "Madam Secretary S03E16 Swept Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T00:26:25.413384+00:00"
       }
     },
     "1128:3:18": {
@@ -693541,7 +693542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T00:26:16.904692+00:00",
+  "updated_at": "2026-11-20T00:26:25.413402+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
