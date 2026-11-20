@@ -695542,25 +695542,19 @@
     "10458:1:5": {
       "attempts": [
         {
-          "at": "2026-11-19T17:01:58.293806+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-19T17:31:34.766093+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-19T18:02:09.115252+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-20T02:01:43.558974+00:00",
+          "error": "SourceUnavailable"
         }
       ],
       "episode_key": "posedlost:s1:e5",
-      "claim": {
-        "worker_id": "7b3cd4ef32a649089aefbece4c11f33f-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:01:19.320610+00:00",
-        "lease_expires_at": "2026-11-20T08:01:19.320620+00:00"
-      },
       "source": {
         "source_id": "34947701",
         "source_url": "https://sdilej.cz/34947701/posedlost-furious-s01e05-cz-dabing-1080p-full-hd.mkv",
@@ -695584,6 +695578,10 @@
         },
         "display_name": "Furious S01E05 Pick a Sticker 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:01:29.417042+00:00"
+      },
+      "source_repair_requested": {
+        "base": "34947701:https://sdilej.cz/34947701/posedlost-furious-s01e05-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-20T02:01:43.558918+00:00"
       }
     },
     "10458:1:6": {
@@ -698115,7 +698113,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:01:39.118164+00:00",
+  "updated_at": "2026-11-20T02:01:43.558981+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -698673,16 +698671,8 @@
     "10458": {
       "recent_failures": [
         {
-          "identity": "10458:1:1",
-          "at": "2026-11-20T01:49:29.461789+00:00"
-        },
-        {
-          "identity": "10458:1:2",
-          "at": "2026-11-20T01:50:06.487277+00:00"
-        },
-        {
-          "identity": "10458:1:4",
-          "at": "2026-11-20T01:50:42.533765+00:00"
+          "identity": "10458:1:5",
+          "at": "2026-11-20T02:01:43.558918+00:00"
         }
       ],
       "retry_after": "2026-11-20T02:00:42.533765+00:00"
