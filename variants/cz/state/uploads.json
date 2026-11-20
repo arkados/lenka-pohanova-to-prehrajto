@@ -716594,12 +716594,6 @@
     },
     "1084:3:17": {
       "episode_key": "zoufalé manželky:s3:e17",
-      "claim": {
-        "worker_id": "3fcf4485271a44bca6763b44f7d330ae-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:58:14.109360+00:00",
-        "lease_expires_at": "2026-11-20T15:58:14.109373+00:00"
-      },
       "source": {
         "source_id": "34400162",
         "source_url": "https://sdilej.cz/34400162/zoufale-manzelky-s03e17-064-2007-hd-saty-delaji-cloveka-s-.mp4",
@@ -716624,22 +716618,29 @@
         "display_name": "Desperate Housewives S03E17 Dress Big 720p CZ Dabing",
         "prepared_at": "2026-11-20T09:58:19.727474+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201360",
-        "size_bytes": 941390943
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201360",
-        "size_bytes": 941390943,
-        "source_bytes_read": 941390943,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201360",
         "source_bytes_read": 941390943,
         "elapsed_seconds": 129.717,
         "finished_at": "2026-11-20T10:00:50.303830+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201360",
+          "size_bytes": 941390943,
+          "source_bytes_read": 941390943,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400162",
+        "source_url": "https://sdilej.cz/34400162/zoufale-manzelky-s03e17-064-2007-hd-saty-delaji-cloveka-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201360",
+        "display_name": "Desperate Housewives S03E17 Dress Big 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:00:59.558408+00:00"
       }
     },
     "1084:3:18": {
@@ -716690,7 +716691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:00:54.683135+00:00",
+  "updated_at": "2026-11-20T10:00:59.558421+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
