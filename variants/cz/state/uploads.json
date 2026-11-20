@@ -742433,12 +742433,6 @@
     },
     "210:3:4": {
       "episode_key": "věčnost:s3:e4",
-      "claim": {
-        "worker_id": "4ae50b8e409b47a2a1664541a3fe1cbd-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:32:47.911169+00:00",
-        "lease_expires_at": "2026-11-21T02:32:47.911181+00:00"
-      },
       "source": {
         "source_id": "29218610",
         "source_url": "https://sdilej.cz/29218610/vecnost-s03e04-1080p-cz-dabing.mkv",
@@ -742463,22 +742457,29 @@
         "display_name": "Upload S03E04 Download Doctor 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:32:55.200064+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212876",
-        "size_bytes": 937664037
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212876",
-        "size_bytes": 937664037,
-        "source_bytes_read": 937664037,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212876",
         "source_bytes_read": 937664037,
         "elapsed_seconds": 67.824,
         "finished_at": "2026-11-20T20:34:37.660178+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212876",
+          "size_bytes": 937664037,
+          "source_bytes_read": 937664037,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218610",
+        "source_url": "https://sdilej.cz/29218610/vecnost-s03e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212876",
+        "display_name": "Upload S03E04 Download Doctor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:34:44.836303+00:00"
       }
     },
     "210:3:5": {
@@ -742561,7 +742562,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:34:37.660196+00:00",
+  "updated_at": "2026-11-20T20:34:44.836317+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
