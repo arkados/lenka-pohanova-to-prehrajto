@@ -745374,12 +745374,6 @@
     },
     "733:1:8": {
       "episode_key": "rezidence:s1:e8",
-      "claim": {
-        "worker_id": "68a45f02fb3e4165b48eb22c27c2506b-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:21:45.854276+00:00",
-        "lease_expires_at": "2026-11-21T03:21:45.854288+00:00"
-      },
       "source": {
         "source_id": "30812879",
         "source_url": "https://sdilej.cz/30812879/rezidence-s01e08-2025-cz-dabing-1080p.mp4",
@@ -745404,22 +745398,29 @@
         "display_name": "The Residence S01E08 The Mystery of the Yellow Room 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:22:07.205655+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213571",
-        "size_bytes": 1218158502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213571",
-        "size_bytes": 1218158502,
-        "source_bytes_read": 1218158502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213571",
         "source_bytes_read": 1218158502,
         "elapsed_seconds": 98.752,
         "finished_at": "2026-11-20T21:24:12.716975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213571",
+          "size_bytes": 1218158502,
+          "source_bytes_read": 1218158502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30812879",
+        "source_url": "https://sdilej.cz/30812879/rezidence-s01e08-2025-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213571",
+        "display_name": "The Residence S01E08 The Mystery of the Yellow Room 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:24:25.089405+00:00"
       }
     },
     "38:1:1": {
@@ -745552,7 +745553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:24:18.065211+00:00",
+  "updated_at": "2026-11-20T21:24:25.089419+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
