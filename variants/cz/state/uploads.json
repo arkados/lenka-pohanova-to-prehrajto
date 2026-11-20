@@ -737546,12 +737546,6 @@
     },
     "1065:12:10": {
       "episode_key": "kriminálka las vegas:s12:e10",
-      "claim": {
-        "worker_id": "63b13ba9b7714b0785aa5e11b380efb9-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:42:38.420042+00:00",
-        "lease_expires_at": "2026-11-20T23:42:38.420060+00:00"
-      },
       "source": {
         "source_id": "25543528",
         "source_url": "https://sdilej.cz/25543528/kriminalka-las-vegas-12x10-cz.avi",
@@ -737576,22 +737570,29 @@
         "display_name": "CSI: Crime Scene Investigation S12E10 Genetic Disorder SD CZ Dabing",
         "prepared_at": "2026-11-20T17:42:44.196416+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210119",
-        "size_bytes": 512627032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210119",
-        "size_bytes": 512627032,
-        "source_bytes_read": 512627032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210119",
         "source_bytes_read": 512627032,
         "elapsed_seconds": 39.203,
         "finished_at": "2026-11-20T17:43:56.183482+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210119",
+          "size_bytes": 512627032,
+          "source_bytes_read": 512627032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25543528",
+        "source_url": "https://sdilej.cz/25543528/kriminalka-las-vegas-12x10-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210119",
+        "display_name": "CSI: Crime Scene Investigation S12E10 Genetic Disorder SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:44:12.125112+00:00"
       }
     },
     "1065:12:11": {
@@ -737687,7 +737688,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:44:06.599997+00:00",
+  "updated_at": "2026-11-20T17:44:12.125130+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
