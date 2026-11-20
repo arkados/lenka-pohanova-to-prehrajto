@@ -750666,12 +750666,6 @@
     },
     "38:5:3": {
       "episode_key": "průměrňákovi:s5:e3",
-      "claim": {
-        "worker_id": "6c19aa84389d4ab8bd39ac7c4065479c-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:43:33.808326+00:00",
-        "lease_expires_at": "2026-11-21T05:43:33.808338+00:00"
-      },
       "source": {
         "source_id": "27603519",
         "source_url": "https://sdilej.cz/27603519/prumernakovi-s05e03-cz.mkv",
@@ -750696,22 +750690,29 @@
         "display_name": "The Middle S05E03 The Potato 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:43:43.942215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215650",
-        "size_bytes": 957116801
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215650",
-        "size_bytes": 957116801,
-        "source_bytes_read": 957116801,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215650",
         "source_bytes_read": 957116801,
         "elapsed_seconds": 70.107,
         "finished_at": "2026-11-20T23:45:23.057185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215650",
+          "size_bytes": 957116801,
+          "source_bytes_read": 957116801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603519",
+        "source_url": "https://sdilej.cz/27603519/prumernakovi-s05e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215650",
+        "display_name": "The Middle S05E03 The Potato 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:45:35.487795+00:00"
       }
     },
     "38:5:4": {
@@ -750757,7 +750758,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:45:30.173758+00:00",
+  "updated_at": "2026-11-20T23:45:35.487810+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
