@@ -717671,12 +717671,6 @@
     },
     "1084:4:17": {
       "episode_key": "zoufalé manželky:s4:e17",
-      "claim": {
-        "worker_id": "19e0e7f38f9d42579a830743c25a5d1a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:30:34.434899+00:00",
-        "lease_expires_at": "2026-11-20T16:30:34.434909+00:00"
-      },
       "source": {
         "source_id": "34400268",
         "source_url": "https://sdilej.cz/34400268/zoufale-manzelky-s04e17-087-2008-hd-zase-volna-s-.mp4",
@@ -717701,22 +717695,29 @@
         "display_name": "Desperate Housewives S04E17 Free 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:30:43.932665+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201961",
-        "size_bytes": 892233866
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201961",
-        "size_bytes": 892233866,
-        "source_bytes_read": 892233866,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201961",
         "source_bytes_read": 892233866,
         "elapsed_seconds": 107.167,
         "finished_at": "2026-11-20T10:33:01.574299+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201961",
+          "size_bytes": 892233866,
+          "source_bytes_read": 892233866,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400268",
+        "source_url": "https://sdilej.cz/34400268/zoufale-manzelky-s04e17-087-2008-hd-zase-volna-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201961",
+        "display_name": "Desperate Housewives S04E17 Free 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:33:08.287698+00:00"
       }
     },
     "1084:5:1": {
@@ -717799,7 +717800,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:33:01.574318+00:00",
+  "updated_at": "2026-11-20T10:33:08.287719+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
