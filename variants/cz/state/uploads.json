@@ -717415,12 +717415,6 @@
     },
     "1084:4:12": {
       "episode_key": "zoufalé manželky:s4:e12",
-      "claim": {
-        "worker_id": "59e76a07a8c44da6b5f919e5afbc6e87-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:19:33.933629+00:00",
-        "lease_expires_at": "2026-11-20T16:19:33.933638+00:00"
-      },
       "source": {
         "source_id": "34400251",
         "source_url": "https://sdilej.cz/34400251/zoufale-manzelky-s04e12-082-2008-hd-videt-a-nevidet-s-.mp4",
@@ -717445,22 +717439,29 @@
         "display_name": "Desperate Housewives S04E12 In Buddy's Eyes 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:19:49.180025+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201771",
-        "size_bytes": 878588780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201771",
-        "size_bytes": 878588780,
-        "source_bytes_read": 878588780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201771",
         "source_bytes_read": 878588780,
         "elapsed_seconds": 261.709,
         "finished_at": "2026-11-20T10:24:39.918138+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201771",
+          "size_bytes": 878588780,
+          "source_bytes_read": 878588780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400251",
+        "source_url": "https://sdilej.cz/34400251/zoufale-manzelky-s04e12-082-2008-hd-videt-a-nevidet-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201771",
+        "display_name": "Desperate Housewives S04E12 In Buddy's Eyes 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:24:59.636670+00:00"
       }
     },
     "1084:4:13": {
@@ -717520,7 +717521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:24:52.133758+00:00",
+  "updated_at": "2026-11-20T10:24:59.636684+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
