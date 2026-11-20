@@ -748226,12 +748226,6 @@
     },
     "38:3:3": {
       "episode_key": "průměrňákovi:s3:e3",
-      "claim": {
-        "worker_id": "93361fdfd62a4b069419a93244828d12-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:41:37.310870+00:00",
-        "lease_expires_at": "2026-11-21T04:41:37.310881+00:00"
-      },
       "source": {
         "source_id": "27658959",
         "source_url": "https://sdilej.cz/27658959/prumernakovi-s03e03-cz.mkv",
@@ -748256,22 +748250,29 @@
         "display_name": "The Middle S03E03 Hecking Order 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:41:43.150794+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214762",
-        "size_bytes": 956331659
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214762",
-        "size_bytes": 956331659,
-        "source_bytes_read": 956331659,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214762",
         "source_bytes_read": 956331659,
         "elapsed_seconds": 67.712,
         "finished_at": "2026-11-20T22:43:17.788516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214762",
+          "size_bytes": 956331659,
+          "source_bytes_read": 956331659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27658959",
+        "source_url": "https://sdilej.cz/27658959/prumernakovi-s03e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214762",
+        "display_name": "The Middle S03E03 Hecking Order 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:43:24.293114+00:00"
       }
     },
     "38:3:4": {
@@ -748354,7 +748355,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:43:17.788538+00:00",
+  "updated_at": "2026-11-20T22:43:24.293129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
