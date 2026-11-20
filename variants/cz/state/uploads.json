@@ -746263,28 +746263,29 @@
           "at": "2026-11-20T22:05:33.215311+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4a28ea149add4cea8b7cba05330ee960-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:05:38.404464+00:00",
-        "lease_expires_at": "2026-11-21T04:05:38.404475+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31214186",
-        "size_bytes": 637285110
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214186",
-        "size_bytes": 637285110,
-        "source_bytes_read": 637285110,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214186",
         "source_bytes_read": 637285110,
         "elapsed_seconds": 44.023,
         "finished_at": "2026-11-20T22:07:00.942131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214186",
+          "size_bytes": 637285110,
+          "source_bytes_read": 637285110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28305089",
+        "source_url": "https://sdilej.cz/28305089/cas-carodejnic-s03e02-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214186",
+        "display_name": "A Discovery of Witches S03E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:07:17.567113+00:00"
       }
     },
     "643:3:3": {
@@ -746534,7 +746535,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:07:12.757121+00:00",
+  "updated_at": "2026-11-20T22:07:17.567133+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
