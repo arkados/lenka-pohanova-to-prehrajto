@@ -720781,12 +720781,6 @@
     },
     "1084:7:10": {
       "episode_key": "zoufalé manželky:s7:e10",
-      "claim": {
-        "worker_id": "5d63f86afe934aa1b0257467e31a2dcb-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:44:42.675447+00:00",
-        "lease_expires_at": "2026-11-20T17:44:42.675457+00:00"
-      },
       "source": {
         "source_id": "27625920",
         "source_url": "https://sdilej.cz/27625920/zoufale-manzelky-s07e10-cz.mkv",
@@ -720811,22 +720805,29 @@
         "display_name": "Desperate Housewives S07E10 Down the Block There's a Riot 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:44:48.091177+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203395",
-        "size_bytes": 933571326
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203395",
-        "size_bytes": 933571326,
-        "source_bytes_read": 933571326,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203395",
         "source_bytes_read": 933571326,
         "elapsed_seconds": 91.275,
         "finished_at": "2026-11-20T11:46:54.780044+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203395",
+          "size_bytes": 933571326,
+          "source_bytes_read": 933571326,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625920",
+        "source_url": "https://sdilej.cz/27625920/zoufale-manzelky-s07e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203395",
+        "display_name": "Desperate Housewives S07E10 Down the Block There's a Riot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:47:04.185573+00:00"
       }
     },
     "1084:7:11": {
@@ -720909,7 +720910,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:46:59.469305+00:00",
+  "updated_at": "2026-11-20T11:47:04.185590+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
