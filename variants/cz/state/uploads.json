@@ -722259,12 +722259,6 @@
     },
     "1461:3:3": {
       "episode_key": "closer: nové případy:s3:e3",
-      "claim": {
-        "worker_id": "306792f1c55d445e9a0fdbc196d3952e-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:11:35.884094+00:00",
-        "lease_expires_at": "2026-11-20T18:11:35.884112+00:00"
-      },
       "source": {
         "source_id": "29106699",
         "source_url": "https://sdilej.cz/29106699/closer-nove-pripady-s03e03-032-2014-sd-zmrazeny-majetek-sd-.mp4",
@@ -722289,22 +722283,29 @@
         "display_name": "Major Crimes S03E03 Frozen Assets SD CZ Dabing",
         "prepared_at": "2026-11-20T12:11:48.737605+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203991",
-        "size_bytes": 383561902
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203991",
-        "size_bytes": 383561902,
-        "source_bytes_read": 383561902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203991",
         "source_bytes_read": 383561902,
         "elapsed_seconds": 29.348,
         "finished_at": "2026-11-20T12:12:43.812190+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203991",
+          "size_bytes": 383561902,
+          "source_bytes_read": 383561902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106699",
+        "source_url": "https://sdilej.cz/29106699/closer-nove-pripady-s03e03-032-2014-sd-zmrazeny-majetek-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203991",
+        "display_name": "Major Crimes S03E03 Frozen Assets SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:13:05.314737+00:00"
       }
     }
   },
@@ -722313,7 +722314,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:12:59.235768+00:00",
+  "updated_at": "2026-11-20T12:13:05.314755+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
