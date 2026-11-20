@@ -715523,12 +715523,6 @@
     },
     "1084:2:18": {
       "episode_key": "zoufalé manželky:s2:e18",
-      "claim": {
-        "worker_id": "3e5535dda48943babe1da7f3e4550fd4-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:33:46.002978+00:00",
-        "lease_expires_at": "2026-11-20T15:33:46.002991+00:00"
-      },
       "source": {
         "source_id": "27619259",
         "source_url": "https://sdilej.cz/27619259/zoufale-manzelky-s02e18-cz.mkv",
@@ -715553,22 +715547,29 @@
         "display_name": "Desperate Housewives S02E18 Everybody Says Don't 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:33:51.627517+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200948",
-        "size_bytes": 562310167
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200948",
-        "size_bytes": 562310167,
-        "source_bytes_read": 562310167,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200948",
         "source_bytes_read": 562310167,
         "elapsed_seconds": 72.119,
         "finished_at": "2026-11-20T09:35:27.488000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200948",
+          "size_bytes": 562310167,
+          "source_bytes_read": 562310167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27619259",
+        "source_url": "https://sdilej.cz/27619259/zoufale-manzelky-s02e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200948",
+        "display_name": "Desperate Housewives S02E18 Everybody Says Don't 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:35:38.518803+00:00"
       }
     },
     "1084:2:19": {
@@ -715651,7 +715652,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:35:32.187836+00:00",
+  "updated_at": "2026-11-20T09:35:38.518819+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
