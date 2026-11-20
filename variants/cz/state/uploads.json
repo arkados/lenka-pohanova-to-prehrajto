@@ -733050,12 +733050,6 @@
     },
     "1065:7:11": {
       "episode_key": "kriminálka las vegas:s7:e11",
-      "claim": {
-        "worker_id": "ea3ae2ad566c445ba61ec21fd7bb71d6-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:32:16.968491+00:00",
-        "lease_expires_at": "2026-11-20T22:32:16.968506+00:00"
-      },
       "source": {
         "source_id": "28466994",
         "source_url": "https://sdilej.cz/28466994/kriminalka-las-vegas-07x11-odjezd-z-las-vegas.avi",
@@ -733080,22 +733074,29 @@
         "display_name": "CSI: Crime Scene Investigation S07E11 Leaving Las Vegas SD CZ Dabing",
         "prepared_at": "2026-11-20T16:32:33.205406+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208452",
-        "size_bytes": 364275712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208452",
-        "size_bytes": 364275712,
-        "source_bytes_read": 364275712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208452",
         "source_bytes_read": 364275712,
         "elapsed_seconds": 24.669,
         "finished_at": "2026-11-20T16:33:30.007493+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208452",
+          "size_bytes": 364275712,
+          "source_bytes_read": 364275712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28466994",
+        "source_url": "https://sdilej.cz/28466994/kriminalka-las-vegas-07x11-odjezd-z-las-vegas.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208452",
+        "display_name": "CSI: Crime Scene Investigation S07E11 Leaving Las Vegas SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:33:36.307542+00:00"
       }
     }
   },
@@ -733104,7 +733105,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:33:30.007515+00:00",
+  "updated_at": "2026-11-20T16:33:36.307563+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
