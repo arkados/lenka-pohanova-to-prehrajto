@@ -724308,12 +724308,6 @@
     },
     "1084:8:19": {
       "episode_key": "zoufalé manželky:s8:e19",
-      "claim": {
-        "worker_id": "e8af69f5b39e4a47875e938dec48444d-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:52:21.561060+00:00",
-        "lease_expires_at": "2026-11-20T18:52:21.561076+00:00"
-      },
       "source": {
         "source_id": "27626858",
         "source_url": "https://sdilej.cz/27626858/zoufale-manzelky-s08e19-cz.mkv",
@@ -724338,22 +724332,29 @@
         "display_name": "Desperate Housewives S08E19 With So Little to Be Sure of 1080p CZ Dabing",
         "prepared_at": "2026-11-20T12:52:27.730223+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204685",
-        "size_bytes": 927104026
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204685",
-        "size_bytes": 927104026,
-        "source_bytes_read": 927104026,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204685",
         "source_bytes_read": 927104026,
         "elapsed_seconds": 68.008,
         "finished_at": "2026-11-20T12:54:08.205006+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204685",
+          "size_bytes": 927104026,
+          "source_bytes_read": 927104026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27626858",
+        "source_url": "https://sdilej.cz/27626858/zoufale-manzelky-s08e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204685",
+        "display_name": "Desperate Housewives S08E19 With So Little to Be Sure of 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:54:16.619056+00:00"
       }
     },
     "1084:8:20": {
@@ -724399,7 +724400,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:54:08.205031+00:00",
+  "updated_at": "2026-11-20T12:54:16.619076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
