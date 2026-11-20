@@ -729015,12 +729015,6 @@
     },
     "1065:3:6": {
       "episode_key": "kriminálka las vegas:s3:e6",
-      "claim": {
-        "worker_id": "7b8bc34088d04c5689283f6971e7b94a-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T14:59:27.857729+00:00",
-        "lease_expires_at": "2026-11-20T20:59:27.857745+00:00"
-      },
       "source": {
         "source_id": "29958422",
         "source_url": "https://sdilej.cz/29958422/kriminalka-las-vegas-s03e06-1080p-cz-dabing.mkv",
@@ -729045,22 +729039,29 @@
         "display_name": "CSI: Crime Scene Investigation S03E06 The Execution of Catherine Willows 1080p CZ Dabing",
         "prepared_at": "2026-11-20T14:59:39.949082+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31206693",
-        "size_bytes": 2510401164
-      },
-      "transfer_receipt": {
-        "target_video_id": "31206693",
-        "size_bytes": 2510401164,
-        "source_bytes_read": 2510401164,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31206693",
         "source_bytes_read": 2510401164,
         "elapsed_seconds": 155.801,
         "finished_at": "2026-11-20T15:02:40.802273+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31206693",
+          "size_bytes": 2510401164,
+          "source_bytes_read": 2510401164,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29958422",
+        "source_url": "https://sdilej.cz/29958422/kriminalka-las-vegas-s03e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31206693",
+        "display_name": "CSI: Crime Scene Investigation S03E06 The Execution of Catherine Willows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T15:02:52.921796+00:00"
       }
     },
     "1065:3:7": {
@@ -729143,7 +729144,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:02:45.786074+00:00",
+  "updated_at": "2026-11-20T15:02:52.921817+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
