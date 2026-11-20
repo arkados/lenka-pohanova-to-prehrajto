@@ -747706,12 +747706,6 @@
     },
     "38:2:17": {
       "episode_key": "průměrňákovi:s2:e17",
-      "claim": {
-        "worker_id": "c6e59ede884047e59edd64aa3fc4c38e-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:29:35.227520+00:00",
-        "lease_expires_at": "2026-11-21T04:29:35.227529+00:00"
-      },
       "source": {
         "source_id": "27601352",
         "source_url": "https://sdilej.cz/27601352/prumernakovi-s02e17-cz.mkv",
@@ -747752,7 +747746,13 @@
         "elapsed_seconds": 63.993,
         "finished_at": "2026-11-20T22:31:07.192578+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T22:31:17.467948+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     }
   },
   "binding": {
@@ -747760,7 +747760,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:31:12.657395+00:00",
+  "updated_at": "2026-11-20T22:31:17.467966+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
