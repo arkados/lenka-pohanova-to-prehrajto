@@ -725632,12 +725632,6 @@
     },
     "265:1:5": {
       "episode_key": "jeho temné esence:s1:e5",
-      "claim": {
-        "worker_id": "8c5775a29012496eb7e2ccc543f45ffa-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:11:35.369398+00:00",
-        "lease_expires_at": "2026-11-20T19:11:35.369413+00:00"
-      },
       "source": {
         "source_id": "29102395",
         "source_url": "https://sdilej.cz/29102395/jeho-temne-esence-s01e05-cz-dab-.mkv",
@@ -725662,22 +725656,29 @@
         "display_name": "His Dark Materials S01E05 The Lost Boy 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:11:42.320357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205011",
-        "size_bytes": 663051059
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205011",
-        "size_bytes": 663051059,
-        "source_bytes_read": 663051059,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205011",
         "source_bytes_read": 663051059,
         "elapsed_seconds": 38.16,
         "finished_at": "2026-11-20T13:12:44.273587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205011",
+          "size_bytes": 663051059,
+          "source_bytes_read": 663051059,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29102395",
+        "source_url": "https://sdilej.cz/29102395/jeho-temne-esence-s01e05-cz-dab-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205011",
+        "display_name": "His Dark Materials S01E05 The Lost Boy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:12:55.266848+00:00"
       }
     }
   },
@@ -725686,7 +725687,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:12:49.504171+00:00",
+  "updated_at": "2026-11-20T13:12:55.266866+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
