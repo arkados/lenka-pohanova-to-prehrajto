@@ -719558,12 +719558,6 @@
     },
     "1084:6:13": {
       "episode_key": "zoufalé manželky:s6:e13",
-      "claim": {
-        "worker_id": "27a8c927a0bf441fa78d759b67c2a994-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:12:24.493208+00:00",
-        "lease_expires_at": "2026-11-20T17:12:24.493221+00:00"
-      },
       "source": {
         "source_id": "27625558",
         "source_url": "https://sdilej.cz/27625558/zoufale-manzelky-s06e13-cz.mkv",
@@ -719588,22 +719582,29 @@
         "display_name": "Desperate Housewives S06E13 How About a Friendly Shrink? 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:12:41.320386+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202752",
-        "size_bytes": 947056505
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202752",
-        "size_bytes": 947056505,
-        "source_bytes_read": 947056505,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202752",
         "source_bytes_read": 947056505,
         "elapsed_seconds": 74.062,
         "finished_at": "2026-11-20T11:14:18.195858+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202752",
+          "size_bytes": 947056505,
+          "source_bytes_read": 947056505,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625558",
+        "source_url": "https://sdilej.cz/27625558/zoufale-manzelky-s06e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202752",
+        "display_name": "Desperate Housewives S06E13 How About a Friendly Shrink? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:14:31.596042+00:00"
       }
     },
     "1084:6:14": {
@@ -719658,7 +719659,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:14:26.675196+00:00",
+  "updated_at": "2026-11-20T11:14:31.596056+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
