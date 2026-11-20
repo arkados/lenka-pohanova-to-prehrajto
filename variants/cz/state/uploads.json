@@ -745767,12 +745767,6 @@
     },
     "38:1:6": {
       "episode_key": "průměrňákovi:s1:e6",
-      "claim": {
-        "worker_id": "3bb9024c209f43449eace9319c02cf98-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:27:40.778405+00:00",
-        "lease_expires_at": "2026-11-21T03:27:40.778414+00:00"
-      },
       "source": {
         "source_id": "27599403",
         "source_url": "https://sdilej.cz/27599403/prumernakovi-s01e06-cz.mkv",
@@ -745797,22 +745791,29 @@
         "display_name": "The Middle S01E06 The Front Door 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:27:51.796828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213656",
-        "size_bytes": 958359868
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213656",
-        "size_bytes": 958359868,
-        "source_bytes_read": 958359868,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213656",
         "source_bytes_read": 958359868,
         "elapsed_seconds": 41.168,
         "finished_at": "2026-11-20T21:28:53.771502+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213656",
+          "size_bytes": 958359868,
+          "source_bytes_read": 958359868,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27599403",
+        "source_url": "https://sdilej.cz/27599403/prumernakovi-s01e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213656",
+        "display_name": "The Middle S01E06 The Front Door 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:29:03.587246+00:00"
       }
     }
   },
@@ -745821,7 +745822,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:28:53.771520+00:00",
+  "updated_at": "2026-11-20T21:29:03.587286+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
