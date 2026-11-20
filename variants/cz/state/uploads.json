@@ -715064,12 +715064,6 @@
     },
     "1084:2:9": {
       "episode_key": "zoufalé manželky:s2:e9",
-      "claim": {
-        "worker_id": "bb8c71f279bb40f29ef4bb8ba29793f4-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:27:30.360400+00:00",
-        "lease_expires_at": "2026-11-20T15:27:30.360413+00:00"
-      },
       "source": {
         "source_id": "27619061",
         "source_url": "https://sdilej.cz/27619061/zoufale-manzelky-s02e09-cz.mkv",
@@ -715094,22 +715088,29 @@
         "display_name": "Desperate Housewives S02E09 That's Good, That's Bad 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:27:45.069232+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200834",
-        "size_bytes": 556233819
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200834",
-        "size_bytes": 556233819,
-        "source_bytes_read": 556233819,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200834",
         "source_bytes_read": 556233819,
         "elapsed_seconds": 96.848,
         "finished_at": "2026-11-20T09:29:47.854688+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200834",
+          "size_bytes": 556233819,
+          "source_bytes_read": 556233819,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27619061",
+        "source_url": "https://sdilej.cz/27619061/zoufale-manzelky-s02e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200834",
+        "display_name": "Desperate Housewives S02E09 That's Good, That's Bad 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:30:05.107504+00:00"
       }
     },
     "1084:2:10": {
@@ -715253,7 +715254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:29:59.767695+00:00",
+  "updated_at": "2026-11-20T09:30:05.107519+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
