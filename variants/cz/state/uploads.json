@@ -705061,12 +705061,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e11",
-      "claim": {
-        "worker_id": "eb2a0a2248484338a8b49e3ff9b18a3c-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:03:31.474427+00:00",
-        "lease_expires_at": "2026-11-20T11:03:31.474438+00:00"
-      },
       "source": {
         "source_id": "34590964",
         "source_url": "https://sdilej.cz/34590964/upiri-deniky-s03e11-nase-mesto-cz-dabing-h265-2011.mkv",
@@ -705091,22 +705085,29 @@
         "display_name": "The Vampire Diaries S03E11 Our Town 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:03:45.385197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197255",
-        "size_bytes": 436673180
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197255",
-        "size_bytes": 436673180,
-        "source_bytes_read": 436673180,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197255",
         "source_bytes_read": 436673180,
         "elapsed_seconds": 28.541,
         "finished_at": "2026-11-20T05:04:36.885731+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197255",
+          "size_bytes": 436673180,
+          "source_bytes_read": 436673180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34590964",
+        "source_url": "https://sdilej.cz/34590964/upiri-deniky-s03e11-nase-mesto-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197255",
+        "display_name": "The Vampire Diaries S03E11 Our Town 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:04:58.187676+00:00"
       }
     },
     "1119:3:12": {
@@ -705308,7 +705309,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:04:53.105870+00:00",
+  "updated_at": "2026-11-20T05:04:58.187692+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
