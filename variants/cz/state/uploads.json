@@ -744978,12 +744978,6 @@
     },
     "733:1:2": {
       "episode_key": "rezidence:s1:e2",
-      "claim": {
-        "worker_id": "db885991546340158781a19edcba561c-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:14:55.117918+00:00",
-        "lease_expires_at": "2026-11-21T03:14:55.117931+00:00"
-      },
       "source": {
         "source_id": "30809784",
         "source_url": "https://sdilej.cz/30809784/rezidence-s01e02-2025-cz-dabing-1080p.mp4",
@@ -745008,22 +745002,29 @@
         "display_name": "The Residence S01E02 Dial M for Murder 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:15:10.054041+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213453",
-        "size_bytes": 610686657
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213453",
-        "size_bytes": 610686657,
-        "source_bytes_read": 610686657,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213453",
         "source_bytes_read": 610686657,
         "elapsed_seconds": 25.818,
         "finished_at": "2026-11-20T21:16:08.583406+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213453",
+          "size_bytes": 610686657,
+          "source_bytes_read": 610686657,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30809784",
+        "source_url": "https://sdilej.cz/30809784/rezidence-s01e02-2025-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213453",
+        "display_name": "The Residence S01E02 Dial M for Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:16:26.617769+00:00"
       }
     },
     "733:1:3": {
@@ -745069,7 +745070,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:16:20.701130+00:00",
+  "updated_at": "2026-11-20T21:16:26.617785+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
