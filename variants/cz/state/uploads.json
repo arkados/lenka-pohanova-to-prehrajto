@@ -716084,12 +716084,6 @@
     },
     "1084:3:7": {
       "episode_key": "zoufalé manželky:s3:e7",
-      "claim": {
-        "worker_id": "572f3996d4244fa8bd1060bd43f8ac03-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:46:45.004381+00:00",
-        "lease_expires_at": "2026-11-20T15:46:45.004396+00:00"
-      },
       "source": {
         "source_id": "34400108",
         "source_url": "https://sdilej.cz/34400108/zoufale-manzelky-s03e07-054-2006-hd-prask-s-.mp4",
@@ -716114,22 +716108,29 @@
         "display_name": "Desperate Housewives S03E07 Bang 720p CZ Dabing",
         "prepared_at": "2026-11-20T09:46:50.660085+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201151",
-        "size_bytes": 881292473
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201151",
-        "size_bytes": 881292473,
-        "source_bytes_read": 881292473,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201151",
         "source_bytes_read": 881292473,
         "elapsed_seconds": 198.285,
         "finished_at": "2026-11-20T09:50:29.636789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201151",
+          "size_bytes": 881292473,
+          "source_bytes_read": 881292473,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400108",
+        "source_url": "https://sdilej.cz/34400108/zoufale-manzelky-s03e07-054-2006-hd-prask-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201151",
+        "display_name": "Desperate Housewives S03E07 Bang 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:50:41.867690+00:00"
       }
     },
     "1084:3:8": {
@@ -716175,7 +716176,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:50:37.171785+00:00",
+  "updated_at": "2026-11-20T09:50:41.867707+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
