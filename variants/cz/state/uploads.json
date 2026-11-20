@@ -717104,12 +717104,6 @@
     },
     "1084:4:4": {
       "episode_key": "zoufalé manželky:s4:e4",
-      "claim": {
-        "worker_id": "ddccba729cf346ef9187860ca638b937-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:11:42.711789+00:00",
-        "lease_expires_at": "2026-11-20T16:11:42.711803+00:00"
-      },
       "source": {
         "source_id": "34400208",
         "source_url": "https://sdilej.cz/34400208/zoufale-manzelky-s04e04-074-2007-hd-jestli-neco-nesnasim-s-.mp4",
@@ -717150,7 +717144,13 @@
         "elapsed_seconds": 62.587,
         "finished_at": "2026-11-20T10:13:21.417422+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T10:13:26.471651+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     },
     "1084:4:5": {
       "episode_key": "zoufalé manželky:s4:e5",
@@ -717232,7 +717232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:13:21.417441+00:00",
+  "updated_at": "2026-11-20T10:13:26.471668+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
