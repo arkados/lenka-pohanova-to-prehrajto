@@ -723208,12 +723208,6 @@
     },
     "1461:3:14": {
       "episode_key": "closer: nové případy:s3:e14",
-      "claim": {
-        "worker_id": "ce0718e689bc4a3ea336728d5f8eaf7e-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:32:49.619849+00:00",
-        "lease_expires_at": "2026-11-20T18:32:49.619867+00:00"
-      },
       "source": {
         "source_id": "29106939",
         "source_url": "https://sdilej.cz/29106939/closer-nove-pripady-s03e14-043-2014-sd-zkouska-ohnem-sd-.mp4",
@@ -723238,22 +723232,29 @@
         "display_name": "Major Crimes S03E14 Trial by Fire SD CZ Dabing",
         "prepared_at": "2026-11-20T12:32:55.644801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204341",
-        "size_bytes": 385315910
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204341",
-        "size_bytes": 385315910,
-        "source_bytes_read": 385315910,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204341",
         "source_bytes_read": 385315910,
         "elapsed_seconds": 37.03,
         "finished_at": "2026-11-20T12:34:11.099045+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204341",
+          "size_bytes": 385315910,
+          "source_bytes_read": 385315910,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106939",
+        "source_url": "https://sdilej.cz/29106939/closer-nove-pripady-s03e14-043-2014-sd-zkouska-ohnem-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204341",
+        "display_name": "Major Crimes S03E14 Trial by Fire SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:34:27.567825+00:00"
       }
     },
     "1461:3:15": {
@@ -723298,7 +723299,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:34:22.484400+00:00",
+  "updated_at": "2026-11-20T12:34:27.567842+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
