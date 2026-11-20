@@ -700907,12 +700907,6 @@
         }
       ],
       "episode_key": "teta mick:s1:e5",
-      "claim": {
-        "worker_id": "0717610476f04abeae646a5b5b4485ec-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:33:52.895725+00:00",
-        "lease_expires_at": "2026-11-20T09:33:52.895735+00:00"
-      },
       "source": {
         "source_id": "12333430",
         "source_url": "https://sdilej.cz/12333430/teta-mick-1x05-cz.avi",
@@ -700937,22 +700931,29 @@
         "display_name": "The Mick S01E05 The Fire SD CZ Dabing",
         "prepared_at": "2026-11-20T03:34:12.315825+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195776",
-        "size_bytes": 373002240
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195776",
-        "size_bytes": 373002240,
-        "source_bytes_read": 373002240,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195776",
         "source_bytes_read": 373002240,
         "elapsed_seconds": 27.258,
         "finished_at": "2026-11-20T03:35:06.967029+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195776",
+          "size_bytes": 373002240,
+          "source_bytes_read": 373002240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12333430",
+        "source_url": "https://sdilej.cz/12333430/teta-mick-1x05-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195776",
+        "display_name": "The Mick S01E05 The Fire SD CZ Dabing",
+        "uploaded_at": "2026-11-20T03:35:13.849631+00:00"
       }
     },
     "1975:1:9": {
@@ -701700,7 +701701,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:35:06.967047+00:00",
+  "updated_at": "2026-11-20T03:35:13.849648+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
