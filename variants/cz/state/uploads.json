@@ -706598,12 +706598,6 @@
     },
     "1119:4:18": {
       "episode_key": "upíří deníky:s4:e18",
-      "claim": {
-        "worker_id": "850442421e174accb3fe400b28bd93d6-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:28:31.190498+00:00",
-        "lease_expires_at": "2026-11-20T11:28:31.190508+00:00"
-      },
       "source": {
         "source_id": "34593752",
         "source_url": "https://sdilej.cz/34593752/upiri-deniky-s04e18-zapadakov-cz-dabing-h265-2012.mkv",
@@ -706628,22 +706622,29 @@
         "display_name": "The Vampire Diaries S04E18 American Gothic 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:28:36.527979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197624",
-        "size_bytes": 595050356
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197624",
-        "size_bytes": 595050356,
-        "source_bytes_read": 595050356,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197624",
         "source_bytes_read": 595050356,
         "elapsed_seconds": 52.224,
         "finished_at": "2026-11-20T05:30:01.359722+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197624",
+          "size_bytes": 595050356,
+          "source_bytes_read": 595050356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34593752",
+        "source_url": "https://sdilej.cz/34593752/upiri-deniky-s04e18-zapadakov-cz-dabing-h265-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197624",
+        "display_name": "The Vampire Diaries S04E18 American Gothic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:30:13.049453+00:00"
       }
     },
     "1119:4:19": {
@@ -706726,7 +706727,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:30:05.789974+00:00",
+  "updated_at": "2026-11-20T05:30:13.049469+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
