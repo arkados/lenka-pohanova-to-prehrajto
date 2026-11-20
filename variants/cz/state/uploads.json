@@ -748757,12 +748757,6 @@
     },
     "38:3:13": {
       "episode_key": "průměrňákovi:s3:e13",
-      "claim": {
-        "worker_id": "91df2b179ebe4f11bd0349ccdab700a8-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:52:17.454045+00:00",
-        "lease_expires_at": "2026-11-21T04:52:17.454056+00:00"
-      },
       "source": {
         "source_id": "27602711",
         "source_url": "https://sdilej.cz/27602711/prumernakovi-s03e13-cz.mkv",
@@ -748803,7 +748797,13 @@
         "elapsed_seconds": 64.065,
         "finished_at": "2026-11-20T22:54:50.933675+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T22:56:40.212887+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "38:3:14": {
       "episode_key": "průměrňákovi:s3:e14",
@@ -748820,7 +748820,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:56:35.587326+00:00",
+  "updated_at": "2026-11-20T22:56:40.212902+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
