@@ -721295,12 +721295,6 @@
     },
     "1084:7:20": {
       "episode_key": "zoufalé manželky:s7:e20",
-      "claim": {
-        "worker_id": "076cd21c38cd43df8867f83ca1de7389-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:56:33.002966+00:00",
-        "lease_expires_at": "2026-11-20T17:56:33.002983+00:00"
-      },
       "source": {
         "source_id": "33109062",
         "source_url": "https://sdilej.cz/33109062/zoufale-manzelky-s07e20-cz-dabing.mp4",
@@ -721324,7 +721318,17 @@
         },
         "display_name": "Desperate Housewives S07E20 I'll Swallow Poison on Sunday 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:56:38.830958+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109062:https://sdilej.cz/33109062/zoufale-manzelky-s07e20-cz-dabing.mp4",
+        "at": "2026-11-20T11:56:52.346132+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T11:56:52.346164+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -721332,7 +721336,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:56:38.830975+00:00",
+  "updated_at": "2026-11-20T11:56:52.346169+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -721905,6 +721909,10 @@
         {
           "identity": "1084:7:19",
           "at": "2026-11-20T11:56:22.168943+00:00"
+        },
+        {
+          "identity": "1084:7:20",
+          "at": "2026-11-20T11:56:52.346132+00:00"
         }
       ],
       "retry_after": "2026-11-20T11:39:49.608869+00:00"
