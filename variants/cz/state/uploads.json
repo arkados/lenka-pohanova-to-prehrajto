@@ -696416,28 +696416,29 @@
           "at": "2026-11-20T02:55:37.586538+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e90cd2e5a5d14e2bbfe72d6c3b297dcf-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:55:42.581294+00:00",
-        "lease_expires_at": "2026-11-20T08:55:42.581305+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31195217",
-        "size_bytes": 687655306
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195217",
-        "size_bytes": 687655306,
-        "source_bytes_read": 687655306,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195217",
         "source_bytes_read": 687655306,
         "elapsed_seconds": 44.268,
         "finished_at": "2026-11-20T02:57:01.754019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195217",
+          "size_bytes": 687655306,
+          "source_bytes_read": 687655306,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29271361",
+        "source_url": "https://sdilej.cz/29271361/tri-musketyri-s01e09-009-2014-hd-jezdec-bere-damu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195217",
+        "display_name": "The Musketeers S01E09 Knight Takes Queen 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:57:10.492904+00:00"
       }
     },
     "1628:1:10": {
@@ -700513,7 +700514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:57:01.754041+00:00",
+  "updated_at": "2026-11-20T02:57:10.492920+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
