@@ -698410,12 +698410,6 @@
         }
       ],
       "episode_key": "prcek:s1:e3",
-      "claim": {
-        "worker_id": "25e5db1791b449b29b74d15682930534-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:33:57.446913+00:00",
-        "lease_expires_at": "2026-11-20T08:33:57.446924+00:00"
-      },
       "source": {
         "source_id": "35345774",
         "source_url": "https://sdilej.cz/35345774/el-chapo-01x03-oko-za-oko-juraison-.mkv",
@@ -698440,22 +698434,29 @@
         "display_name": "El Chapo S01E03 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:34:03.076462+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194857",
-        "size_bytes": 1531425505
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194857",
-        "size_bytes": 1531425505,
-        "source_bytes_read": 1531425505,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194857",
         "source_bytes_read": 1531425505,
         "elapsed_seconds": 192.051,
         "finished_at": "2026-11-20T02:37:33.874523+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194857",
+          "size_bytes": 1531425505,
+          "source_bytes_read": 1531425505,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35345774",
+        "source_url": "https://sdilej.cz/35345774/el-chapo-01x03-oko-za-oko-juraison-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194857",
+        "display_name": "El Chapo S01E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:37:53.258124+00:00"
       }
     },
     "695:1:4": {
@@ -699513,7 +699514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:37:47.178283+00:00",
+  "updated_at": "2026-11-20T02:37:53.258140+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
