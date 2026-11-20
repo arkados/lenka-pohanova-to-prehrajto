@@ -718436,12 +718436,6 @@
     },
     "1084:5:15": {
       "episode_key": "zoufalé manželky:s5:e15",
-      "claim": {
-        "worker_id": "d28778ff56d34fc2ad76e93e49748f29-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:48:08.605360+00:00",
-        "lease_expires_at": "2026-11-20T16:48:08.605374+00:00"
-      },
       "source": {
         "source_id": "27621606",
         "source_url": "https://sdilej.cz/27621606/zoufale-manzelky-s05e15-cz.mkv",
@@ -718466,22 +718460,29 @@
         "display_name": "Desperate Housewives S05E15 In a World Where the Kings are Employers 1080p CZ Dabing",
         "prepared_at": "2026-11-20T10:48:17.898410+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202296",
-        "size_bytes": 943255975
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202296",
-        "size_bytes": 943255975,
-        "source_bytes_read": 943255975,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202296",
         "source_bytes_read": 943255975,
         "elapsed_seconds": 145.394,
         "finished_at": "2026-11-20T10:51:07.994606+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202296",
+          "size_bytes": 943255975,
+          "source_bytes_read": 943255975,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27621606",
+        "source_url": "https://sdilej.cz/27621606/zoufale-manzelky-s05e15-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202296",
+        "display_name": "Desperate Housewives S05E15 In a World Where the Kings are Employers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:51:24.894839+00:00"
       }
     },
     "1084:5:16": {
@@ -718527,7 +718528,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:51:07.994626+00:00",
+  "updated_at": "2026-11-20T10:51:24.894855+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
