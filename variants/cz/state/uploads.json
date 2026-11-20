@@ -740871,12 +740871,6 @@
     },
     "1065:15:9": {
       "episode_key": "kriminálka las vegas:s15:e9",
-      "claim": {
-        "worker_id": "cbcf9190a0da4e7abcd8a1d2d3abe2d3-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T19:10:23.770302+00:00",
-        "lease_expires_at": "2026-11-21T01:10:23.770320+00:00"
-      },
       "source": {
         "source_id": "34205941",
         "source_url": "https://sdilej.cz/34205941/kriminalka-las-vegas-s15e09-1080p-cz.mkv",
@@ -740901,22 +740895,29 @@
         "display_name": "CSI: Crime Scene Investigation S15E09 Let's Make a Deal 1080p CZ Dabing",
         "prepared_at": "2026-11-20T19:10:30.061291+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31211735",
-        "size_bytes": 1013198008
-      },
-      "transfer_receipt": {
-        "target_video_id": "31211735",
-        "size_bytes": 1013198008,
-        "source_bytes_read": 1013198008,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31211735",
         "source_bytes_read": 1013198008,
         "elapsed_seconds": 70.18,
         "finished_at": "2026-11-20T19:12:13.127862+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31211735",
+          "size_bytes": 1013198008,
+          "source_bytes_read": 1013198008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34205941",
+        "source_url": "https://sdilej.cz/34205941/kriminalka-las-vegas-s15e09-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31211735",
+        "display_name": "CSI: Crime Scene Investigation S15E09 Let's Make a Deal 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T19:12:33.276574+00:00"
       }
     },
     "1065:15:10": {
@@ -740958,7 +740959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T19:12:28.345078+00:00",
+  "updated_at": "2026-11-20T19:12:33.276593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
