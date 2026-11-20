@@ -699492,12 +699492,6 @@
         }
       ],
       "episode_key": "prcek:s2:e11",
-      "claim": {
-        "worker_id": "5c2afd4912b340359f1df4ccc2fbc2f5-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:53:16.892601+00:00",
-        "lease_expires_at": "2026-11-20T08:53:16.892613+00:00"
-      },
       "source": {
         "source_id": "26800993",
         "source_url": "https://sdilej.cz/26800993/el.chapo.02x11..cz.mkv",
@@ -699522,22 +699516,29 @@
         "display_name": "El Chapo S02E11 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:53:29.556840+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195173",
-        "size_bytes": 617478928
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195173",
-        "size_bytes": 617478928,
-        "source_bytes_read": 617478928,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195173",
         "source_bytes_read": 617478928,
         "elapsed_seconds": 86.722,
         "finished_at": "2026-11-20T02:55:21.282481+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195173",
+          "size_bytes": 617478928,
+          "source_bytes_read": 617478928,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26800993",
+        "source_url": "https://sdilej.cz/26800993/el.chapo.02x11..cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195173",
+        "display_name": "El Chapo S02E11 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:55:28.089328+00:00"
       }
     },
     "695:2:10": {
@@ -700453,7 +700454,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:55:21.282500+00:00",
+  "updated_at": "2026-11-20T02:55:28.089343+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
