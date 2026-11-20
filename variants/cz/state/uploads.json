@@ -726567,12 +726567,6 @@
     },
     "265:3:8": {
       "episode_key": "jeho temné esence:s3:e8",
-      "claim": {
-        "worker_id": "14965c24e932411981fcd84d507867b0-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:34:53.776160+00:00",
-        "lease_expires_at": "2026-11-20T19:34:53.776180+00:00"
-      },
       "source": {
         "source_id": "33926582",
         "source_url": "https://sdilej.cz/33926582/jeho-temne-esence-s03e08-2023-1080p-h265-cz-sk-fantasy.mkv",
@@ -726597,22 +726591,29 @@
         "display_name": "His Dark Materials S03E08 The Botanic Garden 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:35:09.738914+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205438",
-        "size_bytes": 1015798067
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205438",
-        "size_bytes": 1015798067,
-        "source_bytes_read": 1015798067,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205438",
         "source_bytes_read": 1015798067,
         "elapsed_seconds": 140.471,
         "finished_at": "2026-11-20T13:37:56.459887+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205438",
+          "size_bytes": 1015798067,
+          "source_bytes_read": 1015798067,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33926582",
+        "source_url": "https://sdilej.cz/33926582/jeho-temne-esence-s03e08-2023-1080p-h265-cz-sk-fantasy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205438",
+        "display_name": "His Dark Materials S03E08 The Botanic Garden 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:38:05.344798+00:00"
       }
     },
     "1065:1:1": {
@@ -726695,7 +726696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:37:56.459908+00:00",
+  "updated_at": "2026-11-20T13:38:05.344817+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
