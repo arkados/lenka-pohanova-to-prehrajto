@@ -733860,12 +733860,6 @@
     },
     "1065:8:5": {
       "episode_key": "kriminálka las vegas:s8:e5",
-      "claim": {
-        "worker_id": "62aaf31e856e4db2af3d92918dca5e31-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:43:19.822285+00:00",
-        "lease_expires_at": "2026-11-20T22:43:19.822298+00:00"
-      },
       "source": {
         "source_id": "25505516",
         "source_url": "https://sdilej.cz/25505516/kriminalka-las-vegas-08x05.avi",
@@ -733890,22 +733884,29 @@
         "display_name": "CSI: Crime Scene Investigation S08E05 The Chick Chop Flick Shop SD CZ Dabing",
         "prepared_at": "2026-11-20T16:43:36.000885+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208689",
-        "size_bytes": 367128699
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208689",
-        "size_bytes": 367128699,
-        "source_bytes_read": 367128699,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208689",
         "source_bytes_read": 367128699,
         "elapsed_seconds": 35.874,
         "finished_at": "2026-11-20T16:44:42.413130+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208689",
+          "size_bytes": 367128699,
+          "source_bytes_read": 367128699,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25505516",
+        "source_url": "https://sdilej.cz/25505516/kriminalka-las-vegas-08x05.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208689",
+        "display_name": "CSI: Crime Scene Investigation S08E05 The Chick Chop Flick Shop SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:44:56.560518+00:00"
       }
     },
     "1065:8:6": {
@@ -734001,7 +734002,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:44:47.637575+00:00",
+  "updated_at": "2026-11-20T16:44:56.560537+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
