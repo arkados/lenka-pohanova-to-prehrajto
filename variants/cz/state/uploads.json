@@ -709236,12 +709236,6 @@
     },
     "1119:7:3": {
       "episode_key": "upíří deníky:s7:e3",
-      "claim": {
-        "worker_id": "2c772a4a5f734ef4864565123e1fedff-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:31:01.400423+00:00",
-        "lease_expires_at": "2026-11-20T12:31:01.400435+00:00"
-      },
       "source": {
         "source_id": "34603239",
         "source_url": "https://sdilej.cz/34603239/upiri-deniky-s07e03-vek-nevinnosti-cz-dabing-h265-2015.mkv",
@@ -709266,22 +709260,29 @@
         "display_name": "The Vampire Diaries S07E03 Age of Innocence 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:31:07.048991+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198468",
-        "size_bytes": 508231602
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198468",
-        "size_bytes": 508231602,
-        "source_bytes_read": 508231602,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198468",
         "source_bytes_read": 508231602,
         "elapsed_seconds": 33.396,
         "finished_at": "2026-11-20T06:32:02.244686+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198468",
+          "size_bytes": 508231602,
+          "source_bytes_read": 508231602,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34603239",
+        "source_url": "https://sdilej.cz/34603239/upiri-deniky-s07e03-vek-nevinnosti-cz-dabing-h265-2015.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198468",
+        "display_name": "The Vampire Diaries S07E03 Age of Innocence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:32:12.756244+00:00"
       }
     },
     "1119:7:4": {
@@ -709323,7 +709324,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:32:07.990764+00:00",
+  "updated_at": "2026-11-20T06:32:12.756260+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
