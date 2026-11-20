@@ -720244,12 +720244,6 @@
     },
     "1084:7:4": {
       "episode_key": "zoufalé manželky:s7:e4",
-      "claim": {
-        "worker_id": "910992d1b7044318828c8decae416b6b-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:29:14.917521+00:00",
-        "lease_expires_at": "2026-11-20T17:29:14.917535+00:00"
-      },
       "source": {
         "source_id": "33108971",
         "source_url": "https://sdilej.cz/33108971/zoufale-manzelky-s07e04-cz-dabing.mp4",
@@ -720273,7 +720267,17 @@
         },
         "display_name": "Desperate Housewives S07E04 The Thing That Counts Is What's Inside 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:29:29.826255+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33108971:https://sdilej.cz/33108971/zoufale-manzelky-s07e04-cz-dabing.mp4",
+        "at": "2026-11-20T11:29:49.608869+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T11:29:49.608934+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:7:5": {
       "episode_key": "zoufalé manželky:s7:e5",
@@ -720318,7 +720322,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:29:44.213166+00:00",
+  "updated_at": "2026-11-20T11:29:49.608940+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -720905,19 +720909,19 @@
     "1084": {
       "recent_failures": [
         {
-          "identity": "1084:7:3",
-          "at": "2026-11-20T11:29:00.518026+00:00"
-        },
-        {
           "identity": "1084:7:2",
           "at": "2026-11-20T11:29:05.711122+00:00"
         },
         {
           "identity": "1084:7:5",
           "at": "2026-11-20T11:29:39.807971+00:00"
+        },
+        {
+          "identity": "1084:7:4",
+          "at": "2026-11-20T11:29:49.608869+00:00"
         }
       ],
-      "retry_after": "2026-11-20T11:39:39.807971+00:00"
+      "retry_after": "2026-11-20T11:39:49.608869+00:00"
     }
   }
 }
