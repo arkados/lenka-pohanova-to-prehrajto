@@ -729474,12 +729474,6 @@
     },
     "1065:3:15": {
       "episode_key": "kriminálka las vegas:s3:e15",
-      "claim": {
-        "worker_id": "b70e10919f0b434caf1e166a970f7841-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T15:13:38.630691+00:00",
-        "lease_expires_at": "2026-11-20T21:13:38.630706+00:00"
-      },
       "source": {
         "source_id": "29958493",
         "source_url": "https://sdilej.cz/29958493/kriminalka-las-vegas-s03e15-1080p-cz-dabing.mkv",
@@ -729504,22 +729498,29 @@
         "display_name": "CSI: Crime Scene Investigation S03E15 Lady Heather's Box 1080p CZ Dabing",
         "prepared_at": "2026-11-20T15:13:53.198583+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31206899",
-        "size_bytes": 3829583588
-      },
-      "transfer_receipt": {
-        "target_video_id": "31206899",
-        "size_bytes": 3829583588,
-        "source_bytes_read": 3829583588,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31206899",
         "source_bytes_read": 3829583588,
         "elapsed_seconds": 291.278,
         "finished_at": "2026-11-20T15:19:07.051362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31206899",
+          "size_bytes": 3829583588,
+          "source_bytes_read": 3829583588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29958493",
+        "source_url": "https://sdilej.cz/29958493/kriminalka-las-vegas-s03e15-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31206899",
+        "display_name": "CSI: Crime Scene Investigation S03E15 Lady Heather's Box 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T15:19:19.031256+00:00"
       }
     },
     "1065:3:16": {
@@ -729601,7 +729602,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:19:11.762735+00:00",
+  "updated_at": "2026-11-20T15:19:19.031275+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
