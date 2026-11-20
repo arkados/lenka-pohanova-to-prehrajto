@@ -750499,12 +750499,6 @@
     },
     "38:4:24": {
       "episode_key": "průměrňákovi:s4:e24",
-      "claim": {
-        "worker_id": "e86a17371e6d40d79a7774de58c4e674-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:41:02.184656+00:00",
-        "lease_expires_at": "2026-11-21T05:41:02.184666+00:00"
-      },
       "source": {
         "source_id": "27603457",
         "source_url": "https://sdilej.cz/27603457/prumernakovi-s04e24-cz.mkv",
@@ -750529,22 +750523,29 @@
         "display_name": "The Middle S04E24 The Graduation 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:41:24.144959+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215611",
-        "size_bytes": 957176698
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215611",
-        "size_bytes": 957176698,
-        "source_bytes_read": 957176698,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215611",
         "source_bytes_read": 957176698,
         "elapsed_seconds": 62.678,
         "finished_at": "2026-11-20T23:42:53.372256+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215611",
+          "size_bytes": 957176698,
+          "source_bytes_read": 957176698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603457",
+        "source_url": "https://sdilej.cz/27603457/prumernakovi-s04e24-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215611",
+        "display_name": "The Middle S04E24 The Graduation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:43:02.765771+00:00"
       }
     },
     "38:5:1": {
@@ -750590,7 +750591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:42:53.372273+00:00",
+  "updated_at": "2026-11-20T23:43:02.765787+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
