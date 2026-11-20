@@ -695373,25 +695373,19 @@
     "10458:1:2": {
       "attempts": [
         {
-          "at": "2026-11-19T17:01:42.758263+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-19T17:31:19.687407+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-19T18:01:48.989613+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-20T01:50:06.487309+00:00",
+          "error": "SourceUnavailable"
         }
       ],
       "episode_key": "posedlost:s1:e2",
-      "claim": {
-        "worker_id": "4c4b8940eab94a9ba6bff3a0084340dd-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:49:44.724058+00:00",
-        "lease_expires_at": "2026-11-20T07:49:44.724068+00:00"
-      },
       "source": {
         "source_id": "34757261",
         "source_url": "https://sdilej.cz/34757261/posedlost-s01e02-cz-dabing-1080p-full-hd.mkv",
@@ -695415,6 +695409,10 @@
         },
         "display_name": "Furious S01E02 My life had stood - a Loaded Gun 4K CZ Dabing",
         "prepared_at": "2026-11-20T01:49:50.271883+00:00"
+      },
+      "source_repair_requested": {
+        "base": "34757261:https://sdilej.cz/34757261/posedlost-s01e02-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-20T01:50:06.487277+00:00"
       }
     },
     "10458:1:4": {
@@ -697326,7 +697324,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:50:00.689059+00:00",
+  "updated_at": "2026-11-20T01:50:06.487315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -697886,6 +697884,10 @@
         {
           "identity": "10458:1:1",
           "at": "2026-11-20T01:49:29.461789+00:00"
+        },
+        {
+          "identity": "10458:1:2",
+          "at": "2026-11-20T01:50:06.487277+00:00"
         }
       ]
     }
