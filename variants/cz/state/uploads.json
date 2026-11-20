@@ -713163,12 +713163,6 @@
     },
     "1618:1:7": {
       "episode_key": "sobík:s1:e7",
-      "claim": {
-        "worker_id": "f5909f0102884ac1ba1800bed276d18b-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T08:47:18.812888+00:00",
-        "lease_expires_at": "2026-11-20T14:47:18.812904+00:00"
-      },
       "source": {
         "source_id": "29294563",
         "source_url": "https://sdilej.cz/29294563/sobik-s01e07-1080p-cz-dabing.mkv",
@@ -713193,22 +713187,29 @@
         "display_name": "Baby Reindeer S01E07 1080p CZ Dabing",
         "prepared_at": "2026-11-20T08:47:33.367498+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200249",
-        "size_bytes": 624915453
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200249",
-        "size_bytes": 624915453,
-        "source_bytes_read": 624915453,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200249",
         "source_bytes_read": 624915453,
         "elapsed_seconds": 54.668,
         "finished_at": "2026-11-20T08:48:51.916325+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200249",
+          "size_bytes": 624915453,
+          "source_bytes_read": 624915453,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29294563",
+        "source_url": "https://sdilej.cz/29294563/sobik-s01e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200249",
+        "display_name": "Baby Reindeer S01E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:49:00.268563+00:00"
       }
     },
     "756:1:1": {
@@ -713254,7 +713255,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:48:51.916344+00:00",
+  "updated_at": "2026-11-20T08:49:00.268579+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
