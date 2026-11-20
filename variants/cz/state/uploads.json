@@ -727304,12 +727304,6 @@
     },
     "1065:1:17": {
       "episode_key": "kriminálka las vegas:s1:e17",
-      "claim": {
-        "worker_id": "43f7277496c64d8f9cec86da1bf41bb2-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:59:03.051714+00:00",
-        "lease_expires_at": "2026-11-20T19:59:03.051728+00:00"
-      },
       "source": {
         "source_id": "25406565",
         "source_url": "https://sdilej.cz/25406565/kriminalka-las-vegas-01x17.avi",
@@ -727334,22 +727328,29 @@
         "display_name": "CSI: Crime Scene Investigation S01E17 Face Lift SD CZ Dabing",
         "prepared_at": "2026-11-20T13:59:09.300196+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205777",
-        "size_bytes": 500243108
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205777",
-        "size_bytes": 500243108,
-        "source_bytes_read": 500243108,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205777",
         "source_bytes_read": 500243108,
         "elapsed_seconds": 26.84,
         "finished_at": "2026-11-20T13:59:56.088604+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205777",
+          "size_bytes": 500243108,
+          "source_bytes_read": 500243108,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25406565",
+        "source_url": "https://sdilej.cz/25406565/kriminalka-las-vegas-01x17.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205777",
+        "display_name": "CSI: Crime Scene Investigation S01E17 Face Lift SD CZ Dabing",
+        "uploaded_at": "2026-11-20T14:00:03.325495+00:00"
       }
     }
   },
@@ -727358,7 +727359,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:59:56.088627+00:00",
+  "updated_at": "2026-11-20T14:00:03.325514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
