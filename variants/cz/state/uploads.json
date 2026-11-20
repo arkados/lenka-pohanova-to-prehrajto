@@ -699809,12 +699809,6 @@
         }
       ],
       "episode_key": "prcek:s3:e1",
-      "claim": {
-        "worker_id": "7ebc06ca94bd4c57b4f6f66b437f4ae8-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:58:55.884252+00:00",
-        "lease_expires_at": "2026-11-20T08:58:55.884261+00:00"
-      },
       "source": {
         "source_id": "14095133",
         "source_url": "https://sdilej.cz/14095133/el-chapo-s03e01-nove-cesty-cz-dabing.avi",
@@ -699839,22 +699833,29 @@
         "display_name": "El Chapo S03E01 Episodio 01 SD CZ Dabing",
         "prepared_at": "2026-11-20T02:59:14.109110+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195275",
-        "size_bytes": 265508080
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195275",
-        "size_bytes": 265508080,
-        "source_bytes_read": 265508080,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195275",
         "source_bytes_read": 265508080,
         "elapsed_seconds": 15.069,
         "finished_at": "2026-11-20T02:59:57.785372+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195275",
+          "size_bytes": 265508080,
+          "source_bytes_read": 265508080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14095133",
+        "source_url": "https://sdilej.cz/14095133/el-chapo-s03e01-nove-cesty-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195275",
+        "display_name": "El Chapo S03E01 Episodio 01 SD CZ Dabing",
+        "uploaded_at": "2026-11-20T03:00:11.358259+00:00"
       }
     },
     "695:3:3": {
@@ -700703,7 +700704,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:00:02.466626+00:00",
+  "updated_at": "2026-11-20T03:00:11.358276+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
