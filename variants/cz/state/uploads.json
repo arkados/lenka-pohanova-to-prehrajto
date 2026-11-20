@@ -719303,12 +719303,6 @@
     },
     "1084:6:8": {
       "episode_key": "zoufalé manželky:s6:e8",
-      "claim": {
-        "worker_id": "1ea461d25f86402b98202575f7df06f2-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:06:05.778160+00:00",
-        "lease_expires_at": "2026-11-20T17:06:05.778180+00:00"
-      },
       "source": {
         "source_id": "27625526",
         "source_url": "https://sdilej.cz/27625526/zoufale-manzelky-s06e08-cz.mkv",
@@ -719333,22 +719327,29 @@
         "display_name": "Desperate Housewives S06E08 The Coffee Cup 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:06:11.534870+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202628",
-        "size_bytes": 943646922
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202628",
-        "size_bytes": 943646922,
-        "source_bytes_read": 943646922,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202628",
         "source_bytes_read": 943646922,
         "elapsed_seconds": 248.945,
         "finished_at": "2026-11-20T11:10:40.342029+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202628",
+          "size_bytes": 943646922,
+          "source_bytes_read": 943646922,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625526",
+        "source_url": "https://sdilej.cz/27625526/zoufale-manzelky-s06e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202628",
+        "display_name": "Desperate Housewives S06E08 The Coffee Cup 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:10:52.066283+00:00"
       }
     },
     "1084:6:9": {
@@ -719444,7 +719445,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:10:45.133587+00:00",
+  "updated_at": "2026-11-20T11:10:52.066299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
