@@ -703295,12 +703295,6 @@
         }
       ],
       "episode_key": "upíří deníky:s1:e22",
-      "claim": {
-        "worker_id": "eeb99d78f3d04691ac0034f612571503-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:23:40.023436+00:00",
-        "lease_expires_at": "2026-11-20T10:23:40.023446+00:00"
-      },
       "source": {
         "source_id": "30067493",
         "source_url": "https://sdilej.cz/30067493/upiri-deniky-s01e22.mkv",
@@ -703325,22 +703319,29 @@
         "display_name": "The Vampire Diaries S01E22 Founder's Day 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:23:45.505119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196559",
-        "size_bytes": 1821019945
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196559",
-        "size_bytes": 1821019945,
-        "source_bytes_read": 1821019945,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196559",
         "source_bytes_read": 1821019945,
         "elapsed_seconds": 372.009,
         "finished_at": "2026-11-20T04:30:18.066668+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196559",
+          "size_bytes": 1821019945,
+          "source_bytes_read": 1821019945,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30067493",
+        "source_url": "https://sdilej.cz/30067493/upiri-deniky-s01e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196559",
+        "display_name": "The Vampire Diaries S01E22 Founder's Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:30:26.244558+00:00"
       }
     },
     "1119:2:1": {
@@ -703860,7 +703861,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:30:18.066687+00:00",
+  "updated_at": "2026-11-20T04:30:26.244579+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
