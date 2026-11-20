@@ -720410,12 +720410,6 @@
     },
     "414:1:1": {
       "episode_key": "šimpanzí říše:s1:e1",
-      "claim": {
-        "worker_id": "d512f6c7ce774026a5ee68f7bf0ae3c6-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:29:57.313136+00:00",
-        "lease_expires_at": "2026-11-20T17:29:57.313146+00:00"
-      },
       "source": {
         "source_id": "25931018",
         "source_url": "https://sdilej.cz/25931018/simpanzi-rise-s01e01-raj.mkv",
@@ -720440,22 +720434,29 @@
         "display_name": "Chimp Empire S01E01 Paradise 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:30:20.499113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203103",
-        "size_bytes": 2943004107
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203103",
-        "size_bytes": 2943004107,
-        "source_bytes_read": 2943004107,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203103",
         "source_bytes_read": 2943004107,
         "elapsed_seconds": 568.584,
         "finished_at": "2026-11-20T11:40:24.075370+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203103",
+          "size_bytes": 2943004107,
+          "source_bytes_read": 2943004107,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25931018",
+        "source_url": "https://sdilej.cz/25931018/simpanzi-rise-s01e01-raj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203103",
+        "display_name": "Chimp Empire S01E01 Paradise 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:40:31.357153+00:00"
       }
     },
     "414:1:3": {
@@ -720566,7 +720567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:40:24.075392+00:00",
+  "updated_at": "2026-11-20T11:40:31.357170+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
