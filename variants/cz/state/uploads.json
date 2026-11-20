@@ -739994,12 +739994,6 @@
     },
     "1065:14:14": {
       "episode_key": "kriminálka las vegas:s14:e14",
-      "claim": {
-        "worker_id": "827d71b5276846cc917810e032211c0f-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T18:23:04.952318+00:00",
-        "lease_expires_at": "2026-11-21T00:23:04.952334+00:00"
-      },
       "source": {
         "source_id": "34149501",
         "source_url": "https://sdilej.cz/34149501/kriminalka-las-vegas-s14e14-1080p-cz.mkv",
@@ -740024,22 +740018,29 @@
         "display_name": "CSI: Crime Scene Investigation S14E14 De Los Muertos 1080p CZ Dabing",
         "prepared_at": "2026-11-20T18:23:16.751920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210994",
-        "size_bytes": 1035721230
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210994",
-        "size_bytes": 1035721230,
-        "source_bytes_read": 1035721230,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210994",
         "source_bytes_read": 1035721230,
         "elapsed_seconds": 68.63,
         "finished_at": "2026-11-20T18:24:59.760002+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210994",
+          "size_bytes": 1035721230,
+          "source_bytes_read": 1035721230,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149501",
+        "source_url": "https://sdilej.cz/34149501/kriminalka-las-vegas-s14e14-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210994",
+        "display_name": "CSI: Crime Scene Investigation S14E14 De Los Muertos 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T18:25:13.152720+00:00"
       }
     }
   },
@@ -740048,7 +740049,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T18:25:06.277981+00:00",
+  "updated_at": "2026-11-20T18:25:13.157867+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
