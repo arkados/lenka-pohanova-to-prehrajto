@@ -724450,28 +724450,29 @@
           "at": "2026-11-20T12:57:18.081038+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "703b057e6e744723b9652c266ae1bb23-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:57:23.379334+00:00",
-        "lease_expires_at": "2026-11-20T18:57:23.379352+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31204759",
-        "size_bytes": 664887435
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204759",
-        "size_bytes": 664887435,
-        "source_bytes_read": 664887435,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204759",
         "source_bytes_read": 664887435,
         "elapsed_seconds": 117.537,
         "finished_at": "2026-11-20T13:00:02.047234+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204759",
+          "size_bytes": 664887435,
+          "source_bytes_read": 664887435,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32766092",
+        "source_url": "https://sdilej.cz/32766092/zoufale-manzelky-2012-s08e21-czdab-hd-co-reknou-lidi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204759",
+        "display_name": "Desperate Housewives S08E21 The People Will Hear 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:00:11.682812+00:00"
       }
     },
     "1084:8:22": {
@@ -724809,7 +724810,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:00:02.047261+00:00",
+  "updated_at": "2026-11-20T13:00:11.682831+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
