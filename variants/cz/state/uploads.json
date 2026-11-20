@@ -751124,12 +751124,6 @@
     },
     "38:5:12": {
       "episode_key": "průměrňákovi:s5:e12",
-      "claim": {
-        "worker_id": "300c9bb391da4bad86ce2b483beeac4b-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:53:39.045004+00:00",
-        "lease_expires_at": "2026-11-21T05:53:39.045014+00:00"
-      },
       "source": {
         "source_id": "27603720",
         "source_url": "https://sdilej.cz/27603720/prumernakovi-s05e12-cz.mkv",
@@ -751154,22 +751148,29 @@
         "display_name": "The Middle S05E12 The Carpool 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:53:50.005143+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215762",
-        "size_bytes": 957201251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215762",
-        "size_bytes": 957201251,
-        "source_bytes_read": 957201251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215762",
         "source_bytes_read": 957201251,
         "elapsed_seconds": 67.453,
         "finished_at": "2026-11-20T23:55:21.518950+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215762",
+          "size_bytes": 957201251,
+          "source_bytes_read": 957201251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603720",
+        "source_url": "https://sdilej.cz/27603720/prumernakovi-s05e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215762",
+        "display_name": "The Middle S05E12 The Carpool 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:55:36.569352+00:00"
       }
     }
   },
@@ -751178,7 +751179,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:55:31.879566+00:00",
+  "updated_at": "2026-11-20T23:55:36.569370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
