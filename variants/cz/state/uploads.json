@@ -694831,12 +694831,6 @@
         }
       ],
       "episode_key": "směr jih:s2:e15",
-      "claim": {
-        "worker_id": "41d7d746f9874acb951d7908bda8feb2-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:42:29.080875+00:00",
-        "lease_expires_at": "2026-11-20T07:42:29.080886+00:00"
-      },
       "source": {
         "source_id": "33647863",
         "source_url": "https://sdilej.cz/33647863/smer-jih-02x15-cz.mp4",
@@ -694861,22 +694855,29 @@
         "display_name": "Due South S02E15 Body Language 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:42:34.839400+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194249",
-        "size_bytes": 865812311
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194249",
-        "size_bytes": 865812311,
-        "source_bytes_read": 865812311,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194249",
         "source_bytes_read": 865812311,
         "elapsed_seconds": 53.972,
         "finished_at": "2026-11-20T01:43:56.319464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194249",
+          "size_bytes": 865812311,
+          "source_bytes_read": 865812311,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647863",
+        "source_url": "https://sdilej.cz/33647863/smer-jih-02x15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194249",
+        "display_name": "Due South S02E15 Body Language 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:44:13.543414+00:00"
       }
     },
     "2234:2:16": {
@@ -696971,7 +696972,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:44:09.056057+00:00",
+  "updated_at": "2026-11-20T01:44:13.543427+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
