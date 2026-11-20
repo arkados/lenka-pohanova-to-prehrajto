@@ -713673,12 +713673,6 @@
     },
     "1084:1:3": {
       "episode_key": "zoufalé manželky:s1:e3",
-      "claim": {
-        "worker_id": "0bdd805abfd340458b715c62083298d6-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:00:36.887928+00:00",
-        "lease_expires_at": "2026-11-20T15:00:36.887948+00:00"
-      },
       "source": {
         "source_id": "27618395",
         "source_url": "https://sdilej.cz/27618395/zoufale-manzelky-s01e03-cz.mkv",
@@ -713703,22 +713697,29 @@
         "display_name": "Desperate Housewives S01E03 Pretty Little Picture 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:00:46.941739+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200433",
-        "size_bytes": 563737528
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200433",
-        "size_bytes": 563737528,
-        "source_bytes_read": 563737528,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200433",
         "source_bytes_read": 563737528,
         "elapsed_seconds": 38.162,
         "finished_at": "2026-11-20T09:01:47.235067+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200433",
+          "size_bytes": 563737528,
+          "source_bytes_read": 563737528,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27618395",
+        "source_url": "https://sdilej.cz/27618395/zoufale-manzelky-s01e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200433",
+        "display_name": "Desperate Housewives S01E03 Pretty Little Picture 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:01:54.722360+00:00"
       }
     },
     "1084:1:4": {
@@ -713764,7 +713765,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:01:47.235088+00:00",
+  "updated_at": "2026-11-20T09:01:54.722377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
