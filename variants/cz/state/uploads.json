@@ -718122,12 +718122,6 @@
     },
     "1084:5:9": {
       "episode_key": "zoufalé manželky:s5:e9",
-      "claim": {
-        "worker_id": "d01a8fe35da546dfa95bc4a310f2d2be-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:38:42.941434+00:00",
-        "lease_expires_at": "2026-11-20T16:38:42.941445+00:00"
-      },
       "source": {
         "source_id": "34400306",
         "source_url": "https://sdilej.cz/34400306/zoufale-manzelky-s05e09-096-2008-hd-po-pozaru-s-.mp4",
@@ -718152,22 +718146,29 @@
         "display_name": "Desperate Housewives S05E09 Me and My Town 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:38:53.214018+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202115",
-        "size_bytes": 865392011
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202115",
-        "size_bytes": 865392011,
-        "source_bytes_read": 865392011,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202115",
         "source_bytes_read": 865392011,
         "elapsed_seconds": 135.009,
         "finished_at": "2026-11-20T10:41:34.549735+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202115",
+          "size_bytes": 865392011,
+          "source_bytes_read": 865392011,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400306",
+        "source_url": "https://sdilej.cz/34400306/zoufale-manzelky-s05e09-096-2008-hd-po-pozaru-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202115",
+        "display_name": "Desperate Housewives S05E09 Me and My Town 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:41:50.069581+00:00"
       }
     }
   },
@@ -718176,7 +718177,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:41:45.068667+00:00",
+  "updated_at": "2026-11-20T10:41:50.069595+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
