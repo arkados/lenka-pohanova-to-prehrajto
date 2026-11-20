@@ -715268,12 +715268,6 @@
     },
     "1084:2:13": {
       "episode_key": "zoufalé manželky:s2:e13",
-      "claim": {
-        "worker_id": "af57d78ebc894a8982950a3654132dda-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:30:19.814007+00:00",
-        "lease_expires_at": "2026-11-20T15:30:19.814019+00:00"
-      },
       "source": {
         "source_id": "27619161",
         "source_url": "https://sdilej.cz/27619161/zoufale-manzelky-s02e13-cz.mkv",
@@ -715298,22 +715292,29 @@
         "display_name": "Desperate Housewives S02E13 There's Something About a War 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:30:36.310070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200886",
-        "size_bytes": 558071905
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200886",
-        "size_bytes": 558071905,
-        "source_bytes_read": 558071905,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200886",
         "source_bytes_read": 558071905,
         "elapsed_seconds": 45.199,
         "finished_at": "2026-11-20T09:31:58.289983+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200886",
+          "size_bytes": 558071905,
+          "source_bytes_read": 558071905,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27619161",
+        "source_url": "https://sdilej.cz/27619161/zoufale-manzelky-s02e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200886",
+        "display_name": "Desperate Housewives S02E13 There's Something About a War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:32:08.749777+00:00"
       }
     },
     "1084:2:14": {
@@ -715406,7 +715407,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:32:04.143140+00:00",
+  "updated_at": "2026-11-20T09:32:08.749792+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
