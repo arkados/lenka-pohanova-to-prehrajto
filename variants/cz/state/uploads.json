@@ -693206,12 +693206,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e13",
-      "claim": {
-        "worker_id": "33f0479a268b420ebf3e78c8cd334ddd-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:24:45.647189+00:00",
-        "lease_expires_at": "2026-11-20T07:24:45.647204+00:00"
-      },
       "source": {
         "source_id": "33647106",
         "source_url": "https://sdilej.cz/33647106/smer-jih-01x13-cz.mp4",
@@ -693236,22 +693230,29 @@
         "display_name": "Due South S01E13 An Eye for an Eye 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:25:03.054594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193999",
-        "size_bytes": 890640703
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193999",
-        "size_bytes": 890640703,
-        "source_bytes_read": 890640703,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193999",
         "source_bytes_read": 890640703,
         "elapsed_seconds": 57.017,
         "finished_at": "2026-11-20T01:26:30.322681+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193999",
+          "size_bytes": 890640703,
+          "source_bytes_read": 890640703,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647106",
+        "source_url": "https://sdilej.cz/33647106/smer-jih-01x13-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193999",
+        "display_name": "Due South S01E13 An Eye for an Eye 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:26:40.854235+00:00"
       }
     },
     "2234:1:12": {
@@ -695808,7 +695809,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:26:35.181738+00:00",
+  "updated_at": "2026-11-20T01:26:40.854251+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
