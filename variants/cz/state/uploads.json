@@ -705347,12 +705347,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e16",
-      "claim": {
-        "worker_id": "5266385ffbde488b9f6306dc70828ad2-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:08:00.112579+00:00",
-        "lease_expires_at": "2026-11-20T11:08:00.112588+00:00"
-      },
       "source": {
         "source_id": "34591760",
         "source_url": "https://sdilej.cz/34591760/upiri-deniky-s03e16-1912-cz-dabing-h265-2011.mkv",
@@ -705377,22 +705371,29 @@
         "display_name": "The Vampire Diaries S03E16 1912 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:08:05.778527+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197303",
-        "size_bytes": 496398360
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197303",
-        "size_bytes": 496398360,
-        "source_bytes_read": 496398360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197303",
         "source_bytes_read": 496398360,
         "elapsed_seconds": 40.574,
         "finished_at": "2026-11-20T05:09:09.635605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197303",
+          "size_bytes": 496398360,
+          "source_bytes_read": 496398360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34591760",
+        "source_url": "https://sdilej.cz/34591760/upiri-deniky-s03e16-1912-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197303",
+        "display_name": "The Vampire Diaries S03E16 1912 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:09:17.555154+00:00"
       }
     },
     "1119:3:17": {
@@ -705575,7 +705576,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:09:09.635623+00:00",
+  "updated_at": "2026-11-20T05:09:17.555170+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
