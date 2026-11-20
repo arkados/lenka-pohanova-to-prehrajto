@@ -719456,12 +719456,6 @@
     },
     "1084:6:11": {
       "episode_key": "zoufalé manželky:s6:e11",
-      "claim": {
-        "worker_id": "0846d953a68e4e8697f35bcb8122dbcc-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:11:17.442585+00:00",
-        "lease_expires_at": "2026-11-20T17:11:17.442596+00:00"
-      },
       "source": {
         "source_id": "6364437",
         "source_url": "https://sdilej.cz/6364437/zoufale.manzelky.s06e11.avi",
@@ -719486,22 +719480,29 @@
         "display_name": "Desperate Housewives S06E11 If… SD CZ Dabing",
         "prepared_at": "2026-11-20T11:11:29.442771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202729",
-        "size_bytes": 353963126
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202729",
-        "size_bytes": 353963126,
-        "source_bytes_read": 353963126,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202729",
         "source_bytes_read": 353963126,
         "elapsed_seconds": 29.327,
         "finished_at": "2026-11-20T11:12:30.664079+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202729",
+          "size_bytes": 353963126,
+          "source_bytes_read": 353963126,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6364437",
+        "source_url": "https://sdilej.cz/6364437/zoufale.manzelky.s06e11.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202729",
+        "display_name": "Desperate Housewives S06E11 If… SD CZ Dabing",
+        "uploaded_at": "2026-11-20T11:12:45.833585+00:00"
       }
     },
     "1084:6:12": {
@@ -719580,7 +719581,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:12:41.320402+00:00",
+  "updated_at": "2026-11-20T11:12:45.833600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
