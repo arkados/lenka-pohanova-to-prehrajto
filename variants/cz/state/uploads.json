@@ -708383,12 +708383,6 @@
     },
     "1119:6:8": {
       "episode_key": "upíří deníky:s6:e8",
-      "claim": {
-        "worker_id": "7f5326199a384e55b5928ae2e51b75cf-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:19:15.258521+00:00",
-        "lease_expires_at": "2026-11-20T12:19:15.258532+00:00"
-      },
       "source": {
         "source_id": "30080528",
         "source_url": "https://sdilej.cz/30080528/upiri-deniky-s06e08.mkv",
@@ -708413,22 +708407,29 @@
         "display_name": "The Vampire Diaries S06E08 Fade Into You 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:19:28.278076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198336",
-        "size_bytes": 718943760
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198336",
-        "size_bytes": 718943760,
-        "source_bytes_read": 718943760,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198336",
         "source_bytes_read": 718943760,
         "elapsed_seconds": 108.409,
         "finished_at": "2026-11-20T06:21:53.449515+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198336",
+          "size_bytes": 718943760,
+          "source_bytes_read": 718943760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30080528",
+        "source_url": "https://sdilej.cz/30080528/upiri-deniky-s06e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198336",
+        "display_name": "The Vampire Diaries S06E08 Fade Into You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:22:02.041875+00:00"
       }
     },
     "1119:6:9": {
@@ -708609,7 +708610,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:21:57.453197+00:00",
+  "updated_at": "2026-11-20T06:22:02.041892+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
