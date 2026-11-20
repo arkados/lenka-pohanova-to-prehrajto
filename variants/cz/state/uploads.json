@@ -746671,12 +746671,6 @@
     },
     "38:1:16": {
       "episode_key": "průměrňákovi:s1:e16",
-      "claim": {
-        "worker_id": "37296c1413914b0098dfd213687c3111-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:09:58.355508+00:00",
-        "lease_expires_at": "2026-11-21T04:09:58.355518+00:00"
-      },
       "source": {
         "source_id": "27599791",
         "source_url": "https://sdilej.cz/27599791/prumernakovi-s01e16-cz.mkv",
@@ -746701,22 +746695,29 @@
         "display_name": "The Middle S01E16 The Bee 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:10:23.791980+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214258",
-        "size_bytes": 958963276
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214258",
-        "size_bytes": 958963276,
-        "source_bytes_read": 958963276,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214258",
         "source_bytes_read": 958963276,
         "elapsed_seconds": 80.637,
         "finished_at": "2026-11-20T22:12:08.435770+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214258",
+          "size_bytes": 958963276,
+          "source_bytes_read": 958963276,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27599791",
+        "source_url": "https://sdilej.cz/27599791/prumernakovi-s01e16-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214258",
+        "display_name": "The Middle S01E16 The Bee 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:12:24.407088+00:00"
       }
     },
     "38:1:22": {
@@ -746762,7 +746763,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:12:18.866848+00:00",
+  "updated_at": "2026-11-20T22:12:24.407102+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
