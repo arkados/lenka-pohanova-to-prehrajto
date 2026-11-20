@@ -711392,12 +711392,6 @@
     },
     "2409:3:3": {
       "episode_key": "vraždy v brokenwoodu:s3:e3",
-      "claim": {
-        "worker_id": "f3d148ab8b394625b225a0e04ea64aff-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:42:46.368631+00:00",
-        "lease_expires_at": "2026-11-20T13:42:46.368643+00:00"
-      },
       "source": {
         "source_id": "27805595",
         "source_url": "https://sdilej.cz/27805595/vrazdy-v-brokenwoodu-s03e03-vrazedna-jizda.mp4",
@@ -711422,22 +711416,29 @@
         "display_name": "The Brokenwood Mysteries S03E03 The Killing Machine 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:42:54.793935+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199374",
-        "size_bytes": 2121246603
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199374",
-        "size_bytes": 2121246603,
-        "source_bytes_read": 2121246603,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199374",
         "source_bytes_read": 2121246603,
         "elapsed_seconds": 234.938,
         "finished_at": "2026-11-20T07:47:18.665448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199374",
+          "size_bytes": 2121246603,
+          "source_bytes_read": 2121246603,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27805595",
+        "source_url": "https://sdilej.cz/27805595/vrazdy-v-brokenwoodu-s03e03-vrazedna-jizda.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199374",
+        "display_name": "The Brokenwood Mysteries S03E03 The Killing Machine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:47:28.195499+00:00"
       }
     },
     "2409:3:4": {
@@ -711571,7 +711572,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:47:18.665465+00:00",
+  "updated_at": "2026-11-20T07:47:28.195517+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
