@@ -712500,12 +712500,6 @@
     },
     "2409:8:5": {
       "episode_key": "vraždy v brokenwoodu:s8:e5",
-      "claim": {
-        "worker_id": "8347b32286424b41bc0c68b603539297-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T08:13:43.032798+00:00",
-        "lease_expires_at": "2026-11-20T14:13:43.032809+00:00"
-      },
       "source": {
         "source_id": "30609578",
         "source_url": "https://sdilej.cz/30609578/vrazdy-v-brokenwoodu-s08e05-035-2022-hd-zlata-horecka-s-.mp4",
@@ -712530,22 +712524,29 @@
         "display_name": "The Brokenwood Mysteries S08E05 Good as Gold 720p CZ Dabing",
         "prepared_at": "2026-11-20T08:13:48.393804+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199790",
-        "size_bytes": 1248490988
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199790",
-        "size_bytes": 1248490988,
-        "source_bytes_read": 1248490988,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199790",
         "source_bytes_read": 1248490988,
         "elapsed_seconds": 65.51,
         "finished_at": "2026-11-20T08:15:13.243000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199790",
+          "size_bytes": 1248490988,
+          "source_bytes_read": 1248490988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30609578",
+        "source_url": "https://sdilej.cz/30609578/vrazdy-v-brokenwoodu-s08e05-035-2022-hd-zlata-horecka-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199790",
+        "display_name": "The Brokenwood Mysteries S08E05 Good as Gold 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:15:20.219142+00:00"
       }
     },
     "2409:8:6": {
@@ -712591,7 +712592,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:15:13.243017+00:00",
+  "updated_at": "2026-11-20T08:15:20.219159+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
