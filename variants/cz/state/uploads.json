@@ -712143,12 +712143,6 @@
     },
     "2409:7:4": {
       "episode_key": "vraždy v brokenwoodu:s7:e4",
-      "claim": {
-        "worker_id": "d9e2a977cd944a2d85a6a3575ae1c503-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T08:03:27.776112+00:00",
-        "lease_expires_at": "2026-11-20T14:03:27.776123+00:00"
-      },
       "source": {
         "source_id": "30607942",
         "source_url": "https://sdilej.cz/30607942/vrazdy-v-brokenwoodu-s07e04-028-2020-hd-vidle-v-zadech-s-.mp4",
@@ -712173,22 +712167,29 @@
         "display_name": "The Brokenwood Mysteries S07E04 Something Nasty at the Market 720p CZ Dabing",
         "prepared_at": "2026-11-20T08:03:33.092722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199646",
-        "size_bytes": 1187138124
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199646",
-        "size_bytes": 1187138124,
-        "source_bytes_read": 1187138124,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199646",
         "source_bytes_read": 1187138124,
         "elapsed_seconds": 174.235,
         "finished_at": "2026-11-20T08:06:45.779586+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199646",
+          "size_bytes": 1187138124,
+          "source_bytes_read": 1187138124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607942",
+        "source_url": "https://sdilej.cz/30607942/vrazdy-v-brokenwoodu-s07e04-028-2020-hd-vidle-v-zadech-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199646",
+        "display_name": "The Brokenwood Mysteries S07E04 Something Nasty at the Market 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:06:56.286834+00:00"
       }
     },
     "2409:7:5": {
@@ -712206,7 +712207,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:06:50.449190+00:00",
+  "updated_at": "2026-11-20T08:06:56.286851+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
