@@ -706394,12 +706394,6 @@
     },
     "1119:4:14": {
       "episode_key": "upíří deníky:s4:e14",
-      "claim": {
-        "worker_id": "c57d9339c2ae4d77857b008fcb2470de-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:24:58.830153+00:00",
-        "lease_expires_at": "2026-11-20T11:24:58.830169+00:00"
-      },
       "source": {
         "source_id": "34594962",
         "source_url": "https://sdilej.cz/34594962/upiri-deniky-s04e14-davne-zlo-cz-dabing-h265-2012.mkv",
@@ -706424,22 +706418,29 @@
         "display_name": "The Vampire Diaries S04E14 Down the Rabbit Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:25:10.420271+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197577",
-        "size_bytes": 517771156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197577",
-        "size_bytes": 517771156,
-        "source_bytes_read": 517771156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197577",
         "source_bytes_read": 517771156,
         "elapsed_seconds": 34.036,
         "finished_at": "2026-11-20T05:26:08.949281+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197577",
+          "size_bytes": 517771156,
+          "source_bytes_read": 517771156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34594962",
+        "source_url": "https://sdilej.cz/34594962/upiri-deniky-s04e14-davne-zlo-cz-dabing-h265-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197577",
+        "display_name": "The Vampire Diaries S04E14 Down the Rabbit Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:26:20.579804+00:00"
       }
     },
     "1119:4:15": {
@@ -706518,7 +706519,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:26:13.732605+00:00",
+  "updated_at": "2026-11-20T05:26:20.579826+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
