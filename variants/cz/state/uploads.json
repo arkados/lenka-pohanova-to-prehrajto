@@ -746139,28 +746139,29 @@
           "at": "2026-11-20T21:56:49.936189+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1019d33ef49a49328492bc9f6de8101d-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:04:26.933503+00:00",
-        "lease_expires_at": "2026-11-21T04:04:26.933514+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31214167",
-        "size_bytes": 596937594
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214167",
-        "size_bytes": 596937594,
-        "source_bytes_read": 596937594,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214167",
         "source_bytes_read": 596937594,
         "elapsed_seconds": 46.862,
         "finished_at": "2026-11-20T22:06:04.554962+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214167",
+          "size_bytes": 596937594,
+          "source_bytes_read": 596937594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28305076",
+        "source_url": "https://sdilej.cz/28305076/cas-carodejnic-s02e09-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214167",
+        "display_name": "A Discovery of Witches S02E09 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:06:18.094936+00:00"
       }
     },
     "643:3:1": {
@@ -746500,7 +746501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:06:10.996857+00:00",
+  "updated_at": "2026-11-20T22:06:18.094953+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
