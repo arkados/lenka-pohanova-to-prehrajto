@@ -746607,12 +746607,6 @@
     },
     "38:1:14": {
       "episode_key": "průměrňákovi:s1:e14",
-      "claim": {
-        "worker_id": "b15b2c551c334587bdd442f5a20f9edf-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:09:23.937505+00:00",
-        "lease_expires_at": "2026-11-21T04:09:23.937526+00:00"
-      },
       "source": {
         "source_id": "27599724",
         "source_url": "https://sdilej.cz/27599724/prumernakovi-s01e14-cz.mkv",
@@ -746637,22 +746631,29 @@
         "display_name": "The Middle S01E14 The Yelling 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:09:35.855293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214239",
-        "size_bytes": 959666719
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214239",
-        "size_bytes": 959666719,
-        "source_bytes_read": 959666719,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214239",
         "source_bytes_read": 959666719,
         "elapsed_seconds": 78.349,
         "finished_at": "2026-11-20T22:11:28.230530+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214239",
+          "size_bytes": 959666719,
+          "source_bytes_read": 959666719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27599724",
+        "source_url": "https://sdilej.cz/27599724/prumernakovi-s01e14-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214239",
+        "display_name": "The Middle S01E14 The Yelling 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:11:37.329526+00:00"
       }
     },
     "38:1:16": {
@@ -746698,7 +746699,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:11:28.230550+00:00",
+  "updated_at": "2026-11-20T22:11:37.329541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
