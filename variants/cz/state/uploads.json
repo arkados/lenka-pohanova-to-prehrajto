@@ -723043,12 +723043,6 @@
     },
     "1084:8:9": {
       "episode_key": "zoufalé manželky:s8:e9",
-      "claim": {
-        "worker_id": "e820359ac1c84e54b63308ed1d65e666-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:30:48.339012+00:00",
-        "lease_expires_at": "2026-11-20T18:30:48.339028+00:00"
-      },
       "source": {
         "source_id": "33109181",
         "source_url": "https://sdilej.cz/33109181/zoufale-manzelky-s08e09-cz-dabing.mp4",
@@ -723072,7 +723066,17 @@
         },
         "display_name": "Desperate Housewives S08E09 Putting It Together 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:31:09.592472+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109181:https://sdilej.cz/33109181/zoufale-manzelky-s08e09-cz-dabing.mp4",
+        "at": "2026-11-20T12:31:24.277510+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:31:24.277548+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -723080,7 +723084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:31:17.317330+00:00",
+  "updated_at": "2026-11-20T12:31:24.277554+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -723669,6 +723673,10 @@
         {
           "identity": "1084:8:1",
           "at": "2026-11-20T12:30:21.950072+00:00"
+        },
+        {
+          "identity": "1084:8:9",
+          "at": "2026-11-20T12:31:24.277510+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:21:16.115392+00:00"
