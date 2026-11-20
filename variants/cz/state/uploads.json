@@ -720730,12 +720730,6 @@
     },
     "1084:7:9": {
       "episode_key": "zoufalé manželky:s7:e9",
-      "claim": {
-        "worker_id": "feb31e2713b941b4a72f480cf8aa2b2a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:44:38.084206+00:00",
-        "lease_expires_at": "2026-11-20T17:44:38.084217+00:00"
-      },
       "source": {
         "source_id": "33108999",
         "source_url": "https://sdilej.cz/33108999/zoufale-manzelky-s07e09-cz-dabing.mp4",
@@ -720759,7 +720753,17 @@
         },
         "display_name": "Desperate Housewives S07E09 Pleasant Little Kingdom 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:44:52.673915+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33108999:https://sdilej.cz/33108999/zoufale-manzelky-s07e09-cz-dabing.mp4",
+        "at": "2026-11-20T11:45:06.527045+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T11:45:06.527085+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:7:10": {
       "episode_key": "zoufalé manželky:s7:e10",
@@ -720803,7 +720807,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:44:58.112408+00:00",
+  "updated_at": "2026-11-20T11:45:06.527090+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -721378,16 +721382,8 @@
     "1084": {
       "recent_failures": [
         {
-          "identity": "1084:7:2",
-          "at": "2026-11-20T11:29:05.711122+00:00"
-        },
-        {
-          "identity": "1084:7:5",
-          "at": "2026-11-20T11:29:39.807971+00:00"
-        },
-        {
-          "identity": "1084:7:4",
-          "at": "2026-11-20T11:29:49.608869+00:00"
+          "identity": "1084:7:9",
+          "at": "2026-11-20T11:45:06.527045+00:00"
         }
       ],
       "retry_after": "2026-11-20T11:39:49.608869+00:00"
