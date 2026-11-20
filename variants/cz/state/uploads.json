@@ -721997,12 +721997,6 @@
     },
     "1461:3:2": {
       "episode_key": "closer: nové případy:s3:e2",
-      "claim": {
-        "worker_id": "7aedd802262841ad9c957b72aa39a1e6-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T12:07:21.855044+00:00",
-        "lease_expires_at": "2026-11-20T18:07:21.855059+00:00"
-      },
       "source": {
         "source_id": "29106686",
         "source_url": "https://sdilej.cz/29106686/closer-nove-pripady-s03e02-031-2014-sd-den-volna-sd-.mp4",
@@ -722027,22 +722021,29 @@
         "display_name": "Major Crimes S03E02 Personal Day SD CZ Dabing",
         "prepared_at": "2026-11-20T12:07:36.755420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203911",
-        "size_bytes": 382028827
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203911",
-        "size_bytes": 382028827,
-        "source_bytes_read": 382028827,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203911",
         "source_bytes_read": 382028827,
         "elapsed_seconds": 26.745,
         "finished_at": "2026-11-20T12:08:27.114177+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203911",
+          "size_bytes": 382028827,
+          "source_bytes_read": 382028827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106686",
+        "source_url": "https://sdilej.cz/29106686/closer-nove-pripady-s03e02-031-2014-sd-den-volna-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203911",
+        "display_name": "Major Crimes S03E02 Personal Day SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:08:38.357809+00:00"
       }
     }
   },
@@ -722051,7 +722052,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:08:33.479887+00:00",
+  "updated_at": "2026-11-20T12:08:38.357825+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
