@@ -723919,12 +723919,6 @@
     },
     "1084:8:12": {
       "episode_key": "zoufalé manželky:s8:e12",
-      "claim": {
-        "worker_id": "21be756fbe444b61b2d20050615ec775-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:44:01.699585+00:00",
-        "lease_expires_at": "2026-11-20T18:44:01.699599+00:00"
-      },
       "source": {
         "source_id": "27626584",
         "source_url": "https://sdilej.cz/27626584/zoufale-manzelky-s08e12-cz.mkv",
@@ -723949,22 +723943,29 @@
         "display_name": "Desperate Housewives S08E12 What's the Good of Being Good? 1080p CZ Dabing",
         "prepared_at": "2026-11-20T12:44:17.786496+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204527",
-        "size_bytes": 938909549
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204527",
-        "size_bytes": 938909549,
-        "source_bytes_read": 938909549,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204527",
         "source_bytes_read": 938909549,
         "elapsed_seconds": 78.238,
         "finished_at": "2026-11-20T12:46:03.035116+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204527",
+          "size_bytes": 938909549,
+          "source_bytes_read": 938909549,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27626584",
+        "source_url": "https://sdilej.cz/27626584/zoufale-manzelky-s08e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204527",
+        "display_name": "Desperate Housewives S08E12 What's the Good of Being Good? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:46:13.340271+00:00"
       }
     },
     "1084:8:13": {
@@ -724080,7 +724081,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:46:07.629541+00:00",
+  "updated_at": "2026-11-20T12:46:13.340288+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
