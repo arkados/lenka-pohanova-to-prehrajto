@@ -743096,12 +743096,6 @@
     },
     "619:1:6": {
       "episode_key": "tohle nikdo nechce:s1:e6",
-      "claim": {
-        "worker_id": "c5da8cc368c04cd19d9d0fd574b5a31b-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:43:44.196412+00:00",
-        "lease_expires_at": "2026-11-21T02:43:44.196421+00:00"
-      },
       "source": {
         "source_id": "29847874",
         "source_url": "https://sdilej.cz/29847874/tohle-nikdo-nechce-s01e06-1080p-cz-dabing.mkv",
@@ -743126,22 +743120,29 @@
         "display_name": "Nobody Wants This S01E06 The Ick 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:43:59.964908+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213030",
-        "size_bytes": 607104745
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213030",
-        "size_bytes": 607104745,
-        "source_bytes_read": 607104745,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213030",
         "source_bytes_read": 607104745,
         "elapsed_seconds": 45.826,
         "finished_at": "2026-11-20T20:45:12.878914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213030",
+          "size_bytes": 607104745,
+          "source_bytes_read": 607104745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29847874",
+        "source_url": "https://sdilej.cz/29847874/tohle-nikdo-nechce-s01e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213030",
+        "display_name": "Nobody Wants This S01E06 The Ick 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:45:36.471563+00:00"
       }
     },
     "619:1:5": {
@@ -743234,7 +743235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:45:28.766938+00:00",
+  "updated_at": "2026-11-20T20:45:36.471578+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
