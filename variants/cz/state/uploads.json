@@ -725144,12 +725144,6 @@
     },
     "1461:6:1": {
       "episode_key": "closer: nové případy:s6:e1",
-      "claim": {
-        "worker_id": "167046a8e0ab4c4495ec5dab1106baae-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:05:43.629085+00:00",
-        "lease_expires_at": "2026-11-20T19:05:43.629099+00:00"
-      },
       "source": {
         "source_id": "11396582",
         "source_url": "https://sdilej.cz/11396582/closer-nove-pripady-06x01-web-dl-cz.avi",
@@ -725174,22 +725168,29 @@
         "display_name": "Major Crimes S06E01 Sanctuary City (1) SD CZ Dabing",
         "prepared_at": "2026-11-20T13:05:49.284080+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204914",
-        "size_bytes": 355921154
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204914",
-        "size_bytes": 355921154,
-        "source_bytes_read": 355921154,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204914",
         "source_bytes_read": 355921154,
         "elapsed_seconds": 20.737,
         "finished_at": "2026-11-20T13:06:52.960382+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204914",
+          "size_bytes": 355921154,
+          "source_bytes_read": 355921154,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11396582",
+        "source_url": "https://sdilej.cz/11396582/closer-nove-pripady-06x01-web-dl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204914",
+        "display_name": "Major Crimes S06E01 Sanctuary City (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-20T13:07:05.621630+00:00"
       }
     },
     "1461:6:2": {
@@ -725271,7 +725272,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:06:58.380087+00:00",
+  "updated_at": "2026-11-20T13:07:05.621648+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
