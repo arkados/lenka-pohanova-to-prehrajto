@@ -733809,12 +733809,6 @@
     },
     "1065:8:2": {
       "episode_key": "kriminálka las vegas:s8:e2",
-      "claim": {
-        "worker_id": "0bd422eef3204ba1930bb1bd425212c5-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:42:28.374059+00:00",
-        "lease_expires_at": "2026-11-20T22:42:28.374081+00:00"
-      },
       "source": {
         "source_id": "30131962",
         "source_url": "https://sdilej.cz/30131962/kriminalka-las-vegas-08x02.avi",
@@ -733839,22 +733833,29 @@
         "display_name": "CSI: Crime Scene Investigation S08E02 A La Cart SD CZ Dabing",
         "prepared_at": "2026-11-20T16:42:34.181796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208668",
-        "size_bytes": 388052992
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208668",
-        "size_bytes": 388052992,
-        "source_bytes_read": 388052992,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208668",
         "source_bytes_read": 388052992,
         "elapsed_seconds": 26.535,
         "finished_at": "2026-11-20T16:43:30.923562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208668",
+          "size_bytes": 388052992,
+          "source_bytes_read": 388052992,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30131962",
+        "source_url": "https://sdilej.cz/30131962/kriminalka-las-vegas-08x02.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208668",
+        "display_name": "CSI: Crime Scene Investigation S08E02 A La Cart SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:43:42.106497+00:00"
       }
     },
     "1065:8:5": {
@@ -733905,7 +733906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:43:36.000903+00:00",
+  "updated_at": "2026-11-20T16:43:42.106513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
