@@ -695754,28 +695754,29 @@
           "at": "2026-11-20T02:51:39.656204+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c532b86af09d4900a224c9bb2a232d51-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:51:44.509259+00:00",
-        "lease_expires_at": "2026-11-20T08:51:44.509269+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31195150",
-        "size_bytes": 281181262
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195150",
-        "size_bytes": 281181262,
-        "source_bytes_read": 281181262,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195150",
         "source_bytes_read": 281181262,
         "elapsed_seconds": 20.268,
         "finished_at": "2026-11-20T02:52:43.243502+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195150",
+          "size_bytes": 281181262,
+          "source_bytes_read": 281181262,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863126",
+        "source_url": "https://sdilej.cz/34863126/furious-posedlost-s01e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195150",
+        "display_name": "Furious S01E06 They Make a Noise Like Feathers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:52:54.725452+00:00"
       }
     },
     "10458:1:7": {
@@ -700304,7 +700305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:52:48.129662+00:00",
+  "updated_at": "2026-11-20T02:52:54.725466+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
