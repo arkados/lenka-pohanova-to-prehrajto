@@ -711341,12 +711341,6 @@
     },
     "2409:3:2": {
       "episode_key": "vraždy v brokenwoodu:s3:e2",
-      "claim": {
-        "worker_id": "a3b174ac057d4031a5eb186154306ca0-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:42:36.802960+00:00",
-        "lease_expires_at": "2026-11-20T13:42:36.802972+00:00"
-      },
       "source": {
         "source_id": "30609369",
         "source_url": "https://sdilej.cz/30609369/vrazdy-v-brokenwoodu-s03e02-010-2016-hd-pres-jeji-mrtvolu-s-.mp4",
@@ -711371,22 +711365,29 @@
         "display_name": "The Brokenwood Mysteries S03E02 Over Her Dead Body 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:42:50.588431+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199372",
-        "size_bytes": 1171700542
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199372",
-        "size_bytes": 1171700542,
-        "source_bytes_read": 1171700542,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199372",
         "source_bytes_read": 1171700542,
         "elapsed_seconds": 112.255,
         "finished_at": "2026-11-20T07:45:11.743322+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199372",
+          "size_bytes": 1171700542,
+          "source_bytes_read": 1171700542,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30609369",
+        "source_url": "https://sdilej.cz/30609369/vrazdy-v-brokenwoodu-s03e02-010-2016-hd-pres-jeji-mrtvolu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199372",
+        "display_name": "The Brokenwood Mysteries S03E02 Over Her Dead Body 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:45:19.362120+00:00"
       }
     },
     "2409:3:3": {
@@ -711469,7 +711470,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:45:11.743341+00:00",
+  "updated_at": "2026-11-20T07:45:19.362137+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
