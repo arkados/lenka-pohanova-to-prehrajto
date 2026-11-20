@@ -743351,12 +743351,6 @@
     },
     "619:1:10": {
       "episode_key": "tohle nikdo nechce:s1:e10",
-      "claim": {
-        "worker_id": "85f7e7dc356943a48516c87df55df914-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:46:58.641659+00:00",
-        "lease_expires_at": "2026-11-21T02:46:58.641669+00:00"
-      },
       "source": {
         "source_id": "29734404",
         "source_url": "https://sdilej.cz/29734404/tohle-nikdo-nechce-s01e10-fhd-5.1-hdr10-cz-dab-konec.mkv",
@@ -743381,22 +743375,29 @@
         "display_name": "Nobody Wants This S01E10 Bat Mitzvah Crashers 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:47:04.809610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213082",
-        "size_bytes": 805248394
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213082",
-        "size_bytes": 805248394,
-        "source_bytes_read": 805248394,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213082",
         "source_bytes_read": 805248394,
         "elapsed_seconds": 35.79,
         "finished_at": "2026-11-20T20:48:22.810992+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213082",
+          "size_bytes": 805248394,
+          "source_bytes_read": 805248394,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29734404",
+        "source_url": "https://sdilej.cz/29734404/tohle-nikdo-nechce-s01e10-fhd-5.1-hdr10-cz-dab-konec.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213082",
+        "display_name": "Nobody Wants This S01E10 Bat Mitzvah Crashers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:48:34.852653+00:00"
       }
     },
     "619:2:1": {
@@ -743442,7 +743443,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:48:28.549159+00:00",
+  "updated_at": "2026-11-20T20:48:34.852664+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
