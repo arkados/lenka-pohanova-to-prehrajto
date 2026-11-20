@@ -714540,12 +714540,6 @@
     },
     "1084:1:21": {
       "episode_key": "zoufalé manželky:s1:e21",
-      "claim": {
-        "worker_id": "d1aca2b6776c4a8e9d3cc159e011985e-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:13:37.129153+00:00",
-        "lease_expires_at": "2026-11-20T15:13:37.129165+00:00"
-      },
       "source": {
         "source_id": "27618726",
         "source_url": "https://sdilej.cz/27618726/zoufale-manzelky-s01e21-cz.mkv",
@@ -714570,22 +714564,29 @@
         "display_name": "Desperate Housewives S01E21 Sunday in the Park with George 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:13:47.870643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200606",
-        "size_bytes": 552357010
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200606",
-        "size_bytes": 552357010,
-        "source_bytes_read": 552357010,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200606",
         "source_bytes_read": 552357010,
         "elapsed_seconds": 48.618,
         "finished_at": "2026-11-20T09:15:02.495504+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200606",
+          "size_bytes": 552357010,
+          "source_bytes_read": 552357010,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27618726",
+        "source_url": "https://sdilej.cz/27618726/zoufale-manzelky-s01e21-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200606",
+        "display_name": "Desperate Housewives S01E21 Sunday in the Park with George 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:15:14.688210+00:00"
       }
     },
     "1084:1:22": {
@@ -714630,7 +714631,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:15:07.719021+00:00",
+  "updated_at": "2026-11-20T09:15:14.688226+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
