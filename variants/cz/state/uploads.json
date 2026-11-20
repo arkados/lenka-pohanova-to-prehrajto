@@ -724783,12 +724783,6 @@
     },
     "1461:5:11": {
       "episode_key": "closer: nové případy:s5:e11",
-      "claim": {
-        "worker_id": "9e1dabd92ab54deaa326d9c239a2c134-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:59:24.374465+00:00",
-        "lease_expires_at": "2026-11-20T18:59:24.374486+00:00"
-      },
       "source": {
         "source_id": "29107250",
         "source_url": "https://sdilej.cz/29107250/closer-nove-pripady-s05e11-082-2016-sd-masakr-u-soudu-sd-.mp4",
@@ -724813,22 +724807,29 @@
         "display_name": "Major Crimes S05E11 White Lies (1) SD CZ Dabing",
         "prepared_at": "2026-11-20T12:59:30.075223+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204788",
-        "size_bytes": 392053330
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204788",
-        "size_bytes": 392053330,
-        "source_bytes_read": 392053330,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204788",
         "source_bytes_read": 392053330,
         "elapsed_seconds": 33.906,
         "finished_at": "2026-11-20T13:00:39.366092+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204788",
+          "size_bytes": 392053330,
+          "source_bytes_read": 392053330,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29107250",
+        "source_url": "https://sdilej.cz/29107250/closer-nove-pripady-s05e11-082-2016-sd-masakr-u-soudu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204788",
+        "display_name": "Major Crimes S05E11 White Lies (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-20T13:00:55.674184+00:00"
       }
     }
   },
@@ -724837,7 +724838,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:00:49.814039+00:00",
+  "updated_at": "2026-11-20T13:00:55.674204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
