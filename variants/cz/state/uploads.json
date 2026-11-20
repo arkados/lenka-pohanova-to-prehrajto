@@ -722576,12 +722576,6 @@
     },
     "1461:3:8": {
       "episode_key": "closer: nové případy:s3:e8",
-      "claim": {
-        "worker_id": "c089269820aa47c182be303eae1d4946-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:18:40.345217+00:00",
-        "lease_expires_at": "2026-11-20T18:18:40.345233+00:00"
-      },
       "source": {
         "source_id": "29106745",
         "source_url": "https://sdilej.cz/29106745/closer-nove-pripady-s03e08-037-2014-sd-utrzeni-ze-retezu-sd-.mp4",
@@ -722606,22 +722600,29 @@
         "display_name": "Major Crimes S03E08 Cutting Loose SD CZ Dabing",
         "prepared_at": "2026-11-20T12:18:52.656153+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204111",
-        "size_bytes": 386009796
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204111",
-        "size_bytes": 386009796,
-        "source_bytes_read": 386009796,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204111",
         "source_bytes_read": 386009796,
         "elapsed_seconds": 26.774,
         "finished_at": "2026-11-20T12:19:48.132404+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204111",
+          "size_bytes": 386009796,
+          "source_bytes_read": 386009796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106745",
+        "source_url": "https://sdilej.cz/29106745/closer-nove-pripady-s03e08-037-2014-sd-utrzeni-ze-retezu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204111",
+        "display_name": "Major Crimes S03E08 Cutting Loose SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:19:56.148736+00:00"
       }
     },
     "1461:3:9": {
@@ -722704,7 +722705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:19:48.132426+00:00",
+  "updated_at": "2026-11-20T12:19:56.148754+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
