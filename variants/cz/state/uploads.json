@@ -730494,12 +730494,6 @@
     },
     "1065:4:13": {
       "episode_key": "kriminálka las vegas:s4:e13",
-      "claim": {
-        "worker_id": "74b44d1bda4549f0bfb9f996ac115606-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T15:45:33.923268+00:00",
-        "lease_expires_at": "2026-11-20T21:45:33.923280+00:00"
-      },
       "source": {
         "source_id": "33305407",
         "source_url": "https://sdilej.cz/33305407/kriminalka-las-vegas-s04e13-falesni-hraci.mkv",
@@ -730524,22 +730518,29 @@
         "display_name": "CSI: Crime Scene Investigation S04E13 Suckers 1080p CZ Dabing",
         "prepared_at": "2026-11-20T15:45:45.197223+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31207644",
-        "size_bytes": 592491925
-      },
-      "transfer_receipt": {
-        "target_video_id": "31207644",
-        "size_bytes": 592491925,
-        "source_bytes_read": 592491925,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31207644",
         "source_bytes_read": 592491925,
         "elapsed_seconds": 37.708,
         "finished_at": "2026-11-20T15:46:47.197794+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31207644",
+          "size_bytes": 592491925,
+          "source_bytes_read": 592491925,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33305407",
+        "source_url": "https://sdilej.cz/33305407/kriminalka-las-vegas-s04e13-falesni-hraci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31207644",
+        "display_name": "CSI: Crime Scene Investigation S04E13 Suckers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T15:46:59.972364+00:00"
       }
     }
   },
@@ -730548,7 +730549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:46:54.608292+00:00",
+  "updated_at": "2026-11-20T15:46:59.972382+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
