@@ -707006,12 +707006,6 @@
     },
     "1119:5:3": {
       "episode_key": "upíří deníky:s5:e3",
-      "claim": {
-        "worker_id": "1935a3c51bcb4dc5a367dc6822ef3b4f-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:38:52.348931+00:00",
-        "lease_expires_at": "2026-11-20T11:38:52.348942+00:00"
-      },
       "source": {
         "source_id": "30079432",
         "source_url": "https://sdilej.cz/30079432/upiri-deniky-s05e03.mkv",
@@ -707036,22 +707030,29 @@
         "display_name": "The Vampire Diaries S05E03 Original Sin 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:38:57.051602+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197758",
-        "size_bytes": 1414019706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197758",
-        "size_bytes": 1414019706,
-        "source_bytes_read": 1414019706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197758",
         "source_bytes_read": 1414019706,
         "elapsed_seconds": 176.626,
         "finished_at": "2026-11-20T05:42:18.221596+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197758",
+          "size_bytes": 1414019706,
+          "source_bytes_read": 1414019706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079432",
+        "source_url": "https://sdilej.cz/30079432/upiri-deniky-s05e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197758",
+        "display_name": "The Vampire Diaries S05E03 Original Sin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:42:28.434832+00:00"
       }
     },
     "1119:5:4": {
@@ -707148,7 +707149,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:42:24.135827+00:00",
+  "updated_at": "2026-11-20T05:42:28.434848+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
