@@ -700290,12 +700290,6 @@
         }
       ],
       "episode_key": "prcek:s3:e12",
-      "claim": {
-        "worker_id": "f8028bbac87a494da3570f5df68fc6ef-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:06:47.374831+00:00",
-        "lease_expires_at": "2026-11-20T09:06:47.374842+00:00"
-      },
       "source": {
         "source_id": "14319178",
         "source_url": "https://sdilej.cz/14319178/el-chapo-s03e12-nahradnik-cz-dabing.avi",
@@ -700320,22 +700314,29 @@
         "display_name": "El Chapo S03E12 SD CZ Dabing",
         "prepared_at": "2026-11-20T03:06:58.166596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195402",
-        "size_bytes": 287576170
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195402",
-        "size_bytes": 287576170,
-        "source_bytes_read": 287576170,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195402",
         "source_bytes_read": 287576170,
         "elapsed_seconds": 17.739,
         "finished_at": "2026-11-20T03:07:37.196388+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195402",
+          "size_bytes": 287576170,
+          "source_bytes_read": 287576170,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14319178",
+        "source_url": "https://sdilej.cz/14319178/el-chapo-s03e12-nahradnik-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195402",
+        "display_name": "El Chapo S03E12 SD CZ Dabing",
+        "uploaded_at": "2026-11-20T03:07:42.957162+00:00"
       }
     },
     "695:3:13": {
@@ -701120,7 +701121,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:07:37.196405+00:00",
+  "updated_at": "2026-11-20T03:07:42.957175+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
