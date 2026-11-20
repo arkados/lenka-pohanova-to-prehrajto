@@ -722122,12 +722122,6 @@
     },
     "1084:8:2": {
       "episode_key": "zoufalé manželky:s8:e2",
-      "claim": {
-        "worker_id": "f8685b757ff743d8833d83e04dd2ba0e-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:09:50.551470+00:00",
-        "lease_expires_at": "2026-11-20T18:09:50.551490+00:00"
-      },
       "source": {
         "source_id": "27626190",
         "source_url": "https://sdilej.cz/27626190/zoufale-manzelky-s08e02-cz.mkv",
@@ -722152,22 +722146,29 @@
         "display_name": "Desperate Housewives S08E02 Making the Connection 1080p CZ Dabing",
         "prepared_at": "2026-11-20T12:10:02.015730+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203970",
-        "size_bytes": 931763915
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203970",
-        "size_bytes": 931763915,
-        "source_bytes_read": 931763915,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203970",
         "source_bytes_read": 931763915,
         "elapsed_seconds": 62.75,
         "finished_at": "2026-11-20T12:11:40.930282+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203970",
+          "size_bytes": 931763915,
+          "source_bytes_read": 931763915,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27626190",
+        "source_url": "https://sdilej.cz/27626190/zoufale-manzelky-s08e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203970",
+        "display_name": "Desperate Housewives S08E02 Making the Connection 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:11:54.557205+00:00"
       }
     },
     "1084:8:4": {
@@ -722283,7 +722284,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:11:48.737626+00:00",
+  "updated_at": "2026-11-20T12:11:54.557224+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
