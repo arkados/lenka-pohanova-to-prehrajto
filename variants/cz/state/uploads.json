@@ -690476,12 +690476,6 @@
         }
       ],
       "episode_key": "paní ministryně:s3:e21",
-      "claim": {
-        "worker_id": "cab0ef8b14964b53840468b4f6edf263-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T00:27:48.117047+00:00",
-        "lease_expires_at": "2026-11-20T06:27:48.117059+00:00"
-      },
       "source": {
         "source_id": "26465155",
         "source_url": "https://sdilej.cz/26465155/pani-ministryne-s03e21-cz-dabing-1080p.mkv",
@@ -690506,22 +690500,29 @@
         "display_name": "Madam Secretary S03E21 The Seventh Floor 1080p CZ Dabing",
         "prepared_at": "2026-11-20T00:27:53.374703+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193226",
-        "size_bytes": 2564608462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193226",
-        "size_bytes": 2564608462,
-        "source_bytes_read": 2564608462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193226",
         "source_bytes_read": 2564608462,
         "elapsed_seconds": 156.741,
         "finished_at": "2026-11-20T00:30:55.469853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193226",
+          "size_bytes": 2564608462,
+          "source_bytes_read": 2564608462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26465155",
+        "source_url": "https://sdilej.cz/26465155/pani-ministryne-s03e21-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193226",
+        "display_name": "Madam Secretary S03E21 The Seventh Floor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T00:31:01.970718+00:00"
       }
     },
     "1128:3:20": {
@@ -693737,7 +693738,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T00:30:55.469878+00:00",
+  "updated_at": "2026-11-20T00:31:01.970738+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
