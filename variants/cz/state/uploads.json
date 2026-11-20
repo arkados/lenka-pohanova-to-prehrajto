@@ -731514,12 +731514,6 @@
     },
     "1065:5:12": {
       "episode_key": "kriminálka las vegas:s5:e12",
-      "claim": {
-        "worker_id": "310c5f013dec46b59252cfe35de26e12-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:04:59.766939+00:00",
-        "lease_expires_at": "2026-11-20T22:04:59.766951+00:00"
-      },
       "source": {
         "source_id": "32367889",
         "source_url": "https://sdilej.cz/32367889/kriminalka-las-vegas-s05e12-25-2004-cz-dab-1080p-hadi.mkv",
@@ -731544,22 +731538,29 @@
         "display_name": "CSI: Crime Scene Investigation S05E12 Snakes 1080p CZ Dabing",
         "prepared_at": "2026-11-20T16:05:12.782941+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208014",
-        "size_bytes": 1945609601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208014",
-        "size_bytes": 1945609601,
-        "source_bytes_read": 1945609601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208014",
         "source_bytes_read": 1945609601,
         "elapsed_seconds": 189.383,
         "finished_at": "2026-11-20T16:08:50.850546+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208014",
+          "size_bytes": 1945609601,
+          "source_bytes_read": 1945609601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32367889",
+        "source_url": "https://sdilej.cz/32367889/kriminalka-las-vegas-s05e12-25-2004-cz-dab-1080p-hadi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208014",
+        "display_name": "CSI: Crime Scene Investigation S05E12 Snakes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T16:09:04.404355+00:00"
       }
     },
     "1065:5:13": {
@@ -731771,7 +731772,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:08:56.484712+00:00",
+  "updated_at": "2026-11-20T16:09:04.404373+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
