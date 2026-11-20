@@ -750207,12 +750207,6 @@
     },
     "38:4:19": {
       "episode_key": "průměrňákovi:s4:e19",
-      "claim": {
-        "worker_id": "f2b5372824c4450d82cc1a6d1d39ab5d-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:35:32.568701+00:00",
-        "lease_expires_at": "2026-11-21T05:35:32.568711+00:00"
-      },
       "source": {
         "source_id": "27603359",
         "source_url": "https://sdilej.cz/27603359/prumernakovi-s04e19-cz.mkv",
@@ -750237,22 +750231,29 @@
         "display_name": "The Middle S04E19 The Bachelor 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:35:48.518586+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215530",
-        "size_bytes": 956316122
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215530",
-        "size_bytes": 956316122,
-        "source_bytes_read": 956316122,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215530",
         "source_bytes_read": 956316122,
         "elapsed_seconds": 70.459,
         "finished_at": "2026-11-20T23:37:28.890250+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215530",
+          "size_bytes": 956316122,
+          "source_bytes_read": 956316122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603359",
+        "source_url": "https://sdilej.cz/27603359/prumernakovi-s04e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215530",
+        "display_name": "The Middle S04E19 The Bachelor 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:37:41.954906+00:00"
       }
     },
     "38:4:18": {
@@ -750311,7 +750312,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:37:35.456262+00:00",
+  "updated_at": "2026-11-20T23:37:41.954919+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
