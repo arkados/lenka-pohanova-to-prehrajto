@@ -726465,12 +726465,6 @@
     },
     "265:3:6": {
       "episode_key": "jeho temné esence:s3:e6",
-      "claim": {
-        "worker_id": "daa419f8cd574684be4aa069f5ef499c-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:33:14.099659+00:00",
-        "lease_expires_at": "2026-11-20T19:33:14.099679+00:00"
-      },
       "source": {
         "source_id": "34867418",
         "source_url": "https://sdilej.cz/34867418/his-dark-materials-s03e06-czsken-dabing.mp4",
@@ -726495,22 +726489,29 @@
         "display_name": "His Dark Materials S03E06 The Abyss 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:33:20.194770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205404",
-        "size_bytes": 684655661
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205404",
-        "size_bytes": 684655661,
-        "source_bytes_read": 684655661,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205404",
         "source_bytes_read": 684655661,
         "elapsed_seconds": 42.494,
         "finished_at": "2026-11-20T13:34:32.207402+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205404",
+          "size_bytes": 684655661,
+          "source_bytes_read": 684655661,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34867418",
+        "source_url": "https://sdilej.cz/34867418/his-dark-materials-s03e06-czsken-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205404",
+        "display_name": "His Dark Materials S03E06 The Abyss 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:34:44.645439+00:00"
       }
     },
     "265:3:7": {
@@ -726556,7 +726557,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:34:39.039581+00:00",
+  "updated_at": "2026-11-20T13:34:44.645459+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
