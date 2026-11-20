@@ -730953,12 +730953,6 @@
     },
     "1065:4:22": {
       "episode_key": "kriminálka las vegas:s4:e22",
-      "claim": {
-        "worker_id": "aa62baf3d47a4f9086e2fb50ce6aacac-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T15:53:03.995358+00:00",
-        "lease_expires_at": "2026-11-20T21:53:03.995371+00:00"
-      },
       "source": {
         "source_id": "32367484",
         "source_url": "https://sdilej.cz/32367484/kriminalka-las-vegas-s04e22-23-2003-cz-dab-1080p-konec-sazek.mkv",
@@ -730983,22 +730977,29 @@
         "display_name": "CSI: Crime Scene Investigation S04E22 No More Bets 1080p CZ Dabing",
         "prepared_at": "2026-11-20T15:53:14.620333+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31207832",
-        "size_bytes": 1944203903
-      },
-      "transfer_receipt": {
-        "target_video_id": "31207832",
-        "size_bytes": 1944203903,
-        "source_bytes_read": 1944203903,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31207832",
         "source_bytes_read": 1944203903,
         "elapsed_seconds": 170.625,
         "finished_at": "2026-11-20T15:56:38.200509+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31207832",
+          "size_bytes": 1944203903,
+          "source_bytes_read": 1944203903,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32367484",
+        "source_url": "https://sdilej.cz/32367484/kriminalka-las-vegas-s04e22-23-2003-cz-dab-1080p-konec-sazek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31207832",
+        "display_name": "CSI: Crime Scene Investigation S04E22 No More Bets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T15:56:46.995758+00:00"
       }
     },
     "1065:4:23": {
@@ -731081,7 +731082,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:56:38.200528+00:00",
+  "updated_at": "2026-11-20T15:56:46.995776+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
