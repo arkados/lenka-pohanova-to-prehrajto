@@ -726006,12 +726006,6 @@
     },
     "265:2:4": {
       "episode_key": "jeho temné esence:s2:e4",
-      "claim": {
-        "worker_id": "ae77706f43a344c6872a09a7ce4510b8-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:20:14.325283+00:00",
-        "lease_expires_at": "2026-11-20T19:20:14.325303+00:00"
-      },
       "source": {
         "source_id": "29103031",
         "source_url": "https://sdilej.cz/29103031/jeho-temne-esence-s02e04-2020-cz-dab-.mkv",
@@ -726036,22 +726030,29 @@
         "display_name": "His Dark Materials S02E04 Tower of the Angels 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:20:20.628377+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205151",
-        "size_bytes": 558368749
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205151",
-        "size_bytes": 558368749,
-        "source_bytes_read": 558368749,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205151",
         "source_bytes_read": 558368749,
         "elapsed_seconds": 93.042,
         "finished_at": "2026-11-20T13:22:23.147227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205151",
+          "size_bytes": 558368749,
+          "source_bytes_read": 558368749,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29103031",
+        "source_url": "https://sdilej.cz/29103031/jeho-temne-esence-s02e04-2020-cz-dab-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205151",
+        "display_name": "His Dark Materials S02E04 Tower of the Angels 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:22:34.848189+00:00"
       }
     },
     "265:2:5": {
@@ -726185,7 +726186,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:22:28.309412+00:00",
+  "updated_at": "2026-11-20T13:22:34.848207+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
