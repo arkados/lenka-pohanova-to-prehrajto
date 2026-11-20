@@ -736308,12 +736308,6 @@
     },
     "1065:11:8": {
       "episode_key": "kriminálka las vegas:s11:e8",
-      "claim": {
-        "worker_id": "a93a2372259e42e6a7846c13322b7159-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:20:45.974085+00:00",
-        "lease_expires_at": "2026-11-20T23:20:45.974102+00:00"
-      },
       "source": {
         "source_id": "22312295",
         "source_url": "https://sdilej.cz/22312295/kriminalka-las-vegas-11x08-czdab.avi",
@@ -736338,22 +736332,29 @@
         "display_name": "CSI: Crime Scene Investigation S11E08 Fracked SD CZ Dabing",
         "prepared_at": "2026-11-20T17:20:57.079008+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31209682",
-        "size_bytes": 368437248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31209682",
-        "size_bytes": 368437248,
-        "source_bytes_read": 368437248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31209682",
         "source_bytes_read": 368437248,
         "elapsed_seconds": 36.378,
         "finished_at": "2026-11-20T17:22:03.094501+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31209682",
+          "size_bytes": 368437248,
+          "source_bytes_read": 368437248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22312295",
+        "source_url": "https://sdilej.cz/22312295/kriminalka-las-vegas-11x08-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31209682",
+        "display_name": "CSI: Crime Scene Investigation S11E08 Fracked SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:22:14.103716+00:00"
       }
     },
     "1065:11:9": {
@@ -736432,7 +736433,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:22:08.096048+00:00",
+  "updated_at": "2026-11-20T17:22:14.103734+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
