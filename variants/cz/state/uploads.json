@@ -723956,12 +723956,6 @@
     },
     "1084:8:13": {
       "episode_key": "zoufalé manželky:s8:e13",
-      "claim": {
-        "worker_id": "a7793e356a2346adbd9c6a16246e83e2-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:45:17.107937+00:00",
-        "lease_expires_at": "2026-11-20T18:45:17.107964+00:00"
-      },
       "source": {
         "source_id": "33109238",
         "source_url": "https://sdilej.cz/33109238/zoufale-manzelky-s08e13-cz-dabing.mp4",
@@ -723985,7 +723979,17 @@
         },
         "display_name": "Desperate Housewives S08E13 Is This What You Call Love? 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:45:22.552424+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109238:https://sdilej.cz/33109238/zoufale-manzelky-s08e13-cz-dabing.mp4",
+        "at": "2026-11-20T12:45:40.004179+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:45:40.004228+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:8:14": {
       "episode_key": "zoufalé manželky:s8:e14",
@@ -724026,7 +724030,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:45:33.818383+00:00",
+  "updated_at": "2026-11-20T12:45:40.004234+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -724601,16 +724605,8 @@
     "1084": {
       "recent_failures": [
         {
-          "identity": "1084:8:1",
-          "at": "2026-11-20T12:30:21.950072+00:00"
-        },
-        {
-          "identity": "1084:8:9",
-          "at": "2026-11-20T12:31:24.277510+00:00"
-        },
-        {
-          "identity": "1084:8:11",
-          "at": "2026-11-20T12:32:39.692401+00:00"
+          "identity": "1084:8:13",
+          "at": "2026-11-20T12:45:40.004179+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:42:39.692401+00:00"
