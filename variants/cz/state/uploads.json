@@ -698524,12 +698524,6 @@
         }
       ],
       "episode_key": "prcek:s1:e5",
-      "claim": {
-        "worker_id": "e5dac238205440f28d4914f2503b0148-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:38:27.287607+00:00",
-        "lease_expires_at": "2026-11-20T08:38:27.287618+00:00"
-      },
       "source": {
         "source_id": "32801164",
         "source_url": "https://sdilej.cz/32801164/el-chapo-01x05-hon-juraison-.mkv",
@@ -698554,22 +698548,29 @@
         "display_name": "El Chapo S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:38:38.568037+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194933",
-        "size_bytes": 1376785353
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194933",
-        "size_bytes": 1376785353,
-        "source_bytes_read": 1376785353,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194933",
         "source_bytes_read": 1376785353,
         "elapsed_seconds": 113.484,
         "finished_at": "2026-11-20T02:40:56.508185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194933",
+          "size_bytes": 1376785353,
+          "source_bytes_read": 1376785353,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32801164",
+        "source_url": "https://sdilej.cz/32801164/el-chapo-01x05-hon-juraison-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194933",
+        "display_name": "El Chapo S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:41:05.663629+00:00"
       }
     },
     "695:1:6": {
@@ -699632,7 +699633,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:40:56.508204+00:00",
+  "updated_at": "2026-11-20T02:41:05.663644+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
