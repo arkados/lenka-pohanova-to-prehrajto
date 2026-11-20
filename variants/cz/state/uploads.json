@@ -722163,28 +722163,29 @@
           "at": "2026-11-20T13:13:08.788247+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1f8c60e66b74479cb1bd8e3340720063-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:13:14.475626+00:00",
-        "lease_expires_at": "2026-11-20T19:13:14.475643+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31205032",
-        "size_bytes": 879616293
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205032",
-        "size_bytes": 879616293,
-        "source_bytes_read": 879616293,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205032",
         "source_bytes_read": 879616293,
         "elapsed_seconds": 118.248,
         "finished_at": "2026-11-20T13:15:54.901467+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205032",
+          "size_bytes": 879616293,
+          "source_bytes_read": 879616293,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400556",
+        "source_url": "https://sdilej.cz/34400556/zoufale-manzelky-s08e01-158-2011-hd-bremeno-tajemstvi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205032",
+        "display_name": "Desperate Housewives S08E01 Secrets That I Never Want to Know 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:16:02.394129+00:00"
       }
     },
     "1084:8:2": {
@@ -725812,7 +725813,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:15:54.901488+00:00",
+  "updated_at": "2026-11-20T13:16:02.394146+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
