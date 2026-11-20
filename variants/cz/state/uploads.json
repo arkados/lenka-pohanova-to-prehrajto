@@ -729956,12 +729956,6 @@
     },
     "1065:4:2": {
       "episode_key": "kriminálka las vegas:s4:e2",
-      "claim": {
-        "worker_id": "96e23362cb9a48a384c91c6987e244e4-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T15:34:21.553106+00:00",
-        "lease_expires_at": "2026-11-20T21:34:21.553120+00:00"
-      },
       "source": {
         "source_id": "30118103",
         "source_url": "https://sdilej.cz/30118103/kriminalka-las-vegas-04x02.avi",
@@ -729986,22 +729980,29 @@
         "display_name": "CSI: Crime Scene Investigation S04E02 All for Our Country (2) SD CZ Dabing",
         "prepared_at": "2026-11-20T15:34:29.905002+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31207391",
-        "size_bytes": 489094504
-      },
-      "transfer_receipt": {
-        "target_video_id": "31207391",
-        "size_bytes": 489094504,
-        "source_bytes_read": 489094504,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31207391",
         "source_bytes_read": 489094504,
         "elapsed_seconds": 25.863,
         "finished_at": "2026-11-20T15:35:17.117680+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31207391",
+          "size_bytes": 489094504,
+          "source_bytes_read": 489094504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30118103",
+        "source_url": "https://sdilej.cz/30118103/kriminalka-las-vegas-04x02.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31207391",
+        "display_name": "CSI: Crime Scene Investigation S04E02 All for Our Country (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-20T15:35:24.000165+00:00"
       }
     }
   },
@@ -730010,7 +730011,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T15:35:17.117702+00:00",
+  "updated_at": "2026-11-20T15:35:24.000184+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
