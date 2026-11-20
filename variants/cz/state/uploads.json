@@ -722226,12 +722226,6 @@
     },
     "1084:8:5": {
       "episode_key": "zoufalé manželky:s8:e5",
-      "claim": {
-        "worker_id": "809050a5175f4f158ca34b66d07bd1c3-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:10:47.885414+00:00",
-        "lease_expires_at": "2026-11-20T18:10:47.885435+00:00"
-      },
       "source": {
         "source_id": "27626255",
         "source_url": "https://sdilej.cz/27626255/zoufale-manzelky-s08e05-cz.mkv",
@@ -722256,22 +722250,29 @@
         "display_name": "Desperate Housewives S08E05 The Art of Making Art 1080p CZ Dabing",
         "prepared_at": "2026-11-20T12:11:05.846563+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203979",
-        "size_bytes": 940325349
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203979",
-        "size_bytes": 940325349,
-        "source_bytes_read": 940325349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203979",
         "source_bytes_read": 940325349,
         "elapsed_seconds": 101.065,
         "finished_at": "2026-11-20T12:13:19.857109+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203979",
+          "size_bytes": 940325349,
+          "source_bytes_read": 940325349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27626255",
+        "source_url": "https://sdilej.cz/27626255/zoufale-manzelky-s08e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203979",
+        "display_name": "Desperate Housewives S08E05 The Art of Making Art 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:13:34.467880+00:00"
       }
     },
     "1461:3:3": {
@@ -722340,7 +722341,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:13:29.608748+00:00",
+  "updated_at": "2026-11-20T12:13:34.467897+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
