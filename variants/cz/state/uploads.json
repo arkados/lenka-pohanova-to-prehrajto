@@ -726312,12 +726312,6 @@
     },
     "265:3:3": {
       "episode_key": "jeho temné esence:s3:e3",
-      "claim": {
-        "worker_id": "3fa2741f55584ae58e76291c915b9516-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:31:04.762877+00:00",
-        "lease_expires_at": "2026-11-20T19:31:04.762897+00:00"
-      },
       "source": {
         "source_id": "30863208",
         "source_url": "https://sdilej.cz/30863208/jeho-temne-esence-2022-s03e03-full-hd-cz-dab-the-intention-craft.mkv",
@@ -726342,22 +726336,29 @@
         "display_name": "His Dark Materials S03E03 The Intention Craft 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:31:11.068635+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205350",
-        "size_bytes": 822990166
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205350",
-        "size_bytes": 822990166,
-        "source_bytes_read": 822990166,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205350",
         "source_bytes_read": 822990166,
         "elapsed_seconds": 70.334,
         "finished_at": "2026-11-20T13:32:55.769560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205350",
+          "size_bytes": 822990166,
+          "source_bytes_read": 822990166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30863208",
+        "source_url": "https://sdilej.cz/30863208/jeho-temne-esence-2022-s03e03-full-hd-cz-dab-the-intention-craft.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205350",
+        "display_name": "His Dark Materials S03E03 The Intention Craft 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:33:02.439808+00:00"
       }
     },
     "265:3:4": {
@@ -726440,7 +726441,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:32:55.769581+00:00",
+  "updated_at": "2026-11-20T13:33:02.439828+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
