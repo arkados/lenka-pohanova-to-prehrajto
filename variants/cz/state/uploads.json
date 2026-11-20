@@ -705404,12 +705404,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e17",
-      "claim": {
-        "worker_id": "20e7ebd31bbd43eeab41fe2164cca0a8-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:08:11.632810+00:00",
-        "lease_expires_at": "2026-11-20T11:08:11.632821+00:00"
-      },
       "source": {
         "source_id": "34591769",
         "source_url": "https://sdilej.cz/34591769/upiri-deniky-s03e17-prorazit-skrz-cz-dabing-h265-2011.mkv",
@@ -705434,22 +705428,29 @@
         "display_name": "The Vampire Diaries S03E17 Break On Through 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:08:29.060867+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197309",
-        "size_bytes": 524145774
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197309",
-        "size_bytes": 524145774,
-        "source_bytes_read": 524145774,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197309",
         "source_bytes_read": 524145774,
         "elapsed_seconds": 51.884,
         "finished_at": "2026-11-20T05:09:44.176198+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197309",
+          "size_bytes": 524145774,
+          "source_bytes_read": 524145774,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34591769",
+        "source_url": "https://sdilej.cz/34591769/upiri-deniky-s03e17-prorazit-skrz-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197309",
+        "display_name": "The Vampire Diaries S03E17 Break On Through 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:10:00.446630+00:00"
       }
     },
     "1119:3:18": {
@@ -705637,7 +705638,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:09:54.272593+00:00",
+  "updated_at": "2026-11-20T05:10:00.446647+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
