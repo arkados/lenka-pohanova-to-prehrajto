@@ -695710,12 +695710,6 @@
         }
       ],
       "episode_key": "posedlost:s1:e8",
-      "claim": {
-        "worker_id": "9a35ba87ee7749b1a95b01c9c8d1ea69-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:02:40.136263+00:00",
-        "lease_expires_at": "2026-11-20T08:02:40.136274+00:00"
-      },
       "source": {
         "source_id": "34931090",
         "source_url": "https://sdilej.cz/34931090/furious-posedlost-s01e08-cz.mkv",
@@ -695740,22 +695734,29 @@
         "display_name": "Furious S01E08 Hart Island 4K CZ Dabing",
         "prepared_at": "2026-11-20T02:02:54.707119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194491",
-        "size_bytes": 4589377123
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194491",
-        "size_bytes": 4589377123,
-        "source_bytes_read": 4589377123,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194491",
         "source_bytes_read": 4589377123,
         "elapsed_seconds": 327.4,
         "finished_at": "2026-11-20T02:08:54.039308+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194491",
+          "size_bytes": 4589377123,
+          "source_bytes_read": 4589377123,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34931090",
+        "source_url": "https://sdilej.cz/34931090/furious-posedlost-s01e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194491",
+        "display_name": "Furious S01E08 Hart Island 4K CZ Dabing",
+        "uploaded_at": "2026-11-20T02:09:08.027714+00:00"
       }
     },
     "1628:1:1": {
@@ -698485,7 +698486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:09:03.341733+00:00",
+  "updated_at": "2026-11-20T02:09:08.027728+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
