@@ -716492,12 +716492,6 @@
     },
     "1084:3:16": {
       "episode_key": "zoufalé manželky:s3:e16",
-      "claim": {
-        "worker_id": "44a1606dc796447ba3d82c54ff0a7372-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:57:20.435394+00:00",
-        "lease_expires_at": "2026-11-20T15:57:20.435405+00:00"
-      },
       "source": {
         "source_id": "27620123",
         "source_url": "https://sdilej.cz/27620123/zoufale-manzelky-s03e16-cz.mkv",
@@ -716522,22 +716516,29 @@
         "display_name": "Desperate Housewives S03E16 My Husband, the Pig 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:57:42.114539+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201349",
-        "size_bytes": 948193782
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201349",
-        "size_bytes": 948193782,
-        "source_bytes_read": 948193782,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201349",
         "source_bytes_read": 948193782,
         "elapsed_seconds": 123.207,
         "finished_at": "2026-11-20T10:00:15.021705+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201349",
+          "size_bytes": 948193782,
+          "source_bytes_read": 948193782,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620123",
+        "source_url": "https://sdilej.cz/27620123/zoufale-manzelky-s03e16-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201349",
+        "display_name": "Desperate Housewives S03E16 My Husband, the Pig 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:00:27.228789+00:00"
       }
     },
     "1084:3:15": {
@@ -716633,7 +716634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:00:19.924765+00:00",
+  "updated_at": "2026-11-20T10:00:27.228806+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
