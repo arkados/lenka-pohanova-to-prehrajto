@@ -721031,12 +721031,6 @@
     },
     "1084:7:14": {
       "episode_key": "zoufalé manželky:s7:e14",
-      "claim": {
-        "worker_id": "7c65d0eb64ab48b0b55f17f9872ce9ea-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:52:03.564343+00:00",
-        "lease_expires_at": "2026-11-20T17:52:03.564359+00:00"
-      },
       "source": {
         "source_id": "27625979",
         "source_url": "https://sdilej.cz/27625979/zoufale-manzelky-s07e14-cz.mkv",
@@ -721061,22 +721055,29 @@
         "display_name": "Desperate Housewives S07E14 Flashback 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:52:21.966678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203569",
-        "size_bytes": 949576550
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203569",
-        "size_bytes": 949576550,
-        "source_bytes_read": 949576550,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203569",
         "source_bytes_read": 949576550,
         "elapsed_seconds": 122.208,
         "finished_at": "2026-11-20T11:54:55.986063+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203569",
+          "size_bytes": 949576550,
+          "source_bytes_read": 949576550,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625979",
+        "source_url": "https://sdilej.cz/27625979/zoufale-manzelky-s07e14-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203569",
+        "display_name": "Desperate Housewives S07E14 Flashback 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:55:08.877362+00:00"
       }
     },
     "1084:7:15": {
@@ -721182,7 +721183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:55:04.029568+00:00",
+  "updated_at": "2026-11-20T11:55:08.877379+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
