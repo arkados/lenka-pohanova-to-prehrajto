@@ -744422,12 +744422,6 @@
     },
     "643:1:1": {
       "episode_key": "čas čarodějnic:s1:e1",
-      "claim": {
-        "worker_id": "a96fac6a14ce40509be8560e07fe677f-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:07:59.273563+00:00",
-        "lease_expires_at": "2026-11-21T03:07:59.273575+00:00"
-      },
       "source": {
         "source_id": "21055202",
         "source_url": "https://sdilej.cz/21055202/cas.carodejnic.s01e01.1080p.mkv",
@@ -744452,22 +744446,29 @@
         "display_name": "A Discovery of Witches S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:08:20.307933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213352",
-        "size_bytes": 551195029
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213352",
-        "size_bytes": 551195029,
-        "source_bytes_read": 551195029,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213352",
         "source_bytes_read": 551195029,
         "elapsed_seconds": 25.922,
         "finished_at": "2026-11-20T21:09:14.438072+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213352",
+          "size_bytes": 551195029,
+          "source_bytes_read": 551195029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21055202",
+        "source_url": "https://sdilej.cz/21055202/cas.carodejnic.s01e01.1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213352",
+        "display_name": "A Discovery of Witches S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:09:29.277459+00:00"
       }
     },
     "643:1:2": {
@@ -744559,7 +744560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:09:24.103878+00:00",
+  "updated_at": "2026-11-20T21:09:29.277473+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
