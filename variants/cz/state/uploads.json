@@ -733656,12 +733656,6 @@
     },
     "1065:7:23": {
       "episode_key": "kriminálka las vegas:s7:e23",
-      "claim": {
-        "worker_id": "e27eaacbc2064460a79c68a12955e65c-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:40:35.933172+00:00",
-        "lease_expires_at": "2026-11-20T22:40:35.933187+00:00"
-      },
       "source": {
         "source_id": "25476187",
         "source_url": "https://sdilej.cz/25476187/kriminalka-las-vegas-07x23.avi",
@@ -733686,22 +733680,29 @@
         "display_name": "CSI: Crime Scene Investigation S07E23 The Good, the Bad, and the Dominatrix SD CZ Dabing",
         "prepared_at": "2026-11-20T16:40:41.745728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208621",
-        "size_bytes": 485665080
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208621",
-        "size_bytes": 485665080,
-        "source_bytes_read": 485665080,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208621",
         "source_bytes_read": 485665080,
         "elapsed_seconds": 39.832,
         "finished_at": "2026-11-20T16:42:00.912847+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208621",
+          "size_bytes": 485665080,
+          "source_bytes_read": 485665080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25476187",
+        "source_url": "https://sdilej.cz/25476187/kriminalka-las-vegas-07x23.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208621",
+        "display_name": "CSI: Crime Scene Investigation S07E23 The Good, the Bad, and the Dominatrix SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:42:12.973553+00:00"
       }
     },
     "1065:7:24": {
@@ -733783,7 +733784,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:42:05.888180+00:00",
+  "updated_at": "2026-11-20T16:42:12.973574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
