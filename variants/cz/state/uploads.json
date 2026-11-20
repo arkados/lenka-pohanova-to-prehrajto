@@ -747446,12 +747446,6 @@
     },
     "38:2:12": {
       "episode_key": "průměrňákovi:s2:e12",
-      "claim": {
-        "worker_id": "c8b08c550a3a48ab97976bc3df2f3039-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:25:00.371229+00:00",
-        "lease_expires_at": "2026-11-21T04:25:00.371240+00:00"
-      },
       "source": {
         "source_id": "27601223",
         "source_url": "https://sdilej.cz/27601223/prumernakovi-s02e12-cz.mkv",
@@ -747476,22 +747470,29 @@
         "display_name": "The Middle S02E12 The Big Chill 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:25:06.524394+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214498",
-        "size_bytes": 959155617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214498",
-        "size_bytes": 959155617,
-        "source_bytes_read": 959155617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214498",
         "source_bytes_read": 959155617,
         "elapsed_seconds": 74.515,
         "finished_at": "2026-11-20T22:27:01.653857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214498",
+          "size_bytes": 959155617,
+          "source_bytes_read": 959155617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27601223",
+        "source_url": "https://sdilej.cz/27601223/prumernakovi-s02e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214498",
+        "display_name": "The Middle S02E12 The Big Chill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:27:16.868123+00:00"
       }
     },
     "38:2:13": {
@@ -747570,7 +747571,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:27:12.113667+00:00",
+  "updated_at": "2026-11-20T22:27:16.868181+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
