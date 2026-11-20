@@ -722398,12 +722398,6 @@
     },
     "1461:3:5": {
       "episode_key": "closer: nové případy:s3:e5",
-      "claim": {
-        "worker_id": "5b844e53489a4da2b4d5a684a1dffb6b-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:13:57.123225+00:00",
-        "lease_expires_at": "2026-11-20T18:13:57.123239+00:00"
-      },
       "source": {
         "source_id": "29106715",
         "source_url": "https://sdilej.cz/29106715/closer-nove-pripady-s03e05-034-2014-sd-nerusit-sd-.mp4",
@@ -722428,22 +722422,29 @@
         "display_name": "Major Crimes S03E05 Do Not Disturb SD CZ Dabing",
         "prepared_at": "2026-11-20T12:14:08.077678+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204026",
-        "size_bytes": 382628525
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204026",
-        "size_bytes": 382628525,
-        "source_bytes_read": 382628525,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204026",
         "source_bytes_read": 382628525,
         "elapsed_seconds": 53.945,
         "finished_at": "2026-11-20T12:15:28.889788+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204026",
+          "size_bytes": 382628525,
+          "source_bytes_read": 382628525,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106715",
+        "source_url": "https://sdilej.cz/29106715/closer-nove-pripady-s03e05-034-2014-sd-nerusit-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204026",
+        "display_name": "Major Crimes S03E05 Do Not Disturb SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:15:40.005751+00:00"
       }
     }
   },
@@ -722452,7 +722453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:15:34.138768+00:00",
+  "updated_at": "2026-11-20T12:15:40.005769+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
