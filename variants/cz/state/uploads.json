@@ -735288,12 +735288,6 @@
     },
     "1065:9:19": {
       "episode_key": "kriminálka las vegas:s9:e19",
-      "claim": {
-        "worker_id": "92d31d7e68e94e66afa57c8ef40ae3ce-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:05:59.135608+00:00",
-        "lease_expires_at": "2026-11-20T23:05:59.135623+00:00"
-      },
       "source": {
         "source_id": "27228069",
         "source_url": "https://sdilej.cz/27228069/kriminalka-las-vegas-s09e19-201-2009-sd-pad-cloveka-sd-.mp4",
@@ -735318,22 +735312,29 @@
         "display_name": "CSI: Crime Scene Investigation S09E19 The Descent of Man SD CZ Dabing",
         "prepared_at": "2026-11-20T17:06:07.866134+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31209314",
-        "size_bytes": 356753817
-      },
-      "transfer_receipt": {
-        "target_video_id": "31209314",
-        "size_bytes": 356753817,
-        "source_bytes_read": 356753817,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31209314",
         "source_bytes_read": 356753817,
         "elapsed_seconds": 28.273,
         "finished_at": "2026-11-20T17:07:25.282211+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31209314",
+          "size_bytes": 356753817,
+          "source_bytes_read": 356753817,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27228069",
+        "source_url": "https://sdilej.cz/27228069/kriminalka-las-vegas-s09e19-201-2009-sd-pad-cloveka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31209314",
+        "display_name": "CSI: Crime Scene Investigation S09E19 The Descent of Man SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:07:38.923234+00:00"
       }
     },
     "1065:9:20": {
@@ -735416,7 +735417,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:07:31.000281+00:00",
+  "updated_at": "2026-11-20T17:07:38.923255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
