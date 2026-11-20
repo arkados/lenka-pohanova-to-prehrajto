@@ -700017,12 +700017,6 @@
         }
       ],
       "episode_key": "prcek:s3:e7",
-      "claim": {
-        "worker_id": "89c46b4b79b34bca854df6ebe0ddaf11-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:02:08.397170+00:00",
-        "lease_expires_at": "2026-11-20T09:02:08.397180+00:00"
-      },
       "source": {
         "source_id": "26800858",
         "source_url": "https://sdilej.cz/26800858/el.chapo.03x07.cz.mkv",
@@ -700047,22 +700041,29 @@
         "display_name": "El Chapo S03E07 Episodio 07 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:02:30.619648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195314",
-        "size_bytes": 548572540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195314",
-        "size_bytes": 548572540,
-        "source_bytes_read": 548572540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195314",
         "source_bytes_read": 548572540,
         "elapsed_seconds": 44.393,
         "finished_at": "2026-11-20T03:03:47.120307+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195314",
+          "size_bytes": 548572540,
+          "source_bytes_read": 548572540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26800858",
+        "source_url": "https://sdilej.cz/26800858/el.chapo.03x07.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195314",
+        "display_name": "El Chapo S03E07 Episodio 07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:03:53.982658+00:00"
       }
     },
     "695:3:9": {
@@ -700887,7 +700888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:03:47.120323+00:00",
+  "updated_at": "2026-11-20T03:03:53.982672+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
