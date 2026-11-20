@@ -704535,12 +704535,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e3",
-      "claim": {
-        "worker_id": "cd5753b39d4b46a78a28fce768101b42-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T04:56:37.134863+00:00",
-        "lease_expires_at": "2026-11-20T10:56:37.134876+00:00"
-      },
       "source": {
         "source_id": "34590569",
         "source_url": "https://sdilej.cz/34590569/upiri-deniky-s03e03-konec-jedne-aferky-cz-dabing-h265-2011.mkv",
@@ -704565,22 +704559,29 @@
         "display_name": "The Vampire Diaries S03E03 The End of the Affair 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:56:42.241058+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197157",
-        "size_bytes": 590321091
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197157",
-        "size_bytes": 590321091,
-        "source_bytes_read": 590321091,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197157",
         "source_bytes_read": 590321091,
         "elapsed_seconds": 36.32,
         "finished_at": "2026-11-20T04:57:39.056384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197157",
+          "size_bytes": 590321091,
+          "source_bytes_read": 590321091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34590569",
+        "source_url": "https://sdilej.cz/34590569/upiri-deniky-s03e03-konec-jedne-aferky-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197157",
+        "display_name": "The Vampire Diaries S03E03 The End of the Affair 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:57:48.690237+00:00"
       }
     },
     "1119:3:2": {
@@ -704885,7 +704886,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:57:44.445299+00:00",
+  "updated_at": "2026-11-20T04:57:48.690253+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
