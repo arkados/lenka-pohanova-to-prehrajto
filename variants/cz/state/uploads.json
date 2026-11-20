@@ -742637,12 +742637,6 @@
     },
     "210:3:8": {
       "episode_key": "věčnost:s3:e8",
-      "claim": {
-        "worker_id": "9bbd3d72df114c338ea3ffc4fe5e70d8-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:35:55.881517+00:00",
-        "lease_expires_at": "2026-11-21T02:35:55.881530+00:00"
-      },
       "source": {
         "source_id": "29218705",
         "source_url": "https://sdilej.cz/29218705/vecnost-s03e08-1080p-cz-dabing.mkv",
@@ -742667,22 +742661,29 @@
         "display_name": "Upload S03E08 Flesh and Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:36:27.242509+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212931",
-        "size_bytes": 1353003075
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212931",
-        "size_bytes": 1353003075,
-        "source_bytes_read": 1353003075,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212931",
         "source_bytes_read": 1353003075,
         "elapsed_seconds": 89.194,
         "finished_at": "2026-11-20T20:38:27.142415+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212931",
+          "size_bytes": 1353003075,
+          "source_bytes_read": 1353003075,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218705",
+        "source_url": "https://sdilej.cz/29218705/vecnost-s03e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212931",
+        "display_name": "Upload S03E08 Flesh and Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:38:38.507681+00:00"
       }
     },
     "210:4:1": {
@@ -742812,7 +742813,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:38:32.632829+00:00",
+  "updated_at": "2026-11-20T20:38:38.507697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
