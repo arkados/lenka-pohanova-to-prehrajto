@@ -749107,12 +749107,6 @@
     },
     "38:3:20": {
       "episode_key": "průměrňákovi:s3:e20",
-      "claim": {
-        "worker_id": "d617c4c992ec4382b3f14f311dfd73c4-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:10:00.551727+00:00",
-        "lease_expires_at": "2026-11-21T05:10:00.551739+00:00"
-      },
       "source": {
         "source_id": "27602853",
         "source_url": "https://sdilej.cz/27602853/prumernakovi-s03e20-cz.mkv",
@@ -749137,22 +749131,29 @@
         "display_name": "The Middle S03E20 Get Your Business Done 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:10:13.348360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215146",
-        "size_bytes": 956247656
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215146",
-        "size_bytes": 956247656,
-        "source_bytes_read": 956247656,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215146",
         "source_bytes_read": 956247656,
         "elapsed_seconds": 102.911,
         "finished_at": "2026-11-20T23:12:25.837599+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215146",
+          "size_bytes": 956247656,
+          "source_bytes_read": 956247656,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27602853",
+        "source_url": "https://sdilej.cz/27602853/prumernakovi-s03e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215146",
+        "display_name": "The Middle S03E20 Get Your Business Done 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:12:34.941489+00:00"
       }
     },
     "38:3:22": {
@@ -749198,7 +749199,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:12:25.837623+00:00",
+  "updated_at": "2026-11-20T23:12:34.941505+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
