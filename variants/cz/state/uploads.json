@@ -709097,12 +709097,6 @@
     },
     "1119:6:22": {
       "episode_key": "upíří deníky:s6:e22",
-      "claim": {
-        "worker_id": "c340da7cc8784c34bc7928863f755929-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:29:03.668095+00:00",
-        "lease_expires_at": "2026-11-20T12:29:03.668107+00:00"
-      },
       "source": {
         "source_id": "30080595",
         "source_url": "https://sdilej.cz/30080595/upiri-deniky-s06e22.mkv",
@@ -709127,22 +709121,29 @@
         "display_name": "The Vampire Diaries S06E22 I'm Thinking of You All the While 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:29:09.058148+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198448",
-        "size_bytes": 782775519
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198448",
-        "size_bytes": 782775519,
-        "source_bytes_read": 782775519,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198448",
         "source_bytes_read": 782775519,
         "elapsed_seconds": 58.397,
         "finished_at": "2026-11-20T06:30:37.625350+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198448",
+          "size_bytes": 782775519,
+          "source_bytes_read": 782775519,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30080595",
+        "source_url": "https://sdilej.cz/30080595/upiri-deniky-s06e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198448",
+        "display_name": "The Vampire Diaries S06E22 I'm Thinking of You All the While 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:30:48.983757+00:00"
       }
     },
     "1119:7:1": {
@@ -709224,7 +709225,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:30:42.592331+00:00",
+  "updated_at": "2026-11-20T06:30:48.983773+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
