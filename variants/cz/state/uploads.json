@@ -742331,12 +742331,6 @@
     },
     "210:3:2": {
       "episode_key": "věčnost:s3:e2",
-      "claim": {
-        "worker_id": "2bd43bb25d70470bb87964ec79c08ad1-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:30:31.966032+00:00",
-        "lease_expires_at": "2026-11-21T02:30:31.966042+00:00"
-      },
       "source": {
         "source_id": "29218518",
         "source_url": "https://sdilej.cz/29218518/vecnost-s03e02-1080p-cz-dabing.mkv",
@@ -742361,22 +742355,29 @@
         "display_name": "Upload S03E02 Strawberry 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:30:56.305772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212833",
-        "size_bytes": 1071839084
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212833",
-        "size_bytes": 1071839084,
-        "source_bytes_read": 1071839084,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212833",
         "source_bytes_read": 1071839084,
         "elapsed_seconds": 54.717,
         "finished_at": "2026-11-20T20:32:19.320519+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212833",
+          "size_bytes": 1071839084,
+          "source_bytes_read": 1071839084,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29218518",
+        "source_url": "https://sdilej.cz/29218518/vecnost-s03e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212833",
+        "display_name": "Upload S03E02 Strawberry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:32:29.902516+00:00"
       }
     },
     "210:3:3": {
@@ -742422,7 +742423,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:32:19.320539+00:00",
+  "updated_at": "2026-11-20T20:32:29.902535+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
