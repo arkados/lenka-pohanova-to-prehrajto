@@ -743912,12 +743912,6 @@
     },
     "1724:1:1": {
       "episode_key": "sweet tooth: chlapec s parožím:s1:e1",
-      "claim": {
-        "worker_id": "a311ec0e924849bf8ac3763bfd4140f6-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:56:43.769639+00:00",
-        "lease_expires_at": "2026-11-21T02:56:43.769648+00:00"
-      },
       "source": {
         "source_id": "26121912",
         "source_url": "https://sdilej.cz/26121912/sweet.tooth.s01e01.1080p.10bit.webrip.ac3.x265.hevc-psa-czaudio-.mkv",
@@ -743942,22 +743936,29 @@
         "display_name": "Sweet Tooth S01E01 Out of the Deep Woods 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:56:55.006604+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213218",
-        "size_bytes": 796642974
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213218",
-        "size_bytes": 796642974,
-        "source_bytes_read": 796642974,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213218",
         "source_bytes_read": 796642974,
         "elapsed_seconds": 37.664,
         "finished_at": "2026-11-20T20:58:07.763831+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213218",
+          "size_bytes": 796642974,
+          "source_bytes_read": 796642974,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26121912",
+        "source_url": "https://sdilej.cz/26121912/sweet.tooth.s01e01.1080p.10bit.webrip.ac3.x265.hevc-psa-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213218",
+        "display_name": "Sweet Tooth S01E01 Out of the Deep Woods 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:58:16.305833+00:00"
       }
     },
     "1724:1:2": {
@@ -744040,7 +744041,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:58:07.763849+00:00",
+  "updated_at": "2026-11-20T20:58:16.305850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
