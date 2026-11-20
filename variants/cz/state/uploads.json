@@ -709658,12 +709658,6 @@
     },
     "1119:7:11": {
       "episode_key": "upíří deníky:s7:e11",
-      "claim": {
-        "worker_id": "2d31421ab90f44f2befc91637bcf117a-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:37:42.559896+00:00",
-        "lease_expires_at": "2026-11-20T12:37:42.559908+00:00"
-      },
       "source": {
         "source_id": "30081891",
         "source_url": "https://sdilej.cz/30081891/upiri-deniky-s07e11.mkv",
@@ -709688,22 +709682,29 @@
         "display_name": "The Vampire Diaries S07E11 Things We Lost in the Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:37:52.952877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198555",
-        "size_bytes": 1915313615
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198555",
-        "size_bytes": 1915313615,
-        "source_bytes_read": 1915313615,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198555",
         "source_bytes_read": 1915313615,
         "elapsed_seconds": 604.542,
         "finished_at": "2026-11-20T06:48:23.299033+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198555",
+          "size_bytes": 1915313615,
+          "source_bytes_read": 1915313615,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30081891",
+        "source_url": "https://sdilej.cz/30081891/upiri-deniky-s07e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198555",
+        "display_name": "The Vampire Diaries S07E11 Things We Lost in the Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:48:31.517832+00:00"
       }
     },
     "1119:7:12": {
@@ -709939,7 +709940,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:48:23.299051+00:00",
+  "updated_at": "2026-11-20T06:48:31.517849+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
