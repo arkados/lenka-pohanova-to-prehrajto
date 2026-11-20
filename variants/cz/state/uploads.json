@@ -693336,12 +693336,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e14",
-      "claim": {
-        "worker_id": "2dd2c30c8ff54773877a2cc8f5687962-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:24:50.964549+00:00",
-        "lease_expires_at": "2026-11-20T07:24:50.964569+00:00"
-      },
       "source": {
         "source_id": "33647115",
         "source_url": "https://sdilej.cz/33647115/smer-jih-01x14-cz.mp4",
@@ -693366,22 +693360,29 @@
         "display_name": "Due South S01E14 The Man Who Knew Too Little 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:25:18.910239+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194003",
-        "size_bytes": 889926570
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194003",
-        "size_bytes": 889926570,
-        "source_bytes_read": 889926570,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194003",
         "source_bytes_read": 889926570,
         "elapsed_seconds": 89.446,
         "finished_at": "2026-11-20T01:27:21.773258+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194003",
+          "size_bytes": 889926570,
+          "source_bytes_read": 889926570,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647115",
+        "source_url": "https://sdilej.cz/33647115/smer-jih-01x14-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194003",
+        "display_name": "Due South S01E14 The Man Who Knew Too Little 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:27:35.435235+00:00"
       }
     },
     "2234:1:16": {
@@ -695892,7 +695893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:27:30.264944+00:00",
+  "updated_at": "2026-11-20T01:27:35.435248+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
