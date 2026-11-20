@@ -746876,12 +746876,6 @@
     },
     "38:2:3": {
       "episode_key": "průměrňákovi:s2:e3",
-      "claim": {
-        "worker_id": "d1a8a161d48e4f5db1da01c4ad15ae6c-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:17:02.469790+00:00",
-        "lease_expires_at": "2026-11-21T04:17:02.469800+00:00"
-      },
       "source": {
         "source_id": "27600955",
         "source_url": "https://sdilej.cz/27600955/prumernakovi-s02e03-cz.mkv",
@@ -746906,22 +746900,29 @@
         "display_name": "The Middle S02E03 The Diaper Incident 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:17:17.794012+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214371",
-        "size_bytes": 959712696
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214371",
-        "size_bytes": 959712696,
-        "source_bytes_read": 959712696,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214371",
         "source_bytes_read": 959712696,
         "elapsed_seconds": 77.962,
         "finished_at": "2026-11-20T22:19:03.465637+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214371",
+          "size_bytes": 959712696,
+          "source_bytes_read": 959712696,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27600955",
+        "source_url": "https://sdilej.cz/27600955/prumernakovi-s02e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214371",
+        "display_name": "The Middle S02E03 The Diaper Incident 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:19:16.089032+00:00"
       }
     },
     "38:2:4": {
@@ -747017,7 +747018,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:19:09.054980+00:00",
+  "updated_at": "2026-11-20T22:19:16.089048+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
