@@ -710474,12 +710474,6 @@
     },
     "1119:8:6": {
       "episode_key": "upíří deníky:s8:e6",
-      "claim": {
-        "worker_id": "a255d17152a24c65a2a686822a57eb44-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:05:30.981342+00:00",
-        "lease_expires_at": "2026-11-20T13:05:30.981353+00:00"
-      },
       "source": {
         "source_id": "30090949",
         "source_url": "https://sdilej.cz/30090949/upiri-deniky-s08e06.mkv",
@@ -710504,22 +710498,29 @@
         "display_name": "The Vampire Diaries S08E06 Detoured on Some Random Backwoods Path to Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:05:45.752696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198894",
-        "size_bytes": 1913381224
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198894",
-        "size_bytes": 1913381224,
-        "source_bytes_read": 1913381224,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198894",
         "source_bytes_read": 1913381224,
         "elapsed_seconds": 268.07,
         "finished_at": "2026-11-20T07:10:42.904454+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198894",
+          "size_bytes": 1913381224,
+          "source_bytes_read": 1913381224,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30090949",
+        "source_url": "https://sdilej.cz/30090949/upiri-deniky-s08e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198894",
+        "display_name": "The Vampire Diaries S08E06 Detoured on Some Random Backwoods Path to Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:10:53.945982+00:00"
       }
     },
     "1119:8:7": {
@@ -710704,7 +710705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:10:47.614458+00:00",
+  "updated_at": "2026-11-20T07:10:53.946000+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
