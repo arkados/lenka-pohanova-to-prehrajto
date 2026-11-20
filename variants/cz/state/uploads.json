@@ -720119,12 +720119,6 @@
     },
     "1084:7:1": {
       "episode_key": "zoufalé manželky:s7:e1",
-      "claim": {
-        "worker_id": "566c7c0680854e3697e3ee6f6a325d5a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:27:25.925429+00:00",
-        "lease_expires_at": "2026-11-20T17:27:25.925440+00:00"
-      },
       "source": {
         "source_id": "27625726",
         "source_url": "https://sdilej.cz/27625726/zoufale-manzelky-s07e01-cz.mkv",
@@ -720149,22 +720143,29 @@
         "display_name": "Desperate Housewives S07E01 Remember Paul? 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:27:41.118977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203045",
-        "size_bytes": 941962878
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203045",
-        "size_bytes": 941962878,
-        "source_bytes_read": 941962878,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203045",
         "source_bytes_read": 941962878,
         "elapsed_seconds": 86.668,
         "finished_at": "2026-11-20T11:29:35.325539+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203045",
+          "size_bytes": 941962878,
+          "source_bytes_read": 941962878,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625726",
+        "source_url": "https://sdilej.cz/27625726/zoufale-manzelky-s07e01-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203045",
+        "display_name": "Desperate Housewives S07E01 Remember Paul? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:29:44.213148+00:00"
       }
     },
     "1084:7:3": {
@@ -720317,7 +720318,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:29:39.808037+00:00",
+  "updated_at": "2026-11-20T11:29:44.213166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
