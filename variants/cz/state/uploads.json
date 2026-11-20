@@ -720784,28 +720784,29 @@
           "at": "2026-11-20T11:48:35.137025+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4c8a9d527d684b36abe009b54a239b31-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:48:39.970706+00:00",
-        "lease_expires_at": "2026-11-20T17:48:39.970717+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31203485",
-        "size_bytes": 415713280
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203485",
-        "size_bytes": 415713280,
-        "source_bytes_read": 415713280,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203485",
         "source_bytes_read": 415713280,
         "elapsed_seconds": 171.026,
         "finished_at": "2026-11-20T11:52:14.942912+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203485",
+          "size_bytes": 415713280,
+          "source_bytes_read": 415713280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22509403",
+        "source_url": "https://sdilej.cz/22509403/zoufale-manzelky-s07e09-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203485",
+        "display_name": "Desperate Housewives S07E09 Pleasant Little Kingdom SD CZ Dabing",
+        "uploaded_at": "2026-11-20T11:52:28.751084+00:00"
       }
     },
     "1084:7:10": {
@@ -721067,7 +721068,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:52:21.966694+00:00",
+  "updated_at": "2026-11-20T11:52:28.751098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
