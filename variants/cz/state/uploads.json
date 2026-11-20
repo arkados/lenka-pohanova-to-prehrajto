@@ -699326,12 +699326,6 @@
         }
       ],
       "episode_key": "prcek:s2:e7",
-      "claim": {
-        "worker_id": "9053d0013b81428098c219f952b71447-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:50:16.647209+00:00",
-        "lease_expires_at": "2026-11-20T08:50:16.647224+00:00"
-      },
       "source": {
         "source_id": "32801544",
         "source_url": "https://sdilej.cz/32801544/el-chapo-02x07-vsichni-proti-vsem-juraison-.mkv",
@@ -699356,22 +699350,29 @@
         "display_name": "El Chapo S02E07 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:50:27.343323+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195123",
-        "size_bytes": 548587776
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195123",
-        "size_bytes": 548587776,
-        "source_bytes_read": 548587776,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195123",
         "source_bytes_read": 548587776,
         "elapsed_seconds": 33.795,
         "finished_at": "2026-11-20T02:51:34.807534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195123",
+          "size_bytes": 548587776,
+          "source_bytes_read": 548587776,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32801544",
+        "source_url": "https://sdilej.cz/32801544/el-chapo-02x07-vsichni-proti-vsem-juraison-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195123",
+        "display_name": "El Chapo S02E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:51:57.827845+00:00"
       }
     },
     "695:2:9": {
@@ -700268,7 +700269,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:51:52.456538+00:00",
+  "updated_at": "2026-11-20T02:51:57.827860+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
