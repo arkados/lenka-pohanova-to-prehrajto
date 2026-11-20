@@ -708420,12 +708420,6 @@
     },
     "1119:6:9": {
       "episode_key": "upíří deníky:s6:e9",
-      "claim": {
-        "worker_id": "fa74ff4abfd34bf3acc006c0693f2153-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:19:45.675169+00:00",
-        "lease_expires_at": "2026-11-20T12:19:45.675179+00:00"
-      },
       "source": {
         "source_id": "30080533",
         "source_url": "https://sdilej.cz/30080533/upiri-deniky-s06e09.mkv",
@@ -708450,22 +708444,29 @@
         "display_name": "The Vampire Diaries S06E09 I Alone 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:19:59.439471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198344",
-        "size_bytes": 613788421
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198344",
-        "size_bytes": 613788421,
-        "source_bytes_read": 613788421,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198344",
         "source_bytes_read": 613788421,
         "elapsed_seconds": 39.884,
         "finished_at": "2026-11-20T06:21:03.245590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198344",
+          "size_bytes": 613788421,
+          "source_bytes_read": 613788421,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30080533",
+        "source_url": "https://sdilej.cz/30080533/upiri-deniky-s06e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198344",
+        "display_name": "The Vampire Diaries S06E09 I Alone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:21:09.585753+00:00"
       }
     },
     "1119:6:10": {
@@ -708511,7 +708512,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:21:03.245610+00:00",
+  "updated_at": "2026-11-20T06:21:09.585770+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
