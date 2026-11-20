@@ -704150,12 +704150,6 @@
         }
       ],
       "episode_key": "upíří deníky:s2:e16",
-      "claim": {
-        "worker_id": "10f6b6474f0f42e9b078a11445935e20-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:48:04.130338+00:00",
-        "lease_expires_at": "2026-11-20T10:48:04.130348+00:00"
-      },
       "source": {
         "source_id": "34492899",
         "source_url": "https://sdilej.cz/34492899/upiri-deniky-s02e16-navsteva.mkv",
@@ -704180,22 +704174,29 @@
         "display_name": "The Vampire Diaries S02E16 The House Guest 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:48:16.472559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197039",
-        "size_bytes": 842758448
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197039",
-        "size_bytes": 842758448,
-        "source_bytes_read": 842758448,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197039",
         "source_bytes_read": 842758448,
         "elapsed_seconds": 293.604,
         "finished_at": "2026-11-20T04:53:35.751183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197039",
+          "size_bytes": 842758448,
+          "source_bytes_read": 842758448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34492899",
+        "source_url": "https://sdilej.cz/34492899/upiri-deniky-s02e16-navsteva.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197039",
+        "display_name": "The Vampire Diaries S02E16 The House Guest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:53:46.501158+00:00"
       }
     },
     "1119:2:18": {
@@ -704671,7 +704672,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:53:40.560824+00:00",
+  "updated_at": "2026-11-20T04:53:46.501171+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
