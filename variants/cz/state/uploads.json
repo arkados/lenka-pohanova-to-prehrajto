@@ -710511,12 +710511,6 @@
     },
     "1119:8:7": {
       "episode_key": "upíří deníky:s8:e7",
-      "claim": {
-        "worker_id": "a11f8056dceb4623834bacffdc2f657e-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:06:01.815731+00:00",
-        "lease_expires_at": "2026-11-20T13:06:01.815742+00:00"
-      },
       "source": {
         "source_id": "30091521",
         "source_url": "https://sdilej.cz/30091521/upiri-deniky-s08e07.mkv",
@@ -710541,22 +710535,29 @@
         "display_name": "The Vampire Diaries S08E07 The Next Time I Hurt Somebody, It Could Be You 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:06:15.326002+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198905",
-        "size_bytes": 1918538033
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198905",
-        "size_bytes": 1918538033,
-        "source_bytes_read": 1918538033,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198905",
         "source_bytes_read": 1918538033,
         "elapsed_seconds": 211.67,
         "finished_at": "2026-11-20T07:10:10.159046+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198905",
+          "size_bytes": 1918538033,
+          "source_bytes_read": 1918538033,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30091521",
+        "source_url": "https://sdilej.cz/30091521/upiri-deniky-s08e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198905",
+        "display_name": "The Vampire Diaries S08E07 The Next Time I Hurt Somebody, It Could Be You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:10:17.679112+00:00"
       }
     },
     "1119:8:8": {
@@ -710653,7 +710654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:10:10.159066+00:00",
+  "updated_at": "2026-11-20T07:10:17.679127+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
