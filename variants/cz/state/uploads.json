@@ -710358,12 +710358,6 @@
     },
     "1119:8:4": {
       "episode_key": "upíří deníky:s8:e4",
-      "claim": {
-        "worker_id": "0d8d5252157c447083f246e378dff237-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:01:24.586991+00:00",
-        "lease_expires_at": "2026-11-20T13:01:24.587003+00:00"
-      },
       "source": {
         "source_id": "30090832",
         "source_url": "https://sdilej.cz/30090832/upiri-deniky-s08e04.mkv",
@@ -710388,22 +710382,29 @@
         "display_name": "The Vampire Diaries S08E04 An Eternity of Misery 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:01:33.766246+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198850",
-        "size_bytes": 1918369325
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198850",
-        "size_bytes": 1918369325,
-        "source_bytes_read": 1918369325,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198850",
         "source_bytes_read": 1918369325,
         "elapsed_seconds": 185.96,
         "finished_at": "2026-11-20T07:05:06.973349+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198850",
+          "size_bytes": 1918369325,
+          "source_bytes_read": 1918369325,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30090832",
+        "source_url": "https://sdilej.cz/30090832/upiri-deniky-s08e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198850",
+        "display_name": "The Vampire Diaries S08E04 An Eternity of Misery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:05:15.108436+00:00"
       }
     },
     "1119:8:5": {
@@ -710463,7 +710464,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:05:06.973366+00:00",
+  "updated_at": "2026-11-20T07:05:15.108453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
