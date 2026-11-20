@@ -704079,12 +704079,6 @@
         }
       ],
       "episode_key": "upíří deníky:s2:e14",
-      "claim": {
-        "worker_id": "447f2f3cf1c946378a85cac1576c0afc-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:47:01.773414+00:00",
-        "lease_expires_at": "2026-11-20T10:47:01.773425+00:00"
-      },
       "source": {
         "source_id": "27760106",
         "source_url": "https://sdilej.cz/27760106/upiri-deniky-s02e14-narek-vlka.mkv",
@@ -704109,22 +704103,29 @@
         "display_name": "The Vampire Diaries S02E14 Crying Wolf 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:47:07.250076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197021",
-        "size_bytes": 643530752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197021",
-        "size_bytes": 643530752,
-        "source_bytes_read": 643530752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197021",
         "source_bytes_read": 643530752,
         "elapsed_seconds": 52.865,
         "finished_at": "2026-11-20T04:48:28.099025+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197021",
+          "size_bytes": 643530752,
+          "source_bytes_read": 643530752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27760106",
+        "source_url": "https://sdilej.cz/27760106/upiri-deniky-s02e14-narek-vlka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197021",
+        "display_name": "The Vampire Diaries S02E14 Crying Wolf 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:48:40.250640+00:00"
       }
     },
     "1119:2:16": {
@@ -704448,7 +704449,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:48:33.085714+00:00",
+  "updated_at": "2026-11-20T04:48:40.250655+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
