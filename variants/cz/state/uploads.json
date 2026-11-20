@@ -749924,12 +749924,6 @@
     },
     "38:4:13": {
       "episode_key": "průměrňákovi:s4:e13",
-      "claim": {
-        "worker_id": "e955b47debb24e7488dffd110ff00755-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:28:11.448291+00:00",
-        "lease_expires_at": "2026-11-21T05:28:11.448301+00:00"
-      },
       "source": {
         "source_id": "27603242",
         "source_url": "https://sdilej.cz/27603242/prumernakovi-s04e13-cz.mkv",
@@ -749954,22 +749948,29 @@
         "display_name": "The Middle S04E13 The Friend 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:28:26.551995+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215405",
-        "size_bytes": 955407189
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215405",
-        "size_bytes": 955407189,
-        "source_bytes_read": 955407189,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215405",
         "source_bytes_read": 955407189,
         "elapsed_seconds": 67.999,
         "finished_at": "2026-11-20T23:30:00.426057+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215405",
+          "size_bytes": 955407189,
+          "source_bytes_read": 955407189,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603242",
+        "source_url": "https://sdilej.cz/27603242/prumernakovi-s04e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215405",
+        "display_name": "The Middle S04E13 The Friend 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:30:08.578226+00:00"
       }
     }
   },
@@ -749978,7 +749979,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:30:00.426076+00:00",
+  "updated_at": "2026-11-20T23:30:08.578240+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
