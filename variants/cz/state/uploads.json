@@ -722159,12 +722159,6 @@
     },
     "1084:8:4": {
       "episode_key": "zoufalé manželky:s8:e4",
-      "claim": {
-        "worker_id": "bd460bad6c4a4ac190ecc462bcd4b3ad-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:10:42.506549+00:00",
-        "lease_expires_at": "2026-11-20T18:10:42.506564+00:00"
-      },
       "source": {
         "source_id": "33109112",
         "source_url": "https://sdilej.cz/33109112/zoufale-manzelky-s08e04-cz-dabing.mp4",
@@ -722188,7 +722182,17 @@
         },
         "display_name": "Desperate Housewives S08E04 School of Hard Knocks 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:10:59.353322+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109112:https://sdilej.cz/33109112/zoufale-manzelky-s08e04-cz-dabing.mp4",
+        "at": "2026-11-20T12:11:16.115392+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:11:16.115714+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:8:5": {
       "episode_key": "zoufalé manželky:s8:e5",
@@ -722229,7 +722233,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:11:05.846583+00:00",
+  "updated_at": "2026-11-20T12:11:16.115725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -722806,9 +722810,13 @@
         {
           "identity": "1084:8:3",
           "at": "2026-11-20T12:10:31.742075+00:00"
+        },
+        {
+          "identity": "1084:8:4",
+          "at": "2026-11-20T12:11:16.115392+00:00"
         }
       ],
-      "retry_after": "2026-11-20T12:07:57.929174+00:00"
+      "retry_after": "2026-11-20T12:21:16.115392+00:00"
     }
   }
 }
