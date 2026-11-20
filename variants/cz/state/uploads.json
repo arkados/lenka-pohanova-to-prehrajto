@@ -725955,12 +725955,6 @@
     },
     "265:2:3": {
       "episode_key": "jeho temné esence:s2:e3",
-      "claim": {
-        "worker_id": "6718c8c0ff89459fa802840d0ba7ba3f-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:19:20.655754+00:00",
-        "lease_expires_at": "2026-11-20T19:19:20.655770+00:00"
-      },
       "source": {
         "source_id": "29103028",
         "source_url": "https://sdilej.cz/29103028/jeho-temne-esence-s02e03-2020-cz-dab-.mkv",
@@ -725985,22 +725979,29 @@
         "display_name": "His Dark Materials S02E03 Theft 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:19:26.377854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205133",
-        "size_bytes": 557204787
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205133",
-        "size_bytes": 557204787,
-        "source_bytes_read": 557204787,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205133",
         "source_bytes_read": 557204787,
         "elapsed_seconds": 56.538,
         "finished_at": "2026-11-20T13:20:51.259435+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205133",
+          "size_bytes": 557204787,
+          "source_bytes_read": 557204787,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29103028",
+        "source_url": "https://sdilej.cz/29103028/jeho-temne-esence-s02e03-2020-cz-dab-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205133",
+        "display_name": "His Dark Materials S02E03 Theft 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:21:03.446697+00:00"
       }
     },
     "265:2:4": {
@@ -726083,7 +726084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:20:57.119223+00:00",
+  "updated_at": "2026-11-20T13:21:03.446717+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
