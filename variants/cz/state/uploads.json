@@ -702886,12 +702886,6 @@
         }
       ],
       "episode_key": "upíří deníky:s1:e15",
-      "claim": {
-        "worker_id": "28add7bca8c847f393493e602130c792-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:17:54.174250+00:00",
-        "lease_expires_at": "2026-11-20T10:17:54.174260+00:00"
-      },
       "source": {
         "source_id": "34586207",
         "source_url": "https://sdilej.cz/34586207/upiri-deniky-s01e15-tombola-cz-dabing-2009.mkv",
@@ -702916,22 +702910,29 @@
         "display_name": "The Vampire Diaries S01E15 A Few Good Men 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:18:06.602654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196474",
-        "size_bytes": 680579434
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196474",
-        "size_bytes": 680579434,
-        "source_bytes_read": 680579434,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196474",
         "source_bytes_read": 680579434,
         "elapsed_seconds": 62.818,
         "finished_at": "2026-11-20T04:19:31.590781+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196474",
+          "size_bytes": 680579434,
+          "source_bytes_read": 680579434,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34586207",
+        "source_url": "https://sdilej.cz/34586207/upiri-deniky-s01e15-tombola-cz-dabing-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196474",
+        "display_name": "The Vampire Diaries S01E15 A Few Good Men 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:19:46.742108+00:00"
       }
     },
     "1119:1:16": {
@@ -703467,7 +703468,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:19:37.365227+00:00",
+  "updated_at": "2026-11-20T04:19:46.742123+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
