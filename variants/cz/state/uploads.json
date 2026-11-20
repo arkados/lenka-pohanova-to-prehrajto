@@ -739382,12 +739382,6 @@
     },
     "1065:14:2": {
       "episode_key": "kriminálka las vegas:s14:e2",
-      "claim": {
-        "worker_id": "a4a9605e0faf45ef861220a1cc7c5574-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T18:12:04.607368+00:00",
-        "lease_expires_at": "2026-11-21T00:12:04.607383+00:00"
-      },
       "source": {
         "source_id": "34149387",
         "source_url": "https://sdilej.cz/34149387/kriminalka-las-vegas-s14e02-1080p-cz.mkv",
@@ -739412,22 +739406,29 @@
         "display_name": "CSI: Crime Scene Investigation S14E02 Take the Money and Run 1080p CZ Dabing",
         "prepared_at": "2026-11-20T18:12:11.038943+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210792",
-        "size_bytes": 1032058097
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210792",
-        "size_bytes": 1032058097,
-        "source_bytes_read": 1032058097,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210792",
         "source_bytes_read": 1032058097,
         "elapsed_seconds": 122.22,
         "finished_at": "2026-11-20T18:14:44.854883+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210792",
+          "size_bytes": 1032058097,
+          "source_bytes_read": 1032058097,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149387",
+        "source_url": "https://sdilej.cz/34149387/kriminalka-las-vegas-s14e02-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210792",
+        "display_name": "CSI: Crime Scene Investigation S14E02 Take the Money and Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T18:14:52.146074+00:00"
       }
     },
     "1065:14:3": {
@@ -739524,7 +739525,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T18:14:44.854907+00:00",
+  "updated_at": "2026-11-20T18:14:52.146094+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
