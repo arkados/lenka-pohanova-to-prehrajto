@@ -722460,12 +722460,6 @@
     },
     "1461:3:6": {
       "episode_key": "closer: nové případy:s3:e6",
-      "claim": {
-        "worker_id": "80cb0a863b1047be8857b1ccabbe823c-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:16:55.087788+00:00",
-        "lease_expires_at": "2026-11-20T18:16:55.087806+00:00"
-      },
       "source": {
         "source_id": "29106725",
         "source_url": "https://sdilej.cz/29106725/closer-nove-pripady-s03e06-035-2014-sd-neznama-sd-.mp4",
@@ -722490,22 +722484,29 @@
         "display_name": "Major Crimes S03E06 Jane Doe #38 SD CZ Dabing",
         "prepared_at": "2026-11-20T12:17:10.513489+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204081",
-        "size_bytes": 379735114
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204081",
-        "size_bytes": 379735114,
-        "source_bytes_read": 379735114,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204081",
         "source_bytes_read": 379735114,
         "elapsed_seconds": 24.683,
         "finished_at": "2026-11-20T12:18:02.903475+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204081",
+          "size_bytes": 379735114,
+          "source_bytes_read": 379735114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106725",
+        "source_url": "https://sdilej.cz/29106725/closer-nove-pripady-s03e06-035-2014-sd-neznama-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204081",
+        "display_name": "Major Crimes S03E06 Jane Doe #38 SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:18:16.387274+00:00"
       }
     },
     "1461:3:7": {
@@ -722564,7 +722565,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:18:11.356299+00:00",
+  "updated_at": "2026-11-20T12:18:16.387291+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
