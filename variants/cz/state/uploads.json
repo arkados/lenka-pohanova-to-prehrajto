@@ -745709,12 +745709,6 @@
     },
     "38:1:4": {
       "episode_key": "průměrňákovi:s1:e4",
-      "claim": {
-        "worker_id": "c23e3ad6c3bc4c2f9f5004b8d157eaf3-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:26:59.106598+00:00",
-        "lease_expires_at": "2026-11-21T03:26:59.106610+00:00"
-      },
       "source": {
         "source_id": "27051636",
         "source_url": "https://sdilej.cz/27051636/prumernakovi-the-middle-s01e04-hd-cz-dabingdabing.mkv",
@@ -745739,22 +745733,29 @@
         "display_name": "The Middle S01E04 The Trip 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:27:13.840492+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213647",
-        "size_bytes": 1330865432
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213647",
-        "size_bytes": 1330865432,
-        "source_bytes_read": 1330865432,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213647",
         "source_bytes_read": 1330865432,
         "elapsed_seconds": 121.978,
         "finished_at": "2026-11-20T21:29:46.904422+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213647",
+          "size_bytes": 1330865432,
+          "source_bytes_read": 1330865432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27051636",
+        "source_url": "https://sdilej.cz/27051636/prumernakovi-the-middle-s01e04-hd-cz-dabingdabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213647",
+        "display_name": "The Middle S01E04 The Trip 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:29:58.847669+00:00"
       }
     },
     "38:1:5": {
@@ -745865,7 +745866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:29:52.809246+00:00",
+  "updated_at": "2026-11-20T21:29:58.847684+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
