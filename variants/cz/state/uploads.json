@@ -721511,28 +721511,29 @@
           "at": "2026-11-20T12:00:55.469627+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "23b2c1cf8981425dbc50b0e14f66962e-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T12:01:00.488689+00:00",
-        "lease_expires_at": "2026-11-20T18:01:00.488704+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31203759",
-        "size_bytes": 878148191
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203759",
-        "size_bytes": 878148191,
-        "source_bytes_read": 878148191,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203759",
         "source_bytes_read": 878148191,
         "elapsed_seconds": 88.517,
         "finished_at": "2026-11-20T12:03:18.596215+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203759",
+          "size_bytes": 878148191,
+          "source_bytes_read": 878148191,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400545",
+        "source_url": "https://sdilej.cz/34400545/zoufale-manzelky-s07e22-156-2011-hd-pro-pocit-bezpeci-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203759",
+        "display_name": "Desperate Housewives S07E22 And Lots of Security…; Come on Over for Dinner 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:03:26.085250+00:00"
       }
     },
     "1084:7:23": {
@@ -721643,7 +721644,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:03:18.596237+00:00",
+  "updated_at": "2026-11-20T12:03:26.085266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
