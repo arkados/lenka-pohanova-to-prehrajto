@@ -711582,12 +711582,6 @@
     },
     "2409:4:3": {
       "episode_key": "vraždy v brokenwoodu:s4:e3",
-      "claim": {
-        "worker_id": "6cc2e6fc5833461f9a6e46240d3317b0-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:48:42.050489+00:00",
-        "lease_expires_at": "2026-11-20T13:48:42.050501+00:00"
-      },
       "source": {
         "source_id": "30607819",
         "source_url": "https://sdilej.cz/30607819/vrazdy-v-brokenwoodu-s04e03-015-2017-hd-strasak-s-.mp4",
@@ -711612,22 +711606,29 @@
         "display_name": "The Brokenwood Mysteries S04E03 The Scarecrow 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:48:47.267554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199444",
-        "size_bytes": 1179053091
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199444",
-        "size_bytes": 1179053091,
-        "source_bytes_read": 1179053091,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199444",
         "source_bytes_read": 1179053091,
         "elapsed_seconds": 79.116,
         "finished_at": "2026-11-20T07:50:28.206535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199444",
+          "size_bytes": 1179053091,
+          "source_bytes_read": 1179053091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607819",
+        "source_url": "https://sdilej.cz/30607819/vrazdy-v-brokenwoodu-s04e03-015-2017-hd-strasak-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199444",
+        "display_name": "The Brokenwood Mysteries S04E03 The Scarecrow 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:50:35.278083+00:00"
       }
     },
     "2409:4:4": {
@@ -711673,7 +711674,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:50:28.206551+00:00",
+  "updated_at": "2026-11-20T07:50:35.278098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
