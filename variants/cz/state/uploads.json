@@ -705675,12 +705675,6 @@
         }
       ],
       "episode_key": "upíří deníky:s3:e22",
-      "claim": {
-        "worker_id": "6250979d8a8f4145be32c00d5860da1e-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:13:48.112889+00:00",
-        "lease_expires_at": "2026-11-20T11:13:48.112902+00:00"
-      },
       "source": {
         "source_id": "34591567",
         "source_url": "https://sdilej.cz/34591567/upiri-deniky-s03e22-zesnuly-cz-dabing-h265-2011.mkv",
@@ -705705,22 +705699,29 @@
         "display_name": "The Vampire Diaries S03E22 The Departed 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:13:57.482918+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197397",
-        "size_bytes": 444852877
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197397",
-        "size_bytes": 444852877,
-        "source_bytes_read": 444852877,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197397",
         "source_bytes_read": 444852877,
         "elapsed_seconds": 24.285,
         "finished_at": "2026-11-20T05:14:46.513404+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197397",
+          "size_bytes": 444852877,
+          "source_bytes_read": 444852877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34591567",
+        "source_url": "https://sdilej.cz/34591567/upiri-deniky-s03e22-zesnuly-cz-dabing-h265-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197397",
+        "display_name": "The Vampire Diaries S03E22 The Departed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:14:55.061834+00:00"
       }
     },
     "1119:4:2": {
@@ -705785,7 +705786,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:14:46.513425+00:00",
+  "updated_at": "2026-11-20T05:14:55.061850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
