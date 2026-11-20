@@ -710831,12 +710831,6 @@
     },
     "1119:8:14": {
       "episode_key": "upíří deníky:s8:e14",
-      "claim": {
-        "worker_id": "6f088d56a7424d948c74b3d10582361b-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:22:25.768760+00:00",
-        "lease_expires_at": "2026-11-20T13:22:25.768775+00:00"
-      },
       "source": {
         "source_id": "30094572",
         "source_url": "https://sdilej.cz/30094572/upiri-deniky-s08e14.mkv",
@@ -710861,22 +710855,29 @@
         "display_name": "The Vampire Diaries S08E14 It’s Been a Hell of a Ride 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:22:30.990299+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199113",
-        "size_bytes": 1892480551
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199113",
-        "size_bytes": 1892480551,
-        "source_bytes_read": 1892480551,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199113",
         "source_bytes_read": 1892480551,
         "elapsed_seconds": 138.849,
         "finished_at": "2026-11-20T07:25:08.401561+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199113",
+          "size_bytes": 1892480551,
+          "source_bytes_read": 1892480551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30094572",
+        "source_url": "https://sdilej.cz/30094572/upiri-deniky-s08e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199113",
+        "display_name": "The Vampire Diaries S08E14 It’s Been a Hell of a Ride 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:25:19.804437+00:00"
       }
     },
     "1119:8:15": {
@@ -710959,7 +710960,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:25:13.742773+00:00",
+  "updated_at": "2026-11-20T07:25:19.804453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
