@@ -706553,12 +706553,6 @@
     },
     "1119:4:17": {
       "episode_key": "upíří deníky:s4:e17",
-      "claim": {
-        "worker_id": "ec60b9a21fe34d95af1fe10a040abc5d-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:26:39.007140+00:00",
-        "lease_expires_at": "2026-11-20T11:26:39.007157+00:00"
-      },
       "source": {
         "source_id": "34495638",
         "source_url": "https://sdilej.cz/34495638/upiri-deniky-s04e17-kouzlo-noci.mkv",
@@ -706583,22 +706577,29 @@
         "display_name": "The Vampire Diaries S04E17 Because the Night 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:26:45.742039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197597",
-        "size_bytes": 852878359
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197597",
-        "size_bytes": 852878359,
-        "source_bytes_read": 852878359,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197597",
         "source_bytes_read": 852878359,
         "elapsed_seconds": 113.355,
         "finished_at": "2026-11-20T05:29:03.963529+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197597",
+          "size_bytes": 852878359,
+          "source_bytes_read": 852878359,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34495638",
+        "source_url": "https://sdilej.cz/34495638/upiri-deniky-s04e17-kouzlo-noci.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197597",
+        "display_name": "The Vampire Diaries S04E17 Because the Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:29:14.988854+00:00"
       }
     },
     "1119:4:18": {
@@ -706644,7 +706645,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:29:08.354185+00:00",
+  "updated_at": "2026-11-20T05:29:14.988879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
