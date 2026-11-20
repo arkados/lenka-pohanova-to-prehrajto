@@ -701434,12 +701434,6 @@
         }
       ],
       "episode_key": "teta mick:s2:e7",
-      "claim": {
-        "worker_id": "2e6a9f54e372417998c2bbe70a611d73-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:42:24.183408+00:00",
-        "lease_expires_at": "2026-11-20T09:42:24.183421+00:00"
-      },
       "source": {
         "source_id": "21901535",
         "source_url": "https://sdilej.cz/21901535/teta-mick-the-mick-s02e07-hd-5.1-cz-dabing.mkv",
@@ -701464,22 +701458,29 @@
         "display_name": "The Mick S02E07 The Homecoming 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:42:30.941519+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195887",
-        "size_bytes": 1443564308
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195887",
-        "size_bytes": 1443564308,
-        "source_bytes_read": 1443564308,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195887",
         "source_bytes_read": 1443564308,
         "elapsed_seconds": 84.997,
         "finished_at": "2026-11-20T03:44:29.502510+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195887",
+          "size_bytes": 1443564308,
+          "source_bytes_read": 1443564308,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21901535",
+        "source_url": "https://sdilej.cz/21901535/teta-mick-the-mick-s02e07-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195887",
+        "display_name": "The Mick S02E07 The Homecoming 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:44:37.969975+00:00"
       }
     },
     "1975:2:16": {
@@ -702190,7 +702191,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:44:29.502527+00:00",
+  "updated_at": "2026-11-20T03:44:37.970005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
