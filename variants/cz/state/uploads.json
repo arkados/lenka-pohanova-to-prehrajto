@@ -699070,12 +699070,6 @@
         }
       ],
       "episode_key": "prcek:s2:e4",
-      "claim": {
-        "worker_id": "4df7fdc2791645959820cf1d1e408bee-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T02:46:47.543356+00:00",
-        "lease_expires_at": "2026-11-20T08:46:47.543367+00:00"
-      },
       "source": {
         "source_id": "26804768",
         "source_url": "https://sdilej.cz/26804768/el.chapo.02x04..cz.mkv",
@@ -699100,22 +699094,29 @@
         "display_name": "El Chapo S02E04 1080p CZ Dabing",
         "prepared_at": "2026-11-20T02:46:58.342339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195066",
-        "size_bytes": 539371548
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195066",
-        "size_bytes": 539371548,
-        "source_bytes_read": 539371548,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195066",
         "source_bytes_read": 539371548,
         "elapsed_seconds": 47.616,
         "finished_at": "2026-11-20T02:48:17.159798+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195066",
+          "size_bytes": 539371548,
+          "source_bytes_read": 539371548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26804768",
+        "source_url": "https://sdilej.cz/26804768/el.chapo.02x04..cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195066",
+        "display_name": "El Chapo S02E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T02:48:30.275419+00:00"
       }
     },
     "695:2:5": {
@@ -700110,7 +700111,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T02:48:22.629774+00:00",
+  "updated_at": "2026-11-20T02:48:30.275432+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
