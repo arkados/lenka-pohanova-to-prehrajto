@@ -725853,12 +725853,6 @@
     },
     "265:2:1": {
       "episode_key": "jeho temné esence:s2:e1",
-      "claim": {
-        "worker_id": "9d7c8e19d5f4482daee5ef310a427452-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:17:25.909122+00:00",
-        "lease_expires_at": "2026-11-20T19:17:25.909139+00:00"
-      },
       "source": {
         "source_id": "34867481",
         "source_url": "https://sdilej.cz/34867481/his-dark-materials-s02e01-czsken-dabing.mp4",
@@ -725883,22 +725877,29 @@
         "display_name": "His Dark Materials S02E01 The City of Magpies 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:17:31.888304+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205097",
-        "size_bytes": 881081904
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205097",
-        "size_bytes": 881081904,
-        "source_bytes_read": 881081904,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205097",
         "source_bytes_read": 881081904,
         "elapsed_seconds": 113.139,
         "finished_at": "2026-11-20T13:19:53.618895+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205097",
+          "size_bytes": 881081904,
+          "source_bytes_read": 881081904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34867481",
+        "source_url": "https://sdilej.cz/34867481/his-dark-materials-s02e01-czsken-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205097",
+        "display_name": "His Dark Materials S02E01 The City of Magpies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:20:05.238315+00:00"
       }
     },
     "265:2:2": {
@@ -725995,7 +725996,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:20:00.221041+00:00",
+  "updated_at": "2026-11-20T13:20:05.238333+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
