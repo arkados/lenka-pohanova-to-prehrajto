@@ -725802,12 +725802,6 @@
     },
     "265:1:7": {
       "episode_key": "jeho temné esence:s1:e7",
-      "claim": {
-        "worker_id": "034823079b03474b978e1066555662be-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:13:56.662465+00:00",
-        "lease_expires_at": "2026-11-20T19:13:56.662482+00:00"
-      },
       "source": {
         "source_id": "24165030",
         "source_url": "https://sdilej.cz/24165030/jeho-temne-esence-his.dark.materials.s01e07.the.fight.to.the.death.1080p.hmax.web-dl.dd5.1.h.265-cz-eng-audio-.mkv",
@@ -725832,22 +725826,29 @@
         "display_name": "His Dark Materials S01E07 The Fight to the Death 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:14:07.583339+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205039",
-        "size_bytes": 2725044450
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205039",
-        "size_bytes": 2725044450,
-        "source_bytes_read": 2725044450,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205039",
         "source_bytes_read": 2725044450,
         "elapsed_seconds": 271.148,
         "finished_at": "2026-11-20T13:19:02.411603+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205039",
+          "size_bytes": 2725044450,
+          "source_bytes_read": 2725044450,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24165030",
+        "source_url": "https://sdilej.cz/24165030/jeho-temne-esence-his.dark.materials.s01e07.the.fight.to.the.death.1080p.hmax.web-dl.dd5.1.h.265-cz-eng-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205039",
+        "display_name": "His Dark Materials S01E07 The Fight to the Death 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:19:10.703773+00:00"
       }
     },
     "265:2:1": {
@@ -725930,7 +725931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:19:02.411625+00:00",
+  "updated_at": "2026-11-20T13:19:10.703791+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
