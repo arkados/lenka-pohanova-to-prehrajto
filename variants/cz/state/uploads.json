@@ -744990,28 +744990,29 @@
           "at": "2026-11-20T21:21:29.917292+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "acc102869f5a481a97232e41f36f1072-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T21:21:34.871158+00:00",
-        "lease_expires_at": "2026-11-21T03:21:34.871172+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31213567",
-        "size_bytes": 703712626
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213567",
-        "size_bytes": 703712626,
-        "source_bytes_read": 703712626,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213567",
         "source_bytes_read": 703712626,
         "elapsed_seconds": 36.273,
         "finished_at": "2026-11-20T21:22:53.995895+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213567",
+          "size_bytes": 703712626,
+          "source_bytes_read": 703712626,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21055132",
+        "source_url": "https://sdilej.cz/21055132/cas.carodejnic.s02e05.1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213567",
+        "display_name": "A Discovery of Witches S02E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T21:23:01.621523+00:00"
       }
     },
     "733:1:1": {
@@ -745451,7 +745452,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:22:53.995916+00:00",
+  "updated_at": "2026-11-20T21:23:01.621539+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
