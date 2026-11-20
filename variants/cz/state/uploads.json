@@ -709148,12 +709148,6 @@
     },
     "1119:7:1": {
       "episode_key": "upíří deníky:s7:e1",
-      "claim": {
-        "worker_id": "ecbc7cde598d4a06adfb593343209dd4-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:30:07.077297+00:00",
-        "lease_expires_at": "2026-11-20T12:30:07.077308+00:00"
-      },
       "source": {
         "source_id": "34602959",
         "source_url": "https://sdilej.cz/34602959/upiri-deniky-s07e01-prvni-den-z-22-tisic-cz-dabing-h265-2015.mkv",
@@ -709178,22 +709172,29 @@
         "display_name": "The Vampire Diaries S07E01 Day One of Twenty-Two Thousand, Give or Take 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:30:13.749413+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198457",
-        "size_bytes": 808508125
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198457",
-        "size_bytes": 808508125,
-        "source_bytes_read": 808508125,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198457",
         "source_bytes_read": 808508125,
         "elapsed_seconds": 149.088,
         "finished_at": "2026-11-20T06:33:06.714091+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198457",
+          "size_bytes": 808508125,
+          "source_bytes_read": 808508125,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34602959",
+        "source_url": "https://sdilej.cz/34602959/upiri-deniky-s07e01-prvni-den-z-22-tisic-cz-dabing-h265-2015.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198457",
+        "display_name": "The Vampire Diaries S07E01 Day One of Twenty-Two Thousand, Give or Take 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:33:17.547596+00:00"
       }
     },
     "1119:7:2": {
@@ -709392,7 +709393,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:33:11.026652+00:00",
+  "updated_at": "2026-11-20T06:33:17.547615+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
