@@ -716798,12 +716798,6 @@
     },
     "1084:3:21": {
       "episode_key": "zoufalé manželky:s3:e21",
-      "claim": {
-        "worker_id": "0fece50c2e924296b043ba260a05c712-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:02:52.773207+00:00",
-        "lease_expires_at": "2026-11-20T16:02:52.773222+00:00"
-      },
       "source": {
         "source_id": "34400181",
         "source_url": "https://sdilej.cz/34400181/zoufale-manzelky-s03e21-068-2007-hd-zpatky-do-lesu-s-.mp4",
@@ -716828,22 +716822,29 @@
         "display_name": "Desperate Housewives S03E21 Into the Woods 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:02:58.308170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201435",
-        "size_bytes": 939915341
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201435",
-        "size_bytes": 939915341,
-        "source_bytes_read": 939915341,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201435",
         "source_bytes_read": 939915341,
         "elapsed_seconds": 214.999,
         "finished_at": "2026-11-20T10:07:05.252260+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201435",
+          "size_bytes": 939915341,
+          "source_bytes_read": 939915341,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400181",
+        "source_url": "https://sdilej.cz/34400181/zoufale-manzelky-s03e21-068-2007-hd-zpatky-do-lesu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201435",
+        "display_name": "Desperate Housewives S03E21 Into the Woods 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:07:12.240530+00:00"
       }
     },
     "1084:3:22": {
@@ -716926,7 +716927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:07:05.252279+00:00",
+  "updated_at": "2026-11-20T10:07:12.240547+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
