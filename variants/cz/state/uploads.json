@@ -741821,12 +741821,6 @@
     },
     "210:1:9": {
       "episode_key": "věčnost:s1:e9",
-      "claim": {
-        "worker_id": "97e5e9554b67471da6a92074e668532b-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:17:48.574921+00:00",
-        "lease_expires_at": "2026-11-21T02:17:48.574930+00:00"
-      },
       "source": {
         "source_id": "29190521",
         "source_url": "https://sdilej.cz/29190521/vecnost-s01e09-1080p-cz-dabing.mkv",
@@ -741851,22 +741845,29 @@
         "display_name": "Upload S01E09 Update Eve 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:18:07.449293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212620",
-        "size_bytes": 835263247
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212620",
-        "size_bytes": 835263247,
-        "source_bytes_read": 835263247,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212620",
         "source_bytes_read": 835263247,
         "elapsed_seconds": 34.737,
         "finished_at": "2026-11-20T20:19:08.136122+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212620",
+          "size_bytes": 835263247,
+          "source_bytes_read": 835263247,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29190521",
+        "source_url": "https://sdilej.cz/29190521/vecnost-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212620",
+        "display_name": "Upload S01E09 Update Eve 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:19:16.633526+00:00"
       }
     },
     "210:1:10": {
@@ -741949,7 +741950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:19:08.136141+00:00",
+  "updated_at": "2026-11-20T20:19:16.633540+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
