@@ -741776,12 +741776,6 @@
     },
     "210:1:8": {
       "episode_key": "věčnost:s1:e8",
-      "claim": {
-        "worker_id": "1526fb34f5b242dc803a200f74907d57-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:14:08.788578+00:00",
-        "lease_expires_at": "2026-11-21T02:14:08.788588+00:00"
-      },
       "source": {
         "source_id": "29190505",
         "source_url": "https://sdilej.cz/29190505/vecnost-s01e08-1080p-cz-dabing.mkv",
@@ -741806,22 +741800,29 @@
         "display_name": "Upload S01E08 Shopping Other Digital After-Lives 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:14:19.918986+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212571",
-        "size_bytes": 986469729
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212571",
-        "size_bytes": 986469729,
-        "source_bytes_read": 986469729,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212571",
         "source_bytes_read": 986469729,
         "elapsed_seconds": 40.858,
         "finished_at": "2026-11-20T20:15:32.945789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212571",
+          "size_bytes": 986469729,
+          "source_bytes_read": 986469729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29190505",
+        "source_url": "https://sdilej.cz/29190505/vecnost-s01e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212571",
+        "display_name": "Upload S01E08 Shopping Other Digital After-Lives 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:15:46.944045+00:00"
       }
     }
   },
@@ -741830,7 +741831,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:15:41.979402+00:00",
+  "updated_at": "2026-11-20T20:15:46.944058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
