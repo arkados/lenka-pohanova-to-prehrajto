@@ -707618,12 +707618,6 @@
     },
     "1119:5:15": {
       "episode_key": "upíří deníky:s5:e15",
-      "claim": {
-        "worker_id": "4e8b5d6aba3a470298bb0e9c40ac17f3-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:54:33.684986+00:00",
-        "lease_expires_at": "2026-11-20T11:54:33.685001+00:00"
-      },
       "source": {
         "source_id": "30079522",
         "source_url": "https://sdilej.cz/30079522/upiri-deniky-s05e15.mkv",
@@ -707648,22 +707642,29 @@
         "display_name": "The Vampire Diaries S05E15 Gone Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:54:43.574179+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197977",
-        "size_bytes": 1426602845
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197977",
-        "size_bytes": 1426602845,
-        "source_bytes_read": 1426602845,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197977",
         "source_bytes_read": 1426602845,
         "elapsed_seconds": 212.81,
         "finished_at": "2026-11-20T05:58:42.401516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197977",
+          "size_bytes": 1426602845,
+          "source_bytes_read": 1426602845,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079522",
+        "source_url": "https://sdilej.cz/30079522/upiri-deniky-s05e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197977",
+        "display_name": "The Vampire Diaries S05E15 Gone Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:59:00.498188+00:00"
       }
     },
     "1119:5:16": {
@@ -707793,7 +707794,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:58:56.172489+00:00",
+  "updated_at": "2026-11-20T05:59:00.498201+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
