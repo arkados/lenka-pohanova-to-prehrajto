@@ -750103,12 +750103,6 @@
     },
     "38:4:16": {
       "episode_key": "průměrňákovi:s4:e16",
-      "claim": {
-        "worker_id": "d82b016cfcbb4e7cbbe052b14e3abb7f-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T23:32:14.983047+00:00",
-        "lease_expires_at": "2026-11-21T05:32:14.983056+00:00"
-      },
       "source": {
         "source_id": "27603287",
         "source_url": "https://sdilej.cz/27603287/prumernakovi-s04e16-cz.mkv",
@@ -750133,22 +750127,29 @@
         "display_name": "The Middle S04E16 Winners and Losers 1080p CZ Dabing",
         "prepared_at": "2026-11-20T23:32:22.014387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31215464",
-        "size_bytes": 938409259
-      },
-      "transfer_receipt": {
-        "target_video_id": "31215464",
-        "size_bytes": 938409259,
-        "source_bytes_read": 938409259,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31215464",
         "source_bytes_read": 938409259,
         "elapsed_seconds": 68.5,
         "finished_at": "2026-11-20T23:33:53.152491+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31215464",
+          "size_bytes": 938409259,
+          "source_bytes_read": 938409259,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27603287",
+        "source_url": "https://sdilej.cz/27603287/prumernakovi-s04e16-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31215464",
+        "display_name": "The Middle S04E16 Winners and Losers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T23:34:10.253460+00:00"
       }
     }
   },
@@ -750157,7 +750158,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T23:34:04.732027+00:00",
+  "updated_at": "2026-11-20T23:34:10.253476+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
