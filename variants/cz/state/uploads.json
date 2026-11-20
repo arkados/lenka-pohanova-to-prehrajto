@@ -721691,12 +721691,6 @@
     },
     "1461:1:9": {
       "episode_key": "closer: nové případy:s1:e9",
-      "claim": {
-        "worker_id": "ce64de9ef3b548b1b93aef558bd7de9c-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T12:03:39.802026+00:00",
-        "lease_expires_at": "2026-11-20T18:03:39.802038+00:00"
-      },
       "source": {
         "source_id": "29106482",
         "source_url": "https://sdilej.cz/29106482/closer-nove-pripady-s01e09-009-2012-sd-podvadet-se-nevyplaci-sd-.mp4",
@@ -721721,22 +721715,29 @@
         "display_name": "Major Crimes S01E09 Cheaters Never Prosper SD CZ Dabing",
         "prepared_at": "2026-11-20T12:03:59.869414+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203839",
-        "size_bytes": 369016611
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203839",
-        "size_bytes": 369016611,
-        "source_bytes_read": 369016611,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203839",
         "source_bytes_read": 369016611,
         "elapsed_seconds": 42.938,
         "finished_at": "2026-11-20T12:05:08.260557+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203839",
+          "size_bytes": 369016611,
+          "source_bytes_read": 369016611,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106482",
+        "source_url": "https://sdilej.cz/29106482/closer-nove-pripady-s01e09-009-2012-sd-podvadet-se-nevyplaci-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203839",
+        "display_name": "Major Crimes S01E09 Cheaters Never Prosper SD CZ Dabing",
+        "uploaded_at": "2026-11-20T12:05:24.700173+00:00"
       }
     },
     "1461:2:14": {
@@ -721791,7 +721792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:05:17.769568+00:00",
+  "updated_at": "2026-11-20T12:05:24.700188+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
