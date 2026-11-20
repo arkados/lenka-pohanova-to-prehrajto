@@ -725450,12 +725450,6 @@
     },
     "265:1:1": {
       "episode_key": "jeho temné esence:s1:e1",
-      "claim": {
-        "worker_id": "7f7112f0544a42c89586586d900d7ce4-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:09:26.475593+00:00",
-        "lease_expires_at": "2026-11-20T19:09:26.475609+00:00"
-      },
       "source": {
         "source_id": "24662215",
         "source_url": "https://sdilej.cz/24662215/his-dark-materials-s01e01-gb-2019-cz-dabing.mkv",
@@ -725480,22 +725474,29 @@
         "display_name": "His Dark Materials S01E01 Lyra's Jordan 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:09:33.466897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204974",
-        "size_bytes": 662632616
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204974",
-        "size_bytes": 662632616,
-        "source_bytes_read": 662632616,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204974",
         "source_bytes_read": 662632616,
         "elapsed_seconds": 140.879,
         "finished_at": "2026-11-20T13:12:19.217511+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204974",
+          "size_bytes": 662632616,
+          "source_bytes_read": 662632616,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24662215",
+        "source_url": "https://sdilej.cz/24662215/his-dark-materials-s01e01-gb-2019-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204974",
+        "display_name": "His Dark Materials S01E01 Lyra's Jordan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:12:25.605378+00:00"
       }
     },
     "265:1:2": {
@@ -725666,7 +725667,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:12:19.217532+00:00",
+  "updated_at": "2026-11-20T13:12:25.605398+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
