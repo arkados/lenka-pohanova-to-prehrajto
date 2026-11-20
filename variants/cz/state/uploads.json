@@ -747599,12 +747599,6 @@
     },
     "38:2:15": {
       "episode_key": "průměrňákovi:s2:e15",
-      "claim": {
-        "worker_id": "582963f82d584ca4b7073bf8b97c89b0-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:28:39.479269+00:00",
-        "lease_expires_at": "2026-11-21T04:28:39.479277+00:00"
-      },
       "source": {
         "source_id": "27601303",
         "source_url": "https://sdilej.cz/27601303/prumernakovi-s02e15-cz.mkv",
@@ -747629,22 +747623,29 @@
         "display_name": "The Middle S02E15 Friends, Lies and Videotape 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:29:05.208014+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214550",
-        "size_bytes": 959037350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214550",
-        "size_bytes": 959037350,
-        "source_bytes_read": 959037350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214550",
         "source_bytes_read": 959037350,
         "elapsed_seconds": 69.564,
         "finished_at": "2026-11-20T22:30:44.778175+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214550",
+          "size_bytes": 959037350,
+          "source_bytes_read": 959037350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27601303",
+        "source_url": "https://sdilej.cz/27601303/prumernakovi-s02e15-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214550",
+        "display_name": "The Middle S02E15 Friends, Lies and Videotape 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:30:51.912804+00:00"
       }
     },
     "38:2:16": {
@@ -747727,7 +747728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:30:44.778191+00:00",
+  "updated_at": "2026-11-20T22:30:51.912819+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
