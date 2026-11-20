@@ -741719,12 +741719,6 @@
     },
     "210:1:7": {
       "episode_key": "věčnost:s1:e7",
-      "claim": {
-        "worker_id": "b1407325fd194021ae3574d049344fcf-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:13:56.842065+00:00",
-        "lease_expires_at": "2026-11-21T02:13:56.842074+00:00"
-      },
       "source": {
         "source_id": "29190490",
         "source_url": "https://sdilej.cz/29190490/vecnost-s01e07-1080p-cz-dabing.mkv",
@@ -741749,22 +741743,29 @@
         "display_name": "Upload S01E07 Bring Your Dad to Work Day 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:14:03.914032+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212567",
-        "size_bytes": 715063679
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212567",
-        "size_bytes": 715063679,
-        "source_bytes_read": 715063679,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212567",
         "source_bytes_read": 715063679,
         "elapsed_seconds": 45.113,
         "finished_at": "2026-11-20T20:15:15.398400+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212567",
+          "size_bytes": 715063679,
+          "source_bytes_read": 715063679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29190490",
+        "source_url": "https://sdilej.cz/29190490/vecnost-s01e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212567",
+        "display_name": "Upload S01E07 Bring Your Dad to Work Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:15:26.626051+00:00"
       }
     },
     "210:1:8": {
@@ -741810,7 +741811,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:15:21.727172+00:00",
+  "updated_at": "2026-11-20T20:15:26.626064+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
