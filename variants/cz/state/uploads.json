@@ -693401,12 +693401,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e16",
-      "claim": {
-        "worker_id": "149a22999b584e24999def6f4a865e45-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:26:55.538679+00:00",
-        "lease_expires_at": "2026-11-20T07:26:55.538689+00:00"
-      },
       "source": {
         "source_id": "33647137",
         "source_url": "https://sdilej.cz/33647137/smer-jih-01x16-cz.mp4",
@@ -693431,22 +693425,29 @@
         "display_name": "Due South S01E16 The Blue Line 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:27:01.028303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194022",
-        "size_bytes": 879432562
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194022",
-        "size_bytes": 879432562,
-        "source_bytes_read": 879432562,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194022",
         "source_bytes_read": 879432562,
         "elapsed_seconds": 54.767,
         "finished_at": "2026-11-20T01:28:25.030376+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194022",
+          "size_bytes": 879432562,
+          "source_bytes_read": 879432562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647137",
+        "source_url": "https://sdilej.cz/33647137/smer-jih-01x16-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194022",
+        "display_name": "Due South S01E16 The Blue Line 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:28:32.461583+00:00"
       }
     },
     "2234:1:15": {
@@ -695942,7 +695943,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:28:25.030395+00:00",
+  "updated_at": "2026-11-20T01:28:32.461598+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
