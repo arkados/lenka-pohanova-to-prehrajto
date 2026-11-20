@@ -693726,12 +693726,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e20",
-      "claim": {
-        "worker_id": "15879e51efdb472eb5fbd1d0b3ed0db7-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:29:18.778055+00:00",
-        "lease_expires_at": "2026-11-20T07:29:18.778065+00:00"
-      },
       "source": {
         "source_id": "33647444",
         "source_url": "https://sdilej.cz/33647444/smer-jih-01x20-cz.mp4",
@@ -693756,22 +693750,29 @@
         "display_name": "Due South S01E20 Victoria's Secret (1) 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:29:28.890259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194052",
-        "size_bytes": 1009465396
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194052",
-        "size_bytes": 1009465396,
-        "source_bytes_read": 1009465396,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194052",
         "source_bytes_read": 1009465396,
         "elapsed_seconds": 74.102,
         "finished_at": "2026-11-20T01:31:08.298479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194052",
+          "size_bytes": 1009465396,
+          "source_bytes_read": 1009465396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647444",
+        "source_url": "https://sdilej.cz/33647444/smer-jih-01x20-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194052",
+        "display_name": "Due South S01E20 Victoria's Secret (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:31:20.600823+00:00"
       }
     },
     "2234:1:21": {
@@ -696116,7 +696117,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:31:13.487530+00:00",
+  "updated_at": "2026-11-20T01:31:20.600836+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
