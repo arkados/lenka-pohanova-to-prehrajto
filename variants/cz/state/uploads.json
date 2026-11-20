@@ -692816,12 +692816,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e5",
-      "claim": {
-        "worker_id": "17a52e4114114b86ae4f1ee230ad9139-worker-0",
-        "run_id": "44610146025",
-        "claimed_at": "2026-11-20T01:15:51.105172+00:00",
-        "lease_expires_at": "2026-11-20T07:15:51.105184+00:00"
-      },
       "source": {
         "source_id": "33647034",
         "source_url": "https://sdilej.cz/33647034/smer-jih-01x05-cz.mp4",
@@ -692846,22 +692840,29 @@
         "display_name": "Due South S01E05 Pizzas and Promises 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:16:06.308256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31193854",
-        "size_bytes": 885740042
-      },
-      "transfer_receipt": {
-        "target_video_id": "31193854",
-        "size_bytes": 885740042,
-        "source_bytes_read": 885740042,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31193854",
         "source_bytes_read": 885740042,
         "elapsed_seconds": 40.198,
         "finished_at": "2026-11-20T01:17:12.886709+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31193854",
+          "size_bytes": 885740042,
+          "source_bytes_read": 885740042,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647034",
+        "source_url": "https://sdilej.cz/33647034/smer-jih-01x05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31193854",
+        "display_name": "Due South S01E05 Pizzas and Promises 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:17:24.734989+00:00"
       }
     },
     "2234:1:6": {
@@ -695451,7 +695452,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:17:17.441246+00:00",
+  "updated_at": "2026-11-20T01:17:24.735006+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
