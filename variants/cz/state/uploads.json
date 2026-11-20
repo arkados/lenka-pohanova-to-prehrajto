@@ -710321,12 +710321,6 @@
     },
     "1119:8:2": {
       "episode_key": "upíří deníky:s8:e2",
-      "claim": {
-        "worker_id": "2227ccba8b294ac480a3bc54762087f9-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:00:53.210711+00:00",
-        "lease_expires_at": "2026-11-20T13:00:53.210724+00:00"
-      },
       "source": {
         "source_id": "30090798",
         "source_url": "https://sdilej.cz/30090798/upiri-deniky-s08e02.mkv",
@@ -710351,22 +710345,29 @@
         "display_name": "The Vampire Diaries S08E02 Today Will Be Different 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:00:58.407822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198846",
-        "size_bytes": 1916225405
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198846",
-        "size_bytes": 1916225405,
-        "source_bytes_read": 1916225405,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198846",
         "source_bytes_read": 1916225405,
         "elapsed_seconds": 252.113,
         "finished_at": "2026-11-20T07:05:35.359052+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198846",
+          "size_bytes": 1916225405,
+          "source_bytes_read": 1916225405,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30090798",
+        "source_url": "https://sdilej.cz/30090798/upiri-deniky-s08e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198846",
+        "display_name": "The Vampire Diaries S08E02 Today Will Be Different 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:05:51.329581+00:00"
       }
     },
     "1119:8:4": {
@@ -710510,7 +710511,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:05:45.752711+00:00",
+  "updated_at": "2026-11-20T07:05:51.329599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
