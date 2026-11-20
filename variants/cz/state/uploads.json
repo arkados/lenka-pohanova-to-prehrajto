@@ -709579,12 +709579,6 @@
     },
     "1119:7:10": {
       "episode_key": "upíří deníky:s7:e10",
-      "claim": {
-        "worker_id": "2357f26630964d57998c25f52cc61d24-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:35:19.851708+00:00",
-        "lease_expires_at": "2026-11-20T12:35:19.851721+00:00"
-      },
       "source": {
         "source_id": "34604099",
         "source_url": "https://sdilej.cz/34604099/upiri-deniky-s07e10-peklo-jsou-jini-lide-cz-dabing-h265-2015.mkv",
@@ -709609,22 +709603,29 @@
         "display_name": "The Vampire Diaries S07E10 Hell Is Other People 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:35:36.108713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198522",
-        "size_bytes": 592477978
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198522",
-        "size_bytes": 592477978,
-        "source_bytes_read": 592477978,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198522",
         "source_bytes_read": 592477978,
         "elapsed_seconds": 37.122,
         "finished_at": "2026-11-20T06:36:35.765015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198522",
+          "size_bytes": 592477978,
+          "source_bytes_read": 592477978,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34604099",
+        "source_url": "https://sdilej.cz/34604099/upiri-deniky-s07e10-peklo-jsou-jini-lide-cz-dabing-h265-2015.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198522",
+        "display_name": "The Vampire Diaries S07E10 Hell Is Other People 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:36:42.637457+00:00"
       }
     }
   },
@@ -709633,7 +709634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:36:35.765032+00:00",
+  "updated_at": "2026-11-20T06:36:42.637474+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
