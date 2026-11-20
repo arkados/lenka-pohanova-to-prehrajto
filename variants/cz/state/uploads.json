@@ -720888,28 +720888,29 @@
           "at": "2026-11-20T11:48:44.159847+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "781629050e1e44209ff343260708daf1-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:48:48.473521+00:00",
-        "lease_expires_at": "2026-11-20T17:48:48.473533+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31203494",
-        "size_bytes": 876767276
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203494",
-        "size_bytes": 876767276,
-        "source_bytes_read": 876767276,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203494",
         "source_bytes_read": 876767276,
         "elapsed_seconds": 142.944,
         "finished_at": "2026-11-20T11:51:56.830142+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203494",
+          "size_bytes": 876767276,
+          "source_bytes_read": 876767276,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400508",
+        "source_url": "https://sdilej.cz/34400508/zoufale-manzelky-s07e11-145-2011-hd-tajemny-strelec-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203494",
+        "display_name": "Desperate Housewives S07E11 Assassins 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:52:08.173919+00:00"
       }
     },
     "1084:7:12": {
@@ -721029,7 +721030,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:52:03.564366+00:00",
+  "updated_at": "2026-11-20T11:52:08.173937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
