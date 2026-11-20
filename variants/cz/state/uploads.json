@@ -743816,12 +743816,6 @@
     },
     "619:2:9": {
       "episode_key": "tohle nikdo nechce:s2:e9",
-      "claim": {
-        "worker_id": "a09c99276b7a4551a89f15aae3a54d5e-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:54:57.435400+00:00",
-        "lease_expires_at": "2026-11-21T02:54:57.435409+00:00"
-      },
       "source": {
         "source_id": "32195962",
         "source_url": "https://sdilej.cz/32195962/tohle-nikdo-nechce-s02e09-2025-cz-dabing-1080p.mkv",
@@ -743846,22 +743840,29 @@
         "display_name": "Nobody Wants This S02E09 Crossroads 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:55:14.961571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31213206",
-        "size_bytes": 567977784
-      },
-      "transfer_receipt": {
-        "target_video_id": "31213206",
-        "size_bytes": 567977784,
-        "source_bytes_read": 567977784,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31213206",
         "source_bytes_read": 567977784,
         "elapsed_seconds": 31.821,
         "finished_at": "2026-11-20T20:56:18.180323+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31213206",
+          "size_bytes": 567977784,
+          "source_bytes_read": 567977784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32195962",
+        "source_url": "https://sdilej.cz/32195962/tohle-nikdo-nechce-s02e09-2025-cz-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31213206",
+        "display_name": "Nobody Wants This S02E09 Crossroads 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:56:30.162294+00:00"
       }
     },
     "619:2:10": {
@@ -743907,7 +743908,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:56:24.121659+00:00",
+  "updated_at": "2026-11-20T20:56:30.162308+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
