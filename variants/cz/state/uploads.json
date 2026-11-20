@@ -739841,12 +739841,6 @@
     },
     "1065:14:11": {
       "episode_key": "kriminálka las vegas:s14:e11",
-      "claim": {
-        "worker_id": "ca8afaf3890d44c281f05ec5b974cdfb-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T18:20:50.567636+00:00",
-        "lease_expires_at": "2026-11-21T00:20:50.567652+00:00"
-      },
       "source": {
         "source_id": "34149462",
         "source_url": "https://sdilej.cz/34149462/kriminalka-las-vegas-s14e11-1080p-cz.mkv",
@@ -739871,22 +739865,29 @@
         "display_name": "CSI: Crime Scene Investigation S14E11 The Lost Reindeer 1080p CZ Dabing",
         "prepared_at": "2026-11-20T18:21:02.318864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210947",
-        "size_bytes": 1009153287
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210947",
-        "size_bytes": 1009153287,
-        "source_bytes_read": 1009153287,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210947",
         "source_bytes_read": 1009153287,
         "elapsed_seconds": 66.557,
         "finished_at": "2026-11-20T18:22:38.273644+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210947",
+          "size_bytes": 1009153287,
+          "source_bytes_read": 1009153287,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34149462",
+        "source_url": "https://sdilej.cz/34149462/kriminalka-las-vegas-s14e11-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210947",
+        "display_name": "CSI: Crime Scene Investigation S14E11 The Lost Reindeer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T18:22:47.125981+00:00"
       }
     },
     "1065:14:12": {
@@ -739932,7 +739933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T18:22:38.273664+00:00",
+  "updated_at": "2026-11-20T18:22:47.126000+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
