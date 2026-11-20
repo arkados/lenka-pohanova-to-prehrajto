@@ -741291,12 +741291,6 @@
     },
     "1065:15:17": {
       "episode_key": "kriminálka las vegas:s15:e17",
-      "claim": {
-        "worker_id": "dd4e9bd42a294d9f9d14dbcf8d023a8b-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T19:25:51.386215+00:00",
-        "lease_expires_at": "2026-11-21T01:25:51.386225+00:00"
-      },
       "source": {
         "source_id": "34206041",
         "source_url": "https://sdilej.cz/34206041/kriminalka-las-vegas-s15e17-1080p-cz.mkv",
@@ -741337,7 +741331,13 @@
         "elapsed_seconds": 39.271,
         "finished_at": "2026-11-20T19:27:07.067592+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T19:28:40.591671+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -741345,7 +741345,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T19:28:19.722696+00:00",
+  "updated_at": "2026-11-20T19:28:40.591689+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
