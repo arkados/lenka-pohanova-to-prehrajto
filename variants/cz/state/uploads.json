@@ -748430,12 +748430,6 @@
     },
     "38:3:7": {
       "episode_key": "průměrňákovi:s3:e7",
-      "claim": {
-        "worker_id": "762c9bd5d0eb4ba683a2cd98759a73e4-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:44:58.665100+00:00",
-        "lease_expires_at": "2026-11-21T04:44:58.665112+00:00"
-      },
       "source": {
         "source_id": "27052045",
         "source_url": "https://sdilej.cz/27052045/prumernakovi-the-middle-s03e07-hd-cz-dabingdabing.mkv",
@@ -748460,22 +748454,29 @@
         "display_name": "The Middle S03E07 Halloween II 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:45:04.755686+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214826",
-        "size_bytes": 1336268572
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214826",
-        "size_bytes": 1336268572,
-        "source_bytes_read": 1336268572,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214826",
         "source_bytes_read": 1336268572,
         "elapsed_seconds": 94.968,
         "finished_at": "2026-11-20T22:47:17.909653+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214826",
+          "size_bytes": 1336268572,
+          "source_bytes_read": 1336268572,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27052045",
+        "source_url": "https://sdilej.cz/27052045/prumernakovi-the-middle-s03e07-hd-cz-dabingdabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214826",
+        "display_name": "The Middle S03E07 Halloween II 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:47:26.139352+00:00"
       }
     },
     "38:3:8": {
@@ -748572,7 +748573,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:47:17.909674+00:00",
+  "updated_at": "2026-11-20T22:47:26.139370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
