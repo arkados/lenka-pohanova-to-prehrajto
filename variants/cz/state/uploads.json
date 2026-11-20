@@ -742790,12 +742790,6 @@
     },
     "210:4:3": {
       "episode_key": "věčnost:s4:e3",
-      "claim": {
-        "worker_id": "080f19e275854f429537c9a1ede4a29a-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:38:22.146453+00:00",
-        "lease_expires_at": "2026-11-21T02:38:22.146473+00:00"
-      },
       "source": {
         "source_id": "31652389",
         "source_url": "https://sdilej.cz/31652389/vecnost-s04e03-cz-dab-by-pefto-.mkv",
@@ -742820,22 +742814,29 @@
         "display_name": "Upload S04E03 Spa Day 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:38:32.632810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212959",
-        "size_bytes": 469932631
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212959",
-        "size_bytes": 469932631,
-        "source_bytes_read": 469932631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212959",
         "source_bytes_read": 469932631,
         "elapsed_seconds": 27.187,
         "finished_at": "2026-11-20T20:39:32.672982+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212959",
+          "size_bytes": 469932631,
+          "source_bytes_read": 469932631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31652389",
+        "source_url": "https://sdilej.cz/31652389/vecnost-s04e03-cz-dab-by-pefto-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212959",
+        "display_name": "Upload S04E03 Spa Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:39:40.947563+00:00"
       }
     },
     "210:4:4": {
@@ -742881,7 +742882,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:39:32.673005+00:00",
+  "updated_at": "2026-11-20T20:39:40.947576+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
