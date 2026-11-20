@@ -724889,12 +724889,6 @@
     },
     "1461:5:14": {
       "episode_key": "closer: nové případy:s5:e14",
-      "claim": {
-        "worker_id": "c8f0ea91e0094c2780352518f1735572-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:01:47.915078+00:00",
-        "lease_expires_at": "2026-11-20T19:01:47.915093+00:00"
-      },
       "source": {
         "source_id": "29107288",
         "source_url": "https://sdilej.cz/29107288/closer-nove-pripady-s05e14-085-2017-sd-selhani-srdce-sd-.mp4",
@@ -724919,22 +724913,29 @@
         "display_name": "Major Crimes S05E14 Heart Failure SD CZ Dabing",
         "prepared_at": "2026-11-20T13:02:03.431440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31204829",
-        "size_bytes": 383887761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204829",
-        "size_bytes": 383887761,
-        "source_bytes_read": 383887761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204829",
         "source_bytes_read": 383887761,
         "elapsed_seconds": 26.597,
         "finished_at": "2026-11-20T13:03:01.448468+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204829",
+          "size_bytes": 383887761,
+          "source_bytes_read": 383887761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29107288",
+        "source_url": "https://sdilej.cz/29107288/closer-nove-pripady-s05e14-085-2017-sd-selhani-srdce-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204829",
+        "display_name": "Major Crimes S05E14 Heart Failure SD CZ Dabing",
+        "uploaded_at": "2026-11-20T13:03:13.584645+00:00"
       }
     },
     "1461:5:15": {
@@ -725013,7 +725014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:03:07.321062+00:00",
+  "updated_at": "2026-11-20T13:03:13.584663+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
