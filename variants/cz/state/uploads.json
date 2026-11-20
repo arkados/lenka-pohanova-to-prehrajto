@@ -694375,12 +694375,6 @@
         }
       ],
       "episode_key": "směr jih:s2:e7",
-      "claim": {
-        "worker_id": "6ca3918041c040fab21a857c7cb9a7bf-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:37:10.835663+00:00",
-        "lease_expires_at": "2026-11-20T07:37:10.835673+00:00"
-      },
       "source": {
         "source_id": "33647835",
         "source_url": "https://sdilej.cz/33647835/smer-jih-02x07-cz.mp4",
@@ -694405,22 +694399,29 @@
         "display_name": "Due South S02E07 Juliet is Bleeding 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:37:31.943096+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194163",
-        "size_bytes": 866886045
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194163",
-        "size_bytes": 866886045,
-        "source_bytes_read": 866886045,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194163",
         "source_bytes_read": 866886045,
         "elapsed_seconds": 49.788,
         "finished_at": "2026-11-20T01:38:43.564665+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194163",
+          "size_bytes": 866886045,
+          "source_bytes_read": 866886045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647835",
+        "source_url": "https://sdilej.cz/33647835/smer-jih-02x07-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194163",
+        "display_name": "Due South S02E07 Juliet is Bleeding 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:39:04.800833+00:00"
       }
     },
     "2234:2:9": {
@@ -696588,7 +696589,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:38:59.233546+00:00",
+  "updated_at": "2026-11-20T01:39:04.800850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
