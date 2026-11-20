@@ -746149,12 +746149,6 @@
     },
     "643:3:2": {
       "episode_key": "čas čarodějnic:s3:e2",
-      "claim": {
-        "worker_id": "d9d95d54393d49738c7dabcce5167004-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T21:52:09.372016+00:00",
-        "lease_expires_at": "2026-11-21T03:52:09.372029+00:00"
-      },
       "source": {
         "source_id": "33258853",
         "source_url": "https://sdilej.cz/33258853/cas-carodejnic-s03e02-cz-dabing.mkv",
@@ -746178,7 +746172,17 @@
         },
         "display_name": "A Discovery of Witches S03E02 1080p CZ Dabing",
         "prepared_at": "2026-11-20T21:52:26.044680+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33258853:https://sdilej.cz/33258853/cas-carodejnic-s03e02-cz-dabing.mkv",
+        "at": "2026-11-20T21:52:40.897445+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T21:52:40.897518+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "643:3:3": {
       "episode_key": "čas čarodějnic:s3:e3",
@@ -746228,7 +746232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T21:52:35.967764+00:00",
+  "updated_at": "2026-11-20T21:52:40.897527+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -746816,19 +746820,19 @@
     "643": {
       "recent_failures": [
         {
-          "identity": "643:2:10",
-          "at": "2026-11-20T21:51:04.990668+00:00"
-        },
-        {
           "identity": "643:2:9",
           "at": "2026-11-20T21:51:27.546986+00:00"
         },
         {
           "identity": "643:3:1",
           "at": "2026-11-20T21:52:14.566084+00:00"
+        },
+        {
+          "identity": "643:3:2",
+          "at": "2026-11-20T21:52:40.897445+00:00"
         }
       ],
-      "retry_after": "2026-11-20T22:02:14.566084+00:00"
+      "retry_after": "2026-11-20T22:02:40.897445+00:00"
     }
   }
 }
