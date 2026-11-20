@@ -710219,12 +710219,6 @@
     },
     "1119:7:22": {
       "episode_key": "upíří deníky:s7:e22",
-      "claim": {
-        "worker_id": "1ec0a1289b2044249fe0925833c7e8d8-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:55:23.929778+00:00",
-        "lease_expires_at": "2026-11-20T12:55:23.929787+00:00"
-      },
       "source": {
         "source_id": "30084481",
         "source_url": "https://sdilej.cz/30084481/upiri-deniky-s07e22.mkv",
@@ -710249,22 +710243,29 @@
         "display_name": "The Vampire Diaries S07E22 Gods & Monsters 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:55:33.649594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198768",
-        "size_bytes": 1918741451
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198768",
-        "size_bytes": 1918741451,
-        "source_bytes_read": 1918741451,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198768",
         "source_bytes_read": 1918741451,
         "elapsed_seconds": 302.402,
         "finished_at": "2026-11-20T07:01:02.537100+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198768",
+          "size_bytes": 1918741451,
+          "source_bytes_read": 1918741451,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30084481",
+        "source_url": "https://sdilej.cz/30084481/upiri-deniky-s07e22.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198768",
+        "display_name": "The Vampire Diaries S07E22 Gods & Monsters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:01:12.691967+00:00"
       }
     },
     "1119:8:1": {
@@ -710346,7 +710347,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:01:07.045491+00:00",
+  "updated_at": "2026-11-20T07:01:12.691984+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
