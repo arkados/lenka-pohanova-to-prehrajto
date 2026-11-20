@@ -705917,12 +705917,6 @@
         }
       ],
       "episode_key": "upíří deníky:s4:e4",
-      "claim": {
-        "worker_id": "aeea3959097248c69cfc40c9eaf18aeb-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:19:00.619926+00:00",
-        "lease_expires_at": "2026-11-20T11:19:00.619936+00:00"
-      },
       "source": {
         "source_id": "34594891",
         "source_url": "https://sdilej.cz/34594891/upiri-deniky-s04e04-bratrstvo-peti-cz-dabing-h265-2012.mkv",
@@ -705947,22 +705941,29 @@
         "display_name": "The Vampire Diaries S04E04 The Five 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:19:10.108447+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197476",
-        "size_bytes": 594192560
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197476",
-        "size_bytes": 594192560,
-        "source_bytes_read": 594192560,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197476",
         "source_bytes_read": 594192560,
         "elapsed_seconds": 42.437,
         "finished_at": "2026-11-20T05:20:11.621030+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197476",
+          "size_bytes": 594192560,
+          "source_bytes_read": 594192560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34594891",
+        "source_url": "https://sdilej.cz/34594891/upiri-deniky-s04e04-bratrstvo-peti-cz-dabing-h265-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197476",
+        "display_name": "The Vampire Diaries S04E04 The Five 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:20:31.618665+00:00"
       }
     },
     "1119:4:6": {
@@ -706057,7 +706058,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:20:27.146506+00:00",
+  "updated_at": "2026-11-20T05:20:31.618679+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
