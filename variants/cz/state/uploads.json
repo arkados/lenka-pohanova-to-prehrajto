@@ -711633,12 +711633,6 @@
     },
     "2409:4:4": {
       "episode_key": "vraždy v brokenwoodu:s4:e4",
-      "claim": {
-        "worker_id": "b7810e0647144504bb9f6456b3f9573a-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:49:21.274621+00:00",
-        "lease_expires_at": "2026-11-20T13:49:21.274633+00:00"
-      },
       "source": {
         "source_id": "30607830",
         "source_url": "https://sdilej.cz/30607830/vrazdy-v-brokenwoodu-s04e04-016-2017-hd-jako-by-se-nic-nestalo-s-.mp4",
@@ -711663,22 +711657,29 @@
         "display_name": "The Brokenwood Mysteries S04E04 As If Nothing Had Happened 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:49:26.899107+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199451",
-        "size_bytes": 1181516213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199451",
-        "size_bytes": 1181516213,
-        "source_bytes_read": 1181516213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199451",
         "source_bytes_read": 1181516213,
         "elapsed_seconds": 84.218,
         "finished_at": "2026-11-20T07:51:09.956979+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199451",
+          "size_bytes": 1181516213,
+          "source_bytes_read": 1181516213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607830",
+        "source_url": "https://sdilej.cz/30607830/vrazdy-v-brokenwoodu-s04e04-016-2017-hd-jako-by-se-nic-nestalo-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199451",
+        "display_name": "The Brokenwood Mysteries S04E04 As If Nothing Had Happened 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:51:18.715238+00:00"
       }
     },
     "2409:5:1": {
@@ -711724,7 +711725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:51:09.956998+00:00",
+  "updated_at": "2026-11-20T07:51:18.715255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
