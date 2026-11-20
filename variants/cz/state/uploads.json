@@ -719391,12 +719391,6 @@
     },
     "1084:6:10": {
       "episode_key": "zoufalé manželky:s6:e10",
-      "claim": {
-        "worker_id": "35c67a6053ce42678a2dd11b3a522aee-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:07:46.900259+00:00",
-        "lease_expires_at": "2026-11-20T17:07:46.900273+00:00"
-      },
       "source": {
         "source_id": "34400415",
         "source_url": "https://sdilej.cz/34400415/zoufale-manzelky-s06e10-121-2009-hd-stremhlavy-pad-s-.mp4",
@@ -719421,22 +719415,29 @@
         "display_name": "Desperate Housewives S06E10 Boom Crunch 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:07:57.885553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202666",
-        "size_bytes": 870195836
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202666",
-        "size_bytes": 870195836,
-        "source_bytes_read": 870195836,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202666",
         "source_bytes_read": 870195836,
         "elapsed_seconds": 142.715,
         "finished_at": "2026-11-20T11:10:45.133567+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202666",
+          "size_bytes": 870195836,
+          "source_bytes_read": 870195836,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400415",
+        "source_url": "https://sdilej.cz/34400415/zoufale-manzelky-s06e10-121-2009-hd-stremhlavy-pad-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202666",
+        "display_name": "Desperate Housewives S06E10 Boom Crunch 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:10:58.776631+00:00"
       }
     }
   },
@@ -719445,7 +719446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:10:52.066299+00:00",
+  "updated_at": "2026-11-20T11:10:58.776649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
