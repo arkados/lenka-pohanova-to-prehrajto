@@ -720804,12 +720804,6 @@
     },
     "1084:7:11": {
       "episode_key": "zoufalé manželky:s7:e11",
-      "claim": {
-        "worker_id": "575c9b2a545f4ad39c9fb8b38655a3e8-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:45:21.538174+00:00",
-        "lease_expires_at": "2026-11-20T17:45:21.538187+00:00"
-      },
       "source": {
         "source_id": "33109009",
         "source_url": "https://sdilej.cz/33109009/zoufale-manzelky-s07e11-cz-dabing.mp4",
@@ -720833,7 +720827,17 @@
         },
         "display_name": "Desperate Housewives S07E11 Assassins 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:45:27.129627+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109009:https://sdilej.cz/33109009/zoufale-manzelky-s07e11-cz-dabing.mp4",
+        "at": "2026-11-20T11:45:40.877568+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T11:45:40.877601+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -720841,7 +720845,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:45:27.129643+00:00",
+  "updated_at": "2026-11-20T11:45:40.877606+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -721418,6 +721422,10 @@
         {
           "identity": "1084:7:9",
           "at": "2026-11-20T11:45:06.527045+00:00"
+        },
+        {
+          "identity": "1084:7:11",
+          "at": "2026-11-20T11:45:40.877568+00:00"
         }
       ],
       "retry_after": "2026-11-20T11:39:49.608869+00:00"
