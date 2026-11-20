@@ -728185,12 +728185,6 @@
     },
     "1065:2:13": {
       "episode_key": "kriminálka las vegas:s2:e13",
-      "claim": {
-        "worker_id": "7b9f960641724b99ada96ac2961fe116-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T14:31:40.759616+00:00",
-        "lease_expires_at": "2026-11-20T20:31:40.759627+00:00"
-      },
       "source": {
         "source_id": "29955768",
         "source_url": "https://sdilej.cz/29955768/kriminalka-las-vegas-s02e13-1080p-cz-dabing.mkv",
@@ -728215,22 +728209,29 @@
         "display_name": "CSI: Crime Scene Investigation S02E13 Identity Crisis 1080p CZ Dabing",
         "prepared_at": "2026-11-20T14:32:04.172129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31206327",
-        "size_bytes": 2643268650
-      },
-      "transfer_receipt": {
-        "target_video_id": "31206327",
-        "size_bytes": 2643268650,
-        "source_bytes_read": 2643268650,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31206327",
         "source_bytes_read": 2643268650,
         "elapsed_seconds": 155.532,
         "finished_at": "2026-11-20T14:35:03.796901+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31206327",
+          "size_bytes": 2643268650,
+          "source_bytes_read": 2643268650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29955768",
+        "source_url": "https://sdilej.cz/29955768/kriminalka-las-vegas-s02e13-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31206327",
+        "display_name": "CSI: Crime Scene Investigation S02E13 Identity Crisis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T14:35:12.890170+00:00"
       }
     },
     "1065:2:14": {
@@ -728276,7 +728277,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T14:35:03.796923+00:00",
+  "updated_at": "2026-11-20T14:35:12.890190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
