@@ -698560,28 +698560,29 @@
           "at": "2026-11-20T03:09:53.749663+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "87ba6e296ea0484d9b76e5aa34ac66ac-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:09:58.325438+00:00",
-        "lease_expires_at": "2026-11-20T09:09:58.325450+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31195445",
-        "size_bytes": 6324020006
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195445",
-        "size_bytes": 6324020006,
-        "source_bytes_read": 6324020006,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195445",
         "source_bytes_read": 6324020006,
         "elapsed_seconds": 845.658,
         "finished_at": "2026-11-20T03:24:33.512440+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195445",
+          "size_bytes": 6324020006,
+          "source_bytes_read": 6324020006,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34013226",
+        "source_url": "https://sdilej.cz/34013226/the.madison.s01e05.2160p.amzn.web-dl.ddp5.1.h.265-ntb.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195445",
+        "display_name": "The Madison S01E05 No Name and a New Dream 4K CZ Dabing",
+        "uploaded_at": "2026-11-20T03:24:41.070757+00:00"
       }
     },
     "426:1:6": {
@@ -701337,7 +701338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:24:33.512456+00:00",
+  "updated_at": "2026-11-20T03:24:41.070773+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
