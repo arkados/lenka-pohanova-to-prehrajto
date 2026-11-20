@@ -714604,12 +714604,6 @@
     },
     "1084:1:22": {
       "episode_key": "zoufalé manželky:s1:e22",
-      "claim": {
-        "worker_id": "8471fcbf6faf4374aae12b8ecfb15f8e-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:14:52.427409+00:00",
-        "lease_expires_at": "2026-11-20T15:14:52.427425+00:00"
-      },
       "source": {
         "source_id": "34399959",
         "source_url": "https://sdilej.cz/34399959/zoufale-manzelky-s01e22-022-2005-hd-zatim-na-shledanou-s-.mp4",
@@ -714634,22 +714628,29 @@
         "display_name": "Desperate Housewives S01E22 Goodbye for Now 720p CZ Dabing",
         "prepared_at": "2026-11-20T09:14:57.813912+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200624",
-        "size_bytes": 885427648
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200624",
-        "size_bytes": 885427648,
-        "source_bytes_read": 885427648,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200624",
         "source_bytes_read": 885427648,
         "elapsed_seconds": 72.952,
         "finished_at": "2026-11-20T09:16:37.921103+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200624",
+          "size_bytes": 885427648,
+          "source_bytes_read": 885427648,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34399959",
+        "source_url": "https://sdilej.cz/34399959/zoufale-manzelky-s01e22-022-2005-hd-zatim-na-shledanou-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200624",
+        "display_name": "Desperate Housewives S01E22 Goodbye for Now 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:16:55.016322+00:00"
       }
     },
     "1084:1:23": {
@@ -714709,7 +714710,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:16:47.544686+00:00",
+  "updated_at": "2026-11-20T09:16:55.016339+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
