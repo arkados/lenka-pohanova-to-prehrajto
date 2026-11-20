@@ -720952,12 +720952,6 @@
     },
     "1084:7:13": {
       "episode_key": "zoufalé manželky:s7:e13",
-      "claim": {
-        "worker_id": "9de48d57d987418a85e101d17da6b54d-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:49:36.125746+00:00",
-        "lease_expires_at": "2026-11-20T17:49:36.125757+00:00"
-      },
       "source": {
         "source_id": "27625956",
         "source_url": "https://sdilej.cz/27625956/zoufale-manzelky-s07e13-cz.mkv",
@@ -720982,22 +720976,29 @@
         "display_name": "Desperate Housewives S07E13 I'm Still Here 1080p CZ Dabing",
         "prepared_at": "2026-11-20T11:49:41.469404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31203505",
-        "size_bytes": 942672828
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203505",
-        "size_bytes": 942672828,
-        "source_bytes_read": 942672828,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203505",
         "source_bytes_read": 942672828,
         "elapsed_seconds": 99.271,
         "finished_at": "2026-11-20T11:51:41.185674+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203505",
+          "size_bytes": 942672828,
+          "source_bytes_read": 942672828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27625956",
+        "source_url": "https://sdilej.cz/27625956/zoufale-manzelky-s07e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203505",
+        "display_name": "Desperate Housewives S07E13 I'm Still Here 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:51:48.026869+00:00"
       }
     }
   },
@@ -721006,7 +721007,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:51:41.185693+00:00",
+  "updated_at": "2026-11-20T11:51:48.026883+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
