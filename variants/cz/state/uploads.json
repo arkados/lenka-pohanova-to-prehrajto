@@ -693791,12 +693791,6 @@
         }
       ],
       "episode_key": "směr jih:s1:e21",
-      "claim": {
-        "worker_id": "7f30abafbaf148a782461f57b7a6bb87-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:29:52.092858+00:00",
-        "lease_expires_at": "2026-11-20T07:29:52.092867+00:00"
-      },
       "source": {
         "source_id": "33647448",
         "source_url": "https://sdilej.cz/33647448/smer-jih-01x21-cz.mp4",
@@ -693821,22 +693815,29 @@
         "display_name": "Due South S01E21 Victoria's Secret (2) 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:29:57.458610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194060",
-        "size_bytes": 851652206
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194060",
-        "size_bytes": 851652206,
-        "source_bytes_read": 851652206,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194060",
         "source_bytes_read": 851652206,
         "elapsed_seconds": 51.504,
         "finished_at": "2026-11-20T01:31:13.487507+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194060",
+          "size_bytes": 851652206,
+          "source_bytes_read": 851652206,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647448",
+        "source_url": "https://sdilej.cz/33647448/smer-jih-01x21-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194060",
+        "display_name": "Due South S01E21 Victoria's Secret (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:31:25.275224+00:00"
       }
     },
     "2234:1:22": {
@@ -696117,7 +696118,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:31:20.600836+00:00",
+  "updated_at": "2026-11-20T01:31:25.275241+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
