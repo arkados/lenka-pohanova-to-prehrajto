@@ -722956,12 +722956,6 @@
     },
     "1084:8:8": {
       "episode_key": "zoufalé manželky:s8:e8",
-      "claim": {
-        "worker_id": "d97f1f5d9c374e46ab5b891e15fba45d-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:24:22.294486+00:00",
-        "lease_expires_at": "2026-11-20T18:24:22.294505+00:00"
-      },
       "source": {
         "source_id": "33109165",
         "source_url": "https://sdilej.cz/33109165/zoufale-manzelky-s08e08-cz-dabing.mp4",
@@ -722985,7 +722979,17 @@
         },
         "display_name": "Desperate Housewives S08E08 Suspicion Song 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:24:28.195839+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109165:https://sdilej.cz/33109165/zoufale-manzelky-s08e08-cz-dabing.mp4",
+        "at": "2026-11-20T12:24:43.082377+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:24:43.082417+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -722993,7 +722997,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:24:34.638843+00:00",
+  "updated_at": "2026-11-20T12:24:43.082428+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -723574,6 +723578,10 @@
         {
           "identity": "1084:8:7",
           "at": "2026-11-20T12:24:01.917226+00:00"
+        },
+        {
+          "identity": "1084:8:8",
+          "at": "2026-11-20T12:24:43.082377+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:21:16.115392+00:00"
