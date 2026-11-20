@@ -711837,12 +711837,6 @@
     },
     "2409:6:1": {
       "episode_key": "vraždy v brokenwoodu:s6:e1",
-      "claim": {
-        "worker_id": "a18af5e946e8491c9f521f72c33a8aba-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:55:53.201802+00:00",
-        "lease_expires_at": "2026-11-20T13:55:53.201813+00:00"
-      },
       "source": {
         "source_id": "30609409",
         "source_url": "https://sdilej.cz/30609409/vrazdy-v-brokenwoodu-s06e01-021-2019-hd-vrazedny-steampunk-s-.mp4",
@@ -711867,22 +711861,29 @@
         "display_name": "The Brokenwood Mysteries S06E01 The Power of Steam 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:55:58.038754+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199539",
-        "size_bytes": 1229336535
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199539",
-        "size_bytes": 1229336535,
-        "source_bytes_read": 1229336535,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199539",
         "source_bytes_read": 1229336535,
         "elapsed_seconds": 110.846,
         "finished_at": "2026-11-20T07:58:10.448330+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199539",
+          "size_bytes": 1229336535,
+          "source_bytes_read": 1229336535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30609409",
+        "source_url": "https://sdilej.cz/30609409/vrazdy-v-brokenwoodu-s06e01-021-2019-hd-vrazedny-steampunk-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199539",
+        "display_name": "The Brokenwood Mysteries S06E01 The Power of Steam 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:58:18.043156+00:00"
       }
     },
     "2409:6:2": {
@@ -711928,7 +711929,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:58:10.448356+00:00",
+  "updated_at": "2026-11-20T07:58:18.043173+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
