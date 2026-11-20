@@ -706853,12 +706853,6 @@
     },
     "1119:4:23": {
       "episode_key": "upíří deníky:s4:e23",
-      "claim": {
-        "worker_id": "7789fd38e4774120b3960188fd030dec-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:33:02.681121+00:00",
-        "lease_expires_at": "2026-11-20T11:33:02.681132+00:00"
-      },
       "source": {
         "source_id": "34495299",
         "source_url": "https://sdilej.cz/34495299/upiri-deniky-2013-s04e23-czdab.1080p-maturita.mkv",
@@ -706883,22 +706877,29 @@
         "display_name": "The Vampire Diaries S04E23 Graduation 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:33:13.485386+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197687",
-        "size_bytes": 873818829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197687",
-        "size_bytes": 873818829,
-        "source_bytes_read": 873818829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197687",
         "source_bytes_read": 873818829,
         "elapsed_seconds": 158.848,
         "finished_at": "2026-11-20T05:36:11.978225+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197687",
+          "size_bytes": 873818829,
+          "source_bytes_read": 873818829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34495299",
+        "source_url": "https://sdilej.cz/34495299/upiri-deniky-2013-s04e23-czdab.1080p-maturita.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197687",
+        "display_name": "The Vampire Diaries S04E23 Graduation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:36:18.438084+00:00"
       }
     },
     "1119:5:1": {
@@ -706981,7 +706982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:36:11.978243+00:00",
+  "updated_at": "2026-11-20T05:36:18.438100+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
