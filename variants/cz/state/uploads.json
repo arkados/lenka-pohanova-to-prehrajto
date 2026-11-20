@@ -717620,12 +717620,6 @@
     },
     "1084:4:16": {
       "episode_key": "zoufalé manželky:s4:e16",
-      "claim": {
-        "worker_id": "37b9e71442794c098f392d2094029d57-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:28:17.512467+00:00",
-        "lease_expires_at": "2026-11-20T16:28:17.512491+00:00"
-      },
       "source": {
         "source_id": "27620550",
         "source_url": "https://sdilej.cz/27620550/zoufale-manzelky-s04e16-cz.mkv",
@@ -717650,22 +717644,29 @@
         "display_name": "Desperate Housewives S04E16 The Gun Song 1080p CZ Dabing",
         "prepared_at": "2026-11-20T10:28:32.825340+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201922",
-        "size_bytes": 930409672
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201922",
-        "size_bytes": 930409672,
-        "source_bytes_read": 930409672,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201922",
         "source_bytes_read": 930409672,
         "elapsed_seconds": 122.551,
         "finished_at": "2026-11-20T10:31:03.161355+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201922",
+          "size_bytes": 930409672,
+          "source_bytes_read": 930409672,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620550",
+        "source_url": "https://sdilej.cz/27620550/zoufale-manzelky-s04e16-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201922",
+        "display_name": "Desperate Housewives S04E16 The Gun Song 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:31:29.446866+00:00"
       }
     },
     "1084:4:17": {
@@ -717744,7 +717745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:31:23.811218+00:00",
+  "updated_at": "2026-11-20T10:31:29.446880+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
