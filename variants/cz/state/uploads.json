@@ -723229,28 +723229,29 @@
           "at": "2026-11-20T12:38:38.227075+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1a685b5b5c434ab6814416fa26d02911-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:38:43.294827+00:00",
-        "lease_expires_at": "2026-11-20T18:38:43.294844+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31204429",
-        "size_bytes": 880772997
-      },
-      "transfer_receipt": {
-        "target_video_id": "31204429",
-        "size_bytes": 880772997,
-        "source_bytes_read": 880772997,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31204429",
         "source_bytes_read": 880772997,
         "elapsed_seconds": 64.291,
         "finished_at": "2026-11-20T12:40:26.320884+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31204429",
+          "size_bytes": 880772997,
+          "source_bytes_read": 880772997,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400593",
+        "source_url": "https://sdilej.cz/34400593/zoufale-manzelky-s08e11-168-2012-hd-kdo-vi-co-je-pravda-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31204429",
+        "display_name": "Desperate Housewives S08E11 Who Can Say What's True? 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T12:40:37.714120+00:00"
       }
     },
     "1461:3:14": {
@@ -723718,7 +723719,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:40:26.320906+00:00",
+  "updated_at": "2026-11-20T12:40:37.714142+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
