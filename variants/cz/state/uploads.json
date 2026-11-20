@@ -711531,12 +711531,6 @@
     },
     "2409:4:2": {
       "episode_key": "vraždy v brokenwoodu:s4:e2",
-      "claim": {
-        "worker_id": "fad8f32d0f0948a994de9e08ae51c3f8-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:46:28.996531+00:00",
-        "lease_expires_at": "2026-11-20T13:46:28.996541+00:00"
-      },
       "source": {
         "source_id": "27805933",
         "source_url": "https://sdilej.cz/27805933/vrazdy-v-brokenwoodu-s04e02-chladnokrevna-smrt.mp4",
@@ -711561,22 +711555,29 @@
         "display_name": "The Brokenwood Mysteries S04E02 Stone Cold Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:46:34.311961+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199421",
-        "size_bytes": 2114955702
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199421",
-        "size_bytes": 2114955702,
-        "source_bytes_read": 2114955702,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199421",
         "source_bytes_read": 2114955702,
         "elapsed_seconds": 122.14,
         "finished_at": "2026-11-20T07:48:58.315820+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199421",
+          "size_bytes": 2114955702,
+          "source_bytes_read": 2114955702,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27805933",
+        "source_url": "https://sdilej.cz/27805933/vrazdy-v-brokenwoodu-s04e02-chladnokrevna-smrt.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199421",
+        "display_name": "The Brokenwood Mysteries S04E02 Stone Cold Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:49:10.681058+00:00"
       }
     },
     "2409:4:3": {
@@ -711622,7 +711623,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:49:03.584449+00:00",
+  "updated_at": "2026-11-20T07:49:10.681075+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
