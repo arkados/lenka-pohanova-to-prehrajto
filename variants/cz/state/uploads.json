@@ -703344,12 +703344,6 @@
         }
       ],
       "episode_key": "upíří deníky:s2:e1",
-      "claim": {
-        "worker_id": "a5f23f6b86b24079a62987e34bd310bd-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:24:56.426842+00:00",
-        "lease_expires_at": "2026-11-20T10:24:56.426851+00:00"
-      },
       "source": {
         "source_id": "34491741",
         "source_url": "https://sdilej.cz/34491741/upiri-deniky-s02e01-navrat.mkv",
@@ -703374,22 +703368,29 @@
         "display_name": "The Vampire Diaries S02E01 The Return 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:25:01.804590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196577",
-        "size_bytes": 867370652
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196577",
-        "size_bytes": 867370652,
-        "source_bytes_read": 867370652,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196577",
         "source_bytes_read": 867370652,
         "elapsed_seconds": 90.98,
         "finished_at": "2026-11-20T04:26:50.970325+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196577",
+          "size_bytes": 867370652,
+          "source_bytes_read": 867370652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34491741",
+        "source_url": "https://sdilej.cz/34491741/upiri-deniky-s02e01-navrat.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196577",
+        "display_name": "The Vampire Diaries S02E01 The Return 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:27:06.429922+00:00"
       }
     },
     "1119:2:2": {
@@ -703782,7 +703783,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:27:01.847976+00:00",
+  "updated_at": "2026-11-20T04:27:06.429951+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
