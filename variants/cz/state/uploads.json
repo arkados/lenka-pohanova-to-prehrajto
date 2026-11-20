@@ -714452,12 +714452,6 @@
     },
     "1084:1:19": {
       "episode_key": "zoufalé manželky:s1:e19",
-      "claim": {
-        "worker_id": "e53a807d252a46e2b747f2400667d7fa-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:12:46.400740+00:00",
-        "lease_expires_at": "2026-11-20T15:12:46.400752+00:00"
-      },
       "source": {
         "source_id": "27618692",
         "source_url": "https://sdilej.cz/27618692/zoufale-manzelky-s01e19-cz.mkv",
@@ -714482,22 +714476,29 @@
         "display_name": "Desperate Housewives S01E19 Live Alone and Like It 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:12:59.834020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200596",
-        "size_bytes": 555668803
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200596",
-        "size_bytes": 555668803,
-        "source_bytes_read": 555668803,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200596",
         "source_bytes_read": 555668803,
         "elapsed_seconds": 69.251,
         "finished_at": "2026-11-20T09:14:35.616474+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200596",
+          "size_bytes": 555668803,
+          "source_bytes_read": 555668803,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27618692",
+        "source_url": "https://sdilej.cz/27618692/zoufale-manzelky-s01e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200596",
+        "display_name": "Desperate Housewives S01E19 Live Alone and Like It 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:14:42.726302+00:00"
       }
     },
     "1084:1:20": {
@@ -714580,7 +714581,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:14:35.616517+00:00",
+  "updated_at": "2026-11-20T09:14:42.726320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
