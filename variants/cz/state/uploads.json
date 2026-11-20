@@ -736002,12 +736002,6 @@
     },
     "1065:10:22": {
       "episode_key": "kriminálka las vegas:s10:e22",
-      "claim": {
-        "worker_id": "46c2d4ecc1da41658b8ddc04c6615719-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:16:39.784525+00:00",
-        "lease_expires_at": "2026-11-20T23:16:39.784543+00:00"
-      },
       "source": {
         "source_id": "25515638",
         "source_url": "https://sdilej.cz/25515638/kriminalka-las-vegas-10x22-cz.avi",
@@ -736032,22 +736026,29 @@
         "display_name": "CSI: Crime Scene Investigation S10E22 Doctor Who SD CZ Dabing",
         "prepared_at": "2026-11-20T17:16:46.181238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31209600",
-        "size_bytes": 495352598
-      },
-      "transfer_receipt": {
-        "target_video_id": "31209600",
-        "size_bytes": 495352598,
-        "source_bytes_read": 495352598,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31209600",
         "source_bytes_read": 495352598,
         "elapsed_seconds": 38.43,
         "finished_at": "2026-11-20T17:17:52.822088+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31209600",
+          "size_bytes": 495352598,
+          "source_bytes_read": 495352598,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25515638",
+        "source_url": "https://sdilej.cz/25515638/kriminalka-las-vegas-10x22-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31209600",
+        "display_name": "CSI: Crime Scene Investigation S10E22 Doctor Who SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:18:01.288660+00:00"
       }
     },
     "1065:11:2": {
@@ -736093,7 +736094,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:17:52.822111+00:00",
+  "updated_at": "2026-11-20T17:18:01.288678+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
