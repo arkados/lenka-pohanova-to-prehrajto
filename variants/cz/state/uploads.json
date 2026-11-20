@@ -717824,12 +717824,6 @@
     },
     "1084:5:3": {
       "episode_key": "zoufalé manželky:s5:e3",
-      "claim": {
-        "worker_id": "78ba96ad62474ef38f8c0ba02fc2b352-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:33:19.295156+00:00",
-        "lease_expires_at": "2026-11-20T16:33:19.295168+00:00"
-      },
       "source": {
         "source_id": "34400282",
         "source_url": "https://sdilej.cz/34400282/zoufale-manzelky-s05e03-090-2008-hd-deti-nejsou-jako-my-ostatni-s-.mp4",
@@ -717854,22 +717848,29 @@
         "display_name": "Desperate Housewives S05E03 Kids Ain't Like Everybody Else 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:33:24.966357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202001",
-        "size_bytes": 877648197
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202001",
-        "size_bytes": 877648197,
-        "source_bytes_read": 877648197,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202001",
         "source_bytes_read": 877648197,
         "elapsed_seconds": 100.811,
         "finished_at": "2026-11-20T10:35:26.310165+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202001",
+          "size_bytes": 877648197,
+          "source_bytes_read": 877648197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400282",
+        "source_url": "https://sdilej.cz/34400282/zoufale-manzelky-s05e03-090-2008-hd-deti-nejsou-jako-my-ostatni-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202001",
+        "display_name": "Desperate Housewives S05E03 Kids Ain't Like Everybody Else 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:35:34.625332+00:00"
       }
     },
     "1084:5:4": {
@@ -717952,7 +717953,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:35:26.310185+00:00",
+  "updated_at": "2026-11-20T10:35:34.625349+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
