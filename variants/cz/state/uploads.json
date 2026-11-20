@@ -712653,12 +712653,6 @@
     },
     "2409:10:3": {
       "episode_key": "vraždy v brokenwoodu:s10:e3",
-      "claim": {
-        "worker_id": "60d04b35b40b4a59a3acbfa60f36aa75-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T08:16:04.788744+00:00",
-        "lease_expires_at": "2026-11-20T14:16:04.788756+00:00"
-      },
       "source": {
         "source_id": "30160733",
         "source_url": "https://sdilej.cz/30160733/vrazdy-v-brokenwoodu-s10e03-cz-smrtelna-inspirace.mkv",
@@ -712683,22 +712677,29 @@
         "display_name": "The Brokenwood Mysteries S10E03 Publish or Be Damned 1080p CZ Dabing",
         "prepared_at": "2026-11-20T08:16:10.279606+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199829",
-        "size_bytes": 2119341503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199829",
-        "size_bytes": 2119341503,
-        "source_bytes_read": 2119341503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199829",
         "source_bytes_read": 2119341503,
         "elapsed_seconds": 180.526,
         "finished_at": "2026-11-20T08:19:28.828755+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199829",
+          "size_bytes": 2119341503,
+          "source_bytes_read": 2119341503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30160733",
+        "source_url": "https://sdilej.cz/30160733/vrazdy-v-brokenwoodu-s10e03-cz-smrtelna-inspirace.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199829",
+        "display_name": "The Brokenwood Mysteries S10E03 Publish or Be Damned 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:19:41.954496+00:00"
       }
     }
   },
@@ -712707,7 +712708,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:19:34.589030+00:00",
+  "updated_at": "2026-11-20T08:19:41.954514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
