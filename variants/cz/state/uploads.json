@@ -700712,12 +700712,6 @@
         }
       ],
       "episode_key": "návrat na výsluní:s3:e4",
-      "claim": {
-        "worker_id": "7130184632594381a2e2bb8d5028206a-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:28:11.210811+00:00",
-        "lease_expires_at": "2026-11-20T09:28:11.210822+00:00"
-      },
       "source": {
         "source_id": "34391134",
         "source_url": "https://sdilej.cz/34391134/navrat-na-vysluni-2026-s03e04-czdab.2160p-valerie-zvlada-vsechno.mkv",
@@ -700742,22 +700736,29 @@
         "display_name": "The Comeback S03E04 Valerie Does It All 1080p CZ Dabing",
         "prepared_at": "2026-11-20T03:28:16.916822+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195690",
-        "size_bytes": 871577857
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195690",
-        "size_bytes": 871577857,
-        "source_bytes_read": 871577857,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195690",
         "source_bytes_read": 871577857,
         "elapsed_seconds": 69.766,
         "finished_at": "2026-11-20T03:29:45.426872+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195690",
+          "size_bytes": 871577857,
+          "source_bytes_read": 871577857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34391134",
+        "source_url": "https://sdilej.cz/34391134/navrat-na-vysluni-2026-s03e04-czdab.2160p-valerie-zvlada-vsechno.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195690",
+        "display_name": "The Comeback S03E04 Valerie Does It All 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T03:29:52.547737+00:00"
       }
     },
     "4726:3:8": {
@@ -701494,7 +701495,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:29:45.426891+00:00",
+  "updated_at": "2026-11-20T03:29:52.547751+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
