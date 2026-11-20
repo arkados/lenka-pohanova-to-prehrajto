@@ -748604,12 +748604,6 @@
     },
     "38:3:10": {
       "episode_key": "průměrňákovi:s3:e10",
-      "claim": {
-        "worker_id": "52e7585f75734583977c88f92257abf3-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:48:24.014696+00:00",
-        "lease_expires_at": "2026-11-21T04:48:24.014705+00:00"
-      },
       "source": {
         "source_id": "27602656",
         "source_url": "https://sdilej.cz/27602656/prumernakovi-s03e10-cz.mkv",
@@ -748634,22 +748628,29 @@
         "display_name": "The Middle S03E10 Thanksgiving III 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:48:29.408760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214875",
-        "size_bytes": 956248202
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214875",
-        "size_bytes": 956248202,
-        "source_bytes_read": 956248202,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214875",
         "source_bytes_read": 956248202,
         "elapsed_seconds": 83.911,
         "finished_at": "2026-11-20T22:50:22.820370+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214875",
+          "size_bytes": 956248202,
+          "source_bytes_read": 956248202,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27602656",
+        "source_url": "https://sdilej.cz/27602656/prumernakovi-s03e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214875",
+        "display_name": "The Middle S03E10 Thanksgiving III 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:50:35.594416+00:00"
       }
     },
     "38:3:11": {
@@ -748695,7 +748696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:50:29.964297+00:00",
+  "updated_at": "2026-11-20T22:50:35.594428+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
