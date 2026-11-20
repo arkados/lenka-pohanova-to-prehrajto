@@ -705974,12 +705974,6 @@
         }
       ],
       "episode_key": "upíří deníky:s4:e6",
-      "claim": {
-        "worker_id": "bd24ecb77fba4243b455ccbc5b0052d8-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:20:07.399370+00:00",
-        "lease_expires_at": "2026-11-20T11:20:07.399382+00:00"
-      },
       "source": {
         "source_id": "34594908",
         "source_url": "https://sdilej.cz/34594908/upiri-deniky-s04e06-silenstvi-cz-dabing-h265-2012.mkv",
@@ -706004,22 +705998,29 @@
         "display_name": "The Vampire Diaries S04E06 We All Go a Little Mad Sometimes 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:20:27.146487+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197496",
-        "size_bytes": 526480557
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197496",
-        "size_bytes": 526480557,
-        "source_bytes_read": 526480557,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197496",
         "source_bytes_read": 526480557,
         "elapsed_seconds": 35.031,
         "finished_at": "2026-11-20T05:21:31.008165+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197496",
+          "size_bytes": 526480557,
+          "source_bytes_read": 526480557,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34594908",
+        "source_url": "https://sdilej.cz/34594908/upiri-deniky-s04e06-silenstvi-cz-dabing-h265-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197496",
+        "display_name": "The Vampire Diaries S04E06 We All Go a Little Mad Sometimes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:21:38.583347+00:00"
       }
     },
     "1119:4:5": {
@@ -706114,7 +706115,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:21:31.008184+00:00",
+  "updated_at": "2026-11-20T05:21:38.583362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
