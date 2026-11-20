@@ -737953,12 +737953,6 @@
     },
     "1065:12:18": {
       "episode_key": "kriminálka las vegas:s12:e18",
-      "claim": {
-        "worker_id": "1a73a33bd2914cb1841a7dd3be96c743-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T17:48:48.715792+00:00",
-        "lease_expires_at": "2026-11-20T23:48:48.715807+00:00"
-      },
       "source": {
         "source_id": "27226096",
         "source_url": "https://sdilej.cz/27226096/kriminalka-las-vegas-s12e18-269-2012-sd-alenka-v-risi-divu-sd-.mp4",
@@ -737983,22 +737977,29 @@
         "display_name": "CSI: Crime Scene Investigation S12E18 Malice in Wonderland SD CZ Dabing",
         "prepared_at": "2026-11-20T17:49:11.841318+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31210269",
-        "size_bytes": 373194242
-      },
-      "transfer_receipt": {
-        "target_video_id": "31210269",
-        "size_bytes": 373194242,
-        "source_bytes_read": 373194242,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31210269",
         "source_bytes_read": 373194242,
         "elapsed_seconds": 23.469,
         "finished_at": "2026-11-20T17:49:57.877111+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31210269",
+          "size_bytes": 373194242,
+          "source_bytes_read": 373194242,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27226096",
+        "source_url": "https://sdilej.cz/27226096/kriminalka-las-vegas-s12e18-269-2012-sd-alenka-v-risi-divu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31210269",
+        "display_name": "CSI: Crime Scene Investigation S12E18 Malice in Wonderland SD CZ Dabing",
+        "uploaded_at": "2026-11-20T17:50:16.713844+00:00"
       }
     }
   },
@@ -738007,7 +738008,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T17:50:10.810251+00:00",
+  "updated_at": "2026-11-20T17:50:16.713863+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
