@@ -728811,12 +728811,6 @@
     },
     "1065:3:2": {
       "episode_key": "kriminálka las vegas:s3:e2",
-      "claim": {
-        "worker_id": "98d82447dfa743c2b167078ba2c840e1-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T14:55:38.618629+00:00",
-        "lease_expires_at": "2026-11-20T20:55:38.618648+00:00"
-      },
       "source": {
         "source_id": "29958250",
         "source_url": "https://sdilej.cz/29958250/kriminalka-las-vegas-s03e02-1080p-cz-dabing.mkv",
@@ -728841,22 +728835,29 @@
         "display_name": "CSI: Crime Scene Investigation S03E02 The Accused Is Entitled 1080p CZ Dabing",
         "prepared_at": "2026-11-20T14:56:00.341935+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31206653",
-        "size_bytes": 2624339663
-      },
-      "transfer_receipt": {
-        "target_video_id": "31206653",
-        "size_bytes": 2624339663,
-        "source_bytes_read": 2624339663,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31206653",
         "source_bytes_read": 2624339663,
         "elapsed_seconds": 129.477,
         "finished_at": "2026-11-20T14:58:38.306514+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31206653",
+          "size_bytes": 2624339663,
+          "source_bytes_read": 2624339663,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29958250",
+        "source_url": "https://sdilej.cz/29958250/kriminalka-las-vegas-s03e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31206653",
+        "display_name": "CSI: Crime Scene Investigation S03E02 The Accused Is Entitled 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T14:58:54.380355+00:00"
       }
     },
     "1065:3:3": {
@@ -728951,7 +728952,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T14:58:49.646698+00:00",
+  "updated_at": "2026-11-20T14:58:54.380373+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
