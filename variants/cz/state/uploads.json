@@ -722081,12 +722081,6 @@
     },
     "1084:8:1": {
       "episode_key": "zoufalé manželky:s8:e1",
-      "claim": {
-        "worker_id": "4d6b945eb8b948b387d795bcb674a889-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:09:45.740876+00:00",
-        "lease_expires_at": "2026-11-20T18:09:45.740898+00:00"
-      },
       "source": {
         "source_id": "33109085",
         "source_url": "https://sdilej.cz/33109085/zoufale-manzelky-s08e01-cz-dabing.mp4",
@@ -722110,7 +722104,17 @@
         },
         "display_name": "Desperate Housewives S08E01 Secrets That I Never Want to Know 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:09:56.800382+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109085:https://sdilej.cz/33109085/zoufale-manzelky-s08e01-cz-dabing.mp4",
+        "at": "2026-11-20T12:10:18.792201+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:10:18.792253+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:8:2": {
       "episode_key": "zoufalé manželky:s8:e2",
@@ -722154,7 +722158,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:10:13.818428+00:00",
+  "updated_at": "2026-11-20T12:10:18.792259+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -722725,16 +722729,8 @@
     "1084": {
       "recent_failures": [
         {
-          "identity": "1084:7:19",
-          "at": "2026-11-20T11:56:22.168943+00:00"
-        },
-        {
-          "identity": "1084:7:20",
-          "at": "2026-11-20T11:56:52.346132+00:00"
-        },
-        {
-          "identity": "1084:7:22",
-          "at": "2026-11-20T11:57:57.929174+00:00"
+          "identity": "1084:8:1",
+          "at": "2026-11-20T12:10:18.792201+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:07:57.929174+00:00"
