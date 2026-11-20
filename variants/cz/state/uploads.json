@@ -694701,12 +694701,6 @@
         }
       ],
       "episode_key": "směr jih:s2:e14",
-      "claim": {
-        "worker_id": "519fbf76014c4680ac23ebababa09fc4-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T01:41:39.538149+00:00",
-        "lease_expires_at": "2026-11-20T07:41:39.538159+00:00"
-      },
       "source": {
         "source_id": "33647858",
         "source_url": "https://sdilej.cz/33647858/smer-jih-02x14-cz.mp4",
@@ -694731,22 +694725,29 @@
         "display_name": "Due South S02E14 All the Queen's Horses 720p CZ Dabing",
         "prepared_at": "2026-11-20T01:41:49.793801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31194241",
-        "size_bytes": 883030954
-      },
-      "transfer_receipt": {
-        "target_video_id": "31194241",
-        "size_bytes": 883030954,
-        "source_bytes_read": 883030954,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31194241",
         "source_bytes_read": 883030954,
         "elapsed_seconds": 50.191,
         "finished_at": "2026-11-20T01:43:08.746169+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31194241",
+          "size_bytes": 883030954,
+          "source_bytes_read": 883030954,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33647858",
+        "source_url": "https://sdilej.cz/33647858/smer-jih-02x14-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31194241",
+        "display_name": "Due South S02E14 All the Queen's Horses 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T01:43:16.411401+00:00"
       }
     },
     "2234:2:13": {
@@ -696887,7 +696888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T01:43:08.746190+00:00",
+  "updated_at": "2026-11-20T01:43:16.411416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
