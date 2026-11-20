@@ -716900,12 +716900,6 @@
     },
     "1084:3:23": {
       "episode_key": "zoufalé manželky:s3:e23",
-      "claim": {
-        "worker_id": "ac0d8e0296ee40e89040d150eb644619-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:06:39.399731+00:00",
-        "lease_expires_at": "2026-11-20T16:06:39.399743+00:00"
-      },
       "source": {
         "source_id": "27620235",
         "source_url": "https://sdilej.cz/27620235/zoufale-manzelky-s03e23-cz.mkv",
@@ -716930,22 +716924,29 @@
         "display_name": "Desperate Housewives S03E23 Getting Married Today 1080p CZ Dabing",
         "prepared_at": "2026-11-20T10:06:44.601028+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201511",
-        "size_bytes": 927497761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201511",
-        "size_bytes": 927497761,
-        "source_bytes_read": 927497761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201511",
         "source_bytes_read": 927497761,
         "elapsed_seconds": 92.522,
         "finished_at": "2026-11-20T10:08:37.774447+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201511",
+          "size_bytes": 927497761,
+          "source_bytes_read": 927497761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620235",
+        "source_url": "https://sdilej.cz/27620235/zoufale-manzelky-s03e23-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201511",
+        "display_name": "Desperate Housewives S03E23 Getting Married Today 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:08:49.631716+00:00"
       }
     },
     "1084:4:1": {
@@ -717028,7 +717029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:08:43.499301+00:00",
+  "updated_at": "2026-11-20T10:08:49.631730+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
