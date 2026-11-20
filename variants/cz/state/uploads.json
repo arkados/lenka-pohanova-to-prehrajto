@@ -709746,12 +709746,6 @@
     },
     "1119:7:13": {
       "episode_key": "upíří deníky:s7:e13",
-      "claim": {
-        "worker_id": "7c28c6c3c75245b590ef54dda3cdae6a-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:40:13.737456+00:00",
-        "lease_expires_at": "2026-11-20T12:40:13.737469+00:00"
-      },
       "source": {
         "source_id": "30082357",
         "source_url": "https://sdilej.cz/30082357/upiri-deniky-s07e13.mkv",
@@ -709776,22 +709770,29 @@
         "display_name": "The Vampire Diaries S07E13 This Woman's Work 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:40:19.239646+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198588",
-        "size_bytes": 1916704139
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198588",
-        "size_bytes": 1916704139,
-        "source_bytes_read": 1916704139,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198588",
         "source_bytes_read": 1916704139,
         "elapsed_seconds": 309.429,
         "finished_at": "2026-11-20T06:45:47.097438+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198588",
+          "size_bytes": 1916704139,
+          "source_bytes_read": 1916704139,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30082357",
+        "source_url": "https://sdilej.cz/30082357/upiri-deniky-s07e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198588",
+        "display_name": "The Vampire Diaries S07E13 This Woman's Work 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:45:57.617568+00:00"
       }
     },
     "1119:7:14": {
@@ -709850,7 +709851,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:45:51.502237+00:00",
+  "updated_at": "2026-11-20T06:45:57.617585+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
