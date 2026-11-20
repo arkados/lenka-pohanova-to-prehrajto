@@ -700616,12 +700616,6 @@
         }
       ],
       "episode_key": "návrat na výsluní:s3:e2",
-      "claim": {
-        "worker_id": "d38c20b31e824db09ecf941221cfbdfe-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T03:26:23.559556+00:00",
-        "lease_expires_at": "2026-11-20T09:26:23.559566+00:00"
-      },
       "source": {
         "source_id": "34391124",
         "source_url": "https://sdilej.cz/34391124/navrat-na-vysluni-2026-s03e02-czdab.2160p-valerie-ma-tajemstvi.mkv",
@@ -700646,22 +700640,29 @@
         "display_name": "The Comeback S03E02 Valerie Has a Secret 4K CZ Dabing",
         "prepared_at": "2026-11-20T03:26:28.933229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31195665",
-        "size_bytes": 2118921392
-      },
-      "transfer_receipt": {
-        "target_video_id": "31195665",
-        "size_bytes": 2118921392,
-        "source_bytes_read": 2118921392,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31195665",
         "source_bytes_read": 2118921392,
         "elapsed_seconds": 233.035,
         "finished_at": "2026-11-20T03:30:41.638189+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31195665",
+          "size_bytes": 2118921392,
+          "source_bytes_read": 2118921392,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34391124",
+        "source_url": "https://sdilej.cz/34391124/navrat-na-vysluni-2026-s03e02-czdab.2160p-valerie-ma-tajemstvi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31195665",
+        "display_name": "The Comeback S03E02 Valerie Has a Secret 4K CZ Dabing",
+        "uploaded_at": "2026-11-20T03:30:49.437019+00:00"
       }
     },
     "4726:3:3": {
@@ -701543,7 +701544,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T03:30:41.638210+00:00",
+  "updated_at": "2026-11-20T03:30:49.437034+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
