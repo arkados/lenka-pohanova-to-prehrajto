@@ -719252,12 +719252,6 @@
     },
     "1084:6:7": {
       "episode_key": "zoufalé manželky:s6:e7",
-      "claim": {
-        "worker_id": "a37e98f4b13747c4a1b39fea181d899b-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:04:46.912654+00:00",
-        "lease_expires_at": "2026-11-20T17:04:46.912670+00:00"
-      },
       "source": {
         "source_id": "34400405",
         "source_url": "https://sdilej.cz/34400405/zoufale-manzelky-s06e07-118-2009-hd-opatrne-s-tim-co-rikate-s-.mp4",
@@ -719282,22 +719276,29 @@
         "display_name": "Desperate Housewives S06E07 Careful the Things You Say 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:04:52.744375+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202602",
-        "size_bytes": 876323703
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202602",
-        "size_bytes": 876323703,
-        "source_bytes_read": 876323703,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202602",
         "source_bytes_read": 876323703,
         "elapsed_seconds": 125.679,
         "finished_at": "2026-11-20T11:07:22.438804+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202602",
+          "size_bytes": 876323703,
+          "source_bytes_read": 876323703,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400405",
+        "source_url": "https://sdilej.cz/34400405/zoufale-manzelky-s06e07-118-2009-hd-opatrne-s-tim-co-rikate-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202602",
+        "display_name": "Desperate Housewives S06E07 Careful the Things You Say 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:07:30.419668+00:00"
       }
     },
     "1084:6:8": {
@@ -719343,7 +719344,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:07:22.438826+00:00",
+  "updated_at": "2026-11-20T11:07:30.419686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
