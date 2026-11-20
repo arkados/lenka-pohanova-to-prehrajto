@@ -711041,12 +711041,6 @@
     },
     "2409:1:3": {
       "episode_key": "vraždy v brokenwoodu:s1:e3",
-      "claim": {
-        "worker_id": "88158e80da684805bccca8d362e6e382-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:30:05.023420+00:00",
-        "lease_expires_at": "2026-11-20T13:30:05.023433+00:00"
-      },
       "source": {
         "source_id": "27799058",
         "source_url": "https://sdilej.cz/27799058/vrazdy-v-brokenwoodu-s01e03-prolhana-hra.mp4",
@@ -711071,22 +711065,29 @@
         "display_name": "The Brokenwood Mysteries S01E03 Playing the Lie 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:30:11.859143+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199209",
-        "size_bytes": 2014560439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199209",
-        "size_bytes": 2014560439,
-        "source_bytes_read": 2014560439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199209",
         "source_bytes_read": 2014560439,
         "elapsed_seconds": 129.587,
         "finished_at": "2026-11-20T07:32:46.277472+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199209",
+          "size_bytes": 2014560439,
+          "source_bytes_read": 2014560439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27799058",
+        "source_url": "https://sdilej.cz/27799058/vrazdy-v-brokenwoodu-s01e03-prolhana-hra.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199209",
+        "display_name": "The Brokenwood Mysteries S01E03 Playing the Lie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:32:53.373540+00:00"
       }
     },
     "2409:2:1": {
@@ -711132,7 +711133,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:32:46.277489+00:00",
+  "updated_at": "2026-11-20T07:32:53.373559+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
