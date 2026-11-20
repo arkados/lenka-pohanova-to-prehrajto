@@ -717059,12 +717059,6 @@
     },
     "1084:4:3": {
       "episode_key": "zoufalé manželky:s4:e3",
-      "claim": {
-        "worker_id": "36655849ff114fd2a1d3f8db56901fe5-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:09:00.104885+00:00",
-        "lease_expires_at": "2026-11-20T16:09:00.104896+00:00"
-      },
       "source": {
         "source_id": "27620336",
         "source_url": "https://sdilej.cz/27620336/zoufale-manzelky-s04e03-cz.mkv",
@@ -717089,22 +717083,29 @@
         "display_name": "Desperate Housewives S04E03 The Game 1080p CZ Dabing",
         "prepared_at": "2026-11-20T10:09:05.181043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31201555",
-        "size_bytes": 923206666
-      },
-      "transfer_receipt": {
-        "target_video_id": "31201555",
-        "size_bytes": 923206666,
-        "source_bytes_read": 923206666,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31201555",
         "source_bytes_read": 923206666,
         "elapsed_seconds": 78.362,
         "finished_at": "2026-11-20T10:10:50.654125+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31201555",
+          "size_bytes": 923206666,
+          "source_bytes_read": 923206666,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27620336",
+        "source_url": "https://sdilej.cz/27620336/zoufale-manzelky-s04e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31201555",
+        "display_name": "Desperate Housewives S04E03 The Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:11:03.367733+00:00"
       }
     }
   },
@@ -717113,7 +717114,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:10:57.466913+00:00",
+  "updated_at": "2026-11-20T10:11:03.367748+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
