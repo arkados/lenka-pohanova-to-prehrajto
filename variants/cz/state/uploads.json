@@ -741419,12 +741419,6 @@
     },
     "210:1:1": {
       "episode_key": "věčnost:s1:e1",
-      "claim": {
-        "worker_id": "d49c971dfa554fcaa25a11f527ea8a00-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:07:30.057363+00:00",
-        "lease_expires_at": "2026-11-21T02:07:30.057373+00:00"
-      },
       "source": {
         "source_id": "16713837",
         "source_url": "https://sdilej.cz/16713837/vecnost-upload-s01e01-cz-dabing.mkv",
@@ -741449,22 +741443,29 @@
         "display_name": "Upload S01E01 Welcome to Upload 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:07:41.438891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212474",
-        "size_bytes": 3232681382
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212474",
-        "size_bytes": 3232681382,
-        "source_bytes_read": 3232681382,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212474",
         "source_bytes_read": 3232681382,
         "elapsed_seconds": 234.675,
         "finished_at": "2026-11-20T20:12:12.926592+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212474",
+          "size_bytes": 3232681382,
+          "source_bytes_read": 3232681382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16713837",
+        "source_url": "https://sdilej.cz/16713837/vecnost-upload-s01e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212474",
+        "display_name": "Upload S01E01 Welcome to Upload 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:12:27.015281+00:00"
       }
     },
     "210:1:2": {
@@ -741626,7 +741627,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:12:22.283646+00:00",
+  "updated_at": "2026-11-20T20:12:27.015295+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
