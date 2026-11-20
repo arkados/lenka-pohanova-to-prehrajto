@@ -711137,12 +711137,6 @@
     },
     "2409:2:2": {
       "episode_key": "vraždy v brokenwoodu:s2:e2",
-      "claim": {
-        "worker_id": "cb3a323da581424e82603289452a79aa-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:33:05.566733+00:00",
-        "lease_expires_at": "2026-11-20T13:33:05.566743+00:00"
-      },
       "source": {
         "source_id": "30607707",
         "source_url": "https://sdilej.cz/30607707/vrazdy-v-brokenwoodu-s02e02-006-2015-hd-zemrit-ci-nezemrit-s-.mp4",
@@ -711167,22 +711161,29 @@
         "display_name": "The Brokenwood Mysteries S02E02 Case Six: To Die or Not To Die 720p CZ Dabing",
         "prepared_at": "2026-11-20T07:33:15.277977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199247",
-        "size_bytes": 1164686808
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199247",
-        "size_bytes": 1164686808,
-        "source_bytes_read": 1164686808,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199247",
         "source_bytes_read": 1164686808,
         "elapsed_seconds": 515.758,
         "finished_at": "2026-11-20T07:42:14.085145+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199247",
+          "size_bytes": 1164686808,
+          "source_bytes_read": 1164686808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607707",
+        "source_url": "https://sdilej.cz/30607707/vrazdy-v-brokenwoodu-s02e02-006-2015-hd-zemrit-ci-nezemrit-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199247",
+        "display_name": "The Brokenwood Mysteries S02E02 Case Six: To Die or Not To Die 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:42:26.969124+00:00"
       }
     },
     "2409:2:3": {
@@ -711344,7 +711345,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:42:19.863555+00:00",
+  "updated_at": "2026-11-20T07:42:26.969138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
