@@ -722048,12 +722048,6 @@
     },
     "1084:8:3": {
       "episode_key": "zoufalé manželky:s8:e3",
-      "claim": {
-        "worker_id": "099e3a1b530a413ab78bbce8b4118a2d-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:09:40.433466+00:00",
-        "lease_expires_at": "2026-11-20T18:09:40.433484+00:00"
-      },
       "source": {
         "source_id": "33109098",
         "source_url": "https://sdilej.cz/33109098/zoufale-manzelky-s08e03-cz-dabing.mp4",
@@ -722077,7 +722071,17 @@
         },
         "display_name": "Desperate Housewives S08E03 Watch While I Revise the World 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:10:06.900459+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109098:https://sdilej.cz/33109098/zoufale-manzelky-s08e03-cz-dabing.mp4",
+        "at": "2026-11-20T12:10:31.742075+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:10:31.742122+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:8:1": {
       "episode_key": "zoufalé manželky:s8:e1",
@@ -722159,7 +722163,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:10:25.704600+00:00",
+  "updated_at": "2026-11-20T12:10:31.742128+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -722732,6 +722736,10 @@
         {
           "identity": "1084:8:1",
           "at": "2026-11-20T12:10:18.792201+00:00"
+        },
+        {
+          "identity": "1084:8:3",
+          "at": "2026-11-20T12:10:31.742075+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:07:57.929174+00:00"
