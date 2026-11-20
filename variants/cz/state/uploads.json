@@ -713993,12 +713993,6 @@
     },
     "1084:1:9": {
       "episode_key": "zoufalé manželky:s1:e9",
-      "claim": {
-        "worker_id": "02cc531ee0cd443387968f718e024547-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:05:05.233627+00:00",
-        "lease_expires_at": "2026-11-20T15:05:05.233640+00:00"
-      },
       "source": {
         "source_id": "27618516",
         "source_url": "https://sdilej.cz/27618516/zoufale-manzelky-s01e09-cz.mkv",
@@ -714023,22 +714017,29 @@
         "display_name": "Desperate Housewives S01E09 Suspicious Minds 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:05:10.744401+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200493",
-        "size_bytes": 545244787
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200493",
-        "size_bytes": 545244787,
-        "source_bytes_read": 545244787,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200493",
         "source_bytes_read": 545244787,
         "elapsed_seconds": 59.819,
         "finished_at": "2026-11-20T09:06:31.179694+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200493",
+          "size_bytes": 545244787,
+          "source_bytes_read": 545244787,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27618516",
+        "source_url": "https://sdilej.cz/27618516/zoufale-manzelky-s01e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200493",
+        "display_name": "Desperate Housewives S01E09 Suspicious Minds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:06:43.410390+00:00"
       }
     },
     "1084:1:10": {
@@ -714120,7 +714121,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:06:37.143544+00:00",
+  "updated_at": "2026-11-20T09:06:43.410406+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
