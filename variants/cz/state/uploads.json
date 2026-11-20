@@ -746723,12 +746723,6 @@
     },
     "38:1:22": {
       "episode_key": "průměrňákovi:s1:e22",
-      "claim": {
-        "worker_id": "26d0c669b7e74ed2b386684409a28677-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-20T22:11:48.307874+00:00",
-        "lease_expires_at": "2026-11-21T04:11:48.307885+00:00"
-      },
       "source": {
         "source_id": "27654552",
         "source_url": "https://sdilej.cz/27654552/prumernakovi-s01e22-cz.mkv",
@@ -746753,22 +746747,29 @@
         "display_name": "The Middle S01E22 Mother's Day 1080p CZ Dabing",
         "prepared_at": "2026-11-20T22:11:54.400293+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31214276",
-        "size_bytes": 953073320
-      },
-      "transfer_receipt": {
-        "target_video_id": "31214276",
-        "size_bytes": 953073320,
-        "source_bytes_read": 953073320,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31214276",
         "source_bytes_read": 953073320,
         "elapsed_seconds": 74.607,
         "finished_at": "2026-11-20T22:13:33.473295+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31214276",
+          "size_bytes": 953073320,
+          "source_bytes_read": 953073320,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27654552",
+        "source_url": "https://sdilej.cz/27654552/prumernakovi-s01e22-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31214276",
+        "display_name": "The Middle S01E22 Mother's Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T22:13:42.353820+00:00"
       }
     },
     "38:2:1": {
@@ -746851,7 +746852,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T22:13:33.473314+00:00",
+  "updated_at": "2026-11-20T22:13:42.353834+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
