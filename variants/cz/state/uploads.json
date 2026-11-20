@@ -720156,12 +720156,6 @@
     },
     "1084:7:3": {
       "episode_key": "zoufalé manželky:s7:e3",
-      "claim": {
-        "worker_id": "57e1a84450cd4a27979fe2e59016ec61-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:28:37.467953+00:00",
-        "lease_expires_at": "2026-11-20T17:28:37.467965+00:00"
-      },
       "source": {
         "source_id": "33108966",
         "source_url": "https://sdilej.cz/33108966/zoufale-manzelky-s07e03-cz-dabing.mp4",
@@ -720185,7 +720179,17 @@
         },
         "display_name": "Desperate Housewives S07E03 Truly Content 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:28:47.331550+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33108966:https://sdilej.cz/33108966/zoufale-manzelky-s07e03-cz-dabing.mp4",
+        "at": "2026-11-20T11:29:00.518026+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T11:29:00.518053+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:7:2": {
       "episode_key": "zoufalé manželky:s7:e2",
@@ -720226,7 +720230,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:28:51.892132+00:00",
+  "updated_at": "2026-11-20T11:29:00.518058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -720807,6 +720811,14 @@
         {
           "identity": "426:1:3",
           "at": "2026-11-20T11:02:47.650046+00:00"
+        }
+      ]
+    },
+    "1084": {
+      "recent_failures": [
+        {
+          "identity": "1084:7:3",
+          "at": "2026-11-20T11:29:00.518026+00:00"
         }
       ]
     }
