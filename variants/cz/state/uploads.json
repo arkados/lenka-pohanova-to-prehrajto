@@ -719034,12 +719034,6 @@
     },
     "1084:6:3": {
       "episode_key": "zoufalé manželky:s6:e3",
-      "claim": {
-        "worker_id": "77a4ec0a984b416e91eb30e40e63e000-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:00:18.007600+00:00",
-        "lease_expires_at": "2026-11-20T17:00:18.007619+00:00"
-      },
       "source": {
         "source_id": "34400382",
         "source_url": "https://sdilej.cz/34400382/zoufale-manzelky-s06e03-114-2009-hd-nesud-damu-podle-milence-s-.mp4",
@@ -719064,22 +719058,29 @@
         "display_name": "Desperate Housewives S06E03 Never Judge a Lady by Her Lover 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:00:29.167394+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202517",
-        "size_bytes": 853846245
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202517",
-        "size_bytes": 853846245,
-        "source_bytes_read": 853846245,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202517",
         "source_bytes_read": 853846245,
         "elapsed_seconds": 72.727,
         "finished_at": "2026-11-20T11:02:08.456814+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202517",
+          "size_bytes": 853846245,
+          "source_bytes_read": 853846245,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400382",
+        "source_url": "https://sdilej.cz/34400382/zoufale-manzelky-s06e03-114-2009-hd-nesud-damu-podle-milence-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202517",
+        "display_name": "Desperate Housewives S06E03 Never Judge a Lady by Her Lover 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:02:17.254183+00:00"
       }
     },
     "1084:6:4": {
@@ -719125,7 +719126,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:02:08.456834+00:00",
+  "updated_at": "2026-11-20T11:02:17.254202+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
