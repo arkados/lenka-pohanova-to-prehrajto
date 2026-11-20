@@ -724410,12 +724410,6 @@
     },
     "1084:8:21": {
       "episode_key": "zoufalé manželky:s8:e21",
-      "claim": {
-        "worker_id": "4ebc8f2553ff44a49afb2e10a14f519b-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T12:54:27.349865+00:00",
-        "lease_expires_at": "2026-11-20T18:54:27.349882+00:00"
-      },
       "source": {
         "source_id": "33109341",
         "source_url": "https://sdilej.cz/33109341/zoufale-manzelky-s08e21-cz-dabing.mp4",
@@ -724439,7 +724433,17 @@
         },
         "display_name": "Desperate Housewives S08E21 The People Will Hear 720p CZ Dabing",
         "prepared_at": "2026-11-20T12:54:34.295495+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33109341:https://sdilej.cz/33109341/zoufale-manzelky-s08e21-cz-dabing.mp4",
+        "at": "2026-11-20T12:54:50.264755+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-20T12:54:50.264794+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1084:8:22": {
       "episode_key": "zoufalé manželky:s8:e22",
@@ -724456,7 +724460,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T12:54:43.931378+00:00",
+  "updated_at": "2026-11-20T12:54:50.264800+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -725023,12 +725027,8 @@
     "1084": {
       "recent_failures": [
         {
-          "identity": "1084:8:13",
-          "at": "2026-11-20T12:45:40.004179+00:00"
-        },
-        {
-          "identity": "1084:8:16",
-          "at": "2026-11-20T12:47:24.805216+00:00"
+          "identity": "1084:8:21",
+          "at": "2026-11-20T12:54:50.264755+00:00"
         }
       ],
       "retry_after": "2026-11-20T12:42:39.692401+00:00"
