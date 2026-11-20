@@ -718385,12 +718385,6 @@
     },
     "1084:5:14": {
       "episode_key": "zoufalé manželky:s5:e14",
-      "claim": {
-        "worker_id": "71bb1174055045eeafe4aa7855ae925c-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T10:47:59.337029+00:00",
-        "lease_expires_at": "2026-11-20T16:47:59.337042+00:00"
-      },
       "source": {
         "source_id": "34400329",
         "source_url": "https://sdilej.cz/34400329/zoufale-manzelky-s05e14-101-2009-hd-mit-a-nemit-penize-s-.mp4",
@@ -718415,22 +718409,29 @@
         "display_name": "Desperate Housewives S05E14 Mama Spent Money When She Had None 720p CZ Dabing",
         "prepared_at": "2026-11-20T10:48:13.420687+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202294",
-        "size_bytes": 880418350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202294",
-        "size_bytes": 880418350,
-        "source_bytes_read": 880418350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202294",
         "source_bytes_read": 880418350,
         "elapsed_seconds": 139.058,
         "finished_at": "2026-11-20T10:50:56.131993+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202294",
+          "size_bytes": 880418350,
+          "source_bytes_read": 880418350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400329",
+        "source_url": "https://sdilej.cz/34400329/zoufale-manzelky-s05e14-101-2009-hd-mit-a-nemit-penize-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202294",
+        "display_name": "Desperate Housewives S05E14 Mama Spent Money When She Had None 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T10:51:02.371244+00:00"
       }
     },
     "1084:5:15": {
@@ -718513,7 +718514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T10:50:56.132012+00:00",
+  "updated_at": "2026-11-20T10:51:02.371262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
