@@ -720344,28 +720344,29 @@
           "at": "2026-11-20T11:39:09.717913+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f01d56d8af6a4c81b8a218dd558217bd-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:39:15.244958+00:00",
-        "lease_expires_at": "2026-11-20T17:39:15.244971+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31203284",
-        "size_bytes": 880987631
-      },
-      "transfer_receipt": {
-        "target_video_id": "31203284",
-        "size_bytes": 880987631,
-        "source_bytes_read": 880987631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31203284",
         "source_bytes_read": 880987631,
         "elapsed_seconds": 82.956,
         "finished_at": "2026-11-20T11:41:13.200709+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31203284",
+          "size_bytes": 880987631,
+          "source_bytes_read": 880987631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400485",
+        "source_url": "https://sdilej.cz/34400485/zoufale-manzelky-s07e04-138-2010-hd-hlavni-je-to-co-je-uvnitr-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31203284",
+        "display_name": "Desperate Housewives S07E04 The Thing That Counts Is What's Inside 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:41:23.051250+00:00"
       }
     },
     "1084:7:5": {
@@ -720617,7 +720618,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:41:13.200734+00:00",
+  "updated_at": "2026-11-20T11:41:23.051266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
