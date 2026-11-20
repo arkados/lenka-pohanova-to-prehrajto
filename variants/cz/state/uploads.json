@@ -726210,12 +726210,6 @@
     },
     "265:3:1": {
       "episode_key": "jeho temné esence:s3:e1",
-      "claim": {
-        "worker_id": "42ca22815118498dad1072179aada538-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T13:24:14.836156+00:00",
-        "lease_expires_at": "2026-11-20T19:24:14.836172+00:00"
-      },
       "source": {
         "source_id": "30863187",
         "source_url": "https://sdilej.cz/30863187/jeho-temne-esence-2022-s03e01-full-hd-cz-dab-the-enchanted-sleeper.mkv",
@@ -726240,22 +726234,29 @@
         "display_name": "His Dark Materials S03E01 The Enchanted Sleeper 1080p CZ Dabing",
         "prepared_at": "2026-11-20T13:24:30.083891+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31205221",
-        "size_bytes": 812970820
-      },
-      "transfer_receipt": {
-        "target_video_id": "31205221",
-        "size_bytes": 812970820,
-        "source_bytes_read": 812970820,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31205221",
         "source_bytes_read": 812970820,
         "elapsed_seconds": 84.27,
         "finished_at": "2026-11-20T13:26:21.951566+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31205221",
+          "size_bytes": 812970820,
+          "source_bytes_read": 812970820,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30863187",
+        "source_url": "https://sdilej.cz/30863187/jeho-temne-esence-2022-s03e01-full-hd-cz-dab-the-enchanted-sleeper.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31205221",
+        "display_name": "His Dark Materials S03E01 The Enchanted Sleeper 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T13:26:34.194269+00:00"
       }
     },
     "265:3:2": {
@@ -726301,7 +726302,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T13:26:26.754585+00:00",
+  "updated_at": "2026-11-20T13:26:34.194288+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
