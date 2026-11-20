@@ -714758,12 +714758,6 @@
     },
     "1084:2:2": {
       "episode_key": "zoufalé manželky:s2:e2",
-      "claim": {
-        "worker_id": "0b5b3358a6fa44d58c7b85cfefe0959a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:17:12.976586+00:00",
-        "lease_expires_at": "2026-11-20T15:17:12.976604+00:00"
-      },
       "source": {
         "source_id": "32763900",
         "source_url": "https://sdilej.cz/32763900/zoufale-manzelky-2005-s02e02-czdab-hd-z-tebe-by-se-jeden-zblaznil-1-.mkv",
@@ -714788,22 +714782,29 @@
         "display_name": "Desperate Housewives S02E02 You Could Drive a Person Crazy 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:17:28.302937+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200667",
-        "size_bytes": 552354041
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200667",
-        "size_bytes": 552354041,
-        "source_bytes_read": 552354041,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200667",
         "source_bytes_read": 552354041,
         "elapsed_seconds": 61.779,
         "finished_at": "2026-11-20T09:19:04.577166+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200667",
+          "size_bytes": 552354041,
+          "source_bytes_read": 552354041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32763900",
+        "source_url": "https://sdilej.cz/32763900/zoufale-manzelky-2005-s02e02-czdab-hd-z-tebe-by-se-jeden-zblaznil-1-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200667",
+        "display_name": "Desperate Housewives S02E02 You Could Drive a Person Crazy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:19:16.661238+00:00"
       }
     },
     "1084:2:3": {
@@ -714849,7 +714850,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:19:11.867124+00:00",
+  "updated_at": "2026-11-20T09:19:16.661256+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
