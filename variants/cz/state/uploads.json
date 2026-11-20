@@ -719201,12 +719201,6 @@
     },
     "1084:6:6": {
       "episode_key": "zoufalé manželky:s6:e6",
-      "claim": {
-        "worker_id": "16b800011b3446b581b583a614e3544a-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T11:03:58.445403+00:00",
-        "lease_expires_at": "2026-11-20T17:03:58.445419+00:00"
-      },
       "source": {
         "source_id": "34400400",
         "source_url": "https://sdilej.cz/34400400/zoufale-manzelky-s06e06-117-2009-hd-nevstupovat-na-travnik-s-.mp4",
@@ -719231,22 +719225,29 @@
         "display_name": "Desperate Housewives S06E06 Don't Walk on the Grass 720p CZ Dabing",
         "prepared_at": "2026-11-20T11:04:14.027813+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31202590",
-        "size_bytes": 878148689
-      },
-      "transfer_receipt": {
-        "target_video_id": "31202590",
-        "size_bytes": 878148689,
-        "source_bytes_read": 878148689,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31202590",
         "source_bytes_read": 878148689,
         "elapsed_seconds": 146.702,
         "finished_at": "2026-11-20T11:07:11.261932+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31202590",
+          "size_bytes": 878148689,
+          "source_bytes_read": 878148689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400400",
+        "source_url": "https://sdilej.cz/34400400/zoufale-manzelky-s06e06-117-2009-hd-nevstupovat-na-travnik-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31202590",
+        "display_name": "Desperate Housewives S06E06 Don't Walk on the Grass 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T11:07:17.791804+00:00"
       }
     },
     "1084:6:7": {
@@ -719329,7 +719330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T11:07:11.261953+00:00",
+  "updated_at": "2026-11-20T11:07:17.791823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
