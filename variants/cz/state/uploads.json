@@ -741450,12 +741450,6 @@
     },
     "210:1:2": {
       "episode_key": "věčnost:s1:e2",
-      "claim": {
-        "worker_id": "9b530da7aa7047c7adf5f97673977b4e-worker-0",
-        "run_id": "44800999232",
-        "claimed_at": "2026-11-20T20:07:46.035187+00:00",
-        "lease_expires_at": "2026-11-21T02:07:46.035199+00:00"
-      },
       "source": {
         "source_id": "29190437",
         "source_url": "https://sdilej.cz/29190437/vecnost-s01e02-1080p-cz-dabing.mkv",
@@ -741480,22 +741474,29 @@
         "display_name": "Upload S01E02 Five Stars 1080p CZ Dabing",
         "prepared_at": "2026-11-20T20:08:01.043053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31212479",
-        "size_bytes": 767170166
-      },
-      "transfer_receipt": {
-        "target_video_id": "31212479",
-        "size_bytes": 767170166,
-        "source_bytes_read": 767170166,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31212479",
         "source_bytes_read": 767170166,
         "elapsed_seconds": 31.263,
         "finished_at": "2026-11-20T20:08:56.151680+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31212479",
+          "size_bytes": 767170166,
+          "source_bytes_read": 767170166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29190437",
+        "source_url": "https://sdilej.cz/29190437/vecnost-s01e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31212479",
+        "display_name": "Upload S01E02 Five Stars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T20:09:07.040593+00:00"
       }
     }
   },
@@ -741504,7 +741505,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T20:09:00.690604+00:00",
+  "updated_at": "2026-11-20T20:09:07.040610+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
