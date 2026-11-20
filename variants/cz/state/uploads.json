@@ -702640,12 +702640,6 @@
         }
       ],
       "episode_key": "upíří deníky:s1:e11",
-      "claim": {
-        "worker_id": "152c2912097440b58c4b89439c33a8ef-worker-0",
-        "run_id": "44653111003",
-        "claimed_at": "2026-11-20T04:10:43.043241+00:00",
-        "lease_expires_at": "2026-11-20T10:10:43.043252+00:00"
-      },
       "source": {
         "source_id": "34574541",
         "source_url": "https://sdilej.cz/34574541/upiri-deniky-s01e11-rodokmen-cz-dabing-2009.mkv",
@@ -702670,22 +702664,29 @@
         "display_name": "The Vampire Diaries S01E11 Bloodlines 1080p CZ Dabing",
         "prepared_at": "2026-11-20T04:10:53.960965+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31196347",
-        "size_bytes": 669317013
-      },
-      "transfer_receipt": {
-        "target_video_id": "31196347",
-        "size_bytes": 669317013,
-        "source_bytes_read": 669317013,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31196347",
         "source_bytes_read": 669317013,
         "elapsed_seconds": 42.93,
         "finished_at": "2026-11-20T04:12:06.863758+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31196347",
+          "size_bytes": 669317013,
+          "source_bytes_read": 669317013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34574541",
+        "source_url": "https://sdilej.cz/34574541/upiri-deniky-s01e11-rodokmen-cz-dabing-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31196347",
+        "display_name": "The Vampire Diaries S01E11 Bloodlines 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T04:12:22.963725+00:00"
       }
     },
     "1119:1:12": {
@@ -703174,7 +703175,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T04:12:15.870117+00:00",
+  "updated_at": "2026-11-20T04:12:22.963738+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
