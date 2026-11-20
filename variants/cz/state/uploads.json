@@ -707349,12 +707349,6 @@
     },
     "1119:5:10": {
       "episode_key": "upíří deníky:s5:e10",
-      "claim": {
-        "worker_id": "949c987fd07e4197a73ab6d891ccea0b-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T05:46:42.497631+00:00",
-        "lease_expires_at": "2026-11-20T11:46:42.497640+00:00"
-      },
       "source": {
         "source_id": "30079491",
         "source_url": "https://sdilej.cz/30079491/upiri-deniky-s05e10.mkv",
@@ -707379,22 +707373,29 @@
         "display_name": "The Vampire Diaries S05E10 Fifty Shades of Grayson 1080p CZ Dabing",
         "prepared_at": "2026-11-20T05:46:53.419438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31197872",
-        "size_bytes": 1428546177
-      },
-      "transfer_receipt": {
-        "target_video_id": "31197872",
-        "size_bytes": 1428546177,
-        "source_bytes_read": 1428546177,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31197872",
         "source_bytes_read": 1428546177,
         "elapsed_seconds": 134.677,
         "finished_at": "2026-11-20T05:49:31.933684+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31197872",
+          "size_bytes": 1428546177,
+          "source_bytes_read": 1428546177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30079491",
+        "source_url": "https://sdilej.cz/30079491/upiri-deniky-s05e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31197872",
+        "display_name": "The Vampire Diaries S05E10 Fifty Shades of Grayson 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T05:49:44.310011+00:00"
       }
     }
   },
@@ -707403,7 +707404,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T05:49:37.585198+00:00",
+  "updated_at": "2026-11-20T05:49:44.310029+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
