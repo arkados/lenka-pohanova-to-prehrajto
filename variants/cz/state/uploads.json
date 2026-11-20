@@ -712565,12 +712565,6 @@
     },
     "2409:8:6": {
       "episode_key": "vraždy v brokenwoodu:s8:e6",
-      "claim": {
-        "worker_id": "507bc42e2f794e90bde918e74a1e9500-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T08:14:32.257950+00:00",
-        "lease_expires_at": "2026-11-20T14:14:32.257961+00:00"
-      },
       "source": {
         "source_id": "30609594",
         "source_url": "https://sdilej.cz/30609594/vrazdy-v-brokenwoodu-s08e06-036-2022-hd-ctyri-pozary-a-jeden-pohreb-s-.mp4",
@@ -712595,22 +712589,29 @@
         "display_name": "The Brokenwood Mysteries S08E06 Four Fires and a Funeral 720p CZ Dabing",
         "prepared_at": "2026-11-20T08:14:38.364837+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199802",
-        "size_bytes": 1202837378
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199802",
-        "size_bytes": 1202837378,
-        "source_bytes_read": 1202837378,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199802",
         "source_bytes_read": 1202837378,
         "elapsed_seconds": 156.855,
         "finished_at": "2026-11-20T08:17:33.867155+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199802",
+          "size_bytes": 1202837378,
+          "source_bytes_read": 1202837378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30609594",
+        "source_url": "https://sdilej.cz/30609594/vrazdy-v-brokenwoodu-s08e06-036-2022-hd-ctyri-pozary-a-jeden-pohreb-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199802",
+        "display_name": "The Brokenwood Mysteries S08E06 Four Fires and a Funeral 720p CZ Dabing",
+        "uploaded_at": "2026-11-20T08:17:40.928196+00:00"
       }
     },
     "2409:9:5": {
@@ -712693,7 +712694,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T08:17:33.867175+00:00",
+  "updated_at": "2026-11-20T08:17:40.928214+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
