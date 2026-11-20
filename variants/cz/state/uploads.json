@@ -710970,12 +710970,6 @@
     },
     "2409:1:1": {
       "episode_key": "vraždy v brokenwoodu:s1:e1",
-      "claim": {
-        "worker_id": "13ecbd11144446a9b3e3854bfd49cd6b-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T07:25:30.284825+00:00",
-        "lease_expires_at": "2026-11-20T13:25:30.284837+00:00"
-      },
       "source": {
         "source_id": "27798963",
         "source_url": "https://sdilej.cz/27798963/vrazdy-v-brokenwoodu-s01e01-krev-a-voda.mp4",
@@ -711000,22 +710994,29 @@
         "display_name": "The Brokenwood Mysteries S01E01 Blood and Water 1080p CZ Dabing",
         "prepared_at": "2026-11-20T07:25:35.598193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31199162",
-        "size_bytes": 2065677484
-      },
-      "transfer_receipt": {
-        "target_video_id": "31199162",
-        "size_bytes": 2065677484,
-        "source_bytes_read": 2065677484,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31199162",
         "source_bytes_read": 2065677484,
         "elapsed_seconds": 196.646,
         "finished_at": "2026-11-20T07:29:10.765438+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31199162",
+          "size_bytes": 2065677484,
+          "source_bytes_read": 2065677484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27798963",
+        "source_url": "https://sdilej.cz/27798963/vrazdy-v-brokenwoodu-s01e01-krev-a-voda.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31199162",
+        "display_name": "The Brokenwood Mysteries S01E01 Blood and Water 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T07:29:22.296571+00:00"
       }
     }
   },
@@ -711024,7 +711025,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T07:29:15.153238+00:00",
+  "updated_at": "2026-11-20T07:29:22.296590+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
