@@ -732279,12 +732279,6 @@
     },
     "1065:6:4": {
       "episode_key": "kriminálka las vegas:s6:e4",
-      "claim": {
-        "worker_id": "fa74fce32b494e1c89fd695829d14a73-worker-0",
-        "run_id": "44765794108",
-        "claimed_at": "2026-11-20T16:17:48.164798+00:00",
-        "lease_expires_at": "2026-11-20T22:17:48.164811+00:00"
-      },
       "source": {
         "source_id": "24905138",
         "source_url": "https://sdilej.cz/24905138/kriminalka-las-vegas-06x04-letavice.avi",
@@ -732309,22 +732303,29 @@
         "display_name": "CSI: Crime Scene Investigation S06E04 Shooting Stars SD CZ Dabing",
         "prepared_at": "2026-11-20T16:18:01.605302+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31208210",
-        "size_bytes": 367196160
-      },
-      "transfer_receipt": {
-        "target_video_id": "31208210",
-        "size_bytes": 367196160,
-        "source_bytes_read": 367196160,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31208210",
         "source_bytes_read": 367196160,
         "elapsed_seconds": 25.104,
         "finished_at": "2026-11-20T16:18:57.784290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31208210",
+          "size_bytes": 367196160,
+          "source_bytes_read": 367196160,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24905138",
+        "source_url": "https://sdilej.cz/24905138/kriminalka-las-vegas-06x04-letavice.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31208210",
+        "display_name": "CSI: Crime Scene Investigation S06E04 Shooting Stars SD CZ Dabing",
+        "uploaded_at": "2026-11-20T16:19:11.500159+00:00"
       }
     },
     "1065:6:5": {
@@ -732407,7 +732408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T16:19:03.221128+00:00",
+  "updated_at": "2026-11-20T16:19:11.500177+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
