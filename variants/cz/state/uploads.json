@@ -709511,12 +709511,6 @@
     },
     "1119:7:8": {
       "episode_key": "upíří deníky:s7:e8",
-      "claim": {
-        "worker_id": "804f34343f04481e84cb99ab6da97578-worker-0",
-        "run_id": "44659864458",
-        "claimed_at": "2026-11-20T06:33:50.292036+00:00",
-        "lease_expires_at": "2026-11-20T12:33:50.292048+00:00"
-      },
       "source": {
         "source_id": "34603021",
         "source_url": "https://sdilej.cz/34603021/upiri-deniky-s07e08-drz-me-vzrus-me-libej-me-zabij-me-cz-dabing-h265-2015.mkv",
@@ -709541,22 +709535,29 @@
         "display_name": "The Vampire Diaries S07E08 Hold Me, Thrill Me, Kiss Me, Kill Me 1080p CZ Dabing",
         "prepared_at": "2026-11-20T06:34:13.697758+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31198503",
-        "size_bytes": 544695898
-      },
-      "transfer_receipt": {
-        "target_video_id": "31198503",
-        "size_bytes": 544695898,
-        "source_bytes_read": 544695898,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31198503",
         "source_bytes_read": 544695898,
         "elapsed_seconds": 167.16,
         "finished_at": "2026-11-20T06:37:24.337267+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31198503",
+          "size_bytes": 544695898,
+          "source_bytes_read": 544695898,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34603021",
+        "source_url": "https://sdilej.cz/34603021/upiri-deniky-s07e08-drz-me-vzrus-me-libej-me-zabij-me-cz-dabing-h265-2015.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31198503",
+        "display_name": "The Vampire Diaries S07E08 Hold Me, Thrill Me, Kiss Me, Kill Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T06:37:38.422721+00:00"
       }
     },
     "1119:7:9": {
@@ -709667,7 +709668,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T06:37:34.092966+00:00",
+  "updated_at": "2026-11-20T06:37:38.422736+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
