@@ -728389,12 +728389,6 @@
     },
     "1065:2:17": {
       "episode_key": "kriminálka las vegas:s2:e17",
-      "claim": {
-        "worker_id": "40ccaad0d0164e788baa325d180abf90-worker-0",
-        "run_id": "44729165569",
-        "claimed_at": "2026-11-20T14:38:24.219875+00:00",
-        "lease_expires_at": "2026-11-20T20:38:24.219892+00:00"
-      },
       "source": {
         "source_id": "29955812",
         "source_url": "https://sdilej.cz/29955812/kriminalka-las-vegas-s02e17-1080p-cz-dabing.mkv",
@@ -728419,22 +728413,29 @@
         "display_name": "CSI: Crime Scene Investigation S02E17 Felonious Monk 1080p CZ Dabing",
         "prepared_at": "2026-11-20T14:38:29.863092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31206428",
-        "size_bytes": 2523324707
-      },
-      "transfer_receipt": {
-        "target_video_id": "31206428",
-        "size_bytes": 2523324707,
-        "source_bytes_read": 2523324707,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31206428",
         "source_bytes_read": 2523324707,
         "elapsed_seconds": 219.067,
         "finished_at": "2026-11-20T14:42:29.805412+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31206428",
+          "size_bytes": 2523324707,
+          "source_bytes_read": 2523324707,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29955812",
+        "source_url": "https://sdilej.cz/29955812/kriminalka-las-vegas-s02e17-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31206428",
+        "display_name": "CSI: Crime Scene Investigation S02E17 Felonious Monk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T14:42:36.724142+00:00"
       }
     },
     "1065:2:18": {
@@ -728480,7 +728481,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T14:42:29.805435+00:00",
+  "updated_at": "2026-11-20T14:42:36.724159+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
