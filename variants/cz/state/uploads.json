@@ -715458,12 +715458,6 @@
     },
     "1084:2:17": {
       "episode_key": "zoufalé manželky:s2:e17",
-      "claim": {
-        "worker_id": "7c69764307ad4296abadbc7bd44b1939-worker-0",
-        "run_id": "44703903559",
-        "claimed_at": "2026-11-20T09:32:30.327256+00:00",
-        "lease_expires_at": "2026-11-20T15:32:30.327267+00:00"
-      },
       "source": {
         "source_id": "27619223",
         "source_url": "https://sdilej.cz/27619223/zoufale-manzelky-s02e17-cz.mkv",
@@ -715488,22 +715482,29 @@
         "display_name": "Desperate Housewives S02E17 Could I Leave You? 1080p CZ Dabing",
         "prepared_at": "2026-11-20T09:32:44.598310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31200925",
-        "size_bytes": 566565882
-      },
-      "transfer_receipt": {
-        "target_video_id": "31200925",
-        "size_bytes": 566565882,
-        "source_bytes_read": 566565882,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31200925",
         "source_bytes_read": 566565882,
         "elapsed_seconds": 60.262,
         "finished_at": "2026-11-20T09:34:05.931195+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31200925",
+          "size_bytes": 566565882,
+          "source_bytes_read": 566565882,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27619223",
+        "source_url": "https://sdilej.cz/27619223/zoufale-manzelky-s02e17-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31200925",
+        "display_name": "Desperate Housewives S02E17 Could I Leave You? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-20T09:34:17.585699+00:00"
       }
     },
     "1084:2:18": {
@@ -715549,7 +715550,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-20T09:34:10.609027+00:00",
+  "updated_at": "2026-11-20T09:34:17.585715+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
