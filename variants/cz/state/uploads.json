@@ -758175,12 +758175,6 @@
     },
     "1320:3:5": {
       "episode_key": "doktorka z dixie:s3:e5",
-      "claim": {
-        "worker_id": "ce2b1852d4024177a9a20e83920eb337-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:20:30.292415+00:00",
-        "lease_expires_at": "2026-11-21T08:20:30.292437+00:00"
-      },
       "source": {
         "source_id": "31552311",
         "source_url": "https://sdilej.cz/31552311/doktorka-z-dixie-3x05.avi",
@@ -758205,22 +758199,29 @@
         "display_name": "Hart of Dixie S03E05 How Do You Like Me Now? SD CZ Dabing",
         "prepared_at": "2026-11-21T02:20:36.350811+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218013",
-        "size_bytes": 380577742
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218013",
-        "size_bytes": 380577742,
-        "source_bytes_read": 380577742,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218013",
         "source_bytes_read": 380577742,
         "elapsed_seconds": 21.397,
         "finished_at": "2026-11-21T02:21:31.454974+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218013",
+          "size_bytes": 380577742,
+          "source_bytes_read": 380577742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31552311",
+        "source_url": "https://sdilej.cz/31552311/doktorka-z-dixie-3x05.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218013",
+        "display_name": "Hart of Dixie S03E05 How Do You Like Me Now? SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:21:50.558952+00:00"
       }
     },
     "1320:3:6": {
@@ -758266,7 +758267,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:21:42.913926+00:00",
+  "updated_at": "2026-11-21T02:21:50.558972+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
