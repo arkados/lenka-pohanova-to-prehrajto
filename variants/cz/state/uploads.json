@@ -802357,12 +802357,6 @@
     },
     "1198:8:23": {
       "episode_key": "chirurgové:s8:e23",
-      "claim": {
-        "worker_id": "f9886c7ac97a437d9027cf7e78481c9e-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:28:15.595100+00:00",
-        "lease_expires_at": "2026-11-22T03:28:15.595117+00:00"
-      },
       "source": {
         "source_id": "35076128",
         "source_url": "https://sdilej.cz/35076128/chirurgove-cz-s08e23-gg-..mp4",
@@ -802387,22 +802381,29 @@
         "display_name": "Grey's Anatomy S08E23 Migration 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:28:31.185183+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236852",
-        "size_bytes": 869699238
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236852",
-        "size_bytes": 869699238,
-        "source_bytes_read": 869699238,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236852",
         "source_bytes_read": 869699238,
         "elapsed_seconds": 72.682,
         "finished_at": "2026-11-21T21:30:16.463627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236852",
+          "size_bytes": 869699238,
+          "source_bytes_read": 869699238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35076128",
+        "source_url": "https://sdilej.cz/35076128/chirurgove-cz-s08e23-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236852",
+        "display_name": "Grey's Anatomy S08E23 Migration 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:30:29.337391+00:00"
       }
     },
     "1198:8:24": {
@@ -802499,7 +802500,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:30:21.612854+00:00",
+  "updated_at": "2026-11-21T21:30:29.337409+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
