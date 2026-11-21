@@ -770358,12 +770358,6 @@
     },
     "1564:11:8": {
       "episode_key": "spravedlnost v krvi:s11:e8",
-      "claim": {
-        "worker_id": "0de7a7e7fee84594b1e9e1021233fd93-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:40:00.562883+00:00",
-        "lease_expires_at": "2026-11-21T11:40:00.562896+00:00"
-      },
       "source": {
         "source_id": "34252779",
         "source_url": "https://sdilej.cz/34252779/blue-bloods-11x08-vic-nez-se-zda-hdtv-cz.mkv",
@@ -770388,22 +770382,29 @@
         "display_name": "Blue Bloods S11E08 More Than Meets the Eye 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:40:06.817297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221138",
-        "size_bytes": 481229801
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221138",
-        "size_bytes": 481229801,
-        "source_bytes_read": 481229801,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221138",
         "source_bytes_read": 481229801,
         "elapsed_seconds": 22.634,
         "finished_at": "2026-11-21T05:41:10.552136+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221138",
+          "size_bytes": 481229801,
+          "source_bytes_read": 481229801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252779",
+        "source_url": "https://sdilej.cz/34252779/blue-bloods-11x08-vic-nez-se-zda-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221138",
+        "display_name": "Blue Bloods S11E08 More Than Meets the Eye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:41:37.133051+00:00"
       }
     },
     "1564:11:9": {
@@ -770485,7 +770486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:41:15.263418+00:00",
+  "updated_at": "2026-11-21T05:41:37.133067+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
