@@ -795688,12 +795688,6 @@
     },
     "1198:3:6": {
       "episode_key": "chirurgové:s3:e6",
-      "claim": {
-        "worker_id": "5af6e3ad3b594c089c42a2afcdebd8ca-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:44:38.736267+00:00",
-        "lease_expires_at": "2026-11-21T20:44:38.736278+00:00"
-      },
       "source": {
         "source_id": "27682932",
         "source_url": "https://sdilej.cz/27682932/chirurgove-s03e06-cz.mkv",
@@ -795718,22 +795712,29 @@
         "display_name": "Grey's Anatomy S03E06 Let the Angels Commit 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:44:45.400408+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230553",
-        "size_bytes": 703970700
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230553",
-        "size_bytes": 703970700,
-        "source_bytes_read": 703970700,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230553",
         "source_bytes_read": 703970700,
         "elapsed_seconds": 62.019,
         "finished_at": "2026-11-21T14:46:11.891885+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230553",
+          "size_bytes": 703970700,
+          "source_bytes_read": 703970700,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27682932",
+        "source_url": "https://sdilej.cz/27682932/chirurgove-s03e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230553",
+        "display_name": "Grey's Anatomy S03E06 Let the Angels Commit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:46:23.163493+00:00"
       }
     },
     "1198:3:7": {
@@ -795812,7 +795813,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:46:16.508233+00:00",
+  "updated_at": "2026-11-21T14:46:23.163509+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
