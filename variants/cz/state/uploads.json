@@ -784400,28 +784400,29 @@
           "at": "2026-11-21T19:11:38.915495+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1dcd989a738a4e41914be743a1ade455-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:11:44.015490+00:00",
-        "lease_expires_at": "2026-11-22T01:11:44.015508+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31234719",
-        "size_bytes": 1030108431
-      },
-      "transfer_receipt": {
-        "target_video_id": "31234719",
-        "size_bytes": 1030108431,
-        "source_bytes_read": 1030108431,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31234719",
         "source_bytes_read": 1030108431,
         "elapsed_seconds": 81.235,
         "finished_at": "2026-11-21T19:13:48.044352+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31234719",
+          "size_bytes": 1030108431,
+          "source_bytes_read": 1030108431,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27194982",
+        "source_url": "https://sdilej.cz/27194982/znovu-20-younger-s02e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31234719",
+        "display_name": "Younger S02E01 Tattoo You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T19:13:57.848755+00:00"
       }
     },
     "2004:2:3": {
@@ -801014,7 +801015,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:13:48.044373+00:00",
+  "updated_at": "2026-11-21T19:13:57.848774+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
