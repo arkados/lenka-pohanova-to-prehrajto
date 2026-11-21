@@ -784108,12 +784108,6 @@
     },
     "2372:1:1": {
       "episode_key": "holky z vejšky:s1:e1",
-      "claim": {
-        "worker_id": "57e482aea7e6457d9fc3ee9d5925ee36-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:46:38.876202+00:00",
-        "lease_expires_at": "2026-11-21T15:46:38.876221+00:00"
-      },
       "source": {
         "source_id": "33690374",
         "source_url": "https://sdilej.cz/33690374/holky-z-vejsky-s01e01-cz-dabing.mp4",
@@ -784137,7 +784131,17 @@
         },
         "display_name": "The Sex Lives of College Girls S01E01 Welcome to Essex 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:46:50.841418+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33690374:https://sdilej.cz/33690374/holky-z-vejsky-s01e01-cz-dabing.mp4",
+        "at": "2026-11-21T09:47:05.280838+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T09:47:05.280865+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -784145,7 +784149,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:46:55.797576+00:00",
+  "updated_at": "2026-11-21T09:47:05.280871+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -784776,6 +784780,14 @@
         }
       ],
       "retry_after": "2026-11-21T09:56:19.503460+00:00"
+    },
+    "2372": {
+      "recent_failures": [
+        {
+          "identity": "2372:1:1",
+          "at": "2026-11-21T09:47:05.280838+00:00"
+        }
+      ]
     }
   }
 }
