@@ -756419,12 +756419,6 @@
     },
     "1320:1:7": {
       "episode_key": "doktorka z dixie:s1:e7",
-      "claim": {
-        "worker_id": "97afd418ae884c0a9c04c0ef8321740d-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:49:42.837606+00:00",
-        "lease_expires_at": "2026-11-21T07:49:42.837639+00:00"
-      },
       "source": {
         "source_id": "25916107",
         "source_url": "https://sdilej.cz/25916107/doktorka-z-dixie-1x07.avi",
@@ -756449,22 +756443,29 @@
         "display_name": "Hart of Dixie S01E07 The Crush & The Crossbow SD CZ Dabing",
         "prepared_at": "2026-11-21T01:50:08.304685+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217550",
-        "size_bytes": 384026918
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217550",
-        "size_bytes": 384026918,
-        "source_bytes_read": 384026918,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217550",
         "source_bytes_read": 384026918,
         "elapsed_seconds": 19.696,
         "finished_at": "2026-11-21T01:51:03.885484+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217550",
+          "size_bytes": 384026918,
+          "source_bytes_read": 384026918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25916107",
+        "source_url": "https://sdilej.cz/25916107/doktorka-z-dixie-1x07.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217550",
+        "display_name": "Hart of Dixie S01E07 The Crush & The Crossbow SD CZ Dabing",
+        "uploaded_at": "2026-11-21T01:51:16.160634+00:00"
       }
     }
   },
@@ -756473,7 +756474,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:51:08.842427+00:00",
+  "updated_at": "2026-11-21T01:51:16.160652+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
