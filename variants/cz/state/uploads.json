@@ -805973,12 +805973,6 @@
     },
     "1198:10:20": {
       "episode_key": "chirurgové:s10:e20",
-      "claim": {
-        "worker_id": "fc054bc8992749e6beb199b5e313ef77-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:45:15.759074+00:00",
-        "lease_expires_at": "2026-11-22T05:45:15.759090+00:00"
-      },
       "source": {
         "source_id": "27698199",
         "source_url": "https://sdilej.cz/27698199/chirurgove-s10e20-cz.mkv",
@@ -806003,22 +805997,29 @@
         "display_name": "Grey's Anatomy S10E20 Go It Alone 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:45:28.554051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239143",
-        "size_bytes": 577514646
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239143",
-        "size_bytes": 577514646,
-        "source_bytes_read": 577514646,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239143",
         "source_bytes_read": 577514646,
         "elapsed_seconds": 40.989,
         "finished_at": "2026-11-21T23:46:47.965167+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239143",
+          "size_bytes": 577514646,
+          "source_bytes_read": 577514646,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698199",
+        "source_url": "https://sdilej.cz/27698199/chirurgove-s10e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239143",
+        "display_name": "Grey's Anatomy S10E20 Go It Alone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:46:59.674373+00:00"
       }
     },
     "1198:10:21": {
@@ -806101,7 +806102,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:46:53.232297+00:00",
+  "updated_at": "2026-11-21T23:46:59.674391+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
