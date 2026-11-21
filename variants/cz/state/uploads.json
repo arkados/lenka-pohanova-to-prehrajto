@@ -761337,12 +761337,6 @@
     },
     "1564:3:3": {
       "episode_key": "spravedlnost v krvi:s3:e3",
-      "claim": {
-        "worker_id": "e281c613e4614299b79e77d2d8db05dd-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:09:37.546742+00:00",
-        "lease_expires_at": "2026-11-21T09:09:37.546764+00:00"
-      },
       "source": {
         "source_id": "32117303",
         "source_url": "https://sdilej.cz/32117303/spravedlnost-v-krvi-s03e03-cz.mp4",
@@ -761367,22 +761361,29 @@
         "display_name": "Blue Bloods S03E03 Old Wounds 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:09:43.123372+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218805",
-        "size_bytes": 835352796
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218805",
-        "size_bytes": 835352796,
-        "source_bytes_read": 835352796,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218805",
         "source_bytes_read": 835352796,
         "elapsed_seconds": 37.276,
         "finished_at": "2026-11-21T03:10:44.194958+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218805",
+          "size_bytes": 835352796,
+          "source_bytes_read": 835352796,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117303",
+        "source_url": "https://sdilej.cz/32117303/spravedlnost-v-krvi-s03e03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218805",
+        "display_name": "Blue Bloods S03E03 Old Wounds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:10:57.301362+00:00"
       }
     }
   },
@@ -761391,7 +761392,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:10:51.795378+00:00",
+  "updated_at": "2026-11-21T03:10:57.301382+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
