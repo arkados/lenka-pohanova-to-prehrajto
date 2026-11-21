@@ -787790,16 +787790,16 @@
       },
       "attempts": [
         {
-          "at": "2026-11-21T14:58:47.033327+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-21T15:59:59.972654+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-21T21:08:36.123512+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-21T22:46:50.083926+00:00",
+          "error": "RetryError"
         }
       ],
       "source_retry_reset_at": "2026-11-21T22:45:00.823033+00:00",
@@ -787811,13 +787811,7 @@
           "replacement": "27781861:https://sdilej.cz/27781861/holky-z-vejsky-s02e03-cz-dab.mkv",
           "at": "2026-11-21T22:45:00.823033+00:00"
         }
-      ],
-      "claim": {
-        "worker_id": "788032ea08ed48c18190ff83183a2131-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:45:06.098025+00:00",
-        "lease_expires_at": "2026-11-22T04:45:06.098045+00:00"
-      }
+      ]
     },
     "668:1:9": {
       "episode_key": "bílá královna:s1:e9",
@@ -804615,7 +804609,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:45:42.441679+00:00",
+  "updated_at": "2026-11-21T22:46:50.083949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
