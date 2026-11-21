@@ -772333,12 +772333,6 @@
     },
     "1564:13:17": {
       "episode_key": "spravedlnost v krvi:s13:e17",
-      "claim": {
-        "worker_id": "c488e11e748a47f58a4cfba2a6ff8f85-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:07:15.905839+00:00",
-        "lease_expires_at": "2026-11-21T12:07:15.905850+00:00"
-      },
       "source": {
         "source_id": "32364307",
         "source_url": "https://sdilej.cz/32364307/spravedlnost-v-krvi-s13e17-cz.mp4",
@@ -772363,22 +772357,29 @@
         "display_name": "Blue Bloods S13E17 Smoke & Mirrors 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:07:21.466997+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221553",
-        "size_bytes": 879350997
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221553",
-        "size_bytes": 879350997,
-        "source_bytes_read": 879350997,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221553",
         "source_bytes_read": 879350997,
         "elapsed_seconds": 56.095,
         "finished_at": "2026-11-21T06:08:40.245339+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221553",
+          "size_bytes": 879350997,
+          "source_bytes_read": 879350997,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32364307",
+        "source_url": "https://sdilej.cz/32364307/spravedlnost-v-krvi-s13e17-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221553",
+        "display_name": "Blue Bloods S13E17 Smoke & Mirrors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:08:47.947400+00:00"
       }
     }
   },
@@ -772387,7 +772388,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:08:40.245358+00:00",
+  "updated_at": "2026-11-21T06:08:47.947414+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
