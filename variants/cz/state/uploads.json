@@ -801315,16 +801315,6 @@
         "display_name": "Grey's Anatomy S08E09 Dark Was the Night 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:37:00.669359+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232415",
-        "size_bytes": 857593203
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232415",
-        "size_bytes": 857593203,
-        "source_bytes_read": 857593203,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232415",
         "source_bytes_read": 857593203,
@@ -801338,11 +801328,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7760fb92ea5842388b820461a877ab2f-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:22:25.463552+00:00",
-        "lease_expires_at": "2026-11-22T02:22:25.463569+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232415",
+          "size_bytes": 857593203,
+          "source_bytes_read": 857593203,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072804",
+        "source_url": "https://sdilej.cz/35072804/chirurgove-cz-s08e09-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232415",
+        "display_name": "Grey's Anatomy S08E09 Dark Was the Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T20:22:44.559996+00:00"
       }
     },
     "1198:8:11": {
@@ -801599,7 +801600,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:22:30.561921+00:00",
+  "updated_at": "2026-11-21T20:22:44.560011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
