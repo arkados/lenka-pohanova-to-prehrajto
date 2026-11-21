@@ -762657,12 +762657,6 @@
     },
     "1564:4:6": {
       "episode_key": "spravedlnost v krvi:s4:e6",
-      "claim": {
-        "worker_id": "60f926352cf449a68b519dc5fdb146b4-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:36:28.676448+00:00",
-        "lease_expires_at": "2026-11-21T09:36:28.676470+00:00"
-      },
       "source": {
         "source_id": "32117348",
         "source_url": "https://sdilej.cz/32117348/spravedlnost-v-krvi-s04e06-cz.mp4",
@@ -762687,22 +762681,29 @@
         "display_name": "Blue Bloods S04E06 Growing Boys 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:36:34.647423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219201",
-        "size_bytes": 878935694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219201",
-        "size_bytes": 878935694,
-        "source_bytes_read": 878935694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219201",
         "source_bytes_read": 878935694,
         "elapsed_seconds": 104.917,
         "finished_at": "2026-11-21T03:38:42.910021+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219201",
+          "size_bytes": 878935694,
+          "source_bytes_read": 878935694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117348",
+        "source_url": "https://sdilej.cz/32117348/spravedlnost-v-krvi-s04e06-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219201",
+        "display_name": "Blue Bloods S04E06 Growing Boys 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:38:55.919074+00:00"
       }
     },
     "1564:4:7": {
@@ -762798,7 +762799,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:38:48.175907+00:00",
+  "updated_at": "2026-11-21T03:38:55.919092+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
