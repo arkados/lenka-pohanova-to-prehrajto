@@ -791217,12 +791217,6 @@
     },
     "3114:1:6": {
       "episode_key": "šéfkuchař nadivoko:s1:e6",
-      "claim": {
-        "worker_id": "6861abb50aba4e81aa5b73298875b425-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:50:22.513581+00:00",
-        "lease_expires_at": "2026-11-21T18:50:22.513591+00:00"
-      },
       "source": {
         "source_id": "12340409",
         "source_url": "https://sdilej.cz/12340409/kitchen.confidential.s01e06.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
@@ -791247,22 +791241,29 @@
         "display_name": "Kitchen Confidential S01E06 Rabbit Test SD CZ Dabing",
         "prepared_at": "2026-11-21T12:50:28.611829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228644",
-        "size_bytes": 217679732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228644",
-        "size_bytes": 217679732,
-        "source_bytes_read": 217679732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228644",
         "source_bytes_read": 217679732,
         "elapsed_seconds": 19.276,
         "finished_at": "2026-11-21T12:51:13.129966+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228644",
+          "size_bytes": 217679732,
+          "source_bytes_read": 217679732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12340409",
+        "source_url": "https://sdilej.cz/12340409/kitchen.confidential.s01e06.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228644",
+        "display_name": "Kitchen Confidential S01E06 Rabbit Test SD CZ Dabing",
+        "uploaded_at": "2026-11-21T12:51:19.742441+00:00"
       }
     },
     "3114:1:10": {
@@ -791308,7 +791309,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:51:13.129985+00:00",
+  "updated_at": "2026-11-21T12:51:19.742457+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
