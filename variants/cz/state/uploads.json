@@ -772704,12 +772704,6 @@
     },
     "52:1:1": {
       "episode_key": "12 opic:s1:e1",
-      "claim": {
-        "worker_id": "98a162e1c82842238c4753b4c99d6639-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:18:00.243443+00:00",
-        "lease_expires_at": "2026-11-21T12:18:00.243457+00:00"
-      },
       "source": {
         "source_id": "32348501",
         "source_url": "https://sdilej.cz/32348501/12-opic-s01e01-13-2015-cz-dab-1080p-rozstepeni.mkv",
@@ -772734,22 +772728,29 @@
         "display_name": "12 Monkeys S01E01 Splinter 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:18:11.183300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221703",
-        "size_bytes": 651109976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221703",
-        "size_bytes": 651109976,
-        "source_bytes_read": 651109976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221703",
         "source_bytes_read": 651109976,
         "elapsed_seconds": 62.203,
         "finished_at": "2026-11-21T06:19:38.334161+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221703",
+          "size_bytes": 651109976,
+          "source_bytes_read": 651109976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32348501",
+        "source_url": "https://sdilej.cz/32348501/12-opic-s01e01-13-2015-cz-dab-1080p-rozstepeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221703",
+        "display_name": "12 Monkeys S01E01 Splinter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:19:59.422821+00:00"
       }
     },
     "52:1:2": {
@@ -772860,7 +772861,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:19:54.252890+00:00",
+  "updated_at": "2026-11-21T06:19:59.422836+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
