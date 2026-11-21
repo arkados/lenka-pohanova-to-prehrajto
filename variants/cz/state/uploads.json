@@ -762912,12 +762912,6 @@
     },
     "1564:4:11": {
       "episode_key": "spravedlnost v krvi:s4:e11",
-      "claim": {
-        "worker_id": "5d1f85179697450991204ca2cc2c199a-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:40:20.210423+00:00",
-        "lease_expires_at": "2026-11-21T09:40:20.210440+00:00"
-      },
       "source": {
         "source_id": "32223768",
         "source_url": "https://sdilej.cz/32223768/spravedlnost-v-krvi-s04e11-cz.mp4",
@@ -762942,22 +762936,29 @@
         "display_name": "Blue Bloods S04E11 Ties That Bind 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:40:26.431552+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219253",
-        "size_bytes": 874155649
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219253",
-        "size_bytes": 874155649,
-        "source_bytes_read": 874155649,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219253",
         "source_bytes_read": 874155649,
         "elapsed_seconds": 67.572,
         "finished_at": "2026-11-21T03:41:57.629410+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219253",
+          "size_bytes": 874155649,
+          "source_bytes_read": 874155649,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32223768",
+        "source_url": "https://sdilej.cz/32223768/spravedlnost-v-krvi-s04e11-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219253",
+        "display_name": "Blue Bloods S04E11 Ties That Bind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:42:19.145233+00:00"
       }
     },
     "1564:4:12": {
@@ -763003,7 +763004,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:42:13.664312+00:00",
+  "updated_at": "2026-11-21T03:42:19.145251+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
