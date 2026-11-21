@@ -789926,12 +789926,6 @@
     },
     "1163:1:5": {
       "episode_key": "tyran:s1:e5",
-      "claim": {
-        "worker_id": "65699d34a3a8487e9b53be21b7602b7e-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:11:31.913983+00:00",
-        "lease_expires_at": "2026-11-21T18:11:31.913995+00:00"
-      },
       "source": {
         "source_id": "6147438",
         "source_url": "https://sdilej.cz/6147438/tyrant-s01e05.mkv",
@@ -789956,22 +789950,29 @@
         "display_name": "Tyrant S01E05 Hail Mary 1080p CZ Dabing",
         "prepared_at": "2026-11-21T12:11:51.065351+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228006",
-        "size_bytes": 1605531235
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228006",
-        "size_bytes": 1605531235,
-        "source_bytes_read": 1605531235,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228006",
         "source_bytes_read": 1605531235,
         "elapsed_seconds": 101.709,
         "finished_at": "2026-11-21T12:14:05.214523+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228006",
+          "size_bytes": 1605531235,
+          "source_bytes_read": 1605531235,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6147438",
+        "source_url": "https://sdilej.cz/6147438/tyrant-s01e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228006",
+        "display_name": "Tyrant S01E05 Hail Mary 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T12:14:24.383471+00:00"
       }
     },
     "1163:1:7": {
@@ -790067,7 +790068,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:14:19.693887+00:00",
+  "updated_at": "2026-11-21T12:14:24.383485+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
