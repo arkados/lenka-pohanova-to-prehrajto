@@ -769446,12 +769446,6 @@
     },
     "1564:10:8": {
       "episode_key": "spravedlnost v krvi:s10:e8",
-      "claim": {
-        "worker_id": "6814ca77a82044aaa4a5b559a6547a71-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:25:51.030080+00:00",
-        "lease_expires_at": "2026-11-21T11:25:51.030095+00:00"
-      },
       "source": {
         "source_id": "34252632",
         "source_url": "https://sdilej.cz/34252632/blue-bloods-10x08-pratele-na-nejvyssich-mistech-hdtv-cz.mkv",
@@ -769476,22 +769470,29 @@
         "display_name": "Blue Bloods S10E08 Friends in High Places 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:26:01.301092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220893",
-        "size_bytes": 567768083
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220893",
-        "size_bytes": 567768083,
-        "source_bytes_read": 567768083,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220893",
         "source_bytes_read": 567768083,
         "elapsed_seconds": 31.978,
         "finished_at": "2026-11-21T05:27:02.137367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220893",
+          "size_bytes": 567768083,
+          "source_bytes_read": 567768083,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252632",
+        "source_url": "https://sdilej.cz/34252632/blue-bloods-10x08-pratele-na-nejvyssich-mistech-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220893",
+        "display_name": "Blue Bloods S10E08 Friends in High Places 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:27:13.366246+00:00"
       }
     }
   },
@@ -769500,7 +769501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:27:08.468532+00:00",
+  "updated_at": "2026-11-21T05:27:13.366260+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
