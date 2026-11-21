@@ -757455,12 +757455,6 @@
     },
     "1320:2:9": {
       "episode_key": "doktorka z dixie:s2:e9",
-      "claim": {
-        "worker_id": "0058e0fbb9644861bb9d927bc6fc8f56-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:06:09.542770+00:00",
-        "lease_expires_at": "2026-11-21T08:06:09.542791+00:00"
-      },
       "source": {
         "source_id": "10246286",
         "source_url": "https://sdilej.cz/10246286/doktorka-z-dixie-02x09-jiskreni-2012-cz-dabing-.avi",
@@ -757485,22 +757479,29 @@
         "display_name": "Hart of Dixie S02E09 Sparks Fly SD CZ Dabing",
         "prepared_at": "2026-11-21T02:06:20.844592+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217831",
-        "size_bytes": 369021936
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217831",
-        "size_bytes": 369021936,
-        "source_bytes_read": 369021936,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217831",
         "source_bytes_read": 369021936,
         "elapsed_seconds": 18.141,
         "finished_at": "2026-11-21T02:07:15.291051+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217831",
+          "size_bytes": 369021936,
+          "source_bytes_read": 369021936,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10246286",
+        "source_url": "https://sdilej.cz/10246286/doktorka-z-dixie-02x09-jiskreni-2012-cz-dabing-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217831",
+        "display_name": "Hart of Dixie S02E09 Sparks Fly SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:07:24.324401+00:00"
       }
     }
   },
@@ -757509,7 +757510,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:07:15.291073+00:00",
+  "updated_at": "2026-11-21T02:07:24.324424+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
