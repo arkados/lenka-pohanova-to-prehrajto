@@ -801641,12 +801641,6 @@
     },
     "1198:8:13": {
       "episode_key": "chirurgové:s8:e13",
-      "claim": {
-        "worker_id": "f4b556e643ad40aca44817adb1bee95b-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:23:10.826563+00:00",
-        "lease_expires_at": "2026-11-22T02:23:10.826582+00:00"
-      },
       "source": {
         "source_id": "35072819",
         "source_url": "https://sdilej.cz/35072819/chirurgove-cz-s08e13-gg-..mp4",
@@ -801671,22 +801665,29 @@
         "display_name": "Grey's Anatomy S08E13 If/Then 1080p CZ Dabing",
         "prepared_at": "2026-11-21T20:23:24.089701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31235953",
-        "size_bytes": 864183832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31235953",
-        "size_bytes": 864183832,
-        "source_bytes_read": 864183832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31235953",
         "source_bytes_read": 864183832,
         "elapsed_seconds": 78.171,
         "finished_at": "2026-11-21T20:25:14.634807+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31235953",
+          "size_bytes": 864183832,
+          "source_bytes_read": 864183832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072819",
+        "source_url": "https://sdilej.cz/35072819/chirurgove-cz-s08e13-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31235953",
+        "display_name": "Grey's Anatomy S08E13 If/Then 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T20:25:26.654836+00:00"
       }
     },
     "1198:8:14": {
@@ -801732,7 +801733,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:25:20.741963+00:00",
+  "updated_at": "2026-11-21T20:25:26.654856+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
