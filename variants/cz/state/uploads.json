@@ -776836,16 +776836,16 @@
       },
       "attempts": [
         {
-          "at": "2026-11-21T14:54:02.291113+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-21T15:55:54.441005+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-21T17:06:16.913699+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-21T17:40:12.562134+00:00",
+          "error": "RetryError"
         }
       ],
       "source_retry_reset_at": "2026-11-21T17:38:29.870144+00:00",
@@ -776857,13 +776857,7 @@
           "replacement": "32348822:https://sdilej.cz/32348822/12-opic-s02e13-13-2016-cz-dab-1080p-vzpominky-na-budoucnost.mkv",
           "at": "2026-11-21T17:38:29.870144+00:00"
         }
-      ],
-      "claim": {
-        "worker_id": "c96c9f8c55c14598ad7621f4e6fc1835-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T17:38:34.957696+00:00",
-        "lease_expires_at": "2026-11-21T23:38:34.957710+00:00"
-      }
+      ]
     },
     "52:3:1": {
       "episode_key": "12 opic:s3:e1",
@@ -800526,7 +800520,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T17:38:34.957717+00:00",
+  "updated_at": "2026-11-21T17:40:12.562151+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
