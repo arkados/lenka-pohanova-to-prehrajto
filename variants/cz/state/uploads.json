@@ -777186,12 +777186,6 @@
     },
     "2196:3:14": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s3:e14",
-      "claim": {
-        "worker_id": "a358dc690fa546f69a62466b25e248d7-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:33:02.444339+00:00",
-        "lease_expires_at": "2026-11-21T13:33:02.444349+00:00"
-      },
       "source": {
         "source_id": "33882453",
         "source_url": "https://sdilej.cz/33882453/rizzoli-isles-vrazdy-na-pitevne-s03e14-039-2012-fhd-spinave-sazky-s-.mp4",
@@ -777216,22 +777210,29 @@
         "display_name": "Rizzoli & Isles S03E14 Over/Under 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:33:18.180714+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222919",
-        "size_bytes": 865693784
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222919",
-        "size_bytes": 865693784,
-        "source_bytes_read": 865693784,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222919",
         "source_bytes_read": 865693784,
         "elapsed_seconds": 53.27,
         "finished_at": "2026-11-21T07:34:43.643134+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222919",
+          "size_bytes": 865693784,
+          "source_bytes_read": 865693784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882453",
+        "source_url": "https://sdilej.cz/33882453/rizzoli-isles-vrazdy-na-pitevne-s03e14-039-2012-fhd-spinave-sazky-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222919",
+        "display_name": "Rizzoli & Isles S03E14 Over/Under 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T07:34:56.139482+00:00"
       }
     },
     "2196:3:15": {
@@ -777341,7 +777342,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:34:49.001771+00:00",
+  "updated_at": "2026-11-21T07:34:56.139495+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
