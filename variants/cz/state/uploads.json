@@ -798436,12 +798436,6 @@
     },
     "1198:6:20": {
       "episode_key": "chirurgové:s6:e20",
-      "claim": {
-        "worker_id": "9950d1a08e4c4fefb47088aaa861ea88-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T15:50:15.189508+00:00",
-        "lease_expires_at": "2026-11-21T21:50:15.189519+00:00"
-      },
       "source": {
         "source_id": "34951959",
         "source_url": "https://sdilej.cz/34951959/chirurgove-cz-s06e20-gg-..mp4",
@@ -798466,22 +798460,29 @@
         "display_name": "Grey's Anatomy S06E20 Hook, Line and Sinner 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:50:20.978669+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231660",
-        "size_bytes": 835732833
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231660",
-        "size_bytes": 835732833,
-        "source_bytes_read": 835732833,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231660",
         "source_bytes_read": 835732833,
         "elapsed_seconds": 51.942,
         "finished_at": "2026-11-21T15:51:33.746480+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231660",
+          "size_bytes": 835732833,
+          "source_bytes_read": 835732833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34951959",
+        "source_url": "https://sdilej.cz/34951959/chirurgove-cz-s06e20-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231660",
+        "display_name": "Grey's Anatomy S06E20 Hook, Line and Sinner 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:51:49.700584+00:00"
       }
     }
   },
@@ -798490,7 +798491,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:51:43.756510+00:00",
+  "updated_at": "2026-11-21T15:51:49.700600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
