@@ -790295,16 +790295,6 @@
           "at": "2026-11-21T19:29:50.689045+00:00"
         }
       ],
-      "prepared_target": {
-        "target_video_id": "31235006",
-        "size_bytes": 943335167
-      },
-      "transfer_receipt": {
-        "target_video_id": "31235006",
-        "size_bytes": 943335167,
-        "source_bytes_read": 943335167,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31235006",
         "source_bytes_read": 943335167,
@@ -790312,11 +790302,22 @@
         "finished_at": "2026-11-21T19:32:23.535481+00:00",
         "environment": "github_actions"
       },
-      "claim": {
-        "worker_id": "1f613bfc67c84cc79210443d46c7b681-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:10:13.270254+00:00",
-        "lease_expires_at": "2026-11-22T02:10:13.270274+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31235006",
+          "size_bytes": 943335167,
+          "source_bytes_read": 943335167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33848365",
+        "source_url": "https://sdilej.cz/33848365/znovu-20-2017-s04e12-czdab-1080p-irish-goodbye.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31235006",
+        "display_name": "Younger S04E12 Irish Goodbye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T20:10:30.200954+00:00"
       }
     },
     "2004:5:1": {
@@ -801492,7 +801493,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:10:24.881254+00:00",
+  "updated_at": "2026-11-21T20:10:30.200974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
