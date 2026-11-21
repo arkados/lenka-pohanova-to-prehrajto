@@ -779897,12 +779897,6 @@
     },
     "52:3:7": {
       "episode_key": "12 opic:s3:e7",
-      "claim": {
-        "worker_id": "57bc8e2d4546407a8408c2beabc44de9-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:21:11.824598+00:00",
-        "lease_expires_at": "2026-11-21T14:21:11.824610+00:00"
-      },
       "source": {
         "source_id": "28114888",
         "source_url": "https://sdilej.cz/28114888/12-opic-s03e07.cz.webrip.1080p.hevc.c4u.mkv",
@@ -779927,22 +779921,29 @@
         "display_name": "12 Monkeys S03E07 Nurture 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:21:26.896274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31223636",
-        "size_bytes": 576911238
-      },
-      "transfer_receipt": {
-        "target_video_id": "31223636",
-        "size_bytes": 576911238,
-        "source_bytes_read": 576911238,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31223636",
         "source_bytes_read": 576911238,
         "elapsed_seconds": 32.387,
         "finished_at": "2026-11-21T08:22:23.013047+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31223636",
+          "size_bytes": 576911238,
+          "source_bytes_read": 576911238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28114888",
+        "source_url": "https://sdilej.cz/28114888/12-opic-s03e07.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31223636",
+        "display_name": "12 Monkeys S03E07 Nurture 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:22:31.037123+00:00"
       }
     },
     "52:3:8": {
@@ -779988,7 +779989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:22:23.013072+00:00",
+  "updated_at": "2026-11-21T08:22:31.037138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
