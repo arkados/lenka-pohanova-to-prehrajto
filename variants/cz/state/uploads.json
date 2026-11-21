@@ -797061,12 +797061,6 @@
     },
     "1198:4:10": {
       "episode_key": "chirurgové:s4:e10",
-      "claim": {
-        "worker_id": "b736770bd70b4d5f9e384b10b3204b95-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:10:48.653713+00:00",
-        "lease_expires_at": "2026-11-21T21:10:48.653723+00:00"
-      },
       "source": {
         "source_id": "27688119",
         "source_url": "https://sdilej.cz/27688119/chirurgove-s04e10-cz.mkv",
@@ -797091,22 +797085,29 @@
         "display_name": "Grey's Anatomy S04E10 Crash Into Me (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:11:03.143057+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230981",
-        "size_bytes": 834013915
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230981",
-        "size_bytes": 834013915,
-        "source_bytes_read": 834013915,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230981",
         "source_bytes_read": 834013915,
         "elapsed_seconds": 67.107,
         "finished_at": "2026-11-21T15:12:43.263548+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230981",
+          "size_bytes": 834013915,
+          "source_bytes_read": 834013915,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688119",
+        "source_url": "https://sdilej.cz/27688119/chirurgove-s04e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230981",
+        "display_name": "Grey's Anatomy S04E10 Crash Into Me (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:12:54.132419+00:00"
       }
     }
   },
@@ -797115,7 +797116,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:12:49.412943+00:00",
+  "updated_at": "2026-11-21T15:12:54.132433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
