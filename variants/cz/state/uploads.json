@@ -799048,12 +799048,6 @@
     },
     "1198:7:9": {
       "episode_key": "chirurgové:s7:e9",
-      "claim": {
-        "worker_id": "47a376aaffb340a7bcf8d4995c1a2e83-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:02:33.239687+00:00",
-        "lease_expires_at": "2026-11-21T22:02:33.239699+00:00"
-      },
       "source": {
         "source_id": "34967284",
         "source_url": "https://sdilej.cz/34967284/chirurgove-cz-s07e09-gg-..mp4",
@@ -799078,22 +799072,29 @@
         "display_name": "Grey's Anatomy S07E09 Slow Night, So Long 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:02:38.795240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231871",
-        "size_bytes": 828871313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231871",
-        "size_bytes": 828871313,
-        "source_bytes_read": 828871313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231871",
         "source_bytes_read": 828871313,
         "elapsed_seconds": 64.136,
         "finished_at": "2026-11-21T16:04:03.895171+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231871",
+          "size_bytes": 828871313,
+          "source_bytes_read": 828871313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967284",
+        "source_url": "https://sdilej.cz/34967284/chirurgove-cz-s07e09-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231871",
+        "display_name": "Grey's Anatomy S07E09 Slow Night, So Long 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:04:13.591822+00:00"
       }
     },
     "1198:7:10": {
@@ -799139,7 +799140,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:04:03.895190+00:00",
+  "updated_at": "2026-11-21T16:04:13.591838+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
