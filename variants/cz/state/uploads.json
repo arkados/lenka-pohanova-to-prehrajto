@@ -797463,12 +797463,6 @@
     },
     "1198:5:3": {
       "episode_key": "chirurgové:s5:e3",
-      "claim": {
-        "worker_id": "54b90025ea95437c89f54116670db262-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:22:46.970361+00:00",
-        "lease_expires_at": "2026-11-21T21:22:46.970375+00:00"
-      },
       "source": {
         "source_id": "27689201",
         "source_url": "https://sdilej.cz/27689201/chirurgove-s05e03-cz.mkv",
@@ -797493,22 +797487,29 @@
         "display_name": "Grey's Anatomy S05E03 Here Comes the Flood 720p CZ Dabing",
         "prepared_at": "2026-11-21T15:22:52.856575+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231215",
-        "size_bytes": 986859764
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231215",
-        "size_bytes": 986859764,
-        "source_bytes_read": 986859764,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231215",
         "source_bytes_read": 986859764,
         "elapsed_seconds": 45.885,
         "finished_at": "2026-11-21T15:24:06.726046+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231215",
+          "size_bytes": 986859764,
+          "source_bytes_read": 986859764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27689201",
+        "source_url": "https://sdilej.cz/27689201/chirurgove-s05e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231215",
+        "display_name": "Grey's Anatomy S05E03 Here Comes the Flood 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:24:18.221706+00:00"
       }
     },
     "1198:5:5": {
@@ -797554,7 +797555,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:24:11.617832+00:00",
+  "updated_at": "2026-11-21T15:24:18.221722+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
