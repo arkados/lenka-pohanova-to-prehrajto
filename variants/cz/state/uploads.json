@@ -796449,12 +796449,6 @@
     },
     "1198:3:22": {
       "episode_key": "chirurgové:s3:e22",
-      "claim": {
-        "worker_id": "a88fc3a5c0b54fcfb56204c00a18e713-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:56:50.781187+00:00",
-        "lease_expires_at": "2026-11-21T20:56:50.781198+00:00"
-      },
       "source": {
         "source_id": "27683236",
         "source_url": "https://sdilej.cz/27683236/chirurgove-s03e22-cz.mkv",
@@ -796479,22 +796473,29 @@
         "display_name": "Grey's Anatomy S03E22 The Other Side of This Life 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:57:10.992675+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230738",
-        "size_bytes": 743124586
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230738",
-        "size_bytes": 743124586,
-        "source_bytes_read": 743124586,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230738",
         "source_bytes_read": 743124586,
         "elapsed_seconds": 36.166,
         "finished_at": "2026-11-21T14:58:23.138852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230738",
+          "size_bytes": 743124586,
+          "source_bytes_read": 743124586,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683236",
+        "source_url": "https://sdilej.cz/27683236/chirurgove-s03e22-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230738",
+        "display_name": "Grey's Anatomy S03E22 The Other Side of This Life 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:58:33.397225+00:00"
       }
     },
     "1198:3:23": {
@@ -796540,7 +796541,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:58:28.464634+00:00",
+  "updated_at": "2026-11-21T14:58:33.397239+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
