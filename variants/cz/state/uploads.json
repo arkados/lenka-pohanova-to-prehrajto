@@ -786717,12 +786717,6 @@
     },
     "668:1:9": {
       "episode_key": "bílá královna:s1:e9",
-      "claim": {
-        "worker_id": "ff774f23fef4401cafb37dd0b670924c-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:37:21.006154+00:00",
-        "lease_expires_at": "2026-11-21T16:37:21.006171+00:00"
-      },
       "source": {
         "source_id": "33940593",
         "source_url": "https://sdilej.cz/33940593/bila-kralovna-s01e09-cz-dabing-1080p-full-hd.mp4",
@@ -786746,7 +786740,17 @@
         },
         "display_name": "The White Queen S01E09 The Princes in the Tower 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:37:31.319165+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33940593:https://sdilej.cz/33940593/bila-kralovna-s01e09-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-21T10:37:45.592323+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:37:45.592389+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "668:1:10": {
       "episode_key": "bílá královna:s1:e10",
@@ -786763,7 +786767,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:37:39.786911+00:00",
+  "updated_at": "2026-11-21T10:37:45.592394+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -787421,9 +787425,13 @@
         {
           "identity": "668:1:1",
           "at": "2026-11-21T10:37:26.101831+00:00"
+        },
+        {
+          "identity": "668:1:9",
+          "at": "2026-11-21T10:37:45.592323+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:34:09.585982+00:00"
+      "retry_after": "2026-11-21T10:47:45.592323+00:00"
     }
   }
 }
