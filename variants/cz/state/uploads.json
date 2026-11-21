@@ -798830,12 +798830,6 @@
     },
     "1198:7:4": {
       "episode_key": "chirurgové:s7:e4",
-      "claim": {
-        "worker_id": "59f85d92305a458bb734e2369e3702b2-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T15:59:35.153545+00:00",
-        "lease_expires_at": "2026-11-21T21:59:35.153563+00:00"
-      },
       "source": {
         "source_id": "34967274",
         "source_url": "https://sdilej.cz/34967274/chirurgove-cz-s07e04-gg-..mp4",
@@ -798860,22 +798854,29 @@
         "display_name": "Grey's Anatomy S07E04 Can't Fight Biology 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:59:49.829509+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231834",
-        "size_bytes": 832555211
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231834",
-        "size_bytes": 832555211,
-        "source_bytes_read": 832555211,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231834",
         "source_bytes_read": 832555211,
         "elapsed_seconds": 49.073,
         "finished_at": "2026-11-21T16:01:09.987019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231834",
+          "size_bytes": 832555211,
+          "source_bytes_read": 832555211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967274",
+        "source_url": "https://sdilej.cz/34967274/chirurgove-cz-s07e04-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231834",
+        "display_name": "Grey's Anatomy S07E04 Can't Fight Biology 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:01:17.226186+00:00"
       }
     },
     "1198:7:5": {
@@ -798921,7 +798922,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:01:09.987039+00:00",
+  "updated_at": "2026-11-21T16:01:17.226202+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
