@@ -758736,12 +758736,6 @@
     },
     "1320:3:18": {
       "episode_key": "doktorka z dixie:s3:e18",
-      "claim": {
-        "worker_id": "9bb4e8eb0a1b419baa9cab7c70d0d63b-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:28:02.105334+00:00",
-        "lease_expires_at": "2026-11-21T08:28:02.105356+00:00"
-      },
       "source": {
         "source_id": "25919336",
         "source_url": "https://sdilej.cz/25919336/doktorka-z-dixie-3x18.avi",
@@ -758766,22 +758760,29 @@
         "display_name": "Hart of Dixie S03E18 Back in the Saddle Again SD CZ Dabing",
         "prepared_at": "2026-11-21T02:28:19.028188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218118",
-        "size_bytes": 404482996
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218118",
-        "size_bytes": 404482996,
-        "source_bytes_read": 404482996,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218118",
         "source_bytes_read": 404482996,
         "elapsed_seconds": 27.666,
         "finished_at": "2026-11-21T02:29:15.305475+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218118",
+          "size_bytes": 404482996,
+          "source_bytes_read": 404482996,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25919336",
+        "source_url": "https://sdilej.cz/25919336/doktorka-z-dixie-3x18.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218118",
+        "display_name": "Hart of Dixie S03E18 Back in the Saddle Again SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:29:32.586042+00:00"
       }
     }
   },
@@ -758790,7 +758791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:29:27.514947+00:00",
+  "updated_at": "2026-11-21T02:29:32.586060+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
