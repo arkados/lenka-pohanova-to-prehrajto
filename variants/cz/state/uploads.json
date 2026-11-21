@@ -785865,12 +785865,6 @@
     },
     "52:4:1": {
       "episode_key": "12 opic:s4:e1",
-      "claim": {
-        "worker_id": "52e13493765b42baa0f644dcfef26f4a-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:15:06.486322+00:00",
-        "lease_expires_at": "2026-11-21T16:15:06.486340+00:00"
-      },
       "source": {
         "source_id": "33239750",
         "source_url": "https://sdilej.cz/33239750/12-opic-12-monkeys-s04e01-cz-dabing.mkv",
@@ -785894,7 +785888,17 @@
         },
         "display_name": "12 Monkeys S04E01 The End 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:15:23.691400+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239750:https://sdilej.cz/33239750/12-opic-12-monkeys-s04e01-cz-dabing.mkv",
+        "at": "2026-11-21T10:15:49.870854+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:15:49.871038+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -785902,7 +785906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:15:42.897026+00:00",
+  "updated_at": "2026-11-21T10:15:49.871060+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -786507,19 +786511,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:2:12",
-          "at": "2026-11-21T10:14:46.764114+00:00"
-        },
-        {
           "identity": "52:3:4",
           "at": "2026-11-21T10:15:11.519915+00:00"
         },
         {
           "identity": "52:3:10",
           "at": "2026-11-21T10:15:17.219308+00:00"
+        },
+        {
+          "identity": "52:4:1",
+          "at": "2026-11-21T10:15:49.870854+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:25:17.219308+00:00"
+      "retry_after": "2026-11-21T10:25:49.870854+00:00"
     },
     "2004": {
       "recent_failures": [
