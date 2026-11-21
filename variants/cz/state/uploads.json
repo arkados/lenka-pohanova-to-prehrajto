@@ -801242,12 +801242,6 @@
     },
     "52:4:11": {
       "episode_key": "12 opic:s4:e11",
-      "claim": {
-        "worker_id": "e5bfa8ae7eb64648908f2eb329b2e3e7-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:23:50.026934+00:00",
-        "lease_expires_at": "2026-11-22T01:23:50.026953+00:00"
-      },
       "source": {
         "source_id": "30634657",
         "source_url": "https://sdilej.cz/30634657/12-opic-s04e11.mkv",
@@ -801272,22 +801266,29 @@
         "display_name": "12 Monkeys S04E11 The Beginning (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-21T19:24:10.592491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31234897",
-        "size_bytes": 641835569
-      },
-      "transfer_receipt": {
-        "target_video_id": "31234897",
-        "size_bytes": 641835569,
-        "source_bytes_read": 641835569,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31234897",
         "source_bytes_read": 641835569,
         "elapsed_seconds": 80.149,
         "finished_at": "2026-11-21T19:26:01.797983+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31234897",
+          "size_bytes": 641835569,
+          "source_bytes_read": 641835569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30634657",
+        "source_url": "https://sdilej.cz/30634657/12-opic-s04e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31234897",
+        "display_name": "12 Monkeys S04E11 The Beginning (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T19:26:08.961221+00:00"
       }
     }
   },
@@ -801296,7 +801297,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:26:01.798002+00:00",
+  "updated_at": "2026-11-21T19:26:08.961241+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
