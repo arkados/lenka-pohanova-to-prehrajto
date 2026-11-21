@@ -784335,12 +784335,6 @@
     },
     "668:1:1": {
       "episode_key": "bílá královna:s1:e1",
-      "claim": {
-        "worker_id": "e22317af80e94b998de62b6a8f76fce5-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:50:17.738988+00:00",
-        "lease_expires_at": "2026-11-21T15:50:17.739004+00:00"
-      },
       "source": {
         "source_id": "33940532",
         "source_url": "https://sdilej.cz/33940532/bila-kralovna-s01e01-cz-dabing-1080p-full-hd.mp4",
@@ -784364,7 +784358,17 @@
         },
         "display_name": "The White Queen S01E01 In Love With The King 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:50:34.015932+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33940532:https://sdilej.cz/33940532/bila-kralovna-s01e01-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-21T09:50:53.189409+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T09:50:53.189443+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -784372,7 +784376,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:50:47.551085+00:00",
+  "updated_at": "2026-11-21T09:50:53.189451+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -785020,6 +785024,14 @@
         }
       ],
       "retry_after": "2026-11-21T10:00:38.990148+00:00"
+    },
+    "668": {
+      "recent_failures": [
+        {
+          "identity": "668:1:1",
+          "at": "2026-11-21T09:50:53.189409+00:00"
+        }
+      ]
     }
   }
 }
