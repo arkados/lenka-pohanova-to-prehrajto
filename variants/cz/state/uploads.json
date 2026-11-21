@@ -802741,12 +802741,6 @@
     },
     "1198:9:4": {
       "episode_key": "chirurgové:s9:e4",
-      "claim": {
-        "worker_id": "36f03f4dd8934b87b3494a5c9576e065-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:37:00.311268+00:00",
-        "lease_expires_at": "2026-11-22T03:37:00.311288+00:00"
-      },
       "source": {
         "source_id": "27696979",
         "source_url": "https://sdilej.cz/27696979/chirurgove-s09e04-cz.mkv",
@@ -802771,22 +802765,29 @@
         "display_name": "Grey's Anatomy S09E04 I Saw Her Standing There 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:37:28.205338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236984",
-        "size_bytes": 1460551048
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236984",
-        "size_bytes": 1460551048,
-        "source_bytes_read": 1460551048,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236984",
         "source_bytes_read": 1460551048,
         "elapsed_seconds": 168.906,
         "finished_at": "2026-11-21T21:40:43.889444+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236984",
+          "size_bytes": 1460551048,
+          "source_bytes_read": 1460551048,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27696979",
+        "source_url": "https://sdilej.cz/27696979/chirurgove-s09e04-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236984",
+        "display_name": "Grey's Anatomy S09E04 I Saw Her Standing There 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:40:51.186638+00:00"
       }
     },
     "1198:9:5": {
@@ -802869,7 +802870,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:40:43.889463+00:00",
+  "updated_at": "2026-11-21T21:40:51.186657+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
