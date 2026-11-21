@@ -798075,12 +798075,6 @@
     },
     "1198:6:13": {
       "episode_key": "chirurgové:s6:e13",
-      "claim": {
-        "worker_id": "0f3ab8c1123e4361ad2a8f445462106b-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T15:41:06.603567+00:00",
-        "lease_expires_at": "2026-11-21T21:41:06.603576+00:00"
-      },
       "source": {
         "source_id": "34951878",
         "source_url": "https://sdilej.cz/34951878/chirurgove-cz-s06e13-gg-..mp4",
@@ -798105,22 +798099,29 @@
         "display_name": "Grey's Anatomy S06E13 State of Love and Trust 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:41:17.716587+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231538",
-        "size_bytes": 834972353
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231538",
-        "size_bytes": 834972353,
-        "source_bytes_read": 834972353,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231538",
         "source_bytes_read": 834972353,
         "elapsed_seconds": 73.316,
         "finished_at": "2026-11-21T15:43:06.261595+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231538",
+          "size_bytes": 834972353,
+          "source_bytes_read": 834972353,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34951878",
+        "source_url": "https://sdilej.cz/34951878/chirurgove-cz-s06e13-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231538",
+        "display_name": "Grey's Anatomy S06E13 State of Love and Trust 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:43:14.453174+00:00"
       }
     }
   },
@@ -798129,7 +798130,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:43:06.261617+00:00",
+  "updated_at": "2026-11-21T15:43:14.453192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
