@@ -763728,12 +763728,6 @@
     },
     "1564:5:5": {
       "episode_key": "spravedlnost v krvi:s5:e5",
-      "claim": {
-        "worker_id": "29aa0e28367a49a1bc574b27e4df1845-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:52:58.410415+00:00",
-        "lease_expires_at": "2026-11-21T09:52:58.410437+00:00"
-      },
       "source": {
         "source_id": "32121282",
         "source_url": "https://sdilej.cz/32121282/spravedlnost-v-krvi-s05e05-cz.mp4",
@@ -763758,22 +763752,29 @@
         "display_name": "Blue Bloods S05E05 Loose Lips 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:53:11.838426+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219448",
-        "size_bytes": 860046877
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219448",
-        "size_bytes": 860046877,
-        "source_bytes_read": 860046877,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219448",
         "source_bytes_read": 860046877,
         "elapsed_seconds": 50.11,
         "finished_at": "2026-11-21T03:54:26.766234+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219448",
+          "size_bytes": 860046877,
+          "source_bytes_read": 860046877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121282",
+        "source_url": "https://sdilej.cz/32121282/spravedlnost-v-krvi-s05e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219448",
+        "display_name": "Blue Bloods S05E05 Loose Lips 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:54:36.459502+00:00"
       }
     },
     "1564:5:6": {
@@ -763819,7 +763820,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:54:26.766255+00:00",
+  "updated_at": "2026-11-21T03:54:36.459515+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
