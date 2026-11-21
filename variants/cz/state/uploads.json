@@ -797106,12 +797106,6 @@
     },
     "1198:4:11": {
       "episode_key": "chirurgové:s4:e11",
-      "claim": {
-        "worker_id": "155fc0edadd549bc9dc07cf212bb2506-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:12:58.647050+00:00",
-        "lease_expires_at": "2026-11-21T21:12:58.647061+00:00"
-      },
       "source": {
         "source_id": "27688126",
         "source_url": "https://sdilej.cz/27688126/chirurgove-s04e11-cz.mkv",
@@ -797136,22 +797130,29 @@
         "display_name": "Grey's Anatomy S04E11 Lay Your Hands on Me 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:13:09.896049+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231023",
-        "size_bytes": 639651409
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231023",
-        "size_bytes": 639651409,
-        "source_bytes_read": 639651409,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231023",
         "source_bytes_read": 639651409,
         "elapsed_seconds": 37.271,
         "finished_at": "2026-11-21T15:14:11.986237+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231023",
+          "size_bytes": 639651409,
+          "source_bytes_read": 639651409,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688126",
+        "source_url": "https://sdilej.cz/27688126/chirurgove-s04e11-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231023",
+        "display_name": "Grey's Anatomy S04E11 Lay Your Hands on Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:14:19.344405+00:00"
       }
     },
     "1198:4:12": {
@@ -797234,7 +797235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:14:11.986256+00:00",
+  "updated_at": "2026-11-21T15:14:19.344422+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
