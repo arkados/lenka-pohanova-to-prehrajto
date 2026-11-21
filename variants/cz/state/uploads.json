@@ -776809,12 +776809,6 @@
     },
     "2196:3:7": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s3:e7",
-      "claim": {
-        "worker_id": "de3c83336377411dad2de9cb9f84efc6-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:25:54.643633+00:00",
-        "lease_expires_at": "2026-11-21T13:25:54.643646+00:00"
-      },
       "source": {
         "source_id": "33882388",
         "source_url": "https://sdilej.cz/33882388/rizzoli-isles-vrazdy-na-pitevne-s03e07-032-2012-fhd-laska-bez-hranic-s-.mp4",
@@ -776839,22 +776833,29 @@
         "display_name": "Rizzoli & Isles S03E07 Crazy for You 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:26:11.225173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222808",
-        "size_bytes": 865786824
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222808",
-        "size_bytes": 865786824,
-        "source_bytes_read": 865786824,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222808",
         "source_bytes_read": 865786824,
         "elapsed_seconds": 41.371,
         "finished_at": "2026-11-21T07:27:23.458531+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222808",
+          "size_bytes": 865786824,
+          "source_bytes_read": 865786824,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882388",
+        "source_url": "https://sdilej.cz/33882388/rizzoli-isles-vrazdy-na-pitevne-s03e07-032-2012-fhd-laska-bez-hranic-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222808",
+        "display_name": "Rizzoli & Isles S03E07 Crazy for You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T07:27:31.138573+00:00"
       }
     },
     "2196:3:8": {
@@ -776937,7 +776938,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:27:23.458552+00:00",
+  "updated_at": "2026-11-21T07:27:31.138589+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
