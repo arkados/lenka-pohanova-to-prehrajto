@@ -783617,12 +783617,6 @@
     },
     "2004:1:9": {
       "episode_key": "znovu 20:s1:e9",
-      "claim": {
-        "worker_id": "c62983cd74184daa8441489c67ffb0db-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:40:38.293524+00:00",
-        "lease_expires_at": "2026-11-21T15:40:38.293540+00:00"
-      },
       "source": {
         "source_id": "33865347",
         "source_url": "https://sdilej.cz/33865347/younger-2015-s01e09-i-m-with-stupid-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
@@ -783647,22 +783641,29 @@
         "display_name": "Younger S01E09 I'm With Stupid 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:40:59.428641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225022",
-        "size_bytes": 764020251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225022",
-        "size_bytes": 764020251,
-        "source_bytes_read": 764020251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225022",
         "source_bytes_read": 764020251,
         "elapsed_seconds": 58.09,
         "finished_at": "2026-11-21T09:42:24.976806+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225022",
+          "size_bytes": 764020251,
+          "source_bytes_read": 764020251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33865347",
+        "source_url": "https://sdilej.cz/33865347/younger-2015-s01e09-i-m-with-stupid-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225022",
+        "display_name": "Younger S01E09 I'm With Stupid 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:42:31.461503+00:00"
       }
     },
     "2004:1:10": {
@@ -783745,7 +783746,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:42:24.976826+00:00",
+  "updated_at": "2026-11-21T09:42:31.461520+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
