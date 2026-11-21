@@ -800881,14 +800881,12 @@
         {
           "at": "2026-11-21T18:21:19.422515+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-21T19:11:19.652412+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "695bf83ac59f4b47996ef7bc80393a16-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:10:39.632972+00:00",
-        "lease_expires_at": "2026-11-22T01:10:39.632989+00:00"
-      },
       "source": {
         "source_id": "33239799",
         "source_url": "https://sdilej.cz/33239799/12-opic-12-monkeys-s04e08-cz-dabing.mkv",
@@ -800912,6 +800910,10 @@
         },
         "display_name": "12 Monkeys S04E08 Demons 1080p CZ Dabing",
         "prepared_at": "2026-11-21T19:11:00.241760+00:00"
+      },
+      "source_repair_requested": {
+        "base": "33239799:https://sdilej.cz/33239799/12-opic-12-monkeys-s04e08-cz-dabing.mkv",
+        "at": "2026-11-21T19:11:19.652240+00:00"
       }
     },
     "52:4:9": {
@@ -800957,7 +800959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:11:14.489676+00:00",
+  "updated_at": "2026-11-21T19:11:19.652432+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -801568,9 +801570,13 @@
         {
           "identity": "52:4:9",
           "at": "2026-11-21T19:11:14.489633+00:00"
+        },
+        {
+          "identity": "52:4:8",
+          "at": "2026-11-21T19:11:19.652240+00:00"
         }
       ],
-      "retry_after": "2026-11-21T17:32:40.778096+00:00"
+      "retry_after": "2026-11-21T19:21:19.652240+00:00"
     },
     "2004": {
       "recent_failures": [
