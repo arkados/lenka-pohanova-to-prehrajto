@@ -753777,12 +753777,6 @@
     },
     "38:8:8": {
       "episode_key": "průměrňákovi:s8:e8",
-      "claim": {
-        "worker_id": "2068f07bede64a9f91d4e3c6f0e1f1ff-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:53:54.052680+00:00",
-        "lease_expires_at": "2026-11-21T06:53:54.052689+00:00"
-      },
       "source": {
         "source_id": "27605144",
         "source_url": "https://sdilej.cz/27605144/prumernakovi-s08e08-cz.mkv",
@@ -753807,22 +753801,29 @@
         "display_name": "The Middle S08E08 Trip and Fall 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:54:07.608994+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216655",
-        "size_bytes": 958566236
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216655",
-        "size_bytes": 958566236,
-        "source_bytes_read": 958566236,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216655",
         "source_bytes_read": 958566236,
         "elapsed_seconds": 65.145,
         "finished_at": "2026-11-21T00:55:39.186494+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216655",
+          "size_bytes": 958566236,
+          "source_bytes_read": 958566236,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27605144",
+        "source_url": "https://sdilej.cz/27605144/prumernakovi-s08e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216655",
+        "display_name": "The Middle S08E08 Trip and Fall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T00:55:55.887548+00:00"
       }
     },
     "38:8:9": {
@@ -753868,7 +753869,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T00:55:48.561558+00:00",
+  "updated_at": "2026-11-21T00:55:55.887562+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
