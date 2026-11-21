@@ -791794,12 +791794,6 @@
     },
     "1536:1:7": {
       "episode_key": "policejní bažanti:s1:e7",
-      "claim": {
-        "worker_id": "ad0b53c8f4224644aba5a754d3fe17b2-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:09:14.073792+00:00",
-        "lease_expires_at": "2026-11-21T19:09:14.073802+00:00"
-      },
       "source": {
         "source_id": "27428834",
         "source_url": "https://sdilej.cz/27428834/policejni-bazanti-s01e07-cz.avi",
@@ -791824,22 +791818,29 @@
         "display_name": "Rookie Blue S01E07 Hot and Bothered SD CZ Dabing",
         "prepared_at": "2026-11-21T13:09:27.907515+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228966",
-        "size_bytes": 380114944
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228966",
-        "size_bytes": 380114944,
-        "source_bytes_read": 380114944,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228966",
         "source_bytes_read": 380114944,
         "elapsed_seconds": 19.129,
         "finished_at": "2026-11-21T13:10:18.813941+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228966",
+          "size_bytes": 380114944,
+          "source_bytes_read": 380114944,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27428834",
+        "source_url": "https://sdilej.cz/27428834/policejni-bazanti-s01e07-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228966",
+        "display_name": "Rookie Blue S01E07 Hot and Bothered SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:10:24.848040+00:00"
       }
     }
   },
@@ -791848,7 +791849,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:10:18.813958+00:00",
+  "updated_at": "2026-11-21T13:10:24.848058+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
