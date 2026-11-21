@@ -782202,12 +782202,6 @@
     },
     "772:2:4": {
       "episode_key": "cardinal:s2:e4",
-      "claim": {
-        "worker_id": "731a0f6012e444098e66722da0d3386d-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:10:16.675890+00:00",
-        "lease_expires_at": "2026-11-21T15:10:16.675908+00:00"
-      },
       "source": {
         "source_id": "26444642",
         "source_url": "https://sdilej.cz/26444642/cardinal-s02e04-cz-dabing-1080p.mp4",
@@ -782232,22 +782226,29 @@
         "display_name": "Cardinal S02E04 Toof 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:10:22.546013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224438",
-        "size_bytes": 570233542
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224438",
-        "size_bytes": 570233542,
-        "source_bytes_read": 570233542,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224438",
         "source_bytes_read": 570233542,
         "elapsed_seconds": 78.932,
         "finished_at": "2026-11-21T09:12:06.777760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224438",
+          "size_bytes": 570233542,
+          "source_bytes_read": 570233542,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26444642",
+        "source_url": "https://sdilej.cz/26444642/cardinal-s02e04-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224438",
+        "display_name": "Cardinal S02E04 Toof 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:12:23.261092+00:00"
       }
     }
   },
@@ -782256,7 +782257,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:12:17.456639+00:00",
+  "updated_at": "2026-11-21T09:12:23.261110+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
