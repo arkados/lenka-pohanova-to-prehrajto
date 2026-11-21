@@ -776452,12 +776452,6 @@
     },
     "52:3:1": {
       "episode_key": "12 opic:s3:e1",
-      "claim": {
-        "worker_id": "856af81314f94a6cb191c0fbd978cf24-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:20:07.510987+00:00",
-        "lease_expires_at": "2026-11-21T13:20:07.510999+00:00"
-      },
       "source": {
         "source_id": "30039589",
         "source_url": "https://sdilej.cz/30039589/12-opic-s03e01-2017-cz-dab-.mkv",
@@ -776482,22 +776476,29 @@
         "display_name": "12 Monkeys S03E01 Mother 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:20:24.118263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222701",
-        "size_bytes": 575030088
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222701",
-        "size_bytes": 575030088,
-        "source_bytes_read": 575030088,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222701",
         "source_bytes_read": 575030088,
         "elapsed_seconds": 36.3,
         "finished_at": "2026-11-21T07:21:27.878549+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222701",
+          "size_bytes": 575030088,
+          "source_bytes_read": 575030088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30039589",
+        "source_url": "https://sdilej.cz/30039589/12-opic-s03e01-2017-cz-dab-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222701",
+        "display_name": "12 Monkeys S03E01 Mother 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T07:21:44.897474+00:00"
       }
     },
     "2196:3:1": {
@@ -776576,7 +776577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:21:38.818619+00:00",
+  "updated_at": "2026-11-21T07:21:44.897487+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
