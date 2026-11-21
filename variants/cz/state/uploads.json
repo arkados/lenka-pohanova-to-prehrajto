@@ -794193,12 +794193,6 @@
     },
     "1536:6:2": {
       "episode_key": "policejní bažanti:s6:e2",
-      "claim": {
-        "worker_id": "83fb4f26279a45fa8e2b348259370379-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:00:34.420737+00:00",
-        "lease_expires_at": "2026-11-21T20:00:34.420747+00:00"
-      },
       "source": {
         "source_id": "27991685",
         "source_url": "https://sdilej.cz/27991685/policejni-bazanti-s06e02-dokonala-rodina.mkv",
@@ -794223,22 +794217,29 @@
         "display_name": "Rookie Blue S06E02 Perfect Family 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:00:45.314247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229873",
-        "size_bytes": 881003990
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229873",
-        "size_bytes": 881003990,
-        "source_bytes_read": 881003990,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229873",
         "source_bytes_read": 881003990,
         "elapsed_seconds": 69.935,
         "finished_at": "2026-11-21T14:02:15.375918+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229873",
+          "size_bytes": 881003990,
+          "source_bytes_read": 881003990,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27991685",
+        "source_url": "https://sdilej.cz/27991685/policejni-bazanti-s06e02-dokonala-rodina.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229873",
+        "display_name": "Rookie Blue S06E02 Perfect Family 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:02:20.900154+00:00"
       }
     },
     "1536:6:3": {
@@ -794284,7 +794285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:02:15.375938+00:00",
+  "updated_at": "2026-11-21T14:02:20.900171+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
