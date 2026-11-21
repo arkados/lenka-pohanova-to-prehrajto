@@ -791469,16 +791469,6 @@
         "display_name": "Condor S01E01 What Loneliness 1080p CZ Dabing",
         "prepared_at": "2026-11-21T12:52:43.045655+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228684",
-        "size_bytes": 571555840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228684",
-        "size_bytes": 571555840,
-        "source_bytes_read": 571555840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228684",
         "source_bytes_read": 571555840,
@@ -791492,11 +791482,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7f74aa969fb04d3b822d79e53b0a9f62-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:10:42.235250+00:00",
-        "lease_expires_at": "2026-11-21T19:10:42.235260+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228684",
+          "size_bytes": 571555840,
+          "source_bytes_read": 571555840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "14576923",
+        "source_url": "https://sdilej.cz/14576923/condor.-2018-.s01e01.1080p.10bit.amzn.web-dl.ac3.x265.hevc-vyndros-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228684",
+        "display_name": "Condor S01E01 What Loneliness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:10:52.227400+00:00"
       }
     },
     "1295:1:2": {
@@ -791856,7 +791857,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:10:46.843337+00:00",
+  "updated_at": "2026-11-21T13:10:52.227415+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
