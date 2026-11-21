@@ -744623,28 +744623,29 @@
           "at": "2026-11-21T01:37:42.118238+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "70f0511a2907410c953227c6e3706198-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:37:47.588788+00:00",
-        "lease_expires_at": "2026-11-21T07:37:47.588807+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31217329",
-        "size_bytes": 542027574
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217329",
-        "size_bytes": 542027574,
-        "source_bytes_read": 542027574,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217329",
         "source_bytes_read": 542027574,
         "elapsed_seconds": 76.074,
         "finished_at": "2026-11-21T01:39:33.234370+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217329",
+          "size_bytes": 542027574,
+          "source_bytes_read": 542027574,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28305046",
+        "source_url": "https://sdilej.cz/28305046/cas-carodejnic-s01e04-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217329",
+        "display_name": "A Discovery of Witches S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:39:40.352253+00:00"
       }
     },
     "643:1:5": {
@@ -755771,7 +755772,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:39:33.234393+00:00",
+  "updated_at": "2026-11-21T01:39:40.352276+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
