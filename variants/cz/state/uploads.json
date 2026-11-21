@@ -804790,12 +804790,6 @@
     },
     "1198:9:22": {
       "episode_key": "chirurgové:s9:e22",
-      "claim": {
-        "worker_id": "b6609b8d08b646ffaa3b0609ff4fa1fb-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:17:37.221735+00:00",
-        "lease_expires_at": "2026-11-22T05:17:37.221753+00:00"
-      },
       "source": {
         "source_id": "27697548",
         "source_url": "https://sdilej.cz/27697548/chirurgove-s09e22-cz.mkv",
@@ -804820,22 +804814,29 @@
         "display_name": "Grey's Anatomy S09E22 Do You Believe in Magic? 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:17:58.231000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238732",
-        "size_bytes": 1453115087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238732",
-        "size_bytes": 1453115087,
-        "source_bytes_read": 1453115087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238732",
         "source_bytes_read": 1453115087,
         "elapsed_seconds": 123.365,
         "finished_at": "2026-11-21T23:20:30.906342+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238732",
+          "size_bytes": 1453115087,
+          "source_bytes_read": 1453115087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697548",
+        "source_url": "https://sdilej.cz/27697548/chirurgove-s09e22-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238732",
+        "display_name": "Grey's Anatomy S09E22 Do You Believe in Magic? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:21:03.528763+00:00"
       }
     },
     "1198:9:23": {
@@ -804945,7 +804946,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:20:55.482707+00:00",
+  "updated_at": "2026-11-21T23:21:03.528782+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
