@@ -785408,12 +785408,6 @@
     },
     "2491:2:3": {
       "episode_key": "malá velká británie:s2:e3",
-      "claim": {
-        "worker_id": "103a4159cc26427181a1d512dee15dc9-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:07:58.082821+00:00",
-        "lease_expires_at": "2026-11-21T16:07:58.082839+00:00"
-      },
       "source": {
         "source_id": "3038764",
         "source_url": "https://sdilej.cz/3038764/mala-velka-britanie-02x03-cz.avi",
@@ -785438,22 +785432,29 @@
         "display_name": "Little Britain S02E03 SD CZ Dabing",
         "prepared_at": "2026-11-21T10:08:18.965329+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225623",
-        "size_bytes": 277259866
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225623",
-        "size_bytes": 277259866,
-        "source_bytes_read": 277259866,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225623",
         "source_bytes_read": 277259866,
         "elapsed_seconds": 31.51,
         "finished_at": "2026-11-21T10:09:19.299238+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225623",
+          "size_bytes": 277259866,
+          "source_bytes_read": 277259866,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "3038764",
+        "source_url": "https://sdilej.cz/3038764/mala-velka-britanie-02x03-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225623",
+        "display_name": "Little Britain S02E03 SD CZ Dabing",
+        "uploaded_at": "2026-11-21T10:09:42.116725+00:00"
       }
     },
     "1970:1:7": {
@@ -785550,7 +785551,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:09:36.926257+00:00",
+  "updated_at": "2026-11-21T10:09:42.116762+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
