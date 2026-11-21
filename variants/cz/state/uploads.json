@@ -753457,12 +753457,6 @@
     },
     "38:8:2": {
       "episode_key": "průměrňákovi:s8:e2",
-      "claim": {
-        "worker_id": "0ec5713e6ddd42c89b159b51995f530e-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:45:58.154253+00:00",
-        "lease_expires_at": "2026-11-21T06:45:58.154265+00:00"
-      },
       "source": {
         "source_id": "27604909",
         "source_url": "https://sdilej.cz/27604909/prumernakovi-s08e02-cz.mkv",
@@ -753487,22 +753481,29 @@
         "display_name": "The Middle S08E02 A Tough Pill to Swallow 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:46:03.578193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216503",
-        "size_bytes": 954530298
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216503",
-        "size_bytes": 954530298,
-        "source_bytes_read": 954530298,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216503",
         "source_bytes_read": 954530298,
         "elapsed_seconds": 115.215,
         "finished_at": "2026-11-21T00:48:26.707067+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216503",
+          "size_bytes": 954530298,
+          "source_bytes_read": 954530298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27604909",
+        "source_url": "https://sdilej.cz/27604909/prumernakovi-s08e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216503",
+        "display_name": "The Middle S08E02 A Tough Pill to Swallow 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T00:48:34.365242+00:00"
       }
     },
     "38:8:3": {
@@ -753548,7 +753549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T00:48:26.707086+00:00",
+  "updated_at": "2026-11-21T00:48:34.365257+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
