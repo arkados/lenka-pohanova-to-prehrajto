@@ -795841,12 +795841,6 @@
     },
     "1198:3:10": {
       "episode_key": "chirurgové:s3:e10",
-      "claim": {
-        "worker_id": "851a7b68966646828dfdb07316ca28f8-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:46:35.713003+00:00",
-        "lease_expires_at": "2026-11-21T20:46:35.713014+00:00"
-      },
       "source": {
         "source_id": "27683002",
         "source_url": "https://sdilej.cz/27683002/chirurgove-s03e10-cz.mkv",
@@ -795871,22 +795865,29 @@
         "display_name": "Grey's Anatomy S03E10 Don't Stand So Close to Me 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:46:50.280596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230590",
-        "size_bytes": 638572608
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230590",
-        "size_bytes": 638572608,
-        "source_bytes_read": 638572608,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230590",
         "source_bytes_read": 638572608,
         "elapsed_seconds": 36.681,
         "finished_at": "2026-11-21T14:47:58.884489+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230590",
+          "size_bytes": 638572608,
+          "source_bytes_read": 638572608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683002",
+        "source_url": "https://sdilej.cz/27683002/chirurgove-s03e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230590",
+        "display_name": "Grey's Anatomy S03E10 Don't Stand So Close to Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:48:19.457448+00:00"
       }
     },
     "1198:3:11": {
@@ -795932,7 +795933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:48:14.704473+00:00",
+  "updated_at": "2026-11-21T14:48:19.457465+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
