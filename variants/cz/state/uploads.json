@@ -754541,12 +754541,6 @@
     },
     "38:8:23": {
       "episode_key": "průměrňákovi:s8:e23",
-      "claim": {
-        "worker_id": "0264eb8a560f44fb82c6ce9fa9be110f-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T01:14:18.442842+00:00",
-        "lease_expires_at": "2026-11-21T07:14:18.442854+00:00"
-      },
       "source": {
         "source_id": "27605748",
         "source_url": "https://sdilej.cz/27605748/prumernakovi-s08e23-cz.mkv",
@@ -754571,22 +754565,29 @@
         "display_name": "The Middle S08E23 Fight or Flight 1080p CZ Dabing",
         "prepared_at": "2026-11-21T01:14:24.539279+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216975",
-        "size_bytes": 958041563
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216975",
-        "size_bytes": 958041563,
-        "source_bytes_read": 958041563,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216975",
         "source_bytes_read": 958041563,
         "elapsed_seconds": 96.825,
         "finished_at": "2026-11-21T01:16:21.708060+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216975",
+          "size_bytes": 958041563,
+          "source_bytes_read": 958041563,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27605748",
+        "source_url": "https://sdilej.cz/27605748/prumernakovi-s08e23-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216975",
+        "display_name": "The Middle S08E23 Fight or Flight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:16:32.920732+00:00"
       }
     },
     "38:9:1": {
@@ -754632,7 +754633,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:16:28.076665+00:00",
+  "updated_at": "2026-11-21T01:16:32.920748+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
