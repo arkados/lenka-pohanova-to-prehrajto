@@ -799315,12 +799315,6 @@
     },
     "2004:6:3": {
       "episode_key": "znovu 20:s6:e3",
-      "claim": {
-        "worker_id": "3d8f8aa3d19944a68ab8490314a05e47-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:09:55.834215+00:00",
-        "lease_expires_at": "2026-11-21T22:09:55.834231+00:00"
-      },
       "source": {
         "source_id": "33924703",
         "source_url": "https://sdilej.cz/33924703/znovu-20-s06e03-cz-dabing-1080p-full-hd.mkv",
@@ -799344,7 +799338,17 @@
         },
         "display_name": "Younger S06E03 The Unusual Suspect 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:10:13.703714+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33924703:https://sdilej.cz/33924703/znovu-20-s06e03-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T16:10:31.836804+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T16:10:31.836864+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -799352,7 +799356,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:10:26.739318+00:00",
+  "updated_at": "2026-11-21T16:10:31.836868+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -799970,19 +799974,19 @@
     "2004": {
       "recent_failures": [
         {
-          "identity": "2004:4:4",
-          "at": "2026-11-21T16:09:36.715046+00:00"
-        },
-        {
           "identity": "2004:4:12",
           "at": "2026-11-21T16:10:01.554926+00:00"
         },
         {
           "identity": "2004:5:5",
           "at": "2026-11-21T16:10:06.769462+00:00"
+        },
+        {
+          "identity": "2004:6:3",
+          "at": "2026-11-21T16:10:31.836804+00:00"
         }
       ],
-      "retry_after": "2026-11-21T16:20:06.769462+00:00"
+      "retry_after": "2026-11-21T16:20:31.836804+00:00"
     },
     "2372": {
       "recent_failures": [
