@@ -800003,12 +800003,6 @@
     },
     "1198:8:6": {
       "episode_key": "chirurgové:s8:e6",
-      "claim": {
-        "worker_id": "f33dffb71073491e8b82915645404398-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:34:19.535209+00:00",
-        "lease_expires_at": "2026-11-21T22:34:19.535220+00:00"
-      },
       "source": {
         "source_id": "35072828",
         "source_url": "https://sdilej.cz/35072828/chirurgove-cz-s08e06-gg-..mp4",
@@ -800033,22 +800027,29 @@
         "display_name": "Grey's Anatomy S08E06 Poker Face 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:34:35.416265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232373",
-        "size_bytes": 853820506
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232373",
-        "size_bytes": 853820506,
-        "source_bytes_read": 853820506,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232373",
         "source_bytes_read": 853820506,
         "elapsed_seconds": 79.641,
         "finished_at": "2026-11-21T16:36:25.986109+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232373",
+          "size_bytes": 853820506,
+          "source_bytes_read": 853820506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072828",
+        "source_url": "https://sdilej.cz/35072828/chirurgove-cz-s08e06-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232373",
+        "display_name": "Grey's Anatomy S08E06 Poker Face 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:36:44.121337+00:00"
       }
     },
     "1198:8:8": {
@@ -800093,7 +800094,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:36:36.953805+00:00",
+  "updated_at": "2026-11-21T16:36:44.121353+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
