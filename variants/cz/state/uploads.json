@@ -800872,12 +800872,12 @@
     },
     "52:4:8": {
       "episode_key": "12 opic:s4:e8",
-      "claim": {
-        "worker_id": "6472ec225c2b424e8b49de467265a356-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T18:19:42.270208+00:00",
-        "lease_expires_at": "2026-11-22T00:19:42.270221+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-21T18:21:19.422515+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -800885,7 +800885,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T18:19:55.438894+00:00",
+  "updated_at": "2026-11-21T18:21:19.422530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
