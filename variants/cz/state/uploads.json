@@ -782753,12 +782753,6 @@
     },
     "772:4:2": {
       "episode_key": "cardinal:s4:e2",
-      "claim": {
-        "worker_id": "9c184751011743c98f8d0041d889d226-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:24:37.845029+00:00",
-        "lease_expires_at": "2026-11-21T15:24:37.845046+00:00"
-      },
       "source": {
         "source_id": "26444685",
         "source_url": "https://sdilej.cz/26444685/cardinal-s04e02-cz-dabing-1080p.mp4",
@@ -782783,22 +782777,29 @@
         "display_name": "Cardinal S04E02 Adele 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:24:56.296759+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224707",
-        "size_bytes": 575042120
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224707",
-        "size_bytes": 575042120,
-        "source_bytes_read": 575042120,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224707",
         "source_bytes_read": 575042120,
         "elapsed_seconds": 43.196,
         "finished_at": "2026-11-21T09:26:16.929016+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224707",
+          "size_bytes": 575042120,
+          "source_bytes_read": 575042120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26444685",
+        "source_url": "https://sdilej.cz/26444685/cardinal-s04e02-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224707",
+        "display_name": "Cardinal S04E02 Adele 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:26:34.088791+00:00"
       }
     },
     "772:4:4": {
@@ -782907,7 +782908,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:26:28.924467+00:00",
+  "updated_at": "2026-11-21T09:26:34.088809+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
