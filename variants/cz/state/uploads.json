@@ -769752,12 +769752,6 @@
     },
     "1564:10:15": {
       "episode_key": "spravedlnost v krvi:s10:e15",
-      "claim": {
-        "worker_id": "20ac5221d2334825a33a5f064643752c-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:30:29.954440+00:00",
-        "lease_expires_at": "2026-11-21T11:30:29.954451+00:00"
-      },
       "source": {
         "source_id": "34252727",
         "source_url": "https://sdilej.cz/34252727/blue-bloods-10x15-vlastni-zajem-hdtv-cz.mkv",
@@ -769782,22 +769776,29 @@
         "display_name": "Blue Bloods S10E15 Vested Interests 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:30:44.911952+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220962",
-        "size_bytes": 562971907
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220962",
-        "size_bytes": 562971907,
-        "source_bytes_read": 562971907,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220962",
         "source_bytes_read": 562971907,
         "elapsed_seconds": 31.516,
         "finished_at": "2026-11-21T05:32:00.139871+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220962",
+          "size_bytes": 562971907,
+          "source_bytes_read": 562971907,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252727",
+        "source_url": "https://sdilej.cz/34252727/blue-bloods-10x15-vlastni-zajem-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220962",
+        "display_name": "Blue Bloods S10E15 Vested Interests 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:32:12.467805+00:00"
       }
     },
     "1564:10:16": {
@@ -769843,7 +769844,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:32:06.197541+00:00",
+  "updated_at": "2026-11-21T05:32:12.467819+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
