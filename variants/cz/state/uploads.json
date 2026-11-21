@@ -785144,28 +785144,29 @@
           "at": "2026-11-21T23:26:45.874376+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "aecabd4c579744bba6262297536057b5-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:26:50.868288+00:00",
-        "lease_expires_at": "2026-11-22T05:26:50.868305+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31238874",
-        "size_bytes": 1441926732
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238874",
-        "size_bytes": 1441926732,
-        "source_bytes_read": 1441926732,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238874",
         "source_bytes_read": 1441926732,
         "elapsed_seconds": 95.912,
         "finished_at": "2026-11-21T23:29:18.487199+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238874",
+          "size_bytes": 1441926732,
+          "source_bytes_read": 1441926732,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661179",
+        "source_url": "https://sdilej.cz/30661179/bila-kralovna-the-white-queen-s01e01-uncut-1080p-8bit-bluray-ac3-x265-hevc-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238874",
+        "display_name": "The White Queen S01E01 In Love With The King 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:29:29.675892+00:00"
       }
     },
     "668:1:3": {
@@ -805267,7 +805268,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:29:24.752127+00:00",
+  "updated_at": "2026-11-21T23:29:29.675926+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
