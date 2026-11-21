@@ -802065,12 +802065,6 @@
     },
     "1198:8:18": {
       "episode_key": "chirurgové:s8:e18",
-      "claim": {
-        "worker_id": "554ad47fbca44fd1a1c9e86bd5576453-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:13:43.158911+00:00",
-        "lease_expires_at": "2026-11-22T03:13:43.158927+00:00"
-      },
       "source": {
         "source_id": "35072897",
         "source_url": "https://sdilej.cz/35072897/chirurgove-cz-s08e18-gg-..mp4",
@@ -802095,22 +802089,29 @@
         "display_name": "Grey's Anatomy S08E18 The Lion Sleeps Tonight 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:14:00.558477+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236637",
-        "size_bytes": 847987402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236637",
-        "size_bytes": 847987402,
-        "source_bytes_read": 847987402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236637",
         "source_bytes_read": 847987402,
         "elapsed_seconds": 83.956,
         "finished_at": "2026-11-21T21:15:57.134351+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236637",
+          "size_bytes": 847987402,
+          "source_bytes_read": 847987402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072897",
+        "source_url": "https://sdilej.cz/35072897/chirurgove-cz-s08e18-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236637",
+        "display_name": "Grey's Anatomy S08E18 The Lion Sleeps Tonight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:16:21.721272+00:00"
       }
     },
     "1198:8:19": {
@@ -802170,7 +802171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:16:16.112494+00:00",
+  "updated_at": "2026-11-21T21:16:21.721292+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
