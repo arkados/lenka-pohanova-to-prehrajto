@@ -5502,27 +5502,21 @@
       },
       "attempts": [
         {
-          "at": "2026-11-21T19:05:30.957796+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-21T19:21:19.625637+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-21T19:53:26.529128+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-21T20:09:52.979630+00:00",
+          "error": "SourceUnavailable"
         }
       ],
       "source_repair_requested": {
         "base": "35252833:https://sdilej.cz/35252833/modra-planeta-ii-s01e05-zelena-more.mp4",
-        "at": "2026-11-21T19:21:19.625568+00:00"
-      },
-      "claim": {
-        "worker_id": "99fb5260ea6b4737ba9994563b834ab6-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:09:14.497353+00:00",
-        "lease_expires_at": "2026-11-22T02:09:14.497368+00:00"
+        "at": "2026-11-21T20:09:52.979592+00:00"
       }
     },
     "10392:1:6": {
@@ -801485,7 +801479,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:09:47.212995+00:00",
+  "updated_at": "2026-11-21T20:09:52.979636+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -801652,6 +801646,10 @@
         {
           "identity": "10392:1:6",
           "at": "2026-11-21T20:06:19.151580+00:00"
+        },
+        {
+          "identity": "10392:1:5",
+          "at": "2026-11-21T20:09:52.979592+00:00"
         }
       ],
       "retry_after": "2026-11-21T19:31:19.625568+00:00"
