@@ -794817,12 +794817,6 @@
     },
     "1198:1:5": {
       "episode_key": "chirurgové:s1:e5",
-      "claim": {
-        "worker_id": "75ef154c26c2461f93fc15f0e5e5fe5d-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:20:12.562849+00:00",
-        "lease_expires_at": "2026-11-21T20:20:12.562860+00:00"
-      },
       "source": {
         "source_id": "34634368",
         "source_url": "https://sdilej.cz/34634368/chirurgove-cz-s01e05-gg-.mp4",
@@ -794847,22 +794841,29 @@
         "display_name": "Grey's Anatomy S01E05 Shake Your Groove Thing 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:20:27.589367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230178",
-        "size_bytes": 832444951
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230178",
-        "size_bytes": 832444951,
-        "source_bytes_read": 832444951,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230178",
         "source_bytes_read": 832444951,
         "elapsed_seconds": 115.716,
         "finished_at": "2026-11-21T14:22:44.958691+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230178",
+          "size_bytes": 832444951,
+          "source_bytes_read": 832444951,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634368",
+        "source_url": "https://sdilej.cz/34634368/chirurgove-cz-s01e05-gg-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230178",
+        "display_name": "Grey's Anatomy S01E05 Shake Your Groove Thing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:22:56.336978+00:00"
       }
     },
     "1198:1:6": {
@@ -794958,7 +794959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:22:49.884658+00:00",
+  "updated_at": "2026-11-21T14:22:56.336993+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
