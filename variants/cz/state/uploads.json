@@ -760572,12 +760572,6 @@
     },
     "1564:2:10": {
       "episode_key": "spravedlnost v krvi:s2:e10",
-      "claim": {
-        "worker_id": "091e4aa08e984fd48970ccc606ea00ab-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:57:00.016235+00:00",
-        "lease_expires_at": "2026-11-21T08:57:00.016254+00:00"
-      },
       "source": {
         "source_id": "32117283",
         "source_url": "https://sdilej.cz/32117283/spravedlnost-v-krvi-s02e10-cz.mp4",
@@ -760602,22 +760596,29 @@
         "display_name": "Blue Bloods S02E10 Whistle Blower 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:57:11.066200+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218601",
-        "size_bytes": 810671464
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218601",
-        "size_bytes": 810671464,
-        "source_bytes_read": 810671464,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218601",
         "source_bytes_read": 810671464,
         "elapsed_seconds": 33.665,
         "finished_at": "2026-11-21T02:58:13.880412+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218601",
+          "size_bytes": 810671464,
+          "source_bytes_read": 810671464,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117283",
+        "source_url": "https://sdilej.cz/32117283/spravedlnost-v-krvi-s02e10-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218601",
+        "display_name": "Blue Bloods S02E10 Whistle Blower 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:58:30.160191+00:00"
       }
     },
     "1564:2:11": {
@@ -760663,7 +760664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:58:25.202736+00:00",
+  "updated_at": "2026-11-21T02:58:30.160208+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
