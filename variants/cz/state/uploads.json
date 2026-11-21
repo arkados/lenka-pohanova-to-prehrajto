@@ -781943,12 +781943,6 @@
     },
     "772:1:5": {
       "episode_key": "cardinal:s1:e5",
-      "claim": {
-        "worker_id": "13233c5088d74e2d9695407f0f9931cb-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:06:05.274004+00:00",
-        "lease_expires_at": "2026-11-21T15:06:05.274021+00:00"
-      },
       "source": {
         "source_id": "31175694",
         "source_url": "https://sdilej.cz/31175694/cardinal-2017-s01e05-czdab-1080p-keith.mkv",
@@ -781973,22 +781967,29 @@
         "display_name": "Cardinal S01E05 Keith 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:06:18.202677+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224373",
-        "size_bytes": 1942097622
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224373",
-        "size_bytes": 1942097622,
-        "source_bytes_read": 1942097622,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224373",
         "source_bytes_read": 1942097622,
         "elapsed_seconds": 168.494,
         "finished_at": "2026-11-21T09:09:38.071219+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224373",
+          "size_bytes": 1942097622,
+          "source_bytes_read": 1942097622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31175694",
+        "source_url": "https://sdilej.cz/31175694/cardinal-2017-s01e05-czdab-1080p-keith.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224373",
+        "display_name": "Cardinal S01E05 Keith 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:09:53.141174+00:00"
       }
     },
     "772:1:6": {
@@ -782186,7 +782187,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:09:47.990970+00:00",
+  "updated_at": "2026-11-21T09:09:53.141196+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
