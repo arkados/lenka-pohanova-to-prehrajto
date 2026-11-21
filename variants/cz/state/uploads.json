@@ -766941,12 +766941,6 @@
     },
     "1564:8:2": {
       "episode_key": "spravedlnost v krvi:s8:e2",
-      "claim": {
-        "worker_id": "322238cc2587483499db1149f9b1a62b-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:47:54.536227+00:00",
-        "lease_expires_at": "2026-11-21T10:47:54.536239+00:00"
-      },
       "source": {
         "source_id": "34251742",
         "source_url": "https://sdilej.cz/34251742/blue-bloods-08x02-duchove-minulosti-cz.mkv",
@@ -766971,22 +766965,29 @@
         "display_name": "Blue Bloods S08E02 Ghosts of the Past 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:48:10.533959+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220311",
-        "size_bytes": 470086335
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220311",
-        "size_bytes": 470086335,
-        "source_bytes_read": 470086335,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220311",
         "source_bytes_read": 470086335,
         "elapsed_seconds": 26.31,
         "finished_at": "2026-11-21T04:49:05.868043+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220311",
+          "size_bytes": 470086335,
+          "source_bytes_read": 470086335,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251742",
+        "source_url": "https://sdilej.cz/34251742/blue-bloods-08x02-duchove-minulosti-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220311",
+        "display_name": "Blue Bloods S08E02 Ghosts of the Past 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:49:16.760285+00:00"
       }
     },
     "1564:8:3": {
@@ -767032,7 +767033,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:49:11.684600+00:00",
+  "updated_at": "2026-11-21T04:49:16.760300+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
