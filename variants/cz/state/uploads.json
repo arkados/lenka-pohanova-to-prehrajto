@@ -779352,12 +779352,6 @@
     },
     "2196:6:5": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s6:e5",
-      "claim": {
-        "worker_id": "d475c0aed41444f2b79fe471e33af4fb-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:06:58.634980+00:00",
-        "lease_expires_at": "2026-11-21T14:06:58.634991+00:00"
-      },
       "source": {
         "source_id": "33882685",
         "source_url": "https://sdilej.cz/33882685/rizzoli-isles-vrazdy-na-pitevne-s06e05-079-2015-fhd-prehmat-s-.mp4",
@@ -779382,22 +779376,29 @@
         "display_name": "Rizzoli & Isles S06E05 Misconduct 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:07:10.108753+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31223453",
-        "size_bytes": 865636076
-      },
-      "transfer_receipt": {
-        "target_video_id": "31223453",
-        "size_bytes": 865636076,
-        "source_bytes_read": 865636076,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31223453",
         "source_bytes_read": 865636076,
         "elapsed_seconds": 40.908,
         "finished_at": "2026-11-21T08:08:19.546123+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31223453",
+          "size_bytes": 865636076,
+          "source_bytes_read": 865636076,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882685",
+        "source_url": "https://sdilej.cz/33882685/rizzoli-isles-vrazdy-na-pitevne-s06e05-079-2015-fhd-prehmat-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31223453",
+        "display_name": "Rizzoli & Isles S06E05 Misconduct 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:08:32.155891+00:00"
       }
     }
   },
@@ -779406,7 +779407,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:08:26.284790+00:00",
+  "updated_at": "2026-11-21T08:08:32.156156+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
