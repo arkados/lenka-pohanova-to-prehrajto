@@ -774270,12 +774270,6 @@
     },
     "52:2:6": {
       "episode_key": "12 opic:s2:e6",
-      "claim": {
-        "worker_id": "002bdd674c054f1da3886f47cde0e974-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:41:30.573713+00:00",
-        "lease_expires_at": "2026-11-21T12:41:30.573728+00:00"
-      },
       "source": {
         "source_id": "33239608",
         "source_url": "https://sdilej.cz/33239608/12-opic-12-monkeys-s02e06-cz-dabing.mkv",
@@ -774299,7 +774293,17 @@
         },
         "display_name": "12 Monkeys S02E06 Immortal 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:41:46.033573+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239608:https://sdilej.cz/33239608/12-opic-12-monkeys-s02e06-cz-dabing.mkv",
+        "at": "2026-11-21T06:42:04.572535+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T06:42:04.572594+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:2:7": {
       "episode_key": "12 opic:s2:e7",
@@ -774349,7 +774353,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:41:59.421303+00:00",
+  "updated_at": "2026-11-21T06:42:04.572600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -774956,9 +774960,13 @@
         {
           "identity": "52:2:5",
           "at": "2026-11-21T06:41:40.567231+00:00"
+        },
+        {
+          "identity": "52:2:6",
+          "at": "2026-11-21T06:42:04.572535+00:00"
         }
       ],
-      "retry_after": "2026-11-21T06:39:40.276992+00:00"
+      "retry_after": "2026-11-21T06:52:04.572535+00:00"
     }
   }
 }
