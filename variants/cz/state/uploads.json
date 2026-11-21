@@ -770205,12 +770205,6 @@
     },
     "1564:11:5": {
       "episode_key": "spravedlnost v krvi:s11:e5",
-      "claim": {
-        "worker_id": "cfb514dafd064b1c86d06adaf4eee667-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:38:32.907645+00:00",
-        "lease_expires_at": "2026-11-21T11:38:32.907655+00:00"
-      },
       "source": {
         "source_id": "34252763",
         "source_url": "https://sdilej.cz/34252763/blue-bloods-11x05-vyzrazena-tajemstvi-hdtv-cz.mkv",
@@ -770235,22 +770229,29 @@
         "display_name": "Blue Bloods S11E05 Spilling Secrets 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:38:59.251829+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221105",
-        "size_bytes": 474311008
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221105",
-        "size_bytes": 474311008,
-        "source_bytes_read": 474311008,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221105",
         "source_bytes_read": 474311008,
         "elapsed_seconds": 29.839,
         "finished_at": "2026-11-21T05:39:55.553393+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221105",
+          "size_bytes": 474311008,
+          "source_bytes_read": 474311008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252763",
+        "source_url": "https://sdilej.cz/34252763/blue-bloods-11x05-vyzrazena-tajemstvi-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221105",
+        "display_name": "Blue Bloods S11E05 Spilling Secrets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:40:11.675442+00:00"
       }
     },
     "1564:11:6": {
@@ -770380,7 +770381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:40:06.817311+00:00",
+  "updated_at": "2026-11-21T05:40:11.675460+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
