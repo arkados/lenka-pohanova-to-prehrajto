@@ -782993,12 +782993,6 @@
     },
     "9693:1:13": {
       "episode_key": "myšák mickey:s1:e13",
-      "claim": {
-        "worker_id": "b481ef1b87dc40c2b4dbc66b75fbed63-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:28:04.708366+00:00",
-        "lease_expires_at": "2026-11-21T15:28:04.708384+00:00"
-      },
       "source": {
         "source_id": "26905182",
         "source_url": "https://sdilej.cz/26905182/mysak-mickey-1x13-bramborland.avi",
@@ -783023,22 +783017,29 @@
         "display_name": "Mickey Mouse S01E13 Potatoland SD CZ Dabing",
         "prepared_at": "2026-11-21T09:28:31.228131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224767",
-        "size_bytes": 86162942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224767",
-        "size_bytes": 86162942,
-        "source_bytes_read": 86162942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224767",
         "source_bytes_read": 86162942,
         "elapsed_seconds": 6.535,
         "finished_at": "2026-11-21T09:29:02.219384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224767",
+          "size_bytes": 86162942,
+          "source_bytes_read": 86162942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26905182",
+        "source_url": "https://sdilej.cz/26905182/mysak-mickey-1x13-bramborland.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224767",
+        "display_name": "Mickey Mouse S01E13 Potatoland SD CZ Dabing",
+        "uploaded_at": "2026-11-21T09:29:13.863734+00:00"
       }
     }
   },
@@ -783047,7 +783048,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:29:07.848260+00:00",
+  "updated_at": "2026-11-21T09:29:13.863778+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
