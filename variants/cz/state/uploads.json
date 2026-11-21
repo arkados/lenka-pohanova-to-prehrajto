@@ -767910,12 +767910,6 @@
     },
     "1564:8:21": {
       "episode_key": "spravedlnost v krvi:s8:e21",
-      "claim": {
-        "worker_id": "a3fd262af82346d686dd55d3497c6940-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:01:14.749907+00:00",
-        "lease_expires_at": "2026-11-21T11:01:14.749918+00:00"
-      },
       "source": {
         "source_id": "34252064",
         "source_url": "https://sdilej.cz/34252064/blue-bloods-08x21-zadni-vratka-cz.mkv",
@@ -767940,22 +767934,29 @@
         "display_name": "Blue Bloods S08E21 The Devil You Know 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:01:30.819785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220543",
-        "size_bytes": 468948838
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220543",
-        "size_bytes": 468948838,
-        "source_bytes_read": 468948838,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220543",
         "source_bytes_read": 468948838,
         "elapsed_seconds": 33.921,
         "finished_at": "2026-11-21T05:02:40.714516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220543",
+          "size_bytes": 468948838,
+          "source_bytes_read": 468948838,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252064",
+        "source_url": "https://sdilej.cz/34252064/blue-bloods-08x21-zadni-vratka-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220543",
+        "display_name": "Blue Bloods S08E21 The Devil You Know 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:02:51.293858+00:00"
       }
     },
     "1564:8:22": {
@@ -767973,7 +767974,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:02:45.349450+00:00",
+  "updated_at": "2026-11-21T05:02:51.293871+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
