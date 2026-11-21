@@ -754083,12 +754083,6 @@
     },
     "38:8:14": {
       "episode_key": "průměrňákovi:s8:e14",
-      "claim": {
-        "worker_id": "06341dd4f2d9470c8c389df8645a09fe-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:59:40.062195+00:00",
-        "lease_expires_at": "2026-11-21T06:59:40.062207+00:00"
-      },
       "source": {
         "source_id": "27654938",
         "source_url": "https://sdilej.cz/27654938/prumernakovi-s08e14-cz.mkv",
@@ -754113,22 +754107,29 @@
         "display_name": "The Middle S08E14 Sorry Not Sorry 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:59:50.178503+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216765",
-        "size_bytes": 958255462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216765",
-        "size_bytes": 958255462,
-        "source_bytes_read": 958255462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216765",
         "source_bytes_read": 958255462,
         "elapsed_seconds": 77.985,
         "finished_at": "2026-11-21T01:01:34.117516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216765",
+          "size_bytes": 958255462,
+          "source_bytes_read": 958255462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27654938",
+        "source_url": "https://sdilej.cz/27654938/prumernakovi-s08e14-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216765",
+        "display_name": "The Middle S08E14 Sorry Not Sorry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:01:48.735808+00:00"
       }
     },
     "38:8:15": {
@@ -754211,7 +754212,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:01:34.117537+00:00",
+  "updated_at": "2026-11-21T01:01:48.735823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
