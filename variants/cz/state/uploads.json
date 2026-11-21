@@ -804732,12 +804732,6 @@
     },
     "1198:9:20": {
       "episode_key": "chirurgové:s9:e20",
-      "claim": {
-        "worker_id": "978a1e1174ec4cb7bf5918b1ccf0c33e-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:09:43.767547+00:00",
-        "lease_expires_at": "2026-11-22T05:09:43.767561+00:00"
-      },
       "source": {
         "source_id": "27697480",
         "source_url": "https://sdilej.cz/27697480/chirurgove-s09e20-cz.mkv",
@@ -804762,22 +804756,29 @@
         "display_name": "Grey's Anatomy S09E20 She's Killing Me 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:10:09.961582+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238603",
-        "size_bytes": 1460515761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238603",
-        "size_bytes": 1460515761,
-        "source_bytes_read": 1460515761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238603",
         "source_bytes_read": 1460515761,
         "elapsed_seconds": 105.783,
         "finished_at": "2026-11-21T23:12:18.141914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238603",
+          "size_bytes": 1460515761,
+          "source_bytes_read": 1460515761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697480",
+        "source_url": "https://sdilej.cz/27697480/chirurgove-s09e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238603",
+        "display_name": "Grey's Anatomy S09E20 She's Killing Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:12:31.836840+00:00"
       }
     }
   },
@@ -804786,7 +804787,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:12:22.972289+00:00",
+  "updated_at": "2026-11-21T23:12:31.836859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
