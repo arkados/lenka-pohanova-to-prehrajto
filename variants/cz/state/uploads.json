@@ -803165,12 +803165,6 @@
     },
     "2004:7:2": {
       "episode_key": "znovu 20:s7:e2",
-      "claim": {
-        "worker_id": "4c55e6dad1e744f19b5707a3733b5132-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:48:54.537535+00:00",
-        "lease_expires_at": "2026-11-22T03:48:54.537550+00:00"
-      },
       "source": {
         "source_id": "30755036",
         "source_url": "https://sdilej.cz/30755036/znovu-20-znovu-20-s07e02.mkv",
@@ -803195,22 +803189,29 @@
         "display_name": "Younger S07E02 It's the End of the World, Worm Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:49:10.445264+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237163",
-        "size_bytes": 851660757
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237163",
-        "size_bytes": 851660757,
-        "source_bytes_read": 851660757,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237163",
         "source_bytes_read": 851660757,
         "elapsed_seconds": 64.2,
         "finished_at": "2026-11-21T21:50:47.559611+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237163",
+          "size_bytes": 851660757,
+          "source_bytes_read": 851660757,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755036",
+        "source_url": "https://sdilej.cz/30755036/znovu-20-znovu-20-s07e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237163",
+        "display_name": "Younger S07E02 It's the End of the World, Worm Girl 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:50:55.256702+00:00"
       }
     },
     "1198:9:12": {
@@ -803293,7 +803294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:50:47.559634+00:00",
+  "updated_at": "2026-11-21T21:50:55.256735+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
