@@ -759495,12 +759495,6 @@
     },
     "1564:1:11": {
       "episode_key": "spravedlnost v krvi:s1:e11",
-      "claim": {
-        "worker_id": "21dad068b6b44f7bb6e00c3b1224d31f-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:39:39.315042+00:00",
-        "lease_expires_at": "2026-11-21T08:39:39.315062+00:00"
-      },
       "source": {
         "source_id": "32117254",
         "source_url": "https://sdilej.cz/32117254/spravedlnost-v-krvi-s01e11-cz.mp4",
@@ -759525,22 +759519,29 @@
         "display_name": "Blue Bloods S01E11 Little Fish 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:39:45.449687+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218285",
-        "size_bytes": 870359519
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218285",
-        "size_bytes": 870359519,
-        "source_bytes_read": 870359519,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218285",
         "source_bytes_read": 870359519,
         "elapsed_seconds": 118.479,
         "finished_at": "2026-11-21T02:42:10.887555+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218285",
+          "size_bytes": 870359519,
+          "source_bytes_read": 870359519,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117254",
+        "source_url": "https://sdilej.cz/32117254/spravedlnost-v-krvi-s01e11-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218285",
+        "display_name": "Blue Bloods S01E11 Little Fish 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:42:23.033858+00:00"
       }
     },
     "1564:1:12": {
@@ -759585,7 +759586,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:42:16.557605+00:00",
+  "updated_at": "2026-11-21T02:42:23.033878+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
