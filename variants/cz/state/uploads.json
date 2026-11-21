@@ -781268,12 +781268,6 @@
     },
     "3080:1:2": {
       "episode_key": "piklírna:s1:e2",
-      "claim": {
-        "worker_id": "2f01326116a24efbbf1788a8748b903b-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T08:52:44.084788+00:00",
-        "lease_expires_at": "2026-11-21T14:52:44.084807+00:00"
-      },
       "source": {
         "source_id": "18581434",
         "source_url": "https://sdilej.cz/18581434/piklirna-inside.job.s01e02-1080p.webrip.cz.dabing.5.1.mkv",
@@ -781298,22 +781292,29 @@
         "display_name": "Inside Job S01E02 Clone Gunman 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:52:50.184520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224138",
-        "size_bytes": 1026218038
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224138",
-        "size_bytes": 1026218038,
-        "source_bytes_read": 1026218038,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224138",
         "source_bytes_read": 1026218038,
         "elapsed_seconds": 146.679,
         "finished_at": "2026-11-21T08:55:44.179956+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224138",
+          "size_bytes": 1026218038,
+          "source_bytes_read": 1026218038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18581434",
+        "source_url": "https://sdilej.cz/18581434/piklirna-inside.job.s01e02-1080p.webrip.cz.dabing.5.1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224138",
+        "display_name": "Inside Job S01E02 Clone Gunman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:55:57.318057+00:00"
       }
     },
     "3080:1:3": {
@@ -781410,7 +781411,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:55:52.303778+00:00",
+  "updated_at": "2026-11-21T08:55:57.318083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
