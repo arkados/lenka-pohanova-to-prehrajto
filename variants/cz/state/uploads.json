@@ -753828,12 +753828,6 @@
     },
     "38:8:9": {
       "episode_key": "průměrňákovi:s8:e9",
-      "claim": {
-        "worker_id": "b68524f0a55f4dc5937716e27fe51001-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:55:18.069640+00:00",
-        "lease_expires_at": "2026-11-21T06:55:18.069652+00:00"
-      },
       "source": {
         "source_id": "27605198",
         "source_url": "https://sdilej.cz/27605198/prumernakovi-s08e09-cz.mkv",
@@ -753858,22 +753852,29 @@
         "display_name": "The Middle S08E09 A Very Marry Christmas 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:55:23.921561+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216682",
-        "size_bytes": 945924785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216682",
-        "size_bytes": 945924785,
-        "source_bytes_read": 945924785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216682",
         "source_bytes_read": 945924785,
         "elapsed_seconds": 75.584,
         "finished_at": "2026-11-21T00:57:10.548163+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216682",
+          "size_bytes": 945924785,
+          "source_bytes_read": 945924785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27605198",
+        "source_url": "https://sdilej.cz/27605198/prumernakovi-s08e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216682",
+        "display_name": "The Middle S08E09 A Very Marry Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T00:57:18.165660+00:00"
       }
     },
     "38:8:10": {
@@ -753956,7 +753957,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T00:57:10.548183+00:00",
+  "updated_at": "2026-11-21T00:57:18.165676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
