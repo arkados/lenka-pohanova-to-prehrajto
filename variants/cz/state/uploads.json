@@ -747363,28 +747363,29 @@
           "at": "2026-11-21T01:50:39.853461+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f8307995fc3d40c4be47232f9b362852-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:50:45.591168+00:00",
-        "lease_expires_at": "2026-11-21T07:50:45.591186+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31217566",
-        "size_bytes": 647249366
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217566",
-        "size_bytes": 647249366,
-        "source_bytes_read": 647249366,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217566",
         "source_bytes_read": 647249366,
         "elapsed_seconds": 35.5,
         "finished_at": "2026-11-21T01:52:04.751417+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217566",
+          "size_bytes": 647249366,
+          "source_bytes_read": 647249366,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28305100",
+        "source_url": "https://sdilej.cz/28305100/cas-carodejnic-s03e07-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217566",
+        "display_name": "A Discovery of Witches S03E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:52:17.464371+00:00"
       }
     },
     "38:2:6": {
@@ -756522,7 +756523,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:52:12.299405+00:00",
+  "updated_at": "2026-11-21T01:52:17.464390+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
