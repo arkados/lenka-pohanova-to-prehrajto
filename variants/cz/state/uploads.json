@@ -591314,13 +591314,9 @@
       },
       "source_repair_requested": {
         "base": "35339661:https://sdilej.cz/35339661/9-1-1-s03e05-cz-dabing.mkv",
-        "at": "2026-11-21T19:19:21.963359+00:00"
+        "at": "2026-11-21T20:19:44.195491+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-21T18:05:05.318261+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-21T19:19:21.963399+00:00",
           "error": "SourceUnavailable"
@@ -591328,14 +591324,12 @@
         {
           "at": "2026-11-21T19:53:31.651620+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-21T20:19:44.195543+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "1954ffb0989b4fc4afccb4fd0df744b2-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:19:10.223687+00:00",
-        "lease_expires_at": "2026-11-22T02:19:10.223706+00:00"
-      }
+      ]
     },
     "1765:3:6": {
       "episode_key": "záchranáři l. a.:s3:e6",
@@ -801593,7 +801587,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:19:38.961573+00:00",
+  "updated_at": "2026-11-21T20:19:44.195552+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -802021,6 +802015,10 @@
         {
           "identity": "1765:3:1",
           "at": "2026-11-21T20:18:21.269355+00:00"
+        },
+        {
+          "identity": "1765:3:5",
+          "at": "2026-11-21T20:19:44.195491+00:00"
         }
       ],
       "retry_after": "2026-11-21T20:17:23.485186+00:00"
