@@ -799442,12 +799442,6 @@
     },
     "1198:7:16": {
       "episode_key": "chirurgové:s7:e16",
-      "claim": {
-        "worker_id": "feb51d49ecea485bb873fdb446f2d49b-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:14:17.508317+00:00",
-        "lease_expires_at": "2026-11-21T22:14:17.508331+00:00"
-      },
       "source": {
         "source_id": "34967297",
         "source_url": "https://sdilej.cz/34967297/chirurgove-cz-s07e16-gg-..mp4",
@@ -799472,22 +799466,29 @@
         "display_name": "Grey's Anatomy S07E16 Not Responsible 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:14:23.534933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232060",
-        "size_bytes": 820452909
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232060",
-        "size_bytes": 820452909,
-        "source_bytes_read": 820452909,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232060",
         "source_bytes_read": 820452909,
         "elapsed_seconds": 55.698,
         "finished_at": "2026-11-21T16:15:48.199229+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232060",
+          "size_bytes": 820452909,
+          "source_bytes_read": 820452909,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967297",
+        "source_url": "https://sdilej.cz/34967297/chirurgove-cz-s07e16-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232060",
+        "display_name": "Grey's Anatomy S07E16 Not Responsible 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:16:03.406310+00:00"
       }
     },
     "1198:7:17": {
@@ -799566,7 +799567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:15:57.373348+00:00",
+  "updated_at": "2026-11-21T16:16:03.406324+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
