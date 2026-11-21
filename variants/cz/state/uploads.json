@@ -786210,12 +786210,6 @@
     },
     "52:4:2": {
       "episode_key": "12 opic:s4:e2",
-      "claim": {
-        "worker_id": "f39554a78d624b0b8bf2641ac87444e3-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:26:24.645030+00:00",
-        "lease_expires_at": "2026-11-21T16:26:24.645048+00:00"
-      },
       "source": {
         "source_id": "28114928",
         "source_url": "https://sdilej.cz/28114928/12-opic-s04e02.cz.webrip.1080p.hevc.c4u.mkv",
@@ -786240,22 +786234,29 @@
         "display_name": "12 Monkeys S04E02 Ouroboros 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:26:41.324711+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226035",
-        "size_bytes": 575785076
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226035",
-        "size_bytes": 575785076,
-        "source_bytes_read": 575785076,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226035",
         "source_bytes_read": 575785076,
         "elapsed_seconds": 72.259,
         "finished_at": "2026-11-21T10:28:30.890662+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226035",
+          "size_bytes": 575785076,
+          "source_bytes_read": 575785076,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28114928",
+        "source_url": "https://sdilej.cz/28114928/12-opic-s04e02.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226035",
+        "display_name": "12 Monkeys S04E02 Ouroboros 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:28:48.822159+00:00"
       }
     },
     "52:4:3": {
@@ -786352,7 +786353,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:28:41.346001+00:00",
+  "updated_at": "2026-11-21T10:28:48.822176+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
