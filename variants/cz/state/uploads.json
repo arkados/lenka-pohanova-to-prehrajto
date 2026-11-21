@@ -803047,12 +803047,6 @@
     },
     "1198:9:10": {
       "episode_key": "chirurgové:s9:e10",
-      "claim": {
-        "worker_id": "06be2e8c3d77455783ae96447358b842-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:44:59.956183+00:00",
-        "lease_expires_at": "2026-11-22T03:44:59.956199+00:00"
-      },
       "source": {
         "source_id": "27697155",
         "source_url": "https://sdilej.cz/27697155/chirurgove-s09e10-cz.mkv",
@@ -803077,22 +803071,29 @@
         "display_name": "Grey's Anatomy S09E10 Things We Said Today 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:45:14.226271+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237108",
-        "size_bytes": 1463838492
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237108",
-        "size_bytes": 1463838492,
-        "source_bytes_read": 1463838492,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237108",
         "source_bytes_read": 1463838492,
         "elapsed_seconds": 91.997,
         "finished_at": "2026-11-21T21:47:21.743613+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237108",
+          "size_bytes": 1463838492,
+          "source_bytes_read": 1463838492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697155",
+        "source_url": "https://sdilej.cz/27697155/chirurgove-s09e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237108",
+        "display_name": "Grey's Anatomy S09E10 Things We Said Today 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:47:42.640587+00:00"
       }
     },
     "1198:9:11": {
@@ -803138,7 +803139,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:47:37.381507+00:00",
+  "updated_at": "2026-11-21T21:47:42.640604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
