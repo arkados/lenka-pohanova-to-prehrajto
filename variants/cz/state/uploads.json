@@ -769695,12 +769695,6 @@
     },
     "1564:10:14": {
       "episode_key": "spravedlnost v krvi:s10:e14",
-      "claim": {
-        "worker_id": "d48be506161d47d1a4747b8c12bb5ba4-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:30:03.876789+00:00",
-        "lease_expires_at": "2026-11-21T11:30:03.876799+00:00"
-      },
       "source": {
         "source_id": "34252722",
         "source_url": "https://sdilej.cz/34252722/blue-bloods-10x14-strelba-do-vlastnich-rad-hdtv-cz.mkv",
@@ -769725,22 +769719,29 @@
         "display_name": "Blue Bloods S10E14 Fog of War 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:30:09.944396+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220954",
-        "size_bytes": 569756829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220954",
-        "size_bytes": 569756829,
-        "source_bytes_read": 569756829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220954",
         "source_bytes_read": 569756829,
         "elapsed_seconds": 33.61,
         "finished_at": "2026-11-21T05:31:13.820954+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220954",
+          "size_bytes": 569756829,
+          "source_bytes_read": 569756829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252722",
+        "source_url": "https://sdilej.cz/34252722/blue-bloods-10x14-strelba-do-vlastnich-rad-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220954",
+        "display_name": "Blue Bloods S10E14 Fog of War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:31:34.507783+00:00"
       }
     },
     "1564:10:15": {
@@ -769819,7 +769820,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:31:29.392401+00:00",
+  "updated_at": "2026-11-21T05:31:34.507796+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
