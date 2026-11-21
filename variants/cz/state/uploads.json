@@ -791972,12 +791972,6 @@
     },
     "1536:1:9": {
       "episode_key": "policejní bažanti:s1:e9",
-      "claim": {
-        "worker_id": "41486094ce28401d84229f55b24b2495-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:12:10.151681+00:00",
-        "lease_expires_at": "2026-11-21T19:12:10.151698+00:00"
-      },
       "source": {
         "source_id": "27992411",
         "source_url": "https://sdilej.cz/27992411/policejni-bazanti-s01e09-holka-roku.mkv",
@@ -792002,22 +791996,29 @@
         "display_name": "Rookie Blue S01E09 Girlfriend of the Year 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:12:15.476801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229015",
-        "size_bytes": 882637885
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229015",
-        "size_bytes": 882637885,
-        "source_bytes_read": 882637885,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229015",
         "source_bytes_read": 882637885,
         "elapsed_seconds": 62.044,
         "finished_at": "2026-11-21T13:13:39.728352+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229015",
+          "size_bytes": 882637885,
+          "source_bytes_read": 882637885,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27992411",
+        "source_url": "https://sdilej.cz/27992411/policejni-bazanti-s01e09-holka-roku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229015",
+        "display_name": "Rookie Blue S01E09 Girlfriend of the Year 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:13:50.772114+00:00"
       }
     }
   },
@@ -792026,7 +792027,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:13:45.591080+00:00",
+  "updated_at": "2026-11-21T13:13:50.772129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
