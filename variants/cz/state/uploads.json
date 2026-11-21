@@ -803420,12 +803420,6 @@
     },
     "1198:9:16": {
       "episode_key": "chirurgové:s9:e16",
-      "claim": {
-        "worker_id": "def56b9de4a041e9a2b085d9e4f6a35d-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:53:13.878726+00:00",
-        "lease_expires_at": "2026-11-22T03:53:13.878743+00:00"
-      },
       "source": {
         "source_id": "27697324",
         "source_url": "https://sdilej.cz/27697324/chirurgove-s09e16-cz.mkv",
@@ -803466,7 +803460,13 @@
         "elapsed_seconds": 119.104,
         "finished_at": "2026-11-21T21:55:52.529792+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T21:57:26.768528+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1198:9:17": {
       "episode_key": "chirurgové:s9:e17",
@@ -803524,7 +803524,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:57:13.744370+00:00",
+  "updated_at": "2026-11-21T21:57:26.768546+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
