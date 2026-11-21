@@ -789576,12 +789576,6 @@
     },
     "449:1:10": {
       "episode_key": "lucky louie:s1:e10",
-      "claim": {
-        "worker_id": "1d49aa26458b4112a55d671de16502bf-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:02:51.858195+00:00",
-        "lease_expires_at": "2026-11-21T18:02:51.858215+00:00"
-      },
       "source": {
         "source_id": "34396102",
         "source_url": "https://sdilej.cz/34396102/lucky-louie-s01e10.mp4",
@@ -789606,22 +789600,29 @@
         "display_name": "Lucky Louie S01E10 Confession 720p CZ Dabing",
         "prepared_at": "2026-11-21T12:02:57.501845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227845",
-        "size_bytes": 282828906
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227845",
-        "size_bytes": 282828906,
-        "source_bytes_read": 282828906,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227845",
         "source_bytes_read": 282828906,
         "elapsed_seconds": 13.527,
         "finished_at": "2026-11-21T12:03:30.792772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227845",
+          "size_bytes": 282828906,
+          "source_bytes_read": 282828906,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34396102",
+        "source_url": "https://sdilej.cz/34396102/lucky-louie-s01e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227845",
+        "display_name": "Lucky Louie S01E10 Confession 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T12:03:37.785067+00:00"
       }
     }
   },
@@ -789630,7 +789631,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:03:30.792793+00:00",
+  "updated_at": "2026-11-21T12:03:37.785084+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
