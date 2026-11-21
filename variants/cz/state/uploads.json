@@ -794250,12 +794250,6 @@
     },
     "1536:6:3": {
       "episode_key": "policejní bažanti:s6:e3",
-      "claim": {
-        "worker_id": "983895c27f034b91a0eee95a66cfeeaf-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:01:42.461704+00:00",
-        "lease_expires_at": "2026-11-21T20:01:42.461719+00:00"
-      },
       "source": {
         "source_id": "27429109",
         "source_url": "https://sdilej.cz/27429109/policejni-bazanti-s06e03-vzpoura.avi",
@@ -794280,22 +794274,29 @@
         "display_name": "Rookie Blue S06E03 Uprising SD CZ Dabing",
         "prepared_at": "2026-11-21T14:01:52.837493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229884",
-        "size_bytes": 623912736
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229884",
-        "size_bytes": 623912736,
-        "source_bytes_read": 623912736,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229884",
         "source_bytes_read": 623912736,
         "elapsed_seconds": 48.373,
         "finished_at": "2026-11-21T14:03:05.363278+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229884",
+          "size_bytes": 623912736,
+          "source_bytes_read": 623912736,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27429109",
+        "source_url": "https://sdilej.cz/27429109/policejni-bazanti-s06e03-vzpoura.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229884",
+        "display_name": "Rookie Blue S06E03 Uprising SD CZ Dabing",
+        "uploaded_at": "2026-11-21T14:03:16.569621+00:00"
       }
     }
   },
@@ -794304,7 +794305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:03:11.565235+00:00",
+  "updated_at": "2026-11-21T14:03:16.569636+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
