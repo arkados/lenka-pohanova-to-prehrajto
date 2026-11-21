@@ -770511,12 +770511,6 @@
     },
     "1564:11:11": {
       "episode_key": "spravedlnost v krvi:s11:e11",
-      "claim": {
-        "worker_id": "04b8d531dbc949b389ad4f4341996812-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:41:59.507872+00:00",
-        "lease_expires_at": "2026-11-21T11:41:59.507892+00:00"
-      },
       "source": {
         "source_id": "34252791",
         "source_url": "https://sdilej.cz/34252791/blue-bloods-11x11-strazni-andele-hdtv-cz.mkv",
@@ -770541,22 +770535,29 @@
         "display_name": "Blue Bloods S11E11 Guardian Angels 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:42:06.292387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221167",
-        "size_bytes": 478314499
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221167",
-        "size_bytes": 478314499,
-        "source_bytes_read": 478314499,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221167",
         "source_bytes_read": 478314499,
         "elapsed_seconds": 34.834,
         "finished_at": "2026-11-21T05:43:13.148315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221167",
+          "size_bytes": 478314499,
+          "source_bytes_read": 478314499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252791",
+        "source_url": "https://sdilej.cz/34252791/blue-bloods-11x11-strazni-andele-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221167",
+        "display_name": "Blue Bloods S11E11 Guardian Angels 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:43:25.046728+00:00"
       }
     },
     "1564:11:12": {
@@ -770639,7 +770640,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:43:18.235793+00:00",
+  "updated_at": "2026-11-21T05:43:25.046743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
