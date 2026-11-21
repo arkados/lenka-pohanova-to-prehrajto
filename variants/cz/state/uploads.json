@@ -791268,12 +791268,6 @@
     },
     "3114:1:10": {
       "episode_key": "šéfkuchař nadivoko:s1:e10",
-      "claim": {
-        "worker_id": "519c7d2efd004701996f693f47cb0fb7-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:50:33.304008+00:00",
-        "lease_expires_at": "2026-11-21T18:50:33.304018+00:00"
-      },
       "source": {
         "source_id": "33424383",
         "source_url": "https://sdilej.cz/33424383/sefkuchar-nadivoko-s01e10-2005-cz-en-komedy-serial.mkv",
@@ -791298,22 +791292,29 @@
         "display_name": "Kitchen Confidential S01E10 Praise Be Praise SD CZ Dabing",
         "prepared_at": "2026-11-21T12:50:43.417730+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228646",
-        "size_bytes": 273782399
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228646",
-        "size_bytes": 273782399,
-        "source_bytes_read": 273782399,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228646",
         "source_bytes_read": 273782399,
         "elapsed_seconds": 14.618,
         "finished_at": "2026-11-21T12:51:24.991285+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228646",
+          "size_bytes": 273782399,
+          "source_bytes_read": 273782399,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33424383",
+        "source_url": "https://sdilej.cz/33424383/sefkuchar-nadivoko-s01e10-2005-cz-en-komedy-serial.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228646",
+        "display_name": "Kitchen Confidential S01E10 Praise Be Praise SD CZ Dabing",
+        "uploaded_at": "2026-11-21T12:51:32.179873+00:00"
       }
     }
   },
@@ -791322,7 +791323,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:51:24.991301+00:00",
+  "updated_at": "2026-11-21T12:51:32.179888+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
