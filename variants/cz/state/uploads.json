@@ -765615,12 +765615,6 @@
     },
     "1564:6:20": {
       "episode_key": "spravedlnost v krvi:s6:e20",
-      "claim": {
-        "worker_id": "a6ab4f39ffcb4857be55309bc295b114-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:29:14.938343+00:00",
-        "lease_expires_at": "2026-11-21T10:29:14.938363+00:00"
-      },
       "source": {
         "source_id": "32121417",
         "source_url": "https://sdilej.cz/32121417/spravedlnost-v-krvi-s06e20-cz.mp4",
@@ -765645,22 +765639,29 @@
         "display_name": "Blue Bloods S06E20 Down the Rabbit Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:29:27.210432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220006",
-        "size_bytes": 829960874
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220006",
-        "size_bytes": 829960874,
-        "source_bytes_read": 829960874,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220006",
         "source_bytes_read": 829960874,
         "elapsed_seconds": 59.815,
         "finished_at": "2026-11-21T04:30:55.499797+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220006",
+          "size_bytes": 829960874,
+          "source_bytes_read": 829960874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121417",
+        "source_url": "https://sdilej.cz/32121417/spravedlnost-v-krvi-s06e20-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220006",
+        "display_name": "Blue Bloods S06E20 Down the Rabbit Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:31:03.632317+00:00"
       }
     },
     "1564:6:21": {
@@ -765743,7 +765744,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:30:55.499818+00:00",
+  "updated_at": "2026-11-21T04:31:03.632336+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
