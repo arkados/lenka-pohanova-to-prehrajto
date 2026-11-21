@@ -772614,12 +772614,6 @@
     },
     "1564:14:7": {
       "episode_key": "spravedlnost v krvi:s14:e7",
-      "claim": {
-        "worker_id": "6308c4efff4b4fc1bc3434260d998d9e-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:13:16.093085+00:00",
-        "lease_expires_at": "2026-11-21T12:13:16.093097+00:00"
-      },
       "source": {
         "source_id": "34253216",
         "source_url": "https://sdilej.cz/34253216/blue-bloods-14x07-na-lopatkach.mkv",
@@ -772644,22 +772638,29 @@
         "display_name": "Blue Bloods S14E07 On the Ropes 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:13:21.843507+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221628",
-        "size_bytes": 994617000
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221628",
-        "size_bytes": 994617000,
-        "source_bytes_read": 994617000,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221628",
         "source_bytes_read": 994617000,
         "elapsed_seconds": 115.703,
         "finished_at": "2026-11-21T06:15:40.526678+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221628",
+          "size_bytes": 994617000,
+          "source_bytes_read": 994617000,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34253216",
+        "source_url": "https://sdilej.cz/34253216/blue-bloods-14x07-na-lopatkach.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221628",
+        "display_name": "Blue Bloods S14E07 On the Ropes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:15:55.317955+00:00"
       }
     },
     "1564:14:18": {
@@ -772719,7 +772720,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:15:50.664803+00:00",
+  "updated_at": "2026-11-21T06:15:55.317969+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
