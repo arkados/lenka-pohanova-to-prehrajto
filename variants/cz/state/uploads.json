@@ -754746,12 +754746,6 @@
     },
     "38:9:4": {
       "episode_key": "průměrňákovi:s9:e4",
-      "claim": {
-        "worker_id": "63076f24ac17418e93f11b145d042ec3-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T01:17:18.790389+00:00",
-        "lease_expires_at": "2026-11-21T07:17:18.790419+00:00"
-      },
       "source": {
         "source_id": "27605844",
         "source_url": "https://sdilej.cz/27605844/prumernakovi-s09e04-cz.mkv",
@@ -754776,22 +754770,29 @@
         "display_name": "The Middle S09E04 Halloween VIII: Orson Murder Mystery 1080p CZ Dabing",
         "prepared_at": "2026-11-21T01:17:44.463723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217020",
-        "size_bytes": 958049096
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217020",
-        "size_bytes": 958049096,
-        "source_bytes_read": 958049096,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217020",
         "source_bytes_read": 958049096,
         "elapsed_seconds": 61.474,
         "finished_at": "2026-11-21T01:19:14.151385+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217020",
+          "size_bytes": 958049096,
+          "source_bytes_read": 958049096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27605844",
+        "source_url": "https://sdilej.cz/27605844/prumernakovi-s09e04-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217020",
+        "display_name": "The Middle S09E04 Halloween VIII: Orson Murder Mystery 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:19:22.081606+00:00"
       }
     }
   },
@@ -754800,7 +754801,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:19:14.151426+00:00",
+  "updated_at": "2026-11-21T01:19:22.081619+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
