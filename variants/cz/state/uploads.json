@@ -802951,12 +802951,6 @@
     },
     "1198:9:8": {
       "episode_key": "chirurgové:s9:e8",
-      "claim": {
-        "worker_id": "e6552183851d4b6c8b5edd7c1469fc9c-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:41:49.113438+00:00",
-        "lease_expires_at": "2026-11-22T03:41:49.113456+00:00"
-      },
       "source": {
         "source_id": "27697089",
         "source_url": "https://sdilej.cz/27697089/chirurgove-s09e08-cz.mkv",
@@ -802981,22 +802975,29 @@
         "display_name": "Grey's Anatomy S09E08 Love Turns You Upside Down 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:41:55.422260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237059",
-        "size_bytes": 1463154761
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237059",
-        "size_bytes": 1463154761,
-        "source_bytes_read": 1463154761,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237059",
         "source_bytes_read": 1463154761,
         "elapsed_seconds": 120.784,
         "finished_at": "2026-11-21T21:44:21.181583+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237059",
+          "size_bytes": 1463154761,
+          "source_bytes_read": 1463154761,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697089",
+        "source_url": "https://sdilej.cz/27697089/chirurgove-s09e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237059",
+        "display_name": "Grey's Anatomy S09E08 Love Turns You Upside Down 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:44:40.154874+00:00"
       }
     }
   },
@@ -803005,7 +803006,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:44:34.105731+00:00",
+  "updated_at": "2026-11-21T21:44:40.154894+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
