@@ -759954,12 +759954,6 @@
     },
     "1564:1:20": {
       "episode_key": "spravedlnost v krvi:s1:e20",
-      "claim": {
-        "worker_id": "3b2cff5b0b3e4aa99b349c1131cf18d2-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:47:53.627736+00:00",
-        "lease_expires_at": "2026-11-21T08:47:53.627754+00:00"
-      },
       "source": {
         "source_id": "32117265",
         "source_url": "https://sdilej.cz/32117265/spravedlnost-v-krvi-s01e20-cz.mp4",
@@ -759984,22 +759978,29 @@
         "display_name": "Blue Bloods S01E20 All That Glitters 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:48:08.496367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218431",
-        "size_bytes": 891523379
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218431",
-        "size_bytes": 891523379,
-        "source_bytes_read": 891523379,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218431",
         "source_bytes_read": 891523379,
         "elapsed_seconds": 43.534,
         "finished_at": "2026-11-21T02:49:19.453526+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218431",
+          "size_bytes": 891523379,
+          "source_bytes_read": 891523379,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117265",
+        "source_url": "https://sdilej.cz/32117265/spravedlnost-v-krvi-s01e20-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218431",
+        "display_name": "Blue Bloods S01E20 All That Glitters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:49:28.935189+00:00"
       }
     },
     "1564:1:21": {
@@ -760082,7 +760083,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:49:19.453548+00:00",
+  "updated_at": "2026-11-21T02:49:28.935209+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
