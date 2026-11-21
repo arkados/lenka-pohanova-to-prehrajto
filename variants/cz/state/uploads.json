@@ -789502,12 +789502,6 @@
     },
     "449:1:8": {
       "episode_key": "lucky louie:s1:e8",
-      "claim": {
-        "worker_id": "98f5bff1f7a5425d92cb6c26a0fdfbb9-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T11:59:59.498111+00:00",
-        "lease_expires_at": "2026-11-21T17:59:59.498125+00:00"
-      },
       "source": {
         "source_id": "20484995",
         "source_url": "https://sdilej.cz/20484995/lucky-louie-s01e08-vypadni-1080p-webrip-cz-dabing.mkv",
@@ -789532,22 +789526,29 @@
         "display_name": "Lucky Louie S01E08 Get Out 1080p CZ Dabing",
         "prepared_at": "2026-11-21T12:00:10.662089+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227800",
-        "size_bytes": 2289618926
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227800",
-        "size_bytes": 2289618926,
-        "source_bytes_read": 2289618926,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227800",
         "source_bytes_read": 2289618926,
         "elapsed_seconds": 270.262,
         "finished_at": "2026-11-21T12:05:12.891234+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227800",
+          "size_bytes": 2289618926,
+          "source_bytes_read": 2289618926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20484995",
+        "source_url": "https://sdilej.cz/20484995/lucky-louie-s01e08-vypadni-1080p-webrip-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227800",
+        "display_name": "Lucky Louie S01E08 Get Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T12:05:19.392730+00:00"
       }
     },
     "449:1:9": {
@@ -789746,7 +789747,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:05:12.891256+00:00",
+  "updated_at": "2026-11-21T12:05:19.392746+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
