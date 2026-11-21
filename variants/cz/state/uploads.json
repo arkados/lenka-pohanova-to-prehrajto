@@ -798895,12 +798895,6 @@
     },
     "1198:7:5": {
       "episode_key": "chirurgové:s7:e5",
-      "claim": {
-        "worker_id": "8688cc68385043c2918e1c354f1003b7-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:00:34.352789+00:00",
-        "lease_expires_at": "2026-11-21T22:00:34.352802+00:00"
-      },
       "source": {
         "source_id": "34967275",
         "source_url": "https://sdilej.cz/34967275/chirurgove-cz-s07e05-gg-..mp4",
@@ -798925,22 +798919,29 @@
         "display_name": "Grey's Anatomy S07E05 Almost Grown 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:00:40.379978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231840",
-        "size_bytes": 828786350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231840",
-        "size_bytes": 828786350,
-        "source_bytes_read": 828786350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231840",
         "source_bytes_read": 828786350,
         "elapsed_seconds": 51.827,
         "finished_at": "2026-11-21T16:01:58.536934+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231840",
+          "size_bytes": 828786350,
+          "source_bytes_read": 828786350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967275",
+        "source_url": "https://sdilej.cz/34967275/chirurgove-cz-s07e05-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231840",
+        "display_name": "Grey's Anatomy S07E05 Almost Grown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:02:13.708127+00:00"
       }
     },
     "1198:7:6": {
@@ -799019,7 +799020,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:02:08.906397+00:00",
+  "updated_at": "2026-11-21T16:02:13.708141+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
