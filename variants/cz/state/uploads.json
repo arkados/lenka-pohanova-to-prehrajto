@@ -789045,12 +789045,6 @@
     },
     "449:1:1": {
       "episode_key": "lucky louie:s1:e1",
-      "claim": {
-        "worker_id": "0f7e0b00f3384530b83460d0aa50a057-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:46:36.863706+00:00",
-        "lease_expires_at": "2026-11-21T17:46:36.863722+00:00"
-      },
       "source": {
         "source_id": "20525084",
         "source_url": "https://sdilej.cz/20525084/lucky-louie-s01e01-cz-dabing-hd-1080p.mp4",
@@ -789075,22 +789069,29 @@
         "display_name": "Lucky Louie S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:46:53.154791+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227573",
-        "size_bytes": 1176876103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227573",
-        "size_bytes": 1176876103,
-        "source_bytes_read": 1176876103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227573",
         "source_bytes_read": 1176876103,
         "elapsed_seconds": 77.33,
         "finished_at": "2026-11-21T11:48:42.290700+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227573",
+          "size_bytes": 1176876103,
+          "source_bytes_read": 1176876103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20525084",
+        "source_url": "https://sdilej.cz/20525084/lucky-louie-s01e01-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227573",
+        "display_name": "Lucky Louie S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:48:56.475097+00:00"
       }
     },
     "449:1:2": {
@@ -789150,7 +789151,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:48:48.604579+00:00",
+  "updated_at": "2026-11-21T11:48:56.475116+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
