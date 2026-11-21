@@ -792981,12 +792981,6 @@
     },
     "1536:3:4": {
       "episode_key": "policejní bažanti:s3:e4",
-      "claim": {
-        "worker_id": "14091913d2f14fe391eec0b85734c49d-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:37:47.593287+00:00",
-        "lease_expires_at": "2026-11-21T19:37:47.593300+00:00"
-      },
       "source": {
         "source_id": "27428944",
         "source_url": "https://sdilej.cz/27428944/policejni-bazanti-s03e04-cz.avi",
@@ -793011,22 +793005,29 @@
         "display_name": "Rookie Blue S03E04 Girls' Night Out SD CZ Dabing",
         "prepared_at": "2026-11-21T13:38:08.735913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229466",
-        "size_bytes": 367777792
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229466",
-        "size_bytes": 367777792,
-        "source_bytes_read": 367777792,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229466",
         "source_bytes_read": 367777792,
         "elapsed_seconds": 22.505,
         "finished_at": "2026-11-21T13:38:57.118560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229466",
+          "size_bytes": 367777792,
+          "source_bytes_read": 367777792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27428944",
+        "source_url": "https://sdilej.cz/27428944/policejni-bazanti-s03e04-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229466",
+        "display_name": "Rookie Blue S03E04 Girls' Night Out SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:39:10.157843+00:00"
       }
     }
   },
@@ -793035,7 +793036,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:39:04.224804+00:00",
+  "updated_at": "2026-11-21T13:39:10.157857+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
