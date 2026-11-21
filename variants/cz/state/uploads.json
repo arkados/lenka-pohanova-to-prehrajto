@@ -787992,12 +787992,6 @@
     },
     "2679:1:12": {
       "episode_key": "velká láska:s1:e12",
-      "claim": {
-        "worker_id": "ab65c54ad6e2423ab035142fe312af19-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:13:07.943523+00:00",
-        "lease_expires_at": "2026-11-21T17:13:07.943538+00:00"
-      },
       "source": {
         "source_id": "34786181",
         "source_url": "https://sdilej.cz/34786181/velka-laska-s01e12-12-2006-cz-dab-1080p-slavnost.mkv",
@@ -788022,22 +788016,29 @@
         "display_name": "Big Love S01E12 The Ceremony 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:13:13.722637+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226909",
-        "size_bytes": 2278178449
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226909",
-        "size_bytes": 2278178449,
-        "source_bytes_read": 2278178449,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226909",
         "source_bytes_read": 2278178449,
         "elapsed_seconds": 148.563,
         "finished_at": "2026-11-21T11:16:04.763315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226909",
+          "size_bytes": 2278178449,
+          "source_bytes_read": 2278178449,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786181",
+        "source_url": "https://sdilej.cz/34786181/velka-laska-s01e12-12-2006-cz-dab-1080p-slavnost.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226909",
+        "display_name": "Big Love S01E12 The Ceremony 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:16:14.615132+00:00"
       }
     }
   },
@@ -788046,7 +788047,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:16:04.763335+00:00",
+  "updated_at": "2026-11-21T11:16:14.615190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
