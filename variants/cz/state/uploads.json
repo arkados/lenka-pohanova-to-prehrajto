@@ -789147,12 +789147,6 @@
     },
     "2004:4:12": {
       "episode_key": "znovu 20:s4:e12",
-      "claim": {
-        "worker_id": "ad19ab21cf084923836411a46baeded0-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:49:14.024821+00:00",
-        "lease_expires_at": "2026-11-21T17:49:14.024836+00:00"
-      },
       "source": {
         "source_id": "33919657",
         "source_url": "https://sdilej.cz/33919657/znovu-20-s04e12-cz-dabing-1080p-full-hd.mkv",
@@ -789176,7 +789170,17 @@
         },
         "display_name": "Younger S04E12 Irish Goodbye 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:49:29.785684+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33919657:https://sdilej.cz/33919657/znovu-20-s04e12-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T11:49:58.452766+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T11:49:58.452958+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:5:1": {
       "episode_key": "znovu 20:s5:e1",
@@ -789230,7 +789234,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:49:53.008325+00:00",
+  "updated_at": "2026-11-21T11:49:58.452973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -789848,19 +789852,19 @@
     "2004": {
       "recent_failures": [
         {
-          "identity": "2004:4:1",
-          "at": "2026-11-21T11:48:36.902187+00:00"
-        },
-        {
           "identity": "2004:4:8",
           "at": "2026-11-21T11:48:48.604509+00:00"
         },
         {
           "identity": "2004:2:12",
           "at": "2026-11-21T11:49:24.055063+00:00"
+        },
+        {
+          "identity": "2004:4:12",
+          "at": "2026-11-21T11:49:58.452766+00:00"
         }
       ],
-      "retry_after": "2026-11-21T11:59:24.055063+00:00"
+      "retry_after": "2026-11-21T11:59:58.452766+00:00"
     },
     "2372": {
       "recent_failures": [
