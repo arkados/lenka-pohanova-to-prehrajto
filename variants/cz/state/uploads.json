@@ -757302,12 +757302,6 @@
     },
     "1320:2:4": {
       "episode_key": "doktorka z dixie:s2:e4",
-      "claim": {
-        "worker_id": "5745334d8c984aa58c54f5b5b4176d30-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:04:26.915130+00:00",
-        "lease_expires_at": "2026-11-21T08:04:26.915151+00:00"
-      },
       "source": {
         "source_id": "10246203",
         "source_url": "https://sdilej.cz/10246203/doktorka-z-dixie-02x04-kdo-tady-zarli-2012-cz-dabing-.avi",
@@ -757332,22 +757326,29 @@
         "display_name": "Hart of Dixie S02E04 Suspicious Minds SD CZ Dabing",
         "prepared_at": "2026-11-21T02:04:38.786654+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217801",
-        "size_bytes": 371569502
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217801",
-        "size_bytes": 371569502,
-        "source_bytes_read": 371569502,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217801",
         "source_bytes_read": 371569502,
         "elapsed_seconds": 17.111,
         "finished_at": "2026-11-21T02:05:33.961253+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217801",
+          "size_bytes": 371569502,
+          "source_bytes_read": 371569502,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10246203",
+        "source_url": "https://sdilej.cz/10246203/doktorka-z-dixie-02x04-kdo-tady-zarli-2012-cz-dabing-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217801",
+        "display_name": "Hart of Dixie S02E04 Suspicious Minds SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:05:47.096991+00:00"
       }
     },
     "1320:2:5": {
@@ -757392,7 +757393,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:05:39.674301+00:00",
+  "updated_at": "2026-11-21T02:05:47.097011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
