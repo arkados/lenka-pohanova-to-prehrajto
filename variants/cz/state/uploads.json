@@ -794868,12 +794868,6 @@
     },
     "1198:1:6": {
       "episode_key": "chirurgové:s1:e6",
-      "claim": {
-        "worker_id": "f0ad3e9518a64c37bf4e0e952c1795dd-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:20:49.254602+00:00",
-        "lease_expires_at": "2026-11-21T20:20:49.254611+00:00"
-      },
       "source": {
         "source_id": "34634375",
         "source_url": "https://sdilej.cz/34634375/chirurgove-cz-s01e06-gg-.mp4",
@@ -794898,22 +794892,29 @@
         "display_name": "Grey's Anatomy S01E06 If Tomorrow Never Comes 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:20:58.315278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230194",
-        "size_bytes": 827786340
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230194",
-        "size_bytes": 827786340,
-        "source_bytes_read": 827786340,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230194",
         "source_bytes_read": 827786340,
         "elapsed_seconds": 86.452,
         "finished_at": "2026-11-21T14:22:49.884640+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230194",
+          "size_bytes": 827786340,
+          "source_bytes_read": 827786340,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34634375",
+        "source_url": "https://sdilej.cz/34634375/chirurgove-cz-s01e06-gg-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230194",
+        "display_name": "Grey's Anatomy S01E06 If Tomorrow Never Comes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:23:01.645730+00:00"
       }
     },
     "1198:1:7": {
@@ -794959,7 +794960,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:22:56.336993+00:00",
+  "updated_at": "2026-11-21T14:23:01.645744+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
