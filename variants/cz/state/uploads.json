@@ -774701,12 +774701,6 @@
     },
     "3605:1:1": {
       "episode_key": "válka v iráku:s1:e1",
-      "claim": {
-        "worker_id": "e2a225bfb4014193a595a897316e42a3-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:47:11.446886+00:00",
-        "lease_expires_at": "2026-11-21T12:47:11.446896+00:00"
-      },
       "source": {
         "source_id": "34646326",
         "source_url": "https://sdilej.cz/34646326/valka-v-iraku-s01e01-war.mkv",
@@ -774731,22 +774725,29 @@
         "display_name": "Once Upon a Time in Iraq S01E01 War 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:47:18.521191+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222094",
-        "size_bytes": 959293422
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222094",
-        "size_bytes": 959293422,
-        "source_bytes_read": 959293422,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222094",
         "source_bytes_read": 959293422,
         "elapsed_seconds": 84.188,
         "finished_at": "2026-11-21T06:49:09.273522+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222094",
+          "size_bytes": 959293422,
+          "source_bytes_read": 959293422,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34646326",
+        "source_url": "https://sdilej.cz/34646326/valka-v-iraku-s01e01-war.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222094",
+        "display_name": "Once Upon a Time in Iraq S01E01 War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:49:17.358769+00:00"
       }
     },
     "3605:1:2": {
@@ -774829,7 +774830,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:49:09.273542+00:00",
+  "updated_at": "2026-11-21T06:49:17.358784+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
