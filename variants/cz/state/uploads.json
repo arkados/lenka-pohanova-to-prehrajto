@@ -802204,12 +802204,6 @@
     },
     "1198:8:20": {
       "episode_key": "chirurgové:s8:e20",
-      "claim": {
-        "worker_id": "900947dbe3e541e48a23e37db5b36dd3-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:22:43.525718+00:00",
-        "lease_expires_at": "2026-11-22T03:22:43.525737+00:00"
-      },
       "source": {
         "source_id": "35072908",
         "source_url": "https://sdilej.cz/35072908/chirurgove-cz-s08e20-gg-..mp4",
@@ -802234,22 +802228,29 @@
         "display_name": "Grey's Anatomy S08E20 The Girl with No Name 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:23:06.485802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236761",
-        "size_bytes": 866083285
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236761",
-        "size_bytes": 866083285,
-        "source_bytes_read": 866083285,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236761",
         "source_bytes_read": 866083285,
         "elapsed_seconds": 80.324,
         "finished_at": "2026-11-21T21:25:09.832687+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236761",
+          "size_bytes": 866083285,
+          "source_bytes_read": 866083285,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072908",
+        "source_url": "https://sdilej.cz/35072908/chirurgove-cz-s08e20-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236761",
+        "display_name": "Grey's Anatomy S08E20 The Girl with No Name 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:25:25.614944+00:00"
       }
     },
     "1198:8:21": {
@@ -802346,7 +802347,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:25:16.957769+00:00",
+  "updated_at": "2026-11-21T21:25:25.614965+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
