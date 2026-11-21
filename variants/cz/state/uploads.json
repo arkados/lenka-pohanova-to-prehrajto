@@ -771021,12 +771021,6 @@
     },
     "1564:12:8": {
       "episode_key": "spravedlnost v krvi:s12:e8",
-      "claim": {
-        "worker_id": "c522caf252834fbc8674caf75744bd09-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:48:47.420858+00:00",
-        "lease_expires_at": "2026-11-21T11:48:47.420869+00:00"
-      },
       "source": {
         "source_id": "33536853",
         "source_url": "https://sdilej.cz/33536853/blue.bloods.s12e08.mkv",
@@ -771051,22 +771045,29 @@
         "display_name": "Blue Bloods S12E08 Reality Check 720p CZ Dabing",
         "prepared_at": "2026-11-21T05:48:59.424458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221298",
-        "size_bytes": 983067052
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221298",
-        "size_bytes": 983067052,
-        "source_bytes_read": 983067052,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221298",
         "source_bytes_read": 983067052,
         "elapsed_seconds": 54.626,
         "finished_at": "2026-11-21T05:50:24.572471+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221298",
+          "size_bytes": 983067052,
+          "source_bytes_read": 983067052,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33536853",
+        "source_url": "https://sdilej.cz/33536853/blue.bloods.s12e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221298",
+        "display_name": "Blue Bloods S12E08 Reality Check 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:50:41.415399+00:00"
       }
     },
     "1564:12:9": {
@@ -771163,7 +771164,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:50:36.778507+00:00",
+  "updated_at": "2026-11-21T05:50:41.415417+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
