@@ -771786,12 +771786,6 @@
     },
     "1564:13:6": {
       "episode_key": "spravedlnost v krvi:s13:e6",
-      "claim": {
-        "worker_id": "896a8bf3f3864f6cb4d9878c10ecc760-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:58:52.968595+00:00",
-        "lease_expires_at": "2026-11-21T11:58:52.968605+00:00"
-      },
       "source": {
         "source_id": "32364263",
         "source_url": "https://sdilej.cz/32364263/spravedlnost-v-krvi-s13e06-cz.mp4",
@@ -771816,22 +771810,29 @@
         "display_name": "Blue Bloods S13E06 On Dangerous Ground 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:59:07.594065+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221450",
-        "size_bytes": 878496174
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221450",
-        "size_bytes": 878496174,
-        "source_bytes_read": 878496174,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221450",
         "source_bytes_read": 878496174,
         "elapsed_seconds": 74.889,
         "finished_at": "2026-11-21T06:00:51.003387+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221450",
+          "size_bytes": 878496174,
+          "source_bytes_read": 878496174,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32364263",
+        "source_url": "https://sdilej.cz/32364263/spravedlnost-v-krvi-s13e06-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221450",
+        "display_name": "Blue Bloods S13E06 On Dangerous Ground 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:01:02.999859+00:00"
       }
     },
     "1564:13:7": {
@@ -771914,7 +771915,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:00:56.672492+00:00",
+  "updated_at": "2026-11-21T06:01:02.999875+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
