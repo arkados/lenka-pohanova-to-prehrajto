@@ -790401,12 +790401,6 @@
     },
     "2004:5:3": {
       "episode_key": "znovu 20:s5:e3",
-      "claim": {
-        "worker_id": "d4f4a7d0e3034a1898e5ee17b9528f32-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:25:51.314209+00:00",
-        "lease_expires_at": "2026-11-21T18:25:51.314223+00:00"
-      },
       "source": {
         "source_id": "33921867",
         "source_url": "https://sdilej.cz/33921867/znovu-20-s05e03-cz-dabing-1080p-full-hd.mkv",
@@ -790430,7 +790424,17 @@
         },
         "display_name": "Younger S05E03 The End of the Tour 1080p CZ Dabing",
         "prepared_at": "2026-11-21T12:25:56.446100+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33921867:https://sdilej.cz/33921867/znovu-20-s05e03-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T12:26:11.060103+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T12:26:11.060160+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:5:4": {
       "episode_key": "znovu 20:s5:e4",
@@ -790447,7 +790451,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:26:05.684580+00:00",
+  "updated_at": "2026-11-21T12:26:11.060166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -791075,9 +791079,13 @@
         {
           "identity": "2004:4:12",
           "at": "2026-11-21T12:25:40.969279+00:00"
+        },
+        {
+          "identity": "2004:5:3",
+          "at": "2026-11-21T12:26:11.060103+00:00"
         }
       ],
-      "retry_after": "2026-11-21T12:23:42.737323+00:00"
+      "retry_after": "2026-11-21T12:36:11.060103+00:00"
     },
     "2372": {
       "recent_failures": [
