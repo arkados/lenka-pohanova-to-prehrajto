@@ -805922,12 +805922,6 @@
     },
     "1198:10:19": {
       "episode_key": "chirurgové:s10:e19",
-      "claim": {
-        "worker_id": "7182f762df8745fdac509c87c0c892e0-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:44:18.282096+00:00",
-        "lease_expires_at": "2026-11-22T05:44:18.282112+00:00"
-      },
       "source": {
         "source_id": "27698165",
         "source_url": "https://sdilej.cz/27698165/chirurgove-s10e19-cz.mkv",
@@ -805952,22 +805946,29 @@
         "display_name": "Grey's Anatomy S10E19 I'm Winning 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:44:31.778211+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239129",
-        "size_bytes": 581206959
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239129",
-        "size_bytes": 581206959,
-        "source_bytes_read": 581206959,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239129",
         "source_bytes_read": 581206959,
         "elapsed_seconds": 40.915,
         "finished_at": "2026-11-21T23:45:46.501961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239129",
+          "size_bytes": 581206959,
+          "source_bytes_read": 581206959,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698165",
+        "source_url": "https://sdilej.cz/27698165/chirurgove-s10e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239129",
+        "display_name": "Grey's Anatomy S10E19 I'm Winning 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:46:00.563174+00:00"
       }
     },
     "1198:10:20": {
@@ -806013,7 +806014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:45:53.280599+00:00",
+  "updated_at": "2026-11-21T23:46:00.563193+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
