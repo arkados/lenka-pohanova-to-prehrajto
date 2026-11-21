@@ -760770,12 +760770,6 @@
     },
     "1564:2:14": {
       "episode_key": "spravedlnost v krvi:s2:e14",
-      "claim": {
-        "worker_id": "941af315fad545d5a4a018b398690f9a-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:59:28.047456+00:00",
-        "lease_expires_at": "2026-11-21T08:59:28.047476+00:00"
-      },
       "source": {
         "source_id": "32117288",
         "source_url": "https://sdilej.cz/32117288/spravedlnost-v-krvi-s02e14-cz.mp4",
@@ -760800,22 +760794,29 @@
         "display_name": "Blue Bloods S02E14 Parenthood 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:59:49.893864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218647",
-        "size_bytes": 892630345
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218647",
-        "size_bytes": 892630345,
-        "source_bytes_read": 892630345,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218647",
         "source_bytes_read": 892630345,
         "elapsed_seconds": 63.609,
         "finished_at": "2026-11-21T03:01:33.528687+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218647",
+          "size_bytes": 892630345,
+          "source_bytes_read": 892630345,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117288",
+        "source_url": "https://sdilej.cz/32117288/spravedlnost-v-krvi-s02e14-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218647",
+        "display_name": "Blue Bloods S02E14 Parenthood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:01:51.389959+00:00"
       }
     },
     "1564:2:15": {
@@ -760894,7 +760895,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:01:45.731733+00:00",
+  "updated_at": "2026-11-21T03:01:51.389973+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
