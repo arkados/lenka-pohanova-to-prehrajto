@@ -764747,12 +764747,6 @@
     },
     "1564:6:3": {
       "episode_key": "spravedlnost v krvi:s6:e3",
-      "claim": {
-        "worker_id": "cf961683340040179afcc810a2518a72-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:10:59.871712+00:00",
-        "lease_expires_at": "2026-11-21T10:10:59.871730+00:00"
-      },
       "source": {
         "source_id": "32121322",
         "source_url": "https://sdilej.cz/32121322/spravedlnost-v-krvi-s06e03-cz.mp4",
@@ -764777,22 +764771,29 @@
         "display_name": "Blue Bloods S06E03 All the News That's Fit to Click 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:11:05.995100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219733",
-        "size_bytes": 841189753
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219733",
-        "size_bytes": 841189753,
-        "source_bytes_read": 841189753,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219733",
         "source_bytes_read": 841189753,
         "elapsed_seconds": 40.007,
         "finished_at": "2026-11-21T04:12:07.051461+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219733",
+          "size_bytes": 841189753,
+          "source_bytes_read": 841189753,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121322",
+        "source_url": "https://sdilej.cz/32121322/spravedlnost-v-krvi-s06e03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219733",
+        "display_name": "Blue Bloods S06E03 All the News That's Fit to Click 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:12:22.371403+00:00"
       }
     }
   },
@@ -764801,7 +764802,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:12:17.311292+00:00",
+  "updated_at": "2026-11-21T04:12:22.371420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
