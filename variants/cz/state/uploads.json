@@ -802136,28 +802136,29 @@
           "at": "2026-11-21T22:20:50.011783+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "9eafb93475bb41fe998d4caded9aa058-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T22:20:55.786346+00:00",
-        "lease_expires_at": "2026-11-22T04:20:55.786360+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31237715",
-        "size_bytes": 1588725694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237715",
-        "size_bytes": 1588725694,
-        "source_bytes_read": 1588725694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237715",
         "source_bytes_read": 1588725694,
         "elapsed_seconds": 198.008,
         "finished_at": "2026-11-21T22:25:02.105606+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237715",
+          "size_bytes": 1588725694,
+          "source_bytes_read": 1588725694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12508535",
+        "source_url": "https://sdilej.cz/12508535/znovu.20.06x06.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237715",
+        "display_name": "Younger S06E06 Merger, She Wrote 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:25:22.933788+00:00"
       }
     },
     "2004:6:7": {
@@ -803867,7 +803868,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:25:02.105626+00:00",
+  "updated_at": "2026-11-21T22:25:22.933808+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
