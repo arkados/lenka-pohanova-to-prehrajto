@@ -795943,12 +795943,6 @@
     },
     "1198:3:12": {
       "episode_key": "chirurgové:s3:e12",
-      "claim": {
-        "worker_id": "bc8114f2d4f64741be3d91fb4daa86bd-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:48:30.308374+00:00",
-        "lease_expires_at": "2026-11-21T20:48:30.308385+00:00"
-      },
       "source": {
         "source_id": "27683033",
         "source_url": "https://sdilej.cz/27683033/chirurgove-s03e12-cz.-cast.mkv",
@@ -795973,22 +795967,29 @@
         "display_name": "Grey's Anatomy S03E12 Six Days (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:48:45.370117+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230618",
-        "size_bytes": 568861688
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230618",
-        "size_bytes": 568861688,
-        "source_bytes_read": 568861688,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230618",
         "source_bytes_read": 568861688,
         "elapsed_seconds": 26.572,
         "finished_at": "2026-11-21T14:49:43.058058+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230618",
+          "size_bytes": 568861688,
+          "source_bytes_read": 568861688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683033",
+        "source_url": "https://sdilej.cz/27683033/chirurgove-s03e12-cz.-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230618",
+        "display_name": "Grey's Anatomy S03E12 Six Days (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:49:58.662554+00:00"
       }
     },
     "1198:3:13": {
@@ -796080,7 +796081,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:49:53.213121+00:00",
+  "updated_at": "2026-11-21T14:49:58.662569+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
