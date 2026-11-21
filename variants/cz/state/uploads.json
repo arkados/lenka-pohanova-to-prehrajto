@@ -783858,12 +783858,6 @@
     },
     "2004:2:3": {
       "episode_key": "znovu 20:s2:e3",
-      "claim": {
-        "worker_id": "094e116f3b7d42fdb8d58fbfa4511084-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:43:36.166333+00:00",
-        "lease_expires_at": "2026-11-21T15:43:36.166354+00:00"
-      },
       "source": {
         "source_id": "27827900",
         "source_url": "https://sdilej.cz/27827900/znovu-20-s02e03-1080p-cz-dabing.mkv",
@@ -783888,22 +783882,29 @@
         "display_name": "Younger S02E03 Like a Boss 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:43:46.545861+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225081",
-        "size_bytes": 757983920
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225081",
-        "size_bytes": 757983920,
-        "source_bytes_read": 757983920,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225081",
         "source_bytes_read": 757983920,
         "elapsed_seconds": 52.458,
         "finished_at": "2026-11-21T09:45:05.644152+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225081",
+          "size_bytes": 757983920,
+          "source_bytes_read": 757983920,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27827900",
+        "source_url": "https://sdilej.cz/27827900/znovu-20-s02e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225081",
+        "display_name": "Younger S02E03 Like a Boss 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:45:18.140837+00:00"
       }
     },
     "2004:2:4": {
@@ -783982,7 +783983,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:45:11.872681+00:00",
+  "updated_at": "2026-11-21T09:45:18.140863+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
