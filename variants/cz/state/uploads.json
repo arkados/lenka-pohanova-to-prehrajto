@@ -781586,12 +781586,6 @@
     },
     "3080:1:8": {
       "episode_key": "piklírna:s1:e8",
-      "claim": {
-        "worker_id": "65c2810b630944ce96e5b116450b3b7b-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:00:12.880223+00:00",
-        "lease_expires_at": "2026-11-21T15:00:12.880242+00:00"
-      },
       "source": {
         "source_id": "34887642",
         "source_url": "https://sdilej.cz/34887642/piklirna-s01e08-720p-webrip-2ch-x265-cz-dabing.mkv",
@@ -781616,22 +781610,29 @@
         "display_name": "Inside Job S01E08 Buzzkill 720p CZ Dabing",
         "prepared_at": "2026-11-21T09:00:24.072220+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224268",
-        "size_bytes": 103918441
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224268",
-        "size_bytes": 103918441,
-        "source_bytes_read": 103918441,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224268",
         "source_bytes_read": 103918441,
         "elapsed_seconds": 14.163,
         "finished_at": "2026-11-21T09:01:08.245820+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224268",
+          "size_bytes": 103918441,
+          "source_bytes_read": 103918441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34887642",
+        "source_url": "https://sdilej.cz/34887642/piklirna-s01e08-720p-webrip-2ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224268",
+        "display_name": "Inside Job S01E08 Buzzkill 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:01:24.651384+00:00"
       }
     },
     "3080:1:9": {
@@ -781710,7 +781711,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:01:19.462828+00:00",
+  "updated_at": "2026-11-21T09:01:24.651404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
