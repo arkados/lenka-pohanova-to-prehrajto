@@ -806126,12 +806126,6 @@
     },
     "1198:11:1": {
       "episode_key": "chirurgové:s11:e1",
-      "claim": {
-        "worker_id": "e302c5069733460d81cb84027a4e53ac-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:47:10.864270+00:00",
-        "lease_expires_at": "2026-11-22T05:47:10.864291+00:00"
-      },
       "source": {
         "source_id": "27698380",
         "source_url": "https://sdilej.cz/27698380/chirurgove-s11e01-cz.mkv",
@@ -806156,22 +806150,29 @@
         "display_name": "Grey's Anatomy S11E01 I Must Have Lost It on the Wind 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:47:16.775994+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239176",
-        "size_bytes": 582858905
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239176",
-        "size_bytes": 582858905,
-        "source_bytes_read": 582858905,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239176",
         "source_bytes_read": 582858905,
         "elapsed_seconds": 37.282,
         "finished_at": "2026-11-21T23:48:34.039772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239176",
+          "size_bytes": 582858905,
+          "source_bytes_read": 582858905,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698380",
+        "source_url": "https://sdilej.cz/27698380/chirurgove-s11e01-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239176",
+        "display_name": "Grey's Anatomy S11E01 I Must Have Lost It on the Wind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:48:46.281640+00:00"
       }
     },
     "1198:11:2": {
@@ -806253,7 +806254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:48:39.916664+00:00",
+  "updated_at": "2026-11-21T23:48:46.281658+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
