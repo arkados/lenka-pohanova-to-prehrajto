@@ -760209,12 +760209,6 @@
     },
     "1564:2:3": {
       "episode_key": "spravedlnost v krvi:s2:e3",
-      "claim": {
-        "worker_id": "2790208078354f05a53e261ffd9cf455-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:50:49.436561+00:00",
-        "lease_expires_at": "2026-11-21T08:50:49.436582+00:00"
-      },
       "source": {
         "source_id": "30281232",
         "source_url": "https://sdilej.cz/30281232/blue-bloods-s02e03.mkv",
@@ -760239,22 +760233,29 @@
         "display_name": "Blue Bloods S02E03 Critical Condition 720p CZ Dabing",
         "prepared_at": "2026-11-21T02:50:55.892535+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218484",
-        "size_bytes": 1450762133
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218484",
-        "size_bytes": 1450762133,
-        "source_bytes_read": 1450762133,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218484",
         "source_bytes_read": 1450762133,
         "elapsed_seconds": 123.062,
         "finished_at": "2026-11-21T02:53:35.069594+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218484",
+          "size_bytes": 1450762133,
+          "source_bytes_read": 1450762133,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30281232",
+        "source_url": "https://sdilej.cz/30281232/blue-bloods-s02e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218484",
+        "display_name": "Blue Bloods S02E03 Critical Condition 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:53:48.793183+00:00"
       }
     },
     "1564:2:4": {
@@ -760364,7 +760365,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:53:43.489683+00:00",
+  "updated_at": "2026-11-21T02:53:48.793204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
