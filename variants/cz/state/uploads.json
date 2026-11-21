@@ -779940,12 +779940,6 @@
     },
     "52:3:8": {
       "episode_key": "12 opic:s3:e8",
-      "claim": {
-        "worker_id": "7708a19d6b42451c802ddf8e470988ed-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:21:16.898681+00:00",
-        "lease_expires_at": "2026-11-21T14:21:16.898695+00:00"
-      },
       "source": {
         "source_id": "33239731",
         "source_url": "https://sdilej.cz/33239731/12-opic-12-monkeys-s03e08-cz-dabing.mkv",
@@ -779969,7 +779963,17 @@
         },
         "display_name": "12 Monkeys S03E08 Masks 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:21:32.322263+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239731:https://sdilej.cz/33239731/12-opic-12-monkeys-s03e08-cz-dabing.mkv",
+        "at": "2026-11-21T08:21:55.779054+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T08:21:55.779881+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -779977,7 +779981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:21:50.635876+00:00",
+  "updated_at": "2026-11-21T08:21:55.779895+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -780586,19 +780590,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:1:10",
-          "at": "2026-11-21T08:20:53.786424+00:00"
-        },
-        {
           "identity": "52:3:3",
           "at": "2026-11-21T08:20:58.528612+00:00"
         },
         {
           "identity": "52:3:6",
           "at": "2026-11-21T08:21:21.541302+00:00"
+        },
+        {
+          "identity": "52:3:8",
+          "at": "2026-11-21T08:21:55.779054+00:00"
         }
       ],
-      "retry_after": "2026-11-21T08:31:21.541302+00:00"
+      "retry_after": "2026-11-21T08:31:55.779054+00:00"
     }
   }
 }
