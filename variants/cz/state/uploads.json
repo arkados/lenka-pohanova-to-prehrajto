@@ -802407,12 +802407,6 @@
     },
     "1198:8:24": {
       "episode_key": "chirurgové:s8:e24",
-      "claim": {
-        "worker_id": "57d96b66a793461cb77ba8440967012f-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:28:20.722511+00:00",
-        "lease_expires_at": "2026-11-22T03:28:20.722528+00:00"
-      },
       "source": {
         "source_id": "35076129",
         "source_url": "https://sdilej.cz/35076129/chirurgove-cz-s08e24-gg-..mp4",
@@ -802437,22 +802431,29 @@
         "display_name": "Grey's Anatomy S08E24 Flight 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:28:36.897508+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236853",
-        "size_bytes": 871293064
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236853",
-        "size_bytes": 871293064,
-        "source_bytes_read": 871293064,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236853",
         "source_bytes_read": 871293064,
         "elapsed_seconds": 60.212,
         "finished_at": "2026-11-21T21:30:09.344125+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236853",
+          "size_bytes": 871293064,
+          "source_bytes_read": 871293064,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35076129",
+        "source_url": "https://sdilej.cz/35076129/chirurgove-cz-s08e24-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236853",
+        "display_name": "Grey's Anatomy S08E24 Flight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:30:21.612836+00:00"
       }
     },
     "1198:9:1": {
@@ -802498,7 +802499,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:30:16.463650+00:00",
+  "updated_at": "2026-11-21T21:30:21.612854+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
