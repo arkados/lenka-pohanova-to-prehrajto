@@ -793706,12 +793706,6 @@
     },
     "1536:4:12": {
       "episode_key": "policejní bažanti:s4:e12",
-      "claim": {
-        "worker_id": "0942abd57aec49b69c98275f705508e9-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:54:31.573402+00:00",
-        "lease_expires_at": "2026-11-21T19:54:31.573413+00:00"
-      },
       "source": {
         "source_id": "27429022",
         "source_url": "https://sdilej.cz/27429022/policejni-bazanti-s04e12-cz.avi",
@@ -793736,22 +793730,29 @@
         "display_name": "Rookie Blue S04E12 Under Fire SD CZ Dabing",
         "prepared_at": "2026-11-21T13:54:37.067317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229754",
-        "size_bytes": 445905458
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229754",
-        "size_bytes": 445905458,
-        "source_bytes_read": 445905458,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229754",
         "source_bytes_read": 445905458,
         "elapsed_seconds": 19.424,
         "finished_at": "2026-11-21T13:55:15.314975+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229754",
+          "size_bytes": 445905458,
+          "source_bytes_read": 445905458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27429022",
+        "source_url": "https://sdilej.cz/27429022/policejni-bazanti-s04e12-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229754",
+        "display_name": "Rookie Blue S04E12 Under Fire SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:55:20.881406+00:00"
       }
     }
   },
@@ -793760,7 +793761,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:55:15.314995+00:00",
+  "updated_at": "2026-11-21T13:55:20.881422+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
