@@ -787437,12 +787437,6 @@
     },
     "2004:4:1": {
       "episode_key": "znovu 20:s4:e1",
-      "claim": {
-        "worker_id": "86d67941303a4bfd8f38e6a55867cacb-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:53:05.723649+00:00",
-        "lease_expires_at": "2026-11-21T16:53:05.723664+00:00"
-      },
       "source": {
         "source_id": "33913660",
         "source_url": "https://sdilej.cz/33913660/znovu-20-s04e01-cz-dabing-1080p-full-hd.mkv",
@@ -787466,7 +787460,17 @@
         },
         "display_name": "Younger S04E01 Post Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:53:17.604339+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33913660:https://sdilej.cz/33913660/znovu-20-s04e01-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T10:53:36.168097+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:53:36.168143+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -787474,7 +787478,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:53:31.253728+00:00",
+  "updated_at": "2026-11-21T10:53:36.168151+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -788094,6 +788098,10 @@
         {
           "identity": "2004:2:12",
           "at": "2026-11-21T10:48:41.486392+00:00"
+        },
+        {
+          "identity": "2004:4:1",
+          "at": "2026-11-21T10:53:36.168097+00:00"
         }
       ],
       "retry_after": "2026-11-21T10:45:12.891373+00:00"
