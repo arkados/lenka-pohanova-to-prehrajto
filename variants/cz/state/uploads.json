@@ -806381,12 +806381,6 @@
     },
     "1198:11:6": {
       "episode_key": "chirurgové:s11:e6",
-      "claim": {
-        "worker_id": "6dab50a768274fae95b5f6caa11c604b-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:50:04.346229+00:00",
-        "lease_expires_at": "2026-11-22T05:50:04.346245+00:00"
-      },
       "source": {
         "source_id": "27698453",
         "source_url": "https://sdilej.cz/27698453/chirurgove-s11e06-cz.mkv",
@@ -806411,22 +806405,29 @@
         "display_name": "Grey's Anatomy S11E06 Don't Let's Start 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:50:25.263433+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239231",
-        "size_bytes": 555192578
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239231",
-        "size_bytes": 555192578,
-        "source_bytes_read": 555192578,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239231",
         "source_bytes_read": 555192578,
         "elapsed_seconds": 36.379,
         "finished_at": "2026-11-21T23:51:24.730411+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239231",
+          "size_bytes": 555192578,
+          "source_bytes_read": 555192578,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698453",
+        "source_url": "https://sdilej.cz/27698453/chirurgove-s11e06-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239231",
+        "display_name": "Grey's Anatomy S11E06 Don't Let's Start 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:51:37.694456+00:00"
       }
     },
     "1198:11:7": {
@@ -806472,7 +806473,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:51:31.233011+00:00",
+  "updated_at": "2026-11-21T23:51:37.694474+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
