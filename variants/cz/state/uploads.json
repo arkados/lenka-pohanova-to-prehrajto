@@ -801497,28 +801497,29 @@
           "at": "2026-11-21T22:08:41.896850+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8cf3614c7d7944929151d391d2fbb2b9-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T22:08:46.890951+00:00",
-        "lease_expires_at": "2026-11-22T04:08:46.890967+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31237470",
-        "size_bytes": 876549181
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237470",
-        "size_bytes": 876549181,
-        "source_bytes_read": 876549181,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237470",
         "source_bytes_read": 876549181,
         "elapsed_seconds": 71.122,
         "finished_at": "2026-11-21T22:10:31.258197+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237470",
+          "size_bytes": 876549181,
+          "source_bytes_read": 876549181,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34895506",
+        "source_url": "https://sdilej.cz/34895506/12-monkeys-s04e08-demoni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237470",
+        "display_name": "12 Monkeys S04E08 Demons 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:10:46.770180+00:00"
       }
     },
     "52:4:9": {
@@ -803603,7 +803604,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:10:41.615972+00:00",
+  "updated_at": "2026-11-21T22:10:46.770204+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
