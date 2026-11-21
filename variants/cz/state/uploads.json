@@ -768630,12 +768630,6 @@
     },
     "1564:9:14": {
       "episode_key": "spravedlnost v krvi:s9:e14",
-      "claim": {
-        "worker_id": "c3362eb5f28d49a989114fcf9597b9ff-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:12:07.379046+00:00",
-        "lease_expires_at": "2026-11-21T11:12:07.379055+00:00"
-      },
       "source": {
         "source_id": "34252336",
         "source_url": "https://sdilej.cz/34252336/blue-bloods-09x14-bratrsky-spor-web-rip-cz.mkv",
@@ -768660,22 +768654,29 @@
         "display_name": "Blue Bloods S09E14 My Brother's Keeper 720p CZ Dabing",
         "prepared_at": "2026-11-21T05:12:18.830688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220699",
-        "size_bytes": 236191883
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220699",
-        "size_bytes": 236191883,
-        "source_bytes_read": 236191883,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220699",
         "source_bytes_read": 236191883,
         "elapsed_seconds": 19.89,
         "finished_at": "2026-11-21T05:13:09.260047+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220699",
+          "size_bytes": 236191883,
+          "source_bytes_read": 236191883,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252336",
+        "source_url": "https://sdilej.cz/34252336/blue-bloods-09x14-bratrsky-spor-web-rip-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220699",
+        "display_name": "Blue Bloods S09E14 My Brother's Keeper 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:13:21.062940+00:00"
       }
     }
   },
@@ -768684,7 +768685,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:13:16.255214+00:00",
+  "updated_at": "2026-11-21T05:13:21.062957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
