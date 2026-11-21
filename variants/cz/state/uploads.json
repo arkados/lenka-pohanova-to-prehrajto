@@ -801693,12 +801693,6 @@
     },
     "1198:8:14": {
       "episode_key": "chirurgové:s8:e14",
-      "claim": {
-        "worker_id": "6a0c4f6e09ce484a9fed7aa2655fa283-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:23:15.867206+00:00",
-        "lease_expires_at": "2026-11-22T02:23:15.867233+00:00"
-      },
       "source": {
         "source_id": "35072822",
         "source_url": "https://sdilej.cz/35072822/chirurgove-cz-s08e14-gg-..mp4",
@@ -801723,22 +801717,29 @@
         "display_name": "Grey's Anatomy S08E14 All You Need is Love 1080p CZ Dabing",
         "prepared_at": "2026-11-21T20:23:40.678447+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31235963",
-        "size_bytes": 862000268
-      },
-      "transfer_receipt": {
-        "target_video_id": "31235963",
-        "size_bytes": 862000268,
-        "source_bytes_read": 862000268,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31235963",
         "source_bytes_read": 862000268,
         "elapsed_seconds": 72.696,
         "finished_at": "2026-11-21T20:25:31.698497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31235963",
+          "size_bytes": 862000268,
+          "source_bytes_read": 862000268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072822",
+        "source_url": "https://sdilej.cz/35072822/chirurgove-cz-s08e14-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31235963",
+        "display_name": "Grey's Anatomy S08E14 All You Need is Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T20:25:47.354890+00:00"
       }
     }
   },
@@ -801747,7 +801748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:25:42.274425+00:00",
+  "updated_at": "2026-11-21T20:25:47.354912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
