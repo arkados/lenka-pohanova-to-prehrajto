@@ -792624,12 +792624,6 @@
     },
     "1536:2:5": {
       "episode_key": "policejní bažanti:s2:e5",
-      "claim": {
-        "worker_id": "de572daf63184712b2f834b8556b7431-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:32:02.173008+00:00",
-        "lease_expires_at": "2026-11-21T19:32:02.173018+00:00"
-      },
       "source": {
         "source_id": "27994710",
         "source_url": "https://sdilej.cz/27994710/policejni-bazanti-s02e05-zatah.mkv",
@@ -792654,22 +792648,29 @@
         "display_name": "Rookie Blue S02E05 Stung 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:32:08.456000+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229346",
-        "size_bytes": 878518806
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229346",
-        "size_bytes": 878518806,
-        "source_bytes_read": 878518806,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229346",
         "source_bytes_read": 878518806,
         "elapsed_seconds": 107.885,
         "finished_at": "2026-11-21T13:34:23.256532+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229346",
+          "size_bytes": 878518806,
+          "source_bytes_read": 878518806,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27994710",
+        "source_url": "https://sdilej.cz/27994710/policejni-bazanti-s02e05-zatah.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229346",
+        "display_name": "Rookie Blue S02E05 Stung 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:34:30.067802+00:00"
       }
     },
     "1536:2:11": {
@@ -792817,7 +792818,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:34:23.256545+00:00",
+  "updated_at": "2026-11-21T13:34:30.067820+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
