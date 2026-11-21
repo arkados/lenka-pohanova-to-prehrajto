@@ -765105,12 +765105,6 @@
     },
     "1564:6:10": {
       "episode_key": "spravedlnost v krvi:s6:e10",
-      "claim": {
-        "worker_id": "27a13e96ca224d78bc8cd91d12b572f0-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:20:51.882145+00:00",
-        "lease_expires_at": "2026-11-21T10:20:51.882162+00:00"
-      },
       "source": {
         "source_id": "32121366",
         "source_url": "https://sdilej.cz/32121366/spravedlnost-v-krvi-s06e10-cz.mp4",
@@ -765135,22 +765129,29 @@
         "display_name": "Blue Bloods S06E10 Flags of Our Fathers 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:21:03.096898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219880",
-        "size_bytes": 867391877
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219880",
-        "size_bytes": 867391877,
-        "source_bytes_read": 867391877,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219880",
         "source_bytes_read": 867391877,
         "elapsed_seconds": 39.263,
         "finished_at": "2026-11-21T04:22:10.703535+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219880",
+          "size_bytes": 867391877,
+          "source_bytes_read": 867391877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121366",
+        "source_url": "https://sdilej.cz/32121366/spravedlnost-v-krvi-s06e10-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219880",
+        "display_name": "Blue Bloods S06E10 Flags of Our Fathers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:22:23.031426+00:00"
       }
     },
     "1564:6:11": {
@@ -765196,7 +765197,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:22:16.749581+00:00",
+  "updated_at": "2026-11-21T04:22:23.031447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
