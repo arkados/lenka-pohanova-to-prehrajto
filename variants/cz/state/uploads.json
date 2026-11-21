@@ -789451,12 +789451,6 @@
     },
     "449:1:7": {
       "episode_key": "lucky louie:s1:e7",
-      "claim": {
-        "worker_id": "a33a4e563ad24c548022fed68c8907e8-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T11:59:28.981059+00:00",
-        "lease_expires_at": "2026-11-21T17:59:28.981070+00:00"
-      },
       "source": {
         "source_id": "34975541",
         "source_url": "https://sdilej.cz/34975541/lucky-louie-s01e07-trest-1080p-webrip-cz-en.mkv",
@@ -789481,22 +789475,29 @@
         "display_name": "Lucky Louie S01E07 Discipline 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:59:43.168594+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227787",
-        "size_bytes": 2343777524
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227787",
-        "size_bytes": 2343777524,
-        "source_bytes_read": 2343777524,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227787",
         "source_bytes_read": 2343777524,
         "elapsed_seconds": 282.054,
         "finished_at": "2026-11-21T12:04:51.567293+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227787",
+          "size_bytes": 2343777524,
+          "source_bytes_read": 2343777524,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34975541",
+        "source_url": "https://sdilej.cz/34975541/lucky-louie-s01e07-trest-1080p-webrip-cz-en.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227787",
+        "display_name": "Lucky Louie S01E07 Discipline 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T12:05:02.648336+00:00"
       }
     },
     "449:1:8": {
@@ -789731,7 +789732,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:04:56.309383+00:00",
+  "updated_at": "2026-11-21T12:05:02.648352+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
