@@ -791412,16 +791412,6 @@
         "display_name": "Kitchen Confidential S01E13 And the Award Goes to… SD CZ Dabing",
         "prepared_at": "2026-11-21T12:52:07.941770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228676",
-        "size_bytes": 222477459
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228676",
-        "size_bytes": 222477459,
-        "source_bytes_read": 222477459,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228676",
         "source_bytes_read": 222477459,
@@ -791435,11 +791425,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "6fe218db1ae446d6b28b57e0eddc7399-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:10:37.579454+00:00",
-        "lease_expires_at": "2026-11-21T19:10:37.579465+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228676",
+          "size_bytes": 222477459,
+          "source_bytes_read": 222477459,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12340460",
+        "source_url": "https://sdilej.cz/12340460/kitchen.confidential.s01e13.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228676",
+        "display_name": "Kitchen Confidential S01E13 And the Award Goes to… SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:10:46.843323+00:00"
       }
     },
     "1295:1:1": {
@@ -791855,7 +791856,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:10:42.235268+00:00",
+  "updated_at": "2026-11-21T13:10:46.843337+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
