@@ -790340,12 +790340,6 @@
     },
     "1163:2:7": {
       "episode_key": "tyran:s2:e7",
-      "claim": {
-        "worker_id": "0c6f12bd09e64cb09647e5f328d9430a-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:18:25.437682+00:00",
-        "lease_expires_at": "2026-11-21T18:18:25.437692+00:00"
-      },
       "source": {
         "source_id": "7260310",
         "source_url": "https://sdilej.cz/7260310/tyran-s02e07-cz-dabing-tyrant-lehi-.avi",
@@ -790370,22 +790364,29 @@
         "display_name": "Tyrant S02E07 The Awful Grace of God SD CZ Dabing",
         "prepared_at": "2026-11-21T12:18:39.742899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228126",
-        "size_bytes": 661091562
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228126",
-        "size_bytes": 661091562,
-        "source_bytes_read": 661091562,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228126",
         "source_bytes_read": 661091562,
         "elapsed_seconds": 40.743,
         "finished_at": "2026-11-21T12:19:54.514087+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228126",
+          "size_bytes": 661091562,
+          "source_bytes_read": 661091562,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7260310",
+        "source_url": "https://sdilej.cz/7260310/tyran-s02e07-cz-dabing-tyrant-lehi-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228126",
+        "display_name": "Tyrant S02E07 The Awful Grace of God SD CZ Dabing",
+        "uploaded_at": "2026-11-21T12:20:09.476388+00:00"
       }
     }
   },
@@ -790394,7 +790395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:20:04.213280+00:00",
+  "updated_at": "2026-11-21T12:20:09.476404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
