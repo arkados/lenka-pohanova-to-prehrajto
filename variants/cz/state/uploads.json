@@ -799856,12 +799856,6 @@
     },
     "1198:8:3": {
       "episode_key": "chirurgové:s8:e3",
-      "claim": {
-        "worker_id": "68795ba85561469fbe95029f101dcde6-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:27:46.070572+00:00",
-        "lease_expires_at": "2026-11-21T22:27:46.070585+00:00"
-      },
       "source": {
         "source_id": "35072801",
         "source_url": "https://sdilej.cz/35072801/chirurgove-cz-s08e03-gg-..mp4",
@@ -799886,22 +799880,29 @@
         "display_name": "Grey's Anatomy S08E03 Take the Lead 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:27:56.868121+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232252",
-        "size_bytes": 851941830
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232252",
-        "size_bytes": 851941830,
-        "source_bytes_read": 851941830,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232252",
         "source_bytes_read": 851941830,
         "elapsed_seconds": 65.313,
         "finished_at": "2026-11-21T16:29:25.865656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232252",
+          "size_bytes": 851941830,
+          "source_bytes_read": 851941830,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072801",
+        "source_url": "https://sdilej.cz/35072801/chirurgove-cz-s08e03-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232252",
+        "display_name": "Grey's Anatomy S08E03 Take the Lead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:29:42.081036+00:00"
       }
     }
   },
@@ -799910,7 +799911,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:29:35.953123+00:00",
+  "updated_at": "2026-11-21T16:29:42.081055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
