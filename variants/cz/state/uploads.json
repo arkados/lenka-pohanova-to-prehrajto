@@ -761432,12 +761432,6 @@
     },
     "1564:3:5": {
       "episode_key": "spravedlnost v krvi:s3:e5",
-      "claim": {
-        "worker_id": "18beb50db0644222b4bce5fb13676a21-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:14:52.170225+00:00",
-        "lease_expires_at": "2026-11-21T09:14:52.170243+00:00"
-      },
       "source": {
         "source_id": "32117305",
         "source_url": "https://sdilej.cz/32117305/spravedlnost-v-krvi-s03e05-cz.mp4",
@@ -761462,22 +761456,29 @@
         "display_name": "Blue Bloods S03E05 Risk and Reward 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:15:09.454047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218886",
-        "size_bytes": 781420439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218886",
-        "size_bytes": 781420439,
-        "source_bytes_read": 781420439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218886",
         "source_bytes_read": 781420439,
         "elapsed_seconds": 52.005,
         "finished_at": "2026-11-21T03:16:47.520533+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218886",
+          "size_bytes": 781420439,
+          "source_bytes_read": 781420439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117305",
+        "source_url": "https://sdilej.cz/32117305/spravedlnost-v-krvi-s03e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218886",
+        "display_name": "Blue Bloods S03E05 Risk and Reward 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:16:54.384512+00:00"
       }
     },
     "1564:3:6": {
@@ -761536,7 +761537,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:16:47.520560+00:00",
+  "updated_at": "2026-11-21T03:16:54.384528+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
