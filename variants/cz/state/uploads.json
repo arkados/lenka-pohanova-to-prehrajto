@@ -765003,12 +765003,6 @@
     },
     "1564:6:8": {
       "episode_key": "spravedlnost v krvi:s6:e8",
-      "claim": {
-        "worker_id": "37103a5a04fc4b8092d4c52831193309-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:19:47.538980+00:00",
-        "lease_expires_at": "2026-11-21T10:19:47.538999+00:00"
-      },
       "source": {
         "source_id": "32121352",
         "source_url": "https://sdilej.cz/32121352/spravedlnost-v-krvi-s06e08-cz.mp4",
@@ -765033,22 +765027,29 @@
         "display_name": "Blue Bloods S06E08 Unsung Heroes 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:19:53.925690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219868",
-        "size_bytes": 873391045
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219868",
-        "size_bytes": 873391045,
-        "source_bytes_read": 873391045,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219868",
         "source_bytes_read": 873391045,
         "elapsed_seconds": 51.65,
         "finished_at": "2026-11-21T04:21:16.116509+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219868",
+          "size_bytes": 873391045,
+          "source_bytes_read": 873391045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121352",
+        "source_url": "https://sdilej.cz/32121352/spravedlnost-v-krvi-s06e08-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219868",
+        "display_name": "Blue Bloods S06E08 Unsung Heroes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:21:28.673804+00:00"
       }
     },
     "1564:6:9": {
@@ -765131,7 +765132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:21:21.557304+00:00",
+  "updated_at": "2026-11-21T04:21:28.673822+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
