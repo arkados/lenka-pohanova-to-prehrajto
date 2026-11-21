@@ -796341,12 +796341,6 @@
     },
     "1198:3:20": {
       "episode_key": "chirurgové:s3:e20",
-      "claim": {
-        "worker_id": "bb90295f69444d0da9009aa995ebb170-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:55:57.358928+00:00",
-        "lease_expires_at": "2026-11-21T20:55:57.358939+00:00"
-      },
       "source": {
         "source_id": "27683188",
         "source_url": "https://sdilej.cz/27683188/chirurgove-s03e20-cz.mkv",
@@ -796371,22 +796365,29 @@
         "display_name": "Grey's Anatomy S03E20 Time After Time 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:56:02.908262+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230721",
-        "size_bytes": 663954808
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230721",
-        "size_bytes": 663954808,
-        "source_bytes_read": 663954808,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230721",
         "source_bytes_read": 663954808,
         "elapsed_seconds": 35.32,
         "finished_at": "2026-11-21T14:57:00.969391+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230721",
+          "size_bytes": 663954808,
+          "source_bytes_read": 663954808,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683188",
+        "source_url": "https://sdilej.cz/27683188/chirurgove-s03e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230721",
+        "display_name": "Grey's Anatomy S03E20 Time After Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:57:15.699698+00:00"
       }
     },
     "1198:3:21": {
@@ -796464,7 +796465,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:57:10.992692+00:00",
+  "updated_at": "2026-11-21T14:57:15.699714+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
