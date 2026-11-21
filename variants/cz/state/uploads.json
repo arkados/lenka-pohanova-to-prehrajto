@@ -792054,12 +792054,6 @@
     },
     "2004:5:8": {
       "episode_key": "znovu 20:s5:e8",
-      "claim": {
-        "worker_id": "8c2c3e411fd6437c9ae813a0045c6098-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:16:30.155753+00:00",
-        "lease_expires_at": "2026-11-21T19:16:30.155764+00:00"
-      },
       "source": {
         "source_id": "33855249",
         "source_url": "https://sdilej.cz/33855249/younger-2018-s05e08-the-bubble-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
@@ -792084,22 +792078,29 @@
         "display_name": "Younger S05E08 The Bubble 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:16:45.251077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229083",
-        "size_bytes": 891803567
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229083",
-        "size_bytes": 891803567,
-        "source_bytes_read": 891803567,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229083",
         "source_bytes_read": 891803567,
         "elapsed_seconds": 57.648,
         "finished_at": "2026-11-21T13:18:14.377409+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229083",
+          "size_bytes": 891803567,
+          "source_bytes_read": 891803567,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33855249",
+        "source_url": "https://sdilej.cz/33855249/younger-2018-s05e08-the-bubble-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229083",
+        "display_name": "Younger S05E08 The Bubble 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:18:26.912018+00:00"
       }
     }
   },
@@ -792108,7 +792109,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:18:21.038877+00:00",
+  "updated_at": "2026-11-21T13:18:26.912034+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
