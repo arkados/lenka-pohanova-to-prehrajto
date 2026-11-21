@@ -781152,12 +781152,6 @@
     },
     "1625:1:3": {
       "episode_key": "dej do toho všechno:s1:e3",
-      "claim": {
-        "worker_id": "e775ffd3fb6f4571bba98f679003eb73-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T08:51:01.578096+00:00",
-        "lease_expires_at": "2026-11-21T14:51:01.578113+00:00"
-      },
       "source": {
         "source_id": "30757390",
         "source_url": "https://sdilej.cz/30757390/dej-do-toho-vsechno-s01e03-2025-cz-dabing-hd-1080p.mp4",
@@ -781182,22 +781176,29 @@
         "display_name": "Win or Lose S01E03 Raspberry 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:51:17.754087+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224107",
-        "size_bytes": 668985778
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224107",
-        "size_bytes": 668985778,
-        "source_bytes_read": 668985778,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224107",
         "source_bytes_read": 668985778,
         "elapsed_seconds": 43.099,
         "finished_at": "2026-11-21T08:52:23.004200+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224107",
+          "size_bytes": 668985778,
+          "source_bytes_read": 668985778,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30757390",
+        "source_url": "https://sdilej.cz/30757390/dej-do-toho-vsechno-s01e03-2025-cz-dabing-hd-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224107",
+        "display_name": "Win or Lose S01E03 Raspberry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:52:34.130652+00:00"
       }
     },
     "3080:1:1": {
@@ -781243,7 +781244,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:52:23.004220+00:00",
+  "updated_at": "2026-11-21T08:52:34.130670+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
