@@ -765907,12 +765907,6 @@
     },
     "1564:7:4": {
       "episode_key": "spravedlnost v krvi:s7:e4",
-      "claim": {
-        "worker_id": "3ebee0dc151643dba80d4891869a69a9-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:34:49.823459+00:00",
-        "lease_expires_at": "2026-11-21T10:34:49.823477+00:00"
-      },
       "source": {
         "source_id": "32121436",
         "source_url": "https://sdilej.cz/32121436/spravedlnost-v-krvi-s07e04-cz.mp4",
@@ -765937,22 +765931,29 @@
         "display_name": "Blue Bloods S07E04 Mob Rules 720p CZ Dabing",
         "prepared_at": "2026-11-21T04:34:56.424757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220099",
-        "size_bytes": 785801998
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220099",
-        "size_bytes": 785801998,
-        "source_bytes_read": 785801998,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220099",
         "source_bytes_read": 785801998,
         "elapsed_seconds": 64.244,
         "finished_at": "2026-11-21T04:36:30.518103+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220099",
+          "size_bytes": 785801998,
+          "source_bytes_read": 785801998,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121436",
+        "source_url": "https://sdilej.cz/32121436/spravedlnost-v-krvi-s07e04-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220099",
+        "display_name": "Blue Bloods S07E04 Mob Rules 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:36:38.907629+00:00"
       }
     },
     "1564:7:5": {
@@ -765998,7 +765999,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:36:30.518124+00:00",
+  "updated_at": "2026-11-21T04:36:38.907644+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
