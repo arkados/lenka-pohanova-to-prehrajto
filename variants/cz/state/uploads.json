@@ -802996,12 +802996,6 @@
     },
     "1198:9:9": {
       "episode_key": "chirurgové:s9:e9",
-      "claim": {
-        "worker_id": "c9a4520a51fe475eaf653ec69f850392-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:44:48.003898+00:00",
-        "lease_expires_at": "2026-11-22T03:44:48.003916+00:00"
-      },
       "source": {
         "source_id": "27697118",
         "source_url": "https://sdilej.cz/27697118/chirurgove-s09e09-cz.mkv",
@@ -803026,22 +803020,29 @@
         "display_name": "Grey's Anatomy S09E09 Run, Baby, Run 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:45:07.403139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237105",
-        "size_bytes": 1377833212
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237105",
-        "size_bytes": 1377833212,
-        "source_bytes_read": 1377833212,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237105",
         "source_bytes_read": 1377833212,
         "elapsed_seconds": 99.968,
         "finished_at": "2026-11-21T21:47:30.113898+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237105",
+          "size_bytes": 1377833212,
+          "source_bytes_read": 1377833212,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697118",
+        "source_url": "https://sdilej.cz/27697118/chirurgove-s09e09-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237105",
+        "display_name": "Grey's Anatomy S09E09 Run, Baby, Run 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:47:37.381490+00:00"
       }
     },
     "1198:9:10": {
@@ -803137,7 +803138,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:47:30.113921+00:00",
+  "updated_at": "2026-11-21T21:47:37.381507+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
