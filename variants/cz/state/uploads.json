@@ -784715,28 +784715,29 @@
           "at": "2026-11-21T19:12:44.383999+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a8469622e33249368d143d7a19073a9b-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:12:49.670870+00:00",
-        "lease_expires_at": "2026-11-22T01:12:49.670886+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31234727",
-        "size_bytes": 765661456
-      },
-      "transfer_receipt": {
-        "target_video_id": "31234727",
-        "size_bytes": 765661456,
-        "source_bytes_read": 765661456,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31234727",
         "source_bytes_read": 765661456,
         "elapsed_seconds": 53.836,
         "finished_at": "2026-11-21T19:14:22.668205+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31234727",
+          "size_bytes": 765661456,
+          "source_bytes_read": 765661456,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33846923",
+        "source_url": "https://sdilej.cz/33846923/znovu-20-2016-s02e07-czdab-1080p-into-the-woods-out-of-the-woods.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31234727",
+        "display_name": "Younger S02E07 Into the Woods & Out of the Woods 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T19:14:40.028342+00:00"
       }
     },
     "2004:2:8": {
@@ -801054,7 +801055,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:14:34.120588+00:00",
+  "updated_at": "2026-11-21T19:14:40.028362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
