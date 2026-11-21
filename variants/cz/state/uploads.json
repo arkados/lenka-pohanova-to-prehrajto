@@ -767604,12 +767604,6 @@
     },
     "1564:8:15": {
       "episode_key": "spravedlnost v krvi:s8:e15",
-      "claim": {
-        "worker_id": "422f4c240c2044179a2320524286599b-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T04:57:33.644720+00:00",
-        "lease_expires_at": "2026-11-21T10:57:33.644733+00:00"
-      },
       "source": {
         "source_id": "34252015",
         "source_url": "https://sdilej.cz/34252015/blue-bloods-08x15-odkaz-cz.mkv",
@@ -767634,22 +767628,29 @@
         "display_name": "Blue Bloods S08E15 Legacy 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:57:53.471161+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220469",
-        "size_bytes": 457097496
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220469",
-        "size_bytes": 457097496,
-        "source_bytes_read": 457097496,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220469",
         "source_bytes_read": 457097496,
         "elapsed_seconds": 23.006,
         "finished_at": "2026-11-21T04:58:47.644737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220469",
+          "size_bytes": 457097496,
+          "source_bytes_read": 457097496,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252015",
+        "source_url": "https://sdilej.cz/34252015/blue-bloods-08x15-odkaz-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220469",
+        "display_name": "Blue Bloods S08E15 Legacy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:59:08.698927+00:00"
       }
     },
     "1564:8:16": {
@@ -767724,7 +767725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:59:03.747987+00:00",
+  "updated_at": "2026-11-21T04:59:08.698940+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
