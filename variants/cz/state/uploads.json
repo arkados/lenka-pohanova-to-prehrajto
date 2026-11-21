@@ -762490,12 +762490,6 @@
     },
     "1564:4:3": {
       "episode_key": "spravedlnost v krvi:s4:e3",
-      "claim": {
-        "worker_id": "e48373c9978f472a9967edab8a1a934a-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:33:39.129428+00:00",
-        "lease_expires_at": "2026-11-21T09:33:39.129444+00:00"
-      },
       "source": {
         "source_id": "32117343",
         "source_url": "https://sdilej.cz/32117343/spravedlnost-v-krvi-s04e03-cz.mp4",
@@ -762520,22 +762514,29 @@
         "display_name": "Blue Bloods S04E03 To Protect and Serve 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:33:46.555422+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219163",
-        "size_bytes": 826725964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219163",
-        "size_bytes": 826725964,
-        "source_bytes_read": 826725964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219163",
         "source_bytes_read": 826725964,
         "elapsed_seconds": 62.979,
         "finished_at": "2026-11-21T03:35:24.851455+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219163",
+          "size_bytes": 826725964,
+          "source_bytes_read": 826725964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117343",
+        "source_url": "https://sdilej.cz/32117343/spravedlnost-v-krvi-s04e03-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219163",
+        "display_name": "Blue Bloods S04E03 To Protect and Serve 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:35:32.737351+00:00"
       }
     },
     "1564:4:4": {
@@ -762581,7 +762582,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:35:24.851474+00:00",
+  "updated_at": "2026-11-21T03:35:32.737369+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
