@@ -342660,12 +342660,6 @@
           "error": "CheckpointError"
         }
       ],
-      "claim": {
-        "worker_id": "ea97ae68b169457c9551e82f2a39a30b-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:29:28.571317+00:00",
-        "lease_expires_at": "2026-11-21T15:29:28.571336+00:00"
-      },
       "source": {
         "source_id": "25627463",
         "source_url": "https://sdilej.cz/25627463/mysak-mickey-2x19-rodeo.avi",
@@ -342690,22 +342684,29 @@
         "display_name": "Mickey Mouse S02E19 Bronco Busted SD CZ Dabing",
         "prepared_at": "2026-11-21T09:29:40.130221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224799",
-        "size_bytes": 44939612
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224799",
-        "size_bytes": 44939612,
-        "source_bytes_read": 44939612,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224799",
         "source_bytes_read": 44939612,
         "elapsed_seconds": 9.944,
         "finished_at": "2026-11-21T09:30:22.341972+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224799",
+          "size_bytes": 44939612,
+          "source_bytes_read": 44939612,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25627463",
+        "source_url": "https://sdilej.cz/25627463/mysak-mickey-2x19-rodeo.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224799",
+        "display_name": "Mickey Mouse S02E19 Bronco Busted SD CZ Dabing",
+        "uploaded_at": "2026-11-21T09:30:30.858651+00:00"
       }
     },
     "9693:3:10": {
@@ -783147,7 +783148,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:30:22.341993+00:00",
+  "updated_at": "2026-11-21T09:30:30.858671+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
