@@ -771429,12 +771429,6 @@
     },
     "1564:12:18": {
       "episode_key": "spravedlnost v krvi:s12:e18",
-      "claim": {
-        "worker_id": "fc005ea4041e4a4faea39d692493a354-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:53:23.359835+00:00",
-        "lease_expires_at": "2026-11-21T11:53:23.359845+00:00"
-      },
       "source": {
         "source_id": "26650574",
         "source_url": "https://sdilej.cz/26650574/spravedlnost-v-krvi-blue-bloods-s12e18-cz-dabing-720p.mkv",
@@ -771459,22 +771453,29 @@
         "display_name": "Blue Bloods S12E18 Long Lost 720p CZ Dabing",
         "prepared_at": "2026-11-21T05:53:35.342830+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221370",
-        "size_bytes": 887419770
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221370",
-        "size_bytes": 887419770,
-        "source_bytes_read": 887419770,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221370",
         "source_bytes_read": 887419770,
         "elapsed_seconds": 61.509,
         "finished_at": "2026-11-21T05:55:00.153732+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221370",
+          "size_bytes": 887419770,
+          "source_bytes_read": 887419770,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26650574",
+        "source_url": "https://sdilej.cz/26650574/spravedlnost-v-krvi-blue-bloods-s12e18-cz-dabing-720p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221370",
+        "display_name": "Blue Bloods S12E18 Long Lost 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:55:17.851320+00:00"
       }
     },
     "1564:12:19": {
@@ -771553,7 +771554,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:55:11.927577+00:00",
+  "updated_at": "2026-11-21T05:55:17.851334+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
