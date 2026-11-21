@@ -793544,12 +793544,6 @@
     },
     "2004:5:9": {
       "episode_key": "znovu 20:s5:e9",
-      "claim": {
-        "worker_id": "5ed295b99625421c9e13ac131b1af8af-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:52:48.934480+00:00",
-        "lease_expires_at": "2026-11-21T19:52:48.934492+00:00"
-      },
       "source": {
         "source_id": "33924083",
         "source_url": "https://sdilej.cz/33924083/znovu-20-s05e09-cz-dabing-1080p-full-hd.mkv",
@@ -793573,7 +793567,17 @@
         },
         "display_name": "Younger S05E09 Honk if You're Horny 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:53:04.145141+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33924083:https://sdilej.cz/33924083/znovu-20-s05e09-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T13:53:20.539770+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T13:53:20.539901+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1536:4:6": {
       "episode_key": "policejní bažanti:s4:e6",
@@ -793599,7 +793603,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:53:15.596862+00:00",
+  "updated_at": "2026-11-21T13:53:20.539912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -794217,19 +794221,19 @@
     "2004": {
       "recent_failures": [
         {
-          "identity": "2004:2:12",
-          "at": "2026-11-21T13:52:31.430074+00:00"
-        },
-        {
           "identity": "2004:4:1",
           "at": "2026-11-21T13:52:53.565047+00:00"
         },
         {
           "identity": "2004:5:7",
           "at": "2026-11-21T13:52:58.136331+00:00"
+        },
+        {
+          "identity": "2004:5:9",
+          "at": "2026-11-21T13:53:20.539770+00:00"
         }
       ],
-      "retry_after": "2026-11-21T14:02:58.136331+00:00"
+      "retry_after": "2026-11-21T14:03:20.539770+00:00"
     },
     "2372": {
       "recent_failures": [
