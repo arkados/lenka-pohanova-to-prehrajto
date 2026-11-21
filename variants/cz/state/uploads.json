@@ -766278,12 +766278,6 @@
     },
     "1564:7:11": {
       "episode_key": "spravedlnost v krvi:s7:e11",
-      "claim": {
-        "worker_id": "65c37940c812423db2cfa4730ab5cb36-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:39:48.960361+00:00",
-        "lease_expires_at": "2026-11-21T10:39:48.960375+00:00"
-      },
       "source": {
         "source_id": "34251280",
         "source_url": "https://sdilej.cz/34251280/blue-bloods-07x11-genetika-cz.mkv",
@@ -766308,22 +766302,29 @@
         "display_name": "Blue Bloods S07E11 Genetics 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:39:54.637031+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220187",
-        "size_bytes": 356483424
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220187",
-        "size_bytes": 356483424,
-        "source_bytes_read": 356483424,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220187",
         "source_bytes_read": 356483424,
         "elapsed_seconds": 17.997,
         "finished_at": "2026-11-21T04:40:48.723550+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220187",
+          "size_bytes": 356483424,
+          "source_bytes_read": 356483424,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251280",
+        "source_url": "https://sdilej.cz/34251280/blue-bloods-07x11-genetika-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220187",
+        "display_name": "Blue Bloods S07E11 Genetics 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:41:05.270308+00:00"
       }
     },
     "1564:7:12": {
@@ -766401,7 +766402,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:40:59.802346+00:00",
+  "updated_at": "2026-11-21T04:41:05.270322+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
