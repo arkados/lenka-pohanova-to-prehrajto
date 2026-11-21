@@ -803065,28 +803065,29 @@
           "at": "2026-11-21T22:33:37.504342+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "15fa1ece0a1c4a34b38553571c242b6a-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:33:42.503845+00:00",
-        "lease_expires_at": "2026-11-22T04:33:42.503865+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31237947",
-        "size_bytes": 845102150
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237947",
-        "size_bytes": 845102150,
-        "source_bytes_read": 845102150,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237947",
         "source_bytes_read": 845102150,
         "elapsed_seconds": 109.988,
         "finished_at": "2026-11-21T22:36:09.051199+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237947",
+          "size_bytes": 845102150,
+          "source_bytes_read": 845102150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33261809",
+        "source_url": "https://sdilej.cz/33261809/znovu-20-s06e12-12-2019-cz-dab-navzdy.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237947",
+        "display_name": "Younger S06E12 Forever 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:36:17.513658+00:00"
       }
     },
     "2004:7:1": {
@@ -804238,7 +804239,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:36:09.051225+00:00",
+  "updated_at": "2026-11-21T22:36:17.513678+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
