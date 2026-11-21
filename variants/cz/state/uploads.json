@@ -768930,12 +768930,6 @@
     },
     "1564:9:20": {
       "episode_key": "spravedlnost v krvi:s9:e20",
-      "claim": {
-        "worker_id": "b56509a7e56d47c2823004a8d41f0d66-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:19:10.944735+00:00",
-        "lease_expires_at": "2026-11-21T11:19:10.944746+00:00"
-      },
       "source": {
         "source_id": "34252412",
         "source_url": "https://sdilej.cz/34252412/blue-bloods-09x20-zvlastni-spojenci-web-rip-cz.mkv",
@@ -768960,22 +768954,29 @@
         "display_name": "Blue Bloods S09E20 Strange Bedfellows 720p CZ Dabing",
         "prepared_at": "2026-11-21T05:19:27.386705+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220806",
-        "size_bytes": 243253294
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220806",
-        "size_bytes": 243253294,
-        "source_bytes_read": 243253294,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220806",
         "source_bytes_read": 243253294,
         "elapsed_seconds": 17.807,
         "finished_at": "2026-11-21T05:20:15.038880+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220806",
+          "size_bytes": 243253294,
+          "source_bytes_read": 243253294,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252412",
+        "source_url": "https://sdilej.cz/34252412/blue-bloods-09x20-zvlastni-spojenci-web-rip-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220806",
+        "display_name": "Blue Bloods S09E20 Strange Bedfellows 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:20:21.871341+00:00"
       }
     }
   },
@@ -768984,7 +768985,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:20:15.038901+00:00",
+  "updated_at": "2026-11-21T05:20:21.871359+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
