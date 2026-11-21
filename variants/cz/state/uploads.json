@@ -760617,12 +760617,6 @@
     },
     "1564:2:11": {
       "episode_key": "spravedlnost v krvi:s2:e11",
-      "claim": {
-        "worker_id": "23ee73b0250c489ab931a84b1e855f72-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:57:47.009197+00:00",
-        "lease_expires_at": "2026-11-21T08:57:47.009216+00:00"
-      },
       "source": {
         "source_id": "34244227",
         "source_url": "https://sdilej.cz/34244227/blue-bloods-02x11-modra-uniforma-dvd-rip-cz.avi",
@@ -760647,22 +760641,29 @@
         "display_name": "Blue Bloods S02E11 The Uniform SD CZ Dabing",
         "prepared_at": "2026-11-21T02:57:54.510950+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218612",
-        "size_bytes": 383830016
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218612",
-        "size_bytes": 383830016,
-        "source_bytes_read": 383830016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218612",
         "source_bytes_read": 383830016,
         "elapsed_seconds": 27.399,
         "finished_at": "2026-11-21T02:58:54.093894+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218612",
+          "size_bytes": 383830016,
+          "source_bytes_read": 383830016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34244227",
+        "source_url": "https://sdilej.cz/34244227/blue-bloods-02x11-modra-uniforma-dvd-rip-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218612",
+        "display_name": "Blue Bloods S02E11 The Uniform SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:59:04.942393+00:00"
       }
     },
     "1564:2:12": {
@@ -760704,7 +760705,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:58:59.774299+00:00",
+  "updated_at": "2026-11-21T02:59:04.942409+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
