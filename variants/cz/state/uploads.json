@@ -787623,12 +787623,6 @@
     },
     "2679:1:7": {
       "episode_key": "velká láska:s1:e7",
-      "claim": {
-        "worker_id": "191a902ac5494a978c7a6a14fdb03f6c-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:59:04.357382+00:00",
-        "lease_expires_at": "2026-11-21T16:59:04.357402+00:00"
-      },
       "source": {
         "source_id": "34786121",
         "source_url": "https://sdilej.cz/34786121/velka-laska-s01e07-12-2006-cz-dab-1080p-vyklizeni.mkv",
@@ -787653,22 +787647,29 @@
         "display_name": "Big Love S01E07 Eviction 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:59:19.726968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226655",
-        "size_bytes": 3556401758
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226655",
-        "size_bytes": 3556401758,
-        "source_bytes_read": 3556401758,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226655",
         "source_bytes_read": 3556401758,
         "elapsed_seconds": 251.691,
         "finished_at": "2026-11-21T11:04:03.164459+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226655",
+          "size_bytes": 3556401758,
+          "source_bytes_read": 3556401758,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786121",
+        "source_url": "https://sdilej.cz/34786121/velka-laska-s01e07-12-2006-cz-dab-1080p-vyklizeni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226655",
+        "display_name": "Big Love S01E07 Eviction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:04:12.063595+00:00"
       }
     },
     "2679:1:8": {
@@ -787751,7 +787752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:04:03.164481+00:00",
+  "updated_at": "2026-11-21T11:04:12.063613+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
