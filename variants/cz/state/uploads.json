@@ -780240,12 +780240,6 @@
     },
     "2196:6:18": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s6:e18",
-      "claim": {
-        "worker_id": "50599305569947a0bd7dd97e2765de7f-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T08:27:12.241325+00:00",
-        "lease_expires_at": "2026-11-21T14:27:12.241345+00:00"
-      },
       "source": {
         "source_id": "33882743",
         "source_url": "https://sdilej.cz/33882743/rizzoli-isles-vrazdy-na-pitevne-s06e18-092-2016-fhd-vystrel-ve-tme-s-.mp4",
@@ -780270,22 +780264,29 @@
         "display_name": "Rizzoli & Isles S06E18 A Shot in the Dark 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:27:23.411708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31223702",
-        "size_bytes": 864369082
-      },
-      "transfer_receipt": {
-        "target_video_id": "31223702",
-        "size_bytes": 864369082,
-        "source_bytes_read": 864369082,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31223702",
         "source_bytes_read": 864369082,
         "elapsed_seconds": 72.215,
         "finished_at": "2026-11-21T08:29:04.840283+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31223702",
+          "size_bytes": 864369082,
+          "source_bytes_read": 864369082,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882743",
+        "source_url": "https://sdilej.cz/33882743/rizzoli-isles-vrazdy-na-pitevne-s06e18-092-2016-fhd-vystrel-ve-tme-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31223702",
+        "display_name": "Rizzoli & Isles S06E18 A Shot in the Dark 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:29:12.934324+00:00"
       }
     },
     "2196:7:1": {
@@ -780368,7 +780369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:29:04.840305+00:00",
+  "updated_at": "2026-11-21T08:29:12.934343+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
