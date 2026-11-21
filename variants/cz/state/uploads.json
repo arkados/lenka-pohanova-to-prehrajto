@@ -779162,12 +779162,6 @@
     },
     "2196:6:1": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s6:e1",
-      "claim": {
-        "worker_id": "a5cc41d245e04cb38885d91c77a16d76-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:04:03.593956+00:00",
-        "lease_expires_at": "2026-11-21T14:04:03.593971+00:00"
-      },
       "source": {
         "source_id": "33882673",
         "source_url": "https://sdilej.cz/33882673/rizzoli-isles-vrazdy-na-pitevne-s06e01-075-2015-fhd-osudove-nastupiste-s-.mp4",
@@ -779192,22 +779186,29 @@
         "display_name": "Rizzoli & Isles S06E01 The Platform 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:04:24.236176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31223417",
-        "size_bytes": 865675283
-      },
-      "transfer_receipt": {
-        "target_video_id": "31223417",
-        "size_bytes": 865675283,
-        "source_bytes_read": 865675283,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31223417",
         "source_bytes_read": 865675283,
         "elapsed_seconds": 76.551,
         "finished_at": "2026-11-21T08:06:07.697905+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31223417",
+          "size_bytes": 865675283,
+          "source_bytes_read": 865675283,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882673",
+        "source_url": "https://sdilej.cz/33882673/rizzoli-isles-vrazdy-na-pitevne-s06e01-075-2015-fhd-osudove-nastupiste-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31223417",
+        "display_name": "Rizzoli & Isles S06E01 The Platform 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:06:24.618649+00:00"
       }
     },
     "2196:6:2": {
@@ -779299,7 +779300,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:06:18.813571+00:00",
+  "updated_at": "2026-11-21T08:06:24.618665+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
