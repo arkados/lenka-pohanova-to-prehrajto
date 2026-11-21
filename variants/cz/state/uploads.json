@@ -787013,12 +787013,6 @@
     },
     "2679:1:1": {
       "episode_key": "velká láska:s1:e1",
-      "claim": {
-        "worker_id": "7ffcc074f08f4d73acb96de6d7bd5029-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:43:22.607185+00:00",
-        "lease_expires_at": "2026-11-21T16:43:22.607202+00:00"
-      },
       "source": {
         "source_id": "33473149",
         "source_url": "https://sdilej.cz/33473149/velka-laska-s01e01-12-2006-cz-dab-1080p-pilot.mkv",
@@ -787043,22 +787037,29 @@
         "display_name": "Big Love S01E01 Big Love 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:43:43.112393+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226353",
-        "size_bytes": 3086441020
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226353",
-        "size_bytes": 3086441020,
-        "source_bytes_read": 3086441020,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226353",
         "source_bytes_read": 3086441020,
         "elapsed_seconds": 233.617,
         "finished_at": "2026-11-21T10:48:02.918619+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226353",
+          "size_bytes": 3086441020,
+          "source_bytes_read": 3086441020,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33473149",
+        "source_url": "https://sdilej.cz/33473149/velka-laska-s01e01-12-2006-cz-dab-1080p-pilot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226353",
+        "display_name": "Big Love S01E01 Big Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:48:12.069488+00:00"
       }
     },
     "2679:1:2": {
@@ -787192,7 +787193,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:48:02.918638+00:00",
+  "updated_at": "2026-11-21T10:48:12.069505+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
