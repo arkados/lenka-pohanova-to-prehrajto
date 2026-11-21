@@ -754797,12 +754797,6 @@
     },
     "38:9:5": {
       "episode_key": "průměrňákovi:s9:e5",
-      "claim": {
-        "worker_id": "9f21b9ee1cdf4a5091cec49689ce65c0-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:21:33.254804+00:00",
-        "lease_expires_at": "2026-11-21T07:21:33.254823+00:00"
-      },
       "source": {
         "source_id": "27605880",
         "source_url": "https://sdilej.cz/27605880/prumernakovi-s09e05-cz.mkv",
@@ -754827,22 +754821,29 @@
         "display_name": "The Middle S09E05 Role of a Lifetime 1080p CZ Dabing",
         "prepared_at": "2026-11-21T01:21:56.113003+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217072",
-        "size_bytes": 946372079
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217072",
-        "size_bytes": 946372079,
-        "source_bytes_read": 946372079,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217072",
         "source_bytes_read": 946372079,
         "elapsed_seconds": 43.873,
         "finished_at": "2026-11-21T01:23:14.437329+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217072",
+          "size_bytes": 946372079,
+          "source_bytes_read": 946372079,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27605880",
+        "source_url": "https://sdilej.cz/27605880/prumernakovi-s09e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217072",
+        "display_name": "The Middle S09E05 Role of a Lifetime 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:23:30.052520+00:00"
       }
     },
     "38:9:6": {
@@ -754901,7 +754902,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:23:24.809861+00:00",
+  "updated_at": "2026-11-21T01:23:30.052543+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
