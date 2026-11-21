@@ -769899,12 +769899,6 @@
     },
     "1564:10:18": {
       "episode_key": "spravedlnost v krvi:s10:e18",
-      "claim": {
-        "worker_id": "778a05306bc44fa5b40133157c8ecd92-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:33:16.113931+00:00",
-        "lease_expires_at": "2026-11-21T11:33:16.113942+00:00"
-      },
       "source": {
         "source_id": "34252739",
         "source_url": "https://sdilej.cz/34252739/blue-bloods-10x18-skryty-vsem-na-ocich-hdtv-cz.mkv",
@@ -769929,22 +769923,29 @@
         "display_name": "Blue Bloods S10E18 Hide in Plain Sight 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:33:30.754635+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221003",
-        "size_bytes": 539548018
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221003",
-        "size_bytes": 539548018,
-        "source_bytes_read": 539548018,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221003",
         "source_bytes_read": 539548018,
         "elapsed_seconds": 25.684,
         "finished_at": "2026-11-21T05:34:22.567808+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221003",
+          "size_bytes": 539548018,
+          "source_bytes_read": 539548018,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252739",
+        "source_url": "https://sdilej.cz/34252739/blue-bloods-10x18-skryty-vsem-na-ocich-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221003",
+        "display_name": "Blue Bloods S10E18 Hide in Plain Sight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:34:34.569161+00:00"
       }
     }
   },
@@ -769953,7 +769954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:34:28.726572+00:00",
+  "updated_at": "2026-11-21T05:34:34.569175+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
