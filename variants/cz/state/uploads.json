@@ -791612,28 +791612,29 @@
           "at": "2026-11-21T20:10:44.430754+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a548b9358ed14205a0f585dda460dde3-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:10:49.547373+00:00",
-        "lease_expires_at": "2026-11-22T02:10:49.547393+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31235776",
-        "size_bytes": 340755400
-      },
-      "transfer_receipt": {
-        "target_video_id": "31235776",
-        "size_bytes": 340755400,
-        "source_bytes_read": 340755400,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31235776",
         "source_bytes_read": 340755400,
         "elapsed_seconds": 35.755,
         "finished_at": "2026-11-21T20:12:25.374226+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31235776",
+          "size_bytes": 340755400,
+          "source_bytes_read": 340755400,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12968820",
+        "source_url": "https://sdilej.cz/12968820/znovu-20-s05e04.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31235776",
+        "display_name": "Younger S05E04 The Talented Mr. Ridley SD CZ Dabing",
+        "uploaded_at": "2026-11-21T20:12:33.191511+00:00"
       }
     },
     "1163:2:11": {
@@ -801548,7 +801549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:12:25.374246+00:00",
+  "updated_at": "2026-11-21T20:12:33.191530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
