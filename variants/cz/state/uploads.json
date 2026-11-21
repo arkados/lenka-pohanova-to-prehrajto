@@ -759546,12 +759546,6 @@
     },
     "1564:1:12": {
       "episode_key": "spravedlnost v krvi:s1:e12",
-      "claim": {
-        "worker_id": "4cf5104e7e334296a12af89c4c27ef8d-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:41:52.928071+00:00",
-        "lease_expires_at": "2026-11-21T08:41:52.928092+00:00"
-      },
       "source": {
         "source_id": "32117255",
         "source_url": "https://sdilej.cz/32117255/spravedlnost-v-krvi-s01e12-cz.mp4",
@@ -759576,22 +759570,29 @@
         "display_name": "Blue Bloods S01E12 Family Ties 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:41:59.326830+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218315",
-        "size_bytes": 872789490
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218315",
-        "size_bytes": 872789490,
-        "source_bytes_read": 872789490,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218315",
         "source_bytes_read": 872789490,
         "elapsed_seconds": 44.345,
         "finished_at": "2026-11-21T02:43:17.837226+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218315",
+          "size_bytes": 872789490,
+          "source_bytes_read": 872789490,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117255",
+        "source_url": "https://sdilej.cz/32117255/spravedlnost-v-krvi-s01e12-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218315",
+        "display_name": "Blue Bloods S01E12 Family Ties 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:43:30.001855+00:00"
       }
     },
     "1564:1:13": {
@@ -759674,7 +759675,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:43:23.014928+00:00",
+  "updated_at": "2026-11-21T02:43:30.001874+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
