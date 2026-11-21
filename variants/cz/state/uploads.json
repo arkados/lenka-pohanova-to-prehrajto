@@ -794142,12 +794142,6 @@
     },
     "1536:6:1": {
       "episode_key": "policejní bažanti:s6:e1",
-      "claim": {
-        "worker_id": "4265f4789b69468387016e1f9c3e2540-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:59:49.598011+00:00",
-        "lease_expires_at": "2026-11-21T19:59:49.598024+00:00"
-      },
       "source": {
         "source_id": "28006830",
         "source_url": "https://sdilej.cz/28006830/policejni-bazanti-s06e01-nasilnik.mkv",
@@ -794172,22 +794166,29 @@
         "display_name": "Rookie Blue S06E01 Open Windows 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:00:15.683820+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229858",
-        "size_bytes": 891687645
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229858",
-        "size_bytes": 891687645,
-        "source_bytes_read": 891687645,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229858",
         "source_bytes_read": 891687645,
         "elapsed_seconds": 61.976,
         "finished_at": "2026-11-21T14:01:47.544311+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229858",
+          "size_bytes": 891687645,
+          "source_bytes_read": 891687645,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28006830",
+        "source_url": "https://sdilej.cz/28006830/policejni-bazanti-s06e01-nasilnik.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229858",
+        "display_name": "Rookie Blue S06E01 Open Windows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:02:04.679483+00:00"
       }
     },
     "1536:6:2": {
@@ -794269,7 +794270,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:01:59.310437+00:00",
+  "updated_at": "2026-11-21T14:02:04.679498+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
