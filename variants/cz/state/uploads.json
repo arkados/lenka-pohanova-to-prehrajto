@@ -766329,12 +766329,6 @@
     },
     "1564:7:12": {
       "episode_key": "spravedlnost v krvi:s7:e12",
-      "claim": {
-        "worker_id": "bc5752a5e2984790b77bb09def47c38d-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:40:31.655989+00:00",
-        "lease_expires_at": "2026-11-21T10:40:31.656001+00:00"
-      },
       "source": {
         "source_id": "34251290",
         "source_url": "https://sdilej.cz/34251290/blue-bloods-07x12-navrat-cz.mkv",
@@ -766359,22 +766353,29 @@
         "display_name": "Blue Bloods S07E12 Not Fade Away 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:40:38.999011+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220193",
-        "size_bytes": 362626271
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220193",
-        "size_bytes": 362626271,
-        "source_bytes_read": 362626271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220193",
         "source_bytes_read": 362626271,
         "elapsed_seconds": 19.847,
         "finished_at": "2026-11-21T04:41:39.627960+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220193",
+          "size_bytes": 362626271,
+          "source_bytes_read": 362626271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251290",
+        "source_url": "https://sdilej.cz/34251290/blue-bloods-07x12-navrat-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220193",
+        "display_name": "Blue Bloods S07E12 Not Fade Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:41:55.593053+00:00"
       }
     },
     "1564:7:13": {
@@ -766469,7 +766470,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:41:50.970050+00:00",
+  "updated_at": "2026-11-21T04:41:55.593068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
