@@ -799952,12 +799952,6 @@
     },
     "1198:8:5": {
       "episode_key": "chirurgové:s8:e5",
-      "claim": {
-        "worker_id": "8c27363f5a714f0ea0cf57771bfcb26c-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:34:14.683844+00:00",
-        "lease_expires_at": "2026-11-21T22:34:14.683857+00:00"
-      },
       "source": {
         "source_id": "35072818",
         "source_url": "https://sdilej.cz/35072818/chirurgove-cz-s08e05-gg-..mp4",
@@ -799982,22 +799976,29 @@
         "display_name": "Grey's Anatomy S08E05 Love, Loss and Legacy 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:34:30.390719+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232371",
-        "size_bytes": 855426137
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232371",
-        "size_bytes": 855426137,
-        "source_bytes_read": 855426137,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232371",
         "source_bytes_read": 855426137,
         "elapsed_seconds": 71.536,
         "finished_at": "2026-11-21T16:36:14.881836+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232371",
+          "size_bytes": 855426137,
+          "source_bytes_read": 855426137,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072818",
+        "source_url": "https://sdilej.cz/35072818/chirurgove-cz-s08e05-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232371",
+        "display_name": "Grey's Anatomy S08E05 Love, Loss and Legacy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:36:32.060404+00:00"
       }
     },
     "1198:8:6": {
@@ -800089,7 +800090,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:36:25.986125+00:00",
+  "updated_at": "2026-11-21T16:36:32.060422+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
