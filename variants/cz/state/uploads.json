@@ -775609,12 +775609,6 @@
     },
     "2196:2:2": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s2:e2",
-      "claim": {
-        "worker_id": "4671c49048814da19d53e0430e33ad4e-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:01:20.200068+00:00",
-        "lease_expires_at": "2026-11-21T13:01:20.200081+00:00"
-      },
       "source": {
         "source_id": "33871368",
         "source_url": "https://sdilej.cz/33871368/rizzoli-isles-vrazdy-na-pitevne-s02e02-15-2011-cz-dab-1080p-dite-jako-dukaz.mkv",
@@ -775639,22 +775633,29 @@
         "display_name": "Rizzoli & Isles S02E02 Living Proof 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:01:26.480872+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222276",
-        "size_bytes": 532813981
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222276",
-        "size_bytes": 532813981,
-        "source_bytes_read": 532813981,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222276",
         "source_bytes_read": 532813981,
         "elapsed_seconds": 26.205,
         "finished_at": "2026-11-21T07:02:16.843403+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222276",
+          "size_bytes": 532813981,
+          "source_bytes_read": 532813981,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33871368",
+        "source_url": "https://sdilej.cz/33871368/rizzoli-isles-vrazdy-na-pitevne-s02e02-15-2011-cz-dab-1080p-dite-jako-dukaz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222276",
+        "display_name": "Rizzoli & Isles S02E02 Living Proof 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T07:02:33.899551+00:00"
       }
     }
   },
@@ -775663,7 +775664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:02:28.499836+00:00",
+  "updated_at": "2026-11-21T07:02:33.899566+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
