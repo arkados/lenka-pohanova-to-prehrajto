@@ -800155,12 +800155,6 @@
     },
     "1198:8:11": {
       "episode_key": "chirurgové:s8:e11",
-      "claim": {
-        "worker_id": "e503956a89a24844826f42198d4e59b2-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:37:06.317644+00:00",
-        "lease_expires_at": "2026-11-21T22:37:06.317659+00:00"
-      },
       "source": {
         "source_id": "35072815",
         "source_url": "https://sdilej.cz/35072815/chirurgove-cz-s08e11-gg-..mp4",
@@ -800201,7 +800195,13 @@
         "elapsed_seconds": 80.956,
         "finished_at": "2026-11-21T16:39:02.147747+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T16:40:51.045210+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -800209,7 +800209,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:40:28.791860+00:00",
+  "updated_at": "2026-11-21T16:40:51.045228+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
