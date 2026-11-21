@@ -801910,12 +801910,6 @@
     },
     "1198:8:15": {
       "episode_key": "chirurgové:s8:e15",
-      "claim": {
-        "worker_id": "7b7cd9c097874e87a3e7d9fa1472d360-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:30:49.805248+00:00",
-        "lease_expires_at": "2026-11-22T02:30:49.805267+00:00"
-      },
       "source": {
         "source_id": "35072827",
         "source_url": "https://sdilej.cz/35072827/chirurgove-cz-s08e15-gg-..mp4",
@@ -801940,22 +801934,29 @@
         "display_name": "Grey's Anatomy S08E15 Have You Seen Me Lately? 1080p CZ Dabing",
         "prepared_at": "2026-11-21T20:31:05.776550+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236059",
-        "size_bytes": 870285015
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236059",
-        "size_bytes": 870285015,
-        "source_bytes_read": 870285015,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236059",
         "source_bytes_read": 870285015,
         "elapsed_seconds": 88.636,
         "finished_at": "2026-11-21T20:33:02.435159+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236059",
+          "size_bytes": 870285015,
+          "source_bytes_read": 870285015,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072827",
+        "source_url": "https://sdilej.cz/35072827/chirurgove-cz-s08e15-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236059",
+        "display_name": "Grey's Anatomy S08E15 Have You Seen Me Lately? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T20:33:32.690752+00:00"
       }
     }
   },
@@ -801964,7 +801965,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:33:22.183033+00:00",
+  "updated_at": "2026-11-21T20:33:32.690770+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
