@@ -761025,12 +761025,6 @@
     },
     "1564:2:19": {
       "episode_key": "spravedlnost v krvi:s2:e19",
-      "claim": {
-        "worker_id": "9891207274f64aeba7b80a247f0ada1a-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:03:11.596921+00:00",
-        "lease_expires_at": "2026-11-21T09:03:11.596939+00:00"
-      },
       "source": {
         "source_id": "27754400",
         "source_url": "https://sdilej.cz/27754400/spravedlnost-v-krvi-s02e19-some-kind-of-hero.mkv",
@@ -761055,22 +761049,29 @@
         "display_name": "Blue Bloods S02E19 Some Kind of Hero SD CZ Dabing",
         "prepared_at": "2026-11-21T03:03:22.922399+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218703",
-        "size_bytes": 488280374
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218703",
-        "size_bytes": 488280374,
-        "source_bytes_read": 488280374,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218703",
         "source_bytes_read": 488280374,
         "elapsed_seconds": 115.649,
         "finished_at": "2026-11-21T03:05:51.810362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218703",
+          "size_bytes": 488280374,
+          "source_bytes_read": 488280374,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27754400",
+        "source_url": "https://sdilej.cz/27754400/spravedlnost-v-krvi-s02e19-some-kind-of-hero.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218703",
+        "display_name": "Blue Bloods S02E19 Some Kind of Hero SD CZ Dabing",
+        "uploaded_at": "2026-11-21T03:05:59.028614+00:00"
       }
     },
     "1564:2:20": {
@@ -761116,7 +761117,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:05:51.810382+00:00",
+  "updated_at": "2026-11-21T03:05:59.028633+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
