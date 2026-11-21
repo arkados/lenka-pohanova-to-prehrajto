@@ -767961,12 +767961,6 @@
     },
     "1564:8:22": {
       "episode_key": "spravedlnost v krvi:s8:e22",
-      "claim": {
-        "worker_id": "71691297a13e4384ac8d7086040bca21-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:02:35.999476+00:00",
-        "lease_expires_at": "2026-11-21T11:02:35.999487+00:00"
-      },
       "source": {
         "source_id": "34252084",
         "source_url": "https://sdilej.cz/34252084/blue-bloods-08x22-instinkt-cz.mkv",
@@ -767991,22 +767985,29 @@
         "display_name": "Blue Bloods S08E22 My Aim is True 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:02:57.609755+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220567",
-        "size_bytes": 474967259
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220567",
-        "size_bytes": 474967259,
-        "source_bytes_read": 474967259,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220567",
         "source_bytes_read": 474967259,
         "elapsed_seconds": 21.238,
         "finished_at": "2026-11-21T05:03:51.831526+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220567",
+          "size_bytes": 474967259,
+          "source_bytes_read": 474967259,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252084",
+        "source_url": "https://sdilej.cz/34252084/blue-bloods-08x22-instinkt-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220567",
+        "display_name": "Blue Bloods S08E22 My Aim is True 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:04:02.887239+00:00"
       }
     },
     "1564:9:1": {
@@ -768089,7 +768090,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:03:56.520440+00:00",
+  "updated_at": "2026-11-21T05:04:02.887254+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
