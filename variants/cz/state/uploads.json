@@ -761127,12 +761127,6 @@
     },
     "1564:2:21": {
       "episode_key": "spravedlnost v krvi:s2:e21",
-      "claim": {
-        "worker_id": "2ebe170003f84a2392c73c5c1e7edd35-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:06:57.129850+00:00",
-        "lease_expires_at": "2026-11-21T09:06:57.129871+00:00"
-      },
       "source": {
         "source_id": "32117297",
         "source_url": "https://sdilej.cz/32117297/spravedlnost-v-krvi-s02e21-cz.mp4",
@@ -761157,22 +761151,29 @@
         "display_name": "Blue Bloods S02E21 Collateral Damage 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:07:23.513581+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218770",
-        "size_bytes": 854417499
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218770",
-        "size_bytes": 854417499,
-        "source_bytes_read": 854417499,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218770",
         "source_bytes_read": 854417499,
         "elapsed_seconds": 51.286,
         "finished_at": "2026-11-21T03:08:42.905921+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218770",
+          "size_bytes": 854417499,
+          "source_bytes_read": 854417499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117297",
+        "source_url": "https://sdilej.cz/32117297/spravedlnost-v-krvi-s02e21-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218770",
+        "display_name": "Blue Bloods S02E21 Collateral Damage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:08:51.018398+00:00"
       }
     },
     "1564:3:1": {
@@ -761255,7 +761256,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:08:42.905952+00:00",
+  "updated_at": "2026-11-21T03:08:51.018429+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
