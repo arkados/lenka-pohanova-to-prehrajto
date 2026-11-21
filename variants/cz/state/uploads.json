@@ -796596,12 +796596,6 @@
     },
     "1198:4:2": {
       "episode_key": "chirurgové:s4:e2",
-      "claim": {
-        "worker_id": "42456666b1674453b2bd0b62f216f547-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:59:05.709327+00:00",
-        "lease_expires_at": "2026-11-21T20:59:05.709339+00:00"
-      },
       "source": {
         "source_id": "27688029",
         "source_url": "https://sdilej.cz/27688029/chirurgove-s04e02-cz.mkv",
@@ -796626,22 +796620,29 @@
         "display_name": "Grey's Anatomy S04E02 Love/Addiction 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:59:21.565147+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230791",
-        "size_bytes": 716192654
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230791",
-        "size_bytes": 716192654,
-        "source_bytes_read": 716192654,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230791",
         "source_bytes_read": 716192654,
         "elapsed_seconds": 60.637,
         "finished_at": "2026-11-21T15:01:01.379115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230791",
+          "size_bytes": 716192654,
+          "source_bytes_read": 716192654,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688029",
+        "source_url": "https://sdilej.cz/27688029/chirurgove-s04e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230791",
+        "display_name": "Grey's Anatomy S04E02 Love/Addiction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:01:18.523887+00:00"
       }
     },
     "1198:4:3": {
@@ -796701,7 +796702,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:01:11.404548+00:00",
+  "updated_at": "2026-11-21T15:01:18.523906+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
