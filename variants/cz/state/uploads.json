@@ -793132,12 +793132,6 @@
     },
     "1536:3:7": {
       "episode_key": "policejní bažanti:s3:e7",
-      "claim": {
-        "worker_id": "ebf934a6b7884dc9a28c37a568274e02-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:43:22.744884+00:00",
-        "lease_expires_at": "2026-11-21T19:43:22.744893+00:00"
-      },
       "source": {
         "source_id": "28000835",
         "source_url": "https://sdilej.cz/28000835/policejni-bazanti-s03e07-tezko-uverit.mkv",
@@ -793162,22 +793156,29 @@
         "display_name": "Rookie Blue S03E07 Leap of Faith 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:43:29.518579+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229564",
-        "size_bytes": 930181506
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229564",
-        "size_bytes": 930181506,
-        "source_bytes_read": 930181506,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229564",
         "source_bytes_read": 930181506,
         "elapsed_seconds": 106.565,
         "finished_at": "2026-11-21T13:45:51.497078+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229564",
+          "size_bytes": 930181506,
+          "source_bytes_read": 930181506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28000835",
+        "source_url": "https://sdilej.cz/28000835/policejni-bazanti-s03e07-tezko-uverit.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229564",
+        "display_name": "Rookie Blue S03E07 Leap of Faith 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:46:06.662511+00:00"
       }
     },
     "1536:3:8": {
@@ -793274,7 +793275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:46:02.111642+00:00",
+  "updated_at": "2026-11-21T13:46:06.662527+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
