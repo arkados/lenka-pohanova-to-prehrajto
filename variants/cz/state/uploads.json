@@ -787564,12 +787564,6 @@
     },
     "2004:4:5": {
       "episode_key": "znovu 20:s4:e5",
-      "claim": {
-        "worker_id": "2f3e01ee43754e7aa45d0b7307bff13f-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:55:25.527876+00:00",
-        "lease_expires_at": "2026-11-21T16:55:25.527898+00:00"
-      },
       "source": {
         "source_id": "33855216",
         "source_url": "https://sdilej.cz/33855216/younger-2017-s04e05-the-gift-of-the-maggie-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
@@ -787594,22 +787588,29 @@
         "display_name": "Younger S04E05 The Gift of the Maggie 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:55:43.026136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226594",
-        "size_bytes": 916895248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226594",
-        "size_bytes": 916895248,
-        "source_bytes_read": 916895248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226594",
         "source_bytes_read": 916895248,
         "elapsed_seconds": 84.573,
         "finished_at": "2026-11-21T10:57:40.252516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226594",
+          "size_bytes": 916895248,
+          "source_bytes_read": 916895248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33855216",
+        "source_url": "https://sdilej.cz/33855216/younger-2017-s04e05-the-gift-of-the-maggie-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226594",
+        "display_name": "Younger S04E05 The Gift of the Maggie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:57:52.062822+00:00"
       }
     }
   },
@@ -787618,7 +787619,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:57:46.390849+00:00",
+  "updated_at": "2026-11-21T10:57:52.062842+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
