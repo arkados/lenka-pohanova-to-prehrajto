@@ -764187,12 +764187,6 @@
     },
     "1564:5:14": {
       "episode_key": "spravedlnost v krvi:s5:e14",
-      "claim": {
-        "worker_id": "6b72d9e6180e494db8db06fea9b64ec5-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:00:13.799117+00:00",
-        "lease_expires_at": "2026-11-21T10:00:13.799132+00:00"
-      },
       "source": {
         "source_id": "32121306",
         "source_url": "https://sdilej.cz/32121306/spravedlnost-v-krvi-s05e14-cz.mp4",
@@ -764217,22 +764211,29 @@
         "display_name": "Blue Bloods S05E14 The Poor Door 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:00:26.787148+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219566",
-        "size_bytes": 885896152
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219566",
-        "size_bytes": 885896152,
-        "source_bytes_read": 885896152,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219566",
         "source_bytes_read": 885896152,
         "elapsed_seconds": 76.789,
         "finished_at": "2026-11-21T04:02:16.659150+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219566",
+          "size_bytes": 885896152,
+          "source_bytes_read": 885896152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121306",
+        "source_url": "https://sdilej.cz/32121306/spravedlnost-v-krvi-s05e14-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219566",
+        "display_name": "Blue Bloods S05E14 The Poor Door 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:02:33.879336+00:00"
       }
     },
     "1564:5:15": {
@@ -764274,7 +764275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:02:29.090211+00:00",
+  "updated_at": "2026-11-21T04:02:33.879355+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
