@@ -800916,12 +800916,6 @@
     },
     "52:4:9": {
       "episode_key": "12 opic:s4:e9",
-      "claim": {
-        "worker_id": "097a71bdf21240b78850b76e8c5aced7-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:10:44.593625+00:00",
-        "lease_expires_at": "2026-11-22T01:10:44.593642+00:00"
-      },
       "source": {
         "source_id": "33239809",
         "source_url": "https://sdilej.cz/33239809/12-opic-12-monkeys-s04e09-cz-dabing.mkv",
@@ -800945,7 +800939,17 @@
         },
         "display_name": "12 Monkeys S04E09 One Minute More 1080p CZ Dabing",
         "prepared_at": "2026-11-21T19:10:54.699105+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239809:https://sdilej.cz/33239809/12-opic-12-monkeys-s04e09-cz-dabing.mkv",
+        "at": "2026-11-21T19:11:14.489633+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T19:11:14.489671+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -800953,7 +800957,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:11:09.283006+00:00",
+  "updated_at": "2026-11-21T19:11:14.489676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -801560,6 +801564,10 @@
         {
           "identity": "52:2:11",
           "at": "2026-11-21T19:10:49.673010+00:00"
+        },
+        {
+          "identity": "52:4:9",
+          "at": "2026-11-21T19:11:14.489633+00:00"
         }
       ],
       "retry_after": "2026-11-21T17:32:40.778096+00:00"
