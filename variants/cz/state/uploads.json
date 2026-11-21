@@ -779860,12 +779860,6 @@
     },
     "52:3:6": {
       "episode_key": "12 opic:s3:e6",
-      "claim": {
-        "worker_id": "b750027987eb4711af5827b39dc1ca10-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:20:49.057835+00:00",
-        "lease_expires_at": "2026-11-21T14:20:49.057851+00:00"
-      },
       "source": {
         "source_id": "33239715",
         "source_url": "https://sdilej.cz/33239715/12-opic-12-monkeys-s03e06-cz-dabing.mkv",
@@ -779889,7 +779883,17 @@
         },
         "display_name": "12 Monkeys S03E06 Nature 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:21:04.833124+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239715:https://sdilej.cz/33239715/12-opic-12-monkeys-s03e06-cz-dabing.mkv",
+        "at": "2026-11-21T08:21:21.541302+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T08:21:21.541362+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:3:7": {
       "episode_key": "12 opic:s3:e7",
@@ -779915,7 +779919,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:21:16.898703+00:00",
+  "updated_at": "2026-11-21T08:21:21.541368+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -780530,9 +780534,13 @@
         {
           "identity": "52:3:3",
           "at": "2026-11-21T08:20:58.528612+00:00"
+        },
+        {
+          "identity": "52:3:6",
+          "at": "2026-11-21T08:21:21.541302+00:00"
         }
       ],
-      "retry_after": "2026-11-21T08:20:01.109860+00:00"
+      "retry_after": "2026-11-21T08:31:21.541302+00:00"
     }
   }
 }
