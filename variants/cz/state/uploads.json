@@ -776656,12 +776656,6 @@
     },
     "2196:3:4": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s3:e4",
-      "claim": {
-        "worker_id": "02465e1b5bbc4e76bf1c439f0de9ad8b-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:23:28.014636+00:00",
-        "lease_expires_at": "2026-11-21T13:23:28.014647+00:00"
-      },
       "source": {
         "source_id": "33882349",
         "source_url": "https://sdilej.cz/33882349/rizzoli-isles-vrazdy-na-pitevne-s03e04-029-2012-fhd-dum-panenek-s-.mp4",
@@ -776686,22 +776680,29 @@
         "display_name": "Rizzoli & Isles S03E04 Welcome to the Dollhouse 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:23:38.442660+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31222770",
-        "size_bytes": 865716922
-      },
-      "transfer_receipt": {
-        "target_video_id": "31222770",
-        "size_bytes": 865716922,
-        "source_bytes_read": 865716922,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31222770",
         "source_bytes_read": 865716922,
         "elapsed_seconds": 90.743,
         "finished_at": "2026-11-21T07:25:41.029097+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31222770",
+          "size_bytes": 865716922,
+          "source_bytes_read": 865716922,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33882349",
+        "source_url": "https://sdilej.cz/33882349/rizzoli-isles-vrazdy-na-pitevne-s03e04-029-2012-fhd-dum-panenek-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31222770",
+        "display_name": "Rizzoli & Isles S03E04 Welcome to the Dollhouse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T07:25:49.462334+00:00"
       }
     },
     "2196:3:5": {
@@ -776798,7 +776799,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:25:41.029117+00:00",
+  "updated_at": "2026-11-21T07:25:49.462347+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
