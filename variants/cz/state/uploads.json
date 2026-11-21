@@ -788067,28 +788067,29 @@
           "at": "2026-11-21T23:37:18.220030+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3c1d1e3ceb8f42a1a3cb161f7032c531-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:37:23.691600+00:00",
-        "lease_expires_at": "2026-11-22T05:37:23.691618+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31239025",
-        "size_bytes": 1409529041
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239025",
-        "size_bytes": 1409529041,
-        "source_bytes_read": 1409529041,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239025",
         "source_bytes_read": 1409529041,
         "elapsed_seconds": 127.182,
         "finished_at": "2026-11-21T23:40:19.702361+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239025",
+          "size_bytes": 1409529041,
+          "source_bytes_read": 1409529041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661201",
+        "source_url": "https://sdilej.cz/30661201/bila-kralovna-the-white-queen-s01e09-uncut-1080p-8bit-bluray-ac3-x265-hevc-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239025",
+        "display_name": "The White Queen S01E09 The Princes in the Tower 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:40:30.803777+00:00"
       }
     },
     "668:1:10": {
@@ -805690,7 +805691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:40:25.812282+00:00",
+  "updated_at": "2026-11-21T23:40:30.803795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
