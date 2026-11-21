@@ -791333,12 +791333,6 @@
     },
     "3114:1:12": {
       "episode_key": "šéfkuchař nadivoko:s1:e12",
-      "claim": {
-        "worker_id": "cb6ef4ed373349d389e1dc9be31f6b6f-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:51:37.473352+00:00",
-        "lease_expires_at": "2026-11-21T18:51:37.473361+00:00"
-      },
       "source": {
         "source_id": "12340453",
         "source_url": "https://sdilej.cz/12340453/kitchen.confidential.s01e12.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
@@ -791363,22 +791357,29 @@
         "display_name": "Kitchen Confidential S01E12 Power Play SD CZ Dabing",
         "prepared_at": "2026-11-21T12:51:44.163103+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228661",
-        "size_bytes": 221672521
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228661",
-        "size_bytes": 221672521,
-        "source_bytes_read": 221672521,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228661",
         "source_bytes_read": 221672521,
         "elapsed_seconds": 13.42,
         "finished_at": "2026-11-21T12:52:23.534783+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228661",
+          "size_bytes": 221672521,
+          "source_bytes_read": 221672521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12340453",
+        "source_url": "https://sdilej.cz/12340453/kitchen.confidential.s01e12.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228661",
+        "display_name": "Kitchen Confidential S01E12 Power Play SD CZ Dabing",
+        "uploaded_at": "2026-11-21T12:52:37.638609+00:00"
       }
     },
     "3114:1:13": {
@@ -791433,7 +791434,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:52:33.070946+00:00",
+  "updated_at": "2026-11-21T12:52:37.638624+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
