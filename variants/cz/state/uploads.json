@@ -791567,12 +791567,6 @@
     },
     "2004:5:6": {
       "episode_key": "znovu 20:s5:e6",
-      "claim": {
-        "worker_id": "53768142f4dc4753bb18027dd010895e-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:04:23.027318+00:00",
-        "lease_expires_at": "2026-11-21T19:04:23.027330+00:00"
-      },
       "source": {
         "source_id": "33923379",
         "source_url": "https://sdilej.cz/33923379/znovu-20-s05e06-cz-dabing-1080p-full-hd.mkv",
@@ -791596,7 +791590,17 @@
         },
         "display_name": "Younger S05E06 Sex, Liza and Rock & Roll 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:04:38.777890+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33923379:https://sdilej.cz/33923379/znovu-20-s05e06-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T13:04:54.503808+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T13:04:54.503871+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -791604,7 +791608,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:04:49.700410+00:00",
+  "updated_at": "2026-11-21T13:04:54.503877+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -792222,19 +792226,19 @@
     "2004": {
       "recent_failures": [
         {
-          "identity": "2004:4:4",
-          "at": "2026-11-21T13:04:00.982878+00:00"
-        },
-        {
           "identity": "2004:4:12",
           "at": "2026-11-21T13:04:28.109654+00:00"
         },
         {
           "identity": "2004:5:5",
           "at": "2026-11-21T13:04:49.700340+00:00"
+        },
+        {
+          "identity": "2004:5:6",
+          "at": "2026-11-21T13:04:54.503808+00:00"
         }
       ],
-      "retry_after": "2026-11-21T13:14:49.700340+00:00"
+      "retry_after": "2026-11-21T13:14:54.503808+00:00"
     },
     "2372": {
       "recent_failures": [
