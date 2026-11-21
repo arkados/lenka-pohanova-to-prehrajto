@@ -806483,12 +806483,6 @@
     },
     "1198:11:8": {
       "episode_key": "chirurgové:s11:e8",
-      "claim": {
-        "worker_id": "b5d3329064a6468ab3f22588da2738d0-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:53:46.866181+00:00",
-        "lease_expires_at": "2026-11-22T05:53:46.866199+00:00"
-      },
       "source": {
         "source_id": "27698504",
         "source_url": "https://sdilej.cz/27698504/chirurgove-s11e08-cz.mkv",
@@ -806513,22 +806507,29 @@
         "display_name": "Grey's Anatomy S11E08 Risk 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:54:00.248993+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239305",
-        "size_bytes": 572438937
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239305",
-        "size_bytes": 572438937,
-        "source_bytes_read": 572438937,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239305",
         "source_bytes_read": 572438937,
         "elapsed_seconds": 33.863,
         "finished_at": "2026-11-21T23:55:10.405121+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239305",
+          "size_bytes": 572438937,
+          "source_bytes_read": 572438937,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698504",
+        "source_url": "https://sdilej.cz/27698504/chirurgove-s11e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239305",
+        "display_name": "Grey's Anatomy S11E08 Risk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:55:22.525455+00:00"
       }
     },
     "1198:11:9": {
@@ -806611,7 +806612,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:55:15.714098+00:00",
+  "updated_at": "2026-11-21T23:55:22.525474+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
