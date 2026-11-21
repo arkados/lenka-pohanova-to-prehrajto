@@ -763830,12 +763830,6 @@
     },
     "1564:5:7": {
       "episode_key": "spravedlnost v krvi:s5:e7",
-      "claim": {
-        "worker_id": "a67605e1d8c44fea84f01bed95728a62-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:56:00.976031+00:00",
-        "lease_expires_at": "2026-11-21T09:56:00.976050+00:00"
-      },
       "source": {
         "source_id": "34249538",
         "source_url": "https://sdilej.cz/34249538/blue-bloods-05x07-zastrelte-posla-cz.avi",
@@ -763860,22 +763854,29 @@
         "display_name": "Blue Bloods S05E07 Shoot the Messenger SD CZ Dabing",
         "prepared_at": "2026-11-21T03:56:13.550892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219494",
-        "size_bytes": 367916924
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219494",
-        "size_bytes": 367916924,
-        "source_bytes_read": 367916924,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219494",
         "source_bytes_read": 367916924,
         "elapsed_seconds": 15.399,
         "finished_at": "2026-11-21T03:57:03.064948+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219494",
+          "size_bytes": 367916924,
+          "source_bytes_read": 367916924,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34249538",
+        "source_url": "https://sdilej.cz/34249538/blue-bloods-05x07-zastrelte-posla-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219494",
+        "display_name": "Blue Bloods S05E07 Shoot the Messenger SD CZ Dabing",
+        "uploaded_at": "2026-11-21T03:57:18.170398+00:00"
       }
     },
     "1564:5:8": {
@@ -763958,7 +763959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:57:12.851109+00:00",
+  "updated_at": "2026-11-21T03:57:18.170413+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
