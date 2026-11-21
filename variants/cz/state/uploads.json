@@ -799391,12 +799391,6 @@
     },
     "1198:7:15": {
       "episode_key": "chirurgové:s7:e15",
-      "claim": {
-        "worker_id": "bbf83a7a2d8843a4b1888f8ebde3bf45-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:13:46.794886+00:00",
-        "lease_expires_at": "2026-11-21T22:13:46.794900+00:00"
-      },
       "source": {
         "source_id": "34967296",
         "source_url": "https://sdilej.cz/34967296/chirurgove-cz-s07e15-gg-..mp4",
@@ -799421,22 +799415,29 @@
         "display_name": "Grey's Anatomy S07E15 Golden Hour 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:13:52.868557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232056",
-        "size_bytes": 829558716
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232056",
-        "size_bytes": 829558716,
-        "source_bytes_read": 829558716,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232056",
         "source_bytes_read": 829558716,
         "elapsed_seconds": 55.336,
         "finished_at": "2026-11-21T16:15:14.781592+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232056",
+          "size_bytes": 829558716,
+          "source_bytes_read": 829558716,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967296",
+        "source_url": "https://sdilej.cz/34967296/chirurgove-cz-s07e15-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232056",
+        "display_name": "Grey's Anatomy S07E15 Golden Hour 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:15:31.380495+00:00"
       }
     },
     "1198:7:16": {
@@ -799519,7 +799520,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:15:20.000990+00:00",
+  "updated_at": "2026-11-21T16:15:31.380511+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
