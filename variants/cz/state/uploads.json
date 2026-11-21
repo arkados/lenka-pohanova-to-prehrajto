@@ -804351,12 +804351,6 @@
     },
     "2004:7:11": {
       "episode_key": "znovu 20:s7:e11",
-      "claim": {
-        "worker_id": "6930b3314da64535ac475235ef895ceb-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:37:22.877050+00:00",
-        "lease_expires_at": "2026-11-22T04:37:22.877068+00:00"
-      },
       "source": {
         "source_id": "30755055",
         "source_url": "https://sdilej.cz/30755055/znovu-20-znovu-20-s07e11.mkv",
@@ -804381,22 +804375,29 @@
         "display_name": "Younger S07E11 Make No Mustique 1080p CZ Dabing",
         "prepared_at": "2026-11-21T22:37:33.847016+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238019",
-        "size_bytes": 955240066
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238019",
-        "size_bytes": 955240066,
-        "source_bytes_read": 955240066,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238019",
         "source_bytes_read": 955240066,
         "elapsed_seconds": 42.688,
         "finished_at": "2026-11-21T22:38:43.817854+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238019",
+          "size_bytes": 955240066,
+          "source_bytes_read": 955240066,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755055",
+        "source_url": "https://sdilej.cz/30755055/znovu-20-znovu-20-s07e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238019",
+        "display_name": "Younger S07E11 Make No Mustique 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:38:56.049467+00:00"
       }
     }
   },
@@ -804405,7 +804406,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:38:50.850221+00:00",
+  "updated_at": "2026-11-21T22:38:56.049486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
