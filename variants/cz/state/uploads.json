@@ -788069,12 +788069,6 @@
     },
     "2004:4:8": {
       "episode_key": "znovu 20:s4:e8",
-      "claim": {
-        "worker_id": "0de20b48c08240f78776cf9f68cefa7c-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:23:21.775693+00:00",
-        "lease_expires_at": "2026-11-21T17:23:21.775711+00:00"
-      },
       "source": {
         "source_id": "33916575",
         "source_url": "https://sdilej.cz/33916575/znovu-20-s04e08-cz-dabing-1080p-full-hd.mkv",
@@ -788098,7 +788092,17 @@
         },
         "display_name": "Younger S04E08 The Gelato and the Pube 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:23:37.763430+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33916575:https://sdilej.cz/33916575/znovu-20-s04e08-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T11:23:56.303739+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T11:23:56.303848+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:4:9": {
       "episode_key": "znovu 20:s4:e9",
@@ -788124,7 +788128,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:23:51.338554+00:00",
+  "updated_at": "2026-11-21T11:23:56.303857+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -788756,9 +788760,13 @@
         {
           "identity": "2004:4:4",
           "at": "2026-11-21T11:23:31.824540+00:00"
+        },
+        {
+          "identity": "2004:4:8",
+          "at": "2026-11-21T11:23:56.303739+00:00"
         }
       ],
-      "retry_after": "2026-11-21T11:19:17.924767+00:00"
+      "retry_after": "2026-11-21T11:33:56.303739+00:00"
     },
     "2372": {
       "recent_failures": [
