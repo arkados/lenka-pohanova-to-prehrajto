@@ -755876,12 +755876,6 @@
     },
     "1161:1:2": {
       "episode_key": "plastická chirurgie s. r. o.:s1:e2",
-      "claim": {
-        "worker_id": "4bd0213306cd4f3ab82456a47bd5b4c5-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:40:55.966787+00:00",
-        "lease_expires_at": "2026-11-21T07:40:55.966802+00:00"
-      },
       "source": {
         "source_id": "25483529",
         "source_url": "https://sdilej.cz/25483529/nip.tuck.s01e02.720p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -755906,22 +755900,29 @@
         "display_name": "Nip/Tuck S01E02 Mandi/Randi 720p CZ Dabing",
         "prepared_at": "2026-11-21T01:41:08.168314+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217394",
-        "size_bytes": 740478869
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217394",
-        "size_bytes": 740478869,
-        "source_bytes_read": 740478869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217394",
         "source_bytes_read": 740478869,
         "elapsed_seconds": 33.932,
         "finished_at": "2026-11-21T01:42:24.206267+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217394",
+          "size_bytes": 740478869,
+          "source_bytes_read": 740478869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25483529",
+        "source_url": "https://sdilej.cz/25483529/nip.tuck.s01e02.720p.hmax.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217394",
+        "display_name": "Nip/Tuck S01E02 Mandi/Randi 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:42:36.529434+00:00"
       }
     },
     "1161:1:4": {
@@ -755967,7 +755968,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:42:29.284056+00:00",
+  "updated_at": "2026-11-21T01:42:36.529457+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
