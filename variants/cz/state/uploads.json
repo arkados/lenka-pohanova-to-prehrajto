@@ -783770,12 +783770,6 @@
     },
     "2004:1:12": {
       "episode_key": "znovu 20:s1:e12",
-      "claim": {
-        "worker_id": "8cf9943f92724ed1bf6bda863a0cda94-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:42:45.287435+00:00",
-        "lease_expires_at": "2026-11-21T15:42:45.287452+00:00"
-      },
       "source": {
         "source_id": "33865592",
         "source_url": "https://sdilej.cz/33865592/younger-2015-s01e12-the-old-ma-am-and-the-c-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
@@ -783800,22 +783794,29 @@
         "display_name": "Younger S01E12 The Old Ma'am and the C 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:43:00.624585+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225070",
-        "size_bytes": 762388293
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225070",
-        "size_bytes": 762388293,
-        "source_bytes_read": 762388293,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225070",
         "source_bytes_read": 762388293,
         "elapsed_seconds": 58.632,
         "finished_at": "2026-11-21T09:44:38.998181+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225070",
+          "size_bytes": 762388293,
+          "source_bytes_read": 762388293,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33865592",
+        "source_url": "https://sdilej.cz/33865592/younger-2015-s01e12-the-old-ma-am-and-the-c-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225070",
+        "display_name": "Younger S01E12 The Old Ma'am and the C 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:44:48.031960+00:00"
       }
     },
     "2004:2:1": {
@@ -783935,7 +783936,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:44:38.998208+00:00",
+  "updated_at": "2026-11-21T09:44:48.031980+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
