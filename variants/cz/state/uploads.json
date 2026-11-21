@@ -761790,12 +761790,6 @@
     },
     "1564:3:12": {
       "episode_key": "spravedlnost v krvi:s3:e12",
-      "claim": {
-        "worker_id": "edd3c83a1f96443daf595fe0498116b1-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:21:35.279253+00:00",
-        "lease_expires_at": "2026-11-21T09:21:35.279274+00:00"
-      },
       "source": {
         "source_id": "32117316",
         "source_url": "https://sdilej.cz/32117316/spravedlnost-v-krvi-s03e12-cz.mp4",
@@ -761820,22 +761814,29 @@
         "display_name": "Blue Bloods S03E12 Framed 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:21:42.063688+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219011",
-        "size_bytes": 815992282
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219011",
-        "size_bytes": 815992282,
-        "source_bytes_read": 815992282,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219011",
         "source_bytes_read": 815992282,
         "elapsed_seconds": 69.194,
         "finished_at": "2026-11-21T03:23:20.218251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219011",
+          "size_bytes": 815992282,
+          "source_bytes_read": 815992282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117316",
+        "source_url": "https://sdilej.cz/32117316/spravedlnost-v-krvi-s03e12-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219011",
+        "display_name": "Blue Bloods S03E12 Framed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:23:38.822459+00:00"
       }
     },
     "1564:3:13": {
@@ -761932,7 +761933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:23:32.973755+00:00",
+  "updated_at": "2026-11-21T03:23:38.822478+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
