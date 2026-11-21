@@ -792567,12 +792567,6 @@
     },
     "1536:2:3": {
       "episode_key": "policejní bažanti:s2:e3",
-      "claim": {
-        "worker_id": "9f3d9454ce934086908c9f031f86d76e-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:31:20.293284+00:00",
-        "lease_expires_at": "2026-11-21T19:31:20.293297+00:00"
-      },
       "source": {
         "source_id": "27428882",
         "source_url": "https://sdilej.cz/27428882/policejni-bazanti-s02e03-cz.avi",
@@ -792597,22 +792591,29 @@
         "display_name": "Rookie Blue S02E03 Bad Moon Rising SD CZ Dabing",
         "prepared_at": "2026-11-21T13:31:25.810640+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229341",
-        "size_bytes": 383815680
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229341",
-        "size_bytes": 383815680,
-        "source_bytes_read": 383815680,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229341",
         "source_bytes_read": 383815680,
         "elapsed_seconds": 34.378,
         "finished_at": "2026-11-21T13:32:38.018488+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229341",
+          "size_bytes": 383815680,
+          "source_bytes_read": 383815680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27428882",
+        "source_url": "https://sdilej.cz/27428882/policejni-bazanti-s02e03-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229341",
+        "display_name": "Rookie Blue S02E03 Bad Moon Rising SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:32:49.011882+00:00"
       }
     },
     "1536:2:5": {
@@ -792695,7 +792696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:32:42.685019+00:00",
+  "updated_at": "2026-11-21T13:32:49.011899+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
