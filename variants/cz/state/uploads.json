@@ -763371,12 +763371,6 @@
     },
     "1564:4:20": {
       "episode_key": "spravedlnost v krvi:s4:e20",
-      "claim": {
-        "worker_id": "30c9b0242b1744d28174409b5d705554-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:48:12.382028+00:00",
-        "lease_expires_at": "2026-11-21T09:48:12.382048+00:00"
-      },
       "source": {
         "source_id": "32223793",
         "source_url": "https://sdilej.cz/32223793/spravedlnost-v-krvi-s04e20-cz.mp4",
@@ -763401,22 +763395,29 @@
         "display_name": "Blue Bloods S04E20 Custody Battle 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:48:18.588657+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219380",
-        "size_bytes": 852829669
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219380",
-        "size_bytes": 852829669,
-        "source_bytes_read": 852829669,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219380",
         "source_bytes_read": 852829669,
         "elapsed_seconds": 82.042,
         "finished_at": "2026-11-21T03:50:07.394351+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219380",
+          "size_bytes": 852829669,
+          "source_bytes_read": 852829669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32223793",
+        "source_url": "https://sdilej.cz/32223793/spravedlnost-v-krvi-s04e20-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219380",
+        "display_name": "Blue Bloods S04E20 Custody Battle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:50:16.646631+00:00"
       }
     },
     "1564:4:21": {
@@ -763499,7 +763500,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:50:07.394372+00:00",
+  "updated_at": "2026-11-21T03:50:16.646651+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
