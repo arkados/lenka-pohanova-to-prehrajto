@@ -799748,12 +799748,6 @@
     },
     "1198:8:1": {
       "episode_key": "chirurgové:s8:e1",
-      "claim": {
-        "worker_id": "bee63d35ee3d479aa70923ee48511458-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:27:02.279676+00:00",
-        "lease_expires_at": "2026-11-21T22:27:02.279688+00:00"
-      },
       "source": {
         "source_id": "35072779",
         "source_url": "https://sdilej.cz/35072779/chirurgove-cz-s08e01-gg-..mp4",
@@ -799778,22 +799772,29 @@
         "display_name": "Grey's Anatomy S08E01 Free Falling; She's Gone 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:27:08.973967+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232245",
-        "size_bytes": 858104070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232245",
-        "size_bytes": 858104070,
-        "source_bytes_read": 858104070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232245",
         "source_bytes_read": 858104070,
         "elapsed_seconds": 61.733,
         "finished_at": "2026-11-21T16:28:42.552281+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232245",
+          "size_bytes": 858104070,
+          "source_bytes_read": 858104070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072779",
+        "source_url": "https://sdilej.cz/35072779/chirurgove-cz-s08e01-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232245",
+        "display_name": "Grey's Anatomy S08E01 Free Falling; She's Gone 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:28:51.018112+00:00"
       }
     },
     "1198:8:2": {
@@ -799876,7 +799877,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:28:42.552310+00:00",
+  "updated_at": "2026-11-21T16:28:51.018129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
