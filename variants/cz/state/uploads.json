@@ -776415,12 +776415,6 @@
     },
     "52:2:13": {
       "episode_key": "12 opic:s2:e13",
-      "claim": {
-        "worker_id": "f55d2e9d9766489f97e68fbe7a725645-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T07:19:51.227672+00:00",
-        "lease_expires_at": "2026-11-21T13:19:51.227685+00:00"
-      },
       "source": {
         "source_id": "33239662",
         "source_url": "https://sdilej.cz/33239662/12-opic-12-monkeys-s02e13-cz-dabing.mkv",
@@ -776444,7 +776438,17 @@
         },
         "display_name": "12 Monkeys S02E13 Memory of Tomorrow 1080p CZ Dabing",
         "prepared_at": "2026-11-21T07:20:02.625495+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239662:https://sdilej.cz/33239662/12-opic-12-monkeys-s02e13-cz-dabing.mkv",
+        "at": "2026-11-21T07:20:17.895707+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T07:20:17.895773+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:3:1": {
       "episode_key": "12 opic:s3:e1",
@@ -776461,7 +776465,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T07:20:12.451408+00:00",
+  "updated_at": "2026-11-21T07:20:17.895782+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -777070,19 +777074,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:1:10",
-          "at": "2026-11-21T07:19:26.515197+00:00"
-        },
-        {
           "identity": "52:2:9",
           "at": "2026-11-21T07:19:46.386201+00:00"
         },
         {
           "identity": "52:2:10",
           "at": "2026-11-21T07:20:12.451334+00:00"
+        },
+        {
+          "identity": "52:2:13",
+          "at": "2026-11-21T07:20:17.895707+00:00"
         }
       ],
-      "retry_after": "2026-11-21T07:30:12.451334+00:00"
+      "retry_after": "2026-11-21T07:30:17.895707+00:00"
     }
   }
 }
