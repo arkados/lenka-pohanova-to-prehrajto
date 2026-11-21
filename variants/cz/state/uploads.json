@@ -779431,12 +779431,6 @@
     },
     "52:3:4": {
       "episode_key": "12 opic:s3:e4",
-      "claim": {
-        "worker_id": "c4c584101b824a21bc5741a5c82fe23d-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:09:22.479257+00:00",
-        "lease_expires_at": "2026-11-21T14:09:22.479268+00:00"
-      },
       "source": {
         "source_id": "33239694",
         "source_url": "https://sdilej.cz/33239694/12-opic-12-monkeys-s03e04-cz-dabing.mkv",
@@ -779460,7 +779454,17 @@
         },
         "display_name": "12 Monkeys S03E04 Brothers 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:09:37.153197+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239694:https://sdilej.cz/33239694/12-opic-12-monkeys-s03e04-cz-dabing.mkv",
+        "at": "2026-11-21T08:09:56.304354+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T08:09:56.304435+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:3:5": {
       "episode_key": "12 opic:s3:e5",
@@ -779501,7 +779505,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:09:51.208541+00:00",
+  "updated_at": "2026-11-21T08:09:56.304443+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -780108,9 +780112,13 @@
         {
           "identity": "52:2:12",
           "at": "2026-11-21T08:09:32.282047+00:00"
+        },
+        {
+          "identity": "52:3:4",
+          "at": "2026-11-21T08:09:56.304354+00:00"
         }
       ],
-      "retry_after": "2026-11-21T08:08:13.142375+00:00"
+      "retry_after": "2026-11-21T08:19:56.304354+00:00"
     }
   }
 }
