@@ -755516,12 +755516,6 @@
     },
     "38:9:19": {
       "episode_key": "průměrňákovi:s9:e19",
-      "claim": {
-        "worker_id": "0cfe6c342e7946268591cc8854f2928c-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:33:31.920351+00:00",
-        "lease_expires_at": "2026-11-21T07:33:31.920370+00:00"
-      },
       "source": {
         "source_id": "27607526",
         "source_url": "https://sdilej.cz/27607526/prumernakovi-s09e19-cz.mkv",
@@ -755546,22 +755540,29 @@
         "display_name": "The Middle S09E19 Bat Out Of Heck 1080p CZ Dabing",
         "prepared_at": "2026-11-21T01:33:43.190876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217264",
-        "size_bytes": 954509674
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217264",
-        "size_bytes": 954509674,
-        "source_bytes_read": 954509674,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217264",
         "source_bytes_read": 954509674,
         "elapsed_seconds": 85.931,
         "finished_at": "2026-11-21T01:35:38.954246+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217264",
+          "size_bytes": 954509674,
+          "source_bytes_read": 954509674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27607526",
+        "source_url": "https://sdilej.cz/27607526/prumernakovi-s09e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217264",
+        "display_name": "The Middle S09E19 Bat Out Of Heck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:35:50.798090+00:00"
       }
     }
   },
@@ -755570,7 +755571,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:35:44.710410+00:00",
+  "updated_at": "2026-11-21T01:35:50.798108+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
