@@ -796953,12 +796953,6 @@
     },
     "1198:4:8": {
       "episode_key": "chirurgové:s4:e8",
-      "claim": {
-        "worker_id": "bc2d7ef2a1934a399d8df91deed5ea0c-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:10:17.092463+00:00",
-        "lease_expires_at": "2026-11-21T21:10:17.092474+00:00"
-      },
       "source": {
         "source_id": "27688099",
         "source_url": "https://sdilej.cz/27688099/chirurgove-s04e08-cz.mkv",
@@ -796983,22 +796977,29 @@
         "display_name": "Grey's Anatomy S04E08 Forever Young 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:10:32.339690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230971",
-        "size_bytes": 745681922
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230971",
-        "size_bytes": 745681922,
-        "source_bytes_read": 745681922,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230971",
         "source_bytes_read": 745681922,
         "elapsed_seconds": 83.42,
         "finished_at": "2026-11-21T15:12:26.145056+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230971",
+          "size_bytes": 745681922,
+          "source_bytes_read": 745681922,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688099",
+        "source_url": "https://sdilej.cz/27688099/chirurgove-s04e08-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230971",
+        "display_name": "Grey's Anatomy S04E08 Forever Young 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:12:33.283510+00:00"
       }
     },
     "1198:4:9": {
@@ -797095,7 +797096,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:12:26.145073+00:00",
+  "updated_at": "2026-11-21T15:12:33.283525+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
