@@ -773490,24 +773490,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-21T13:50:51.146083+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-21T14:52:38.563111+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-21T15:54:40.546473+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-21T16:57:48.340506+00:00",
+          "error": "RetryError"
         }
-      ],
-      "claim": {
-        "worker_id": "9cfe861bc6aa4555bc95515a5549dabe-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:56:05.808347+00:00",
-        "lease_expires_at": "2026-11-21T22:56:05.808359+00:00"
-      }
+      ]
     },
     "52:2:3": {
       "episode_key": "12 opic:s2:e3",
@@ -800215,7 +800209,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:57:43.337629+00:00",
+  "updated_at": "2026-11-21T16:57:48.340526+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
