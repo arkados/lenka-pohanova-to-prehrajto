@@ -769803,12 +769803,6 @@
     },
     "1564:10:16": {
       "episode_key": "spravedlnost v krvi:s10:e16",
-      "claim": {
-        "worker_id": "b3f37c1ec72c4bbf9d231765723f4164-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:31:23.828899+00:00",
-        "lease_expires_at": "2026-11-21T11:31:23.828908+00:00"
-      },
       "source": {
         "source_id": "34252728",
         "source_url": "https://sdilej.cz/34252728/blue-bloods-10x16-prvnich-sto-dni-hdtv-cz.mkv",
@@ -769833,22 +769827,29 @@
         "display_name": "Blue Bloods S10E16 The First 100 Days 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:31:29.392387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220972",
-        "size_bytes": 556139935
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220972",
-        "size_bytes": 556139935,
-        "source_bytes_read": 556139935,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220972",
         "source_bytes_read": 556139935,
         "elapsed_seconds": 28.901,
         "finished_at": "2026-11-21T05:32:25.597830+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220972",
+          "size_bytes": 556139935,
+          "source_bytes_read": 556139935,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252728",
+        "source_url": "https://sdilej.cz/34252728/blue-bloods-10x16-prvnich-sto-dni-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220972",
+        "display_name": "Blue Bloods S10E16 The First 100 Days 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:32:42.275697+00:00"
       }
     }
   },
@@ -769857,7 +769858,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:32:37.350755+00:00",
+  "updated_at": "2026-11-21T05:32:42.275711+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
