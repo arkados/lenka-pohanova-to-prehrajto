@@ -800054,12 +800054,6 @@
     },
     "1198:8:8": {
       "episode_key": "chirurgové:s8:e8",
-      "claim": {
-        "worker_id": "ab0494dd257f4d5293f62bf59a5c457d-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:36:10.088111+00:00",
-        "lease_expires_at": "2026-11-21T22:36:10.088122+00:00"
-      },
       "source": {
         "source_id": "35072802",
         "source_url": "https://sdilej.cz/35072802/chirurgove-cz-s08e08-gg-..mp4",
@@ -800084,22 +800078,29 @@
         "display_name": "Grey's Anatomy S08E08 Heart-Shaped Box 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:36:20.717010+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232399",
-        "size_bytes": 857921062
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232399",
-        "size_bytes": 857921062,
-        "source_bytes_read": 857921062,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232399",
         "source_bytes_read": 857921062,
         "elapsed_seconds": 76.65,
         "finished_at": "2026-11-21T16:38:16.534136+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232399",
+          "size_bytes": 857921062,
+          "source_bytes_read": 857921062,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072802",
+        "source_url": "https://sdilej.cz/35072802/chirurgove-cz-s08e08-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232399",
+        "display_name": "Grey's Anatomy S08E08 Heart-Shaped Box 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:38:24.375588+00:00"
       }
     },
     "1198:8:9": {
@@ -800182,7 +800183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:38:16.534154+00:00",
+  "updated_at": "2026-11-21T16:38:24.375603+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
