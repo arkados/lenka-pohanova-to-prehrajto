@@ -795432,12 +795432,6 @@
     },
     "1198:3:1": {
       "episode_key": "chirurgové:s3:e1",
-      "claim": {
-        "worker_id": "cdcb986ce5b747359ca0703030912380-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:35:55.724006+00:00",
-        "lease_expires_at": "2026-11-21T20:35:55.724018+00:00"
-      },
       "source": {
         "source_id": "27682857",
         "source_url": "https://sdilej.cz/27682857/chirurgove-s03e01-cz.mkv",
@@ -795462,22 +795456,29 @@
         "display_name": "Grey's Anatomy S03E01 Time Has Come Today 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:36:01.195320+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230424",
-        "size_bytes": 612263474
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230424",
-        "size_bytes": 612263474,
-        "source_bytes_read": 612263474,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230424",
         "source_bytes_read": 612263474,
         "elapsed_seconds": 31.528,
         "finished_at": "2026-11-21T14:36:54.243349+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230424",
+          "size_bytes": 612263474,
+          "source_bytes_read": 612263474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27682857",
+        "source_url": "https://sdilej.cz/27682857/chirurgove-s03e01-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230424",
+        "display_name": "Grey's Anatomy S03E01 Time Has Come Today 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:37:05.205136+00:00"
       }
     }
   },
@@ -795486,7 +795487,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:36:59.652957+00:00",
+  "updated_at": "2026-11-21T14:37:05.205153+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
