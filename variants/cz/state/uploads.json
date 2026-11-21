@@ -783521,12 +783521,6 @@
     },
     "2004:1:7": {
       "episode_key": "znovu 20:s1:e7",
-      "claim": {
-        "worker_id": "dc67369fdc684017b9c567a0b8bbd1b6-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:37:11.550700+00:00",
-        "lease_expires_at": "2026-11-21T15:37:11.550717+00:00"
-      },
       "source": {
         "source_id": "27748866",
         "source_url": "https://sdilej.cz/27748866/znovu-20-s01e07-1080p-cz-dabing.mkv",
@@ -783551,22 +783545,29 @@
         "display_name": "Younger S01E07 Broke and Panty-less 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:37:26.318456+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224953",
-        "size_bytes": 760404680
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224953",
-        "size_bytes": 760404680,
-        "source_bytes_read": 760404680,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224953",
         "source_bytes_read": 760404680,
         "elapsed_seconds": 47.512,
         "finished_at": "2026-11-21T09:38:37.858155+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224953",
+          "size_bytes": 760404680,
+          "source_bytes_read": 760404680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27748866",
+        "source_url": "https://sdilej.cz/27748866/znovu-20-s01e07-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224953",
+        "display_name": "Younger S01E07 Broke and Panty-less 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:38:50.471096+00:00"
       }
     }
   },
@@ -783575,7 +783576,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:38:45.654675+00:00",
+  "updated_at": "2026-11-21T09:38:50.471116+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
