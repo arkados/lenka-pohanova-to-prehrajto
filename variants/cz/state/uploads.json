@@ -786754,12 +786754,6 @@
     },
     "668:1:10": {
       "episode_key": "bílá královna:s1:e10",
-      "claim": {
-        "worker_id": "8094590f1ac749e884465f3eca2b4b3b-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:37:39.786880+00:00",
-        "lease_expires_at": "2026-11-21T16:37:39.786899+00:00"
-      },
       "source": {
         "source_id": "33940604",
         "source_url": "https://sdilej.cz/33940604/bila-kralovna-s01e10-cz-dabing-1080p-full-hd.mp4",
@@ -786783,7 +786777,17 @@
         },
         "display_name": "The White Queen S01E10 The Final Battle 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:37:50.478864+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33940604:https://sdilej.cz/33940604/bila-kralovna-s01e10-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-21T10:38:09.902424+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:38:09.903276+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2435:2:4": {
       "episode_key": "ďáblův sluha:s2:e4",
@@ -786824,7 +786828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:38:04.952668+00:00",
+  "updated_at": "2026-11-21T10:38:09.903289+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -787476,19 +787480,19 @@
     "668": {
       "recent_failures": [
         {
-          "identity": "668:1:8",
-          "at": "2026-11-21T10:37:04.790002+00:00"
-        },
-        {
           "identity": "668:1:1",
           "at": "2026-11-21T10:37:26.101831+00:00"
         },
         {
           "identity": "668:1:9",
           "at": "2026-11-21T10:37:45.592323+00:00"
+        },
+        {
+          "identity": "668:1:10",
+          "at": "2026-11-21T10:38:09.902424+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:47:45.592323+00:00"
+      "retry_after": "2026-11-21T10:48:09.902424+00:00"
     }
   }
 }
