@@ -774233,12 +774233,6 @@
     },
     "52:2:5": {
       "episode_key": "12 opic:s2:e5",
-      "claim": {
-        "worker_id": "a124799ad4284b3b9500575bac479903-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:41:18.639807+00:00",
-        "lease_expires_at": "2026-11-21T12:41:18.639818+00:00"
-      },
       "source": {
         "source_id": "33239598",
         "source_url": "https://sdilej.cz/33239598/12-opic-12-monkeys-s02e05-cz-dabing.mkv",
@@ -774262,7 +774256,17 @@
         },
         "display_name": "12 Monkeys S02E05 Bodies of Water 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:41:25.758226+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239598:https://sdilej.cz/33239598/12-opic-12-monkeys-s02e05-cz-dabing.mkv",
+        "at": "2026-11-21T06:41:40.567231+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T06:41:40.567263+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:2:6": {
       "episode_key": "12 opic:s2:e6",
@@ -774288,7 +774292,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:41:35.792162+00:00",
+  "updated_at": "2026-11-21T06:41:40.567269+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -774891,6 +774895,10 @@
         {
           "identity": "52:1:10",
           "at": "2026-11-21T06:40:59.037130+00:00"
+        },
+        {
+          "identity": "52:2:5",
+          "at": "2026-11-21T06:41:40.567231+00:00"
         }
       ],
       "retry_after": "2026-11-21T06:39:40.276992+00:00"
