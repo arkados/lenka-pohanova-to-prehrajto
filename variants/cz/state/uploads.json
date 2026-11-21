@@ -760821,12 +760821,6 @@
     },
     "1564:2:15": {
       "episode_key": "spravedlnost v krvi:s2:e15",
-      "claim": {
-        "worker_id": "210534e88e6543f98a45c7527d8cf6ed-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:01:10.771469+00:00",
-        "lease_expires_at": "2026-11-21T09:01:10.771487+00:00"
-      },
       "source": {
         "source_id": "32117289",
         "source_url": "https://sdilej.cz/32117289/spravedlnost-v-krvi-s02e15-cz.mp4",
@@ -760851,22 +760845,29 @@
         "display_name": "Blue Bloods S02E15 The Life We Chose 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:01:16.770043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218672",
-        "size_bytes": 821109698
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218672",
-        "size_bytes": 821109698,
-        "source_bytes_read": 821109698,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218672",
         "source_bytes_read": 821109698,
         "elapsed_seconds": 37.813,
         "finished_at": "2026-11-21T03:02:23.541587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218672",
+          "size_bytes": 821109698,
+          "source_bytes_read": 821109698,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117289",
+        "source_url": "https://sdilej.cz/32117289/spravedlnost-v-krvi-s02e15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218672",
+        "display_name": "Blue Bloods S02E15 The Life We Chose 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:02:41.178037+00:00"
       }
     },
     "1564:2:16": {
@@ -760961,7 +760962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:02:36.268327+00:00",
+  "updated_at": "2026-11-21T03:02:41.178055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
