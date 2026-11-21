@@ -770664,12 +770664,6 @@
     },
     "1564:11:14": {
       "episode_key": "spravedlnost v krvi:s11:e14",
-      "claim": {
-        "worker_id": "0606389b2a014e3ea63ffa3a191a1a24-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:43:35.083341+00:00",
-        "lease_expires_at": "2026-11-21T11:43:35.083353+00:00"
-      },
       "source": {
         "source_id": "34252805",
         "source_url": "https://sdilej.cz/34252805/blue-bloods-11x14-jako-novy-hdtv-cz.mkv",
@@ -770694,22 +770688,29 @@
         "display_name": "Blue Bloods S11E14 The New You 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:43:46.186735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221203",
-        "size_bytes": 472168688
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221203",
-        "size_bytes": 472168688,
-        "source_bytes_read": 472168688,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221203",
         "source_bytes_read": 472168688,
         "elapsed_seconds": 27.27,
         "finished_at": "2026-11-21T05:44:48.562103+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221203",
+          "size_bytes": 472168688,
+          "source_bytes_read": 472168688,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252805",
+        "source_url": "https://sdilej.cz/34252805/blue-bloods-11x14-jako-novy-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221203",
+        "display_name": "Blue Bloods S11E14 The New You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:45:01.570477+00:00"
       }
     }
   },
@@ -770718,7 +770719,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:44:54.852814+00:00",
+  "updated_at": "2026-11-21T05:45:01.570494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
