@@ -796646,12 +796646,6 @@
     },
     "1198:4:3": {
       "episode_key": "chirurgové:s4:e3",
-      "claim": {
-        "worker_id": "005b2ea3bfce43a39b90b3441199eda9-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:59:11.006289+00:00",
-        "lease_expires_at": "2026-11-21T20:59:11.006298+00:00"
-      },
       "source": {
         "source_id": "27688040",
         "source_url": "https://sdilej.cz/27688040/chirurgove-s04e03-cz.mkv",
@@ -796676,22 +796670,29 @@
         "display_name": "Grey's Anatomy S04E03 Let the Truth Sting 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:59:32.904636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230794",
-        "size_bytes": 780373724
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230794",
-        "size_bytes": 780373724,
-        "source_bytes_read": 780373724,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230794",
         "source_bytes_read": 780373724,
         "elapsed_seconds": 49.587,
         "finished_at": "2026-11-21T15:00:56.368537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230794",
+          "size_bytes": 780373724,
+          "source_bytes_read": 780373724,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688040",
+        "source_url": "https://sdilej.cz/27688040/chirurgove-s04e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230794",
+        "display_name": "Grey's Anatomy S04E03 Let the Truth Sting 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:01:11.404534+00:00"
       }
     }
   },
@@ -796700,7 +796701,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:01:06.667273+00:00",
+  "updated_at": "2026-11-21T15:01:11.404548+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
