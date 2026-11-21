@@ -779468,12 +779468,6 @@
     },
     "52:3:5": {
       "episode_key": "12 opic:s3:e5",
-      "claim": {
-        "worker_id": "1615e78592d742e38df038756be8b7db-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T08:09:27.346680+00:00",
-        "lease_expires_at": "2026-11-21T14:09:27.346690+00:00"
-      },
       "source": {
         "source_id": "33239706",
         "source_url": "https://sdilej.cz/33239706/12-opic-12-monkeys-s03e05-cz-dabing.mkv",
@@ -779497,7 +779491,17 @@
         },
         "display_name": "12 Monkeys S03E05 Causality 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:09:42.840543+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239706:https://sdilej.cz/33239706/12-opic-12-monkeys-s03e05-cz-dabing.mkv",
+        "at": "2026-11-21T08:10:01.109860+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T08:10:01.115040+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -779505,7 +779509,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:09:56.304443+00:00",
+  "updated_at": "2026-11-21T08:10:01.115052+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -780106,19 +780110,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:2:11",
-          "at": "2026-11-21T08:09:08.931027+00:00"
-        },
-        {
           "identity": "52:2:12",
           "at": "2026-11-21T08:09:32.282047+00:00"
         },
         {
           "identity": "52:3:4",
           "at": "2026-11-21T08:09:56.304354+00:00"
+        },
+        {
+          "identity": "52:3:5",
+          "at": "2026-11-21T08:10:01.109860+00:00"
         }
       ],
-      "retry_after": "2026-11-21T08:19:56.304354+00:00"
+      "retry_after": "2026-11-21T08:20:01.109860+00:00"
     }
   }
 }
