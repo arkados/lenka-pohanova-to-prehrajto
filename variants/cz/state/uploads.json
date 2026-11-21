@@ -799645,12 +799645,6 @@
     },
     "1198:7:21": {
       "episode_key": "chirurgové:s7:e21",
-      "claim": {
-        "worker_id": "3e0e3d82e7554532900439462d574d53-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:18:00.605169+00:00",
-        "lease_expires_at": "2026-11-21T22:18:00.605180+00:00"
-      },
       "source": {
         "source_id": "34967308",
         "source_url": "https://sdilej.cz/34967308/chirurgove-cz-s07e21-gg-..mp4",
@@ -799675,22 +799669,29 @@
         "display_name": "Grey's Anatomy S07E21 I Will Survive 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:18:11.254425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232118",
-        "size_bytes": 823193682
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232118",
-        "size_bytes": 823193682,
-        "source_bytes_read": 823193682,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232118",
         "source_bytes_read": 823193682,
         "elapsed_seconds": 54.827,
         "finished_at": "2026-11-21T16:19:37.975882+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232118",
+          "size_bytes": 823193682,
+          "source_bytes_read": 823193682,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967308",
+        "source_url": "https://sdilej.cz/34967308/chirurgove-cz-s07e21-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232118",
+        "display_name": "Grey's Anatomy S07E21 I Will Survive 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:19:52.328722+00:00"
       }
     },
     "1198:7:22": {
@@ -799736,7 +799737,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:19:45.168863+00:00",
+  "updated_at": "2026-11-21T16:19:52.328737+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
