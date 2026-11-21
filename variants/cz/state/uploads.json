@@ -791622,12 +791622,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "911f945de85346bba564e2dfd35d3915-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:21:11.139705+00:00",
-        "lease_expires_at": "2026-11-21T19:21:11.139714+00:00"
-      },
       "source": {
         "source_id": "27428809",
         "source_url": "https://sdilej.cz/27428809/policejni-bazanti-s01e02-cz.avi",
@@ -791652,22 +791646,29 @@
         "display_name": "Rookie Blue S01E02 Mercury Retrograde SD CZ Dabing",
         "prepared_at": "2026-11-21T13:21:25.724667+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229161",
-        "size_bytes": 379201536
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229161",
-        "size_bytes": 379201536,
-        "source_bytes_read": 379201536,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229161",
         "source_bytes_read": 379201536,
         "elapsed_seconds": 24.746,
         "finished_at": "2026-11-21T13:22:15.414814+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229161",
+          "size_bytes": 379201536,
+          "source_bytes_read": 379201536,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27428809",
+        "source_url": "https://sdilej.cz/27428809/policejni-bazanti-s01e02-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229161",
+        "display_name": "Rookie Blue S01E02 Mercury Retrograde SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:22:36.535533+00:00"
       }
     },
     "1295:1:3": {
@@ -792303,7 +792304,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:22:31.536954+00:00",
+  "updated_at": "2026-11-21T13:22:36.535553+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
