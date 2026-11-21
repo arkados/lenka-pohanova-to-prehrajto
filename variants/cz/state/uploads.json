@@ -796239,12 +796239,6 @@
     },
     "1198:3:18": {
       "episode_key": "chirurgové:s3:e18",
-      "claim": {
-        "worker_id": "835779944f644fc39f3ca1699f81c4d0-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:55:05.748914+00:00",
-        "lease_expires_at": "2026-11-21T20:55:05.748924+00:00"
-      },
       "source": {
         "source_id": "27683146",
         "source_url": "https://sdilej.cz/27683146/chirurgove-s03e18-cz.mkv",
@@ -796269,22 +796263,29 @@
         "display_name": "Grey's Anatomy S03E18 Scars and Souvenirs 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:55:11.243874+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230707",
-        "size_bytes": 654433607
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230707",
-        "size_bytes": 654433607,
-        "source_bytes_read": 654433607,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230707",
         "source_bytes_read": 654433607,
         "elapsed_seconds": 38.547,
         "finished_at": "2026-11-21T14:56:21.651341+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230707",
+          "size_bytes": 654433607,
+          "source_bytes_read": 654433607,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683146",
+        "source_url": "https://sdilej.cz/27683146/chirurgove-s03e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230707",
+        "display_name": "Grey's Anatomy S03E18 Scars and Souvenirs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:56:32.658184+00:00"
       }
     },
     "1198:3:19": {
@@ -796380,7 +796381,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:56:26.464722+00:00",
+  "updated_at": "2026-11-21T14:56:32.658212+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
