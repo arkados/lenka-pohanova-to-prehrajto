@@ -804330,12 +804330,6 @@
     },
     "2004:7:10": {
       "episode_key": "znovu 20:s7:e10",
-      "claim": {
-        "worker_id": "2cd878c8809044c285d9e8138d52646e-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:36:58.264533+00:00",
-        "lease_expires_at": "2026-11-22T04:36:58.264548+00:00"
-      },
       "source": {
         "source_id": "30755053",
         "source_url": "https://sdilej.cz/30755053/znovu-20-znovu-20-s07e10.mkv",
@@ -804360,22 +804354,29 @@
         "display_name": "Younger S07E10 Inku-baited 1080p CZ Dabing",
         "prepared_at": "2026-11-21T22:37:17.951554+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238016",
-        "size_bytes": 1114234088
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238016",
-        "size_bytes": 1114234088,
-        "source_bytes_read": 1114234088,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238016",
         "source_bytes_read": 1114234088,
         "elapsed_seconds": 113.899,
         "finished_at": "2026-11-21T22:39:42.361718+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238016",
+          "size_bytes": 1114234088,
+          "source_bytes_read": 1114234088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755053",
+        "source_url": "https://sdilej.cz/30755053/znovu-20-znovu-20-s07e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238016",
+        "display_name": "Younger S07E10 Inku-baited 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:39:59.312800+00:00"
       }
     },
     "2004:7:11": {
@@ -804472,7 +804473,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:39:52.569613+00:00",
+  "updated_at": "2026-11-21T22:39:59.312818+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
