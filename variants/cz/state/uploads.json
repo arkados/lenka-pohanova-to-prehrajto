@@ -762300,12 +762300,6 @@
     },
     "1564:3:22": {
       "episode_key": "spravedlnost v krvi:s3:e22",
-      "claim": {
-        "worker_id": "6e6dc3e843af43188a09f0483d376dc2-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:30:47.560505+00:00",
-        "lease_expires_at": "2026-11-21T09:30:47.560531+00:00"
-      },
       "source": {
         "source_id": "32117334",
         "source_url": "https://sdilej.cz/32117334/spravedlnost-v-krvi-s03e22-cz.mp4",
@@ -762330,22 +762324,29 @@
         "display_name": "Blue Bloods S03E22 The Bitter End 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:31:04.091801+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219132",
-        "size_bytes": 783677899
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219132",
-        "size_bytes": 783677899,
-        "source_bytes_read": 783677899,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219132",
         "source_bytes_read": 783677899,
         "elapsed_seconds": 36.341,
         "finished_at": "2026-11-21T03:32:20.499466+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219132",
+          "size_bytes": 783677899,
+          "source_bytes_read": 783677899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117334",
+        "source_url": "https://sdilej.cz/32117334/spravedlnost-v-krvi-s03e22-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219132",
+        "display_name": "Blue Bloods S03E22 The Bitter End 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:32:32.911929+00:00"
       }
     },
     "1564:3:23": {
@@ -762424,7 +762425,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:32:27.042373+00:00",
+  "updated_at": "2026-11-21T03:32:32.911949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
