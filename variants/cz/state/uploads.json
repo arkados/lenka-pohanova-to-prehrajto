@@ -752423,12 +752423,6 @@
     },
     "38:6:14": {
       "episode_key": "průměrňákovi:s6:e14",
-      "claim": {
-        "worker_id": "8d4bf8bc7a004b13a21b30d1cbd4fdfc-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:26:07.543373+00:00",
-        "lease_expires_at": "2026-11-21T06:26:07.543384+00:00"
-      },
       "source": {
         "source_id": "27052480",
         "source_url": "https://sdilej.cz/27052480/prumernakovi-the-middle-s06e14-hd-cz-dabingdabing.mkv",
@@ -752453,22 +752447,29 @@
         "display_name": "The Middle S06E14 The Answer 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:26:18.964704+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216223",
-        "size_bytes": 120368621
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216223",
-        "size_bytes": 120368621,
-        "source_bytes_read": 120368621,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216223",
         "source_bytes_read": 120368621,
         "elapsed_seconds": 9.167,
         "finished_at": "2026-11-21T00:26:51.420031+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216223",
+          "size_bytes": 120368621,
+          "source_bytes_read": 120368621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27052480",
+        "source_url": "https://sdilej.cz/27052480/prumernakovi-the-middle-s06e14-hd-cz-dabingdabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216223",
+        "display_name": "The Middle S06E14 The Answer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T00:26:58.898039+00:00"
       }
     }
   },
@@ -752477,7 +752478,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T00:26:51.420051+00:00",
+  "updated_at": "2026-11-21T00:26:58.898054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
