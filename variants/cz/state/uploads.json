@@ -806279,12 +806279,6 @@
     },
     "1198:11:4": {
       "episode_key": "chirurgové:s11:e4",
-      "claim": {
-        "worker_id": "cc6f9dcc26ab444ab18021f0d47cbcbd-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:49:01.596897+00:00",
-        "lease_expires_at": "2026-11-22T05:49:01.596919+00:00"
-      },
       "source": {
         "source_id": "27698421",
         "source_url": "https://sdilej.cz/27698421/chirurgove-s11e04-cz.mkv",
@@ -806309,22 +806303,29 @@
         "display_name": "Grey's Anatomy S11E04 Only Mama Knows 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:49:07.835815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239207",
-        "size_bytes": 525814429
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239207",
-        "size_bytes": 525814429,
-        "source_bytes_read": 525814429,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239207",
         "source_bytes_read": 525814429,
         "elapsed_seconds": 36.926,
         "finished_at": "2026-11-21T23:50:14.739660+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239207",
+          "size_bytes": 525814429,
+          "source_bytes_read": 525814429,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698421",
+        "source_url": "https://sdilej.cz/27698421/chirurgove-s11e04-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239207",
+        "display_name": "Grey's Anatomy S11E04 Only Mama Knows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:50:29.972311+00:00"
       }
     },
     "1198:11:5": {
@@ -806403,7 +806404,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:50:25.263449+00:00",
+  "updated_at": "2026-11-21T23:50:29.972328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
