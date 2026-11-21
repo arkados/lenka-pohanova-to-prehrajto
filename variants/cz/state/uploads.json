@@ -802900,12 +802900,6 @@
     },
     "1198:9:7": {
       "episode_key": "chirurgové:s9:e7",
-      "claim": {
-        "worker_id": "a6bdd738b0794d6d918c2d38d72cb2d6-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:41:01.348471+00:00",
-        "lease_expires_at": "2026-11-22T03:41:01.348490+00:00"
-      },
       "source": {
         "source_id": "27697047",
         "source_url": "https://sdilej.cz/27697047/chirurgove-s09e07-cz.mkv",
@@ -802930,22 +802924,29 @@
         "display_name": "Grey's Anatomy S09E07 I Was Made for Lovin' You 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:41:08.168851+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237051",
-        "size_bytes": 1455500750
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237051",
-        "size_bytes": 1455500750,
-        "source_bytes_read": 1455500750,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237051",
         "source_bytes_read": 1455500750,
         "elapsed_seconds": 121.014,
         "finished_at": "2026-11-21T21:43:31.155336+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237051",
+          "size_bytes": 1455500750,
+          "source_bytes_read": 1455500750,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697047",
+        "source_url": "https://sdilej.cz/27697047/chirurgove-s09e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237051",
+        "display_name": "Grey's Anatomy S09E07 I Was Made for Lovin' You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:43:44.741608+00:00"
       }
     },
     "1198:9:8": {
@@ -802991,7 +802992,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:43:37.292699+00:00",
+  "updated_at": "2026-11-21T21:43:44.741628+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
