@@ -773538,28 +773538,29 @@
           "at": "2026-11-21T17:08:10.974651+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3df54897a21a43ff978e09d6a0a19d64-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T17:08:16.731180+00:00",
-        "lease_expires_at": "2026-11-21T23:08:16.731197+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31232826",
-        "size_bytes": 596093449
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232826",
-        "size_bytes": 596093449,
-        "source_bytes_read": 596093449,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232826",
         "source_bytes_read": 596093449,
         "elapsed_seconds": 37.23,
         "finished_at": "2026-11-21T17:09:50.115590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232826",
+          "size_bytes": 596093449,
+          "source_bytes_read": 596093449,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11083148",
+        "source_url": "https://sdilej.cz/11083148/12.monkeys.s02e02.1080p.bluray.ac3.x265.hevc-mrn-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232826",
+        "display_name": "12 Monkeys S02E02 Primary 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T17:10:08.680719+00:00"
       }
     },
     "52:2:3": {
@@ -800284,7 +800285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T17:10:00.519692+00:00",
+  "updated_at": "2026-11-21T17:10:08.680735+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
