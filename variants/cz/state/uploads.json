@@ -759597,12 +759597,6 @@
     },
     "1564:1:13": {
       "episode_key": "spravedlnost v krvi:s1:e13",
-      "claim": {
-        "worker_id": "7f574b77be75481091d46ca43bc033b1-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:42:33.498941+00:00",
-        "lease_expires_at": "2026-11-21T08:42:33.498961+00:00"
-      },
       "source": {
         "source_id": "32117256",
         "source_url": "https://sdilej.cz/32117256/spravedlnost-v-krvi-s01e13-cz.mp4",
@@ -759627,22 +759621,29 @@
         "display_name": "Blue Bloods S01E13 Hall of Mirrors 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:42:40.084809+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218322",
-        "size_bytes": 841747769
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218322",
-        "size_bytes": 841747769,
-        "source_bytes_read": 841747769,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218322",
         "source_bytes_read": 841747769,
         "elapsed_seconds": 67.966,
         "finished_at": "2026-11-21T02:44:17.293754+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218322",
+          "size_bytes": 841747769,
+          "source_bytes_read": 841747769,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117256",
+        "source_url": "https://sdilej.cz/32117256/spravedlnost-v-krvi-s01e13-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218322",
+        "display_name": "Blue Bloods S01E13 Hall of Mirrors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:44:24.024218+00:00"
       }
     },
     "1564:1:14": {
@@ -759725,7 +759726,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:44:17.293774+00:00",
+  "updated_at": "2026-11-21T02:44:24.024243+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
