@@ -788143,28 +788143,29 @@
           "at": "2026-11-21T23:41:02.551251+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "460491a067f743aea426458b7b8f2aad-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:41:08.399559+00:00",
-        "lease_expires_at": "2026-11-22T05:41:08.399579+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31239084",
-        "size_bytes": 1055897316
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239084",
-        "size_bytes": 1055897316,
-        "source_bytes_read": 1055897316,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239084",
         "source_bytes_read": 1055897316,
         "elapsed_seconds": 85.913,
         "finished_at": "2026-11-21T23:43:18.122282+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239084",
+          "size_bytes": 1055897316,
+          "source_bytes_read": 1055897316,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34400317",
+        "source_url": "https://sdilej.cz/34400317/bila-kralovna-s01e10-10-2013-cz-dab-1080p-posledni-bitva.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239084",
+        "display_name": "The White Queen S01E10 The Final Battle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:43:34.676585+00:00"
       }
     },
     "2435:2:4": {
@@ -805842,7 +805843,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:43:29.327339+00:00",
+  "updated_at": "2026-11-21T23:43:34.676604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
