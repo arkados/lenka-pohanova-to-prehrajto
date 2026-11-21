@@ -785230,12 +785230,6 @@
     },
     "2372:1:10": {
       "episode_key": "holky z vejšky:s1:e10",
-      "claim": {
-        "worker_id": "edb3afdfdfab4b9d9547200f349c703c-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:04:52.206033+00:00",
-        "lease_expires_at": "2026-11-21T16:04:52.206049+00:00"
-      },
       "source": {
         "source_id": "24009910",
         "source_url": "https://sdilej.cz/24009910/holky-z-vejsky-s01e10-2021-cz-dabing-.mkv",
@@ -785260,22 +785254,29 @@
         "display_name": "The Sex Lives of College Girls S01E10 The Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:05:09.700625+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225539",
-        "size_bytes": 611534078
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225539",
-        "size_bytes": 611534078,
-        "source_bytes_read": 611534078,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225539",
         "source_bytes_read": 611534078,
         "elapsed_seconds": 48.987,
         "finished_at": "2026-11-21T10:06:22.757667+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225539",
+          "size_bytes": 611534078,
+          "source_bytes_read": 611534078,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24009910",
+        "source_url": "https://sdilej.cz/24009910/holky-z-vejsky-s01e10-2021-cz-dabing-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225539",
+        "display_name": "The Sex Lives of College Girls S01E10 The Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:06:38.060931+00:00"
       }
     },
     "668:1:7": {
@@ -785330,7 +785331,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:06:32.989980+00:00",
+  "updated_at": "2026-11-21T10:06:38.060954+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
