@@ -792828,12 +792828,6 @@
     },
     "1536:3:1": {
       "episode_key": "policejní bažanti:s3:e1",
-      "claim": {
-        "worker_id": "ed4bb0d7eec44be3bcf78abbd2a7ef56-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:34:43.394347+00:00",
-        "lease_expires_at": "2026-11-21T19:34:43.394357+00:00"
-      },
       "source": {
         "source_id": "27999742",
         "source_url": "https://sdilej.cz/27999742/policejni-bazanti-s03e01-dalsi-prvni-den.mkv",
@@ -792858,22 +792852,29 @@
         "display_name": "Rookie Blue S03E01 The First Day of the Rest of Your Life 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:34:58.258337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229402",
-        "size_bytes": 923807790
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229402",
-        "size_bytes": 923807790,
-        "source_bytes_read": 923807790,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229402",
         "source_bytes_read": 923807790,
         "elapsed_seconds": 89.152,
         "finished_at": "2026-11-21T13:36:59.553572+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229402",
+          "size_bytes": 923807790,
+          "source_bytes_read": 923807790,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27999742",
+        "source_url": "https://sdilej.cz/27999742/policejni-bazanti-s03e01-dalsi-prvni-den.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229402",
+        "display_name": "Rookie Blue S03E01 The First Day of the Rest of Your Life 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:37:14.549337+00:00"
       }
     },
     "1536:3:2": {
@@ -792933,7 +792934,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:37:09.565444+00:00",
+  "updated_at": "2026-11-21T13:37:14.549352+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
