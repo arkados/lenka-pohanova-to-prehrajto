@@ -786491,28 +786491,29 @@
           "at": "2026-11-21T18:12:12.160626+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "371af9e0113846a09b84bdb3c26f10ea-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T18:12:20.668273+00:00",
-        "lease_expires_at": "2026-11-22T00:12:20.668295+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31233822",
-        "size_bytes": 625201517
-      },
-      "transfer_receipt": {
-        "target_video_id": "31233822",
-        "size_bytes": 625201517,
-        "source_bytes_read": 625201517,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31233822",
         "source_bytes_read": 625201517,
         "elapsed_seconds": 40.384,
         "finished_at": "2026-11-21T18:13:53.379097+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31233822",
+          "size_bytes": 625201517,
+          "source_bytes_read": 625201517,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32348998",
+        "source_url": "https://sdilej.cz/32348998/12-opic-s03e10-10-2017-cz-dab-1080p-svedek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31233822",
+        "display_name": "12 Monkeys S03E10 Witness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T18:14:05.130472+00:00"
       }
     },
     "52:4:1": {
@@ -800749,7 +800750,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T18:13:58.174320+00:00",
+  "updated_at": "2026-11-21T18:14:05.130489+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
