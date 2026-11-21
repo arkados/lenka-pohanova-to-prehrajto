@@ -752692,12 +752692,6 @@
     },
     "38:6:19": {
       "episode_key": "průměrňákovi:s6:e19",
-      "claim": {
-        "worker_id": "da9fa3520e894e079d928c8cff5f5fa2-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T00:30:36.549462+00:00",
-        "lease_expires_at": "2026-11-21T06:30:36.549471+00:00"
-      },
       "source": {
         "source_id": "27604299",
         "source_url": "https://sdilej.cz/27604299/prumernakovi-s06e19-cz.mkv",
@@ -752722,22 +752716,29 @@
         "display_name": "The Middle S06E19 Siblings and Sombreros 1080p CZ Dabing",
         "prepared_at": "2026-11-21T00:30:43.860300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216288",
-        "size_bytes": 947535318
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216288",
-        "size_bytes": 947535318,
-        "source_bytes_read": 947535318,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216288",
         "source_bytes_read": 947535318,
         "elapsed_seconds": 69.936,
         "finished_at": "2026-11-21T00:32:18.676738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216288",
+          "size_bytes": 947535318,
+          "source_bytes_read": 947535318,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27604299",
+        "source_url": "https://sdilej.cz/27604299/prumernakovi-s06e19-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216288",
+        "display_name": "The Middle S06E19 Siblings and Sombreros 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T00:32:26.388165+00:00"
       }
     }
   },
@@ -752746,7 +752747,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T00:32:18.676759+00:00",
+  "updated_at": "2026-11-21T00:32:26.388186+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
