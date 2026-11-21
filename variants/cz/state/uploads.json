@@ -793887,12 +793887,6 @@
     },
     "1536:5:4": {
       "episode_key": "policejní bažanti:s5:e4",
-      "claim": {
-        "worker_id": "96bb3ae2ddc148c086bb03f0ed221895-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:56:48.878025+00:00",
-        "lease_expires_at": "2026-11-21T19:56:48.878034+00:00"
-      },
       "source": {
         "source_id": "27429051",
         "source_url": "https://sdilej.cz/27429051/policejni-bazanti-s05e04-cz.avi",
@@ -793917,22 +793911,29 @@
         "display_name": "Rookie Blue S05E04 Wanting SD CZ Dabing",
         "prepared_at": "2026-11-21T13:56:59.412225+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229799",
-        "size_bytes": 576280402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229799",
-        "size_bytes": 576280402,
-        "source_bytes_read": 576280402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229799",
         "source_bytes_read": 576280402,
         "elapsed_seconds": 110.557,
         "finished_at": "2026-11-21T13:59:22.798283+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229799",
+          "size_bytes": 576280402,
+          "source_bytes_read": 576280402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27429051",
+        "source_url": "https://sdilej.cz/27429051/policejni-bazanti-s05e04-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229799",
+        "display_name": "Rookie Blue S05E04 Wanting SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:59:33.688610+00:00"
       }
     },
     "1536:5:7": {
@@ -794080,7 +794081,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:59:28.880644+00:00",
+  "updated_at": "2026-11-21T13:59:33.688626+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
