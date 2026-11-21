@@ -766431,12 +766431,6 @@
     },
     "1564:7:14": {
       "episode_key": "spravedlnost v krvi:s7:e14",
-      "claim": {
-        "worker_id": "65db9df7322c4221bdb5647b983fb714-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:41:23.080941+00:00",
-        "lease_expires_at": "2026-11-21T10:41:23.080952+00:00"
-      },
       "source": {
         "source_id": "34251312",
         "source_url": "https://sdilej.cz/34251312/blue-bloods-07x14-zasah-cz.mkv",
@@ -766461,22 +766455,29 @@
         "display_name": "Blue Bloods S07E14 In & Out 720p CZ Dabing",
         "prepared_at": "2026-11-21T04:41:34.223659+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220212",
-        "size_bytes": 382625103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220212",
-        "size_bytes": 382625103,
-        "source_bytes_read": 382625103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220212",
         "source_bytes_read": 382625103,
         "elapsed_seconds": 23.168,
         "finished_at": "2026-11-21T04:42:37.015266+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220212",
+          "size_bytes": 382625103,
+          "source_bytes_read": 382625103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251312",
+        "source_url": "https://sdilej.cz/34251312/blue-bloods-07x14-zasah-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220212",
+        "display_name": "Blue Bloods S07E14 In & Out 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:42:51.564674+00:00"
       }
     },
     "1564:7:15": {
@@ -766555,7 +766556,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:42:46.798868+00:00",
+  "updated_at": "2026-11-21T04:42:51.564689+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
