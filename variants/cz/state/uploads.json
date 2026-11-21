@@ -786643,12 +786643,6 @@
     },
     "2372:2:2": {
       "episode_key": "holky z vejšky:s2:e2",
-      "claim": {
-        "worker_id": "97ce4944219049c9ad44df0ad4ff1397-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:35:43.055386+00:00",
-        "lease_expires_at": "2026-11-21T16:35:43.055406+00:00"
-      },
       "source": {
         "source_id": "27781859",
         "source_url": "https://sdilej.cz/27781859/holky-z-vejsky-s02e02-cz-dab.mkv",
@@ -786673,22 +786667,29 @@
         "display_name": "The Sex Lives of College Girls S02E02 Frat Problems 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:35:56.301156+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31226182",
-        "size_bytes": 768169131
-      },
-      "transfer_receipt": {
-        "target_video_id": "31226182",
-        "size_bytes": 768169131,
-        "source_bytes_read": 768169131,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31226182",
         "source_bytes_read": 768169131,
         "elapsed_seconds": 104.329,
         "finished_at": "2026-11-21T10:38:15.095183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31226182",
+          "size_bytes": 768169131,
+          "source_bytes_read": 768169131,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27781859",
+        "source_url": "https://sdilej.cz/27781859/holky-z-vejsky-s02e02-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31226182",
+        "display_name": "The Sex Lives of College Girls S02E02 Frat Problems 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:38:28.052752+00:00"
       }
     },
     "2372:2:3": {
@@ -786844,7 +786845,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:38:20.836496+00:00",
+  "updated_at": "2026-11-21T10:38:28.052773+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
