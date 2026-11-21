@@ -788407,12 +788407,6 @@
     },
     "2679:3:10": {
       "episode_key": "velká láska:s3:e10",
-      "claim": {
-        "worker_id": "8be22f63d3b748b1a6d5c1172a6ded09-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:27:05.625667+00:00",
-        "lease_expires_at": "2026-11-21T17:27:05.625683+00:00"
-      },
       "source": {
         "source_id": "34786410",
         "source_url": "https://sdilej.cz/34786410/velka-laska-s03e10-10-2009-cz-dab-1080p-svatost.mkv",
@@ -788438,22 +788432,29 @@
         "display_name": "Big Love S03E10 Sacrament 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:27:26.504900+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227198",
-        "size_bytes": 1717815696
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227198",
-        "size_bytes": 1717815696,
-        "source_bytes_read": 1717815696,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227198",
         "source_bytes_read": 1717815696,
         "elapsed_seconds": 114.745,
         "finished_at": "2026-11-21T11:29:50.930153+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227198",
+          "size_bytes": 1717815696,
+          "source_bytes_read": 1717815696,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786410",
+        "source_url": "https://sdilej.cz/34786410/velka-laska-s03e10-10-2009-cz-dab-1080p-svatost.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227198",
+        "display_name": "Big Love S03E10 Sacrament 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:30:19.617250+00:00"
       }
     },
     "2679:4:9": {
@@ -788513,7 +788514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:29:50.930180+00:00",
+  "updated_at": "2026-11-21T11:30:19.617267+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
