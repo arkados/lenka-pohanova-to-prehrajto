@@ -765564,12 +765564,6 @@
     },
     "1564:6:19": {
       "episode_key": "spravedlnost v krvi:s6:e19",
-      "claim": {
-        "worker_id": "ed8a32a1e4a44f7bb059138935fb39b4-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:27:40.448263+00:00",
-        "lease_expires_at": "2026-11-21T10:27:40.448281+00:00"
-      },
       "source": {
         "source_id": "32121414",
         "source_url": "https://sdilej.cz/32121414/spravedlnost-v-krvi-s06e19-cz.mp4",
@@ -765594,22 +765588,29 @@
         "display_name": "Blue Bloods S06E19 Blast from the Past 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:27:55.904180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219991",
-        "size_bytes": 854093384
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219991",
-        "size_bytes": 854093384,
-        "source_bytes_read": 854093384,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219991",
         "source_bytes_read": 854093384,
         "elapsed_seconds": 40.376,
         "finished_at": "2026-11-21T04:29:03.021418+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219991",
+          "size_bytes": 854093384,
+          "source_bytes_read": 854093384,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121414",
+        "source_url": "https://sdilej.cz/32121414/spravedlnost-v-krvi-s06e19-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219991",
+        "display_name": "Blue Bloods S06E19 Blast from the Past 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:29:20.309338+00:00"
       }
     },
     "1564:6:20": {
@@ -765627,7 +765628,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:29:14.938377+00:00",
+  "updated_at": "2026-11-21T04:29:20.309357+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
