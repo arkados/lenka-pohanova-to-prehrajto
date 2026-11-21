@@ -792771,12 +792771,6 @@
     },
     "1536:2:13": {
       "episode_key": "policejní bažanti:s2:e13",
-      "claim": {
-        "worker_id": "dc1cb488865548dca2634e3fbd00ebf1-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:33:37.314196+00:00",
-        "lease_expires_at": "2026-11-21T19:33:37.314216+00:00"
-      },
       "source": {
         "source_id": "27995515",
         "source_url": "https://sdilej.cz/27995515/policejni-bazanti-s02e13-bozi-vule.mkv",
@@ -792801,22 +792795,29 @@
         "display_name": "Rookie Blue S02E13 God's Good Grace 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:33:42.245235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229380",
-        "size_bytes": 885204475
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229380",
-        "size_bytes": 885204475,
-        "source_bytes_read": 885204475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229380",
         "source_bytes_read": 885204475,
         "elapsed_seconds": 44.392,
         "finished_at": "2026-11-21T13:34:52.737410+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229380",
+          "size_bytes": 885204475,
+          "source_bytes_read": 885204475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27995515",
+        "source_url": "https://sdilej.cz/27995515/policejni-bazanti-s02e13-bozi-vule.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229380",
+        "display_name": "Rookie Blue S02E13 God's Good Grace 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:35:03.798340+00:00"
       }
     },
     "1536:3:1": {
@@ -792867,7 +792868,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:34:58.258352+00:00",
+  "updated_at": "2026-11-21T13:35:03.798362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
