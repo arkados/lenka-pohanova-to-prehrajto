@@ -802014,12 +802014,6 @@
     },
     "1198:8:17": {
       "episode_key": "chirurgové:s8:e17",
-      "claim": {
-        "worker_id": "4862d58fb5ad466aaa93fa8460f1ea95-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:13:32.206039+00:00",
-        "lease_expires_at": "2026-11-22T03:13:32.206055+00:00"
-      },
       "source": {
         "source_id": "35072833",
         "source_url": "https://sdilej.cz/35072833/chirurgove-cz-s08e17-gg-..mp4",
@@ -802044,22 +802038,29 @@
         "display_name": "Grey's Anatomy S08E17 One Step Too Far 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:13:37.902334+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31236621",
-        "size_bytes": 868878095
-      },
-      "transfer_receipt": {
-        "target_video_id": "31236621",
-        "size_bytes": 868878095,
-        "source_bytes_read": 868878095,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31236621",
         "source_bytes_read": 868878095,
         "elapsed_seconds": 93.891,
         "finished_at": "2026-11-21T21:15:49.850598+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31236621",
+          "size_bytes": 868878095,
+          "source_bytes_read": 868878095,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35072833",
+        "source_url": "https://sdilej.cz/35072833/chirurgove-cz-s08e17-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31236621",
+        "display_name": "Grey's Anatomy S08E17 One Step Too Far 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:16:08.394453+00:00"
       }
     },
     "1198:8:18": {
@@ -802168,7 +802169,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:16:03.309804+00:00",
+  "updated_at": "2026-11-21T21:16:08.394471+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
