@@ -787499,12 +787499,6 @@
     },
     "2004:4:4": {
       "episode_key": "znovu 20:s4:e4",
-      "claim": {
-        "worker_id": "a4a13c79239f44e1afd5b8b54b5beacd-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:55:15.216428+00:00",
-        "lease_expires_at": "2026-11-21T16:55:15.216450+00:00"
-      },
       "source": {
         "source_id": "33913796",
         "source_url": "https://sdilej.cz/33913796/znovu-20-s04e04-cz-dabing-1080p-full-hd.mkv",
@@ -787528,7 +787522,17 @@
         },
         "display_name": "Younger S04E04 In the Pink 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:55:20.640735+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33913796:https://sdilej.cz/33913796/znovu-20-s04e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T10:55:36.352872+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:55:36.352950+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:4:5": {
       "episode_key": "znovu 20:s4:e5",
@@ -787545,7 +787549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:55:30.523063+00:00",
+  "updated_at": "2026-11-21T10:55:36.352957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -788169,9 +788173,13 @@
         {
           "identity": "2004:4:3",
           "at": "2026-11-21T10:55:30.523016+00:00"
+        },
+        {
+          "identity": "2004:4:4",
+          "at": "2026-11-21T10:55:36.352872+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:45:12.891373+00:00"
+      "retry_after": "2026-11-21T11:05:36.352872+00:00"
     },
     "2372": {
       "recent_failures": [
