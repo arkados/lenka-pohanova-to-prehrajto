@@ -785663,12 +785663,6 @@
     },
     "2435:1:4": {
       "episode_key": "ďáblův sluha:s1:e4",
-      "claim": {
-        "worker_id": "e4c4fa928a48485b98212feb9740133d-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:10:42.886538+00:00",
-        "lease_expires_at": "2026-11-21T16:10:42.886555+00:00"
-      },
       "source": {
         "source_id": "30994213",
         "source_url": "https://sdilej.cz/30994213/dabluv-sluha-s01e04-kouzlo-cz-dabing-komedie-fantasy-thriller-drama-dobrodruzny-2007-9.avi",
@@ -785693,22 +785687,29 @@
         "display_name": "Reaper S01E04 Magic SD CZ Dabing",
         "prepared_at": "2026-11-21T10:10:54.978204+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225704",
-        "size_bytes": 367069184
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225704",
-        "size_bytes": 367069184,
-        "source_bytes_read": 367069184,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225704",
         "source_bytes_read": 367069184,
         "elapsed_seconds": 24.991,
         "finished_at": "2026-11-21T10:11:40.869873+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225704",
+          "size_bytes": 367069184,
+          "source_bytes_read": 367069184,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30994213",
+        "source_url": "https://sdilej.cz/30994213/dabluv-sluha-s01e04-kouzlo-cz-dabing-komedie-fantasy-thriller-drama-dobrodruzny-2007-9.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225704",
+        "display_name": "Reaper S01E04 Magic SD CZ Dabing",
+        "uploaded_at": "2026-11-21T10:11:48.480733+00:00"
       }
     }
   },
@@ -785717,7 +785718,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:11:40.869891+00:00",
+  "updated_at": "2026-11-21T10:11:48.480760+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
