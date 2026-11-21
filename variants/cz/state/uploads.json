@@ -782514,12 +782514,6 @@
     },
     "772:3:4": {
       "episode_key": "cardinal:s3:e4",
-      "claim": {
-        "worker_id": "217b8f564d9943ab819d7426e0901dfa-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:17:43.909236+00:00",
-        "lease_expires_at": "2026-11-21T15:17:43.909254+00:00"
-      },
       "source": {
         "source_id": "26444666",
         "source_url": "https://sdilej.cz/26444666/cardinal-s03e04-cz-dabing-1080p.mp4",
@@ -782544,22 +782538,29 @@
         "display_name": "Cardinal S03E04 Lemur 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:17:54.276703+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31224589",
-        "size_bytes": 565497631
-      },
-      "transfer_receipt": {
-        "target_video_id": "31224589",
-        "size_bytes": 565497631,
-        "source_bytes_read": 565497631,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31224589",
         "source_bytes_read": 565497631,
         "elapsed_seconds": 39.144,
         "finished_at": "2026-11-21T09:19:00.045675+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31224589",
+          "size_bytes": 565497631,
+          "source_bytes_read": 565497631,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26444666",
+        "source_url": "https://sdilej.cz/26444666/cardinal-s03e04-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31224589",
+        "display_name": "Cardinal S03E04 Lemur 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T09:19:14.693886+00:00"
       }
     }
   },
@@ -782568,7 +782569,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:19:09.978336+00:00",
+  "updated_at": "2026-11-21T09:19:14.693907+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
