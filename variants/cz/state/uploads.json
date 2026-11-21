@@ -761382,12 +761382,6 @@
     },
     "1564:3:4": {
       "episode_key": "spravedlnost v krvi:s3:e4",
-      "claim": {
-        "worker_id": "006bdbc3e229454dbe29a91cf8878224-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:14:41.716593+00:00",
-        "lease_expires_at": "2026-11-21T09:14:41.716610+00:00"
-      },
       "source": {
         "source_id": "32117304",
         "source_url": "https://sdilej.cz/32117304/spravedlnost-v-krvi-s03e04-cz.mp4",
@@ -761412,22 +761406,29 @@
         "display_name": "Blue Bloods S03E04 Scorched Earth 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:14:47.274350+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218877",
-        "size_bytes": 816732428
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218877",
-        "size_bytes": 816732428,
-        "source_bytes_read": 816732428,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218877",
         "source_bytes_read": 816732428,
         "elapsed_seconds": 76.553,
         "finished_at": "2026-11-21T03:16:42.428171+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218877",
+          "size_bytes": 816732428,
+          "source_bytes_read": 816732428,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117304",
+        "source_url": "https://sdilej.cz/32117304/spravedlnost-v-krvi-s03e04-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218877",
+        "display_name": "Blue Bloods S03E04 Scorched Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:16:59.594826+00:00"
       }
     },
     "1564:3:5": {
@@ -761537,7 +761538,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:16:54.384528+00:00",
+  "updated_at": "2026-11-21T03:16:59.594869+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
