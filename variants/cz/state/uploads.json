@@ -799150,12 +799150,6 @@
     },
     "1198:7:11": {
       "episode_key": "chirurgové:s7:e11",
-      "claim": {
-        "worker_id": "48142c0ba54444a69fbe7b10169d079d-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:04:59.259965+00:00",
-        "lease_expires_at": "2026-11-21T22:04:59.259976+00:00"
-      },
       "source": {
         "source_id": "34967288",
         "source_url": "https://sdilej.cz/34967288/chirurgove-cz-s07e11-gg-..mp4",
@@ -799180,22 +799174,29 @@
         "display_name": "Grey's Anatomy S07E11 Disarm 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:05:14.611193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231932",
-        "size_bytes": 833639275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231932",
-        "size_bytes": 833639275,
-        "source_bytes_read": 833639275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231932",
         "source_bytes_read": 833639275,
         "elapsed_seconds": 55.927,
         "finished_at": "2026-11-21T16:06:36.291236+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231932",
+          "size_bytes": 833639275,
+          "source_bytes_read": 833639275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967288",
+        "source_url": "https://sdilej.cz/34967288/chirurgove-cz-s07e11-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231932",
+        "display_name": "Grey's Anatomy S07E11 Disarm 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:06:42.614989+00:00"
       }
     },
     "1198:7:12": {
@@ -799291,7 +799292,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:06:36.291255+00:00",
+  "updated_at": "2026-11-21T16:06:42.615005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
