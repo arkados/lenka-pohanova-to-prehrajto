@@ -759189,12 +759189,6 @@
     },
     "1564:1:5": {
       "episode_key": "spravedlnost v krvi:s1:e5",
-      "claim": {
-        "worker_id": "9c37af304e294c03a04ea6be9116f1a6-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:35:47.817299+00:00",
-        "lease_expires_at": "2026-11-21T08:35:47.817319+00:00"
-      },
       "source": {
         "source_id": "32117247",
         "source_url": "https://sdilej.cz/32117247/spravedlnost-v-krvi-s01e05-cz.mp4",
@@ -759219,22 +759213,29 @@
         "display_name": "Blue Bloods S01E05 What You See 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:35:53.867063+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218235",
-        "size_bytes": 868536908
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218235",
-        "size_bytes": 868536908,
-        "source_bytes_read": 868536908,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218235",
         "source_bytes_read": 868536908,
         "elapsed_seconds": 60.278,
         "finished_at": "2026-11-21T02:37:23.775712+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218235",
+          "size_bytes": 868536908,
+          "source_bytes_read": 868536908,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117247",
+        "source_url": "https://sdilej.cz/32117247/spravedlnost-v-krvi-s01e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218235",
+        "display_name": "Blue Bloods S01E05 What You See 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:37:30.808523+00:00"
       }
     },
     "1564:1:6": {
@@ -759317,7 +759318,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:37:23.775732+00:00",
+  "updated_at": "2026-11-21T02:37:30.808541+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
