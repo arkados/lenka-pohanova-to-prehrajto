@@ -760872,12 +760872,6 @@
     },
     "1564:2:16": {
       "episode_key": "spravedlnost v krvi:s2:e16",
-      "claim": {
-        "worker_id": "7af879604502454b93689a76ff2f2fbc-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:01:22.262026+00:00",
-        "lease_expires_at": "2026-11-21T09:01:22.262045+00:00"
-      },
       "source": {
         "source_id": "34244585",
         "source_url": "https://sdilej.cz/34244585/blue-bloods-02x16-zeny-se-zbrani-dvd-rip-cz.avi",
@@ -760902,22 +760896,29 @@
         "display_name": "Blue Bloods S02E16 Women With Guns SD CZ Dabing",
         "prepared_at": "2026-11-21T03:01:45.731713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218675",
-        "size_bytes": 383588352
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218675",
-        "size_bytes": 383588352,
-        "source_bytes_read": 383588352,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218675",
         "source_bytes_read": 383588352,
         "elapsed_seconds": 24.42,
         "finished_at": "2026-11-21T03:02:36.268308+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218675",
+          "size_bytes": 383588352,
+          "source_bytes_read": 383588352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34244585",
+        "source_url": "https://sdilej.cz/34244585/blue-bloods-02x16-zeny-se-zbrani-dvd-rip-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218675",
+        "display_name": "Blue Bloods S02E16 Women With Guns SD CZ Dabing",
+        "uploaded_at": "2026-11-21T03:02:53.823688+00:00"
       }
     },
     "1564:2:17": {
@@ -760963,7 +760964,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:02:46.641054+00:00",
+  "updated_at": "2026-11-21T03:02:53.823715+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
