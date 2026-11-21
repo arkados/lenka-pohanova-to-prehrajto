@@ -804504,12 +804504,6 @@
     },
     "2004:7:12": {
       "episode_key": "znovu 20:s7:e12",
-      "claim": {
-        "worker_id": "2993542cc7be4054a20c3c8eff398a5a-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:39:04.769357+00:00",
-        "lease_expires_at": "2026-11-22T04:39:04.769372+00:00"
-      },
       "source": {
         "source_id": "30755058",
         "source_url": "https://sdilej.cz/30755058/znovu-20-znovu-20-s07e12.mkv",
@@ -804534,22 +804528,29 @@
         "display_name": "Younger S07E12 Older 1080p CZ Dabing",
         "prepared_at": "2026-11-21T22:39:20.452669+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238053",
-        "size_bytes": 1670439510
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238053",
-        "size_bytes": 1670439510,
-        "source_bytes_read": 1670439510,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238053",
         "source_bytes_read": 1670439510,
         "elapsed_seconds": 182.236,
         "finished_at": "2026-11-21T22:42:59.016235+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238053",
+          "size_bytes": 1670439510,
+          "source_bytes_read": 1670439510,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755058",
+        "source_url": "https://sdilej.cz/30755058/znovu-20-znovu-20-s07e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238053",
+        "display_name": "Younger S07E12 Older 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:43:07.384423+00:00"
       }
     }
   },
@@ -804558,7 +804559,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:42:59.016258+00:00",
+  "updated_at": "2026-11-21T22:43:07.384441+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
