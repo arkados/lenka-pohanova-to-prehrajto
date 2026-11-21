@@ -785458,12 +785458,6 @@
     },
     "1970:1:7": {
       "episode_key": "muž hledá ženu:s1:e7",
-      "claim": {
-        "worker_id": "edda4a1b72a44c2b9c1802c574bcf955-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:08:02.780571+00:00",
-        "lease_expires_at": "2026-11-21T16:08:02.780587+00:00"
-      },
       "source": {
         "source_id": "7987862",
         "source_url": "https://sdilej.cz/7987862/muz.hleda.zenu.01x07.dvb-t.cz.avi",
@@ -785488,22 +785482,29 @@
         "display_name": "Man Seeking Woman S01E07 Stain SD CZ Dabing",
         "prepared_at": "2026-11-21T10:08:14.071270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225621",
-        "size_bytes": 312362362
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225621",
-        "size_bytes": 312362362,
-        "source_bytes_read": 312362362,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225621",
         "source_bytes_read": 312362362,
         "elapsed_seconds": 28.363,
         "finished_at": "2026-11-21T10:09:24.033296+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225621",
+          "size_bytes": 312362362,
+          "source_bytes_read": 312362362,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7987862",
+        "source_url": "https://sdilej.cz/7987862/muz.hleda.zenu.01x07.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225621",
+        "display_name": "Man Seeking Woman S01E07 Stain SD CZ Dabing",
+        "uploaded_at": "2026-11-21T10:09:36.926241+00:00"
       }
     },
     "1970:3:5": {
@@ -785549,7 +785550,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:09:28.933707+00:00",
+  "updated_at": "2026-11-21T10:09:36.926257+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
