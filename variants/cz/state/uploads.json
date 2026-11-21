@@ -784298,12 +784298,6 @@
     },
     "2372:1:6": {
       "episode_key": "holky z vejšky:s1:e6",
-      "claim": {
-        "worker_id": "b2a7bdf485e44b489011c2e95f9d8beb-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:50:07.438150+00:00",
-        "lease_expires_at": "2026-11-21T15:50:07.438167+00:00"
-      },
       "source": {
         "source_id": "33690618",
         "source_url": "https://sdilej.cz/33690618/holky-z-vejsky-s01e06-cz-dabing.mp4",
@@ -784327,7 +784321,17 @@
         },
         "display_name": "The Sex Lives of College Girls S01E06 Parents Weekend 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:50:23.908461+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33690618:https://sdilej.cz/33690618/holky-z-vejsky-s01e06-cz-dabing.mp4",
+        "at": "2026-11-21T09:50:38.990148+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T09:50:38.990225+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "668:1:1": {
       "episode_key": "bílá královna:s1:e1",
@@ -784368,7 +784372,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:50:34.015956+00:00",
+  "updated_at": "2026-11-21T09:50:38.990232+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -785003,19 +785007,19 @@
     "2372": {
       "recent_failures": [
         {
-          "identity": "2372:1:2",
-          "at": "2026-11-21T09:49:47.908437+00:00"
-        },
-        {
           "identity": "2372:1:3",
           "at": "2026-11-21T09:49:59.330584+00:00"
         },
         {
           "identity": "2372:1:4",
           "at": "2026-11-21T09:50:12.427872+00:00"
+        },
+        {
+          "identity": "2372:1:6",
+          "at": "2026-11-21T09:50:38.990148+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:00:12.427872+00:00"
+      "retry_after": "2026-11-21T10:00:38.990148+00:00"
     }
   }
 }
