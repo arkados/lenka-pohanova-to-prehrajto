@@ -793183,12 +793183,6 @@
     },
     "1536:3:8": {
       "episode_key": "policejní bažanti:s3:e8",
-      "claim": {
-        "worker_id": "ea44ae77e56644fa8b8b56054cb985e2-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:43:34.408642+00:00",
-        "lease_expires_at": "2026-11-21T19:43:34.408656+00:00"
-      },
       "source": {
         "source_id": "28001082",
         "source_url": "https://sdilej.cz/28001082/policejni-bazanti-s03e08-holka-na-zavolani.mkv",
@@ -793213,22 +793207,29 @@
         "display_name": "Rookie Blue S03E08 The Girlfriend Experience 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:43:50.195177+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229566",
-        "size_bytes": 924420869
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229566",
-        "size_bytes": 924420869,
-        "source_bytes_read": 924420869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229566",
         "source_bytes_read": 924420869,
         "elapsed_seconds": 104.617,
         "finished_at": "2026-11-21T13:46:12.141061+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229566",
+          "size_bytes": 924420869,
+          "source_bytes_read": 924420869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28001082",
+        "source_url": "https://sdilej.cz/28001082/policejni-bazanti-s03e08-holka-na-zavolani.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229566",
+        "display_name": "Rookie Blue S03E08 The Girlfriend Experience 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:46:19.411496+00:00"
       }
     },
     "1536:3:10": {
@@ -793288,7 +793289,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:46:12.141083+00:00",
+  "updated_at": "2026-11-21T13:46:19.411513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
