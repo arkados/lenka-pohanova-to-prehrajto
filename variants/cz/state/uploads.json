@@ -770052,12 +770052,6 @@
     },
     "1564:11:2": {
       "episode_key": "spravedlnost v krvi:s11:e2",
-      "claim": {
-        "worker_id": "3ad2a68de4764a33a0de22c211005eae-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:35:50.074143+00:00",
-        "lease_expires_at": "2026-11-21T11:35:50.074155+00:00"
-      },
       "source": {
         "source_id": "34252751",
         "source_url": "https://sdilej.cz/34252751/blue-bloods-11x02-ve-jmenu-otce-hdtv-cz.mkv",
@@ -770082,22 +770076,29 @@
         "display_name": "Blue Bloods S11E02 In the Name of the Father 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:35:56.482455+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221063",
-        "size_bytes": 494045779
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221063",
-        "size_bytes": 494045779,
-        "source_bytes_read": 494045779,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221063",
         "source_bytes_read": 494045779,
         "elapsed_seconds": 91.525,
         "finished_at": "2026-11-21T05:37:52.451819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221063",
+          "size_bytes": 494045779,
+          "source_bytes_read": 494045779,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252751",
+        "source_url": "https://sdilej.cz/34252751/blue-bloods-11x02-ve-jmenu-otce-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221063",
+        "display_name": "Blue Bloods S11E02 In the Name of the Father 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:38:06.266875+00:00"
       }
     },
     "1564:11:3": {
@@ -770193,7 +770194,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:38:01.415639+00:00",
+  "updated_at": "2026-11-21T05:38:06.266890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
