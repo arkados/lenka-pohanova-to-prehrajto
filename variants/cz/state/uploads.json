@@ -786598,12 +786598,6 @@
     },
     "2372:2:1": {
       "episode_key": "holky z vejšky:s2:e1",
-      "claim": {
-        "worker_id": "7542c794ee7246ec9ae3eb958b56164a-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:35:32.221605+00:00",
-        "lease_expires_at": "2026-11-21T16:35:32.221624+00:00"
-      },
       "source": {
         "source_id": "33692774",
         "source_url": "https://sdilej.cz/33692774/holky-z-vejsky-s02e01-cz-dabing.mp4",
@@ -786627,7 +786621,17 @@
         },
         "display_name": "The Sex Lives of College Girls S02E01 Winter Is Coming 720p CZ Dabing",
         "prepared_at": "2026-11-21T10:35:48.793998+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33692774:https://sdilej.cz/33692774/holky-z-vejsky-s02e01-cz-dabing.mp4",
+        "at": "2026-11-21T10:36:13.409487+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:36:13.409566+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2372:2:2": {
       "episode_key": "holky z vejšky:s2:e2",
@@ -786680,7 +786684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:36:08.203174+00:00",
+  "updated_at": "2026-11-21T10:36:13.409574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -787321,9 +787325,13 @@
         {
           "identity": "2372:1:8",
           "at": "2026-11-21T10:35:38.152446+00:00"
+        },
+        {
+          "identity": "2372:2:1",
+          "at": "2026-11-21T10:36:13.409487+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:33:17.178541+00:00"
+      "retry_after": "2026-11-21T10:46:13.409487+00:00"
     },
     "668": {
       "recent_failures": [
