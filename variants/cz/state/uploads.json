@@ -806789,12 +806789,6 @@
     },
     "1198:11:14": {
       "episode_key": "chirurgové:s11:e14",
-      "claim": {
-        "worker_id": "a97a45fb505548bd96e733a53ab663d2-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:57:37.570325+00:00",
-        "lease_expires_at": "2026-11-22T05:57:37.570341+00:00"
-      },
       "source": {
         "source_id": "27698615",
         "source_url": "https://sdilej.cz/27698615/chirurgove-s11e14-cz.mkv",
@@ -806819,22 +806813,29 @@
         "display_name": "Grey's Anatomy S11E14 The Distance 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:57:44.908407+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239376",
-        "size_bytes": 527036622
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239376",
-        "size_bytes": 527036622,
-        "source_bytes_read": 527036622,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239376",
         "source_bytes_read": 527036622,
         "elapsed_seconds": 28.19,
         "finished_at": "2026-11-21T23:59:01.305962+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239376",
+          "size_bytes": 527036622,
+          "source_bytes_read": 527036622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698615",
+        "source_url": "https://sdilej.cz/27698615/chirurgove-s11e14-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239376",
+        "display_name": "Grey's Anatomy S11E14 The Distance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:59:16.813231+00:00"
       }
     },
     "1198:11:15": {
@@ -806917,7 +806918,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:59:12.236499+00:00",
+  "updated_at": "2026-11-21T23:59:16.813247+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
