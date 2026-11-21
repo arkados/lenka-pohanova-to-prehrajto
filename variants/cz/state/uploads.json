@@ -772398,12 +772398,6 @@
     },
     "1564:13:18": {
       "episode_key": "spravedlnost v krvi:s13:e18",
-      "claim": {
-        "worker_id": "bc660a1323da408e8015254ddc68e763-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:10:09.864050+00:00",
-        "lease_expires_at": "2026-11-21T12:10:09.864064+00:00"
-      },
       "source": {
         "source_id": "32364312",
         "source_url": "https://sdilej.cz/32364312/spravedlnost-v-krvi-s13e18-cz.mp4",
@@ -772428,22 +772422,29 @@
         "display_name": "Blue Bloods S13E18 Family Matters 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:10:24.996957+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221586",
-        "size_bytes": 888323447
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221586",
-        "size_bytes": 888323447,
-        "source_bytes_read": 888323447,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221586",
         "source_bytes_read": 888323447,
         "elapsed_seconds": 107.256,
         "finished_at": "2026-11-21T06:12:45.712068+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221586",
+          "size_bytes": 888323447,
+          "source_bytes_read": 888323447,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32364312",
+        "source_url": "https://sdilej.cz/32364312/spravedlnost-v-krvi-s13e18-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221586",
+        "display_name": "Blue Bloods S13E18 Family Matters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:12:56.931283+00:00"
       }
     },
     "1564:13:19": {
@@ -772591,7 +772592,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:12:52.056725+00:00",
+  "updated_at": "2026-11-21T06:12:56.931299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
