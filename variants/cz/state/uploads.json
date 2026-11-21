@@ -762963,12 +762963,6 @@
     },
     "1564:4:12": {
       "episode_key": "spravedlnost v krvi:s4:e12",
-      "claim": {
-        "worker_id": "e693392db0d94d908786d70c16c16c62-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:41:33.351358+00:00",
-        "lease_expires_at": "2026-11-21T09:41:33.351381+00:00"
-      },
       "source": {
         "source_id": "32223772",
         "source_url": "https://sdilej.cz/32223772/spravedlnost-v-krvi-s04e12-cz.mp4",
@@ -762993,22 +762987,29 @@
         "display_name": "Blue Bloods S04E12 The Bogeyman 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:41:39.412444+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219267",
-        "size_bytes": 885251331
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219267",
-        "size_bytes": 885251331,
-        "source_bytes_read": 885251331,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219267",
         "source_bytes_read": 885251331,
         "elapsed_seconds": 88.684,
         "finished_at": "2026-11-21T03:43:43.940021+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219267",
+          "size_bytes": 885251331,
+          "source_bytes_read": 885251331,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32223772",
+        "source_url": "https://sdilej.cz/32223772/spravedlnost-v-krvi-s04e12-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219267",
+        "display_name": "Blue Bloods S04E12 The Bogeyman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:44:05.636243+00:00"
       }
     },
     "1564:4:13": {
@@ -763090,7 +763091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:43:54.985162+00:00",
+  "updated_at": "2026-11-21T03:44:05.636261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
