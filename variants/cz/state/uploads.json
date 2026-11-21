@@ -769134,12 +769134,6 @@
     },
     "1564:10:2": {
       "episode_key": "spravedlnost v krvi:s10:e2",
-      "claim": {
-        "worker_id": "00b81c5adb1f43368d6fb90e1b06a60f-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:22:28.834044+00:00",
-        "lease_expires_at": "2026-11-21T11:22:28.834058+00:00"
-      },
       "source": {
         "source_id": "34252491",
         "source_url": "https://sdilej.cz/34252491/blue-bloods-10x02-hodny-ci-zly-hdtv-cz.mkv",
@@ -769164,22 +769158,29 @@
         "display_name": "Blue Bloods S10E02 Naughty or Nice 1080p CZ Dabing",
         "prepared_at": "2026-11-21T05:22:36.240726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220836",
-        "size_bytes": 565720912
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220836",
-        "size_bytes": 565720912,
-        "source_bytes_read": 565720912,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220836",
         "source_bytes_read": 565720912,
         "elapsed_seconds": 32.128,
         "finished_at": "2026-11-21T05:23:39.525715+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220836",
+          "size_bytes": 565720912,
+          "source_bytes_read": 565720912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252491",
+        "source_url": "https://sdilej.cz/34252491/blue-bloods-10x02-hodny-ci-zly-hdtv-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220836",
+        "display_name": "Blue Bloods S10E02 Naughty or Nice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:23:51.400503+00:00"
       }
     },
     "1564:10:3": {
@@ -769261,7 +769262,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:23:45.118219+00:00",
+  "updated_at": "2026-11-21T05:23:51.400520+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
