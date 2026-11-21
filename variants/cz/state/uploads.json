@@ -784577,28 +784577,29 @@
           "at": "2026-11-21T19:12:10.809244+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "fcff615915c44c6fbdf4027782d65050-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:12:16.084120+00:00",
-        "lease_expires_at": "2026-11-22T01:12:16.084137+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31234724",
-        "size_bytes": 745331497
-      },
-      "transfer_receipt": {
-        "target_video_id": "31234724",
-        "size_bytes": 745331497,
-        "source_bytes_read": 745331497,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31234724",
         "source_bytes_read": 745331497,
         "elapsed_seconds": 58.75,
         "finished_at": "2026-11-21T19:14:03.010306+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31234724",
+          "size_bytes": 745331497,
+          "source_bytes_read": 745331497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27828129",
+        "source_url": "https://sdilej.cz/27828129/znovu-20-s02e05-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31234724",
+        "display_name": "Younger S02E05 Jersey, Sure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T19:14:11.720308+00:00"
       }
     },
     "2004:2:6": {
@@ -801028,7 +801029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:14:03.010335+00:00",
+  "updated_at": "2026-11-21T19:14:11.720326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
