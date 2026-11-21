@@ -757263,12 +757263,6 @@
     },
     "1320:2:3": {
       "episode_key": "doktorka z dixie:s2:e3",
-      "claim": {
-        "worker_id": "866a537d63d64623b9cc85892c41138e-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:02:03.947981+00:00",
-        "lease_expires_at": "2026-11-21T08:02:03.948005+00:00"
-      },
       "source": {
         "source_id": "10246189",
         "source_url": "https://sdilej.cz/10246189/doktorka-z-dixie-02x03-kdyz-ti-to-pomuze-2012-cz-dabing-.avi",
@@ -757293,22 +757287,29 @@
         "display_name": "Hart of Dixie S02E03 If It Makes You Happy SD CZ Dabing",
         "prepared_at": "2026-11-21T02:02:15.760071+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217751",
-        "size_bytes": 373191600
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217751",
-        "size_bytes": 373191600,
-        "source_bytes_read": 373191600,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217751",
         "source_bytes_read": 373191600,
         "elapsed_seconds": 21.201,
         "finished_at": "2026-11-21T02:03:10.614035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217751",
+          "size_bytes": 373191600,
+          "source_bytes_read": 373191600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10246189",
+        "source_url": "https://sdilej.cz/10246189/doktorka-z-dixie-02x03-kdyz-ti-to-pomuze-2012-cz-dabing-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217751",
+        "display_name": "Hart of Dixie S02E03 If It Makes You Happy SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:03:27.859360+00:00"
       }
     }
   },
@@ -757317,7 +757318,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:03:22.795573+00:00",
+  "updated_at": "2026-11-21T02:03:27.859375+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
