@@ -758934,12 +758934,6 @@
     },
     "1320:4:4": {
       "episode_key": "doktorka z dixie:s4:e4",
-      "claim": {
-        "worker_id": "371bb14a0c7045afba32f0e896298cd3-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:31:47.790654+00:00",
-        "lease_expires_at": "2026-11-21T08:31:47.790673+00:00"
-      },
       "source": {
         "source_id": "5135228",
         "source_url": "https://sdilej.cz/5135228/doktorka.z.dixie.04x04.talentova.soutez.dvb-t.cz.avi",
@@ -758964,22 +758958,29 @@
         "display_name": "Hart of Dixie S04E04 Red Dye #40 SD CZ Dabing",
         "prepared_at": "2026-11-21T02:31:59.976047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218164",
-        "size_bytes": 661319348
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218164",
-        "size_bytes": 661319348,
-        "source_bytes_read": 661319348,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218164",
         "source_bytes_read": 661319348,
         "elapsed_seconds": 35.533,
         "finished_at": "2026-11-21T02:33:14.594249+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218164",
+          "size_bytes": 661319348,
+          "source_bytes_read": 661319348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5135228",
+        "source_url": "https://sdilej.cz/5135228/doktorka.z.dixie.04x04.talentova.soutez.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218164",
+        "display_name": "Hart of Dixie S04E04 Red Dye #40 SD CZ Dabing",
+        "uploaded_at": "2026-11-21T02:33:27.023965+00:00"
       }
     },
     "1564:1:1": {
@@ -759025,7 +759026,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:33:21.735657+00:00",
+  "updated_at": "2026-11-21T02:33:27.023984+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
