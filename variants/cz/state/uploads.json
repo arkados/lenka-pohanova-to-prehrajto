@@ -773353,12 +773353,6 @@
     },
     "52:2:1": {
       "episode_key": "12 opic:s2:e1",
-      "claim": {
-        "worker_id": "bda7e5acee8e4290ade04c0a0b66e495-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:26:32.880212+00:00",
-        "lease_expires_at": "2026-11-21T12:26:32.880224+00:00"
-      },
       "source": {
         "source_id": "34895010",
         "source_url": "https://sdilej.cz/34895010/12-monkeys-s02e01-rok-opice.mkv",
@@ -773383,22 +773377,29 @@
         "display_name": "12 Monkeys S02E01 Year of the Monkey 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:26:38.513691+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221808",
-        "size_bytes": 884885560
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221808",
-        "size_bytes": 884885560,
-        "source_bytes_read": 884885560,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221808",
         "source_bytes_read": 884885560,
         "elapsed_seconds": 192.705,
         "finished_at": "2026-11-21T06:30:22.564966+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221808",
+          "size_bytes": 884885560,
+          "source_bytes_read": 884885560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34895010",
+        "source_url": "https://sdilej.cz/34895010/12-monkeys-s02e01-rok-opice.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221808",
+        "display_name": "12 Monkeys S02E01 Year of the Monkey 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:30:29.881944+00:00"
       }
     },
     "52:2:2": {
@@ -773592,7 +773593,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:30:22.564984+00:00",
+  "updated_at": "2026-11-21T06:30:29.881959+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
