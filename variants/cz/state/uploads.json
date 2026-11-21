@@ -798538,12 +798538,6 @@
     },
     "1198:6:22": {
       "episode_key": "chirurgové:s6:e22",
-      "claim": {
-        "worker_id": "6a024e6547eb4e4eb160f15de4eb9043-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T15:52:53.272526+00:00",
-        "lease_expires_at": "2026-11-21T21:52:53.272540+00:00"
-      },
       "source": {
         "source_id": "34951906",
         "source_url": "https://sdilej.cz/34951906/chirurgove-cz-s06e22-gg-..mp4",
@@ -798568,22 +798562,29 @@
         "display_name": "Grey's Anatomy S06E22 Shiny Happy People 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:53:03.675117+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231724",
-        "size_bytes": 831913691
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231724",
-        "size_bytes": 831913691,
-        "source_bytes_read": 831913691,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231724",
         "source_bytes_read": 831913691,
         "elapsed_seconds": 73.996,
         "finished_at": "2026-11-21T15:54:51.663590+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231724",
+          "size_bytes": 831913691,
+          "source_bytes_read": 831913691,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34951906",
+        "source_url": "https://sdilej.cz/34951906/chirurgove-cz-s06e22-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231724",
+        "display_name": "Grey's Anatomy S06E22 Shiny Happy People 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:54:59.240154+00:00"
       }
     },
     "1198:6:23": {
@@ -798643,7 +798644,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:54:51.663611+00:00",
+  "updated_at": "2026-11-21T15:54:59.240172+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
