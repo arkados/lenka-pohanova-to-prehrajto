@@ -767296,12 +767296,6 @@
     },
     "1564:8:7": {
       "episode_key": "spravedlnost v krvi:s8:e7",
-      "claim": {
-        "worker_id": "a053a713470e4162903b793082c2e6be-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T04:52:22.024104+00:00",
-        "lease_expires_at": "2026-11-21T10:52:22.024114+00:00"
-      },
       "source": {
         "source_id": "34251903",
         "source_url": "https://sdilej.cz/34251903/blue-bloods-08x07-spolecne-uzemi-cz.mkv",
@@ -767326,22 +767320,29 @@
         "display_name": "Blue Bloods S08E07 Common Ground 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:52:27.583956+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220371",
-        "size_bytes": 471991861
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220371",
-        "size_bytes": 471991861,
-        "source_bytes_read": 471991861,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220371",
         "source_bytes_read": 471991861,
         "elapsed_seconds": 31.701,
         "finished_at": "2026-11-21T04:53:31.131737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220371",
+          "size_bytes": 471991861,
+          "source_bytes_read": 471991861,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251903",
+        "source_url": "https://sdilej.cz/34251903/blue-bloods-08x07-spolecne-uzemi-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220371",
+        "display_name": "Blue Bloods S08E07 Common Ground 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:53:49.812225+00:00"
       }
     }
   },
@@ -767350,7 +767351,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:53:41.391730+00:00",
+  "updated_at": "2026-11-21T04:53:49.812241+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
