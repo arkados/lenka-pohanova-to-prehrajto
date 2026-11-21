@@ -764799,12 +764799,6 @@
     },
     "1564:6:4": {
       "episode_key": "spravedlnost v krvi:s6:e4",
-      "claim": {
-        "worker_id": "ccb03449329149888487b78e6288ff29-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:15:59.229489+00:00",
-        "lease_expires_at": "2026-11-21T10:15:59.229510+00:00"
-      },
       "source": {
         "source_id": "32121325",
         "source_url": "https://sdilej.cz/32121325/spravedlnost-v-krvi-s06e04-cz.mp4",
@@ -764829,22 +764823,29 @@
         "display_name": "Blue Bloods S06E04 With Friends Like These 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:16:16.718271+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219810",
-        "size_bytes": 876593428
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219810",
-        "size_bytes": 876593428,
-        "source_bytes_read": 876593428,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219810",
         "source_bytes_read": 876593428,
         "elapsed_seconds": 54.801,
         "finished_at": "2026-11-21T04:17:38.922377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219810",
+          "size_bytes": 876593428,
+          "source_bytes_read": 876593428,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32121325",
+        "source_url": "https://sdilej.cz/32121325/spravedlnost-v-krvi-s06e04-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219810",
+        "display_name": "Blue Bloods S06E04 With Friends Like These 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:17:46.504894+00:00"
       }
     },
     "1564:6:5": {
@@ -764927,7 +764928,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:17:38.922397+00:00",
+  "updated_at": "2026-11-21T04:17:46.504912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
