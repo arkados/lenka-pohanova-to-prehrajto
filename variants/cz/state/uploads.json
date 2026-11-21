@@ -796133,12 +796133,6 @@
     },
     "1198:3:17": {
       "episode_key": "chirurgové:s3:e17",
-      "claim": {
-        "worker_id": "86f735444c824b919b9feeeef4d2d576-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:51:45.154346+00:00",
-        "lease_expires_at": "2026-11-21T20:51:45.154357+00:00"
-      },
       "source": {
         "source_id": "27683123",
         "source_url": "https://sdilej.cz/27683123/chirurgove-s03e17-cz.mkv",
@@ -796163,22 +796157,29 @@
         "display_name": "Grey's Anatomy S03E17 Some Kind of Miracle 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:52:06.609747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230665",
-        "size_bytes": 687634564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230665",
-        "size_bytes": 687634564,
-        "source_bytes_read": 687634564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230665",
         "source_bytes_read": 687634564,
         "elapsed_seconds": 38.379,
         "finished_at": "2026-11-21T14:53:12.605508+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230665",
+          "size_bytes": 687634564,
+          "source_bytes_read": 687634564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27683123",
+        "source_url": "https://sdilej.cz/27683123/chirurgove-s03e17-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230665",
+        "display_name": "Grey's Anatomy S03E17 Some Kind of Miracle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:53:19.631088+00:00"
       }
     }
   },
@@ -796187,7 +796188,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:53:12.605527+00:00",
+  "updated_at": "2026-11-21T14:53:19.631102+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
