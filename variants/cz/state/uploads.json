@@ -775107,12 +775107,6 @@
     },
     "52:2:10": {
       "episode_key": "12 opic:s2:e10",
-      "claim": {
-        "worker_id": "b62445873e6b43c68a35c4285a318b8b-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:53:39.332914+00:00",
-        "lease_expires_at": "2026-11-21T12:53:39.332925+00:00"
-      },
       "source": {
         "source_id": "33239639",
         "source_url": "https://sdilej.cz/33239639/12-opic-12-monkeys-s02e10-cz-dabing.mkv",
@@ -775136,7 +775130,17 @@
         },
         "display_name": "12 Monkeys S02E10 Fatherland 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:53:54.077779+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239639:https://sdilej.cz/33239639/12-opic-12-monkeys-s02e10-cz-dabing.mkv",
+        "at": "2026-11-21T06:54:08.934610+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T06:54:08.934674+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2196:1:3": {
       "episode_key": "rizzoli & isles: vraždy na pitevně:s1:e3",
@@ -775153,7 +775157,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:54:03.154719+00:00",
+  "updated_at": "2026-11-21T06:54:08.934680+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -775754,19 +775758,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:2:3",
-          "at": "2026-11-21T06:53:20.127906+00:00"
-        },
-        {
           "identity": "52:2:4",
           "at": "2026-11-21T06:53:43.909397+00:00"
         },
         {
           "identity": "52:2:9",
           "at": "2026-11-21T06:53:48.716772+00:00"
+        },
+        {
+          "identity": "52:2:10",
+          "at": "2026-11-21T06:54:08.934610+00:00"
         }
       ],
-      "retry_after": "2026-11-21T07:03:48.716772+00:00"
+      "retry_after": "2026-11-21T07:04:08.934610+00:00"
     }
   }
 }
