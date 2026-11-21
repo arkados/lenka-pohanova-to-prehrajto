@@ -790483,12 +790483,6 @@
     },
     "1163:2:11": {
       "episode_key": "tyran:s2:e11",
-      "claim": {
-        "worker_id": "a2a6924c40d5484d8c849cc8d3a769da-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:26:54.313935+00:00",
-        "lease_expires_at": "2026-11-21T18:26:54.313953+00:00"
-      },
       "source": {
         "source_id": "7260317",
         "source_url": "https://sdilej.cz/7260317/tyran-s02e11-cz-dabing-tyrant-lehi-.avi",
@@ -790529,7 +790523,13 @@
         "elapsed_seconds": 62.61,
         "finished_at": "2026-11-21T12:28:35.085639+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T12:28:39.464746+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     },
     "1163:2:12": {
       "episode_key": "tyran:s2:e12",
@@ -790611,7 +790611,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:28:35.085658+00:00",
+  "updated_at": "2026-11-21T12:28:39.464766+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
