@@ -791799,12 +791799,6 @@
     },
     "1536:1:6": {
       "episode_key": "policejní bažanti:s1:e6",
-      "claim": {
-        "worker_id": "f6fe2294309441fe8f7c16b5d2461b30-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:09:05.254648+00:00",
-        "lease_expires_at": "2026-11-21T19:09:05.254660+00:00"
-      },
       "source": {
         "source_id": "27428826",
         "source_url": "https://sdilej.cz/27428826/policejni-bazanti-s01e06-cz.avi",
@@ -791829,22 +791823,29 @@
         "display_name": "Rookie Blue S01E06 Bullet Proof SD CZ Dabing",
         "prepared_at": "2026-11-21T13:09:23.019751+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31228965",
-        "size_bytes": 381790208
-      },
-      "transfer_receipt": {
-        "target_video_id": "31228965",
-        "size_bytes": 381790208,
-        "source_bytes_read": 381790208,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31228965",
         "source_bytes_read": 381790208,
         "elapsed_seconds": 127.803,
         "finished_at": "2026-11-21T13:11:55.137269+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31228965",
+          "size_bytes": 381790208,
+          "source_bytes_read": 381790208,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27428826",
+        "source_url": "https://sdilej.cz/27428826/policejni-bazanti-s01e06-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31228965",
+        "display_name": "Rookie Blue S01E06 Bullet Proof SD CZ Dabing",
+        "uploaded_at": "2026-11-21T13:12:01.126477+00:00"
       }
     },
     "1536:1:7": {
@@ -791941,7 +791942,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:11:55.137288+00:00",
+  "updated_at": "2026-11-21T13:12:01.126496+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
