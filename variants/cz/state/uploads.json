@@ -785322,12 +785322,6 @@
     },
     "668:1:8": {
       "episode_key": "bílá královna:s1:e8",
-      "claim": {
-        "worker_id": "a09967392de44f91a1ba1e14dc050dbb-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:06:28.070389+00:00",
-        "lease_expires_at": "2026-11-21T16:06:28.070407+00:00"
-      },
       "source": {
         "source_id": "33940582",
         "source_url": "https://sdilej.cz/33940582/bila-kralovna-s01e08-cz-dabing-1080p-full-hd.mp4",
@@ -785351,7 +785345,17 @@
         },
         "display_name": "The White Queen S01E08 Long Live The King 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:06:43.442328+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33940582:https://sdilej.cz/33940582/bila-kralovna-s01e08-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-21T10:07:03.246696+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:07:03.246792+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -785359,7 +785363,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:06:57.542365+00:00",
+  "updated_at": "2026-11-21T10:07:03.246799+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -786017,9 +786021,13 @@
         {
           "identity": "668:1:1",
           "at": "2026-11-21T10:06:49.682494+00:00"
+        },
+        {
+          "identity": "668:1:8",
+          "at": "2026-11-21T10:07:03.246696+00:00"
         }
       ],
-      "retry_after": "2026-11-21T10:02:54.725505+00:00"
+      "retry_after": "2026-11-21T10:17:03.246696+00:00"
     }
   }
 }
