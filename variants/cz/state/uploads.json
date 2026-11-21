@@ -760923,12 +760923,6 @@
     },
     "1564:2:17": {
       "episode_key": "spravedlnost v krvi:s2:e17",
-      "claim": {
-        "worker_id": "d106cc1d22164c8d9515ad2bfbd4b9eb-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:02:11.853859+00:00",
-        "lease_expires_at": "2026-11-21T09:02:11.853878+00:00"
-      },
       "source": {
         "source_id": "32117291",
         "source_url": "https://sdilej.cz/32117291/spravedlnost-v-krvi-s02e17-cz.mp4",
@@ -760953,22 +760947,29 @@
         "display_name": "Blue Bloods S02E17 Reagan V. Reagan 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:02:17.873428+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218682",
-        "size_bytes": 868776926
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218682",
-        "size_bytes": 868776926,
-        "source_bytes_read": 868776926,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218682",
         "source_bytes_read": 868776926,
         "elapsed_seconds": 47.65,
         "finished_at": "2026-11-21T03:03:40.104112+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218682",
+          "size_bytes": 868776926,
+          "source_bytes_read": 868776926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117291",
+        "source_url": "https://sdilej.cz/32117291/spravedlnost-v-krvi-s02e17-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218682",
+        "display_name": "Blue Bloods S02E17 Reagan V. Reagan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:03:52.711800+00:00"
       }
     },
     "1564:2:18": {
@@ -761051,7 +761052,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:03:46.122074+00:00",
+  "updated_at": "2026-11-21T03:03:52.711820+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
