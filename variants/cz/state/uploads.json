@@ -762861,12 +762861,6 @@
     },
     "1564:4:10": {
       "episode_key": "spravedlnost v krvi:s4:e10",
-      "claim": {
-        "worker_id": "31c768c69a8e410e8f4eafa738acb9a4-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T03:39:18.148244+00:00",
-        "lease_expires_at": "2026-11-21T09:39:18.148262+00:00"
-      },
       "source": {
         "source_id": "32223766",
         "source_url": "https://sdilej.cz/32223766/spravedlnost-v-krvi-s04e10-cz.mp4",
@@ -762891,22 +762885,29 @@
         "display_name": "Blue Bloods S04E10 Mistaken Identity 1080p CZ Dabing",
         "prepared_at": "2026-11-21T03:39:28.968372+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31219237",
-        "size_bytes": 844027925
-      },
-      "transfer_receipt": {
-        "target_video_id": "31219237",
-        "size_bytes": 844027925,
-        "source_bytes_read": 844027925,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31219237",
         "source_bytes_read": 844027925,
         "elapsed_seconds": 113.394,
         "finished_at": "2026-11-21T03:41:52.506489+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31219237",
+          "size_bytes": 844027925,
+          "source_bytes_read": 844027925,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32223766",
+        "source_url": "https://sdilej.cz/32223766/spravedlnost-v-krvi-s04e10-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31219237",
+        "display_name": "Blue Bloods S04E10 Mistaken Identity 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T03:42:13.664292+00:00"
       }
     },
     "1564:4:11": {
@@ -763002,7 +763003,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T03:42:05.894053+00:00",
+  "updated_at": "2026-11-21T03:42:13.664312+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
