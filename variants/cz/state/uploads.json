@@ -798946,12 +798946,6 @@
     },
     "1198:7:6": {
       "episode_key": "chirurgové:s7:e6",
-      "claim": {
-        "worker_id": "b5eb7089149449d9bb10d72d51af3965-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:01:36.412596+00:00",
-        "lease_expires_at": "2026-11-21T22:01:36.412608+00:00"
-      },
       "source": {
         "source_id": "34967278",
         "source_url": "https://sdilej.cz/34967278/chirurgove-cz-s07e06-gg-..mp4",
@@ -798976,22 +798970,29 @@
         "display_name": "Grey's Anatomy S07E06 These Arms of Mine 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:01:43.516296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231856",
-        "size_bytes": 825470662
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231856",
-        "size_bytes": 825470662,
-        "source_bytes_read": 825470662,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231856",
         "source_bytes_read": 825470662,
         "elapsed_seconds": 49.532,
         "finished_at": "2026-11-21T16:02:59.758996+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231856",
+          "size_bytes": 825470662,
+          "source_bytes_read": 825470662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967278",
+        "source_url": "https://sdilej.cz/34967278/chirurgove-cz-s07e06-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231856",
+        "display_name": "Grey's Anatomy S07E06 These Arms of Mine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:03:06.897958+00:00"
       }
     },
     "1198:7:7": {
@@ -799074,7 +799075,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:02:59.759010+00:00",
+  "updated_at": "2026-11-21T16:03:06.897974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
