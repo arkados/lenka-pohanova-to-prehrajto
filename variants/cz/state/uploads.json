@@ -790450,12 +790450,6 @@
     },
     "2004:5:4": {
       "episode_key": "znovu 20:s5:e4",
-      "claim": {
-        "worker_id": "2af146340a8a4e8e96515d087a3f6524-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:26:01.240047+00:00",
-        "lease_expires_at": "2026-11-21T18:26:01.240060+00:00"
-      },
       "source": {
         "source_id": "33922813",
         "source_url": "https://sdilej.cz/33922813/znovu-20-s05e04-cz-dabing-1080p-full-hd.mkv",
@@ -790479,7 +790473,17 @@
         },
         "display_name": "Younger S05E04 The Talented Mr. Ridley 1080p CZ Dabing",
         "prepared_at": "2026-11-21T12:26:16.845765+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33922813:https://sdilej.cz/33922813/znovu-20-s05e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T12:26:36.486827+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T12:26:36.487657+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -790487,7 +790491,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:26:30.564180+00:00",
+  "updated_at": "2026-11-21T12:26:36.487667+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -791109,19 +791113,19 @@
     "2004": {
       "recent_failures": [
         {
-          "identity": "2004:4:8",
-          "at": "2026-11-21T12:25:30.145295+00:00"
-        },
-        {
           "identity": "2004:4:12",
           "at": "2026-11-21T12:25:40.969279+00:00"
         },
         {
           "identity": "2004:5:3",
           "at": "2026-11-21T12:26:11.060103+00:00"
+        },
+        {
+          "identity": "2004:5:4",
+          "at": "2026-11-21T12:26:36.486827+00:00"
         }
       ],
-      "retry_after": "2026-11-21T12:36:11.060103+00:00"
+      "retry_after": "2026-11-21T12:36:36.486827+00:00"
     },
     "2372": {
       "recent_failures": [
