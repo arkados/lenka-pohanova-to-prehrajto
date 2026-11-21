@@ -785034,12 +785034,6 @@
     },
     "2004:3:2": {
       "episode_key": "znovu 20:s3:e2",
-      "claim": {
-        "worker_id": "9a04b8ac9ebc4d65b12fb3b8abfb2586-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:59:17.760601+00:00",
-        "lease_expires_at": "2026-11-21T15:59:17.760618+00:00"
-      },
       "source": {
         "source_id": "27879302",
         "source_url": "https://sdilej.cz/27879302/znovu-20-s03e02-1080p-cz-dabing.mkv",
@@ -785064,22 +785058,29 @@
         "display_name": "Younger S03E02 The Marshmallow Experiment 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:59:23.858792+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225430",
-        "size_bytes": 764462990
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225430",
-        "size_bytes": 764462990,
-        "source_bytes_read": 764462990,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225430",
         "source_bytes_read": 764462990,
         "elapsed_seconds": 54.447,
         "finished_at": "2026-11-21T10:00:43.072871+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225430",
+          "size_bytes": 764462990,
+          "source_bytes_read": 764462990,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27879302",
+        "source_url": "https://sdilej.cz/27879302/znovu-20-s03e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225430",
+        "display_name": "Younger S03E02 The Marshmallow Experiment 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T10:00:51.316346+00:00"
       }
     }
   },
@@ -785088,7 +785089,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:00:43.072889+00:00",
+  "updated_at": "2026-11-21T10:00:51.316362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
