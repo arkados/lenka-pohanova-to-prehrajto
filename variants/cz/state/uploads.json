@@ -799499,12 +799499,6 @@
     },
     "1198:7:17": {
       "episode_key": "chirurgové:s7:e17",
-      "claim": {
-        "worker_id": "f453f5fc8fcc4f97a7d0f318ceb94f63-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:14:56.214459+00:00",
-        "lease_expires_at": "2026-11-21T22:14:56.214473+00:00"
-      },
       "source": {
         "source_id": "34967299",
         "source_url": "https://sdilej.cz/34967299/chirurgove-cz-s07e17-gg-..mp4",
@@ -799529,22 +799523,29 @@
         "display_name": "Grey's Anatomy S07E17 This is How We Do it 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:15:02.003270+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31232079",
-        "size_bytes": 822749361
-      },
-      "transfer_receipt": {
-        "target_video_id": "31232079",
-        "size_bytes": 822749361,
-        "source_bytes_read": 822749361,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31232079",
         "source_bytes_read": 822749361,
         "elapsed_seconds": 56.329,
         "finished_at": "2026-11-21T16:16:27.812973+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31232079",
+          "size_bytes": 822749361,
+          "source_bytes_read": 822749361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967299",
+        "source_url": "https://sdilej.cz/34967299/chirurgove-cz-s07e17-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31232079",
+        "display_name": "Grey's Anatomy S07E17 This is How We Do it 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:16:38.036025+00:00"
       }
     },
     "1198:7:19": {
@@ -799590,7 +799591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:16:32.735890+00:00",
+  "updated_at": "2026-11-21T16:16:38.036039+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
