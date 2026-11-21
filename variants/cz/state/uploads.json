@@ -797157,12 +797157,6 @@
     },
     "1198:4:12": {
       "episode_key": "chirurgové:s4:e12",
-      "claim": {
-        "worker_id": "27d454a5d34543c99ad4ec0103a2b51b-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:13:16.189070+00:00",
-        "lease_expires_at": "2026-11-21T21:13:16.189082+00:00"
-      },
       "source": {
         "source_id": "34860504",
         "source_url": "https://sdilej.cz/34860504/chirurgove-cz-s04e12-gg-.mp4",
@@ -797187,22 +797181,29 @@
         "display_name": "Grey's Anatomy S04E12 Where The Wild Things Are 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:13:34.714708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231029",
-        "size_bytes": 831744095
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231029",
-        "size_bytes": 831744095,
-        "source_bytes_read": 831744095,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231029",
         "source_bytes_read": 831744095,
         "elapsed_seconds": 46.699,
         "finished_at": "2026-11-21T15:14:46.779382+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231029",
+          "size_bytes": 831744095,
+          "source_bytes_read": 831744095,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860504",
+        "source_url": "https://sdilej.cz/34860504/chirurgove-cz-s04e12-gg-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231029",
+        "display_name": "Grey's Anatomy S04E12 Where The Wild Things Are 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:15:01.132012+00:00"
       }
     },
     "1198:4:13": {
@@ -797298,7 +797299,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:14:56.494399+00:00",
+  "updated_at": "2026-11-21T15:15:01.132027+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
