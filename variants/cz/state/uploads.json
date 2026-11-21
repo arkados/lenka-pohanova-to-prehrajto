@@ -792465,12 +792465,6 @@
     },
     "1536:2:1": {
       "episode_key": "policejní bažanti:s2:e1",
-      "claim": {
-        "worker_id": "ccf0750a835c4505ae937f2f8fd2b96e-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:29:51.590046+00:00",
-        "lease_expires_at": "2026-11-21T19:29:51.590057+00:00"
-      },
       "source": {
         "source_id": "27994397",
         "source_url": "https://sdilej.cz/27994397/policejni-bazanti-s02e01-falesny-cil.mkv",
@@ -792495,22 +792489,29 @@
         "display_name": "Rookie Blue S02E01 Butterflies 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:30:02.433713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229313",
-        "size_bytes": 864034116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229313",
-        "size_bytes": 864034116,
-        "source_bytes_read": 864034116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229313",
         "source_bytes_read": 864034116,
         "elapsed_seconds": 64.704,
         "finished_at": "2026-11-21T13:31:31.117971+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229313",
+          "size_bytes": 864034116,
+          "source_bytes_read": 864034116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27994397",
+        "source_url": "https://sdilej.cz/27994397/policejni-bazanti-s02e01-falesny-cil.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229313",
+        "display_name": "Rookie Blue S02E01 Butterflies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:31:46.407885+00:00"
       }
     },
     "1536:2:2": {
@@ -792605,7 +792606,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:31:41.644648+00:00",
+  "updated_at": "2026-11-21T13:31:46.407899+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
