@@ -794299,12 +794299,6 @@
     },
     "1536:6:4": {
       "episode_key": "policejní bažanti:s6:e4",
-      "claim": {
-        "worker_id": "ac9ab39830e14f6aae031b20812a8a79-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:08:20.207430+00:00",
-        "lease_expires_at": "2026-11-21T20:08:20.207441+00:00"
-      },
       "source": {
         "source_id": "28007070",
         "source_url": "https://sdilej.cz/28007070/policejni-bazanti-s06e04-davny-pripad.mkv",
@@ -794329,22 +794323,29 @@
         "display_name": "Rookie Blue S06E04 Letting Go 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:08:33.374073+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229992",
-        "size_bytes": 886341822
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229992",
-        "size_bytes": 886341822,
-        "source_bytes_read": 886341822,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229992",
         "source_bytes_read": 886341822,
         "elapsed_seconds": 54.694,
         "finished_at": "2026-11-21T14:09:59.960377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229992",
+          "size_bytes": 886341822,
+          "source_bytes_read": 886341822,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28007070",
+        "source_url": "https://sdilej.cz/28007070/policejni-bazanti-s06e04-davny-pripad.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229992",
+        "display_name": "Rookie Blue S06E04 Letting Go 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:10:14.931964+00:00"
       }
     },
     "1536:6:5": {
@@ -794474,7 +794475,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:10:09.683577+00:00",
+  "updated_at": "2026-11-21T14:10:14.931978+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
