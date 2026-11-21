@@ -803267,12 +803267,6 @@
     },
     "1198:9:13": {
       "episode_key": "chirurgové:s9:e13",
-      "claim": {
-        "worker_id": "f4660b8ebb5e4bb0948bb1bdfd0af244-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:50:17.986123+00:00",
-        "lease_expires_at": "2026-11-22T03:50:17.986140+00:00"
-      },
       "source": {
         "source_id": "27697240",
         "source_url": "https://sdilej.cz/27697240/chirurgove-s09e13-cz.mkv",
@@ -803297,22 +803291,29 @@
         "display_name": "Grey's Anatomy S09E13 Bad Blood 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:50:23.843856+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237185",
-        "size_bytes": 1456031578
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237185",
-        "size_bytes": 1456031578,
-        "source_bytes_read": 1456031578,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237185",
         "source_bytes_read": 1456031578,
         "elapsed_seconds": 120.886,
         "finished_at": "2026-11-21T21:52:48.446014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237185",
+          "size_bytes": 1456031578,
+          "source_bytes_read": 1456031578,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697240",
+        "source_url": "https://sdilej.cz/27697240/chirurgove-s09e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237185",
+        "display_name": "Grey's Anatomy S09E13 Bad Blood 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T21:52:58.686438+00:00"
       }
     },
     "1198:9:14": {
@@ -803395,7 +803396,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:52:48.446033+00:00",
+  "updated_at": "2026-11-21T21:52:58.686458+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
