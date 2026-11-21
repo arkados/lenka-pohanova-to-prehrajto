@@ -800637,28 +800637,29 @@
           "at": "2026-11-21T22:15:45.259908+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b61c1ca8a6494538bdf616063fb49f14-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T22:15:50.390645+00:00",
-        "lease_expires_at": "2026-11-22T04:15:50.390665+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31237610",
-        "size_bytes": 399290368
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237610",
-        "size_bytes": 399290368,
-        "source_bytes_read": 399290368,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237610",
         "source_bytes_read": 399290368,
         "elapsed_seconds": 36.586,
         "finished_at": "2026-11-21T22:17:00.594020+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237610",
+          "size_bytes": 399290368,
+          "source_bytes_read": 399290368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12503656",
+        "source_url": "https://sdilej.cz/12503656/znovu-20-6x03-podezrely-prodej.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237610",
+        "display_name": "Younger S06E03 The Unusual Suspect SD CZ Dabing",
+        "uploaded_at": "2026-11-21T22:17:08.684429+00:00"
       }
     },
     "1198:7:14": {
@@ -803727,7 +803728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:17:00.594048+00:00",
+  "updated_at": "2026-11-21T22:17:08.684448+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
