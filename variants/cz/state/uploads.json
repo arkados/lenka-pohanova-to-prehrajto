@@ -799201,12 +799201,6 @@
     },
     "1198:7:12": {
       "episode_key": "chirurgové:s7:e12",
-      "claim": {
-        "worker_id": "ff8ab37805264e38a37507c2d35fdde7-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:05:19.463960+00:00",
-        "lease_expires_at": "2026-11-21T22:05:19.463970+00:00"
-      },
       "source": {
         "source_id": "27694990",
         "source_url": "https://sdilej.cz/27694990/chirurgove-s07e12-cz.mkv",
@@ -799231,22 +799225,29 @@
         "display_name": "Grey's Anatomy S07E12 Start Me Up 720p CZ Dabing",
         "prepared_at": "2026-11-21T16:05:39.431499+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231935",
-        "size_bytes": 234859615
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231935",
-        "size_bytes": 234859615,
-        "source_bytes_read": 234859615,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231935",
         "source_bytes_read": 234859615,
         "elapsed_seconds": 21.984,
         "finished_at": "2026-11-21T16:06:30.669714+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231935",
+          "size_bytes": 234859615,
+          "source_bytes_read": 234859615,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27694990",
+        "source_url": "https://sdilej.cz/27694990/chirurgove-s07e12-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231935",
+        "display_name": "Grey's Anatomy S07E12 Start Me Up 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:06:48.271775+00:00"
       }
     },
     "1198:7:13": {
@@ -799292,7 +799293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:06:42.615005+00:00",
+  "updated_at": "2026-11-21T16:06:48.271791+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
