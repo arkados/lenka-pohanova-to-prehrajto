@@ -801785,12 +801785,6 @@
     },
     "2004:6:5": {
       "episode_key": "znovu 20:s6:e5",
-      "claim": {
-        "worker_id": "0579d5a7240647d590641003ae1878b7-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:26:48.581624+00:00",
-        "lease_expires_at": "2026-11-22T02:26:48.581641+00:00"
-      },
       "source": {
         "source_id": "33924776",
         "source_url": "https://sdilej.cz/33924776/znovu-20-s06e05-cz-dabing-1080p-full-hd.mkv",
@@ -801814,7 +801808,17 @@
         },
         "display_name": "Younger S06E05 Stiff Competition 1080p CZ Dabing",
         "prepared_at": "2026-11-21T20:27:04.431971+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33924776:https://sdilej.cz/33924776/znovu-20-s06e05-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T20:27:28.613531+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T20:27:28.613565+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:6:6": {
       "episode_key": "znovu 20:s6:e6",
@@ -801831,7 +801835,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:27:23.737061+00:00",
+  "updated_at": "2026-11-21T20:27:28.613570+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -802451,6 +802455,10 @@
         {
           "identity": "2004:6:3",
           "at": "2026-11-21T20:26:53.714531+00:00"
+        },
+        {
+          "identity": "2004:6:5",
+          "at": "2026-11-21T20:27:28.613531+00:00"
         }
       ],
       "retry_after": "2026-11-21T20:25:17.369398+00:00"
