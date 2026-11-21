@@ -768834,12 +768834,6 @@
     },
     "1564:9:18": {
       "episode_key": "spravedlnost v krvi:s9:e18",
-      "claim": {
-        "worker_id": "dd1273105b63458dac005f1ab27c3273-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T05:17:43.580030+00:00",
-        "lease_expires_at": "2026-11-21T11:17:43.580042+00:00"
-      },
       "source": {
         "source_id": "34252392",
         "source_url": "https://sdilej.cz/34252392/blue-bloods-09x18-naprava-web-rip-cz.mkv",
@@ -768864,22 +768858,29 @@
         "display_name": "Blue Bloods S09E18 Rectify 720p CZ Dabing",
         "prepared_at": "2026-11-21T05:17:54.541843+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220782",
-        "size_bytes": 241452441
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220782",
-        "size_bytes": 241452441,
-        "source_bytes_read": 241452441,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220782",
         "source_bytes_read": 241452441,
         "elapsed_seconds": 12.075,
         "finished_at": "2026-11-21T05:18:30.796865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220782",
+          "size_bytes": 241452441,
+          "source_bytes_read": 241452441,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34252392",
+        "source_url": "https://sdilej.cz/34252392/blue-bloods-09x18-naprava-web-rip-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220782",
+        "display_name": "Blue Bloods S09E18 Rectify 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T05:18:47.999787+00:00"
       }
     }
   },
@@ -768888,7 +768889,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T05:18:42.561367+00:00",
+  "updated_at": "2026-11-21T05:18:47.999803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
