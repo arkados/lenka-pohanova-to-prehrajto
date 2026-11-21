@@ -806228,12 +806228,6 @@
     },
     "1198:11:3": {
       "episode_key": "chirurgové:s11:e3",
-      "claim": {
-        "worker_id": "e43010fa0688454fba046e1042cd8f45-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:48:12.808655+00:00",
-        "lease_expires_at": "2026-11-22T05:48:12.808672+00:00"
-      },
       "source": {
         "source_id": "27698405",
         "source_url": "https://sdilej.cz/27698405/chirurgove-s11e03-cz.mkv",
@@ -806258,22 +806252,29 @@
         "display_name": "Grey's Anatomy S11E03 Got to Be Real 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:48:24.138317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239198",
-        "size_bytes": 557600119
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239198",
-        "size_bytes": 557600119,
-        "source_bytes_read": 557600119,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239198",
         "source_bytes_read": 557600119,
         "elapsed_seconds": 32.184,
         "finished_at": "2026-11-21T23:49:29.808830+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239198",
+          "size_bytes": 557600119,
+          "source_bytes_read": 557600119,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698405",
+        "source_url": "https://sdilej.cz/27698405/chirurgove-s11e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239198",
+        "display_name": "Grey's Anatomy S11E03 Got to Be Real 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:49:46.336633+00:00"
       }
     },
     "1198:11:4": {
@@ -806319,7 +806320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:49:34.726107+00:00",
+  "updated_at": "2026-11-21T23:49:46.336651+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
