@@ -786987,28 +786987,29 @@
           "at": "2026-11-21T18:17:00.589634+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "6d58232493c44eb59b1f9914d2afd39e-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T18:17:06.432349+00:00",
-        "lease_expires_at": "2026-11-22T00:17:06.432361+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31233892",
-        "size_bytes": 829439238
-      },
-      "transfer_receipt": {
-        "target_video_id": "31233892",
-        "size_bytes": 829439238,
-        "source_bytes_read": 829439238,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31233892",
         "source_bytes_read": 829439238,
         "elapsed_seconds": 50.33,
         "finished_at": "2026-11-21T18:18:53.437821+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31233892",
+          "size_bytes": 829439238,
+          "source_bytes_read": 829439238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24511433",
+        "source_url": "https://sdilej.cz/24511433/12-opic-12-monkeys-s04e03-hdtv-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31233892",
+        "display_name": "12 Monkeys S04E03 45 RPM 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T18:19:26.684579+00:00"
       }
     },
     "52:4:4": {
@@ -800856,7 +800857,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T18:19:21.791154+00:00",
+  "updated_at": "2026-11-21T18:19:26.684593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
