@@ -791637,12 +791637,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7d58729c9dc7411c94b01c37cf4964b0-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T13:18:49.108411+00:00",
-        "lease_expires_at": "2026-11-21T19:18:49.108421+00:00"
-      },
       "source": {
         "source_id": "30865422",
         "source_url": "https://sdilej.cz/30865422/kondor-2018-s01e03-fuhd-cz-dab.mkv",
@@ -791667,22 +791661,29 @@
         "display_name": "Condor S01E03 A Good Patriot 1080p CZ Dabing",
         "prepared_at": "2026-11-21T13:19:00.120988+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31229123",
-        "size_bytes": 1034525588
-      },
-      "transfer_receipt": {
-        "target_video_id": "31229123",
-        "size_bytes": 1034525588,
-        "source_bytes_read": 1034525588,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31229123",
         "source_bytes_read": 1034525588,
         "elapsed_seconds": 59.041,
         "finished_at": "2026-11-21T13:20:35.562260+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31229123",
+          "size_bytes": 1034525588,
+          "source_bytes_read": 1034525588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30865422",
+        "source_url": "https://sdilej.cz/30865422/kondor-2018-s01e03-fuhd-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31229123",
+        "display_name": "Condor S01E03 A Good Patriot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T13:20:51.245552+00:00"
       }
     },
     "2004:5:5": {
@@ -792210,7 +792211,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T13:20:46.506869+00:00",
+  "updated_at": "2026-11-21T13:20:51.245568+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
