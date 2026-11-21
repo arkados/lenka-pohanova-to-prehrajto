@@ -791384,12 +791384,6 @@
     },
     "3114:1:13": {
       "episode_key": "šéfkuchař nadivoko:s1:e13",
-      "claim": {
-        "worker_id": "bcb1800672c34fb5b4a3e63cff0bc0ee-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T12:51:48.560486+00:00",
-        "lease_expires_at": "2026-11-21T18:51:48.560494+00:00"
-      },
       "source": {
         "source_id": "12340460",
         "source_url": "https://sdilej.cz/12340460/kitchen.confidential.s01e13.480p.10bit.dvdrip.ac3.x265.hevc-panda-czaudio-.mkv",
@@ -791430,7 +791424,13 @@
         "elapsed_seconds": 17.066,
         "finished_at": "2026-11-21T12:52:50.122299+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T12:54:26.003933+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1295:1:1": {
       "episode_key": "kondor:s1:e1",
@@ -791497,7 +791497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T12:53:58.508795+00:00",
+  "updated_at": "2026-11-21T12:54:26.003955+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
