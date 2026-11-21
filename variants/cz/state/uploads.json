@@ -766635,12 +766635,6 @@
     },
     "1564:7:18": {
       "episode_key": "spravedlnost v krvi:s7:e18",
-      "claim": {
-        "worker_id": "f42995c5bea64bb6b1f0638d41e228d3-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T04:44:34.729184+00:00",
-        "lease_expires_at": "2026-11-21T10:44:34.729199+00:00"
-      },
       "source": {
         "source_id": "34251470",
         "source_url": "https://sdilej.cz/34251470/blue-bloods-07x18-odchod-do-penze-cz.mkv",
@@ -766665,22 +766659,29 @@
         "display_name": "Blue Bloods S07E18 A Deep Blue Goodbye 1080p CZ Dabing",
         "prepared_at": "2026-11-21T04:44:50.525070+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31220260",
-        "size_bytes": 360325852
-      },
-      "transfer_receipt": {
-        "target_video_id": "31220260",
-        "size_bytes": 360325852,
-        "source_bytes_read": 360325852,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31220260",
         "source_bytes_read": 360325852,
         "elapsed_seconds": 16.766,
         "finished_at": "2026-11-21T04:45:34.815307+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31220260",
+          "size_bytes": 360325852,
+          "source_bytes_read": 360325852,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34251470",
+        "source_url": "https://sdilej.cz/34251470/blue-bloods-07x18-odchod-do-penze-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31220260",
+        "display_name": "Blue Bloods S07E18 A Deep Blue Goodbye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T04:45:51.228419+00:00"
       }
     },
     "1564:7:19": {
@@ -766726,7 +766727,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T04:45:44.395725+00:00",
+  "updated_at": "2026-11-21T04:45:51.228433+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
