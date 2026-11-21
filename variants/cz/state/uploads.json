@@ -798640,12 +798640,6 @@
     },
     "2004:6:1": {
       "episode_key": "znovu 20:s6:e1",
-      "claim": {
-        "worker_id": "89dc331c42ff40249d000bd7b2e8559a-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T15:56:43.957443+00:00",
-        "lease_expires_at": "2026-11-21T21:56:43.957456+00:00"
-      },
       "source": {
         "source_id": "33855259",
         "source_url": "https://sdilej.cz/33855259/younger-2019-s06e01-big-day-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
@@ -798670,22 +798664,29 @@
         "display_name": "Younger S06E01 Big Day 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:56:53.727281+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231779",
-        "size_bytes": 852838377
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231779",
-        "size_bytes": 852838377,
-        "source_bytes_read": 852838377,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231779",
         "source_bytes_read": 852838377,
         "elapsed_seconds": 78.598,
         "finished_at": "2026-11-21T15:58:41.333695+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231779",
+          "size_bytes": 852838377,
+          "source_bytes_read": 852838377,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33855259",
+        "source_url": "https://sdilej.cz/33855259/younger-2019-s06e01-big-day-1080p-amzn-web-dl-cz-en-x265-prody-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231779",
+        "display_name": "Younger S06E01 Big Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:58:56.014168+00:00"
       }
     },
     "2004:6:2": {
@@ -798781,7 +798782,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:58:48.993159+00:00",
+  "updated_at": "2026-11-21T15:58:56.014182+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
