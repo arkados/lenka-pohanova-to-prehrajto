@@ -754375,12 +754375,6 @@
     },
     "38:8:20": {
       "episode_key": "průměrňákovi:s8:e20",
-      "claim": {
-        "worker_id": "a3a5962f5139442bb72326014bd713e7-worker-0",
-        "run_id": "44822056663",
-        "claimed_at": "2026-11-21T01:05:27.192067+00:00",
-        "lease_expires_at": "2026-11-21T07:05:27.192077+00:00"
-      },
       "source": {
         "source_id": "27655054",
         "source_url": "https://sdilej.cz/27655054/prumernakovi-s08e20-cz.mkv",
@@ -754405,22 +754399,29 @@
         "display_name": "The Middle S08E20 Adult Swim 1080p CZ Dabing",
         "prepared_at": "2026-11-21T01:05:38.245709+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31216845",
-        "size_bytes": 957383566
-      },
-      "transfer_receipt": {
-        "target_video_id": "31216845",
-        "size_bytes": 957383566,
-        "source_bytes_read": 957383566,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31216845",
         "source_bytes_read": 957383566,
         "elapsed_seconds": 66.533,
         "finished_at": "2026-11-21T01:07:06.800815+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31216845",
+          "size_bytes": 957383566,
+          "source_bytes_read": 957383566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27655054",
+        "source_url": "https://sdilej.cz/27655054/prumernakovi-s08e20-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31216845",
+        "display_name": "The Middle S08E20 Adult Swim 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T01:07:19.836429+00:00"
       }
     }
   },
@@ -754429,7 +754430,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:07:14.123735+00:00",
+  "updated_at": "2026-11-21T01:07:19.836445+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
