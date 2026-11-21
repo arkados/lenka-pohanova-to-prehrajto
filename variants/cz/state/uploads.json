@@ -789060,12 +789060,6 @@
     },
     "449:1:2": {
       "episode_key": "lucky louie:s1:e2",
-      "claim": {
-        "worker_id": "e1deebbb6e4e4edda2391a82846a9113-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:46:41.838960+00:00",
-        "lease_expires_at": "2026-11-21T17:46:41.838979+00:00"
-      },
       "source": {
         "source_id": "33536684",
         "source_url": "https://sdilej.cz/33536684/lucky-louie-s01e02-czdab.mp4",
@@ -789090,22 +789084,29 @@
         "display_name": "Lucky Louie S01E02 Kim's O 720p CZ Dabing",
         "prepared_at": "2026-11-21T11:46:58.863024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227574",
-        "size_bytes": 323918580
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227574",
-        "size_bytes": 323918580,
-        "source_bytes_read": 323918580,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227574",
         "source_bytes_read": 323918580,
         "elapsed_seconds": 20.313,
         "finished_at": "2026-11-21T11:47:45.992155+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227574",
+          "size_bytes": 323918580,
+          "source_bytes_read": 323918580,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33536684",
+        "source_url": "https://sdilej.cz/33536684/lucky-louie-s01e02-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227574",
+        "display_name": "Lucky Louie S01E02 Kim's O 720p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:47:54.402371+00:00"
       }
     }
   },
@@ -789114,7 +789115,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:47:45.992174+00:00",
+  "updated_at": "2026-11-21T11:47:54.402389+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
