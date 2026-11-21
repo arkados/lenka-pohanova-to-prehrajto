@@ -804198,12 +804198,6 @@
     },
     "2004:7:8": {
       "episode_key": "znovu 20:s7:e8",
-      "claim": {
-        "worker_id": "ef2a77bb3fea4321a5e562251171315f-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T22:35:06.465783+00:00",
-        "lease_expires_at": "2026-11-22T04:35:06.465800+00:00"
-      },
       "source": {
         "source_id": "30755048",
         "source_url": "https://sdilej.cz/30755048/znovu-20-znovu-20-s07e08.mkv",
@@ -804228,22 +804222,29 @@
         "display_name": "Younger S07E08 The Baroness 1080p CZ Dabing",
         "prepared_at": "2026-11-21T22:35:21.294709+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31237980",
-        "size_bytes": 916124120
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237980",
-        "size_bytes": 916124120,
-        "source_bytes_read": 916124120,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237980",
         "source_bytes_read": 916124120,
         "elapsed_seconds": 41.9,
         "finished_at": "2026-11-21T22:36:23.242973+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237980",
+          "size_bytes": 916124120,
+          "source_bytes_read": 916124120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30755048",
+        "source_url": "https://sdilej.cz/30755048/znovu-20-znovu-20-s07e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237980",
+        "display_name": "Younger S07E08 The Baroness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:36:36.033531+00:00"
       }
     },
     "2004:7:9": {
@@ -804261,7 +804262,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:36:31.005199+00:00",
+  "updated_at": "2026-11-21T22:36:36.033549+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
