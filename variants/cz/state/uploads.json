@@ -785105,12 +785105,6 @@
     },
     "2372:1:7": {
       "episode_key": "holky z vejšky:s1:e7",
-      "claim": {
-        "worker_id": "72161196390a42f0a112a71b8d662612-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:03:24.832581+00:00",
-        "lease_expires_at": "2026-11-21T16:03:24.832600+00:00"
-      },
       "source": {
         "source_id": "33690780",
         "source_url": "https://sdilej.cz/33690780/holky-z-vejsky-s01e07-cz-dabing.mp4",
@@ -785134,7 +785128,17 @@
         },
         "display_name": "The Sex Lives of College Girls S01E07 I Think I'm a Sex Addict 1080p CZ Dabing",
         "prepared_at": "2026-11-21T10:03:40.226262+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33690780:https://sdilej.cz/33690780/holky-z-vejsky-s01e07-cz-dabing.mp4",
+        "at": "2026-11-21T10:04:02.439673+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T10:04:02.439709+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -785142,7 +785146,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:03:57.193909+00:00",
+  "updated_at": "2026-11-21T10:04:02.439715+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -785775,6 +785779,10 @@
         {
           "identity": "2372:1:1",
           "at": "2026-11-21T10:03:49.495490+00:00"
+        },
+        {
+          "identity": "2372:1:7",
+          "at": "2026-11-21T10:04:02.439673+00:00"
         }
       ],
       "retry_after": "2026-11-21T10:00:38.990148+00:00"
