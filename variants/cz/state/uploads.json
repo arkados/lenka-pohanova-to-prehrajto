@@ -780962,12 +780962,6 @@
     },
     "3257:1:1": {
       "episode_key": "rozehrávači:s1:e1",
-      "claim": {
-        "worker_id": "a01d4232dd6b40dbb8662d772191785d-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T08:43:29.999146+00:00",
-        "lease_expires_at": "2026-11-21T14:43:29.999164+00:00"
-      },
       "source": {
         "source_id": "26517952",
         "source_url": "https://sdilej.cz/26517952/rozehravaci-s01e01-quarterback-s01e01-usa-2023-cz-dabing.mkv",
@@ -780992,22 +780986,29 @@
         "display_name": "Quarterback S01E01 The Quest 1080p CZ Dabing",
         "prepared_at": "2026-11-21T08:43:40.821559+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31223940",
-        "size_bytes": 2355421747
-      },
-      "transfer_receipt": {
-        "target_video_id": "31223940",
-        "size_bytes": 2355421747,
-        "source_bytes_read": 2355421747,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31223940",
         "source_bytes_read": 2355421747,
         "elapsed_seconds": 311.574,
         "finished_at": "2026-11-21T08:49:17.304097+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31223940",
+          "size_bytes": 2355421747,
+          "source_bytes_read": 2355421747,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26517952",
+        "source_url": "https://sdilej.cz/26517952/rozehravaci-s01e01-quarterback-s01e01-usa-2023-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31223940",
+        "display_name": "Quarterback S01E01 The Quest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T08:49:25.866596+00:00"
       }
     },
     "3257:1:2": {
@@ -781090,7 +781091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T08:49:17.304115+00:00",
+  "updated_at": "2026-11-21T08:49:25.866614+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
