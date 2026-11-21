@@ -795178,12 +795178,6 @@
     },
     "1198:2:4": {
       "episode_key": "chirurgové:s2:e4",
-      "claim": {
-        "worker_id": "8549e8a8e9c74c8f9014bbef25c362e6-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T14:31:55.642426+00:00",
-        "lease_expires_at": "2026-11-21T20:31:55.642438+00:00"
-      },
       "source": {
         "source_id": "34787178",
         "source_url": "https://sdilej.cz/34787178/chirurgove-cz-s02e04-gg-.mp4",
@@ -795208,22 +795202,29 @@
         "display_name": "Grey's Anatomy S02E04 Deny, Deny, Deny 1080p CZ Dabing",
         "prepared_at": "2026-11-21T14:32:15.045259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31230365",
-        "size_bytes": 823816065
-      },
-      "transfer_receipt": {
-        "target_video_id": "31230365",
-        "size_bytes": 823816065,
-        "source_bytes_read": 823816065,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31230365",
         "source_bytes_read": 823816065,
         "elapsed_seconds": 46.55,
         "finished_at": "2026-11-21T14:33:26.582131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31230365",
+          "size_bytes": 823816065,
+          "source_bytes_read": 823816065,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34787178",
+        "source_url": "https://sdilej.cz/34787178/chirurgove-cz-s02e04-gg-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31230365",
+        "display_name": "Grey's Anatomy S02E04 Deny, Deny, Deny 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T14:33:37.681435+00:00"
       }
     },
     "1198:2:5": {
@@ -795305,7 +795306,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T14:33:31.114658+00:00",
+  "updated_at": "2026-11-21T14:33:37.681449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
