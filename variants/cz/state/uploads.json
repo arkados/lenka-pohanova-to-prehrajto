@@ -784218,12 +784218,6 @@
     },
     "2372:1:3": {
       "episode_key": "holky z vejšky:s1:e3",
-      "claim": {
-        "worker_id": "3b6c0201cd1440679657023f45c53977-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T09:49:26.541517+00:00",
-        "lease_expires_at": "2026-11-21T15:49:26.541533+00:00"
-      },
       "source": {
         "source_id": "33690381",
         "source_url": "https://sdilej.cz/33690381/holky-z-vejsky-s01e03-cz-dabing.mp4",
@@ -784247,7 +784241,17 @@
         },
         "display_name": "The Sex Lives of College Girls S01E03 Le Tuteur 1080p CZ Dabing",
         "prepared_at": "2026-11-21T09:49:42.956400+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33690381:https://sdilej.cz/33690381/holky-z-vejsky-s01e03-cz-dabing.mp4",
+        "at": "2026-11-21T09:49:59.330584+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T09:49:59.330676+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2372:1:4": {
       "episode_key": "holky z vejšky:s1:e4",
@@ -784288,7 +784292,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T09:49:53.256761+00:00",
+  "updated_at": "2026-11-21T09:49:59.330686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -784929,8 +784933,13 @@
         {
           "identity": "2372:1:2",
           "at": "2026-11-21T09:49:47.908437+00:00"
+        },
+        {
+          "identity": "2372:1:3",
+          "at": "2026-11-21T09:49:59.330584+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-21T09:59:59.330584+00:00"
     }
   }
 }
