@@ -797310,12 +797310,6 @@
     },
     "1198:4:15": {
       "episode_key": "chirurgové:s4:e15",
-      "claim": {
-        "worker_id": "f784bc4fa20a4cc7bce1dc36aea43e53-worker-0",
-        "run_id": "44891338992",
-        "claimed_at": "2026-11-21T15:15:22.253443+00:00",
-        "lease_expires_at": "2026-11-21T21:15:22.253453+00:00"
-      },
       "source": {
         "source_id": "27688186",
         "source_url": "https://sdilej.cz/27688186/chirurgove-s04e15-cz.mkv",
@@ -797340,22 +797334,29 @@
         "display_name": "Grey's Anatomy S04E15 Losing My Mind 1080p CZ Dabing",
         "prepared_at": "2026-11-21T15:15:27.874072+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231064",
-        "size_bytes": 701689990
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231064",
-        "size_bytes": 701689990,
-        "source_bytes_read": 701689990,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231064",
         "source_bytes_read": 701689990,
         "elapsed_seconds": 38.584,
         "finished_at": "2026-11-21T15:16:34.613918+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231064",
+          "size_bytes": 701689990,
+          "source_bytes_read": 701689990,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27688186",
+        "source_url": "https://sdilej.cz/27688186/chirurgove-s04e15-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231064",
+        "display_name": "Grey's Anatomy S04E15 Losing My Mind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T15:16:46.621283+00:00"
       }
     }
   },
@@ -797364,7 +797365,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T15:16:40.222943+00:00",
+  "updated_at": "2026-11-21T15:16:46.621314+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
