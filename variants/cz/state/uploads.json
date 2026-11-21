@@ -801822,12 +801822,6 @@
     },
     "2004:6:6": {
       "episode_key": "znovu 20:s6:e6",
-      "claim": {
-        "worker_id": "856876ab6dee4cce88681e92659245dd-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T20:27:18.311104+00:00",
-        "lease_expires_at": "2026-11-22T02:27:18.311122+00:00"
-      },
       "source": {
         "source_id": "33924773",
         "source_url": "https://sdilej.cz/33924773/znovu-20-s06e06-cz-dabing-1080p-full-hd.mkv",
@@ -801851,7 +801845,17 @@
         },
         "display_name": "Younger S06E06 Merger, She Wrote 1080p CZ Dabing",
         "prepared_at": "2026-11-21T20:27:33.663048+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33924773:https://sdilej.cz/33924773/znovu-20-s06e06-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T20:27:49.301350+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T20:27:49.301443+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:6:7": {
       "episode_key": "znovu 20:s6:e7",
@@ -801868,7 +801872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T20:27:44.077694+00:00",
+  "updated_at": "2026-11-21T20:27:49.301454+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -802492,9 +802496,13 @@
         {
           "identity": "2004:6:5",
           "at": "2026-11-21T20:27:28.613531+00:00"
+        },
+        {
+          "identity": "2004:6:6",
+          "at": "2026-11-21T20:27:49.301350+00:00"
         }
       ],
-      "retry_after": "2026-11-21T20:25:17.369398+00:00"
+      "retry_after": "2026-11-21T20:37:49.301350+00:00"
     },
     "2372": {
       "recent_failures": [
