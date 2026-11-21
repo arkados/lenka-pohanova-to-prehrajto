@@ -785611,12 +785611,6 @@
     },
     "2435:1:3": {
       "episode_key": "ďáblův sluha:s1:e3",
-      "claim": {
-        "worker_id": "6184838bd97748a8850d6a96296bfc17-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T10:10:01.722012+00:00",
-        "lease_expires_at": "2026-11-21T16:10:01.722032+00:00"
-      },
       "source": {
         "source_id": "30994198",
         "source_url": "https://sdilej.cz/30994198/dabluv-sluha-s01e03-vsechny-moje-cz-dabing-komedie-fantasy-thriller-drama-dobrodruzny-2007-9.avi",
@@ -785641,22 +785635,29 @@
         "display_name": "Reaper S01E03 All Mine SD CZ Dabing",
         "prepared_at": "2026-11-21T10:10:18.157897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31225691",
-        "size_bytes": 367222784
-      },
-      "transfer_receipt": {
-        "target_video_id": "31225691",
-        "size_bytes": 367222784,
-        "source_bytes_read": 367222784,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31225691",
         "source_bytes_read": 367222784,
         "elapsed_seconds": 23.978,
         "finished_at": "2026-11-21T10:11:17.968730+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31225691",
+          "size_bytes": 367222784,
+          "source_bytes_read": 367222784,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30994198",
+        "source_url": "https://sdilej.cz/30994198/dabluv-sluha-s01e03-vsechny-moje-cz-dabing-komedie-fantasy-thriller-drama-dobrodruzny-2007-9.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31225691",
+        "display_name": "Reaper S01E03 All Mine SD CZ Dabing",
+        "uploaded_at": "2026-11-21T10:11:29.598560+00:00"
       }
     },
     "2435:1:4": {
@@ -785702,7 +785703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T10:11:22.710279+00:00",
+  "updated_at": "2026-11-21T10:11:29.598577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
