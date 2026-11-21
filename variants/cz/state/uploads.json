@@ -787112,28 +787112,29 @@
           "at": "2026-11-21T18:16:48.335243+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "3a38c06fc50b4052ad7e7fa26460b6af-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T18:16:54.875691+00:00",
-        "lease_expires_at": "2026-11-22T00:16:54.875702+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31233891",
-        "size_bytes": 758458743
-      },
-      "transfer_receipt": {
-        "target_video_id": "31233891",
-        "size_bytes": 758458743,
-        "source_bytes_read": 758458743,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31233891",
         "source_bytes_read": 758458743,
         "elapsed_seconds": 62.867,
         "finished_at": "2026-11-21T18:18:58.078478+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31233891",
+          "size_bytes": 758458743,
+          "source_bytes_read": 758458743,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24511493",
+        "source_url": "https://sdilej.cz/24511493/12-opic-12-monkeys-s04e05-hdtv-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31233891",
+        "display_name": "12 Monkeys S04E05 After 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T18:19:21.791139+00:00"
       }
     },
     "52:4:6": {
@@ -800855,7 +800856,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T18:19:03.527555+00:00",
+  "updated_at": "2026-11-21T18:19:21.791154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
