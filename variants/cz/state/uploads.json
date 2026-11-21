@@ -805480,12 +805480,6 @@
     },
     "1198:10:11": {
       "episode_key": "chirurgové:s10:e11",
-      "claim": {
-        "worker_id": "b16163b8c85c45509e74fe44e5c710d2-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:35:13.862893+00:00",
-        "lease_expires_at": "2026-11-22T05:35:13.862911+00:00"
-      },
       "source": {
         "source_id": "27697986",
         "source_url": "https://sdilej.cz/27697986/chirurgove-s10e11-cz.mkv",
@@ -805510,22 +805504,29 @@
         "display_name": "Grey's Anatomy S10E11 Man on the Moon 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:35:19.950661+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31238994",
-        "size_bytes": 571486103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31238994",
-        "size_bytes": 571486103,
-        "source_bytes_read": 571486103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31238994",
         "source_bytes_read": 571486103,
         "elapsed_seconds": 38.748,
         "finished_at": "2026-11-21T23:36:28.830497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31238994",
+          "size_bytes": 571486103,
+          "source_bytes_read": 571486103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27697986",
+        "source_url": "https://sdilej.cz/27697986/chirurgove-s10e11-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31238994",
+        "display_name": "Grey's Anatomy S10E11 Man on the Moon 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T23:36:38.978872+00:00"
       }
     },
     "1198:10:12": {
@@ -805571,7 +805572,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:36:33.985564+00:00",
+  "updated_at": "2026-11-21T23:36:38.978906+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
