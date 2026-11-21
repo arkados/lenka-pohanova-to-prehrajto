@@ -799258,12 +799258,6 @@
     },
     "1198:7:13": {
       "episode_key": "chirurgové:s7:e13",
-      "claim": {
-        "worker_id": "68f9844be7b94d9ca7ed18879dfa499a-worker-0",
-        "run_id": "44919190656",
-        "claimed_at": "2026-11-21T16:06:03.080664+00:00",
-        "lease_expires_at": "2026-11-21T22:06:03.080674+00:00"
-      },
       "source": {
         "source_id": "34967291",
         "source_url": "https://sdilej.cz/34967291/chirurgove-cz-s07e13-gg-..mp4",
@@ -799288,22 +799282,29 @@
         "display_name": "Grey's Anatomy S07E13 Don't Deceive Me (Please Don't Go) 1080p CZ Dabing",
         "prepared_at": "2026-11-21T16:06:08.960628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31231941",
-        "size_bytes": 830672802
-      },
-      "transfer_receipt": {
-        "target_video_id": "31231941",
-        "size_bytes": 830672802,
-        "source_bytes_read": 830672802,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31231941",
         "source_bytes_read": 830672802,
         "elapsed_seconds": 62.762,
         "finished_at": "2026-11-21T16:07:36.063542+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31231941",
+          "size_bytes": 830672802,
+          "source_bytes_read": 830672802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34967291",
+        "source_url": "https://sdilej.cz/34967291/chirurgove-cz-s07e13-gg-..mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31231941",
+        "display_name": "Grey's Anatomy S07E13 Don't Deceive Me (Please Don't Go) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T16:07:48.917558+00:00"
       }
     }
   },
@@ -799312,7 +799313,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T16:07:43.875886+00:00",
+  "updated_at": "2026-11-21T16:07:48.917574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
