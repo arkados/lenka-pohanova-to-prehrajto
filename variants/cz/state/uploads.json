@@ -801588,28 +801588,29 @@
           "at": "2026-11-21T22:11:21.046851+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "306c7763a86e4023a67606ad13c491da-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T22:11:26.120585+00:00",
-        "lease_expires_at": "2026-11-22T04:11:26.120602+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31237527",
-        "size_bytes": 873305194
-      },
-      "transfer_receipt": {
-        "target_video_id": "31237527",
-        "size_bytes": 873305194,
-        "source_bytes_read": 873305194,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31237527",
         "source_bytes_read": 873305194,
         "elapsed_seconds": 93.078,
         "finished_at": "2026-11-21T22:13:50.176210+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31237527",
+          "size_bytes": 873305194,
+          "source_bytes_read": 873305194,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34895567",
+        "source_url": "https://sdilej.cz/34895567/12-monkeys-s04e09-jeste-minutu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31237527",
+        "display_name": "12 Monkeys S04E09 One Minute More 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T22:14:01.672518+00:00"
       }
     },
     "52:4:10": {
@@ -803649,7 +803650,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T22:13:56.561470+00:00",
+  "updated_at": "2026-11-21T22:14:01.672542+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
