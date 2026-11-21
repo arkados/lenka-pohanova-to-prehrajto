@@ -789388,12 +789388,6 @@
     },
     "449:1:6": {
       "episode_key": "lucky louie:s1:e6",
-      "claim": {
-        "worker_id": "1b02783c087b4f05beb4b375c55bee8d-worker-0",
-        "run_id": "44884613329",
-        "claimed_at": "2026-11-21T11:51:36.846713+00:00",
-        "lease_expires_at": "2026-11-21T17:51:36.846729+00:00"
-      },
       "source": {
         "source_id": "20484901",
         "source_url": "https://sdilej.cz/20484901/lucky-louie-s01e06-kvetiny-pro-kim-1080p-webrip-cz-dabing.mkv",
@@ -789418,22 +789412,29 @@
         "display_name": "Lucky Louie S01E06 Flowers for Kim 1080p CZ Dabing",
         "prepared_at": "2026-11-21T11:51:48.161628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31227668",
-        "size_bytes": 2280779613
-      },
-      "transfer_receipt": {
-        "target_video_id": "31227668",
-        "size_bytes": 2280779613,
-        "source_bytes_read": 2280779613,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31227668",
         "source_bytes_read": 2280779613,
         "elapsed_seconds": 160.219,
         "finished_at": "2026-11-21T11:54:53.476832+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31227668",
+          "size_bytes": 2280779613,
+          "source_bytes_read": 2280779613,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20484901",
+        "source_url": "https://sdilej.cz/20484901/lucky-louie-s01e06-kvetiny-pro-kim-1080p-webrip-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31227668",
+        "display_name": "Lucky Louie S01E06 Flowers for Kim 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T11:55:00.555987+00:00"
       }
     }
   },
@@ -789442,7 +789443,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T11:54:53.476852+00:00",
+  "updated_at": "2026-11-21T11:55:00.556005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
