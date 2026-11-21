@@ -756072,12 +756072,6 @@
     },
     "1320:1:1": {
       "episode_key": "doktorka z dixie:s1:e1",
-      "claim": {
-        "worker_id": "b3227e888d5d42a2b16290db117e2158-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T01:43:56.985623+00:00",
-        "lease_expires_at": "2026-11-21T07:43:56.985648+00:00"
-      },
       "source": {
         "source_id": "25915707",
         "source_url": "https://sdilej.cz/25915707/-doktorka-z-dixie-01x01-zacatek.avi",
@@ -756102,22 +756096,29 @@
         "display_name": "Hart of Dixie S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-21T01:44:03.273432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31217438",
-        "size_bytes": 362768384
-      },
-      "transfer_receipt": {
-        "target_video_id": "31217438",
-        "size_bytes": 362768384,
-        "source_bytes_read": 362768384,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31217438",
         "source_bytes_read": 362768384,
         "elapsed_seconds": 18.198,
         "finished_at": "2026-11-21T01:45:00.299914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31217438",
+          "size_bytes": 362768384,
+          "source_bytes_read": 362768384,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25915707",
+        "source_url": "https://sdilej.cz/25915707/-doktorka-z-dixie-01x01-zacatek.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31217438",
+        "display_name": "Hart of Dixie S01E01 Pilot SD CZ Dabing",
+        "uploaded_at": "2026-11-21T01:45:11.905097+00:00"
       }
     }
   },
@@ -756126,7 +756127,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T01:45:06.909939+00:00",
+  "updated_at": "2026-11-21T01:45:11.905118+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
