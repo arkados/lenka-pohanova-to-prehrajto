@@ -760056,12 +760056,6 @@
     },
     "1564:1:22": {
       "episode_key": "spravedlnost v krvi:s1:e22",
-      "claim": {
-        "worker_id": "6168a8df748c4901b16d56b88290f2e1-worker-0",
-        "run_id": "44849520045",
-        "claimed_at": "2026-11-21T02:48:40.667322+00:00",
-        "lease_expires_at": "2026-11-21T08:48:40.667345+00:00"
-      },
       "source": {
         "source_id": "32117267",
         "source_url": "https://sdilej.cz/32117267/spravedlnost-v-krvi-s01e22-cz.mp4",
@@ -760086,22 +760080,29 @@
         "display_name": "Blue Bloods S01E22 The Blue Templar 1080p CZ Dabing",
         "prepared_at": "2026-11-21T02:48:52.477984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31218447",
-        "size_bytes": 885745356
-      },
-      "transfer_receipt": {
-        "target_video_id": "31218447",
-        "size_bytes": 885745356,
-        "source_bytes_read": 885745356,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31218447",
         "source_bytes_read": 885745356,
         "elapsed_seconds": 60.99,
         "finished_at": "2026-11-21T02:50:23.404452+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31218447",
+          "size_bytes": 885745356,
+          "source_bytes_read": 885745356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32117267",
+        "source_url": "https://sdilej.cz/32117267/spravedlnost-v-krvi-s01e22-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31218447",
+        "display_name": "Blue Bloods S01E22 The Blue Templar 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T02:50:35.280144+00:00"
       }
     },
     "1564:2:1": {
@@ -760183,7 +760184,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T02:50:28.341244+00:00",
+  "updated_at": "2026-11-21T02:50:35.280161+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
