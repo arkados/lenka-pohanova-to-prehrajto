@@ -788838,28 +788838,29 @@
           "at": "2026-11-21T19:27:17.086367+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f64e5556a4da445084ab4bb759a6fc4f-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T19:27:22.703791+00:00",
-        "lease_expires_at": "2026-11-22T01:27:22.703810+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31234959",
-        "size_bytes": 865843275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31234959",
-        "size_bytes": 865843275,
-        "source_bytes_read": 865843275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31234959",
         "source_bytes_read": 865843275,
         "elapsed_seconds": 68.128,
         "finished_at": "2026-11-21T19:29:20.734563+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31234959",
+          "size_bytes": 865843275,
+          "source_bytes_read": 865843275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33848336",
+        "source_url": "https://sdilej.cz/33848336/znovu-20-2017-s04e06-czdab-1080p-a-close-shave.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31234959",
+        "display_name": "Younger S04E06 A Close Shave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T19:29:28.816768+00:00"
       }
     },
     "2004:4:7": {
@@ -801394,7 +801395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T19:29:20.734583+00:00",
+  "updated_at": "2026-11-21T19:29:28.816787+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
