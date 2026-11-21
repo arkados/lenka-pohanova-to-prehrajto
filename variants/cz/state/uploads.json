@@ -802565,12 +802565,6 @@
     },
     "2004:6:11": {
       "episode_key": "znovu 20:s6:e11",
-      "claim": {
-        "worker_id": "ab8a7d9023cb458186d1964f6d199397-worker-0",
-        "run_id": "44930394500",
-        "claimed_at": "2026-11-21T21:34:29.287616+00:00",
-        "lease_expires_at": "2026-11-22T03:34:29.287631+00:00"
-      },
       "source": {
         "source_id": "33924787",
         "source_url": "https://sdilej.cz/33924787/znovu-20-s06e11-cz-dabing-1080p-full-hd.mkv",
@@ -802594,7 +802588,17 @@
         },
         "display_name": "Younger S06E11 Holding Out for a SHero 1080p CZ Dabing",
         "prepared_at": "2026-11-21T21:34:41.395936+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33924787:https://sdilej.cz/33924787/znovu-20-s06e11-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-21T21:35:03.253483+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T21:35:03.253526+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2004:6:12": {
       "episode_key": "znovu 20:s6:e12",
@@ -802644,7 +802648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T21:34:58.282139+00:00",
+  "updated_at": "2026-11-21T21:35:03.253532+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -803268,6 +803272,10 @@
         {
           "identity": "2004:6:8",
           "at": "2026-11-21T21:32:39.882131+00:00"
+        },
+        {
+          "identity": "2004:6:11",
+          "at": "2026-11-21T21:35:03.253483+00:00"
         }
       ],
       "retry_after": "2026-11-21T21:31:30.559689+00:00"
