@@ -775070,12 +775070,6 @@
     },
     "52:2:9": {
       "episode_key": "12 opic:s2:e9",
-      "claim": {
-        "worker_id": "c0abf619dcdd4dee91623ce6309c3e9e-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:53:15.378862+00:00",
-        "lease_expires_at": "2026-11-21T12:53:15.378874+00:00"
-      },
       "source": {
         "source_id": "33239630",
         "source_url": "https://sdilej.cz/33239630/12-opic-12-monkeys-s02e09-cz-dabing.mkv",
@@ -775099,7 +775093,17 @@
         },
         "display_name": "12 Monkeys S02E09 Hyena 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:53:33.120747+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33239630:https://sdilej.cz/33239630/12-opic-12-monkeys-s02e09-cz-dabing.mkv",
+        "at": "2026-11-21T06:53:48.716772+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-21T06:53:48.717217+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "52:2:10": {
       "episode_key": "12 opic:s2:e10",
@@ -775116,7 +775120,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:53:43.909461+00:00",
+  "updated_at": "2026-11-21T06:53:48.717227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -775717,19 +775721,19 @@
     "52": {
       "recent_failures": [
         {
-          "identity": "52:2:2",
-          "at": "2026-11-21T06:52:46.026874+00:00"
-        },
-        {
           "identity": "52:2:3",
           "at": "2026-11-21T06:53:20.127906+00:00"
         },
         {
           "identity": "52:2:4",
           "at": "2026-11-21T06:53:43.909397+00:00"
+        },
+        {
+          "identity": "52:2:9",
+          "at": "2026-11-21T06:53:48.716772+00:00"
         }
       ],
-      "retry_after": "2026-11-21T07:03:43.909397+00:00"
+      "retry_after": "2026-11-21T07:03:48.716772+00:00"
     }
   }
 }
