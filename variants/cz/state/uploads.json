@@ -774025,12 +774025,6 @@
     },
     "221:1:1": {
       "episode_key": "vlajka smrti:s1:e1",
-      "claim": {
-        "worker_id": "37d5214a6d5e4e4abf1296d0ca57c888-worker-0",
-        "run_id": "44850927451",
-        "claimed_at": "2026-11-21T06:37:07.460416+00:00",
-        "lease_expires_at": "2026-11-21T12:37:07.460428+00:00"
-      },
       "source": {
         "source_id": "34863724",
         "source_url": "https://sdilej.cz/34863724/vlajka-smrti-s01e01-pilotni-dil-2022-czdab.1080p.mkv",
@@ -774055,22 +774049,29 @@
         "display_name": "Our Flag Means Death S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-21T06:37:32.474886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31221951",
-        "size_bytes": 978792640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31221951",
-        "size_bytes": 978792640,
-        "source_bytes_read": 978792640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31221951",
         "source_bytes_read": 978792640,
         "elapsed_seconds": 52.669,
         "finished_at": "2026-11-21T06:38:55.949838+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31221951",
+          "size_bytes": 978792640,
+          "source_bytes_read": 978792640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863724",
+        "source_url": "https://sdilej.cz/34863724/vlajka-smrti-s01e01-pilotni-dil-2022-czdab.1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31221951",
+        "display_name": "Our Flag Means Death S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-21T06:39:06.909975+00:00"
       }
     },
     "221:1:2": {
@@ -774153,7 +774154,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T06:39:01.062325+00:00",
+  "updated_at": "2026-11-21T06:39:06.909997+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
