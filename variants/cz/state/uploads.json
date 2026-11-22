@@ -824396,12 +824396,6 @@
     },
     "1094:5:3": {
       "episode_key": "skladiště 13:s5:e3",
-      "claim": {
-        "worker_id": "7dba29a3108f45f8ac953571075b4fed-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:20:12.787770+00:00",
-        "lease_expires_at": "2026-11-22T11:20:12.787784+00:00"
-      },
       "source": {
         "source_id": "32443784",
         "source_url": "https://sdilej.cz/32443784/skladiste-13-s05e03-renesancni-trh.mkv",
@@ -824426,22 +824420,29 @@
         "display_name": "Warehouse 13 S05E03 A Faire to Remember 1080p CZ Dabing",
         "prepared_at": "2026-11-22T05:20:25.971569+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244839",
-        "size_bytes": 934812963
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244839",
-        "size_bytes": 934812963,
-        "source_bytes_read": 934812963,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244839",
         "source_bytes_read": 934812963,
         "elapsed_seconds": 40.277,
         "finished_at": "2026-11-22T05:21:35.269497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244839",
+          "size_bytes": 934812963,
+          "source_bytes_read": 934812963,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443784",
+        "source_url": "https://sdilej.cz/32443784/skladiste-13-s05e03-renesancni-trh.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244839",
+        "display_name": "Warehouse 13 S05E03 A Faire to Remember 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:21:45.556654+00:00"
       }
     },
     "1094:5:4": {
@@ -824520,7 +824521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:21:40.554249+00:00",
+  "updated_at": "2026-11-22T05:21:45.556669+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
