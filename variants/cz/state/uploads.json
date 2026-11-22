@@ -815716,12 +815716,6 @@
     },
     "1204:3:5": {
       "episode_key": "o.c.:s3:e5",
-      "claim": {
-        "worker_id": "c6baf2cfcd664c6ba481e0eefa609d8e-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:37:04.831154+00:00",
-        "lease_expires_at": "2026-11-22T08:37:04.831179+00:00"
-      },
       "source": {
         "source_id": "34193551",
         "source_url": "https://sdilej.cz/34193551/o.c.-s03e05-the-perfect-storm-cz-dab.avi",
@@ -815746,22 +815740,29 @@
         "display_name": "The O.C. S03E05 The Perfect Storm SD CZ Dabing",
         "prepared_at": "2026-11-22T02:37:16.909859+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241932",
-        "size_bytes": 358469584
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241932",
-        "size_bytes": 358469584,
-        "source_bytes_read": 358469584,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241932",
         "source_bytes_read": 358469584,
         "elapsed_seconds": 17.474,
         "finished_at": "2026-11-22T02:38:13.063941+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241932",
+          "size_bytes": 358469584,
+          "source_bytes_read": 358469584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193551",
+        "source_url": "https://sdilej.cz/34193551/o.c.-s03e05-the-perfect-storm-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241932",
+        "display_name": "The O.C. S03E05 The Perfect Storm SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:38:35.861585+00:00"
       }
     },
     "1204:3:7": {
@@ -815843,7 +815844,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:38:29.518909+00:00",
+  "updated_at": "2026-11-22T02:38:35.861601+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
