@@ -853173,12 +853173,6 @@
     },
     "1132:5:9": {
       "episode_key": "měsíční svit:s5:e9",
-      "claim": {
-        "worker_id": "34f1e745455c44cf9204ec29ec13601d-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:08:32.843344+00:00",
-        "lease_expires_at": "2026-11-23T03:08:32.843360+00:00"
-      },
       "source": {
         "source_id": "34983145",
         "source_url": "https://sdilej.cz/34983145/mesicni-svit-s05e09-zlocin-pro-slavu.mkv",
@@ -853203,22 +853197,29 @@
         "display_name": "Moonlighting S05E09 Perfetc SD CZ Dabing",
         "prepared_at": "2026-11-22T21:08:49.518275+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261087",
-        "size_bytes": 269749293
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261087",
-        "size_bytes": 269749293,
-        "source_bytes_read": 269749293,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261087",
         "source_bytes_read": 269749293,
         "elapsed_seconds": 20.43,
         "finished_at": "2026-11-22T21:09:39.491937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261087",
+          "size_bytes": 269749293,
+          "source_bytes_read": 269749293,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983145",
+        "source_url": "https://sdilej.cz/34983145/mesicni-svit-s05e09-zlocin-pro-slavu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261087",
+        "display_name": "Moonlighting S05E09 Perfetc SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:10:00.881581+00:00"
       }
     },
     "1132:5:10": {
@@ -853264,7 +853265,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:09:51.144882+00:00",
+  "updated_at": "2026-11-22T21:10:00.881599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
