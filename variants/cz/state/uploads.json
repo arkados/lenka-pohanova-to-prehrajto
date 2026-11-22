@@ -831365,28 +831365,29 @@
           "at": "2026-11-22T12:04:31.078029+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "9ce998926d83401ea8101dfc574c2c08-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:04:36.162010+00:00",
-        "lease_expires_at": "2026-11-22T18:04:36.162027+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31251599",
-        "size_bytes": 421198420
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251599",
-        "size_bytes": 421198420,
-        "source_bytes_read": 421198420,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251599",
         "source_bytes_read": 421198420,
         "elapsed_seconds": 36.643,
         "finished_at": "2026-11-22T12:06:00.746691+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251599",
+          "size_bytes": 421198420,
+          "source_bytes_read": 421198420,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33401194",
+        "source_url": "https://sdilej.cz/33401194/stargate-universe-s02e17.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251599",
+        "display_name": "Stargate Universe S02E17 Common Descent (1) 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:06:12.855569+00:00"
       }
     },
     "1200:1:5": {
@@ -840876,7 +840877,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:06:07.393920+00:00",
+  "updated_at": "2026-11-22T12:06:12.855584+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
