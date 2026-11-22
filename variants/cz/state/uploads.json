@@ -836958,12 +836958,6 @@
     },
     "1089:4:10": {
       "episode_key": "nemocnice chicago med:s4:e10",
-      "claim": {
-        "worker_id": "8e5f8c67e11d4ee2b11084da5e2a51de-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:15:18.028449+00:00",
-        "lease_expires_at": "2026-11-22T16:15:18.028462+00:00"
-      },
       "source": {
         "source_id": "21340142",
         "source_url": "https://sdilej.cz/21340142/nemocnice.chicago.med.04x10.1080i.hevc.hdtv.cz.mkv",
@@ -836988,22 +836982,29 @@
         "display_name": "Chicago Med S04E10 All the Lonely People 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:15:35.066706+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249628",
-        "size_bytes": 481853354
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249628",
-        "size_bytes": 481853354,
-        "source_bytes_read": 481853354,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249628",
         "source_bytes_read": 481853354,
         "elapsed_seconds": 34.228,
         "finished_at": "2026-11-22T10:16:46.389812+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249628",
+          "size_bytes": 481853354,
+          "source_bytes_read": 481853354,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21340142",
+        "source_url": "https://sdilej.cz/21340142/nemocnice.chicago.med.04x10.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249628",
+        "display_name": "Chicago Med S04E10 All the Lonely People 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:17:00.050177+00:00"
       }
     }
   },
@@ -837012,7 +837013,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:16:54.550176+00:00",
+  "updated_at": "2026-11-22T10:17:00.050192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
