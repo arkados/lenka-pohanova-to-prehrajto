@@ -852312,12 +852312,6 @@
     },
     "1132:4:8": {
       "episode_key": "měsíční svit:s4:e8",
-      "claim": {
-        "worker_id": "d7b2172c9b5448da907967b39ef45614-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:20:23.343850+00:00",
-        "lease_expires_at": "2026-11-23T00:20:23.343860+00:00"
-      },
       "source": {
         "source_id": "34983115",
         "source_url": "https://sdilej.cz/34983115/mesicni-svit-s04e08-suvenyr-z-mexika.mkv",
@@ -852342,22 +852336,29 @@
         "display_name": "Moonlighting S04E08 Los Dos DiPestos SD CZ Dabing",
         "prepared_at": "2026-11-22T18:20:39.479486+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31258197",
-        "size_bytes": 319097866
-      },
-      "transfer_receipt": {
-        "target_video_id": "31258197",
-        "size_bytes": 319097866,
-        "source_bytes_read": 319097866,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31258197",
         "source_bytes_read": 319097866,
         "elapsed_seconds": 19.722,
         "finished_at": "2026-11-22T18:21:28.916689+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31258197",
+          "size_bytes": 319097866,
+          "source_bytes_read": 319097866,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983115",
+        "source_url": "https://sdilej.cz/34983115/mesicni-svit-s04e08-suvenyr-z-mexika.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31258197",
+        "display_name": "Moonlighting S04E08 Los Dos DiPestos SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:21:49.461177+00:00"
       }
     },
     "1132:4:9": {
@@ -852436,7 +852437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:21:44.328577+00:00",
+  "updated_at": "2026-11-22T18:21:49.461193+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
