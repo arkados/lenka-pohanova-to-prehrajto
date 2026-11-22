@@ -850233,12 +850233,6 @@
     },
     "1132:2:2": {
       "episode_key": "měsíční svit:s2:e2",
-      "claim": {
-        "worker_id": "2dbf2f7c6853482ea9fed225afcd3261-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T16:24:10.566500+00:00",
-        "lease_expires_at": "2026-11-22T22:24:10.566510+00:00"
-      },
       "source": {
         "source_id": "34983020",
         "source_url": "https://sdilej.cz/34983020/mesicni-svit-s02e02-dama-se-zeleznou-maskou.mkv",
@@ -850263,22 +850257,29 @@
         "display_name": "Moonlighting S02E02 The Lady in the Iron Mask SD CZ Dabing",
         "prepared_at": "2026-11-22T16:24:26.418548+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256367",
-        "size_bytes": 188141655
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256367",
-        "size_bytes": 188141655,
-        "source_bytes_read": 188141655,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256367",
         "source_bytes_read": 188141655,
         "elapsed_seconds": 13.899,
         "finished_at": "2026-11-22T16:25:06.850120+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256367",
+          "size_bytes": 188141655,
+          "source_bytes_read": 188141655,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983020",
+        "source_url": "https://sdilej.cz/34983020/mesicni-svit-s02e02-dama-se-zeleznou-maskou.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256367",
+        "display_name": "Moonlighting S02E02 The Lady in the Iron Mask SD CZ Dabing",
+        "uploaded_at": "2026-11-22T16:25:31.446166+00:00"
       }
     },
     "1132:2:3": {
@@ -850337,7 +850338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:25:26.057894+00:00",
+  "updated_at": "2026-11-22T16:25:31.446180+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
