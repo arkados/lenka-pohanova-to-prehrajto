@@ -809441,12 +809441,6 @@
     },
     "117:1:10": {
       "episode_key": "sandman:s1:e10",
-      "claim": {
-        "worker_id": "5fc1f42a4b354bf48911956b5bd0a240-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:43:39.408945+00:00",
-        "lease_expires_at": "2026-11-22T06:43:39.408962+00:00"
-      },
       "source": {
         "source_id": "32125448",
         "source_url": "https://sdilej.cz/32125448/sandman-s01e10-ztracena-srdce.mkv",
@@ -809471,22 +809465,29 @@
         "display_name": "The Sandman S01E10 Lost Hearts 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:43:46.130210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240058",
-        "size_bytes": 2108893345
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240058",
-        "size_bytes": 2108893345,
-        "source_bytes_read": 2108893345,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240058",
         "source_bytes_read": 2108893345,
         "elapsed_seconds": 115.973,
         "finished_at": "2026-11-22T00:46:01.469803+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240058",
+          "size_bytes": 2108893345,
+          "source_bytes_read": 2108893345,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125448",
+        "source_url": "https://sdilej.cz/32125448/sandman-s01e10-ztracena-srdce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240058",
+        "display_name": "The Sandman S01E10 Lost Hearts 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:46:23.488052+00:00"
       }
     },
     "117:1:11": {
@@ -809565,7 +809566,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:46:17.393371+00:00",
+  "updated_at": "2026-11-22T00:46:23.488076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
