@@ -824109,12 +824109,6 @@
     },
     "1094:4:18": {
       "episode_key": "skladiště 13:s4:e18",
-      "claim": {
-        "worker_id": "d1265712372246a9ae6e0349fb1841f8-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:12:09.626161+00:00",
-        "lease_expires_at": "2026-11-22T11:12:09.626194+00:00"
-      },
       "source": {
         "source_id": "32000541",
         "source_url": "https://sdilej.cz/32000541/skladiste-13-s04e18.mp4",
@@ -824139,22 +824133,29 @@
         "display_name": "Warehouse 13 S04E18 Lost & Found 720p CZ Dabing",
         "prepared_at": "2026-11-22T05:12:25.775491+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244675",
-        "size_bytes": 347776498
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244675",
-        "size_bytes": 347776498,
-        "source_bytes_read": 347776498,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244675",
         "source_bytes_read": 347776498,
         "elapsed_seconds": 21.714,
         "finished_at": "2026-11-22T05:13:16.887992+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244675",
+          "size_bytes": 347776498,
+          "source_bytes_read": 347776498,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32000541",
+        "source_url": "https://sdilej.cz/32000541/skladiste-13-s04e18.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244675",
+        "display_name": "Warehouse 13 S04E18 Lost & Found 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:13:24.338738+00:00"
       }
     },
     "1094:4:19": {
@@ -824200,7 +824201,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:13:16.888010+00:00",
+  "updated_at": "2026-11-22T05:13:24.338756+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
