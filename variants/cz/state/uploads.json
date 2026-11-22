@@ -819669,12 +819669,6 @@
     },
     "1595:1:11": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e11",
-      "claim": {
-        "worker_id": "61f2cd7270e942279f39b20b969919d3-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:52:09.969450+00:00",
-        "lease_expires_at": "2026-11-22T09:52:09.969463+00:00"
-      },
       "source": {
         "source_id": "33400116",
         "source_url": "https://sdilej.cz/33400116/flashforward-s01e11-cz-dabing-1080p.mp4",
@@ -819698,7 +819692,17 @@
         },
         "display_name": "FlashForward S01E11 Revelation Zero (1) SD CZ Dabing",
         "prepared_at": "2026-11-22T03:52:26.333147+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33400116:https://sdilej.cz/33400116/flashforward-s01e11-cz-dabing-1080p.mp4",
+        "at": "2026-11-22T03:52:39.998549+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T03:52:39.998581+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -819706,7 +819710,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:52:32.515758+00:00",
+  "updated_at": "2026-11-22T03:52:39.998587+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -820374,6 +820378,10 @@
         {
           "identity": "1595:1:9",
           "at": "2026-11-22T03:52:32.515712+00:00"
+        },
+        {
+          "identity": "1595:1:11",
+          "at": "2026-11-22T03:52:39.998549+00:00"
         }
       ]
     }
