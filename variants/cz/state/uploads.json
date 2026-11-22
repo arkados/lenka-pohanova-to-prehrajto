@@ -809186,12 +809186,6 @@
     },
     "117:1:5": {
       "episode_key": "sandman:s1:e5",
-      "claim": {
-        "worker_id": "7720cdef41c6445c9e845e3ef4d88abd-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:37:19.064831+00:00",
-        "lease_expires_at": "2026-11-22T06:37:19.064850+00:00"
-      },
       "source": {
         "source_id": "32125313",
         "source_url": "https://sdilej.cz/32125313/sandman-s01e05-nonstop.mkv",
@@ -809216,22 +809210,29 @@
         "display_name": "The Sandman S01E05 24/7 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:37:25.073149+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239958",
-        "size_bytes": 2495914545
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239958",
-        "size_bytes": 2495914545,
-        "source_bytes_read": 2495914545,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239958",
         "source_bytes_read": 2495914545,
         "elapsed_seconds": 161.348,
         "finished_at": "2026-11-22T00:40:26.409152+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239958",
+          "size_bytes": 2495914545,
+          "source_bytes_read": 2495914545,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125313",
+        "source_url": "https://sdilej.cz/32125313/sandman-s01e05-nonstop.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239958",
+        "display_name": "The Sandman S01E05 24/7 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:40:38.735527+00:00"
       }
     },
     "117:1:6": {
@@ -809327,7 +809328,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:40:31.472827+00:00",
+  "updated_at": "2026-11-22T00:40:38.735546+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
