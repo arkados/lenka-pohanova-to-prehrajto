@@ -819102,12 +819102,6 @@
     },
     "1273:1:5": {
       "episode_key": "terminátor: příběh sáry connorové:s1:e5",
-      "claim": {
-        "worker_id": "f72783f0b2fd434f9f22ece4956f8a1e-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:44:29.663423+00:00",
-        "lease_expires_at": "2026-11-22T09:44:29.663436+00:00"
-      },
       "source": {
         "source_id": "33734320",
         "source_url": "https://sdilej.cz/33734320/terminator-pribeh-sary-connorove-s01e05-cz-dabing-full-hd.mkv",
@@ -819131,7 +819125,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S01E05 Queen's Gambit 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:44:46.012091+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734320:https://sdilej.cz/33734320/terminator-pribeh-sary-connorove-s01e05-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T03:45:05.921920+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T03:45:05.921959+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1273:1:6": {
       "episode_key": "terminátor: příběh sáry connorové:s1:e6",
@@ -819176,7 +819180,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:45:01.034405+00:00",
+  "updated_at": "2026-11-22T03:45:05.921964+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -819823,6 +819827,10 @@
         {
           "identity": "1273:1:2",
           "at": "2026-11-22T03:42:34.731772+00:00"
+        },
+        {
+          "identity": "1273:1:5",
+          "at": "2026-11-22T03:45:05.921920+00:00"
         }
       ]
     }
