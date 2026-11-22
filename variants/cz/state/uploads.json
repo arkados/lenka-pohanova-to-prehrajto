@@ -809339,12 +809339,6 @@
     },
     "117:1:8": {
       "episode_key": "sandman:s1:e8",
-      "claim": {
-        "worker_id": "00455c9060ae464aa8042b353efb7158-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:41:46.661169+00:00",
-        "lease_expires_at": "2026-11-22T06:41:46.661191+00:00"
-      },
       "source": {
         "source_id": "32125379",
         "source_url": "https://sdilej.cz/32125379/sandman-s01e08-hraci-dum.mkv",
@@ -809369,22 +809363,29 @@
         "display_name": "The Sandman S01E08 Playing House 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:42:07.857791+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240032",
-        "size_bytes": 2301231321
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240032",
-        "size_bytes": 2301231321,
-        "source_bytes_read": 2301231321,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240032",
         "source_bytes_read": 2301231321,
         "elapsed_seconds": 151.765,
         "finished_at": "2026-11-22T00:45:11.005392+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240032",
+          "size_bytes": 2301231321,
+          "source_bytes_read": 2301231321,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125379",
+        "source_url": "https://sdilej.cz/32125379/sandman-s01e08-hraci-dum.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240032",
+        "display_name": "The Sandman S01E08 Playing House 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:45:19.640879+00:00"
       }
     },
     "117:1:9": {
@@ -809467,7 +809468,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:45:11.005415+00:00",
+  "updated_at": "2026-11-22T00:45:19.640908+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
