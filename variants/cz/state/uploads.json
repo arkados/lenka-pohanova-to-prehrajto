@@ -824447,12 +824447,6 @@
     },
     "1094:5:4": {
       "episode_key": "skladiště 13:s5:e4",
-      "claim": {
-        "worker_id": "2f27da0b4a4d47d897c6ad5880a6027d-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:20:44.547950+00:00",
-        "lease_expires_at": "2026-11-22T11:20:44.547965+00:00"
-      },
       "source": {
         "source_id": "32000551",
         "source_url": "https://sdilej.cz/32000551/skladiste-13-s05e04.mp4",
@@ -824477,22 +824471,29 @@
         "display_name": "Warehouse 13 S05E04 Savage Seduction 720p CZ Dabing",
         "prepared_at": "2026-11-22T05:20:55.726996+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244852",
-        "size_bytes": 495352828
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244852",
-        "size_bytes": 495352828,
-        "source_bytes_read": 495352828,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244852",
         "source_bytes_read": 495352828,
         "elapsed_seconds": 24.047,
         "finished_at": "2026-11-22T05:21:56.672322+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244852",
+          "size_bytes": 495352828,
+          "source_bytes_read": 495352828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32000551",
+        "source_url": "https://sdilej.cz/32000551/skladiste-13-s05e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244852",
+        "display_name": "Warehouse 13 S05E04 Savage Seduction 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:22:10.043568+00:00"
       }
     },
     "1094:5:5": {
@@ -824538,7 +824539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:22:03.539500+00:00",
+  "updated_at": "2026-11-22T05:22:10.043583+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
