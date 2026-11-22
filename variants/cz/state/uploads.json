@@ -844305,12 +844305,6 @@
     },
     "1142:2:22": {
       "episode_key": "dívka odjinud:s2:e22",
-      "claim": {
-        "worker_id": "ade2830c7d2246aaba33802d7eff0041-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:46:43.543370+00:00",
-        "lease_expires_at": "2026-11-22T19:46:43.543378+00:00"
-      },
       "source": {
         "source_id": "30884603",
         "source_url": "https://sdilej.cz/30884603/divka-odjinud-s02e22-krev-a-kuze-lost-girl-cz.avi",
@@ -844335,22 +844329,29 @@
         "display_name": "Lost Girl S02E22 Flesh and Blood SD CZ Dabing",
         "prepared_at": "2026-11-22T13:46:54.579676+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253624",
-        "size_bytes": 411249026
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253624",
-        "size_bytes": 411249026,
-        "source_bytes_read": 411249026,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253624",
         "source_bytes_read": 411249026,
         "elapsed_seconds": 30.604,
         "finished_at": "2026-11-22T13:47:58.909444+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253624",
+          "size_bytes": 411249026,
+          "source_bytes_read": 411249026,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884603",
+        "source_url": "https://sdilej.cz/30884603/divka-odjinud-s02e22-krev-a-kuze-lost-girl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253624",
+        "display_name": "Lost Girl S02E22 Flesh and Blood SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:48:11.629613+00:00"
       }
     },
     "1142:3:2": {
@@ -844429,7 +844430,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:48:05.875721+00:00",
+  "updated_at": "2026-11-22T13:48:11.629627+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
