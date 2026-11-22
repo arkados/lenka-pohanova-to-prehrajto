@@ -850590,12 +850590,6 @@
     },
     "1132:2:9": {
       "episode_key": "měsíční svit:s2:e9",
-      "claim": {
-        "worker_id": "208562fec02e4fc68842aaf0a7b2d4d0-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T16:33:09.223288+00:00",
-        "lease_expires_at": "2026-11-22T22:33:09.223299+00:00"
-      },
       "source": {
         "source_id": "34983039",
         "source_url": "https://sdilej.cz/34983039/mesicni-svit-s02e09-svet-se-otrasl.mkv",
@@ -850620,22 +850614,29 @@
         "display_name": "Moonlighting S02E09 Atlas Belched SD CZ Dabing",
         "prepared_at": "2026-11-22T16:33:25.836880+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256512",
-        "size_bytes": 187130058
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256512",
-        "size_bytes": 187130058,
-        "source_bytes_read": 187130058,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256512",
         "source_bytes_read": 187130058,
         "elapsed_seconds": 14.57,
         "finished_at": "2026-11-22T16:34:16.886699+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256512",
+          "size_bytes": 187130058,
+          "source_bytes_read": 187130058,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983039",
+        "source_url": "https://sdilej.cz/34983039/mesicni-svit-s02e09-svet-se-otrasl.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256512",
+        "display_name": "Moonlighting S02E09 Atlas Belched SD CZ Dabing",
+        "uploaded_at": "2026-11-22T16:34:29.876450+00:00"
       }
     }
   },
@@ -850644,7 +850645,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:34:22.949159+00:00",
+  "updated_at": "2026-11-22T16:34:29.876467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
