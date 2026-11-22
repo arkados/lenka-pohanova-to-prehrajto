@@ -808121,12 +808121,6 @@
     },
     "2085:2:10": {
       "episode_key": "pan selfridge:s2:e10",
-      "claim": {
-        "worker_id": "13fd6df93884403e989b2f706846f568-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:22:17.072411+00:00",
-        "lease_expires_at": "2026-11-22T06:22:17.072430+00:00"
-      },
       "source": {
         "source_id": "17468839",
         "source_url": "https://sdilej.cz/17468839/pan-selfridge-s02e10-2014-juraison-.avi",
@@ -808151,22 +808145,29 @@
         "display_name": "Mr Selfridge S02E10 SD CZ Dabing",
         "prepared_at": "2026-11-22T00:22:22.855202+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239723",
-        "size_bytes": 443235614
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239723",
-        "size_bytes": 443235614,
-        "source_bytes_read": 443235614,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239723",
         "source_bytes_read": 443235614,
         "elapsed_seconds": 25.847,
         "finished_at": "2026-11-22T00:23:19.936562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239723",
+          "size_bytes": 443235614,
+          "source_bytes_read": 443235614,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17468839",
+        "source_url": "https://sdilej.cz/17468839/pan-selfridge-s02e10-2014-juraison-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239723",
+        "display_name": "Mr Selfridge S02E10 SD CZ Dabing",
+        "uploaded_at": "2026-11-22T00:23:31.898305+00:00"
       }
     },
     "2085:3:1": {
@@ -808184,7 +808185,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:23:25.609840+00:00",
+  "updated_at": "2026-11-22T00:23:31.898331+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
