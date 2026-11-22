@@ -820679,12 +820679,6 @@
     },
     "1595:1:21": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e21",
-      "claim": {
-        "worker_id": "14e26625dd604445a207866136d31fb6-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:08:23.166735+00:00",
-        "lease_expires_at": "2026-11-22T10:08:23.166747+00:00"
-      },
       "source": {
         "source_id": "33400191",
         "source_url": "https://sdilej.cz/33400191/flashforward-s01e21-cz-dabing-1080p.mp4",
@@ -820708,7 +820702,17 @@
         },
         "display_name": "FlashForward S01E21 Countdown SD CZ Dabing",
         "prepared_at": "2026-11-22T04:08:35.765647+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33400191:https://sdilej.cz/33400191/flashforward-s01e21-cz-dabing-1080p.mp4",
+        "at": "2026-11-22T04:08:52.285446+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T04:08:52.285629+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1595:1:22": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e22",
@@ -820725,7 +820729,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:08:46.220594+00:00",
+  "updated_at": "2026-11-22T04:08:52.285636+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -821393,9 +821397,13 @@
         {
           "identity": "1595:1:11",
           "at": "2026-11-22T04:08:17.846021+00:00"
+        },
+        {
+          "identity": "1595:1:21",
+          "at": "2026-11-22T04:08:52.285446+00:00"
         }
       ],
-      "retry_after": "2026-11-22T04:03:45.152209+00:00"
+      "retry_after": "2026-11-22T04:18:52.285446+00:00"
     }
   }
 }
