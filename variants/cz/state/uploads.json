@@ -836087,12 +836087,6 @@
     },
     "1089:3:12": {
       "episode_key": "nemocnice chicago med:s3:e12",
-      "claim": {
-        "worker_id": "6680b3eca7f941cebb8bf230d47042c9-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:00:22.944244+00:00",
-        "lease_expires_at": "2026-11-22T16:00:22.944255+00:00"
-      },
       "source": {
         "source_id": "21134879",
         "source_url": "https://sdilej.cz/21134879/nemocnice.chicago.med.03x12.1080i.hevc.hdtv.cz.mkv",
@@ -836117,22 +836111,29 @@
         "display_name": "Chicago Med S03E12 Born This Way 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:00:39.608770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249386",
-        "size_bytes": 498405856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249386",
-        "size_bytes": 498405856,
-        "source_bytes_read": 498405856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249386",
         "source_bytes_read": 498405856,
         "elapsed_seconds": 27.758,
         "finished_at": "2026-11-22T10:01:34.823578+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249386",
+          "size_bytes": 498405856,
+          "source_bytes_read": 498405856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21134879",
+        "source_url": "https://sdilej.cz/21134879/nemocnice.chicago.med.03x12.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249386",
+        "display_name": "Chicago Med S03E12 Born This Way 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:01:43.461734+00:00"
       }
     }
   },
@@ -836141,7 +836142,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:01:34.823599+00:00",
+  "updated_at": "2026-11-22T10:01:43.461756+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
