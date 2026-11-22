@@ -816328,12 +816328,6 @@
     },
     "1204:3:19": {
       "episode_key": "o.c.:s3:e19",
-      "claim": {
-        "worker_id": "3dd35edcb72249e5a8ba13fd49072a6a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:45:26.549954+00:00",
-        "lease_expires_at": "2026-11-22T08:45:26.549971+00:00"
-      },
       "source": {
         "source_id": "34193689",
         "source_url": "https://sdilej.cz/34193689/o.c.-s03e19-the-secrets-and-lies-cz-dab.avi",
@@ -816358,22 +816352,29 @@
         "display_name": "The O.C. S03E19 The Secrets and Lies SD CZ Dabing",
         "prepared_at": "2026-11-22T02:45:42.120972+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242055",
-        "size_bytes": 358618144
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242055",
-        "size_bytes": 358618144,
-        "source_bytes_read": 358618144,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242055",
         "source_bytes_read": 358618144,
         "elapsed_seconds": 22.049,
         "finished_at": "2026-11-22T02:46:37.450627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242055",
+          "size_bytes": 358618144,
+          "source_bytes_read": 358618144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193689",
+        "source_url": "https://sdilej.cz/34193689/o.c.-s03e19-the-secrets-and-lies-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242055",
+        "display_name": "The O.C. S03E19 The Secrets and Lies SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:46:53.778785+00:00"
       }
     },
     "1204:3:21": {
@@ -816452,7 +816453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:46:48.895345+00:00",
+  "updated_at": "2026-11-22T02:46:53.778803+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
