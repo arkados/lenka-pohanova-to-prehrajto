@@ -855292,12 +855292,6 @@
     },
     "5433:1:1": {
       "episode_key": "velký průvodce meditací:s1:e1",
-      "claim": {
-        "worker_id": "e283bd1de2e34b42ba1ce8d695886b11-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:38:04.942838+00:00",
-        "lease_expires_at": "2026-11-23T05:38:04.942848+00:00"
-      },
       "source": {
         "source_id": "30705633",
         "source_url": "https://sdilej.cz/30705633/velky-pruvodce-meditaci-2021-s01e01.mkv",
@@ -855322,22 +855316,29 @@
         "display_name": "Headspace Guide to Meditation S01E01 How to Get Started 720p CZ Dabing",
         "prepared_at": "2026-11-22T23:38:16.966020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264834",
-        "size_bytes": 408969764
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264834",
-        "size_bytes": 408969764,
-        "source_bytes_read": 408969764,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264834",
         "source_bytes_read": 408969764,
         "elapsed_seconds": 100.426,
         "finished_at": "2026-11-22T23:40:33.992769+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264834",
+          "size_bytes": 408969764,
+          "source_bytes_read": 408969764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30705633",
+        "source_url": "https://sdilej.cz/30705633/velky-pruvodce-meditaci-2021-s01e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264834",
+        "display_name": "Headspace Guide to Meditation S01E01 How to Get Started 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:40:47.021001+00:00"
       }
     },
     "5433:1:2": {
@@ -855485,7 +855486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:40:39.954607+00:00",
+  "updated_at": "2026-11-22T23:40:47.021021+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
