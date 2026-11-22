@@ -854060,12 +854060,6 @@
     },
     "701:1:8": {
       "episode_key": "harry hole:s1:e8",
-      "claim": {
-        "worker_id": "e61d1691ad684267874cf4e10fb42f54-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:22:36.394031+00:00",
-        "lease_expires_at": "2026-11-23T04:22:36.394045+00:00"
-      },
       "source": {
         "source_id": "34021545",
         "source_url": "https://sdilej.cz/34021545/harry-hole-s01e08-1080p-cz.mkv",
@@ -854090,22 +854084,29 @@
         "display_name": "Harry Hole S01E08 Kvinnen i vannet 1080p CZ Dabing",
         "prepared_at": "2026-11-22T22:22:54.351156+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31262851",
-        "size_bytes": 1013755313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31262851",
-        "size_bytes": 1013755313,
-        "source_bytes_read": 1013755313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31262851",
         "source_bytes_read": 1013755313,
         "elapsed_seconds": 60.147,
         "finished_at": "2026-11-22T22:24:24.814760+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31262851",
+          "size_bytes": 1013755313,
+          "source_bytes_read": 1013755313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34021545",
+        "source_url": "https://sdilej.cz/34021545/harry-hole-s01e08-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31262851",
+        "display_name": "Harry Hole S01E08 Kvinnen i vannet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T22:24:33.328661+00:00"
       }
     },
     "701:1:9": {
@@ -854188,7 +854189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:24:24.814782+00:00",
+  "updated_at": "2026-11-22T22:24:33.328678+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
