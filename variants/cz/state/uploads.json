@@ -840057,12 +840057,6 @@
     },
     "1089:7:12": {
       "episode_key": "nemocnice chicago med:s7:e12",
-      "claim": {
-        "worker_id": "9a7c32c4075242eaab6b21d55134c9e4-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:42:01.552091+00:00",
-        "lease_expires_at": "2026-11-22T17:42:01.552103+00:00"
-      },
       "source": {
         "source_id": "30429703",
         "source_url": "https://sdilej.cz/30429703/nemocnice-chicago-med-s07e12.mp4",
@@ -840087,22 +840081,29 @@
         "display_name": "Chicago Med S07E12 What You Don't Know Can't Hurt You 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:42:25.782805+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251227",
-        "size_bytes": 759926966
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251227",
-        "size_bytes": 759926966,
-        "source_bytes_read": 759926966,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251227",
         "source_bytes_read": 759926966,
         "elapsed_seconds": 58.903,
         "finished_at": "2026-11-22T11:43:50.337606+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251227",
+          "size_bytes": 759926966,
+          "source_bytes_read": 759926966,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30429703",
+        "source_url": "https://sdilej.cz/30429703/nemocnice-chicago-med-s07e12.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251227",
+        "display_name": "Chicago Med S07E12 What You Don't Know Can't Hurt You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:43:57.887280+00:00"
       }
     },
     "1089:7:13": {
@@ -840148,7 +840149,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:43:50.337622+00:00",
+  "updated_at": "2026-11-22T11:43:57.887296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
