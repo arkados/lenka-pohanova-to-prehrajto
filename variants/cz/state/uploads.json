@@ -853377,12 +853377,6 @@
     },
     "1132:5:13": {
       "episode_key": "měsíční svit:s5:e13",
-      "claim": {
-        "worker_id": "103732ef39b34934bcb96a50746c83f6-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:21:41.547603+00:00",
-        "lease_expires_at": "2026-11-23T03:21:41.547618+00:00"
-      },
       "source": {
         "source_id": "34983153",
         "source_url": "https://sdilej.cz/34983153/mesicni-svit-s05e13-kruh-se-uzavira.mkv",
@@ -853407,22 +853401,29 @@
         "display_name": "Moonlighting S05E13 Lunar Eclipse SD CZ Dabing",
         "prepared_at": "2026-11-22T21:21:58.348190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261341",
-        "size_bytes": 277976847
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261341",
-        "size_bytes": 277976847,
-        "source_bytes_read": 277976847,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261341",
         "source_bytes_read": 277976847,
         "elapsed_seconds": 27.336,
         "finished_at": "2026-11-22T21:22:55.301989+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261341",
+          "size_bytes": 277976847,
+          "source_bytes_read": 277976847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983153",
+        "source_url": "https://sdilej.cz/34983153/mesicni-svit-s05e13-kruh-se-uzavira.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261341",
+        "display_name": "Moonlighting S05E13 Lunar Eclipse SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:23:14.409910+00:00"
       }
     },
     "6009:1:1": {
@@ -853477,7 +853478,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:23:07.241362+00:00",
+  "updated_at": "2026-11-22T21:23:14.409927+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
