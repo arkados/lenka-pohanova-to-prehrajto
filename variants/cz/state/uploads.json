@@ -840306,12 +840306,6 @@
     },
     "1089:7:17": {
       "episode_key": "nemocnice chicago med:s7:e17",
-      "claim": {
-        "worker_id": "410dc1a6ad614df2a28053958f2d10e6-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:46:27.633467+00:00",
-        "lease_expires_at": "2026-11-22T17:46:27.633479+00:00"
-      },
       "source": {
         "source_id": "34812850",
         "source_url": "https://sdilej.cz/34812850/nemocnice-chicago-med-s07e17-136-2022-fhd-osvobod-toho-koho-milujes-s-.mp4",
@@ -840336,22 +840330,29 @@
         "display_name": "Chicago Med S07E17 If You Love Someone, Set Them Free 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:46:39.435516+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251308",
-        "size_bytes": 816275342
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251308",
-        "size_bytes": 816275342,
-        "source_bytes_read": 816275342,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251308",
         "source_bytes_read": 816275342,
         "elapsed_seconds": 58.3,
         "finished_at": "2026-11-22T11:48:11.381826+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251308",
+          "size_bytes": 816275342,
+          "source_bytes_read": 816275342,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812850",
+        "source_url": "https://sdilej.cz/34812850/nemocnice-chicago-med-s07e17-136-2022-fhd-osvobod-toho-koho-milujes-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251308",
+        "display_name": "Chicago Med S07E17 If You Love Someone, Set Them Free 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:48:19.747397+00:00"
       }
     },
     "1089:7:18": {
@@ -840434,7 +840435,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:48:11.381844+00:00",
+  "updated_at": "2026-11-22T11:48:19.747412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
