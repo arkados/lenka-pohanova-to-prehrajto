@@ -808611,12 +808611,6 @@
     },
     "2085:4:3": {
       "episode_key": "pan selfridge:s4:e3",
-      "claim": {
-        "worker_id": "1358d7d58d1341228e156f6eae43f155-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:29:49.299501+00:00",
-        "lease_expires_at": "2026-11-22T06:29:49.299521+00:00"
-      },
       "source": {
         "source_id": "6702460",
         "source_url": "https://sdilej.cz/6702460/pan.selfridge.04x03.dvb-t.cz.avi",
@@ -808641,22 +808635,29 @@
         "display_name": "Mr Selfridge S04E03 SD CZ Dabing",
         "prepared_at": "2026-11-22T00:29:55.271185+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239849",
-        "size_bytes": 713934406
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239849",
-        "size_bytes": 713934406,
-        "source_bytes_read": 713934406,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239849",
         "source_bytes_read": 713934406,
         "elapsed_seconds": 39.194,
         "finished_at": "2026-11-22T00:31:00.301986+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239849",
+          "size_bytes": 713934406,
+          "source_bytes_read": 713934406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6702460",
+        "source_url": "https://sdilej.cz/6702460/pan.selfridge.04x03.dvb-t.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239849",
+        "display_name": "Mr Selfridge S04E03 SD CZ Dabing",
+        "uploaded_at": "2026-11-22T00:31:07.635287+00:00"
       }
     },
     "2085:4:4": {
@@ -808702,7 +808703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:31:00.302007+00:00",
+  "updated_at": "2026-11-22T00:31:07.635305+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
