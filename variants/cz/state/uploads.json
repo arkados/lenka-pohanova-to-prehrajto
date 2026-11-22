@@ -838572,12 +838572,6 @@
     },
     "1089:5:17": {
       "episode_key": "nemocnice chicago med:s5:e17",
-      "claim": {
-        "worker_id": "35daf995fbc14a00a92aa518f11afea8-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:04:39.672133+00:00",
-        "lease_expires_at": "2026-11-22T17:04:39.672157+00:00"
-      },
       "source": {
         "source_id": "21469061",
         "source_url": "https://sdilej.cz/21469061/nemocnice.chicago.med.05x17.1080i.hevc.hdtv.cz.mkv",
@@ -838602,22 +838596,29 @@
         "display_name": "Chicago Med S05E17 The Ghosts of the Past 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:05:02.476913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250607",
-        "size_bytes": 481396210
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250607",
-        "size_bytes": 481396210,
-        "source_bytes_read": 481396210,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250607",
         "source_bytes_read": 481396210,
         "elapsed_seconds": 26.595,
         "finished_at": "2026-11-22T11:06:06.270451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250607",
+          "size_bytes": 481396210,
+          "source_bytes_read": 481396210,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21469061",
+        "source_url": "https://sdilej.cz/21469061/nemocnice.chicago.med.05x17.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250607",
+        "display_name": "Chicago Med S05E17 The Ghosts of the Past 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:06:15.146998+00:00"
       }
     },
     "1089:5:16": {
@@ -838700,7 +838701,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:06:06.270470+00:00",
+  "updated_at": "2026-11-22T11:06:15.147015+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
