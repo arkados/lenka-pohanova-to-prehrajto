@@ -818573,12 +818573,6 @@
     },
     "1306:1:16": {
       "episode_key": "všemocný:s1:e16",
-      "claim": {
-        "worker_id": "f3e498a5545247f5b4174063da6abb57-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:36:22.029049+00:00",
-        "lease_expires_at": "2026-11-22T09:36:22.029064+00:00"
-      },
       "source": {
         "source_id": "30453347",
         "source_url": "https://sdilej.cz/30453347/vsemocny-limitless-s01e16-czdab.mp4",
@@ -818603,22 +818597,29 @@
         "display_name": "Limitless S01E16 Sands, Agent of Morra 720p CZ Dabing",
         "prepared_at": "2026-11-22T03:36:37.871624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242997",
-        "size_bytes": 906341706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242997",
-        "size_bytes": 906341706,
-        "source_bytes_read": 906341706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242997",
         "source_bytes_read": 906341706,
         "elapsed_seconds": 41.528,
         "finished_at": "2026-11-22T03:37:53.008051+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242997",
+          "size_bytes": 906341706,
+          "source_bytes_read": 906341706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30453347",
+        "source_url": "https://sdilej.cz/30453347/vsemocny-limitless-s01e16-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242997",
+        "display_name": "Limitless S01E16 Sands, Agent of Morra 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:38:08.911581+00:00"
       }
     },
     "1306:1:17": {
@@ -818696,7 +818697,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:38:04.065095+00:00",
+  "updated_at": "2026-11-22T03:38:08.911596+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
