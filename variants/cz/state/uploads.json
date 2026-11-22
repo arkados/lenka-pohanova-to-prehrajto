@@ -844713,12 +844713,6 @@
     },
     "1142:3:9": {
       "episode_key": "dívka odjinud:s3:e9",
-      "claim": {
-        "worker_id": "ccad5b3ffa01469d8892f01429aa600f-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:53:08.380019+00:00",
-        "lease_expires_at": "2026-11-22T19:53:08.380029+00:00"
-      },
       "source": {
         "source_id": "30884627",
         "source_url": "https://sdilej.cz/30884627/divka-odjinud-s03e09-obrad-lost-girl-480p-cz.avi",
@@ -844743,22 +844737,29 @@
         "display_name": "Lost Girl S03E09 The Ceremony SD CZ Dabing",
         "prepared_at": "2026-11-22T13:53:24.428348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253710",
-        "size_bytes": 418343514
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253710",
-        "size_bytes": 418343514,
-        "source_bytes_read": 418343514,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253710",
         "source_bytes_read": 418343514,
         "elapsed_seconds": 32.664,
         "finished_at": "2026-11-22T13:54:27.441572+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253710",
+          "size_bytes": 418343514,
+          "source_bytes_read": 418343514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884627",
+        "source_url": "https://sdilej.cz/30884627/divka-odjinud-s03e09-obrad-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253710",
+        "display_name": "Lost Girl S03E09 The Ceremony SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:54:44.765183+00:00"
       }
     },
     "1142:3:10": {
@@ -844855,7 +844856,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:54:39.696152+00:00",
+  "updated_at": "2026-11-22T13:54:44.765197+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
