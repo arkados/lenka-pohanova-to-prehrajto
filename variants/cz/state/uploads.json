@@ -842565,12 +842565,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "15b31360778640018f0868c8e9520d67-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:11:04.784739+00:00",
-        "lease_expires_at": "2026-11-22T19:11:04.784753+00:00"
-      },
       "source": {
         "source_id": "22264933",
         "source_url": "https://sdilej.cz/22264933/divka-odjinud-s01e01-czdab.avi",
@@ -842595,22 +842589,29 @@
         "display_name": "Lost Girl S01E01 It's a Fae, Fae, Fae, Fae World SD CZ Dabing",
         "prepared_at": "2026-11-22T13:11:25.389308+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253054",
-        "size_bytes": 362409248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253054",
-        "size_bytes": 362409248,
-        "source_bytes_read": 362409248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253054",
         "source_bytes_read": 362409248,
         "elapsed_seconds": 32.889,
         "finished_at": "2026-11-22T13:12:31.438939+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253054",
+          "size_bytes": 362409248,
+          "source_bytes_read": 362409248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22264933",
+        "source_url": "https://sdilej.cz/22264933/divka-odjinud-s01e01-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253054",
+        "display_name": "Lost Girl S01E01 It's a Fae, Fae, Fae, Fae World SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:12:48.591690+00:00"
       }
     },
     "1142:1:2": {
@@ -842865,7 +842866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:12:43.506080+00:00",
+  "updated_at": "2026-11-22T13:12:48.591706+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
