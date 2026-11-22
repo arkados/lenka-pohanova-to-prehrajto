@@ -830434,12 +830434,6 @@
     },
     "763:2:3": {
       "episode_key": "zpřítomnělí:s2:e3",
-      "claim": {
-        "worker_id": "1468b43d66a24d47b7787d7be07ad91f-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:54:38.232545+00:00",
-        "lease_expires_at": "2026-11-22T13:54:38.232568+00:00"
-      },
       "source": {
         "source_id": "19255063",
         "source_url": "https://sdilej.cz/19255063/zpritomneli-beforeigners-s02e03-cz-dabing.mp4",
@@ -830464,22 +830458,29 @@
         "display_name": "Beforeigners S02E03 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:54:54.740505+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31247226",
-        "size_bytes": 982672996
-      },
-      "transfer_receipt": {
-        "target_video_id": "31247226",
-        "size_bytes": 982672996,
-        "source_bytes_read": 982672996,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31247226",
         "source_bytes_read": 982672996,
         "elapsed_seconds": 50.28,
         "finished_at": "2026-11-22T07:56:18.908541+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31247226",
+          "size_bytes": 982672996,
+          "source_bytes_read": 982672996,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19255063",
+        "source_url": "https://sdilej.cz/19255063/zpritomneli-beforeigners-s02e03-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31247226",
+        "display_name": "Beforeigners S02E03 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:56:31.943137+00:00"
       }
     },
     "763:2:4": {
@@ -830561,7 +830562,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:56:24.498256+00:00",
+  "updated_at": "2026-11-22T07:56:31.943154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
