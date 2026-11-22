@@ -823452,12 +823452,6 @@
     },
     "1094:4:12": {
       "episode_key": "skladiště 13:s4:e12",
-      "claim": {
-        "worker_id": "5013d01f22f64f3db2a1b2881c8f7f0c-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:01:34.237843+00:00",
-        "lease_expires_at": "2026-11-22T11:01:34.237856+00:00"
-      },
       "source": {
         "source_id": "32443758",
         "source_url": "https://sdilej.cz/32443758/skladiste-13-s04e12-odpusteni.mkv",
@@ -823482,22 +823476,29 @@
         "display_name": "Warehouse 13 S04E12 Parks and Rehabilitation 1080p CZ Dabing",
         "prepared_at": "2026-11-22T05:01:41.425441+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244470",
-        "size_bytes": 934524251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244470",
-        "size_bytes": 934524251,
-        "source_bytes_read": 934524251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244470",
         "source_bytes_read": 934524251,
         "elapsed_seconds": 49.697,
         "finished_at": "2026-11-22T05:03:03.191854+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244470",
+          "size_bytes": 934524251,
+          "source_bytes_read": 934524251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443758",
+        "source_url": "https://sdilej.cz/32443758/skladiste-13-s04e12-odpusteni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244470",
+        "display_name": "Warehouse 13 S04E12 Parks and Rehabilitation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:03:13.783255+00:00"
       }
     },
     "1094:4:13": {
@@ -823543,7 +823544,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:03:08.779878+00:00",
+  "updated_at": "2026-11-22T05:03:13.783270+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
