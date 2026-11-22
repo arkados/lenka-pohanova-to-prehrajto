@@ -834084,12 +834084,6 @@
     },
     "1089:1:14": {
       "episode_key": "nemocnice chicago med:s1:e14",
-      "claim": {
-        "worker_id": "30a05747e0214718a95294b241ae333a-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T09:10:27.869230+00:00",
-        "lease_expires_at": "2026-11-22T15:10:27.869246+00:00"
-      },
       "source": {
         "source_id": "20602947",
         "source_url": "https://sdilej.cz/20602947/nemocnice.chicago.med.01x14.1080i.hevc.hdtv.cz.mkv",
@@ -834114,22 +834108,29 @@
         "display_name": "Chicago Med S01E14 Hearts 1080p CZ Dabing",
         "prepared_at": "2026-11-22T09:10:38.992584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31248453",
-        "size_bytes": 497556192
-      },
-      "transfer_receipt": {
-        "target_video_id": "31248453",
-        "size_bytes": 497556192,
-        "source_bytes_read": 497556192,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31248453",
         "source_bytes_read": 497556192,
         "elapsed_seconds": 21.328,
         "finished_at": "2026-11-22T09:11:24.454013+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31248453",
+          "size_bytes": 497556192,
+          "source_bytes_read": 497556192,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20602947",
+        "source_url": "https://sdilej.cz/20602947/nemocnice.chicago.med.01x14.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31248453",
+        "display_name": "Chicago Med S01E14 Hearts 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T09:11:35.985351+00:00"
       }
     }
   },
@@ -834138,7 +834139,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T09:11:29.857953+00:00",
+  "updated_at": "2026-11-22T09:11:35.985376+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
