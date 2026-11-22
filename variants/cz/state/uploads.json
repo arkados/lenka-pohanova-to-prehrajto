@@ -828869,12 +828869,6 @@
     },
     "2161:2:8": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e8",
-      "claim": {
-        "worker_id": "b89f5afe67e74109943fc50a13c85198-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:20:17.996272+00:00",
-        "lease_expires_at": "2026-11-22T13:20:17.996291+00:00"
-      },
       "source": {
         "source_id": "34208989",
         "source_url": "https://sdilej.cz/34208989/stargate-universe-s02e08-cz-dabing.mkv",
@@ -828898,7 +828892,17 @@
         },
         "display_name": "Stargate Universe S02E08 Malice 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:20:40.820424+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34208989:https://sdilej.cz/34208989/stargate-universe-s02e08-cz-dabing.mkv",
+        "at": "2026-11-22T07:20:59.124208+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T07:20:59.124285+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2161:2:9": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e9",
@@ -828939,7 +828943,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:20:53.780734+00:00",
+  "updated_at": "2026-11-22T07:20:59.124291+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -829636,9 +829640,13 @@
         {
           "identity": "2161:2:5",
           "at": "2026-11-22T07:20:29.417451+00:00"
+        },
+        {
+          "identity": "2161:2:8",
+          "at": "2026-11-22T07:20:59.124208+00:00"
         }
       ],
-      "retry_after": "2026-11-22T07:13:02.300442+00:00"
+      "retry_after": "2026-11-22T07:30:59.124208+00:00"
     }
   }
 }
