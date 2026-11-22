@@ -850803,12 +850803,6 @@
     },
     "1132:2:16": {
       "episode_key": "měsíční svit:s2:e16",
-      "claim": {
-        "worker_id": "828d400b6ddb4ae2bcc13b2f147bfd38-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:11:51.333102+00:00",
-        "lease_expires_at": "2026-11-22T23:11:51.333111+00:00"
-      },
       "source": {
         "source_id": "34983051",
         "source_url": "https://sdilej.cz/34983051/mesicni-svit-s02e16-spanek-mluviciho-muze.mkv",
@@ -850833,22 +850827,29 @@
         "display_name": "Moonlighting S02E16 Sleep Talkin' Guy SD CZ Dabing",
         "prepared_at": "2026-11-22T17:12:06.858954+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257156",
-        "size_bytes": 189244550
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257156",
-        "size_bytes": 189244550,
-        "source_bytes_read": 189244550,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257156",
         "source_bytes_read": 189244550,
         "elapsed_seconds": 14.511,
         "finished_at": "2026-11-22T17:12:59.920362+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257156",
+          "size_bytes": 189244550,
+          "source_bytes_read": 189244550,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983051",
+        "source_url": "https://sdilej.cz/34983051/mesicni-svit-s02e16-spanek-mluviciho-muze.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257156",
+        "display_name": "Moonlighting S02E16 Sleep Talkin' Guy SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:13:11.488612+00:00"
       }
     },
     "1132:2:17": {
@@ -850893,7 +850894,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:13:05.198217+00:00",
+  "updated_at": "2026-11-22T17:13:11.488625+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
