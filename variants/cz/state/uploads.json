@@ -814441,12 +814441,6 @@
     },
     "1204:1:25": {
       "episode_key": "o.c.:s1:e25",
-      "claim": {
-        "worker_id": "8f993880e7cd4bf9ab9850e2e2134ffa-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:17:52.769339+00:00",
-        "lease_expires_at": "2026-11-22T08:17:52.769356+00:00"
-      },
       "source": {
         "source_id": "34192947",
         "source_url": "https://sdilej.cz/34192947/o.c.-s01e25-the-shower-cz-dab.avi",
@@ -814471,22 +814465,29 @@
         "display_name": "The O.C. S01E25 The Shower SD CZ Dabing",
         "prepared_at": "2026-11-22T02:18:09.271810+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241602",
-        "size_bytes": 414580736
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241602",
-        "size_bytes": 414580736,
-        "source_bytes_read": 414580736,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241602",
         "source_bytes_read": 414580736,
         "elapsed_seconds": 22.305,
         "finished_at": "2026-11-22T02:19:02.216812+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241602",
+          "size_bytes": 414580736,
+          "source_bytes_read": 414580736,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192947",
+        "source_url": "https://sdilej.cz/34192947/o.c.-s01e25-the-shower-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241602",
+        "display_name": "The O.C. S01E25 The Shower SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:19:21.918200+00:00"
       }
     },
     "1204:1:26": {
@@ -814532,7 +814533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:19:14.204586+00:00",
+  "updated_at": "2026-11-22T02:19:21.918214+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
