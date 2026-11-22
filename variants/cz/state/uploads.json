@@ -824968,12 +824968,6 @@
     },
     "154:1:8": {
       "episode_key": "devs:s1:e8",
-      "claim": {
-        "worker_id": "126ffa8d4b3b4f499ba57d57ae39ebde-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T05:44:27.159949+00:00",
-        "lease_expires_at": "2026-11-22T11:44:27.159967+00:00"
-      },
       "source": {
         "source_id": "34830361",
         "source_url": "https://sdilej.cz/34830361/devs-s01e08-epizoda-8.mkv",
@@ -824998,22 +824992,29 @@
         "display_name": "Devs S01E08 4K CZ Dabing",
         "prepared_at": "2026-11-22T05:44:52.822715+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245203",
-        "size_bytes": 5717689506
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245203",
-        "size_bytes": 5717689506,
-        "source_bytes_read": 5717689506,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245203",
         "source_bytes_read": 5717689506,
         "elapsed_seconds": 295.041,
         "finished_at": "2026-11-22T05:50:13.205514+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245203",
+          "size_bytes": 5717689506,
+          "source_bytes_read": 5717689506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830361",
+        "source_url": "https://sdilej.cz/34830361/devs-s01e08-epizoda-8.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245203",
+        "display_name": "Devs S01E08 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T05:50:20.437847+00:00"
       }
     },
     "2161:1:4": {
@@ -825059,7 +825060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:50:13.205541+00:00",
+  "updated_at": "2026-11-22T05:50:20.437867+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
