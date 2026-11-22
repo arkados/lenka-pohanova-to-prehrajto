@@ -842506,12 +842506,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7ae630ed183d4eb99cf840b913908aa1-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:06:17.846858+00:00",
-        "lease_expires_at": "2026-11-22T19:06:17.846870+00:00"
-      },
       "source": {
         "source_id": "30629594",
         "source_url": "https://sdilej.cz/30629594/nemocnice-chicago-med-s09e12.mp4",
@@ -842536,22 +842530,29 @@
         "display_name": "Chicago Med S09E12 Get By with a Little Help from My Friends 1080p CZ Dabing",
         "prepared_at": "2026-11-22T13:06:38.205062+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31252980",
-        "size_bytes": 660807274
-      },
-      "transfer_receipt": {
-        "target_video_id": "31252980",
-        "size_bytes": 660807274,
-        "source_bytes_read": 660807274,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31252980",
         "source_bytes_read": 660807274,
         "elapsed_seconds": 41.574,
         "finished_at": "2026-11-22T13:07:58.376018+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31252980",
+          "size_bytes": 660807274,
+          "source_bytes_read": 660807274,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30629594",
+        "source_url": "https://sdilej.cz/30629594/nemocnice-chicago-med-s09e12.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31252980",
+        "display_name": "Chicago Med S09E12 Get By with a Little Help from My Friends 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T13:08:05.737706+00:00"
       }
     },
     "1142:1:1": {
@@ -842578,7 +842579,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:07:58.376054+00:00",
+  "updated_at": "2026-11-22T13:08:05.737721+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
