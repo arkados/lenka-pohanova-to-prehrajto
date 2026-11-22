@@ -845577,12 +845577,6 @@
     },
     "1142:4:13": {
       "episode_key": "dívka odjinud:s4:e13",
-      "claim": {
-        "worker_id": "06e24590ebb3431dba36276ff8fe2615-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:10:46.658943+00:00",
-        "lease_expires_at": "2026-11-22T20:10:46.658955+00:00"
-      },
       "source": {
         "source_id": "30884690",
         "source_url": "https://sdilej.cz/30884690/divka-odjinud-s04e13-tmavy-kun-lost-girl-480p-cz.avi",
@@ -845607,22 +845601,29 @@
         "display_name": "Lost Girl S04E13 Dark Horse SD CZ Dabing",
         "prepared_at": "2026-11-22T14:11:03.333616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253993",
-        "size_bytes": 422084402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253993",
-        "size_bytes": 422084402,
-        "source_bytes_read": 422084402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253993",
         "source_bytes_read": 422084402,
         "elapsed_seconds": 58.935,
         "finished_at": "2026-11-22T14:12:35.019135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253993",
+          "size_bytes": 422084402,
+          "source_bytes_read": 422084402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884690",
+        "source_url": "https://sdilej.cz/30884690/divka-odjinud-s04e13-tmavy-kun-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253993",
+        "display_name": "Lost Girl S04E13 Dark Horse SD CZ Dabing",
+        "uploaded_at": "2026-11-22T14:12:45.609431+00:00"
       }
     },
     "4011:1:1": {
@@ -845701,7 +845702,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:12:40.220137+00:00",
+  "updated_at": "2026-11-22T14:12:45.609444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
