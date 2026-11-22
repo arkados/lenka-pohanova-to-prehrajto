@@ -850641,12 +850641,6 @@
     },
     "1132:2:10": {
       "episode_key": "měsíční svit:s2:e10",
-      "claim": {
-        "worker_id": "a025ecf22e10401da816ff99887c2288-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T16:34:52.299083+00:00",
-        "lease_expires_at": "2026-11-22T22:34:52.299095+00:00"
-      },
       "source": {
         "source_id": "34983040",
         "source_url": "https://sdilej.cz/34983040/mesicni-svit-s02e10-vanocni-pribeh.mkv",
@@ -850687,7 +850681,13 @@
         "elapsed_seconds": 22.993,
         "finished_at": "2026-11-22T16:35:55.586131+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T16:37:32.817359+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1132:2:11": {
       "episode_key": "měsíční svit:s2:e11",
@@ -850754,7 +850754,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:37:27.967420+00:00",
+  "updated_at": "2026-11-22T16:37:32.817378+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
