@@ -816175,12 +816175,6 @@
     },
     "1204:3:16": {
       "episode_key": "o.c.:s3:e16",
-      "claim": {
-        "worker_id": "425db101b85e473f91a150d61fe6d169-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:43:12.336749+00:00",
-        "lease_expires_at": "2026-11-22T08:43:12.336764+00:00"
-      },
       "source": {
         "source_id": "34193661",
         "source_url": "https://sdilej.cz/34193661/o.c.-s03e16-the-road-warrior-cz-dab.avi",
@@ -816205,22 +816199,29 @@
         "display_name": "The O.C. S03E16 The Road Warrior SD CZ Dabing",
         "prepared_at": "2026-11-22T02:43:35.038210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242028",
-        "size_bytes": 357895588
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242028",
-        "size_bytes": 357895588,
-        "source_bytes_read": 357895588,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242028",
         "source_bytes_read": 357895588,
         "elapsed_seconds": 21.34,
         "finished_at": "2026-11-22T02:44:18.845386+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242028",
+          "size_bytes": 357895588,
+          "source_bytes_read": 357895588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193661",
+        "source_url": "https://sdilej.cz/34193661/o.c.-s03e16-the-road-warrior-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242028",
+        "display_name": "The O.C. S03E16 The Road Warrior SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:44:31.334422+00:00"
       }
     },
     "1204:3:17": {
@@ -816266,7 +816267,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:44:25.427371+00:00",
+  "updated_at": "2026-11-22T02:44:31.334439+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
