@@ -826239,12 +826239,6 @@
     },
     "1020:1:7": {
       "episode_key": "velký potenciál:s1:e7",
-      "claim": {
-        "worker_id": "2165ff09c90747e19cd21f489ae4b562-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:11:42.981863+00:00",
-        "lease_expires_at": "2026-11-22T12:11:42.981876+00:00"
-      },
       "source": {
         "source_id": "34826164",
         "source_url": "https://sdilej.cz/34826164/velky-potencial-2024-s01e07-czdab.1080p-jeden-z-nas.mkv",
@@ -826269,22 +826263,29 @@
         "display_name": "High Potential S01E07 One of Us 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:11:54.027564+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245612",
-        "size_bytes": 989500653
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245612",
-        "size_bytes": 989500653,
-        "source_bytes_read": 989500653,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245612",
         "source_bytes_read": 989500653,
         "elapsed_seconds": 66.301,
         "finished_at": "2026-11-22T06:13:28.932239+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245612",
+          "size_bytes": 989500653,
+          "source_bytes_read": 989500653,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34826164",
+        "source_url": "https://sdilej.cz/34826164/velky-potencial-2024-s01e07-czdab.1080p-jeden-z-nas.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245612",
+        "display_name": "High Potential S01E07 One of Us 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:13:45.203113+00:00"
       }
     }
   },
@@ -826293,7 +826294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:13:39.171388+00:00",
+  "updated_at": "2026-11-22T06:13:45.203129+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
