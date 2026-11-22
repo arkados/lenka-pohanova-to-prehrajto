@@ -853662,16 +853662,6 @@
         "display_name": "Mildred Pierce S01E05 Part 5 720p CZ Dabing",
         "prepared_at": "2026-11-22T21:33:19.615094+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261601",
-        "size_bytes": 2413314596
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261601",
-        "size_bytes": 2413314596,
-        "source_bytes_read": 2413314596,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261601",
         "source_bytes_read": 2413314596,
@@ -853685,11 +853675,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7e96814d3ef6431ca984bfdab0a4a645-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:08:29.307126+00:00",
-        "lease_expires_at": "2026-11-23T04:08:29.307146+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261601",
+          "size_bytes": 2413314596,
+          "source_bytes_read": 2413314596,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28247930",
+        "source_url": "https://sdilej.cz/28247930/mildred-pierceova-s01e05-dil-5.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261601",
+        "display_name": "Mildred Pierce S01E05 Part 5 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T22:08:46.508412+00:00"
       }
     },
     "701:1:1": {
@@ -853791,7 +853792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:08:40.231528+00:00",
+  "updated_at": "2026-11-22T22:08:46.508432+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
