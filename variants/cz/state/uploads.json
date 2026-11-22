@@ -847238,12 +847238,6 @@
     },
     "1929:5:1": {
       "episode_key": "zákon a pořádek: zločinné úmysly:s5:e1",
-      "claim": {
-        "worker_id": "d8446296f70d48998c4f94025b90e399-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T15:13:22.975909+00:00",
-        "lease_expires_at": "2026-11-22T21:13:22.975917+00:00"
-      },
       "source": {
         "source_id": "28256041",
         "source_url": "https://sdilej.cz/28256041/zakon-a-poradek-zlocinne-umysly-s05e01-090-2005-sd-rust-sd-.mp4",
@@ -847268,22 +847262,29 @@
         "display_name": "Law & Order: Criminal Intent S05E01 Grow SD CZ Dabing",
         "prepared_at": "2026-11-22T15:13:38.306115+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31255011",
-        "size_bytes": 367364367
-      },
-      "transfer_receipt": {
-        "target_video_id": "31255011",
-        "size_bytes": 367364367,
-        "source_bytes_read": 367364367,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31255011",
         "source_bytes_read": 367364367,
         "elapsed_seconds": 24.674,
         "finished_at": "2026-11-22T15:14:33.995874+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31255011",
+          "size_bytes": 367364367,
+          "source_bytes_read": 367364367,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28256041",
+        "source_url": "https://sdilej.cz/28256041/zakon-a-poradek-zlocinne-umysly-s05e01-090-2005-sd-rust-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31255011",
+        "display_name": "Law & Order: Criminal Intent S05E01 Grow SD CZ Dabing",
+        "uploaded_at": "2026-11-22T15:14:51.200980+00:00"
       }
     }
   },
@@ -847292,7 +847293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T15:14:45.091312+00:00",
+  "updated_at": "2026-11-22T15:14:51.200994+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
