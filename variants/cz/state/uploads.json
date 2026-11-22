@@ -817195,12 +817195,6 @@
     },
     "1204:4:12": {
       "episode_key": "o.c.:s4:e12",
-      "claim": {
-        "worker_id": "2fc2e93ac0084666a002a3d97700a5ce-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:56:51.633608+00:00",
-        "lease_expires_at": "2026-11-22T08:56:51.633618+00:00"
-      },
       "source": {
         "source_id": "34193824",
         "source_url": "https://sdilej.cz/34193824/o.c.-s04e12-the-groundhog-day-cz-dab.avi",
@@ -817225,22 +817219,29 @@
         "display_name": "The O.C. S04E12 The Groundhog Day SD CZ Dabing",
         "prepared_at": "2026-11-22T02:57:07.086648+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242243",
-        "size_bytes": 358458686
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242243",
-        "size_bytes": 358458686,
-        "source_bytes_read": 358458686,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242243",
         "source_bytes_read": 358458686,
         "elapsed_seconds": 22.75,
         "finished_at": "2026-11-22T02:58:02.389604+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242243",
+          "size_bytes": 358458686,
+          "source_bytes_read": 358458686,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193824",
+        "source_url": "https://sdilej.cz/34193824/o.c.-s04e12-the-groundhog-day-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242243",
+        "display_name": "The O.C. S04E12 The Groundhog Day SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:58:19.754560+00:00"
       }
     },
     "1204:4:13": {
@@ -817337,7 +817338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:58:14.581950+00:00",
+  "updated_at": "2026-11-22T02:58:19.754578+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
