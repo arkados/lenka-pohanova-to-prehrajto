@@ -855962,12 +855962,6 @@
     },
     "1013:1:6": {
       "episode_key": "zakletý v čase:s1:e6",
-      "claim": {
-        "worker_id": "436dec36cae94d9788fc36a06af182f6-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:49:13.607640+00:00",
-        "lease_expires_at": "2026-11-23T05:49:13.607648+00:00"
-      },
       "source": {
         "source_id": "34916306",
         "source_url": "https://sdilej.cz/34916306/zaklety-v-case-s01e06-1080p-10bit-webrip-opus-5.1-x265-cz-dabing.mkv",
@@ -855992,22 +855986,29 @@
         "display_name": "The Time Traveler's Wife S01E06 Episode Six 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:49:35.591201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265057",
-        "size_bytes": 603138269
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265057",
-        "size_bytes": 603138269,
-        "source_bytes_read": 603138269,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265057",
         "source_bytes_read": 603138269,
         "elapsed_seconds": 34.451,
         "finished_at": "2026-11-22T23:50:41.075831+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265057",
+          "size_bytes": 603138269,
+          "source_bytes_read": 603138269,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34916306",
+        "source_url": "https://sdilej.cz/34916306/zaklety-v-case-s01e06-1080p-10bit-webrip-opus-5.1-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265057",
+        "display_name": "The Time Traveler's Wife S01E06 Episode Six 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:50:52.971168+00:00"
       }
     },
     "403:1:1": {
@@ -856067,7 +856068,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:50:47.765409+00:00",
+  "updated_at": "2026-11-22T23:50:52.971185+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
