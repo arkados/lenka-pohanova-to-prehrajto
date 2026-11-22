@@ -839527,12 +839527,6 @@
     },
     "1089:6:16": {
       "episode_key": "nemocnice chicago med:s6:e16",
-      "claim": {
-        "worker_id": "98f03a6e0cf54726b221c0b799f67a20-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:28:28.928231+00:00",
-        "lease_expires_at": "2026-11-22T17:28:28.928240+00:00"
-      },
       "source": {
         "source_id": "21598333",
         "source_url": "https://sdilej.cz/21598333/nemocnice.chicago.med.06x16.1080i.hevc.hdtv.cz.mkv",
@@ -839557,22 +839551,29 @@
         "display_name": "Chicago Med S06E16 I Will Come to Save You 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:28:45.228827+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250997",
-        "size_bytes": 490567601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250997",
-        "size_bytes": 490567601,
-        "source_bytes_read": 490567601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250997",
         "source_bytes_read": 490567601,
         "elapsed_seconds": 35.915,
         "finished_at": "2026-11-22T11:29:50.420000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250997",
+          "size_bytes": 490567601,
+          "source_bytes_read": 490567601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21598333",
+        "source_url": "https://sdilej.cz/21598333/nemocnice.chicago.med.06x16.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250997",
+        "display_name": "Chicago Med S06E16 I Will Come to Save You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:30:00.949499+00:00"
       }
     }
   },
@@ -839581,7 +839582,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:29:55.784183+00:00",
+  "updated_at": "2026-11-22T11:30:00.949515+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
