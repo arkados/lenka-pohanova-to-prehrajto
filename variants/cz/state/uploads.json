@@ -814237,12 +814237,6 @@
     },
     "1204:1:20": {
       "episode_key": "o.c.:s1:e20",
-      "claim": {
-        "worker_id": "6a7dded71f8e4e5c8ed4ef65c87f286f-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:13:43.394682+00:00",
-        "lease_expires_at": "2026-11-22T08:13:43.394701+00:00"
-      },
       "source": {
         "source_id": "34192842",
         "source_url": "https://sdilej.cz/34192842/o.c.-s01e20-the-telenovela-cz-dab.avi",
@@ -814267,22 +814261,29 @@
         "display_name": "The O.C. S01E20 The Telenovela SD CZ Dabing",
         "prepared_at": "2026-11-22T02:13:49.323719+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241534",
-        "size_bytes": 414351360
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241534",
-        "size_bytes": 414351360,
-        "source_bytes_read": 414351360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241534",
         "source_bytes_read": 414351360,
         "elapsed_seconds": 31.272,
         "finished_at": "2026-11-22T02:14:51.246697+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241534",
+          "size_bytes": 414351360,
+          "source_bytes_read": 414351360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192842",
+        "source_url": "https://sdilej.cz/34192842/o.c.-s01e20-the-telenovela-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241534",
+        "display_name": "The O.C. S01E20 The Telenovela SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:15:10.967682+00:00"
       }
     },
     "1204:1:21": {
@@ -814328,7 +814329,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:15:05.944537+00:00",
+  "updated_at": "2026-11-22T02:15:10.967699+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
