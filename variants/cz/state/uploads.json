@@ -831901,12 +831901,6 @@
     },
     "1200:2:1": {
       "episode_key": "tajemství pravdy:s2:e1",
-      "claim": {
-        "worker_id": "e9c4067fc7a048f09c418396d95d58ec-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T08:26:45.666530+00:00",
-        "lease_expires_at": "2026-11-22T14:26:45.666548+00:00"
-      },
       "source": {
         "source_id": "25038784",
         "source_url": "https://sdilej.cz/25038784/tajemstvi-pravdy-legend-of-the-seeker-s02e01-hd-cz-dabing.mkv",
@@ -831931,22 +831925,29 @@
         "display_name": "Legend of the Seeker S02E01 Marked 1080p CZ Dabing",
         "prepared_at": "2026-11-22T08:27:02.799053+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31247784",
-        "size_bytes": 902711684
-      },
-      "transfer_receipt": {
-        "target_video_id": "31247784",
-        "size_bytes": 902711684,
-        "source_bytes_read": 902711684,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31247784",
         "source_bytes_read": 902711684,
         "elapsed_seconds": 42.13,
         "finished_at": "2026-11-22T08:28:24.217284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31247784",
+          "size_bytes": 902711684,
+          "source_bytes_read": 902711684,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25038784",
+        "source_url": "https://sdilej.cz/25038784/tajemstvi-pravdy-legend-of-the-seeker-s02e01-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31247784",
+        "display_name": "Legend of the Seeker S02E01 Marked 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T08:28:41.312743+00:00"
       }
     },
     "1200:2:2": {
@@ -831988,7 +831989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T08:28:35.255636+00:00",
+  "updated_at": "2026-11-22T08:28:41.312778+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
