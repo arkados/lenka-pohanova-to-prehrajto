@@ -851829,12 +851829,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "1ea26c1b2a8045c2b6cc417ac06383a3-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:07:00.020658+00:00",
-        "lease_expires_at": "2026-11-23T00:07:00.020671+00:00"
-      },
       "source": {
         "source_id": "34983084",
         "source_url": "https://sdilej.cz/34983084/mesicni-svit-s03e14-dve-lasky-maddie.mkv",
@@ -851859,22 +851853,29 @@
         "display_name": "Moonlighting S03E14 I Am Curious… Maddie (4) SD CZ Dabing",
         "prepared_at": "2026-11-22T18:07:14.846608+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257990",
-        "size_bytes": 210819079
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257990",
-        "size_bytes": 210819079,
-        "source_bytes_read": 210819079,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257990",
         "source_bytes_read": 210819079,
         "elapsed_seconds": 9.313,
         "finished_at": "2026-11-22T18:07:52.449725+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257990",
+          "size_bytes": 210819079,
+          "source_bytes_read": 210819079,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983084",
+        "source_url": "https://sdilej.cz/34983084/mesicni-svit-s03e14-dve-lasky-maddie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257990",
+        "display_name": "Moonlighting S03E14 I Am Curious… Maddie (4) SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:08:04.949320+00:00"
       }
     },
     "1132:3:15": {
@@ -851919,7 +851920,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:07:58.104659+00:00",
+  "updated_at": "2026-11-22T18:08:04.949335+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
