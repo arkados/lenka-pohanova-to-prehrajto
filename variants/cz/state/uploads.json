@@ -821613,12 +821613,6 @@
     },
     "1273:2:12": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e12",
-      "claim": {
-        "worker_id": "cd23aa92e0264cafa23604a925f1d3a5-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:29:35.079136+00:00",
-        "lease_expires_at": "2026-11-22T10:29:35.079153+00:00"
-      },
       "source": {
         "source_id": "33734425",
         "source_url": "https://sdilej.cz/33734425/terminator-pribeh-sary-connorove-s02e12-cz-dabing-full-hd.mkv",
@@ -821642,7 +821636,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S02E12 Alpine Fields 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:29:45.944479+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734425:https://sdilej.cz/33734425/terminator-pribeh-sary-connorove-s02e12-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T04:30:00.900764+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T04:30:00.900802+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -821650,7 +821654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:29:45.944497+00:00",
+  "updated_at": "2026-11-22T04:30:00.900807+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -822293,6 +822297,10 @@
         {
           "identity": "1273:2:10",
           "at": "2026-11-22T04:29:14.814517+00:00"
+        },
+        {
+          "identity": "1273:2:12",
+          "at": "2026-11-22T04:30:00.900764+00:00"
         }
       ],
       "retry_after": "2026-11-22T04:27:42.024655+00:00"
