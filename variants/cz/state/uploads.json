@@ -840858,12 +840858,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "0f5cafab14cc4e928d7d2029f96fe999-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:15:47.254039+00:00",
-        "lease_expires_at": "2026-11-22T18:15:47.254050+00:00"
-      },
       "source": {
         "source_id": "30458688",
         "source_url": "https://sdilej.cz/30458688/nemocnice-chicago-med-s08e01.mp4",
@@ -840888,22 +840882,29 @@
         "display_name": "Chicago Med S08E01 How Do You Begin to Count the Losses 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:15:59.924078+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251812",
-        "size_bytes": 754486892
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251812",
-        "size_bytes": 754486892,
-        "source_bytes_read": 754486892,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251812",
         "source_bytes_read": 754486892,
         "elapsed_seconds": 41.682,
         "finished_at": "2026-11-22T12:17:18.888782+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251812",
+          "size_bytes": 754486892,
+          "source_bytes_read": 754486892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458688",
+        "source_url": "https://sdilej.cz/30458688/nemocnice-chicago-med-s08e01.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251812",
+        "display_name": "Chicago Med S08E01 How Do You Begin to Count the Losses 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:17:26.770641+00:00"
       }
     },
     "1089:8:2": {
@@ -841496,7 +841497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:17:18.888800+00:00",
+  "updated_at": "2026-11-22T12:17:26.770656+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
