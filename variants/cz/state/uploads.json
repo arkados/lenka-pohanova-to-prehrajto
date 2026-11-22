@@ -851106,12 +851106,6 @@
     },
     "1132:3:3": {
       "episode_key": "měsíční svit:s3:e3",
-      "claim": {
-        "worker_id": "8b00e4947eb74c31b68239b666c4d5d3-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:15:36.002932+00:00",
-        "lease_expires_at": "2026-11-22T23:15:36.002941+00:00"
-      },
       "source": {
         "source_id": "24689016",
         "source_url": "https://sdilej.cz/24689016/mesicni-svit-s03e03-koncert-v-ringu.avi",
@@ -851136,22 +851130,29 @@
         "display_name": "Moonlighting S03E03 Symphony in Knocked Flat SD CZ Dabing",
         "prepared_at": "2026-11-22T17:15:51.679366+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257229",
-        "size_bytes": 545759232
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257229",
-        "size_bytes": 545759232,
-        "source_bytes_read": 545759232,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257229",
         "source_bytes_read": 545759232,
         "elapsed_seconds": 36.525,
         "finished_at": "2026-11-22T17:16:58.034284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257229",
+          "size_bytes": 545759232,
+          "source_bytes_read": 545759232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24689016",
+        "source_url": "https://sdilej.cz/24689016/mesicni-svit-s03e03-koncert-v-ringu.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257229",
+        "display_name": "Moonlighting S03E03 Symphony in Knocked Flat SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:17:12.776531+00:00"
       }
     },
     "1132:3:4": {
@@ -851206,7 +851207,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:17:07.684665+00:00",
+  "updated_at": "2026-11-22T17:17:12.776545+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
