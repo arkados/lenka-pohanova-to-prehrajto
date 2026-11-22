@@ -820974,12 +820974,6 @@
     },
     "1273:2:8": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e8",
-      "claim": {
-        "worker_id": "227dbbea047f4218b260e6f0eff9427e-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:17:14.883133+00:00",
-        "lease_expires_at": "2026-11-22T10:17:14.883143+00:00"
-      },
       "source": {
         "source_id": "33734409",
         "source_url": "https://sdilej.cz/33734409/terminator-pribeh-sary-connorove-s02e08-cz-dabing-full-hd.mkv",
@@ -821003,7 +820997,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S02E08 Mr. Ferguson Is Ill Today 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:17:28.680831+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734409:https://sdilej.cz/33734409/terminator-pribeh-sary-connorove-s02e08-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T04:17:42.024655+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T04:17:42.024723+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -821011,7 +821015,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:17:28.680847+00:00",
+  "updated_at": "2026-11-22T04:17:42.024729+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -821678,9 +821682,13 @@
         {
           "identity": "1273:2:2",
           "at": "2026-11-22T04:16:11.482483+00:00"
+        },
+        {
+          "identity": "1273:2:8",
+          "at": "2026-11-22T04:17:42.024655+00:00"
         }
       ],
-      "retry_after": "2026-11-22T04:11:39.975402+00:00"
+      "retry_after": "2026-11-22T04:27:42.024655+00:00"
     },
     "1595": {
       "recent_failures": [
