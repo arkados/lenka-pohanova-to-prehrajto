@@ -855342,12 +855342,6 @@
     },
     "5433:1:2": {
       "episode_key": "velký průvodce meditací:s1:e2",
-      "claim": {
-        "worker_id": "77800186a37247b29b1b687a01add813-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:38:22.664545+00:00",
-        "lease_expires_at": "2026-11-23T05:38:22.664558+00:00"
-      },
       "source": {
         "source_id": "30705634",
         "source_url": "https://sdilej.cz/30705634/velky-pruvodce-meditaci-2021-s01e02.mkv",
@@ -855372,22 +855366,29 @@
         "display_name": "Headspace Guide to Meditation S01E02 How to Let Go 720p CZ Dabing",
         "prepared_at": "2026-11-22T23:38:34.576666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264844",
-        "size_bytes": 413897240
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264844",
-        "size_bytes": 413897240,
-        "source_bytes_read": 413897240,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264844",
         "source_bytes_read": 413897240,
         "elapsed_seconds": 76.98,
         "finished_at": "2026-11-22T23:40:23.349900+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264844",
+          "size_bytes": 413897240,
+          "source_bytes_read": 413897240,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30705634",
+        "source_url": "https://sdilej.cz/30705634/velky-pruvodce-meditaci-2021-s01e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264844",
+        "display_name": "Headspace Guide to Meditation S01E02 How to Let Go 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:40:39.954591+00:00"
       }
     },
     "5433:1:3": {
@@ -855484,7 +855485,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:40:33.992790+00:00",
+  "updated_at": "2026-11-22T23:40:39.954607+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
