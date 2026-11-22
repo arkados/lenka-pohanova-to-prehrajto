@@ -854573,12 +854573,6 @@
     },
     "724:1:8": {
       "episode_key": "kohout:s1:e8",
-      "claim": {
-        "worker_id": "e051337c911c438db34243053702f2ce-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:35:10.300688+00:00",
-        "lease_expires_at": "2026-11-23T04:35:10.300703+00:00"
-      },
       "source": {
         "source_id": "34253205",
         "source_url": "https://sdilej.cz/34253205/rooster-s01e08-czsken-dabing.mp4",
@@ -854619,7 +854613,13 @@
         "elapsed_seconds": 47.241,
         "finished_at": "2026-11-22T22:36:45.613722+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T22:38:21.682359+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "724:1:9": {
       "episode_key": "kohout:s1:e9",
@@ -854636,7 +854636,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:37:37.215457+00:00",
+  "updated_at": "2026-11-22T22:38:21.682377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
