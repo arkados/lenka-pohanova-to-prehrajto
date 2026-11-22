@@ -853611,16 +853611,6 @@
         "display_name": "Mildred Pierce S01E04 Part 4 720p CZ Dabing",
         "prepared_at": "2026-11-22T21:32:48.518283+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261585",
-        "size_bytes": 2138325316
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261585",
-        "size_bytes": 2138325316,
-        "source_bytes_read": 2138325316,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261585",
         "source_bytes_read": 2138325316,
@@ -853634,11 +853624,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "a576ac5e7e9a43e7bf82fcc3a1c53e21-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:08:02.686656+00:00",
-        "lease_expires_at": "2026-11-23T04:08:02.686674+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261585",
+          "size_bytes": 2138325316,
+          "source_bytes_read": 2138325316,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28247872",
+        "source_url": "https://sdilej.cz/28247872/mildred-pierceova-s01e04-dil-4.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261585",
+        "display_name": "Mildred Pierce S01E04 Part 4 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T22:08:14.234123+00:00"
       }
     },
     "6009:1:5": {
@@ -853784,7 +853785,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:08:08.222469+00:00",
+  "updated_at": "2026-11-22T22:08:14.234141+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
