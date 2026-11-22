@@ -812503,12 +812503,6 @@
     },
     "48:3:8": {
       "episode_key": "věřte nevěřte:s3:e8",
-      "claim": {
-        "worker_id": "f9d88e01a9d04c8184469893c3d63798-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:40:58.223792+00:00",
-        "lease_expires_at": "2026-11-22T07:40:58.223812+00:00"
-      },
       "source": {
         "source_id": "28614936",
         "source_url": "https://sdilej.cz/28614936/verte-neverte-3x08.mkv",
@@ -812533,22 +812527,29 @@
         "display_name": "Beyond Belief: Fact or Fiction S03E08 Creepy Comics, Louie the Dip, The Wailing, The Landlady & Curse SD CZ Dabing",
         "prepared_at": "2026-11-22T01:41:09.718541+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240984",
-        "size_bytes": 349665433
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240984",
-        "size_bytes": 349665433,
-        "source_bytes_read": 349665433,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240984",
         "source_bytes_read": 349665433,
         "elapsed_seconds": 17.654,
         "finished_at": "2026-11-22T01:42:11.965081+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240984",
+          "size_bytes": 349665433,
+          "source_bytes_read": 349665433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28614936",
+        "source_url": "https://sdilej.cz/28614936/verte-neverte-3x08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240984",
+        "display_name": "Beyond Belief: Fact or Fiction S03E08 Creepy Comics, Louie the Dip, The Wailing, The Landlady & Curse SD CZ Dabing",
+        "uploaded_at": "2026-11-22T01:42:23.805395+00:00"
       }
     }
   },
@@ -812557,7 +812558,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:42:17.848900+00:00",
+  "updated_at": "2026-11-22T01:42:23.805414+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
