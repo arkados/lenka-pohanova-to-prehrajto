@@ -845876,12 +845876,6 @@
     },
     "6102:1:1": {
       "episode_key": "americká štvanice: usáma bin ládin:s1:e1",
-      "claim": {
-        "worker_id": "48d3ff7e0bc64dbe8afbe7cea4203cbd-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:20:24.649750+00:00",
-        "lease_expires_at": "2026-11-22T20:20:24.649762+00:00"
-      },
       "source": {
         "source_id": "31071609",
         "source_url": "https://sdilej.cz/31071609/americka-stvanice-usama-bin-ladin-s01e01-cz-dabing-2025-1080p.mkv",
@@ -845906,22 +845900,29 @@
         "display_name": "American Manhunt: Osama bin Laden S01E01 A New Kind of Enemy 1080p CZ Dabing",
         "prepared_at": "2026-11-22T14:20:39.223589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31254155",
-        "size_bytes": 1153943078
-      },
-      "transfer_receipt": {
-        "target_video_id": "31254155",
-        "size_bytes": 1153943078,
-        "source_bytes_read": 1153943078,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31254155",
         "source_bytes_read": 1153943078,
         "elapsed_seconds": 74.956,
         "finished_at": "2026-11-22T14:22:20.591421+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31254155",
+          "size_bytes": 1153943078,
+          "source_bytes_read": 1153943078,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31071609",
+        "source_url": "https://sdilej.cz/31071609/americka-stvanice-usama-bin-ladin-s01e01-cz-dabing-2025-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31254155",
+        "display_name": "American Manhunt: Osama bin Laden S01E01 A New Kind of Enemy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T14:22:28.970122+00:00"
       }
     }
   },
@@ -845930,7 +845931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:22:20.591439+00:00",
+  "updated_at": "2026-11-22T14:22:28.970138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
