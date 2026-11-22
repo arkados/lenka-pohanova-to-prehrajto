@@ -850677,16 +850677,6 @@
         "display_name": "Moonlighting S02E10 Twas the Episode Before Christmas SD CZ Dabing",
         "prepared_at": "2026-11-22T16:35:02.607235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256535",
-        "size_bytes": 204278683
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256535",
-        "size_bytes": 204278683,
-        "source_bytes_read": 204278683,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256535",
         "source_bytes_read": 204278683,
@@ -850700,11 +850690,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "a3facd4de8a14603b85fae6ffada5e24-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T16:53:39.315225+00:00",
-        "lease_expires_at": "2026-11-22T22:53:39.315237+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256535",
+          "size_bytes": 204278683,
+          "source_bytes_read": 204278683,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983040",
+        "source_url": "https://sdilej.cz/34983040/mesicni-svit-s02e10-vanocni-pribeh.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256535",
+        "display_name": "Moonlighting S02E10 Twas the Episode Before Christmas SD CZ Dabing",
+        "uploaded_at": "2026-11-22T16:53:45.057174+00:00"
       }
     },
     "1132:2:11": {
@@ -850790,7 +850791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:53:39.315245+00:00",
+  "updated_at": "2026-11-22T16:53:45.057189+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
