@@ -815818,12 +815818,6 @@
     },
     "1204:3:8": {
       "episode_key": "o.c.:s3:e8",
-      "claim": {
-        "worker_id": "96206f61a99e40a6bc220597bff9dd2a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:38:01.667319+00:00",
-        "lease_expires_at": "2026-11-22T08:38:01.667337+00:00"
-      },
       "source": {
         "source_id": "34193584",
         "source_url": "https://sdilej.cz/34193584/o.c.-s03e08-the-game-plan-cz-dab.avi",
@@ -815848,22 +815842,29 @@
         "display_name": "The O.C. S03E08 The Game Plan SD CZ Dabing",
         "prepared_at": "2026-11-22T02:38:23.532236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241945",
-        "size_bytes": 358542078
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241945",
-        "size_bytes": 358542078,
-        "source_bytes_read": 358542078,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241945",
         "source_bytes_read": 358542078,
         "elapsed_seconds": 28.291,
         "finished_at": "2026-11-22T02:39:25.143799+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241945",
+          "size_bytes": 358542078,
+          "source_bytes_read": 358542078,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193584",
+        "source_url": "https://sdilej.cz/34193584/o.c.-s03e08-the-game-plan-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241945",
+        "display_name": "The O.C. S03E08 The Game Plan SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:39:42.370436+00:00"
       }
     },
     "1204:3:9": {
@@ -815942,7 +815943,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:39:36.580844+00:00",
+  "updated_at": "2026-11-22T02:39:42.370453+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
