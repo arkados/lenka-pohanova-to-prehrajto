@@ -847029,12 +847029,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "585c21ed20d74f39abeba6fdc49e64ec-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T15:11:28.215316+00:00",
-        "lease_expires_at": "2026-11-22T21:11:28.215326+00:00"
-      },
       "source": {
         "source_id": "26890615",
         "source_url": "https://sdilej.cz/26890615/zakon-a-poradek-zlocinne-umysly-s04e18-084-2005-sd-hodne-dite-sd-.mp4",
@@ -847059,22 +847053,29 @@
         "display_name": "Law & Order: Criminal Intent S04E18 The Good Child SD CZ Dabing",
         "prepared_at": "2026-11-22T15:11:45.071184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31254978",
-        "size_bytes": 362338445
-      },
-      "transfer_receipt": {
-        "target_video_id": "31254978",
-        "size_bytes": 362338445,
-        "source_bytes_read": 362338445,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31254978",
         "source_bytes_read": 362338445,
         "elapsed_seconds": 27.968,
         "finished_at": "2026-11-22T15:12:40.134879+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31254978",
+          "size_bytes": 362338445,
+          "source_bytes_read": 362338445,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26890615",
+        "source_url": "https://sdilej.cz/26890615/zakon-a-poradek-zlocinne-umysly-s04e18-084-2005-sd-hodne-dite-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31254978",
+        "display_name": "Law & Order: Criminal Intent S04E18 The Good Child SD CZ Dabing",
+        "uploaded_at": "2026-11-22T15:12:47.496769+00:00"
       }
     },
     "1929:4:19": {
@@ -847119,7 +847120,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T15:12:40.134894+00:00",
+  "updated_at": "2026-11-22T15:12:47.496786+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
