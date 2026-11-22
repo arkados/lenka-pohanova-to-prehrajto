@@ -826999,12 +826999,6 @@
     },
     "2161:2:1": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e1",
-      "claim": {
-        "worker_id": "1870eaa7f915406d91a7f5fd0f2f254b-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:32:20.565321+00:00",
-        "lease_expires_at": "2026-11-22T12:32:20.565337+00:00"
-      },
       "source": {
         "source_id": "27617477",
         "source_url": "https://sdilej.cz/27617477/hvezdna-brana-hluboky-vesmir-s02e01-intervence.mkv",
@@ -827029,22 +827023,29 @@
         "display_name": "Stargate Universe S02E01 Intervention (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:32:32.244360+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245906",
-        "size_bytes": 934737449
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245906",
-        "size_bytes": 934737449,
-        "source_bytes_read": 934737449,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245906",
         "source_bytes_read": 934737449,
         "elapsed_seconds": 72.372,
         "finished_at": "2026-11-22T06:34:11.881513+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245906",
+          "size_bytes": 934737449,
+          "source_bytes_read": 934737449,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27617477",
+        "source_url": "https://sdilej.cz/27617477/hvezdna-brana-hluboky-vesmir-s02e01-intervence.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245906",
+        "display_name": "Stargate Universe S02E01 Intervention (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:34:25.321388+00:00"
       }
     },
     "2161:2:2": {
@@ -827090,7 +827091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:34:17.326784+00:00",
+  "updated_at": "2026-11-22T06:34:25.321407+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
