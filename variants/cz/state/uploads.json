@@ -827433,12 +827433,6 @@
     },
     "1470:2:3": {
       "episode_key": "slečna scarletová a vévoda:s2:e3",
-      "claim": {
-        "worker_id": "b707b69591c941ce93ea69d53e720bac-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:46:04.186422+00:00",
-        "lease_expires_at": "2026-11-22T12:46:04.186441+00:00"
-      },
       "source": {
         "source_id": "24050716",
         "source_url": "https://sdilej.cz/24050716/slecna-scarletova-a-vevoda-s02e03-cz-hd-chudakuv-hrob-.mkv",
@@ -827463,22 +827457,29 @@
         "display_name": "Miss Scarlet S02E03 A Pauper's Grave 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:46:21.535299+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246101",
-        "size_bytes": 1136661587
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246101",
-        "size_bytes": 1136661587,
-        "source_bytes_read": 1136661587,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246101",
         "source_bytes_read": 1136661587,
         "elapsed_seconds": 46.222,
         "finished_at": "2026-11-22T06:47:35.784311+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246101",
+          "size_bytes": 1136661587,
+          "source_bytes_read": 1136661587,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24050716",
+        "source_url": "https://sdilej.cz/24050716/slecna-scarletova-a-vevoda-s02e03-cz-hd-chudakuv-hrob-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246101",
+        "display_name": "Miss Scarlet S02E03 A Pauper's Grave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:47:43.932959+00:00"
       }
     },
     "1470:2:4": {
@@ -827561,7 +827562,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:47:35.784332+00:00",
+  "updated_at": "2026-11-22T06:47:43.932980+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
