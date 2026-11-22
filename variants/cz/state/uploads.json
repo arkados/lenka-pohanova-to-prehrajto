@@ -809645,12 +809645,6 @@
     },
     "117:2:3": {
       "episode_key": "sandman:s2:e3",
-      "claim": {
-        "worker_id": "c575f044b0734e848bcfb32d8e6e1898-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:49:20.745663+00:00",
-        "lease_expires_at": "2026-11-22T06:49:20.745681+00:00"
-      },
       "source": {
         "source_id": "32125617",
         "source_url": "https://sdilej.cz/32125617/sandman-s02e03-vic-demonu-nez-se-vejde-do-pekla.mkv",
@@ -809675,22 +809669,29 @@
         "display_name": "The Sandman S02E03 More Devils Than Vast Hell Can Hold 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:49:26.879813+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240147",
-        "size_bytes": 2461806694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240147",
-        "size_bytes": 2461806694,
-        "source_bytes_read": 2461806694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240147",
         "source_bytes_read": 2461806694,
         "elapsed_seconds": 140.619,
         "finished_at": "2026-11-22T00:52:18.394009+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240147",
+          "size_bytes": 2461806694,
+          "source_bytes_read": 2461806694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125617",
+        "source_url": "https://sdilej.cz/32125617/sandman-s02e03-vic-demonu-nez-se-vejde-do-pekla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240147",
+        "display_name": "The Sandman S02E03 More Devils Than Vast Hell Can Hold 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:52:33.699046+00:00"
       }
     },
     "117:2:4": {
@@ -809787,7 +809788,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:52:25.578142+00:00",
+  "updated_at": "2026-11-22T00:52:33.699081+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
