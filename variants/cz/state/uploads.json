@@ -814498,12 +814498,6 @@
     },
     "1204:1:26": {
       "episode_key": "o.c.:s1:e26",
-      "claim": {
-        "worker_id": "79d7dab43e2d48c9876eba38dd55e1d7-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:18:38.893626+00:00",
-        "lease_expires_at": "2026-11-22T08:18:38.893638+00:00"
-      },
       "source": {
         "source_id": "34192967",
         "source_url": "https://sdilej.cz/34192967/o.c.-s01e26-the-strip-cz-dab.avi",
@@ -814528,22 +814522,29 @@
         "display_name": "The O.C. S01E26 The Strip SD CZ Dabing",
         "prepared_at": "2026-11-22T02:18:50.862638+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241606",
-        "size_bytes": 414787584
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241606",
-        "size_bytes": 414787584,
-        "source_bytes_read": 414787584,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241606",
         "source_bytes_read": 414787584,
         "elapsed_seconds": 21.661,
         "finished_at": "2026-11-22T02:19:45.811951+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241606",
+          "size_bytes": 414787584,
+          "source_bytes_read": 414787584,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192967",
+        "source_url": "https://sdilej.cz/34192967/o.c.-s01e26-the-strip-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241606",
+        "display_name": "The O.C. S01E26 The Strip SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:20:01.431301+00:00"
       }
     }
   },
@@ -814552,7 +814553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:19:55.730157+00:00",
+  "updated_at": "2026-11-22T02:20:01.431316+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
