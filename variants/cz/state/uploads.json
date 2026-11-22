@@ -813880,12 +813880,6 @@
     },
     "1204:1:13": {
       "episode_key": "o.c.:s1:e13",
-      "claim": {
-        "worker_id": "698bc12dd1364bf29d15c58b689d42b3-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T02:00:01.127810+00:00",
-        "lease_expires_at": "2026-11-22T08:00:01.127827+00:00"
-      },
       "source": {
         "source_id": "34192706",
         "source_url": "https://sdilej.cz/34192706/o.c.-s01e13-the-best-chrismukkah-ever-cz-dab.avi",
@@ -813910,22 +813904,29 @@
         "display_name": "The O.C. S01E13 The Best Chrismukkah Ever SD CZ Dabing",
         "prepared_at": "2026-11-22T02:00:13.418068+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241314",
-        "size_bytes": 414308352
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241314",
-        "size_bytes": 414308352,
-        "source_bytes_read": 414308352,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241314",
         "source_bytes_read": 414308352,
         "elapsed_seconds": 30.746,
         "finished_at": "2026-11-22T02:01:17.232200+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241314",
+          "size_bytes": 414308352,
+          "source_bytes_read": 414308352,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192706",
+        "source_url": "https://sdilej.cz/34192706/o.c.-s01e13-the-best-chrismukkah-ever-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241314",
+        "display_name": "The O.C. S01E13 The Best Chrismukkah Ever SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:01:30.565746+00:00"
       }
     },
     "1204:1:14": {
@@ -813980,7 +813981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:01:25.314864+00:00",
+  "updated_at": "2026-11-22T02:01:30.565767+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
