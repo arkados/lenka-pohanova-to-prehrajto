@@ -817348,12 +817348,6 @@
     },
     "1204:4:15": {
       "episode_key": "o.c.:s4:e15",
-      "claim": {
-        "worker_id": "be58291c24aa4e18b489a8ac9c5944c3-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:58:37.788961+00:00",
-        "lease_expires_at": "2026-11-22T08:58:37.788974+00:00"
-      },
       "source": {
         "source_id": "34193858",
         "source_url": "https://sdilej.cz/34193858/o.c.-s04e15-the-night-moves-cz-dab.avi",
@@ -817378,22 +817372,29 @@
         "display_name": "The O.C. S04E15 The Night Moves SD CZ Dabing",
         "prepared_at": "2026-11-22T02:58:55.717144+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242271",
-        "size_bytes": 358460816
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242271",
-        "size_bytes": 358460816,
-        "source_bytes_read": 358460816,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242271",
         "source_bytes_read": 358460816,
         "elapsed_seconds": 22.483,
         "finished_at": "2026-11-22T02:59:48.091551+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242271",
+          "size_bytes": 358460816,
+          "source_bytes_read": 358460816,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193858",
+        "source_url": "https://sdilej.cz/34193858/o.c.-s04e15-the-night-moves-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242271",
+        "display_name": "The O.C. S04E15 The Night Moves SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:59:59.700934+00:00"
       }
     },
     "1204:4:16": {
@@ -817473,7 +817474,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:59:54.519742+00:00",
+  "updated_at": "2026-11-22T02:59:59.700950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
