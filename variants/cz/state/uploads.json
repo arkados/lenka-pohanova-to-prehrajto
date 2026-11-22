@@ -847250,12 +847250,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "3e5eb624bdce4ea58d741ba9703b5a39-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T15:15:15.084238+00:00",
-        "lease_expires_at": "2026-11-22T21:15:15.084248+00:00"
-      },
       "source": {
         "source_id": "26890693",
         "source_url": "https://sdilej.cz/26890693/zakon-a-poradek-zlocinne-umysly-s04e21-087-2005-sd-bez-mrknuti-oka-sd-.mp4",
@@ -847280,22 +847274,29 @@
         "display_name": "Law & Order: Criminal Intent S04E21 The Unblinking Eye SD CZ Dabing",
         "prepared_at": "2026-11-22T15:15:26.677282+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31255032",
-        "size_bytes": 361166337
-      },
-      "transfer_receipt": {
-        "target_video_id": "31255032",
-        "size_bytes": 361166337,
-        "source_bytes_read": 361166337,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31255032",
         "source_bytes_read": 361166337,
         "elapsed_seconds": 27.256,
         "finished_at": "2026-11-22T15:16:26.318611+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31255032",
+          "size_bytes": 361166337,
+          "source_bytes_read": 361166337,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26890693",
+        "source_url": "https://sdilej.cz/26890693/zakon-a-poradek-zlocinne-umysly-s04e21-087-2005-sd-bez-mrknuti-oka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31255032",
+        "display_name": "Law & Order: Criminal Intent S04E21 The Unblinking Eye SD CZ Dabing",
+        "uploaded_at": "2026-11-22T15:16:42.089493+00:00"
       }
     },
     "1929:4:23": {
@@ -847406,7 +847407,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T15:16:36.703593+00:00",
+  "updated_at": "2026-11-22T15:16:42.089508+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
