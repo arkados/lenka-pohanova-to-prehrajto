@@ -817054,12 +817054,6 @@
     },
     "1204:4:9": {
       "episode_key": "o.c.:s4:e9",
-      "claim": {
-        "worker_id": "51e73a43cb2f4af6960723a595df1f10-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:53:26.697769+00:00",
-        "lease_expires_at": "2026-11-22T08:53:26.697781+00:00"
-      },
       "source": {
         "source_id": "34193808",
         "source_url": "https://sdilej.cz/34193808/o.c.-s04e09-the-my-two-dads-cz-dab.avi",
@@ -817084,22 +817078,29 @@
         "display_name": "The O.C. S04E09 The My Two Dads SD CZ Dabing",
         "prepared_at": "2026-11-22T02:53:34.202621+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242197",
-        "size_bytes": 358558834
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242197",
-        "size_bytes": 358558834,
-        "source_bytes_read": 358558834,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242197",
         "source_bytes_read": 358558834,
         "elapsed_seconds": 17.492,
         "finished_at": "2026-11-22T02:54:28.950559+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242197",
+          "size_bytes": 358558834,
+          "source_bytes_read": 358558834,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193808",
+        "source_url": "https://sdilej.cz/34193808/o.c.-s04e09-the-my-two-dads-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242197",
+        "display_name": "The O.C. S04E09 The My Two Dads SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:54:39.300354+00:00"
       }
     }
   },
@@ -817108,7 +817109,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:54:33.977530+00:00",
+  "updated_at": "2026-11-22T02:54:39.300372+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
