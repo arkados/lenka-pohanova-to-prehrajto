@@ -853759,12 +853759,12 @@
     },
     "701:1:5": {
       "episode_key": "harry hole:s1:e5",
-      "claim": {
-        "worker_id": "b362ca802bc1487aba6d552188183ac3-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:39:44.152456+00:00",
-        "lease_expires_at": "2026-11-23T03:39:44.152473+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-22T21:41:27.200260+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -853772,7 +853772,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:41:21.908606+00:00",
+  "updated_at": "2026-11-22T21:41:27.200280+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
