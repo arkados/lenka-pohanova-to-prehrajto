@@ -820086,12 +820086,6 @@
     },
     "1273:2:2": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e2",
-      "claim": {
-        "worker_id": "05959b331cf846649e1f096661973812-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:59:00.803072+00:00",
-        "lease_expires_at": "2026-11-22T09:59:00.803091+00:00"
-      },
       "source": {
         "source_id": "33734379",
         "source_url": "https://sdilej.cz/33734379/terminator-pribeh-sary-connorove-s02e02-cz-dabing-full-hd.mkv",
@@ -820115,7 +820109,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S02E02 Automatic for the People 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:59:16.869918+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734379:https://sdilej.cz/33734379/terminator-pribeh-sary-connorove-s02e02-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T03:59:34.055415+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T03:59:34.055462+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1273:2:3": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e3",
@@ -820159,7 +820163,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:59:28.973986+00:00",
+  "updated_at": "2026-11-22T03:59:34.055467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -820808,16 +820812,8 @@
     "1273": {
       "recent_failures": [
         {
-          "identity": "1273:1:2",
-          "at": "2026-11-22T03:42:34.731772+00:00"
-        },
-        {
-          "identity": "1273:1:5",
-          "at": "2026-11-22T03:45:05.921920+00:00"
-        },
-        {
-          "identity": "1273:1:4",
-          "at": "2026-11-22T03:45:13.455916+00:00"
+          "identity": "1273:2:2",
+          "at": "2026-11-22T03:59:34.055415+00:00"
         }
       ],
       "retry_after": "2026-11-22T03:55:13.455916+00:00"
