@@ -821294,12 +821294,6 @@
     },
     "1094:2:3": {
       "episode_key": "skladiště 13:s2:e3",
-      "claim": {
-        "worker_id": "b0fc97a42ba345588f08d492857dd58c-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:20:48.552487+00:00",
-        "lease_expires_at": "2026-11-22T10:20:48.552498+00:00"
-      },
       "source": {
         "source_id": "32443662",
         "source_url": "https://sdilej.cz/32443662/skladiste-13-s02e03-zahadna-zjeveni.mkv",
@@ -821324,22 +821318,29 @@
         "display_name": "Warehouse 13 S02E03 Beyond Our Control 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:21:02.044952+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243776",
-        "size_bytes": 944068482
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243776",
-        "size_bytes": 944068482,
-        "source_bytes_read": 944068482,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243776",
         "source_bytes_read": 944068482,
         "elapsed_seconds": 42.226,
         "finished_at": "2026-11-22T04:22:24.562676+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243776",
+          "size_bytes": 944068482,
+          "source_bytes_read": 944068482,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443662",
+        "source_url": "https://sdilej.cz/32443662/skladiste-13-s02e03-zahadna-zjeveni.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243776",
+        "display_name": "Warehouse 13 S02E03 Beyond Our Control 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:22:31.865690+00:00"
       }
     },
     "1094:2:4": {
@@ -821385,7 +821386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:22:24.562693+00:00",
+  "updated_at": "2026-11-22T04:22:31.865706+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
