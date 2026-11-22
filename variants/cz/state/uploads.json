@@ -815308,12 +815308,6 @@
     },
     "1204:2:18": {
       "episode_key": "o.c.:s2:e18",
-      "claim": {
-        "worker_id": "3f9c6204ae96492681b9565fab3ea9a4-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:31:03.307546+00:00",
-        "lease_expires_at": "2026-11-22T08:31:03.307563+00:00"
-      },
       "source": {
         "source_id": "34193436",
         "source_url": "https://sdilej.cz/34193436/o.c.-s02e18-the-risky-business-cz-dab.avi",
@@ -815338,22 +815332,29 @@
         "display_name": "The O.C. S02E18 The Risky Business SD CZ Dabing",
         "prepared_at": "2026-11-22T02:31:17.238913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241837",
-        "size_bytes": 377221120
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241837",
-        "size_bytes": 377221120,
-        "source_bytes_read": 377221120,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241837",
         "source_bytes_read": 377221120,
         "elapsed_seconds": 19.893,
         "finished_at": "2026-11-22T02:32:08.761370+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241837",
+          "size_bytes": 377221120,
+          "source_bytes_read": 377221120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193436",
+        "source_url": "https://sdilej.cz/34193436/o.c.-s02e18-the-risky-business-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241837",
+        "display_name": "The O.C. S02E18 The Risky Business SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:32:27.772567+00:00"
       }
     },
     "1204:2:19": {
@@ -815395,7 +815396,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:32:22.216160+00:00",
+  "updated_at": "2026-11-22T02:32:27.772583+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
