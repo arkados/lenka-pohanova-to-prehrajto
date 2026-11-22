@@ -809974,12 +809974,6 @@
     },
     "117:2:10": {
       "episode_key": "sandman:s2:e10",
-      "claim": {
-        "worker_id": "6c8e1f0019c64a7ab4b3c598cc8650e1-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:57:52.373001+00:00",
-        "lease_expires_at": "2026-11-22T06:57:52.373024+00:00"
-      },
       "source": {
         "source_id": "31541798",
         "source_url": "https://sdilej.cz/31541798/the-sandman-s02e10-cz-dab-1080p-by-pefto-.mkv",
@@ -810004,22 +809998,29 @@
         "display_name": "The Sandman S02E10 Long Live the King 1080p CZ Dabing",
         "prepared_at": "2026-11-22T00:57:58.171188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240284",
-        "size_bytes": 595872640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240284",
-        "size_bytes": 595872640,
-        "source_bytes_read": 595872640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240284",
         "source_bytes_read": 595872640,
         "elapsed_seconds": 27.969,
         "finished_at": "2026-11-22T00:58:46.605741+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240284",
+          "size_bytes": 595872640,
+          "source_bytes_read": 595872640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31541798",
+        "source_url": "https://sdilej.cz/31541798/the-sandman-s02e10-cz-dab-1080p-by-pefto-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240284",
+        "display_name": "The Sandman S02E10 Long Live the King 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:58:53.451929+00:00"
       }
     }
   },
@@ -810028,7 +810029,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:58:46.605762+00:00",
+  "updated_at": "2026-11-22T00:58:53.451950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
