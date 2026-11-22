@@ -818879,12 +818879,6 @@
     },
     "1306:1:22": {
       "episode_key": "všemocný:s1:e22",
-      "claim": {
-        "worker_id": "631a0bb8b59a4ee3841e63fd1cecf8ee-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:41:24.090973+00:00",
-        "lease_expires_at": "2026-11-22T09:41:24.090989+00:00"
-      },
       "source": {
         "source_id": "22814765",
         "source_url": "https://sdilej.cz/22814765/limitless.s01e22.1080p.web-dl.ac3.x265.hevc-joy-czaudio.mkv",
@@ -818909,22 +818903,29 @@
         "display_name": "Limitless S01E22 Finale (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:41:45.621129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243064",
-        "size_bytes": 586187734
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243064",
-        "size_bytes": 586187734,
-        "source_bytes_read": 586187734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243064",
         "source_bytes_read": 586187734,
         "elapsed_seconds": 44.445,
         "finished_at": "2026-11-22T03:43:04.038084+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243064",
+          "size_bytes": 586187734,
+          "source_bytes_read": 586187734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22814765",
+        "source_url": "https://sdilej.cz/22814765/limitless.s01e22.1080p.web-dl.ac3.x265.hevc-joy-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243064",
+        "display_name": "Limitless S01E22 Finale (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:43:15.836987+00:00"
       }
     },
     "1273:1:1": {
@@ -819044,7 +819045,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:43:09.561274+00:00",
+  "updated_at": "2026-11-22T03:43:15.837005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
