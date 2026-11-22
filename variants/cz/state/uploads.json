@@ -806890,12 +806890,6 @@
     },
     "1198:11:16": {
       "episode_key": "chirurgové:s11:e16",
-      "claim": {
-        "worker_id": "a80df08786b7405c8cc1cb236bca86cc-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:58:31.878724+00:00",
-        "lease_expires_at": "2026-11-22T05:58:31.878740+00:00"
-      },
       "source": {
         "source_id": "27698674",
         "source_url": "https://sdilej.cz/27698674/chirurgove-s11e16-cz.mkv",
@@ -806920,22 +806914,29 @@
         "display_name": "Grey's Anatomy S11E16 Don't Dream It's Over 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:58:42.676523+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239388",
-        "size_bytes": 529213721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239388",
-        "size_bytes": 529213721,
-        "source_bytes_read": 529213721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239388",
         "source_bytes_read": 529213721,
         "elapsed_seconds": 31.578,
         "finished_at": "2026-11-21T23:59:44.518526+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239388",
+          "size_bytes": 529213721,
+          "source_bytes_read": 529213721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698674",
+        "source_url": "https://sdilej.cz/27698674/chirurgove-s11e16-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239388",
+        "display_name": "Grey's Anatomy S11E16 Don't Dream It's Over 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:00:00.856119+00:00"
       }
     },
     "1198:11:18": {
@@ -806981,7 +806982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-21T23:59:55.742465+00:00",
+  "updated_at": "2026-11-22T00:00:00.856136+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
