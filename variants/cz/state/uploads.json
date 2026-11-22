@@ -817961,12 +817961,6 @@
     },
     "1306:1:2": {
       "episode_key": "všemocný:s1:e2",
-      "claim": {
-        "worker_id": "78c628b1a1f24a7c892d997a3d5b9a34-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:27:47.478351+00:00",
-        "lease_expires_at": "2026-11-22T09:27:47.478364+00:00"
-      },
       "source": {
         "source_id": "16313981",
         "source_url": "https://sdilej.cz/16313981/limitless-vsemocny-s01e02-odznak-zbran-cz-hd-1080p.mkv",
@@ -817991,22 +817985,29 @@
         "display_name": "Limitless S01E02 Badge! Gun! 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:28:03.541259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242858",
-        "size_bytes": 1670739228
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242858",
-        "size_bytes": 1670739228,
-        "source_bytes_read": 1670739228,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242858",
         "source_bytes_read": 1670739228,
         "elapsed_seconds": 128.849,
         "finished_at": "2026-11-22T03:30:54.091594+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242858",
+          "size_bytes": 1670739228,
+          "source_bytes_read": 1670739228,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16313981",
+        "source_url": "https://sdilej.cz/16313981/limitless-vsemocny-s01e02-odznak-zbran-cz-hd-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242858",
+        "display_name": "Limitless S01E02 Badge! Gun! 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:31:05.857694+00:00"
       }
     },
     "1306:1:3": {
@@ -818140,7 +818141,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:30:58.941330+00:00",
+  "updated_at": "2026-11-22T03:31:05.857714+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
