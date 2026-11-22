@@ -845685,12 +845685,6 @@
     },
     "4011:1:2": {
       "episode_key": "město patří nám:s1:e2",
-      "claim": {
-        "worker_id": "b56c41629dac4e2787f31e92f921025b-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:12:23.900202+00:00",
-        "lease_expires_at": "2026-11-22T20:12:23.900214+00:00"
-      },
       "source": {
         "source_id": "25599285",
         "source_url": "https://sdilej.cz/25599285/we-own-this-city-s01e02-part-two.mp4",
@@ -845715,22 +845709,29 @@
         "display_name": "We Own This City S01E02 Part Two 1080p CZ Dabing",
         "prepared_at": "2026-11-22T14:12:40.220126+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31254024",
-        "size_bytes": 3630530158
-      },
-      "transfer_receipt": {
-        "target_video_id": "31254024",
-        "size_bytes": 3630530158,
-        "source_bytes_read": 3630530158,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31254024",
         "source_bytes_read": 3630530158,
         "elapsed_seconds": 231.017,
         "finished_at": "2026-11-22T14:17:08.660036+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31254024",
+          "size_bytes": 3630530158,
+          "source_bytes_read": 3630530158,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25599285",
+        "source_url": "https://sdilej.cz/25599285/we-own-this-city-s01e02-part-two.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31254024",
+        "display_name": "We Own This City S01E02 Part Two 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T14:17:19.403616+00:00"
       }
     },
     "4011:1:3": {
@@ -845790,7 +845791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:17:13.939859+00:00",
+  "updated_at": "2026-11-22T14:17:19.403631+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
