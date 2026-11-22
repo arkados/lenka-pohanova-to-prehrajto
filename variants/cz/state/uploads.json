@@ -829883,12 +829883,6 @@
     },
     "1033:2:5": {
       "episode_key": "stařík v utajení:s2:e5",
-      "claim": {
-        "worker_id": "4a6fe13c58c4444a9f087b530b192e69-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:41:15.994245+00:00",
-        "lease_expires_at": "2026-11-22T13:41:15.994263+00:00"
-      },
       "source": {
         "source_id": "34023190",
         "source_url": "https://sdilej.cz/34023190/starik-v-utajeni-s02e05-2025-1080p-h264-cz-kom.serial.mkv",
@@ -829913,22 +829907,29 @@
         "display_name": "A Man on the Inside S02E05 Thanksgiving Break 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:41:39.425327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31247020",
-        "size_bytes": 743509477
-      },
-      "transfer_receipt": {
-        "target_video_id": "31247020",
-        "size_bytes": 743509477,
-        "source_bytes_read": 743509477,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31247020",
         "source_bytes_read": 743509477,
         "elapsed_seconds": 50.505,
         "finished_at": "2026-11-22T07:43:05.598207+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31247020",
+          "size_bytes": 743509477,
+          "source_bytes_read": 743509477,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34023190",
+        "source_url": "https://sdilej.cz/34023190/starik-v-utajeni-s02e05-2025-1080p-h264-cz-kom.serial.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31247020",
+        "display_name": "A Man on the Inside S02E05 Thanksgiving Break 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:43:23.540926+00:00"
       }
     },
     "1033:2:6": {
@@ -830071,7 +830072,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:43:16.968147+00:00",
+  "updated_at": "2026-11-22T07:43:23.540941+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
