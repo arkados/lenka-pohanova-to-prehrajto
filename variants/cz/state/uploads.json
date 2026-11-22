@@ -814339,12 +814339,6 @@
     },
     "1204:1:22": {
       "episode_key": "o.c.:s1:e22",
-      "claim": {
-        "worker_id": "33ec87c966cf4b0bba8ee7c8480ff7be-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:15:19.535156+00:00",
-        "lease_expires_at": "2026-11-22T08:15:19.535183+00:00"
-      },
       "source": {
         "source_id": "34192887",
         "source_url": "https://sdilej.cz/34192887/o.c.-s01e22-the-l.a.-cz-dab.avi",
@@ -814369,22 +814363,29 @@
         "display_name": "The O.C. S01E22 The L.A. SD CZ Dabing",
         "prepared_at": "2026-11-22T02:15:30.745626+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241559",
-        "size_bytes": 414715904
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241559",
-        "size_bytes": 414715904,
-        "source_bytes_read": 414715904,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241559",
         "source_bytes_read": 414715904,
         "elapsed_seconds": 74.556,
         "finished_at": "2026-11-22T02:17:11.305160+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241559",
+          "size_bytes": 414715904,
+          "source_bytes_read": 414715904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192887",
+        "source_url": "https://sdilej.cz/34192887/o.c.-s01e22-the-l.a.-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241559",
+        "display_name": "The O.C. S01E22 The L.A. SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:17:27.042948+00:00"
       }
     },
     "1204:1:24": {
@@ -814444,7 +814445,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:17:21.347399+00:00",
+  "updated_at": "2026-11-22T02:17:27.042966+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
