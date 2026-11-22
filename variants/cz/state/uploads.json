@@ -854656,12 +854656,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "45252e3a4bbb432a8a694ebba16d62a3-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T23:09:35.273603+00:00",
-        "lease_expires_at": "2026-11-23T05:09:35.273619+00:00"
-      },
       "source": {
         "source_id": "11840258",
         "source_url": "https://sdilej.cz/11840258/doktorka.fosterova.01x01.1080i.hdtv.cz.mkv",
@@ -854686,22 +854680,29 @@
         "display_name": "Doctor Foster S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:09:51.106287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264024",
-        "size_bytes": 1903491715
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264024",
-        "size_bytes": 1903491715,
-        "source_bytes_read": 1903491715,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264024",
         "source_bytes_read": 1903491715,
         "elapsed_seconds": 446.704,
         "finished_at": "2026-11-22T23:17:48.891977+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264024",
+          "size_bytes": 1903491715,
+          "source_bytes_read": 1903491715,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11840258",
+        "source_url": "https://sdilej.cz/11840258/doktorka.fosterova.01x01.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264024",
+        "display_name": "Doctor Foster S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:18:00.874520+00:00"
       }
     },
     "724:1:10": {
@@ -854890,7 +854891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:17:55.768923+00:00",
+  "updated_at": "2026-11-22T23:18:00.874535+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
