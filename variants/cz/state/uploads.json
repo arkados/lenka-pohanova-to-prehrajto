@@ -854641,12 +854641,12 @@
     },
     "724:1:10": {
       "episode_key": "kohout:s1:e10",
-      "claim": {
-        "worker_id": "349e859a1c2f44228d82a6eb13d63f1a-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:39:38.218772+00:00",
-        "lease_expires_at": "2026-11-23T04:39:38.218787+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-22T22:41:22.684992+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "2695:1:2": {
       "episode_key": "doktorka fosterová:s1:e2",
@@ -854663,7 +854663,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:39:43.833419+00:00",
+  "updated_at": "2026-11-22T22:41:22.685011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
