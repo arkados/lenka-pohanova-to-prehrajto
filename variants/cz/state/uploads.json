@@ -840968,12 +840968,6 @@
     },
     "1089:8:4": {
       "episode_key": "nemocnice chicago med:s8:e4",
-      "claim": {
-        "worker_id": "d7ee7a260ed74d86a167788d3a5bbed3-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:07:04.936524+00:00",
-        "lease_expires_at": "2026-11-22T18:07:04.936535+00:00"
-      },
       "source": {
         "source_id": "30458696",
         "source_url": "https://sdilej.cz/30458696/nemocnice-chicago-med-s08e04.mp4",
@@ -840998,22 +840992,29 @@
         "display_name": "Chicago Med S08E04 The Apple Doesn't Fall Far from the Teacher 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:07:16.180493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251652",
-        "size_bytes": 686535180
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251652",
-        "size_bytes": 686535180,
-        "source_bytes_read": 686535180,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251652",
         "source_bytes_read": 686535180,
         "elapsed_seconds": 45.022,
         "finished_at": "2026-11-22T12:08:35.764378+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251652",
+          "size_bytes": 686535180,
+          "source_bytes_read": 686535180,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458696",
+        "source_url": "https://sdilej.cz/30458696/nemocnice-chicago-med-s08e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251652",
+        "display_name": "Chicago Med S08E04 The Apple Doesn't Fall Far from the Teacher 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:08:52.446189+00:00"
       }
     }
   },
@@ -841022,7 +841023,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:08:46.321900+00:00",
+  "updated_at": "2026-11-22T12:08:52.446203+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
