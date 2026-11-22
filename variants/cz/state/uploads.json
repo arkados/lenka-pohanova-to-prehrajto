@@ -819581,12 +819581,6 @@
     },
     "1595:1:8": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e8",
-      "claim": {
-        "worker_id": "54fabb53060f40469dfab62264b18c1a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:50:58.101708+00:00",
-        "lease_expires_at": "2026-11-22T09:50:58.101722+00:00"
-      },
       "source": {
         "source_id": "22592870",
         "source_url": "https://sdilej.cz/22592870/flashforward.2009.s01e08.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
@@ -819611,22 +819605,29 @@
         "display_name": "FlashForward S01E08 Playing Cards with Coyote 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:51:03.743337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243222",
-        "size_bytes": 830245786
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243222",
-        "size_bytes": 830245786,
-        "source_bytes_read": 830245786,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243222",
         "source_bytes_read": 830245786,
         "elapsed_seconds": 38.082,
         "finished_at": "2026-11-22T03:52:05.114072+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243222",
+          "size_bytes": 830245786,
+          "source_bytes_read": 830245786,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22592870",
+        "source_url": "https://sdilej.cz/22592870/flashforward.2009.s01e08.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243222",
+        "display_name": "FlashForward S01E08 Playing Cards with Coyote 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:52:20.534675+00:00"
       }
     },
     "1595:1:9": {
@@ -819677,7 +819678,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:52:14.926422+00:00",
+  "updated_at": "2026-11-22T03:52:20.534690+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
