@@ -813472,12 +813472,6 @@
     },
     "1204:1:1": {
       "episode_key": "o.c.:s1:e1",
-      "claim": {
-        "worker_id": "f691fb6005a94495936211274bea8cbc-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:54:27.676394+00:00",
-        "lease_expires_at": "2026-11-22T07:54:27.676412+00:00"
-      },
       "source": {
         "source_id": "34604016",
         "source_url": "https://sdilej.cz/34604016/o.c.-s01e01-27-2003-cz-dabing-1080p-fhd-pilot.mkv",
@@ -813502,22 +813496,29 @@
         "display_name": "The O.C. S01E01 Premiere 1080p CZ Dabing",
         "prepared_at": "2026-11-22T01:54:44.791980+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241212",
-        "size_bytes": 762556429
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241212",
-        "size_bytes": 762556429,
-        "source_bytes_read": 762556429,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241212",
         "source_bytes_read": 762556429,
         "elapsed_seconds": 50.735,
         "finished_at": "2026-11-22T01:56:03.287211+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241212",
+          "size_bytes": 762556429,
+          "source_bytes_read": 762556429,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34604016",
+        "source_url": "https://sdilej.cz/34604016/o.c.-s01e01-27-2003-cz-dabing-1080p-fhd-pilot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241212",
+        "display_name": "The O.C. S01E01 Premiere 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T01:56:15.462359+00:00"
       }
     },
     "1204:1:2": {
@@ -813563,7 +813564,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:56:08.397100+00:00",
+  "updated_at": "2026-11-22T01:56:15.462380+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
