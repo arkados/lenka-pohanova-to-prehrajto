@@ -821723,12 +821723,6 @@
     },
     "1094:2:7": {
       "episode_key": "skladiště 13:s2:e7",
-      "claim": {
-        "worker_id": "cd74d67d294046c6868ed3ae2a584307-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:32:32.795996+00:00",
-        "lease_expires_at": "2026-11-22T10:32:32.796012+00:00"
-      },
       "source": {
         "source_id": "32452669",
         "source_url": "https://sdilej.cz/32452669/skladiste-13-s02e07-energeticky-drink.mkv",
@@ -821753,22 +821747,29 @@
         "display_name": "Warehouse 13 S02E07 For the Team 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:32:51.463593+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243971",
-        "size_bytes": 941518390
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243971",
-        "size_bytes": 941518390,
-        "source_bytes_read": 941518390,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243971",
         "source_bytes_read": 941518390,
         "elapsed_seconds": 52.885,
         "finished_at": "2026-11-22T04:34:10.268423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243971",
+          "size_bytes": 941518390,
+          "source_bytes_read": 941518390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452669",
+        "source_url": "https://sdilej.cz/32452669/skladiste-13-s02e07-energeticky-drink.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243971",
+        "display_name": "Warehouse 13 S02E07 For the Team 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:34:23.518650+00:00"
       }
     },
     "1094:2:8": {
@@ -821865,7 +821866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:34:17.007334+00:00",
+  "updated_at": "2026-11-22T04:34:23.518667+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
