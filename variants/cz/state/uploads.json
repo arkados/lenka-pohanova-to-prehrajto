@@ -843285,12 +843285,6 @@
     },
     "1142:2:2": {
       "episode_key": "dívka odjinud:s2:e2",
-      "claim": {
-        "worker_id": "16a20097c6034289908ec874f3a39f6f-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:28:58.080712+00:00",
-        "lease_expires_at": "2026-11-22T19:28:58.080724+00:00"
-      },
       "source": {
         "source_id": "30884536",
         "source_url": "https://sdilej.cz/30884536/divka-odjinud-s02e02-honitba-lost-girl-cz.avi",
@@ -843315,22 +843309,29 @@
         "display_name": "Lost Girl S02E02 I Fought the Fae (And the Fae Won) SD CZ Dabing",
         "prepared_at": "2026-11-22T13:29:13.873819+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253315",
-        "size_bytes": 402595880
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253315",
-        "size_bytes": 402595880,
-        "source_bytes_read": 402595880,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253315",
         "source_bytes_read": 402595880,
         "elapsed_seconds": 30.233,
         "finished_at": "2026-11-22T13:30:16.786484+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253315",
+          "size_bytes": 402595880,
+          "source_bytes_read": 402595880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884536",
+        "source_url": "https://sdilej.cz/30884536/divka-odjinud-s02e02-honitba-lost-girl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253315",
+        "display_name": "Lost Girl S02E02 I Fought the Fae (And the Fae Won) SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:30:30.406885+00:00"
       }
     },
     "1142:2:3": {
@@ -843389,7 +843390,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:30:23.009117+00:00",
+  "updated_at": "2026-11-22T13:30:30.406900+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
