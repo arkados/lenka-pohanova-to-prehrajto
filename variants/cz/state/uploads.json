@@ -846630,12 +846630,6 @@
     },
     "1929:4:11": {
       "episode_key": "zákon a pořádek: zločinné úmysly:s4:e11",
-      "claim": {
-        "worker_id": "014d5d5f324d435cabb87634a9f43e00-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:40:33.619244+00:00",
-        "lease_expires_at": "2026-11-22T20:40:33.619253+00:00"
-      },
       "source": {
         "source_id": "26890376",
         "source_url": "https://sdilej.cz/26890376/zakon-a-poradek-zlocinne-umysly-s04e11-077-2005-sd-sachy-sd-.mp4",
@@ -846676,7 +846670,13 @@
         "elapsed_seconds": 29.608,
         "finished_at": "2026-11-22T14:41:45.748005+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T14:43:16.577395+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -846684,7 +846684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:41:45.748019+00:00",
+  "updated_at": "2026-11-22T14:43:16.577412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
