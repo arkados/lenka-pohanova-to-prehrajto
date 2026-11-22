@@ -821510,12 +821510,6 @@
     },
     "1273:2:9": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e9",
-      "claim": {
-        "worker_id": "e534f6f2f3e74950ac18c6d8cdc8cbff-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:28:27.397118+00:00",
-        "lease_expires_at": "2026-11-22T10:28:27.397136+00:00"
-      },
       "source": {
         "source_id": "28193765",
         "source_url": "https://sdilej.cz/28193765/terminator-pribeh-sary-connorove-s02e09-cz-dab-1080p-10kbs.mkv",
@@ -821540,22 +821534,29 @@
         "display_name": "Terminator: The Sarah Connor Chronicles S02E09 Complications 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:28:46.139461+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243902",
-        "size_bytes": 3492997088
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243902",
-        "size_bytes": 3492997088,
-        "source_bytes_read": 3492997088,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243902",
         "source_bytes_read": 3492997088,
         "elapsed_seconds": 313.641,
         "finished_at": "2026-11-22T04:34:31.074790+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243902",
+          "size_bytes": 3492997088,
+          "source_bytes_read": 3492997088,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28193765",
+        "source_url": "https://sdilej.cz/28193765/terminator-pribeh-sary-connorove-s02e09-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243902",
+        "display_name": "Terminator: The Sarah Connor Chronicles S02E09 Complications 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:34:39.183537+00:00"
       }
     },
     "1273:2:10": {
@@ -821879,7 +821880,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:34:31.074812+00:00",
+  "updated_at": "2026-11-22T04:34:39.183554+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
