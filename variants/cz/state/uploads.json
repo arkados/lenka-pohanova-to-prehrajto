@@ -838966,12 +838966,6 @@
     },
     "1089:6:5": {
       "episode_key": "nemocnice chicago med:s6:e5",
-      "claim": {
-        "worker_id": "e6878959547a4edbb134cb4923f26cf4-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:11:50.271378+00:00",
-        "lease_expires_at": "2026-11-22T17:11:50.271389+00:00"
-      },
       "source": {
         "source_id": "21598009",
         "source_url": "https://sdilej.cz/21598009/nemocnice.chicago.med.06x05.1080i.hevc.hdtv.cz.mkv",
@@ -838996,22 +838990,29 @@
         "display_name": "Chicago Med S06E05 When Your Heart Rules Your Head 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:12:07.418235+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250702",
-        "size_bytes": 487454558
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250702",
-        "size_bytes": 487454558,
-        "source_bytes_read": 487454558,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250702",
         "source_bytes_read": 487454558,
         "elapsed_seconds": 48.079,
         "finished_at": "2026-11-22T11:13:26.081766+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250702",
+          "size_bytes": 487454558,
+          "source_bytes_read": 487454558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21598009",
+        "source_url": "https://sdilej.cz/21598009/nemocnice.chicago.med.06x05.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250702",
+        "display_name": "Chicago Med S06E05 When Your Heart Rules Your Head 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:13:37.145440+00:00"
       }
     }
   },
@@ -839020,7 +839021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:13:31.767378+00:00",
+  "updated_at": "2026-11-22T11:13:37.145457+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
