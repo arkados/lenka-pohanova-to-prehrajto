@@ -837599,12 +837599,6 @@
     },
     "1089:5:2": {
       "episode_key": "nemocnice chicago med:s5:e2",
-      "claim": {
-        "worker_id": "448858d4c7c14f5e8ca9f6b05e05376c-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:40:47.870155+00:00",
-        "lease_expires_at": "2026-11-22T16:40:47.870168+00:00"
-      },
       "source": {
         "source_id": "34812658",
         "source_url": "https://sdilej.cz/34812658/nemocnice-chicago-med-s05e02-085-2019-fhd-ztraceni-v-temnote-s-.mp4",
@@ -837629,22 +837623,29 @@
         "display_name": "Chicago Med S05E02 We're Lost in the Dark 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:41:04.735461+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250139",
-        "size_bytes": 843621929
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250139",
-        "size_bytes": 843621929,
-        "source_bytes_read": 843621929,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250139",
         "source_bytes_read": 843621929,
         "elapsed_seconds": 66.083,
         "finished_at": "2026-11-22T10:42:44.200587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250139",
+          "size_bytes": 843621929,
+          "source_bytes_read": 843621929,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812658",
+        "source_url": "https://sdilej.cz/34812658/nemocnice-chicago-med-s05e02-085-2019-fhd-ztraceni-v-temnote-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250139",
+        "display_name": "Chicago Med S05E02 We're Lost in the Dark 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:42:52.236914+00:00"
       }
     },
     "1089:5:1": {
@@ -837727,7 +837728,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:42:44.200607+00:00",
+  "updated_at": "2026-11-22T10:42:52.236930+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
