@@ -820236,28 +820236,29 @@
           "at": "2026-11-22T04:04:07.021535+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4b76536ff1d34a7d8f58708207c5ed0a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:04:11.951114+00:00",
-        "lease_expires_at": "2026-11-22T10:04:11.951132+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31243428",
-        "size_bytes": 1041361114
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243428",
-        "size_bytes": 1041361114,
-        "source_bytes_read": 1041361114,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243428",
         "source_bytes_read": 1041361114,
         "elapsed_seconds": 44.386,
         "finished_at": "2026-11-22T04:05:37.466188+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243428",
+          "size_bytes": 1041361114,
+          "source_bytes_read": 1041361114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35334714",
+        "source_url": "https://sdilej.cz/35334714/terminator-pribeh-sary-connorove..s02e04.allison-z-palmdale.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243428",
+        "display_name": "Terminator: The Sarah Connor Chronicles S02E04 Allison from Palmdale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:05:52.821691+00:00"
       }
     },
     "1094:1:3": {
@@ -820554,7 +820555,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:05:48.222243+00:00",
+  "updated_at": "2026-11-22T04:05:52.821710+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
