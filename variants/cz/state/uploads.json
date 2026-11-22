@@ -833517,12 +833517,6 @@
     },
     "1089:1:3": {
       "episode_key": "nemocnice chicago med:s1:e3",
-      "claim": {
-        "worker_id": "cc9b3912f7a443ab8a82607bcf712b11-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T08:59:53.921108+00:00",
-        "lease_expires_at": "2026-11-22T14:59:53.921126+00:00"
-      },
       "source": {
         "source_id": "33674132",
         "source_url": "https://sdilej.cz/33674132/nemocnice-chicago-med-s01e03-czdab.mp4",
@@ -833547,22 +833541,29 @@
         "display_name": "Chicago Med S01E03 Fallback 1080p CZ Dabing",
         "prepared_at": "2026-11-22T09:00:10.836604+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31248284",
-        "size_bytes": 1749883211
-      },
-      "transfer_receipt": {
-        "target_video_id": "31248284",
-        "size_bytes": 1749883211,
-        "source_bytes_read": 1749883211,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31248284",
         "source_bytes_read": 1749883211,
         "elapsed_seconds": 79.011,
         "finished_at": "2026-11-22T09:02:04.200280+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31248284",
+          "size_bytes": 1749883211,
+          "source_bytes_read": 1749883211,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33674132",
+        "source_url": "https://sdilej.cz/33674132/nemocnice-chicago-med-s01e03-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31248284",
+        "display_name": "Chicago Med S01E03 Fallback 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T09:02:16.850269+00:00"
       }
     },
     "1089:1:4": {
@@ -833645,7 +833646,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T09:02:09.413878+00:00",
+  "updated_at": "2026-11-22T09:02:16.850288+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
