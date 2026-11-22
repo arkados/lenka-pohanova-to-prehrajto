@@ -837988,12 +837988,6 @@
     },
     "1089:5:7": {
       "episode_key": "nemocnice chicago med:s5:e7",
-      "claim": {
-        "worker_id": "875ea842fa5d4eb5b6a0a1fd15551deb-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:48:08.569916+00:00",
-        "lease_expires_at": "2026-11-22T16:48:08.569928+00:00"
-      },
       "source": {
         "source_id": "34812682",
         "source_url": "https://sdilej.cz/34812682/nemocnice-chicago-med-s05e07-090-2019-fhd-kdo-vi-co-prinese-zitrek-s-.mp4",
@@ -838018,22 +838012,29 @@
         "display_name": "Chicago Med S05E07 Who Knows What Tomorrow Brings 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:48:15.030847+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250277",
-        "size_bytes": 817613356
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250277",
-        "size_bytes": 817613356,
-        "source_bytes_read": 817613356,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250277",
         "source_bytes_read": 817613356,
         "elapsed_seconds": 63.602,
         "finished_at": "2026-11-22T10:49:43.762580+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250277",
+          "size_bytes": 817613356,
+          "source_bytes_read": 817613356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812682",
+        "source_url": "https://sdilej.cz/34812682/nemocnice-chicago-med-s05e07-090-2019-fhd-kdo-vi-co-prinese-zitrek-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250277",
+        "display_name": "Chicago Med S05E07 Who Knows What Tomorrow Brings 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:49:57.176896+00:00"
       }
     }
   },
@@ -838042,7 +838043,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:49:49.314258+00:00",
+  "updated_at": "2026-11-22T10:49:57.176911+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
