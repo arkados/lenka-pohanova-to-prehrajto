@@ -826593,28 +826593,29 @@
           "at": "2026-11-22T11:49:31.771112+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "be2c8e3dcfa94c99a4e491c2550bf271-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:49:37.899863+00:00",
-        "lease_expires_at": "2026-11-22T17:49:37.899873+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31251364",
-        "size_bytes": 380650900
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251364",
-        "size_bytes": 380650900,
-        "source_bytes_read": 380650900,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251364",
         "source_bytes_read": 380650900,
         "elapsed_seconds": 21.431,
         "finished_at": "2026-11-22T11:50:47.154182+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251364",
+          "size_bytes": 380650900,
+          "source_bytes_read": 380650900,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30572711",
+        "source_url": "https://sdilej.cz/30572711/stargate.universe.s01e15.720p.x265.10bit.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251364",
+        "display_name": "Stargate Universe S01E15 Lost 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:51:04.279552+00:00"
       }
     },
     "2161:1:16": {
@@ -840566,7 +840567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:50:58.008235+00:00",
+  "updated_at": "2026-11-22T11:51:04.279568+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
