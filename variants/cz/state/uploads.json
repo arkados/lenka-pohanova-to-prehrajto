@@ -809274,12 +809274,6 @@
     },
     "117:1:7": {
       "episode_key": "sandman:s1:e7",
-      "claim": {
-        "worker_id": "6c8add6cf1c245ea8a9c85dab4117b12-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:39:20.200791+00:00",
-        "lease_expires_at": "2026-11-22T06:39:20.200810+00:00"
-      },
       "source": {
         "source_id": "22410679",
         "source_url": "https://sdilej.cz/22410679/sandman-s01e07-cz-dabing.mkv",
@@ -809304,22 +809298,29 @@
         "display_name": "The Sandman S01E07 The Doll's House 1080p CZ Dabing",
         "prepared_at": "2026-11-22T00:39:32.119821+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239981",
-        "size_bytes": 595595780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239981",
-        "size_bytes": 595595780,
-        "source_bytes_read": 595595780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239981",
         "source_bytes_read": 595595780,
         "elapsed_seconds": 34.523,
         "finished_at": "2026-11-22T00:40:31.472800+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239981",
+          "size_bytes": 595595780,
+          "source_bytes_read": 595595780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22410679",
+        "source_url": "https://sdilej.cz/22410679/sandman-s01e07-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239981",
+        "display_name": "The Sandman S01E07 The Doll's House 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:40:44.139389+00:00"
       }
     }
   },
@@ -809328,7 +809329,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:40:38.735546+00:00",
+  "updated_at": "2026-11-22T00:40:44.139428+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
