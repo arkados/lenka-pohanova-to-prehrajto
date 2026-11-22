@@ -841578,12 +841578,6 @@
     },
     "1089:8:15": {
       "episode_key": "nemocnice chicago med:s8:e15",
-      "claim": {
-        "worker_id": "8b9da886e95f4f14a6234b966569a7db-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:18:20.752289+00:00",
-        "lease_expires_at": "2026-11-22T18:18:20.752304+00:00"
-      },
       "source": {
         "source_id": "30458717",
         "source_url": "https://sdilej.cz/30458717/nemocnice-chicago-med-s08e15.mp4",
@@ -841608,22 +841602,29 @@
         "display_name": "Chicago Med S08E15 Those Times You Have to Cross the Line 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:18:34.007080+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251854",
-        "size_bytes": 734562975
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251854",
-        "size_bytes": 734562975,
-        "source_bytes_read": 734562975,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251854",
         "source_bytes_read": 734562975,
         "elapsed_seconds": 48.565,
         "finished_at": "2026-11-22T12:19:56.135816+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251854",
+          "size_bytes": 734562975,
+          "source_bytes_read": 734562975,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458717",
+        "source_url": "https://sdilej.cz/30458717/nemocnice-chicago-med-s08e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251854",
+        "display_name": "Chicago Med S08E15 Those Times You Have to Cross the Line 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:20:18.870743+00:00"
       }
     }
   },
@@ -841632,7 +841633,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:20:13.733958+00:00",
+  "updated_at": "2026-11-22T12:20:18.870758+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
