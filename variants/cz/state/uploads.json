@@ -837111,12 +837111,6 @@
     },
     "1089:4:13": {
       "episode_key": "nemocnice chicago med:s4:e13",
-      "claim": {
-        "worker_id": "adeed5dc3a864ccd8553cff73d86d0b0-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:25:37.017632+00:00",
-        "lease_expires_at": "2026-11-22T16:25:37.017647+00:00"
-      },
       "source": {
         "source_id": "21340187",
         "source_url": "https://sdilej.cz/21340187/nemocnice.chicago.med.04x13.1080i.hevc.hdtv.cz.mkv",
@@ -837141,22 +837135,29 @@
         "display_name": "Chicago Med S04E13 Ghosts in the Attic 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:25:48.887846+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249835",
-        "size_bytes": 479405987
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249835",
-        "size_bytes": 479405987,
-        "source_bytes_read": 479405987,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249835",
         "source_bytes_read": 479405987,
         "elapsed_seconds": 32.356,
         "finished_at": "2026-11-22T10:26:51.255839+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249835",
+          "size_bytes": 479405987,
+          "source_bytes_read": 479405987,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21340187",
+        "source_url": "https://sdilej.cz/21340187/nemocnice.chicago.med.04x13.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249835",
+        "display_name": "Chicago Med S04E13 Ghosts in the Attic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:26:59.948906+00:00"
       }
     }
   },
@@ -837165,7 +837166,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:26:51.255856+00:00",
+  "updated_at": "2026-11-22T10:26:59.948924+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
