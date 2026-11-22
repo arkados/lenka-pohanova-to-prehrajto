@@ -817451,12 +817451,6 @@
     },
     "10477:1:1": {
       "episode_key": "neagleyová:s1:e1",
-      "claim": {
-        "worker_id": "a70fefc2592e4f57a9c2d9dd65946ddd-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:59:36.844708+00:00",
-        "lease_expires_at": "2026-11-22T08:59:36.844721+00:00"
-      },
       "source": {
         "source_id": "35046120",
         "source_url": "https://sdilej.cz/35046120/neagley-s01e01-cz-endab-2160p.mkv",
@@ -817481,22 +817475,29 @@
         "display_name": "Neagley S01E01 L Train 4K CZ Dabing",
         "prepared_at": "2026-11-22T02:59:54.519726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242299",
-        "size_bytes": 6587756250
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242299",
-        "size_bytes": 6587756250,
-        "source_bytes_read": 6587756250,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242299",
         "source_bytes_read": 6587756250,
         "elapsed_seconds": 480.403,
         "finished_at": "2026-11-22T03:08:20.503470+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242299",
+          "size_bytes": 6587756250,
+          "source_bytes_read": 6587756250,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35046120",
+        "source_url": "https://sdilej.cz/35046120/neagley-s01e01-cz-endab-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242299",
+        "display_name": "Neagley S01E01 L Train 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T03:08:27.599647+00:00"
       }
     },
     "10477:1:2": {
@@ -817630,7 +817631,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:08:20.503489+00:00",
+  "updated_at": "2026-11-22T03:08:27.599666+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
