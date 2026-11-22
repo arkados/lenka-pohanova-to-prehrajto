@@ -841109,12 +841109,6 @@
     },
     "1089:8:7": {
       "episode_key": "nemocnice chicago med:s8:e7",
-      "claim": {
-        "worker_id": "83790063622f4acbb7bd880a08c12938-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:10:59.507772+00:00",
-        "lease_expires_at": "2026-11-22T18:10:59.507783+00:00"
-      },
       "source": {
         "source_id": "30458703",
         "source_url": "https://sdilej.cz/30458703/nemocnice-chicago-med-s08e07.mp4",
@@ -841139,22 +841133,29 @@
         "display_name": "Chicago Med S08E07 The Clothes Make the Man… Or Do They? 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:11:19.867921+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251729",
-        "size_bytes": 668178724
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251729",
-        "size_bytes": 668178724,
-        "source_bytes_read": 668178724,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251729",
         "source_bytes_read": 668178724,
         "elapsed_seconds": 44.94,
         "finished_at": "2026-11-22T12:12:34.049368+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251729",
+          "size_bytes": 668178724,
+          "source_bytes_read": 668178724,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458703",
+        "source_url": "https://sdilej.cz/30458703/nemocnice-chicago-med-s08e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251729",
+        "display_name": "Chicago Med S08E07 The Clothes Make the Man… Or Do They? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:12:45.520897+00:00"
       }
     },
     "1089:8:8": {
@@ -841233,7 +841234,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:12:39.976351+00:00",
+  "updated_at": "2026-11-22T12:12:45.520911+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
