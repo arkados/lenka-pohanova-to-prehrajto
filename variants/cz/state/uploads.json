@@ -851556,12 +851556,6 @@
     },
     "1132:3:10": {
       "episode_key": "měsíční svit:s3:e10",
-      "claim": {
-        "worker_id": "426423334de74bb58a81bd01baaa7f48-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:28:49.233714+00:00",
-        "lease_expires_at": "2026-11-22T23:28:49.233723+00:00"
-      },
       "source": {
         "source_id": "34983076",
         "source_url": "https://sdilej.cz/34983076/mesicni-svit-s03e10-plivnici.mkv",
@@ -851586,22 +851580,29 @@
         "display_name": "Moonlighting S03E10 Poltergeist III—Dipesto Nothing SD CZ Dabing",
         "prepared_at": "2026-11-22T17:29:10.382032+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257418",
-        "size_bytes": 214742568
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257418",
-        "size_bytes": 214742568,
-        "source_bytes_read": 214742568,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257418",
         "source_bytes_read": 214742568,
         "elapsed_seconds": 13.428,
         "finished_at": "2026-11-22T17:29:57.732222+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257418",
+          "size_bytes": 214742568,
+          "source_bytes_read": 214742568,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983076",
+        "source_url": "https://sdilej.cz/34983076/mesicni-svit-s03e10-plivnici.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257418",
+        "display_name": "Moonlighting S03E10 Poltergeist III—Dipesto Nothing SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:30:13.804436+00:00"
       }
     },
     "1132:3:9": {
@@ -851698,7 +851699,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:30:08.669620+00:00",
+  "updated_at": "2026-11-22T17:30:13.804464+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
