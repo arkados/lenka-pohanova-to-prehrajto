@@ -817559,12 +817559,6 @@
     },
     "10477:1:4": {
       "episode_key": "neagleyová:s1:e4",
-      "claim": {
-        "worker_id": "495525dc5a81472e82861b808e620147-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:02:04.216849+00:00",
-        "lease_expires_at": "2026-11-22T09:02:04.216864+00:00"
-      },
       "source": {
         "source_id": "35046078",
         "source_url": "https://sdilej.cz/35046078/neagley-s01e04-cz-endab-2160p.mkv",
@@ -817589,22 +817583,29 @@
         "display_name": "Neagley S01E04 Breaking & Entering 4K CZ Dabing",
         "prepared_at": "2026-11-22T03:02:09.961197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242329",
-        "size_bytes": 5965334547
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242329",
-        "size_bytes": 5965334547,
-        "source_bytes_read": 5965334547,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242329",
         "source_bytes_read": 5965334547,
         "elapsed_seconds": 481.853,
         "finished_at": "2026-11-22T03:10:30.978371+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242329",
+          "size_bytes": 5965334547,
+          "source_bytes_read": 5965334547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35046078",
+        "source_url": "https://sdilej.cz/35046078/neagley-s01e04-cz-endab-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242329",
+        "display_name": "Neagley S01E04 Breaking & Entering 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T03:10:41.313075+00:00"
       }
     },
     "10477:1:5": {
@@ -817650,7 +817651,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:10:36.063584+00:00",
+  "updated_at": "2026-11-22T03:10:41.313092+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
