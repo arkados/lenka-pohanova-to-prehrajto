@@ -854677,12 +854677,12 @@
     },
     "2695:1:3": {
       "episode_key": "doktorka fosterová:s1:e3",
-      "claim": {
-        "worker_id": "0922aa886604499faa33078363df06a5-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:54:56.875975+00:00",
-        "lease_expires_at": "2026-11-23T04:54:56.875994+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-22T22:56:34.552259+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "2695:2:1": {
       "episode_key": "doktorka fosterová:s2:e1",
@@ -854699,7 +854699,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:56:27.509155+00:00",
+  "updated_at": "2026-11-22T22:56:34.552278+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
