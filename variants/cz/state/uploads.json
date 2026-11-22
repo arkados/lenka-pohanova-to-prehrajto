@@ -851795,12 +851795,12 @@
     },
     "1132:4:2": {
       "episode_key": "měsíční svit:s4:e2",
-      "claim": {
-        "worker_id": "ea183491d3e44b2ca79cbbf111fd0d69-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:49:08.058371+00:00",
-        "lease_expires_at": "2026-11-22T23:49:08.058381+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-22T17:50:59.541000+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1132:4:3": {
       "episode_key": "měsíční svit:s4:e3",
@@ -851817,7 +851817,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:50:54.730987+00:00",
+  "updated_at": "2026-11-22T17:50:59.541017+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
