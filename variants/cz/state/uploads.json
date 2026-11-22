@@ -836189,12 +836189,6 @@
     },
     "1089:3:14": {
       "episode_key": "nemocnice chicago med:s3:e14",
-      "claim": {
-        "worker_id": "06727fcca3f646a48e8e7f61c7389ddf-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:02:45.228067+00:00",
-        "lease_expires_at": "2026-11-22T16:02:45.228080+00:00"
-      },
       "source": {
         "source_id": "21134993",
         "source_url": "https://sdilej.cz/21134993/nemocnice.chicago.med.03x14.1080i.hevc.hdtv.cz.mkv",
@@ -836219,22 +836213,29 @@
         "display_name": "Chicago Med S03E14 Lock It Down 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:03:00.769623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249415",
-        "size_bytes": 484072624
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249415",
-        "size_bytes": 484072624,
-        "source_bytes_read": 484072624,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249415",
         "source_bytes_read": 484072624,
         "elapsed_seconds": 39.609,
         "finished_at": "2026-11-22T10:04:11.237427+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249415",
+          "size_bytes": 484072624,
+          "source_bytes_read": 484072624,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21134993",
+        "source_url": "https://sdilej.cz/21134993/nemocnice.chicago.med.03x14.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249415",
+        "display_name": "Chicago Med S03E14 Lock It Down 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:04:26.949116+00:00"
       }
     },
     "1089:3:15": {
@@ -836293,7 +836294,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:04:21.850331+00:00",
+  "updated_at": "2026-11-22T10:04:26.949132+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
