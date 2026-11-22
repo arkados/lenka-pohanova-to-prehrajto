@@ -851403,12 +851403,6 @@
     },
     "1132:3:6": {
       "episode_key": "měsíční svit:s3:e6",
-      "claim": {
-        "worker_id": "2d347b8aa68f4b028aa0711aa8886dc1-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:25:18.773598+00:00",
-        "lease_expires_at": "2026-11-22T23:25:18.773608+00:00"
-      },
       "source": {
         "source_id": "34983069",
         "source_url": "https://sdilej.cz/34983069/mesicni-svit-s03e06-byli-jsme-tak-mladi.mkv",
@@ -851433,22 +851427,29 @@
         "display_name": "Moonlighting S03E06 Big Man on Mulberry Street SD CZ Dabing",
         "prepared_at": "2026-11-22T17:25:33.279854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257368",
-        "size_bytes": 248468051
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257368",
-        "size_bytes": 248468051,
-        "source_bytes_read": 248468051,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257368",
         "source_bytes_read": 248468051,
         "elapsed_seconds": 21.712,
         "finished_at": "2026-11-22T17:26:25.305555+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257368",
+          "size_bytes": 248468051,
+          "source_bytes_read": 248468051,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983069",
+        "source_url": "https://sdilej.cz/34983069/mesicni-svit-s03e06-byli-jsme-tak-mladi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257368",
+        "display_name": "Moonlighting S03E06 Big Man on Mulberry Street SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:26:40.838660+00:00"
       }
     },
     "1132:3:7": {
@@ -851557,7 +851558,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:26:36.231153+00:00",
+  "updated_at": "2026-11-22T17:26:40.838674+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
