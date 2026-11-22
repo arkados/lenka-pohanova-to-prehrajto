@@ -844866,12 +844866,6 @@
     },
     "1142:3:12": {
       "episode_key": "dívka odjinud:s3:e12",
-      "claim": {
-        "worker_id": "634e11dff0374a64ae1842d2e8f3fa16-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:54:53.410674+00:00",
-        "lease_expires_at": "2026-11-22T19:54:53.410685+00:00"
-      },
       "source": {
         "source_id": "22265731",
         "source_url": "https://sdilej.cz/22265731/divka-odjinud-s03e12-czdab.avi",
@@ -844896,22 +844890,29 @@
         "display_name": "Lost Girl S03E12 Hail, Hale SD CZ Dabing",
         "prepared_at": "2026-11-22T13:55:08.781346+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253738",
-        "size_bytes": 482898650
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253738",
-        "size_bytes": 482898650,
-        "source_bytes_read": 482898650,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253738",
         "source_bytes_read": 482898650,
         "elapsed_seconds": 40.739,
         "finished_at": "2026-11-22T13:56:16.907180+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253738",
+          "size_bytes": 482898650,
+          "source_bytes_read": 482898650,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22265731",
+        "source_url": "https://sdilej.cz/22265731/divka-odjinud-s03e12-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253738",
+        "display_name": "Lost Girl S03E12 Hail, Hale SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:56:29.695298+00:00"
       }
     },
     "1142:3:13": {
@@ -845007,7 +845008,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:56:22.318433+00:00",
+  "updated_at": "2026-11-22T13:56:29.695313+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
