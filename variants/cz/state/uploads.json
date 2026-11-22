@@ -828514,12 +828514,6 @@
     },
     "1470:6:1": {
       "episode_key": "slečna scarletová a vévoda:s6:e1",
-      "claim": {
-        "worker_id": "918a1d3cae3f4a86b5d0e79cb8d5d55a-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:06:49.017103+00:00",
-        "lease_expires_at": "2026-11-22T13:06:49.017123+00:00"
-      },
       "source": {
         "source_id": "33672087",
         "source_url": "https://sdilej.cz/33672087/slecna.scarletova.a.vevoda.s06e01.mkv",
@@ -828544,22 +828538,29 @@
         "display_name": "Miss Scarlet S06E01 Secrets and Lies 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:06:54.551983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246494",
-        "size_bytes": 2190322877
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246494",
-        "size_bytes": 2190322877,
-        "source_bytes_read": 2190322877,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246494",
         "source_bytes_read": 2190322877,
         "elapsed_seconds": 200.786,
         "finished_at": "2026-11-22T07:10:53.179047+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246494",
+          "size_bytes": 2190322877,
+          "source_bytes_read": 2190322877,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33672087",
+        "source_url": "https://sdilej.cz/33672087/slecna.scarletova.a.vevoda.s06e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246494",
+        "display_name": "Miss Scarlet S06E01 Secrets and Lies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:11:09.555099+00:00"
       }
     },
     "1470:6:2": {
@@ -828703,7 +828704,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:11:04.144134+00:00",
+  "updated_at": "2026-11-22T07:11:09.555115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
