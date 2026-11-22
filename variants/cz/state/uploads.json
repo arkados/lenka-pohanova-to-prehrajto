@@ -851999,12 +851999,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "6f1481bb866d4808bb003ab278bd5974-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:08:29.986694+00:00",
-        "lease_expires_at": "2026-11-23T00:08:29.986704+00:00"
-      },
       "source": {
         "source_id": "34983101",
         "source_url": "https://sdilej.cz/34983101/mesicni-svit-s04e02-navrat-domu.mkv",
@@ -852029,22 +852023,29 @@
         "display_name": "Moonlighting S04E02 Come Back Little Shiksa SD CZ Dabing",
         "prepared_at": "2026-11-22T18:08:56.636214+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31258018",
-        "size_bytes": 261331659
-      },
-      "transfer_receipt": {
-        "target_video_id": "31258018",
-        "size_bytes": 261331659,
-        "source_bytes_read": 261331659,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31258018",
         "source_bytes_read": 261331659,
         "elapsed_seconds": 22.667,
         "finished_at": "2026-11-22T18:09:45.601778+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31258018",
+          "size_bytes": 261331659,
+          "source_bytes_read": 261331659,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983101",
+        "source_url": "https://sdilej.cz/34983101/mesicni-svit-s04e02-navrat-domu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31258018",
+        "display_name": "Moonlighting S04E02 Come Back Little Shiksa SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:10:01.116752+00:00"
       }
     },
     "1132:4:3": {
@@ -852062,7 +852063,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:09:56.076075+00:00",
+  "updated_at": "2026-11-22T18:10:01.116768+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
