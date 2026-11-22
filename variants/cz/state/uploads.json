@@ -821839,12 +821839,6 @@
     },
     "1094:2:9": {
       "episode_key": "skladiště 13:s2:e9",
-      "claim": {
-        "worker_id": "2da5f0d81d9c431d9e917f31f096593c-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:33:52.831245+00:00",
-        "lease_expires_at": "2026-11-22T10:33:52.831264+00:00"
-      },
       "source": {
         "source_id": "32452721",
         "source_url": "https://sdilej.cz/32452721/skladiste-13-s02e09-vendeta.mkv",
@@ -821869,22 +821863,29 @@
         "display_name": "Warehouse 13 S02E09 Vendetta 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:33:58.576294+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243987",
-        "size_bytes": 935707054
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243987",
-        "size_bytes": 935707054,
-        "source_bytes_read": 935707054,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243987",
         "source_bytes_read": 935707054,
         "elapsed_seconds": 58.498,
         "finished_at": "2026-11-22T04:35:23.254756+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243987",
+          "size_bytes": 935707054,
+          "source_bytes_read": 935707054,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32452721",
+        "source_url": "https://sdilej.cz/32452721/skladiste-13-s02e09-vendeta.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243987",
+        "display_name": "Warehouse 13 S02E09 Vendetta 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:35:35.193825+00:00"
       }
     },
     "1094:2:10": {
@@ -821967,7 +821968,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:35:29.060119+00:00",
+  "updated_at": "2026-11-22T04:35:35.193843+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
