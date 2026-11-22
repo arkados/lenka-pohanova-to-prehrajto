@@ -851454,12 +851454,6 @@
     },
     "1132:3:7": {
       "episode_key": "měsíční svit:s3:e7",
-      "claim": {
-        "worker_id": "fc2d1214e8f54dcc8621ed6e71391431-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:25:23.722860+00:00",
-        "lease_expires_at": "2026-11-22T23:25:23.722868+00:00"
-      },
       "source": {
         "source_id": "34983071",
         "source_url": "https://sdilej.cz/34983071/mesicni-svit-s03e07-zkroceni-zle-zeny-v-atomovem-veku.mkv",
@@ -851484,22 +851478,29 @@
         "display_name": "Moonlighting S03E07 Atomic Shakespeare SD CZ Dabing",
         "prepared_at": "2026-11-22T17:25:48.548363+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257370",
-        "size_bytes": 353506380
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257370",
-        "size_bytes": 353506380,
-        "source_bytes_read": 353506380,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257370",
         "source_bytes_read": 353506380,
         "elapsed_seconds": 15.223,
         "finished_at": "2026-11-22T17:26:36.231131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257370",
+          "size_bytes": 353506380,
+          "source_bytes_read": 353506380,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983071",
+        "source_url": "https://sdilej.cz/34983071/mesicni-svit-s03e07-zkroceni-zle-zeny-v-atomovem-veku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257370",
+        "display_name": "Moonlighting S03E07 Atomic Shakespeare SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:26:51.144597+00:00"
       }
     },
     "1132:3:8": {
@@ -851559,7 +851560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:26:45.882189+00:00",
+  "updated_at": "2026-11-22T17:26:51.144612+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
