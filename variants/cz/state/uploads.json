@@ -819845,12 +819845,6 @@
     },
     "1094:1:1": {
       "episode_key": "skladiště 13:s1:e1",
-      "claim": {
-        "worker_id": "ec3b4925e78a4465b28e291ae6803b46-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:53:55.700288+00:00",
-        "lease_expires_at": "2026-11-22T09:53:55.700301+00:00"
-      },
       "source": {
         "source_id": "25092919",
         "source_url": "https://sdilej.cz/25092919/skladiste-13-1x01-spona.mkv",
@@ -819875,22 +819869,29 @@
         "display_name": "Warehouse 13 S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:54:01.724373+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243272",
-        "size_bytes": 1763621187
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243272",
-        "size_bytes": 1763621187,
-        "source_bytes_read": 1763621187,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243272",
         "source_bytes_read": 1763621187,
         "elapsed_seconds": 105.182,
         "finished_at": "2026-11-22T03:56:17.701333+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243272",
+          "size_bytes": 1763621187,
+          "source_bytes_read": 1763621187,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25092919",
+        "source_url": "https://sdilej.cz/25092919/skladiste-13-1x01-spona.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243272",
+        "display_name": "Warehouse 13 S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:56:32.517229+00:00"
       }
     },
     "1094:1:2": {
@@ -819949,7 +819950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:56:27.528870+00:00",
+  "updated_at": "2026-11-22T03:56:32.517244+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
