@@ -825204,28 +825204,29 @@
           "at": "2026-11-22T10:44:19.270357+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "fad61c0d1568485298fe99f3c3b347a7-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:44:25.312394+00:00",
-        "lease_expires_at": "2026-11-22T16:44:25.312407+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31250215",
-        "size_bytes": 930470986
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250215",
-        "size_bytes": 930470986,
-        "source_bytes_read": 930470986,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250215",
         "source_bytes_read": 930470986,
         "elapsed_seconds": 69.826,
         "finished_at": "2026-11-22T10:46:13.791271+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250215",
+          "size_bytes": 930470986,
+          "source_bytes_read": 930470986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27616847",
+        "source_url": "https://sdilej.cz/27616847/hvezdna-brana-hluboky-vesmir-s01e06-voda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250215",
+        "display_name": "Stargate Universe S01E06 Water 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:46:30.151868+00:00"
       }
     },
     "2161:1:7": {
@@ -837851,7 +837852,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:46:24.193450+00:00",
+  "updated_at": "2026-11-22T10:46:30.151881+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
