@@ -827955,12 +827955,6 @@
     },
     "1470:4:1": {
       "episode_key": "slečna scarletová a vévoda:s4:e1",
-      "claim": {
-        "worker_id": "10e8e6a755204cf1906282b153cf4427-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:56:24.603040+00:00",
-        "lease_expires_at": "2026-11-22T12:56:24.603054+00:00"
-      },
       "source": {
         "source_id": "28426125",
         "source_url": "https://sdilej.cz/28426125/slecna-scarletova-a-vevoda-s04e01-cz-elysium.mkv",
@@ -827985,22 +827979,29 @@
         "display_name": "Miss Scarlet S04E01 Elysium 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:56:41.705236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246298",
-        "size_bytes": 1197629196
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246298",
-        "size_bytes": 1197629196,
-        "source_bytes_read": 1197629196,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246298",
         "source_bytes_read": 1197629196,
         "elapsed_seconds": 56.936,
         "finished_at": "2026-11-22T06:58:07.595847+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246298",
+          "size_bytes": 1197629196,
+          "source_bytes_read": 1197629196,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28426125",
+        "source_url": "https://sdilej.cz/28426125/slecna-scarletova-a-vevoda-s04e01-cz-elysium.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246298",
+        "display_name": "Miss Scarlet S04E01 Elysium 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:58:14.586112+00:00"
       }
     },
     "1470:4:3": {
@@ -828083,7 +828084,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:58:07.595868+00:00",
+  "updated_at": "2026-11-22T06:58:14.586130+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
