@@ -845430,12 +845430,6 @@
     },
     "1142:4:10": {
       "episode_key": "dívka odjinud:s4:e10",
-      "claim": {
-        "worker_id": "249e7af3f6ff4ea8adbbfb68c982d0a5-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:08:31.736774+00:00",
-        "lease_expires_at": "2026-11-22T20:08:31.736785+00:00"
-      },
       "source": {
         "source_id": "30884673",
         "source_url": "https://sdilej.cz/30884673/divka-odjinud-s04e10-vlny-lost-girl-480p-cz.avi",
@@ -845460,22 +845454,29 @@
         "display_name": "Lost Girl S04E10 Waves SD CZ Dabing",
         "prepared_at": "2026-11-22T14:08:38.711061+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253952",
-        "size_bytes": 424067640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253952",
-        "size_bytes": 424067640,
-        "source_bytes_read": 424067640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253952",
         "source_bytes_read": 424067640,
         "elapsed_seconds": 28.003,
         "finished_at": "2026-11-22T14:09:33.926522+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253952",
+          "size_bytes": 424067640,
+          "source_bytes_read": 424067640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884673",
+        "source_url": "https://sdilej.cz/30884673/divka-odjinud-s04e10-vlny-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253952",
+        "display_name": "Lost Girl S04E10 Waves SD CZ Dabing",
+        "uploaded_at": "2026-11-22T14:09:45.037071+00:00"
       }
     },
     "1142:4:11": {
@@ -845521,7 +845522,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:09:39.012105+00:00",
+  "updated_at": "2026-11-22T14:09:45.037088+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
