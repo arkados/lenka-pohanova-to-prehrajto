@@ -817712,12 +817712,6 @@
     },
     "10477:1:7": {
       "episode_key": "neagleyová:s1:e7",
-      "claim": {
-        "worker_id": "92d9e2fa6a374a1a9c8e3caa68ff4540-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:14:56.154376+00:00",
-        "lease_expires_at": "2026-11-22T09:14:56.154387+00:00"
-      },
       "source": {
         "source_id": "35046004",
         "source_url": "https://sdilej.cz/35046004/neagley-s01e07-cz-endab-2160p.mkv",
@@ -817742,22 +817736,29 @@
         "display_name": "Neagley S01E07 Lebron's No Jordan 4K CZ Dabing",
         "prepared_at": "2026-11-22T03:15:16.140596+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242649",
-        "size_bytes": 5178978627
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242649",
-        "size_bytes": 5178978627,
-        "source_bytes_read": 5178978627,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242649",
         "source_bytes_read": 5178978627,
         "elapsed_seconds": 412.031,
         "finished_at": "2026-11-22T03:22:33.219904+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242649",
+          "size_bytes": 5178978627,
+          "source_bytes_read": 5178978627,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35046004",
+        "source_url": "https://sdilej.cz/35046004/neagley-s01e07-cz-endab-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242649",
+        "display_name": "Neagley S01E07 Lebron's No Jordan 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T03:22:46.011467+00:00"
       }
     },
     "10477:1:8": {
@@ -817803,7 +817804,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:22:39.007984+00:00",
+  "updated_at": "2026-11-22T03:22:46.011485+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
