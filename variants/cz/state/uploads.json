@@ -808523,12 +808523,6 @@
     },
     "2085:4:1": {
       "episode_key": "pan selfridge:s4:e1",
-      "claim": {
-        "worker_id": "a7de7cbb32944c559269dc63f1474819-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:28:33.558902+00:00",
-        "lease_expires_at": "2026-11-22T06:28:33.558931+00:00"
-      },
       "source": {
         "source_id": "12343103",
         "source_url": "https://sdilej.cz/12343103/pan-selfridge-s04e01-2016-cz.avi",
@@ -808553,22 +808547,29 @@
         "display_name": "Mr Selfridge S04E01 SD CZ Dabing",
         "prepared_at": "2026-11-22T00:28:44.887289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239819",
-        "size_bytes": 439975958
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239819",
-        "size_bytes": 439975958,
-        "source_bytes_read": 439975958,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239819",
         "source_bytes_read": 439975958,
         "elapsed_seconds": 24.942,
         "finished_at": "2026-11-22T00:29:30.692397+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239819",
+          "size_bytes": 439975958,
+          "source_bytes_read": 439975958,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12343103",
+        "source_url": "https://sdilej.cz/12343103/pan-selfridge-s04e01-2016-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239819",
+        "display_name": "Mr Selfridge S04E01 SD CZ Dabing",
+        "uploaded_at": "2026-11-22T00:29:38.450135+00:00"
       }
     }
   },
@@ -808577,7 +808578,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:29:30.692417+00:00",
+  "updated_at": "2026-11-22T00:29:38.450154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
