@@ -825293,12 +825293,6 @@
     },
     "991:1:2": {
       "episode_key": "had:s1:e2",
-      "claim": {
-        "worker_id": "a71c143856cd41f281efbcb7f23f3ef8-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T05:52:19.857247+00:00",
-        "lease_expires_at": "2026-11-22T11:52:19.857264+00:00"
-      },
       "source": {
         "source_id": "30692380",
         "source_url": "https://sdilej.cz/30692380/had-s01e02-cz.mkv",
@@ -825323,22 +825317,29 @@
         "display_name": "The Serpent S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-22T05:52:31.171158+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245297",
-        "size_bytes": 1323296895
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245297",
-        "size_bytes": 1323296895,
-        "source_bytes_read": 1323296895,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245297",
         "source_bytes_read": 1323296895,
         "elapsed_seconds": 59.336,
         "finished_at": "2026-11-22T05:54:01.229342+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245297",
+          "size_bytes": 1323296895,
+          "source_bytes_read": 1323296895,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30692380",
+        "source_url": "https://sdilej.cz/30692380/had-s01e02-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245297",
+        "display_name": "The Serpent S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:54:08.277508+00:00"
       }
     },
     "991:1:3": {
@@ -825384,7 +825385,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:54:01.229363+00:00",
+  "updated_at": "2026-11-22T05:54:08.277528+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
