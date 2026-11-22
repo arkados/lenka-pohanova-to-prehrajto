@@ -853128,12 +853128,6 @@
     },
     "1132:5:8": {
       "episode_key": "měsíční svit:s5:e8",
-      "claim": {
-        "worker_id": "0caedb6995844b50a586efa8af1fc6aa-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:06:00.436403+00:00",
-        "lease_expires_at": "2026-11-23T03:06:00.436426+00:00"
-      },
       "source": {
         "source_id": "34983144",
         "source_url": "https://sdilej.cz/34983144/mesicni-svit-s05e08-prolhane-rty.mkv",
@@ -853158,22 +853152,29 @@
         "display_name": "Moonlighting S05E08 Those Lips, Those Lies SD CZ Dabing",
         "prepared_at": "2026-11-22T21:06:23.296129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261021",
-        "size_bytes": 288908876
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261021",
-        "size_bytes": 288908876,
-        "source_bytes_read": 288908876,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261021",
         "source_bytes_read": 288908876,
         "elapsed_seconds": 34.32,
         "finished_at": "2026-11-22T21:07:34.903113+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261021",
+          "size_bytes": 288908876,
+          "source_bytes_read": 288908876,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983144",
+        "source_url": "https://sdilej.cz/34983144/mesicni-svit-s05e08-prolhane-rty.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261021",
+        "display_name": "Moonlighting S05E08 Those Lips, Those Lies SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:07:53.145856+00:00"
       }
     }
   },
@@ -853182,7 +853183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:07:46.930914+00:00",
+  "updated_at": "2026-11-22T21:07:53.145876+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
