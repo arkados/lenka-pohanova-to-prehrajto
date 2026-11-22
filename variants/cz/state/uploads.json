@@ -838929,12 +838929,6 @@
     },
     "1089:6:4": {
       "episode_key": "nemocnice chicago med:s6:e4",
-      "claim": {
-        "worker_id": "4fd8f62a3e5d482f8f2953081bc5efc3-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:11:36.895189+00:00",
-        "lease_expires_at": "2026-11-22T17:11:36.895204+00:00"
-      },
       "source": {
         "source_id": "21713268",
         "source_url": "https://sdilej.cz/21713268/chicago.med.s06e04.1080p.10bit.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -838959,22 +838953,29 @@
         "display_name": "Chicago Med S06E04 In Search of Forgiveness, Not Permission 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:11:44.611893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250700",
-        "size_bytes": 1303634267
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250700",
-        "size_bytes": 1303634267,
-        "source_bytes_read": 1303634267,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250700",
         "source_bytes_read": 1303634267,
         "elapsed_seconds": 108.263,
         "finished_at": "2026-11-22T11:14:20.544558+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250700",
+          "size_bytes": 1303634267,
+          "source_bytes_read": 1303634267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21713268",
+        "source_url": "https://sdilej.cz/21713268/chicago.med.s06e04.1080p.10bit.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250700",
+        "display_name": "Chicago Med S06E04 In Search of Forgiveness, Not Permission 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:14:33.689179+00:00"
       }
     },
     "1089:6:5": {
@@ -839070,7 +839071,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:14:26.975353+00:00",
+  "updated_at": "2026-11-22T11:14:33.689194+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
