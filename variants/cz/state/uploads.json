@@ -817488,12 +817488,6 @@
     },
     "10477:1:2": {
       "episode_key": "neagleyová:s1:e2",
-      "claim": {
-        "worker_id": "6ab35f86645c422fa5ea88dd6303ebd1-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:00:20.114991+00:00",
-        "lease_expires_at": "2026-11-22T09:00:20.115008+00:00"
-      },
       "source": {
         "source_id": "35054515",
         "source_url": "https://sdilej.cz/35054515/neagley-s01e02-cz-endab-2160p.mkv",
@@ -817518,22 +817512,29 @@
         "display_name": "Neagley S01E02 Team Building Exercises 4K CZ Dabing",
         "prepared_at": "2026-11-22T03:00:26.407913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242301",
-        "size_bytes": 5387696670
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242301",
-        "size_bytes": 5387696670,
-        "source_bytes_read": 5387696670,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242301",
         "source_bytes_read": 5387696670,
         "elapsed_seconds": 390.001,
         "finished_at": "2026-11-22T03:07:16.690326+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242301",
+          "size_bytes": 5387696670,
+          "source_bytes_read": 5387696670,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35054515",
+        "source_url": "https://sdilej.cz/35054515/neagley-s01e02-cz-endab-2160p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242301",
+        "display_name": "Neagley S01E02 Team Building Exercises 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T03:07:23.977308+00:00"
       }
     },
     "10477:1:4": {
@@ -817579,7 +817580,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:07:16.690346+00:00",
+  "updated_at": "2026-11-22T03:07:23.977326+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
