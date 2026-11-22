@@ -829436,12 +829436,6 @@
     },
     "2161:2:10": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e10",
-      "claim": {
-        "worker_id": "4c23e1218552495db19407f69fc368f1-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:32:45.323552+00:00",
-        "lease_expires_at": "2026-11-22T13:32:45.323568+00:00"
-      },
       "source": {
         "source_id": "34208993",
         "source_url": "https://sdilej.cz/34208993/stargate-universe-s02e10-cz-dabing.mkv",
@@ -829465,7 +829459,17 @@
         },
         "display_name": "Stargate Universe S02E10 Resurgence (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:33:03.461171+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34208993:https://sdilej.cz/34208993/stargate-universe-s02e10-cz-dabing.mkv",
+        "at": "2026-11-22T07:33:22.064772+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T07:33:22.064817+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2161:2:12": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e12",
@@ -829482,7 +829486,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:33:16.503766+00:00",
+  "updated_at": "2026-11-22T07:33:22.064822+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -830149,16 +830153,8 @@
     "2161": {
       "recent_failures": [
         {
-          "identity": "2161:1:17",
-          "at": "2026-11-22T07:19:56.405659+00:00"
-        },
-        {
-          "identity": "2161:2:5",
-          "at": "2026-11-22T07:20:29.417451+00:00"
-        },
-        {
-          "identity": "2161:2:8",
-          "at": "2026-11-22T07:20:59.124208+00:00"
+          "identity": "2161:2:10",
+          "at": "2026-11-22T07:33:22.064772+00:00"
         }
       ],
       "retry_after": "2026-11-22T07:30:59.124208+00:00"
