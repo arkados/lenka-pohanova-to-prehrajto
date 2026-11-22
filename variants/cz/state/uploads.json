@@ -829391,12 +829391,6 @@
     },
     "1033:1:8": {
       "episode_key": "stařík v utajení:s1:e8",
-      "claim": {
-        "worker_id": "b13cb4e767d2471c9091708ec05d4eff-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:29:54.012838+00:00",
-        "lease_expires_at": "2026-11-22T13:29:54.012856+00:00"
-      },
       "source": {
         "source_id": "30108881",
         "source_url": "https://sdilej.cz/30108881/starik-v-utajeni-s01e08-spion-ktery-prisel-z-chladu.mkv",
@@ -829421,22 +829415,29 @@
         "display_name": "A Man on the Inside S01E08 The Spy Who Came In from the Cold 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:30:04.811899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246863",
-        "size_bytes": 1300973532
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246863",
-        "size_bytes": 1300973532,
-        "source_bytes_read": 1300973532,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246863",
         "source_bytes_read": 1300973532,
         "elapsed_seconds": 73.043,
         "finished_at": "2026-11-22T07:31:45.374695+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246863",
+          "size_bytes": 1300973532,
+          "source_bytes_read": 1300973532,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30108881",
+        "source_url": "https://sdilej.cz/30108881/starik-v-utajeni-s01e08-spion-ktery-prisel-z-chladu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246863",
+        "display_name": "A Man on the Inside S01E08 The Spy Who Came In from the Cold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:31:55.856720+00:00"
       }
     }
   },
@@ -829445,7 +829446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:31:50.401839+00:00",
+  "updated_at": "2026-11-22T07:31:55.856739+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
