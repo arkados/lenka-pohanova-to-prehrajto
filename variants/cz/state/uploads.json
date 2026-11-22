@@ -828169,12 +828169,6 @@
     },
     "1470:5:2": {
       "episode_key": "slečna scarletová a vévoda:s5:e2",
-      "claim": {
-        "worker_id": "e85ac1f4beec4d24a3d37ccee3c19606-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:59:25.057256+00:00",
-        "lease_expires_at": "2026-11-22T12:59:25.057270+00:00"
-      },
       "source": {
         "source_id": "31101756",
         "source_url": "https://sdilej.cz/31101756/slecna-scarletova-a-vevoda-s05e02-cz-spolecenstvo.mkv",
@@ -828199,22 +828193,29 @@
         "display_name": "Miss Scarlet S05E02 The Guild 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:59:36.266294+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246345",
-        "size_bytes": 1156066272
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246345",
-        "size_bytes": 1156066272,
-        "source_bytes_read": 1156066272,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246345",
         "source_bytes_read": 1156066272,
         "elapsed_seconds": 57.057,
         "finished_at": "2026-11-22T07:01:09.635496+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246345",
+          "size_bytes": 1156066272,
+          "source_bytes_read": 1156066272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31101756",
+        "source_url": "https://sdilej.cz/31101756/slecna-scarletova-a-vevoda-s05e02-cz-spolecenstvo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246345",
+        "display_name": "Miss Scarlet S05E02 The Guild 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:01:29.069563+00:00"
       }
     }
   },
@@ -828223,7 +828224,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:01:20.876583+00:00",
+  "updated_at": "2026-11-22T07:01:29.069584+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
