@@ -839847,12 +839847,6 @@
     },
     "1089:7:6": {
       "episode_key": "nemocnice chicago med:s7:e6",
-      "claim": {
-        "worker_id": "0d2ad87158834dfe87f0346fd7ab8e0d-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:39:23.290208+00:00",
-        "lease_expires_at": "2026-11-22T17:39:23.290221+00:00"
-      },
       "source": {
         "source_id": "34812811",
         "source_url": "https://sdilej.cz/34812811/nemocnice-chicago-med-s07e06-125-2021-fhd-zazite-vzorce-s-.mp4",
@@ -839877,22 +839871,29 @@
         "display_name": "Chicago Med S07E06 When You're a Hammer Everything's a Nail 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:39:29.285481+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251174",
-        "size_bytes": 823901345
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251174",
-        "size_bytes": 823901345,
-        "source_bytes_read": 823901345,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251174",
         "source_bytes_read": 823901345,
         "elapsed_seconds": 77.003,
         "finished_at": "2026-11-22T11:41:27.810574+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251174",
+          "size_bytes": 823901345,
+          "source_bytes_read": 823901345,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812811",
+        "source_url": "https://sdilej.cz/34812811/nemocnice-chicago-med-s07e06-125-2021-fhd-zazite-vzorce-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251174",
+        "display_name": "Chicago Med S07E06 When You're a Hammer Everything's a Nail 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:41:40.939952+00:00"
       }
     },
     "1089:7:7": {
@@ -839989,7 +839990,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:41:35.422859+00:00",
+  "updated_at": "2026-11-22T11:41:40.939965+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
