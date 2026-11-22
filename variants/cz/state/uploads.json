@@ -853428,12 +853428,6 @@
     },
     "6009:1:1": {
       "episode_key": "mildred pierceová:s1:e1",
-      "claim": {
-        "worker_id": "7e5745d273434f57a0165430bdad8e6a-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:22:25.123491+00:00",
-        "lease_expires_at": "2026-11-23T03:22:25.123506+00:00"
-      },
       "source": {
         "source_id": "28247803",
         "source_url": "https://sdilej.cz/28247803/mildred-pierceova-s01e01-dil-1.mkv",
@@ -853458,22 +853452,29 @@
         "display_name": "Mildred Pierce S01E01 Part 1 720p CZ Dabing",
         "prepared_at": "2026-11-22T21:22:37.102210+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261354",
-        "size_bytes": 1791650596
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261354",
-        "size_bytes": 1791650596,
-        "source_bytes_read": 1791650596,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261354",
         "source_bytes_read": 1791650596,
         "elapsed_seconds": 115.792,
         "finished_at": "2026-11-22T21:25:03.014152+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261354",
+          "size_bytes": 1791650596,
+          "source_bytes_read": 1791650596,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28247803",
+        "source_url": "https://sdilej.cz/28247803/mildred-pierceova-s01e01-dil-1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261354",
+        "display_name": "Mildred Pierce S01E01 Part 1 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T21:25:11.113524+00:00"
       }
     },
     "6009:1:2": {
@@ -853556,7 +853557,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:25:03.014173+00:00",
+  "updated_at": "2026-11-22T21:25:11.113542+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
