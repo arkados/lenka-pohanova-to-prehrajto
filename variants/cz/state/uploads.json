@@ -822461,12 +822461,6 @@
     },
     "1094:3:7": {
       "episode_key": "skladiště 13:s3:e7",
-      "claim": {
-        "worker_id": "45606a400ba34130a05d3f2db4373942-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:44:12.282721+00:00",
-        "lease_expires_at": "2026-11-22T10:44:12.282739+00:00"
-      },
       "source": {
         "source_id": "32457349",
         "source_url": "https://sdilej.cz/32457349/skladiste-13-s03e07-cas-minuly.mkv",
@@ -822491,22 +822485,29 @@
         "display_name": "Warehouse 13 S03E07 Past Imperfect 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:44:23.392683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244149",
-        "size_bytes": 918096276
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244149",
-        "size_bytes": 918096276,
-        "source_bytes_read": 918096276,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244149",
         "source_bytes_read": 918096276,
         "elapsed_seconds": 125.214,
         "finished_at": "2026-11-22T04:46:52.399451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244149",
+          "size_bytes": 918096276,
+          "source_bytes_read": 918096276,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32457349",
+        "source_url": "https://sdilej.cz/32457349/skladiste-13-s03e07-cas-minuly.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244149",
+        "display_name": "Warehouse 13 S03E07 Past Imperfect 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:47:08.823021+00:00"
       }
     },
     "1094:3:8": {
@@ -822552,7 +822553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:47:01.085958+00:00",
+  "updated_at": "2026-11-22T04:47:08.823040+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
