@@ -829679,12 +829679,6 @@
     },
     "1033:2:1": {
       "episode_key": "stařík v utajení:s2:e1",
-      "claim": {
-        "worker_id": "13d0a6b3184e488e85e96157aedaaa65-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:37:03.017782+00:00",
-        "lease_expires_at": "2026-11-22T13:37:03.017800+00:00"
-      },
       "source": {
         "source_id": "32459456",
         "source_url": "https://sdilej.cz/32459456/starik-v-utajeni-s02e01-orientacni-tyden-2025-komedie-krimi-czdab.mkv",
@@ -829709,22 +829703,29 @@
         "display_name": "A Man on the Inside S02E01 Orientation 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:37:09.409700+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246958",
-        "size_bytes": 711449803
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246958",
-        "size_bytes": 711449803,
-        "source_bytes_read": 711449803,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246958",
         "source_bytes_read": 711449803,
         "elapsed_seconds": 68.892,
         "finished_at": "2026-11-22T07:38:40.911860+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246958",
+          "size_bytes": 711449803,
+          "source_bytes_read": 711449803,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32459456",
+        "source_url": "https://sdilej.cz/32459456/starik-v-utajeni-s02e01-orientacni-tyden-2025-komedie-krimi-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246958",
+        "display_name": "A Man on the Inside S02E01 Orientation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:38:52.574347+00:00"
       }
     }
   },
@@ -829733,7 +829734,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:38:47.710782+00:00",
+  "updated_at": "2026-11-22T07:38:52.574362+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
