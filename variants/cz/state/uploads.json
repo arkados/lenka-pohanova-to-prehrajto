@@ -806942,12 +806942,6 @@
     },
     "1198:11:18": {
       "episode_key": "chirurgové:s11:e18",
-      "claim": {
-        "worker_id": "3050576ee0cb400cb4350c8930076df3-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-21T23:59:27.137517+00:00",
-        "lease_expires_at": "2026-11-22T05:59:27.137535+00:00"
-      },
       "source": {
         "source_id": "27698713",
         "source_url": "https://sdilej.cz/27698713/chirurgove-s11e18-cz.mkv",
@@ -806972,22 +806966,29 @@
         "display_name": "Grey's Anatomy S11E18 When I Grow Up 1080p CZ Dabing",
         "prepared_at": "2026-11-21T23:59:32.946020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239398",
-        "size_bytes": 537061890
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239398",
-        "size_bytes": 537061890,
-        "source_bytes_read": 537061890,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239398",
         "source_bytes_read": 537061890,
         "elapsed_seconds": 32.628,
         "finished_at": "2026-11-22T00:00:28.999127+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239398",
+          "size_bytes": 537061890,
+          "source_bytes_read": 537061890,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27698713",
+        "source_url": "https://sdilej.cz/27698713/chirurgove-s11e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239398",
+        "display_name": "Grey's Anatomy S11E18 When I Grow Up 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:00:44.584063+00:00"
       }
     },
     "1198:11:19": {
@@ -807038,7 +807039,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:00:39.428238+00:00",
+  "updated_at": "2026-11-22T00:00:44.584082+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
