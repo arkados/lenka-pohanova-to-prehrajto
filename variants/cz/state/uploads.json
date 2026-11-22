@@ -844560,12 +844560,6 @@
     },
     "1142:3:6": {
       "episode_key": "dívka odjinud:s3:e6",
-      "claim": {
-        "worker_id": "679c001173b04178b0b0e518b58ce381-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:50:34.371677+00:00",
-        "lease_expires_at": "2026-11-22T19:50:34.371690+00:00"
-      },
       "source": {
         "source_id": "30884620",
         "source_url": "https://sdilej.cz/30884620/divka-odjinud-s03e06-neco-na-te-kenzi-je-lost-girl-480p-cz.avi",
@@ -844590,22 +844584,29 @@
         "display_name": "Lost Girl S03E06 The Kenzi Scale SD CZ Dabing",
         "prepared_at": "2026-11-22T13:50:56.364399+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253679",
-        "size_bytes": 426125136
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253679",
-        "size_bytes": 426125136,
-        "source_bytes_read": 426125136,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253679",
         "source_bytes_read": 426125136,
         "elapsed_seconds": 31.702,
         "finished_at": "2026-11-22T13:52:00.850820+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253679",
+          "size_bytes": 426125136,
+          "source_bytes_read": 426125136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884620",
+        "source_url": "https://sdilej.cz/30884620/divka-odjinud-s03e06-neco-na-te-kenzi-je-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253679",
+        "display_name": "Lost Girl S03E06 The Kenzi Scale SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:52:07.835343+00:00"
       }
     },
     "1142:3:7": {
@@ -844688,7 +844689,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:52:00.850842+00:00",
+  "updated_at": "2026-11-22T13:52:07.835358+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
