@@ -829239,16 +829239,6 @@
           "at": "2026-11-22T11:57:40.884259+00:00"
         }
       ],
-      "prepared_target": {
-        "target_video_id": "31251499",
-        "size_bytes": 423713402
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251499",
-        "size_bytes": 423713402,
-        "source_bytes_read": 423713402,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251499",
         "source_bytes_read": 423713402,
@@ -829256,11 +829246,22 @@
         "finished_at": "2026-11-22T11:58:57.723500+00:00",
         "environment": "github_actions"
       },
-      "claim": {
-        "worker_id": "da8eaf192f784785a52698f5e3477160-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:16:06.611393+00:00",
-        "lease_expires_at": "2026-11-22T18:16:06.611405+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251499",
+          "size_bytes": 423713402,
+          "source_bytes_read": 423713402,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33401303",
+        "source_url": "https://sdilej.cz/33401303/stargate-universe-s02e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251499",
+        "display_name": "Stargate Universe S02E08 Malice 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:16:22.533814+00:00"
       }
     },
     "2161:2:9": {
@@ -841416,7 +841417,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:16:17.345369+00:00",
+  "updated_at": "2026-11-22T12:16:22.533829+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
