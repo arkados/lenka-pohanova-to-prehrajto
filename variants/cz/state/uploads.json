@@ -856012,12 +856012,6 @@
     },
     "403:1:1": {
       "episode_key": "rána bleskem:s1:e1",
-      "claim": {
-        "worker_id": "447328deeed94e7e8c9e4f5703200f53-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:49:24.518469+00:00",
-        "lease_expires_at": "2026-11-23T05:49:24.518478+00:00"
-      },
       "source": {
         "source_id": "32329795",
         "source_url": "https://sdilej.cz/32329795/rana-bleskem-s01e01-cz-dab-av1.mkv",
@@ -856042,22 +856036,29 @@
         "display_name": "Death by Lightning S01E01 The Man from Ohio 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:49:41.000100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265059",
-        "size_bytes": 470538993
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265059",
-        "size_bytes": 470538993,
-        "source_bytes_read": 470538993,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265059",
         "source_bytes_read": 470538993,
         "elapsed_seconds": 21.593,
         "finished_at": "2026-11-22T23:50:34.336518+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265059",
+          "size_bytes": 470538993,
+          "source_bytes_read": 470538993,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32329795",
+        "source_url": "https://sdilej.cz/32329795/rana-bleskem-s01e01-cz-dab-av1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265059",
+        "display_name": "Death by Lightning S01E01 The Man from Ohio 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:50:47.765392+00:00"
       }
     }
   },
@@ -856066,7 +856067,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:50:41.075850+00:00",
+  "updated_at": "2026-11-22T23:50:47.765409+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
