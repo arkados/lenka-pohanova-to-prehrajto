@@ -856379,12 +856379,6 @@
     },
     "3644:1:1": {
       "episode_key": "strašidelný hotel:s1:e1",
-      "claim": {
-        "worker_id": "b7137d030e984fe9bb879326e21da214-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:58:16.928688+00:00",
-        "lease_expires_at": "2026-11-23T05:58:16.928703+00:00"
-      },
       "source": {
         "source_id": "31867681",
         "source_url": "https://sdilej.cz/31867681/strasidelny-hotel-s01e01-cz-dab-2025-1080p-by-pefto.mkv",
@@ -856408,7 +856402,17 @@
         },
         "display_name": "Haunted Hotel S01E01 Welcome to the Undervale 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:58:28.940539+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "31867681:https://sdilej.cz/31867681/strasidelny-hotel-s01e01-cz-dab-2025-1080p-by-pefto.mkv",
+        "at": "2026-11-22T23:58:44.220524+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T23:58:44.220552+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -856416,7 +856420,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:58:34.343691+00:00",
+  "updated_at": "2026-11-22T23:58:44.220559+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -857130,6 +857134,14 @@
         {
           "identity": "1661:1:3",
           "at": "2026-11-22T23:57:54.731222+00:00"
+        }
+      ]
+    },
+    "3644": {
+      "recent_failures": [
+        {
+          "identity": "3644:1:1",
+          "at": "2026-11-22T23:58:44.220524+00:00"
         }
       ]
     }
