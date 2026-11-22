@@ -819326,12 +819326,6 @@
     },
     "1595:1:3": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e3",
-      "claim": {
-        "worker_id": "08b791ad25294e358874828e714701df-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:47:47.589754+00:00",
-        "lease_expires_at": "2026-11-22T09:47:47.589768+00:00"
-      },
       "source": {
         "source_id": "22591412",
         "source_url": "https://sdilej.cz/22591412/flashforward.2009.s01e03.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
@@ -819356,22 +819350,29 @@
         "display_name": "FlashForward S01E03 137 Sekunden 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:48:01.744959+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243163",
-        "size_bytes": 698753159
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243163",
-        "size_bytes": 698753159,
-        "source_bytes_read": 698753159,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243163",
         "source_bytes_read": 698753159,
         "elapsed_seconds": 70.055,
         "finished_at": "2026-11-22T03:49:34.970969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243163",
+          "size_bytes": 698753159,
+          "source_bytes_read": 698753159,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22591412",
+        "source_url": "https://sdilej.cz/22591412/flashforward.2009.s01e03.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243163",
+        "display_name": "FlashForward S01E03 137 Sekunden 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:49:47.218918+00:00"
       }
     },
     "1595:1:4": {
@@ -819468,7 +819469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:49:39.974970+00:00",
+  "updated_at": "2026-11-22T03:49:47.218936+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
