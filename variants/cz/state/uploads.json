@@ -845526,12 +845526,6 @@
     },
     "1142:4:12": {
       "episode_key": "dívka odjinud:s4:e12",
-      "claim": {
-        "worker_id": "57196425164046fa9e06f3b125610209-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:10:10.855845+00:00",
-        "lease_expires_at": "2026-11-22T20:10:10.855856+00:00"
-      },
       "source": {
         "source_id": "30884681",
         "source_url": "https://sdilej.cz/30884681/divka-odjinud-s04e12-pocatek-lost-girl-480p-cz.avi",
@@ -845556,22 +845550,29 @@
         "display_name": "Lost Girl S04E12 Origin SD CZ Dabing",
         "prepared_at": "2026-11-22T14:10:27.317574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253983",
-        "size_bytes": 381771282
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253983",
-        "size_bytes": 381771282,
-        "source_bytes_read": 381771282,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253983",
         "source_bytes_read": 381771282,
         "elapsed_seconds": 23.686,
         "finished_at": "2026-11-22T14:11:33.825475+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253983",
+          "size_bytes": 381771282,
+          "source_bytes_read": 381771282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884681",
+        "source_url": "https://sdilej.cz/30884681/divka-odjinud-s04e12-pocatek-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253983",
+        "display_name": "Lost Girl S04E12 Origin SD CZ Dabing",
+        "uploaded_at": "2026-11-22T14:11:41.469320+00:00"
       }
     },
     "1142:4:13": {
@@ -845617,7 +845618,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:11:33.825497+00:00",
+  "updated_at": "2026-11-22T14:11:41.469339+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
