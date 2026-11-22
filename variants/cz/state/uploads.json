@@ -815446,12 +815446,6 @@
     },
     "1204:2:22": {
       "episode_key": "o.c.:s2:e22",
-      "claim": {
-        "worker_id": "4bc0c754c0334525b507f53d4b655d6a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:32:50.939856+00:00",
-        "lease_expires_at": "2026-11-22T08:32:50.939876+00:00"
-      },
       "source": {
         "source_id": "34193454",
         "source_url": "https://sdilej.cz/34193454/o.c.-s02e22-the-showdown-cz-dab.avi",
@@ -815476,22 +815470,29 @@
         "display_name": "The O.C. S02E22 The Showdown SD CZ Dabing",
         "prepared_at": "2026-11-22T02:33:01.320841+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241866",
-        "size_bytes": 377133056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241866",
-        "size_bytes": 377133056,
-        "source_bytes_read": 377133056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241866",
         "source_bytes_read": 377133056,
         "elapsed_seconds": 19.689,
         "finished_at": "2026-11-22T02:33:48.628930+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241866",
+          "size_bytes": 377133056,
+          "source_bytes_read": 377133056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193454",
+        "source_url": "https://sdilej.cz/34193454/o.c.-s02e22-the-showdown-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241866",
+        "display_name": "The O.C. S02E22 The Showdown SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:33:55.384341+00:00"
       }
     }
   },
@@ -815500,7 +815501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:33:48.628954+00:00",
+  "updated_at": "2026-11-22T02:33:55.384359+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
