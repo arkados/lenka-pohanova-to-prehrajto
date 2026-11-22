@@ -851242,12 +851242,6 @@
     },
     "1132:3:5": {
       "episode_key": "měsíční svit:s3:e5",
-      "claim": {
-        "worker_id": "18cc5900454947c8af4a6011ad5a36f4-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:17:07.684646+00:00",
-        "lease_expires_at": "2026-11-22T23:17:07.684657+00:00"
-      },
       "source": {
         "source_id": "34983068",
         "source_url": "https://sdilej.cz/34983068/mesicni-svit-s03e05-vsichni-jsme-hrisnici.mkv",
@@ -851272,22 +851266,29 @@
         "display_name": "Moonlighting S03E05 All Creatures Great and … Not So Great SD CZ Dabing",
         "prepared_at": "2026-11-22T17:17:19.097039+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257250",
-        "size_bytes": 277182652
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257250",
-        "size_bytes": 277182652,
-        "source_bytes_read": 277182652,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257250",
         "source_bytes_read": 277182652,
         "elapsed_seconds": 13.176,
         "finished_at": "2026-11-22T17:18:03.632101+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257250",
+          "size_bytes": 277182652,
+          "source_bytes_read": 277182652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983068",
+        "source_url": "https://sdilej.cz/34983068/mesicni-svit-s03e05-vsichni-jsme-hrisnici.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257250",
+        "display_name": "Moonlighting S03E05 All Creatures Great and … Not So Great SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:18:16.258988+00:00"
       }
     }
   },
@@ -851296,7 +851297,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:18:09.938253+00:00",
+  "updated_at": "2026-11-22T17:18:16.259003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
