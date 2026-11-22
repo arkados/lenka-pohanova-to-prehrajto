@@ -851055,12 +851055,6 @@
     },
     "1132:3:2": {
       "episode_key": "měsíční svit:s3:e2",
-      "claim": {
-        "worker_id": "14bc6688f13d4c4fa57064cd78ab1f7f-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:15:25.650548+00:00",
-        "lease_expires_at": "2026-11-22T23:15:25.650559+00:00"
-      },
       "source": {
         "source_id": "34983060",
         "source_url": "https://sdilej.cz/34983060/mesicni-svit-s03e02-hlas-ze-zahrobi.mkv",
@@ -851085,22 +851079,29 @@
         "display_name": "Moonlighting S03E02 The Man Who Cried Wife SD CZ Dabing",
         "prepared_at": "2026-11-22T17:15:46.374390+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257223",
-        "size_bytes": 246964105
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257223",
-        "size_bytes": 246964105,
-        "source_bytes_read": 246964105,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257223",
         "source_bytes_read": 246964105,
         "elapsed_seconds": 17.615,
         "finished_at": "2026-11-22T17:16:36.306368+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257223",
+          "size_bytes": 246964105,
+          "source_bytes_read": 246964105,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983060",
+        "source_url": "https://sdilej.cz/34983060/mesicni-svit-s03e02-hlas-ze-zahrobi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257223",
+        "display_name": "Moonlighting S03E02 The Man Who Cried Wife SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:16:46.639818+00:00"
       }
     },
     "1132:3:3": {
@@ -851179,7 +851180,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:16:41.820274+00:00",
+  "updated_at": "2026-11-22T17:16:46.639831+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
