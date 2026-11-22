@@ -810416,12 +810416,6 @@
     },
     "2023:2:4": {
       "episode_key": "jak se to dělá:s2:e4",
-      "claim": {
-        "worker_id": "7719248b06984301b329ad951e5ec88a-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:06:05.829061+00:00",
-        "lease_expires_at": "2026-11-22T07:06:05.829077+00:00"
-      },
       "source": {
         "source_id": "33726979",
         "source_url": "https://sdilej.cz/33726979/jak-se-to-dela-s02e04-13-2002-cz-dab-.mkv",
@@ -810446,22 +810440,29 @@
         "display_name": "How It's Made S02E04 Winter Jackets, Animation, Mushrooms, Gold Rings SD CZ Dabing",
         "prepared_at": "2026-11-22T01:06:19.289858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240397",
-        "size_bytes": 428078889
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240397",
-        "size_bytes": 428078889,
-        "source_bytes_read": 428078889,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240397",
         "source_bytes_read": 428078889,
         "elapsed_seconds": 28.291,
         "finished_at": "2026-11-22T01:07:20.818430+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240397",
+          "size_bytes": 428078889,
+          "source_bytes_read": 428078889,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33726979",
+        "source_url": "https://sdilej.cz/33726979/jak-se-to-dela-s02e04-13-2002-cz-dab-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240397",
+        "display_name": "How It's Made S02E04 Winter Jackets, Animation, Mushrooms, Gold Rings SD CZ Dabing",
+        "uploaded_at": "2026-11-22T01:07:27.398793+00:00"
       }
     }
   },
@@ -810470,7 +810471,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:07:20.818451+00:00",
+  "updated_at": "2026-11-22T01:07:27.398812+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
