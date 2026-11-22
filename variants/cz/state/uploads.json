@@ -840255,12 +840255,6 @@
     },
     "1089:7:16": {
       "episode_key": "nemocnice chicago med:s7:e16",
-      "claim": {
-        "worker_id": "baf24f22bcfb4c338bfa0194d951c1ff-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:45:25.140087+00:00",
-        "lease_expires_at": "2026-11-22T17:45:25.140097+00:00"
-      },
       "source": {
         "source_id": "34812845",
         "source_url": "https://sdilej.cz/34812845/nemocnice-chicago-med-s07e16-135-2022-fhd-vol-nadeji-ne-strach-s-.mp4",
@@ -840285,22 +840279,29 @@
         "display_name": "Chicago Med S07E16 May Your Choices Reflect Hope, Not Fear 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:45:39.636683+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251290",
-        "size_bytes": 822959092
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251290",
-        "size_bytes": 822959092,
-        "source_bytes_read": 822959092,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251290",
         "source_bytes_read": 822959092,
         "elapsed_seconds": 48.997,
         "finished_at": "2026-11-22T11:46:58.331210+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251290",
+          "size_bytes": 822959092,
+          "source_bytes_read": 822959092,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812845",
+        "source_url": "https://sdilej.cz/34812845/nemocnice-chicago-med-s07e16-135-2022-fhd-vol-nadeji-ne-strach-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251290",
+        "display_name": "Chicago Med S07E16 May Your Choices Reflect Hope, Not Fear 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:47:11.820914+00:00"
       }
     },
     "1089:7:17": {
@@ -840346,7 +840347,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:47:04.547002+00:00",
+  "updated_at": "2026-11-22T11:47:11.820929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
