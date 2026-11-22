@@ -821090,12 +821090,6 @@
     },
     "1094:1:11": {
       "episode_key": "skladiště 13:s1:e11",
-      "claim": {
-        "worker_id": "a288fa1069c841528e3a455ae893caf3-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:18:40.637525+00:00",
-        "lease_expires_at": "2026-11-22T10:18:40.637537+00:00"
-      },
       "source": {
         "source_id": "32450693",
         "source_url": "https://sdilej.cz/32450693/skladiste-13-s01e11-zapisnik.mkv",
@@ -821120,22 +821114,29 @@
         "display_name": "Warehouse 13 S01E11 Nevermore 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:18:50.973696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243731",
-        "size_bytes": 919846275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243731",
-        "size_bytes": 919846275,
-        "source_bytes_read": 919846275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243731",
         "source_bytes_read": 919846275,
         "elapsed_seconds": 46.165,
         "finished_at": "2026-11-22T04:20:02.892884+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243731",
+          "size_bytes": 919846275,
+          "source_bytes_read": 919846275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32450693",
+        "source_url": "https://sdilej.cz/32450693/skladiste-13-s01e11-zapisnik.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243731",
+        "display_name": "Warehouse 13 S01E11 Nevermore 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:20:20.103955+00:00"
       }
     },
     "1094:1:12": {
@@ -821231,7 +821232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:20:14.913405+00:00",
+  "updated_at": "2026-11-22T04:20:20.103972+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
