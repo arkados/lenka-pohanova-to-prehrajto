@@ -826023,12 +826023,6 @@
     },
     "2161:1:14": {
       "episode_key": "hvězdná brána - hluboký vesmír:s1:e14",
-      "claim": {
-        "worker_id": "d5bfe34e8d4d4fadb5b0762a3f3feeec-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:06:57.377466+00:00",
-        "lease_expires_at": "2026-11-22T12:06:57.377484+00:00"
-      },
       "source": {
         "source_id": "27617184",
         "source_url": "https://sdilej.cz/27617184/hvezdna-brana-hluboky-vesmir-s01e14-clovek.mkv",
@@ -826053,22 +826047,29 @@
         "display_name": "Stargate Universe S01E14 Human 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:07:19.006151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245528",
-        "size_bytes": 920669531
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245528",
-        "size_bytes": 920669531,
-        "source_bytes_read": 920669531,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245528",
         "source_bytes_read": 920669531,
         "elapsed_seconds": 91.45,
         "finished_at": "2026-11-22T06:09:19.370690+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245528",
+          "size_bytes": 920669531,
+          "source_bytes_read": 920669531,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27617184",
+        "source_url": "https://sdilej.cz/27617184/hvezdna-brana-hluboky-vesmir-s01e14-clovek.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245528",
+        "display_name": "Stargate Universe S01E14 Human 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:09:28.488242+00:00"
       }
     },
     "1020:1:4": {
@@ -826151,7 +826152,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:09:19.370711+00:00",
+  "updated_at": "2026-11-22T06:09:28.488259+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
