@@ -813931,12 +813931,6 @@
     },
     "1204:1:14": {
       "episode_key": "o.c.:s1:e14",
-      "claim": {
-        "worker_id": "d45156a7b81743529fedd7dd78d42e46-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T02:00:18.785505+00:00",
-        "lease_expires_at": "2026-11-22T08:00:18.785525+00:00"
-      },
       "source": {
         "source_id": "26879453",
         "source_url": "https://sdilej.cz/26879453/the-o-c-s01e14-the-countdown.mkv",
@@ -813961,22 +813955,29 @@
         "display_name": "The O.C. S01E14 The Countdown 1080p CZ Dabing",
         "prepared_at": "2026-11-22T02:00:35.499761+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241316",
-        "size_bytes": 2772321170
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241316",
-        "size_bytes": 2772321170,
-        "source_bytes_read": 2772321170,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241316",
         "source_bytes_read": 2772321170,
         "elapsed_seconds": 200.687,
         "finished_at": "2026-11-22T02:04:20.579221+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241316",
+          "size_bytes": 2772321170,
+          "source_bytes_read": 2772321170,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26879453",
+        "source_url": "https://sdilej.cz/26879453/the-o-c-s01e14-the-countdown.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241316",
+        "display_name": "The O.C. S01E14 The Countdown 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T02:04:28.718652+00:00"
       }
     },
     "1204:1:15": {
@@ -814073,7 +814074,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:04:20.579241+00:00",
+  "updated_at": "2026-11-22T02:04:28.718672+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
