@@ -840414,12 +840414,6 @@
     },
     "1089:7:19": {
       "episode_key": "nemocnice chicago med:s7:e19",
-      "claim": {
-        "worker_id": "6e886e1ddf7b4377a20b2ce77b7c9e37-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:47:30.646654+00:00",
-        "lease_expires_at": "2026-11-22T17:47:30.646670+00:00"
-      },
       "source": {
         "source_id": "34812856",
         "source_url": "https://sdilej.cz/34812856/nemocnice-chicago-med-s07e19-138-2022-fhd-povstal-jako-fenix-z-popela-s-.mp4",
@@ -840444,22 +840438,29 @@
         "display_name": "Chicago Med S07E19 Like a Phoenix Rising from the Ashes 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:47:43.929285+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251329",
-        "size_bytes": 825623733
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251329",
-        "size_bytes": 825623733,
-        "source_bytes_read": 825623733,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251329",
         "source_bytes_read": 825623733,
         "elapsed_seconds": 56.41,
         "finished_at": "2026-11-22T11:49:07.791706+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251329",
+          "size_bytes": 825623733,
+          "source_bytes_read": 825623733,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812856",
+        "source_url": "https://sdilej.cz/34812856/nemocnice-chicago-med-s07e19-138-2022-fhd-povstal-jako-fenix-z-popela-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251329",
+        "display_name": "Chicago Med S07E19 Like a Phoenix Rising from the Ashes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:49:26.355883+00:00"
       }
     }
   },
@@ -840468,7 +840469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:49:20.910600+00:00",
+  "updated_at": "2026-11-22T11:49:26.355897+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
