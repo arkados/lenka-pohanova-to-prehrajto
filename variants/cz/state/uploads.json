@@ -807146,12 +807146,6 @@
     },
     "1198:11:24": {
       "episode_key": "chirurgové:s11:e24",
-      "claim": {
-        "worker_id": "b05f74ad2ad542cc90b8bbe1430b33b1-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:02:07.976347+00:00",
-        "lease_expires_at": "2026-11-22T06:02:07.976364+00:00"
-      },
       "source": {
         "source_id": "27699016",
         "source_url": "https://sdilej.cz/27699016/chirurgove-s11e24-cz.mkv",
@@ -807176,22 +807170,29 @@
         "display_name": "Grey's Anatomy S11E24 You're My Home 1080p CZ Dabing",
         "prepared_at": "2026-11-22T00:02:13.815732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239450",
-        "size_bytes": 569209333
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239450",
-        "size_bytes": 569209333,
-        "source_bytes_read": 569209333,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239450",
         "source_bytes_read": 569209333,
         "elapsed_seconds": 39.376,
         "finished_at": "2026-11-22T00:03:22.692099+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239450",
+          "size_bytes": 569209333,
+          "source_bytes_read": 569209333,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27699016",
+        "source_url": "https://sdilej.cz/27699016/chirurgove-s11e24-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239450",
+        "display_name": "Grey's Anatomy S11E24 You're My Home 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:03:34.892266+00:00"
       }
     },
     "1198:13:18": {
@@ -807273,7 +807274,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:03:28.462242+00:00",
+  "updated_at": "2026-11-22T00:03:34.892284+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
