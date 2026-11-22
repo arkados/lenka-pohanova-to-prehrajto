@@ -809835,12 +809835,6 @@
     },
     "117:2:7": {
       "episode_key": "sandman:s2:e7",
-      "claim": {
-        "worker_id": "b0f81322c1504c0faf280055aa1078ff-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:55:03.896181+00:00",
-        "lease_expires_at": "2026-11-22T06:55:03.896201+00:00"
-      },
       "source": {
         "source_id": "31541784",
         "source_url": "https://sdilej.cz/31541784/the-sandman-s02e07-cz-dab-1080p-by-pefto-.mkv",
@@ -809865,22 +809859,29 @@
         "display_name": "The Sandman S02E07 Time and Night 1080p CZ Dabing",
         "prepared_at": "2026-11-22T00:55:14.593054+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240236",
-        "size_bytes": 663625501
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240236",
-        "size_bytes": 663625501,
-        "source_bytes_read": 663625501,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240236",
         "source_bytes_read": 663625501,
         "elapsed_seconds": 34.841,
         "finished_at": "2026-11-22T00:56:11.873656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240236",
+          "size_bytes": 663625501,
+          "source_bytes_read": 663625501,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31541784",
+        "source_url": "https://sdilej.cz/31541784/the-sandman-s02e07-cz-dab-1080p-by-pefto-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240236",
+        "display_name": "The Sandman S02E07 Time and Night 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:56:20.036550+00:00"
       }
     },
     "117:2:8": {
@@ -809926,7 +809927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:56:11.873677+00:00",
+  "updated_at": "2026-11-22T00:56:20.036572+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
