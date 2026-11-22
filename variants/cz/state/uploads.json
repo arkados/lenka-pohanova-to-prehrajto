@@ -843648,12 +843648,6 @@
     },
     "1142:2:9": {
       "episode_key": "dívka odjinud:s2:e9",
-      "claim": {
-        "worker_id": "ab354618cc14416aa6dcf702c7ea7d6f-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:33:59.117634+00:00",
-        "lease_expires_at": "2026-11-22T19:33:59.117643+00:00"
-      },
       "source": {
         "source_id": "30884560",
         "source_url": "https://sdilej.cz/30884560/divka-odjinud-s02e09-nejsem-ve-sve-kuzi-lost-girl-cz.avi",
@@ -843678,22 +843672,29 @@
         "display_name": "Lost Girl S02E09 Original Skin SD CZ Dabing",
         "prepared_at": "2026-11-22T13:34:24.989015+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253410",
-        "size_bytes": 412338548
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253410",
-        "size_bytes": 412338548,
-        "source_bytes_read": 412338548,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253410",
         "source_bytes_read": 412338548,
         "elapsed_seconds": 28.084,
         "finished_at": "2026-11-22T13:35:16.878726+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253410",
+          "size_bytes": 412338548,
+          "source_bytes_read": 412338548,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884560",
+        "source_url": "https://sdilej.cz/30884560/divka-odjinud-s02e09-nejsem-ve-sve-kuzi-lost-girl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253410",
+        "display_name": "Lost Girl S02E09 Original Skin SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:35:34.076852+00:00"
       }
     }
   },
@@ -843702,7 +843703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:35:28.143587+00:00",
+  "updated_at": "2026-11-22T13:35:34.076867+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
