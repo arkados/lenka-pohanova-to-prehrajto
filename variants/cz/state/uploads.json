@@ -814376,12 +814376,6 @@
     },
     "1204:1:24": {
       "episode_key": "o.c.:s1:e24",
-      "claim": {
-        "worker_id": "9cb4434cbe9c4a6b910920f9b6e7831f-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:15:24.581009+00:00",
-        "lease_expires_at": "2026-11-22T08:15:24.581023+00:00"
-      },
       "source": {
         "source_id": "34192926",
         "source_url": "https://sdilej.cz/34192926/o.c.-s01e24-the-proposal-cz-dab.avi",
@@ -814406,22 +814400,29 @@
         "display_name": "The O.C. S01E24 The Proposal SD CZ Dabing",
         "prepared_at": "2026-11-22T02:15:46.371305+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241565",
-        "size_bytes": 414803968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241565",
-        "size_bytes": 414803968,
-        "source_bytes_read": 414803968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241565",
         "source_bytes_read": 414803968,
         "elapsed_seconds": 20.034,
         "finished_at": "2026-11-22T02:16:31.482035+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241565",
+          "size_bytes": 414803968,
+          "source_bytes_read": 414803968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192926",
+        "source_url": "https://sdilej.cz/34192926/o.c.-s01e24-the-proposal-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241565",
+        "display_name": "The O.C. S01E24 The Proposal SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:16:41.493251+00:00"
       }
     }
   },
@@ -814430,7 +814431,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:16:36.563495+00:00",
+  "updated_at": "2026-11-22T02:16:41.493267+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
