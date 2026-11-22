@@ -853230,12 +853230,6 @@
     },
     "1132:5:10": {
       "episode_key": "měsíční svit:s5:e10",
-      "claim": {
-        "worker_id": "52c7c727cfdd475485cd19b2d7479d89-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:09:04.093892+00:00",
-        "lease_expires_at": "2026-11-23T03:09:04.093907+00:00"
-      },
       "source": {
         "source_id": "34983148",
         "source_url": "https://sdilej.cz/34983148/mesicni-svit-s05e10-kdyz-se-divky-stretnou.mkv",
@@ -853260,22 +853254,29 @@
         "display_name": "Moonlighting S05E10 When Girls Collide (1) SD CZ Dabing",
         "prepared_at": "2026-11-22T21:09:21.460663+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261093",
-        "size_bytes": 257489343
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261093",
-        "size_bytes": 257489343,
-        "source_bytes_read": 257489343,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261093",
         "source_bytes_read": 257489343,
         "elapsed_seconds": 21.715,
         "finished_at": "2026-11-22T21:10:25.369808+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261093",
+          "size_bytes": 257489343,
+          "source_bytes_read": 257489343,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983148",
+        "source_url": "https://sdilej.cz/34983148/mesicni-svit-s05e10-kdyz-se-divky-stretnou.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261093",
+        "display_name": "Moonlighting S05E10 When Girls Collide (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:10:36.767517+00:00"
       }
     }
   },
@@ -853284,7 +853285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:10:30.885748+00:00",
+  "updated_at": "2026-11-22T21:10:36.767537+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
