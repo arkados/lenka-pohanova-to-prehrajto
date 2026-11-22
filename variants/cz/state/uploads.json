@@ -825273,28 +825273,29 @@
           "at": "2026-11-22T10:49:14.756995+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "30b7b5a058ad43f498b683c18edbd122-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:49:20.291565+00:00",
-        "lease_expires_at": "2026-11-22T16:49:20.291578+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31250298",
-        "size_bytes": 1235728569
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250298",
-        "size_bytes": 1235728569,
-        "source_bytes_read": 1235728569,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250298",
         "source_bytes_read": 1235728569,
         "elapsed_seconds": 82.281,
         "finished_at": "2026-11-22T10:51:26.257469+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250298",
+          "size_bytes": 1235728569,
+          "source_bytes_read": 1235728569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35165802",
+        "source_url": "https://sdilej.cz/35165802/stargate-universe-s01e07-cz-dabing.-bedobi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250298",
+        "display_name": "Stargate Universe S01E07 Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:51:38.513964+00:00"
       }
     },
     "2161:1:8": {
@@ -838081,7 +838082,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:51:33.123845+00:00",
+  "updated_at": "2026-11-22T10:51:38.513977+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
