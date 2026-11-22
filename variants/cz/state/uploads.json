@@ -816685,12 +816685,6 @@
     },
     "1204:4:2": {
       "episode_key": "o.c.:s4:e2",
-      "claim": {
-        "worker_id": "c1f4817c70f84ce0ad8b17f750c12e55-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:49:29.807145+00:00",
-        "lease_expires_at": "2026-11-22T08:49:29.807162+00:00"
-      },
       "source": {
         "source_id": "34193751",
         "source_url": "https://sdilej.cz/34193751/o.c.-s04e02-the-gringos-cz-dab.avi",
@@ -816715,22 +816709,29 @@
         "display_name": "The O.C. S04E02 The Gringos SD CZ Dabing",
         "prepared_at": "2026-11-22T02:49:40.840088+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242134",
-        "size_bytes": 358375328
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242134",
-        "size_bytes": 358375328,
-        "source_bytes_read": 358375328,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242134",
         "source_bytes_read": 358375328,
         "elapsed_seconds": 22.499,
         "finished_at": "2026-11-22T02:50:26.305865+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242134",
+          "size_bytes": 358375328,
+          "source_bytes_read": 358375328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193751",
+        "source_url": "https://sdilej.cz/34193751/o.c.-s04e02-the-gringos-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242134",
+        "display_name": "The O.C. S04E02 The Gringos SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:50:40.444696+00:00"
       }
     },
     "1204:4:3": {
@@ -816785,7 +816786,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:50:35.697384+00:00",
+  "updated_at": "2026-11-22T02:50:40.444711+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
