@@ -853581,12 +853581,6 @@
     },
     "6009:1:4": {
       "episode_key": "mildred pierceová:s1:e4",
-      "claim": {
-        "worker_id": "9411f80be1e24144afd9d8632065622b-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:32:35.355929+00:00",
-        "lease_expires_at": "2026-11-23T03:32:35.355957+00:00"
-      },
       "source": {
         "source_id": "28247872",
         "source_url": "https://sdilej.cz/28247872/mildred-pierceova-s01e04-dil-4.mkv",
@@ -853627,7 +853621,13 @@
         "elapsed_seconds": 207.56,
         "finished_at": "2026-11-22T21:36:47.172674+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T21:38:23.168897+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "6009:1:5": {
       "episode_key": "mildred pierceová:s1:e5",
@@ -853745,7 +853745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:38:12.385187+00:00",
+  "updated_at": "2026-11-22T21:38:23.168915+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
