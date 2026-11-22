@@ -844515,12 +844515,6 @@
     },
     "1142:3:5": {
       "episode_key": "dívka odjinud:s3:e5",
-      "claim": {
-        "worker_id": "c51e6ec18af04f7b825d06bb593ef842-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:49:12.723178+00:00",
-        "lease_expires_at": "2026-11-22T19:49:12.723195+00:00"
-      },
       "source": {
         "source_id": "30884616",
         "source_url": "https://sdilej.cz/30884616/divka-odjinud-s03e05-strasti-pana-slasti-lost-girl-480p-cz.avi",
@@ -844545,22 +844539,29 @@
         "display_name": "Lost Girl S03E05 Faes Wide Shut SD CZ Dabing",
         "prepared_at": "2026-11-22T13:49:33.120624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253665",
-        "size_bytes": 426895354
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253665",
-        "size_bytes": 426895354,
-        "source_bytes_read": 426895354,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253665",
         "source_bytes_read": 426895354,
         "elapsed_seconds": 33.44,
         "finished_at": "2026-11-22T13:50:39.474905+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253665",
+          "size_bytes": 426895354,
+          "source_bytes_read": 426895354,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884616",
+        "source_url": "https://sdilej.cz/30884616/divka-odjinud-s03e05-strasti-pana-slasti-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253665",
+        "display_name": "Lost Girl S03E05 Faes Wide Shut SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:50:51.264698+00:00"
       }
     },
     "1142:3:6": {
@@ -844578,7 +844579,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:50:45.389316+00:00",
+  "updated_at": "2026-11-22T13:50:51.264712+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
