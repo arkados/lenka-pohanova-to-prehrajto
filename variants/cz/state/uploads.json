@@ -827649,12 +827649,6 @@
     },
     "1470:3:1": {
       "episode_key": "slečna scarletová a vévoda:s3:e1",
-      "claim": {
-        "worker_id": "a81e0c808c884820ade7ab462baed1f1-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:50:20.728843+00:00",
-        "lease_expires_at": "2026-11-22T12:50:20.728858+00:00"
-      },
       "source": {
         "source_id": "25239293",
         "source_url": "https://sdilej.cz/25239293/slecna-scarletova-a-vevoda-s03e01-cz-hd-zmizeni-.mkv",
@@ -827679,22 +827673,29 @@
         "display_name": "Miss Scarlet S03E01 The Vanishing 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:50:31.730682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246174",
-        "size_bytes": 1139332988
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246174",
-        "size_bytes": 1139332988,
-        "source_bytes_read": 1139332988,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246174",
         "source_bytes_read": 1139332988,
         "elapsed_seconds": 70.505,
         "finished_at": "2026-11-22T06:52:05.481192+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246174",
+          "size_bytes": 1139332988,
+          "source_bytes_read": 1139332988,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25239293",
+        "source_url": "https://sdilej.cz/25239293/slecna-scarletova-a-vevoda-s03e01-cz-hd-zmizeni-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246174",
+        "display_name": "Miss Scarlet S03E01 The Vanishing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:52:29.666773+00:00"
       }
     },
     "1470:3:2": {
@@ -827740,7 +827741,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:52:24.409468+00:00",
+  "updated_at": "2026-11-22T06:52:29.666789+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
