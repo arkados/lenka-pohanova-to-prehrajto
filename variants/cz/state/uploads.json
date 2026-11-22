@@ -832761,28 +832761,29 @@
           "at": "2026-11-22T19:17:07.912367+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "ed6ab310d60c452fa85ea9224097eec5-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T19:17:13.151482+00:00",
-        "lease_expires_at": "2026-11-23T01:17:13.151498+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31259053",
-        "size_bytes": 1867473720
-      },
-      "transfer_receipt": {
-        "target_video_id": "31259053",
-        "size_bytes": 1867473720,
-        "source_bytes_read": 1867473720,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31259053",
         "source_bytes_read": 1867473720,
         "elapsed_seconds": 215.215,
         "finished_at": "2026-11-22T19:21:32.948568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31259053",
+          "size_bytes": 1867473720,
+          "source_bytes_read": 1867473720,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30841830",
+        "source_url": "https://sdilej.cz/30841830/hvezdna.brana.hluboky.vesmir-stargate.universe.s02e20.gauntlet.1080p.web-dl.dd5.1.h.264-pod.cz.en.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31259053",
+        "display_name": "Stargate Universe S02E20 Gauntlet 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T19:22:00.216949+00:00"
       }
     },
     "1200:2:6": {
@@ -852723,7 +852724,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T19:21:54.557867+00:00",
+  "updated_at": "2026-11-22T19:22:00.216970+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
