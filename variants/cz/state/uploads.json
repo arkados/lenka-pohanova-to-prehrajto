@@ -842826,12 +842826,6 @@
     },
     "1142:1:6": {
       "episode_key": "dívka odjinud:s1:e6",
-      "claim": {
-        "worker_id": "50b40dcd8d76423488c5bf0089acb7c9-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:12:14.278374+00:00",
-        "lease_expires_at": "2026-11-22T19:12:14.278386+00:00"
-      },
       "source": {
         "source_id": "22265030",
         "source_url": "https://sdilej.cz/22265030/divka-odjinud-s01e06-czdab.avi",
@@ -842856,22 +842850,29 @@
         "display_name": "Lost Girl S01E06 Food for Thought SD CZ Dabing",
         "prepared_at": "2026-11-22T13:12:20.503004+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253061",
-        "size_bytes": 369218640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253061",
-        "size_bytes": 369218640,
-        "source_bytes_read": 369218640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253061",
         "source_bytes_read": 369218640,
         "elapsed_seconds": 23.627,
         "finished_at": "2026-11-22T13:13:31.975238+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253061",
+          "size_bytes": 369218640,
+          "source_bytes_read": 369218640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22265030",
+        "source_url": "https://sdilej.cz/22265030/divka-odjinud-s01e06-czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253061",
+        "display_name": "Lost Girl S01E06 Food for Thought SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:13:48.254778+00:00"
       }
     },
     "1142:1:7": {
@@ -842953,7 +842954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:13:42.999868+00:00",
+  "updated_at": "2026-11-22T13:13:48.254792+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
