@@ -815104,12 +815104,6 @@
     },
     "1204:2:14": {
       "episode_key": "o.c.:s2:e14",
-      "claim": {
-        "worker_id": "47fd9332ddcf4611ba2259a03f0cda80-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:28:56.181449+00:00",
-        "lease_expires_at": "2026-11-22T08:28:56.181464+00:00"
-      },
       "source": {
         "source_id": "34193400",
         "source_url": "https://sdilej.cz/34193400/o.c.-s02e14-the-rainy-day-women-cz-dab.avi",
@@ -815134,22 +815128,29 @@
         "display_name": "The O.C. S02E14 The Rainy Day Women SD CZ Dabing",
         "prepared_at": "2026-11-22T02:29:18.335023+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241796",
-        "size_bytes": 376782848
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241796",
-        "size_bytes": 376782848,
-        "source_bytes_read": 376782848,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241796",
         "source_bytes_read": 376782848,
         "elapsed_seconds": 22.868,
         "finished_at": "2026-11-22T02:30:12.386252+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241796",
+          "size_bytes": 376782848,
+          "source_bytes_read": 376782848,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193400",
+        "source_url": "https://sdilej.cz/34193400/o.c.-s02e14-the-rainy-day-women-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241796",
+        "display_name": "The O.C. S02E14 The Rainy Day Women SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:30:23.377256+00:00"
       }
     },
     "1204:2:15": {
@@ -815228,7 +815229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:30:17.243739+00:00",
+  "updated_at": "2026-11-22T02:30:23.377275+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
