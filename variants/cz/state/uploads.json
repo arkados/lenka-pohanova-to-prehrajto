@@ -855366,12 +855366,6 @@
     },
     "5433:1:3": {
       "episode_key": "velký průvodce meditací:s1:e3",
-      "claim": {
-        "worker_id": "7d0ba80479f84e84979b7318a4d5b17e-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:38:39.861493+00:00",
-        "lease_expires_at": "2026-11-23T05:38:39.861504+00:00"
-      },
       "source": {
         "source_id": "30705646",
         "source_url": "https://sdilej.cz/30705646/velky-pruvodce-meditaci-2021-s01e03.mkv",
@@ -855396,22 +855390,29 @@
         "display_name": "Headspace Guide to Meditation S01E03 How to Fall in Love with Life 720p CZ Dabing",
         "prepared_at": "2026-11-22T23:38:55.806645+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264849",
-        "size_bytes": 435963745
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264849",
-        "size_bytes": 435963745,
-        "source_bytes_read": 435963745,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264849",
         "source_bytes_read": 435963745,
         "elapsed_seconds": 23.655,
         "finished_at": "2026-11-22T23:39:43.404670+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264849",
+          "size_bytes": 435963745,
+          "source_bytes_read": 435963745,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30705646",
+        "source_url": "https://sdilej.cz/30705646/velky-pruvodce-meditaci-2021-s01e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264849",
+        "display_name": "Headspace Guide to Meditation S01E03 How to Fall in Love with Life 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:39:52.164944+00:00"
       }
     }
   },
@@ -855420,7 +855421,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:39:43.404694+00:00",
+  "updated_at": "2026-11-22T23:39:52.164959+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
