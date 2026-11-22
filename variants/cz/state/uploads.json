@@ -851778,12 +851778,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "cc01f39b498442fb8a68117016de977f-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:06:25.455713+00:00",
-        "lease_expires_at": "2026-11-23T00:06:25.455722+00:00"
-      },
       "source": {
         "source_id": "34983082",
         "source_url": "https://sdilej.cz/34983082/mesicni-svit-s03e13-a-dnes-bude-plakat-maddie.mkv",
@@ -851808,22 +851802,29 @@
         "display_name": "Moonlighting S03E13 Maddie's Turn to Cry (3) SD CZ Dabing",
         "prepared_at": "2026-11-22T18:06:44.613869+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257973",
-        "size_bytes": 232363922
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257973",
-        "size_bytes": 232363922,
-        "source_bytes_read": 232363922,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257973",
         "source_bytes_read": 232363922,
         "elapsed_seconds": 16.543,
         "finished_at": "2026-11-22T18:07:31.961520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257973",
+          "size_bytes": 232363922,
+          "source_bytes_read": 232363922,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983082",
+        "source_url": "https://sdilej.cz/34983082/mesicni-svit-s03e13-a-dnes-bude-plakat-maddie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257973",
+        "display_name": "Moonlighting S03E13 Maddie's Turn to Cry (3) SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:07:47.811285+00:00"
       }
     },
     "1132:3:14": {
@@ -851911,7 +851912,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:07:42.876125+00:00",
+  "updated_at": "2026-11-22T18:07:47.811299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
