@@ -812655,12 +812655,6 @@
     },
     "48:3:11": {
       "episode_key": "věřte nevěřte:s3:e11",
-      "claim": {
-        "worker_id": "674529093c344397a2265b1832e1a2b1-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:42:53.080081+00:00",
-        "lease_expires_at": "2026-11-22T07:42:53.080099+00:00"
-      },
       "source": {
         "source_id": "28614972",
         "source_url": "https://sdilej.cz/28614972/verte-neverte-3x11.mkv",
@@ -812685,22 +812679,29 @@
         "display_name": "Beyond Belief: Fact or Fiction S03E11 Deadbeat Dad, Ghost Town, The Sewing Machine, The Sleepwalker & Money Laundry SD CZ Dabing",
         "prepared_at": "2026-11-22T01:43:09.183394+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241013",
-        "size_bytes": 347686949
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241013",
-        "size_bytes": 347686949,
-        "source_bytes_read": 347686949,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241013",
         "source_bytes_read": 347686949,
         "elapsed_seconds": 24.247,
         "finished_at": "2026-11-22T01:44:03.136563+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241013",
+          "size_bytes": 347686949,
+          "source_bytes_read": 347686949,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28614972",
+        "source_url": "https://sdilej.cz/28614972/verte-neverte-3x11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241013",
+        "display_name": "Beyond Belief: Fact or Fiction S03E11 Deadbeat Dad, Ghost Town, The Sewing Machine, The Sleepwalker & Money Laundry SD CZ Dabing",
+        "uploaded_at": "2026-11-22T01:44:18.284170+00:00"
       }
     }
   },
@@ -812709,7 +812710,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:44:13.443845+00:00",
+  "updated_at": "2026-11-22T01:44:18.284190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
