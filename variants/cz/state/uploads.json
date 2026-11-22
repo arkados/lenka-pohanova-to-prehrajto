@@ -849632,12 +849632,6 @@
     },
     "2930:1:7": {
       "episode_key": "dlouhý stín:s1:e7",
-      "claim": {
-        "worker_id": "f959cdde6c7e40ea8e1b512fb55b1aa5-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T16:09:29.207693+00:00",
-        "lease_expires_at": "2026-11-22T22:09:29.207708+00:00"
-      },
       "source": {
         "source_id": "30865396",
         "source_url": "https://sdilej.cz/30865396/the-long-shadow-s01e07-cz-dabing.mp4",
@@ -849662,22 +849656,29 @@
         "display_name": "The Long Shadow S01E07 1080p CZ Dabing",
         "prepared_at": "2026-11-22T16:09:41.390967+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256096",
-        "size_bytes": 669885826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256096",
-        "size_bytes": 669885826,
-        "source_bytes_read": 669885826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256096",
         "source_bytes_read": 669885826,
         "elapsed_seconds": 48.761,
         "finished_at": "2026-11-22T16:11:01.117227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256096",
+          "size_bytes": 669885826,
+          "source_bytes_read": 669885826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30865396",
+        "source_url": "https://sdilej.cz/30865396/the-long-shadow-s01e07-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256096",
+        "display_name": "The Long Shadow S01E07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T16:11:08.576943+00:00"
       }
     }
   },
@@ -849686,7 +849687,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:11:01.117247+00:00",
+  "updated_at": "2026-11-22T16:11:08.576961+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
