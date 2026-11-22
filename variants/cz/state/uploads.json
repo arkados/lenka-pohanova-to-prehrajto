@@ -825487,12 +825487,6 @@
     },
     "991:1:6": {
       "episode_key": "had:s1:e6",
-      "claim": {
-        "worker_id": "2406a28c7a8f45f7890f5f90625513a5-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T05:56:01.718536+00:00",
-        "lease_expires_at": "2026-11-22T11:56:01.718556+00:00"
-      },
       "source": {
         "source_id": "30752607",
         "source_url": "https://sdilej.cz/30752607/had-s01e06-juraison-.mp4",
@@ -825517,22 +825511,29 @@
         "display_name": "The Serpent S01E06 720p CZ Dabing",
         "prepared_at": "2026-11-22T05:56:28.223627+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31245343",
-        "size_bytes": 615795264
-      },
-      "transfer_receipt": {
-        "target_video_id": "31245343",
-        "size_bytes": 615795264,
-        "source_bytes_read": 615795264,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31245343",
         "source_bytes_read": 615795264,
         "elapsed_seconds": 26.417,
         "finished_at": "2026-11-22T05:57:18.023380+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31245343",
+          "size_bytes": 615795264,
+          "source_bytes_read": 615795264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30752607",
+        "source_url": "https://sdilej.cz/30752607/had-s01e06-juraison-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31245343",
+        "display_name": "The Serpent S01E06 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:57:25.215668+00:00"
       }
     }
   },
@@ -825541,7 +825542,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:57:18.023401+00:00",
+  "updated_at": "2026-11-22T05:57:25.215689+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
