@@ -840153,12 +840153,6 @@
     },
     "1089:7:14": {
       "episode_key": "nemocnice chicago med:s7:e14",
-      "claim": {
-        "worker_id": "836909e4b09541ec840cbe6efe09f4c4-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:44:30.801473+00:00",
-        "lease_expires_at": "2026-11-22T17:44:30.801482+00:00"
-      },
       "source": {
         "source_id": "30429721",
         "source_url": "https://sdilej.cz/30429721/nemocnice-chicago-med-s07e14.mp4",
@@ -840183,22 +840177,29 @@
         "display_name": "Chicago Med S07E14 All the Things That Could Have Been 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:44:48.060585+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251275",
-        "size_bytes": 732783105
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251275",
-        "size_bytes": 732783105,
-        "source_bytes_read": 732783105,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251275",
         "source_bytes_read": 732783105,
         "elapsed_seconds": 47.904,
         "finished_at": "2026-11-22T11:46:07.792316+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251275",
+          "size_bytes": 732783105,
+          "source_bytes_read": 732783105,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30429721",
+        "source_url": "https://sdilej.cz/30429721/nemocnice-chicago-med-s07e14.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251275",
+        "display_name": "Chicago Med S07E14 All the Things That Could Have Been 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:46:15.179583+00:00"
       }
     },
     "1089:7:15": {
@@ -840281,7 +840282,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:46:07.792334+00:00",
+  "updated_at": "2026-11-22T11:46:15.179599+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
