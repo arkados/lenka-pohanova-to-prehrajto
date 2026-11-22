@@ -838293,12 +838293,6 @@
     },
     "1089:5:11": {
       "episode_key": "nemocnice chicago med:s5:e11",
-      "claim": {
-        "worker_id": "c6c6704cff4c44cb8a981ec7587fd5ef-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:57:19.981400+00:00",
-        "lease_expires_at": "2026-11-22T16:57:19.981411+00:00"
-      },
       "source": {
         "source_id": "34812699",
         "source_url": "https://sdilej.cz/34812699/nemocnice-chicago-med-s05e11-094-2020-fhd-zeme-pod-nami-se-meni-s-.mp4",
@@ -838323,22 +838317,29 @@
         "display_name": "Chicago Med S05E11 The Ground Shifts Beneath Us 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:57:34.202182+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250481",
-        "size_bytes": 841692921
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250481",
-        "size_bytes": 841692921,
-        "source_bytes_read": 841692921,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250481",
         "source_bytes_read": 841692921,
         "elapsed_seconds": 57.729,
         "finished_at": "2026-11-22T10:59:25.829931+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250481",
+          "size_bytes": 841692921,
+          "source_bytes_read": 841692921,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812699",
+        "source_url": "https://sdilej.cz/34812699/nemocnice-chicago-med-s05e11-094-2020-fhd-zeme-pod-nami-se-meni-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250481",
+        "display_name": "Chicago Med S05E11 The Ground Shifts Beneath Us 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:59:37.751659+00:00"
       }
     },
     "1089:5:12": {
@@ -838384,7 +838385,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:59:31.898772+00:00",
+  "updated_at": "2026-11-22T10:59:37.751673+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
