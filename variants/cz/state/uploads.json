@@ -829110,12 +829110,6 @@
     },
     "1033:1:3": {
       "episode_key": "stařík v utajení:s1:e3",
-      "claim": {
-        "worker_id": "731401f0a8c34280abf837f8327e54a5-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:23:56.901409+00:00",
-        "lease_expires_at": "2026-11-22T13:23:56.901427+00:00"
-      },
       "source": {
         "source_id": "32454232",
         "source_url": "https://sdilej.cz/32454232/starik-v-utajeni-s01e03-2024-1080p-h264-cz-kom.serial.mkv",
@@ -829140,22 +829134,29 @@
         "display_name": "A Man on the Inside S01E03 The Emily Always Rings Twice 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:24:14.250896+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246770",
-        "size_bytes": 741890637
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246770",
-        "size_bytes": 741890637,
-        "source_bytes_read": 741890637,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246770",
         "source_bytes_read": 741890637,
         "elapsed_seconds": 36.42,
         "finished_at": "2026-11-22T07:25:24.663435+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246770",
+          "size_bytes": 741890637,
+          "source_bytes_read": 741890637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32454232",
+        "source_url": "https://sdilej.cz/32454232/starik-v-utajeni-s01e03-2024-1080p-h264-cz-kom.serial.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246770",
+        "display_name": "A Man on the Inside S01E03 The Emily Always Rings Twice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:25:31.699558+00:00"
       }
     },
     "1033:1:4": {
@@ -829201,7 +829202,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:25:24.663455+00:00",
+  "updated_at": "2026-11-22T07:25:31.699577+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
