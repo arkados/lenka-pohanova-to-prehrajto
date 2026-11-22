@@ -807350,12 +807350,6 @@
     },
     "1198:13:24": {
       "episode_key": "chirurgové:s13:e24",
-      "claim": {
-        "worker_id": "24a27c6f6cb74066b1303be6b0f41d15-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:09:28.271486+00:00",
-        "lease_expires_at": "2026-11-22T06:09:28.271503+00:00"
-      },
       "source": {
         "source_id": "27700331",
         "source_url": "https://sdilej.cz/27700331/chirurgove-s13e24-cz.mkv",
@@ -807380,22 +807374,29 @@
         "display_name": "Grey's Anatomy S13E24 Ring of Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-22T00:09:34.137017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239542",
-        "size_bytes": 648570886
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239542",
-        "size_bytes": 648570886,
-        "source_bytes_read": 648570886,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239542",
         "source_bytes_read": 648570886,
         "elapsed_seconds": 33.704,
         "finished_at": "2026-11-22T00:10:35.698800+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239542",
+          "size_bytes": 648570886,
+          "source_bytes_read": 648570886,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27700331",
+        "source_url": "https://sdilej.cz/27700331/chirurgove-s13e24-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239542",
+        "display_name": "Grey's Anatomy S13E24 Ring of Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T00:10:47.910016+00:00"
       }
     },
     "2085:1:1": {
@@ -807478,7 +807479,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:10:41.274197+00:00",
+  "updated_at": "2026-11-22T00:10:47.910036+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
