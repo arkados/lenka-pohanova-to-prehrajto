@@ -841211,12 +841211,6 @@
     },
     "1089:8:9": {
       "episode_key": "nemocnice chicago med:s8:e9",
-      "claim": {
-        "worker_id": "8dff9a9e2c7949f18bc981d3443f6702-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:12:28.430653+00:00",
-        "lease_expires_at": "2026-11-22T18:12:28.430665+00:00"
-      },
       "source": {
         "source_id": "30458707",
         "source_url": "https://sdilej.cz/30458707/nemocnice-chicago-med-s08e09.mp4",
@@ -841241,22 +841235,29 @@
         "display_name": "Chicago Med S08E09 This Could Be the Start of Something New 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:12:39.976337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251753",
-        "size_bytes": 707037721
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251753",
-        "size_bytes": 707037721,
-        "source_bytes_read": 707037721,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251753",
         "source_bytes_read": 707037721,
         "elapsed_seconds": 46.459,
         "finished_at": "2026-11-22T12:14:02.897858+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251753",
+          "size_bytes": 707037721,
+          "source_bytes_read": 707037721,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458707",
+        "source_url": "https://sdilej.cz/30458707/nemocnice-chicago-med-s08e09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251753",
+        "display_name": "Chicago Med S08E09 This Could Be the Start of Something New 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:14:15.252654+00:00"
       }
     },
     "1089:8:10": {
@@ -841339,7 +841340,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:14:07.974876+00:00",
+  "updated_at": "2026-11-22T12:14:15.252669+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
