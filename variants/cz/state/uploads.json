@@ -816583,12 +816583,6 @@
     },
     "1204:3:25": {
       "episode_key": "o.c.:s3:e25",
-      "claim": {
-        "worker_id": "559cca33ffd248fa84cbc14de2b451bc-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:48:13.170947+00:00",
-        "lease_expires_at": "2026-11-22T08:48:13.170962+00:00"
-      },
       "source": {
         "source_id": "34193731",
         "source_url": "https://sdilej.cz/34193731/o.c.-s03e25-the-graduates-cz-dab.avi",
@@ -816613,22 +816607,29 @@
         "display_name": "The O.C. S03E25 The Graduates SD CZ Dabing",
         "prepared_at": "2026-11-22T02:48:28.092722+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242106",
-        "size_bytes": 357971080
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242106",
-        "size_bytes": 357971080,
-        "source_bytes_read": 357971080,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242106",
         "source_bytes_read": 357971080,
         "elapsed_seconds": 21.953,
         "finished_at": "2026-11-22T02:49:20.156022+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242106",
+          "size_bytes": 357971080,
+          "source_bytes_read": 357971080,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193731",
+        "source_url": "https://sdilej.cz/34193731/o.c.-s03e25-the-graduates-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242106",
+        "display_name": "The O.C. S03E25 The Graduates SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:49:35.085446+00:00"
       }
     },
     "1204:4:1": {
@@ -816683,7 +816684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:49:29.807188+00:00",
+  "updated_at": "2026-11-22T02:49:35.085462+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
