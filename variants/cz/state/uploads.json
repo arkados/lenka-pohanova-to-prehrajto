@@ -826343,12 +826343,6 @@
     },
     "2161:1:15": {
       "episode_key": "hvězdná brána - hluboký vesmír:s1:e15",
-      "claim": {
-        "worker_id": "355ab1d7a7834c669a4d36dfbb1724d1-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:19:00.597578+00:00",
-        "lease_expires_at": "2026-11-22T12:19:00.597595+00:00"
-      },
       "source": {
         "source_id": "34208967",
         "source_url": "https://sdilej.cz/34208967/stargate-universe-s01e15-cz-dabing.mkv",
@@ -826372,7 +826366,17 @@
         },
         "display_name": "Stargate Universe S01E15 Lost 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:19:18.133508+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34208967:https://sdilej.cz/34208967/stargate-universe-s01e15-cz-dabing.mkv",
+        "at": "2026-11-22T06:19:36.840777+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T06:19:36.840839+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2161:1:16": {
       "episode_key": "hvězdná brána - hluboký vesmír:s1:e16",
@@ -826389,7 +826393,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:19:31.592420+00:00",
+  "updated_at": "2026-11-22T06:19:36.840844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -827086,9 +827090,13 @@
         {
           "identity": "2161:1:9",
           "at": "2026-11-22T06:19:11.568566+00:00"
+        },
+        {
+          "identity": "2161:1:15",
+          "at": "2026-11-22T06:19:36.840777+00:00"
         }
       ],
-      "retry_after": "2026-11-22T06:17:31.820536+00:00"
+      "retry_after": "2026-11-22T06:29:36.840777+00:00"
     }
   }
 }
