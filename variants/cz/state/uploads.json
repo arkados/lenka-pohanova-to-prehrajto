@@ -843795,12 +843795,6 @@
     },
     "1142:2:12": {
       "episode_key": "dívka odjinud:s2:e12",
-      "claim": {
-        "worker_id": "f43c84659bc244f9bd7ce3414a440982-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:38:54.158741+00:00",
-        "lease_expires_at": "2026-11-22T19:38:54.158751+00:00"
-      },
       "source": {
         "source_id": "30884569",
         "source_url": "https://sdilej.cz/30884569/divka-odjinud-s02e12-masky-lost-girl-cz.avi",
@@ -843825,22 +843819,29 @@
         "display_name": "Lost Girl S02E12 Masks SD CZ Dabing",
         "prepared_at": "2026-11-22T13:39:13.703864+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253509",
-        "size_bytes": 412072780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253509",
-        "size_bytes": 412072780,
-        "source_bytes_read": 412072780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253509",
         "source_bytes_read": 412072780,
         "elapsed_seconds": 27.507,
         "finished_at": "2026-11-22T13:40:02.966516+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253509",
+          "size_bytes": 412072780,
+          "source_bytes_read": 412072780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884569",
+        "source_url": "https://sdilej.cz/30884569/divka-odjinud-s02e12-masky-lost-girl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253509",
+        "display_name": "Lost Girl S02E12 Masks SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:40:10.598679+00:00"
       }
     }
   },
@@ -843849,7 +843850,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:40:02.966534+00:00",
+  "updated_at": "2026-11-22T13:40:10.598695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
