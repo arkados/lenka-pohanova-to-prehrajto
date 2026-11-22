@@ -837009,12 +837009,6 @@
     },
     "1089:4:11": {
       "episode_key": "nemocnice chicago med:s4:e11",
-      "claim": {
-        "worker_id": "cf185503aecc4304bd8c3a356e54a659-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:24:46.083039+00:00",
-        "lease_expires_at": "2026-11-22T16:24:46.083054+00:00"
-      },
       "source": {
         "source_id": "21340161",
         "source_url": "https://sdilej.cz/21340161/nemocnice.chicago.med.04x11.1080i.hevc.hdtv.cz.mkv",
@@ -837039,22 +837033,29 @@
         "display_name": "Chicago Med S04E11 Who Can You Trust 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:25:04.178474+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249817",
-        "size_bytes": 486402277
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249817",
-        "size_bytes": 486402277,
-        "source_bytes_read": 486402277,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249817",
         "source_bytes_read": 486402277,
         "elapsed_seconds": 54.046,
         "finished_at": "2026-11-22T10:26:29.293280+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249817",
+          "size_bytes": 486402277,
+          "source_bytes_read": 486402277,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21340161",
+        "source_url": "https://sdilej.cz/21340161/nemocnice.chicago.med.04x11.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249817",
+        "display_name": "Chicago Med S04E11 Who Can You Trust 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:26:44.167972+00:00"
       }
     },
     "1089:4:12": {
@@ -837151,7 +837152,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:26:38.239661+00:00",
+  "updated_at": "2026-11-22T10:26:44.167989+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
