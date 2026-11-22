@@ -836703,12 +836703,6 @@
     },
     "1089:4:4": {
       "episode_key": "nemocnice chicago med:s4:e4",
-      "claim": {
-        "worker_id": "04e2dab8f55b4240a93a0158f1e79b08-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:12:04.892897+00:00",
-        "lease_expires_at": "2026-11-22T16:12:04.892909+00:00"
-      },
       "source": {
         "source_id": "34812595",
         "source_url": "https://sdilej.cz/34812595/nemocnice-chicago-med-s04e04-065-2018-fhd-pritlacen-ke-zdi-s-.mp4",
@@ -836733,22 +836727,29 @@
         "display_name": "Chicago Med S04E04 Backed Against the Wall 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:12:16.485071+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249573",
-        "size_bytes": 840287462
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249573",
-        "size_bytes": 840287462,
-        "source_bytes_read": 840287462,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249573",
         "source_bytes_read": 840287462,
         "elapsed_seconds": 82.447,
         "finished_at": "2026-11-22T10:14:22.214312+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249573",
+          "size_bytes": 840287462,
+          "source_bytes_read": 840287462,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812595",
+        "source_url": "https://sdilej.cz/34812595/nemocnice-chicago-med-s04e04-065-2018-fhd-pritlacen-ke-zdi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249573",
+        "display_name": "Chicago Med S04E04 Backed Against the Wall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:14:30.813299+00:00"
       }
     },
     "1089:4:5": {
@@ -836845,7 +836846,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:14:22.214333+00:00",
+  "updated_at": "2026-11-22T10:14:30.813315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
