@@ -854623,12 +854623,12 @@
     },
     "724:1:9": {
       "episode_key": "kohout:s1:e9",
-      "claim": {
-        "worker_id": "3e5f6ac4cd2a472a89e9d4064785c53b-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:35:47.279035+00:00",
-        "lease_expires_at": "2026-11-23T04:35:47.279049+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-22T22:37:31.122091+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -854636,7 +854636,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:36:45.613743+00:00",
+  "updated_at": "2026-11-22T22:37:31.122110+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
