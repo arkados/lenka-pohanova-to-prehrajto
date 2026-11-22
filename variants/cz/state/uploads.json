@@ -841635,12 +841635,6 @@
     },
     "1089:8:16": {
       "episode_key": "nemocnice chicago med:s8:e16",
-      "claim": {
-        "worker_id": "6810f482eac2402f80dc7a0dbcd8ef2a-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:21:51.844366+00:00",
-        "lease_expires_at": "2026-11-22T18:21:51.844379+00:00"
-      },
       "source": {
         "source_id": "30458718",
         "source_url": "https://sdilej.cz/30458718/nemocnice-chicago-med-s08e16.mp4",
@@ -841665,22 +841659,29 @@
         "display_name": "Chicago Med S08E16 What You See Isn't Always What You Get 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:22:09.630571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251928",
-        "size_bytes": 669236275
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251928",
-        "size_bytes": 669236275,
-        "source_bytes_read": 669236275,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251928",
         "source_bytes_read": 669236275,
         "elapsed_seconds": 39.132,
         "finished_at": "2026-11-22T12:23:19.401719+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251928",
+          "size_bytes": 669236275,
+          "source_bytes_read": 669236275,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30458718",
+        "source_url": "https://sdilej.cz/30458718/nemocnice-chicago-med-s08e16.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251928",
+        "display_name": "Chicago Med S08E16 What You See Isn't Always What You Get 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:23:30.742980+00:00"
       }
     }
   },
@@ -841689,7 +841690,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:23:24.905593+00:00",
+  "updated_at": "2026-11-22T12:23:30.742994+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
