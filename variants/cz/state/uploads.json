@@ -815396,12 +815396,6 @@
     },
     "1204:2:21": {
       "episode_key": "o.c.:s2:e21",
-      "claim": {
-        "worker_id": "f90b1b8d323e44edbb61292d0bf0399d-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:32:40.954529+00:00",
-        "lease_expires_at": "2026-11-22T08:32:40.954545+00:00"
-      },
       "source": {
         "source_id": "34193445",
         "source_url": "https://sdilej.cz/34193445/o.c.-s02e21-the-return-of-the-nana-cz-dab.avi",
@@ -815426,22 +815420,29 @@
         "display_name": "The O.C. S02E21 The Return of the Nana SD CZ Dabing",
         "prepared_at": "2026-11-22T02:32:55.857806+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241855",
-        "size_bytes": 377131008
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241855",
-        "size_bytes": 377131008,
-        "source_bytes_read": 377131008,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241855",
         "source_bytes_read": 377131008,
         "elapsed_seconds": 21.274,
         "finished_at": "2026-11-22T02:33:43.570340+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241855",
+          "size_bytes": 377131008,
+          "source_bytes_read": 377131008,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193445",
+        "source_url": "https://sdilej.cz/34193445/o.c.-s02e21-the-return-of-the-nana-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241855",
+        "display_name": "The O.C. S02E21 The Return of the Nana SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:34:00.214610+00:00"
       }
     },
     "1204:2:22": {
@@ -815501,7 +815502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:33:55.384359+00:00",
+  "updated_at": "2026-11-22T02:34:00.214629+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
