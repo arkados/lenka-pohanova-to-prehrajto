@@ -820628,12 +820628,6 @@
     },
     "1595:1:19": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e19",
-      "claim": {
-        "worker_id": "2e61befb6c854e9c969e1a7b7a32e835-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:06:22.133858+00:00",
-        "lease_expires_at": "2026-11-22T10:06:22.133871+00:00"
-      },
       "source": {
         "source_id": "22613328",
         "source_url": "https://sdilej.cz/22613328/flashforward.2009.s01e19.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
@@ -820658,22 +820652,29 @@
         "display_name": "FlashForward S01E19 Course Correction 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:06:33.360119+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243466",
-        "size_bytes": 699115019
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243466",
-        "size_bytes": 699115019,
-        "source_bytes_read": 699115019,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243466",
         "source_bytes_read": 699115019,
         "elapsed_seconds": 80.631,
         "finished_at": "2026-11-22T04:08:29.428096+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243466",
+          "size_bytes": 699115019,
+          "source_bytes_read": 699115019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22613328",
+        "source_url": "https://sdilej.cz/22613328/flashforward.2009.s01e19.1080p.10bit.amzn.webrip.ac3.x265.hevc-monolith-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243466",
+        "display_name": "FlashForward S01E19 Course Correction 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:08:40.873344+00:00"
       }
     },
     "1595:1:21": {
@@ -820715,7 +820716,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:08:35.765667+00:00",
+  "updated_at": "2026-11-22T04:08:40.873360+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
