@@ -814900,12 +814900,6 @@
     },
     "1204:2:8": {
       "episode_key": "o.c.:s2:e8",
-      "claim": {
-        "worker_id": "a27e34d58a1f455692834d845435a474-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:25:27.097515+00:00",
-        "lease_expires_at": "2026-11-22T08:25:27.097528+00:00"
-      },
       "source": {
         "source_id": "34193307",
         "source_url": "https://sdilej.cz/34193307/o.c.-s02e08-the-power-of-love-cz-dab.avi",
@@ -814930,22 +814924,29 @@
         "display_name": "The O.C. S02E08 The Power of Love SD CZ Dabing",
         "prepared_at": "2026-11-22T02:25:38.037057+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241731",
-        "size_bytes": 377509888
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241731",
-        "size_bytes": 377509888,
-        "source_bytes_read": 377509888,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241731",
         "source_bytes_read": 377509888,
         "elapsed_seconds": 24.329,
         "finished_at": "2026-11-22T02:26:30.808285+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241731",
+          "size_bytes": 377509888,
+          "source_bytes_read": 377509888,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193307",
+        "source_url": "https://sdilej.cz/34193307/o.c.-s02e08-the-power-of-love-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241731",
+        "display_name": "The O.C. S02E08 The Power of Love SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:26:47.741932+00:00"
       }
     },
     "1204:2:9": {
@@ -814987,7 +814988,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:26:41.679409+00:00",
+  "updated_at": "2026-11-22T02:26:47.741952+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
