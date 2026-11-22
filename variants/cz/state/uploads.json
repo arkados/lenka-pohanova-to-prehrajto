@@ -851187,12 +851187,6 @@
     },
     "1132:3:4": {
       "episode_key": "měsíční svit:s3:e4",
-      "claim": {
-        "worker_id": "eb3c474c450548fcba8663cc4ca2f3dc-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:16:30.986537+00:00",
-        "lease_expires_at": "2026-11-22T23:16:30.986548+00:00"
-      },
       "source": {
         "source_id": "34983066",
         "source_url": "https://sdilej.cz/34983066/mesicni-svit-s03e04-nadosmrti-tvuj.mkv",
@@ -851217,22 +851211,29 @@
         "display_name": "Moonlighting S03E04 Yours, Very Deadly SD CZ Dabing",
         "prepared_at": "2026-11-22T17:16:41.820259+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257233",
-        "size_bytes": 271322706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257233",
-        "size_bytes": 271322706,
-        "source_bytes_read": 271322706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257233",
         "source_bytes_read": 271322706,
         "elapsed_seconds": 18.938,
         "finished_at": "2026-11-22T17:17:31.636608+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257233",
+          "size_bytes": 271322706,
+          "source_bytes_read": 271322706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983066",
+        "source_url": "https://sdilej.cz/34983066/mesicni-svit-s03e04-nadosmrti-tvuj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257233",
+        "display_name": "Moonlighting S03E04 Yours, Very Deadly SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:17:53.072330+00:00"
       }
     },
     "1132:3:5": {
@@ -851278,7 +851279,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:17:47.883262+00:00",
+  "updated_at": "2026-11-22T17:17:53.072344+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
