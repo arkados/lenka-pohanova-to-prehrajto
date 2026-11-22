@@ -823238,12 +823238,6 @@
     },
     "1094:4:8": {
       "episode_key": "skladiště 13:s4:e8",
-      "claim": {
-        "worker_id": "cc406a9a7af54306a3898e1ee115e65d-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:55:39.163802+00:00",
-        "lease_expires_at": "2026-11-22T10:55:39.163818+00:00"
-      },
       "source": {
         "source_id": "32443749",
         "source_url": "https://sdilej.cz/32443749/skladiste-13-s04e08-druha-sance.mkv",
@@ -823268,22 +823262,29 @@
         "display_name": "Warehouse 13 S04E08 Second Chance 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:55:49.425748+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244348",
-        "size_bytes": 942598705
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244348",
-        "size_bytes": 942598705,
-        "source_bytes_read": 942598705,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244348",
         "source_bytes_read": 942598705,
         "elapsed_seconds": 67.669,
         "finished_at": "2026-11-22T04:57:27.368399+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244348",
+          "size_bytes": 942598705,
+          "source_bytes_read": 942598705,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443749",
+        "source_url": "https://sdilej.cz/32443749/skladiste-13-s04e08-druha-sance.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244348",
+        "display_name": "Warehouse 13 S04E08 Second Chance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:57:35.378153+00:00"
       }
     }
   },
@@ -823292,7 +823293,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:57:27.368424+00:00",
+  "updated_at": "2026-11-22T04:57:35.378189+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
