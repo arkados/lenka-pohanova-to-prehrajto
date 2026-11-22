@@ -838878,12 +838878,6 @@
     },
     "1089:6:3": {
       "episode_key": "nemocnice chicago med:s6:e3",
-      "claim": {
-        "worker_id": "64c3c9876b1a4bf9b28458aa343617f7-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:10:34.332545+00:00",
-        "lease_expires_at": "2026-11-22T17:10:34.332554+00:00"
-      },
       "source": {
         "source_id": "34812743",
         "source_url": "https://sdilej.cz/34812743/nemocnice-chicago-med-s06e03-106-2021-fhd-znate-cestu-domu-s-.mp4",
@@ -838908,22 +838902,29 @@
         "display_name": "Chicago Med S06E03 Do You Know the Way Home? 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:10:40.802383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250682",
-        "size_bytes": 823966544
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250682",
-        "size_bytes": 823966544,
-        "source_bytes_read": 823966544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250682",
         "source_bytes_read": 823966544,
         "elapsed_seconds": 48.086,
         "finished_at": "2026-11-22T11:11:55.755887+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250682",
+          "size_bytes": 823966544,
+          "source_bytes_read": 823966544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812743",
+        "source_url": "https://sdilej.cz/34812743/nemocnice-chicago-med-s06e03-106-2021-fhd-znate-cestu-domu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250682",
+        "display_name": "Chicago Med S06E03 Do You Know the Way Home? 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:12:13.184988+00:00"
       }
     },
     "1089:6:4": {
@@ -839001,7 +839002,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:12:07.418248+00:00",
+  "updated_at": "2026-11-22T11:12:13.185001+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
