@@ -849984,12 +849984,6 @@
     },
     "1132:1:3": {
       "episode_key": "měsíční svit:s1:e3",
-      "claim": {
-        "worker_id": "2b69880f1cf84afba5df956fb021d012-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T16:20:13.114836+00:00",
-        "lease_expires_at": "2026-11-22T22:20:13.114845+00:00"
-      },
       "source": {
         "source_id": "34982972",
         "source_url": "https://sdilej.cz/34982972/mesicni-svit-s01e03-duchove-nevrazdi.mkv",
@@ -850014,22 +850008,29 @@
         "display_name": "Moonlighting S01E03 Read the Mind… See the Movie SD CZ Dabing",
         "prepared_at": "2026-11-22T16:20:34.629197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256310",
-        "size_bytes": 133204975
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256310",
-        "size_bytes": 133204975,
-        "source_bytes_read": 133204975,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256310",
         "source_bytes_read": 133204975,
         "elapsed_seconds": 16.731,
         "finished_at": "2026-11-22T16:21:27.569412+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256310",
+          "size_bytes": 133204975,
+          "source_bytes_read": 133204975,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34982972",
+        "source_url": "https://sdilej.cz/34982972/mesicni-svit-s01e03-duchove-nevrazdi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256310",
+        "display_name": "Moonlighting S01E03 Read the Mind… See the Movie SD CZ Dabing",
+        "uploaded_at": "2026-11-22T16:21:50.468776+00:00"
       }
     },
     "1132:1:4": {
@@ -850089,7 +850090,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:21:44.800291+00:00",
+  "updated_at": "2026-11-22T16:21:50.468792+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
