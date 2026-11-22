@@ -831558,12 +831558,6 @@
     },
     "2161:2:18": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e18",
-      "claim": {
-        "worker_id": "103d9e534ea54be999186ce1896ddf67-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T08:21:45.334206+00:00",
-        "lease_expires_at": "2026-11-22T14:21:45.334226+00:00"
-      },
       "source": {
         "source_id": "34209008",
         "source_url": "https://sdilej.cz/34209008/stargate-universe-s02e18-cz-dabing.mkv",
@@ -831587,7 +831581,17 @@
         },
         "display_name": "Stargate Universe S02E18 Epilogue (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-22T08:22:03.150539+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34209008:https://sdilej.cz/34209008/stargate-universe-s02e18-cz-dabing.mkv",
+        "at": "2026-11-22T08:22:20.994459+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T08:22:20.994678+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1200:1:16": {
       "episode_key": "tajemství pravdy:s1:e16",
@@ -831628,7 +831632,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T08:22:14.128285+00:00",
+  "updated_at": "2026-11-22T08:22:20.994688+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -832319,19 +832323,19 @@
     "2161": {
       "recent_failures": [
         {
-          "identity": "2161:1:17",
-          "at": "2026-11-22T08:21:19.507816+00:00"
-        },
-        {
           "identity": "2161:2:8",
           "at": "2026-11-22T08:21:40.087031+00:00"
         },
         {
           "identity": "2161:2:17",
           "at": "2026-11-22T08:22:08.279199+00:00"
+        },
+        {
+          "identity": "2161:2:18",
+          "at": "2026-11-22T08:22:20.994459+00:00"
         }
       ],
-      "retry_after": "2026-11-22T08:32:08.279199+00:00"
+      "retry_after": "2026-11-22T08:32:20.994459+00:00"
     },
     "1033": {
       "recent_failures": [
