@@ -838148,12 +838148,6 @@
     },
     "1089:5:9": {
       "episode_key": "nemocnice chicago med:s5:e9",
-      "claim": {
-        "worker_id": "91b8f78e9ba4472c944e8f877d276e85-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:52:14.812775+00:00",
-        "lease_expires_at": "2026-11-22T16:52:14.812786+00:00"
-      },
       "source": {
         "source_id": "34812690",
         "source_url": "https://sdilej.cz/34812690/nemocnice-chicago-med-s05e09-092-2019-fhd-bez-budoucnosti-s-.mp4",
@@ -838178,22 +838172,29 @@
         "display_name": "Chicago Med S05E09 I Can't Imagine the Future 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:52:30.723553+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250375",
-        "size_bytes": 841436458
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250375",
-        "size_bytes": 841436458,
-        "source_bytes_read": 841436458,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250375",
         "source_bytes_read": 841436458,
         "elapsed_seconds": 64.813,
         "finished_at": "2026-11-22T10:54:01.876363+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250375",
+          "size_bytes": 841436458,
+          "source_bytes_read": 841436458,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812690",
+        "source_url": "https://sdilej.cz/34812690/nemocnice-chicago-med-s05e09-092-2019-fhd-bez-budoucnosti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250375",
+        "display_name": "Chicago Med S05E09 I Can't Imagine the Future 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:54:16.563927+00:00"
       }
     }
   },
@@ -838202,7 +838203,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:54:08.340762+00:00",
+  "updated_at": "2026-11-22T10:54:16.563945+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
