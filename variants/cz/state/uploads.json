@@ -841731,12 +841731,6 @@
     },
     "1089:8:19": {
       "episode_key": "nemocnice chicago med:s8:e19",
-      "claim": {
-        "worker_id": "d0769cf48f8846069780eac5797f4e67-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:25:02.922288+00:00",
-        "lease_expires_at": "2026-11-22T18:25:02.922299+00:00"
-      },
       "source": {
         "source_id": "30534652",
         "source_url": "https://sdilej.cz/30534652/nemocnice-chicago-med-s08e19.mp4",
@@ -841761,22 +841755,29 @@
         "display_name": "Chicago Med S08E19 Look Closely and You Might Hear the Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:25:13.738500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31252051",
-        "size_bytes": 699150629
-      },
-      "transfer_receipt": {
-        "target_video_id": "31252051",
-        "size_bytes": 699150629,
-        "source_bytes_read": 699150629,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31252051",
         "source_bytes_read": 699150629,
         "elapsed_seconds": 39.875,
         "finished_at": "2026-11-22T12:26:26.300779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31252051",
+          "size_bytes": 699150629,
+          "source_bytes_read": 699150629,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30534652",
+        "source_url": "https://sdilej.cz/30534652/nemocnice-chicago-med-s08e19.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31252051",
+        "display_name": "Chicago Med S08E19 Look Closely and You Might Hear the Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:26:37.815475+00:00"
       }
     },
     "1089:8:20": {
@@ -841822,7 +841823,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:26:31.761213+00:00",
+  "updated_at": "2026-11-22T12:26:37.815491+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
