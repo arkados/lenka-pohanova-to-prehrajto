@@ -834447,12 +834447,6 @@
     },
     "1089:2:3": {
       "episode_key": "nemocnice chicago med:s2:e3",
-      "claim": {
-        "worker_id": "bc4beeec8de54f84aabecb35d51d2b22-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T09:27:04.733581+00:00",
-        "lease_expires_at": "2026-11-22T15:27:04.733592+00:00"
-      },
       "source": {
         "source_id": "20955630",
         "source_url": "https://sdilej.cz/20955630/nemocnice.chicago.med.02x03.1080i.hevc.hdtv.cz.mkv",
@@ -834477,22 +834471,29 @@
         "display_name": "Chicago Med S02E03 Natural History 1080p CZ Dabing",
         "prepared_at": "2026-11-22T09:27:32.178928+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31248745",
-        "size_bytes": 487199755
-      },
-      "transfer_receipt": {
-        "target_video_id": "31248745",
-        "size_bytes": 487199755,
-        "source_bytes_read": 487199755,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31248745",
         "source_bytes_read": 487199755,
         "elapsed_seconds": 31.626,
         "finished_at": "2026-11-22T09:28:30.113661+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31248745",
+          "size_bytes": 487199755,
+          "source_bytes_read": 487199755,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20955630",
+        "source_url": "https://sdilej.cz/20955630/nemocnice.chicago.med.02x03.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31248745",
+        "display_name": "Chicago Med S02E03 Natural History 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T09:28:42.242054+00:00"
       }
     },
     "1089:2:4": {
@@ -834538,7 +834539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T09:28:35.149758+00:00",
+  "updated_at": "2026-11-22T09:28:42.242070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
