@@ -814288,12 +814288,6 @@
     },
     "1204:1:21": {
       "episode_key": "o.c.:s1:e21",
-      "claim": {
-        "worker_id": "06da2ede2c56445aa96ba83de2c8f126-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:14:35.056097+00:00",
-        "lease_expires_at": "2026-11-22T08:14:35.056118+00:00"
-      },
       "source": {
         "source_id": "34192865",
         "source_url": "https://sdilej.cz/34192865/o.c.-s01e21-the-goodbye-girl-cz-dab.avi",
@@ -814318,22 +814312,29 @@
         "display_name": "The O.C. S01E21 The Goodbye Girl SD CZ Dabing",
         "prepared_at": "2026-11-22T02:14:45.621071+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241554",
-        "size_bytes": 413974528
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241554",
-        "size_bytes": 413974528,
-        "source_bytes_read": 413974528,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241554",
         "source_bytes_read": 413974528,
         "elapsed_seconds": 24.616,
         "finished_at": "2026-11-22T02:15:35.798271+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241554",
+          "size_bytes": 413974528,
+          "source_bytes_read": 413974528,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192865",
+        "source_url": "https://sdilej.cz/34192865/o.c.-s01e21-the-goodbye-girl-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241554",
+        "display_name": "The O.C. S01E21 The Goodbye Girl SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:16:00.845131+00:00"
       }
     },
     "1204:1:22": {
@@ -814415,7 +814416,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:15:55.906710+00:00",
+  "updated_at": "2026-11-22T02:16:00.845146+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
