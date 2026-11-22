@@ -830938,12 +830938,6 @@
     },
     "2161:2:17": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e17",
-      "claim": {
-        "worker_id": "80fefe9430c24392817391a5e40867f8-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T08:05:37.477812+00:00",
-        "lease_expires_at": "2026-11-22T14:05:37.477830+00:00"
-      },
       "source": {
         "source_id": "34209006",
         "source_url": "https://sdilej.cz/34209006/stargate-universe-s02e17-cz-dabing.mkv",
@@ -830967,7 +830961,17 @@
         },
         "display_name": "Stargate Universe S02E17 Common Descent (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-22T08:05:49.633544+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34209006:https://sdilej.cz/34209006/stargate-universe-s02e17-cz-dabing.mkv",
+        "at": "2026-11-22T08:06:07.423649+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T08:06:07.423722+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1200:1:5": {
       "episode_key": "tajemství pravdy:s1:e5",
@@ -831008,7 +831012,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T08:06:00.849861+00:00",
+  "updated_at": "2026-11-22T08:06:07.423730+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -831683,19 +831687,19 @@
     "2161": {
       "recent_failures": [
         {
-          "identity": "2161:1:11",
-          "at": "2026-11-22T08:04:25.386000+00:00"
-        },
-        {
           "identity": "2161:1:9",
           "at": "2026-11-22T08:04:31.700366+00:00"
         },
         {
           "identity": "2161:2:10",
           "at": "2026-11-22T08:05:26.119468+00:00"
+        },
+        {
+          "identity": "2161:2:17",
+          "at": "2026-11-22T08:06:07.423649+00:00"
         }
       ],
-      "retry_after": "2026-11-22T08:15:26.119468+00:00"
+      "retry_after": "2026-11-22T08:16:07.423649+00:00"
     },
     "1033": {
       "recent_failures": [
