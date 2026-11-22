@@ -816079,12 +816079,6 @@
     },
     "1204:3:13": {
       "episode_key": "o.c.:s3:e13",
-      "claim": {
-        "worker_id": "3b5c87ac2b1349ae9eb8b75ee60cf768-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:41:19.275481+00:00",
-        "lease_expires_at": "2026-11-22T08:41:19.275498+00:00"
-      },
       "source": {
         "source_id": "34193632",
         "source_url": "https://sdilej.cz/34193632/o.c.-s03e13-the-pot-stirrer-cz-dab.avi",
@@ -816109,22 +816103,29 @@
         "display_name": "The O.C. S03E13 The Pot Stirrer SD CZ Dabing",
         "prepared_at": "2026-11-22T02:41:32.995858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241998",
-        "size_bytes": 358277666
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241998",
-        "size_bytes": 358277666,
-        "source_bytes_read": 358277666,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241998",
         "source_bytes_read": 358277666,
         "elapsed_seconds": 24.418,
         "finished_at": "2026-11-22T02:42:24.808185+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241998",
+          "size_bytes": 358277666,
+          "source_bytes_read": 358277666,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193632",
+        "source_url": "https://sdilej.cz/34193632/o.c.-s03e13-the-pot-stirrer-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241998",
+        "display_name": "The O.C. S03E13 The Pot Stirrer SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:42:37.047147+00:00"
       }
     }
   },
@@ -816133,7 +816134,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:42:30.236370+00:00",
+  "updated_at": "2026-11-22T02:42:37.047165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
