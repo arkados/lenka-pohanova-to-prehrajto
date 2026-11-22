@@ -818216,12 +818216,6 @@
     },
     "1306:1:7": {
       "episode_key": "všemocný:s1:e7",
-      "claim": {
-        "worker_id": "ad6758233c804d7b8805992cb94086e7-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:32:12.501493+00:00",
-        "lease_expires_at": "2026-11-22T09:32:12.501507+00:00"
-      },
       "source": {
         "source_id": "30453290",
         "source_url": "https://sdilej.cz/30453290/vsemocny-limitless-s01e07-czdab.mp4",
@@ -818246,22 +818240,29 @@
         "display_name": "Limitless S01E07 Brian Finch's Black Op 720p CZ Dabing",
         "prepared_at": "2026-11-22T03:32:19.127861+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242919",
-        "size_bytes": 876460265
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242919",
-        "size_bytes": 876460265,
-        "source_bytes_read": 876460265,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242919",
         "source_bytes_read": 876460265,
         "elapsed_seconds": 56.173,
         "finished_at": "2026-11-22T03:33:41.043889+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242919",
+          "size_bytes": 876460265,
+          "source_bytes_read": 876460265,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30453290",
+        "source_url": "https://sdilej.cz/30453290/vsemocny-limitless-s01e07-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242919",
+        "display_name": "Limitless S01E07 Brian Finch's Black Op 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:33:58.138160+00:00"
       }
     },
     "1306:1:9": {
@@ -818358,7 +818359,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:33:52.219943+00:00",
+  "updated_at": "2026-11-22T03:33:58.138195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
