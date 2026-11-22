@@ -839949,12 +839949,6 @@
     },
     "1089:7:8": {
       "episode_key": "nemocnice chicago med:s7:e8",
-      "claim": {
-        "worker_id": "41a0d8ff491e41bbbfed07ad3f0d75a2-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:40:40.826657+00:00",
-        "lease_expires_at": "2026-11-22T17:40:40.826669+00:00"
-      },
       "source": {
         "source_id": "30425236",
         "source_url": "https://sdilej.cz/30425236/nemocnice-chicago-med-s07e08.mp4",
@@ -839979,22 +839973,29 @@
         "display_name": "Chicago Med S07E08 Just as a Snake Sheds Its Skin 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:40:47.328409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251193",
-        "size_bytes": 714255804
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251193",
-        "size_bytes": 714255804,
-        "source_bytes_read": 714255804,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251193",
         "source_bytes_read": 714255804,
         "elapsed_seconds": 54.986,
         "finished_at": "2026-11-22T11:42:12.733593+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251193",
+          "size_bytes": 714255804,
+          "source_bytes_read": 714255804,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30425236",
+        "source_url": "https://sdilej.cz/30425236/nemocnice-chicago-med-s07e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251193",
+        "display_name": "Chicago Med S07E08 Just as a Snake Sheds Its Skin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:42:31.554949+00:00"
       }
     },
     "1089:7:11": {
@@ -840073,7 +840074,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:42:25.782819+00:00",
+  "updated_at": "2026-11-22T11:42:31.554966+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
