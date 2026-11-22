@@ -832160,12 +832160,6 @@
     },
     "2161:2:19": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e19",
-      "claim": {
-        "worker_id": "a966dd32bcd54f6e81478481502ba4ab-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T08:34:31.595824+00:00",
-        "lease_expires_at": "2026-11-22T14:34:31.595843+00:00"
-      },
       "source": {
         "source_id": "34209010",
         "source_url": "https://sdilej.cz/34209010/stargate-universe-s02e19-cz-dabing.mkv",
@@ -832189,7 +832183,17 @@
         },
         "display_name": "Stargate Universe S02E19 Blockade 1080p CZ Dabing",
         "prepared_at": "2026-11-22T08:34:48.265166+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34209010:https://sdilej.cz/34209010/stargate-universe-s02e19-cz-dabing.mkv",
+        "at": "2026-11-22T08:35:06.321744+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T08:35:06.321808+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2161:2:20": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e20",
@@ -832230,7 +832234,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T08:34:59.731250+00:00",
+  "updated_at": "2026-11-22T08:35:06.321816+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -832899,6 +832903,10 @@
         {
           "identity": "2161:1:18",
           "at": "2026-11-22T08:34:53.572809+00:00"
+        },
+        {
+          "identity": "2161:2:19",
+          "at": "2026-11-22T08:35:06.321744+00:00"
         }
       ],
       "retry_after": "2026-11-22T08:32:20.994459+00:00"
