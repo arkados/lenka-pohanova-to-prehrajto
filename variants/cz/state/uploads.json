@@ -853631,12 +853631,6 @@
     },
     "6009:1:5": {
       "episode_key": "mildred pierceová:s1:e5",
-      "claim": {
-        "worker_id": "1a1a1a0088be4769b94dd4f848a7cc1f-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:32:55.981230+00:00",
-        "lease_expires_at": "2026-11-23T03:32:55.981243+00:00"
-      },
       "source": {
         "source_id": "28247930",
         "source_url": "https://sdilej.cz/28247930/mildred-pierceova-s01e05-dil-5.mkv",
@@ -853677,7 +853671,13 @@
         "elapsed_seconds": 168.95,
         "finished_at": "2026-11-22T21:36:37.733229+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T21:38:12.385168+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "701:1:1": {
       "episode_key": "harry hole:s1:e1",
@@ -853745,7 +853745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:37:56.693907+00:00",
+  "updated_at": "2026-11-22T21:38:12.385187+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
