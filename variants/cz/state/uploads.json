@@ -851886,12 +851886,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "ea8554542fbc4dc7a138aaa7df57c115-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:08:13.273819+00:00",
-        "lease_expires_at": "2026-11-23T00:08:13.273828+00:00"
-      },
       "source": {
         "source_id": "34983085",
         "source_url": "https://sdilej.cz/34983085/mesicni-svit-s03e15-dedicka.mkv",
@@ -851916,22 +851910,29 @@
         "display_name": "Moonlighting S03E15 To Heiress Human SD CZ Dabing",
         "prepared_at": "2026-11-22T18:08:19.946435+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31258002",
-        "size_bytes": 201798964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31258002",
-        "size_bytes": 201798964,
-        "source_bytes_read": 201798964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31258002",
         "source_bytes_read": 201798964,
         "elapsed_seconds": 14.765,
         "finished_at": "2026-11-22T18:09:12.040381+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31258002",
+          "size_bytes": 201798964,
+          "source_bytes_read": 201798964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983085",
+        "source_url": "https://sdilej.cz/34983085/mesicni-svit-s03e15-dedicka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31258002",
+        "display_name": "Moonlighting S03E15 To Heiress Human SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:09:24.339927+00:00"
       }
     },
     "1132:4:1": {
@@ -852035,7 +852036,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:09:17.664590+00:00",
+  "updated_at": "2026-11-22T18:09:24.339946+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
