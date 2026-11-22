@@ -838419,12 +838419,6 @@
     },
     "1089:5:13": {
       "episode_key": "nemocnice chicago med:s5:e13",
-      "claim": {
-        "worker_id": "7415e6f24c434f9fa2c9524046e01f9c-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:02:00.633288+00:00",
-        "lease_expires_at": "2026-11-22T17:02:00.633302+00:00"
-      },
       "source": {
         "source_id": "34812707",
         "source_url": "https://sdilej.cz/34812707/nemocnice-chicago-med-s05e13-096-2020-fhd-bolest-je-pro-zive-s-.mp4",
@@ -838449,22 +838443,29 @@
         "display_name": "Chicago Med S05E13 Pain Is for the Living 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:02:08.730297+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250567",
-        "size_bytes": 843824093
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250567",
-        "size_bytes": 843824093,
-        "source_bytes_read": 843824093,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250567",
         "source_bytes_read": 843824093,
         "elapsed_seconds": 66.179,
         "finished_at": "2026-11-22T11:03:59.230974+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250567",
+          "size_bytes": 843824093,
+          "source_bytes_read": 843824093,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812707",
+        "source_url": "https://sdilej.cz/34812707/nemocnice-chicago-med-s05e13-096-2020-fhd-bolest-je-pro-zive-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250567",
+        "display_name": "Chicago Med S05E13 Pain Is for the Living 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:04:14.807294+00:00"
       }
     },
     "1089:5:14": {
@@ -838573,7 +838574,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:04:10.018559+00:00",
+  "updated_at": "2026-11-22T11:04:14.807310+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
