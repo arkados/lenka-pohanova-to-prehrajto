@@ -856305,12 +856305,6 @@
     },
     "1661:1:3": {
       "episode_key": "severní vody:s1:e3",
-      "claim": {
-        "worker_id": "16df23c175a64be78782ca010f48c0d4-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:57:27.570545+00:00",
-        "lease_expires_at": "2026-11-23T05:57:27.570561+00:00"
-      },
       "source": {
         "source_id": "24524283",
         "source_url": "https://sdilej.cz/24524283/severni-vody-the-north-water-s01e03-cz-sk-1080p-malasorte.mkv",
@@ -856334,7 +856328,17 @@
         },
         "display_name": "The North Water S01E03 Homo Homini Lupus 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:57:33.893578+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "24524283:https://sdilej.cz/24524283/severni-vody-the-north-water-s01e03-cz-sk-1080p-malasorte.mkv",
+        "at": "2026-11-22T23:57:54.731222+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T23:57:54.731252+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -856342,7 +856346,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:57:49.350460+00:00",
+  "updated_at": "2026-11-22T23:57:54.731259+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -857048,6 +857052,14 @@
         {
           "identity": "701:1:5",
           "at": "2026-11-22T23:38:10.828927+00:00"
+        }
+      ]
+    },
+    "1661": {
+      "recent_failures": [
+        {
+          "identity": "1661:1:3",
+          "at": "2026-11-22T23:57:54.731222+00:00"
         }
       ]
     }
