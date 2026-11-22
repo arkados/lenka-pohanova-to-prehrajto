@@ -834612,12 +834612,6 @@
     },
     "1089:2:6": {
       "episode_key": "nemocnice chicago med:s2:e6",
-      "claim": {
-        "worker_id": "17fe30e58f4f461fb3a7a5fbf6dc2d4a-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T09:30:24.166678+00:00",
-        "lease_expires_at": "2026-11-22T15:30:24.166690+00:00"
-      },
       "source": {
         "source_id": "30316804",
         "source_url": "https://sdilej.cz/30316804/nemocnice-chicago-med-s02e06-czdab.mp4",
@@ -834642,22 +834636,29 @@
         "display_name": "Chicago Med S02E06 Alternative Medicine 1080p CZ Dabing",
         "prepared_at": "2026-11-22T09:30:39.925368+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31248796",
-        "size_bytes": 1769280986
-      },
-      "transfer_receipt": {
-        "target_video_id": "31248796",
-        "size_bytes": 1769280986,
-        "source_bytes_read": 1769280986,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31248796",
         "source_bytes_read": 1769280986,
         "elapsed_seconds": 118.708,
         "finished_at": "2026-11-22T09:33:04.848820+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31248796",
+          "size_bytes": 1769280986,
+          "source_bytes_read": 1769280986,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30316804",
+        "source_url": "https://sdilej.cz/30316804/nemocnice-chicago-med-s02e06-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31248796",
+        "display_name": "Chicago Med S02E06 Alternative Medicine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T09:33:21.029620+00:00"
       }
     }
   },
@@ -834666,7 +834667,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T09:33:15.279676+00:00",
+  "updated_at": "2026-11-22T09:33:21.029634+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
