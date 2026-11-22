@@ -845808,12 +845808,6 @@
     },
     "4011:1:4": {
       "episode_key": "město patří nám:s1:e4",
-      "claim": {
-        "worker_id": "0333e2c8a1ba48eeb62023fe8f73f5f3-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:19:40.844077+00:00",
-        "lease_expires_at": "2026-11-22T20:19:40.844086+00:00"
-      },
       "source": {
         "source_id": "21634727",
         "source_url": "https://sdilej.cz/21634727/mesto-patri-nam-we-own-this-city-s01e04-cz-1080p-web-dl-dd5.1-h264-top.mkv",
@@ -845838,22 +845832,29 @@
         "display_name": "We Own This City S01E04 Part Four 1080p CZ Dabing",
         "prepared_at": "2026-11-22T14:19:53.708346+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31254143",
-        "size_bytes": 3813548029
-      },
-      "transfer_receipt": {
-        "target_video_id": "31254143",
-        "size_bytes": 3813548029,
-        "source_bytes_read": 3813548029,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31254143",
         "source_bytes_read": 3813548029,
         "elapsed_seconds": 251.951,
         "finished_at": "2026-11-22T14:24:38.983757+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31254143",
+          "size_bytes": 3813548029,
+          "source_bytes_read": 3813548029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21634727",
+        "source_url": "https://sdilej.cz/21634727/mesto-patri-nam-we-own-this-city-s01e04-cz-1080p-web-dl-dd5.1-h264-top.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31254143",
+        "display_name": "We Own This City S01E04 Part Four 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T14:24:54.703082+00:00"
       }
     },
     "4011:1:6": {
@@ -845964,7 +845965,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:24:49.122564+00:00",
+  "updated_at": "2026-11-22T14:24:54.703098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
