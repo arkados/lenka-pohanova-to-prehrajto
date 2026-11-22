@@ -852210,12 +852210,6 @@
     },
     "1132:4:6": {
       "episode_key": "měsíční svit:s4:e6",
-      "claim": {
-        "worker_id": "cf817003129849b094abb322873273ba-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T18:19:18.920222+00:00",
-        "lease_expires_at": "2026-11-23T00:19:18.920231+00:00"
-      },
       "source": {
         "source_id": "34983111",
         "source_url": "https://sdilej.cz/34983111/mesicni-svit-s04e06-chladnokrevne-2.mkv",
@@ -852240,22 +852234,29 @@
         "display_name": "Moonlighting S04E06 Cool Hand Dave (Part II) SD CZ Dabing",
         "prepared_at": "2026-11-22T18:19:34.026215+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31258174",
-        "size_bytes": 241330647
-      },
-      "transfer_receipt": {
-        "target_video_id": "31258174",
-        "size_bytes": 241330647,
-        "source_bytes_read": 241330647,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31258174",
         "source_bytes_read": 241330647,
         "elapsed_seconds": 17.876,
         "finished_at": "2026-11-22T18:20:33.660879+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31258174",
+          "size_bytes": 241330647,
+          "source_bytes_read": 241330647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983111",
+        "source_url": "https://sdilej.cz/34983111/mesicni-svit-s04e06-chladnokrevne-2.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31258174",
+        "display_name": "Moonlighting S04E06 Cool Hand Dave (Part II) SD CZ Dabing",
+        "uploaded_at": "2026-11-22T18:20:49.975172+00:00"
       }
     },
     "1132:4:7": {
@@ -852348,7 +852349,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T18:20:45.145148+00:00",
+  "updated_at": "2026-11-22T18:20:49.975187+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
