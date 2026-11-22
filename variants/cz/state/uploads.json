@@ -837416,12 +837416,6 @@
     },
     "1089:4:18": {
       "episode_key": "nemocnice chicago med:s4:e18",
-      "claim": {
-        "worker_id": "95553d3885b94d91988b87d18110383e-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:29:58.247202+00:00",
-        "lease_expires_at": "2026-11-22T16:29:58.247212+00:00"
-      },
       "source": {
         "source_id": "21340246",
         "source_url": "https://sdilej.cz/21340246/nemocnice.chicago.med.04x18.1080i.hevc.hdtv.cz.mkv",
@@ -837446,22 +837440,29 @@
         "display_name": "Chicago Med S04E18 Tell Me the Truth 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:30:26.519907+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249943",
-        "size_bytes": 480512423
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249943",
-        "size_bytes": 480512423,
-        "source_bytes_read": 480512423,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249943",
         "source_bytes_read": 480512423,
         "elapsed_seconds": 26.336,
         "finished_at": "2026-11-22T10:31:22.576425+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249943",
+          "size_bytes": 480512423,
+          "source_bytes_read": 480512423,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21340246",
+        "source_url": "https://sdilej.cz/21340246/nemocnice.chicago.med.04x18.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249943",
+        "display_name": "Chicago Med S04E18 Tell Me the Truth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:31:42.212189+00:00"
       }
     }
   },
@@ -837470,7 +837471,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:31:35.133502+00:00",
+  "updated_at": "2026-11-22T10:31:42.212206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
