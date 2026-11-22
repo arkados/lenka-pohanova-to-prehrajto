@@ -816430,12 +816430,6 @@
     },
     "1204:3:22": {
       "episode_key": "o.c.:s3:e22",
-      "claim": {
-        "worker_id": "988a0e03a4cd4d2c8a8665abb5820f88-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:46:27.387147+00:00",
-        "lease_expires_at": "2026-11-22T08:46:27.387163+00:00"
-      },
       "source": {
         "source_id": "34193711",
         "source_url": "https://sdilej.cz/34193711/o.c.-s03e22-the-college-try-cz-dab.avi",
@@ -816460,22 +816454,29 @@
         "display_name": "The O.C. S03E22 The College Try SD CZ Dabing",
         "prepared_at": "2026-11-22T02:46:48.895327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242080",
-        "size_bytes": 367157248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242080",
-        "size_bytes": 367157248,
-        "source_bytes_read": 367157248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242080",
         "source_bytes_read": 367157248,
         "elapsed_seconds": 17.371,
         "finished_at": "2026-11-22T02:47:40.380559+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242080",
+          "size_bytes": 367157248,
+          "source_bytes_read": 367157248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193711",
+        "source_url": "https://sdilej.cz/34193711/o.c.-s03e22-the-college-try-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242080",
+        "display_name": "The O.C. S03E22 The College Try SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:47:54.554470+00:00"
       }
     },
     "1204:3:23": {
@@ -816530,7 +816531,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:47:49.676286+00:00",
+  "updated_at": "2026-11-22T02:47:54.554486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
