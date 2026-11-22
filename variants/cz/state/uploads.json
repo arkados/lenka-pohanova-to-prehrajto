@@ -809492,12 +809492,6 @@
     },
     "117:1:11": {
       "episode_key": "sandman:s1:e11",
-      "claim": {
-        "worker_id": "fb11fada555643e8bd14061e7f65dc5f-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:45:30.749755+00:00",
-        "lease_expires_at": "2026-11-22T06:45:30.749773+00:00"
-      },
       "source": {
         "source_id": "32125502",
         "source_url": "https://sdilej.cz/32125502/sandman-s01e11-sen-o-tisici-kockach-kalliope.mkv",
@@ -809522,22 +809516,29 @@
         "display_name": "The Sandman S01E11 Dream of a Thousand Cats/Calliope 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:45:42.492535+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240088",
-        "size_bytes": 2953415322
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240088",
-        "size_bytes": 2953415322,
-        "source_bytes_read": 2953415322,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240088",
         "source_bytes_read": 2953415322,
         "elapsed_seconds": 166.924,
         "finished_at": "2026-11-22T00:48:58.286281+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240088",
+          "size_bytes": 2953415322,
+          "source_bytes_read": 2953415322,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125502",
+        "source_url": "https://sdilej.cz/32125502/sandman-s01e11-sen-o-tisici-kockach-kalliope.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240088",
+        "display_name": "The Sandman S01E11 Dream of a Thousand Cats/Calliope 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:49:05.146495+00:00"
       }
     },
     "117:2:1": {
@@ -809633,7 +809634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:48:58.286301+00:00",
+  "updated_at": "2026-11-22T00:49:05.146514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
