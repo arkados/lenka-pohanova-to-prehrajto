@@ -820871,12 +820871,6 @@
     },
     "1273:2:5": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e5",
-      "claim": {
-        "worker_id": "6713cef25d0d49c2ae500decfdb9a4db-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:15:37.818016+00:00",
-        "lease_expires_at": "2026-11-22T10:15:37.818030+00:00"
-      },
       "source": {
         "source_id": "33734396",
         "source_url": "https://sdilej.cz/33734396/terminator-pribeh-sary-connorove-s02e05-cz-dabing-full-hd.mkv",
@@ -820900,7 +820894,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S02E05 Goodbye to All That 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:15:48.089475+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734396:https://sdilej.cz/33734396/terminator-pribeh-sary-connorove-s02e05-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T04:16:06.515074+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T04:16:06.515122+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -820908,7 +820912,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:16:01.653281+00:00",
+  "updated_at": "2026-11-22T04:16:06.515128+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -821569,16 +821573,8 @@
     "1273": {
       "recent_failures": [
         {
-          "identity": "1273:1:4",
-          "at": "2026-11-22T04:01:05.431754+00:00"
-        },
-        {
-          "identity": "1273:1:5",
-          "at": "2026-11-22T04:01:14.104691+00:00"
-        },
-        {
-          "identity": "1273:2:4",
-          "at": "2026-11-22T04:01:39.975402+00:00"
+          "identity": "1273:2:5",
+          "at": "2026-11-22T04:16:06.515074+00:00"
         }
       ],
       "retry_after": "2026-11-22T04:11:39.975402+00:00"
