@@ -824614,12 +824614,6 @@
     },
     "154:1:1": {
       "episode_key": "devs:s1:e1",
-      "claim": {
-        "worker_id": "8a10134d75644d8b9355fdafe7e76e3a-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:23:05.722793+00:00",
-        "lease_expires_at": "2026-11-22T11:23:05.722809+00:00"
-      },
       "source": {
         "source_id": "34830315",
         "source_url": "https://sdilej.cz/34830315/devs-s01e01-epizoda-1.mkv",
@@ -824644,22 +824638,29 @@
         "display_name": "Devs S01E01 4K CZ Dabing",
         "prepared_at": "2026-11-22T05:23:21.471013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244890",
-        "size_bytes": 5661957373
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244890",
-        "size_bytes": 5661957373,
-        "source_bytes_read": 5661957373,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244890",
         "source_bytes_read": 5661957373,
         "elapsed_seconds": 319.737,
         "finished_at": "2026-11-22T05:29:09.890224+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244890",
+          "size_bytes": 5661957373,
+          "source_bytes_read": 5661957373,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34830315",
+        "source_url": "https://sdilej.cz/34830315/devs-s01e01-epizoda-1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244890",
+        "display_name": "Devs S01E01 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T05:29:20.537661+00:00"
       }
     },
     "154:1:2": {
@@ -824705,7 +824706,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:29:15.507683+00:00",
+  "updated_at": "2026-11-22T05:29:20.537676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
