@@ -813968,12 +813968,6 @@
     },
     "1204:1:15": {
       "episode_key": "o.c.:s1:e15",
-      "claim": {
-        "worker_id": "9f7a4e9770c1445c9cb8b6fe9c2c17c5-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T02:01:25.314830+00:00",
-        "lease_expires_at": "2026-11-22T08:01:25.314848+00:00"
-      },
       "source": {
         "source_id": "34192742",
         "source_url": "https://sdilej.cz/34192742/o.c.-s01e15-the-third-wheel-cz-dab.avi",
@@ -813998,22 +813992,29 @@
         "display_name": "The O.C. S01E15 The Third Wheel SD CZ Dabing",
         "prepared_at": "2026-11-22T02:01:36.895590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241342",
-        "size_bytes": 414846976
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241342",
-        "size_bytes": 414846976,
-        "source_bytes_read": 414846976,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241342",
         "source_bytes_read": 414846976,
         "elapsed_seconds": 33.292,
         "finished_at": "2026-11-22T02:02:33.590019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241342",
+          "size_bytes": 414846976,
+          "source_bytes_read": 414846976,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192742",
+        "source_url": "https://sdilej.cz/34192742/o.c.-s01e15-the-third-wheel-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241342",
+        "display_name": "The O.C. S01E15 The Third Wheel SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:02:41.971506+00:00"
       }
     },
     "1204:1:16": {
@@ -814059,7 +814060,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:02:33.590039+00:00",
+  "updated_at": "2026-11-22T02:02:41.971527+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
