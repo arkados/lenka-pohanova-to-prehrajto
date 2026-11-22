@@ -839337,12 +839337,6 @@
     },
     "1089:6:12": {
       "episode_key": "nemocnice chicago med:s6:e12",
-      "claim": {
-        "worker_id": "238036b585b04b03b53304544dfb0858-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:23:10.683946+00:00",
-        "lease_expires_at": "2026-11-22T17:23:10.683955+00:00"
-      },
       "source": {
         "source_id": "21598223",
         "source_url": "https://sdilej.cz/21598223/nemocnice.chicago.med.06x12.1080i.hevc.hdtv.cz.mkv",
@@ -839367,22 +839361,29 @@
         "display_name": "Chicago Med S06E12 Some Things Are Worth the Risk 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:23:27.560392+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31250898",
-        "size_bytes": 484949200
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250898",
-        "size_bytes": 484949200,
-        "source_bytes_read": 484949200,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250898",
         "source_bytes_read": 484949200,
         "elapsed_seconds": 37.565,
         "finished_at": "2026-11-22T11:24:36.105135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250898",
+          "size_bytes": 484949200,
+          "source_bytes_read": 484949200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21598223",
+        "source_url": "https://sdilej.cz/21598223/nemocnice.chicago.med.06x12.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250898",
+        "display_name": "Chicago Med S06E12 Some Things Are Worth the Risk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:24:44.538602+00:00"
       }
     },
     "1089:6:13": {
@@ -839428,7 +839429,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:24:36.105177+00:00",
+  "updated_at": "2026-11-22T11:24:44.538617+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
