@@ -817245,12 +817245,6 @@
     },
     "1204:4:13": {
       "episode_key": "o.c.:s4:e13",
-      "claim": {
-        "worker_id": "9d020592bc1b4d2d9c846cc9102d009b-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:56:56.423295+00:00",
-        "lease_expires_at": "2026-11-22T08:56:56.423306+00:00"
-      },
       "source": {
         "source_id": "34193834",
         "source_url": "https://sdilej.cz/34193834/o.c.-s04e13-the-case-of-the-franks-cz-dab.avi",
@@ -817275,22 +817269,29 @@
         "display_name": "The O.C. S04E13 The Case of the Franks SD CZ Dabing",
         "prepared_at": "2026-11-22T02:57:12.903519+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242246",
-        "size_bytes": 358513204
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242246",
-        "size_bytes": 358513204,
-        "source_bytes_read": 358513204,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242246",
         "source_bytes_read": 358513204,
         "elapsed_seconds": 18.488,
         "finished_at": "2026-11-22T02:58:07.222537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242246",
+          "size_bytes": 358513204,
+          "source_bytes_read": 358513204,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193834",
+        "source_url": "https://sdilej.cz/34193834/o.c.-s04e13-the-case-of-the-franks-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242246",
+        "display_name": "The O.C. S04E13 The Case of the Franks SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:58:14.581932+00:00"
       }
     },
     "1204:4:14": {
@@ -817336,7 +817337,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:58:07.222560+00:00",
+  "updated_at": "2026-11-22T02:58:14.581950+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
