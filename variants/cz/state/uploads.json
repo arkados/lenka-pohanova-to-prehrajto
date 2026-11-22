@@ -854427,12 +854427,6 @@
     },
     "724:1:4": {
       "episode_key": "kohout:s1:e4",
-      "claim": {
-        "worker_id": "28cf8201ef2d4526b74e0dcb066095bf-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:27:44.680100+00:00",
-        "lease_expires_at": "2026-11-23T04:27:44.680115+00:00"
-      },
       "source": {
         "source_id": "33835544",
         "source_url": "https://sdilej.cz/33835544/kohout-s01e04-nastvany-jako-nastvany-clovek-cz-dabing-2026-1080p-h265.mkv",
@@ -854457,22 +854451,29 @@
         "display_name": "Rooster S01E04 Angry, Like an Angry Person 1080p CZ Dabing",
         "prepared_at": "2026-11-22T22:28:14.080436+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31263008",
-        "size_bytes": 967917641
-      },
-      "transfer_receipt": {
-        "target_video_id": "31263008",
-        "size_bytes": 967917641,
-        "source_bytes_read": 967917641,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31263008",
         "source_bytes_read": 967917641,
         "elapsed_seconds": 76.026,
         "finished_at": "2026-11-22T22:29:58.083614+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31263008",
+          "size_bytes": 967917641,
+          "source_bytes_read": 967917641,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33835544",
+        "source_url": "https://sdilej.cz/33835544/kohout-s01e04-nastvany-jako-nastvany-clovek-cz-dabing-2026-1080p-h265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31263008",
+        "display_name": "Rooster S01E04 Angry, Like an Angry Person 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T22:30:11.863699+00:00"
       }
     }
   },
@@ -854481,7 +854482,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:30:06.305296+00:00",
+  "updated_at": "2026-11-22T22:30:11.863716+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
