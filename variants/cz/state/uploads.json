@@ -817144,12 +817144,6 @@
     },
     "1204:4:11": {
       "episode_key": "o.c.:s4:e11",
-      "claim": {
-        "worker_id": "67bbf3335d7a43228e1581a1537761d1-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:55:23.307008+00:00",
-        "lease_expires_at": "2026-11-22T08:55:23.307022+00:00"
-      },
       "source": {
         "source_id": "34193818",
         "source_url": "https://sdilej.cz/34193818/o.c.-s04e11-the-dream-lover-cz-dab.avi",
@@ -817174,22 +817168,29 @@
         "display_name": "The O.C. S04E11 The Dream Lover SD CZ Dabing",
         "prepared_at": "2026-11-22T02:55:44.607108+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242218",
-        "size_bytes": 358462034
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242218",
-        "size_bytes": 358462034,
-        "source_bytes_read": 358462034,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242218",
         "source_bytes_read": 358462034,
         "elapsed_seconds": 16.964,
         "finished_at": "2026-11-22T02:56:23.921536+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242218",
+          "size_bytes": 358462034,
+          "source_bytes_read": 358462034,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193818",
+        "source_url": "https://sdilej.cz/34193818/o.c.-s04e11-the-dream-lover-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242218",
+        "display_name": "The O.C. S04E11 The Dream Lover SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:56:34.657748+00:00"
       }
     }
   },
@@ -817198,7 +817199,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:56:29.757416+00:00",
+  "updated_at": "2026-11-22T02:56:34.657761+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
