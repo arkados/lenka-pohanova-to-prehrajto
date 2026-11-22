@@ -823344,12 +823344,6 @@
     },
     "1094:4:10": {
       "episode_key": "skladiště 13:s4:e10",
-      "claim": {
-        "worker_id": "178fa94dcbf74ace80e5566e56a2a3d2-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:59:58.956007+00:00",
-        "lease_expires_at": "2026-11-22T10:59:58.956021+00:00"
-      },
       "source": {
         "source_id": "32000532",
         "source_url": "https://sdilej.cz/32000532/skladiste-13-s04e10.mp4",
@@ -823374,22 +823368,29 @@
         "display_name": "Warehouse 13 S04E10 We All Fall Down 720p CZ Dabing",
         "prepared_at": "2026-11-22T05:00:10.639260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244442",
-        "size_bytes": 400774175
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244442",
-        "size_bytes": 400774175,
-        "source_bytes_read": 400774175,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244442",
         "source_bytes_read": 400774175,
         "elapsed_seconds": 23.332,
         "finished_at": "2026-11-22T05:01:05.334503+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244442",
+          "size_bytes": 400774175,
+          "source_bytes_read": 400774175,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32000532",
+        "source_url": "https://sdilej.cz/32000532/skladiste-13-s04e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244442",
+        "display_name": "Warehouse 13 S04E10 We All Fall Down 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:01:13.316091+00:00"
       }
     },
     "1094:4:11": {
@@ -823435,7 +823436,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:01:05.334525+00:00",
+  "updated_at": "2026-11-22T05:01:13.316109+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
