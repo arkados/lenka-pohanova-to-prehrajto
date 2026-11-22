@@ -810359,12 +810359,6 @@
     },
     "2023:2:2": {
       "episode_key": "jak se to dělá:s2:e2",
-      "claim": {
-        "worker_id": "964b4ca96f8241e581cccf92c8573916-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:04:11.437799+00:00",
-        "lease_expires_at": "2026-11-22T07:04:11.437817+00:00"
-      },
       "source": {
         "source_id": "33726970",
         "source_url": "https://sdilej.cz/33726970/jak-se-to-dela-s02e02-13-2002-cz-dab-.avi",
@@ -810389,22 +810383,29 @@
         "display_name": "How It's Made S02E02 Honey, Fiber-Optics, Bricks, Pipe Organs SD CZ Dabing",
         "prepared_at": "2026-11-22T01:04:39.037128+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240379",
-        "size_bytes": 235085470
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240379",
-        "size_bytes": 235085470,
-        "source_bytes_read": 235085470,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240379",
         "source_bytes_read": 235085470,
         "elapsed_seconds": 15.545,
         "finished_at": "2026-11-22T01:05:23.002330+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240379",
+          "size_bytes": 235085470,
+          "source_bytes_read": 235085470,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33726970",
+        "source_url": "https://sdilej.cz/33726970/jak-se-to-dela-s02e02-13-2002-cz-dab-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240379",
+        "display_name": "How It's Made S02E02 Honey, Fiber-Optics, Bricks, Pipe Organs SD CZ Dabing",
+        "uploaded_at": "2026-11-22T01:05:42.027148+00:00"
       }
     }
   },
@@ -810413,7 +810414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:05:33.103143+00:00",
+  "updated_at": "2026-11-22T01:05:42.027169+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
