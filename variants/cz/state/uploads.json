@@ -816889,12 +816889,6 @@
     },
     "1204:4:6": {
       "episode_key": "o.c.:s4:e6",
-      "claim": {
-        "worker_id": "4e4802b592ce484f939556dba20c2eb2-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:51:48.988252+00:00",
-        "lease_expires_at": "2026-11-22T08:51:48.988264+00:00"
-      },
       "source": {
         "source_id": "34193782",
         "source_url": "https://sdilej.cz/34193782/o.c.-s04e06-the-summer-bummer-cz-dab.avi",
@@ -816919,22 +816913,29 @@
         "display_name": "The O.C. S04E06 The Summer Bummer SD CZ Dabing",
         "prepared_at": "2026-11-22T02:51:55.931179+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242175",
-        "size_bytes": 367024128
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242175",
-        "size_bytes": 367024128,
-        "source_bytes_read": 367024128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242175",
         "source_bytes_read": 367024128,
         "elapsed_seconds": 20.647,
         "finished_at": "2026-11-22T02:52:54.036014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242175",
+          "size_bytes": 367024128,
+          "source_bytes_read": 367024128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193782",
+        "source_url": "https://sdilej.cz/34193782/o.c.-s04e06-the-summer-bummer-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242175",
+        "display_name": "The O.C. S04E06 The Summer Bummer SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:53:05.919290+00:00"
       }
     },
     "1204:4:7": {
@@ -817016,7 +817017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:52:59.639385+00:00",
+  "updated_at": "2026-11-22T02:53:05.919305+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
