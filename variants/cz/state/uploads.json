@@ -825123,28 +825123,29 @@
           "at": "2026-11-22T10:36:43.633530+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "0d44971430a04db39917acb218b99266-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:36:49.130684+00:00",
-        "lease_expires_at": "2026-11-22T16:36:49.130700+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31250067",
-        "size_bytes": 1030661552
-      },
-      "transfer_receipt": {
-        "target_video_id": "31250067",
-        "size_bytes": 1030661552,
-        "source_bytes_read": 1030661552,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31250067",
         "source_bytes_read": 1030661552,
         "elapsed_seconds": 96.784,
         "finished_at": "2026-11-22T10:39:26.958937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31250067",
+          "size_bytes": 1030661552,
+          "source_bytes_read": 1030661552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35165795",
+        "source_url": "https://sdilej.cz/35165795/stargate-universe-s01e05-cz-dabing.-bedobi.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31250067",
+        "display_name": "Stargate Universe S01E05 Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:39:37.386663+00:00"
       }
     },
     "2161:1:6": {
@@ -837602,7 +837603,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:39:32.020023+00:00",
+  "updated_at": "2026-11-22T10:39:37.386679+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
