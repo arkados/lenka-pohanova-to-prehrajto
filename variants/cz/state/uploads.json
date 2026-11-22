@@ -856115,12 +856115,6 @@
     },
     "403:1:3": {
       "episode_key": "rána bleskem:s1:e3",
-      "claim": {
-        "worker_id": "81a2868a3d80485abb76ae41878fffc7-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:51:15.054704+00:00",
-        "lease_expires_at": "2026-11-23T05:51:15.054714+00:00"
-      },
       "source": {
         "source_id": "32329797",
         "source_url": "https://sdilej.cz/32329797/rana-bleskem-s01e03-cz-dab-av1.mkv",
@@ -856145,22 +856139,29 @@
         "display_name": "Death by Lightning S01E03 Casus Belli 1080p CZ Dabing",
         "prepared_at": "2026-11-22T23:51:39.691603+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265123",
-        "size_bytes": 341923674
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265123",
-        "size_bytes": 341923674,
-        "source_bytes_read": 341923674,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265123",
         "source_bytes_read": 341923674,
         "elapsed_seconds": 29.908,
         "finished_at": "2026-11-22T23:52:44.282593+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265123",
+          "size_bytes": 341923674,
+          "source_bytes_read": 341923674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32329797",
+        "source_url": "https://sdilej.cz/32329797/rana-bleskem-s01e03-cz-dab-av1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265123",
+        "display_name": "Death by Lightning S01E03 Casus Belli 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T23:52:57.592470+00:00"
       }
     },
     "403:1:4": {
@@ -856239,7 +856240,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:52:51.401632+00:00",
+  "updated_at": "2026-11-22T23:52:57.592490+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
