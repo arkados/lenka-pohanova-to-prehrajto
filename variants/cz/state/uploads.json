@@ -814186,12 +814186,6 @@
     },
     "1204:1:19": {
       "episode_key": "o.c.:s1:e19",
-      "claim": {
-        "worker_id": "2b8aded47bb248e5a79286b1fafd1dc1-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:12:48.575317+00:00",
-        "lease_expires_at": "2026-11-22T08:12:48.575331+00:00"
-      },
       "source": {
         "source_id": "16708509",
         "source_url": "https://sdilej.cz/16708509/the-o.c.-01x19-cz.avi",
@@ -814216,22 +814210,29 @@
         "display_name": "The O.C. S01E19 The Heartbreak SD CZ Dabing",
         "prepared_at": "2026-11-22T02:12:59.447870+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241530",
-        "size_bytes": 414726144
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241530",
-        "size_bytes": 414726144,
-        "source_bytes_read": 414726144,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241530",
         "source_bytes_read": 414726144,
         "elapsed_seconds": 29.26,
         "finished_at": "2026-11-22T02:14:05.025689+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241530",
+          "size_bytes": 414726144,
+          "source_bytes_read": 414726144,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "16708509",
+        "source_url": "https://sdilej.cz/16708509/the-o.c.-01x19-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241530",
+        "display_name": "The O.C. S01E19 The Heartbreak SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:14:19.884068+00:00"
       }
     },
     "1204:1:20": {
@@ -814277,7 +814278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:14:15.188807+00:00",
+  "updated_at": "2026-11-22T02:14:19.884083+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
