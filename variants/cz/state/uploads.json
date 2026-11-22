@@ -809033,12 +809033,6 @@
     },
     "117:1:1": {
       "episode_key": "sandman:s1:e1",
-      "claim": {
-        "worker_id": "d4d56256c9dc439a845b75320cf2ce19-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:35:29.908406+00:00",
-        "lease_expires_at": "2026-11-22T06:35:29.908424+00:00"
-      },
       "source": {
         "source_id": "32153958",
         "source_url": "https://sdilej.cz/32153958/sandman-s01e01-spanek-spravedlivych.mkv",
@@ -809063,22 +809057,29 @@
         "display_name": "The Sandman S01E01 Sleep of the Just 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:35:46.136127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239932",
-        "size_bytes": 372803837
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239932",
-        "size_bytes": 372803837,
-        "source_bytes_read": 372803837,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239932",
         "source_bytes_read": 372803837,
         "elapsed_seconds": 25.284,
         "finished_at": "2026-11-22T00:36:50.295757+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239932",
+          "size_bytes": 372803837,
+          "source_bytes_read": 372803837,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32153958",
+        "source_url": "https://sdilej.cz/32153958/sandman-s01e01-spanek-spravedlivych.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239932",
+        "display_name": "The Sandman S01E01 Sleep of the Just 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:37:07.718996+00:00"
       }
     },
     "117:1:2": {
@@ -809161,7 +809162,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:37:00.467296+00:00",
+  "updated_at": "2026-11-22T00:37:07.719016+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
