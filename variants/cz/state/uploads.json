@@ -821741,28 +821741,29 @@
           "at": "2026-11-22T05:17:36.912103+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "666effdf526240bfb462d468662228ad-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:17:41.931945+00:00",
-        "lease_expires_at": "2026-11-22T11:17:41.931959+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31244791",
-        "size_bytes": 1023774916
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244791",
-        "size_bytes": 1023774916,
-        "source_bytes_read": 1023774916,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244791",
         "source_bytes_read": 1023774916,
         "elapsed_seconds": 55.537,
         "finished_at": "2026-11-22T05:19:16.639000+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244791",
+          "size_bytes": 1023774916,
+          "source_bytes_read": 1023774916,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35335454",
+        "source_url": "https://sdilej.cz/35335454/terminator-pribeh-sary-connorove..s02e12.rodina-fieldsova.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244791",
+        "display_name": "Terminator: The Sarah Connor Chronicles S02E12 Alpine Fields 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:19:23.406509+00:00"
       }
     },
     "1273:2:13": {
@@ -824320,7 +824321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:19:16.639020+00:00",
+  "updated_at": "2026-11-22T05:19:23.406526+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
