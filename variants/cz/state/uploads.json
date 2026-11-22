@@ -851504,12 +851504,6 @@
     },
     "1132:3:8": {
       "episode_key": "měsíční svit:s3:e8",
-      "claim": {
-        "worker_id": "a2e6147151084ae99106591f58e9d4a1-worker-0",
-        "run_id": "45042991946",
-        "claimed_at": "2026-11-22T17:25:28.326431+00:00",
-        "lease_expires_at": "2026-11-22T23:25:28.326450+00:00"
-      },
       "source": {
         "source_id": "34983073",
         "source_url": "https://sdilej.cz/34983073/mesicni-svit-s03e08-byla-to-krasna-prace.mkv",
@@ -851534,22 +851528,29 @@
         "display_name": "Moonlighting S03E08 It's a Wonderful Job SD CZ Dabing",
         "prepared_at": "2026-11-22T17:25:38.627043+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31257369",
-        "size_bytes": 238774241
-      },
-      "transfer_receipt": {
-        "target_video_id": "31257369",
-        "size_bytes": 238774241,
-        "source_bytes_read": 238774241,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31257369",
         "source_bytes_read": 238774241,
         "elapsed_seconds": 15.322,
         "finished_at": "2026-11-22T17:26:30.681463+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31257369",
+          "size_bytes": 238774241,
+          "source_bytes_read": 238774241,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983073",
+        "source_url": "https://sdilej.cz/34983073/mesicni-svit-s03e08-byla-to-krasna-prace.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31257369",
+        "display_name": "Moonlighting S03E08 It's a Wonderful Job SD CZ Dabing",
+        "uploaded_at": "2026-11-22T17:26:45.882176+00:00"
       }
     }
   },
@@ -851558,7 +851559,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T17:26:40.838674+00:00",
+  "updated_at": "2026-11-22T17:26:45.882189+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
