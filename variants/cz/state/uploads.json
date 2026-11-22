@@ -845322,12 +845322,6 @@
     },
     "1142:4:8": {
       "episode_key": "dívka odjinud:s4:e8",
-      "claim": {
-        "worker_id": "415c16f02edc4ef782146b8ac25adc59-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T14:07:06.781372+00:00",
-        "lease_expires_at": "2026-11-22T20:07:06.781381+00:00"
-      },
       "source": {
         "source_id": "30884670",
         "source_url": "https://sdilej.cz/30884670/divka-odjinud-s04e08-psoun-fae-lost-girl-480p-cz.avi",
@@ -845352,22 +845346,29 @@
         "display_name": "Lost Girl S04E08 Groundhog Fae SD CZ Dabing",
         "prepared_at": "2026-11-22T14:07:24.156467+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253930",
-        "size_bytes": 416057382
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253930",
-        "size_bytes": 416057382,
-        "source_bytes_read": 416057382,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253930",
         "source_bytes_read": 416057382,
         "elapsed_seconds": 27.37,
         "finished_at": "2026-11-22T14:08:18.332151+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253930",
+          "size_bytes": 416057382,
+          "source_bytes_read": 416057382,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884670",
+        "source_url": "https://sdilej.cz/30884670/divka-odjinud-s04e08-psoun-fae-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253930",
+        "display_name": "Lost Girl S04E08 Groundhog Fae SD CZ Dabing",
+        "uploaded_at": "2026-11-22T14:08:26.581682+00:00"
       }
     },
     "1142:4:9": {
@@ -845413,7 +845414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T14:08:18.332165+00:00",
+  "updated_at": "2026-11-22T14:08:26.581698+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
