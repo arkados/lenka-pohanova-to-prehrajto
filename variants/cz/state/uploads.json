@@ -819780,12 +819780,6 @@
     },
     "1595:1:15": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e15",
-      "claim": {
-        "worker_id": "9e9fd38f58e041338d06662ccc50c893-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:53:01.811785+00:00",
-        "lease_expires_at": "2026-11-22T09:53:01.811802+00:00"
-      },
       "source": {
         "source_id": "33400138",
         "source_url": "https://sdilej.cz/33400138/flashforward-s01e15-cz-dabing-1080p.mp4",
@@ -819809,7 +819803,17 @@
         },
         "display_name": "FlashForward S01E15 Queen Sacrifice SD CZ Dabing",
         "prepared_at": "2026-11-22T03:53:29.005333+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33400138:https://sdilej.cz/33400138/flashforward-s01e15-cz-dabing-1080p.mp4",
+        "at": "2026-11-22T03:53:45.152209+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T03:53:45.152279+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -819817,7 +819821,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:53:37.278750+00:00",
+  "updated_at": "2026-11-22T03:53:45.152287+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -820489,8 +820493,13 @@
         {
           "identity": "1595:1:11",
           "at": "2026-11-22T03:52:39.998549+00:00"
+        },
+        {
+          "identity": "1595:1:15",
+          "at": "2026-11-22T03:53:45.152209+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-22T04:03:45.152209+00:00"
     }
   }
 }
