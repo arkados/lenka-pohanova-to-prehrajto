@@ -822920,12 +822920,6 @@
     },
     "1094:4:3": {
       "episode_key": "skladiště 13:s4:e3",
-      "claim": {
-        "worker_id": "ab442142c9014c8c996c1dc2c6c7a958-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:51:27.067521+00:00",
-        "lease_expires_at": "2026-11-22T10:51:27.067536+00:00"
-      },
       "source": {
         "source_id": "32443738",
         "source_url": "https://sdilej.cz/32443738/skladiste-13-s04e03-pozustalost.mkv",
@@ -822950,22 +822944,29 @@
         "display_name": "Warehouse 13 S04E03 Personal Effects 1080p CZ Dabing",
         "prepared_at": "2026-11-22T04:51:38.070643+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244274",
-        "size_bytes": 944061579
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244274",
-        "size_bytes": 944061579,
-        "source_bytes_read": 944061579,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244274",
         "source_bytes_read": 944061579,
         "elapsed_seconds": 60.951,
         "finished_at": "2026-11-22T04:53:02.619770+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244274",
+          "size_bytes": 944061579,
+          "source_bytes_read": 944061579,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443738",
+        "source_url": "https://sdilej.cz/32443738/skladiste-13-s04e03-pozustalost.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244274",
+        "display_name": "Warehouse 13 S04E03 Personal Effects 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:53:18.915791+00:00"
       }
     },
     "1094:4:4": {
@@ -823060,7 +823061,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:53:13.138566+00:00",
+  "updated_at": "2026-11-22T04:53:18.915808+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
