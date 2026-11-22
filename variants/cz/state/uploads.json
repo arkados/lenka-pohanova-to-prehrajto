@@ -810141,12 +810141,6 @@
     },
     "106:1:1": {
       "episode_key": "generace v:s1:e1",
-      "claim": {
-        "worker_id": "ca496e92a552455480a09a88079f39af-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:00:19.156949+00:00",
-        "lease_expires_at": "2026-11-22T07:00:19.156967+00:00"
-      },
       "source": {
         "source_id": "32251086",
         "source_url": "https://sdilej.cz/32251086/generace-v-s01e01-godolkinova-univerzita.mkv",
@@ -810171,22 +810165,29 @@
         "display_name": "Gen V S01E01 God U. 4K CZ Dabing",
         "prepared_at": "2026-11-22T01:00:25.333158+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240320",
-        "size_bytes": 2651529582
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240320",
-        "size_bytes": 2651529582,
-        "source_bytes_read": 2651529582,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240320",
         "source_bytes_read": 2651529582,
         "elapsed_seconds": 117.976,
         "finished_at": "2026-11-22T01:02:45.552671+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240320",
+          "size_bytes": 2651529582,
+          "source_bytes_read": 2651529582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32251086",
+        "source_url": "https://sdilej.cz/32251086/generace-v-s01e01-godolkinova-univerzita.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240320",
+        "display_name": "Gen V S01E01 God U. 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T01:02:56.324024+00:00"
       }
     },
     "2023:1:1": {
@@ -810228,7 +810229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:02:51.215235+00:00",
+  "updated_at": "2026-11-22T01:02:56.324043+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
