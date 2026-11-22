@@ -855010,12 +855010,6 @@
     },
     "2695:2:3": {
       "episode_key": "doktorka fosterová:s2:e3",
-      "claim": {
-        "worker_id": "7ed57b6fcd7c4c4a9d3a53b9e1a28343-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:26:35.197390+00:00",
-        "lease_expires_at": "2026-11-23T05:26:35.197404+00:00"
-      },
       "source": {
         "source_id": "12077723",
         "source_url": "https://sdilej.cz/12077723/doktorka.fosterova.02x03.hdtv.cz.avi",
@@ -855040,22 +855034,29 @@
         "display_name": "Doctor Foster S02E03 SD CZ Dabing",
         "prepared_at": "2026-11-22T23:26:41.943160+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264498",
-        "size_bytes": 661899096
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264498",
-        "size_bytes": 661899096,
-        "source_bytes_read": 661899096,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264498",
         "source_bytes_read": 661899096,
         "elapsed_seconds": 28.941,
         "finished_at": "2026-11-22T23:27:35.228906+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264498",
+          "size_bytes": 661899096,
+          "source_bytes_read": 661899096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12077723",
+        "source_url": "https://sdilej.cz/12077723/doktorka.fosterova.02x03.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264498",
+        "display_name": "Doctor Foster S02E03 SD CZ Dabing",
+        "uploaded_at": "2026-11-22T23:27:45.800597+00:00"
       }
     }
   },
@@ -855064,7 +855065,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:27:35.228929+00:00",
+  "updated_at": "2026-11-22T23:27:45.800614+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
