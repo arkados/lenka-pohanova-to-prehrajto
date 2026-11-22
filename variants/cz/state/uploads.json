@@ -816226,12 +816226,6 @@
     },
     "1204:3:17": {
       "episode_key": "o.c.:s3:e17",
-      "claim": {
-        "worker_id": "9afaa8dd5bbd4ef484eea053634a1d3b-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:43:46.814566+00:00",
-        "lease_expires_at": "2026-11-22T08:43:46.814585+00:00"
-      },
       "source": {
         "source_id": "34193671",
         "source_url": "https://sdilej.cz/34193671/o.c.-s03e17-the-jouney-cz-dab.avi",
@@ -816256,22 +816250,29 @@
         "display_name": "The O.C. S03E17 The Journey SD CZ Dabing",
         "prepared_at": "2026-11-22T02:44:02.525228+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242037",
-        "size_bytes": 357969342
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242037",
-        "size_bytes": 357969342,
-        "source_bytes_read": 357969342,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242037",
         "source_bytes_read": 357969342,
         "elapsed_seconds": 16.253,
         "finished_at": "2026-11-22T02:44:53.002311+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242037",
+          "size_bytes": 357969342,
+          "source_bytes_read": 357969342,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193671",
+        "source_url": "https://sdilej.cz/34193671/o.c.-s03e17-the-jouney-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242037",
+        "display_name": "The O.C. S03E17 The Journey SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:45:03.334311+00:00"
       }
     },
     "1204:3:18": {
@@ -816289,7 +816290,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:44:57.945383+00:00",
+  "updated_at": "2026-11-22T02:45:03.334328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
