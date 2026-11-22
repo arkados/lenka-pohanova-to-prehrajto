@@ -829289,12 +829289,6 @@
     },
     "1033:1:6": {
       "episode_key": "stařík v utajení:s1:e6",
-      "claim": {
-        "worker_id": "24149e10362d44ec9f858d71267895d7-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:27:27.942768+00:00",
-        "lease_expires_at": "2026-11-22T13:27:27.942789+00:00"
-      },
       "source": {
         "source_id": "30118979",
         "source_url": "https://sdilej.cz/30118979/starik-v-utajeni-s01e06-2024-cz-dabing-1080p.mp4",
@@ -829319,22 +829313,29 @@
         "display_name": "A Man on the Inside S01E06 Our Man in Sacramento 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:27:38.823315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246826",
-        "size_bytes": 666653829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246826",
-        "size_bytes": 666653829,
-        "source_bytes_read": 666653829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246826",
         "source_bytes_read": 666653829,
         "elapsed_seconds": 31.154,
         "finished_at": "2026-11-22T07:28:36.880170+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246826",
+          "size_bytes": 666653829,
+          "source_bytes_read": 666653829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30118979",
+        "source_url": "https://sdilej.cz/30118979/starik-v-utajeni-s01e06-2024-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246826",
+        "display_name": "A Man on the Inside S01E06 Our Man in Sacramento 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:28:55.157186+00:00"
       }
     }
   },
@@ -829343,7 +829344,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:28:49.641298+00:00",
+  "updated_at": "2026-11-22T07:28:55.157205+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
