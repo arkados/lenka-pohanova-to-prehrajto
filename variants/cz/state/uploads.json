@@ -819069,12 +819069,6 @@
     },
     "1273:1:4": {
       "episode_key": "terminátor: příběh sáry connorové:s1:e4",
-      "claim": {
-        "worker_id": "1af5bcd066b04d86a68c30790bdad582-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:44:24.658733+00:00",
-        "lease_expires_at": "2026-11-22T09:44:24.658747+00:00"
-      },
       "source": {
         "source_id": "33734315",
         "source_url": "https://sdilej.cz/33734315/terminator-pribeh-sary-connorove-s01e04-cz-dabing-full-hd.mkv",
@@ -819098,7 +819092,17 @@
         },
         "display_name": "Terminator: The Sarah Connor Chronicles S01E04 Heavy Metal 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:44:55.846148+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33734315:https://sdilej.cz/33734315/terminator-pribeh-sary-connorove-s01e04-cz-dabing-full-hd.mkv",
+        "at": "2026-11-22T03:45:13.455916+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T03:45:13.456916+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1273:1:5": {
       "episode_key": "terminátor: příběh sáry connorové:s1:e5",
@@ -819180,7 +819184,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:45:05.921964+00:00",
+  "updated_at": "2026-11-22T03:45:13.456926+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -819831,8 +819835,13 @@
         {
           "identity": "1273:1:5",
           "at": "2026-11-22T03:45:05.921920+00:00"
+        },
+        {
+          "identity": "1273:1:4",
+          "at": "2026-11-22T03:45:13.455916+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-22T03:55:13.455916+00:00"
     }
   }
 }
