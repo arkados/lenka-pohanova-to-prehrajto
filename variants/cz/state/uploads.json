@@ -841878,12 +841878,6 @@
     },
     "1089:9:1": {
       "episode_key": "nemocnice chicago med:s9:e1",
-      "claim": {
-        "worker_id": "32568ed77a7a4be888d41ad8c139f2cf-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T12:28:41.777904+00:00",
-        "lease_expires_at": "2026-11-22T18:28:41.777915+00:00"
-      },
       "source": {
         "source_id": "30614729",
         "source_url": "https://sdilej.cz/30614729/nemocnice-chicago-med-s09e01.mp4",
@@ -841908,22 +841902,29 @@
         "display_name": "Chicago Med S09E01 Row Row Row Your Boat on a Rocky Sea 1080p CZ Dabing",
         "prepared_at": "2026-11-22T12:28:59.081901+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31252180",
-        "size_bytes": 666299396
-      },
-      "transfer_receipt": {
-        "target_video_id": "31252180",
-        "size_bytes": 666299396,
-        "source_bytes_read": 666299396,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31252180",
         "source_bytes_read": 666299396,
         "elapsed_seconds": 43.988,
         "finished_at": "2026-11-22T12:30:12.353678+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31252180",
+          "size_bytes": 666299396,
+          "source_bytes_read": 666299396,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30614729",
+        "source_url": "https://sdilej.cz/30614729/nemocnice-chicago-med-s09e01.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31252180",
+        "display_name": "Chicago Med S09E01 Row Row Row Your Boat on a Rocky Sea 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T12:30:28.739383+00:00"
       }
     },
     "1089:9:2": {
@@ -841982,7 +841983,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T12:30:23.638221+00:00",
+  "updated_at": "2026-11-22T12:30:28.739396+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
