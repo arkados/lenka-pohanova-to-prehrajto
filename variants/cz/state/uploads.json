@@ -849531,12 +849531,6 @@
     },
     "2930:1:5": {
       "episode_key": "dlouhý stín:s1:e5",
-      "claim": {
-        "worker_id": "c33deb0d6a8c4c769610e5468b206ba4-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T16:08:38.305697+00:00",
-        "lease_expires_at": "2026-11-22T22:08:38.305711+00:00"
-      },
       "source": {
         "source_id": "30865389",
         "source_url": "https://sdilej.cz/30865389/the-long-shadow-s01e05-cz-dabing.mp4",
@@ -849561,22 +849555,29 @@
         "display_name": "The Long Shadow S01E05 1080p CZ Dabing",
         "prepared_at": "2026-11-22T16:08:44.300354+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31256084",
-        "size_bytes": 765950313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31256084",
-        "size_bytes": 765950313,
-        "source_bytes_read": 765950313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31256084",
         "source_bytes_read": 765950313,
         "elapsed_seconds": 51.347,
         "finished_at": "2026-11-22T16:10:08.695508+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31256084",
+          "size_bytes": 765950313,
+          "source_bytes_read": 765950313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30865389",
+        "source_url": "https://sdilej.cz/30865389/the-long-shadow-s01e05-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31256084",
+        "display_name": "The Long Shadow S01E05 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T16:10:17.646854+00:00"
       }
     },
     "2930:1:6": {
@@ -849659,7 +849660,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T16:10:08.695527+00:00",
+  "updated_at": "2026-11-22T16:10:17.646871+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
