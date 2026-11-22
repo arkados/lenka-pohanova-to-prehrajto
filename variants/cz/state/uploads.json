@@ -836499,12 +836499,6 @@
     },
     "1089:3:20": {
       "episode_key": "nemocnice chicago med:s3:e20",
-      "claim": {
-        "worker_id": "f982f83d6c8241efa17b2e5bd69ce35b-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T10:09:37.762344+00:00",
-        "lease_expires_at": "2026-11-22T16:09:37.762356+00:00"
-      },
       "source": {
         "source_id": "21136382",
         "source_url": "https://sdilej.cz/21136382/nemocnice.chicago.med.03x20.1080i.hevc.hdtv.cz.mkv",
@@ -836529,22 +836523,29 @@
         "display_name": "Chicago Med S03E20 The Tipping Point 1080p CZ Dabing",
         "prepared_at": "2026-11-22T10:09:54.888020+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31249533",
-        "size_bytes": 498939512
-      },
-      "transfer_receipt": {
-        "target_video_id": "31249533",
-        "size_bytes": 498939512,
-        "source_bytes_read": 498939512,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31249533",
         "source_bytes_read": 498939512,
         "elapsed_seconds": 40.759,
         "finished_at": "2026-11-22T10:11:10.510658+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31249533",
+          "size_bytes": 498939512,
+          "source_bytes_read": 498939512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21136382",
+        "source_url": "https://sdilej.cz/21136382/nemocnice.chicago.med.03x20.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31249533",
+        "display_name": "Chicago Med S03E20 The Tipping Point 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T10:11:23.511700+00:00"
       }
     },
     "1089:4:1": {
@@ -836626,7 +836627,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T10:11:16.839896+00:00",
+  "updated_at": "2026-11-22T10:11:23.511717+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
