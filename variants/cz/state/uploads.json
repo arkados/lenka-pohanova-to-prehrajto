@@ -827700,12 +827700,6 @@
     },
     "1470:3:2": {
       "episode_key": "slečna scarletová a vévoda:s3:e2",
-      "claim": {
-        "worker_id": "f6f10b0b336c47afa757e08ea1078a40-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:51:45.026629+00:00",
-        "lease_expires_at": "2026-11-22T12:51:45.026643+00:00"
-      },
       "source": {
         "source_id": "27733133",
         "source_url": "https://sdilej.cz/27733133/slecna-scarletova-a-vevoda-s03e02-arabella-.mp4",
@@ -827730,22 +827724,29 @@
         "display_name": "Miss Scarlet S03E02 Arabella 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:51:51.015872+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246208",
-        "size_bytes": 931026568
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246208",
-        "size_bytes": 931026568,
-        "source_bytes_read": 931026568,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246208",
         "source_bytes_read": 931026568,
         "elapsed_seconds": 42.531,
         "finished_at": "2026-11-22T06:53:10.936846+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246208",
+          "size_bytes": 931026568,
+          "source_bytes_read": 931026568,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27733133",
+        "source_url": "https://sdilej.cz/27733133/slecna-scarletova-a-vevoda-s03e02-arabella-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246208",
+        "display_name": "Miss Scarlet S03E02 Arabella 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:53:27.185444+00:00"
       }
     },
     "1470:3:3": {
@@ -827828,7 +827829,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:53:22.234626+00:00",
+  "updated_at": "2026-11-22T06:53:27.185459+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
