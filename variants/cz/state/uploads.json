@@ -824345,12 +824345,6 @@
     },
     "1094:5:2": {
       "episode_key": "skladiště 13:s5:e2",
-      "claim": {
-        "worker_id": "73a559689cc0437ba0110da519427264-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T05:19:33.338664+00:00",
-        "lease_expires_at": "2026-11-22T11:19:33.338678+00:00"
-      },
       "source": {
         "source_id": "32443783",
         "source_url": "https://sdilej.cz/32443783/skladiste-13-s05e02-tajna-sluzba.mkv",
@@ -824375,22 +824369,29 @@
         "display_name": "Warehouse 13 S05E02 Secret Services 1080p CZ Dabing",
         "prepared_at": "2026-11-22T05:19:39.029317+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31244821",
-        "size_bytes": 944852406
-      },
-      "transfer_receipt": {
-        "target_video_id": "31244821",
-        "size_bytes": 944852406,
-        "source_bytes_read": 944852406,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31244821",
         "source_bytes_read": 944852406,
         "elapsed_seconds": 47.592,
         "finished_at": "2026-11-22T05:21:00.923806+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31244821",
+          "size_bytes": 944852406,
+          "source_bytes_read": 944852406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32443783",
+        "source_url": "https://sdilej.cz/32443783/skladiste-13-s05e02-tajna-sluzba.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31244821",
+        "display_name": "Warehouse 13 S05E02 Secret Services 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T05:21:13.053456+00:00"
       }
     },
     "1094:5:3": {
@@ -824472,7 +824473,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:21:06.702975+00:00",
+  "updated_at": "2026-11-22T05:21:13.053473+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
