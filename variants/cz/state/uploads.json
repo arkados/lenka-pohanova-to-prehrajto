@@ -853893,14 +853893,12 @@
         {
           "at": "2026-11-22T21:41:27.200260+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-22T22:11:33.350258+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "1ba3899a960542ea8e17a5d5251dbe3b-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:11:07.315818+00:00",
-        "lease_expires_at": "2026-11-23T04:11:07.315833+00:00"
-      },
       "source": {
         "source_id": "33884291",
         "source_url": "https://sdilej.cz/33884291/harry-hole-s01e05-dablova-hvezda-2026-1080p-cz-dabing.mp4",
@@ -853924,6 +853922,10 @@
         },
         "display_name": "Harry Hole S01E05 Marekors 1080p CZ Dabing",
         "prepared_at": "2026-11-22T22:11:19.745019+00:00"
+      },
+      "source_repair_requested": {
+        "base": "33884291:https://sdilej.cz/33884291/harry-hole-s01e05-dablova-hvezda-2026-1080p-cz-dabing.mp4",
+        "at": "2026-11-22T22:11:33.350231+00:00"
       }
     }
   },
@@ -853932,7 +853934,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:11:25.136166+00:00",
+  "updated_at": "2026-11-22T22:11:33.350264+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -854638,6 +854640,14 @@
         {
           "identity": "1033:2:8",
           "at": "2026-11-22T18:15:45.897293+00:00"
+        }
+      ]
+    },
+    "701": {
+      "recent_failures": [
+        {
+          "identity": "701:1:5",
+          "at": "2026-11-22T22:11:33.350231+00:00"
         }
       ]
     }
