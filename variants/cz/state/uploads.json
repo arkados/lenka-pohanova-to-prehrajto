@@ -844917,12 +844917,6 @@
     },
     "1142:3:13": {
       "episode_key": "dívka odjinud:s3:e13",
-      "claim": {
-        "worker_id": "eade30cba90f46ee8f09c7eba6becc70-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:54:58.447348+00:00",
-        "lease_expires_at": "2026-11-22T19:54:58.447362+00:00"
-      },
       "source": {
         "source_id": "30884639",
         "source_url": "https://sdilej.cz/30884639/divka-odjinud-s03e13-dlouha-pout-lost-girl-480p-cz.avi",
@@ -844947,22 +844941,29 @@
         "display_name": "Lost Girl S03E13 Those Who Wander SD CZ Dabing",
         "prepared_at": "2026-11-22T13:55:25.326672+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253742",
-        "size_bytes": 428316418
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253742",
-        "size_bytes": 428316418,
-        "source_bytes_read": 428316418,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253742",
         "source_bytes_read": 428316418,
         "elapsed_seconds": 25.697,
         "finished_at": "2026-11-22T13:56:22.318410+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253742",
+          "size_bytes": 428316418,
+          "source_bytes_read": 428316418,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884639",
+        "source_url": "https://sdilej.cz/30884639/divka-odjinud-s03e13-dlouha-pout-lost-girl-480p-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253742",
+        "display_name": "Lost Girl S03E13 Those Who Wander SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:56:35.132268+00:00"
       }
     },
     "1142:4:1": {
@@ -845008,7 +845009,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:56:29.695313+00:00",
+  "updated_at": "2026-11-22T13:56:35.132283+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
