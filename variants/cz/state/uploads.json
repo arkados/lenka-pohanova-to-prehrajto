@@ -811622,12 +811622,6 @@
     },
     "48:2:1": {
       "episode_key": "věřte nevěřte:s2:e1",
-      "claim": {
-        "worker_id": "18b6e712b5604da8ad7dccdee88ca0d8-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T01:29:05.987353+00:00",
-        "lease_expires_at": "2026-11-22T07:29:05.987371+00:00"
-      },
       "source": {
         "source_id": "28614580",
         "source_url": "https://sdilej.cz/28614580/verte-neverte-2x01.mkv",
@@ -811652,22 +811646,29 @@
         "display_name": "Beyond Belief: Fact or Fiction S02E01 The Plane / The Gun / The Portrait / The Pass / The Caller SD CZ Dabing",
         "prepared_at": "2026-11-22T01:29:11.618376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240758",
-        "size_bytes": 368047030
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240758",
-        "size_bytes": 368047030,
-        "source_bytes_read": 368047030,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240758",
         "source_bytes_read": 368047030,
         "elapsed_seconds": 30.839,
         "finished_at": "2026-11-22T01:30:11.622018+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240758",
+          "size_bytes": 368047030,
+          "source_bytes_read": 368047030,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28614580",
+        "source_url": "https://sdilej.cz/28614580/verte-neverte-2x01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240758",
+        "display_name": "Beyond Belief: Fact or Fiction S02E01 The Plane / The Gun / The Portrait / The Pass / The Caller SD CZ Dabing",
+        "uploaded_at": "2026-11-22T01:30:23.960659+00:00"
       }
     },
     "48:2:2": {
@@ -811712,7 +811713,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T01:30:16.722609+00:00",
+  "updated_at": "2026-11-22T01:30:23.960678+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
