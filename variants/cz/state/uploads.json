@@ -839592,12 +839592,6 @@
     },
     "1089:7:1": {
       "episode_key": "nemocnice chicago med:s7:e1",
-      "claim": {
-        "worker_id": "a314c2f97a4e4744a5f2a32c4be64ca8-worker-0",
-        "run_id": "45006560888",
-        "claimed_at": "2026-11-22T11:30:15.351115+00:00",
-        "lease_expires_at": "2026-11-22T17:30:15.351128+00:00"
-      },
       "source": {
         "source_id": "34812795",
         "source_url": "https://sdilej.cz/34812795/nemocnice-chicago-med-s07e01-120-2021-fhd-nemuzes-vzdycky-verit-tomu-co-vidis-s-.mp4",
@@ -839622,22 +839616,29 @@
         "display_name": "Chicago Med S07E01 You Can't Always Trust What You See 1080p CZ Dabing",
         "prepared_at": "2026-11-22T11:30:21.259719+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31251031",
-        "size_bytes": 810273152
-      },
-      "transfer_receipt": {
-        "target_video_id": "31251031",
-        "size_bytes": 810273152,
-        "source_bytes_read": 810273152,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31251031",
         "source_bytes_read": 810273152,
         "elapsed_seconds": 52.464,
         "finished_at": "2026-11-22T11:31:54.130013+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31251031",
+          "size_bytes": 810273152,
+          "source_bytes_read": 810273152,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34812795",
+        "source_url": "https://sdilej.cz/34812795/nemocnice-chicago-med-s07e01-120-2021-fhd-nemuzes-vzdycky-verit-tomu-co-vidis-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31251031",
+        "display_name": "Chicago Med S07E01 You Can't Always Trust What You See 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T11:32:04.825565+00:00"
       }
     },
     "1089:7:2": {
@@ -839720,7 +839721,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T11:31:54.130032+00:00",
+  "updated_at": "2026-11-22T11:32:04.825583+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
