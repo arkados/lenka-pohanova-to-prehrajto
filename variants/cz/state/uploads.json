@@ -820149,12 +820149,6 @@
     },
     "1273:2:3": {
       "episode_key": "terminátor: příběh sáry connorové:s2:e3",
-      "claim": {
-        "worker_id": "4aa61f3ef14542b1b440ce362bf7d5ca-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:59:10.869397+00:00",
-        "lease_expires_at": "2026-11-22T09:59:10.869411+00:00"
-      },
       "source": {
         "source_id": "25800280",
         "source_url": "https://sdilej.cz/25800280/terminator-pribeh.sary.connorove-s02e03-1080p.czdab.avi",
@@ -820179,22 +820173,29 @@
         "display_name": "Terminator: The Sarah Connor Chronicles S02E03 The Mousetrap 1080p CZ Dabing",
         "prepared_at": "2026-11-22T03:59:22.664913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243354",
-        "size_bytes": 722121660
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243354",
-        "size_bytes": 722121660,
-        "source_bytes_read": 722121660,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243354",
         "source_bytes_read": 722121660,
         "elapsed_seconds": 32.079,
         "finished_at": "2026-11-22T04:00:21.537730+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243354",
+          "size_bytes": 722121660,
+          "source_bytes_read": 722121660,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25800280",
+        "source_url": "https://sdilej.cz/25800280/terminator-pribeh.sary.connorove-s02e03-1080p.czdab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243354",
+        "display_name": "Terminator: The Sarah Connor Chronicles S02E03 The Mousetrap 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T04:00:39.603889+00:00"
       }
     }
   },
@@ -820203,7 +820204,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:00:35.043199+00:00",
+  "updated_at": "2026-11-22T04:00:39.603907+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
