@@ -809543,12 +809543,6 @@
     },
     "117:2:1": {
       "episode_key": "sandman:s2:e1",
-      "claim": {
-        "worker_id": "5eaeb78bb1284dc1be2f90358456e0a5-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:46:11.369848+00:00",
-        "lease_expires_at": "2026-11-22T06:46:11.369866+00:00"
-      },
       "source": {
         "source_id": "32125542",
         "source_url": "https://sdilej.cz/32125542/sandman-s02e01-udobi-mlh.mkv",
@@ -809573,22 +809567,29 @@
         "display_name": "The Sandman S02E01 Season of Mists 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:46:17.393330+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240098",
-        "size_bytes": 2199300245
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240098",
-        "size_bytes": 2199300245,
-        "source_bytes_read": 2199300245,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240098",
         "source_bytes_read": 2199300245,
         "elapsed_seconds": 123.104,
         "finished_at": "2026-11-22T00:48:50.689591+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240098",
+          "size_bytes": 2199300245,
+          "source_bytes_read": 2199300245,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125542",
+        "source_url": "https://sdilej.cz/32125542/sandman-s02e01-udobi-mlh.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240098",
+        "display_name": "The Sandman S02E01 Season of Mists 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:49:10.209939+00:00"
       }
     },
     "117:2:2": {
@@ -809634,7 +809635,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:49:05.146514+00:00",
+  "updated_at": "2026-11-22T00:49:10.209957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
