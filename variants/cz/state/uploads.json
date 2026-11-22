@@ -854370,12 +854370,6 @@
     },
     "724:1:5": {
       "episode_key": "kohout:s1:e5",
-      "claim": {
-        "worker_id": "894b08a66b384fb99657f5447f1b568b-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T22:27:39.242909+00:00",
-        "lease_expires_at": "2026-11-23T04:27:39.242927+00:00"
-      },
       "source": {
         "source_id": "33885469",
         "source_url": "https://sdilej.cz/33885469/rooster-s01e05-czsken-dabing.mp4",
@@ -854400,22 +854394,29 @@
         "display_name": "Rooster S01E05 Mr. Razzles 1080p CZ Dabing",
         "prepared_at": "2026-11-22T22:27:57.274604+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31262995",
-        "size_bytes": 511496055
-      },
-      "transfer_receipt": {
-        "target_video_id": "31262995",
-        "size_bytes": 511496055,
-        "source_bytes_read": 511496055,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31262995",
         "source_bytes_read": 511496055,
         "elapsed_seconds": 31.846,
         "finished_at": "2026-11-22T22:29:01.102846+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31262995",
+          "size_bytes": 511496055,
+          "source_bytes_read": 511496055,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33885469",
+        "source_url": "https://sdilej.cz/33885469/rooster-s01e05-czsken-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31262995",
+        "display_name": "Rooster S01E05 Mr. Razzles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T22:29:10.053191+00:00"
       }
     },
     "724:1:4": {
@@ -854461,7 +854462,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T22:29:01.102866+00:00",
+  "updated_at": "2026-11-22T22:29:10.053213+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
