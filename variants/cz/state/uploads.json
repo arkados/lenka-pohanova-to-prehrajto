@@ -830591,12 +830591,6 @@
     },
     "763:2:6": {
       "episode_key": "zpřítomnělí:s2:e6",
-      "claim": {
-        "worker_id": "3a7d79f1b54845ffb5ea73d9b72da988-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:57:43.310669+00:00",
-        "lease_expires_at": "2026-11-22T13:57:43.310685+00:00"
-      },
       "source": {
         "source_id": "19522010",
         "source_url": "https://sdilej.cz/19522010/zpritomneli-beforeigners-s02e06-scifi-krimi-cz-dabing-2021.mkv",
@@ -830621,22 +830615,29 @@
         "display_name": "Beforeigners S02E06 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:57:50.419425+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31247284",
-        "size_bytes": 738115168
-      },
-      "transfer_receipt": {
-        "target_video_id": "31247284",
-        "size_bytes": 738115168,
-        "source_bytes_read": 738115168,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31247284",
         "source_bytes_read": 738115168,
         "elapsed_seconds": 45.167,
         "finished_at": "2026-11-22T07:59:03.219151+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31247284",
+          "size_bytes": 738115168,
+          "source_bytes_read": 738115168,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19522010",
+        "source_url": "https://sdilej.cz/19522010/zpritomneli-beforeigners-s02e06-scifi-krimi-cz-dabing-2021.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31247284",
+        "display_name": "Beforeigners S02E06 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:59:17.822782+00:00"
       }
     },
     "2124:1:1": {
@@ -830682,7 +830683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:59:10.114584+00:00",
+  "updated_at": "2026-11-22T07:59:17.822807+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
