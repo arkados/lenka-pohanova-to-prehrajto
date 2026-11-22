@@ -818726,12 +818726,6 @@
     },
     "1306:1:19": {
       "episode_key": "všemocný:s1:e19",
-      "claim": {
-        "worker_id": "0aea03fb4df944f19e803d0244deb4a1-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T03:38:26.655385+00:00",
-        "lease_expires_at": "2026-11-22T09:38:26.655398+00:00"
-      },
       "source": {
         "source_id": "30453362",
         "source_url": "https://sdilej.cz/30453362/vsemocny-limitless-s01e19-czdab.mp4",
@@ -818756,22 +818750,29 @@
         "display_name": "Limitless S01E19 A Dog's Breakfast 720p CZ Dabing",
         "prepared_at": "2026-11-22T03:38:40.028599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31243027",
-        "size_bytes": 883243048
-      },
-      "transfer_receipt": {
-        "target_video_id": "31243027",
-        "size_bytes": 883243048,
-        "source_bytes_read": 883243048,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31243027",
         "source_bytes_read": 883243048,
         "elapsed_seconds": 47.042,
         "finished_at": "2026-11-22T03:39:59.798877+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31243027",
+          "size_bytes": 883243048,
+          "source_bytes_read": 883243048,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30453362",
+        "source_url": "https://sdilej.cz/30453362/vsemocny-limitless-s01e19-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31243027",
+        "display_name": "Limitless S01E19 A Dog's Breakfast 720p CZ Dabing",
+        "uploaded_at": "2026-11-22T03:40:17.483715+00:00"
       }
     },
     "1306:1:20": {
@@ -818854,7 +818855,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T03:40:12.538370+00:00",
+  "updated_at": "2026-11-22T03:40:17.483732+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
