@@ -828832,12 +828832,6 @@
     },
     "2161:2:7": {
       "episode_key": "hvězdná brána - hluboký vesmír:s2:e7",
-      "claim": {
-        "worker_id": "3f909b6ef63942b192f03ef82ecc1d5b-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:20:01.335013+00:00",
-        "lease_expires_at": "2026-11-22T13:20:01.335033+00:00"
-      },
       "source": {
         "source_id": "27617746",
         "source_url": "https://sdilej.cz/27617746/hvezdna-brana-hluboky-vesmir-s02e07-pro-dobro-vsech.mkv",
@@ -828862,22 +828856,29 @@
         "display_name": "Stargate Universe S02E07 The Greater Good 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:20:13.106298+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246709",
-        "size_bytes": 933316045
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246709",
-        "size_bytes": 933316045,
-        "source_bytes_read": 933316045,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246709",
         "source_bytes_read": 933316045,
         "elapsed_seconds": 46.052,
         "finished_at": "2026-11-22T07:21:31.063055+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246709",
+          "size_bytes": 933316045,
+          "source_bytes_read": 933316045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27617746",
+        "source_url": "https://sdilej.cz/27617746/hvezdna-brana-hluboky-vesmir-s02e07-pro-dobro-vsech.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246709",
+        "display_name": "Stargate Universe S02E07 The Greater Good 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:21:44.222412+00:00"
       }
     },
     "2161:2:8": {
@@ -828996,7 +828997,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:21:36.895255+00:00",
+  "updated_at": "2026-11-22T07:21:44.222444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
