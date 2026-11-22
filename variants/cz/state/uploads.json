@@ -846852,12 +846852,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "68c26046410f4e73ab7731c021003bc4-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T15:08:47.009321+00:00",
-        "lease_expires_at": "2026-11-22T21:08:47.009332+00:00"
-      },
       "source": {
         "source_id": "26890479",
         "source_url": "https://sdilej.cz/26890479/zakon-a-poradek-zlocinne-umysly-s04e15-081-2005-sd-smrtici-jikry-sd-.mp4",
@@ -846882,22 +846876,29 @@
         "display_name": "Law & Order: Criminal Intent S04E15 Death Roe SD CZ Dabing",
         "prepared_at": "2026-11-22T15:09:05.204828+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31254947",
-        "size_bytes": 362933847
-      },
-      "transfer_receipt": {
-        "target_video_id": "31254947",
-        "size_bytes": 362933847,
-        "source_bytes_read": 362933847,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31254947",
         "source_bytes_read": 362933847,
         "elapsed_seconds": 26.766,
         "finished_at": "2026-11-22T15:10:09.690884+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31254947",
+          "size_bytes": 362933847,
+          "source_bytes_read": 362933847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26890479",
+        "source_url": "https://sdilej.cz/26890479/zakon-a-poradek-zlocinne-umysly-s04e15-081-2005-sd-smrtici-jikry-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31254947",
+        "display_name": "Law & Order: Criminal Intent S04E15 Death Roe SD CZ Dabing",
+        "uploaded_at": "2026-11-22T15:10:21.150174+00:00"
       }
     },
     "1929:4:16": {
@@ -847037,7 +847038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T15:10:15.001682+00:00",
+  "updated_at": "2026-11-22T15:10:21.150190+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
