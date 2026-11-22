@@ -829180,12 +829180,6 @@
     },
     "1033:1:4": {
       "episode_key": "stařík v utajení:s1:e4",
-      "claim": {
-        "worker_id": "d0d1ef7e322348e38360307bbf6e9612-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T07:24:49.974443+00:00",
-        "lease_expires_at": "2026-11-22T13:24:49.974462+00:00"
-      },
       "source": {
         "source_id": "30118972",
         "source_url": "https://sdilej.cz/30118972/starik-v-utajeni-s01e04-2024-cz-dabing-1080p.mp4",
@@ -829210,22 +829204,29 @@
         "display_name": "A Man on the Inside S01E04 The Curious Incident of the Dog in the Painting Class 1080p CZ Dabing",
         "prepared_at": "2026-11-22T07:24:56.524104+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246780",
-        "size_bytes": 665426829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246780",
-        "size_bytes": 665426829,
-        "source_bytes_read": 665426829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246780",
         "source_bytes_read": 665426829,
         "elapsed_seconds": 30.56,
         "finished_at": "2026-11-22T07:25:48.696937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246780",
+          "size_bytes": 665426829,
+          "source_bytes_read": 665426829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30118972",
+        "source_url": "https://sdilej.cz/30118972/starik-v-utajeni-s01e04-2024-cz-dabing-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246780",
+        "display_name": "A Man on the Inside S01E04 The Curious Incident of the Dog in the Painting Class 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T07:26:05.758866+00:00"
       }
     }
   },
@@ -829234,7 +829235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T07:25:59.729249+00:00",
+  "updated_at": "2026-11-22T07:26:05.758883+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
