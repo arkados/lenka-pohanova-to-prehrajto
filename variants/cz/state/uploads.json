@@ -820728,12 +820728,6 @@
     },
     "1595:1:22": {
       "episode_key": "flash forward - vzpomínka na budoucnost:s1:e22",
-      "claim": {
-        "worker_id": "74dafe12c12f4f5a8931b88ddafc2b46-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T04:08:46.220570+00:00",
-        "lease_expires_at": "2026-11-22T10:08:46.220587+00:00"
-      },
       "source": {
         "source_id": "33400201",
         "source_url": "https://sdilej.cz/33400201/flashforward-s01e22-cz-dabing-1080p.mp4",
@@ -820757,7 +820751,17 @@
         },
         "display_name": "FlashForward S01E22 Future Shock SD CZ Dabing",
         "prepared_at": "2026-11-22T04:08:57.707958+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33400201:https://sdilej.cz/33400201/flashforward-s01e22-cz-dabing-1080p.mp4",
+        "at": "2026-11-22T04:09:19.861990+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T04:09:19.862158+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -820765,7 +820769,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T04:09:14.991482+00:00",
+  "updated_at": "2026-11-22T04:09:19.862183+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -821427,19 +821431,19 @@
     "1595": {
       "recent_failures": [
         {
-          "identity": "1595:1:9",
-          "at": "2026-11-22T04:08:10.084138+00:00"
-        },
-        {
           "identity": "1595:1:11",
           "at": "2026-11-22T04:08:17.846021+00:00"
         },
         {
           "identity": "1595:1:21",
           "at": "2026-11-22T04:08:52.285446+00:00"
+        },
+        {
+          "identity": "1595:1:22",
+          "at": "2026-11-22T04:09:19.861990+00:00"
         }
       ],
-      "retry_after": "2026-11-22T04:18:52.285446+00:00"
+      "retry_after": "2026-11-22T04:19:19.861990+00:00"
     }
   }
 }
