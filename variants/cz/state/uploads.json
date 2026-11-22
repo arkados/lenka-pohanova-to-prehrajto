@@ -844203,12 +844203,6 @@
     },
     "1142:2:20": {
       "episode_key": "dívka odjinud:s2:e20",
-      "claim": {
-        "worker_id": "c0ff6caeac3f457c9f3c4a16047ec3ee-worker-0",
-        "run_id": "45017007628",
-        "claimed_at": "2026-11-22T13:45:45.158448+00:00",
-        "lease_expires_at": "2026-11-22T19:45:45.158465+00:00"
-      },
       "source": {
         "source_id": "30884598",
         "source_url": "https://sdilej.cz/30884598/divka-odjinud-s02e20-lachlauv-gam.bit-lost-girl-cz.avi",
@@ -844233,22 +844227,29 @@
         "display_name": "Lost Girl S02E20 Lachlan's Gambit SD CZ Dabing",
         "prepared_at": "2026-11-22T13:45:52.272574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31253608",
-        "size_bytes": 409986142
-      },
-      "transfer_receipt": {
-        "target_video_id": "31253608",
-        "size_bytes": 409986142,
-        "source_bytes_read": 409986142,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31253608",
         "source_bytes_read": 409986142,
         "elapsed_seconds": 26.218,
         "finished_at": "2026-11-22T13:46:48.836227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31253608",
+          "size_bytes": 409986142,
+          "source_bytes_read": 409986142,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30884598",
+        "source_url": "https://sdilej.cz/30884598/divka-odjinud-s02e20-lachlauv-gam.bit-lost-girl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31253608",
+        "display_name": "Lost Girl S02E20 Lachlan's Gambit SD CZ Dabing",
+        "uploaded_at": "2026-11-22T13:47:00.574688+00:00"
       }
     },
     "1142:2:21": {
@@ -844327,7 +844328,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T13:46:54.579693+00:00",
+  "updated_at": "2026-11-22T13:47:00.574702+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
