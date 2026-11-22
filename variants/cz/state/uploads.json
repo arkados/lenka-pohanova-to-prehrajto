@@ -809753,12 +809753,6 @@
     },
     "117:2:5": {
       "episode_key": "sandman:s2:e5",
-      "claim": {
-        "worker_id": "0cdda268f4a74755bbdd636c2040046d-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:50:12.611471+00:00",
-        "lease_expires_at": "2026-11-22T06:50:12.611489+00:00"
-      },
       "source": {
         "source_id": "32125671",
         "source_url": "https://sdilej.cz/32125671/sandman-s02e05-orfeova-pisen.mkv",
@@ -809783,22 +809777,29 @@
         "display_name": "The Sandman S02E05 The Song of Orpheus 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:50:23.564675+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31240160",
-        "size_bytes": 3150517197
-      },
-      "transfer_receipt": {
-        "target_video_id": "31240160",
-        "size_bytes": 3150517197,
-        "source_bytes_read": 3150517197,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31240160",
         "source_bytes_read": 3150517197,
         "elapsed_seconds": 175.785,
         "finished_at": "2026-11-22T00:53:42.466285+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31240160",
+          "size_bytes": 3150517197,
+          "source_bytes_read": 3150517197,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125671",
+        "source_url": "https://sdilej.cz/32125671/sandman-s02e05-orfeova-pisen.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31240160",
+        "display_name": "The Sandman S02E05 The Song of Orpheus 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:53:52.944434+00:00"
       }
     }
   },
@@ -809807,7 +809808,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:53:48.111841+00:00",
+  "updated_at": "2026-11-22T00:53:52.944454+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
