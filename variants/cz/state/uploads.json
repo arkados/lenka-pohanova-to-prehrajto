@@ -855177,12 +855177,6 @@
     },
     "9673:1:1": {
       "episode_key": "chip a dale - rychlá rota:s1:e1",
-      "claim": {
-        "worker_id": "0f0caa3e276644198c7f5395d9d4062f-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-22T23:30:11.667655+00:00",
-        "lease_expires_at": "2026-11-23T05:30:11.667666+00:00"
-      },
       "source": {
         "source_id": "5734252",
         "source_url": "https://sdilej.cz/5734252/chip-a-dale-rychla-rota-s01e01-podmorsti-pirati-dvdrip-cz-en-dabing-.avi",
@@ -855207,22 +855201,29 @@
         "display_name": "Chip 'n' Dale Rescue Rangers S01E01 Piratsy Under the Seas SD CZ Dabing",
         "prepared_at": "2026-11-22T23:30:24.200484+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31264631",
-        "size_bytes": 294471680
-      },
-      "transfer_receipt": {
-        "target_video_id": "31264631",
-        "size_bytes": 294471680,
-        "source_bytes_read": 294471680,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31264631",
         "source_bytes_read": 294471680,
         "elapsed_seconds": 14.37,
         "finished_at": "2026-11-22T23:31:02.123434+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31264631",
+          "size_bytes": 294471680,
+          "source_bytes_read": 294471680,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5734252",
+        "source_url": "https://sdilej.cz/5734252/chip-a-dale-rychla-rota-s01e01-podmorsti-pirati-dvdrip-cz-en-dabing-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31264631",
+        "display_name": "Chip 'n' Dale Rescue Rangers S01E01 Piratsy Under the Seas SD CZ Dabing",
+        "uploaded_at": "2026-11-22T23:31:15.734362+00:00"
       }
     },
     "9673:1:10": {
@@ -855268,7 +855269,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T23:31:07.744174+00:00",
+  "updated_at": "2026-11-22T23:31:15.734377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
