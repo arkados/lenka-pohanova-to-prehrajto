@@ -814645,12 +814645,6 @@
     },
     "1204:2:2": {
       "episode_key": "o.c.:s2:e2",
-      "claim": {
-        "worker_id": "9a388500bcc44889b88c8ab1735a7521-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:20:45.191541+00:00",
-        "lease_expires_at": "2026-11-22T08:20:45.191560+00:00"
-      },
       "source": {
         "source_id": "26881580",
         "source_url": "https://sdilej.cz/26881580/the-o-c-s02e02-the-way-we-were.mkv",
@@ -814675,22 +814669,29 @@
         "display_name": "The O.C. S02E02 The Way We Were 1080p CZ Dabing",
         "prepared_at": "2026-11-22T02:21:00.295847+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31241651",
-        "size_bytes": 2787432091
-      },
-      "transfer_receipt": {
-        "target_video_id": "31241651",
-        "size_bytes": 2787432091,
-        "source_bytes_read": 2787432091,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31241651",
         "source_bytes_read": 2787432091,
         "elapsed_seconds": 158.518,
         "finished_at": "2026-11-22T02:24:06.304831+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31241651",
+          "size_bytes": 2787432091,
+          "source_bytes_read": 2787432091,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26881580",
+        "source_url": "https://sdilej.cz/26881580/the-o-c-s02e02-the-way-we-were.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31241651",
+        "display_name": "The O.C. S02E02 The Way We Were 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T02:24:26.326113+00:00"
       }
     },
     "1204:2:3": {
@@ -814875,7 +814876,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:24:21.513517+00:00",
+  "updated_at": "2026-11-22T02:24:26.326132+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
