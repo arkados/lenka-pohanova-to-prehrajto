@@ -809084,12 +809084,6 @@
     },
     "117:1:2": {
       "episode_key": "sandman:s1:e2",
-      "claim": {
-        "worker_id": "aeaefb48a4e4410fbe057cbe7cfaa655-worker-0",
-        "run_id": "44957218382",
-        "claimed_at": "2026-11-22T00:36:15.959398+00:00",
-        "lease_expires_at": "2026-11-22T06:36:15.959415+00:00"
-      },
       "source": {
         "source_id": "32125200",
         "source_url": "https://sdilej.cz/32125200/sandman-s01e02-nedokonali-hostitele.mkv",
@@ -809114,22 +809108,29 @@
         "display_name": "The Sandman S01E02 Imperfect Hosts 4K CZ Dabing",
         "prepared_at": "2026-11-22T00:36:33.921781+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31239940",
-        "size_bytes": 1731813286
-      },
-      "transfer_receipt": {
-        "target_video_id": "31239940",
-        "size_bytes": 1731813286,
-        "source_bytes_read": 1731813286,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31239940",
         "source_bytes_read": 1731813286,
         "elapsed_seconds": 103.628,
         "finished_at": "2026-11-22T00:38:54.532094+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31239940",
+          "size_bytes": 1731813286,
+          "source_bytes_read": 1731813286,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32125200",
+        "source_url": "https://sdilej.cz/32125200/sandman-s01e02-nedokonali-hostitele.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31239940",
+        "display_name": "The Sandman S01E02 Imperfect Hosts 4K CZ Dabing",
+        "uploaded_at": "2026-11-22T00:39:06.035427+00:00"
       }
     },
     "117:1:3": {
@@ -809259,7 +809260,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T00:39:00.695533+00:00",
+  "updated_at": "2026-11-22T00:39:06.035447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
