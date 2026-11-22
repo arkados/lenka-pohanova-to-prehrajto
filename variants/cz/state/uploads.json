@@ -827547,12 +827547,6 @@
     },
     "1470:2:5": {
       "episode_key": "slečna scarletová a vévoda:s2:e5",
-      "claim": {
-        "worker_id": "178d7d01d8b845a18e023495a1ebd8af-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T06:46:39.074365+00:00",
-        "lease_expires_at": "2026-11-22T12:46:39.074382+00:00"
-      },
       "source": {
         "source_id": "33746358",
         "source_url": "https://sdilej.cz/33746358/slecna-scarletova-a-vevoda-s02e05-1080p-cz-en.mkv",
@@ -827577,22 +827571,29 @@
         "display_name": "Miss Scarlet S02E05 Quarter to Midnight 1080p CZ Dabing",
         "prepared_at": "2026-11-22T06:46:50.325977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31246111",
-        "size_bytes": 2303213856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31246111",
-        "size_bytes": 2303213856,
-        "source_bytes_read": 2303213856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31246111",
         "source_bytes_read": 2303213856,
         "elapsed_seconds": 247.593,
         "finished_at": "2026-11-22T06:51:26.576289+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31246111",
+          "size_bytes": 2303213856,
+          "source_bytes_read": 2303213856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33746358",
+        "source_url": "https://sdilej.cz/33746358/slecna-scarletova-a-vevoda-s02e05-1080p-cz-en.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31246111",
+        "display_name": "Miss Scarlet S02E05 Quarter to Midnight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-22T06:51:33.705919+00:00"
       }
     },
     "1470:2:6": {
@@ -827675,7 +827676,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T06:51:26.576310+00:00",
+  "updated_at": "2026-11-22T06:51:33.705938+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
