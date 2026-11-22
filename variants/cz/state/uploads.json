@@ -853071,12 +853071,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "7eacc7da8a3c43289bf923d99f6bef2c-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:05:49.261334+00:00",
-        "lease_expires_at": "2026-11-23T03:05:49.261353+00:00"
-      },
       "source": {
         "source_id": "34983141",
         "source_url": "https://sdilej.cz/34983141/mesicni-svit-s05e07-tajemny-nebostikavi.mkv",
@@ -853101,22 +853095,29 @@
         "display_name": "Moonlighting S05E07 I See England, I See France, I See Maddie's Netherworld SD CZ Dabing",
         "prepared_at": "2026-11-22T21:06:07.187341+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261019",
-        "size_bytes": 275708313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261019",
-        "size_bytes": 275708313,
-        "source_bytes_read": 275708313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261019",
         "source_bytes_read": 275708313,
         "elapsed_seconds": 20.728,
         "finished_at": "2026-11-22T21:06:59.930855+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261019",
+          "size_bytes": 275708313,
+          "source_bytes_read": 275708313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983141",
+        "source_url": "https://sdilej.cz/34983141/mesicni-svit-s05e07-tajemny-nebostikavi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261019",
+        "display_name": "Moonlighting S05E07 I See England, I See France, I See Maddie's Netherworld SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:07:09.037353+00:00"
       }
     },
     "1132:5:8": {
@@ -853162,7 +853163,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:06:59.930877+00:00",
+  "updated_at": "2026-11-22T21:07:09.037378+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
