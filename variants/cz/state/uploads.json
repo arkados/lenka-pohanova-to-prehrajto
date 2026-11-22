@@ -825182,12 +825182,6 @@
     },
     "2161:1:8": {
       "episode_key": "hvězdná brána - hluboký vesmír:s1:e8",
-      "claim": {
-        "worker_id": "71fed223b7cb484d96bfe1b2c5f6c2f1-worker-0",
-        "run_id": "44979537616",
-        "claimed_at": "2026-11-22T05:51:33.130208+00:00",
-        "lease_expires_at": "2026-11-22T11:51:33.130225+00:00"
-      },
       "source": {
         "source_id": "34208952",
         "source_url": "https://sdilej.cz/34208952/stargate-universe-s01e08-cz-dabing.mkv",
@@ -825211,7 +825205,17 @@
         },
         "display_name": "Stargate Universe S01E08 Time 1080p CZ Dabing",
         "prepared_at": "2026-11-22T05:51:39.924741+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34208952:https://sdilej.cz/34208952/stargate-universe-s01e08-cz-dabing.mkv",
+        "at": "2026-11-22T05:51:54.945597+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-22T05:51:54.945914+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "2161:1:9": {
       "episode_key": "hvězdná brána - hluboký vesmír:s1:e9",
@@ -825228,7 +825232,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T05:51:50.096285+00:00",
+  "updated_at": "2026-11-22T05:51:54.945927+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -825907,19 +825911,19 @@
     "2161": {
       "recent_failures": [
         {
-          "identity": "2161:1:5",
-          "at": "2026-11-22T05:51:07.924084+00:00"
-        },
-        {
           "identity": "2161:1:6",
           "at": "2026-11-22T05:51:21.010896+00:00"
         },
         {
           "identity": "2161:1:7",
           "at": "2026-11-22T05:51:50.096211+00:00"
+        },
+        {
+          "identity": "2161:1:8",
+          "at": "2026-11-22T05:51:54.945597+00:00"
         }
       ],
-      "retry_after": "2026-11-22T06:01:50.096211+00:00"
+      "retry_after": "2026-11-22T06:01:54.945597+00:00"
     }
   }
 }
