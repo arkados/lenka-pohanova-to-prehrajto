@@ -853326,12 +853326,6 @@
     },
     "1132:5:12": {
       "episode_key": "měsíční svit:s5:e12",
-      "claim": {
-        "worker_id": "ff067042ceca4e8699036fae969d5324-worker-0",
-        "run_id": "45061848472",
-        "claimed_at": "2026-11-22T21:21:05.633611+00:00",
-        "lease_expires_at": "2026-11-23T03:21:05.633633+00:00"
-      },
       "source": {
         "source_id": "34983151",
         "source_url": "https://sdilej.cz/34983151/mesicni-svit-s05e12-mala-nocni-vrazda.mkv",
@@ -853356,22 +853350,29 @@
         "display_name": "Moonlighting S05E12 Eine Kleine Nacht Murder SD CZ Dabing",
         "prepared_at": "2026-11-22T21:21:29.051600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31261329",
-        "size_bytes": 267980391
-      },
-      "transfer_receipt": {
-        "target_video_id": "31261329",
-        "size_bytes": 267980391,
-        "source_bytes_read": 267980391,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31261329",
         "source_bytes_read": 267980391,
         "elapsed_seconds": 30.119,
         "finished_at": "2026-11-22T21:22:30.339137+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31261329",
+          "size_bytes": 267980391,
+          "source_bytes_read": 267980391,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34983151",
+        "source_url": "https://sdilej.cz/34983151/mesicni-svit-s05e12-mala-nocni-vrazda.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31261329",
+        "display_name": "Moonlighting S05E12 Eine Kleine Nacht Murder SD CZ Dabing",
+        "uploaded_at": "2026-11-22T21:22:43.125360+00:00"
       }
     },
     "1132:5:13": {
@@ -853450,7 +853451,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T21:22:37.102231+00:00",
+  "updated_at": "2026-11-22T21:22:43.125377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
