@@ -816940,12 +816940,6 @@
     },
     "1204:4:7": {
       "episode_key": "o.c.:s4:e7",
-      "claim": {
-        "worker_id": "afb5bb4511bd4626accfed3c3079b857-worker-0",
-        "run_id": "44960790353",
-        "claimed_at": "2026-11-22T02:52:01.065727+00:00",
-        "lease_expires_at": "2026-11-22T08:52:01.065741+00:00"
-      },
       "source": {
         "source_id": "34193789",
         "source_url": "https://sdilej.cz/34193789/o.c.-s04e07-the-chrismukk-huh-cz-dab.avi",
@@ -816970,22 +816964,29 @@
         "display_name": "The O.C. S04E07 The Chrismukk-huh? SD CZ Dabing",
         "prepared_at": "2026-11-22T02:52:16.475630+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31242179",
-        "size_bytes": 366952448
-      },
-      "transfer_receipt": {
-        "target_video_id": "31242179",
-        "size_bytes": 366952448,
-        "source_bytes_read": 366952448,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31242179",
         "source_bytes_read": 366952448,
         "elapsed_seconds": 16.962,
         "finished_at": "2026-11-22T02:53:10.390364+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31242179",
+          "size_bytes": 366952448,
+          "source_bytes_read": 366952448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34193789",
+        "source_url": "https://sdilej.cz/34193789/o.c.-s04e07-the-chrismukk-huh-cz-dab.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31242179",
+        "display_name": "The O.C. S04E07 The Chrismukk-huh? SD CZ Dabing",
+        "uploaded_at": "2026-11-22T02:53:21.789054+00:00"
       }
     },
     "1204:4:8": {
@@ -817031,7 +817032,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-22T02:53:15.798795+00:00",
+  "updated_at": "2026-11-22T02:53:21.789070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
