@@ -890674,12 +890674,6 @@
     },
     "3016:3:2": {
       "episode_key": "berlínská mise:s3:e2",
-      "claim": {
-        "worker_id": "a4cbc2466812432d9faad396f5671118-worker-0",
-        "run_id": "45225486737",
-        "claimed_at": "2026-11-23T19:20:24.388284+00:00",
-        "lease_expires_at": "2026-11-24T01:20:24.388295+00:00"
-      },
       "source": {
         "source_id": "30890957",
         "source_url": "https://sdilej.cz/30890957/berlin-station-s03e02.mp4",
@@ -890720,7 +890714,13 @@
         "elapsed_seconds": 128.253,
         "finished_at": "2026-11-23T19:23:30.014655+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T19:25:05.389399+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "3016:3:3": {
       "episode_key": "berlínská mise:s3:e3",
@@ -890778,7 +890778,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T19:24:48.767912+00:00",
+  "updated_at": "2026-11-23T19:25:05.389416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
