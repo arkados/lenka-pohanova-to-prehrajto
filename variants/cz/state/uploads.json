@@ -870676,12 +870676,6 @@
     },
     "1972:3:4": {
       "episode_key": "ginny a georgia:s3:e4",
-      "claim": {
-        "worker_id": "48d884da3e4b4c0fa79b96fdb0751d79-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:54:29.448776+00:00",
-        "lease_expires_at": "2026-11-23T13:54:29.448787+00:00"
-      },
       "source": {
         "source_id": "33147084",
         "source_url": "https://sdilej.cz/33147084/ginny-a-georgia-s03e04-cz-dabing.mkv",
@@ -870705,7 +870699,17 @@
         },
         "display_name": "Ginny & Georgia S03E04 The Bitch Is Back 1080p CZ Dabing",
         "prepared_at": "2026-11-23T07:54:41.401910+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33147084:https://sdilej.cz/33147084/ginny-a-georgia-s03e04-cz-dabing.mkv",
+        "at": "2026-11-23T07:54:57.264017+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T07:54:57.264057+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -870713,7 +870717,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:54:48.541448+00:00",
+  "updated_at": "2026-11-23T07:54:57.264061+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -871509,16 +871513,8 @@
     "1972": {
       "recent_failures": [
         {
-          "identity": "1972:3:1",
-          "at": "2026-11-23T07:42:31.957086+00:00"
-        },
-        {
-          "identity": "1972:3:2",
-          "at": "2026-11-23T07:43:02.160689+00:00"
-        },
-        {
-          "identity": "1972:3:3",
-          "at": "2026-11-23T07:43:32.803369+00:00"
+          "identity": "1972:3:4",
+          "at": "2026-11-23T07:54:57.264017+00:00"
         }
       ],
       "retry_after": "2026-11-23T07:53:32.803369+00:00"
