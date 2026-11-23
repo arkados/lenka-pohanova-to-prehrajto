@@ -877717,12 +877717,6 @@
     },
     "1826:1:4": {
       "episode_key": "a-team:s1:e4",
-      "claim": {
-        "worker_id": "425bf12fb41949dca469821257531c92-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:03:28.398940+00:00",
-        "lease_expires_at": "2026-11-23T17:03:28.398957+00:00"
-      },
       "source": {
         "source_id": "33106046",
         "source_url": "https://sdilej.cz/33106046/a-team-s01e04-13-1983-cz-dab-1080p-a-small-and-deadly-war.mkv",
@@ -877747,22 +877741,29 @@
         "display_name": "The A-Team S01E04 A Small and Deadly War 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:03:35.176186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31282892",
-        "size_bytes": 1542551912
-      },
-      "transfer_receipt": {
-        "target_video_id": "31282892",
-        "size_bytes": 1542551912,
-        "source_bytes_read": 1542551912,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31282892",
         "source_bytes_read": 1542551912,
         "elapsed_seconds": 181.325,
         "finished_at": "2026-11-23T11:07:10.536540+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31282892",
+          "size_bytes": 1542551912,
+          "source_bytes_read": 1542551912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33106046",
+        "source_url": "https://sdilej.cz/33106046/a-team-s01e04-13-1983-cz-dab-1080p-a-small-and-deadly-war.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31282892",
+        "display_name": "The A-Team S01E04 A Small and Deadly War 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:07:19.830164+00:00"
       }
     },
     "1826:1:5": {
@@ -877845,7 +877846,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:07:10.536560+00:00",
+  "updated_at": "2026-11-23T11:07:19.830182+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
