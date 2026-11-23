@@ -889828,12 +889828,6 @@
     },
     "1777:1:4": {
       "episode_key": "stanice 11:s1:e4",
-      "claim": {
-        "worker_id": "0282afaa296a42708d5370a73b59bf28-worker-0",
-        "run_id": "45225486737",
-        "claimed_at": "2026-11-23T17:25:09.176224+00:00",
-        "lease_expires_at": "2026-11-23T23:25:09.176237+00:00"
-      },
       "source": {
         "source_id": "29376897",
         "source_url": "https://sdilej.cz/29376897/stanice-11-station-eleven-s01e04-2160p-dd-5.1-atmos-hdr-cz-dabing.mkv",
@@ -889874,7 +889868,13 @@
         "elapsed_seconds": 996.665,
         "finished_at": "2026-11-23T17:42:44.401904+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T17:44:21.715303+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1777:1:5": {
       "episode_key": "stanice 11:s1:e5",
@@ -889984,7 +889984,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T17:42:44.401922+00:00",
+  "updated_at": "2026-11-23T17:44:21.715320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
