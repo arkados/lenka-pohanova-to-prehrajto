@@ -884200,12 +884200,6 @@
     },
     "1951:2:24": {
       "episode_key": "flintstoneovi:s2:e24",
-      "claim": {
-        "worker_id": "c90b637c79db44a6a21c663fa7cd653a-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:22:32.659383+00:00",
-        "lease_expires_at": "2026-11-23T20:22:32.659393+00:00"
-      },
       "source": {
         "source_id": "35002186",
         "source_url": "https://sdilej.cz/35002186/flintstoneovi-s02e24-fred-vyrazi-tvrip-cz-skalican762-ipad.mp4",
@@ -884230,22 +884224,29 @@
         "display_name": "The Flintstones S02E24 Fred Strikes Out SD CZ Dabing",
         "prepared_at": "2026-11-23T14:22:51.039628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288648",
-        "size_bytes": 256748112
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288648",
-        "size_bytes": 256748112,
-        "source_bytes_read": 256748112,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288648",
         "source_bytes_read": 256748112,
         "elapsed_seconds": 18.094,
         "finished_at": "2026-11-23T14:23:49.976278+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288648",
+          "size_bytes": 256748112,
+          "source_bytes_read": 256748112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35002186",
+        "source_url": "https://sdilej.cz/35002186/flintstoneovi-s02e24-fred-vyrazi-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288648",
+        "display_name": "The Flintstones S02E24 Fred Strikes Out SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:24:12.676298+00:00"
       }
     },
     "1951:2:25": {
@@ -884291,7 +884292,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:24:01.223923+00:00",
+  "updated_at": "2026-11-23T14:24:12.676315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
