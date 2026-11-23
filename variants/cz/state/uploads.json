@@ -885868,12 +885868,6 @@
     },
     "1951:3:26": {
       "episode_key": "flintstoneovi:s3:e26",
-      "claim": {
-        "worker_id": "d2983c231b614c5db7c67c03806d3233-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:04:30.858286+00:00",
-        "lease_expires_at": "2026-11-23T21:04:30.858297+00:00"
-      },
       "source": {
         "source_id": "35004150",
         "source_url": "https://sdilej.cz/35004150/flintstoneovi-s03e26-velky-presun-cz-skalican762-ipad.mp4",
@@ -885898,22 +885892,29 @@
         "display_name": "The Flintstones S03E26 The Big Move SD CZ Dabing",
         "prepared_at": "2026-11-23T15:04:37.329197+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290093",
-        "size_bytes": 250643341
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290093",
-        "size_bytes": 250643341,
-        "source_bytes_read": 250643341,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290093",
         "source_bytes_read": 250643341,
         "elapsed_seconds": 21.007,
         "finished_at": "2026-11-23T15:05:26.389442+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290093",
+          "size_bytes": 250643341,
+          "source_bytes_read": 250643341,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35004150",
+        "source_url": "https://sdilej.cz/35004150/flintstoneovi-s03e26-velky-presun-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290093",
+        "display_name": "The Flintstones S03E26 The Big Move SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:05:39.995217+00:00"
       }
     }
   },
@@ -885922,7 +885923,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:05:32.336127+00:00",
+  "updated_at": "2026-11-23T15:05:39.995237+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
