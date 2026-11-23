@@ -890794,12 +890794,6 @@
     },
     "3016:3:5": {
       "episode_key": "berlínská mise:s3:e5",
-      "claim": {
-        "worker_id": "29fe92bbd94a4a8e80277b294960a3c6-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T21:11:51.940295+00:00",
-        "lease_expires_at": "2026-11-24T03:11:51.940307+00:00"
-      },
       "source": {
         "source_id": "30890962",
         "source_url": "https://sdilej.cz/30890962/berlin-station-s03e05.mp4",
@@ -890824,22 +890818,29 @@
         "display_name": "Berlin Station S03E05 The Dream of the Four Policemen 1080p CZ Dabing",
         "prepared_at": "2026-11-23T21:11:59.402098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31306535",
-        "size_bytes": 784278617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31306535",
-        "size_bytes": 784278617,
-        "source_bytes_read": 784278617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31306535",
         "source_bytes_read": 784278617,
         "elapsed_seconds": 114.748,
         "finished_at": "2026-11-23T21:14:25.094420+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31306535",
+          "size_bytes": 784278617,
+          "source_bytes_read": 784278617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30890962",
+        "source_url": "https://sdilej.cz/30890962/berlin-station-s03e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31306535",
+        "display_name": "Berlin Station S03E05 The Dream of the Four Policemen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T21:14:44.672221+00:00"
       }
     }
   },
@@ -890848,7 +890849,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T21:14:38.777837+00:00",
+  "updated_at": "2026-11-23T21:14:44.672235+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
