@@ -891697,12 +891697,6 @@
     },
     "74:3:1": {
       "episode_key": "the walking dead: daryl dixon:s3:e1",
-      "claim": {
-        "worker_id": "2dcd379d29fd4c7baafbeda23f46444c-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:41:27.838886+00:00",
-        "lease_expires_at": "2026-11-24T05:41:27.838902+00:00"
-      },
       "source": {
         "source_id": "32253190",
         "source_url": "https://sdilej.cz/32253190/the-walking-dead-daryl-dixon-s03e01-costa-da-morte.mkv",
@@ -891727,22 +891721,29 @@
         "display_name": "The Walking Dead: Daryl Dixon S03E01 Costa da Morte 1080p CZ Dabing",
         "prepared_at": "2026-11-23T23:42:04.390398+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31310964",
-        "size_bytes": 1356359297
-      },
-      "transfer_receipt": {
-        "target_video_id": "31310964",
-        "size_bytes": 1356359297,
-        "source_bytes_read": 1356359297,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31310964",
         "source_bytes_read": 1356359297,
         "elapsed_seconds": 183.463,
         "finished_at": "2026-11-23T23:45:34.776448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31310964",
+          "size_bytes": 1356359297,
+          "source_bytes_read": 1356359297,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32253190",
+        "source_url": "https://sdilej.cz/32253190/the-walking-dead-daryl-dixon-s03e01-costa-da-morte.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31310964",
+        "display_name": "The Walking Dead: Daryl Dixon S03E01 Costa da Morte 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:45:46.873511+00:00"
       }
     }
   },
@@ -891751,7 +891752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:45:41.053112+00:00",
+  "updated_at": "2026-11-23T23:45:46.873526+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
