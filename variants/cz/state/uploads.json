@@ -891742,12 +891742,6 @@
     },
     "74:3:2": {
       "episode_key": "the walking dead: daryl dixon:s3:e2",
-      "claim": {
-        "worker_id": "680bf1de73804bcc9ee8588386ae6c36-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:46:11.039592+00:00",
-        "lease_expires_at": "2026-11-24T05:46:11.039609+00:00"
-      },
       "source": {
         "source_id": "33072451",
         "source_url": "https://sdilej.cz/33072451/the-walking-dead-daryl-dixon-s03e02-cz-dabing.mkv",
@@ -891772,22 +891766,29 @@
         "display_name": "The Walking Dead: Daryl Dixon S03E02 La Ofrenda 1080p CZ Dabing",
         "prepared_at": "2026-11-23T23:46:34.701444+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31311102",
-        "size_bytes": 1628805600
-      },
-      "transfer_receipt": {
-        "target_video_id": "31311102",
-        "size_bytes": 1628805600,
-        "source_bytes_read": 1628805600,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31311102",
         "source_bytes_read": 1628805600,
         "elapsed_seconds": 229.335,
         "finished_at": "2026-11-23T23:51:05.251708+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31311102",
+          "size_bytes": 1628805600,
+          "source_bytes_read": 1628805600,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33072451",
+        "source_url": "https://sdilej.cz/33072451/the-walking-dead-daryl-dixon-s03e02-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31311102",
+        "display_name": "The Walking Dead: Daryl Dixon S03E02 La Ofrenda 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:51:15.803986+00:00"
       }
     },
     "74:3:4": {
@@ -891935,7 +891936,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:51:05.251726+00:00",
+  "updated_at": "2026-11-23T23:51:15.804011+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
