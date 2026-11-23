@@ -858725,12 +858725,6 @@
     },
     "1645:1:7": {
       "episode_key": "město na kopci:s1:e7",
-      "claim": {
-        "worker_id": "ae12160f5c074a0daff53d3186cc04a7-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:14:08.193744+00:00",
-        "lease_expires_at": "2026-11-23T07:14:08.193754+00:00"
-      },
       "source": {
         "source_id": "12199568",
         "source_url": "https://sdilej.cz/12199568/mesto.na.kopci.01x07.1080i.hdtv.cz.mkv",
@@ -858755,22 +858749,29 @@
         "display_name": "City on a Hill S01E07 There Are No F**king Sides 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:14:15.855868+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267570",
-        "size_bytes": 5547114828
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267570",
-        "size_bytes": 5547114828,
-        "source_bytes_read": 5547114828,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267570",
         "source_bytes_read": 5547114828,
         "elapsed_seconds": 666.536,
         "finished_at": "2026-11-23T01:25:47.293424+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267570",
+          "size_bytes": 5547114828,
+          "source_bytes_read": 5547114828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12199568",
+        "source_url": "https://sdilej.cz/12199568/mesto.na.kopci.01x07.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267570",
+        "display_name": "City on a Hill S01E07 There Are No F**king Sides 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:26:09.102644+00:00"
       }
     },
     "1645:1:8": {
@@ -858830,7 +858831,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:25:53.946763+00:00",
+  "updated_at": "2026-11-23T01:26:09.102660+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
