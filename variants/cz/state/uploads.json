@@ -878328,12 +878328,6 @@
     },
     "1826:2:6": {
       "episode_key": "a-team:s2:e6",
-      "claim": {
-        "worker_id": "4d608f0b6d414683a643c2969dbb84c5-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:28:16.013248+00:00",
-        "lease_expires_at": "2026-11-23T17:28:16.013269+00:00"
-      },
       "source": {
         "source_id": "29296267",
         "source_url": "https://sdilej.cz/29296267/the-a-team-s02e06-1080p-cz-dabing.mkv",
@@ -878358,22 +878352,29 @@
         "display_name": "The A-Team S02E06 The Taxicab Wars 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:28:27.233367+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283516",
-        "size_bytes": 1435589705
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283516",
-        "size_bytes": 1435589705,
-        "source_bytes_read": 1435589705,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283516",
         "source_bytes_read": 1435589705,
         "elapsed_seconds": 155.554,
         "finished_at": "2026-11-23T11:31:39.860468+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283516",
+          "size_bytes": 1435589705,
+          "source_bytes_read": 1435589705,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296267",
+        "source_url": "https://sdilej.cz/29296267/the-a-team-s02e06-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283516",
+        "display_name": "The A-Team S02E06 The Taxicab Wars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:31:53.558837+00:00"
       }
     },
     "1826:2:7": {
@@ -878419,7 +878420,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:31:45.952530+00:00",
+  "updated_at": "2026-11-23T11:31:53.558854+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
