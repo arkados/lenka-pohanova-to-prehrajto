@@ -866523,28 +866523,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "6ba6c3820d45412abcdc90c6d8591523-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:10:00.558676+00:00",
-        "lease_expires_at": "2026-11-23T13:10:00.558687+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276368",
-        "size_bytes": 461446465
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276368",
-        "size_bytes": 461446465,
-        "source_bytes_read": 461446465,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276368",
         "source_bytes_read": 461446465,
         "elapsed_seconds": 42.782,
         "finished_at": "2026-11-23T07:11:38.798025+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276368",
+          "size_bytes": 461446465,
+          "source_bytes_read": 461446465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34329745",
+        "source_url": "https://sdilej.cz/34329745/agenti-s.h.i.e.l.d.-03x13-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276368",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E13 Parting Shot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:11:48.326088+00:00"
       }
     },
     "1095:3:14": {
@@ -869615,7 +869616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:11:38.798043+00:00",
+  "updated_at": "2026-11-23T07:11:48.326105+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
