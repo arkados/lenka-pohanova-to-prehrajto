@@ -857534,12 +857534,6 @@
     },
     "2310:1:2": {
       "episode_key": "skandál po anglicku:s1:e2",
-      "claim": {
-        "worker_id": "2fdf47ad6bc54c8cbe2a9c347756bd33-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:36:07.356112+00:00",
-        "lease_expires_at": "2026-11-23T06:36:07.356126+00:00"
-      },
       "source": {
         "source_id": "34727700",
         "source_url": "https://sdilej.cz/34727700/skandal-po-anglicku-s01e02-03-2018-cz-dab-1080p-epizoda-2.mkv",
@@ -857564,22 +857558,29 @@
         "display_name": "A Very English Scandal S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:36:19.955032+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31266533",
-        "size_bytes": 3264470991
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266533",
-        "size_bytes": 3264470991,
-        "source_bytes_read": 3264470991,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266533",
         "source_bytes_read": 3264470991,
         "elapsed_seconds": 392.903,
         "finished_at": "2026-11-23T00:43:25.494564+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266533",
+          "size_bytes": 3264470991,
+          "source_bytes_read": 3264470991,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34727700",
+        "source_url": "https://sdilej.cz/34727700/skandal-po-anglicku-s01e02-03-2018-cz-dab-1080p-epizoda-2.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266533",
+        "display_name": "A Very English Scandal S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:43:34.963610+00:00"
       }
     },
     "2310:1:3": {
@@ -857662,7 +857663,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:43:25.494586+00:00",
+  "updated_at": "2026-11-23T00:43:34.963625+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
