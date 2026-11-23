@@ -856754,12 +856754,6 @@
     },
     "3644:1:6": {
       "episode_key": "strašidelný hotel:s1:e6",
-      "claim": {
-        "worker_id": "f705d10770ab46ee88307bbd535ca7e3-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:13:21.565894+00:00",
-        "lease_expires_at": "2026-11-23T06:13:21.565905+00:00"
-      },
       "source": {
         "source_id": "32963010",
         "source_url": "https://sdilej.cz/32963010/haunted-hotel-s01e06-cz-dabing.mkv",
@@ -856783,7 +856777,17 @@
         },
         "display_name": "Haunted Hotel S01E06 Ghost Hunters! 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:13:34.040066+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32963010:https://sdilej.cz/32963010/haunted-hotel-s01e06-cz-dabing.mkv",
+        "at": "2026-11-23T00:13:48.582139+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T00:13:48.582185+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -856791,7 +856795,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:13:34.040104+00:00",
+  "updated_at": "2026-11-23T00:13:48.582192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -857511,16 +857515,8 @@
     "3644": {
       "recent_failures": [
         {
-          "identity": "3644:1:1",
-          "at": "2026-11-22T23:58:44.220524+00:00"
-        },
-        {
-          "identity": "3644:1:3",
-          "at": "2026-11-23T00:01:48.622979+00:00"
-        },
-        {
-          "identity": "3644:1:4",
-          "at": "2026-11-23T00:01:58.995038+00:00"
+          "identity": "3644:1:6",
+          "at": "2026-11-23T00:13:48.582139+00:00"
         }
       ],
       "retry_after": "2026-11-23T00:11:58.995038+00:00"
