@@ -861968,12 +861968,6 @@
     },
     "1239:3:5": {
       "episode_key": "prvních 100:s3:e5",
-      "claim": {
-        "worker_id": "7b381364896f4a5885d199d2a35eebad-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:16:46.084290+00:00",
-        "lease_expires_at": "2026-11-23T09:16:46.084301+00:00"
-      },
       "source": {
         "source_id": "34863217",
         "source_url": "https://sdilej.cz/34863217/prvnich-100-s03e05.avi",
@@ -861998,22 +861992,29 @@
         "display_name": "The 100 S03E05 Hakeldama SD CZ Dabing",
         "prepared_at": "2026-11-23T03:16:55.073113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270401",
-        "size_bytes": 311348092
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270401",
-        "size_bytes": 311348092,
-        "source_bytes_read": 311348092,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270401",
         "source_bytes_read": 311348092,
         "elapsed_seconds": 29.219,
         "finished_at": "2026-11-23T03:18:11.094420+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270401",
+          "size_bytes": 311348092,
+          "source_bytes_read": 311348092,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863217",
+        "source_url": "https://sdilej.cz/34863217/prvnich-100-s03e05.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270401",
+        "display_name": "The 100 S03E05 Hakeldama SD CZ Dabing",
+        "uploaded_at": "2026-11-23T03:18:24.345376+00:00"
       }
     },
     "1239:3:10": {
@@ -862096,7 +862097,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:18:16.123368+00:00",
+  "updated_at": "2026-11-23T03:18:24.345393+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
