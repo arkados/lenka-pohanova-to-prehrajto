@@ -857456,28 +857456,29 @@
           "at": "2026-11-23T00:35:32.767356+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "a3d5116b8a614f2491ea307ab4c3e7d9-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:35:38.333961+00:00",
-        "lease_expires_at": "2026-11-23T06:35:38.333979+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31266515",
-        "size_bytes": 164303363
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266515",
-        "size_bytes": 164303363,
-        "source_bytes_read": 164303363,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266515",
         "source_bytes_read": 164303363,
         "elapsed_seconds": 8.939,
         "finished_at": "2026-11-23T00:36:27.322392+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266515",
+          "size_bytes": 164303363,
+          "source_bytes_read": 164303363,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32871753",
+        "source_url": "https://sdilej.cz/32871753/smrt-v-bilem-plasti-dr.-death-s02e02-720p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266515",
+        "display_name": "Dr. Death S02E02 Worth the Risk 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:36:40.387823+00:00"
       }
     },
     "2310:1:1": {
@@ -857559,7 +857560,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:36:33.328515+00:00",
+  "updated_at": "2026-11-23T00:36:40.387840+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
