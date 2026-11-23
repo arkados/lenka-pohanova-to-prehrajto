@@ -889712,12 +889712,6 @@
     },
     "1777:1:2": {
       "episode_key": "stanice 11:s1:e2",
-      "claim": {
-        "worker_id": "880369dc26af48b2b45f3777460c3398-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:55:07.470555+00:00",
-        "lease_expires_at": "2026-11-23T22:55:07.470569+00:00"
-      },
       "source": {
         "source_id": "25448148",
         "source_url": "https://sdilej.cz/25448148/stanice-11-station-eleven-2021-s01e02-hd-cz-dabing.mkv",
@@ -889742,22 +889736,29 @@
         "display_name": "Station Eleven S01E02 A Hawk from a Handsaw 1080p CZ Dabing",
         "prepared_at": "2026-11-23T16:55:21.590500+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31293361",
-        "size_bytes": 2065857997
-      },
-      "transfer_receipt": {
-        "target_video_id": "31293361",
-        "size_bytes": 2065857997,
-        "source_bytes_read": 2065857997,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31293361",
         "source_bytes_read": 2065857997,
         "elapsed_seconds": 364.773,
         "finished_at": "2026-11-23T17:01:52.676415+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31293361",
+          "size_bytes": 2065857997,
+          "source_bytes_read": 2065857997,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25448148",
+        "source_url": "https://sdilej.cz/25448148/stanice-11-station-eleven-2021-s01e02-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31293361",
+        "display_name": "Station Eleven S01E02 A Hawk from a Handsaw 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T17:02:01.083356+00:00"
       }
     },
     "1777:1:3": {
@@ -889803,7 +889804,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T17:01:52.676437+00:00",
+  "updated_at": "2026-11-23T17:02:01.083373+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
