@@ -869284,12 +869284,6 @@
     },
     "1972:2:5": {
       "episode_key": "ginny a georgia:s2:e5",
-      "claim": {
-        "worker_id": "eeafc9d7d9af432889d1929c5b885be7-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T06:59:09.227451+00:00",
-        "lease_expires_at": "2026-11-23T12:59:09.227462+00:00"
-      },
       "source": {
         "source_id": "32458393",
         "source_url": "https://sdilej.cz/32458393/ginny-a-georgia-2022-s02e05-czdab-1080p-tyhle-latka-jsou-husty.mkv",
@@ -869314,22 +869308,29 @@
         "display_name": "Ginny & Georgia S02E05 Latkes Are Lit 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:59:17.143002+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31276104",
-        "size_bytes": 1437362551
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276104",
-        "size_bytes": 1437362551,
-        "source_bytes_read": 1437362551,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276104",
         "source_bytes_read": 1437362551,
         "elapsed_seconds": 100.441,
         "finished_at": "2026-11-23T07:01:25.696165+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276104",
+          "size_bytes": 1437362551,
+          "source_bytes_read": 1437362551,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32458393",
+        "source_url": "https://sdilej.cz/32458393/ginny-a-georgia-2022-s02e05-czdab-1080p-tyhle-latka-jsou-husty.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276104",
+        "display_name": "Ginny & Georgia S02E05 Latkes Are Lit 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:01:40.678242+00:00"
       }
     }
   },
@@ -869338,7 +869339,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:01:33.938204+00:00",
+  "updated_at": "2026-11-23T07:01:40.678257+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
