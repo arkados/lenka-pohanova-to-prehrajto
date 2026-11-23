@@ -878278,12 +878278,6 @@
     },
     "1826:2:4": {
       "episode_key": "a-team:s2:e4",
-      "claim": {
-        "worker_id": "1005f74873434a5eb264742253a770b3-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:28:10.415643+00:00",
-        "lease_expires_at": "2026-11-23T17:28:10.415661+00:00"
-      },
       "source": {
         "source_id": "29295962",
         "source_url": "https://sdilej.cz/29295962/the-a-team-s02e04-1080p-cz-dabing.mkv",
@@ -878308,22 +878302,29 @@
         "display_name": "The A-Team S02E04 Bad Time on the Border 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:28:33.622808+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283519",
-        "size_bytes": 1522043489
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283519",
-        "size_bytes": 1522043489,
-        "source_bytes_read": 1522043489,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283519",
         "source_bytes_read": 1522043489,
         "elapsed_seconds": 154.471,
         "finished_at": "2026-11-23T11:31:45.952509+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283519",
+          "size_bytes": 1522043489,
+          "source_bytes_read": 1522043489,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29295962",
+        "source_url": "https://sdilej.cz/29295962/the-a-team-s02e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283519",
+        "display_name": "The A-Team S02E04 Bad Time on the Border 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:31:59.451277+00:00"
       }
     },
     "1826:2:6": {
@@ -878420,7 +878421,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:31:53.558854+00:00",
+  "updated_at": "2026-11-23T11:31:59.451296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
