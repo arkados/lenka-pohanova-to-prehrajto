@@ -882765,12 +882765,6 @@
     },
     "1951:1:23": {
       "episode_key": "flintstoneovi:s1:e23",
-      "claim": {
-        "worker_id": "85e5ce48ddf34939bc89828936158064-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:59:03.523355+00:00",
-        "lease_expires_at": "2026-11-23T19:59:03.523375+00:00"
-      },
       "source": {
         "source_id": "35000851",
         "source_url": "https://sdilej.cz/35000851/flintstoneovi-s01e23-kosmonauti-ipad.mp4",
@@ -882795,22 +882789,29 @@
         "display_name": "The Flintstones S01E23 The Astra' Nuts SD CZ Dabing",
         "prepared_at": "2026-11-23T13:59:22.182775+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288007",
-        "size_bytes": 233010980
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288007",
-        "size_bytes": 233010980,
-        "source_bytes_read": 233010980,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288007",
         "source_bytes_read": 233010980,
         "elapsed_seconds": 25.521,
         "finished_at": "2026-11-23T14:00:25.111964+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288007",
+          "size_bytes": 233010980,
+          "source_bytes_read": 233010980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35000851",
+        "source_url": "https://sdilej.cz/35000851/flintstoneovi-s01e23-kosmonauti-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288007",
+        "display_name": "The Flintstones S01E23 The Astra' Nuts SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:00:44.775288+00:00"
       }
     },
     "1951:1:24": {
@@ -882870,7 +882871,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:00:39.263754+00:00",
+  "updated_at": "2026-11-23T14:00:44.775306+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
