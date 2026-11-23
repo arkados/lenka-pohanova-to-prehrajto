@@ -876597,12 +876597,6 @@
     },
     "2115:1:17": {
       "episode_key": "vládci kouzel:s1:e17",
-      "claim": {
-        "worker_id": "17a3e33b4ea24899b0d5a441b014d54b-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:32:43.000421+00:00",
-        "lease_expires_at": "2026-11-23T16:32:43.000440+00:00"
-      },
       "source": {
         "source_id": "29661611",
         "source_url": "https://sdilej.cz/29661611/vladci-kouzel-s01e17-trojsky-karamelovy-vozik.avi",
@@ -876627,22 +876621,29 @@
         "display_name": "Spellbinder S01E17 The Trojan Toffee Trolley SD CZ Dabing",
         "prepared_at": "2026-11-23T10:33:07.219047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31282183",
-        "size_bytes": 262438912
-      },
-      "transfer_receipt": {
-        "target_video_id": "31282183",
-        "size_bytes": 262438912,
-        "source_bytes_read": 262438912,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31282183",
         "source_bytes_read": 262438912,
         "elapsed_seconds": 25.841,
         "finished_at": "2026-11-23T10:34:08.529569+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31282183",
+          "size_bytes": 262438912,
+          "source_bytes_read": 262438912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29661611",
+        "source_url": "https://sdilej.cz/29661611/vladci-kouzel-s01e17-trojsky-karamelovy-vozik.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31282183",
+        "display_name": "Spellbinder S01E17 The Trojan Toffee Trolley SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:34:27.007584+00:00"
       }
     }
   },
@@ -876651,7 +876652,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:34:21.228630+00:00",
+  "updated_at": "2026-11-23T10:34:27.007606+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
