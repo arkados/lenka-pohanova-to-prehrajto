@@ -879131,12 +879131,6 @@
     },
     "1826:3:1": {
       "episode_key": "a-team:s3:e1",
-      "claim": {
-        "worker_id": "6af9fbfc7e794794861e60f5908a397b-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:01:24.850868+00:00",
-        "lease_expires_at": "2026-11-23T18:01:24.850882+00:00"
-      },
       "source": {
         "source_id": "29546259",
         "source_url": "https://sdilej.cz/29546259/the-a-team-s03e01-1080p-cz-dabing.mkv",
@@ -879161,22 +879155,29 @@
         "display_name": "The A-Team S03E01 Bullets and Bikinis 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:01:37.689114+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31284439",
-        "size_bytes": 1444969824
-      },
-      "transfer_receipt": {
-        "target_video_id": "31284439",
-        "size_bytes": 1444969824,
-        "source_bytes_read": 1444969824,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31284439",
         "source_bytes_read": 1444969824,
         "elapsed_seconds": 113.187,
         "finished_at": "2026-11-23T12:04:00.726466+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31284439",
+          "size_bytes": 1444969824,
+          "source_bytes_read": 1444969824,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29546259",
+        "source_url": "https://sdilej.cz/29546259/the-a-team-s03e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31284439",
+        "display_name": "The A-Team S03E01 Bullets and Bikinis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:04:13.847779+00:00"
       }
     }
   },
@@ -879185,7 +879186,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:04:08.427103+00:00",
+  "updated_at": "2026-11-23T12:04:13.847797+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
