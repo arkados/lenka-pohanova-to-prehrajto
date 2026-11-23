@@ -874976,12 +874976,6 @@
     },
     "3041:1:5": {
       "episode_key": "nevěstky:s1:e5",
-      "claim": {
-        "worker_id": "2d85140f5ad94414b16f069eab160c27-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:55:25.518811+00:00",
-        "lease_expires_at": "2026-11-23T15:55:25.518821+00:00"
-      },
       "source": {
         "source_id": "10186534",
         "source_url": "https://sdilej.cz/10186534/nevestky-1x05.-emily-tvrip-cz-ss23-.avi",
@@ -875006,22 +875000,29 @@
         "display_name": "Harlots S01E05 SD CZ Dabing",
         "prepared_at": "2026-11-23T09:55:43.790631+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281265",
-        "size_bytes": 372760980
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281265",
-        "size_bytes": 372760980,
-        "source_bytes_read": 372760980,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281265",
         "source_bytes_read": 372760980,
         "elapsed_seconds": 36.936,
         "finished_at": "2026-11-23T09:56:49.557347+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281265",
+          "size_bytes": 372760980,
+          "source_bytes_read": 372760980,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10186534",
+        "source_url": "https://sdilej.cz/10186534/nevestky-1x05.-emily-tvrip-cz-ss23-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281265",
+        "display_name": "Harlots S01E05 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T09:57:00.466543+00:00"
       }
     }
   },
@@ -875030,7 +875031,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:56:55.111555+00:00",
+  "updated_at": "2026-11-23T09:57:00.466560+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
