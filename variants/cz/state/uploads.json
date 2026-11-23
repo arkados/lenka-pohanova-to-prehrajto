@@ -871548,12 +871548,6 @@
     },
     "5751:1:1": {
       "episode_key": "jak se mění vědomí:s1:e1",
-      "claim": {
-        "worker_id": "0f1316e6bb314515a6d6dc8957cc2051-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:09:54.347436+00:00",
-        "lease_expires_at": "2026-11-23T14:09:54.347448+00:00"
-      },
       "source": {
         "source_id": "24603094",
         "source_url": "https://sdilej.cz/24603094/jak-se-meni-vedomi-how-to-change-your-mind-s01e01-hd-5.1-cz-dabing.mkv",
@@ -871578,22 +871572,29 @@
         "display_name": "How to Change Your Mind S01E01 Chapter 1: LSD 1080p CZ Dabing",
         "prepared_at": "2026-11-23T08:10:19.681088+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31278172",
-        "size_bytes": 3046025235
-      },
-      "transfer_receipt": {
-        "target_video_id": "31278172",
-        "size_bytes": 3046025235,
-        "source_bytes_read": 3046025235,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31278172",
         "source_bytes_read": 3046025235,
         "elapsed_seconds": 433.721,
         "finished_at": "2026-11-23T08:18:00.458906+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31278172",
+          "size_bytes": 3046025235,
+          "source_bytes_read": 3046025235,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24603094",
+        "source_url": "https://sdilej.cz/24603094/jak-se-meni-vedomi-how-to-change-your-mind-s01e01-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31278172",
+        "display_name": "How to Change Your Mind S01E01 Chapter 1: LSD 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T08:18:20.329798+00:00"
       }
     },
     "5751:1:2": {
@@ -871653,7 +871654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:18:11.218737+00:00",
+  "updated_at": "2026-11-23T08:18:20.329812+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
