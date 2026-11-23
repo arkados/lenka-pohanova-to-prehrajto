@@ -890623,12 +890623,6 @@
     },
     "3016:2:8": {
       "episode_key": "berlínská mise:s2:e8",
-      "claim": {
-        "worker_id": "31130b10e10f4a0e8afa07bcdd4716b0-worker-0",
-        "run_id": "45225486737",
-        "claimed_at": "2026-11-23T19:15:11.688749+00:00",
-        "lease_expires_at": "2026-11-24T01:15:11.688762+00:00"
-      },
       "source": {
         "source_id": "30607384",
         "source_url": "https://sdilej.cz/30607384/berlin-station-s02e08.mp4",
@@ -890653,22 +890647,29 @@
         "display_name": "Berlin Station S02E08 The Righteous One 1080p CZ Dabing",
         "prepared_at": "2026-11-23T19:15:30.229058+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31297727",
-        "size_bytes": 791547973
-      },
-      "transfer_receipt": {
-        "target_video_id": "31297727",
-        "size_bytes": 791547973,
-        "source_bytes_read": 791547973,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31297727",
         "source_bytes_read": 791547973,
         "elapsed_seconds": 80.284,
         "finished_at": "2026-11-23T19:17:22.724836+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31297727",
+          "size_bytes": 791547973,
+          "source_bytes_read": 791547973,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30607384",
+        "source_url": "https://sdilej.cz/30607384/berlin-station-s02e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31297727",
+        "display_name": "Berlin Station S02E08 The Righteous One 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T19:17:37.024097+00:00"
       }
     }
   },
@@ -890677,7 +890678,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T19:17:30.538817+00:00",
+  "updated_at": "2026-11-23T19:17:37.024110+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
