@@ -882211,12 +882211,6 @@
     },
     "1951:1:12": {
       "episode_key": "flintstoneovi:s1:e12",
-      "claim": {
-        "worker_id": "e1b638c9c49c467eb7ded8db2271a6ba-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:43:59.124413+00:00",
-        "lease_expires_at": "2026-11-23T19:43:59.124426+00:00"
-      },
       "source": {
         "source_id": "34986736",
         "source_url": "https://sdilej.cz/34986736/flintstoneovi-s01e12-sazkovy-tiket-ipad.mp4",
@@ -882241,22 +882235,29 @@
         "display_name": "The Flintstones S01E12 The Sweepstakes Ticket SD CZ Dabing",
         "prepared_at": "2026-11-23T13:44:22.974960+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287587",
-        "size_bytes": 233247621
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287587",
-        "size_bytes": 233247621,
-        "source_bytes_read": 233247621,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287587",
         "source_bytes_read": 233247621,
         "elapsed_seconds": 13.881,
         "finished_at": "2026-11-23T13:45:08.696881+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287587",
+          "size_bytes": 233247621,
+          "source_bytes_read": 233247621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34986736",
+        "source_url": "https://sdilej.cz/34986736/flintstoneovi-s01e12-sazkovy-tiket-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287587",
+        "display_name": "The Flintstones S01E12 The Sweepstakes Ticket SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:45:20.264541+00:00"
       }
     },
     "1951:1:13": {
@@ -882298,7 +882299,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:45:14.704919+00:00",
+  "updated_at": "2026-11-23T13:45:20.264556+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
