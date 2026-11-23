@@ -888043,12 +888043,6 @@
     },
     "1951:5:16": {
       "episode_key": "flintstoneovi:s5:e16",
-      "claim": {
-        "worker_id": "53b0337ad9f444a5bc517f0d9aea5410-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:12:46.968993+00:00",
-        "lease_expires_at": "2026-11-23T22:12:46.969013+00:00"
-      },
       "source": {
         "source_id": "35015833",
         "source_url": "https://sdilej.cz/35015833/flintstoneovi-s05e16-fredovi-lekce-v-letani-cz-skalican762-ipad.mp4",
@@ -888073,22 +888067,29 @@
         "display_name": "The Flintstones S05E16 Fred's Flying Lesson SD CZ Dabing",
         "prepared_at": "2026-11-23T16:13:13.787563+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31292028",
-        "size_bytes": 247984368
-      },
-      "transfer_receipt": {
-        "target_video_id": "31292028",
-        "size_bytes": 247984368,
-        "source_bytes_read": 247984368,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31292028",
         "source_bytes_read": 247984368,
         "elapsed_seconds": 29.732,
         "finished_at": "2026-11-23T16:14:21.801930+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31292028",
+          "size_bytes": 247984368,
+          "source_bytes_read": 247984368,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35015833",
+        "source_url": "https://sdilej.cz/35015833/flintstoneovi-s05e16-fredovi-lekce-v-letani-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31292028",
+        "display_name": "The Flintstones S05E16 Fred's Flying Lesson SD CZ Dabing",
+        "uploaded_at": "2026-11-23T16:14:36.278250+00:00"
       }
     }
   },
@@ -888097,7 +888098,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T16:14:30.149697+00:00",
+  "updated_at": "2026-11-23T16:14:36.278270+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
