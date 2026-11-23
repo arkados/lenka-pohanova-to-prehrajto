@@ -885475,12 +885475,6 @@
     },
     "1951:3:17": {
       "episode_key": "flintstoneovi:s3:e17",
-      "claim": {
-        "worker_id": "33e83ea8384c48b7b0c8bbb482fdae46-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:55:14.524840+00:00",
-        "lease_expires_at": "2026-11-23T20:55:14.524861+00:00"
-      },
       "source": {
         "source_id": "35003617",
         "source_url": "https://sdilej.cz/35003617/flintstoneovi-s03e17-wilma-sluzkou-cz-skalican762-ipad.mp4",
@@ -885505,22 +885499,29 @@
         "display_name": "The Flintstones S03E17 Wilma, the Maid SD CZ Dabing",
         "prepared_at": "2026-11-23T14:55:33.143863+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289847",
-        "size_bytes": 252567170
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289847",
-        "size_bytes": 252567170,
-        "source_bytes_read": 252567170,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289847",
         "source_bytes_read": 252567170,
         "elapsed_seconds": 13.917,
         "finished_at": "2026-11-23T14:56:31.505236+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289847",
+          "size_bytes": 252567170,
+          "source_bytes_read": 252567170,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003617",
+        "source_url": "https://sdilej.cz/35003617/flintstoneovi-s03e17-wilma-sluzkou-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289847",
+        "display_name": "The Flintstones S03E17 Wilma, the Maid SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:56:52.855462+00:00"
       }
     },
     "1951:3:19": {
@@ -885566,7 +885567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:56:45.089875+00:00",
+  "updated_at": "2026-11-23T14:56:52.855482+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
