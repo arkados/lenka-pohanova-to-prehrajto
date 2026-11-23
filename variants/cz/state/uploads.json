@@ -874888,12 +874888,6 @@
     },
     "3041:1:3": {
       "episode_key": "nevěstky:s1:e3",
-      "claim": {
-        "worker_id": "f1c0fb3cf0534c3f9e7c5ba6c75987e0-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:54:54.047513+00:00",
-        "lease_expires_at": "2026-11-23T15:54:54.047526+00:00"
-      },
       "source": {
         "source_id": "31202210",
         "source_url": "https://sdilej.cz/31202210/nevestky-harlots-s01e03-2017-cz.avi",
@@ -874918,22 +874912,29 @@
         "display_name": "Harlots S01E03 SD CZ Dabing",
         "prepared_at": "2026-11-23T09:55:07.480278+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281249",
-        "size_bytes": 406686868
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281249",
-        "size_bytes": 406686868,
-        "source_bytes_read": 406686868,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281249",
         "source_bytes_read": 406686868,
         "elapsed_seconds": 36.997,
         "finished_at": "2026-11-23T09:56:14.855115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281249",
+          "size_bytes": 406686868,
+          "source_bytes_read": 406686868,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31202210",
+        "source_url": "https://sdilej.cz/31202210/nevestky-harlots-s01e03-2017-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281249",
+        "display_name": "Harlots S01E03 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T09:56:21.857445+00:00"
       }
     },
     "3041:1:4": {
@@ -875016,7 +875017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:56:14.855134+00:00",
+  "updated_at": "2026-11-23T09:56:21.857462+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
