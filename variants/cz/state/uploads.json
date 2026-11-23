@@ -878743,12 +878743,6 @@
     },
     "1826:2:15": {
       "episode_key": "a-team:s2:e15",
-      "claim": {
-        "worker_id": "69165e58efbb4d2ebdb901bf7c2366e9-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:47:42.749642+00:00",
-        "lease_expires_at": "2026-11-23T17:47:42.749659+00:00"
-      },
       "source": {
         "source_id": "29459018",
         "source_url": "https://sdilej.cz/29459018/the-a-team-s02e15-1080p-cz-dabing.mkv",
@@ -878773,22 +878767,29 @@
         "display_name": "The A-Team S02E15 Say It With Bullets 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:47:54.892470+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283958",
-        "size_bytes": 1509849492
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283958",
-        "size_bytes": 1509849492,
-        "source_bytes_read": 1509849492,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283958",
         "source_bytes_read": 1509849492,
         "elapsed_seconds": 238.968,
         "finished_at": "2026-11-23T11:52:27.905544+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283958",
+          "size_bytes": 1509849492,
+          "source_bytes_read": 1509849492,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29459018",
+        "source_url": "https://sdilej.cz/29459018/the-a-team-s02e15-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283958",
+        "display_name": "The A-Team S02E15 Say It With Bullets 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:52:40.675090+00:00"
       }
     },
     "1826:2:16": {
@@ -878885,7 +878886,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:52:34.248050+00:00",
+  "updated_at": "2026-11-23T11:52:40.675108+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
