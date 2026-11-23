@@ -882306,12 +882306,6 @@
     },
     "1951:1:14": {
       "episode_key": "flintstoneovi:s1:e14",
-      "claim": {
-        "worker_id": "857da0b573d347549765ba0e3a39a559-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:51:36.652167+00:00",
-        "lease_expires_at": "2026-11-23T19:51:36.652184+00:00"
-      },
       "source": {
         "source_id": "34987562",
         "source_url": "https://sdilej.cz/34987562/flintstoneovi-s01e14-chmatak-ipad.mp4",
@@ -882336,22 +882330,29 @@
         "display_name": "The Flintstones S01E14 The Prowler SD CZ Dabing",
         "prepared_at": "2026-11-23T13:51:56.984702+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287785",
-        "size_bytes": 233269121
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287785",
-        "size_bytes": 233269121,
-        "source_bytes_read": 233269121,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287785",
         "source_bytes_read": 233269121,
         "elapsed_seconds": 12.492,
         "finished_at": "2026-11-23T13:52:49.451817+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287785",
+          "size_bytes": 233269121,
+          "source_bytes_read": 233269121,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34987562",
+        "source_url": "https://sdilej.cz/34987562/flintstoneovi-s01e14-chmatak-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287785",
+        "display_name": "The Flintstones S01E14 The Prowler SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:53:06.495560+00:00"
       }
     },
     "1951:1:15": {
@@ -882430,7 +882431,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:53:00.307751+00:00",
+  "updated_at": "2026-11-23T13:53:06.495575+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
