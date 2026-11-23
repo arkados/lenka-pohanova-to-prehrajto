@@ -891983,12 +891983,6 @@
     },
     "640:1:1": {
       "episode_key": "mladý sherlock:s1:e1",
-      "claim": {
-        "worker_id": "b07f792bdf8f48b5bdbb14d18ed64e8d-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:53:10.359884+00:00",
-        "lease_expires_at": "2026-11-24T05:53:10.359903+00:00"
-      },
       "source": {
         "source_id": "33588754",
         "source_url": "https://sdilej.cz/33588754/young-sherlock-s01e01-cz-dabing-2160p.mkv",
@@ -892012,7 +892006,17 @@
         },
         "display_name": "Young Sherlock S01E01 The Case of the Missing Scrolls 4K CZ Dabing",
         "prepared_at": "2026-11-23T23:53:17.410899+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33588754:https://sdilej.cz/33588754/young-sherlock-s01e01-cz-dabing-2160p.mkv",
+        "at": "2026-11-23T23:53:31.889118+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T23:53:31.889150+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -892020,7 +892024,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:53:23.442825+00:00",
+  "updated_at": "2026-11-23T23:53:31.889157+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -892856,6 +892860,14 @@
         {
           "identity": "732:1:8",
           "at": "2026-11-23T22:13:28.021094+00:00"
+        }
+      ]
+    },
+    "640": {
+      "recent_failures": [
+        {
+          "identity": "640:1:1",
+          "at": "2026-11-23T23:53:31.889118+00:00"
         }
       ]
     }
