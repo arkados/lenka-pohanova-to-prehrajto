@@ -873517,28 +873517,29 @@
           "at": "2026-11-23T09:17:29.247352+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b7626164ee704d65a76c695cdaf9e463-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:17:34.521598+00:00",
-        "lease_expires_at": "2026-11-23T15:17:34.521609+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31280170",
-        "size_bytes": 228480879
-      },
-      "transfer_receipt": {
-        "target_video_id": "31280170",
-        "size_bytes": 228480879,
-        "source_bytes_read": 228480879,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31280170",
         "source_bytes_read": 228480879,
         "elapsed_seconds": 31.237,
         "finished_at": "2026-11-23T09:18:53.624439+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31280170",
+          "size_bytes": 228480879,
+          "source_bytes_read": 228480879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660486",
+        "source_url": "https://sdilej.cz/30660486/castle-rock-s02e04-vratit-nadeji.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31280170",
+        "display_name": "Castle Rock S02E04 Restore Hope 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:19:04.889453+00:00"
       }
     },
     "123:2:5": {
@@ -873797,7 +873798,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:18:59.228751+00:00",
+  "updated_at": "2026-11-23T09:19:04.889467+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
