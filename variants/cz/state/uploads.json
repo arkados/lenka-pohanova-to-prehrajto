@@ -886189,12 +886189,6 @@
     },
     "1951:4:4": {
       "episode_key": "flintstoneovi:s4:e4",
-      "claim": {
-        "worker_id": "d0c070886b93475e9f02851f71b7d886-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:10:32.256017+00:00",
-        "lease_expires_at": "2026-11-23T21:10:32.256036+00:00"
-      },
       "source": {
         "source_id": "35010738",
         "source_url": "https://sdilej.cz/35010738/flintstoneovi-s04e04-dinovo-zmizeni-cz-skalican762-ipad.mp4",
@@ -886219,22 +886213,29 @@
         "display_name": "The Flintstones S04E04 Dino Disappears SD CZ Dabing",
         "prepared_at": "2026-11-23T15:10:49.783644+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290253",
-        "size_bytes": 248824348
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290253",
-        "size_bytes": 248824348,
-        "source_bytes_read": 248824348,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290253",
         "source_bytes_read": 248824348,
         "elapsed_seconds": 26.561,
         "finished_at": "2026-11-23T15:11:49.866346+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290253",
+          "size_bytes": 248824348,
+          "source_bytes_read": 248824348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010738",
+        "source_url": "https://sdilej.cz/35010738/flintstoneovi-s04e04-dinovo-zmizeni-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290253",
+        "display_name": "The Flintstones S04E04 Dino Disappears SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:12:10.597565+00:00"
       }
     },
     "1951:4:5": {
@@ -886329,7 +886330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:12:03.381289+00:00",
+  "updated_at": "2026-11-23T15:12:10.597583+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
