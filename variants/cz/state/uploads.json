@@ -863421,12 +863421,6 @@
     },
     "1095:2:6": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e6",
-      "claim": {
-        "worker_id": "2f35c828a4274dbc9a686a703a09c6a4-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:55:29.267848+00:00",
-        "lease_expires_at": "2026-11-23T09:55:29.267865+00:00"
-      },
       "source": {
         "source_id": "32952159",
         "source_url": "https://sdilej.cz/32952159/agenti-s-h-i-e-l-d-s02e06-1080p-cz.mkv",
@@ -863450,7 +863444,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E06 A Fractured House 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:55:42.385093+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32952159:https://sdilej.cz/32952159/agenti-s-h-i-e-l-d-s02e06-1080p-cz.mkv",
+        "at": "2026-11-23T03:55:57.923880+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T03:55:57.923918+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -863458,7 +863462,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:55:47.942652+00:00",
+  "updated_at": "2026-11-23T03:55:57.923924+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -864224,8 +864228,8 @@
     "1095": {
       "recent_failures": [
         {
-          "identity": "1095:1:17",
-          "at": "2026-11-23T03:47:51.148753+00:00"
+          "identity": "1095:2:6",
+          "at": "2026-11-23T03:55:57.923880+00:00"
         }
       ]
     }
