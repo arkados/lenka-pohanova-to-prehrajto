@@ -874819,28 +874819,29 @@
           "at": "2026-11-23T23:22:00.851975+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "dd8b5ed2876945079be07b67cc6fe5c9-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:22:09.644505+00:00",
-        "lease_expires_at": "2026-11-24T05:22:09.644517+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31310266",
-        "size_bytes": 533137041
-      },
-      "transfer_receipt": {
-        "target_video_id": "31310266",
-        "size_bytes": 533137041,
-        "source_bytes_read": 533137041,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31310266",
         "source_bytes_read": 533137041,
         "elapsed_seconds": 78.938,
         "finished_at": "2026-11-23T23:24:18.643920+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31310266",
+          "size_bytes": 533137041,
+          "source_bytes_read": 533137041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33077200",
+        "source_url": "https://sdilej.cz/33077200/all-her-fault-s01e08-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31310266",
+        "display_name": "All Her Fault S01E08 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:24:38.843835+00:00"
       }
     },
     "3041:1:1": {
@@ -891037,7 +891038,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:24:32.364228+00:00",
+  "updated_at": "2026-11-23T23:24:38.843851+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
