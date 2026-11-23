@@ -882459,12 +882459,6 @@
     },
     "1951:1:17": {
       "episode_key": "flintstoneovi:s1:e17",
-      "claim": {
-        "worker_id": "58849b42c7fb4fd6ad53fc7c3a304a14-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:53:38.025709+00:00",
-        "lease_expires_at": "2026-11-23T19:53:38.025727+00:00"
-      },
       "source": {
         "source_id": "34988685",
         "source_url": "https://sdilej.cz/34988685/flintstoneovi-s01e17-bankovni-loupez-ipad.mp4",
@@ -882489,22 +882483,29 @@
         "display_name": "The Flintstones S01E17 The Big Bank Robbery SD CZ Dabing",
         "prepared_at": "2026-11-23T13:53:51.258040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287844",
-        "size_bytes": 233199962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287844",
-        "size_bytes": 233199962,
-        "source_bytes_read": 233199962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287844",
         "source_bytes_read": 233199962,
         "elapsed_seconds": 12.484,
         "finished_at": "2026-11-23T13:54:40.046670+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287844",
+          "size_bytes": 233199962,
+          "source_bytes_read": 233199962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34988685",
+        "source_url": "https://sdilej.cz/34988685/flintstoneovi-s01e17-bankovni-loupez-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287844",
+        "display_name": "The Flintstones S01E17 The Big Bank Robbery SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:54:58.742045+00:00"
       }
     },
     "1951:1:18": {
@@ -882583,7 +882584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:54:53.038670+00:00",
+  "updated_at": "2026-11-23T13:54:58.742059+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
