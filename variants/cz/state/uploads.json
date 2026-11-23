@@ -883486,12 +883486,6 @@
     },
     "1951:2:10": {
       "episode_key": "flintstoneovi:s2:e10",
-      "claim": {
-        "worker_id": "e5a9d78dbb2b4d70885cabf30f134abd-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:13:22.064505+00:00",
-        "lease_expires_at": "2026-11-23T20:13:22.064524+00:00"
-      },
       "source": {
         "source_id": "35001422",
         "source_url": "https://sdilej.cz/35001422/flintstoneovi-s02e10-splhouni-ve-spolecnosti-tvrip-cz-skalican762-ipad.mp4",
@@ -883516,22 +883510,29 @@
         "display_name": "The Flintstones S02E10 Social Climbers SD CZ Dabing",
         "prepared_at": "2026-11-23T14:13:36.301006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288426",
-        "size_bytes": 257719901
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288426",
-        "size_bytes": 257719901,
-        "source_bytes_read": 257719901,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288426",
         "source_bytes_read": 257719901,
         "elapsed_seconds": 29.215,
         "finished_at": "2026-11-23T14:14:40.660225+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288426",
+          "size_bytes": 257719901,
+          "source_bytes_read": 257719901,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35001422",
+        "source_url": "https://sdilej.cz/35001422/flintstoneovi-s02e10-splhouni-ve-spolecnosti-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288426",
+        "display_name": "The Flintstones S02E10 Social Climbers SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:14:47.390925+00:00"
       }
     },
     "1951:2:11": {
@@ -883614,7 +883615,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:14:40.660248+00:00",
+  "updated_at": "2026-11-23T14:14:47.390943+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
