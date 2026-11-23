@@ -856856,28 +856856,29 @@
           "at": "2026-11-23T00:26:09.155058+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "f1b6b08f36c7456bb489190eaa909733-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:26:14.398853+00:00",
-        "lease_expires_at": "2026-11-23T06:26:14.398866+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31266214",
-        "size_bytes": 338887904
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266214",
-        "size_bytes": 338887904,
-        "source_bytes_read": 338887904,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266214",
         "source_bytes_read": 338887904,
         "elapsed_seconds": 15.019,
         "finished_at": "2026-11-23T00:27:20.085353+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266214",
+          "size_bytes": 338887904,
+          "source_bytes_read": 338887904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31868532",
+        "source_url": "https://sdilej.cz/31868532/strasidelny-hotel-s01e06-cz-dab-2025-1080p-by-pefto.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266214",
+        "display_name": "Haunted Hotel S01E06 Ghost Hunters! 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:27:35.524796+00:00"
       }
     },
     "3644:1:7": {
@@ -857061,7 +857062,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:27:30.222429+00:00",
+  "updated_at": "2026-11-23T00:27:35.524811+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
