@@ -876485,12 +876485,6 @@
     },
     "2115:1:13": {
       "episode_key": "vládci kouzel:s1:e13",
-      "claim": {
-        "worker_id": "e1fc49665332470abc2491437985a91f-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:30:27.260527+00:00",
-        "lease_expires_at": "2026-11-23T16:30:27.260548+00:00"
-      },
       "source": {
         "source_id": "12416458",
         "source_url": "https://sdilej.cz/12416458/vladci-kouzel-1x13.-posledni-vyzva-dvdrip-cz-ss23-.avi",
@@ -876515,22 +876509,29 @@
         "display_name": "Spellbinder S01E13 The Final Challenge SD CZ Dabing",
         "prepared_at": "2026-11-23T10:30:52.059567+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31282139",
-        "size_bytes": 234436086
-      },
-      "transfer_receipt": {
-        "target_video_id": "31282139",
-        "size_bytes": 234436086,
-        "source_bytes_read": 234436086,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31282139",
         "source_bytes_read": 234436086,
         "elapsed_seconds": 29.006,
         "finished_at": "2026-11-23T10:32:09.635206+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31282139",
+          "size_bytes": 234436086,
+          "source_bytes_read": 234436086,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12416458",
+        "source_url": "https://sdilej.cz/12416458/vladci-kouzel-1x13.-posledni-vyzva-dvdrip-cz-ss23-.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31282139",
+        "display_name": "Spellbinder S01E13 The Final Challenge SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:32:18.186753+00:00"
       }
     }
   },
@@ -876539,7 +876540,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:32:09.635228+00:00",
+  "updated_at": "2026-11-23T10:32:18.186772+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
