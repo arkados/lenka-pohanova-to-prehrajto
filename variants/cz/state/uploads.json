@@ -858055,12 +858055,6 @@
     },
     "3713:3:1": {
       "episode_key": "nemocnice dobrá karma:s3:e1",
-      "claim": {
-        "worker_id": "ec650c043f014b84b53405a4cbe45ff3-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:53:27.074141+00:00",
-        "lease_expires_at": "2026-11-23T06:53:27.074152+00:00"
-      },
       "source": {
         "source_id": "18893894",
         "source_url": "https://sdilej.cz/18893894/nemocnice.dobra.karma.03x01.hdtv.cz.avi",
@@ -858085,22 +858079,29 @@
         "display_name": "The Good Karma Hospital S03E01 SD CZ Dabing",
         "prepared_at": "2026-11-23T00:53:34.751641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31266975",
-        "size_bytes": 731768228
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266975",
-        "size_bytes": 731768228,
-        "source_bytes_read": 731768228,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266975",
         "source_bytes_read": 731768228,
         "elapsed_seconds": 132.708,
         "finished_at": "2026-11-23T00:56:27.739543+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266975",
+          "size_bytes": 731768228,
+          "source_bytes_read": 731768228,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18893894",
+        "source_url": "https://sdilej.cz/18893894/nemocnice.dobra.karma.03x01.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266975",
+        "display_name": "The Good Karma Hospital S03E01 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T00:56:49.190823+00:00"
       }
     },
     "3192:1:2": {
@@ -858248,7 +858249,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:56:41.713990+00:00",
+  "updated_at": "2026-11-23T00:56:49.190839+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
