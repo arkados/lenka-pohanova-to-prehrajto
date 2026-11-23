@@ -878686,12 +878686,6 @@
     },
     "1826:2:14": {
       "episode_key": "a-team:s2:e14",
-      "claim": {
-        "worker_id": "a8e40bd8552b45eda861a16f3472d721-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:47:06.099847+00:00",
-        "lease_expires_at": "2026-11-23T17:47:06.099863+00:00"
-      },
       "source": {
         "source_id": "29444049",
         "source_url": "https://sdilej.cz/29444049/the-a-team-s02e14-1080p-cz-dabing.mkv",
@@ -878716,22 +878710,29 @@
         "display_name": "The A-Team S02E14 The Battle of Bel Air 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:47:23.473423+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283945",
-        "size_bytes": 1504185841
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283945",
-        "size_bytes": 1504185841,
-        "source_bytes_read": 1504185841,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283945",
         "source_bytes_read": 1504185841,
         "elapsed_seconds": 159.704,
         "finished_at": "2026-11-23T11:50:34.383071+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283945",
+          "size_bytes": 1504185841,
+          "source_bytes_read": 1504185841,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29444049",
+        "source_url": "https://sdilej.cz/29444049/the-a-team-s02e14-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283945",
+        "display_name": "The A-Team S02E14 The Battle of Bel Air 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:50:43.548293+00:00"
       }
     },
     "1826:2:15": {
@@ -878814,7 +878815,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:50:34.383095+00:00",
+  "updated_at": "2026-11-23T11:50:43.548312+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
