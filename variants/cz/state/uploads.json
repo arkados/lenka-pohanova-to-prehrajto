@@ -880624,12 +880624,6 @@
     },
     "964:2:1": {
       "episode_key": "odstřelovač:s2:e1",
-      "claim": {
-        "worker_id": "11772c67d4b54d8c98b40343eeed8309-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T13:04:24.266939+00:00",
-        "lease_expires_at": "2026-11-23T19:04:24.266959+00:00"
-      },
       "source": {
         "source_id": "28824952",
         "source_url": "https://sdilej.cz/28824952/odstrelovac.webrip.cz.s02e01.mkv",
@@ -880654,22 +880648,29 @@
         "display_name": "Shooter S02E01 The Hunting Party 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:04:31.056876+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286604",
-        "size_bytes": 738829056
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286604",
-        "size_bytes": 738829056,
-        "source_bytes_read": 738829056,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286604",
         "source_bytes_read": 738829056,
         "elapsed_seconds": 77.027,
         "finished_at": "2026-11-23T13:06:24.949115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286604",
+          "size_bytes": 738829056,
+          "source_bytes_read": 738829056,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28824952",
+        "source_url": "https://sdilej.cz/28824952/odstrelovac.webrip.cz.s02e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286604",
+        "display_name": "Shooter S02E01 The Hunting Party 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:06:33.563987+00:00"
       }
     },
     "964:2:2": {
@@ -880715,7 +880716,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:06:24.949138+00:00",
+  "updated_at": "2026-11-23T13:06:33.564008+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
