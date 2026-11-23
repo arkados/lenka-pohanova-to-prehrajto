@@ -890902,12 +890902,6 @@
     },
     "3016:3:7": {
       "episode_key": "berlínská mise:s3:e7",
-      "claim": {
-        "worker_id": "be10d936649f4a40879f13f2bd1164c5-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T22:15:20.795303+00:00",
-        "lease_expires_at": "2026-11-24T04:15:20.795313+00:00"
-      },
       "source": {
         "source_id": "30890967",
         "source_url": "https://sdilej.cz/30890967/berlin-station-s03e07.mp4",
@@ -890932,22 +890926,29 @@
         "display_name": "Berlin Station S03E07 The Eye Fears When It Is Done to See 1080p CZ Dabing",
         "prepared_at": "2026-11-23T22:15:39.927218+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31308236",
-        "size_bytes": 863229914
-      },
-      "transfer_receipt": {
-        "target_video_id": "31308236",
-        "size_bytes": 863229914,
-        "source_bytes_read": 863229914,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31308236",
         "source_bytes_read": 863229914,
         "elapsed_seconds": 111.406,
         "finished_at": "2026-11-23T22:18:02.862282+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31308236",
+          "size_bytes": 863229914,
+          "source_bytes_read": 863229914,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30890967",
+        "source_url": "https://sdilej.cz/30890967/berlin-station-s03e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31308236",
+        "display_name": "Berlin Station S03E07 The Eye Fears When It Is Done to See 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T22:18:34.499014+00:00"
       }
     },
     "3016:3:8": {
@@ -891006,7 +891007,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T22:18:28.480645+00:00",
+  "updated_at": "2026-11-23T22:18:34.499027+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
