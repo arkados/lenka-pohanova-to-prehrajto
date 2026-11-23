@@ -888131,12 +888131,6 @@
     },
     "1951:5:18": {
       "episode_key": "flintstoneovi:s5:e18",
-      "claim": {
-        "worker_id": "55f944ec81454d31988794d0b3af7982-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:17:59.722894+00:00",
-        "lease_expires_at": "2026-11-23T22:17:59.722907+00:00"
-      },
       "source": {
         "source_id": "35015893",
         "source_url": "https://sdilej.cz/35015893/flintstoneovi-s05e18-stroj-casu-cz-skalican762-ipad.mp4",
@@ -888161,22 +888155,29 @@
         "display_name": "The Flintstones S05E18 Time Machine SD CZ Dabing",
         "prepared_at": "2026-11-23T16:18:11.553892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31292150",
-        "size_bytes": 245777501
-      },
-      "transfer_receipt": {
-        "target_video_id": "31292150",
-        "size_bytes": 245777501,
-        "source_bytes_read": 245777501,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31292150",
         "source_bytes_read": 245777501,
         "elapsed_seconds": 25.79,
         "finished_at": "2026-11-23T16:19:17.244765+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31292150",
+          "size_bytes": 245777501,
+          "source_bytes_read": 245777501,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35015893",
+        "source_url": "https://sdilej.cz/35015893/flintstoneovi-s05e18-stroj-casu-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31292150",
+        "display_name": "The Flintstones S05E18 Time Machine SD CZ Dabing",
+        "uploaded_at": "2026-11-23T16:19:24.482710+00:00"
       }
     },
     "1951:5:19": {
@@ -888222,7 +888223,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T16:19:17.244785+00:00",
+  "updated_at": "2026-11-23T16:19:24.482727+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
