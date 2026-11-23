@@ -870438,12 +870438,6 @@
     },
     "174:1:2": {
       "episode_key": "i am not okay with this:s1:e2",
-      "claim": {
-        "worker_id": "10dca7b783f34d19b05ced9ff59d9e08-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:46:53.125366+00:00",
-        "lease_expires_at": "2026-11-23T13:46:53.125378+00:00"
-      },
       "source": {
         "source_id": "27579371",
         "source_url": "https://sdilej.cz/27579371/i.am.not.okay.with.this.s01e02.cz.720p.mkv",
@@ -870468,22 +870462,29 @@
         "display_name": "I Am Not Okay with This S01E02 The Master of One F**k 720p CZ Dabing",
         "prepared_at": "2026-11-23T07:47:16.661848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31277457",
-        "size_bytes": 671422870
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277457",
-        "size_bytes": 671422870,
-        "source_bytes_read": 671422870,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277457",
         "source_bytes_read": 671422870,
         "elapsed_seconds": 64.066,
         "finished_at": "2026-11-23T07:48:58.627465+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277457",
+          "size_bytes": 671422870,
+          "source_bytes_read": 671422870,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579371",
+        "source_url": "https://sdilej.cz/27579371/i.am.not.okay.with.this.s01e02.cz.720p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277457",
+        "display_name": "I Am Not Okay with This S01E02 The Master of One F**k 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:49:07.303569+00:00"
       }
     },
     "174:1:5": {
@@ -870566,7 +870567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:48:58.627482+00:00",
+  "updated_at": "2026-11-23T07:49:07.303585+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
