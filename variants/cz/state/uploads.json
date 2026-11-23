@@ -865162,12 +865162,6 @@
     },
     "1095:3:1": {
       "episode_key": "agenti s.h.i.e.l.d.:s3:e1",
-      "claim": {
-        "worker_id": "bb90fbb683e1417c98e2460a08532b71-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:49:56.376482+00:00",
-        "lease_expires_at": "2026-11-23T10:49:56.376497+00:00"
-      },
       "source": {
         "source_id": "34329706",
         "source_url": "https://sdilej.cz/34329706/agenti-s.h.i.e.l.d.-03x01-cz-dab-.mp4",
@@ -865192,22 +865186,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E01 Laws of Nature 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:50:02.648728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272758",
-        "size_bytes": 626061989
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272758",
-        "size_bytes": 626061989,
-        "source_bytes_read": 626061989,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272758",
         "source_bytes_read": 626061989,
         "elapsed_seconds": 32.293,
         "finished_at": "2026-11-23T04:51:10.101617+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272758",
+          "size_bytes": 626061989,
+          "source_bytes_read": 626061989,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34329706",
+        "source_url": "https://sdilej.cz/34329706/agenti-s.h.i.e.l.d.-03x01-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272758",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E01 Laws of Nature 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:51:22.881249+00:00"
       }
     },
     "587:3:3": {
@@ -865252,7 +865253,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:51:16.045118+00:00",
+  "updated_at": "2026-11-23T04:51:22.881266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
