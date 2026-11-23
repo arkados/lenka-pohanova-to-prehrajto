@@ -868231,12 +868231,6 @@
     },
     "1438:1:8": {
       "episode_key": "světlo a stíny:s1:e8",
-      "claim": {
-        "worker_id": "2751192c19f9408f8a999c2a45b43ea5-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T06:23:41.278748+00:00",
-        "lease_expires_at": "2026-11-23T12:23:41.278760+00:00"
-      },
       "source": {
         "source_id": "34899799",
         "source_url": "https://sdilej.cz/34899799/svetlo-a-stiny-s01e08-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -868260,7 +868254,17 @@
         },
         "display_name": "Shadow and Bone S01E08 No Mourners 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:23:49.195037+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34899799:https://sdilej.cz/34899799/svetlo-a-stiny-s01e08-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "at": "2026-11-23T06:24:06.817451+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T06:24:06.817483+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -868268,7 +868272,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T06:24:01.111391+00:00",
+  "updated_at": "2026-11-23T06:24:06.817488+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -869066,6 +869070,10 @@
         {
           "identity": "1438:1:5",
           "at": "2026-11-23T06:22:38.038518+00:00"
+        },
+        {
+          "identity": "1438:1:8",
+          "at": "2026-11-23T06:24:06.817451+00:00"
         }
       ]
     }
