@@ -858623,12 +858623,6 @@
     },
     "1645:1:5": {
       "episode_key": "město na kopci:s1:e5",
-      "claim": {
-        "worker_id": "6d861391917d4213bc2959157c79c24a-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:12:44.473041+00:00",
-        "lease_expires_at": "2026-11-23T07:12:44.473052+00:00"
-      },
       "source": {
         "source_id": "12161136",
         "source_url": "https://sdilej.cz/12161136/mesto-na-kopci-s01e05-cz-1080-midla.mkv",
@@ -858653,22 +858647,29 @@
         "display_name": "City on a Hill S01E05 From Injustice Came the Way to Describe Justice 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:13:01.189126+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267543",
-        "size_bytes": 1198760829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267543",
-        "size_bytes": 1198760829,
-        "source_bytes_read": 1198760829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267543",
         "source_bytes_read": 1198760829,
         "elapsed_seconds": 149.172,
         "finished_at": "2026-11-23T01:15:59.520034+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267543",
+          "size_bytes": 1198760829,
+          "source_bytes_read": 1198760829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12161136",
+        "source_url": "https://sdilej.cz/12161136/mesto-na-kopci-s01e05-cz-1080-midla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267543",
+        "display_name": "City on a Hill S01E05 From Injustice Came the Way to Describe Justice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:16:06.368230+00:00"
       }
     },
     "1645:1:6": {
@@ -858751,7 +858752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:15:59.520053+00:00",
+  "updated_at": "2026-11-23T01:16:06.368246+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
