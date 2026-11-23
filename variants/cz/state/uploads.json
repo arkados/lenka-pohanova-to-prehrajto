@@ -862880,12 +862880,6 @@
     },
     "1095:1:17": {
       "episode_key": "agenti s.h.i.e.l.d.:s1:e17",
-      "claim": {
-        "worker_id": "95f78584edf8423a96ecf19437e77c8f-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:47:26.074240+00:00",
-        "lease_expires_at": "2026-11-23T09:47:26.074255+00:00"
-      },
       "source": {
         "source_id": "28850678",
         "source_url": "https://sdilej.cz/28850678/agenti-s.h.i.e.l.d.-s01e17.mkv",
@@ -862909,7 +862903,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E17 Turn, Turn, Turn 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:47:34.215377+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "28850678:https://sdilej.cz/28850678/agenti-s.h.i.e.l.d.-s01e17.mkv",
+        "at": "2026-11-23T03:47:51.148753+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T03:47:51.148777+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1095:1:18": {
       "episode_key": "agenti s.h.i.e.l.d.:s1:e18",
@@ -862950,7 +862954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:47:45.573374+00:00",
+  "updated_at": "2026-11-23T03:47:51.148783+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -863710,6 +863714,14 @@
         {
           "identity": "1980:7:13",
           "at": "2026-11-23T03:21:15.694605+00:00"
+        }
+      ]
+    },
+    "1095": {
+      "recent_failures": [
+        {
+          "identity": "1095:1:17",
+          "at": "2026-11-23T03:47:51.148753+00:00"
         }
       ]
     }
