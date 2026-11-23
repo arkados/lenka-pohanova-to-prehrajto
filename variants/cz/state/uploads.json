@@ -866377,12 +866377,6 @@
     },
     "1095:3:17": {
       "episode_key": "agenti s.h.i.e.l.d.:s3:e17",
-      "claim": {
-        "worker_id": "4ffc94abfecf42b98d88cee980741216-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:20:08.011166+00:00",
-        "lease_expires_at": "2026-11-23T11:20:08.011184+00:00"
-      },
       "source": {
         "source_id": "34329759",
         "source_url": "https://sdilej.cz/34329759/agenti-s.h.i.e.l.d.-03x17-cz-dab-.mp4",
@@ -866406,7 +866400,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E17 The Team 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:20:16.503281+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34329759:https://sdilej.cz/34329759/agenti-s.h.i.e.l.d.-03x17-cz-dab-.mp4",
+        "at": "2026-11-23T05:20:33.774076+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T05:20:33.774113+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -866414,7 +866418,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:20:28.390807+00:00",
+  "updated_at": "2026-11-23T05:20:33.774118+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -867178,6 +867182,10 @@
         {
           "identity": "1095:3:13",
           "at": "2026-11-23T05:18:28.910948+00:00"
+        },
+        {
+          "identity": "1095:3:17",
+          "at": "2026-11-23T05:20:33.774076+00:00"
         }
       ],
       "retry_after": "2026-11-23T05:00:08.414944+00:00"
