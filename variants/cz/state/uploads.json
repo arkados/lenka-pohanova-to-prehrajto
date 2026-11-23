@@ -878431,12 +878431,6 @@
     },
     "1826:2:9": {
       "episode_key": "a-team:s2:e9",
-      "claim": {
-        "worker_id": "5fc856a72aa3466abd22b030ea04e0b5-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:33:07.950336+00:00",
-        "lease_expires_at": "2026-11-23T17:33:07.950354+00:00"
-      },
       "source": {
         "source_id": "29305658",
         "source_url": "https://sdilej.cz/29305658/the-a-team-s02e09-1080p-cz-dabing.mkv",
@@ -878461,22 +878455,29 @@
         "display_name": "The A-Team S02E09 Water, Water Everywhere 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:33:32.601390+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283594",
-        "size_bytes": 1457184667
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283594",
-        "size_bytes": 1457184667,
-        "source_bytes_read": 1457184667,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283594",
         "source_bytes_read": 1457184667,
         "elapsed_seconds": 229.118,
         "finished_at": "2026-11-23T11:37:57.403772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283594",
+          "size_bytes": 1457184667,
+          "source_bytes_read": 1457184667,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29305658",
+        "source_url": "https://sdilej.cz/29305658/the-a-team-s02e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283594",
+        "display_name": "The A-Team S02E09 Water, Water Everywhere 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:38:05.570474+00:00"
       }
     },
     "1826:2:8": {
@@ -878610,7 +878611,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:37:57.403790+00:00",
+  "updated_at": "2026-11-23T11:38:05.570491+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
