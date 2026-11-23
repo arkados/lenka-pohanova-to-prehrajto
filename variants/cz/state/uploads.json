@@ -878176,12 +878176,6 @@
     },
     "1826:2:2": {
       "episode_key": "a-team:s2:e2",
-      "claim": {
-        "worker_id": "255cbce9d58846f18f4ee22bd2f7b239-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:21:27.406046+00:00",
-        "lease_expires_at": "2026-11-23T17:21:27.406061+00:00"
-      },
       "source": {
         "source_id": "29251874",
         "source_url": "https://sdilej.cz/29251874/the-a-team-s02e02-1080p-cz-dabing.mkv",
@@ -878206,22 +878200,29 @@
         "display_name": "The A-Team S02E02 Recipe for Heavy Bread 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:21:44.539234+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283405",
-        "size_bytes": 1520718187
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283405",
-        "size_bytes": 1520718187,
-        "source_bytes_read": 1520718187,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283405",
         "source_bytes_read": 1520718187,
         "elapsed_seconds": 171.604,
         "finished_at": "2026-11-23T11:25:10.573424+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283405",
+          "size_bytes": 1520718187,
+          "source_bytes_read": 1520718187,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29251874",
+        "source_url": "https://sdilej.cz/29251874/the-a-team-s02e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283405",
+        "display_name": "The A-Team S02E02 Recipe for Heavy Bread 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:25:19.207428+00:00"
       }
     },
     "1826:2:3": {
@@ -878267,7 +878268,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:25:10.573454+00:00",
+  "updated_at": "2026-11-23T11:25:19.207444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
