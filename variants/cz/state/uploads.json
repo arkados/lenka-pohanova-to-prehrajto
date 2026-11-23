@@ -881389,12 +881389,6 @@
     },
     "964:3:8": {
       "episode_key": "odstřelovač:s3:e8",
-      "claim": {
-        "worker_id": "ac85c0de8b0444a2b72a62eb9e3bfa13-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T13:19:58.894917+00:00",
-        "lease_expires_at": "2026-11-23T19:19:58.894932+00:00"
-      },
       "source": {
         "source_id": "28825258",
         "source_url": "https://sdilej.cz/28825258/odstrelovac.webrip.cz.s03e08.mkv",
@@ -881419,22 +881413,29 @@
         "display_name": "Shooter S03E08 The Red Badge 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:20:12.567557+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286967",
-        "size_bytes": 715003535
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286967",
-        "size_bytes": 715003535,
-        "source_bytes_read": 715003535,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286967",
         "source_bytes_read": 715003535,
         "elapsed_seconds": 101.174,
         "finished_at": "2026-11-23T13:22:35.359540+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286967",
+          "size_bytes": 715003535,
+          "source_bytes_read": 715003535,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825258",
+        "source_url": "https://sdilej.cz/28825258/odstrelovac.webrip.cz.s03e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286967",
+        "display_name": "Shooter S03E08 The Red Badge 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:22:44.811112+00:00"
       }
     },
     "964:3:9": {
@@ -881517,7 +881518,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:22:35.359559+00:00",
+  "updated_at": "2026-11-23T13:22:44.811132+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
