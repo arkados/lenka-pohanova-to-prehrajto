@@ -857622,12 +857622,6 @@
     },
     "281:1:1": {
       "episode_key": "mcmafia:s1:e1",
-      "claim": {
-        "worker_id": "736e36be65f6441e93e6a7e15bca676a-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:42:05.190009+00:00",
-        "lease_expires_at": "2026-11-23T06:42:05.190022+00:00"
-      },
       "source": {
         "source_id": "13964265",
         "source_url": "https://sdilej.cz/13964265/mcmafia.s01e01.1080p.10bit.bluray.ac3.x265.hevc-rcvr-czaudio-.mkv",
@@ -857652,22 +857646,29 @@
         "display_name": "McMafia S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:42:11.252892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31266691",
-        "size_bytes": 1075876836
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266691",
-        "size_bytes": 1075876836,
-        "source_bytes_read": 1075876836,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266691",
         "source_bytes_read": 1075876836,
         "elapsed_seconds": 129.604,
         "finished_at": "2026-11-23T00:44:41.459605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266691",
+          "size_bytes": 1075876836,
+          "source_bytes_read": 1075876836,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13964265",
+        "source_url": "https://sdilej.cz/13964265/mcmafia.s01e01.1080p.10bit.bluray.ac3.x265.hevc-rcvr-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266691",
+        "display_name": "McMafia S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:44:49.212017+00:00"
       }
     },
     "636:2:3": {
@@ -857713,7 +857714,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:44:41.459625+00:00",
+  "updated_at": "2026-11-23T00:44:49.212033+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
