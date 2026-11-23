@@ -861699,12 +861699,6 @@
     },
     "4453:1:1": {
       "episode_key": "velkovlak:s1:e1",
-      "claim": {
-        "worker_id": "b47368aac97e4abbb22ad34a51b69d5e-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:06:48.650045+00:00",
-        "lease_expires_at": "2026-11-23T09:06:48.650061+00:00"
-      },
       "source": {
         "source_id": "11879317",
         "source_url": "https://sdilej.cz/11879317/velkovlak-s01e01.mp4",
@@ -861729,22 +861723,29 @@
         "display_name": "Big Train S01E01 SD CZ Dabing",
         "prepared_at": "2026-11-23T03:06:59.591038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270184",
-        "size_bytes": 309233588
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270184",
-        "size_bytes": 309233588,
-        "source_bytes_read": 309233588,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270184",
         "source_bytes_read": 309233588,
         "elapsed_seconds": 16.501,
         "finished_at": "2026-11-23T03:07:40.746018+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270184",
+          "size_bytes": 309233588,
+          "source_bytes_read": 309233588,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11879317",
+        "source_url": "https://sdilej.cz/11879317/velkovlak-s01e01.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270184",
+        "display_name": "Big Train S01E01 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T03:07:54.946660+00:00"
       }
     },
     "4453:1:3": {
@@ -861790,7 +861791,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:07:46.988941+00:00",
+  "updated_at": "2026-11-23T03:07:54.946676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
