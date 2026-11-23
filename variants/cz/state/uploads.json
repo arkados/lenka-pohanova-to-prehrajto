@@ -858578,12 +858578,6 @@
     },
     "1645:1:4": {
       "episode_key": "město na kopci:s1:e4",
-      "claim": {
-        "worker_id": "852bab33d1ed4d46a914e7dac368ff4a-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:04:32.099414+00:00",
-        "lease_expires_at": "2026-11-23T07:04:32.099426+00:00"
-      },
       "source": {
         "source_id": "12161128",
         "source_url": "https://sdilej.cz/12161128/mesto-na-kopci-s01e04-cz-1080-midla.mkv",
@@ -858608,22 +858602,29 @@
         "display_name": "City on a Hill S01E04 The Wickedness of the Wicked Shall Be Upon Himself 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:04:38.529925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267291",
-        "size_bytes": 1241746072
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267291",
-        "size_bytes": 1241746072,
-        "source_bytes_read": 1241746072,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267291",
         "source_bytes_read": 1241746072,
         "elapsed_seconds": 263.555,
         "finished_at": "2026-11-23T01:09:28.726179+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267291",
+          "size_bytes": 1241746072,
+          "source_bytes_read": 1241746072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12161128",
+        "source_url": "https://sdilej.cz/12161128/mesto-na-kopci-s01e04-cz-1080-midla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267291",
+        "display_name": "City on a Hill S01E04 The Wickedness of the Wicked Shall Be Upon Himself 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:09:45.073366+00:00"
       }
     }
   },
@@ -858632,7 +858633,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:09:39.712714+00:00",
+  "updated_at": "2026-11-23T01:09:45.073382+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
