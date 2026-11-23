@@ -859382,12 +859382,6 @@
     },
     "1645:3:3": {
       "episode_key": "město na kopci:s3:e3",
-      "claim": {
-        "worker_id": "891aaaaafe384f2193ff0a49c5f5c843-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:45:16.799547+00:00",
-        "lease_expires_at": "2026-11-23T07:45:16.799563+00:00"
-      },
       "source": {
         "source_id": "30893142",
         "source_url": "https://sdilej.cz/30893142/mesto-na-kopci-2022-s03e03-cz-dab-1080p.mkv",
@@ -859412,22 +859406,29 @@
         "display_name": "City on a Hill S03E03 Speak When You're Angry 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:45:23.150042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31268364",
-        "size_bytes": 2706586042
-      },
-      "transfer_receipt": {
-        "target_video_id": "31268364",
-        "size_bytes": 2706586042,
-        "source_bytes_read": 2706586042,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31268364",
         "source_bytes_read": 2706586042,
         "elapsed_seconds": 343.805,
         "finished_at": "2026-11-23T01:51:35.432004+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31268364",
+          "size_bytes": 2706586042,
+          "source_bytes_read": 2706586042,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30893142",
+        "source_url": "https://sdilej.cz/30893142/mesto-na-kopci-2022-s03e03-cz-dab-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31268364",
+        "display_name": "City on a Hill S03E03 Speak When You're Angry 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:51:42.497471+00:00"
       }
     },
     "1645:3:4": {
@@ -859574,7 +859575,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:51:35.432025+00:00",
+  "updated_at": "2026-11-23T01:51:42.497486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
