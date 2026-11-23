@@ -871164,12 +871164,6 @@
     },
     "2316:1:7": {
       "episode_key": "město divů:s1:e7",
-      "claim": {
-        "worker_id": "54668ed50b2f428c9801f64ff15e3fb5-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:01:05.156724+00:00",
-        "lease_expires_at": "2026-11-23T14:01:05.156736+00:00"
-      },
       "source": {
         "source_id": "26110328",
         "source_url": "https://sdilej.cz/26110328/mesto-divu-s01e07-cz-dabing.mkv",
@@ -871194,22 +871188,29 @@
         "display_name": "Magic City S01E07 Who's the Horse and Who's the Rider? 720p CZ Dabing",
         "prepared_at": "2026-11-23T08:01:17.956326+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31277931",
-        "size_bytes": 832911597
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277931",
-        "size_bytes": 832911597,
-        "source_bytes_read": 832911597,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277931",
         "source_bytes_read": 832911597,
         "elapsed_seconds": 76.934,
         "finished_at": "2026-11-23T08:03:07.032148+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277931",
+          "size_bytes": 832911597,
+          "source_bytes_read": 832911597,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26110328",
+        "source_url": "https://sdilej.cz/26110328/mesto-divu-s01e07-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277931",
+        "display_name": "Magic City S01E07 Who's the Horse and Who's the Rider? 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T08:03:25.257180+00:00"
       }
     }
   },
@@ -871218,7 +871219,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:03:16.623368+00:00",
+  "updated_at": "2026-11-23T08:03:25.257197+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
