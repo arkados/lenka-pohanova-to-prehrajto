@@ -860559,12 +860559,6 @@
     },
     "1980:2:12": {
       "episode_key": "fotbalový talent:s2:e12",
-      "claim": {
-        "worker_id": "d91796076f534a6d9f7698d0d560d2ab-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:31:07.818282+00:00",
-        "lease_expires_at": "2026-11-23T08:31:07.818300+00:00"
-      },
       "source": {
         "source_id": "13204967",
         "source_url": "https://sdilej.cz/13204967/fotbalovy.talent.02x12.hdtv.cz.avi",
@@ -860589,22 +860583,29 @@
         "display_name": "All American S02E12 Only Time Will Tell SD CZ Dabing",
         "prepared_at": "2026-11-23T02:31:20.775254+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269323",
-        "size_bytes": 617830256
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269323",
-        "size_bytes": 617830256,
-        "source_bytes_read": 617830256,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269323",
         "source_bytes_read": 617830256,
         "elapsed_seconds": 31.95,
         "finished_at": "2026-11-23T02:32:27.871004+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269323",
+          "size_bytes": 617830256,
+          "source_bytes_read": 617830256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13204967",
+        "source_url": "https://sdilej.cz/13204967/fotbalovy.talent.02x12.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269323",
+        "display_name": "All American S02E12 Only Time Will Tell SD CZ Dabing",
+        "uploaded_at": "2026-11-23T02:32:34.477061+00:00"
       }
     },
     "1980:2:16": {
@@ -860688,7 +860689,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:32:27.871023+00:00",
+  "updated_at": "2026-11-23T02:32:34.477093+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
