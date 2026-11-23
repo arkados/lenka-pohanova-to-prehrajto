@@ -874653,12 +874653,6 @@
     },
     "732:1:6": {
       "episode_key": "její vina:s1:e6",
-      "claim": {
-        "worker_id": "40c521f72f1e4b9e955a4c9247d74af1-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:47:23.461763+00:00",
-        "lease_expires_at": "2026-11-23T15:47:23.461773+00:00"
-      },
       "source": {
         "source_id": "32961170",
         "source_url": "https://sdilej.cz/32961170/all-her-fault-s01e06-czen-dabing.mp4",
@@ -874683,22 +874677,29 @@
         "display_name": "All Her Fault S01E06 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:47:30.313552+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281061",
-        "size_bytes": 529210016
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281061",
-        "size_bytes": 529210016,
-        "source_bytes_read": 529210016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281061",
         "source_bytes_read": 529210016,
         "elapsed_seconds": 68.092,
         "finished_at": "2026-11-23T09:49:14.444591+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281061",
+          "size_bytes": 529210016,
+          "source_bytes_read": 529210016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961170",
+        "source_url": "https://sdilej.cz/32961170/all-her-fault-s01e06-czen-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281061",
+        "display_name": "All Her Fault S01E06 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:49:28.189588+00:00"
       }
     },
     "732:1:7": {
@@ -874744,7 +874745,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:49:21.814981+00:00",
+  "updated_at": "2026-11-23T09:49:28.189602+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
