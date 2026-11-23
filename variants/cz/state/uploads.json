@@ -882408,12 +882408,6 @@
     },
     "1951:1:16": {
       "episode_key": "flintstoneovi:s1:e16",
-      "claim": {
-        "worker_id": "ea4db1c9ed354f95ab345960b03562fc-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:52:36.597330+00:00",
-        "lease_expires_at": "2026-11-23T19:52:36.597342+00:00"
-      },
       "source": {
         "source_id": "34988337",
         "source_url": "https://sdilej.cz/34988337/flintstoneovi-s01e16-tanecni-vecirek-artura-quarryho-ipad.mp4",
@@ -882438,22 +882432,29 @@
         "display_name": "The Flintstones S01E16 Arthur Quarry's Dance Class SD CZ Dabing",
         "prepared_at": "2026-11-23T13:53:00.307734+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287811",
-        "size_bytes": 232843569
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287811",
-        "size_bytes": 232843569,
-        "source_bytes_read": 232843569,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287811",
         "source_bytes_read": 232843569,
         "elapsed_seconds": 12.052,
         "finished_at": "2026-11-23T13:53:44.980949+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287811",
+          "size_bytes": 232843569,
+          "source_bytes_read": 232843569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34988337",
+        "source_url": "https://sdilej.cz/34988337/flintstoneovi-s01e16-tanecni-vecirek-artura-quarryho-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287811",
+        "display_name": "The Flintstones S01E16 Arthur Quarry's Dance Class SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:54:08.645455+00:00"
       }
     },
     "1951:1:17": {
@@ -882507,7 +882508,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:54:02.843371+00:00",
+  "updated_at": "2026-11-23T13:54:08.645469+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
