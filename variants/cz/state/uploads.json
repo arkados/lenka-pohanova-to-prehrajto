@@ -878533,12 +878533,6 @@
     },
     "1826:2:10": {
       "episode_key": "a-team:s2:e10",
-      "claim": {
-        "worker_id": "ee6b348af47f4be989ec1fc1c10126bf-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:36:47.919461+00:00",
-        "lease_expires_at": "2026-11-23T17:36:47.919477+00:00"
-      },
       "source": {
         "source_id": "29313684",
         "source_url": "https://sdilej.cz/29313684/the-a-team-s02e10-1080p-cz-dabing.mkv",
@@ -878563,22 +878557,29 @@
         "display_name": "The A-Team S02E10 Steel 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:36:54.476772+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283650",
-        "size_bytes": 1519705577
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283650",
-        "size_bytes": 1519705577,
-        "source_bytes_read": 1519705577,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283650",
         "source_bytes_read": 1519705577,
         "elapsed_seconds": 151.314,
         "finished_at": "2026-11-23T11:39:59.580699+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283650",
+          "size_bytes": 1519705577,
+          "source_bytes_read": 1519705577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29313684",
+        "source_url": "https://sdilej.cz/29313684/the-a-team-s02e10-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283650",
+        "display_name": "The A-Team S02E10 Steel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:40:09.276503+00:00"
       }
     },
     "1826:2:11": {
@@ -878661,7 +878662,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:39:59.580717+00:00",
+  "updated_at": "2026-11-23T11:40:09.276520+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
