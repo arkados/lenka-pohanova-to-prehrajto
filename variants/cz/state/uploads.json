@@ -887348,12 +887348,6 @@
     },
     "1951:5:2": {
       "episode_key": "flintstoneovi:s5:e2",
-      "claim": {
-        "worker_id": "a5d659d98cc44d4a8abe5b59281180b9-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:34:54.221672+00:00",
-        "lease_expires_at": "2026-11-23T21:34:54.221692+00:00"
-      },
       "source": {
         "source_id": "35015463",
         "source_url": "https://sdilej.cz/35015463/flintstoneovi-s05e02-prisera-fred-cz-skalican762-ipad.mp4",
@@ -887378,22 +887372,29 @@
         "display_name": "The Flintstones S05E02 Monster Fred SD CZ Dabing",
         "prepared_at": "2026-11-23T15:35:12.342238+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290786",
-        "size_bytes": 248142296
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290786",
-        "size_bytes": 248142296,
-        "source_bytes_read": 248142296,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290786",
         "source_bytes_read": 248142296,
         "elapsed_seconds": 15.452,
         "finished_at": "2026-11-23T15:36:03.834381+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290786",
+          "size_bytes": 248142296,
+          "source_bytes_read": 248142296,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35015463",
+        "source_url": "https://sdilej.cz/35015463/flintstoneovi-s05e02-prisera-fred-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290786",
+        "display_name": "The Flintstones S05E02 Monster Fred SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:36:16.557442+00:00"
       }
     },
     "1951:5:3": {
@@ -887439,7 +887440,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:36:09.518274+00:00",
+  "updated_at": "2026-11-23T15:36:16.557459+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
