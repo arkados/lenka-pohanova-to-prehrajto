@@ -863940,28 +863940,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "51f68dc0d8d14d899c18aeab4c9a0a1f-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T06:58:14.918639+00:00",
-        "lease_expires_at": "2026-11-23T12:58:14.918653+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276087",
-        "size_bytes": 983345049
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276087",
-        "size_bytes": 983345049,
-        "source_bytes_read": 983345049,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276087",
         "source_bytes_read": 983345049,
         "elapsed_seconds": 73.082,
         "finished_at": "2026-11-23T07:00:14.672607+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276087",
+          "size_bytes": 983345049,
+          "source_bytes_read": 983345049,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28851818",
+        "source_url": "https://sdilej.cz/28851818/agenti-s.h.i.e.l.d.-s02e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276087",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E13 One of Us 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:00:27.354651+00:00"
       }
     },
     "1095:2:14": {
@@ -869324,7 +869325,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:00:14.672626+00:00",
+  "updated_at": "2026-11-23T07:00:27.354667+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
