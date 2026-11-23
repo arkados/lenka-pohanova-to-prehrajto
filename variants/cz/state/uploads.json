@@ -856365,28 +856365,29 @@
           "at": "2026-11-23T00:12:13.826392+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5f42f7c3c32040edb8cbbd9501b0a44c-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:12:19.679681+00:00",
-        "lease_expires_at": "2026-11-23T06:12:19.679693+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31265714",
-        "size_bytes": 3098882389
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265714",
-        "size_bytes": 3098882389,
-        "source_bytes_read": 3098882389,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265714",
         "source_bytes_read": 3098882389,
         "elapsed_seconds": 746.494,
         "finished_at": "2026-11-23T00:25:37.974220+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265714",
+          "size_bytes": 3098882389,
+          "source_bytes_read": 3098882389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19446300",
+        "source_url": "https://sdilej.cz/19446300/severni-vody-the.north.water.s01e03.homo.homini.lupus.1080p.web.h265-glhf-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265714",
+        "display_name": "The North Water S01E03 Homo Homini Lupus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:25:45.094638+00:00"
       }
     },
     "1661:1:4": {
@@ -856964,7 +856965,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:25:37.974242+00:00",
+  "updated_at": "2026-11-23T00:25:45.094654+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
