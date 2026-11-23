@@ -869973,12 +869973,6 @@
     },
     "1416:1:2": {
       "episode_key": "médium:s1:e2",
-      "claim": {
-        "worker_id": "8097202bd93c4ce8a15e0f1a6fb5f598-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:25:15.974453+00:00",
-        "lease_expires_at": "2026-11-23T13:25:15.974465+00:00"
-      },
       "source": {
         "source_id": "24545492",
         "source_url": "https://sdilej.cz/24545492/medium-the-peripheral-s01e02-bonus-za-empatii-2022-cz.mkv",
@@ -870003,22 +869997,29 @@
         "display_name": "The Peripheral S01E02 Empathy Bonus 1080p CZ Dabing",
         "prepared_at": "2026-11-23T07:25:28.453283+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31276888",
-        "size_bytes": 1045372573
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276888",
-        "size_bytes": 1045372573,
-        "source_bytes_read": 1045372573,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276888",
         "source_bytes_read": 1045372573,
         "elapsed_seconds": 99.591,
         "finished_at": "2026-11-23T07:27:47.198217+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276888",
+          "size_bytes": 1045372573,
+          "source_bytes_read": 1045372573,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24545492",
+        "source_url": "https://sdilej.cz/24545492/medium-the-peripheral-s01e02-bonus-za-empatii-2022-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276888",
+        "display_name": "The Peripheral S01E02 Empathy Bonus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:27:55.783983+00:00"
       }
     },
     "1416:1:4": {
@@ -870064,7 +870065,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:27:47.198237+00:00",
+  "updated_at": "2026-11-23T07:27:55.784001+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
