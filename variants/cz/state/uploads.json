@@ -884308,12 +884308,6 @@
     },
     "1951:2:26": {
       "episode_key": "flintstoneovi:s2:e26",
-      "claim": {
-        "worker_id": "a4f30c12239c4af5a93327db3db8d083-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:27:20.504712+00:00",
-        "lease_expires_at": "2026-11-23T20:27:20.504726+00:00"
-      },
       "source": {
         "source_id": "35002405",
         "source_url": "https://sdilej.cz/35002405/flintstoneovi-s02e26-potize-s-tchyni-tvrip-cz-skalican762-ipad.mp4",
@@ -884338,22 +884332,29 @@
         "display_name": "The Flintstones S02E26 Trouble-In-Law SD CZ Dabing",
         "prepared_at": "2026-11-23T14:27:37.680584+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288750",
-        "size_bytes": 253437746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288750",
-        "size_bytes": 253437746,
-        "source_bytes_read": 253437746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288750",
         "source_bytes_read": 253437746,
         "elapsed_seconds": 12.727,
         "finished_at": "2026-11-23T14:28:20.553332+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288750",
+          "size_bytes": 253437746,
+          "source_bytes_read": 253437746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35002405",
+        "source_url": "https://sdilej.cz/35002405/flintstoneovi-s02e26-potize-s-tchyni-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288750",
+        "display_name": "The Flintstones S02E26 Trouble-In-Law SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:28:37.909151+00:00"
       }
     }
   },
@@ -884362,7 +884363,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:28:31.582411+00:00",
+  "updated_at": "2026-11-23T14:28:37.909166+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
