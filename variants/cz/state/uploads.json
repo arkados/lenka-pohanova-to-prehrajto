@@ -885016,12 +885016,6 @@
     },
     "1951:3:8": {
       "episode_key": "flintstoneovi:s3:e8",
-      "claim": {
-        "worker_id": "14c2559e0b884b1e8239209b1998024f-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:43:29.025549+00:00",
-        "lease_expires_at": "2026-11-23T20:43:29.025560+00:00"
-      },
       "source": {
         "source_id": "35003240",
         "source_url": "https://sdilej.cz/35003240/flintstoneovi-s03e08-maly-cizinec-cz-skalican762-ipad.mp4",
@@ -885046,22 +885040,29 @@
         "display_name": "The Flintstones S03E08 The Little Stranger SD CZ Dabing",
         "prepared_at": "2026-11-23T14:43:46.928952+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289534",
-        "size_bytes": 250940981
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289534",
-        "size_bytes": 250940981,
-        "source_bytes_read": 250940981,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289534",
         "source_bytes_read": 250940981,
         "elapsed_seconds": 24.591,
         "finished_at": "2026-11-23T14:44:48.277519+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289534",
+          "size_bytes": 250940981,
+          "source_bytes_read": 250940981,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003240",
+        "source_url": "https://sdilej.cz/35003240/flintstoneovi-s03e08-maly-cizinec-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289534",
+        "display_name": "The Flintstones S03E08 The Little Stranger SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:45:02.814080+00:00"
       }
     },
     "1951:3:9": {
@@ -885120,7 +885121,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:44:53.346247+00:00",
+  "updated_at": "2026-11-23T14:45:02.814098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
