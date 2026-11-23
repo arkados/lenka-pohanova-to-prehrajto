@@ -865366,12 +865366,6 @@
     },
     "587:3:6": {
       "episode_key": "bridgertonovi:s3:e6",
-      "claim": {
-        "worker_id": "9d6f6a8a717b4dd7a4996d84a51c36fa-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:53:59.590833+00:00",
-        "lease_expires_at": "2026-11-23T10:53:59.590846+00:00"
-      },
       "source": {
         "source_id": "29183440",
         "source_url": "https://sdilej.cz/29183440/bridgerton-s03e06-1080p-cz-dabing.mkv",
@@ -865395,7 +865389,17 @@
         },
         "display_name": "Bridgerton S03E06 Romancing Mister Bridgerton 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:54:11.816733+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "29183440:https://sdilej.cz/29183440/bridgerton-s03e06-1080p-cz-dabing.mkv",
+        "at": "2026-11-23T04:54:28.747688+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T04:54:28.747725+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -865403,7 +865407,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:54:18.719933+00:00",
+  "updated_at": "2026-11-23T04:54:28.747731+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -866186,12 +866190,8 @@
     "587": {
       "recent_failures": [
         {
-          "identity": "587:1:7",
-          "at": "2026-11-23T04:42:06.951823+00:00"
-        },
-        {
-          "identity": "587:2:7",
-          "at": "2026-11-23T04:45:39.643670+00:00"
+          "identity": "587:3:6",
+          "at": "2026-11-23T04:54:28.747688+00:00"
         }
       ]
     }
