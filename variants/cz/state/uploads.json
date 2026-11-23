@@ -889369,12 +889369,6 @@
     },
     "1951:6:18": {
       "episode_key": "flintstoneovi:s6:e18",
-      "claim": {
-        "worker_id": "d3451bee31f14b0d89888efd2a447703-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:48:56.013976+00:00",
-        "lease_expires_at": "2026-11-23T22:48:56.013991+00:00"
-      },
       "source": {
         "source_id": "35023986",
         "source_url": "https://sdilej.cz/35023986/flintstoneovi-s06e18-dva-muzi-na-dinosaura-cz-skalican762-ipad.mp4",
@@ -889399,22 +889393,29 @@
         "display_name": "The Flintstones S06E18 Two Men on a Dinosaur SD CZ Dabing",
         "prepared_at": "2026-11-23T16:49:16.315404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31293192",
-        "size_bytes": 245903559
-      },
-      "transfer_receipt": {
-        "target_video_id": "31293192",
-        "size_bytes": 245903559,
-        "source_bytes_read": 245903559,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31293192",
         "source_bytes_read": 245903559,
         "elapsed_seconds": 19.712,
         "finished_at": "2026-11-23T16:50:14.780539+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31293192",
+          "size_bytes": 245903559,
+          "source_bytes_read": 245903559,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35023986",
+        "source_url": "https://sdilej.cz/35023986/flintstoneovi-s06e18-dva-muzi-na-dinosaura-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31293192",
+        "display_name": "The Flintstones S06E18 Two Men on a Dinosaur SD CZ Dabing",
+        "uploaded_at": "2026-11-23T16:50:33.897477+00:00"
       }
     },
     "1951:6:20": {
@@ -889460,7 +889461,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T16:50:28.183025+00:00",
+  "updated_at": "2026-11-23T16:50:33.897492+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
