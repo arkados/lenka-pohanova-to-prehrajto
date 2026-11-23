@@ -857208,28 +857208,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "37b3ef3c497d44c49d5fe676fbcbb2e3-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:39:37.509809+00:00",
-        "lease_expires_at": "2026-11-23T13:39:37.509822+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31277273",
-        "size_bytes": 525700760
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277273",
-        "size_bytes": 525700760,
-        "source_bytes_read": 525700760,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277273",
         "source_bytes_read": 525700760,
         "elapsed_seconds": 55.46,
         "finished_at": "2026-11-23T07:41:14.621139+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277273",
+          "size_bytes": 525700760,
+          "source_bytes_read": 525700760,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33021331",
+        "source_url": "https://sdilej.cz/33021331/smrt-v-bilem-plasti-s01e04-1080p-cz-udalost-u-drezu-randalla-kirbiho.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277273",
+        "display_name": "Dr. Death S01E04 An Occurrence at Randall Kirby's Sink 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:41:22.914386+00:00"
       }
     },
     "636:1:5": {
@@ -870326,7 +870327,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:41:14.621158+00:00",
+  "updated_at": "2026-11-23T07:41:22.914401+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
