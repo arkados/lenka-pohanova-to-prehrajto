@@ -860717,12 +860717,6 @@
     },
     "1980:3:6": {
       "episode_key": "fotbalový talent:s3:e6",
-      "claim": {
-        "worker_id": "cfca727247ba4e1ab82e7731c25103cb-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:33:19.100360+00:00",
-        "lease_expires_at": "2026-11-23T08:33:19.100372+00:00"
-      },
       "source": {
         "source_id": "22010864",
         "source_url": "https://sdilej.cz/22010864/all.american.-2018-.s03e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-cz-dabing.mkv",
@@ -860747,22 +860741,29 @@
         "display_name": "All American S03E06 Teenage Love 1080p CZ Dabing",
         "prepared_at": "2026-11-23T02:33:25.623403+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269383",
-        "size_bytes": 1324329347
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269383",
-        "size_bytes": 1324329347,
-        "source_bytes_read": 1324329347,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269383",
         "source_bytes_read": 1324329347,
         "elapsed_seconds": 86.307,
         "finished_at": "2026-11-23T02:35:13.311915+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269383",
+          "size_bytes": 1324329347,
+          "source_bytes_read": 1324329347,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22010864",
+        "source_url": "https://sdilej.cz/22010864/all.american.-2018-.s03e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269383",
+        "display_name": "All American S03E06 Teenage Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:35:32.832634+00:00"
       }
     },
     "1980:3:8": {
@@ -860804,7 +860805,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:35:27.420349+00:00",
+  "updated_at": "2026-11-23T02:35:32.832649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
