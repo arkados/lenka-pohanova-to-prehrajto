@@ -890869,16 +890869,6 @@
         "display_name": "Berlin Station S03E06 In Cold Hell 1080p CZ Dabing",
         "prepared_at": "2026-11-23T21:26:23.273325+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31307074",
-        "size_bytes": 863051595
-      },
-      "transfer_receipt": {
-        "target_video_id": "31307074",
-        "size_bytes": 863051595,
-        "source_bytes_read": 863051595,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31307074",
         "source_bytes_read": 863051595,
@@ -890892,11 +890882,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "06b4ea4d020e48a7be971c8eb99470e6-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T22:14:21.752596+00:00",
-        "lease_expires_at": "2026-11-24T04:14:21.752606+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31307074",
+          "size_bytes": 863051595,
+          "source_bytes_read": 863051595,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30890964",
+        "source_url": "https://sdilej.cz/30890964/berlin-station-s03e06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31307074",
+        "display_name": "Berlin Station S03E06 In Cold Hell 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T22:14:40.635080+00:00"
       }
     }
   },
@@ -890905,7 +890906,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T22:14:33.369268+00:00",
+  "updated_at": "2026-11-23T22:14:40.635098+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
