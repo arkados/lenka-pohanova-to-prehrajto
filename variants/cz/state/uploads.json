@@ -863676,12 +863676,6 @@
     },
     "1095:2:11": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e11",
-      "claim": {
-        "worker_id": "97c2e098aa7c408db37890a34521ca9c-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:00:09.633384+00:00",
-        "lease_expires_at": "2026-11-23T10:00:09.633401+00:00"
-      },
       "source": {
         "source_id": "35062434",
         "source_url": "https://sdilej.cz/35062434/agenti-s.h.i.e.l.d-s02e11-dozvuky.mkv",
@@ -863706,22 +863700,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E11 Aftershocks 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:00:19.862662+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31271366",
-        "size_bytes": 923250508
-      },
-      "transfer_receipt": {
-        "target_video_id": "31271366",
-        "size_bytes": 923250508,
-        "source_bytes_read": 923250508,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31271366",
         "source_bytes_read": 923250508,
         "elapsed_seconds": 64.075,
         "finished_at": "2026-11-23T04:01:51.543658+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31271366",
+          "size_bytes": 923250508,
+          "source_bytes_read": 923250508,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35062434",
+        "source_url": "https://sdilej.cz/35062434/agenti-s.h.i.e.l.d-s02e11-dozvuky.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31271366",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E11 Aftershocks 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:02:00.183137+00:00"
       }
     },
     "1095:2:12": {
@@ -863800,7 +863801,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:01:51.543675+00:00",
+  "updated_at": "2026-11-23T04:02:00.183155+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
