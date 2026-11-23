@@ -883027,12 +883027,6 @@
     },
     "1951:2:1": {
       "episode_key": "flintstoneovi:s2:e1",
-      "claim": {
-        "worker_id": "4f75cdfb93f34923951f6a6846e41b50-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:05:02.742427+00:00",
-        "lease_expires_at": "2026-11-23T20:05:02.742446+00:00"
-      },
       "source": {
         "source_id": "35001137",
         "source_url": "https://sdilej.cz/35001137/flintstoneovi-s02e01-skladatele-hitu-tvrip-cz-skalican762-ipad.mp4",
@@ -883057,22 +883051,29 @@
         "display_name": "The Flintstones S02E01 The Hit Song Writers SD CZ Dabing",
         "prepared_at": "2026-11-23T14:05:09.619131+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288208",
-        "size_bytes": 259704417
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288208",
-        "size_bytes": 259704417,
-        "source_bytes_read": 259704417,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288208",
         "source_bytes_read": 259704417,
         "elapsed_seconds": 24.151,
         "finished_at": "2026-11-23T14:06:10.800816+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288208",
+          "size_bytes": 259704417,
+          "source_bytes_read": 259704417,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35001137",
+        "source_url": "https://sdilej.cz/35001137/flintstoneovi-s02e01-skladatele-hitu-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288208",
+        "display_name": "The Flintstones S02E01 The Hit Song Writers SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:06:28.721714+00:00"
       }
     },
     "1951:2:2": {
@@ -883168,7 +883169,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:06:22.709286+00:00",
+  "updated_at": "2026-11-23T14:06:28.721733+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
