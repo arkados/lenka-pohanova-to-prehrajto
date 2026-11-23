@@ -891385,12 +891385,6 @@
     },
     "74:2:1": {
       "episode_key": "the walking dead: daryl dixon:s2:e1",
-      "claim": {
-        "worker_id": "58c3273075d149a0a3a67363a41bb281-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:36:27.610936+00:00",
-        "lease_expires_at": "2026-11-24T05:36:27.610954+00:00"
-      },
       "source": {
         "source_id": "30128929",
         "source_url": "https://sdilej.cz/30128929/the-walking-dead-daryl-dixon-s02e01-1080p-x265-cz-dabing.mkv",
@@ -891415,22 +891409,29 @@
         "display_name": "The Walking Dead: Daryl Dixon S02E01 The Book of Carol: La gentillesse des étrangers 1080p CZ Dabing",
         "prepared_at": "2026-11-23T23:36:34.466247+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31310772",
-        "size_bytes": 1257248421
-      },
-      "transfer_receipt": {
-        "target_video_id": "31310772",
-        "size_bytes": 1257248421,
-        "source_bytes_read": 1257248421,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31310772",
         "source_bytes_read": 1257248421,
         "elapsed_seconds": 70.564,
         "finished_at": "2026-11-23T23:38:16.992522+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31310772",
+          "size_bytes": 1257248421,
+          "source_bytes_read": 1257248421,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30128929",
+        "source_url": "https://sdilej.cz/30128929/the-walking-dead-daryl-dixon-s02e01-1080p-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31310772",
+        "display_name": "The Walking Dead: Daryl Dixon S02E01 The Book of Carol: La gentillesse des étrangers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:38:44.845225+00:00"
       }
     },
     "74:2:2": {
@@ -891512,7 +891513,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:38:39.177659+00:00",
+  "updated_at": "2026-11-23T23:38:44.845238+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
