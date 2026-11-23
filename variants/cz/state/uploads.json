@@ -872956,12 +872956,6 @@
     },
     "123:1:10": {
       "episode_key": "castle rock:s1:e10",
-      "claim": {
-        "worker_id": "5b5b0353b7df4c4399243b3f89d4ee31-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:58:37.262282+00:00",
-        "lease_expires_at": "2026-11-23T14:58:37.262293+00:00"
-      },
       "source": {
         "source_id": "34090460",
         "source_url": "https://sdilej.cz/34090460/castle-rock-s01e10-cz-dabing-1080p-full-hd.mp4",
@@ -872985,7 +872979,17 @@
         },
         "display_name": "Castle Rock S01E10 Romans 1080p CZ Dabing",
         "prepared_at": "2026-11-23T08:58:53.300570+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34090460:https://sdilej.cz/34090460/castle-rock-s01e10-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-23T08:59:07.332189+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T08:59:07.332223+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -872993,7 +872997,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:58:53.300587+00:00",
+  "updated_at": "2026-11-23T08:59:07.332227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -873802,8 +873806,8 @@
     "123": {
       "recent_failures": [
         {
-          "identity": "123:1:2",
-          "at": "2026-11-23T08:46:46.010574+00:00"
+          "identity": "123:1:10",
+          "at": "2026-11-23T08:59:07.332189+00:00"
         }
       ]
     }
