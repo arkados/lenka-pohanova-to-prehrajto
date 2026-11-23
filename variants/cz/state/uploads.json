@@ -881680,12 +881680,6 @@
     },
     "1951:1:1": {
       "episode_key": "flintstoneovi:s1:e1",
-      "claim": {
-        "worker_id": "ab2f51de808f4bce9a9ae8aed3cdae41-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:33:35.101473+00:00",
-        "lease_expires_at": "2026-11-23T19:33:35.101488+00:00"
-      },
       "source": {
         "source_id": "34984857",
         "source_url": "https://sdilej.cz/34984857/flintstoneovi-s01e01-flintstounuv-letajici-stroj-ipad.mp4",
@@ -881710,22 +881704,29 @@
         "display_name": "The Flintstones S01E01 The Flintstone Flyer SD CZ Dabing",
         "prepared_at": "2026-11-23T13:33:41.241076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287339",
-        "size_bytes": 233307499
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287339",
-        "size_bytes": 233307499,
-        "source_bytes_read": 233307499,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287339",
         "source_bytes_read": 233307499,
         "elapsed_seconds": 12.719,
         "finished_at": "2026-11-23T13:34:17.124940+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287339",
+          "size_bytes": 233307499,
+          "source_bytes_read": 233307499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34984857",
+        "source_url": "https://sdilej.cz/34984857/flintstoneovi-s01e01-flintstounuv-letajici-stroj-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287339",
+        "display_name": "The Flintstones S01E01 The Flintstone Flyer SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:34:29.668263+00:00"
       }
     }
   },
@@ -881734,7 +881735,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:34:22.786767+00:00",
+  "updated_at": "2026-11-23T13:34:29.668279+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
