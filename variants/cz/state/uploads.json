@@ -858405,12 +858405,6 @@
     },
     "1645:1:1": {
       "episode_key": "město na kopci:s1:e1",
-      "claim": {
-        "worker_id": "f60e5bbc18514b7988ac8311846137ad-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:59:40.629300+00:00",
-        "lease_expires_at": "2026-11-23T06:59:40.629315+00:00"
-      },
       "source": {
         "source_id": "31366120",
         "source_url": "https://sdilej.cz/31366120/mesto-na-kopci-s01e01-noc-kdy-flynn-poslal-policajty-k-ledu-2019-krimi-thriller-czdab.mkv",
@@ -858435,22 +858429,29 @@
         "display_name": "City on a Hill S01E01 The Night Flynn Sent the Cops on the Ice 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:59:56.643188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267146",
-        "size_bytes": 1318213677
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267146",
-        "size_bytes": 1318213677,
-        "source_bytes_read": 1318213677,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267146",
         "source_bytes_read": 1318213677,
         "elapsed_seconds": 224.026,
         "finished_at": "2026-11-23T01:04:11.830429+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267146",
+          "size_bytes": 1318213677,
+          "source_bytes_read": 1318213677,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31366120",
+        "source_url": "https://sdilej.cz/31366120/mesto-na-kopci-s01e01-noc-kdy-flynn-poslal-policajty-k-ledu-2019-krimi-thriller-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267146",
+        "display_name": "City on a Hill S01E01 The Night Flynn Sent the Cops on the Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:04:20.110836+00:00"
       }
     },
     "1645:1:2": {
@@ -858547,7 +858548,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:04:11.830448+00:00",
+  "updated_at": "2026-11-23T01:04:20.110856+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
