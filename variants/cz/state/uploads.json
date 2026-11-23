@@ -864707,12 +864707,6 @@
     },
     "1095:2:22": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e22",
-      "claim": {
-        "worker_id": "5bbf8a9af6b645f9a09ae595eacfbf94-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:36:10.266031+00:00",
-        "lease_expires_at": "2026-11-23T10:36:10.266044+00:00"
-      },
       "source": {
         "source_id": "27728263",
         "source_url": "https://sdilej.cz/27728263/agenti-s.h.i.e.l.d.-s02e22-agents-of-s.h.i.e.l.d.-tvrip-czdabing.avi",
@@ -864736,7 +864730,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E22 S.O.S. (2) 720p CZ Dabing",
         "prepared_at": "2026-11-23T04:36:35.235540+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "27728263:https://sdilej.cz/27728263/agenti-s.h.i.e.l.d.-s02e22-agents-of-s.h.i.e.l.d.-tvrip-czdabing.avi",
+        "at": "2026-11-23T04:36:54.408547+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T04:36:54.408626+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -864744,7 +864748,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:36:47.208732+00:00",
+  "updated_at": "2026-11-23T04:36:54.408634+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -865510,19 +865514,19 @@
     "1095": {
       "recent_failures": [
         {
-          "identity": "1095:1:17",
-          "at": "2026-11-23T04:35:39.547150+00:00"
-        },
-        {
           "identity": "1095:2:16",
           "at": "2026-11-23T04:35:50.541772+00:00"
         },
         {
           "identity": "1095:2:20",
           "at": "2026-11-23T04:36:15.803068+00:00"
+        },
+        {
+          "identity": "1095:2:22",
+          "at": "2026-11-23T04:36:54.408547+00:00"
         }
       ],
-      "retry_after": "2026-11-23T04:46:15.803068+00:00"
+      "retry_after": "2026-11-23T04:46:54.408547+00:00"
     },
     "587": {
       "recent_failures": [
