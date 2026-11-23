@@ -868327,12 +868327,6 @@
     },
     "1438:2:2": {
       "episode_key": "světlo a stíny:s2:e2",
-      "claim": {
-        "worker_id": "391f46f1d8024cea9b0eb2b6f71098ad-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T06:28:27.889156+00:00",
-        "lease_expires_at": "2026-11-23T12:28:27.889172+00:00"
-      },
       "source": {
         "source_id": "34899871",
         "source_url": "https://sdilej.cz/34899871/svetlo-a-stiny-s02e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -868357,22 +868351,29 @@
         "display_name": "Shadow and Bone S02E02 Rusalye 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:28:45.871051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31275205",
-        "size_bytes": 811413238
-      },
-      "transfer_receipt": {
-        "target_video_id": "31275205",
-        "size_bytes": 811413238,
-        "source_bytes_read": 811413238,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31275205",
         "source_bytes_read": 811413238,
         "elapsed_seconds": 61.031,
         "finished_at": "2026-11-23T06:30:18.213449+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31275205",
+          "size_bytes": 811413238,
+          "source_bytes_read": 811413238,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34899871",
+        "source_url": "https://sdilej.cz/34899871/svetlo-a-stiny-s02e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31275205",
+        "display_name": "Shadow and Bone S02E02 Rusalye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T06:30:28.649042+00:00"
       }
     },
     "1438:2:3": {
@@ -868455,7 +868456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T06:30:18.213468+00:00",
+  "updated_at": "2026-11-23T06:30:28.649060+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
