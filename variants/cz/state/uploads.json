@@ -857137,12 +857137,6 @@
     },
     "636:1:4": {
       "episode_key": "smrt v bílém plášti:s1:e4",
-      "claim": {
-        "worker_id": "dfb38af46d7142eaa3ac0ae179b23345-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:28:46.990754+00:00",
-        "lease_expires_at": "2026-11-23T06:28:46.990765+00:00"
-      },
       "source": {
         "source_id": "33021331",
         "source_url": "https://sdilej.cz/33021331/smrt-v-bilem-plasti-s01e04-1080p-cz-udalost-u-drezu-randalla-kirbiho.mkv",
@@ -857166,7 +857160,17 @@
         },
         "display_name": "Dr. Death S01E04 An Occurrence at Randall Kirby's Sink 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:28:53.710839+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33021331:https://sdilej.cz/33021331/smrt-v-bilem-plasti-s01e04-1080p-cz-udalost-u-drezu-randalla-kirbiho.mkv",
+        "at": "2026-11-23T00:29:10.256470+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T00:29:10.256504+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "636:1:5": {
       "episode_key": "smrt v bílém plášti:s1:e5",
@@ -857183,7 +857187,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:29:04.084918+00:00",
+  "updated_at": "2026-11-23T00:29:10.256514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -857916,6 +857920,14 @@
         }
       ],
       "retry_after": "2026-11-23T00:11:58.995038+00:00"
+    },
+    "636": {
+      "recent_failures": [
+        {
+          "identity": "636:1:4",
+          "at": "2026-11-23T00:29:10.256470+00:00"
+        }
+      ]
     }
   }
 }
