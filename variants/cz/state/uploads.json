@@ -882262,12 +882262,6 @@
     },
     "1951:1:13": {
       "episode_key": "flintstoneovi:s1:e13",
-      "claim": {
-        "worker_id": "7528172c9eb4432fa55961e1d74ceaa7-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:44:57.194361+00:00",
-        "lease_expires_at": "2026-11-23T19:44:57.194376+00:00"
-      },
       "source": {
         "source_id": "34987159",
         "source_url": "https://sdilej.cz/34987159/flintstoneovi-s01e13-bistro-ipad.mp4",
@@ -882308,7 +882302,13 @@
         "elapsed_seconds": 10.929,
         "finished_at": "2026-11-23T13:45:57.252193+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T13:46:11.091964+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     }
   },
   "binding": {
@@ -882316,7 +882316,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:46:05.052323+00:00",
+  "updated_at": "2026-11-23T13:46:11.091984+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
