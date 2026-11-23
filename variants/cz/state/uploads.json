@@ -885424,12 +885424,6 @@
     },
     "1951:3:16": {
       "episode_key": "flintstoneovi:s3:e16",
-      "claim": {
-        "worker_id": "2ae5ebae486e4d019cf17b290796e937-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:55:00.956063+00:00",
-        "lease_expires_at": "2026-11-23T20:55:00.956081+00:00"
-      },
       "source": {
         "source_id": "35003570",
         "source_url": "https://sdilej.cz/35003570/flintstoneovi-s03e16-libajici-zlodej-cz-skalican762-ipad.mp4",
@@ -885454,22 +885448,29 @@
         "display_name": "The Flintstones S03E16 The Kissing Burglar SD CZ Dabing",
         "prepared_at": "2026-11-23T14:55:08.116854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289838",
-        "size_bytes": 250255569
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289838",
-        "size_bytes": 250255569,
-        "source_bytes_read": 250255569,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289838",
         "source_bytes_read": 250255569,
         "elapsed_seconds": 28.202,
         "finished_at": "2026-11-23T14:56:19.832333+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289838",
+          "size_bytes": 250255569,
+          "source_bytes_read": 250255569,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003570",
+        "source_url": "https://sdilej.cz/35003570/flintstoneovi-s03e16-libajici-zlodej-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289838",
+        "display_name": "The Flintstones S03E16 The Kissing Burglar SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:56:38.670051+00:00"
       }
     },
     "1951:3:17": {
@@ -885564,7 +885565,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:56:31.505253+00:00",
+  "updated_at": "2026-11-23T14:56:38.670070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
