@@ -886699,12 +886699,6 @@
     },
     "1951:4:14": {
       "episode_key": "flintstoneovi:s4:e14",
-      "claim": {
-        "worker_id": "8148f5d046914383ac16d4e46b770e12-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:19:33.976243+00:00",
-        "lease_expires_at": "2026-11-23T21:19:33.976263+00:00"
-      },
       "source": {
         "source_id": "35011181",
         "source_url": "https://sdilej.cz/35011181/flintstoneovi-s04e14-skryta-kamera-cz-skalican762-ipad.mp4",
@@ -886729,22 +886723,29 @@
         "display_name": "The Flintstones S04E14 Peek-a-Boo Camera SD CZ Dabing",
         "prepared_at": "2026-11-23T15:19:51.825616+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290465",
-        "size_bytes": 245780560
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290465",
-        "size_bytes": 245780560,
-        "source_bytes_read": 245780560,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290465",
         "source_bytes_read": 245780560,
         "elapsed_seconds": 35.04,
         "finished_at": "2026-11-23T15:21:04.902402+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290465",
+          "size_bytes": 245780560,
+          "source_bytes_read": 245780560,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35011181",
+        "source_url": "https://sdilej.cz/35011181/flintstoneovi-s04e14-skryta-kamera-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290465",
+        "display_name": "The Flintstones S04E14 Peek-a-Boo Camera SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:21:20.498543+00:00"
       }
     },
     "1951:4:15": {
@@ -886841,7 +886842,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:21:13.209310+00:00",
+  "updated_at": "2026-11-23T15:21:20.498559+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
