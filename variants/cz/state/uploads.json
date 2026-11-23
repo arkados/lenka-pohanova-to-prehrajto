@@ -861228,12 +861228,6 @@
     },
     "1980:4:6": {
       "episode_key": "fotbalový talent:s4:e6",
-      "claim": {
-        "worker_id": "4ceaa567d38348ba855a9408d79fe592-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:48:54.140788+00:00",
-        "lease_expires_at": "2026-11-23T08:48:54.140799+00:00"
-      },
       "source": {
         "source_id": "29859042",
         "source_url": "https://sdilej.cz/29859042/all.american.-2018-.s04e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm.cz.dabing.mkv",
@@ -861258,22 +861252,29 @@
         "display_name": "All American S04E06 Show Me A Good Time 1080p CZ Dabing",
         "prepared_at": "2026-11-23T02:49:00.508245+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269785",
-        "size_bytes": 1872694053
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269785",
-        "size_bytes": 1872694053,
-        "source_bytes_read": 1872694053,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269785",
         "source_bytes_read": 1872694053,
         "elapsed_seconds": 272.903,
         "finished_at": "2026-11-23T02:53:54.333928+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269785",
+          "size_bytes": 1872694053,
+          "source_bytes_read": 1872694053,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29859042",
+        "source_url": "https://sdilej.cz/29859042/all.american.-2018-.s04e06.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm.cz.dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269785",
+        "display_name": "All American S04E06 Show Me A Good Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:54:02.062557+00:00"
       }
     },
     "1980:4:9": {
@@ -861333,7 +861334,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:53:54.333946+00:00",
+  "updated_at": "2026-11-23T02:54:02.062574+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
