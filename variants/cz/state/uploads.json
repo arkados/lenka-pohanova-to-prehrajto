@@ -869857,12 +869857,6 @@
     },
     "1972:3:3": {
       "episode_key": "ginny a georgia:s3:e3",
-      "claim": {
-        "worker_id": "8830d2803d6d43f1826d3ab704361097-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:23:29.429157+00:00",
-        "lease_expires_at": "2026-11-23T13:23:29.429168+00:00"
-      },
       "source": {
         "source_id": "32473989",
         "source_url": "https://sdilej.cz/32473989/ginny-a-georgia-s03e03-cz-dabing.mkv",
@@ -869886,7 +869880,17 @@
         },
         "display_name": "Ginny & Georgia S03E03 Friends Can Dance 1080p CZ Dabing",
         "prepared_at": "2026-11-23T07:23:37.504564+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32473989:https://sdilej.cz/32473989/ginny-a-georgia-s03e03-cz-dabing.mkv",
+        "at": "2026-11-23T07:23:51.885800+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T07:23:51.885857+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -869894,7 +869898,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:23:37.504580+00:00",
+  "updated_at": "2026-11-23T07:23:51.885861+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -870692,8 +870696,13 @@
         {
           "identity": "1972:3:2",
           "at": "2026-11-23T07:23:18.140037+00:00"
+        },
+        {
+          "identity": "1972:3:3",
+          "at": "2026-11-23T07:23:51.885800+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-23T07:33:51.885800+00:00"
     }
   }
 }
