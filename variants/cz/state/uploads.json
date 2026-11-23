@@ -861866,12 +861866,6 @@
     },
     "1239:2:3": {
       "episode_key": "prvních 100:s2:e3",
-      "claim": {
-        "worker_id": "6910c06ea61c42989911cca14e38e515-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:13:43.779999+00:00",
-        "lease_expires_at": "2026-11-23T09:13:43.780018+00:00"
-      },
       "source": {
         "source_id": "34863114",
         "source_url": "https://sdilej.cz/34863114/prvnich-100-s02e03.avi",
@@ -861896,22 +861890,29 @@
         "display_name": "The 100 S02E03 Reapercussions SD CZ Dabing",
         "prepared_at": "2026-11-23T03:14:00.787249+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270339",
-        "size_bytes": 311131572
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270339",
-        "size_bytes": 311131572,
-        "source_bytes_read": 311131572,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270339",
         "source_bytes_read": 311131572,
         "elapsed_seconds": 114.642,
         "finished_at": "2026-11-23T03:16:28.008196+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270339",
+          "size_bytes": 311131572,
+          "source_bytes_read": 311131572,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863114",
+        "source_url": "https://sdilej.cz/34863114/prvnich-100-s02e03.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270339",
+        "display_name": "The 100 S02E03 Reapercussions SD CZ Dabing",
+        "uploaded_at": "2026-11-23T03:16:40.659938+00:00"
       }
     },
     "1239:2:15": {
@@ -861957,7 +861958,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:16:33.874603+00:00",
+  "updated_at": "2026-11-23T03:16:40.659955+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
