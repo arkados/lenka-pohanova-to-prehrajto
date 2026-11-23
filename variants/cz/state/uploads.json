@@ -866903,12 +866903,6 @@
     },
     "1095:3:21": {
       "episode_key": "agenti s.h.i.e.l.d.:s3:e21",
-      "claim": {
-        "worker_id": "e9d5efc454ad47c4a51414827249a2c0-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:43:48.402357+00:00",
-        "lease_expires_at": "2026-11-23T11:43:48.402372+00:00"
-      },
       "source": {
         "source_id": "34329772",
         "source_url": "https://sdilej.cz/34329772/agenti-s.h.i.e.l.d.-03x21-cz-dab-.mp4",
@@ -866933,22 +866927,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E21 Absolution (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:44:06.049059+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31273828",
-        "size_bytes": 402673087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31273828",
-        "size_bytes": 402673087,
-        "source_bytes_read": 402673087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31273828",
         "source_bytes_read": 402673087,
         "elapsed_seconds": 90.974,
         "finished_at": "2026-11-23T05:46:09.625964+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31273828",
+          "size_bytes": 402673087,
+          "source_bytes_read": 402673087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34329772",
+        "source_url": "https://sdilej.cz/34329772/agenti-s.h.i.e.l.d.-03x21-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31273828",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E21 Absolution (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:46:27.691188+00:00"
       }
     }
   },
@@ -866957,7 +866958,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:46:20.905415+00:00",
+  "updated_at": "2026-11-23T05:46:27.691237+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
