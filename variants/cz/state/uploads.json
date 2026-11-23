@@ -874391,12 +874391,6 @@
     },
     "4142:1:4": {
       "episode_key": "jsou světla, která nevidíme:s1:e4",
-      "claim": {
-        "worker_id": "17393dacee904da280ba617fd4be0b08-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:44:05.662917+00:00",
-        "lease_expires_at": "2026-11-23T15:44:05.662933+00:00"
-      },
       "source": {
         "source_id": "34954013",
         "source_url": "https://sdilej.cz/34954013/jsou-svetla-ktera-nevidime-s01e04-cz-dabing-1080p-full-hd.mkv",
@@ -874420,7 +874414,17 @@
         },
         "display_name": "All the Light We Cannot See S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:44:25.751712+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34954013:https://sdilej.cz/34954013/jsou-svetla-ktera-nevidime-s01e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-23T09:44:43.524080+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:44:43.524108+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -874428,7 +874432,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:44:37.945631+00:00",
+  "updated_at": "2026-11-23T09:44:43.524113+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -875250,6 +875254,14 @@
         }
       ],
       "retry_after": "2026-11-23T09:39:44.469053+00:00"
+    },
+    "4142": {
+      "recent_failures": [
+        {
+          "identity": "4142:1:4",
+          "at": "2026-11-23T09:44:43.524080+00:00"
+        }
+      ]
     }
   }
 }
