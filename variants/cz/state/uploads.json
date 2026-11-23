@@ -868597,28 +868597,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "a571c5b4891743e0b09af3ffd4d00c7b-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:11:59.102414+00:00",
-        "lease_expires_at": "2026-11-23T13:11:59.102428+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276431",
-        "size_bytes": 458095962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276431",
-        "size_bytes": 458095962,
-        "source_bytes_read": 458095962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276431",
         "source_bytes_read": 458095962,
         "elapsed_seconds": 37.244,
         "finished_at": "2026-11-23T07:13:14.721385+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276431",
+          "size_bytes": 458095962,
+          "source_bytes_read": 458095962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34899799",
+        "source_url": "https://sdilej.cz/34899799/svetlo-a-stiny-s01e08-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276431",
+        "display_name": "Shadow and Bone S01E08 No Mourners 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:13:34.037705+00:00"
       }
     },
     "1438:2:1": {
@@ -869703,7 +869704,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:13:26.259708+00:00",
+  "updated_at": "2026-11-23T07:13:34.037721+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
