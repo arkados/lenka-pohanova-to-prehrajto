@@ -859845,12 +859845,6 @@
     },
     "1980:1:7": {
       "episode_key": "fotbalový talent:s1:e7",
-      "claim": {
-        "worker_id": "53393aa5ec234f368426997d241859d8-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:58:27.024589+00:00",
-        "lease_expires_at": "2026-11-23T07:58:27.024606+00:00"
-      },
       "source": {
         "source_id": "11179387",
         "source_url": "https://sdilej.cz/11179387/fotbalovy.talent.01x07.1080i.hdtv.cz.mkv",
@@ -859875,22 +859869,29 @@
         "display_name": "All American S01E07 California Love 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:58:33.110127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31268647",
-        "size_bytes": 2812816029
-      },
-      "transfer_receipt": {
-        "target_video_id": "31268647",
-        "size_bytes": 2812816029,
-        "source_bytes_read": 2812816029,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31268647",
         "source_bytes_read": 2812816029,
         "elapsed_seconds": 272.784,
         "finished_at": "2026-11-23T02:03:37.253873+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31268647",
+          "size_bytes": 2812816029,
+          "source_bytes_read": 2812816029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11179387",
+        "source_url": "https://sdilej.cz/11179387/fotbalovy.talent.01x07.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31268647",
+        "display_name": "All American S01E07 California Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:03:50.170198+00:00"
       }
     },
     "1980:1:8": {
@@ -860038,7 +860039,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:03:43.948053+00:00",
+  "updated_at": "2026-11-23T02:03:50.170214+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
