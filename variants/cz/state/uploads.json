@@ -875981,12 +875981,6 @@
     },
     "3041:3:8": {
       "episode_key": "nevěstky:s3:e8",
-      "claim": {
-        "worker_id": "73097c9e801d450c918f3534a56722c4-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:16:32.306192+00:00",
-        "lease_expires_at": "2026-11-23T16:16:32.306210+00:00"
-      },
       "source": {
         "source_id": "31202263",
         "source_url": "https://sdilej.cz/31202263/nevestky-harlots-s03e08-2019-cz.avi",
@@ -876011,22 +876005,29 @@
         "display_name": "Harlots S03E08 SD CZ Dabing",
         "prepared_at": "2026-11-23T10:16:44.119731+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281823",
-        "size_bytes": 454932432
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281823",
-        "size_bytes": 454932432,
-        "source_bytes_read": 454932432,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281823",
         "source_bytes_read": 454932432,
         "elapsed_seconds": 62.815,
         "finished_at": "2026-11-23T10:18:23.330521+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281823",
+          "size_bytes": 454932432,
+          "source_bytes_read": 454932432,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31202263",
+        "source_url": "https://sdilej.cz/31202263/nevestky-harlots-s03e08-2019-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281823",
+        "display_name": "Harlots S03E08 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:18:39.578791+00:00"
       }
     }
   },
@@ -876035,7 +876036,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:18:33.061972+00:00",
+  "updated_at": "2026-11-23T10:18:39.578809+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
