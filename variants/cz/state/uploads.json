@@ -858129,12 +858129,6 @@
     },
     "3192:1:3": {
       "episode_key": "zvláštní jednotka:s1:e3",
-      "claim": {
-        "worker_id": "738ecb2ce1dd49499557ef05ad6a3403-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:54:35.910456+00:00",
-        "lease_expires_at": "2026-11-23T06:54:35.910468+00:00"
-      },
       "source": {
         "source_id": "15899793",
         "source_url": "https://sdilej.cz/15899793/braquo-zvlastni-jednotka-s01e03-cz-dabing.avi",
@@ -858159,22 +858153,29 @@
         "display_name": "Braquo S01E03 La tête dans le sac SD CZ Dabing",
         "prepared_at": "2026-11-23T00:54:42.840529+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267003",
-        "size_bytes": 498206148
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267003",
-        "size_bytes": 498206148,
-        "source_bytes_read": 498206148,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267003",
         "source_bytes_read": 498206148,
         "elapsed_seconds": 31.584,
         "finished_at": "2026-11-23T00:55:36.988978+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267003",
+          "size_bytes": 498206148,
+          "source_bytes_read": 498206148,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15899793",
+        "source_url": "https://sdilej.cz/15899793/braquo-zvlastni-jednotka-s01e03-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267003",
+        "display_name": "Braquo S01E03 La tête dans le sac SD CZ Dabing",
+        "uploaded_at": "2026-11-23T00:55:47.083419+00:00"
       }
     }
   },
@@ -858183,7 +858184,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:55:36.988998+00:00",
+  "updated_at": "2026-11-23T00:55:47.083480+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
