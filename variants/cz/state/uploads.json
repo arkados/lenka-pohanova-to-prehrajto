@@ -856429,12 +856429,6 @@
     },
     "3644:1:2": {
       "episode_key": "strašidelný hotel:s1:e2",
-      "claim": {
-        "worker_id": "3e2a8d788870425293de6a5f4de2702c-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:00:04.499747+00:00",
-        "lease_expires_at": "2026-11-23T06:00:04.499758+00:00"
-      },
       "source": {
         "source_id": "31867687",
         "source_url": "https://sdilej.cz/31867687/strasidelny-hotel-s01e02-cz-dab-2025-1080p-by-pefto.mkv",
@@ -856459,22 +856453,29 @@
         "display_name": "Haunted Hotel S01E02 Unfinished Business 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:00:11.057388+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265315",
-        "size_bytes": 333959216
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265315",
-        "size_bytes": 333959216,
-        "source_bytes_read": 333959216,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265315",
         "source_bytes_read": 333959216,
         "elapsed_seconds": 16.635,
         "finished_at": "2026-11-23T00:00:51.077772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265315",
+          "size_bytes": 333959216,
+          "source_bytes_read": 333959216,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31867687",
+        "source_url": "https://sdilej.cz/31867687/strasidelny-hotel-s01e02-cz-dab-2025-1080p-by-pefto.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265315",
+        "display_name": "Haunted Hotel S01E02 Unfinished Business 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:01:03.279709+00:00"
       }
     }
   },
@@ -856483,7 +856484,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:00:56.333041+00:00",
+  "updated_at": "2026-11-23T00:01:03.279724+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
