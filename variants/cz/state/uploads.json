@@ -857745,12 +857745,6 @@
     },
     "636:2:4": {
       "episode_key": "smrt v bílém plášti:s2:e4",
-      "claim": {
-        "worker_id": "fc7e709e80e9491ab5d26e4ec2b7287e-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:48:17.148085+00:00",
-        "lease_expires_at": "2026-11-23T06:48:17.148102+00:00"
-      },
       "source": {
         "source_id": "33016225",
         "source_url": "https://sdilej.cz/33016225/smrt-v-bilem-plasti-s02e04-1080p-cz-tarantela-telarana.mkv",
@@ -857775,22 +857769,29 @@
         "display_name": "Dr. Death S02E04 Tarantela Telaraña 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:48:30.760044+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31266865",
-        "size_bytes": 516958953
-      },
-      "transfer_receipt": {
-        "target_video_id": "31266865",
-        "size_bytes": 516958953,
-        "source_bytes_read": 516958953,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31266865",
         "source_bytes_read": 516958953,
         "elapsed_seconds": 60.315,
         "finished_at": "2026-11-23T00:50:04.231019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31266865",
+          "size_bytes": 516958953,
+          "source_bytes_read": 516958953,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33016225",
+        "source_url": "https://sdilej.cz/33016225/smrt-v-bilem-plasti-s02e04-1080p-cz-tarantela-telarana.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31266865",
+        "display_name": "Dr. Death S02E04 Tarantela Telaraña 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:50:26.095210+00:00"
       }
     },
     "636:2:5": {
@@ -857887,7 +857888,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:50:20.520798+00:00",
+  "updated_at": "2026-11-23T00:50:26.095227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
