@@ -873197,28 +873197,29 @@
           "at": "2026-11-23T09:10:44.494720+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b3bc68ee000e42c9bd3a61776e2397a4-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:10:50.626622+00:00",
-        "lease_expires_at": "2026-11-23T15:10:50.626633+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31279965",
-        "size_bytes": 337499881
-      },
-      "transfer_receipt": {
-        "target_video_id": "31279965",
-        "size_bytes": 337499881,
-        "source_bytes_read": 337499881,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31279965",
         "source_bytes_read": 337499881,
         "elapsed_seconds": 25.415,
         "finished_at": "2026-11-23T09:12:24.678248+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31279965",
+          "size_bytes": 337499881,
+          "source_bytes_read": 337499881,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28234335",
+        "source_url": "https://sdilej.cz/28234335/castle-rock-s02e02-cz-dab-720p-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31279965",
+        "display_name": "Castle Rock S02E02 New Jerusalem 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:12:32.987049+00:00"
       }
     },
     "123:2:3": {
@@ -873505,7 +873506,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:12:24.678264+00:00",
+  "updated_at": "2026-11-23T09:12:32.987065+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
