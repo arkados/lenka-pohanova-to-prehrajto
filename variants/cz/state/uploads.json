@@ -881491,12 +881491,6 @@
     },
     "964:3:10": {
       "episode_key": "odstřelovač:s3:e10",
-      "claim": {
-        "worker_id": "73a2d3acc239476096483cc5709993d0-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T13:20:43.208476+00:00",
-        "lease_expires_at": "2026-11-23T19:20:43.208494+00:00"
-      },
       "source": {
         "source_id": "28825310",
         "source_url": "https://sdilej.cz/28825310/odstrelovac.webrip.cz.s03e10.mkv",
@@ -881521,22 +881515,29 @@
         "display_name": "Shooter S03E10 Orientation Day 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:21:00.056881+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286994",
-        "size_bytes": 711678545
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286994",
-        "size_bytes": 711678545,
-        "source_bytes_read": 711678545,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286994",
         "source_bytes_read": 711678545,
         "elapsed_seconds": 110.455,
         "finished_at": "2026-11-23T13:23:18.237223+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286994",
+          "size_bytes": 711678545,
+          "source_bytes_read": 711678545,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825310",
+        "source_url": "https://sdilej.cz/28825310/odstrelovac.webrip.cz.s03e10.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286994",
+        "display_name": "Shooter S03E10 Orientation Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:23:39.116774+00:00"
       }
     }
   },
@@ -881545,7 +881546,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:23:30.436915+00:00",
+  "updated_at": "2026-11-23T13:23:39.116792+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
