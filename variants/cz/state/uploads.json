@@ -881899,12 +881899,6 @@
     },
     "1951:1:6": {
       "episode_key": "flintstoneovi:s1:e6",
-      "claim": {
-        "worker_id": "7c9431e4c5c94dbaa79566095732e938-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:39:03.152906+00:00",
-        "lease_expires_at": "2026-11-23T19:39:03.152920+00:00"
-      },
       "source": {
         "source_id": "34984980",
         "source_url": "https://sdilej.cz/34984980/flintstoneovi-s01e06-prisera-z-dehtoveho-jezera-ipad.mp4",
@@ -881929,22 +881923,29 @@
         "display_name": "The Flintstones S01E06 The Monster from the Tar Pits SD CZ Dabing",
         "prepared_at": "2026-11-23T13:39:21.484409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287481",
-        "size_bytes": 233647386
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287481",
-        "size_bytes": 233647386,
-        "source_bytes_read": 233647386,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287481",
         "source_bytes_read": 233647386,
         "elapsed_seconds": 11.223,
         "finished_at": "2026-11-23T13:40:09.619054+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287481",
+          "size_bytes": 233647386,
+          "source_bytes_read": 233647386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34984980",
+        "source_url": "https://sdilej.cz/34984980/flintstoneovi-s01e06-prisera-z-dehtoveho-jezera-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287481",
+        "display_name": "The Flintstones S01E06 The Monster from the Tar Pits SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:40:29.408664+00:00"
       }
     },
     "1951:1:7": {
@@ -882023,7 +882024,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:40:23.862255+00:00",
+  "updated_at": "2026-11-23T13:40:29.408694+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
