@@ -882357,12 +882357,6 @@
     },
     "1951:1:15": {
       "episode_key": "flintstoneovi:s1:e15",
-      "claim": {
-        "worker_id": "307f11dca0d940729590e20a80a45079-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:52:17.440501+00:00",
-        "lease_expires_at": "2026-11-23T19:52:17.440518+00:00"
-      },
       "source": {
         "source_id": "34987946",
         "source_url": "https://sdilej.cz/34987946/flintstoneovi-s01e15-damska-jizda-ipad.mp4",
@@ -882387,22 +882381,29 @@
         "display_name": "The Flintstones S01E15 The Girls' Night Out SD CZ Dabing",
         "prepared_at": "2026-11-23T13:52:31.161786+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287798",
-        "size_bytes": 233234727
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287798",
-        "size_bytes": 233234727,
-        "source_bytes_read": 233234727,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287798",
         "source_bytes_read": 233234727,
         "elapsed_seconds": 11.559,
         "finished_at": "2026-11-23T13:53:19.230043+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287798",
+          "size_bytes": 233234727,
+          "source_bytes_read": 233234727,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34987946",
+        "source_url": "https://sdilej.cz/34987946/flintstoneovi-s01e15-damska-jizda-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287798",
+        "display_name": "The Flintstones S01E15 The Girls' Night Out SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:53:32.959046+00:00"
       }
     },
     "1951:1:16": {
@@ -882448,7 +882449,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:53:25.518175+00:00",
+  "updated_at": "2026-11-23T13:53:32.959062+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
