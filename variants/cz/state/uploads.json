@@ -862574,12 +862574,6 @@
     },
     "1095:1:11": {
       "episode_key": "agenti s.h.i.e.l.d.:s1:e11",
-      "claim": {
-        "worker_id": "aee2290a0d504197bf0eb201eb9d442e-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:36:12.111789+00:00",
-        "lease_expires_at": "2026-11-23T09:36:12.111805+00:00"
-      },
       "source": {
         "source_id": "35062098",
         "source_url": "https://sdilej.cz/35062098/agenti-s.h.i.e.l.d-s01e11-zazracne-misto.mkv",
@@ -862604,22 +862598,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E11 The Magical Place 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:36:19.433920+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270860",
-        "size_bytes": 912112627
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270860",
-        "size_bytes": 912112627,
-        "source_bytes_read": 912112627,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270860",
         "source_bytes_read": 912112627,
         "elapsed_seconds": 151.905,
         "finished_at": "2026-11-23T03:39:17.888477+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270860",
+          "size_bytes": 912112627,
+          "source_bytes_read": 912112627,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35062098",
+        "source_url": "https://sdilej.cz/35062098/agenti-s.h.i.e.l.d-s01e11-zazracne-misto.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270860",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E11 The Magical Place 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T03:39:33.246817+00:00"
       }
     },
     "1095:1:12": {
@@ -862678,7 +862679,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:39:27.358991+00:00",
+  "updated_at": "2026-11-23T03:39:33.246833+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
