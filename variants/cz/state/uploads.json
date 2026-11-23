@@ -892182,12 +892182,6 @@
     },
     "642:1:1": {
       "episode_key": "země nikoho:s1:e1",
-      "claim": {
-        "worker_id": "e3019cc97e8c4648a1223a4e6ca6d5ed-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:55:33.314058+00:00",
-        "lease_expires_at": "2026-11-24T05:55:33.314072+00:00"
-      },
       "source": {
         "source_id": "30831562",
         "source_url": "https://sdilej.cz/30831562/zeme-nikoho-s01e01-2020-cz-dab.mkv",
@@ -892212,22 +892206,29 @@
         "display_name": "No Man's Land S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-23T23:55:47.338201+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31311379",
-        "size_bytes": 176568433
-      },
-      "transfer_receipt": {
-        "target_video_id": "31311379",
-        "size_bytes": 176568433,
-        "source_bytes_read": 176568433,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31311379",
         "source_bytes_read": 176568433,
         "elapsed_seconds": 8.456,
         "finished_at": "2026-11-23T23:56:17.748038+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31311379",
+          "size_bytes": 176568433,
+          "source_bytes_read": 176568433,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30831562",
+        "source_url": "https://sdilej.cz/30831562/zeme-nikoho-s01e01-2020-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31311379",
+        "display_name": "No Man's Land S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:56:28.443194+00:00"
       }
     }
   },
@@ -892236,7 +892237,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:56:17.748059+00:00",
+  "updated_at": "2026-11-23T23:56:28.443210+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
