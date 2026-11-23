@@ -864059,12 +864059,6 @@
     },
     "587:1:2": {
       "episode_key": "bridgertonovi:s1:e2",
-      "claim": {
-        "worker_id": "e6f8f33c25ca4331b8432b7be1ee97c5-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:06:46.857066+00:00",
-        "lease_expires_at": "2026-11-23T10:06:46.857085+00:00"
-      },
       "source": {
         "source_id": "29082560",
         "source_url": "https://sdilej.cz/29082560/bridgerton-s01e02-1080p-cz-dabing.mkv",
@@ -864089,22 +864083,29 @@
         "display_name": "Bridgerton S01E02 Shock and Delight 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:06:58.398433+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31271550",
-        "size_bytes": 1224663038
-      },
-      "transfer_receipt": {
-        "target_video_id": "31271550",
-        "size_bytes": 1224663038,
-        "source_bytes_read": 1224663038,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31271550",
         "source_bytes_read": 1224663038,
         "elapsed_seconds": 143.557,
         "finished_at": "2026-11-23T04:09:46.540115+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31271550",
+          "size_bytes": 1224663038,
+          "source_bytes_read": 1224663038,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29082560",
+        "source_url": "https://sdilej.cz/29082560/bridgerton-s01e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31271550",
+        "display_name": "Bridgerton S01E02 Shock and Delight 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:10:01.619591+00:00"
       }
     }
   },
@@ -864113,7 +864114,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:09:56.817737+00:00",
+  "updated_at": "2026-11-23T04:10:01.619605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
