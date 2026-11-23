@@ -865610,12 +865610,6 @@
     },
     "1095:3:2": {
       "episode_key": "agenti s.h.i.e.l.d.:s3:e2",
-      "claim": {
-        "worker_id": "388884c9c04d4d3b9d44f055c294bb79-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:01:22.814076+00:00",
-        "lease_expires_at": "2026-11-23T11:01:22.814089+00:00"
-      },
       "source": {
         "source_id": "34329710",
         "source_url": "https://sdilej.cz/34329710/agenti-s.h.i.e.l.d.-03x02-cz-dab-.mp4",
@@ -865640,22 +865634,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E02 Purpose in the Machine 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:01:29.647607+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272966",
-        "size_bytes": 661759147
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272966",
-        "size_bytes": 661759147,
-        "source_bytes_read": 661759147,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272966",
         "source_bytes_read": 661759147,
         "elapsed_seconds": 33.541,
         "finished_at": "2026-11-23T05:02:25.070785+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272966",
+          "size_bytes": 661759147,
+          "source_bytes_read": 661759147,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34329710",
+        "source_url": "https://sdilej.cz/34329710/agenti-s.h.i.e.l.d.-03x02-cz-dab-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272966",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E02 Purpose in the Machine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:02:33.802511+00:00"
       }
     }
   },
@@ -865664,7 +865665,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:02:25.070806+00:00",
+  "updated_at": "2026-11-23T05:02:33.802529+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
