@@ -882286,16 +882286,6 @@
         "display_name": "The Flintstones S01E13 The Drive-in SD CZ Dabing",
         "prepared_at": "2026-11-23T13:45:14.704904+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287611",
-        "size_bytes": 232887310
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287611",
-        "size_bytes": 232887310,
-        "source_bytes_read": 232887310,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287611",
         "source_bytes_read": 232887310,
@@ -882309,11 +882299,22 @@
           "error": "ConnectionError"
         }
       ],
-      "claim": {
-        "worker_id": "7d07457468204ab5aeb614451bb07b55-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:02:36.536757+00:00",
-        "lease_expires_at": "2026-11-23T20:02:36.536775+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287611",
+          "size_bytes": 232887310,
+          "source_bytes_read": 232887310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34987159",
+        "source_url": "https://sdilej.cz/34987159/flintstoneovi-s01e13-bistro-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287611",
+        "display_name": "The Flintstones S01E13 The Drive-in SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:02:47.282527+00:00"
       }
     },
     "1951:1:14": {
@@ -882883,7 +882884,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:02:41.788457+00:00",
+  "updated_at": "2026-11-23T14:02:47.282546+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
