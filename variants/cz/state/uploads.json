@@ -883747,12 +883747,6 @@
     },
     "1951:2:15": {
       "episode_key": "flintstoneovi:s2:e15",
-      "claim": {
-        "worker_id": "aa4c9df0ccdd4255a56bda152062c116-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:15:58.204409+00:00",
-        "lease_expires_at": "2026-11-23T20:15:58.204423+00:00"
-      },
       "source": {
         "source_id": "35001646",
         "source_url": "https://sdilej.cz/35001646/flintstoneovi-s02e15-rentgenovy-pribeh-tvrip-cz-skalican762-ipad.mp4",
@@ -883777,22 +883771,29 @@
         "display_name": "The Flintstones S02E15 The X-Ray Story SD CZ Dabing",
         "prepared_at": "2026-11-23T14:16:11.877711+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288485",
-        "size_bytes": 256105724
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288485",
-        "size_bytes": 256105724,
-        "source_bytes_read": 256105724,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288485",
         "source_bytes_read": 256105724,
         "elapsed_seconds": 12.829,
         "finished_at": "2026-11-23T14:16:56.235095+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288485",
+          "size_bytes": 256105724,
+          "source_bytes_read": 256105724,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35001646",
+        "source_url": "https://sdilej.cz/35001646/flintstoneovi-s02e15-rentgenovy-pribeh-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288485",
+        "display_name": "The Flintstones S02E15 The X-Ray Story SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:17:13.787996+00:00"
       }
     }
   },
@@ -883801,7 +883802,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:17:08.505940+00:00",
+  "updated_at": "2026-11-23T14:17:13.788014+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
