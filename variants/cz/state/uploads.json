@@ -864943,28 +864943,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "cf7c3012e2a64f6782edfb4d26e2dd1d-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:52:01.280174+00:00",
-        "lease_expires_at": "2026-11-23T13:52:01.280190+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31277631",
-        "size_bytes": 715500684
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277631",
-        "size_bytes": 715500684,
-        "source_bytes_read": 715500684,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277631",
         "source_bytes_read": 715500684,
         "elapsed_seconds": 82.999,
         "finished_at": "2026-11-23T07:54:08.280788+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277631",
+          "size_bytes": 715500684,
+          "source_bytes_read": 715500684,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32952197",
+        "source_url": "https://sdilej.cz/32952197/agenti-s-h-i-e-l-d-s02e20-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277631",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E20 Scars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:54:18.451916+00:00"
       }
     },
     "1095:2:21": {
@@ -870665,7 +870666,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:54:08.280813+00:00",
+  "updated_at": "2026-11-23T07:54:18.451935+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
