@@ -865040,12 +865040,6 @@
     },
     "587:3:1": {
       "episode_key": "bridgertonovi:s3:e1",
-      "claim": {
-        "worker_id": "1e2a7eabb3044a119c2378e0d9c99b41-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:46:05.193621+00:00",
-        "lease_expires_at": "2026-11-23T10:46:05.193639+00:00"
-      },
       "source": {
         "source_id": "29100496",
         "source_url": "https://sdilej.cz/29100496/bridgerton-s03e01-cz-dabing.mkv",
@@ -865070,22 +865064,29 @@
         "display_name": "Bridgerton S03E01 Out of the Shadows 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:46:30.176763+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272678",
-        "size_bytes": 1035578395
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272678",
-        "size_bytes": 1035578395,
-        "source_bytes_read": 1035578395,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272678",
         "source_bytes_read": 1035578395,
         "elapsed_seconds": 86.775,
         "finished_at": "2026-11-23T04:48:29.456010+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272678",
+          "size_bytes": 1035578395,
+          "source_bytes_read": 1035578395,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29100496",
+        "source_url": "https://sdilej.cz/29100496/bridgerton-s03e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272678",
+        "display_name": "Bridgerton S03E01 Out of the Shadows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:48:59.147077+00:00"
       }
     },
     "587:3:2": {
@@ -865145,7 +865146,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:48:53.500297+00:00",
+  "updated_at": "2026-11-23T04:48:59.147092+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
