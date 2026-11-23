@@ -872464,12 +872464,6 @@
     },
     "123:1:2": {
       "episode_key": "castle rock:s1:e2",
-      "claim": {
-        "worker_id": "542f54f8bcef4b2cab2709ac129840fc-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:46:19.635095+00:00",
-        "lease_expires_at": "2026-11-23T14:46:19.635107+00:00"
-      },
       "source": {
         "source_id": "34090422",
         "source_url": "https://sdilej.cz/34090422/castle-rock-s01e02-cz-dabing-1080p-full-hd.mp4",
@@ -872493,7 +872487,17 @@
         },
         "display_name": "Castle Rock S01E02 Habeas Corpus 1080p CZ Dabing",
         "prepared_at": "2026-11-23T08:46:31.686781+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34090422:https://sdilej.cz/34090422/castle-rock-s01e02-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-23T08:46:46.010574+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T08:46:46.010600+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -872501,7 +872505,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:46:31.686798+00:00",
+  "updated_at": "2026-11-23T08:46:46.010605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -873306,6 +873310,14 @@
         }
       ],
       "retry_after": "2026-11-23T08:34:08.832503+00:00"
+    },
+    "123": {
+      "recent_failures": [
+        {
+          "identity": "123:1:2",
+          "at": "2026-11-23T08:46:46.010574+00:00"
+        }
+      ]
     }
   }
 }
