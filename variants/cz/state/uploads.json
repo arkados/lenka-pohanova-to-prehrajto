@@ -867007,12 +867007,6 @@
     },
     "587:4:2": {
       "episode_key": "bridgertonovi:s4:e2",
-      "claim": {
-        "worker_id": "ede628e21b814e008c050c5eaa0b85e4-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:47:40.708842+00:00",
-        "lease_expires_at": "2026-11-23T11:47:40.708858+00:00"
-      },
       "source": {
         "source_id": "33443514",
         "source_url": "https://sdilej.cz/33443514/bridgertonovi-s04e02-zastaveny-cas.mkv",
@@ -867037,22 +867031,29 @@
         "display_name": "Bridgerton S04E02 Time Transfixed 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:47:47.537057+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31273907",
-        "size_bytes": 1538447475
-      },
-      "transfer_receipt": {
-        "target_video_id": "31273907",
-        "size_bytes": 1538447475,
-        "source_bytes_read": 1538447475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31273907",
         "source_bytes_read": 1538447475,
         "elapsed_seconds": 262.671,
         "finished_at": "2026-11-23T05:52:42.103100+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31273907",
+          "size_bytes": 1538447475,
+          "source_bytes_read": 1538447475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33443514",
+        "source_url": "https://sdilej.cz/33443514/bridgertonovi-s04e02-zastaveny-cas.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31273907",
+        "display_name": "Bridgerton S04E02 Time Transfixed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:52:57.190249+00:00"
       }
     },
     "587:4:3": {
@@ -867186,7 +867187,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:52:49.473007+00:00",
+  "updated_at": "2026-11-23T05:52:57.190266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
