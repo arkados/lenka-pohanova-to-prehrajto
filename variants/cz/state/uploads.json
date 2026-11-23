@@ -864466,12 +864466,6 @@
     },
     "587:1:8": {
       "episode_key": "bridgertonovi:s1:e8",
-      "claim": {
-        "worker_id": "dc5c54ae2e9e458696c299c421f38e22-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:25:50.960323+00:00",
-        "lease_expires_at": "2026-11-23T10:25:50.960338+00:00"
-      },
       "source": {
         "source_id": "29083012",
         "source_url": "https://sdilej.cz/29083012/bridgerton-s01e08-1080p-cz-dabing.mkv",
@@ -864496,22 +864490,29 @@
         "display_name": "Bridgerton S01E08 After the Rain 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:26:13.879290+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272205",
-        "size_bytes": 1442530605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272205",
-        "size_bytes": 1442530605,
-        "source_bytes_read": 1442530605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272205",
         "source_bytes_read": 1442530605,
         "elapsed_seconds": 82.482,
         "finished_at": "2026-11-23T04:28:05.058598+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272205",
+          "size_bytes": 1442530605,
+          "source_bytes_read": 1442530605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29083012",
+        "source_url": "https://sdilej.cz/29083012/bridgerton-s01e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272205",
+        "display_name": "Bridgerton S01E08 After the Rain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:28:14.887711+00:00"
       }
     },
     "587:2:1": {
@@ -864594,7 +864595,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:28:05.058619+00:00",
+  "updated_at": "2026-11-23T04:28:14.887730+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
