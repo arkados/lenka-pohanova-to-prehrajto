@@ -869922,12 +869922,6 @@
     },
     "1416:1:1": {
       "episode_key": "médium:s1:e1",
-      "claim": {
-        "worker_id": "54ebf7d76bb344798e001e6132b85227-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:25:10.545580+00:00",
-        "lease_expires_at": "2026-11-23T13:25:10.545592+00:00"
-      },
       "source": {
         "source_id": "34881626",
         "source_url": "https://sdilej.cz/34881626/medium-2022-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -869952,22 +869946,29 @@
         "display_name": "The Peripheral S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-23T07:25:34.749029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31276889",
-        "size_bytes": 979301378
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276889",
-        "size_bytes": 979301378,
-        "source_bytes_read": 979301378,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276889",
         "source_bytes_read": 979301378,
         "elapsed_seconds": 84.939,
         "finished_at": "2026-11-23T07:27:32.361831+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276889",
+          "size_bytes": 979301378,
+          "source_bytes_read": 979301378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34881626",
+        "source_url": "https://sdilej.cz/34881626/medium-2022-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276889",
+        "display_name": "The Peripheral S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:27:41.530645+00:00"
       }
     },
     "1416:1:2": {
@@ -870050,7 +870051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:27:32.361850+00:00",
+  "updated_at": "2026-11-23T07:27:41.530663+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
