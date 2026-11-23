@@ -867197,12 +867197,6 @@
     },
     "611:1:7": {
       "episode_key": "projekt modrá kniha:s1:e7",
-      "claim": {
-        "worker_id": "d4c2acb6847f447282609c1a530fb161-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:54:13.063401+00:00",
-        "lease_expires_at": "2026-11-23T11:54:13.063417+00:00"
-      },
       "source": {
         "source_id": "17475183",
         "source_url": "https://sdilej.cz/17475183/projekt-modra-kniha-2019-s01e07-hevc-1080p-cz-dab.mkv",
@@ -867227,22 +867221,29 @@
         "display_name": "Project Blue Book S01E07 The Scoutmaster 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:54:31.041300+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31274123",
-        "size_bytes": 575179540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31274123",
-        "size_bytes": 575179540,
-        "source_bytes_read": 575179540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31274123",
         "source_bytes_read": 575179540,
         "elapsed_seconds": 37.391,
         "finished_at": "2026-11-23T05:55:38.127552+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31274123",
+          "size_bytes": 575179540,
+          "source_bytes_read": 575179540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17475183",
+        "source_url": "https://sdilej.cz/17475183/projekt-modra-kniha-2019-s01e07-hevc-1080p-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31274123",
+        "display_name": "Project Blue Book S01E07 The Scoutmaster 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:55:51.380664+00:00"
       }
     },
     "611:1:8": {
@@ -867324,7 +867325,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:55:43.853738+00:00",
+  "updated_at": "2026-11-23T05:55:51.380683+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
