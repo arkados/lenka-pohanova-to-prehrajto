@@ -865213,12 +865213,6 @@
     },
     "587:3:3": {
       "episode_key": "bridgertonovi:s3:e3",
-      "claim": {
-        "worker_id": "6d4088948a93434c9307591abdb51ffb-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:50:51.975030+00:00",
-        "lease_expires_at": "2026-11-23T10:50:51.975046+00:00"
-      },
       "source": {
         "source_id": "29101163",
         "source_url": "https://sdilej.cz/29101163/bridgerton-s03e03-cz-dabing.mkv",
@@ -865243,22 +865237,29 @@
         "display_name": "Bridgerton S03E03 Forces of Nature 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:50:58.214583+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272786",
-        "size_bytes": 937867964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272786",
-        "size_bytes": 937867964,
-        "source_bytes_read": 937867964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272786",
         "source_bytes_read": 937867964,
         "elapsed_seconds": 83.327,
         "finished_at": "2026-11-23T04:52:57.067770+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272786",
+          "size_bytes": 937867964,
+          "source_bytes_read": 937867964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29101163",
+        "source_url": "https://sdilej.cz/29101163/bridgerton-s03e03-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272786",
+        "display_name": "Bridgerton S03E03 Forces of Nature 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:53:06.678683+00:00"
       }
     },
     "587:3:4": {
@@ -865341,7 +865342,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:52:57.067789+00:00",
+  "updated_at": "2026-11-23T04:53:06.678708+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
