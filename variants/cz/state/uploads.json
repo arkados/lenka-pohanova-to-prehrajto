@@ -887718,12 +887718,6 @@
     },
     "1951:5:9": {
       "episode_key": "flintstoneovi:s5:e9",
-      "claim": {
-        "worker_id": "d5ff85b957dc468c89c5842732c3e7b5-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:42:27.486411+00:00",
-        "lease_expires_at": "2026-11-23T21:42:27.486426+00:00"
-      },
       "source": {
         "source_id": "35015652",
         "source_url": "https://sdilej.cz/35015652/flintstoneovi-s05e09-grusomovi-cz-skalican762-ipad.mp4",
@@ -887764,7 +887758,13 @@
         "elapsed_seconds": 37.296,
         "finished_at": "2026-11-23T15:43:55.486299+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T15:45:31.648639+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1951:5:10": {
       "episode_key": "flintstoneovi:s5:e10",
@@ -887781,7 +887781,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:45:04.010081+00:00",
+  "updated_at": "2026-11-23T15:45:31.648656+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
