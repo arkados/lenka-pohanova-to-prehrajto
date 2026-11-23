@@ -875618,12 +875618,6 @@
     },
     "3041:3:1": {
       "episode_key": "nevěstky:s3:e1",
-      "claim": {
-        "worker_id": "dfe4285920d4491f9476a3c0e24f0f43-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:08:59.974364+00:00",
-        "lease_expires_at": "2026-11-23T16:08:59.974381+00:00"
-      },
       "source": {
         "source_id": "33184412",
         "source_url": "https://sdilej.cz/33184412/nevestky-s03e01-08-2019-cz-dab-epizoda-1.mkv",
@@ -875648,22 +875642,29 @@
         "display_name": "Harlots S03E01 1080p CZ Dabing",
         "prepared_at": "2026-11-23T10:09:12.220963+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281564",
-        "size_bytes": 1537823746
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281564",
-        "size_bytes": 1537823746,
-        "source_bytes_read": 1537823746,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281564",
         "source_bytes_read": 1537823746,
         "elapsed_seconds": 242.821,
         "finished_at": "2026-11-23T10:13:37.714761+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281564",
+          "size_bytes": 1537823746,
+          "source_bytes_read": 1537823746,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33184412",
+        "source_url": "https://sdilej.cz/33184412/nevestky-s03e01-08-2019-cz-dab-epizoda-1.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281564",
+        "display_name": "Harlots S03E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T10:13:55.423261+00:00"
       }
     },
     "3041:3:2": {
@@ -875844,7 +875845,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:13:49.830984+00:00",
+  "updated_at": "2026-11-23T10:13:55.423287+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
