@@ -881542,12 +881542,6 @@
     },
     "964:3:11": {
       "episode_key": "odstřelovač:s3:e11",
-      "claim": {
-        "worker_id": "4b4d41f72f244f2d89fab35069204a72-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:31:32.778696+00:00",
-        "lease_expires_at": "2026-11-23T19:31:32.778711+00:00"
-      },
       "source": {
         "source_id": "28825350",
         "source_url": "https://sdilej.cz/28825350/odstrelovac.webrip.cz.s03e11.mkv",
@@ -881572,22 +881566,29 @@
         "display_name": "Shooter S03E11 Family Fire 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:32:10.436480+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287300",
-        "size_bytes": 714860869
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287300",
-        "size_bytes": 714860869,
-        "source_bytes_read": 714860869,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287300",
         "source_bytes_read": 714860869,
         "elapsed_seconds": 30.255,
         "finished_at": "2026-11-23T13:33:15.408203+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287300",
+          "size_bytes": 714860869,
+          "source_bytes_read": 714860869,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825350",
+        "source_url": "https://sdilej.cz/28825350/odstrelovac.webrip.cz.s03e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287300",
+        "display_name": "Shooter S03E11 Family Fire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:33:25.757895+00:00"
       }
     },
     "964:3:13": {
@@ -881670,7 +881671,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:33:15.408223+00:00",
+  "updated_at": "2026-11-23T13:33:25.757912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
