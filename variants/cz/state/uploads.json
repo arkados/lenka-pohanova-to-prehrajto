@@ -890329,16 +890329,6 @@
         "display_name": "Berlin Station S01E08 False Negative 1080p CZ Dabing",
         "prepared_at": "2026-11-23T18:38:19.418348+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31296497",
-        "size_bytes": 539247222
-      },
-      "transfer_receipt": {
-        "target_video_id": "31296497",
-        "size_bytes": 539247222,
-        "source_bytes_read": 539247222,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31296497",
         "source_bytes_read": 539247222,
@@ -890352,11 +890342,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "0c3b4ca7270849c8b894fa496877b7f4-worker-0",
-        "run_id": "45225486737",
-        "claimed_at": "2026-11-23T19:06:14.544092+00:00",
-        "lease_expires_at": "2026-11-24T01:06:14.544106+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31296497",
+          "size_bytes": 539247222,
+          "source_bytes_read": 539247222,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32194004",
+        "source_url": "https://sdilej.cz/32194004/berlin-station-s01e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31296497",
+        "display_name": "Berlin Station S01E08 False Negative 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T19:06:26.841605+00:00"
       }
     },
     "3016:1:10": {
@@ -890433,7 +890434,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T19:06:20.544567+00:00",
+  "updated_at": "2026-11-23T19:06:26.841624+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
