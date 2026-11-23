@@ -885985,12 +885985,6 @@
     },
     "1951:3:28": {
       "episode_key": "flintstoneovi:s3:e28",
-      "claim": {
-        "worker_id": "cb0a4a4dba4342e9b9a4d70ffea40e59-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:06:01.300421+00:00",
-        "lease_expires_at": "2026-11-23T21:06:01.300444+00:00"
-      },
       "source": {
         "source_id": "35004321",
         "source_url": "https://sdilej.cz/35004321/flintstoneovi-s03e28-narozeninova-oslava-cz-skalican762-ipad.mp4",
@@ -886015,22 +886009,29 @@
         "display_name": "The Flintstones S03E28 The Birthday Party SD CZ Dabing",
         "prepared_at": "2026-11-23T15:06:08.253802+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290141",
-        "size_bytes": 251711077
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290141",
-        "size_bytes": 251711077,
-        "source_bytes_read": 251711077,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290141",
         "source_bytes_read": 251711077,
         "elapsed_seconds": 81.476,
         "finished_at": "2026-11-23T15:07:59.430139+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290141",
+          "size_bytes": 251711077,
+          "source_bytes_read": 251711077,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35004321",
+        "source_url": "https://sdilej.cz/35004321/flintstoneovi-s03e28-narozeninova-oslava-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290141",
+        "display_name": "The Flintstones S03E28 The Birthday Party SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:08:19.641917+00:00"
       }
     },
     "1951:4:1": {
@@ -886075,7 +886076,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:08:11.353919+00:00",
+  "updated_at": "2026-11-23T15:08:19.641937+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
