@@ -861098,12 +861098,6 @@
     },
     "1980:4:3": {
       "episode_key": "fotbalový talent:s4:e3",
-      "claim": {
-        "worker_id": "3335a68d4567466ea63379fce78ae2cf-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:46:40.474016+00:00",
-        "lease_expires_at": "2026-11-23T08:46:40.474039+00:00"
-      },
       "source": {
         "source_id": "20740075",
         "source_url": "https://sdilej.cz/20740075/fotbalovy.talent.04x03.hdtv.cz.avi",
@@ -861128,22 +861122,29 @@
         "display_name": "All American S04E03 All I Need SD CZ Dabing",
         "prepared_at": "2026-11-23T02:46:46.475420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269734",
-        "size_bytes": 631964258
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269734",
-        "size_bytes": 631964258,
-        "source_bytes_read": 631964258,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269734",
         "source_bytes_read": 631964258,
         "elapsed_seconds": 42.809,
         "finished_at": "2026-11-23T02:47:48.947273+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269734",
+          "size_bytes": 631964258,
+          "source_bytes_read": 631964258,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20740075",
+        "source_url": "https://sdilej.cz/20740075/fotbalovy.talent.04x03.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269734",
+        "display_name": "All American S04E03 All I Need SD CZ Dabing",
+        "uploaded_at": "2026-11-23T02:47:58.426232+00:00"
       }
     }
   },
@@ -861152,7 +861153,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:47:48.947290+00:00",
+  "updated_at": "2026-11-23T02:47:58.426247+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
