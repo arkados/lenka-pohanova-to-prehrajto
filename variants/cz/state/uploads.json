@@ -887521,12 +887521,6 @@
     },
     "1951:5:5": {
       "episode_key": "flintstoneovi:s5:e5",
-      "claim": {
-        "worker_id": "a058f84b2d6049efb1babff9ec5b6d1d-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:37:11.447957+00:00",
-        "lease_expires_at": "2026-11-23T21:37:11.447969+00:00"
-      },
       "source": {
         "source_id": "35015542",
         "source_url": "https://sdilej.cz/35015542/flintstoneovi-s05e05-rodeo-v-bedrocku-cz-skalican762-ipad.mp4",
@@ -887551,22 +887545,29 @@
         "display_name": "The Flintstones S05E05 Bedrock Rodeo Round-Up SD CZ Dabing",
         "prepared_at": "2026-11-23T15:37:25.010303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290845",
-        "size_bytes": 246720251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290845",
-        "size_bytes": 246720251,
-        "source_bytes_read": 246720251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290845",
         "source_bytes_read": 246720251,
         "elapsed_seconds": 35.505,
         "finished_at": "2026-11-23T15:38:41.970251+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290845",
+          "size_bytes": 246720251,
+          "source_bytes_read": 246720251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35015542",
+        "source_url": "https://sdilej.cz/35015542/flintstoneovi-s05e05-rodeo-v-bedrocku-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290845",
+        "display_name": "The Flintstones S05E05 Bedrock Rodeo Round-Up SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:38:58.734296+00:00"
       }
     },
     "1951:5:6": {
@@ -887625,7 +887626,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:38:52.672727+00:00",
+  "updated_at": "2026-11-23T15:38:58.734312+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
