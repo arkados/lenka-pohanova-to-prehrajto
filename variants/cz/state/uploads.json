@@ -861557,12 +861557,6 @@
     },
     "1980:4:20": {
       "episode_key": "fotbalový talent:s4:e20",
-      "claim": {
-        "worker_id": "567320ac0f174a26a1cf71d5f6c8db53-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:02:45.016680+00:00",
-        "lease_expires_at": "2026-11-23T09:02:45.016693+00:00"
-      },
       "source": {
         "source_id": "34269466",
         "source_url": "https://sdilej.cz/34269466/fotbalovy-talent-s04e20-20-2021-cz-dab-1080p-sklenicky-na-sampanske.mkv",
@@ -861587,7 +861581,17 @@
         },
         "display_name": "All American S04E20 Champagne Glasses 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:02:56.732478+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34269466:https://sdilej.cz/34269466/fotbalovy-talent-s04e20-20-2021-cz-dab-1080p-sklenicky-na-sampanske.mkv",
+        "at": "2026-11-23T03:03:12.412034+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T03:03:12.412059+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -861595,7 +861599,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:03:02.474636+00:00",
+  "updated_at": "2026-11-23T03:03:12.412066+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -862327,6 +862331,14 @@
         {
           "identity": "1645:3:2",
           "at": "2026-11-23T02:33:08.681057+00:00"
+        }
+      ]
+    },
+    "1980": {
+      "recent_failures": [
+        {
+          "identity": "1980:4:20",
+          "at": "2026-11-23T03:03:12.412034+00:00"
         }
       ]
     }
