@@ -880137,12 +880137,6 @@
     },
     "964:1:1": {
       "episode_key": "odstřelovač:s1:e1",
-      "claim": {
-        "worker_id": "15af18fbbe0c426aa6aa66a4755d3b10-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:49:42.589267+00:00",
-        "lease_expires_at": "2026-11-23T18:49:42.589287+00:00"
-      },
       "source": {
         "source_id": "28848939",
         "source_url": "https://sdilej.cz/28848939/odstrelovac-shooter-s01e01.cz.webrip.1080p.hevc.c4u.mkv",
@@ -880167,22 +880161,29 @@
         "display_name": "Shooter S01E01 Point of Impact 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:49:55.463263+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286271",
-        "size_bytes": 703397409
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286271",
-        "size_bytes": 703397409,
-        "source_bytes_read": 703397409,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286271",
         "source_bytes_read": 703397409,
         "elapsed_seconds": 101.018,
         "finished_at": "2026-11-23T12:52:05.961864+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286271",
+          "size_bytes": 703397409,
+          "source_bytes_read": 703397409,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28848939",
+        "source_url": "https://sdilej.cz/28848939/odstrelovac-shooter-s01e01.cz.webrip.1080p.hevc.c4u.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286271",
+        "display_name": "Shooter S01E01 Point of Impact 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:52:16.426563+00:00"
       }
     }
   },
@@ -880191,7 +880192,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:52:05.961883+00:00",
+  "updated_at": "2026-11-23T12:52:16.426579+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
