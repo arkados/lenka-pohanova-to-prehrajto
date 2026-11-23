@@ -891079,12 +891079,6 @@
     },
     "3016:3:10": {
       "episode_key": "berlínská mise:s3:e10",
-      "claim": {
-        "worker_id": "8d96e012ab4d4845974f71190d799709-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:25:42.253204+00:00",
-        "lease_expires_at": "2026-11-24T05:25:42.253214+00:00"
-      },
       "source": {
         "source_id": "30890974",
         "source_url": "https://sdilej.cz/30890974/berlin-station-s03e10.mp4",
@@ -891109,22 +891103,29 @@
         "display_name": "Berlin Station S03E10 Book of the Fallen 1080p CZ Dabing",
         "prepared_at": "2026-11-23T23:26:00.197077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31310376",
-        "size_bytes": 714819195
-      },
-      "transfer_receipt": {
-        "target_video_id": "31310376",
-        "size_bytes": 714819195,
-        "source_bytes_read": 714819195,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31310376",
         "source_bytes_read": 714819195,
         "elapsed_seconds": 46.749,
         "finished_at": "2026-11-23T23:27:22.614572+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31310376",
+          "size_bytes": 714819195,
+          "source_bytes_read": 714819195,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30890974",
+        "source_url": "https://sdilej.cz/30890974/berlin-station-s03e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31310376",
+        "display_name": "Berlin Station S03E10 Book of the Fallen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T23:27:39.353916+00:00"
       }
     },
     "74:1:1": {
@@ -891170,7 +891171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T23:27:28.672289+00:00",
+  "updated_at": "2026-11-23T23:27:39.353933+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
