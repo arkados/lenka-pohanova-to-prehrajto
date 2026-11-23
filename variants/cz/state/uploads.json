@@ -856670,12 +856670,6 @@
     },
     "636:1:2": {
       "episode_key": "smrt v bílém plášti:s1:e2",
-      "claim": {
-        "worker_id": "79255b82da6a43f6982d424a7fb05b99-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:03:19.801415+00:00",
-        "lease_expires_at": "2026-11-23T06:03:19.801426+00:00"
-      },
       "source": {
         "source_id": "33021313",
         "source_url": "https://sdilej.cz/33021313/smrt-v-bilem-plasti-s01e02-1080p-cz-nejsem-zadny-lempl.mkv",
@@ -856700,22 +856694,29 @@
         "display_name": "Dr. Death S01E02 Ain't No Bum 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:03:48.645407+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265424",
-        "size_bytes": 503578948
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265424",
-        "size_bytes": 503578948,
-        "source_bytes_read": 503578948,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265424",
         "source_bytes_read": 503578948,
         "elapsed_seconds": 26.729,
         "finished_at": "2026-11-23T00:04:53.209984+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265424",
+          "size_bytes": 503578948,
+          "source_bytes_read": 503578948,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33021313",
+        "source_url": "https://sdilej.cz/33021313/smrt-v-bilem-plasti-s01e02-1080p-cz-nejsem-zadny-lempl.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265424",
+        "display_name": "Dr. Death S01E02 Ain't No Bum 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:05:09.665124+00:00"
       }
     }
   },
@@ -856724,7 +856725,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:05:01.613104+00:00",
+  "updated_at": "2026-11-23T00:05:09.665136+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
