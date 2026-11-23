@@ -882714,12 +882714,6 @@
     },
     "1951:1:22": {
       "episode_key": "flintstoneovi:s1:e22",
-      "claim": {
-        "worker_id": "5caab0568b8d4271832c00bb5fd0c10a-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:57:59.554305+00:00",
-        "lease_expires_at": "2026-11-23T19:57:59.554320+00:00"
-      },
       "source": {
         "source_id": "34989349",
         "source_url": "https://sdilej.cz/34989349/flintstoneovi-s01e22-velky-magnat-ipad.mp4",
@@ -882744,22 +882738,29 @@
         "display_name": "The Flintstones S01E22 The Tycoon SD CZ Dabing",
         "prepared_at": "2026-11-23T13:58:11.947898+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287964",
-        "size_bytes": 233241361
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287964",
-        "size_bytes": 233241361,
-        "source_bytes_read": 233241361,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287964",
         "source_bytes_read": 233241361,
         "elapsed_seconds": 11.504,
         "finished_at": "2026-11-23T13:58:54.444713+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287964",
+          "size_bytes": 233241361,
+          "source_bytes_read": 233241361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34989349",
+        "source_url": "https://sdilej.cz/34989349/flintstoneovi-s01e22-velky-magnat-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287964",
+        "display_name": "The Flintstones S01E22 The Tycoon SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:59:09.494125+00:00"
       }
     },
     "1951:1:23": {
@@ -882777,7 +882778,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:59:03.523387+00:00",
+  "updated_at": "2026-11-23T13:59:09.494143+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
