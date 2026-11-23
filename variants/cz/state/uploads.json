@@ -874749,12 +874749,6 @@
     },
     "732:1:8": {
       "episode_key": "její vina:s1:e8",
-      "claim": {
-        "worker_id": "43f4b1fb03e44b8e8689177ef0653e29-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:50:49.878505+00:00",
-        "lease_expires_at": "2026-11-23T15:50:49.878516+00:00"
-      },
       "source": {
         "source_id": "33994255",
         "source_url": "https://sdilej.cz/33994255/all-her-fault-s01e08-czen-dabing.mp4",
@@ -874778,7 +874772,17 @@
         },
         "display_name": "All Her Fault S01E08 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:51:12.807368+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33994255:https://sdilej.cz/33994255/all-her-fault-s01e08-czen-dabing.mp4",
+        "at": "2026-11-23T09:51:49.335854+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:51:49.335876+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "3041:1:1": {
       "episode_key": "nevěstky:s1:e1",
@@ -874831,7 +874835,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:51:40.834280+00:00",
+  "updated_at": "2026-11-23T09:51:49.335881+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -875659,6 +875663,14 @@
         {
           "identity": "4142:1:4",
           "at": "2026-11-23T09:44:43.524080+00:00"
+        }
+      ]
+    },
+    "732": {
+      "recent_failures": [
+        {
+          "identity": "732:1:8",
+          "at": "2026-11-23T09:51:49.335854+00:00"
         }
       ]
     }
