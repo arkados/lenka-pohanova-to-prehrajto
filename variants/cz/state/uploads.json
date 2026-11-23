@@ -883231,12 +883231,6 @@
     },
     "1951:2:5": {
       "episode_key": "flintstoneovi:s2:e5",
-      "claim": {
-        "worker_id": "0785243de73f4674b44fce0693c4b3f5-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:08:12.252381+00:00",
-        "lease_expires_at": "2026-11-23T20:08:12.252400+00:00"
-      },
       "source": {
         "source_id": "35001265",
         "source_url": "https://sdilej.cz/35001265/flintstoneovi-s02e05-fred-flintstone-se-znovu-zeni-tvrip-cz-skalican762-ipad.mp4",
@@ -883261,22 +883255,29 @@
         "display_name": "The Flintstones S02E05 Fred Flintstone Woos Again SD CZ Dabing",
         "prepared_at": "2026-11-23T14:08:30.069968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288302",
-        "size_bytes": 256048103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288302",
-        "size_bytes": 256048103,
-        "source_bytes_read": 256048103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288302",
         "source_bytes_read": 256048103,
         "elapsed_seconds": 12.124,
         "finished_at": "2026-11-23T14:09:27.119576+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288302",
+          "size_bytes": 256048103,
+          "source_bytes_read": 256048103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35001265",
+        "source_url": "https://sdilej.cz/35001265/flintstoneovi-s02e05-fred-flintstone-se-znovu-zeni-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288302",
+        "display_name": "The Flintstones S02E05 Fred Flintstone Woos Again SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:09:50.728714+00:00"
       }
     },
     "1951:2:6": {
@@ -883359,7 +883360,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:09:44.321187+00:00",
+  "updated_at": "2026-11-23T14:09:50.728729+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
