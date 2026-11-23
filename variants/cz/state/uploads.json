@@ -859535,12 +859535,6 @@
     },
     "1645:3:8": {
       "episode_key": "město na kopci:s3:e8",
-      "claim": {
-        "worker_id": "7480d33f2e5d439aa931c856aef50249-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T01:50:48.851027+00:00",
-        "lease_expires_at": "2026-11-23T07:50:48.851039+00:00"
-      },
       "source": {
         "source_id": "30893233",
         "source_url": "https://sdilej.cz/30893233/mesto-na-kopci-2022-s03e08-cz-dab-1080p.mkv",
@@ -859565,22 +859559,29 @@
         "display_name": "City on a Hill S03E08 Whipping Post 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:50:55.073383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31268473",
-        "size_bytes": 2679453618
-      },
-      "transfer_receipt": {
-        "target_video_id": "31268473",
-        "size_bytes": 2679453618,
-        "source_bytes_read": 2679453618,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31268473",
         "source_bytes_read": 2679453618,
         "elapsed_seconds": 268.686,
         "finished_at": "2026-11-23T01:55:46.680276+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31268473",
+          "size_bytes": 2679453618,
+          "source_bytes_read": 2679453618,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30893233",
+        "source_url": "https://sdilej.cz/30893233/mesto-na-kopci-2022-s03e08-cz-dab-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31268473",
+        "display_name": "City on a Hill S03E08 Whipping Post 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:55:59.991351+00:00"
       }
     },
     "1980:1:1": {
@@ -859714,7 +859715,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:55:46.680293+00:00",
+  "updated_at": "2026-11-23T01:55:59.991367+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
