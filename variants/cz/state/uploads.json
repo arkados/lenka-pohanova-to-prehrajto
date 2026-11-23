@@ -881854,12 +881854,6 @@
     },
     "1951:1:4": {
       "episode_key": "flintstoneovi:s1:e4",
-      "claim": {
-        "worker_id": "7bb9c88b0adb4dc1853624f2d8a85343-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:35:37.878352+00:00",
-        "lease_expires_at": "2026-11-23T19:35:37.878364+00:00"
-      },
       "source": {
         "source_id": "34984933",
         "source_url": "https://sdilej.cz/34984933/flintstoneovi-s01e04-pomoc-neni-treba-ipad.mp4",
@@ -881884,22 +881878,29 @@
         "display_name": "The Flintstones S01E04 No Help Wanted SD CZ Dabing",
         "prepared_at": "2026-11-23T13:35:54.782240+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287402",
-        "size_bytes": 233257248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287402",
-        "size_bytes": 233257248,
-        "source_bytes_read": 233257248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287402",
         "source_bytes_read": 233257248,
         "elapsed_seconds": 11.605,
         "finished_at": "2026-11-23T13:36:38.776139+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287402",
+          "size_bytes": 233257248,
+          "source_bytes_read": 233257248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34984933",
+        "source_url": "https://sdilej.cz/34984933/flintstoneovi-s01e04-pomoc-neni-treba-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287402",
+        "display_name": "The Flintstones S01E04 No Help Wanted SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:36:51.978379+00:00"
       }
     }
   },
@@ -881908,7 +881909,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:36:46.247623+00:00",
+  "updated_at": "2026-11-23T13:36:51.978397+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
