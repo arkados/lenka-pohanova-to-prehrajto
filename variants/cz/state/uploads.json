@@ -873576,12 +873576,6 @@
     },
     "123:2:7": {
       "episode_key": "castle rock:s2:e7",
-      "claim": {
-        "worker_id": "57d96711cffc41438d7efec0ab1eacb0-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:12:57.066339+00:00",
-        "lease_expires_at": "2026-11-23T15:12:57.066352+00:00"
-      },
       "source": {
         "source_id": "34120946",
         "source_url": "https://sdilej.cz/34120946/castle-rock-s02e07-cz-dabing-1080p-full-hd.mkv",
@@ -873605,7 +873599,17 @@
         },
         "display_name": "Castle Rock S02E07 The Word 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:13:14.880429+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34120946:https://sdilej.cz/34120946/castle-rock-s02e07-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-23T09:13:39.051062+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:13:39.051848+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "123:2:8": {
       "episode_key": "castle rock:s2:e8",
@@ -873622,7 +873626,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:13:33.635404+00:00",
+  "updated_at": "2026-11-23T09:13:39.051854+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -874411,19 +874415,19 @@
     "123": {
       "recent_failures": [
         {
-          "identity": "123:2:4",
-          "at": "2026-11-23T09:12:08.854257+00:00"
-        },
-        {
           "identity": "123:2:6",
           "at": "2026-11-23T09:13:08.487219+00:00"
         },
         {
           "identity": "123:2:5",
           "at": "2026-11-23T09:13:25.348634+00:00"
+        },
+        {
+          "identity": "123:2:7",
+          "at": "2026-11-23T09:13:39.051062+00:00"
         }
       ],
-      "retry_after": "2026-11-23T09:23:25.348634+00:00"
+      "retry_after": "2026-11-23T09:23:39.051062+00:00"
     }
   }
 }
