@@ -872440,12 +872440,6 @@
     },
     "123:1:1": {
       "episode_key": "castle rock:s1:e1",
-      "claim": {
-        "worker_id": "cb69377895d94b7c905949603232302e-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:45:31.803219+00:00",
-        "lease_expires_at": "2026-11-23T14:45:31.803231+00:00"
-      },
       "source": {
         "source_id": "30660388",
         "source_url": "https://sdilej.cz/30660388/castle-rock-s01e01-odstupne.mkv",
@@ -872470,22 +872464,29 @@
         "display_name": "Castle Rock S01E01 Severance 1080p CZ Dabing",
         "prepared_at": "2026-11-23T08:45:44.158627+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31279164",
-        "size_bytes": 368377835
-      },
-      "transfer_receipt": {
-        "target_video_id": "31279164",
-        "size_bytes": 368377835,
-        "source_bytes_read": 368377835,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31279164",
         "source_bytes_read": 368377835,
         "elapsed_seconds": 31.773,
         "finished_at": "2026-11-23T08:46:52.756529+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31279164",
+          "size_bytes": 368377835,
+          "source_bytes_read": 368377835,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660388",
+        "source_url": "https://sdilej.cz/30660388/castle-rock-s01e01-odstupne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31279164",
+        "display_name": "Castle Rock S01E01 Severance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T08:47:07.951638+00:00"
       }
     },
     "123:1:2": {
@@ -872531,7 +872532,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:46:58.853806+00:00",
+  "updated_at": "2026-11-23T08:47:07.951652+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
