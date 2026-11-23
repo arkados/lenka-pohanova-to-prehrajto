@@ -867118,12 +867118,6 @@
     },
     "611:1:6": {
       "episode_key": "projekt modrá kniha:s1:e6",
-      "claim": {
-        "worker_id": "c90f950d083e43828d7dbd234fd3e4c6-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:49:16.337434+00:00",
-        "lease_expires_at": "2026-11-23T11:49:16.337452+00:00"
-      },
       "source": {
         "source_id": "35085500",
         "source_url": "https://sdilej.cz/35085500/projekt-modra-kniha-s01e06-2019-1080p-cz-mystery.mkv",
@@ -867148,22 +867142,29 @@
         "display_name": "Project Blue Book S01E06 The Green Fireballs 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:49:29.692056+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31273941",
-        "size_bytes": 1110360272
-      },
-      "transfer_receipt": {
-        "target_video_id": "31273941",
-        "size_bytes": 1110360272,
-        "source_bytes_read": 1110360272,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31273941",
         "source_bytes_read": 1110360272,
         "elapsed_seconds": 95.763,
         "finished_at": "2026-11-23T05:51:27.644040+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31273941",
+          "size_bytes": 1110360272,
+          "source_bytes_read": 1110360272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35085500",
+        "source_url": "https://sdilej.cz/35085500/projekt-modra-kniha-s01e06-2019-1080p-cz-mystery.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31273941",
+        "display_name": "Project Blue Book S01E06 The Green Fireballs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:51:36.104633+00:00"
       }
     }
   },
@@ -867172,7 +867173,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:51:27.644063+00:00",
+  "updated_at": "2026-11-23T05:51:36.104651+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
