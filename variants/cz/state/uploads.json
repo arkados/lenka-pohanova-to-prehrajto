@@ -888808,12 +888808,6 @@
     },
     "1951:6:6": {
       "episode_key": "flintstoneovi:s6:e6",
-      "claim": {
-        "worker_id": "45b9a11f96534400adfc5a15dd56ef4e-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:38:17.705996+00:00",
-        "lease_expires_at": "2026-11-23T22:38:17.706009+00:00"
-      },
       "source": {
         "source_id": "35021496",
         "source_url": "https://sdilej.cz/35021496/flintstoneovi-s06e06-samantha-cz-skalican762-ipad.mp4",
@@ -888838,22 +888832,29 @@
         "display_name": "The Flintstones S06E06 Samantha SD CZ Dabing",
         "prepared_at": "2026-11-23T16:38:24.687482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31292796",
-        "size_bytes": 246095137
-      },
-      "transfer_receipt": {
-        "target_video_id": "31292796",
-        "size_bytes": 246095137,
-        "source_bytes_read": 246095137,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31292796",
         "source_bytes_read": 246095137,
         "elapsed_seconds": 28.624,
         "finished_at": "2026-11-23T16:39:31.498514+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31292796",
+          "size_bytes": 246095137,
+          "source_bytes_read": 246095137,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35021496",
+        "source_url": "https://sdilej.cz/35021496/flintstoneovi-s06e06-samantha-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31292796",
+        "display_name": "The Flintstones S06E06 Samantha SD CZ Dabing",
+        "uploaded_at": "2026-11-23T16:39:44.629121+00:00"
       }
     },
     "1951:6:8": {
@@ -888936,7 +888937,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T16:39:37.244377+00:00",
+  "updated_at": "2026-11-23T16:39:44.629139+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
