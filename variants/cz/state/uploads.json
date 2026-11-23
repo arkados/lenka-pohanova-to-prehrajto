@@ -870852,12 +870852,6 @@
     },
     "2316:1:1": {
       "episode_key": "město divů:s1:e1",
-      "claim": {
-        "worker_id": "fbea4bfa94fe429ba08c5ee66bec039b-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:56:33.447481+00:00",
-        "lease_expires_at": "2026-11-23T13:56:33.447495+00:00"
-      },
       "source": {
         "source_id": "26109765",
         "source_url": "https://sdilej.cz/26109765/mesto-divu-s01e01-cz-dabing.mkv",
@@ -870882,22 +870876,29 @@
         "display_name": "Magic City S01E01 The Year of the Fin 720p CZ Dabing",
         "prepared_at": "2026-11-23T07:56:40.093983+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31277775",
-        "size_bytes": 824645589
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277775",
-        "size_bytes": 824645589,
-        "source_bytes_read": 824645589,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277775",
         "source_bytes_read": 824645589,
         "elapsed_seconds": 54.594,
         "finished_at": "2026-11-23T07:58:05.244131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277775",
+          "size_bytes": 824645589,
+          "source_bytes_read": 824645589,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26109765",
+        "source_url": "https://sdilej.cz/26109765/mesto-divu-s01e01-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277775",
+        "display_name": "Magic City S01E01 The Year of the Fin 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:58:22.278308+00:00"
       }
     },
     "2316:1:2": {
@@ -870942,7 +870943,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:58:16.970138+00:00",
+  "updated_at": "2026-11-23T07:58:22.278323+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
