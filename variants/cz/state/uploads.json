@@ -871473,12 +871473,6 @@
     },
     "2316:2:8": {
       "episode_key": "město divů:s2:e8",
-      "claim": {
-        "worker_id": "7d480f0ade0547619d31bcbcb247af4f-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:08:27.428935+00:00",
-        "lease_expires_at": "2026-11-23T14:08:27.428959+00:00"
-      },
       "source": {
         "source_id": "6747058",
         "source_url": "https://sdilej.cz/6747058/mesto-divu-s02e08-magic-city-webrip-czdabing.avi",
@@ -871503,22 +871497,29 @@
         "display_name": "Magic City S02E08 The Sins of the Father SD CZ Dabing",
         "prepared_at": "2026-11-23T08:08:40.104700+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31278126",
-        "size_bytes": 550963794
-      },
-      "transfer_receipt": {
-        "target_video_id": "31278126",
-        "size_bytes": 550963794,
-        "source_bytes_read": 550963794,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31278126",
         "source_bytes_read": 550963794,
         "elapsed_seconds": 49.035,
         "finished_at": "2026-11-23T08:10:01.277575+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31278126",
+          "size_bytes": 550963794,
+          "source_bytes_read": 550963794,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6747058",
+        "source_url": "https://sdilej.cz/6747058/mesto-divu-s02e08-magic-city-webrip-czdabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31278126",
+        "display_name": "Magic City S02E08 The Sins of the Father SD CZ Dabing",
+        "uploaded_at": "2026-11-23T08:10:09.226477+00:00"
       }
     },
     "5751:1:1": {
@@ -871536,7 +871537,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:10:01.277590+00:00",
+  "updated_at": "2026-11-23T08:10:09.226494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
