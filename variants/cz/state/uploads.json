@@ -884608,12 +884608,6 @@
     },
     "1951:2:32": {
       "episode_key": "flintstoneovi:s2:e32",
-      "claim": {
-        "worker_id": "e73ad6aa530649388ab8732f487bc030-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:34:18.194070+00:00",
-        "lease_expires_at": "2026-11-23T20:34:18.194086+00:00"
-      },
       "source": {
         "source_id": "35002810",
         "source_url": "https://sdilej.cz/35002810/flintstoneovi-s02e32-vezmi-me-na-baseball-cz-skalican762-ipad.mp4",
@@ -884638,22 +884632,29 @@
         "display_name": "The Flintstones S02E32 Take Me Out to the Ball Game SD CZ Dabing",
         "prepared_at": "2026-11-23T14:34:36.552432+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289049",
-        "size_bytes": 252648116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289049",
-        "size_bytes": 252648116,
-        "source_bytes_read": 252648116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289049",
         "source_bytes_read": 252648116,
         "elapsed_seconds": 16.65,
         "finished_at": "2026-11-23T14:35:38.157709+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289049",
+          "size_bytes": 252648116,
+          "source_bytes_read": 252648116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35002810",
+        "source_url": "https://sdilej.cz/35002810/flintstoneovi-s02e32-vezmi-me-na-baseball-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289049",
+        "display_name": "The Flintstones S02E32 Take Me Out to the Ball Game SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:35:55.779139+00:00"
       }
     },
     "1951:3:1": {
@@ -884695,7 +884696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:35:49.756511+00:00",
+  "updated_at": "2026-11-23T14:35:55.779161+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
