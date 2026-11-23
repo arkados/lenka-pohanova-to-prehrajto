@@ -857351,12 +857351,6 @@
     },
     "636:2:1": {
       "episode_key": "smrt v bílém plášti:s2:e1",
-      "claim": {
-        "worker_id": "5139baee3b4a4fa79f549fe9060bb88f-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:31:41.684132+00:00",
-        "lease_expires_at": "2026-11-23T06:31:41.684143+00:00"
-      },
       "source": {
         "source_id": "33016209",
         "source_url": "https://sdilej.cz/33016209/smrt-v-bilem-plasti-s02e01-1080p-cz-jako-kouzlo.mkv",
@@ -857380,7 +857374,17 @@
         },
         "display_name": "Dr. Death S02E01 Like Magic 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:31:47.826828+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33016209:https://sdilej.cz/33016209/smrt-v-bilem-plasti-s02e01-1080p-cz-jako-kouzlo.mkv",
+        "at": "2026-11-23T00:32:06.257163+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T00:32:06.257205+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -857388,7 +857392,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:31:47.826845+00:00",
+  "updated_at": "2026-11-23T00:32:06.257213+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -858127,6 +858131,10 @@
         {
           "identity": "636:1:4",
           "at": "2026-11-23T00:29:10.256470+00:00"
+        },
+        {
+          "identity": "636:2:1",
+          "at": "2026-11-23T00:32:06.257163+00:00"
         }
       ]
     }
