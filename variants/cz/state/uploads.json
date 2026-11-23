@@ -872186,12 +872186,6 @@
     },
     "1236:1:9": {
       "episode_key": "haló, tady indie:s1:e9",
-      "claim": {
-        "worker_id": "62b3ede2fa5d47ea8701a89fc4089a7b-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T08:42:13.917921+00:00",
-        "lease_expires_at": "2026-11-23T14:42:13.917930+00:00"
-      },
       "source": {
         "source_id": "33153796",
         "source_url": "https://sdilej.cz/33153796/halo-tady-indie-s01e09-22-2010-cz-dab-docasne-monsanity.mkv",
@@ -872216,22 +872210,29 @@
         "display_name": "Outsourced S01E09 Temporary Monsanity SD CZ Dabing",
         "prepared_at": "2026-11-23T08:42:31.198979+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31279090",
-        "size_bytes": 241799679
-      },
-      "transfer_receipt": {
-        "target_video_id": "31279090",
-        "size_bytes": 241799679,
-        "source_bytes_read": 241799679,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31279090",
         "source_bytes_read": 241799679,
         "elapsed_seconds": 116.805,
         "finished_at": "2026-11-23T08:45:02.403528+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31279090",
+          "size_bytes": 241799679,
+          "source_bytes_read": 241799679,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33153796",
+        "source_url": "https://sdilej.cz/33153796/halo-tady-indie-s01e09-22-2010-cz-dab-docasne-monsanity.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31279090",
+        "display_name": "Outsourced S01E09 Temporary Monsanity SD CZ Dabing",
+        "uploaded_at": "2026-11-23T08:45:16.155658+00:00"
       }
     },
     "1236:1:14": {
@@ -872379,7 +872380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T08:45:08.591218+00:00",
+  "updated_at": "2026-11-23T08:45:16.155675+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
