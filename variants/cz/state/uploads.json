@@ -860958,12 +860958,6 @@
     },
     "1980:3:19": {
       "episode_key": "fotbalový talent:s3:e19",
-      "claim": {
-        "worker_id": "4a878d2c0df447c09bff277d893e917d-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:42:42.649629+00:00",
-        "lease_expires_at": "2026-11-23T08:42:42.649639+00:00"
-      },
       "source": {
         "source_id": "34269135",
         "source_url": "https://sdilej.cz/34269135/fotbalovy-talent-s03e19-19-2021-cz-dab-720p-prezit-casy.mkv",
@@ -860989,22 +860983,29 @@
         "display_name": "All American S03E19 Surviving the Times 720p CZ Dabing",
         "prepared_at": "2026-11-23T02:42:54.305150+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269635",
-        "size_bytes": 1069795281
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269635",
-        "size_bytes": 1069795281,
-        "source_bytes_read": 1069795281,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269635",
         "source_bytes_read": 1069795281,
         "elapsed_seconds": 132.385,
         "finished_at": "2026-11-23T02:45:30.356750+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269635",
+          "size_bytes": 1069795281,
+          "source_bytes_read": 1069795281,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34269135",
+        "source_url": "https://sdilej.cz/34269135/fotbalovy-talent-s03e19-19-2021-cz-dab-720p-prezit-casy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269635",
+        "display_name": "All American S03E19 Surviving the Times 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:45:44.731726+00:00"
       }
     },
     "1980:4:1": {
@@ -861050,7 +861051,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:45:30.356771+00:00",
+  "updated_at": "2026-11-23T02:45:44.731743+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
