@@ -860614,12 +860614,6 @@
     },
     "1980:2:16": {
       "episode_key": "fotbalový talent:s2:e16",
-      "claim": {
-        "worker_id": "15ea64d914d74962b2e5052f2b26ac3a-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:31:33.533920+00:00",
-        "lease_expires_at": "2026-11-23T08:31:33.533931+00:00"
-      },
       "source": {
         "source_id": "34268331",
         "source_url": "https://sdilej.cz/34268331/fotbalovy-talent-s02e16-16-2019-cz-dab-720p-rozhodnuti.mkv",
@@ -860645,22 +860639,29 @@
         "display_name": "All American S02E16 Decisions 720p CZ Dabing",
         "prepared_at": "2026-11-23T02:31:51.295404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269341",
-        "size_bytes": 977260904
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269341",
-        "size_bytes": 977260904,
-        "source_bytes_read": 977260904,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269341",
         "source_bytes_read": 977260904,
         "elapsed_seconds": 152.469,
         "finished_at": "2026-11-23T02:34:59.144031+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269341",
+          "size_bytes": 977260904,
+          "source_bytes_read": 977260904,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34268331",
+        "source_url": "https://sdilej.cz/34268331/fotbalovy-talent-s02e16-16-2019-cz-dab-720p-rozhodnuti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269341",
+        "display_name": "All American S02E16 Decisions 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:35:07.874174+00:00"
       }
     },
     "1980:3:4": {
@@ -860757,7 +860758,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:34:59.144051+00:00",
+  "updated_at": "2026-11-23T02:35:07.874192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
