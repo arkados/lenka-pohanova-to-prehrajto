@@ -886036,12 +886036,6 @@
     },
     "1951:4:1": {
       "episode_key": "flintstoneovi:s4:e1",
-      "claim": {
-        "worker_id": "0c645d6532e44391a733f4746704f556-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:07:47.123440+00:00",
-        "lease_expires_at": "2026-11-23T21:07:47.123459+00:00"
-      },
       "source": {
         "source_id": "35010622",
         "source_url": "https://sdilej.cz/35010622/flintstoneovi-s04e01-ann-margrock-uvadi-cz-skalican762-ipad.mp4",
@@ -886066,22 +886060,29 @@
         "display_name": "The Flintstones S04E01 Ann-Margrock Presents SD CZ Dabing",
         "prepared_at": "2026-11-23T15:07:53.447077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290186",
-        "size_bytes": 247114016
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290186",
-        "size_bytes": 247114016,
-        "source_bytes_read": 247114016,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290186",
         "source_bytes_read": 247114016,
         "elapsed_seconds": 13.905,
         "finished_at": "2026-11-23T15:08:57.007075+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290186",
+          "size_bytes": 247114016,
+          "source_bytes_read": 247114016,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010622",
+        "source_url": "https://sdilej.cz/35010622/flintstoneovi-s04e01-ann-margrock-uvadi-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290186",
+        "display_name": "The Flintstones S04E01 Ann-Margrock Presents SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:09:21.804775+00:00"
       }
     },
     "1951:4:2": {
@@ -886127,7 +886128,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:09:15.298195+00:00",
+  "updated_at": "2026-11-23T15:09:21.804789+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
