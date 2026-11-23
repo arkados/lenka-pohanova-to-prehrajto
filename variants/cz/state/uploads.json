@@ -865850,28 +865850,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "07a13969c2b547569d14f2c5079a0361-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:22:38.168320+00:00",
-        "lease_expires_at": "2026-11-23T13:22:38.168329+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276803",
-        "size_bytes": 816755242
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276803",
-        "size_bytes": 816755242,
-        "source_bytes_read": 816755242,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276803",
         "source_bytes_read": 816755242,
         "elapsed_seconds": 71.578,
         "finished_at": "2026-11-23T07:24:29.303037+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276803",
+          "size_bytes": 816755242,
+          "source_bytes_read": 816755242,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33415343",
+        "source_url": "https://sdilej.cz/33415343/bridgerton-s04e01-cz-dabing-2026-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276803",
+        "display_name": "Bridgerton S04E01 The Waltz 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:24:49.378963+00:00"
       }
     },
     "719:1:1": {
@@ -869930,7 +869931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:24:43.918362+00:00",
+  "updated_at": "2026-11-23T07:24:49.378979+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
