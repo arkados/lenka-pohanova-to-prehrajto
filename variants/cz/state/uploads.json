@@ -858208,12 +858208,6 @@
     },
     "3192:1:4": {
       "episode_key": "zvláštní jednotka:s1:e4",
-      "claim": {
-        "worker_id": "2d01aa06fddc4c34951589d799eebd41-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:56:00.298515+00:00",
-        "lease_expires_at": "2026-11-23T06:56:00.298529+00:00"
-      },
       "source": {
         "source_id": "18504355",
         "source_url": "https://sdilej.cz/18504355/braquo-zvlastni-jednotka-s01e04-cz-dabing.avi",
@@ -858238,22 +858232,29 @@
         "display_name": "Braquo S01E04 L'autre rive SD CZ Dabing",
         "prepared_at": "2026-11-23T00:56:07.334662+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267037",
-        "size_bytes": 465136414
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267037",
-        "size_bytes": 465136414,
-        "source_bytes_read": 465136414,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267037",
         "source_bytes_read": 465136414,
         "elapsed_seconds": 27.103,
         "finished_at": "2026-11-23T00:57:26.785027+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267037",
+          "size_bytes": 465136414,
+          "source_bytes_read": 465136414,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18504355",
+        "source_url": "https://sdilej.cz/18504355/braquo-zvlastni-jednotka-s01e04-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267037",
+        "display_name": "Braquo S01E04 L'autre rive SD CZ Dabing",
+        "uploaded_at": "2026-11-23T00:57:43.515277+00:00"
       }
     },
     "3192:1:5": {
@@ -858332,7 +858333,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:57:37.573031+00:00",
+  "updated_at": "2026-11-23T00:57:43.515297+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
