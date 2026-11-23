@@ -884149,12 +884149,6 @@
     },
     "1951:2:23": {
       "episode_key": "flintstoneovi:s2:e23",
-      "claim": {
-        "worker_id": "d3514cdf2c0e48cdabaabdba6471b7d7-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:22:26.867179+00:00",
-        "lease_expires_at": "2026-11-23T20:22:26.867195+00:00"
-      },
       "source": {
         "source_id": "35002120",
         "source_url": "https://sdilej.cz/35002120/flintstoneovi-s02e23-stastna-hospodynka-tvrip-cz-skalican762-ipad.mp4",
@@ -884179,22 +884173,29 @@
         "display_name": "The Flintstones S02E23 The Happy Household SD CZ Dabing",
         "prepared_at": "2026-11-23T14:22:45.076471+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288647",
-        "size_bytes": 256095622
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288647",
-        "size_bytes": 256095622,
-        "source_bytes_read": 256095622,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288647",
         "source_bytes_read": 256095622,
         "elapsed_seconds": 13.629,
         "finished_at": "2026-11-23T14:23:38.403244+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288647",
+          "size_bytes": 256095622,
+          "source_bytes_read": 256095622,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35002120",
+        "source_url": "https://sdilej.cz/35002120/flintstoneovi-s02e23-stastna-hospodynka-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288647",
+        "display_name": "The Flintstones S02E23 The Happy Household SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:23:55.734282+00:00"
       }
     },
     "1951:2:24": {
@@ -884289,7 +884290,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:23:49.976294+00:00",
+  "updated_at": "2026-11-23T14:23:55.734299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
