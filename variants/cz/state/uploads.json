@@ -885577,12 +885577,6 @@
     },
     "1951:3:20": {
       "episode_key": "flintstoneovi:s3:e20",
-      "claim": {
-        "worker_id": "79c24847d9b34e7cb11455ae3f2e996d-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:58:43.014681+00:00",
-        "lease_expires_at": "2026-11-23T20:58:43.014702+00:00"
-      },
       "source": {
         "source_id": "35003781",
         "source_url": "https://sdilej.cz/35003781/flintstoneovi-s03e20-navsteva-tchyne-cz-skalican762-ipad.mp4",
@@ -885607,22 +885601,29 @@
         "display_name": "The Flintstones S03E20 Mother-In-Law's Visit SD CZ Dabing",
         "prepared_at": "2026-11-23T14:58:56.501051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289915",
-        "size_bytes": 251372426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289915",
-        "size_bytes": 251372426,
-        "source_bytes_read": 251372426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289915",
         "source_bytes_read": 251372426,
         "elapsed_seconds": 67.649,
         "finished_at": "2026-11-23T15:00:40.811605+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289915",
+          "size_bytes": 251372426,
+          "source_bytes_read": 251372426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003781",
+        "source_url": "https://sdilej.cz/35003781/flintstoneovi-s03e20-navsteva-tchyne-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289915",
+        "display_name": "The Flintstones S03E20 Mother-In-Law's Visit SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:00:55.140573+00:00"
       }
     },
     "1951:3:21": {
@@ -885733,7 +885734,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:00:48.540022+00:00",
+  "updated_at": "2026-11-23T15:00:55.140590+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
