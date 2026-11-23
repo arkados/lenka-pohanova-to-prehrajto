@@ -886852,12 +886852,6 @@
     },
     "1951:4:17": {
       "episode_key": "flintstoneovi:s4:e17",
-      "claim": {
-        "worker_id": "7fc03acd66314aafad3f89a8a402611e-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:21:50.160851+00:00",
-        "lease_expires_at": "2026-11-23T21:21:50.160869+00:00"
-      },
       "source": {
         "source_id": "35011328",
         "source_url": "https://sdilej.cz/35011328/flintstoneovi-s04e17-fred-el-terrifico-cz-skalican762-ipad.mp4",
@@ -886882,22 +886876,29 @@
         "display_name": "The Flintstones S04E17 Fred el Terrifico SD CZ Dabing",
         "prepared_at": "2026-11-23T15:22:08.770723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290500",
-        "size_bytes": 248689380
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290500",
-        "size_bytes": 248689380,
-        "source_bytes_read": 248689380,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290500",
         "source_bytes_read": 248689380,
         "elapsed_seconds": 25.382,
         "finished_at": "2026-11-23T15:23:04.194897+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290500",
+          "size_bytes": 248689380,
+          "source_bytes_read": 248689380,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35011328",
+        "source_url": "https://sdilej.cz/35011328/flintstoneovi-s04e17-fred-el-terrifico-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290500",
+        "display_name": "The Flintstones S04E17 Fred el Terrifico SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:23:21.569793+00:00"
       }
     },
     "1951:4:18": {
@@ -886992,7 +886993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:23:16.091596+00:00",
+  "updated_at": "2026-11-23T15:23:21.569811+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
