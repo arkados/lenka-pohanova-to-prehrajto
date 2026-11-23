@@ -878635,12 +878635,6 @@
     },
     "1826:2:12": {
       "episode_key": "a-team:s2:e12",
-      "claim": {
-        "worker_id": "5bccf9a185c1439386a8936dfe7e983c-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:38:16.574510+00:00",
-        "lease_expires_at": "2026-11-23T17:38:16.574526+00:00"
-      },
       "source": {
         "source_id": "33106211",
         "source_url": "https://sdilej.cz/33106211/a-team-s02e12-23-1983-cz-dab-1080p-the-white-ballot.mkv",
@@ -878665,22 +878659,29 @@
         "display_name": "The A-Team S02E12 The Maltese Cow 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:38:23.859221+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283683",
-        "size_bytes": 1491869410
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283683",
-        "size_bytes": 1491869410,
-        "source_bytes_read": 1491869410,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283683",
         "source_bytes_read": 1491869410,
         "elapsed_seconds": 126.271,
         "finished_at": "2026-11-23T11:40:56.257746+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283683",
+          "size_bytes": 1491869410,
+          "source_bytes_read": 1491869410,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33106211",
+        "source_url": "https://sdilej.cz/33106211/a-team-s02e12-23-1983-cz-dab-1080p-the-white-ballot.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283683",
+        "display_name": "The A-Team S02E12 The Maltese Cow 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:41:11.499711+00:00"
       }
     }
   },
@@ -878689,7 +878690,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:41:02.721520+00:00",
+  "updated_at": "2026-11-23T11:41:11.499734+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
