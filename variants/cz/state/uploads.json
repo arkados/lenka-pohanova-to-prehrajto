@@ -867819,12 +867819,6 @@
     },
     "611:2:6": {
       "episode_key": "projekt modrá kniha:s2:e6",
-      "claim": {
-        "worker_id": "ef06536d8a9b4383bc90ab6f6167baf0-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T06:08:02.302933+00:00",
-        "lease_expires_at": "2026-11-23T12:08:02.302948+00:00"
-      },
       "source": {
         "source_id": "13410996",
         "source_url": "https://sdilej.cz/13410996/projekt-modra-kniha-2020-s02e06-1080p-cz-dab.mkv",
@@ -867849,22 +867843,29 @@
         "display_name": "Project Blue Book S02E06 Close Encounters 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:08:15.131176+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31274659",
-        "size_bytes": 582258662
-      },
-      "transfer_receipt": {
-        "target_video_id": "31274659",
-        "size_bytes": 582258662,
-        "source_bytes_read": 582258662,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31274659",
         "source_bytes_read": 582258662,
         "elapsed_seconds": 41.312,
         "finished_at": "2026-11-23T06:09:27.485178+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31274659",
+          "size_bytes": 582258662,
+          "source_bytes_read": 582258662,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13410996",
+        "source_url": "https://sdilej.cz/13410996/projekt-modra-kniha-2020-s02e06-1080p-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31274659",
+        "display_name": "Project Blue Book S02E06 Close Encounters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T06:09:48.160814+00:00"
       }
     }
   },
@@ -867873,7 +867874,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T06:09:42.482778+00:00",
+  "updated_at": "2026-11-23T06:09:48.160831+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
