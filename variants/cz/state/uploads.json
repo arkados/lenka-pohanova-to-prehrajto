@@ -873643,28 +873643,29 @@
           "at": "2026-11-23T09:24:18.634386+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8372432bbe2942df8466b872f3f15e13-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:24:24.117838+00:00",
-        "lease_expires_at": "2026-11-23T15:24:24.117853+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31280417",
-        "size_bytes": 217488734
-      },
-      "transfer_receipt": {
-        "target_video_id": "31280417",
-        "size_bytes": 217488734,
-        "source_bytes_read": 217488734,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31280417",
         "source_bytes_read": 217488734,
         "elapsed_seconds": 17.359,
         "finished_at": "2026-11-23T09:25:45.372537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31280417",
+          "size_bytes": 217488734,
+          "source_bytes_read": 217488734,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660504",
+        "source_url": "https://sdilej.cz/30660504/castle-rock-s02e06-cestovat.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31280417",
+        "display_name": "Castle Rock S02E06 The Mother 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:25:58.998099+00:00"
       }
     },
     "123:2:7": {
@@ -873865,7 +873866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:25:51.121544+00:00",
+  "updated_at": "2026-11-23T09:25:58.998115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
