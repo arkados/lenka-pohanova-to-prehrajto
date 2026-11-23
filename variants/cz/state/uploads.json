@@ -868049,12 +868049,6 @@
     },
     "1438:1:1": {
       "episode_key": "světlo a stíny:s1:e1",
-      "claim": {
-        "worker_id": "913c3e45ebbc495686269a3aab0da240-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T06:21:04.663769+00:00",
-        "lease_expires_at": "2026-11-23T12:21:04.663781+00:00"
-      },
       "source": {
         "source_id": "34899732",
         "source_url": "https://sdilej.cz/34899732/svetlo-a-stiny-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -868079,22 +868073,29 @@
         "display_name": "Shadow and Bone S01E01 A Searing Burst of Light 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:21:16.519547+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31274973",
-        "size_bytes": 456548064
-      },
-      "transfer_receipt": {
-        "target_video_id": "31274973",
-        "size_bytes": 456548064,
-        "source_bytes_read": 456548064,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31274973",
         "source_bytes_read": 456548064,
         "elapsed_seconds": 30.221,
         "finished_at": "2026-11-23T06:22:15.423988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31274973",
+          "size_bytes": 456548064,
+          "source_bytes_read": 456548064,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34899732",
+        "source_url": "https://sdilej.cz/34899732/svetlo-a-stiny-s01e01-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31274973",
+        "display_name": "Shadow and Bone S01E01 A Searing Burst of Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T06:22:27.480693+00:00"
       }
     },
     "1438:1:2": {
@@ -868173,7 +868174,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T06:22:21.854350+00:00",
+  "updated_at": "2026-11-23T06:22:27.480708+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
