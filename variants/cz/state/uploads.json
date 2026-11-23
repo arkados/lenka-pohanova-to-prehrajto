@@ -856569,12 +856569,6 @@
     },
     "3644:1:5": {
       "episode_key": "strašidelný hotel:s1:e5",
-      "claim": {
-        "worker_id": "a99ca185091043778c0e862da7c33e86-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:02:05.395967+00:00",
-        "lease_expires_at": "2026-11-23T06:02:05.395978+00:00"
-      },
       "source": {
         "source_id": "31868075",
         "source_url": "https://sdilej.cz/31868075/strasidelny-hotel-s01e05-cz-dab-2025-1080p-by-pefto.mkv",
@@ -856599,22 +856593,29 @@
         "display_name": "Haunted Hotel S01E05 Rollyfluffs 1080p CZ Dabing",
         "prepared_at": "2026-11-23T00:02:14.204995+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31265372",
-        "size_bytes": 338336045
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265372",
-        "size_bytes": 338336045,
-        "source_bytes_read": 338336045,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265372",
         "source_bytes_read": 338336045,
         "elapsed_seconds": 23.261,
         "finished_at": "2026-11-23T00:03:27.316298+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265372",
+          "size_bytes": 338336045,
+          "source_bytes_read": 338336045,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31868075",
+        "source_url": "https://sdilej.cz/31868075/strasidelny-hotel-s01e05-cz-dab-2025-1080p-by-pefto.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265372",
+        "display_name": "Haunted Hotel S01E05 Rollyfluffs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:03:41.867019+00:00"
       }
     },
     "636:1:1": {
@@ -856665,7 +856666,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:03:33.668748+00:00",
+  "updated_at": "2026-11-23T00:03:41.867037+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
