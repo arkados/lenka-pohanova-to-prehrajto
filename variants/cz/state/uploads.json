@@ -878023,12 +878023,6 @@
     },
     "1826:1:11": {
       "episode_key": "a-team:s1:e11",
-      "claim": {
-        "worker_id": "9cbf3ee996414ac5b743145312d8f50f-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:14:05.301729+00:00",
-        "lease_expires_at": "2026-11-23T17:14:05.301748+00:00"
-      },
       "source": {
         "source_id": "33106116",
         "source_url": "https://sdilej.cz/33106116/a-team-s01e11-13-1983-cz-dab-1080p-dokud-nas-smrt-nerozdeli.mkv",
@@ -878053,22 +878047,29 @@
         "display_name": "The A-Team S01E11 Till Death Do Us Part 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:14:31.494617+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31283223",
-        "size_bytes": 1545029594
-      },
-      "transfer_receipt": {
-        "target_video_id": "31283223",
-        "size_bytes": 1545029594,
-        "source_bytes_read": 1545029594,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31283223",
         "source_bytes_read": 1545029594,
         "elapsed_seconds": 198.207,
         "finished_at": "2026-11-23T11:18:28.462488+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31283223",
+          "size_bytes": 1545029594,
+          "source_bytes_read": 1545029594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33106116",
+        "source_url": "https://sdilej.cz/33106116/a-team-s01e11-13-1983-cz-dab-1080p-dokud-nas-smrt-nerozdeli.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31283223",
+        "display_name": "The A-Team S01E11 Till Death Do Us Part 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:18:36.962878+00:00"
       }
     },
     "1826:1:10": {
@@ -878165,7 +878166,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:18:28.462508+00:00",
+  "updated_at": "2026-11-23T11:18:36.962895+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
