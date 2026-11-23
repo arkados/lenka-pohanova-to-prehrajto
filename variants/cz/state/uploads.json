@@ -864517,12 +864517,6 @@
     },
     "587:2:1": {
       "episode_key": "bridgertonovi:s2:e1",
-      "claim": {
-        "worker_id": "76bcd76bdff44a4280e761fd8d45029f-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:26:19.878033+00:00",
-        "lease_expires_at": "2026-11-23T10:26:19.878048+00:00"
-      },
       "source": {
         "source_id": "29116027",
         "source_url": "https://sdilej.cz/29116027/bridgerton-s02e01-1080p-cz-dabing.mkv",
@@ -864547,22 +864541,29 @@
         "display_name": "Bridgerton S02E01 Capital R Rake 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:26:42.577256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272223",
-        "size_bytes": 1401633213
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272223",
-        "size_bytes": 1401633213,
-        "source_bytes_read": 1401633213,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272223",
         "source_bytes_read": 1401633213,
         "elapsed_seconds": 155.223,
         "finished_at": "2026-11-23T04:29:52.294233+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272223",
+          "size_bytes": 1401633213,
+          "source_bytes_read": 1401633213,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29116027",
+        "source_url": "https://sdilej.cz/29116027/bridgerton-s02e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272223",
+        "display_name": "Bridgerton S02E01 Capital R Rake 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:30:04.504694+00:00"
       }
     },
     "587:2:2": {
@@ -864622,7 +864623,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:29:58.954956+00:00",
+  "updated_at": "2026-11-23T04:30:04.504752+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
