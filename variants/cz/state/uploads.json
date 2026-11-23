@@ -873361,12 +873361,6 @@
     },
     "3539:1:4": {
       "episode_key": "láska a smrt:s1:e4",
-      "claim": {
-        "worker_id": "8936ce73e4dc433b8f7e9313dc438796-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:07:21.500362+00:00",
-        "lease_expires_at": "2026-11-23T15:07:21.500371+00:00"
-      },
       "source": {
         "source_id": "27765815",
         "source_url": "https://sdilej.cz/27765815/laska-a-smrt-love-death-s01e04-nekonej-zlo.mkv",
@@ -873391,22 +873385,29 @@
         "display_name": "Love & Death S01E04 Do No Evil 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:07:41.932012+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31279836",
-        "size_bytes": 1056207918
-      },
-      "transfer_receipt": {
-        "target_video_id": "31279836",
-        "size_bytes": 1056207918,
-        "source_bytes_read": 1056207918,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31279836",
         "source_bytes_read": 1056207918,
         "elapsed_seconds": 77.624,
         "finished_at": "2026-11-23T09:09:39.134534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31279836",
+          "size_bytes": 1056207918,
+          "source_bytes_read": 1056207918,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27765815",
+        "source_url": "https://sdilej.cz/27765815/laska-a-smrt-love-death-s01e04-nekonej-zlo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31279836",
+        "display_name": "Love & Death S01E04 Do No Evil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:09:55.784516+00:00"
       }
     }
   },
@@ -873415,7 +873416,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:09:50.159685+00:00",
+  "updated_at": "2026-11-23T09:09:55.784531+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
