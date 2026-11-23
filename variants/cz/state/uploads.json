@@ -863268,12 +863268,6 @@
     },
     "1095:2:3": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e3",
-      "claim": {
-        "worker_id": "2b9930ef291349d1a02e871b9490c650-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:52:56.971099+00:00",
-        "lease_expires_at": "2026-11-23T09:52:56.971115+00:00"
-      },
       "source": {
         "source_id": "25141664",
         "source_url": "https://sdilej.cz/25141664/agenti-s.h.i.e.l.d-s02e03-cz.mkv",
@@ -863298,22 +863292,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E03 Making Friends and Influencing People SD CZ Dabing",
         "prepared_at": "2026-11-23T03:53:25.623985+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31271212",
-        "size_bytes": 217922785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31271212",
-        "size_bytes": 217922785,
-        "source_bytes_read": 217922785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31271212",
         "source_bytes_read": 217922785,
         "elapsed_seconds": 11.979,
         "finished_at": "2026-11-23T03:54:04.585503+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31271212",
+          "size_bytes": 217922785,
+          "source_bytes_read": 217922785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25141664",
+        "source_url": "https://sdilej.cz/25141664/agenti-s.h.i.e.l.d-s02e03-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31271212",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E03 Making Friends and Influencing People SD CZ Dabing",
+        "uploaded_at": "2026-11-23T03:54:14.007079+00:00"
       }
     }
   },
@@ -863322,7 +863323,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:54:04.585523+00:00",
+  "updated_at": "2026-11-23T03:54:14.007097+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
