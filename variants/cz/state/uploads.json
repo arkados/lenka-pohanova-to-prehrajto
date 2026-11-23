@@ -863245,12 +863245,6 @@
     },
     "1095:2:2": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e2",
-      "claim": {
-        "worker_id": "6003fcf0730244688eb335dae8d5e0d0-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:52:51.967797+00:00",
-        "lease_expires_at": "2026-11-23T09:52:51.967813+00:00"
-      },
       "source": {
         "source_id": "32952145",
         "source_url": "https://sdilej.cz/32952145/agenti-s-h-i-e-l-d-s02e02-1080p-cz.mkv",
@@ -863275,22 +863269,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E02 Heavy Is the Head 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:53:08.373784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31271208",
-        "size_bytes": 713688474
-      },
-      "transfer_receipt": {
-        "target_video_id": "31271208",
-        "size_bytes": 713688474,
-        "source_bytes_read": 713688474,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31271208",
         "source_bytes_read": 713688474,
         "elapsed_seconds": 69.382,
         "finished_at": "2026-11-23T03:54:53.973062+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31271208",
+          "size_bytes": 713688474,
+          "source_bytes_read": 713688474,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32952145",
+        "source_url": "https://sdilej.cz/32952145/agenti-s-h-i-e-l-d-s02e02-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31271208",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E02 Heavy Is the Head 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T03:55:09.064271+00:00"
       }
     },
     "1095:2:3": {
@@ -863387,7 +863388,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:55:01.523992+00:00",
+  "updated_at": "2026-11-23T03:55:09.064290+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
