@@ -889675,12 +889675,6 @@
     },
     "1777:1:1": {
       "episode_key": "stanice 11:s1:e1",
-      "claim": {
-        "worker_id": "a57201ee0902463a9a75b0de249fce59-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:53:50.515984+00:00",
-        "lease_expires_at": "2026-11-23T22:53:50.515996+00:00"
-      },
       "source": {
         "source_id": "29376868",
         "source_url": "https://sdilej.cz/29376868/stanice-11-station-eleven-s01e01-2160p-dd-5.1-atmos-hdr-cz-dabing.mkv",
@@ -889705,22 +889699,29 @@
         "display_name": "Station Eleven S01E01 Wheel of Fire 4K CZ Dabing",
         "prepared_at": "2026-11-23T16:54:05.974001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31293322",
-        "size_bytes": 7538315894
-      },
-      "transfer_receipt": {
-        "target_video_id": "31293322",
-        "size_bytes": 7538315894,
-        "source_bytes_read": 7538315894,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31293322",
         "source_bytes_read": 7538315894,
         "elapsed_seconds": 1091.116,
         "finished_at": "2026-11-23T17:12:54.541999+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31293322",
+          "size_bytes": 7538315894,
+          "source_bytes_read": 7538315894,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29376868",
+        "source_url": "https://sdilej.cz/29376868/stanice-11-station-eleven-s01e01-2160p-dd-5.1-atmos-hdr-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31293322",
+        "display_name": "Station Eleven S01E01 Wheel of Fire 4K CZ Dabing",
+        "uploaded_at": "2026-11-23T17:13:04.527347+00:00"
       }
     },
     "1777:1:2": {
@@ -889831,7 +889832,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T17:12:54.542019+00:00",
+  "updated_at": "2026-11-23T17:13:04.527365+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
