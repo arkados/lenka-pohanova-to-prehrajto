@@ -887692,16 +887692,6 @@
         "display_name": "The Flintstones S05E08 Dr. Sinister SD CZ Dabing",
         "prepared_at": "2026-11-23T15:42:34.365170+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290975",
-        "size_bytes": 248187179
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290975",
-        "size_bytes": 248187179,
-        "source_bytes_read": 248187179,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290975",
         "source_bytes_read": 248187179,
@@ -887715,11 +887705,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "c75ccbaf5eaa4ec180c974b6e698659e-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T16:09:11.686073+00:00",
-        "lease_expires_at": "2026-11-23T22:09:11.686085+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290975",
+          "size_bytes": 248187179,
+          "source_bytes_read": 248187179,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35015632",
+        "source_url": "https://sdilej.cz/35015632/flintstoneovi-s05e08-doktor-sinister-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290975",
+        "display_name": "The Flintstones S05E08 Dr. Sinister SD CZ Dabing",
+        "uploaded_at": "2026-11-23T16:09:30.044288+00:00"
       }
     },
     "1951:5:9": {
@@ -887787,7 +887788,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T16:09:23.528322+00:00",
+  "updated_at": "2026-11-23T16:09:30.044305+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
