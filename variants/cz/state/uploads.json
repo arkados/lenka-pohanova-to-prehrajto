@@ -886138,12 +886138,6 @@
     },
     "1951:4:3": {
       "episode_key": "flintstoneovi:s4:e3",
-      "claim": {
-        "worker_id": "df4a28442da441da8e261f772eecdacf-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:09:37.487776+00:00",
-        "lease_expires_at": "2026-11-23T21:09:37.487795+00:00"
-      },
       "source": {
         "source_id": "35010703",
         "source_url": "https://sdilej.cz/35010703/flintstoneovi-s04e03-maly-bum-bum-cz-skalican762-ipad.mp4",
@@ -886168,22 +886162,29 @@
         "display_name": "The Flintstones S04E03 Little Bamm-Bamm SD CZ Dabing",
         "prepared_at": "2026-11-23T15:09:56.912892+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290231",
-        "size_bytes": 247109092
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290231",
-        "size_bytes": 247109092,
-        "source_bytes_read": 247109092,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290231",
         "source_bytes_read": 247109092,
         "elapsed_seconds": 12.639,
         "finished_at": "2026-11-23T15:10:43.769895+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290231",
+          "size_bytes": 247109092,
+          "source_bytes_read": 247109092,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010703",
+        "source_url": "https://sdilej.cz/35010703/flintstoneovi-s04e03-maly-bum-bum-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290231",
+        "display_name": "The Flintstones S04E03 Little Bamm-Bamm SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:10:55.555568+00:00"
       }
     },
     "1951:4:4": {
@@ -886234,7 +886235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:10:49.783660+00:00",
+  "updated_at": "2026-11-23T15:10:55.555590+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
