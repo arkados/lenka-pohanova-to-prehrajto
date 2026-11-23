@@ -879961,12 +879961,6 @@
     },
     "1826:3:24": {
       "episode_key": "a-team:s3:e24",
-      "claim": {
-        "worker_id": "43e62dcd871c451999f56301e0e56599-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:38:39.606353+00:00",
-        "lease_expires_at": "2026-11-23T18:38:39.606368+00:00"
-      },
       "source": {
         "source_id": "29662347",
         "source_url": "https://sdilej.cz/29662347/the-a-team-s03e24-1080p-cz-dabing.mkv",
@@ -879991,22 +879985,29 @@
         "display_name": "The A-Team S03E24 Incident at Crystal Lake 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:38:46.569180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31285933",
-        "size_bytes": 1488485896
-      },
-      "transfer_receipt": {
-        "target_video_id": "31285933",
-        "size_bytes": 1488485896,
-        "source_bytes_read": 1488485896,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31285933",
         "source_bytes_read": 1488485896,
         "elapsed_seconds": 160.651,
         "finished_at": "2026-11-23T12:42:03.410114+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31285933",
+          "size_bytes": 1488485896,
+          "source_bytes_read": 1488485896,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29662347",
+        "source_url": "https://sdilej.cz/29662347/the-a-team-s03e24-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31285933",
+        "display_name": "The A-Team S03E24 Incident at Crystal Lake 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:42:12.339152+00:00"
       }
     },
     "1826:4:5": {
@@ -880052,7 +880053,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:42:03.410133+00:00",
+  "updated_at": "2026-11-23T12:42:12.339168+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
