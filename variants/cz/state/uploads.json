@@ -882103,12 +882103,6 @@
     },
     "1951:1:10": {
       "episode_key": "flintstoneovi:s1:e10",
-      "claim": {
-        "worker_id": "fe74433078104a83a661eac82e21bbff-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:41:59.605717+00:00",
-        "lease_expires_at": "2026-11-23T19:41:59.605729+00:00"
-      },
       "source": {
         "source_id": "34985781",
         "source_url": "https://sdilej.cz/34985781/flintstoneovi-s01e10-hollyrocku-uz-jdu-ipad.mp4",
@@ -882133,22 +882127,29 @@
         "display_name": "The Flintstones S01E10 Hollyrock, Here I Come SD CZ Dabing",
         "prepared_at": "2026-11-23T13:42:23.288207+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287547",
-        "size_bytes": 233190577
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287547",
-        "size_bytes": 233190577,
-        "source_bytes_read": 233190577,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287547",
         "source_bytes_read": 233190577,
         "elapsed_seconds": 11.167,
         "finished_at": "2026-11-23T13:43:19.906357+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287547",
+          "size_bytes": 233190577,
+          "source_bytes_read": 233190577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34985781",
+        "source_url": "https://sdilej.cz/34985781/flintstoneovi-s01e10-hollyrocku-uz-jdu-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287547",
+        "display_name": "The Flintstones S01E10 Hollyrock, Here I Come SD CZ Dabing",
+        "uploaded_at": "2026-11-23T13:43:38.243120+00:00"
       }
     },
     "1951:1:11": {
@@ -882207,7 +882208,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:43:32.365451+00:00",
+  "updated_at": "2026-11-23T13:43:38.243134+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
