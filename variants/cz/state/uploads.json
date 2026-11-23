@@ -876089,12 +876089,6 @@
     },
     "2115:1:2": {
       "episode_key": "vládci kouzel:s1:e2",
-      "claim": {
-        "worker_id": "54961671aa9b49ef81fe43aa3643d652-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:20:28.851741+00:00",
-        "lease_expires_at": "2026-11-23T16:20:28.851755+00:00"
-      },
       "source": {
         "source_id": "25191847",
         "source_url": "https://sdilej.cz/25191847/vladci-kouzel-1x02-kde-jsem.avi",
@@ -876119,22 +876113,29 @@
         "display_name": "Spellbinder S01E02 Where Am I? SD CZ Dabing",
         "prepared_at": "2026-11-23T10:20:47.096346+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281914",
-        "size_bytes": 258414592
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281914",
-        "size_bytes": 258414592,
-        "source_bytes_read": 258414592,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281914",
         "source_bytes_read": 258414592,
         "elapsed_seconds": 37.184,
         "finished_at": "2026-11-23T10:21:50.538663+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281914",
+          "size_bytes": 258414592,
+          "source_bytes_read": 258414592,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25191847",
+        "source_url": "https://sdilej.cz/25191847/vladci-kouzel-1x02-kde-jsem.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281914",
+        "display_name": "Spellbinder S01E02 Where Am I? SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:22:08.389120+00:00"
       }
     }
   },
@@ -876143,7 +876144,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:22:02.093145+00:00",
+  "updated_at": "2026-11-23T10:22:08.389140+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
