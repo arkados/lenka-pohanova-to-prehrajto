@@ -863143,12 +863143,6 @@
     },
     "1095:1:22": {
       "episode_key": "agenti s.h.i.e.l.d.:s1:e22",
-      "claim": {
-        "worker_id": "9936d93529aa4bfdb2d018a50e5ea54c-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:50:45.449316+00:00",
-        "lease_expires_at": "2026-11-23T09:50:45.449329+00:00"
-      },
       "source": {
         "source_id": "35062269",
         "source_url": "https://sdilej.cz/35062269/agenti-s.h.i.e.l.d-s01e22-pocatek-konce.mkv",
@@ -863173,22 +863167,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E22 Beginning of the End 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:50:51.826989+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31271144",
-        "size_bytes": 924995226
-      },
-      "transfer_receipt": {
-        "target_video_id": "31271144",
-        "size_bytes": 924995226,
-        "source_bytes_read": 924995226,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31271144",
         "source_bytes_read": 924995226,
         "elapsed_seconds": 63.987,
         "finished_at": "2026-11-23T03:52:18.068945+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31271144",
+          "size_bytes": 924995226,
+          "source_bytes_read": 924995226,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35062269",
+        "source_url": "https://sdilej.cz/35062269/agenti-s.h.i.e.l.d-s01e22-pocatek-konce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31271144",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E22 Beginning of the End 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T03:52:32.463228+00:00"
       }
     }
   },
@@ -863197,7 +863198,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:52:24.054655+00:00",
+  "updated_at": "2026-11-23T03:52:32.463248+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
