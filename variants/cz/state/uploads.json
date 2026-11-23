@@ -860921,12 +860921,6 @@
     },
     "1980:3:17": {
       "episode_key": "fotbalový talent:s3:e17",
-      "claim": {
-        "worker_id": "7a891a3bc57f4936bc9dba43c87b02cb-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:42:08.544206+00:00",
-        "lease_expires_at": "2026-11-23T08:42:08.544217+00:00"
-      },
       "source": {
         "source_id": "29824973",
         "source_url": "https://sdilej.cz/29824973/fotbalovy.talent.-.all.american.-2018-.s03e17.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm.cz.dabing.mkv",
@@ -860951,22 +860945,29 @@
         "display_name": "All American S03E17 All American: Homecoming 1080p CZ Dabing",
         "prepared_at": "2026-11-23T02:42:24.663493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269627",
-        "size_bytes": 1377043095
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269627",
-        "size_bytes": 1377043095,
-        "source_bytes_read": 1377043095,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269627",
         "source_bytes_read": 1377043095,
         "elapsed_seconds": 205.012,
         "finished_at": "2026-11-23T02:46:22.997579+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269627",
+          "size_bytes": 1377043095,
+          "source_bytes_read": 1377043095,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29824973",
+        "source_url": "https://sdilej.cz/29824973/fotbalovy.talent.-.all.american.-2018-.s03e17.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm.cz.dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269627",
+        "display_name": "All American S03E17 All American: Homecoming 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:46:30.117492+00:00"
       }
     },
     "1980:3:19": {
@@ -861101,7 +861102,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:46:22.997598+00:00",
+  "updated_at": "2026-11-23T02:46:30.117508+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
