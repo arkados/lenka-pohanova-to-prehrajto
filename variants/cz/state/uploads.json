@@ -886393,12 +886393,6 @@
     },
     "1951:4:8": {
       "episode_key": "flintstoneovi:s4:e8",
-      "claim": {
-        "worker_id": "91646360361f467a9f9032acfababaaa-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:14:44.180710+00:00",
-        "lease_expires_at": "2026-11-23T21:14:44.180729+00:00"
-      },
       "source": {
         "source_id": "35010882",
         "source_url": "https://sdilej.cz/35010882/flintstoneovi-s04e08-fred-hraje-prvni-ligu-cz-skalican762-ipad.mp4",
@@ -886423,22 +886417,29 @@
         "display_name": "The Flintstones S04E08 Big League Freddie SD CZ Dabing",
         "prepared_at": "2026-11-23T15:14:56.518668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290357",
-        "size_bytes": 247147775
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290357",
-        "size_bytes": 247147775,
-        "source_bytes_read": 247147775,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290357",
         "source_bytes_read": 247147775,
         "elapsed_seconds": 14.967,
         "finished_at": "2026-11-23T15:15:47.894337+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290357",
+          "size_bytes": 247147775,
+          "source_bytes_read": 247147775,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010882",
+        "source_url": "https://sdilej.cz/35010882/flintstoneovi-s04e08-fred-hraje-prvni-ligu-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290357",
+        "display_name": "The Flintstones S04E08 Big League Freddie SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:16:05.311660+00:00"
       }
     },
     "1951:4:9": {
@@ -886513,7 +886514,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:15:59.729158+00:00",
+  "updated_at": "2026-11-23T15:16:05.311680+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
