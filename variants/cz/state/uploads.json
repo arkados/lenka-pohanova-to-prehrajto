@@ -860514,12 +860514,6 @@
     },
     "1980:2:10": {
       "episode_key": "fotbalový talent:s2:e10",
-      "claim": {
-        "worker_id": "abe4fad9d5c04bf4a2be90ee94e85823-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:23:33.808801+00:00",
-        "lease_expires_at": "2026-11-23T08:23:33.808811+00:00"
-      },
       "source": {
         "source_id": "13112739",
         "source_url": "https://sdilej.cz/13112739/fotbalovy.talent.02x10.1080i.hdtv.cz.mkv",
@@ -860544,22 +860538,29 @@
         "display_name": "All American S02E10 Protect Ya Neck 1080p CZ Dabing",
         "prepared_at": "2026-11-23T02:23:46.233568+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269167",
-        "size_bytes": 2809133925
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269167",
-        "size_bytes": 2809133925,
-        "source_bytes_read": 2809133925,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269167",
         "source_bytes_read": 2809133925,
         "elapsed_seconds": 189.553,
         "finished_at": "2026-11-23T02:27:21.139549+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269167",
+          "size_bytes": 2809133925,
+          "source_bytes_read": 2809133925,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13112739",
+        "source_url": "https://sdilej.cz/13112739/fotbalovy.talent.02x10.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269167",
+        "display_name": "All American S02E10 Protect Ya Neck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:27:38.874304+00:00"
       }
     }
   },
@@ -860568,7 +860569,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:27:33.582837+00:00",
+  "updated_at": "2026-11-23T02:27:38.874318+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
