@@ -879094,12 +879094,6 @@
     },
     "1826:2:22": {
       "episode_key": "a-team:s2:e22",
-      "claim": {
-        "worker_id": "51de37c26ee9471380a0e6ebc91a3f5c-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:00:50.040865+00:00",
-        "lease_expires_at": "2026-11-23T18:00:50.040881+00:00"
-      },
       "source": {
         "source_id": "29467685",
         "source_url": "https://sdilej.cz/29467685/the-a-team-s02e22-1080p-cz-dabing.mkv",
@@ -879124,22 +879118,29 @@
         "display_name": "The A-Team S02E22 Curtain Call 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:01:12.302947+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31284412",
-        "size_bytes": 1479130465
-      },
-      "transfer_receipt": {
-        "target_video_id": "31284412",
-        "size_bytes": 1479130465,
-        "source_bytes_read": 1479130465,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31284412",
         "source_bytes_read": 1479130465,
         "elapsed_seconds": 219.126,
         "finished_at": "2026-11-23T12:05:29.165568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31284412",
+          "size_bytes": 1479130465,
+          "source_bytes_read": 1479130465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29467685",
+        "source_url": "https://sdilej.cz/29467685/the-a-team-s02e22-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31284412",
+        "display_name": "The A-Team S02E22 Curtain Call 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:05:46.387072+00:00"
       }
     },
     "1826:3:1": {
@@ -879235,7 +879236,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:05:40.290348+00:00",
+  "updated_at": "2026-11-23T12:05:46.387091+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
