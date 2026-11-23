@@ -863907,12 +863907,6 @@
     },
     "1095:2:16": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e16",
-      "claim": {
-        "worker_id": "35e6d9fee7694208ab848df351e2269e-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:04:56.667767+00:00",
-        "lease_expires_at": "2026-11-23T10:04:56.667779+00:00"
-      },
       "source": {
         "source_id": "35062532",
         "source_url": "https://sdilej.cz/35062532/agenti-s.h.i.e.l.d-s02e16-eden.mkv",
@@ -863936,7 +863930,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E16 Afterlife 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:05:02.582439+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35062532:https://sdilej.cz/35062532/agenti-s.h.i.e.l.d-s02e16-eden.mkv",
+        "at": "2026-11-23T04:05:22.322023+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T04:05:22.322304+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1095:2:17": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e17",
@@ -863977,7 +863981,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:05:16.652508+00:00",
+  "updated_at": "2026-11-23T04:05:22.322315+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -864733,8 +864737,13 @@
         {
           "identity": "1095:1:17",
           "at": "2026-11-23T04:04:40.240224+00:00"
+        },
+        {
+          "identity": "1095:2:16",
+          "at": "2026-11-23T04:05:22.322023+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-23T04:15:22.322023+00:00"
     }
   }
 }
