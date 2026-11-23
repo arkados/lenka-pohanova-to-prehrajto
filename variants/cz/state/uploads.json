@@ -861265,12 +861265,6 @@
     },
     "1980:4:9": {
       "episode_key": "fotbalový talent:s4:e9",
-      "claim": {
-        "worker_id": "d830e0e89f614c71a1b2d574fb44cd98-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T02:50:21.423687+00:00",
-        "lease_expires_at": "2026-11-23T08:50:21.423701+00:00"
-      },
       "source": {
         "source_id": "22576391",
         "source_url": "https://sdilej.cz/22576391/fotbalovy-talent-all.american.s04e09.1080p.hmax.web-dl.dd2.0.h.265-cz-audio-.mkv",
@@ -861295,22 +861289,29 @@
         "display_name": "All American S04E09 Got Your Money 1080p CZ Dabing",
         "prepared_at": "2026-11-23T02:50:27.649851+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31269815",
-        "size_bytes": 1878944348
-      },
-      "transfer_receipt": {
-        "target_video_id": "31269815",
-        "size_bytes": 1878944348,
-        "source_bytes_read": 1878944348,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31269815",
         "source_bytes_read": 1878944348,
         "elapsed_seconds": 149.02,
         "finished_at": "2026-11-23T02:53:20.067583+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31269815",
+          "size_bytes": 1878944348,
+          "source_bytes_read": 1878944348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22576391",
+        "source_url": "https://sdilej.cz/22576391/fotbalovy-talent-all.american.s04e09.1080p.hmax.web-dl.dd2.0.h.265-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31269815",
+        "display_name": "All American S04E09 Got Your Money 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T02:53:29.361746+00:00"
       }
     }
   },
@@ -861319,7 +861320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T02:53:20.067604+00:00",
+  "updated_at": "2026-11-23T02:53:29.361762+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
