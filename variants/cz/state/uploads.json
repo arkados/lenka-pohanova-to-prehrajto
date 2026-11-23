@@ -873453,12 +873453,6 @@
     },
     "123:2:4": {
       "episode_key": "castle rock:s2:e4",
-      "claim": {
-        "worker_id": "9e0b2b9aa76b447d9200e1c47cc7ec1b-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:11:34.091687+00:00",
-        "lease_expires_at": "2026-11-23T15:11:34.091699+00:00"
-      },
       "source": {
         "source_id": "34121484",
         "source_url": "https://sdilej.cz/34121484/castle-rock-s02e04-cz-dabing-1080p-full-hd.mkv",
@@ -873482,7 +873476,17 @@
         },
         "display_name": "Castle Rock S02E04 Restore Hope 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:11:54.631879+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34121484:https://sdilej.cz/34121484/castle-rock-s02e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-23T09:12:08.854257+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:12:08.854298+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -873490,7 +873494,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:12:00.239092+00:00",
+  "updated_at": "2026-11-23T09:12:08.854303+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -874279,16 +874283,8 @@
     "123": {
       "recent_failures": [
         {
-          "identity": "123:2:1",
-          "at": "2026-11-23T09:00:16.411788+00:00"
-        },
-        {
-          "identity": "123:2:2",
-          "at": "2026-11-23T09:00:42.149365+00:00"
-        },
-        {
-          "identity": "123:2:3",
-          "at": "2026-11-23T09:01:05.487500+00:00"
+          "identity": "123:2:4",
+          "at": "2026-11-23T09:12:08.854257+00:00"
         }
       ],
       "retry_after": "2026-11-23T09:11:05.487500+00:00"
