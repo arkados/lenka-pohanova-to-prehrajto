@@ -865270,12 +865270,6 @@
     },
     "587:3:4": {
       "episode_key": "bridgertonovi:s3:e4",
-      "claim": {
-        "worker_id": "79f83ae4fc2d4c6793810613c8206bd3-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:51:33.746708+00:00",
-        "lease_expires_at": "2026-11-23T10:51:33.746720+00:00"
-      },
       "source": {
         "source_id": "29101754",
         "source_url": "https://sdilej.cz/29101754/bridgerton-s03e04-cz-dabing.mkv",
@@ -865300,22 +865294,29 @@
         "display_name": "Bridgerton S03E04 Old Friends 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:51:40.840385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272798",
-        "size_bytes": 860632902
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272798",
-        "size_bytes": 860632902,
-        "source_bytes_read": 860632902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272798",
         "source_bytes_read": 860632902,
         "elapsed_seconds": 60.793,
         "finished_at": "2026-11-23T04:53:12.768878+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272798",
+          "size_bytes": 860632902,
+          "source_bytes_read": 860632902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29101754",
+        "source_url": "https://sdilej.cz/29101754/bridgerton-s03e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272798",
+        "display_name": "Bridgerton S03E04 Old Friends 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:53:26.750905+00:00"
       }
     },
     "587:3:5": {
@@ -865361,7 +865362,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:53:21.402007+00:00",
+  "updated_at": "2026-11-23T04:53:26.750921+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
