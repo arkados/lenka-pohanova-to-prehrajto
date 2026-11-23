@@ -877156,12 +877156,6 @@
     },
     "2115:2:8": {
       "episode_key": "vládci kouzel:s2:e8",
-      "claim": {
-        "worker_id": "97c7f485db9d490489f0aafef46336a3-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:47:48.370776+00:00",
-        "lease_expires_at": "2026-11-23T16:47:48.370790+00:00"
-      },
       "source": {
         "source_id": "25192261",
         "source_url": "https://sdilej.cz/25192261/vladci-kouzel-2x08-slunce-se-stava-hvezdou.avi",
@@ -877186,22 +877180,29 @@
         "display_name": "Spellbinder S02E08 Sun Becomes a Star SD CZ Dabing",
         "prepared_at": "2026-11-23T10:48:13.157446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31282461",
-        "size_bytes": 315850752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31282461",
-        "size_bytes": 315850752,
-        "source_bytes_read": 315850752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31282461",
         "source_bytes_read": 315850752,
         "elapsed_seconds": 40.132,
         "finished_at": "2026-11-23T10:49:32.490332+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31282461",
+          "size_bytes": 315850752,
+          "source_bytes_read": 315850752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25192261",
+        "source_url": "https://sdilej.cz/25192261/vladci-kouzel-2x08-slunce-se-stava-hvezdou.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31282461",
+        "display_name": "Spellbinder S02E08 Sun Becomes a Star SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:49:45.359155+00:00"
       }
     },
     "2115:2:9": {
@@ -877283,7 +877284,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:49:37.947392+00:00",
+  "updated_at": "2026-11-23T10:49:45.359171+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
