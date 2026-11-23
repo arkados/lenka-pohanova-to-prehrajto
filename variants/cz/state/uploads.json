@@ -869211,28 +869211,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "fe695f4b3d6747c3a3a4b3b4d96358fb-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:06:30.947986+00:00",
-        "lease_expires_at": "2026-11-23T13:06:30.947996+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276302",
-        "size_bytes": 1578523669
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276302",
-        "size_bytes": 1578523669,
-        "source_bytes_read": 1578523669,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276302",
         "source_bytes_read": 1578523669,
         "elapsed_seconds": 133.373,
         "finished_at": "2026-11-23T07:09:38.929442+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276302",
+          "size_bytes": 1578523669,
+          "source_bytes_read": 1578523669,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32458311",
+        "source_url": "https://sdilej.cz/32458311/ginny-a-georgia-2021-s01e06-czdab-1080p-asi-mi-hrabne.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276302",
+        "display_name": "Ginny & Georgia S01E06 I'm Triggered 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:09:48.039375+00:00"
       }
     },
     "1972:1:7": {
@@ -869543,7 +869544,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:09:38.929458+00:00",
+  "updated_at": "2026-11-23T07:09:48.039392+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
