@@ -885818,12 +885818,6 @@
     },
     "1951:3:25": {
       "episode_key": "flintstoneovi:s3:e25",
-      "claim": {
-        "worker_id": "d26786d41d044b1eab3eb2d6c927c410-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:04:19.928663+00:00",
-        "lease_expires_at": "2026-11-23T21:04:19.928678+00:00"
-      },
       "source": {
         "source_id": "35004082",
         "source_url": "https://sdilej.cz/35004082/flintstoneovi-s03e25-barney-brichomluvec-cz-skalican762-ipad.mp4",
@@ -885848,22 +885842,29 @@
         "display_name": "The Flintstones S03E25 Ventriloquist Barney SD CZ Dabing",
         "prepared_at": "2026-11-23T15:04:42.633040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290095",
-        "size_bytes": 252688801
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290095",
-        "size_bytes": 252688801,
-        "source_bytes_read": 252688801,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290095",
         "source_bytes_read": 252688801,
         "elapsed_seconds": 18.089,
         "finished_at": "2026-11-23T15:05:32.336105+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290095",
+          "size_bytes": 252688801,
+          "source_bytes_read": 252688801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35004082",
+        "source_url": "https://sdilej.cz/35004082/flintstoneovi-s03e25-barney-brichomluvec-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290095",
+        "display_name": "The Flintstones S03E25 Ventriloquist Barney SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:05:46.348442+00:00"
       }
     },
     "1951:3:26": {
@@ -885923,7 +885924,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:05:39.995237+00:00",
+  "updated_at": "2026-11-23T15:05:46.348461+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
