@@ -865009,12 +865009,6 @@
     },
     "587:2:8": {
       "episode_key": "bridgertonovi:s2:e8",
-      "claim": {
-        "worker_id": "d1f91a90d757455fa782c41d941d6f20-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:45:52.084114+00:00",
-        "lease_expires_at": "2026-11-23T10:45:52.084126+00:00"
-      },
       "source": {
         "source_id": "29116697",
         "source_url": "https://sdilej.cz/29116697/bridgerton-s02e08-1080p-cz-dabing.mkv",
@@ -865039,22 +865033,29 @@
         "display_name": "Bridgerton S02E08 The Viscount Who Loved Me 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:45:59.469236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31272670",
-        "size_bytes": 1431458012
-      },
-      "transfer_receipt": {
-        "target_video_id": "31272670",
-        "size_bytes": 1431458012,
-        "source_bytes_read": 1431458012,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31272670",
         "source_bytes_read": 1431458012,
         "elapsed_seconds": 207.794,
         "finished_at": "2026-11-23T04:50:20.762486+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31272670",
+          "size_bytes": 1431458012,
+          "source_bytes_read": 1431458012,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29116697",
+        "source_url": "https://sdilej.cz/29116697/bridgerton-s02e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31272670",
+        "display_name": "Bridgerton S02E08 The Viscount Who Loved Me 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T04:50:33.722190+00:00"
       }
     },
     "587:3:1": {
@@ -865202,7 +865203,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:50:26.954631+00:00",
+  "updated_at": "2026-11-23T04:50:33.722219+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
