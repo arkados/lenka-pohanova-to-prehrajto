@@ -886093,12 +886093,6 @@
     },
     "1951:4:2": {
       "episode_key": "flintstoneovi:s4:e2",
-      "claim": {
-        "worker_id": "2f3221ae76334b60a8169cda0a4fa233-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:08:44.744381+00:00",
-        "lease_expires_at": "2026-11-23T21:08:44.744397+00:00"
-      },
       "source": {
         "source_id": "35010665",
         "source_url": "https://sdilej.cz/35010665/flintstoneovi-s04e02-nevitany-zenich-cz-skalican762-ipad.mp4",
@@ -886123,22 +886117,29 @@
         "display_name": "The Flintstones S04E02 Groom Gloom SD CZ Dabing",
         "prepared_at": "2026-11-23T15:08:51.116420+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290200",
-        "size_bytes": 248745564
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290200",
-        "size_bytes": 248745564,
-        "source_bytes_read": 248745564,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290200",
         "source_bytes_read": 248745564,
         "elapsed_seconds": 22.668,
         "finished_at": "2026-11-23T15:09:44.472464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290200",
+          "size_bytes": 248745564,
+          "source_bytes_read": 248745564,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010665",
+        "source_url": "https://sdilej.cz/35010665/flintstoneovi-s04e02-nevitany-zenich-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290200",
+        "display_name": "The Flintstones S04E02 Groom Gloom SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:10:02.490998+00:00"
       }
     },
     "1951:4:3": {
@@ -886180,7 +886181,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:09:56.912909+00:00",
+  "updated_at": "2026-11-23T15:10:02.491018+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
