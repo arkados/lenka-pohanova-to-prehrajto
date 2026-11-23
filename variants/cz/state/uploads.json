@@ -866669,12 +866669,6 @@
     },
     "611:1:2": {
       "episode_key": "projekt modrá kniha:s1:e2",
-      "claim": {
-        "worker_id": "7ef89527ed3f408b939e61a40e8f795e-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:26:42.091938+00:00",
-        "lease_expires_at": "2026-11-23T11:26:42.091952+00:00"
-      },
       "source": {
         "source_id": "18862274",
         "source_url": "https://sdilej.cz/18862274/projekt-modra-kniha-2019-s01e02-hevc-1080p-cz-dab.mkv",
@@ -866699,22 +866693,29 @@
         "display_name": "Project Blue Book S01E02 The Flatwoods Monster 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:27:02.297296+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31273456",
-        "size_bytes": 558189469
-      },
-      "transfer_receipt": {
-        "target_video_id": "31273456",
-        "size_bytes": 558189469,
-        "source_bytes_read": 558189469,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31273456",
         "source_bytes_read": 558189469,
         "elapsed_seconds": 40.463,
         "finished_at": "2026-11-23T05:28:11.902988+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31273456",
+          "size_bytes": 558189469,
+          "source_bytes_read": 558189469,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "18862274",
+        "source_url": "https://sdilej.cz/18862274/projekt-modra-kniha-2019-s01e02-hevc-1080p-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31273456",
+        "display_name": "Project Blue Book S01E02 The Flatwoods Monster 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T05:28:33.950027+00:00"
       }
     },
     "611:1:3": {
@@ -866810,7 +866811,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:28:24.470985+00:00",
+  "updated_at": "2026-11-23T05:28:33.950045+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
