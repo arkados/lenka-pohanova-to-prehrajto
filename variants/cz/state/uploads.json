@@ -870625,12 +870625,6 @@
     },
     "174:1:7": {
       "episode_key": "i am not okay with this:s1:e7",
-      "claim": {
-        "worker_id": "a79ef56637a542f887f366440f77beba-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:52:12.095937+00:00",
-        "lease_expires_at": "2026-11-23T13:52:12.095965+00:00"
-      },
       "source": {
         "source_id": "13056498",
         "source_url": "https://sdilej.cz/13056498/i.am.not.okay.with.this.s01e07.cz.720p.web.x264-kreon.mkv",
@@ -870655,22 +870649,29 @@
         "display_name": "I Am Not Okay with This S01E07 Deepest, Darkest Secret 720p CZ Dabing",
         "prepared_at": "2026-11-23T07:52:23.008784+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31277638",
-        "size_bytes": 940480750
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277638",
-        "size_bytes": 940480750,
-        "source_bytes_read": 940480750,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277638",
         "source_bytes_read": 940480750,
         "elapsed_seconds": 100.094,
         "finished_at": "2026-11-23T07:54:34.725131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277638",
+          "size_bytes": 940480750,
+          "source_bytes_read": 940480750,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13056498",
+        "source_url": "https://sdilej.cz/13056498/i.am.not.okay.with.this.s01e07.cz.720p.web.x264-kreon.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277638",
+        "display_name": "I Am Not Okay with This S01E07 Deepest, Darkest Secret 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:54:48.541435+00:00"
       }
     },
     "1972:3:4": {
@@ -870712,7 +870713,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:54:41.401926+00:00",
+  "updated_at": "2026-11-23T07:54:48.541448+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
