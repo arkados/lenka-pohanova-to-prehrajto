@@ -879463,12 +879463,6 @@
     },
     "1826:3:8": {
       "episode_key": "a-team:s3:e8",
-      "claim": {
-        "worker_id": "5e5fecc569dc4eb7854cc30ba87d0666-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:11:27.005799+00:00",
-        "lease_expires_at": "2026-11-23T18:11:27.005830+00:00"
-      },
       "source": {
         "source_id": "29547898",
         "source_url": "https://sdilej.cz/29547898/the-a-team-s03e08-1080p-cz-dabing.mkv",
@@ -879493,22 +879487,29 @@
         "display_name": "The A-Team S03E08 Showdown! 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:11:42.956848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31285138",
-        "size_bytes": 1506939828
-      },
-      "transfer_receipt": {
-        "target_video_id": "31285138",
-        "size_bytes": 1506939828,
-        "source_bytes_read": 1506939828,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31285138",
         "source_bytes_read": 1506939828,
         "elapsed_seconds": 234.146,
         "finished_at": "2026-11-23T12:16:10.612402+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31285138",
+          "size_bytes": 1506939828,
+          "source_bytes_read": 1506939828,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29547898",
+        "source_url": "https://sdilej.cz/29547898/the-a-team-s03e08-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31285138",
+        "display_name": "The A-Team S03E08 Showdown! 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:16:27.993094+00:00"
       }
     }
   },
@@ -879517,7 +879518,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:16:22.313941+00:00",
+  "updated_at": "2026-11-23T12:16:27.993114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
