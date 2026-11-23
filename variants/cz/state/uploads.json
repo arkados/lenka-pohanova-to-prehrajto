@@ -868696,12 +868696,6 @@
     },
     "1972:1:1": {
       "episode_key": "ginny a georgia:s1:e1",
-      "claim": {
-        "worker_id": "c01ce600a39c442789939441039a04ec-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T06:42:45.759391+00:00",
-        "lease_expires_at": "2026-11-23T12:42:45.759405+00:00"
-      },
       "source": {
         "source_id": "33315768",
         "source_url": "https://sdilej.cz/33315768/ginny-a-georgia-s01e01-10-2021-cz-dab-1080p-pilotni-dil.mkv",
@@ -868726,22 +868720,29 @@
         "display_name": "Ginny & Georgia S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-23T06:42:57.511499+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31275668",
-        "size_bytes": 1159532537
-      },
-      "transfer_receipt": {
-        "target_video_id": "31275668",
-        "size_bytes": 1159532537,
-        "source_bytes_read": 1159532537,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31275668",
         "source_bytes_read": 1159532537,
         "elapsed_seconds": 101.315,
         "finished_at": "2026-11-23T06:45:09.314488+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31275668",
+          "size_bytes": 1159532537,
+          "source_bytes_read": 1159532537,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33315768",
+        "source_url": "https://sdilej.cz/33315768/ginny-a-georgia-s01e01-10-2021-cz-dab-1080p-pilotni-dil.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31275668",
+        "display_name": "Ginny & Georgia S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T06:45:30.278138+00:00"
       }
     },
     "1972:1:2": {
@@ -868820,7 +868821,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T06:45:23.025018+00:00",
+  "updated_at": "2026-11-23T06:45:30.278152+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
