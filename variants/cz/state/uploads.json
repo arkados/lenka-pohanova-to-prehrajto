@@ -873920,28 +873920,29 @@
           "at": "2026-11-23T09:30:14.520750+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "151f874e1ecc4ed99c76df25fcd2e377-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:30:20.555980+00:00",
-        "lease_expires_at": "2026-11-23T15:30:20.555991+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31280563",
-        "size_bytes": 288126358
-      },
-      "transfer_receipt": {
-        "target_video_id": "31280563",
-        "size_bytes": 288126358,
-        "source_bytes_read": 288126358,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31280563",
         "source_bytes_read": 288126358,
         "elapsed_seconds": 28.544,
         "finished_at": "2026-11-23T09:31:49.459052+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31280563",
+          "size_bytes": 288126358,
+          "source_bytes_read": 288126358,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30660526",
+        "source_url": "https://sdilej.cz/30660526/castle-rock-s02e09-varovani-emptor.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31280563",
+        "display_name": "Castle Rock S02E09 Caveat Emptor 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T09:32:08.678150+00:00"
       }
     },
     "123:2:10": {
@@ -874190,7 +874191,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:32:03.348696+00:00",
+  "updated_at": "2026-11-23T09:32:08.678165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
