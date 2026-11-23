@@ -864135,28 +864135,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "f78a1ded4549405bb1521abbd32ca893-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:20:26.882505+00:00",
-        "lease_expires_at": "2026-11-23T13:20:26.882515+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31276717",
-        "size_bytes": 914831840
-      },
-      "transfer_receipt": {
-        "target_video_id": "31276717",
-        "size_bytes": 914831840,
-        "source_bytes_read": 914831840,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31276717",
         "source_bytes_read": 914831840,
         "elapsed_seconds": 68.061,
         "finished_at": "2026-11-23T07:22:22.026961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31276717",
+          "size_bytes": 914831840,
+          "source_bytes_read": 914831840,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35062532",
+        "source_url": "https://sdilej.cz/35062532/agenti-s.h.i.e.l.d-s02e16-eden.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31276717",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E16 Afterlife 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:22:32.576763+00:00"
       }
     },
     "1095:2:17": {
@@ -869813,7 +869814,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:22:22.026978+00:00",
+  "updated_at": "2026-11-23T07:22:32.576778+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
