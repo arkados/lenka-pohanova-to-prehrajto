@@ -861540,12 +861540,6 @@
     },
     "1980:4:19": {
       "episode_key": "fotbalový talent:s4:e19",
-      "claim": {
-        "worker_id": "1eb98b0f3b1a49c8954a6869dd5acbae-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:02:32.654576+00:00",
-        "lease_expires_at": "2026-11-23T09:02:32.654587+00:00"
-      },
       "source": {
         "source_id": "22389954",
         "source_url": "https://sdilej.cz/22389954/fotbalovy.talent.04x19.1080i.hdtv.cz.mkv",
@@ -861570,22 +861564,29 @@
         "display_name": "All American S04E19 Murder Was the Case 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:02:39.771409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270089",
-        "size_bytes": 2592222340
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270089",
-        "size_bytes": 2592222340,
-        "source_bytes_read": 2592222340,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270089",
         "source_bytes_read": 2592222340,
         "elapsed_seconds": 360.401,
         "finished_at": "2026-11-23T03:09:09.487181+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270089",
+          "size_bytes": 2592222340,
+          "source_bytes_read": 2592222340,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22389954",
+        "source_url": "https://sdilej.cz/22389954/fotbalovy.talent.04x19.1080i.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270089",
+        "display_name": "All American S04E19 Murder Was the Case 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T03:09:20.814673+00:00"
       }
     },
     "1980:4:20": {
@@ -861824,7 +861825,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:09:15.037920+00:00",
+  "updated_at": "2026-11-23T03:09:20.814695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
