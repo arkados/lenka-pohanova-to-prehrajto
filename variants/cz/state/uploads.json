@@ -867574,28 +867574,29 @@
           "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "57d1b7fab0524ac08b0db2fd43c6d0a3-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:41:32.854431+00:00",
-        "lease_expires_at": "2026-11-23T13:41:32.854443+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31277315",
-        "size_bytes": 1580737794
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277315",
-        "size_bytes": 1580737794,
-        "source_bytes_read": 1580737794,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277315",
         "source_bytes_read": 1580737794,
         "elapsed_seconds": 176.349,
         "finished_at": "2026-11-23T07:45:08.920106+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277315",
+          "size_bytes": 1580737794,
+          "source_bytes_read": 1580737794,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33443561",
+        "source_url": "https://sdilej.cz/33443561/bridgertonovi-s04e03-pole-stranou-hlavni-cesty-cz-2026-1080p-h264-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277315",
+        "display_name": "Bridgerton S04E03 The Field Next to the Other Road 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:45:17.788855+00:00"
       }
     },
     "587:4:4": {
@@ -870427,7 +870428,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:45:08.920121+00:00",
+  "updated_at": "2026-11-23T07:45:17.788872+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
