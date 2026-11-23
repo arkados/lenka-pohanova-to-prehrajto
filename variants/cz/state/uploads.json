@@ -881593,12 +881593,6 @@
     },
     "964:3:13": {
       "episode_key": "odstřelovač:s3:e13",
-      "claim": {
-        "worker_id": "1a0248acbe0b4661862ce8455c26a77e-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T13:31:38.537266+00:00",
-        "lease_expires_at": "2026-11-23T19:31:38.537284+00:00"
-      },
       "source": {
         "source_id": "28825394",
         "source_url": "https://sdilej.cz/28825394/odstrelovac.webrip.cz.s03e13.mkv",
@@ -881623,22 +881617,29 @@
         "display_name": "Shooter S03E13 Red Light 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:31:52.769265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31287293",
-        "size_bytes": 714320073
-      },
-      "transfer_receipt": {
-        "target_video_id": "31287293",
-        "size_bytes": 714320073,
-        "source_bytes_read": 714320073,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31287293",
         "source_bytes_read": 714320073,
         "elapsed_seconds": 145.078,
         "finished_at": "2026-11-23T13:35:01.631271+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31287293",
+          "size_bytes": 714320073,
+          "source_bytes_read": 714320073,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825394",
+        "source_url": "https://sdilej.cz/28825394/odstrelovac.webrip.cz.s03e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31287293",
+        "display_name": "Shooter S03E13 Red Light 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:35:23.994389+00:00"
       }
     },
     "964:3:12": {
@@ -881819,7 +881820,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:35:18.367687+00:00",
+  "updated_at": "2026-11-23T13:35:23.994404+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
