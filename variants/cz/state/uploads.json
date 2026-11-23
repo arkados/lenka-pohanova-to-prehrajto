@@ -883128,12 +883128,6 @@
     },
     "1951:2:3": {
       "episode_key": "flintstoneovi:s2:e3",
-      "claim": {
-        "worker_id": "ff91eb48e0fa4bdc89f35efa81203814-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:05:21.391157+00:00",
-        "lease_expires_at": "2026-11-23T20:05:21.391175+00:00"
-      },
       "source": {
         "source_id": "35001205",
         "source_url": "https://sdilej.cz/35001205/flintstoneovi-s02e03-zmeskany-autobus-tvrip-cz-skalican762-ipad.mp4",
@@ -883158,22 +883152,29 @@
         "display_name": "The Flintstones S02E03 The Missing Bus SD CZ Dabing",
         "prepared_at": "2026-11-23T14:05:34.438845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31288214",
-        "size_bytes": 257490762
-      },
-      "transfer_receipt": {
-        "target_video_id": "31288214",
-        "size_bytes": 257490762,
-        "source_bytes_read": 257490762,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31288214",
         "source_bytes_read": 257490762,
         "elapsed_seconds": 18.45,
         "finished_at": "2026-11-23T14:06:22.709264+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31288214",
+          "size_bytes": 257490762,
+          "source_bytes_read": 257490762,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35001205",
+        "source_url": "https://sdilej.cz/35001205/flintstoneovi-s02e03-zmeskany-autobus-tvrip-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31288214",
+        "display_name": "The Flintstones S02E03 The Missing Bus SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:06:41.209962+00:00"
       }
     }
   },
@@ -883182,7 +883183,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:06:34.878022+00:00",
+  "updated_at": "2026-11-23T14:06:41.209980+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
