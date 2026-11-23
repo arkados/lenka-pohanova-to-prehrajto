@@ -886648,12 +886648,6 @@
     },
     "1951:4:13": {
       "episode_key": "flintstoneovi:s4:e13",
-      "claim": {
-        "worker_id": "5dd3f2db70664df6a7d876ad1f932fe4-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:17:53.131615+00:00",
-        "lease_expires_at": "2026-11-23T21:17:53.131634+00:00"
-      },
       "source": {
         "source_id": "35011130",
         "source_url": "https://sdilej.cz/35011130/flintstoneovi-s04e13-klub-anonymnich-otcu-cz-skalican762-ipad.mp4",
@@ -886678,22 +886672,29 @@
         "display_name": "The Flintstones S04E13 Daddies Anonymous SD CZ Dabing",
         "prepared_at": "2026-11-23T15:18:17.314212+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290434",
-        "size_bytes": 247682103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290434",
-        "size_bytes": 247682103,
-        "source_bytes_read": 247682103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290434",
         "source_bytes_read": 247682103,
         "elapsed_seconds": 12.29,
         "finished_at": "2026-11-23T15:19:05.817446+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290434",
+          "size_bytes": 247682103,
+          "source_bytes_read": 247682103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35011130",
+        "source_url": "https://sdilej.cz/35011130/flintstoneovi-s04e13-klub-anonymnich-otcu-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290434",
+        "display_name": "The Flintstones S04E13 Daddies Anonymous SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:19:14.801539+00:00"
       }
     }
   },
@@ -886702,7 +886703,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:19:05.817469+00:00",
+  "updated_at": "2026-11-23T15:19:14.801563+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
