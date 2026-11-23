@@ -875410,12 +875410,6 @@
     },
     "3041:2:5": {
       "episode_key": "nevěstky:s2:e5",
-      "claim": {
-        "worker_id": "f1b97f549f404f358287eea5c116aaaa-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T10:04:39.444406+00:00",
-        "lease_expires_at": "2026-11-23T16:04:39.444425+00:00"
-      },
       "source": {
         "source_id": "32209628",
         "source_url": "https://sdilej.cz/32209628/nevestky-s02e05-cz-480p.mp4",
@@ -875440,22 +875434,29 @@
         "display_name": "Harlots S02E05 SD CZ Dabing",
         "prepared_at": "2026-11-23T10:04:52.288042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31281475",
-        "size_bytes": 417551233
-      },
-      "transfer_receipt": {
-        "target_video_id": "31281475",
-        "size_bytes": 417551233,
-        "source_bytes_read": 417551233,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31281475",
         "source_bytes_read": 417551233,
         "elapsed_seconds": 30.543,
         "finished_at": "2026-11-23T10:06:04.899381+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31281475",
+          "size_bytes": 417551233,
+          "source_bytes_read": 417551233,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32209628",
+        "source_url": "https://sdilej.cz/32209628/nevestky-s02e05-cz-480p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31281475",
+        "display_name": "Harlots S02E05 SD CZ Dabing",
+        "uploaded_at": "2026-11-23T10:06:20.440426+00:00"
       }
     },
     "3041:2:6": {
@@ -875501,7 +875502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T10:06:12.476398+00:00",
+  "updated_at": "2026-11-23T10:06:20.440444+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
