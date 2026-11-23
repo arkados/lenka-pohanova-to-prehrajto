@@ -873613,12 +873613,6 @@
     },
     "123:2:8": {
       "episode_key": "castle rock:s2:e8",
-      "claim": {
-        "worker_id": "afdcf87e5f4c4c658c40562150348ffa-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:13:33.635384+00:00",
-        "lease_expires_at": "2026-11-23T15:13:33.635397+00:00"
-      },
       "source": {
         "source_id": "34120991",
         "source_url": "https://sdilej.cz/34120991/castle-rock-s02e08-cz-dabing-1080p-full-hd.mkv",
@@ -873642,7 +873636,17 @@
         },
         "display_name": "Castle Rock S02E08 Dirty 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:13:50.657461+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34120991:https://sdilej.cz/34120991/castle-rock-s02e08-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-23T09:14:11.174757+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:14:11.174974+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "3539:1:5": {
       "episode_key": "láska a smrt:s1:e5",
@@ -873692,7 +873696,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:14:04.965119+00:00",
+  "updated_at": "2026-11-23T09:14:11.174984+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -874481,19 +874485,19 @@
     "123": {
       "recent_failures": [
         {
-          "identity": "123:2:6",
-          "at": "2026-11-23T09:13:08.487219+00:00"
-        },
-        {
           "identity": "123:2:5",
           "at": "2026-11-23T09:13:25.348634+00:00"
         },
         {
           "identity": "123:2:7",
           "at": "2026-11-23T09:13:39.051062+00:00"
+        },
+        {
+          "identity": "123:2:8",
+          "at": "2026-11-23T09:14:11.174757+00:00"
         }
       ],
-      "retry_after": "2026-11-23T09:23:39.051062+00:00"
+      "retry_after": "2026-11-23T09:24:11.174757+00:00"
     }
   }
 }
