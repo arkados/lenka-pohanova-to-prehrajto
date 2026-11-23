@@ -865920,12 +865920,6 @@
     },
     "1095:3:8": {
       "episode_key": "agenti s.h.i.e.l.d.:s3:e8",
-      "claim": {
-        "worker_id": "2bd2c3d36d744a0fa68f6564fc1e92c7-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T05:07:42.565134+00:00",
-        "lease_expires_at": "2026-11-23T11:07:42.565149+00:00"
-      },
       "source": {
         "source_id": "34329732",
         "source_url": "https://sdilej.cz/34329732/agenti-s.h.i.e.l.d.-03x08-cz-dab-.mp4",
@@ -865949,7 +865943,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S03E08 Many Heads, One Tale 1080p CZ Dabing",
         "prepared_at": "2026-11-23T05:07:54.232810+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34329732:https://sdilej.cz/34329732/agenti-s.h.i.e.l.d.-03x08-cz-dab-.mp4",
+        "at": "2026-11-23T05:08:11.009440+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T05:08:11.009479+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -865957,7 +865961,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T05:08:01.075915+00:00",
+  "updated_at": "2026-11-23T05:08:11.009486+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -866709,6 +866713,10 @@
         {
           "identity": "1095:2:16",
           "at": "2026-11-23T05:07:23.903263+00:00"
+        },
+        {
+          "identity": "1095:3:8",
+          "at": "2026-11-23T05:08:11.009440+00:00"
         }
       ],
       "retry_after": "2026-11-23T05:00:08.414944+00:00"
