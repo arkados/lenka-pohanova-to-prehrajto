@@ -886342,12 +886342,6 @@
     },
     "1951:4:7": {
       "episode_key": "flintstoneovi:s4:e7",
-      "claim": {
-        "worker_id": "82ce52c5f3ef48b6b6a197ceffe6af5f-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:13:59.179117+00:00",
-        "lease_expires_at": "2026-11-23T21:13:59.179140+00:00"
-      },
       "source": {
         "source_id": "35010842",
         "source_url": "https://sdilej.cz/35010842/flintstoneovi-s04e07-lepidlo-pro-dva-cz-skalican762-ipad.mp4",
@@ -886372,22 +886366,29 @@
         "display_name": "The Flintstones S04E07 Glue for Two SD CZ Dabing",
         "prepared_at": "2026-11-23T15:14:17.779526+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290336",
-        "size_bytes": 247592844
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290336",
-        "size_bytes": 247592844,
-        "source_bytes_read": 247592844,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290336",
         "source_bytes_read": 247592844,
         "elapsed_seconds": 18.264,
         "finished_at": "2026-11-23T15:15:02.432524+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290336",
+          "size_bytes": 247592844,
+          "source_bytes_read": 247592844,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35010842",
+        "source_url": "https://sdilej.cz/35010842/flintstoneovi-s04e07-lepidlo-pro-dva-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290336",
+        "display_name": "The Flintstones S04E07 Glue for Two SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:15:20.649720+00:00"
       }
     },
     "1951:4:8": {
@@ -886432,7 +886433,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:15:14.956226+00:00",
+  "updated_at": "2026-11-23T15:15:20.649737+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
