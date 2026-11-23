@@ -884965,12 +884965,6 @@
     },
     "1951:3:7": {
       "episode_key": "flintstoneovi:s3:e7",
-      "claim": {
-        "worker_id": "a7fa3d49c60c4aad9961d4bf2609bf6f-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T14:41:31.872159+00:00",
-        "lease_expires_at": "2026-11-23T20:41:31.872172+00:00"
-      },
       "source": {
         "source_id": "35003185",
         "source_url": "https://sdilej.cz/35003185/flintstoneovi-s03e07-vyrocni-schuze-cz-skalican762-ipad.mp4",
@@ -884995,22 +884989,29 @@
         "display_name": "The Flintstones S03E07 The Buffalo Convention SD CZ Dabing",
         "prepared_at": "2026-11-23T14:42:01.611821+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31289485",
-        "size_bytes": 252693271
-      },
-      "transfer_receipt": {
-        "target_video_id": "31289485",
-        "size_bytes": 252693271,
-        "source_bytes_read": 252693271,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31289485",
         "source_bytes_read": 252693271,
         "elapsed_seconds": 12.954,
         "finished_at": "2026-11-23T14:42:55.849262+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31289485",
+          "size_bytes": 252693271,
+          "source_bytes_read": 252693271,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35003185",
+        "source_url": "https://sdilej.cz/35003185/flintstoneovi-s03e07-vyrocni-schuze-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31289485",
+        "display_name": "The Flintstones S03E07 The Buffalo Convention SD CZ Dabing",
+        "uploaded_at": "2026-11-23T14:43:10.015973+00:00"
       }
     }
   },
@@ -885019,7 +885020,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T14:43:01.916115+00:00",
+  "updated_at": "2026-11-23T14:43:10.015991+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
