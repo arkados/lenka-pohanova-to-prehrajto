@@ -858435,12 +858435,6 @@
     },
     "1645:1:2": {
       "episode_key": "město na kopci:s1:e2",
-      "claim": {
-        "worker_id": "f8aac8b85e554f448c39d670a769630a-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:59:51.347274+00:00",
-        "lease_expires_at": "2026-11-23T06:59:51.347284+00:00"
-      },
       "source": {
         "source_id": "12161110",
         "source_url": "https://sdilej.cz/12161110/mesto-na-kopci-s01e02-cz-1080-midla.mkv",
@@ -858465,22 +858459,29 @@
         "display_name": "City on a Hill S01E02 What They Saw in Southie High 1080p CZ Dabing",
         "prepared_at": "2026-11-23T01:00:04.975322+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31267149",
-        "size_bytes": 1167579267
-      },
-      "transfer_receipt": {
-        "target_video_id": "31267149",
-        "size_bytes": 1167579267,
-        "source_bytes_read": 1167579267,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31267149",
         "source_bytes_read": 1167579267,
         "elapsed_seconds": 118.183,
         "finished_at": "2026-11-23T01:02:30.223552+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31267149",
+          "size_bytes": 1167579267,
+          "source_bytes_read": 1167579267,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12161110",
+        "source_url": "https://sdilej.cz/12161110/mesto-na-kopci-s01e02-cz-1080-midla.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31267149",
+        "display_name": "City on a Hill S01E02 What They Saw in Southie High 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T01:02:39.479782+00:00"
       }
     }
   },
@@ -858489,7 +858490,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T01:02:30.223574+00:00",
+  "updated_at": "2026-11-23T01:02:39.479798+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
