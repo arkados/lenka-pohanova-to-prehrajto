@@ -878839,12 +878839,6 @@
     },
     "1826:2:17": {
       "episode_key": "a-team:s2:e17",
-      "claim": {
-        "worker_id": "b4ab5d959ecf412ca0c4b9761fb9d193-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T11:50:58.785206+00:00",
-        "lease_expires_at": "2026-11-23T17:50:58.785224+00:00"
-      },
       "source": {
         "source_id": "34010176",
         "source_url": "https://sdilej.cz/34010176/a-team-s02e17-23-1983-cz-dab-1080p-pure-dee-poison.mkv",
@@ -878869,22 +878863,29 @@
         "display_name": "The A-Team S02E17 It's a Desert Out There 1080p CZ Dabing",
         "prepared_at": "2026-11-23T11:51:06.052327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31284047",
-        "size_bytes": 1480133116
-      },
-      "transfer_receipt": {
-        "target_video_id": "31284047",
-        "size_bytes": 1480133116,
-        "source_bytes_read": 1480133116,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31284047",
         "source_bytes_read": 1480133116,
         "elapsed_seconds": 155.985,
         "finished_at": "2026-11-23T11:54:13.695131+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31284047",
+          "size_bytes": 1480133116,
+          "source_bytes_read": 1480133116,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34010176",
+        "source_url": "https://sdilej.cz/34010176/a-team-s02e17-23-1983-cz-dab-1080p-pure-dee-poison.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31284047",
+        "display_name": "The A-Team S02E17 It's a Desert Out There 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T11:54:27.717139+00:00"
       }
     },
     "1826:2:18": {
@@ -878930,7 +878931,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T11:54:19.639637+00:00",
+  "updated_at": "2026-11-23T11:54:27.717156+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
