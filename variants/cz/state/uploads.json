@@ -887113,12 +887113,6 @@
     },
     "1951:4:23": {
       "episode_key": "flintstoneovi:s4:e23",
-      "claim": {
-        "worker_id": "44a7d04235c54017a3b7406b5d449df9-worker-0",
-        "run_id": "45184331871",
-        "claimed_at": "2026-11-23T15:24:42.942800+00:00",
-        "lease_expires_at": "2026-11-23T21:24:42.942817+00:00"
-      },
       "source": {
         "source_id": "35011742",
         "source_url": "https://sdilej.cz/35011742/flintstoneovi-s04e23-opravdu-problem-cz-skalican762-ipad.mp4",
@@ -887143,22 +887137,29 @@
         "display_name": "The Flintstones S04E23 Reel Trouble SD CZ Dabing",
         "prepared_at": "2026-11-23T15:25:03.592985+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31290556",
-        "size_bytes": 247029758
-      },
-      "transfer_receipt": {
-        "target_video_id": "31290556",
-        "size_bytes": 247029758,
-        "source_bytes_read": 247029758,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31290556",
         "source_bytes_read": 247029758,
         "elapsed_seconds": 19.359,
         "finished_at": "2026-11-23T15:25:56.124429+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31290556",
+          "size_bytes": 247029758,
+          "source_bytes_read": 247029758,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35011742",
+        "source_url": "https://sdilej.cz/35011742/flintstoneovi-s04e23-opravdu-problem-cz-skalican762-ipad.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31290556",
+        "display_name": "The Flintstones S04E23 Reel Trouble SD CZ Dabing",
+        "uploaded_at": "2026-11-23T15:26:03.176808+00:00"
       }
     }
   },
@@ -887167,7 +887168,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T15:25:56.124448+00:00",
+  "updated_at": "2026-11-23T15:26:03.176837+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
