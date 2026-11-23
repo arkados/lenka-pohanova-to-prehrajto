@@ -881069,12 +881069,6 @@
     },
     "964:3:2": {
       "episode_key": "odstřelovač:s3:e2",
-      "claim": {
-        "worker_id": "aec8250b3fe34fc59ce83aa038592195-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T13:12:43.468521+00:00",
-        "lease_expires_at": "2026-11-23T19:12:43.468536+00:00"
-      },
       "source": {
         "source_id": "28825195",
         "source_url": "https://sdilej.cz/28825195/odstrelovac.webrip.cz.s03e02.mkv",
@@ -881099,22 +881093,29 @@
         "display_name": "Shooter S03E02 Red Meat 1080p CZ Dabing",
         "prepared_at": "2026-11-23T13:13:21.961913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286795",
-        "size_bytes": 714901350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286795",
-        "size_bytes": 714901350,
-        "source_bytes_read": 714901350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286795",
         "source_bytes_read": 714901350,
         "elapsed_seconds": 56.808,
         "finished_at": "2026-11-23T13:14:41.480050+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286795",
+          "size_bytes": 714901350,
+          "source_bytes_read": 714901350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28825195",
+        "source_url": "https://sdilej.cz/28825195/odstrelovac.webrip.cz.s03e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286795",
+        "display_name": "Shooter S03E02 Red Meat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T13:14:56.086667+00:00"
       }
     }
   },
@@ -881123,7 +881124,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T13:14:47.154501+00:00",
+  "updated_at": "2026-11-23T13:14:56.086695+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
