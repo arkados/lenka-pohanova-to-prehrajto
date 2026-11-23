@@ -856463,28 +856463,29 @@
           "at": "2026-11-23T00:12:36.095988+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "11e5bf6afec246d9b0fbffd304cd8bfc-worker-0",
-        "run_id": "45082791649",
-        "claimed_at": "2026-11-23T00:12:41.068759+00:00",
-        "lease_expires_at": "2026-11-23T06:12:41.068770+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31265729",
-        "size_bytes": 801338797
-      },
-      "transfer_receipt": {
-        "target_video_id": "31265729",
-        "size_bytes": 801338797,
-        "source_bytes_read": 801338797,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31265729",
         "source_bytes_read": 801338797,
         "elapsed_seconds": 62.789,
         "finished_at": "2026-11-23T00:14:36.034122+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31265729",
+          "size_bytes": 801338797,
+          "source_bytes_read": 801338797,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31901370",
+        "source_url": "https://sdilej.cz/31901370/strasidelny-hotel-s01e01-vitejte.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31265729",
+        "display_name": "Haunted Hotel S01E01 Welcome to the Undervale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T00:14:45.400394+00:00"
       }
     },
     "3644:1:2": {
@@ -856845,7 +856846,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T00:14:36.034140+00:00",
+  "updated_at": "2026-11-23T00:14:45.400410+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
