@@ -864627,12 +864627,6 @@
     },
     "1095:2:20": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e20",
-      "claim": {
-        "worker_id": "6becbc5b830a40238c170bb4ebd7f5d6-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T04:35:44.733536+00:00",
-        "lease_expires_at": "2026-11-23T10:35:44.733549+00:00"
-      },
       "source": {
         "source_id": "32952197",
         "source_url": "https://sdilej.cz/32952197/agenti-s-h-i-e-l-d-s02e20-1080p-cz.mkv",
@@ -864656,7 +864650,17 @@
         },
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S02E20 Scars 1080p CZ Dabing",
         "prepared_at": "2026-11-23T04:35:57.149517+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32952197:https://sdilej.cz/32952197/agenti-s-h-i-e-l-d-s02e20-1080p-cz.mkv",
+        "at": "2026-11-23T04:36:15.803068+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T04:36:15.803134+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1095:2:21": {
       "episode_key": "agenti s.h.i.e.l.d.:s2:e21",
@@ -864682,7 +864686,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T04:36:10.266053+00:00",
+  "updated_at": "2026-11-23T04:36:15.803143+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -865454,9 +865458,13 @@
         {
           "identity": "1095:2:16",
           "at": "2026-11-23T04:35:50.541772+00:00"
+        },
+        {
+          "identity": "1095:2:20",
+          "at": "2026-11-23T04:36:15.803068+00:00"
         }
       ],
-      "retry_after": "2026-11-23T04:28:18.143787+00:00"
+      "retry_after": "2026-11-23T04:46:15.803068+00:00"
     },
     "587": {
       "recent_failures": [
