@@ -861917,12 +861917,6 @@
     },
     "1239:2:15": {
       "episode_key": "prvních 100:s2:e15",
-      "claim": {
-        "worker_id": "f6d78c4b3334459c909a9a63e7870a80-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:15:53.610728+00:00",
-        "lease_expires_at": "2026-11-23T09:15:53.610746+00:00"
-      },
       "source": {
         "source_id": "34863180",
         "source_url": "https://sdilej.cz/34863180/prvnich-100-s02e15.avi",
@@ -861947,22 +861941,29 @@
         "display_name": "The 100 S02E15 Blood Must Have Blood (1) SD CZ Dabing",
         "prepared_at": "2026-11-23T03:16:07.515868+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270385",
-        "size_bytes": 309598412
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270385",
-        "size_bytes": 309598412,
-        "source_bytes_read": 309598412,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270385",
         "source_bytes_read": 309598412,
         "elapsed_seconds": 18.487,
         "finished_at": "2026-11-23T03:17:05.859395+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270385",
+          "size_bytes": 309598412,
+          "source_bytes_read": 309598412,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34863180",
+        "source_url": "https://sdilej.cz/34863180/prvnich-100-s02e15.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270385",
+        "display_name": "The 100 S02E15 Blood Must Have Blood (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-23T03:17:25.440632+00:00"
       }
     },
     "1239:3:5": {
@@ -862040,7 +862041,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:17:20.280536+00:00",
+  "updated_at": "2026-11-23T03:17:25.440650+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
