@@ -890761,16 +890761,6 @@
         "display_name": "Berlin Station S03E03 The Old Lie 1080p CZ Dabing",
         "prepared_at": "2026-11-23T19:20:49.366250+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31297935",
-        "size_bytes": 789599576
-      },
-      "transfer_receipt": {
-        "target_video_id": "31297935",
-        "size_bytes": 789599576,
-        "source_bytes_read": 789599576,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31297935",
         "source_bytes_read": 789599576,
@@ -890784,11 +890774,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "322358ead0864e5d9d8fd80c421929ea-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T21:11:33.437844+00:00",
-        "lease_expires_at": "2026-11-24T03:11:33.437857+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31297935",
+          "size_bytes": 789599576,
+          "source_bytes_read": 789599576,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30890958",
+        "source_url": "https://sdilej.cz/30890958/berlin-station-s03e03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31297935",
+        "display_name": "Berlin Station S03E03 The Old Lie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T21:11:40.091849+00:00"
       }
     }
   },
@@ -890797,7 +890798,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T21:11:33.437866+00:00",
+  "updated_at": "2026-11-23T21:11:40.091867+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
