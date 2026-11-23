@@ -890248,12 +890248,6 @@
     },
     "3016:1:5": {
       "episode_key": "berlínská mise:s1:e5",
-      "claim": {
-        "worker_id": "d5913489e2314b3aaa6ca7c659b7f86d-worker-0",
-        "run_id": "45225486737",
-        "claimed_at": "2026-11-23T18:35:39.795596+00:00",
-        "lease_expires_at": "2026-11-24T00:35:39.795609+00:00"
-      },
       "source": {
         "source_id": "32193997",
         "source_url": "https://sdilej.cz/32193997/berlin-station-s01e05.mp4",
@@ -890278,22 +890272,29 @@
         "display_name": "Berlin Station S01E05 Unter Druck 1080p CZ Dabing",
         "prepared_at": "2026-11-23T18:36:05.374803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31296408",
-        "size_bytes": 617435729
-      },
-      "transfer_receipt": {
-        "target_video_id": "31296408",
-        "size_bytes": 617435729,
-        "source_bytes_read": 617435729,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31296408",
         "source_bytes_read": 617435729,
         "elapsed_seconds": 52.447,
         "finished_at": "2026-11-23T18:37:34.948106+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31296408",
+          "size_bytes": 617435729,
+          "source_bytes_read": 617435729,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32193997",
+        "source_url": "https://sdilej.cz/32193997/berlin-station-s01e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31296408",
+        "display_name": "Berlin Station S01E05 Unter Druck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T18:37:55.159004+00:00"
       }
     }
   },
@@ -890302,7 +890303,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T18:37:47.797965+00:00",
+  "updated_at": "2026-11-23T18:37:55.159023+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
