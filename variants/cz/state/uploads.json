@@ -870359,12 +870359,6 @@
     },
     "174:1:1": {
       "episode_key": "i am not okay with this:s1:e1",
-      "claim": {
-        "worker_id": "19c3693230a64f1a8f73ef7e850466fa-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T07:43:43.179816+00:00",
-        "lease_expires_at": "2026-11-23T13:43:43.179828+00:00"
-      },
       "source": {
         "source_id": "13070428",
         "source_url": "https://sdilej.cz/13070428/i.am.not.okay.with.this.s01e01.cz.720p.web.x264-kreon.mkv",
@@ -870389,22 +870383,29 @@
         "display_name": "I Am Not Okay with This S01E01 Dear Diary… 720p CZ Dabing",
         "prepared_at": "2026-11-23T07:43:49.379001+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31277367",
-        "size_bytes": 556161829
-      },
-      "transfer_receipt": {
-        "target_video_id": "31277367",
-        "size_bytes": 556161829,
-        "source_bytes_read": 556161829,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31277367",
         "source_bytes_read": 556161829,
         "elapsed_seconds": 42.831,
         "finished_at": "2026-11-23T07:44:54.053384+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31277367",
+          "size_bytes": 556161829,
+          "source_bytes_read": 556161829,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13070428",
+        "source_url": "https://sdilej.cz/13070428/i.am.not.okay.with.this.s01e01.cz.720p.web.x264-kreon.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31277367",
+        "display_name": "I Am Not Okay with This S01E01 Dear Diary… 720p CZ Dabing",
+        "uploaded_at": "2026-11-23T07:45:03.941627+00:00"
       }
     }
   },
@@ -870413,7 +870414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T07:44:54.053404+00:00",
+  "updated_at": "2026-11-23T07:45:03.941642+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
