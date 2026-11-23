@@ -862472,12 +862472,6 @@
     },
     "1095:1:9": {
       "episode_key": "agenti s.h.i.e.l.d.:s1:e9",
-      "claim": {
-        "worker_id": "c9f033f033914889ae618785a6fc7c85-worker-0",
-        "run_id": "45091249453",
-        "claimed_at": "2026-11-23T03:32:51.198289+00:00",
-        "lease_expires_at": "2026-11-23T09:32:51.198302+00:00"
-      },
       "source": {
         "source_id": "35062078",
         "source_url": "https://sdilej.cz/35062078/agenti-s.h.i.e.l.d-s01e09-skody.mkv",
@@ -862502,22 +862496,29 @@
         "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E09 Repairs 1080p CZ Dabing",
         "prepared_at": "2026-11-23T03:33:14.271977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31270798",
-        "size_bytes": 918150513
-      },
-      "transfer_receipt": {
-        "target_video_id": "31270798",
-        "size_bytes": 918150513,
-        "source_bytes_read": 918150513,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31270798",
         "source_bytes_read": 918150513,
         "elapsed_seconds": 110.627,
         "finished_at": "2026-11-23T03:35:39.162359+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31270798",
+          "size_bytes": 918150513,
+          "source_bytes_read": 918150513,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35062078",
+        "source_url": "https://sdilej.cz/35062078/agenti-s.h.i.e.l.d-s01e09-skody.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31270798",
+        "display_name": "Marvel's Agents of S.H.I.E.L.D. S01E09 Repairs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T03:35:52.842963+00:00"
       }
     },
     "1095:1:10": {
@@ -862577,7 +862578,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T03:35:39.162381+00:00",
+  "updated_at": "2026-11-23T03:35:52.842982+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
