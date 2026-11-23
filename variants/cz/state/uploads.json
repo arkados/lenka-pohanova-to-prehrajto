@@ -880369,12 +880369,6 @@
     },
     "964:1:7": {
       "episode_key": "odstřelovač:s1:e7",
-      "claim": {
-        "worker_id": "053d8f36716649849da7d19addba5cdc-worker-0",
-        "run_id": "45143471890",
-        "claimed_at": "2026-11-23T12:56:17.564146+00:00",
-        "lease_expires_at": "2026-11-23T18:56:17.564165+00:00"
-      },
       "source": {
         "source_id": "30100766",
         "source_url": "https://sdilej.cz/30100766/odstrelovac.webrip.cz.s01e07.mkv",
@@ -880399,22 +880393,29 @@
         "display_name": "Shooter S01E07 Danger Close 1080p CZ Dabing",
         "prepared_at": "2026-11-23T12:56:36.442715+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31286428",
-        "size_bytes": 705126666
-      },
-      "transfer_receipt": {
-        "target_video_id": "31286428",
-        "size_bytes": 705126666,
-        "source_bytes_read": 705126666,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31286428",
         "source_bytes_read": 705126666,
         "elapsed_seconds": 116.023,
         "finished_at": "2026-11-23T12:59:12.498372+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31286428",
+          "size_bytes": 705126666,
+          "source_bytes_read": 705126666,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30100766",
+        "source_url": "https://sdilej.cz/30100766/odstrelovac.webrip.cz.s01e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31286428",
+        "display_name": "Shooter S01E07 Danger Close 1080p CZ Dabing",
+        "uploaded_at": "2026-11-23T12:59:26.813763+00:00"
       }
     },
     "964:1:6": {
@@ -880460,7 +880461,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T12:59:20.957667+00:00",
+  "updated_at": "2026-11-23T12:59:26.813782+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
