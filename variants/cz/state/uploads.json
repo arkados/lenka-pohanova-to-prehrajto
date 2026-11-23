@@ -873535,12 +873535,6 @@
     },
     "123:2:6": {
       "episode_key": "castle rock:s2:e6",
-      "claim": {
-        "worker_id": "4aa53f930142437aa6bf5372adcedcfd-worker-0",
-        "run_id": "45124094911",
-        "claimed_at": "2026-11-23T09:12:44.560524+00:00",
-        "lease_expires_at": "2026-11-23T15:12:44.560538+00:00"
-      },
       "source": {
         "source_id": "34120909",
         "source_url": "https://sdilej.cz/34120909/castle-rock-s02e06-cz-dabing-1080p-full-hd.mkv",
@@ -873564,7 +873558,17 @@
         },
         "display_name": "Castle Rock S02E06 The Mother 1080p CZ Dabing",
         "prepared_at": "2026-11-23T09:12:51.558480+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34120909:https://sdilej.cz/34120909/castle-rock-s02e06-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-23T09:13:08.487219+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-23T09:13:08.487250+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "123:2:7": {
       "episode_key": "castle rock:s2:e7",
@@ -873581,7 +873585,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-23T09:13:02.733383+00:00",
+  "updated_at": "2026-11-23T09:13:08.487255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -874372,6 +874376,10 @@
         {
           "identity": "123:2:4",
           "at": "2026-11-23T09:12:08.854257+00:00"
+        },
+        {
+          "identity": "123:2:6",
+          "at": "2026-11-23T09:13:08.487219+00:00"
         }
       ],
       "retry_after": "2026-11-23T09:11:05.487500+00:00"
