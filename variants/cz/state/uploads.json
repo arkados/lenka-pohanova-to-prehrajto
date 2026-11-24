@@ -911794,12 +911794,6 @@
     },
     "1556:3:3": {
       "episode_key": "zákon gangu: mayové:s3:e3",
-      "claim": {
-        "worker_id": "14ea0e88157645fa81dadf415a3dd95b-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:12:05.216349+00:00",
-        "lease_expires_at": "2026-11-24T16:12:05.216366+00:00"
-      },
       "source": {
         "source_id": "32826975",
         "source_url": "https://sdilej.cz/32826975/zakon-gangu-mayove-s03e03-cz-dabing.mkv",
@@ -911823,7 +911817,17 @@
         },
         "display_name": "Mayans M.C. S03E03 Overreaching Don't Pay 1080p CZ Dabing",
         "prepared_at": "2026-11-24T10:12:23.722582+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32826975:https://sdilej.cz/32826975/zakon-gangu-mayove-s03e03-cz-dabing.mkv",
+        "at": "2026-11-24T10:12:43.486560+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T10:12:43.486719+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1556:3:4": {
       "episode_key": "zákon gangu: mayové:s3:e4",
@@ -911840,7 +911844,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:12:37.629469+00:00",
+  "updated_at": "2026-11-24T10:12:43.486732+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -912692,19 +912696,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:2:2",
-          "at": "2026-11-24T10:10:07.180681+00:00"
-        },
-        {
           "identity": "1556:2:3",
           "at": "2026-11-24T10:11:08.327074+00:00"
         },
         {
           "identity": "1556:2:8",
           "at": "2026-11-24T10:12:37.629400+00:00"
+        },
+        {
+          "identity": "1556:3:3",
+          "at": "2026-11-24T10:12:43.486560+00:00"
         }
       ],
-      "retry_after": "2026-11-24T10:22:37.629400+00:00"
+      "retry_after": "2026-11-24T10:22:43.486560+00:00"
     }
   }
 }
