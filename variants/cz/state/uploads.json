@@ -912841,12 +912841,6 @@
     },
     "1035:3:20": {
       "episode_key": "dinosaurové:s3:e20",
-      "claim": {
-        "worker_id": "3fd0a26a0b4048e988b8225c734bc282-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:34:47.870840+00:00",
-        "lease_expires_at": "2026-11-24T16:34:47.870858+00:00"
-      },
       "source": {
         "source_id": "24710929",
         "source_url": "https://sdilej.cz/24710929/dinosaurove-3x20-nejsme-sami.avi",
@@ -912871,22 +912865,29 @@
         "display_name": "Dinosaurs S03E20 We Are Not Alone SD CZ Dabing",
         "prepared_at": "2026-11-24T10:34:55.656723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331514",
-        "size_bytes": 184104960
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331514",
-        "size_bytes": 184104960,
-        "source_bytes_read": 184104960,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331514",
         "source_bytes_read": 184104960,
         "elapsed_seconds": 16.711,
         "finished_at": "2026-11-24T10:35:48.330331+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331514",
+          "size_bytes": 184104960,
+          "source_bytes_read": 184104960,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710929",
+        "source_url": "https://sdilej.cz/24710929/dinosaurove-3x20-nejsme-sami.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331514",
+        "display_name": "Dinosaurs S03E20 We Are Not Alone SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:35:59.587569+00:00"
       }
     },
     "1986:1:1": {
@@ -912932,7 +912933,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:35:54.289612+00:00",
+  "updated_at": "2026-11-24T10:35:59.587585+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
