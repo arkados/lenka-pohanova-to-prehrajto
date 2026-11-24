@@ -897079,12 +897079,6 @@
     },
     "1435:4:17": {
       "episode_key": "magnum:s4:e17",
-      "claim": {
-        "worker_id": "22fbd5879dbe4a409f00c265eace7e09-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:33:58.018902+00:00",
-        "lease_expires_at": "2026-11-24T08:33:58.018917+00:00"
-      },
       "source": {
         "source_id": "30770913",
         "source_url": "https://sdilej.cz/30770913/magnum-s04e17.mkv",
@@ -897109,22 +897103,29 @@
         "display_name": "Magnum, P.I. S04E17 Let the Punishment Fit the Crime 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:34:04.908385+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316303",
-        "size_bytes": 904297638
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316303",
-        "size_bytes": 904297638,
-        "source_bytes_read": 904297638,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316303",
         "source_bytes_read": 904297638,
         "elapsed_seconds": 64.841,
         "finished_at": "2026-11-24T02:35:39.823132+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316303",
+          "size_bytes": 904297638,
+          "source_bytes_read": 904297638,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770913",
+        "source_url": "https://sdilej.cz/30770913/magnum-s04e17.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316303",
+        "display_name": "Magnum, P.I. S04E17 Let the Punishment Fit the Crime 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:35:48.088694+00:00"
       }
     },
     "1435:4:18": {
@@ -897170,7 +897171,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:35:39.823156+00:00",
+  "updated_at": "2026-11-24T02:35:48.088711+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
