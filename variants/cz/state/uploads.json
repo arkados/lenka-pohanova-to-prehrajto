@@ -894382,12 +894382,6 @@
     },
     "1435:2:7": {
       "episode_key": "magnum:s2:e7",
-      "claim": {
-        "worker_id": "ac88e39ec47040439d5c0ab95a87b895-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:14:08.070930+00:00",
-        "lease_expires_at": "2026-11-24T07:14:08.070948+00:00"
-      },
       "source": {
         "source_id": "30770389",
         "source_url": "https://sdilej.cz/30770389/magnum-s02e07.mkv",
@@ -894412,22 +894406,29 @@
         "display_name": "Magnum, P.I. S02E07 Tropical Madness 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:14:33.266666+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313734",
-        "size_bytes": 782760497
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313734",
-        "size_bytes": 782760497,
-        "source_bytes_read": 782760497,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313734",
         "source_bytes_read": 782760497,
         "elapsed_seconds": 52.793,
         "finished_at": "2026-11-24T01:16:01.702801+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313734",
+          "size_bytes": 782760497,
+          "source_bytes_read": 782760497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770389",
+        "source_url": "https://sdilej.cz/30770389/magnum-s02e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313734",
+        "display_name": "Magnum, P.I. S02E07 Tropical Madness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:16:13.611945+00:00"
       }
     }
   },
@@ -894436,7 +894437,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:16:07.416897+00:00",
+  "updated_at": "2026-11-24T01:16:13.611964+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
