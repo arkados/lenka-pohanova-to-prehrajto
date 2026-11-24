@@ -925474,16 +925474,6 @@
         "display_name": "Jurassic World Camp Cretaceous S04E07 Staying Alive 1080p CZ Dabing",
         "prepared_at": "2026-11-24T21:39:05.354649+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31349813",
-        "size_bytes": 582722404
-      },
-      "transfer_receipt": {
-        "target_video_id": "31349813",
-        "size_bytes": 582722404,
-        "source_bytes_read": 582722404,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31349813",
         "source_bytes_read": 582722404,
@@ -925497,11 +925487,22 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "55613a32f3de43dead8988cbd7b99e07-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T22:36:42.567606+00:00",
-        "lease_expires_at": "2026-11-25T04:36:42.567625+00:00"
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31349813",
+          "size_bytes": 582722404,
+          "source_bytes_read": 582722404,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30019784",
+        "source_url": "https://sdilej.cz/30019784/jursky-svet-kridovy-kemp-s04e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31349813",
+        "display_name": "Jurassic World Camp Cretaceous S04E07 Staying Alive 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T22:36:54.338686+00:00"
       }
     }
   },
@@ -925510,7 +925511,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T22:36:48.522988+00:00",
+  "updated_at": "2026-11-24T22:36:54.338706+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
