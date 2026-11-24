@@ -892722,12 +892722,6 @@
     },
     "642:1:8": {
       "episode_key": "země nikoho:s1:e8",
-      "claim": {
-        "worker_id": "658c154b716e4c3f886e54151fcbc47f-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:31:37.677882+00:00",
-        "lease_expires_at": "2026-11-24T06:31:37.677898+00:00"
-      },
       "source": {
         "source_id": "30612351",
         "source_url": "https://sdilej.cz/30612351/zeme.nikoho.no.man-s.land.s01e08.2020.eridanus.hd1080.dab.cz.-.sub.cz.mkv",
@@ -892752,22 +892746,29 @@
         "display_name": "No Man's Land S01E08 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:31:54.599202+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31312334",
-        "size_bytes": 1280551993
-      },
-      "transfer_receipt": {
-        "target_video_id": "31312334",
-        "size_bytes": 1280551993,
-        "source_bytes_read": 1280551993,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31312334",
         "source_bytes_read": 1280551993,
         "elapsed_seconds": 140.329,
         "finished_at": "2026-11-24T00:34:52.345621+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31312334",
+          "size_bytes": 1280551993,
+          "source_bytes_read": 1280551993,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30612351",
+        "source_url": "https://sdilej.cz/30612351/zeme.nikoho.no.man-s.land.s01e08.2020.eridanus.hd1080.dab.cz.-.sub.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31312334",
+        "display_name": "No Man's Land S01E08 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:35:04.434187+00:00"
       }
     },
     "642:2:1": {
@@ -892914,7 +892915,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:34:58.899353+00:00",
+  "updated_at": "2026-11-24T00:35:04.434206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
