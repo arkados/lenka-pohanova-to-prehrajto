@@ -895294,12 +895294,6 @@
     },
     "1435:3:4": {
       "episode_key": "magnum:s3:e4",
-      "claim": {
-        "worker_id": "de644ab758b44e8ebf80f1cbd4d3a294-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:40:17.872503+00:00",
-        "lease_expires_at": "2026-11-24T07:40:17.872520+00:00"
-      },
       "source": {
         "source_id": "30770605",
         "source_url": "https://sdilej.cz/30770605/magnum-s03e04.mkv",
@@ -895324,22 +895318,29 @@
         "display_name": "Magnum, P.I. S03E04 The Eighth Part of the Village 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:40:24.721335+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314486",
-        "size_bytes": 728006994
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314486",
-        "size_bytes": 728006994,
-        "source_bytes_read": 728006994,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314486",
         "source_bytes_read": 728006994,
         "elapsed_seconds": 64.705,
         "finished_at": "2026-11-24T01:42:10.476149+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314486",
+          "size_bytes": 728006994,
+          "source_bytes_read": 728006994,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770605",
+        "source_url": "https://sdilej.cz/30770605/magnum-s03e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314486",
+        "display_name": "Magnum, P.I. S03E04 The Eighth Part of the Village 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:42:28.524200+00:00"
       }
     },
     "1435:3:5": {
@@ -895385,7 +895386,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:42:22.688606+00:00",
+  "updated_at": "2026-11-24T01:42:28.524217+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
