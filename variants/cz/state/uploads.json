@@ -922294,12 +922294,6 @@
     },
     "9698:1:58": {
       "episode_key": "letohrátky:s1:e58",
-      "claim": {
-        "worker_id": "58de37fa4ccd4a179a5829d79597b378-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:27:19.092343+00:00",
-        "lease_expires_at": "2026-11-24T21:27:19.092354+00:00"
-      },
       "source": {
         "source_id": "31605411",
         "source_url": "https://sdilej.cz/31605411/letohratky-s01e58-cesta-do-tramtarabie.mkv",
@@ -922324,22 +922318,29 @@
         "display_name": "TaleSpin S01E58 The Sound and the Furry SD CZ Dabing",
         "prepared_at": "2026-11-24T15:27:48.546113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340991",
-        "size_bytes": 535279371
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340991",
-        "size_bytes": 535279371,
-        "source_bytes_read": 535279371,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340991",
         "source_bytes_read": 535279371,
         "elapsed_seconds": 38.459,
         "finished_at": "2026-11-24T15:28:58.185949+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340991",
+          "size_bytes": 535279371,
+          "source_bytes_read": 535279371,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31605411",
+        "source_url": "https://sdilej.cz/31605411/letohratky-s01e58-cesta-do-tramtarabie.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340991",
+        "display_name": "TaleSpin S01E58 The Sound and the Furry SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:29:18.272912+00:00"
       }
     },
     "9698:1:59": {
@@ -922399,7 +922400,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:29:12.443681+00:00",
+  "updated_at": "2026-11-24T15:29:18.272926+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
