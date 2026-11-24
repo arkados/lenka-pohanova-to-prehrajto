@@ -898297,12 +898297,6 @@
     },
     "1435:5:20": {
       "episode_key": "magnum:s5:e20",
-      "claim": {
-        "worker_id": "ce51e08c074847c2b77deef3443afff3-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:01:34.290681+00:00",
-        "lease_expires_at": "2026-11-24T09:01:34.290693+00:00"
-      },
       "source": {
         "source_id": "30771110",
         "source_url": "https://sdilej.cz/30771110/magnum-s05e20.mkv",
@@ -898327,22 +898321,29 @@
         "display_name": "Magnum, P.I. S05E20 The Man from Marseilles 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:01:48.735856+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317229",
-        "size_bytes": 549233985
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317229",
-        "size_bytes": 549233985,
-        "source_bytes_read": 549233985,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317229",
         "source_bytes_read": 549233985,
         "elapsed_seconds": 47.058,
         "finished_at": "2026-11-24T03:03:12.616261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317229",
+          "size_bytes": 549233985,
+          "source_bytes_read": 549233985,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771110",
+        "source_url": "https://sdilej.cz/30771110/magnum-s05e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317229",
+        "display_name": "Magnum, P.I. S05E20 The Man from Marseilles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:03:33.172556+00:00"
       }
     },
     "1435:5:21": {
@@ -898439,7 +898440,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:03:27.420245+00:00",
+  "updated_at": "2026-11-24T03:03:33.172572+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
