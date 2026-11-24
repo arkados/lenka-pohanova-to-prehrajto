@@ -903781,28 +903781,29 @@
           "at": "2026-11-24T20:13:46.910736+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "96e69cd0590245229bdcad566ef23da3-worker-0",
-        "run_id": "45451407444",
-        "claimed_at": "2026-11-24T20:13:52.414347+00:00",
-        "lease_expires_at": "2026-11-25T02:13:52.414363+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31348091",
-        "size_bytes": 1653659714
-      },
-      "transfer_receipt": {
-        "target_video_id": "31348091",
-        "size_bytes": 1653659714,
-        "source_bytes_read": 1653659714,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31348091",
         "source_bytes_read": 1653659714,
         "elapsed_seconds": 232.801,
         "finished_at": "2026-11-24T20:18:25.989315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31348091",
+          "size_bytes": 1653659714,
+          "source_bytes_read": 1653659714,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31643402",
+        "source_url": "https://sdilej.cz/31643402/zakon-gangu-mayove-2018-s01e06-czdab-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31348091",
+        "display_name": "Mayans M.C. S01E06 Gato/Mis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T20:18:42.294907+00:00"
       }
     },
     "1556:1:7": {
@@ -925190,7 +925191,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T20:18:36.716837+00:00",
+  "updated_at": "2026-11-24T20:18:42.294915+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
