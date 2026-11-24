@@ -911297,12 +911297,6 @@
     },
     "1556:3:2": {
       "episode_key": "zákon gangu: mayové:s3:e2",
-      "claim": {
-        "worker_id": "b38bc64931a146649734853c4c2ec8ec-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:57:58.464246+00:00",
-        "lease_expires_at": "2026-11-24T15:57:58.464260+00:00"
-      },
       "source": {
         "source_id": "32826939",
         "source_url": "https://sdilej.cz/32826939/zakon-gangu-mayove-s03e02-cz-dabing.mkv",
@@ -911326,7 +911320,17 @@
         },
         "display_name": "Mayans M.C. S03E02 The Orneriness of Kings 1080p CZ Dabing",
         "prepared_at": "2026-11-24T09:58:04.787192+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32826939:https://sdilej.cz/32826939/zakon-gangu-mayove-s03e02-cz-dabing.mkv",
+        "at": "2026-11-24T09:58:24.587972+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T09:58:24.589554+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -911334,7 +911338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:58:17.507059+00:00",
+  "updated_at": "2026-11-24T09:58:24.589560+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -912198,19 +912202,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:2:7",
-          "at": "2026-11-24T09:56:53.721374+00:00"
-        },
-        {
           "identity": "1556:2:10",
           "at": "2026-11-24T09:57:24.920020+00:00"
         },
         {
           "identity": "1556:3:1",
           "at": "2026-11-24T09:58:10.560126+00:00"
+        },
+        {
+          "identity": "1556:3:2",
+          "at": "2026-11-24T09:58:24.587972+00:00"
         }
       ],
-      "retry_after": "2026-11-24T10:08:10.560126+00:00"
+      "retry_after": "2026-11-24T10:08:24.587972+00:00"
     }
   }
 }
