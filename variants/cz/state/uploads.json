@@ -906592,12 +906592,6 @@
     },
     "9684:2:10": {
       "episode_key": "tučňáci z madagaskaru:s2:e10",
-      "claim": {
-        "worker_id": "02fd62fa5f15420792d45803362a13db-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T07:05:57.004181+00:00",
-        "lease_expires_at": "2026-11-24T13:05:57.004201+00:00"
-      },
       "source": {
         "source_id": "28216611",
         "source_url": "https://sdilej.cz/28216611/tucnaci-z-madagaskaru-s02e10-cz.mkv",
@@ -906622,22 +906616,29 @@
         "display_name": "The Penguins of Madagascar S02E10 Mr. Tux 1080p CZ Dabing",
         "prepared_at": "2026-11-24T07:06:11.130006+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31325268",
-        "size_bytes": 420356522
-      },
-      "transfer_receipt": {
-        "target_video_id": "31325268",
-        "size_bytes": 420356522,
-        "source_bytes_read": 420356522,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31325268",
         "source_bytes_read": 420356522,
         "elapsed_seconds": 42.092,
         "finished_at": "2026-11-24T07:07:22.784817+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31325268",
+          "size_bytes": 420356522,
+          "source_bytes_read": 420356522,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216611",
+        "source_url": "https://sdilej.cz/28216611/tucnaci-z-madagaskaru-s02e10-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31325268",
+        "display_name": "The Penguins of Madagascar S02E10 Mr. Tux 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T07:07:40.055507+00:00"
       }
     },
     "9684:2:12": {
@@ -906696,7 +906697,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T07:07:27.977461+00:00",
+  "updated_at": "2026-11-24T07:07:40.055525+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
