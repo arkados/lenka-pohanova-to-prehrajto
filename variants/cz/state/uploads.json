@@ -919134,12 +919134,6 @@
     },
     "410:2:12": {
       "episode_key": "star trek: fenomén:s2:e12",
-      "claim": {
-        "worker_id": "59b62e87809d4a7f95756dd79a506190-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:53:46.947962+00:00",
-        "lease_expires_at": "2026-11-24T19:53:46.947979+00:00"
-      },
       "source": {
         "source_id": "34880222",
         "source_url": "https://sdilej.cz/34880222/star.trek.fenomen.s02e12.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -919164,22 +919158,29 @@
         "display_name": "Star Trek: Prodigy S02E12 Last Flight of the Protostar (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:53:53.791260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31337894",
-        "size_bytes": 204360475
-      },
-      "transfer_receipt": {
-        "target_video_id": "31337894",
-        "size_bytes": 204360475,
-        "source_bytes_read": 204360475,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31337894",
         "source_bytes_read": 204360475,
         "elapsed_seconds": 30.088,
         "finished_at": "2026-11-24T13:54:55.388310+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31337894",
+          "size_bytes": 204360475,
+          "source_bytes_read": 204360475,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34880222",
+        "source_url": "https://sdilej.cz/34880222/star.trek.fenomen.s02e12.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31337894",
+        "display_name": "Star Trek: Prodigy S02E12 Last Flight of the Protostar (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T13:55:07.648714+00:00"
       }
     }
   },
@@ -919188,7 +919189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:55:01.685970+00:00",
+  "updated_at": "2026-11-24T13:55:07.648734+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
