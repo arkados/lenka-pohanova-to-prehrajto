@@ -922923,12 +922923,6 @@
     },
     "10465:1:4": {
       "episode_key": "jízda o život:s1:e4",
-      "claim": {
-        "worker_id": "24cb0eab6e8241658dc4cfda695f9bc3-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:46:16.116599+00:00",
-        "lease_expires_at": "2026-11-24T21:46:16.116611+00:00"
-      },
       "source": {
         "source_id": "34673861",
         "source_url": "https://sdilej.cz/34673861/jizda-o-zivot-s01e04-spanelsky-vezen-ride-or-die-2026-1080p-h264-cz.mkv",
@@ -922953,22 +922947,29 @@
         "display_name": "Ride or Die S01E04 The Spanish Prisoner 1080p CZ Dabing",
         "prepared_at": "2026-11-24T15:46:32.153958+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341478",
-        "size_bytes": 2691352684
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341478",
-        "size_bytes": 2691352684,
-        "source_bytes_read": 2691352684,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341478",
         "source_bytes_read": 2691352684,
         "elapsed_seconds": 311.112,
         "finished_at": "2026-11-24T15:52:13.340060+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341478",
+          "size_bytes": 2691352684,
+          "source_bytes_read": 2691352684,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34673861",
+        "source_url": "https://sdilej.cz/34673861/jizda-o-zivot-s01e04-spanelsky-vezen-ride-or-die-2026-1080p-h264-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341478",
+        "display_name": "Ride or Die S01E04 The Spanish Prisoner 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T15:52:21.338063+00:00"
       }
     },
     "10465:1:5": {
@@ -923116,7 +923117,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:52:13.340081+00:00",
+  "updated_at": "2026-11-24T15:52:21.338079+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
