@@ -901006,12 +901006,6 @@
     },
     "1435:8:10": {
       "episode_key": "magnum:s8:e10",
-      "claim": {
-        "worker_id": "6b78f40e7fda4b0999d592fdea7fda7b-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:16:43.279486+00:00",
-        "lease_expires_at": "2026-11-24T10:16:43.279504+00:00"
-      },
       "source": {
         "source_id": "30752408",
         "source_url": "https://sdilej.cz/30752408/magnum-magnum-p.i.-s08e10-legenda-ztracenych-archu.mkv",
@@ -901036,22 +901030,29 @@
         "display_name": "Magnum, P.I. S08E10 Legend of the Lost Art SD CZ Dabing",
         "prepared_at": "2026-11-24T04:17:00.480106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319751",
-        "size_bytes": 212729359
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319751",
-        "size_bytes": 212729359,
-        "source_bytes_read": 212729359,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319751",
         "source_bytes_read": 212729359,
         "elapsed_seconds": 20.329,
         "finished_at": "2026-11-24T04:17:42.858203+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319751",
+          "size_bytes": 212729359,
+          "source_bytes_read": 212729359,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30752408",
+        "source_url": "https://sdilej.cz/30752408/magnum-magnum-p.i.-s08e10-legenda-ztracenych-archu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319751",
+        "display_name": "Magnum, P.I. S08E10 Legend of the Lost Art SD CZ Dabing",
+        "uploaded_at": "2026-11-24T04:17:58.670427+00:00"
       }
     }
   },
@@ -901060,7 +901061,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:17:53.064506+00:00",
+  "updated_at": "2026-11-24T04:17:58.670443+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
