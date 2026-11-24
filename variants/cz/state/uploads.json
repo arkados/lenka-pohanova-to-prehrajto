@@ -893842,12 +893842,6 @@
     },
     "1435:1:15": {
       "episode_key": "magnum:s1:e15",
-      "claim": {
-        "worker_id": "c88625d7161742179372157d194e6158-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:57:26.338223+00:00",
-        "lease_expires_at": "2026-11-24T06:57:26.338239+00:00"
-      },
       "source": {
         "source_id": "30770322",
         "source_url": "https://sdilej.cz/30770322/magnum-s01e15.mkv",
@@ -893872,22 +893866,29 @@
         "display_name": "Magnum, P.I. S01E15 Don't Say Goodbye 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:57:32.940494+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313057",
-        "size_bytes": 855024055
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313057",
-        "size_bytes": 855024055,
-        "source_bytes_read": 855024055,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313057",
         "source_bytes_read": 855024055,
         "elapsed_seconds": 70.589,
         "finished_at": "2026-11-24T00:59:14.426283+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313057",
+          "size_bytes": 855024055,
+          "source_bytes_read": 855024055,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770322",
+        "source_url": "https://sdilej.cz/30770322/magnum-s01e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313057",
+        "display_name": "Magnum, P.I. S01E15 Don't Say Goodbye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:59:22.895012+00:00"
       }
     }
   },
@@ -893896,7 +893897,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:59:14.426310+00:00",
+  "updated_at": "2026-11-24T00:59:22.895029+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
