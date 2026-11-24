@@ -927960,12 +927960,6 @@
     },
     "610:1:5": {
       "episode_key": "noční agent:s1:e5",
-      "claim": {
-        "worker_id": "6ef982e741b84711b7f0e985b042a1ad-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:57:14.252945+00:00",
-        "lease_expires_at": "2026-11-25T05:57:14.252963+00:00"
-      },
       "source": {
         "source_id": "33323982",
         "source_url": "https://sdilej.cz/33323982/nocni-agent-s01e05-1080p-cz-loutka.mkv",
@@ -927990,22 +927984,29 @@
         "display_name": "The Night Agent S01E05 The Marionette 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:57:21.679888+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353637",
-        "size_bytes": 490288166
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353637",
-        "size_bytes": 490288166,
-        "source_bytes_read": 490288166,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353637",
         "source_bytes_read": 490288166,
         "elapsed_seconds": 33.75,
         "finished_at": "2026-11-24T23:58:27.798689+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353637",
+          "size_bytes": 490288166,
+          "source_bytes_read": 490288166,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33323982",
+        "source_url": "https://sdilej.cz/33323982/nocni-agent-s01e05-1080p-cz-loutka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353637",
+        "display_name": "The Night Agent S01E05 The Marionette 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T23:58:37.153032+00:00"
       }
     }
   },
@@ -928014,7 +928015,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:58:27.798709+00:00",
+  "updated_at": "2026-11-24T23:58:37.153047+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
