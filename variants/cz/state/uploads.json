@@ -916068,12 +916068,6 @@
     },
     "570:2:4": {
       "episode_key": "chameleon:s2:e4",
-      "claim": {
-        "worker_id": "3d6936d02ba44d629d1bc217b1ce8036-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:32:49.330757+00:00",
-        "lease_expires_at": "2026-11-24T18:32:49.330773+00:00"
-      },
       "source": {
         "source_id": "24807279",
         "source_url": "https://sdilej.cz/24807279/chameleon-2x04-odhaleni.avi",
@@ -916098,22 +916092,29 @@
         "display_name": "The Pretender S02E04 Exposed SD CZ Dabing",
         "prepared_at": "2026-11-24T12:33:03.527078+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31335516",
-        "size_bytes": 414973952
-      },
-      "transfer_receipt": {
-        "target_video_id": "31335516",
-        "size_bytes": 414973952,
-        "source_bytes_read": 414973952,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31335516",
         "source_bytes_read": 414973952,
         "elapsed_seconds": 39.54,
         "finished_at": "2026-11-24T12:34:24.328020+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31335516",
+          "size_bytes": 414973952,
+          "source_bytes_read": 414973952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24807279",
+        "source_url": "https://sdilej.cz/24807279/chameleon-2x04-odhaleni.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31335516",
+        "display_name": "The Pretender S02E04 Exposed SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:34:38.856490+00:00"
       }
     },
     "570:2:5": {
@@ -916209,7 +916210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:34:32.631677+00:00",
+  "updated_at": "2026-11-24T12:34:38.856509+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
