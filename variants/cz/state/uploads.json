@@ -914081,12 +914081,6 @@
     },
     "1556:3:5": {
       "episode_key": "zákon gangu: mayové:s3:e5",
-      "claim": {
-        "worker_id": "c21358163bc1408f90e0e1f80551a2ba-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:30:45.788029+00:00",
-        "lease_expires_at": "2026-11-24T17:30:45.788047+00:00"
-      },
       "source": {
         "source_id": "32827007",
         "source_url": "https://sdilej.cz/32827007/zakon-gangu-mayove-s03e05-cz-dabing.mkv",
@@ -914110,7 +914104,17 @@
         },
         "display_name": "Mayans M.C. S03E05 Dark, Deep-Laid Plans 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:31:05.164813+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32827007:https://sdilej.cz/32827007/zakon-gangu-mayove-s03e05-cz-dabing.mkv",
+        "at": "2026-11-24T11:31:26.020202+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T11:31:26.020275+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "669:1:4": {
       "episode_key": "na tenkém ledě:s1:e4",
@@ -914136,7 +914140,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:31:19.843757+00:00",
+  "updated_at": "2026-11-24T11:31:26.020281+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -914992,19 +914996,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:1:10",
-          "at": "2026-11-24T11:30:04.390179+00:00"
-        },
-        {
           "identity": "1556:2:9",
           "at": "2026-11-24T11:30:51.638257+00:00"
         },
         {
           "identity": "1556:3:4",
           "at": "2026-11-24T11:30:58.064483+00:00"
+        },
+        {
+          "identity": "1556:3:5",
+          "at": "2026-11-24T11:31:26.020202+00:00"
         }
       ],
-      "retry_after": "2026-11-24T11:40:58.064483+00:00"
+      "retry_after": "2026-11-24T11:41:26.020202+00:00"
     }
   }
 }
