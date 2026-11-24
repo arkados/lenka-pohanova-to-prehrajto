@@ -594614,13 +594614,9 @@
       },
       "source_repair_requested": {
         "base": "35339712:https://sdilej.cz/35339712/9-1-1-s03e16-cz-dabing.mkv",
-        "at": "2026-11-24T10:01:12.264772+00:00"
+        "at": "2026-11-24T11:02:19.813791+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-24T07:33:39.889221+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-24T08:34:30.083113+00:00",
           "error": "SourceUnavailable"
@@ -594628,14 +594624,12 @@
         {
           "at": "2026-11-24T10:01:12.264802+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-24T11:02:19.813838+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "23f76379689843f89e88225080e96a78-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:01:31.398475+00:00",
-        "lease_expires_at": "2026-11-24T17:01:31.398491+00:00"
-      }
+      ]
     },
     "1765:3:18": {
       "episode_key": "záchranáři l. a.:s3:e18",
@@ -913643,7 +913637,8 @@
         "prepared_at": "2026-11-24T11:01:52.514762+00:00"
       },
       "prepared_target": {
-        "creation_intent": true
+        "target_video_id": "31332246",
+        "size_bytes": 408224304
       }
     }
   },
@@ -913652,7 +913647,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:02:11.691527+00:00",
+  "updated_at": "2026-11-24T11:02:19.813844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -914076,6 +914071,10 @@
         {
           "identity": "1765:3:18",
           "at": "2026-11-24T11:02:11.691468+00:00"
+        },
+        {
+          "identity": "1765:3:16",
+          "at": "2026-11-24T11:02:19.813791+00:00"
         }
       ],
       "retry_after": "2026-11-24T10:59:51.783489+00:00"
