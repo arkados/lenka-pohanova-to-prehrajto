@@ -926617,12 +926617,6 @@
     },
     "244:1:2": {
       "episode_key": "proč? 13x proto:s1:e2",
-      "claim": {
-        "worker_id": "972a9feb5f624445a17bd2132604dcfa-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T22:56:35.237030+00:00",
-        "lease_expires_at": "2026-11-25T04:56:35.237050+00:00"
-      },
       "source": {
         "source_id": "32962820",
         "source_url": "https://sdilej.cz/32962820/proc-13x-proto-s01e02-cz-dabing-1080p.mkv",
@@ -926646,7 +926640,17 @@
         },
         "display_name": "13 Reasons Why S01E02 Tape 1, Side B 1080p CZ Dabing",
         "prepared_at": "2026-11-24T22:56:48.902010+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32962820:https://sdilej.cz/32962820/proc-13x-proto-s01e02-cz-dabing-1080p.mkv",
+        "at": "2026-11-24T22:57:03.761680+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T22:57:03.761715+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -926654,7 +926658,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T22:56:55.651550+00:00",
+  "updated_at": "2026-11-24T22:57:03.761721+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927571,6 +927575,10 @@
         {
           "identity": "244:1:1",
           "at": "2026-11-24T22:56:41.240278+00:00"
+        },
+        {
+          "identity": "244:1:2",
+          "at": "2026-11-24T22:57:03.761680+00:00"
         }
       ]
     }
