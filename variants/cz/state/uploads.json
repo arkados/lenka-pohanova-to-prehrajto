@@ -912637,12 +912637,6 @@
     },
     "1035:3:15": {
       "episode_key": "dinosaurové:s3:e15",
-      "claim": {
-        "worker_id": "215e202f63a04f9f8c2a87572aedf873-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:31:54.607080+00:00",
-        "lease_expires_at": "2026-11-24T16:31:54.607098+00:00"
-      },
       "source": {
         "source_id": "24710869",
         "source_url": "https://sdilej.cz/24710869/dinosaurove-3x15-svalovcem-snadno-a-rychle.avi",
@@ -912667,22 +912661,29 @@
         "display_name": "Dinosaurs S03E15 Steroids to Heaven SD CZ Dabing",
         "prepared_at": "2026-11-24T10:32:25.710404+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331442",
-        "size_bytes": 183920640
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331442",
-        "size_bytes": 183920640,
-        "source_bytes_read": 183920640,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331442",
         "source_bytes_read": 183920640,
         "elapsed_seconds": 11.017,
         "finished_at": "2026-11-24T10:33:12.913843+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331442",
+          "size_bytes": 183920640,
+          "source_bytes_read": 183920640,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710869",
+        "source_url": "https://sdilej.cz/24710869/dinosaurove-3x15-svalovcem-snadno-a-rychle.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331442",
+        "display_name": "Dinosaurs S03E15 Steroids to Heaven SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:33:26.854317+00:00"
       }
     },
     "1035:3:12": {
@@ -912778,7 +912779,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:33:19.414814+00:00",
+  "updated_at": "2026-11-24T10:33:26.854333+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
