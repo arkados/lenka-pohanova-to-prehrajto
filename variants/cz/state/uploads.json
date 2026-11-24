@@ -920605,12 +920605,6 @@
     },
     "9698:1:24": {
       "episode_key": "letohrátky:s1:e24",
-      "claim": {
-        "worker_id": "3eb3bf9fdf854ec6889da043a88b222a-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T14:43:46.661550+00:00",
-        "lease_expires_at": "2026-11-24T20:43:46.661560+00:00"
-      },
       "source": {
         "source_id": "31604904",
         "source_url": "https://sdilej.cz/31604904/letohratky-s01e24-neni-vsechno-zlato-co-se-trpyti.mkv",
@@ -920635,22 +920629,29 @@
         "display_name": "TaleSpin S01E24 A Touch of Glass SD CZ Dabing",
         "prepared_at": "2026-11-24T14:44:00.163332+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31339627",
-        "size_bytes": 537070750
-      },
-      "transfer_receipt": {
-        "target_video_id": "31339627",
-        "size_bytes": 537070750,
-        "source_bytes_read": 537070750,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31339627",
         "source_bytes_read": 537070750,
         "elapsed_seconds": 25.864,
         "finished_at": "2026-11-24T14:45:08.062646+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31339627",
+          "size_bytes": 537070750,
+          "source_bytes_read": 537070750,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31604904",
+        "source_url": "https://sdilej.cz/31604904/letohratky-s01e24-neni-vsechno-zlato-co-se-trpyti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31339627",
+        "display_name": "TaleSpin S01E24 A Touch of Glass SD CZ Dabing",
+        "uploaded_at": "2026-11-24T14:45:21.375295+00:00"
       }
     },
     "9698:1:25": {
@@ -920729,7 +920730,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:45:15.398334+00:00",
+  "updated_at": "2026-11-24T14:45:21.375307+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
