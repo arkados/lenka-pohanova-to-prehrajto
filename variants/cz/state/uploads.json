@@ -916578,12 +916578,6 @@
     },
     "570:3:6": {
       "episode_key": "chameleon:s3:e6",
-      "claim": {
-        "worker_id": "d2f41ff773c24cf3ab24af2fd1dd5848-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:42:28.259336+00:00",
-        "lease_expires_at": "2026-11-24T18:42:28.259351+00:00"
-      },
       "source": {
         "source_id": "15060042",
         "source_url": "https://sdilej.cz/15060042/chameleon-03x06-v-podmince.avi",
@@ -916608,22 +916602,29 @@
         "display_name": "The Pretender S03E06 Parole SD CZ Dabing",
         "prepared_at": "2026-11-24T12:42:40.191866+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31335821",
-        "size_bytes": 357683200
-      },
-      "transfer_receipt": {
-        "target_video_id": "31335821",
-        "size_bytes": 357683200,
-        "source_bytes_read": 357683200,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31335821",
         "source_bytes_read": 357683200,
         "elapsed_seconds": 27.285,
         "finished_at": "2026-11-24T12:43:50.192668+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31335821",
+          "size_bytes": 357683200,
+          "source_bytes_read": 357683200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15060042",
+        "source_url": "https://sdilej.cz/15060042/chameleon-03x06-v-podmince.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31335821",
+        "display_name": "The Pretender S03E06 Parole SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:44:08.828164+00:00"
       }
     },
     "570:3:5": {
@@ -916682,7 +916683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:44:02.581513+00:00",
+  "updated_at": "2026-11-24T12:44:08.828183+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
