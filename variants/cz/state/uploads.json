@@ -895849,12 +895849,6 @@
     },
     "1435:3:14": {
       "episode_key": "magnum:s3:e14",
-      "claim": {
-        "worker_id": "5fbeeb3a291640708ff9a0b8bd11cd45-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:54:58.804192+00:00",
-        "lease_expires_at": "2026-11-24T07:54:58.804206+00:00"
-      },
       "source": {
         "source_id": "32876590",
         "source_url": "https://sdilej.cz/32876590/magnum-p.i.-s03e14-cz-whispers-of-death.mkv",
@@ -895879,22 +895873,29 @@
         "display_name": "Magnum, P.I. S03E14 The Arrow That Is Not Aimed 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:55:17.341289+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315001",
-        "size_bytes": 2574138310
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315001",
-        "size_bytes": 2574138310,
-        "source_bytes_read": 2574138310,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315001",
         "source_bytes_read": 2574138310,
         "elapsed_seconds": 167.131,
         "finished_at": "2026-11-24T01:58:39.090377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315001",
+          "size_bytes": 2574138310,
+          "source_bytes_read": 2574138310,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876590",
+        "source_url": "https://sdilej.cz/32876590/magnum-p.i.-s03e14-cz-whispers-of-death.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315001",
+        "display_name": "Magnum, P.I. S03E14 The Arrow That Is Not Aimed 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:58:58.192313+00:00"
       }
     },
     "1435:3:16": {
@@ -895940,7 +895941,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:58:52.409609+00:00",
+  "updated_at": "2026-11-24T01:58:58.192328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
