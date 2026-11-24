@@ -922084,12 +922084,6 @@
     },
     "9698:1:54": {
       "episode_key": "letohrátky:s1:e54",
-      "claim": {
-        "worker_id": "7be0cb5091ab4ec8bf19fbe3aab36264-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:24:35.885293+00:00",
-        "lease_expires_at": "2026-11-24T21:24:35.885304+00:00"
-      },
       "source": {
         "source_id": "31605371",
         "source_url": "https://sdilej.cz/31605371/letohratky-s01e54-pred-osudem-neuteces.mkv",
@@ -922114,22 +922108,29 @@
         "display_name": "TaleSpin S01E54 Bullethead Baloo SD CZ Dabing",
         "prepared_at": "2026-11-24T15:24:55.029796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340930",
-        "size_bytes": 533171962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340930",
-        "size_bytes": 533171962,
-        "source_bytes_read": 533171962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340930",
         "source_bytes_read": 533171962,
         "elapsed_seconds": 30.584,
         "finished_at": "2026-11-24T15:26:00.357748+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340930",
+          "size_bytes": 533171962,
+          "source_bytes_read": 533171962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31605371",
+        "source_url": "https://sdilej.cz/31605371/letohratky-s01e54-pred-osudem-neuteces.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340930",
+        "display_name": "TaleSpin S01E54 Bullethead Baloo SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:26:15.313673+00:00"
       }
     },
     "9698:1:55": {
@@ -922212,7 +922213,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:26:06.464074+00:00",
+  "updated_at": "2026-11-24T15:26:15.313688+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
