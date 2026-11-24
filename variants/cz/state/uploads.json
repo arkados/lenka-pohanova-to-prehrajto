@@ -916221,12 +916221,6 @@
     },
     "570:2:10": {
       "episode_key": "chameleon:s2:e10",
-      "claim": {
-        "worker_id": "e856d237f15f4a46b19187ba2ea8b132-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:35:06.852633+00:00",
-        "lease_expires_at": "2026-11-24T18:35:06.852646+00:00"
-      },
       "source": {
         "source_id": "7081711",
         "source_url": "https://sdilej.cz/7081711/chameleon-02x10-zavody.avi",
@@ -916251,22 +916245,29 @@
         "display_name": "The Pretender S02E10 Indy Show SD CZ Dabing",
         "prepared_at": "2026-11-24T12:35:14.579164+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31335600",
-        "size_bytes": 367050752
-      },
-      "transfer_receipt": {
-        "target_video_id": "31335600",
-        "size_bytes": 367050752,
-        "source_bytes_read": 367050752,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31335600",
         "source_bytes_read": 367050752,
         "elapsed_seconds": 33.103,
         "finished_at": "2026-11-24T12:36:26.120987+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31335600",
+          "size_bytes": 367050752,
+          "source_bytes_read": 367050752,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7081711",
+        "source_url": "https://sdilej.cz/7081711/chameleon-02x10-zavody.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31335600",
+        "display_name": "The Pretender S02E10 Indy Show SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:36:35.430122+00:00"
       }
     },
     "570:2:12": {
@@ -916349,7 +916350,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:36:26.121008+00:00",
+  "updated_at": "2026-11-24T12:36:35.430140+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
