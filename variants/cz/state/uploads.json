@@ -908810,12 +908810,6 @@
     },
     "9684:3:1": {
       "episode_key": "tučňáci z madagaskaru:s3:e1",
-      "claim": {
-        "worker_id": "ebe3179d7bc64b22a06f8bfb9db4ede5-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T08:31:29.999875+00:00",
-        "lease_expires_at": "2026-11-24T14:31:29.999886+00:00"
-      },
       "source": {
         "source_id": "33133958",
         "source_url": "https://sdilej.cz/33133958/tucnaci-z-madagaskaru-3x01-dycinky-micinky.avi",
@@ -908840,22 +908834,29 @@
         "display_name": "The Penguins of Madagascar S03E01 Feline Fervor SD CZ Dabing",
         "prepared_at": "2026-11-24T08:31:36.425352+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31327866",
-        "size_bytes": 92293120
-      },
-      "transfer_receipt": {
-        "target_video_id": "31327866",
-        "size_bytes": 92293120,
-        "source_bytes_read": 92293120,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31327866",
         "source_bytes_read": 92293120,
         "elapsed_seconds": 7.173,
         "finished_at": "2026-11-24T08:32:17.046302+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31327866",
+          "size_bytes": 92293120,
+          "source_bytes_read": 92293120,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33133958",
+        "source_url": "https://sdilej.cz/33133958/tucnaci-z-madagaskaru-3x01-dycinky-micinky.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31327866",
+        "display_name": "The Penguins of Madagascar S03E01 Feline Fervor SD CZ Dabing",
+        "uploaded_at": "2026-11-24T08:32:40.323693+00:00"
       }
     },
     "9684:3:2": {
@@ -908901,7 +908902,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T08:32:34.770853+00:00",
+  "updated_at": "2026-11-24T08:32:40.323709+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
