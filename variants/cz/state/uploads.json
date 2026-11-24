@@ -903862,28 +903862,29 @@
           "at": "2026-11-24T20:17:46.283479+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c884f6486a334cb9bc7a8719c4b685f3-worker-0",
-        "run_id": "45451407444",
-        "claimed_at": "2026-11-24T20:17:51.385527+00:00",
-        "lease_expires_at": "2026-11-25T02:17:51.385544+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31348244",
-        "size_bytes": 2045700029
-      },
-      "transfer_receipt": {
-        "target_video_id": "31348244",
-        "size_bytes": 2045700029,
-        "source_bytes_read": 2045700029,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31348244",
         "source_bytes_read": 2045700029,
         "elapsed_seconds": 157.875,
         "finished_at": "2026-11-24T20:21:31.654009+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31348244",
+          "size_bytes": 2045700029,
+          "source_bytes_read": 2045700029,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34771931",
+        "source_url": "https://sdilej.cz/34771931/mayans.m.c.s01e07.1080p.10bit.webrip.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31348244",
+        "display_name": "Mayans M.C. S01E07 Cucaracha/K'uruch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T20:21:55.202520+00:00"
       }
     },
     "1556:1:8": {
@@ -925224,7 +925225,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T20:21:49.529684+00:00",
+  "updated_at": "2026-11-24T20:21:55.202535+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
