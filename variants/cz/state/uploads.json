@@ -920373,12 +920373,6 @@
     },
     "9698:1:20": {
       "episode_key": "letohrátky:s1:e20",
-      "claim": {
-        "worker_id": "c94f3e9639a645ac813314b3e0e32d82-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:26:13.591735+00:00",
-        "lease_expires_at": "2026-11-24T20:26:13.591750+00:00"
-      },
       "source": {
         "source_id": "33756020",
         "source_url": "https://sdilej.cz/33756020/letohratky-s01e20-020-1990-fhd-nejlepsi-pilot-na-svete-i.-s-.mp4",
@@ -920403,22 +920397,29 @@
         "display_name": "TaleSpin S01E20 A Bad Reflection on You (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:26:21.577490+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31339012",
-        "size_bytes": 479463605
-      },
-      "transfer_receipt": {
-        "target_video_id": "31339012",
-        "size_bytes": 479463605,
-        "source_bytes_read": 479463605,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31339012",
         "source_bytes_read": 479463605,
         "elapsed_seconds": 27.285,
         "finished_at": "2026-11-24T14:27:13.335464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31339012",
+          "size_bytes": 479463605,
+          "source_bytes_read": 479463605,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756020",
+        "source_url": "https://sdilej.cz/33756020/letohratky-s01e20-020-1990-fhd-nejlepsi-pilot-na-svete-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31339012",
+        "display_name": "TaleSpin S01E20 A Bad Reflection on You (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:27:21.869648+00:00"
       }
     }
   },
@@ -920427,7 +920428,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:27:13.335484+00:00",
+  "updated_at": "2026-11-24T14:27:21.869666+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
