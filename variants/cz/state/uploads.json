@@ -914840,12 +914840,6 @@
     },
     "742:1:5": {
       "episode_key": "bílá princezna:s1:e5",
-      "claim": {
-        "worker_id": "994f325beb8d4114be1ffd290f1f1752-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:53:50.098950+00:00",
-        "lease_expires_at": "2026-11-24T17:53:50.098967+00:00"
-      },
       "source": {
         "source_id": "30661212",
         "source_url": "https://sdilej.cz/30661212/bila-princezna-the-white-princess-s01e05-1080p-8bit-amzn-webrip-ac3-x265-hevc-czaudio.mkv",
@@ -914870,22 +914864,29 @@
         "display_name": "The White Princess S01E05 Traitors 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:54:07.316641+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333897",
-        "size_bytes": 1439981282
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333897",
-        "size_bytes": 1439981282,
-        "source_bytes_read": 1439981282,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333897",
         "source_bytes_read": 1439981282,
         "elapsed_seconds": 98.962,
         "finished_at": "2026-11-24T11:56:15.422616+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333897",
+          "size_bytes": 1439981282,
+          "source_bytes_read": 1439981282,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661212",
+        "source_url": "https://sdilej.cz/30661212/bila-princezna-the-white-princess-s01e05-1080p-8bit-amzn-webrip-ac3-x265-hevc-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333897",
+        "display_name": "The White Princess S01E05 Traitors 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:56:29.852743+00:00"
       }
     },
     "742:1:6": {
@@ -914967,7 +914968,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:56:22.590548+00:00",
+  "updated_at": "2026-11-24T11:56:29.852760+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
