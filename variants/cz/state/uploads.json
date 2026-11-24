@@ -910664,12 +910664,6 @@
     },
     "1283:3:1": {
       "episode_key": "rodiče:s3:e1",
-      "claim": {
-        "worker_id": "5a8ed03004544d22b2d9d792c9430054-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:45:57.285262+00:00",
-        "lease_expires_at": "2026-11-24T15:45:57.285276+00:00"
-      },
       "source": {
         "source_id": "28202823",
         "source_url": "https://sdilej.cz/28202823/rodice-s03e01-cz-dab-1080p-10kbs.mp4",
@@ -910694,22 +910688,29 @@
         "display_name": "Breeders S03E01 No Direction Home 720p CZ Dabing",
         "prepared_at": "2026-11-24T09:46:19.982126+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31330175",
-        "size_bytes": 194009403
-      },
-      "transfer_receipt": {
-        "target_video_id": "31330175",
-        "size_bytes": 194009403,
-        "source_bytes_read": 194009403,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31330175",
         "source_bytes_read": 194009403,
         "elapsed_seconds": 17.436,
         "finished_at": "2026-11-24T09:47:06.431571+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31330175",
+          "size_bytes": 194009403,
+          "source_bytes_read": 194009403,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202823",
+        "source_url": "https://sdilej.cz/28202823/rodice-s03e01-cz-dab-1080p-10kbs.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31330175",
+        "display_name": "Breeders S03E01 No Direction Home 720p CZ Dabing",
+        "uploaded_at": "2026-11-24T09:47:27.274412+00:00"
       }
     },
     "1283:3:2": {
@@ -910769,7 +910770,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:47:21.299651+00:00",
+  "updated_at": "2026-11-24T09:47:27.274430+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
