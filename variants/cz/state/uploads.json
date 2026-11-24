@@ -906296,12 +906296,6 @@
     },
     "1556:2:5": {
       "episode_key": "zákon gangu: mayové:s2:e5",
-      "claim": {
-        "worker_id": "d67ab75ffcc5465f9f976f82de188a8d-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T06:55:11.972285+00:00",
-        "lease_expires_at": "2026-11-24T12:55:11.972305+00:00"
-      },
       "source": {
         "source_id": "27556440",
         "source_url": "https://sdilej.cz/27556440/zakon-gangu-mayove-mayans-m.c.-s02e05-hd-5.1-cz-dabing.mkv",
@@ -906326,22 +906320,29 @@
         "display_name": "Mayans M.C. S02E05 Xquic 1080p CZ Dabing",
         "prepared_at": "2026-11-24T06:55:18.557188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31324990",
-        "size_bytes": 3107217142
-      },
-      "transfer_receipt": {
-        "target_video_id": "31324990",
-        "size_bytes": 3107217142,
-        "source_bytes_read": 3107217142,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31324990",
         "source_bytes_read": 3107217142,
         "elapsed_seconds": 213.408,
         "finished_at": "2026-11-24T06:59:17.145894+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31324990",
+          "size_bytes": 3107217142,
+          "source_bytes_read": 3107217142,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27556440",
+        "source_url": "https://sdilej.cz/27556440/zakon-gangu-mayove-mayans-m.c.-s02e05-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31324990",
+        "display_name": "Mayans M.C. S02E05 Xquic 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T06:59:39.550760+00:00"
       }
     },
     "1556:2:6": {
@@ -906438,7 +906439,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T06:59:32.941691+00:00",
+  "updated_at": "2026-11-24T06:59:39.550781+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
