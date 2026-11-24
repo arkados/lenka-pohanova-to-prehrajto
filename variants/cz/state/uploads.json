@@ -895186,12 +895186,6 @@
     },
     "1435:3:2": {
       "episode_key": "magnum:s3:e2",
-      "claim": {
-        "worker_id": "593a2155de83439186f2fb719eaac134-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:37:59.174558+00:00",
-        "lease_expires_at": "2026-11-24T07:37:59.174571+00:00"
-      },
       "source": {
         "source_id": "30770572",
         "source_url": "https://sdilej.cz/30770572/magnum-s03e02.mkv",
@@ -895216,22 +895210,29 @@
         "display_name": "Magnum, P.I. S03E02 Did You See the Sunrise? (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:38:17.231623+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314401",
-        "size_bytes": 780343503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314401",
-        "size_bytes": 780343503,
-        "source_bytes_read": 780343503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314401",
         "source_bytes_read": 780343503,
         "elapsed_seconds": 67.092,
         "finished_at": "2026-11-24T01:39:56.388344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314401",
+          "size_bytes": 780343503,
+          "source_bytes_read": 780343503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770572",
+        "source_url": "https://sdilej.cz/30770572/magnum-s03e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314401",
+        "display_name": "Magnum, P.I. S03E02 Did You See the Sunrise? (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:40:06.044566+00:00"
       }
     },
     "1435:3:3": {
@@ -895277,7 +895278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:39:56.388368+00:00",
+  "updated_at": "2026-11-24T01:40:06.044593+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
