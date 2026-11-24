@@ -903033,12 +903033,6 @@
     },
     "195:1:13": {
       "episode_key": "arabela:s1:e13",
-      "claim": {
-        "worker_id": "ee4ed1f48a4f4ee59ef3bc3a2c95d349-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:23:35.926720+00:00",
-        "lease_expires_at": "2026-11-24T11:23:35.926739+00:00"
-      },
       "source": {
         "source_id": "27634135",
         "source_url": "https://sdilej.cz/27634135/arabela-1980-s01e13-1980-hd-cz-dabing.mkv",
@@ -903063,22 +903057,29 @@
         "display_name": "Arabela S01E13 Zvonečkem to začalo, zvonečkem to končí 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:23:53.369606+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31321919",
-        "size_bytes": 4889093642
-      },
-      "transfer_receipt": {
-        "target_video_id": "31321919",
-        "size_bytes": 4889093642,
-        "source_bytes_read": 4889093642,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31321919",
         "source_bytes_read": 4889093642,
         "elapsed_seconds": 324.523,
         "finished_at": "2026-11-24T05:29:42.624776+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31321919",
+          "size_bytes": 4889093642,
+          "source_bytes_read": 4889093642,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27634135",
+        "source_url": "https://sdilej.cz/27634135/arabela-1980-s01e13-1980-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31321919",
+        "display_name": "Arabela S01E13 Zvonečkem to začalo, zvonečkem to končí 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T05:29:55.250328+00:00"
       }
     },
     "1556:1:1": {
@@ -903212,7 +903213,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:29:47.867280+00:00",
+  "updated_at": "2026-11-24T05:29:55.250350+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
