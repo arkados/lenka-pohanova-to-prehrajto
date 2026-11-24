@@ -914622,12 +914622,6 @@
     },
     "742:1:1": {
       "episode_key": "bílá princezna:s1:e1",
-      "claim": {
-        "worker_id": "ffd09f1971c44b0b97ee74e96c3e9f8d-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:48:42.651148+00:00",
-        "lease_expires_at": "2026-11-24T17:48:42.651165+00:00"
-      },
       "source": {
         "source_id": "30661202",
         "source_url": "https://sdilej.cz/30661202/bila-princezna-the-white-princess-s01e01-1080p-8bit-amzn-webrip-ac3-x265-hevc-czaudio.mkv",
@@ -914652,22 +914646,29 @@
         "display_name": "The White Princess S01E01 In Bed with the Enemy 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:48:54.898143+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333748",
-        "size_bytes": 1447632879
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333748",
-        "size_bytes": 1447632879,
-        "source_bytes_read": 1447632879,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333748",
         "source_bytes_read": 1447632879,
         "elapsed_seconds": 108.601,
         "finished_at": "2026-11-24T11:51:16.459532+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333748",
+          "size_bytes": 1447632879,
+          "source_bytes_read": 1447632879,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30661202",
+        "source_url": "https://sdilej.cz/30661202/bila-princezna-the-white-princess-s01e01-1080p-8bit-amzn-webrip-ac3-x265-hevc-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333748",
+        "display_name": "The White Princess S01E01 In Bed with the Enemy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:51:24.747247+00:00"
       }
     },
     "742:1:2": {
@@ -914713,7 +914714,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:51:16.459551+00:00",
+  "updated_at": "2026-11-24T11:51:24.747369+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
