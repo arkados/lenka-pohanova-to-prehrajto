@@ -920656,12 +920656,6 @@
     },
     "9698:1:25": {
       "episode_key": "letohrátky:s1:e25",
-      "claim": {
-        "worker_id": "abb6cf4e7c024a04967d28bffcb15b3a-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T14:44:14.642181+00:00",
-        "lease_expires_at": "2026-11-24T20:44:14.642191+00:00"
-      },
       "source": {
         "source_id": "31604906",
         "source_url": "https://sdilej.cz/31604906/letohratky-s01e25-cim-vetsi-prase-tim-vice-spase.mkv",
@@ -920686,22 +920680,29 @@
         "display_name": "TaleSpin S01E25 The Bigger They Are, the Louder They Oink SD CZ Dabing",
         "prepared_at": "2026-11-24T14:44:36.094160+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31339649",
-        "size_bytes": 534082122
-      },
-      "transfer_receipt": {
-        "target_video_id": "31339649",
-        "size_bytes": 534082122,
-        "source_bytes_read": 534082122,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31339649",
         "source_bytes_read": 534082122,
         "elapsed_seconds": 89.411,
         "finished_at": "2026-11-24T14:46:31.822910+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31339649",
+          "size_bytes": 534082122,
+          "source_bytes_read": 534082122,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31604906",
+        "source_url": "https://sdilej.cz/31604906/letohratky-s01e25-cim-vetsi-prase-tim-vice-spase.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31339649",
+        "display_name": "TaleSpin S01E25 The Bigger They Are, the Louder They Oink SD CZ Dabing",
+        "uploaded_at": "2026-11-24T14:46:40.845379+00:00"
       }
     },
     "9698:1:26": {
@@ -920784,7 +920785,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:46:31.822925+00:00",
+  "updated_at": "2026-11-24T14:46:40.845399+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
