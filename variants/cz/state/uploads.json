@@ -926834,12 +926834,6 @@
     },
     "1556:3:9": {
       "episode_key": "zákon gangu: mayové:s3:e9",
-      "claim": {
-        "worker_id": "3b058894618f490da055b29abd60488f-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:08:01.580560+00:00",
-        "lease_expires_at": "2026-11-25T05:08:01.580578+00:00"
-      },
       "source": {
         "source_id": "32829337",
         "source_url": "https://sdilej.cz/32829337/zakon-gangu-mayove-s03e09-cz-dabing.mkv",
@@ -926863,7 +926857,17 @@
         },
         "display_name": "Mayans M.C. S03E09 The House of Death Floats By 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:08:20.120674+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32829337:https://sdilej.cz/32829337/zakon-gangu-mayove-s03e09-cz-dabing.mkv",
+        "at": "2026-11-24T23:08:39.563222+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T23:08:39.563294+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1556:3:10": {
       "episode_key": "zákon gangu: mayové:s3:e10",
@@ -926889,7 +926893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:08:34.023291+00:00",
+  "updated_at": "2026-11-24T23:08:39.563303+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927751,9 +927755,13 @@
         {
           "identity": "1556:3:8",
           "at": "2026-11-24T23:06:55.519349+00:00"
+        },
+        {
+          "identity": "1556:3:9",
+          "at": "2026-11-24T23:08:39.563222+00:00"
         }
       ],
-      "retry_after": "2026-11-24T22:58:07.999946+00:00"
+      "retry_after": "2026-11-24T23:18:39.563222+00:00"
     },
     "410": {
       "recent_failures": [
