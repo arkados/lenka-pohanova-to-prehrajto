@@ -893346,12 +893346,6 @@
     },
     "1435:1:5": {
       "episode_key": "magnum:s1:e5",
-      "claim": {
-        "worker_id": "a6050766284b414286d9cf81cd0354b1-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:45:47.395285+00:00",
-        "lease_expires_at": "2026-11-24T06:45:47.395299+00:00"
-      },
       "source": {
         "source_id": "30770263",
         "source_url": "https://sdilej.cz/30770263/magnum-s01e05.mkv",
@@ -893376,22 +893370,29 @@
         "display_name": "Magnum, P.I. S01E05 No Need to Know 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:46:14.096038+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31312761",
-        "size_bytes": 730564947
-      },
-      "transfer_receipt": {
-        "target_video_id": "31312761",
-        "size_bytes": 730564947,
-        "source_bytes_read": 730564947,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31312761",
         "source_bytes_read": 730564947,
         "elapsed_seconds": 92.116,
         "finished_at": "2026-11-24T00:48:15.220143+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31312761",
+          "size_bytes": 730564947,
+          "source_bytes_read": 730564947,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770263",
+        "source_url": "https://sdilej.cz/30770263/magnum-s01e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31312761",
+        "display_name": "Magnum, P.I. S01E05 No Need to Know 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:48:30.276267+00:00"
       }
     },
     "1435:1:6": {
@@ -893437,7 +893438,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:48:21.587895+00:00",
+  "updated_at": "2026-11-24T00:48:30.276293+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
