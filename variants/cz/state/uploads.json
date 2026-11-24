@@ -922946,12 +922946,6 @@
     },
     "10465:1:5": {
       "episode_key": "jízda o život:s1:e5",
-      "claim": {
-        "worker_id": "a28103ea4f164df3a9be03eeb27b02f6-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:46:26.828408+00:00",
-        "lease_expires_at": "2026-11-24T21:46:26.828417+00:00"
-      },
       "source": {
         "source_id": "34710885",
         "source_url": "https://sdilej.cz/34710885/ride-or-die-s01e05-cz-dabing-2160p-ultra-hd.mkv",
@@ -922975,7 +922969,17 @@
         },
         "display_name": "Ride or Die S01E05 The Count of Monte Carlo 4K CZ Dabing",
         "prepared_at": "2026-11-24T15:46:38.032745+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34710885:https://sdilej.cz/34710885/ride-or-die-s01e05-cz-dabing-2160p-ultra-hd.mkv",
+        "at": "2026-11-24T15:46:56.971197+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T15:46:56.971250+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -922983,7 +922987,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:46:51.345952+00:00",
+  "updated_at": "2026-11-24T15:46:56.971255+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -923866,8 +923870,13 @@
         {
           "identity": "10465:1:2",
           "at": "2026-11-24T15:45:55.521086+00:00"
+        },
+        {
+          "identity": "10465:1:5",
+          "at": "2026-11-24T15:46:56.971197+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-24T15:56:56.971197+00:00"
     }
   }
 }
