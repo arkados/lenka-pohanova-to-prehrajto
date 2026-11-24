@@ -901417,12 +901417,6 @@
     },
     "4693:1:1": {
       "episode_key": "mcdonaldová a dodds:s1:e1",
-      "claim": {
-        "worker_id": "4372852ad9f3400e9988e69f145e34df-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:24:27.527352+00:00",
-        "lease_expires_at": "2026-11-24T10:24:27.527371+00:00"
-      },
       "source": {
         "source_id": "29666363",
         "source_url": "https://sdilej.cz/29666363/mcdonaldova-a-dodds-s01e01-pad-domu-crockettu.mp4",
@@ -901447,22 +901441,29 @@
         "display_name": "McDonald & Dodds S01E01 The Fall of the House of Crockett 720p CZ Dabing",
         "prepared_at": "2026-11-24T04:24:37.703840+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31320082",
-        "size_bytes": 1165920298
-      },
-      "transfer_receipt": {
-        "target_video_id": "31320082",
-        "size_bytes": 1165920298,
-        "source_bytes_read": 1165920298,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31320082",
         "source_bytes_read": 1165920298,
         "elapsed_seconds": 164.577,
         "finished_at": "2026-11-24T04:27:53.184377+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31320082",
+          "size_bytes": 1165920298,
+          "source_bytes_read": 1165920298,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29666363",
+        "source_url": "https://sdilej.cz/29666363/mcdonaldova-a-dodds-s01e01-pad-domu-crockettu.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31320082",
+        "display_name": "McDonald & Dodds S01E01 The Fall of the House of Crockett 720p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:28:01.707145+00:00"
       }
     },
     "4693:1:2": {
@@ -901545,7 +901546,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:27:53.184399+00:00",
+  "updated_at": "2026-11-24T04:28:01.707174+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
