@@ -901213,12 +901213,6 @@
     },
     "6161:2:1": {
       "episode_key": "vídeňská krev:s2:e1",
-      "claim": {
-        "worker_id": "9a0b41b594494cc495fc75307b78c870-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:21:11.054938+00:00",
-        "lease_expires_at": "2026-11-24T10:21:11.054955+00:00"
-      },
       "source": {
         "source_id": "33264151",
         "source_url": "https://sdilej.cz/33264151/videnska-krev-s02e01-cz-dabing.mkv",
@@ -901242,7 +901236,17 @@
         },
         "display_name": "Vienna Blood S02E01 The Melancholy Countess 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:21:33.516683+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33264151:https://sdilej.cz/33264151/videnska-krev-s02e01-cz-dabing.mkv",
+        "at": "2026-11-24T04:21:47.024224+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T04:21:47.024290+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -901250,7 +901254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:21:38.583244+00:00",
+  "updated_at": "2026-11-24T04:21:47.024296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -902115,8 +902119,13 @@
         {
           "identity": "6161:1:2",
           "at": "2026-11-24T04:20:28.388313+00:00"
+        },
+        {
+          "identity": "6161:2:1",
+          "at": "2026-11-24T04:21:47.024224+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-24T04:31:47.024224+00:00"
     }
   }
 }
