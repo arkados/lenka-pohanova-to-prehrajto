@@ -926760,12 +926760,6 @@
     },
     "1556:3:7": {
       "episode_key": "zákon gangu: mayové:s3:e7",
-      "claim": {
-        "worker_id": "b3fcfa43e3584f2f9975f45f64145fb7-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:06:03.550412+00:00",
-        "lease_expires_at": "2026-11-25T05:06:03.550430+00:00"
-      },
       "source": {
         "source_id": "32827367",
         "source_url": "https://sdilej.cz/32827367/zakon-gangu-mayove-s03e07-cz-dabing.mkv",
@@ -926789,7 +926783,17 @@
         },
         "display_name": "Mayans M.C. S03E07 What Comes of Handlin' Snakeskin 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:06:21.871986+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32827367:https://sdilej.cz/32827367/zakon-gangu-mayove-s03e07-cz-dabing.mkv",
+        "at": "2026-11-24T23:06:41.556660+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T23:06:41.556696+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1556:3:8": {
       "episode_key": "zákon gangu: mayové:s3:e8",
@@ -926830,7 +926834,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:06:34.381520+00:00",
+  "updated_at": "2026-11-24T23:06:41.556701+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927686,12 +927690,8 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:2:8",
-          "at": "2026-11-24T22:59:59.982335+00:00"
-        },
-        {
-          "identity": "1556:3:5",
-          "at": "2026-11-24T23:00:12.596458+00:00"
+          "identity": "1556:3:7",
+          "at": "2026-11-24T23:06:41.556660+00:00"
         }
       ],
       "retry_after": "2026-11-24T22:58:07.999946+00:00"
