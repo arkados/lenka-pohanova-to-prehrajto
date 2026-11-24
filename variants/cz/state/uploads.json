@@ -923293,12 +923293,6 @@
     },
     "239:1:2": {
       "episode_key": "heweliusz:s1:e2",
-      "claim": {
-        "worker_id": "4df88c92bed9433ab16a5a164c02584f-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T16:00:59.422748+00:00",
-        "lease_expires_at": "2026-11-24T22:00:59.422761+00:00"
-      },
       "source": {
         "source_id": "32350700",
         "source_url": "https://sdilej.cz/32350700/heweliusz-s01e02-2025-drama-cz.mp4",
@@ -923323,22 +923317,29 @@
         "display_name": "Heweliusz S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-24T16:01:09.539551+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341844",
-        "size_bytes": 1308766448
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341844",
-        "size_bytes": 1308766448,
-        "source_bytes_read": 1308766448,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341844",
         "source_bytes_read": 1308766448,
         "elapsed_seconds": 100.245,
         "finished_at": "2026-11-24T16:03:20.368533+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341844",
+          "size_bytes": 1308766448,
+          "source_bytes_read": 1308766448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32350700",
+        "source_url": "https://sdilej.cz/32350700/heweliusz-s01e02-2025-drama-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341844",
+        "display_name": "Heweliusz S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T16:03:42.557957+00:00"
       }
     },
     "239:1:3": {
@@ -923384,7 +923385,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T16:03:36.349155+00:00",
+  "updated_at": "2026-11-24T16:03:42.557974+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
