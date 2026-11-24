@@ -901729,12 +901729,6 @@
     },
     "6161:2:3": {
       "episode_key": "vídeňská krev:s2:e3",
-      "claim": {
-        "worker_id": "42d1eb5bad174105ae8839996159a0a9-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:34:02.960394+00:00",
-        "lease_expires_at": "2026-11-24T10:34:02.960414+00:00"
-      },
       "source": {
         "source_id": "19212772",
         "source_url": "https://sdilej.cz/19212772/videnska.krev.02x03.1080i.hevc.hdtv.cz.mkv",
@@ -901759,22 +901753,29 @@
         "display_name": "Vienna Blood S02E03 Darkness Rising 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:34:09.316943+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31320481",
-        "size_bytes": 1025814847
-      },
-      "transfer_receipt": {
-        "target_video_id": "31320481",
-        "size_bytes": 1025814847,
-        "source_bytes_read": 1025814847,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31320481",
         "source_bytes_read": 1025814847,
         "elapsed_seconds": 80.173,
         "finished_at": "2026-11-24T04:35:55.343677+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31320481",
+          "size_bytes": 1025814847,
+          "source_bytes_read": 1025814847,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "19212772",
+        "source_url": "https://sdilej.cz/19212772/videnska.krev.02x03.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31320481",
+        "display_name": "Vienna Blood S02E03 Darkness Rising 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:36:10.520429+00:00"
       }
     }
   },
@@ -901783,7 +901784,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:36:05.311711+00:00",
+  "updated_at": "2026-11-24T04:36:10.520449+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
