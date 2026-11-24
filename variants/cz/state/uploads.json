@@ -919377,12 +919377,6 @@
     },
     "410:2:17": {
       "episode_key": "star trek: fenomén:s2:e17",
-      "claim": {
-        "worker_id": "74074a4f766941dcb221543cbc118547-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:58:05.274022+00:00",
-        "lease_expires_at": "2026-11-24T19:58:05.274037+00:00"
-      },
       "source": {
         "source_id": "34880264",
         "source_url": "https://sdilej.cz/34880264/star.trek.fenomen.s02e17.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -919407,22 +919401,29 @@
         "display_name": "Star Trek: Prodigy S02E17 Brink 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:58:28.392013+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338085",
-        "size_bytes": 243445361
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338085",
-        "size_bytes": 243445361,
-        "source_bytes_read": 243445361,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338085",
         "source_bytes_read": 243445361,
         "elapsed_seconds": 24.067,
         "finished_at": "2026-11-24T13:59:34.010371+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338085",
+          "size_bytes": 243445361,
+          "source_bytes_read": 243445361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34880264",
+        "source_url": "https://sdilej.cz/34880264/star.trek.fenomen.s02e17.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338085",
+        "display_name": "Star Trek: Prodigy S02E17 Brink 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T13:59:52.548072+00:00"
       }
     },
     "410:2:18": {
@@ -919501,7 +919502,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:59:46.832772+00:00",
+  "updated_at": "2026-11-24T13:59:52.548089+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
