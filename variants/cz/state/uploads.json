@@ -922702,12 +922702,6 @@
     },
     "4928:1:8": {
       "episode_key": "vraždy ve stratfordu:s1:e8",
-      "claim": {
-        "worker_id": "6b101ec640ca4866a6688b669d7945a4-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:41:48.146125+00:00",
-        "lease_expires_at": "2026-11-24T21:41:48.146134+00:00"
-      },
       "source": {
         "source_id": "10295099",
         "source_url": "https://sdilej.cz/10295099/vrazdy.ve.stratfordu.01x08.hdtv.cz.avi",
@@ -922732,22 +922726,29 @@
         "display_name": "Shakespeare & Hathaway - Private Investigators S01E08 The Chameleon's Dish SD CZ Dabing",
         "prepared_at": "2026-11-24T15:42:02.173132+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341338",
-        "size_bytes": 716610360
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341338",
-        "size_bytes": 716610360,
-        "source_bytes_read": 716610360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341338",
         "source_bytes_read": 716610360,
         "elapsed_seconds": 72.872,
         "finished_at": "2026-11-24T15:43:54.179268+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341338",
+          "size_bytes": 716610360,
+          "source_bytes_read": 716610360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10295099",
+        "source_url": "https://sdilej.cz/10295099/vrazdy.ve.stratfordu.01x08.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341338",
+        "display_name": "Shakespeare & Hathaway - Private Investigators S01E08 The Chameleon's Dish SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:44:11.592822+00:00"
       }
     },
     "4928:1:9": {
@@ -922789,7 +922790,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:44:06.002741+00:00",
+  "updated_at": "2026-11-24T15:44:11.592837+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
