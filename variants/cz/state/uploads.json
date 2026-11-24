@@ -917298,12 +917298,6 @@
     },
     "570:4:10": {
       "episode_key": "chameleon:s4:e10",
-      "claim": {
-        "worker_id": "7a9abf58155943cd9adefef8b61077c5-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:59:09.549041+00:00",
-        "lease_expires_at": "2026-11-24T18:59:09.549055+00:00"
-      },
       "source": {
         "source_id": "4674586",
         "source_url": "https://sdilej.cz/4674586/chameleon-04x10-expert.avi",
@@ -917328,22 +917322,29 @@
         "display_name": "The Pretender S04E10 Spin Doctor (I) SD CZ Dabing",
         "prepared_at": "2026-11-24T12:59:18.304606+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336280",
-        "size_bytes": 359200768
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336280",
-        "size_bytes": 359200768,
-        "source_bytes_read": 359200768,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336280",
         "source_bytes_read": 359200768,
         "elapsed_seconds": 27.294,
         "finished_at": "2026-11-24T13:00:30.428736+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336280",
+          "size_bytes": 359200768,
+          "source_bytes_read": 359200768,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "4674586",
+        "source_url": "https://sdilej.cz/4674586/chameleon-04x10-expert.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336280",
+        "display_name": "The Pretender S04E10 Spin Doctor (I) SD CZ Dabing",
+        "uploaded_at": "2026-11-24T13:00:37.670527+00:00"
       }
     },
     "570:4:11": {
@@ -917389,7 +917390,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:00:30.428755+00:00",
+  "updated_at": "2026-11-24T13:00:37.670548+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
