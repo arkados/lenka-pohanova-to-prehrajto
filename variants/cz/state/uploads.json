@@ -910168,12 +910168,6 @@
     },
     "1283:1:5": {
       "episode_key": "rodiče:s1:e5",
-      "claim": {
-        "worker_id": "9eb55410a3ec4c26b97932e6f6c3270e-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:27:08.485710+00:00",
-        "lease_expires_at": "2026-11-24T15:27:08.485722+00:00"
-      },
       "source": {
         "source_id": "28202813",
         "source_url": "https://sdilej.cz/28202813/rodice-s01e05-cz-dab-1080p-10kbs.mp4",
@@ -910198,22 +910192,29 @@
         "display_name": "Breeders S01E05 No Dad 720p CZ Dabing",
         "prepared_at": "2026-11-24T09:27:24.476113+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31329539",
-        "size_bytes": 205041709
-      },
-      "transfer_receipt": {
-        "target_video_id": "31329539",
-        "size_bytes": 205041709,
-        "source_bytes_read": 205041709,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31329539",
         "source_bytes_read": 205041709,
         "elapsed_seconds": 16.652,
         "finished_at": "2026-11-24T09:28:20.642376+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31329539",
+          "size_bytes": 205041709,
+          "source_bytes_read": 205041709,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28202813",
+        "source_url": "https://sdilej.cz/28202813/rodice-s01e05-cz-dab-1080p-10kbs.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31329539",
+        "display_name": "Breeders S01E05 No Dad 720p CZ Dabing",
+        "uploaded_at": "2026-11-24T09:28:42.344263+00:00"
       }
     },
     "1283:1:7": {
@@ -910309,7 +910310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:28:33.199590+00:00",
+  "updated_at": "2026-11-24T09:28:42.344311+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
