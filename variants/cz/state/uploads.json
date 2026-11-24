@@ -915609,12 +915609,6 @@
     },
     "570:1:15": {
       "episode_key": "chameleon:s1:e15",
-      "claim": {
-        "worker_id": "33f66ee5269d4c78bac7b6a165afcb64-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:07:46.779181+00:00",
-        "lease_expires_at": "2026-11-24T18:07:46.779198+00:00"
-      },
       "source": {
         "source_id": "28443028",
         "source_url": "https://sdilej.cz/28443028/chameleon-1x15-jaroldo.avi",
@@ -915639,22 +915633,29 @@
         "display_name": "The Pretender S01E15 Jaroldo! SD CZ Dabing",
         "prepared_at": "2026-11-24T12:08:15.156227+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31334311",
-        "size_bytes": 408940544
-      },
-      "transfer_receipt": {
-        "target_video_id": "31334311",
-        "size_bytes": 408940544,
-        "source_bytes_read": 408940544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31334311",
         "source_bytes_read": 408940544,
         "elapsed_seconds": 28.456,
         "finished_at": "2026-11-24T12:09:12.835566+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31334311",
+          "size_bytes": 408940544,
+          "source_bytes_read": 408940544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28443028",
+        "source_url": "https://sdilej.cz/28443028/chameleon-1x15-jaroldo.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31334311",
+        "display_name": "The Pretender S01E15 Jaroldo! SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:09:27.210500+00:00"
       }
     }
   },
@@ -915663,7 +915664,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:09:20.346886+00:00",
+  "updated_at": "2026-11-24T12:09:27.210518+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
