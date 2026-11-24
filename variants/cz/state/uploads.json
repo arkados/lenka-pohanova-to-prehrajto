@@ -921529,12 +921529,6 @@
     },
     "9698:1:42": {
       "episode_key": "letohrátky:s1:e42",
-      "claim": {
-        "worker_id": "f893872ba5f9405ba7e5c0620c2b9d62-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:03:49.390888+00:00",
-        "lease_expires_at": "2026-11-24T21:03:49.390899+00:00"
-      },
       "source": {
         "source_id": "31605340",
         "source_url": "https://sdilej.cz/31605340/letohratky-s01e42-mollyiny-vesele-vanoce-.mkv",
@@ -921559,22 +921553,29 @@
         "display_name": "TaleSpin S01E42 Gruel and Unusual Punishment SD CZ Dabing",
         "prepared_at": "2026-11-24T15:04:06.346363+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340332",
-        "size_bytes": 533671099
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340332",
-        "size_bytes": 533671099,
-        "source_bytes_read": 533671099,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340332",
         "source_bytes_read": 533671099,
         "elapsed_seconds": 25.194,
         "finished_at": "2026-11-24T15:05:05.694635+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340332",
+          "size_bytes": 533671099,
+          "source_bytes_read": 533671099,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31605340",
+        "source_url": "https://sdilej.cz/31605340/letohratky-s01e42-mollyiny-vesele-vanoce-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340332",
+        "display_name": "TaleSpin S01E42 Gruel and Unusual Punishment SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:05:29.031422+00:00"
       }
     },
     "9698:1:43": {
@@ -921620,7 +921621,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:05:23.292796+00:00",
+  "updated_at": "2026-11-24T15:05:29.031438+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
