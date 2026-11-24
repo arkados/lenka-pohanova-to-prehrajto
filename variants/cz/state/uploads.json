@@ -894013,12 +894013,6 @@
     },
     "1435:1:18": {
       "episode_key": "magnum:s1:e18",
-      "claim": {
-        "worker_id": "a64073b10f0e49b5814a7574d3c77fa1-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:02:02.354196+00:00",
-        "lease_expires_at": "2026-11-24T07:02:02.354212+00:00"
-      },
       "source": {
         "source_id": "30770347",
         "source_url": "https://sdilej.cz/30770347/magnum-s01e18.mkv",
@@ -894043,22 +894037,29 @@
         "display_name": "Magnum, P.I. S01E18 Beauty Knows No Pain 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:02:09.516185+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313265",
-        "size_bytes": 986653701
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313265",
-        "size_bytes": 986653701,
-        "source_bytes_read": 986653701,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313265",
         "source_bytes_read": 986653701,
         "elapsed_seconds": 73.135,
         "finished_at": "2026-11-24T01:03:48.859288+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313265",
+          "size_bytes": 986653701,
+          "source_bytes_read": 986653701,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770347",
+        "source_url": "https://sdilej.cz/30770347/magnum-s01e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313265",
+        "display_name": "Magnum, P.I. S01E18 Beauty Knows No Pain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:04:03.532670+00:00"
       }
     },
     "1435:2:1": {
@@ -894113,7 +894114,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:03:57.864388+00:00",
+  "updated_at": "2026-11-24T01:04:03.532686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
