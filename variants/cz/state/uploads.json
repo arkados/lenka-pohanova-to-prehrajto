@@ -913606,12 +913606,6 @@
     },
     "1366:1:2": {
       "episode_key": "hap & leonard:s1:e2",
-      "claim": {
-        "worker_id": "6f7883fbe6494718bc3dcc4837a3e860-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:01:37.549397+00:00",
-        "lease_expires_at": "2026-11-24T17:01:37.549422+00:00"
-      },
       "source": {
         "source_id": "9865430",
         "source_url": "https://sdilej.cz/9865430/hap-and-leonard.s01e02.tvrip.xvid.cz.avi",
@@ -913636,22 +913630,29 @@
         "display_name": "Hap and Leonard S01E02 The Bottoms SD CZ Dabing",
         "prepared_at": "2026-11-24T11:01:52.514762+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31332246",
-        "size_bytes": 408224304
-      },
-      "transfer_receipt": {
-        "target_video_id": "31332246",
-        "size_bytes": 408224304,
-        "source_bytes_read": 408224304,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31332246",
         "source_bytes_read": 408224304,
         "elapsed_seconds": 27.122,
         "finished_at": "2026-11-24T11:03:03.787014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31332246",
+          "size_bytes": 408224304,
+          "source_bytes_read": 408224304,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "9865430",
+        "source_url": "https://sdilej.cz/9865430/hap-and-leonard.s01e02.tvrip.xvid.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31332246",
+        "display_name": "Hap and Leonard S01E02 The Bottoms SD CZ Dabing",
+        "uploaded_at": "2026-11-24T11:03:25.779852+00:00"
       }
     }
   },
@@ -913660,7 +913661,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:03:17.596469+00:00",
+  "updated_at": "2026-11-24T11:03:25.779873+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
