@@ -900802,12 +900802,6 @@
     },
     "1435:8:6": {
       "episode_key": "magnum:s8:e6",
-      "claim": {
-        "worker_id": "952b6bd3ce6e49779550ab4534d5dcf0-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:08:52.949298+00:00",
-        "lease_expires_at": "2026-11-24T10:08:52.949311+00:00"
-      },
       "source": {
         "source_id": "30906977",
         "source_url": "https://sdilej.cz/30906977/magnum-s08e06.mkv",
@@ -900832,22 +900826,29 @@
         "display_name": "Magnum, P.I. S08E06 The Love That Lies 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:08:59.948581+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319419",
-        "size_bytes": 1461428823
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319419",
-        "size_bytes": 1461428823,
-        "source_bytes_read": 1461428823,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319419",
         "source_bytes_read": 1461428823,
         "elapsed_seconds": 169.15,
         "finished_at": "2026-11-24T04:12:18.914926+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319419",
+          "size_bytes": 1461428823,
+          "source_bytes_read": 1461428823,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906977",
+        "source_url": "https://sdilej.cz/30906977/magnum-s08e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319419",
+        "display_name": "Magnum, P.I. S08E06 The Love That Lies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:12:33.122570+00:00"
       }
     },
     "1435:8:7": {
@@ -900944,7 +900945,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:12:26.695942+00:00",
+  "updated_at": "2026-11-24T04:12:33.122588+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
