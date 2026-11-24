@@ -897226,12 +897226,6 @@
     },
     "1435:4:20": {
       "episode_key": "magnum:s4:e20",
-      "claim": {
-        "worker_id": "b93e0517c212465fb16ce517240b0504-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:36:32.996447+00:00",
-        "lease_expires_at": "2026-11-24T08:36:32.996460+00:00"
-      },
       "source": {
         "source_id": "30770940",
         "source_url": "https://sdilej.cz/30770940/magnum-s04e20.mkv",
@@ -897256,22 +897250,29 @@
         "display_name": "Magnum, P.I. S04E20 Dream a Little Dream 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:36:56.165469+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316397",
-        "size_bytes": 765226549
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316397",
-        "size_bytes": 765226549,
-        "source_bytes_read": 765226549,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316397",
         "source_bytes_read": 765226549,
         "elapsed_seconds": 73.401,
         "finished_at": "2026-11-24T02:38:41.140615+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316397",
+          "size_bytes": 765226549,
+          "source_bytes_read": 765226549,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770940",
+        "source_url": "https://sdilej.cz/30770940/magnum-s04e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316397",
+        "display_name": "Magnum, P.I. S04E20 Dream a Little Dream 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:38:56.373117+00:00"
       }
     },
     "1435:4:21": {
@@ -897353,7 +897354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:38:47.467073+00:00",
+  "updated_at": "2026-11-24T02:38:56.373134+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
