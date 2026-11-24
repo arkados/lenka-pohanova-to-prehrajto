@@ -923117,12 +923117,6 @@
     },
     "10465:1:6": {
       "episode_key": "jízda o život:s1:e6",
-      "claim": {
-        "worker_id": "4d945e9b263b4117b707bff745f44c77-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:57:30.922556+00:00",
-        "lease_expires_at": "2026-11-24T21:57:30.922566+00:00"
-      },
       "source": {
         "source_id": "34673898",
         "source_url": "https://sdilej.cz/34673898/jizda-o-zivot-s01e06-mesicni-svit-nad-bosporem-ride-or-die-2026-1080p-h264-cz.mkv",
@@ -923147,22 +923141,29 @@
         "display_name": "Ride or Die S01E06 Moonlight on the Bosphorus 1080p CZ Dabing",
         "prepared_at": "2026-11-24T15:57:48.732815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341772",
-        "size_bytes": 2444518391
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341772",
-        "size_bytes": 2444518391,
-        "source_bytes_read": 2444518391,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341772",
         "source_bytes_read": 2444518391,
         "elapsed_seconds": 209.363,
         "finished_at": "2026-11-24T16:01:43.345941+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341772",
+          "size_bytes": 2444518391,
+          "source_bytes_read": 2444518391,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34673898",
+        "source_url": "https://sdilej.cz/34673898/jizda-o-zivot-s01e06-mesicni-svit-nad-bosporem-ride-or-die-2026-1080p-h264-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341772",
+        "display_name": "Ride or Die S01E06 Moonlight on the Bosphorus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T16:01:50.996677+00:00"
       }
     },
     "10465:1:7": {
@@ -923319,7 +923320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T16:01:43.345959+00:00",
+  "updated_at": "2026-11-24T16:01:50.996694+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
