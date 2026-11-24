@@ -899368,12 +899368,6 @@
     },
     "1435:6:20": {
       "episode_key": "magnum:s6:e20",
-      "claim": {
-        "worker_id": "722ad044fec94ee7b03730f67d439fdd-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:37:59.926068+00:00",
-        "lease_expires_at": "2026-11-24T09:37:59.926082+00:00"
-      },
       "source": {
         "source_id": "30772894",
         "source_url": "https://sdilej.cz/30772894/magnum-s06e20.mkv",
@@ -899398,22 +899392,29 @@
         "display_name": "Magnum, P.I. S06E20 A Little Bit of Luck… A Little Bit of Grief 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:38:11.941534+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31318269",
-        "size_bytes": 1336735484
-      },
-      "transfer_receipt": {
-        "target_video_id": "31318269",
-        "size_bytes": 1336735484,
-        "source_bytes_read": 1336735484,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31318269",
         "source_bytes_read": 1336735484,
         "elapsed_seconds": 128.272,
         "finished_at": "2026-11-24T03:40:42.367874+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31318269",
+          "size_bytes": 1336735484,
+          "source_bytes_read": 1336735484,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772894",
+        "source_url": "https://sdilej.cz/30772894/magnum-s06e20.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31318269",
+        "display_name": "Magnum, P.I. S06E20 A Little Bit of Luck… A Little Bit of Grief 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:41:01.250390+00:00"
       }
     },
     "1435:6:21": {
@@ -899492,7 +899493,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:40:54.828907+00:00",
+  "updated_at": "2026-11-24T03:41:01.250412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
