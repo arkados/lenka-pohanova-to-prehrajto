@@ -921166,12 +921166,6 @@
     },
     "9698:1:35": {
       "episode_key": "letohrátky:s1:e35",
-      "claim": {
-        "worker_id": "b0f8036e8d054402b1fd06536fcd3c04-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T14:59:15.422079+00:00",
-        "lease_expires_at": "2026-11-24T20:59:15.422091+00:00"
-      },
       "source": {
         "source_id": "33756127",
         "source_url": "https://sdilej.cz/33756127/letohratky-s01e35-035-1990-fhd-starec-a-more-zapomneni-s-.mp4",
@@ -921196,22 +921190,29 @@
         "display_name": "TaleSpin S01E35 The Old Man and the Sea Duck 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:59:22.503982+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340151",
-        "size_bytes": 479798997
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340151",
-        "size_bytes": 479798997,
-        "source_bytes_read": 479798997,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340151",
         "source_bytes_read": 479798997,
         "elapsed_seconds": 22.734,
         "finished_at": "2026-11-24T15:00:17.351159+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340151",
+          "size_bytes": 479798997,
+          "source_bytes_read": 479798997,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756127",
+        "source_url": "https://sdilej.cz/33756127/letohratky-s01e35-035-1990-fhd-starec-a-more-zapomneni-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340151",
+        "display_name": "TaleSpin S01E35 The Old Man and the Sea Duck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T15:00:30.586364+00:00"
       }
     },
     "9698:1:36": {
@@ -921253,7 +921254,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:00:24.779711+00:00",
+  "updated_at": "2026-11-24T15:00:30.586378+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
