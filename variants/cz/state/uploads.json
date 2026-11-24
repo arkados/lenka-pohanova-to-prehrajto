@@ -893136,12 +893136,6 @@
     },
     "1435:1:1": {
       "episode_key": "magnum:s1:e1",
-      "claim": {
-        "worker_id": "24f97a5fdfae411e9b7df927483fb2c1-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:41:45.221894+00:00",
-        "lease_expires_at": "2026-11-24T06:41:45.221911+00:00"
-      },
       "source": {
         "source_id": "30770248",
         "source_url": "https://sdilej.cz/30770248/magnum-s01e01.mkv",
@@ -893166,22 +893160,29 @@
         "display_name": "Magnum, P.I. S01E01 Don't Eat the Snow in Hawaii (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:42:22.740913+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31312667",
-        "size_bytes": 743089145
-      },
-      "transfer_receipt": {
-        "target_video_id": "31312667",
-        "size_bytes": 743089145,
-        "source_bytes_read": 743089145,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31312667",
         "source_bytes_read": 743089145,
         "elapsed_seconds": 71.077,
         "finished_at": "2026-11-24T00:44:08.633448+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31312667",
+          "size_bytes": 743089145,
+          "source_bytes_read": 743089145,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770248",
+        "source_url": "https://sdilej.cz/30770248/magnum-s01e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31312667",
+        "display_name": "Magnum, P.I. S01E01 Don't Eat the Snow in Hawaii (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:44:21.616170+00:00"
       }
     },
     "1435:1:2": {
@@ -893250,7 +893251,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:44:15.358320+00:00",
+  "updated_at": "2026-11-24T00:44:21.616192+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
