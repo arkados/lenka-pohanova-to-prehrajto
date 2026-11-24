@@ -920046,12 +920046,6 @@
     },
     "9698:1:13": {
       "episode_key": "letohrátky:s1:e13",
-      "claim": {
-        "worker_id": "12ac9451ac3d41109ddbd45f888b5881-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:10:12.612762+00:00",
-        "lease_expires_at": "2026-11-24T20:10:12.612780+00:00"
-      },
       "source": {
         "source_id": "33755981",
         "source_url": "https://sdilej.cz/33755981/letohratky-s01e13-013-1990-fhd-s-buzkem-nejsou-zadne-cary-s-.mp4",
@@ -920076,22 +920070,29 @@
         "display_name": "TaleSpin S01E13 The Idol Rich 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:10:19.809929+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338516",
-        "size_bytes": 478755899
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338516",
-        "size_bytes": 478755899,
-        "source_bytes_read": 478755899,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338516",
         "source_bytes_read": 478755899,
         "elapsed_seconds": 58.052,
         "finished_at": "2026-11-24T14:11:50.282495+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338516",
+          "size_bytes": 478755899,
+          "source_bytes_read": 478755899,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33755981",
+        "source_url": "https://sdilej.cz/33755981/letohratky-s01e13-013-1990-fhd-s-buzkem-nejsou-zadne-cary-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338516",
+        "display_name": "TaleSpin S01E13 The Idol Rich 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:12:08.607682+00:00"
       }
     }
   },
@@ -920100,7 +920101,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:12:02.837195+00:00",
+  "updated_at": "2026-11-24T14:12:08.607703+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
