@@ -896053,12 +896053,6 @@
     },
     "1435:3:19": {
       "episode_key": "magnum:s3:e19",
-      "claim": {
-        "worker_id": "d3085e7d0999470490eb41c6067ad9f7-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:02:32.370938+00:00",
-        "lease_expires_at": "2026-11-24T08:02:32.370953+00:00"
-      },
       "source": {
         "source_id": "30770752",
         "source_url": "https://sdilej.cz/30770752/magnum-s03e19.mkv",
@@ -896083,22 +896077,29 @@
         "display_name": "Magnum, P.I. S03E19 Legacy from a Friend 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:02:39.228981+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315270",
-        "size_bytes": 791846860
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315270",
-        "size_bytes": 791846860,
-        "source_bytes_read": 791846860,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315270",
         "source_bytes_read": 791846860,
         "elapsed_seconds": 65.725,
         "finished_at": "2026-11-24T02:04:24.071455+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315270",
+          "size_bytes": 791846860,
+          "source_bytes_read": 791846860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770752",
+        "source_url": "https://sdilej.cz/30770752/magnum-s03e19.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315270",
+        "display_name": "Magnum, P.I. S03E19 Legacy from a Friend 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:04:31.710879+00:00"
       }
     },
     "1435:3:20": {
@@ -896181,7 +896182,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:04:24.071472+00:00",
+  "updated_at": "2026-11-24T02:04:31.710895+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
