@@ -894223,12 +894223,6 @@
     },
     "1435:2:4": {
       "episode_key": "magnum:s2:e4",
-      "claim": {
-        "worker_id": "d2ada15c2b0f4067b10e1c78feea8f59-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:06:35.093822+00:00",
-        "lease_expires_at": "2026-11-24T07:06:35.093840+00:00"
-      },
       "source": {
         "source_id": "30770375",
         "source_url": "https://sdilej.cz/30770375/magnum-s02e04.mkv",
@@ -894253,22 +894247,29 @@
         "display_name": "Magnum, P.I. S02E04 From Moscow to Maui 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:07:00.859380+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313456",
-        "size_bytes": 711306300
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313456",
-        "size_bytes": 711306300,
-        "source_bytes_read": 711306300,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313456",
         "source_bytes_read": 711306300,
         "elapsed_seconds": 49.402,
         "finished_at": "2026-11-24T01:08:27.540737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313456",
+          "size_bytes": 711306300,
+          "source_bytes_read": 711306300,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770375",
+        "source_url": "https://sdilej.cz/30770375/magnum-s02e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313456",
+        "display_name": "Magnum, P.I. S02E04 From Moscow to Maui 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:08:47.086857+00:00"
       }
     }
   },
@@ -894277,7 +894278,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:08:40.114275+00:00",
+  "updated_at": "2026-11-24T01:08:47.086874+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
