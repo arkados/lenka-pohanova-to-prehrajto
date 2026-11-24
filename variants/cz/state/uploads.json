@@ -913300,12 +913300,6 @@
     },
     "767:1:1": {
       "episode_key": "do posledního samuraje:s1:e1",
-      "claim": {
-        "worker_id": "673c4de121f240f795a9200b95563e67-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:51:10.612454+00:00",
-        "lease_expires_at": "2026-11-24T16:51:10.612467+00:00"
-      },
       "source": {
         "source_id": "32393842",
         "source_url": "https://sdilej.cz/32393842/do-posledniho-samuraje-s01e01-fhd-nf-hdr10-5.1-cz-dab.mkv",
@@ -913330,22 +913324,29 @@
         "display_name": "ikusagami S01E01 kodoku 1080p CZ Dabing",
         "prepared_at": "2026-11-24T10:51:23.815740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331965",
-        "size_bytes": 1238167795
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331965",
-        "size_bytes": 1238167795,
-        "source_bytes_read": 1238167795,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331965",
         "source_bytes_read": 1238167795,
         "elapsed_seconds": 115.924,
         "finished_at": "2026-11-24T10:54:02.754641+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331965",
+          "size_bytes": 1238167795,
+          "source_bytes_read": 1238167795,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32393842",
+        "source_url": "https://sdilej.cz/32393842/do-posledniho-samuraje-s01e01-fhd-nf-hdr10-5.1-cz-dab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331965",
+        "display_name": "ikusagami S01E01 kodoku 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T10:54:21.273286+00:00"
       }
     },
     "767:1:2": {
@@ -913438,7 +913439,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:54:14.369528+00:00",
+  "updated_at": "2026-11-24T10:54:21.273317+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
