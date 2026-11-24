@@ -915050,12 +915050,6 @@
     },
     "570:1:1": {
       "episode_key": "chameleon:s1:e1",
-      "claim": {
-        "worker_id": "03f1f250546f4bbba5aa6348295cb900-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:58:30.889456+00:00",
-        "lease_expires_at": "2026-11-24T17:58:30.889475+00:00"
-      },
       "source": {
         "source_id": "24806646",
         "source_url": "https://sdilej.cz/24806646/chameleon-1x01-muz-bez-minulosti.avi",
@@ -915080,22 +915074,29 @@
         "display_name": "The Pretender S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-24T11:58:37.195996+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333994",
-        "size_bytes": 405557248
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333994",
-        "size_bytes": 405557248,
-        "source_bytes_read": 405557248,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333994",
         "source_bytes_read": 405557248,
         "elapsed_seconds": 30.469,
         "finished_at": "2026-11-24T11:59:37.808419+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333994",
+          "size_bytes": 405557248,
+          "source_bytes_read": 405557248,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24806646",
+        "source_url": "https://sdilej.cz/24806646/chameleon-1x01-muz-bez-minulosti.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333994",
+        "display_name": "The Pretender S01E01 Pilot SD CZ Dabing",
+        "uploaded_at": "2026-11-24T11:59:55.203376+00:00"
       }
     },
     "570:1:2": {
@@ -915154,7 +915155,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:59:49.533601+00:00",
+  "updated_at": "2026-11-24T11:59:55.203395+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
