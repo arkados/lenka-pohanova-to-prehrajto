@@ -896665,12 +896665,6 @@
     },
     "1435:4:9": {
       "episode_key": "magnum:s4:e9",
-      "claim": {
-        "worker_id": "97ba40e67bac49ab8697ce350ad81c4d-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:20:15.783621+00:00",
-        "lease_expires_at": "2026-11-24T08:20:15.783640+00:00"
-      },
       "source": {
         "source_id": "32705199",
         "source_url": "https://sdilej.cz/32705199/magnum-p.i.-2021-s04e09-czdab-1080p-radsi-si-hlidej-zada.mkv",
@@ -896695,22 +896689,29 @@
         "display_name": "Magnum, P.I. S04E09 The Look 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:20:28.551505+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315877",
-        "size_bytes": 1920047873
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315877",
-        "size_bytes": 1920047873,
-        "source_bytes_read": 1920047873,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315877",
         "source_bytes_read": 1920047873,
         "elapsed_seconds": 130.616,
         "finished_at": "2026-11-24T02:23:14.317931+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315877",
+          "size_bytes": 1920047873,
+          "source_bytes_read": 1920047873,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32705199",
+        "source_url": "https://sdilej.cz/32705199/magnum-p.i.-2021-s04e09-czdab-1080p-radsi-si-hlidej-zada.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315877",
+        "display_name": "Magnum, P.I. S04E09 The Look 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:23:38.759230+00:00"
       }
     },
     "1435:4:10": {
@@ -896857,7 +896858,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:23:32.132681+00:00",
+  "updated_at": "2026-11-24T02:23:38.759245+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
