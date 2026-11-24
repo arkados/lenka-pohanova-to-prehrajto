@@ -900643,12 +900643,6 @@
     },
     "1435:8:4": {
       "episode_key": "magnum:s8:e4",
-      "claim": {
-        "worker_id": "169c4af726164f0e9781db37cf8ee51e-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:06:10.013436+00:00",
-        "lease_expires_at": "2026-11-24T10:06:10.013449+00:00"
-      },
       "source": {
         "source_id": "30906968",
         "source_url": "https://sdilej.cz/30906968/magnum-s08e04.mkv",
@@ -900673,22 +900667,29 @@
         "display_name": "Magnum, P.I. S08E04 Tigers Fan 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:06:26.947547+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319300",
-        "size_bytes": 604256468
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319300",
-        "size_bytes": 604256468,
-        "source_bytes_read": 604256468,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319300",
         "source_bytes_read": 604256468,
         "elapsed_seconds": 50.649,
         "finished_at": "2026-11-24T04:07:51.644881+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319300",
+          "size_bytes": 604256468,
+          "source_bytes_read": 604256468,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30906968",
+        "source_url": "https://sdilej.cz/30906968/magnum-s08e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319300",
+        "display_name": "Magnum, P.I. S08E04 Tigers Fan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:08:05.213511+00:00"
       }
     },
     "1435:8:3": {
@@ -900784,7 +900785,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:08:00.096054+00:00",
+  "updated_at": "2026-11-24T04:08:05.213530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
