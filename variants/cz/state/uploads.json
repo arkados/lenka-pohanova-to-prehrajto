@@ -896365,12 +896365,6 @@
     },
     "1435:4:3": {
       "episode_key": "magnum:s4:e3",
-      "claim": {
-        "worker_id": "e5e17d760460464e85accbfb56249e98-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:10:02.596147+00:00",
-        "lease_expires_at": "2026-11-24T08:10:02.596163+00:00"
-      },
       "source": {
         "source_id": "30061046",
         "source_url": "https://sdilej.cz/30061046/magnum-s04e03.mkv",
@@ -896395,22 +896389,29 @@
         "display_name": "Magnum, P.I. S04E03 Smaller Than Life 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:10:20.127662+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315559",
-        "size_bytes": 576511181
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315559",
-        "size_bytes": 576511181,
-        "source_bytes_read": 576511181,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315559",
         "source_bytes_read": 576511181,
         "elapsed_seconds": 43.64,
         "finished_at": "2026-11-24T02:11:34.655479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315559",
+          "size_bytes": 576511181,
+          "source_bytes_read": 576511181,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30061046",
+        "source_url": "https://sdilej.cz/30061046/magnum-s04e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315559",
+        "display_name": "Magnum, P.I. S04E03 Smaller Than Life 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:11:48.141776+00:00"
       }
     },
     "1435:4:4": {
@@ -896456,7 +896457,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:11:41.474506+00:00",
+  "updated_at": "2026-11-24T02:11:48.141795+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
