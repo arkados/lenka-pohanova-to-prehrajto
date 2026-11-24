@@ -916309,12 +916309,6 @@
     },
     "570:2:13": {
       "episode_key": "chameleon:s2:e13",
-      "claim": {
-        "worker_id": "70b4d7dabe524de383dac499d9c2c43d-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:35:26.670628+00:00",
-        "lease_expires_at": "2026-11-24T18:35:26.670643+00:00"
-      },
       "source": {
         "source_id": "7081812",
         "source_url": "https://sdilej.cz/7081812/chameleon-02x13-solovy-hrac.avi",
@@ -916339,22 +916333,29 @@
         "display_name": "The Pretender S02E13 A Stand Up Guy SD CZ Dabing",
         "prepared_at": "2026-11-24T12:35:40.050796+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31335604",
-        "size_bytes": 366993408
-      },
-      "transfer_receipt": {
-        "target_video_id": "31335604",
-        "size_bytes": 366993408,
-        "source_bytes_read": 366993408,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31335604",
         "source_bytes_read": 366993408,
         "elapsed_seconds": 28.997,
         "finished_at": "2026-11-24T12:36:42.002287+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31335604",
+          "size_bytes": 366993408,
+          "source_bytes_read": 366993408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7081812",
+        "source_url": "https://sdilej.cz/7081812/chameleon-02x13-solovy-hrac.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31335604",
+        "display_name": "The Pretender S02E13 A Stand Up Guy SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:36:50.135697+00:00"
       }
     }
   },
@@ -916363,7 +916364,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:36:42.002310+00:00",
+  "updated_at": "2026-11-24T12:36:50.135714+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
