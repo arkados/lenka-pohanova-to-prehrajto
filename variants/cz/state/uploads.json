@@ -917806,12 +917806,6 @@
     },
     "410:1:6": {
       "episode_key": "star trek: fenomén:s1:e6",
-      "claim": {
-        "worker_id": "81dedf790c1d4a76b083d98d00187ded-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:07:51.045762+00:00",
-        "lease_expires_at": "2026-11-24T19:07:51.045776+00:00"
-      },
       "source": {
         "source_id": "34877631",
         "source_url": "https://sdilej.cz/34877631/star.trek.fenomen.s01e06.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -917836,22 +917830,29 @@
         "display_name": "Star Trek: Prodigy S01E06 Kobayashi 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:08:03.978093+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336514",
-        "size_bytes": 317491942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336514",
-        "size_bytes": 317491942,
-        "source_bytes_read": 317491942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336514",
         "source_bytes_read": 317491942,
         "elapsed_seconds": 20.625,
         "finished_at": "2026-11-24T13:09:04.155292+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336514",
+          "size_bytes": 317491942,
+          "source_bytes_read": 317491942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34877631",
+        "source_url": "https://sdilej.cz/34877631/star.trek.fenomen.s01e06.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336514",
+        "display_name": "Star Trek: Prodigy S01E06 Kobayashi 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T13:09:23.540326+00:00"
       }
     },
     "410:1:7": {
@@ -917926,7 +917927,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:09:17.589389+00:00",
+  "updated_at": "2026-11-24T13:09:23.540344+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
