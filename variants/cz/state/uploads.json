@@ -902550,12 +902550,6 @@
     },
     "195:1:1": {
       "episode_key": "arabela:s1:e1",
-      "claim": {
-        "worker_id": "aec115b7edc14c8890f17df197930ecb-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:55:33.522949+00:00",
-        "lease_expires_at": "2026-11-24T10:55:33.522963+00:00"
-      },
       "source": {
         "source_id": "30448176",
         "source_url": "https://sdilej.cz/30448176/arabela.s01e01.1080p.web-dl.aac2.0.h.264-pt.mkv",
@@ -902580,22 +902574,29 @@
         "display_name": "Arabela S01E01 Jak pan Majer našel zvoneček 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:55:39.785365+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31321107",
-        "size_bytes": 1169087464
-      },
-      "transfer_receipt": {
-        "target_video_id": "31321107",
-        "size_bytes": 1169087464,
-        "source_bytes_read": 1169087464,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31321107",
         "source_bytes_read": 1169087464,
         "elapsed_seconds": 86.681,
         "finished_at": "2026-11-24T04:57:33.546834+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31321107",
+          "size_bytes": 1169087464,
+          "source_bytes_read": 1169087464,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30448176",
+        "source_url": "https://sdilej.cz/30448176/arabela.s01e01.1080p.web-dl.aac2.0.h.264-pt.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31321107",
+        "display_name": "Arabela S01E01 Jak pan Majer našel zvoneček 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:57:40.585267+00:00"
       }
     }
   },
@@ -902604,7 +902605,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:57:33.546856+00:00",
+  "updated_at": "2026-11-24T04:57:40.585285+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
