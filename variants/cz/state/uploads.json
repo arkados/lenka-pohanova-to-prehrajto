@@ -892729,28 +892729,29 @@
           "at": "2026-11-24T19:10:02.753972+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c70c1df235ef48a8bc0b8f09cd5e9a4a-worker-0",
-        "run_id": "45451407444",
-        "claimed_at": "2026-11-24T19:10:08.404739+00:00",
-        "lease_expires_at": "2026-11-25T01:10:08.404756+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31346608",
-        "size_bytes": 2206626476
-      },
-      "transfer_receipt": {
-        "target_video_id": "31346608",
-        "size_bytes": 2206626476,
-        "source_bytes_read": 2206626476,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31346608",
         "source_bytes_read": 2206626476,
         "elapsed_seconds": 121.542,
         "finished_at": "2026-11-24T19:12:56.057003+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31346608",
+          "size_bytes": 2206626476,
+          "source_bytes_read": 2206626476,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33552735",
+        "source_url": "https://sdilej.cz/33552735/mlady-sherlock-s01e06-pripad-smrtici-nadoby.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31346608",
+        "display_name": "Young Sherlock S01E06 The Case of the Killing Jar 4K CZ Dabing",
+        "uploaded_at": "2026-11-24T19:13:14.023735+00:00"
       }
     },
     "640:1:7": {
@@ -924979,7 +924980,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T19:13:07.019516+00:00",
+  "updated_at": "2026-11-24T19:13:14.023749+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
