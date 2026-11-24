@@ -903438,12 +903438,6 @@
     },
     "6595:1:1": {
       "episode_key": "jak se dožít stovky: tajemství modrých zón:s1:e1",
-      "claim": {
-        "worker_id": "342a784d3b784c95b881ae714d89b89c-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:40:30.724609+00:00",
-        "lease_expires_at": "2026-11-24T11:40:30.724620+00:00"
-      },
       "source": {
         "source_id": "30902758",
         "source_url": "https://sdilej.cz/30902758/jak-se-dozit-stovky-tajemstvi-modrych-zon-s01e01-cz-dabing.mp4",
@@ -903468,22 +903462,29 @@
         "display_name": "Live to 100: Secrets of the Blue Zones S01E01 The Journey Begins 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:40:50.706274+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31322411",
-        "size_bytes": 1051122517
-      },
-      "transfer_receipt": {
-        "target_video_id": "31322411",
-        "size_bytes": 1051122517,
-        "source_bytes_read": 1051122517,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31322411",
         "source_bytes_read": 1051122517,
         "elapsed_seconds": 110.449,
         "finished_at": "2026-11-24T05:43:14.038870+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31322411",
+          "size_bytes": 1051122517,
+          "source_bytes_read": 1051122517,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30902758",
+        "source_url": "https://sdilej.cz/30902758/jak-se-dozit-stovky-tajemstvi-modrych-zon-s01e01-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31322411",
+        "display_name": "Live to 100: Secrets of the Blue Zones S01E01 The Journey Begins 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T05:43:26.791916+00:00"
       }
     },
     "6595:1:2": {
@@ -903580,7 +903581,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:43:19.325937+00:00",
+  "updated_at": "2026-11-24T05:43:26.791928+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
