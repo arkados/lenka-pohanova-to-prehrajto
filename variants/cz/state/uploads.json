@@ -912534,12 +912534,6 @@
     },
     "1035:3:10": {
       "episode_key": "dinosaurové:s3:e10",
-      "claim": {
-        "worker_id": "0f1dc030a8fc4ed9a314210511a945f3-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:30:10.125637+00:00",
-        "lease_expires_at": "2026-11-24T16:30:10.125654+00:00"
-      },
       "source": {
         "source_id": "24710801",
         "source_url": "https://sdilej.cz/24710801/dinosaurove-3x10-vikend-v-divocine.avi",
@@ -912564,22 +912558,29 @@
         "display_name": "Dinosaurs S03E10 Wilderness Weekend SD CZ Dabing",
         "prepared_at": "2026-11-24T10:30:23.861742+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331381",
-        "size_bytes": 183701504
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331381",
-        "size_bytes": 183701504,
-        "source_bytes_read": 183701504,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331381",
         "source_bytes_read": 183701504,
         "elapsed_seconds": 18.429,
         "finished_at": "2026-11-24T10:31:12.017375+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331381",
+          "size_bytes": 183701504,
+          "source_bytes_read": 183701504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710801",
+        "source_url": "https://sdilej.cz/24710801/dinosaurove-3x10-vikend-v-divocine.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331381",
+        "display_name": "Dinosaurs S03E10 Wilderness Weekend SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:31:34.144650+00:00"
       }
     },
     "1035:3:11": {
@@ -912625,7 +912626,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:31:25.147134+00:00",
+  "updated_at": "2026-11-24T10:31:34.144671+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
