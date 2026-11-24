@@ -901151,12 +901151,6 @@
     },
     "6161:1:2": {
       "episode_key": "vídeňská krev:s1:e2",
-      "claim": {
-        "worker_id": "db27527206b64fe6b08f95b2cd3f216c-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:20:05.308567+00:00",
-        "lease_expires_at": "2026-11-24T10:20:05.308583+00:00"
-      },
       "source": {
         "source_id": "33264042",
         "source_url": "https://sdilej.cz/33264042/videnska-krev-s01e02-cz-dabing.mkv",
@@ -901180,7 +901174,17 @@
         },
         "display_name": "Vienna Blood S01E02 Queen of the Night 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:20:12.275252+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33264042:https://sdilej.cz/33264042/videnska-krev-s01e02-cz-dabing.mkv",
+        "at": "2026-11-24T04:20:28.388313+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T04:20:28.388348+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -901188,7 +901192,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:20:23.291320+00:00",
+  "updated_at": "2026-11-24T04:20:28.388352+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -902041,6 +902045,10 @@
         {
           "identity": "6161:1:1",
           "at": "2026-11-24T04:19:44.819346+00:00"
+        },
+        {
+          "identity": "6161:1:2",
+          "at": "2026-11-24T04:20:28.388313+00:00"
         }
       ]
     }
