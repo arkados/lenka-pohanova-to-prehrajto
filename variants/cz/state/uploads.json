@@ -898705,12 +898705,6 @@
     },
     "1435:6:6": {
       "episode_key": "magnum:s6:e6",
-      "claim": {
-        "worker_id": "d5785ca5a5b24a7db388c0645ee21295-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:12:23.272941+00:00",
-        "lease_expires_at": "2026-11-24T09:12:23.272955+00:00"
-      },
       "source": {
         "source_id": "30772688",
         "source_url": "https://sdilej.cz/30772688/magnum-s06e06.mkv",
@@ -898735,22 +898729,29 @@
         "display_name": "Magnum, P.I. S06E06 Round and Around 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:12:41.605365+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317580",
-        "size_bytes": 1513991323
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317580",
-        "size_bytes": 1513991323,
-        "source_bytes_read": 1513991323,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317580",
         "source_bytes_read": 1513991323,
         "elapsed_seconds": 174.829,
         "finished_at": "2026-11-24T03:16:08.181069+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317580",
+          "size_bytes": 1513991323,
+          "source_bytes_read": 1513991323,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772688",
+        "source_url": "https://sdilej.cz/30772688/magnum-s06e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317580",
+        "display_name": "Magnum, P.I. S06E06 Round and Around 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:16:22.095843+00:00"
       }
     }
   },
@@ -898759,7 +898760,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:16:15.021621+00:00",
+  "updated_at": "2026-11-24T03:16:22.095859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
