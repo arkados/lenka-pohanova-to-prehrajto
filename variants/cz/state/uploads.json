@@ -909475,12 +909475,6 @@
     },
     "9684:3:19": {
       "episode_key": "tučňáci z madagaskaru:s3:e19",
-      "claim": {
-        "worker_id": "8f86af1eb8e243bc8b27702b3d57e4f1-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T08:50:41.085928+00:00",
-        "lease_expires_at": "2026-11-24T14:50:41.085947+00:00"
-      },
       "source": {
         "source_id": "11879493",
         "source_url": "https://sdilej.cz/11879493/tucnaci-z-madagaskaru-s03e19-slepice-vi-nejvice.avi",
@@ -909521,7 +909515,13 @@
         "elapsed_seconds": 15.279,
         "finished_at": "2026-11-24T08:52:04.687320+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T08:53:39.749197+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "9684:3:20": {
       "episode_key": "tučňáci z madagaskaru:s3:e20",
@@ -909588,7 +909588,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T08:52:31.545448+00:00",
+  "updated_at": "2026-11-24T08:53:39.749216+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
