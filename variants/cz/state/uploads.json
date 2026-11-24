@@ -918454,12 +918454,6 @@
     },
     "410:1:19": {
       "episode_key": "star trek: fenomén:s1:e19",
-      "claim": {
-        "worker_id": "f0f7d67f7fc249a1bbfae661d51f0433-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:35:11.176575+00:00",
-        "lease_expires_at": "2026-11-24T19:35:11.176591+00:00"
-      },
       "source": {
         "source_id": "34877794",
         "source_url": "https://sdilej.cz/34877794/star.trek.fenomen.s01e19.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -918483,7 +918477,17 @@
         },
         "display_name": "Star Trek: Prodigy S01E19 Supernova (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:35:19.030227+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34877794:https://sdilej.cz/34877794/star.trek.fenomen.s01e19.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "at": "2026-11-24T13:35:36.114213+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T13:35:36.114247+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -918491,7 +918495,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:35:28.885077+00:00",
+  "updated_at": "2026-11-24T13:35:36.114253+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -919360,6 +919364,14 @@
         }
       ],
       "retry_after": "2026-11-24T13:44:25.241422+00:00"
+    },
+    "410": {
+      "recent_failures": [
+        {
+          "identity": "410:1:19",
+          "at": "2026-11-24T13:35:36.114213+00:00"
+        }
+      ]
     }
   }
 }
