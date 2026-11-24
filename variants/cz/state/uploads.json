@@ -897991,12 +897991,6 @@
     },
     "1435:5:14": {
       "episode_key": "magnum:s5:e14",
-      "claim": {
-        "worker_id": "58dbfef202a44207a11777408301061e-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:53:19.979648+00:00",
-        "lease_expires_at": "2026-11-24T08:53:19.979664+00:00"
-      },
       "source": {
         "source_id": "30771065",
         "source_url": "https://sdilej.cz/30771065/magnum-s05e14.mkv",
@@ -898021,22 +898015,29 @@
         "display_name": "Magnum, P.I. S05E14 Compulsion 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:53:32.450409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316926",
-        "size_bytes": 709211919
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316926",
-        "size_bytes": 709211919,
-        "source_bytes_read": 709211919,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316926",
         "source_bytes_read": 709211919,
         "elapsed_seconds": 72.695,
         "finished_at": "2026-11-24T02:55:21.878828+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316926",
+          "size_bytes": 709211919,
+          "source_bytes_read": 709211919,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771065",
+        "source_url": "https://sdilej.cz/30771065/magnum-s05e14.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316926",
+        "display_name": "Magnum, P.I. S05E14 Compulsion 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:55:40.081736+00:00"
       }
     }
   },
@@ -898045,7 +898046,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:55:33.635543+00:00",
+  "updated_at": "2026-11-24T02:55:40.081752+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
