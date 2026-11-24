@@ -896212,12 +896212,6 @@
     },
     "1435:3:22": {
       "episode_key": "magnum:s3:e22",
-      "claim": {
-        "worker_id": "43448a893414464c877fcab8078c5e41-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:05:21.313648+00:00",
-        "lease_expires_at": "2026-11-24T08:05:21.313662+00:00"
-      },
       "source": {
         "source_id": "30752284",
         "source_url": "https://sdilej.cz/30752284/magnum-magnum-p.i.-s03e22-velka-rana.mkv",
@@ -896242,22 +896236,29 @@
         "display_name": "Magnum, P.I. S03E22 The Big Blow SD CZ Dabing",
         "prepared_at": "2026-11-24T02:05:29.462745+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315400",
-        "size_bytes": 225912604
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315400",
-        "size_bytes": 225912604,
-        "source_bytes_read": 225912604,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315400",
         "source_bytes_read": 225912604,
         "elapsed_seconds": 22.572,
         "finished_at": "2026-11-24T02:06:38.826857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315400",
+          "size_bytes": 225912604,
+          "source_bytes_read": 225912604,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30752284",
+        "source_url": "https://sdilej.cz/30752284/magnum-magnum-p.i.-s03e22-velka-rana.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315400",
+        "display_name": "Magnum, P.I. S03E22 The Big Blow SD CZ Dabing",
+        "uploaded_at": "2026-11-24T02:06:53.925461+00:00"
       }
     },
     "1435:4:1": {
@@ -896303,7 +896304,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:06:45.829281+00:00",
+  "updated_at": "2026-11-24T02:06:53.925479+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
