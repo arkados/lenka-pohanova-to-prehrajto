@@ -924811,12 +924811,12 @@
     },
     "546:3:10": {
       "episode_key": "jurský svět: křídový kemp:s3:e10",
-      "claim": {
-        "worker_id": "1eb69f4791be44b88b49230f54f98435-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T17:50:39.130467+00:00",
-        "lease_expires_at": "2026-11-24T23:50:39.130525+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-24T17:52:17.885136+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -924824,7 +924824,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T17:50:46.290145+00:00",
+  "updated_at": "2026-11-24T17:52:17.885153+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
