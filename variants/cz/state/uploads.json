@@ -898144,12 +898144,6 @@
     },
     "1435:5:17": {
       "episode_key": "magnum:s5:e17",
-      "claim": {
-        "worker_id": "f67f44e1850849dba33de93938ef1529-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:57:31.408758+00:00",
-        "lease_expires_at": "2026-11-24T08:57:31.408772+00:00"
-      },
       "source": {
         "source_id": "33161451",
         "source_url": "https://sdilej.cz/33161451/magnum-p-i-s05e17-cz.mp4",
@@ -898174,22 +898168,29 @@
         "display_name": "Magnum, P.I. S05E17 The Love-For-Sale Boat 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:57:50.132198+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317085",
-        "size_bytes": 812333025
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317085",
-        "size_bytes": 812333025,
-        "source_bytes_read": 812333025,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317085",
         "source_bytes_read": 812333025,
         "elapsed_seconds": 58.649,
         "finished_at": "2026-11-24T02:59:28.687236+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317085",
+          "size_bytes": 812333025,
+          "source_bytes_read": 812333025,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33161451",
+        "source_url": "https://sdilej.cz/33161451/magnum-p-i-s05e17-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317085",
+        "display_name": "Magnum, P.I. S05E17 The Love-For-Sale Boat 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:59:37.348926+00:00"
       }
     },
     "1435:5:18": {
@@ -898272,7 +898273,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:59:28.687252+00:00",
+  "updated_at": "2026-11-24T02:59:37.348942+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
