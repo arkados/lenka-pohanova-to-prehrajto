@@ -919944,12 +919944,6 @@
     },
     "9698:1:10": {
       "episode_key": "letohrátky:s1:e10",
-      "claim": {
-        "worker_id": "a9e7cd13d6034e93a4d633dd513fb825-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:08:36.436370+00:00",
-        "lease_expires_at": "2026-11-24T20:08:36.436385+00:00"
-      },
       "source": {
         "source_id": "33755967",
         "source_url": "https://sdilej.cz/33755967/letohratky-s01e10-010-1990-fhd-molly-tropi-hlouposti-s-.mp4",
@@ -919974,22 +919968,29 @@
         "display_name": "TaleSpin S01E10 Molly Coddled 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:08:56.973310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338470",
-        "size_bytes": 478729090
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338470",
-        "size_bytes": 478729090,
-        "source_bytes_read": 478729090,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338470",
         "source_bytes_read": 478729090,
         "elapsed_seconds": 91.538,
         "finished_at": "2026-11-24T14:11:01.920541+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338470",
+          "size_bytes": 478729090,
+          "source_bytes_read": 478729090,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33755967",
+        "source_url": "https://sdilej.cz/33755967/letohratky-s01e10-010-1990-fhd-molly-tropi-hlouposti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338470",
+        "display_name": "TaleSpin S01E10 Molly Coddled 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:11:16.452140+00:00"
       }
     },
     "9698:1:12": {
@@ -920086,7 +920087,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:11:08.656210+00:00",
+  "updated_at": "2026-11-24T14:11:16.452159+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
