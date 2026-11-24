@@ -912586,12 +912586,6 @@
     },
     "1035:3:11": {
       "episode_key": "dinosaurové:s3:e11",
-      "claim": {
-        "worker_id": "96850c18a7b54c6dab7ba9d1eb4e7553-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:30:50.630840+00:00",
-        "lease_expires_at": "2026-11-24T16:30:50.630852+00:00"
-      },
       "source": {
         "source_id": "24710817",
         "source_url": "https://sdilej.cz/24710817/dinosaurove-3x11-hlava-rodiny.avi",
@@ -912616,22 +912610,29 @@
         "display_name": "Dinosaurs S03E11 The Son Also Rises SD CZ Dabing",
         "prepared_at": "2026-11-24T10:30:58.211258+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331395",
-        "size_bytes": 183435264
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331395",
-        "size_bytes": 183435264,
-        "source_bytes_read": 183435264,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331395",
         "source_bytes_read": 183435264,
         "elapsed_seconds": 18.62,
         "finished_at": "2026-11-24T10:31:49.260047+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331395",
+          "size_bytes": 183435264,
+          "source_bytes_read": 183435264,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710817",
+        "source_url": "https://sdilej.cz/24710817/dinosaurove-3x11-hlava-rodiny.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331395",
+        "display_name": "Dinosaurs S03E11 The Son Also Rises SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:32:12.815826+00:00"
       }
     },
     "1035:3:15": {
@@ -912682,7 +912683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:32:07.571245+00:00",
+  "updated_at": "2026-11-24T10:32:12.815844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
