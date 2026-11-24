@@ -910429,12 +910429,6 @@
     },
     "1283:2:1": {
       "episode_key": "rodiče:s2:e1",
-      "claim": {
-        "worker_id": "79fab8630fb5474bb82d90b2ee6e5c0b-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:32:01.833678+00:00",
-        "lease_expires_at": "2026-11-24T15:32:01.833695+00:00"
-      },
       "source": {
         "source_id": "17822999",
         "source_url": "https://sdilej.cz/17822999/rodice.02x01.1080i.hevc.hdtv.cz.mkv",
@@ -910459,22 +910453,29 @@
         "display_name": "Breeders S02E01 No Surrender 1080p CZ Dabing",
         "prepared_at": "2026-11-24T09:32:14.806167+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31329697",
-        "size_bytes": 275619697
-      },
-      "transfer_receipt": {
-        "target_video_id": "31329697",
-        "size_bytes": 275619697,
-        "source_bytes_read": 275619697,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31329697",
         "source_bytes_read": 275619697,
         "elapsed_seconds": 28.968,
         "finished_at": "2026-11-24T09:33:13.209846+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31329697",
+          "size_bytes": 275619697,
+          "source_bytes_read": 275619697,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17822999",
+        "source_url": "https://sdilej.cz/17822999/rodice.02x01.1080i.hevc.hdtv.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31329697",
+        "display_name": "Breeders S02E01 No Surrender 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T09:33:25.191245+00:00"
       }
     },
     "1283:2:3": {
@@ -910520,7 +910521,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:33:19.244342+00:00",
+  "updated_at": "2026-11-24T09:33:25.191261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
