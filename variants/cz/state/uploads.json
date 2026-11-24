@@ -913210,12 +913210,6 @@
     },
     "1986:1:7": {
       "episode_key": "mrtví mladí detektivové:s1:e7",
-      "claim": {
-        "worker_id": "fdb3d32f28034633b4365834cb552d71-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:47:17.020258+00:00",
-        "lease_expires_at": "2026-11-24T16:47:17.020273+00:00"
-      },
       "source": {
         "source_id": "32710823",
         "source_url": "https://sdilej.cz/32710823/mrtvi-mladi-detektivove-s01e07-pripad-dlouhatanskeho-schodiste-2024-1080p-czdab.mkv",
@@ -913240,22 +913234,29 @@
         "display_name": "Dead Boy Detectives S01E07 The Case of the Very Long Stairway 1080p CZ Dabing",
         "prepared_at": "2026-11-24T10:47:23.613343+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331864",
-        "size_bytes": 1398752313
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331864",
-        "size_bytes": 1398752313,
-        "source_bytes_read": 1398752313,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331864",
         "source_bytes_read": 1398752313,
         "elapsed_seconds": 91.676,
         "finished_at": "2026-11-24T10:49:20.896510+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331864",
+          "size_bytes": 1398752313,
+          "source_bytes_read": 1398752313,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32710823",
+        "source_url": "https://sdilej.cz/32710823/mrtvi-mladi-detektivove-s01e07-pripad-dlouhatanskeho-schodiste-2024-1080p-czdab.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331864",
+        "display_name": "Dead Boy Detectives S01E07 The Case of the Very Long Stairway 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T10:49:38.501331+00:00"
       }
     }
   },
@@ -913264,7 +913265,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:49:32.819758+00:00",
+  "updated_at": "2026-11-24T10:49:38.501348+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
