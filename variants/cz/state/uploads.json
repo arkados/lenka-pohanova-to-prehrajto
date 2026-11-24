@@ -902078,12 +902078,6 @@
     },
     "975:1:3": {
       "episode_key": "bratři sunovi:s1:e3",
-      "claim": {
-        "worker_id": "b226e9755f464c87aa979d011ece9c40-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:45:20.018937+00:00",
-        "lease_expires_at": "2026-11-24T10:45:20.018953+00:00"
-      },
       "source": {
         "source_id": "27724689",
         "source_url": "https://sdilej.cz/27724689/bratri-sunovi-s01e03-1080p-cz-dabing.mkv",
@@ -902108,22 +902102,29 @@
         "display_name": "The Brothers Sun S01E03 Whatever You Want 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:45:26.560886+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31320814",
-        "size_bytes": 597237425
-      },
-      "transfer_receipt": {
-        "target_video_id": "31320814",
-        "size_bytes": 597237425,
-        "source_bytes_read": 597237425,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31320814",
         "source_bytes_read": 597237425,
         "elapsed_seconds": 63.624,
         "finished_at": "2026-11-24T04:47:13.034947+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31320814",
+          "size_bytes": 597237425,
+          "source_bytes_read": 597237425,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27724689",
+        "source_url": "https://sdilej.cz/27724689/bratri-sunovi-s01e03-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31320814",
+        "display_name": "The Brothers Sun S01E03 Whatever You Want 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:47:32.853730+00:00"
       }
     },
     "975:1:4": {
@@ -902202,7 +902203,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:47:27.351633+00:00",
+  "updated_at": "2026-11-24T04:47:32.853750+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
