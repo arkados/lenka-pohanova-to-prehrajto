@@ -913924,12 +913924,6 @@
     },
     "669:1:1": {
       "episode_key": "na tenkém ledě:s1:e1",
-      "claim": {
-        "worker_id": "d6c1a0e702d54d3cb0835aa2fc1f936b-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:20:09.436262+00:00",
-        "lease_expires_at": "2026-11-24T17:20:09.436279+00:00"
-      },
       "source": {
         "source_id": "29769399",
         "source_url": "https://sdilej.cz/29769399/na-tenkem-lede-s01e01-1080p-cz-dabing.mkv",
@@ -913954,22 +913948,29 @@
         "display_name": "Spinning Out S01E01 Now Entering Sun Valley 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:20:15.956156+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31332866",
-        "size_bytes": 1169772860
-      },
-      "transfer_receipt": {
-        "target_video_id": "31332866",
-        "size_bytes": 1169772860,
-        "source_bytes_read": 1169772860,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31332866",
         "source_bytes_read": 1169772860,
         "elapsed_seconds": 86.692,
         "finished_at": "2026-11-24T11:22:04.523554+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31332866",
+          "size_bytes": 1169772860,
+          "source_bytes_read": 1169772860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29769399",
+        "source_url": "https://sdilej.cz/29769399/na-tenkem-lede-s01e01-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31332866",
+        "display_name": "Spinning Out S01E01 Now Entering Sun Valley 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:22:19.387470+00:00"
       }
     },
     "669:1:2": {
@@ -914052,7 +914053,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:22:10.116686+00:00",
+  "updated_at": "2026-11-24T11:22:19.387487+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
