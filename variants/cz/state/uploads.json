@@ -898538,12 +898538,6 @@
     },
     "1435:6:3": {
       "episode_key": "magnum:s6:e3",
-      "claim": {
-        "worker_id": "30902c1ede564227bfcb60015100ffb6-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:05:03.856275+00:00",
-        "lease_expires_at": "2026-11-24T09:05:03.856288+00:00"
-      },
       "source": {
         "source_id": "30772649",
         "source_url": "https://sdilej.cz/30772649/magnum-s06e03.mkv",
@@ -898568,22 +898562,29 @@
         "display_name": "Magnum, P.I. S06E03 Old Acquaintance 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:05:15.915819+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317325",
-        "size_bytes": 1511598942
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317325",
-        "size_bytes": 1511598942,
-        "source_bytes_read": 1511598942,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317325",
         "source_bytes_read": 1511598942,
         "elapsed_seconds": 95.035,
         "finished_at": "2026-11-24T03:07:21.787050+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317325",
+          "size_bytes": 1511598942,
+          "source_bytes_read": 1511598942,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772649",
+        "source_url": "https://sdilej.cz/30772649/magnum-s06e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317325",
+        "display_name": "Magnum, P.I. S06E03 Old Acquaintance 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:07:36.660501+00:00"
       }
     }
   },
@@ -898592,7 +898593,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:07:27.676950+00:00",
+  "updated_at": "2026-11-24T03:07:36.660514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
