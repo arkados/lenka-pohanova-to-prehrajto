@@ -787680,24 +787680,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-24T13:30:17.232483+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-24T14:36:04.097708+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-24T15:36:54.464370+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-24T16:42:04.033224+00:00",
+          "error": "RetryError"
         }
-      ],
-      "claim": {
-        "worker_id": "c0d8f0ff1f9e42339464173abb99496b-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T16:40:01.067804+00:00",
-        "lease_expires_at": "2026-11-24T22:40:01.067818+00:00"
-      }
+      ]
     },
     "2004:3:6": {
       "episode_key": "znovu 20:s3:e6",
@@ -924289,7 +924283,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T16:41:58.122265+00:00",
+  "updated_at": "2026-11-24T16:42:04.033243+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
