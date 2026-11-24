@@ -895600,12 +895600,6 @@
     },
     "1435:3:10": {
       "episode_key": "magnum:s3:e10",
-      "claim": {
-        "worker_id": "c6d0505e257749818e476ee638684a08-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:50:01.035088+00:00",
-        "lease_expires_at": "2026-11-24T07:50:01.035104+00:00"
-      },
       "source": {
         "source_id": "32876202",
         "source_url": "https://sdilej.cz/32876202/magnum-p.i.-s03e10-cz-the-long-way-home.mkv",
@@ -895630,22 +895624,29 @@
         "display_name": "Magnum, P.I. S03E10 Mixed Doubles 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:50:19.820018+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314828",
-        "size_bytes": 2625991497
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314828",
-        "size_bytes": 2625991497,
-        "source_bytes_read": 2625991497,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314828",
         "source_bytes_read": 2625991497,
         "elapsed_seconds": 203.088,
         "finished_at": "2026-11-24T01:54:13.599319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314828",
+          "size_bytes": 2625991497,
+          "source_bytes_read": 2625991497,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32876202",
+        "source_url": "https://sdilej.cz/32876202/magnum-p.i.-s03e10-cz-the-long-way-home.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314828",
+        "display_name": "Magnum, P.I. S03E10 Mixed Doubles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:54:30.479456+00:00"
       }
     },
     "1435:3:11": {
@@ -895807,7 +895808,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:54:25.053561+00:00",
+  "updated_at": "2026-11-24T01:54:30.479476+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
