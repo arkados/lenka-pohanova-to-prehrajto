@@ -894778,12 +894778,6 @@
     },
     "1435:2:16": {
       "episode_key": "magnum:s2:e16",
-      "claim": {
-        "worker_id": "50081b9986c24939b5ae4c9e7a198711-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:23:12.980976+00:00",
-        "lease_expires_at": "2026-11-24T07:23:12.980991+00:00"
-      },
       "source": {
         "source_id": "30770462",
         "source_url": "https://sdilej.cz/30770462/magnum-s02e16.mkv",
@@ -894808,22 +894802,29 @@
         "display_name": "Magnum, P.I. S02E16 Italian Ice 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:23:30.653720+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313998",
-        "size_bytes": 602625558
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313998",
-        "size_bytes": 602625558,
-        "source_bytes_read": 602625558,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313998",
         "source_bytes_read": 602625558,
         "elapsed_seconds": 47.25,
         "finished_at": "2026-11-24T01:24:53.869385+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313998",
+          "size_bytes": 602625558,
+          "source_bytes_read": 602625558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770462",
+        "source_url": "https://sdilej.cz/30770462/magnum-s02e16.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313998",
+        "display_name": "Magnum, P.I. S02E16 Italian Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:25:07.482826+00:00"
       }
     },
     "1435:2:17": {
@@ -894865,7 +894866,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:25:01.999773+00:00",
+  "updated_at": "2026-11-24T01:25:07.482844+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
