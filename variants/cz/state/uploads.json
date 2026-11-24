@@ -901441,28 +901441,29 @@
           "at": "2026-11-24T07:01:05.389185+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d0a927e0868048a89d94a1538f4b469b-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T07:01:12.107104+00:00",
-        "lease_expires_at": "2026-11-24T13:01:12.107128+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31325135",
-        "size_bytes": 1485628798
-      },
-      "transfer_receipt": {
-        "target_video_id": "31325135",
-        "size_bytes": 1485628798,
-        "source_bytes_read": 1485628798,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31325135",
         "source_bytes_read": 1485628798,
         "elapsed_seconds": 118.78,
         "finished_at": "2026-11-24T07:03:55.680921+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31325135",
+          "size_bytes": 1485628798,
+          "source_bytes_read": 1485628798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28305874",
+        "source_url": "https://sdilej.cz/28305874/videnska-krev-s02e01-cz-dab-1080p-10kbs.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31325135",
+        "display_name": "Vienna Blood S02E01 The Melancholy Countess 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T07:04:03.886873+00:00"
       }
     },
     "6161:2:2": {
@@ -906516,7 +906517,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T07:03:55.680948+00:00",
+  "updated_at": "2026-11-24T07:04:03.886894+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
