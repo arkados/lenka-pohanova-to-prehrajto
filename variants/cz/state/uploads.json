@@ -892824,12 +892824,6 @@
     },
     "642:2:2": {
       "episode_key": "země nikoho:s2:e2",
-      "claim": {
-        "worker_id": "8467387e8b504c1ab10a6106b003c2a7-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:32:19.178361+00:00",
-        "lease_expires_at": "2026-11-24T06:32:19.178377+00:00"
-      },
       "source": {
         "source_id": "30820697",
         "source_url": "https://sdilej.cz/30820697/zeme-nikoho-s02e02-1080p-cz-dabing.mkv",
@@ -892854,22 +892848,29 @@
         "display_name": "No Man's Land S02E02 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:32:36.513747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31312361",
-        "size_bytes": 1058563647
-      },
-      "transfer_receipt": {
-        "target_video_id": "31312361",
-        "size_bytes": 1058563647,
-        "source_bytes_read": 1058563647,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31312361",
         "source_bytes_read": 1058563647,
         "elapsed_seconds": 118.222,
         "finished_at": "2026-11-24T00:34:58.899333+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31312361",
+          "size_bytes": 1058563647,
+          "source_bytes_read": 1058563647,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30820697",
+        "source_url": "https://sdilej.cz/30820697/zeme-nikoho-s02e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31312361",
+        "display_name": "No Man's Land S02E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:35:13.296478+00:00"
       }
     },
     "642:2:3": {
@@ -892915,7 +892916,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:35:04.434206+00:00",
+  "updated_at": "2026-11-24T00:35:13.296494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
