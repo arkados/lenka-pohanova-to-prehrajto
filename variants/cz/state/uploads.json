@@ -905403,12 +905403,6 @@
     },
     "9684:1:36": {
       "episode_key": "tučňáci z madagaskaru:s1:e36",
-      "claim": {
-        "worker_id": "882b5e4bdfe444cea32f54b0a05e360c-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T06:26:58.867834+00:00",
-        "lease_expires_at": "2026-11-24T12:26:58.867848+00:00"
-      },
       "source": {
         "source_id": "28216462",
         "source_url": "https://sdilej.cz/28216462/tucnaci-z-madagaskaru-s01e36-cz.mkv",
@@ -905433,22 +905427,29 @@
         "display_name": "The Penguins of Madagascar S01E36 Sting Operation 1080p CZ Dabing",
         "prepared_at": "2026-11-24T06:27:15.362376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31324032",
-        "size_bytes": 532996014
-      },
-      "transfer_receipt": {
-        "target_video_id": "31324032",
-        "size_bytes": 532996014,
-        "source_bytes_read": 532996014,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31324032",
         "source_bytes_read": 532996014,
         "elapsed_seconds": 39.334,
         "finished_at": "2026-11-24T06:28:22.302121+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31324032",
+          "size_bytes": 532996014,
+          "source_bytes_read": 532996014,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216462",
+        "source_url": "https://sdilej.cz/28216462/tucnaci-z-madagaskaru-s01e36-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31324032",
+        "display_name": "The Penguins of Madagascar S01E36 Sting Operation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T06:28:30.356294+00:00"
       }
     },
     "9684:1:37": {
@@ -905531,7 +905532,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T06:28:22.302139+00:00",
+  "updated_at": "2026-11-24T06:28:30.356313+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
