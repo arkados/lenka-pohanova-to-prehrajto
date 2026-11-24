@@ -916527,12 +916527,6 @@
     },
     "570:3:4": {
       "episode_key": "chameleon:s3:e4",
-      "claim": {
-        "worker_id": "8ecf2cc1a0e14d1e8b7ca8082fc2c784-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:40:43.846060+00:00",
-        "lease_expires_at": "2026-11-24T18:40:43.846075+00:00"
-      },
       "source": {
         "source_id": "34345197",
         "source_url": "https://sdilej.cz/34345197/chameleon-s03e04-cz-dab.mp4",
@@ -916557,22 +916551,29 @@
         "display_name": "The Pretender S03E04 Someone to Trust SD CZ Dabing",
         "prepared_at": "2026-11-24T12:41:02.519895+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31335764",
-        "size_bytes": 208934594
-      },
-      "transfer_receipt": {
-        "target_video_id": "31335764",
-        "size_bytes": 208934594,
-        "source_bytes_read": 208934594,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31335764",
         "source_bytes_read": 208934594,
         "elapsed_seconds": 13.84,
         "finished_at": "2026-11-24T12:41:54.284022+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31335764",
+          "size_bytes": 208934594,
+          "source_bytes_read": 208934594,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345197",
+        "source_url": "https://sdilej.cz/34345197/chameleon-s03e04-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31335764",
+        "display_name": "The Pretender S03E04 Someone to Trust SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:42:13.407022+00:00"
       }
     }
   },
@@ -916581,7 +916582,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:42:07.167184+00:00",
+  "updated_at": "2026-11-24T12:42:13.407042+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
