@@ -914941,12 +914941,6 @@
     },
     "742:1:7": {
       "episode_key": "bílá princezna:s1:e7",
-      "claim": {
-        "worker_id": "b5ab4094af994ab7a964fa4d37fd5266-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:56:01.771583+00:00",
-        "lease_expires_at": "2026-11-24T17:56:01.771604+00:00"
-      },
       "source": {
         "source_id": "26978606",
         "source_url": "https://sdilej.cz/26978606/bila-princezna-s01e07-2017-cz-webrip-1080p-h264-c4u.mp4",
@@ -914971,22 +914965,29 @@
         "display_name": "The White Princess S01E07 Two Kings 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:56:08.774482+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333949",
-        "size_bytes": 918843979
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333949",
-        "size_bytes": 918843979,
-        "source_bytes_read": 918843979,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333949",
         "source_bytes_read": 918843979,
         "elapsed_seconds": 78.774,
         "finished_at": "2026-11-24T11:58:00.378930+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333949",
+          "size_bytes": 918843979,
+          "source_bytes_read": 918843979,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26978606",
+        "source_url": "https://sdilej.cz/26978606/bila-princezna-s01e07-2017-cz-webrip-1080p-h264-c4u.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333949",
+        "display_name": "The White Princess S01E07 Two Kings 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:58:14.245700+00:00"
       }
     },
     "742:1:8": {
@@ -915032,7 +915033,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:58:06.821564+00:00",
+  "updated_at": "2026-11-24T11:58:14.245727+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
