@@ -902727,12 +902727,6 @@
     },
     "195:1:6": {
       "episode_key": "arabela:s1:e6",
-      "claim": {
-        "worker_id": "8c82ff1e52634e979faf33c86202bcfb-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:59:42.147821+00:00",
-        "lease_expires_at": "2026-11-24T10:59:42.147835+00:00"
-      },
       "source": {
         "source_id": "27633950",
         "source_url": "https://sdilej.cz/27633950/arabela-1980-s01e06-1980-hd-cz-dabing.mkv",
@@ -902757,22 +902751,29 @@
         "display_name": "Arabela S01E06 Petrovo zmizení 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:59:49.136451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31321201",
-        "size_bytes": 4895673242
-      },
-      "transfer_receipt": {
-        "target_video_id": "31321201",
-        "size_bytes": 4895673242,
-        "source_bytes_read": 4895673242,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31321201",
         "source_bytes_read": 4895673242,
         "elapsed_seconds": 432.308,
         "finished_at": "2026-11-24T05:07:24.786305+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31321201",
+          "size_bytes": 4895673242,
+          "source_bytes_read": 4895673242,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27633950",
+        "source_url": "https://sdilej.cz/27633950/arabela-1980-s01e06-1980-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31321201",
+        "display_name": "Arabela S01E06 Petrovo zmizení 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T05:07:38.811406+00:00"
       }
     },
     "195:1:7": {
@@ -902818,7 +902819,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:07:33.701363+00:00",
+  "updated_at": "2026-11-24T05:07:38.811423+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
