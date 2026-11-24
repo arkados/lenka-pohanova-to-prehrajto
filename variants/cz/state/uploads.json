@@ -917435,12 +917435,6 @@
     },
     "570:4:16": {
       "episode_key": "chameleon:s4:e16",
-      "claim": {
-        "worker_id": "adb8cd86749f4a8eb321950e092b6d98-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:02:12.938717+00:00",
-        "lease_expires_at": "2026-11-24T19:02:12.938733+00:00"
-      },
       "source": {
         "source_id": "12731133",
         "source_url": "https://sdilej.cz/12731133/chameleon-4x16-maly-svedek.avi",
@@ -917465,22 +917459,29 @@
         "display_name": "The Pretender S04E16 School Daze SD CZ Dabing",
         "prepared_at": "2026-11-24T13:02:21.178574+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336360",
-        "size_bytes": 372997142
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336360",
-        "size_bytes": 372997142,
-        "source_bytes_read": 372997142,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336360",
         "source_bytes_read": 372997142,
         "elapsed_seconds": 26.311,
         "finished_at": "2026-11-24T13:03:23.633545+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336360",
+          "size_bytes": 372997142,
+          "source_bytes_read": 372997142,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12731133",
+        "source_url": "https://sdilej.cz/12731133/chameleon-4x16-maly-svedek.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336360",
+        "display_name": "The Pretender S04E16 School Daze SD CZ Dabing",
+        "uploaded_at": "2026-11-24T13:03:33.008097+00:00"
       }
     },
     "570:4:17": {
@@ -917526,7 +917527,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:03:23.633570+00:00",
+  "updated_at": "2026-11-24T13:03:33.008115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
