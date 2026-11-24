@@ -919587,12 +919587,6 @@
     },
     "9698:1:1": {
       "episode_key": "letohrátky:s1:e1",
-      "claim": {
-        "worker_id": "730f09860af44d7380c9427f10f5d0ab-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:00:57.318571+00:00",
-        "lease_expires_at": "2026-11-24T20:00:57.318588+00:00"
-      },
       "source": {
         "source_id": "33755908",
         "source_url": "https://sdilej.cz/33755908/letohratky-s01e01-001-1990-fhd-velka-letecka-loupez-s-.mp4",
@@ -919617,22 +919611,29 @@
         "display_name": "TaleSpin S01E01 Plunder & Lightning (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:01:10.101567+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338203",
-        "size_bytes": 479449101
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338203",
-        "size_bytes": 479449101,
-        "source_bytes_read": 479449101,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338203",
         "source_bytes_read": 479449101,
         "elapsed_seconds": 94.001,
         "finished_at": "2026-11-24T14:03:26.040401+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338203",
+          "size_bytes": 479449101,
+          "source_bytes_read": 479449101,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33755908",
+        "source_url": "https://sdilej.cz/33755908/letohratky-s01e01-001-1990-fhd-velka-letecka-loupez-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338203",
+        "display_name": "TaleSpin S01E01 Plunder & Lightning (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:03:43.625450+00:00"
       }
     },
     "9698:1:2": {
@@ -919692,7 +919693,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:03:37.644540+00:00",
+  "updated_at": "2026-11-24T14:03:43.625472+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
