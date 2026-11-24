@@ -901176,12 +901176,6 @@
     },
     "6161:1:3": {
       "episode_key": "vídeňská krev:s1:e3",
-      "claim": {
-        "worker_id": "d31e3b53ee0f4563adf944ba2460d5ba-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:20:52.944241+00:00",
-        "lease_expires_at": "2026-11-24T10:20:52.944258+00:00"
-      },
       "source": {
         "source_id": "28284472",
         "source_url": "https://sdilej.cz/28284472/videnska-krev-s01e03-czdab.mp4",
@@ -901206,22 +901200,29 @@
         "display_name": "Vienna Blood S01E03 The Lost Child 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:21:05.573061+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319934",
-        "size_bytes": 1705381030
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319934",
-        "size_bytes": 1705381030,
-        "source_bytes_read": 1705381030,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319934",
         "source_bytes_read": 1705381030,
         "elapsed_seconds": 144.447,
         "finished_at": "2026-11-24T04:24:00.929284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319934",
+          "size_bytes": 1705381030,
+          "source_bytes_read": 1705381030,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28284472",
+        "source_url": "https://sdilej.cz/28284472/videnska-krev-s01e03-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319934",
+        "display_name": "Vienna Blood S01E03 The Lost Child 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:24:08.662230+00:00"
       }
     },
     "6161:2:1": {
@@ -901354,7 +901355,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:24:00.929310+00:00",
+  "updated_at": "2026-11-24T04:24:08.662251+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
