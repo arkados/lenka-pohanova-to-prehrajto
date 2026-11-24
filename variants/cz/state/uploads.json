@@ -899928,12 +899928,6 @@
     },
     "1435:7:11": {
       "episode_key": "magnum:s7:e11",
-      "claim": {
-        "worker_id": "37e74682e19e4650ba9a5865bbf1ad2e-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:51:27.120933+00:00",
-        "lease_expires_at": "2026-11-24T09:51:27.120947+00:00"
-      },
       "source": {
         "source_id": "30752385",
         "source_url": "https://sdilej.cz/30752385/magnum-magnum-p.i.-s07e11-unos.mkv",
@@ -899958,22 +899952,29 @@
         "display_name": "Magnum, P.I. S07E11 Missing Melody SD CZ Dabing",
         "prepared_at": "2026-11-24T03:51:40.406858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31318648",
-        "size_bytes": 216832687
-      },
-      "transfer_receipt": {
-        "target_video_id": "31318648",
-        "size_bytes": 216832687,
-        "source_bytes_read": 216832687,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31318648",
         "source_bytes_read": 216832687,
         "elapsed_seconds": 22.821,
         "finished_at": "2026-11-24T03:52:35.366320+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31318648",
+          "size_bytes": 216832687,
+          "source_bytes_read": 216832687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30752385",
+        "source_url": "https://sdilej.cz/30752385/magnum-magnum-p.i.-s07e11-unos.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31318648",
+        "display_name": "Magnum, P.I. S07E11 Missing Melody SD CZ Dabing",
+        "uploaded_at": "2026-11-24T03:52:54.233850+00:00"
       }
     },
     "1435:7:12": {
@@ -900015,7 +900016,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:52:47.780742+00:00",
+  "updated_at": "2026-11-24T03:52:54.233870+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
