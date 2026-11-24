@@ -919683,12 +919683,6 @@
     },
     "9698:1:3": {
       "episode_key": "letohrátky:s1:e3",
-      "claim": {
-        "worker_id": "d1346a9a56ee4d3e9b6a452a288d7c40-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:04:18.732032+00:00",
-        "lease_expires_at": "2026-11-24T20:04:18.732046+00:00"
-      },
       "source": {
         "source_id": "33755924",
         "source_url": "https://sdilej.cz/33755924/letohratky-s01e03-003-1990-fhd-ostrov-piratu-s-.mp4",
@@ -919713,22 +919707,29 @@
         "display_name": "TaleSpin S01E03 Plunder & Lightning (3) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:04:38.389563+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338308",
-        "size_bytes": 482273389
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338308",
-        "size_bytes": 482273389,
-        "source_bytes_read": 482273389,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338308",
         "source_bytes_read": 482273389,
         "elapsed_seconds": 56.9,
         "finished_at": "2026-11-24T14:06:07.530833+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338308",
+          "size_bytes": 482273389,
+          "source_bytes_read": 482273389,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33755924",
+        "source_url": "https://sdilej.cz/33755924/letohratky-s01e03-003-1990-fhd-ostrov-piratu-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338308",
+        "display_name": "TaleSpin S01E03 Plunder & Lightning (3) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:06:16.085423+00:00"
       }
     },
     "9698:1:4": {
@@ -919811,7 +919812,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:06:07.530853+00:00",
+  "updated_at": "2026-11-24T14:06:16.085447+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
