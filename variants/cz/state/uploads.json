@@ -914373,12 +914373,6 @@
     },
     "669:1:9": {
       "episode_key": "na tenkém ledě:s1:e9",
-      "claim": {
-        "worker_id": "9a86be45724c4c37ac8cd3a90d1dba66-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:35:41.532753+00:00",
-        "lease_expires_at": "2026-11-24T17:35:41.532769+00:00"
-      },
       "source": {
         "source_id": "29769780",
         "source_url": "https://sdilej.cz/29769780/na-tenkem-lede-s01e09-1080p-cz-dabing.mkv",
@@ -914403,22 +914397,29 @@
         "display_name": "Spinning Out S01E09 #1 Mom 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:35:54.375636+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333412",
-        "size_bytes": 959014765
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333412",
-        "size_bytes": 959014765,
-        "source_bytes_read": 959014765,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333412",
         "source_bytes_read": 959014765,
         "elapsed_seconds": 72.828,
         "finished_at": "2026-11-24T11:37:41.299627+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333412",
+          "size_bytes": 959014765,
+          "source_bytes_read": 959014765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29769780",
+        "source_url": "https://sdilej.cz/29769780/na-tenkem-lede-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333412",
+        "display_name": "Spinning Out S01E09 #1 Mom 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:37:50.062720+00:00"
       }
     },
     "669:1:10": {
@@ -914464,7 +914465,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:37:41.299654+00:00",
+  "updated_at": "2026-11-24T11:37:50.062739+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
