@@ -922543,12 +922543,6 @@
     },
     "9698:1:64": {
       "episode_key": "letohrátky:s1:e64",
-      "claim": {
-        "worker_id": "5c1eab8a8eec4e639d903cda909c37da-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:34:12.963936+00:00",
-        "lease_expires_at": "2026-11-24T21:34:12.963949+00:00"
-      },
       "source": {
         "source_id": "33756308",
         "source_url": "https://sdilej.cz/33756308/letohratky-s01e64-064-1991-fhd-navrat-do-minulosti-s-.mp4",
@@ -922573,22 +922567,29 @@
         "display_name": "TaleSpin S01E64 Bygones 1080p CZ Dabing",
         "prepared_at": "2026-11-24T15:34:25.420880+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341128",
-        "size_bytes": 479502110
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341128",
-        "size_bytes": 479502110,
-        "source_bytes_read": 479502110,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341128",
         "source_bytes_read": 479502110,
         "elapsed_seconds": 38.3,
         "finished_at": "2026-11-24T15:35:33.339866+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341128",
+          "size_bytes": 479502110,
+          "source_bytes_read": 479502110,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756308",
+        "source_url": "https://sdilej.cz/33756308/letohratky-s01e64-064-1991-fhd-navrat-do-minulosti-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341128",
+        "display_name": "TaleSpin S01E64 Bygones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T15:35:50.837753+00:00"
       }
     },
     "4928:1:1": {
@@ -922647,7 +922648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:35:45.522873+00:00",
+  "updated_at": "2026-11-24T15:35:50.837768+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
