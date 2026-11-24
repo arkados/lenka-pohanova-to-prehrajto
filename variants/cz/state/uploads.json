@@ -920342,12 +920342,6 @@
     },
     "9698:1:19": {
       "episode_key": "letohrátky:s1:e19",
-      "claim": {
-        "worker_id": "872cea8f63884457b9db4a0db04e05b2-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:25:21.161635+00:00",
-        "lease_expires_at": "2026-11-24T20:25:21.161650+00:00"
-      },
       "source": {
         "source_id": "33756015",
         "source_url": "https://sdilej.cz/33756015/letohratky-s01e19-019-1990-fhd-pro-par-petrodolaru-navic-s-.mp4",
@@ -920372,22 +920366,29 @@
         "display_name": "TaleSpin S01E19 For a Fuel Dollars More 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:25:27.793580+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338988",
-        "size_bytes": 478413848
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338988",
-        "size_bytes": 478413848,
-        "source_bytes_read": 478413848,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338988",
         "source_bytes_read": 478413848,
         "elapsed_seconds": 110.416,
         "finished_at": "2026-11-24T14:27:41.031969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338988",
+          "size_bytes": 478413848,
+          "source_bytes_read": 478413848,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756015",
+        "source_url": "https://sdilej.cz/33756015/letohratky-s01e19-019-1990-fhd-pro-par-petrodolaru-navic-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338988",
+        "display_name": "TaleSpin S01E19 For a Fuel Dollars More 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:27:55.977092+00:00"
       }
     },
     "9698:1:20": {
@@ -920447,7 +920448,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:27:48.344776+00:00",
+  "updated_at": "2026-11-24T14:27:55.977114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
