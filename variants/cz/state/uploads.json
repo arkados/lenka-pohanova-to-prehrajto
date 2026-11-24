@@ -910780,12 +910780,6 @@
     },
     "1283:4:3": {
       "episode_key": "rodiče:s4:e3",
-      "claim": {
-        "worker_id": "4da578ed8a904c0995a77968771653f6-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:49:12.685109+00:00",
-        "lease_expires_at": "2026-11-24T15:49:12.685124+00:00"
-      },
       "source": {
         "source_id": "27726385",
         "source_url": "https://sdilej.cz/27726385/rodice-breeders-s04e03-hd-5.1-cz-dabing.mkv",
@@ -910810,22 +910804,29 @@
         "display_name": "Breeders S04E03 No Age 1080p CZ Dabing",
         "prepared_at": "2026-11-24T09:49:37.183771+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31330257",
-        "size_bytes": 1708628167
-      },
-      "transfer_receipt": {
-        "target_video_id": "31330257",
-        "size_bytes": 1708628167,
-        "source_bytes_read": 1708628167,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31330257",
         "source_bytes_read": 1708628167,
         "elapsed_seconds": 110.477,
         "finished_at": "2026-11-24T09:52:06.880568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31330257",
+          "size_bytes": 1708628167,
+          "source_bytes_read": 1708628167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27726385",
+        "source_url": "https://sdilej.cz/27726385/rodice-breeders-s04e03-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31330257",
+        "display_name": "Breeders S04E03 No Age 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T09:52:14.068434+00:00"
       }
     },
     "1283:4:7": {
@@ -911010,7 +911011,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:52:06.880588+00:00",
+  "updated_at": "2026-11-24T09:52:14.068452+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
