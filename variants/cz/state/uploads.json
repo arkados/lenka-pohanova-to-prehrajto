@@ -920948,12 +920948,6 @@
     },
     "9698:1:30": {
       "episode_key": "letohrátky:s1:e30",
-      "claim": {
-        "worker_id": "b14efbf8b5cf4c0ca678921179a392be-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T14:54:59.412944+00:00",
-        "lease_expires_at": "2026-11-24T20:54:59.412956+00:00"
-      },
       "source": {
         "source_id": "33756089",
         "source_url": "https://sdilej.cz/33756089/letohratky-s01e30-030-1990-fhd-vsechno-nebo-nic-s-.mp4",
@@ -920978,22 +920972,29 @@
         "display_name": "TaleSpin S01E30 Double or Nothing 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:55:13.971576+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31339963",
-        "size_bytes": 478387799
-      },
-      "transfer_receipt": {
-        "target_video_id": "31339963",
-        "size_bytes": 478387799,
-        "source_bytes_read": 478387799,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31339963",
         "source_bytes_read": 478387799,
         "elapsed_seconds": 32.761,
         "finished_at": "2026-11-24T14:56:24.880876+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31339963",
+          "size_bytes": 478387799,
+          "source_bytes_read": 478387799,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756089",
+        "source_url": "https://sdilej.cz/33756089/letohratky-s01e30-030-1990-fhd-vsechno-nebo-nic-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31339963",
+        "display_name": "TaleSpin S01E30 Double or Nothing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:56:40.374065+00:00"
       }
     }
   },
@@ -921002,7 +921003,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:56:31.050086+00:00",
+  "updated_at": "2026-11-24T14:56:40.374080+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
