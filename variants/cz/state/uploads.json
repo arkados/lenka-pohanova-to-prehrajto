@@ -902996,12 +902996,6 @@
     },
     "195:1:12": {
       "episode_key": "arabela:s1:e12",
-      "claim": {
-        "worker_id": "d98cf6dac8804b6bb581526adfec953f-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:23:05.591739+00:00",
-        "lease_expires_at": "2026-11-24T11:23:05.591761+00:00"
-      },
       "source": {
         "source_id": "27634111",
         "source_url": "https://sdilej.cz/27634111/arabela-1980-s01e12-1980-hd-cz-dabing.mkv",
@@ -903026,22 +903020,29 @@
         "display_name": "Arabela S01E12 Hrdlička zasahuje 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:23:22.028874+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31321892",
-        "size_bytes": 4932766009
-      },
-      "transfer_receipt": {
-        "target_video_id": "31321892",
-        "size_bytes": 4932766009,
-        "source_bytes_read": 4932766009,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31321892",
         "source_bytes_read": 4932766009,
         "elapsed_seconds": 596.483,
         "finished_at": "2026-11-24T05:33:48.696872+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31321892",
+          "size_bytes": 4932766009,
+          "source_bytes_read": 4932766009,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27634111",
+        "source_url": "https://sdilej.cz/27634111/arabela-1980-s01e12-1980-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31321892",
+        "display_name": "Arabela S01E12 Hrdlička zasahuje 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T05:34:01.247779+00:00"
       }
     },
     "195:1:13": {
@@ -903337,7 +903338,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:33:53.559418+00:00",
+  "updated_at": "2026-11-24T05:34:01.247800+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
