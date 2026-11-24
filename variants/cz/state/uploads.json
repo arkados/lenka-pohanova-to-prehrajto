@@ -906731,12 +906731,6 @@
     },
     "1556:2:8": {
       "episode_key": "zákon gangu: mayové:s2:e8",
-      "claim": {
-        "worker_id": "d39a75bf224e4330817e257764050689-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T07:08:39.903824+00:00",
-        "lease_expires_at": "2026-11-24T13:08:39.903844+00:00"
-      },
       "source": {
         "source_id": "32831393",
         "source_url": "https://sdilej.cz/32831393/zakon-gangu-mayove-s02e08-cz-dabing.mkv",
@@ -906760,7 +906754,17 @@
         },
         "display_name": "Mayans M.C. S02E08 Kukulkan 1080p CZ Dabing",
         "prepared_at": "2026-11-24T07:08:53.918516+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32831393:https://sdilej.cz/32831393/zakon-gangu-mayove-s02e08-cz-dabing.mkv",
+        "at": "2026-11-24T07:09:09.992002+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T07:09:09.992035+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1556:2:9": {
       "episode_key": "zákon gangu: mayové:s2:e9",
@@ -906786,7 +906790,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T07:09:05.353430+00:00",
+  "updated_at": "2026-11-24T07:09:09.992038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -907640,6 +907644,10 @@
         {
           "identity": "1556:2:7",
           "at": "2026-11-24T07:08:45.080977+00:00"
+        },
+        {
+          "identity": "1556:2:8",
+          "at": "2026-11-24T07:09:09.992002+00:00"
         }
       ],
       "retry_after": "2026-11-24T07:07:49.449385+00:00"
