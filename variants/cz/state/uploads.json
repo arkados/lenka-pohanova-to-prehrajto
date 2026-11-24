@@ -895339,12 +895339,6 @@
     },
     "1435:3:5": {
       "episode_key": "magnum:s3:e5",
-      "claim": {
-        "worker_id": "8a568ac88e37459284ee4cd2e55254a5-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:40:36.565187+00:00",
-        "lease_expires_at": "2026-11-24T07:40:36.565202+00:00"
-      },
       "source": {
         "source_id": "32875681",
         "source_url": "https://sdilej.cz/32875681/magnum-p.i.-s03e05-cz-the-day-danger-walked-in.mkv",
@@ -895369,22 +895363,29 @@
         "display_name": "Magnum, P.I. S03E05 Past Tense 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:40:49.132129+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314502",
-        "size_bytes": 2548338072
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314502",
-        "size_bytes": 2548338072,
-        "source_bytes_read": 2548338072,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314502",
         "source_bytes_read": 2548338072,
         "elapsed_seconds": 234.291,
         "finished_at": "2026-11-24T01:45:19.907497+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314502",
+          "size_bytes": 2548338072,
+          "source_bytes_read": 2548338072,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32875681",
+        "source_url": "https://sdilej.cz/32875681/magnum-p.i.-s03e05-cz-the-day-danger-walked-in.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314502",
+        "display_name": "Magnum, P.I. S03E05 Past Tense 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:45:33.551530+00:00"
       }
     },
     "1435:3:6": {
@@ -895481,7 +895482,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:45:26.964985+00:00",
+  "updated_at": "2026-11-24T01:45:33.551546+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
