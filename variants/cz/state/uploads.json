@@ -916839,12 +916839,6 @@
     },
     "570:3:14": {
       "episode_key": "chameleon:s3:e14",
-      "claim": {
-        "worker_id": "a5d278fd69bf40fc82b1f1a3722debd7-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:51:32.740008+00:00",
-        "lease_expires_at": "2026-11-24T18:51:32.740023+00:00"
-      },
       "source": {
         "source_id": "34345215",
         "source_url": "https://sdilej.cz/34345215/chameleon-s03e14-cz-dab.mp4",
@@ -916869,22 +916863,29 @@
         "display_name": "The Pretender S03E14 At the Hour of Our Death SD CZ Dabing",
         "prepared_at": "2026-11-24T12:51:39.735682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336070",
-        "size_bytes": 229566517
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336070",
-        "size_bytes": 229566517,
-        "source_bytes_read": 229566517,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336070",
         "source_bytes_read": 229566517,
         "elapsed_seconds": 28.683,
         "finished_at": "2026-11-24T12:52:33.119464+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336070",
+          "size_bytes": 229566517,
+          "source_bytes_read": 229566517,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345215",
+        "source_url": "https://sdilej.cz/34345215/chameleon-s03e14-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336070",
+        "display_name": "The Pretender S03E14 At the Hour of Our Death SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:52:50.378872+00:00"
       }
     },
     "570:3:15": {
@@ -916902,7 +916903,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:52:44.279175+00:00",
+  "updated_at": "2026-11-24T12:52:50.378887+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
