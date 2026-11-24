@@ -892108,12 +892108,6 @@
     },
     "640:1:4": {
       "episode_key": "mladý sherlock:s1:e4",
-      "claim": {
-        "worker_id": "e8156f677f044ae5a07237cbca361b83-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-23T23:54:38.634333+00:00",
-        "lease_expires_at": "2026-11-24T05:54:38.634349+00:00"
-      },
       "source": {
         "source_id": "33552720",
         "source_url": "https://sdilej.cz/33552720/mlady-sherlock-s01e04-pripad-chybejiciho-knofliku.mkv",
@@ -892138,22 +892132,29 @@
         "display_name": "Young Sherlock S01E04 The Case of the Missing Button 4K CZ Dabing",
         "prepared_at": "2026-11-23T23:54:57.149642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31311356",
-        "size_bytes": 2249584582
-      },
-      "transfer_receipt": {
-        "target_video_id": "31311356",
-        "size_bytes": 2249584582,
-        "source_bytes_read": 2249584582,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31311356",
         "source_bytes_read": 2249584582,
         "elapsed_seconds": 326.753,
         "finished_at": "2026-11-24T00:01:00.364862+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31311356",
+          "size_bytes": 2249584582,
+          "source_bytes_read": 2249584582,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33552720",
+        "source_url": "https://sdilej.cz/33552720/mlady-sherlock-s01e04-pripad-chybejiciho-knofliku.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31311356",
+        "display_name": "Young Sherlock S01E04 The Case of the Missing Button 4K CZ Dabing",
+        "uploaded_at": "2026-11-24T00:01:09.220747+00:00"
       }
     },
     "640:1:5": {
@@ -892301,7 +892302,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:01:00.364883+00:00",
+  "updated_at": "2026-11-24T00:01:09.220766+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
