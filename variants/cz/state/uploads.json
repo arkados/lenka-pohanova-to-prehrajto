@@ -895739,12 +895739,6 @@
     },
     "1435:3:13": {
       "episode_key": "magnum:s3:e13",
-      "claim": {
-        "worker_id": "d6173e9dc1bb4df0aaec1f51dc6bfc66-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:52:16.599795+00:00",
-        "lease_expires_at": "2026-11-24T07:52:16.599809+00:00"
-      },
       "source": {
         "source_id": "30770693",
         "source_url": "https://sdilej.cz/30770693/magnum-s03e13.mkv",
@@ -895769,22 +895763,29 @@
         "display_name": "Magnum, P.I. S03E13 Of Sound Mind 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:52:23.294859+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314901",
-        "size_bytes": 656040351
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314901",
-        "size_bytes": 656040351,
-        "source_bytes_read": 656040351,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314901",
         "source_bytes_read": 656040351,
         "elapsed_seconds": 42.101,
         "finished_at": "2026-11-24T01:53:30.791600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314901",
+          "size_bytes": 656040351,
+          "source_bytes_read": 656040351,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770693",
+        "source_url": "https://sdilej.cz/30770693/magnum-s03e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314901",
+        "display_name": "Magnum, P.I. S03E13 Of Sound Mind 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:53:39.044049+00:00"
       }
     }
   },
@@ -895793,7 +895794,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:53:30.791625+00:00",
+  "updated_at": "2026-11-24T01:53:39.044068+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
