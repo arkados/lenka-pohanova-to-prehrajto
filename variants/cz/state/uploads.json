@@ -920299,12 +920299,6 @@
     },
     "9698:1:18": {
       "episode_key": "letohrátky:s1:e18",
-      "claim": {
-        "worker_id": "8f5c3d5949a146f8ae10ca7458a7f810-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:24:22.781928+00:00",
-        "lease_expires_at": "2026-11-24T20:24:22.781943+00:00"
-      },
       "source": {
         "source_id": "33756008",
         "source_url": "https://sdilej.cz/33756008/letohratky-s01e18-018-1990-fhd-festival-pratelstvi-s-.mp4",
@@ -920329,22 +920323,29 @@
         "display_name": "TaleSpin S01E18 The Golden Sprocket of Friendship 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:24:35.457091+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338967",
-        "size_bytes": 481196455
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338967",
-        "size_bytes": 481196455,
-        "source_bytes_read": 481196455,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338967",
         "source_bytes_read": 481196455,
         "elapsed_seconds": 164.285,
         "finished_at": "2026-11-24T14:28:02.148167+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338967",
+          "size_bytes": 481196455,
+          "source_bytes_read": 481196455,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756008",
+        "source_url": "https://sdilej.cz/33756008/letohratky-s01e18-018-1990-fhd-festival-pratelstvi-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338967",
+        "display_name": "TaleSpin S01E18 The Golden Sprocket of Friendship 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:28:18.998361+00:00"
       }
     },
     "9698:1:19": {
@@ -920455,7 +920456,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:28:09.792480+00:00",
+  "updated_at": "2026-11-24T14:28:18.998377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
