@@ -898966,12 +898966,6 @@
     },
     "1435:6:12": {
       "episode_key": "magnum:s6:e12",
-      "claim": {
-        "worker_id": "507ee1cd79184d8e8f408434032df730-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:21:26.885442+00:00",
-        "lease_expires_at": "2026-11-24T09:21:26.885454+00:00"
-      },
       "source": {
         "source_id": "30772779",
         "source_url": "https://sdilej.cz/30772779/magnum-s06e12.mkv",
@@ -898996,22 +898990,29 @@
         "display_name": "Magnum, P.I. S06E12 I Never Wanted to Go to France, Anyway… 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:21:38.637057+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317869",
-        "size_bytes": 1550502361
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317869",
-        "size_bytes": 1550502361,
-        "source_bytes_read": 1550502361,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317869",
         "source_bytes_read": 1550502361,
         "elapsed_seconds": 110.046,
         "finished_at": "2026-11-24T03:24:06.597903+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317869",
+          "size_bytes": 1550502361,
+          "source_bytes_read": 1550502361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772779",
+        "source_url": "https://sdilej.cz/30772779/magnum-s06e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317869",
+        "display_name": "Magnum, P.I. S06E12 I Never Wanted to Go to France, Anyway… 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:24:18.987231+00:00"
       }
     }
   },
@@ -899020,7 +899021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:24:13.610726+00:00",
+  "updated_at": "2026-11-24T03:24:18.987250+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
