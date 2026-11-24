@@ -901621,12 +901621,6 @@
     },
     "4693:3:1": {
       "episode_key": "mcdonaldová a dodds:s3:e1",
-      "claim": {
-        "worker_id": "1626de01aebc4f228d82d62ff83e0636-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:31:07.132840+00:00",
-        "lease_expires_at": "2026-11-24T10:31:07.132852+00:00"
-      },
       "source": {
         "source_id": "24121099",
         "source_url": "https://sdilej.cz/24121099/mcdonaldova-a-dodds-s03e01-tajemny-usmev-.mkv",
@@ -901651,22 +901645,29 @@
         "display_name": "McDonald & Dodds S03E01 Belvedere 1080p CZ Dabing",
         "prepared_at": "2026-11-24T04:31:18.711421+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31320375",
-        "size_bytes": 1419870163
-      },
-      "transfer_receipt": {
-        "target_video_id": "31320375",
-        "size_bytes": 1419870163,
-        "source_bytes_read": 1419870163,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31320375",
         "source_bytes_read": 1419870163,
         "elapsed_seconds": 105.68,
         "finished_at": "2026-11-24T04:33:32.053190+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31320375",
+          "size_bytes": 1419870163,
+          "source_bytes_read": 1419870163,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24121099",
+        "source_url": "https://sdilej.cz/24121099/mcdonaldova-a-dodds-s03e01-tajemny-usmev-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31320375",
+        "display_name": "McDonald & Dodds S03E01 Belvedere 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:33:45.832831+00:00"
       }
     },
     "4693:3:2": {
@@ -901712,7 +901713,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:33:37.209898+00:00",
+  "updated_at": "2026-11-24T04:33:45.832849+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
