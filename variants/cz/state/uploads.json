@@ -911831,12 +911831,6 @@
     },
     "1556:3:4": {
       "episode_key": "zákon gangu: mayové:s3:e4",
-      "claim": {
-        "worker_id": "ef4575f8c3cb43a8861754b9704c592c-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:12:32.196423+00:00",
-        "lease_expires_at": "2026-11-24T16:12:32.196465+00:00"
-      },
       "source": {
         "source_id": "32826990",
         "source_url": "https://sdilej.cz/32826990/zakon-gangu-mayove-s03e04-cz-dabing.mkv",
@@ -911860,7 +911854,17 @@
         },
         "display_name": "Mayans M.C. S03E04 Our Gang's Dark Oath 1080p CZ Dabing",
         "prepared_at": "2026-11-24T10:12:50.724709+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32826990:https://sdilej.cz/32826990/zakon-gangu-mayove-s03e04-cz-dabing.mkv",
+        "at": "2026-11-24T10:13:10.378198+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T10:13:10.378267+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1035:2:18": {
       "episode_key": "dinosaurové:s2:e18",
@@ -911886,7 +911890,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:13:04.533352+00:00",
+  "updated_at": "2026-11-24T10:13:10.378273+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -912738,19 +912742,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:2:3",
-          "at": "2026-11-24T10:11:08.327074+00:00"
-        },
-        {
           "identity": "1556:2:8",
           "at": "2026-11-24T10:12:37.629400+00:00"
         },
         {
           "identity": "1556:3:3",
           "at": "2026-11-24T10:12:43.486560+00:00"
+        },
+        {
+          "identity": "1556:3:4",
+          "at": "2026-11-24T10:13:10.378198+00:00"
         }
       ],
-      "retry_after": "2026-11-24T10:22:43.486560+00:00"
+      "retry_after": "2026-11-24T10:23:10.378198+00:00"
     }
   }
 }
