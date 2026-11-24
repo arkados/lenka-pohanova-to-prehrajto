@@ -918969,12 +918969,6 @@
     },
     "410:2:9": {
       "episode_key": "star trek: fenomén:s2:e9",
-      "claim": {
-        "worker_id": "10dc94dc28d244efa10945cc137d43b4-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:51:39.401096+00:00",
-        "lease_expires_at": "2026-11-24T19:51:39.401114+00:00"
-      },
       "source": {
         "source_id": "34880199",
         "source_url": "https://sdilej.cz/34880199/star.trek.fenomen.s02e09.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -918999,22 +918993,29 @@
         "display_name": "Star Trek: Prodigy S02E09 The Devourer of All Things (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:52:03.277756+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31337833",
-        "size_bytes": 220606652
-      },
-      "transfer_receipt": {
-        "target_video_id": "31337833",
-        "size_bytes": 220606652,
-        "source_bytes_read": 220606652,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31337833",
         "source_bytes_read": 220606652,
         "elapsed_seconds": 14.867,
         "finished_at": "2026-11-24T13:52:58.273108+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31337833",
+          "size_bytes": 220606652,
+          "source_bytes_read": 220606652,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34880199",
+        "source_url": "https://sdilej.cz/34880199/star.trek.fenomen.s02e09.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31337833",
+        "display_name": "Star Trek: Prodigy S02E09 The Devourer of All Things (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T13:53:25.930174+00:00"
       }
     },
     "410:2:10": {
@@ -919110,7 +919111,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:53:19.264752+00:00",
+  "updated_at": "2026-11-24T13:53:25.930195+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
