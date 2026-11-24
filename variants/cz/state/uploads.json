@@ -912994,12 +912994,6 @@
     },
     "1986:1:2": {
       "episode_key": "mrtví mladí detektivové:s1:e2",
-      "claim": {
-        "worker_id": "af39f3d9ce504202af271e9273728dc2-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:38:40.283012+00:00",
-        "lease_expires_at": "2026-11-24T16:38:40.283027+00:00"
-      },
       "source": {
         "source_id": "28885836",
         "source_url": "https://sdilej.cz/28885836/mrtvi-mladi-detektivove-s01e02-1080p-cz-dabing.mkv",
@@ -913024,22 +913018,29 @@
         "display_name": "Dead Boy Detectives S01E02 The Case of the Dandelion Shrine 1080p CZ Dabing",
         "prepared_at": "2026-11-24T10:38:58.038449+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331597",
-        "size_bytes": 883103312
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331597",
-        "size_bytes": 883103312,
-        "source_bytes_read": 883103312,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331597",
         "source_bytes_read": 883103312,
         "elapsed_seconds": 69.222,
         "finished_at": "2026-11-24T10:40:43.449336+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331597",
+          "size_bytes": 883103312,
+          "source_bytes_read": 883103312,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28885836",
+        "source_url": "https://sdilej.cz/28885836/mrtvi-mladi-detektivove-s01e02-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331597",
+        "display_name": "Dead Boy Detectives S01E02 The Case of the Dandelion Shrine 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T10:40:58.031014+00:00"
       }
     }
   },
@@ -913048,7 +913049,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:40:50.009452+00:00",
+  "updated_at": "2026-11-24T10:40:58.031029+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
