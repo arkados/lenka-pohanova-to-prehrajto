@@ -897487,12 +897487,6 @@
     },
     "1435:5:4": {
       "episode_key": "magnum:s5:e4",
-      "claim": {
-        "worker_id": "59b44f8484e549978930959175c3dee6-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:40:31.516255+00:00",
-        "lease_expires_at": "2026-11-24T08:40:31.516272+00:00"
-      },
       "source": {
         "source_id": "30770985",
         "source_url": "https://sdilej.cz/30770985/magnum-s05e04.mkv",
@@ -897517,22 +897511,29 @@
         "display_name": "Magnum, P.I. S05E04 The Legacy of Garwood Huddle 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:40:38.245968+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316531",
-        "size_bytes": 790704442
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316531",
-        "size_bytes": 790704442,
-        "source_bytes_read": 790704442,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316531",
         "source_bytes_read": 790704442,
         "elapsed_seconds": 162.403,
         "finished_at": "2026-11-24T02:43:51.285163+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316531",
+          "size_bytes": 790704442,
+          "source_bytes_read": 790704442,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770985",
+        "source_url": "https://sdilej.cz/30770985/magnum-s05e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316531",
+        "display_name": "Magnum, P.I. S05E04 The Legacy of Garwood Huddle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:44:02.961352+00:00"
       }
     },
     "1435:5:5": {
@@ -897578,7 +897579,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:43:56.959042+00:00",
+  "updated_at": "2026-11-24T02:44:02.961369+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
