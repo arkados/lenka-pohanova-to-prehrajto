@@ -892363,12 +892363,6 @@
     },
     "642:1:4": {
       "episode_key": "země nikoho:s1:e4",
-      "claim": {
-        "worker_id": "43204fabdcc44093b1329ea4fae8b53d-worker-0",
-        "run_id": "45262898910",
-        "claimed_at": "2026-11-24T00:01:30.725918+00:00",
-        "lease_expires_at": "2026-11-24T06:01:30.725939+00:00"
-      },
       "source": {
         "source_id": "30845521",
         "source_url": "https://sdilej.cz/30845521/zeme-nikoho-s01e04-cz-dabing.mp4",
@@ -892393,22 +892387,29 @@
         "display_name": "No Man's Land S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:01:45.404350+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31311568",
-        "size_bytes": 862829019
-      },
-      "transfer_receipt": {
-        "target_video_id": "31311568",
-        "size_bytes": 862829019,
-        "source_bytes_read": 862829019,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31311568",
         "source_bytes_read": 862829019,
         "elapsed_seconds": 82.743,
         "finished_at": "2026-11-24T00:03:43.745023+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31311568",
+          "size_bytes": 862829019,
+          "source_bytes_read": 862829019,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30845521",
+        "source_url": "https://sdilej.cz/30845521/zeme-nikoho-s01e04-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31311568",
+        "display_name": "No Man's Land S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:04:08.162726+00:00"
       }
     },
     "642:1:5": {
@@ -892487,7 +892488,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:04:00.274437+00:00",
+  "updated_at": "2026-11-24T00:04:08.162742+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
