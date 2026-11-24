@@ -919173,12 +919173,6 @@
     },
     "410:2:13": {
       "episode_key": "star trek: fenomén:s2:e13",
-      "claim": {
-        "worker_id": "082b80c668ab4d949c0835dc0462d9a4-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T13:55:45.598164+00:00",
-        "lease_expires_at": "2026-11-24T19:55:45.598180+00:00"
-      },
       "source": {
         "source_id": "34880232",
         "source_url": "https://sdilej.cz/34880232/star.trek.fenomen.s02e13.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
@@ -919203,22 +919197,29 @@
         "display_name": "Star Trek: Prodigy S02E13 A Tribble Called Quest 1080p CZ Dabing",
         "prepared_at": "2026-11-24T13:56:05.777701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31337990",
-        "size_bytes": 250495258
-      },
-      "transfer_receipt": {
-        "target_video_id": "31337990",
-        "size_bytes": 250495258,
-        "source_bytes_read": 250495258,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31337990",
         "source_bytes_read": 250495258,
         "elapsed_seconds": 21.037,
         "finished_at": "2026-11-24T13:57:11.666741+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31337990",
+          "size_bytes": 250495258,
+          "source_bytes_read": 250495258,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34880232",
+        "source_url": "https://sdilej.cz/34880232/star.trek.fenomen.s02e13.1080p.10bit.ddp2.0.x265.cz.dabing-muj.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31337990",
+        "display_name": "Star Trek: Prodigy S02E13 A Tribble Called Quest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T13:57:29.626693+00:00"
       }
     },
     "410:2:14": {
@@ -919313,7 +919314,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:57:23.844687+00:00",
+  "updated_at": "2026-11-24T13:57:29.626710+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
