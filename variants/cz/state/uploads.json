@@ -922492,12 +922492,6 @@
     },
     "9698:1:63": {
       "episode_key": "letohrátky:s1:e63",
-      "claim": {
-        "worker_id": "3cbad2c85a4f49a0a854824177be63b1-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:33:09.001169+00:00",
-        "lease_expires_at": "2026-11-24T21:33:09.001179+00:00"
-      },
       "source": {
         "source_id": "31605423",
         "source_url": "https://sdilej.cz/31605423/letohratky-s01e63-navrat-do-minulosti.mkv",
@@ -922522,22 +922516,29 @@
         "display_name": "TaleSpin S01E63 The Incredible Shrinking Molly SD CZ Dabing",
         "prepared_at": "2026-11-24T15:33:22.497136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341098",
-        "size_bytes": 534320085
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341098",
-        "size_bytes": 534320085,
-        "source_bytes_read": 534320085,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341098",
         "source_bytes_read": 534320085,
         "elapsed_seconds": 103.258,
         "finished_at": "2026-11-24T15:35:27.203407+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341098",
+          "size_bytes": 534320085,
+          "source_bytes_read": 534320085,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31605423",
+        "source_url": "https://sdilej.cz/31605423/letohratky-s01e63-navrat-do-minulosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341098",
+        "display_name": "TaleSpin S01E63 The Incredible Shrinking Molly SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:35:45.522856+00:00"
       }
     },
     "9698:1:64": {
@@ -922646,7 +922647,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:35:39.060591+00:00",
+  "updated_at": "2026-11-24T15:35:45.522873+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
