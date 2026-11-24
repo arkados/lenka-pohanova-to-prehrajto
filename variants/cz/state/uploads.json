@@ -919836,12 +919836,6 @@
     },
     "9698:1:6": {
       "episode_key": "letohrátky:s1:e6",
-      "claim": {
-        "worker_id": "64c64c84562b4e5e8f2b9a4acb88fc80-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T14:06:30.075370+00:00",
-        "lease_expires_at": "2026-11-24T20:06:30.075389+00:00"
-      },
       "source": {
         "source_id": "33755943",
         "source_url": "https://sdilej.cz/33755943/letohratky-s01e06-006-1990-fhd-prisera-z-cisteho-nebe-s-.mp4",
@@ -919866,22 +919860,29 @@
         "display_name": "TaleSpin S01E06 It Came From Beneath the Sea Duck 1080p CZ Dabing",
         "prepared_at": "2026-11-24T14:06:43.894409+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31338398",
-        "size_bytes": 478746620
-      },
-      "transfer_receipt": {
-        "target_video_id": "31338398",
-        "size_bytes": 478746620,
-        "source_bytes_read": 478746620,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31338398",
         "source_bytes_read": 478746620,
         "elapsed_seconds": 39.956,
         "finished_at": "2026-11-24T14:07:59.091140+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31338398",
+          "size_bytes": 478746620,
+          "source_bytes_read": 478746620,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33755943",
+        "source_url": "https://sdilej.cz/33755943/letohratky-s01e06-006-1990-fhd-prisera-z-cisteho-nebe-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31338398",
+        "display_name": "TaleSpin S01E06 It Came From Beneath the Sea Duck 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T14:08:15.921367+00:00"
       }
     }
   },
@@ -919890,7 +919891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:08:06.724104+00:00",
+  "updated_at": "2026-11-24T14:08:15.921392+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
