@@ -904493,12 +904493,6 @@
     },
     "9684:1:18": {
       "episode_key": "tučňáci z madagaskaru:s1:e18",
-      "claim": {
-        "worker_id": "f53b8500f4994917925c07689a33cbf5-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T06:01:42.503320+00:00",
-        "lease_expires_at": "2026-11-24T12:01:42.503340+00:00"
-      },
       "source": {
         "source_id": "28216341",
         "source_url": "https://sdilej.cz/28216341/tucnaci-z-madagaskaru-s01e18-cz.mkv",
@@ -904523,22 +904517,29 @@
         "display_name": "The Penguins of Madagascar S01E18 Miracle on Ice 1080p CZ Dabing",
         "prepared_at": "2026-11-24T06:01:49.496973+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31322921",
-        "size_bytes": 452175515
-      },
-      "transfer_receipt": {
-        "target_video_id": "31322921",
-        "size_bytes": 452175515,
-        "source_bytes_read": 452175515,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31322921",
         "source_bytes_read": 452175515,
         "elapsed_seconds": 68.46,
         "finished_at": "2026-11-24T06:03:24.957772+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31322921",
+          "size_bytes": 452175515,
+          "source_bytes_read": 452175515,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216341",
+        "source_url": "https://sdilej.cz/28216341/tucnaci-z-madagaskaru-s01e18-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31322921",
+        "display_name": "The Penguins of Madagascar S01E18 Miracle on Ice 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T06:03:31.949628+00:00"
       }
     },
     "9684:1:19": {
@@ -904621,7 +904622,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T06:03:24.957798+00:00",
+  "updated_at": "2026-11-24T06:03:31.949665+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
