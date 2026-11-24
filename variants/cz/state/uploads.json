@@ -915354,12 +915354,6 @@
     },
     "570:1:8": {
       "episode_key": "chameleon:s1:e8",
-      "claim": {
-        "worker_id": "ca36df4534e24dbd85df1ac94d3ab834-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:04:44.214480+00:00",
-        "lease_expires_at": "2026-11-24T18:04:44.214497+00:00"
-      },
       "source": {
         "source_id": "24806803",
         "source_url": "https://sdilej.cz/24806803/chameleon-1x08-ani-mys.avi",
@@ -915384,22 +915378,29 @@
         "display_name": "The Pretender S01E08 Not Even A Mouse SD CZ Dabing",
         "prepared_at": "2026-11-24T12:05:02.886693+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31334209",
-        "size_bytes": 408057856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31334209",
-        "size_bytes": 408057856,
-        "source_bytes_read": 408057856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31334209",
         "source_bytes_read": 408057856,
         "elapsed_seconds": 42.776,
         "finished_at": "2026-11-24T12:06:32.871696+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31334209",
+          "size_bytes": 408057856,
+          "source_bytes_read": 408057856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24806803",
+        "source_url": "https://sdilej.cz/24806803/chameleon-1x08-ani-mys.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31334209",
+        "display_name": "The Pretender S01E08 Not Even A Mouse SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:06:47.449241+00:00"
       }
     },
     "570:1:11": {
@@ -915496,7 +915497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:06:38.961576+00:00",
+  "updated_at": "2026-11-24T12:06:47.449260+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
