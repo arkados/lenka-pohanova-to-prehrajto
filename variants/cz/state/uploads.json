@@ -901051,12 +901051,6 @@
     },
     "1435:8:11": {
       "episode_key": "magnum:s8:e11",
-      "claim": {
-        "worker_id": "9c6679652a3544f0a2e8300e67c149b8-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:18:29.270270+00:00",
-        "lease_expires_at": "2026-11-24T10:18:29.270288+00:00"
-      },
       "source": {
         "source_id": "30752409",
         "source_url": "https://sdilej.cz/30752409/magnum-magnum-p.i.-s08e11-promena.mkv",
@@ -901081,22 +901075,29 @@
         "display_name": "Magnum, P.I. S08E11 Transitions SD CZ Dabing",
         "prepared_at": "2026-11-24T04:18:45.051452+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319827",
-        "size_bytes": 211169476
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319827",
-        "size_bytes": 211169476,
-        "source_bytes_read": 211169476,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319827",
         "source_bytes_read": 211169476,
         "elapsed_seconds": 20.416,
         "finished_at": "2026-11-24T04:19:38.974656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319827",
+          "size_bytes": 211169476,
+          "source_bytes_read": 211169476,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30752409",
+        "source_url": "https://sdilej.cz/30752409/magnum-magnum-p.i.-s08e11-promena.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319827",
+        "display_name": "Magnum, P.I. S08E11 Transitions SD CZ Dabing",
+        "uploaded_at": "2026-11-24T04:19:53.914490+00:00"
       }
     },
     "6161:1:1": {
@@ -901142,7 +901143,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:19:44.819384+00:00",
+  "updated_at": "2026-11-24T04:19:53.914510+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
