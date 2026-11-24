@@ -896977,12 +896977,6 @@
     },
     "1435:4:15": {
       "episode_key": "magnum:s4:e15",
-      "claim": {
-        "worker_id": "cb43edceb167455d83da43bc5daecae0-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:26:24.682723+00:00",
-        "lease_expires_at": "2026-11-24T08:26:24.682735+00:00"
-      },
       "source": {
         "source_id": "30770899",
         "source_url": "https://sdilej.cz/30770899/magnum-s04e15.mkv",
@@ -897007,22 +897001,29 @@
         "display_name": "Magnum, P.I. S04E15 Paradise Blues 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:26:45.196877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316113",
-        "size_bytes": 762806003
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316113",
-        "size_bytes": 762806003,
-        "source_bytes_read": 762806003,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316113",
         "source_bytes_read": 762806003,
         "elapsed_seconds": 80.443,
         "finished_at": "2026-11-24T02:28:41.360105+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316113",
+          "size_bytes": 762806003,
+          "source_bytes_read": 762806003,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770899",
+        "source_url": "https://sdilej.cz/30770899/magnum-s04e15.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316113",
+        "display_name": "Magnum, P.I. S04E15 Paradise Blues 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:29:01.591561+00:00"
       }
     },
     "1435:4:16": {
@@ -897068,7 +897069,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:28:55.638158+00:00",
+  "updated_at": "2026-11-24T02:29:01.591580+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
