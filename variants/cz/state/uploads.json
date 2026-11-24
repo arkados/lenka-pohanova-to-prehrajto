@@ -903997,12 +903997,6 @@
     },
     "1556:1:10": {
       "episode_key": "zákon gangu: mayové:s1:e10",
-      "claim": {
-        "worker_id": "87e7892f1ab34c8b856b361e360714b0-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:54:10.916906+00:00",
-        "lease_expires_at": "2026-11-24T11:54:10.916923+00:00"
-      },
       "source": {
         "source_id": "32831280",
         "source_url": "https://sdilej.cz/32831280/zakon-gangu-mayove-s01e10-cz-dabing.mkv",
@@ -904026,7 +904020,17 @@
         },
         "display_name": "Mayans M.C. S01E10 Cuervo/Tz'ikb'uul 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:54:22.796140+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32831280:https://sdilej.cz/32831280/zakon-gangu-mayove-s01e10-cz-dabing.mkv",
+        "at": "2026-11-24T05:54:38.969662+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T05:54:38.969719+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "9684:1:7": {
       "episode_key": "tučňáci z madagaskaru:s1:e7",
@@ -904043,7 +904047,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:54:33.333789+00:00",
+  "updated_at": "2026-11-24T05:54:38.969723+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -904899,19 +904903,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:1:6",
-          "at": "2026-11-24T05:53:52.108334+00:00"
-        },
-        {
           "identity": "1556:1:7",
           "at": "2026-11-24T05:54:05.711423+00:00"
         },
         {
           "identity": "1556:1:9",
           "at": "2026-11-24T05:54:33.333659+00:00"
+        },
+        {
+          "identity": "1556:1:10",
+          "at": "2026-11-24T05:54:38.969662+00:00"
         }
       ],
-      "retry_after": "2026-11-24T06:04:33.333659+00:00"
+      "retry_after": "2026-11-24T06:04:38.969662+00:00"
     }
   }
 }
