@@ -914475,12 +914475,6 @@
     },
     "8317:1:1": {
       "episode_key": "oběť:s1:e1",
-      "claim": {
-        "worker_id": "6a4815a62e3a4a16b6451968c251c57a-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T11:39:24.298298+00:00",
-        "lease_expires_at": "2026-11-24T17:39:24.298317+00:00"
-      },
       "source": {
         "source_id": "29434401",
         "source_url": "https://sdilej.cz/29434401/obet-s01e01-2023-full-hd-kapitola-prvni-sd-.mp4",
@@ -914505,22 +914499,29 @@
         "display_name": "The Victim S01E01 1080p CZ Dabing",
         "prepared_at": "2026-11-24T11:39:41.217184+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31333500",
-        "size_bytes": 1153805139
-      },
-      "transfer_receipt": {
-        "target_video_id": "31333500",
-        "size_bytes": 1153805139,
-        "source_bytes_read": 1153805139,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31333500",
         "source_bytes_read": 1153805139,
         "elapsed_seconds": 105.586,
         "finished_at": "2026-11-24T11:42:08.748160+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31333500",
+          "size_bytes": 1153805139,
+          "source_bytes_read": 1153805139,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29434401",
+        "source_url": "https://sdilej.cz/29434401/obet-s01e01-2023-full-hd-kapitola-prvni-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31333500",
+        "display_name": "The Victim S01E01 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T11:42:17.035213+00:00"
       }
     },
     "8317:1:2": {
@@ -914566,7 +914567,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T11:42:08.748203+00:00",
+  "updated_at": "2026-11-24T11:42:17.035231+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
