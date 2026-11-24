@@ -897736,12 +897736,6 @@
     },
     "1435:5:9": {
       "episode_key": "magnum:s5:e9",
-      "claim": {
-        "worker_id": "195e8884fce6419fadb95514c665f4b5-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:50:07.154393+00:00",
-        "lease_expires_at": "2026-11-24T08:50:07.154406+00:00"
-      },
       "source": {
         "source_id": "30771028",
         "source_url": "https://sdilej.cz/30771028/magnum-s05e09.mkv",
@@ -897766,22 +897760,29 @@
         "display_name": "Magnum, P.I. S05E09 Tran Quoc Jones 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:50:14.229637+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316802",
-        "size_bytes": 790881959
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316802",
-        "size_bytes": 790881959,
-        "source_bytes_read": 790881959,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316802",
         "source_bytes_read": 790881959,
         "elapsed_seconds": 60.059,
         "finished_at": "2026-11-24T02:51:45.086284+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316802",
+          "size_bytes": 790881959,
+          "source_bytes_read": 790881959,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771028",
+        "source_url": "https://sdilej.cz/30771028/magnum-s05e09.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316802",
+        "display_name": "Magnum, P.I. S05E09 Tran Quoc Jones 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:51:57.520538+00:00"
       }
     },
     "1435:5:10": {
@@ -897864,7 +897865,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:51:50.694186+00:00",
+  "updated_at": "2026-11-24T02:51:57.520554+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
