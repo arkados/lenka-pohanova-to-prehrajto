@@ -904934,12 +904934,6 @@
     },
     "9684:1:24": {
       "episode_key": "tučňáci z madagaskaru:s1:e24",
-      "claim": {
-        "worker_id": "203cf04e20394756a65f97b883e52797-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T06:11:10.263287+00:00",
-        "lease_expires_at": "2026-11-24T12:11:10.263310+00:00"
-      },
       "source": {
         "source_id": "28216364",
         "source_url": "https://sdilej.cz/28216364/tucnaci-z-madagaskaru-s01e24-cz.mkv",
@@ -904964,22 +904958,29 @@
         "display_name": "The Penguins of Madagascar S01E24 Lemur See, Lemur Do 1080p CZ Dabing",
         "prepared_at": "2026-11-24T06:11:26.767248+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31323184",
-        "size_bytes": 442290841
-      },
-      "transfer_receipt": {
-        "target_video_id": "31323184",
-        "size_bytes": 442290841,
-        "source_bytes_read": 442290841,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31323184",
         "source_bytes_read": 442290841,
         "elapsed_seconds": 33.114,
         "finished_at": "2026-11-24T06:12:29.345411+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31323184",
+          "size_bytes": 442290841,
+          "source_bytes_read": 442290841,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216364",
+        "source_url": "https://sdilej.cz/28216364/tucnaci-z-madagaskaru-s01e24-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31323184",
+        "display_name": "The Penguins of Madagascar S01E24 Lemur See, Lemur Do 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T06:12:47.426082+00:00"
       }
     }
   },
@@ -904988,7 +904989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T06:12:40.941622+00:00",
+  "updated_at": "2026-11-24T06:12:47.426097+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
