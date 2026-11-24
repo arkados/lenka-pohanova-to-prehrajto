@@ -903852,12 +903852,6 @@
     },
     "9684:1:5": {
       "episode_key": "tučňáci z madagaskaru:s1:e5",
-      "claim": {
-        "worker_id": "f1bb8bc1d8d943278995c1ac328ba092-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:48:24.530956+00:00",
-        "lease_expires_at": "2026-11-24T11:48:24.530966+00:00"
-      },
       "source": {
         "source_id": "28216257",
         "source_url": "https://sdilej.cz/28216257/tucnaci-z-madagaskaru-s01e05-cz.mkv",
@@ -903882,22 +903876,29 @@
         "display_name": "The Penguins of Madagascar S01E05 Happy King Julien Day 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:48:36.521837+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31322576",
-        "size_bytes": 434429339
-      },
-      "transfer_receipt": {
-        "target_video_id": "31322576",
-        "size_bytes": 434429339,
-        "source_bytes_read": 434429339,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31322576",
         "source_bytes_read": 434429339,
         "elapsed_seconds": 43.954,
         "finished_at": "2026-11-24T05:49:48.777957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31322576",
+          "size_bytes": 434429339,
+          "source_bytes_read": 434429339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216257",
+        "source_url": "https://sdilej.cz/28216257/tucnaci-z-madagaskaru-s01e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31322576",
+        "display_name": "The Penguins of Madagascar S01E05 Happy King Julien Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T05:50:02.681705+00:00"
       }
     }
   },
@@ -903906,7 +903907,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:49:58.101247+00:00",
+  "updated_at": "2026-11-24T05:50:02.681723+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
