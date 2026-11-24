@@ -897379,12 +897379,6 @@
     },
     "1435:5:2": {
       "episode_key": "magnum:s5:e2",
-      "claim": {
-        "worker_id": "94c3b6cc16c041c1a369d8818ac0e0b2-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:39:22.482383+00:00",
-        "lease_expires_at": "2026-11-24T08:39:22.482404+00:00"
-      },
       "source": {
         "source_id": "33161393",
         "source_url": "https://sdilej.cz/33161393/magnum-p-i-s05e02-cz.mp4",
@@ -897409,22 +897403,29 @@
         "display_name": "Magnum, P.I. S05E02 Echoes of the Mind (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:39:31.030531+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316510",
-        "size_bytes": 860308730
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316510",
-        "size_bytes": 860308730,
-        "source_bytes_read": 860308730,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316510",
         "source_bytes_read": 860308730,
         "elapsed_seconds": 147.814,
         "finished_at": "2026-11-24T02:42:27.931474+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316510",
+          "size_bytes": 860308730,
+          "source_bytes_read": 860308730,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33161393",
+        "source_url": "https://sdilej.cz/33161393/magnum-p-i-s05e02-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316510",
+        "display_name": "Magnum, P.I. S05E02 Echoes of the Mind (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:42:46.732196+00:00"
       }
     },
     "1435:5:3": {
@@ -897521,7 +897522,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:42:40.649105+00:00",
+  "updated_at": "2026-11-24T02:42:46.732214+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
