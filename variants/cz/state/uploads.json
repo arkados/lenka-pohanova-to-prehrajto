@@ -896818,12 +896818,6 @@
     },
     "1435:4:12": {
       "episode_key": "magnum:s4:e12",
-      "claim": {
-        "worker_id": "3d15756097604d308e7f0be28f84c4ec-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:22:59.254999+00:00",
-        "lease_expires_at": "2026-11-24T08:22:59.255014+00:00"
-      },
       "source": {
         "source_id": "30770877",
         "source_url": "https://sdilej.cz/30770877/magnum-s04e12.mkv",
@@ -896848,22 +896842,29 @@
         "display_name": "Magnum, P.I. S04E12 The Case of the Red Faced Thespian 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:23:08.406816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31315967",
-        "size_bytes": 792994272
-      },
-      "transfer_receipt": {
-        "target_video_id": "31315967",
-        "size_bytes": 792994272,
-        "source_bytes_read": 792994272,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31315967",
         "source_bytes_read": 792994272,
         "elapsed_seconds": 78.117,
         "finished_at": "2026-11-24T02:24:56.874780+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31315967",
+          "size_bytes": 792994272,
+          "source_bytes_read": 792994272,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770877",
+        "source_url": "https://sdilej.cz/30770877/magnum-s04e12.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31315967",
+        "display_name": "Magnum, P.I. S04E12 The Case of the Red Faced Thespian 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:25:04.522577+00:00"
       }
     },
     "1435:4:13": {
@@ -896946,7 +896947,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:24:56.874798+00:00",
+  "updated_at": "2026-11-24T02:25:04.522604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
