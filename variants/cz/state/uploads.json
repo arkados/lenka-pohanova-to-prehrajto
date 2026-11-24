@@ -897685,12 +897685,6 @@
     },
     "1435:5:8": {
       "episode_key": "magnum:s5:e8",
-      "claim": {
-        "worker_id": "4fadafb7feb34ae281ddd856a74bec3a-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:49:09.712783+00:00",
-        "lease_expires_at": "2026-11-24T08:49:09.712797+00:00"
-      },
       "source": {
         "source_id": "30771016",
         "source_url": "https://sdilej.cz/30771016/magnum-s05e08.mkv",
@@ -897715,22 +897709,29 @@
         "display_name": "Magnum, P.I. S05E08 Murder 101 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:49:22.181614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316778",
-        "size_bytes": 650319426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316778",
-        "size_bytes": 650319426,
-        "source_bytes_read": 650319426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316778",
         "source_bytes_read": 650319426,
         "elapsed_seconds": 51.28,
         "finished_at": "2026-11-24T02:50:51.434227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316778",
+          "size_bytes": 650319426,
+          "source_bytes_read": 650319426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771016",
+        "source_url": "https://sdilej.cz/30771016/magnum-s05e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316778",
+        "display_name": "Magnum, P.I. S05E08 Murder 101 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:51:04.744808+00:00"
       }
     },
     "1435:5:9": {
@@ -897813,7 +897814,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:50:57.157671+00:00",
+  "updated_at": "2026-11-24T02:51:04.744823+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
