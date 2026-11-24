@@ -907444,12 +907444,6 @@
     },
     "9684:2:38": {
       "episode_key": "tučňáci z madagaskaru:s2:e38",
-      "claim": {
-        "worker_id": "3c9d2d4b86f14deba988d58a75610a71-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T07:27:21.451900+00:00",
-        "lease_expires_at": "2026-11-24T13:27:21.451942+00:00"
-      },
       "source": {
         "source_id": "28216819",
         "source_url": "https://sdilej.cz/28216819/tucnaci-z-madagaskaru-s02e38-cz.mkv",
@@ -907474,22 +907468,29 @@
         "display_name": "The Penguins of Madagascar S02E38 Danger Wears a Cape 1080p CZ Dabing",
         "prepared_at": "2026-11-24T07:27:37.930256+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31325882",
-        "size_bytes": 387055167
-      },
-      "transfer_receipt": {
-        "target_video_id": "31325882",
-        "size_bytes": 387055167,
-        "source_bytes_read": 387055167,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31325882",
         "source_bytes_read": 387055167,
         "elapsed_seconds": 30.127,
         "finished_at": "2026-11-24T07:28:51.814672+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31325882",
+          "size_bytes": 387055167,
+          "source_bytes_read": 387055167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216819",
+        "source_url": "https://sdilej.cz/28216819/tucnaci-z-madagaskaru-s02e38-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31325882",
+        "display_name": "The Penguins of Madagascar S02E38 Danger Wears a Cape 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T07:29:04.787700+00:00"
       }
     }
   },
@@ -907498,7 +907499,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T07:28:57.401900+00:00",
+  "updated_at": "2026-11-24T07:29:04.787719+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
