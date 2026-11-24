@@ -898347,12 +898347,6 @@
     },
     "1435:5:21": {
       "episode_key": "magnum:s5:e21",
-      "claim": {
-        "worker_id": "0a6866c37edf468ba1b590931ea98198-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:01:40.855341+00:00",
-        "lease_expires_at": "2026-11-24T09:01:40.855355+00:00"
-      },
       "source": {
         "source_id": "30771117",
         "source_url": "https://sdilej.cz/30771117/magnum-s05e21.mkv",
@@ -898377,22 +898371,29 @@
         "display_name": "Magnum, P.I. S05E21 Torah, Torah, Torah 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:02:06.078231+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317237",
-        "size_bytes": 566554802
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317237",
-        "size_bytes": 566554802,
-        "source_bytes_read": 566554802,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317237",
         "source_bytes_read": 566554802,
         "elapsed_seconds": 44.747,
         "finished_at": "2026-11-24T03:03:18.313164+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317237",
+          "size_bytes": 566554802,
+          "source_bytes_read": 566554802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771117",
+        "source_url": "https://sdilej.cz/30771117/magnum-s05e21.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317237",
+        "display_name": "Magnum, P.I. S05E21 Torah, Torah, Torah 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:03:27.420228+00:00"
       }
     },
     "1435:5:22": {
@@ -898438,7 +898439,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:03:18.313187+00:00",
+  "updated_at": "2026-11-24T03:03:27.420245+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
