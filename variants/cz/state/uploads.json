@@ -912020,12 +912020,6 @@
     },
     "1035:2:21": {
       "episode_key": "dinosaurové:s2:e21",
-      "claim": {
-        "worker_id": "2afe46f2563d4bd49680691edff98048-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:14:52.658422+00:00",
-        "lease_expires_at": "2026-11-24T16:14:52.658433+00:00"
-      },
       "source": {
         "source_id": "24710457",
         "source_url": "https://sdilej.cz/24710457/dinosaurove-2x21-volby.avi",
@@ -912050,22 +912044,29 @@
         "display_name": "Dinosaurs S02E21 And The Winner Is… SD CZ Dabing",
         "prepared_at": "2026-11-24T10:14:58.919956+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331036",
-        "size_bytes": 184403968
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331036",
-        "size_bytes": 184403968,
-        "source_bytes_read": 184403968,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331036",
         "source_bytes_read": 184403968,
         "elapsed_seconds": 17.801,
         "finished_at": "2026-11-24T10:16:01.135409+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331036",
+          "size_bytes": 184403968,
+          "source_bytes_read": 184403968,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710457",
+        "source_url": "https://sdilej.cz/24710457/dinosaurove-2x21-volby.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331036",
+        "display_name": "Dinosaurs S02E21 And The Winner Is… SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:16:19.370266+00:00"
       }
     }
   },
@@ -912074,7 +912075,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:16:13.729043+00:00",
+  "updated_at": "2026-11-24T10:16:19.370282+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
