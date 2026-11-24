@@ -909525,12 +909525,6 @@
     },
     "9684:3:20": {
       "episode_key": "tučňáci z madagaskaru:s3:e20",
-      "claim": {
-        "worker_id": "a6022036a6934e57b290c46ec36dc597-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T08:51:35.440707+00:00",
-        "lease_expires_at": "2026-11-24T14:51:35.440720+00:00"
-      },
       "source": {
         "source_id": "12488362",
         "source_url": "https://sdilej.cz/12488362/tucnaci-z-madagaskaru-cz-3x20-ac-zkuseni-zkruseni.avi",
@@ -909571,7 +909565,13 @@
         "elapsed_seconds": 13.695,
         "finished_at": "2026-11-24T08:52:31.545423+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T08:54:08.711705+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "9684:3:21": {
       "episode_key": "tučňáci z madagaskaru:s3:e21",
@@ -909588,7 +909588,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T08:53:39.749216+00:00",
+  "updated_at": "2026-11-24T08:54:08.711725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
