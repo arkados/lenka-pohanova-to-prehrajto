@@ -903132,20 +903132,18 @@
       },
       "source_repair_requested": {
         "base": "32830769:https://sdilej.cz/32830769/zakon-gangu-mayove-s01e01-cz-dabing.mkv",
-        "at": "2026-11-24T05:24:18.101299+00:00"
+        "at": "2026-11-24T05:40:16.971310+00:00"
       },
       "attempts": [
         {
           "at": "2026-11-24T05:24:18.101333+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-24T05:40:16.972900+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "f6f8fb4782b9411789fbe87b3df6e015-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:39:38.126665+00:00",
-        "lease_expires_at": "2026-11-24T11:39:38.126682+00:00"
-      }
+      ]
     },
     "1556:1:2": {
       "episode_key": "zákon gangu: mayové:s1:e2",
@@ -903446,7 +903444,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:40:12.160542+00:00",
+  "updated_at": "2026-11-24T05:40:16.972912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -904316,8 +904314,13 @@
         {
           "identity": "1556:1:8",
           "at": "2026-11-24T05:40:12.160501+00:00"
+        },
+        {
+          "identity": "1556:1:1",
+          "at": "2026-11-24T05:40:16.971310+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-24T05:50:16.971310+00:00"
     }
   }
 }
