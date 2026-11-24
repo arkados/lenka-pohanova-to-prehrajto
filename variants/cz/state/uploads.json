@@ -925381,12 +925381,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "3ce960e5097d4864a89294b195cfcb5b-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T22:24:42.718017+00:00",
-        "lease_expires_at": "2026-11-25T04:24:42.718036+00:00"
-      },
       "source": {
         "source_id": "30019760",
         "source_url": "https://sdilej.cz/30019760/jursky-svet-kridovy-kemp-s04e05.mkv",
@@ -925411,22 +925405,29 @@
         "display_name": "Jurassic World Camp Cretaceous S04E05 The Long Game 1080p CZ Dabing",
         "prepared_at": "2026-11-24T22:25:02.586188+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31350840",
-        "size_bytes": 641022477
-      },
-      "transfer_receipt": {
-        "target_video_id": "31350840",
-        "size_bytes": 641022477,
-        "source_bytes_read": 641022477,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31350840",
         "source_bytes_read": 641022477,
         "elapsed_seconds": 33.589,
         "finished_at": "2026-11-24T22:26:09.291563+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31350840",
+          "size_bytes": 641022477,
+          "source_bytes_read": 641022477,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30019760",
+        "source_url": "https://sdilej.cz/30019760/jursky-svet-kridovy-kemp-s04e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31350840",
+        "display_name": "Jurassic World Camp Cretaceous S04E05 The Long Game 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T22:26:29.969313+00:00"
       }
     },
     "546:4:6": {
@@ -925503,7 +925504,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T22:26:23.850552+00:00",
+  "updated_at": "2026-11-24T22:26:29.969330+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
