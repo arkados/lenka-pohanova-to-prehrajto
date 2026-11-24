@@ -899011,12 +899011,6 @@
     },
     "1435:6:13": {
       "episode_key": "magnum:s6:e13",
-      "claim": {
-        "worker_id": "23f84197866c4fdc9b81d7dbb94aa703-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:24:24.107765+00:00",
-        "lease_expires_at": "2026-11-24T09:24:24.107778+00:00"
-      },
       "source": {
         "source_id": "30772792",
         "source_url": "https://sdilej.cz/30772792/magnum-s06e13.mkv",
@@ -899041,22 +899035,29 @@
         "display_name": "Magnum, P.I. S06E13 Summer School 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:24:35.884492+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317964",
-        "size_bytes": 1514288261
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317964",
-        "size_bytes": 1514288261,
-        "source_bytes_read": 1514288261,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317964",
         "source_bytes_read": 1514288261,
         "elapsed_seconds": 121.821,
         "finished_at": "2026-11-24T03:27:06.341974+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317964",
+          "size_bytes": 1514288261,
+          "source_bytes_read": 1514288261,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772792",
+        "source_url": "https://sdilej.cz/30772792/magnum-s06e13.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317964",
+        "display_name": "Magnum, P.I. S06E13 Summer School 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:27:29.181874+00:00"
       }
     },
     "1435:6:14": {
@@ -899153,7 +899154,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:27:23.476866+00:00",
+  "updated_at": "2026-11-24T03:27:29.181890+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
