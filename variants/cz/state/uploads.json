@@ -921370,12 +921370,6 @@
     },
     "9698:1:39": {
       "episode_key": "letohrátky:s1:e39",
-      "claim": {
-        "worker_id": "d47d653cad6f49e9ae091423a1e0f884-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:02:02.024594+00:00",
-        "lease_expires_at": "2026-11-24T21:02:02.024606+00:00"
-      },
       "source": {
         "source_id": "31604951",
         "source_url": "https://sdilej.cz/31604951/letohratky-s01e39-komu-zvoni-gong-2-cast.mkv",
@@ -921400,22 +921394,29 @@
         "display_name": "TaleSpin S01E39 For Whom the Bell Klangs (1) SD CZ Dabing",
         "prepared_at": "2026-11-24T15:02:14.220538+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340259",
-        "size_bytes": 537152430
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340259",
-        "size_bytes": 537152430,
-        "source_bytes_read": 537152430,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340259",
         "source_bytes_read": 537152430,
         "elapsed_seconds": 37.439,
         "finished_at": "2026-11-24T15:03:22.743573+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340259",
+          "size_bytes": 537152430,
+          "source_bytes_read": 537152430,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31604951",
+        "source_url": "https://sdilej.cz/31604951/letohratky-s01e39-komu-zvoni-gong-2-cast.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340259",
+        "display_name": "TaleSpin S01E39 For Whom the Bell Klangs (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-24T15:03:34.930698+00:00"
       }
     },
     "9698:1:40": {
@@ -921494,7 +921495,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:03:28.301901+00:00",
+  "updated_at": "2026-11-24T15:03:34.930713+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
