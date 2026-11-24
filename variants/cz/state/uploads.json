@@ -920744,12 +920744,6 @@
     },
     "9698:1:27": {
       "episode_key": "letohrátky:s1:e27",
-      "claim": {
-        "worker_id": "4f4937c66e3c40288585548cb0f0802c-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T14:45:37.959673+00:00",
-        "lease_expires_at": "2026-11-24T20:45:37.959684+00:00"
-      },
       "source": {
         "source_id": "31604909",
         "source_url": "https://sdilej.cz/31604909/letohratky-s01e27-baron-balu-von-brumwald.mkv",
@@ -920774,22 +920768,29 @@
         "display_name": "TaleSpin S01E27 The Balooest of the Bluebloods SD CZ Dabing",
         "prepared_at": "2026-11-24T14:45:49.796303+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31339678",
-        "size_bytes": 531330232
-      },
-      "transfer_receipt": {
-        "target_video_id": "31339678",
-        "size_bytes": 531330232,
-        "source_bytes_read": 531330232,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31339678",
         "source_bytes_read": 531330232,
         "elapsed_seconds": 34.504,
         "finished_at": "2026-11-24T14:46:48.088473+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31339678",
+          "size_bytes": 531330232,
+          "source_bytes_read": 531330232,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31604909",
+        "source_url": "https://sdilej.cz/31604909/letohratky-s01e27-baron-balu-von-brumwald.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31339678",
+        "display_name": "TaleSpin S01E27 The Balooest of the Bluebloods SD CZ Dabing",
+        "uploaded_at": "2026-11-24T14:46:58.491613+00:00"
       }
     }
   },
@@ -920798,7 +920799,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T14:46:48.088504+00:00",
+  "updated_at": "2026-11-24T14:46:58.491629+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
