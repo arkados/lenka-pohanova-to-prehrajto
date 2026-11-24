@@ -915258,12 +915258,6 @@
     },
     "570:1:5": {
       "episode_key": "chameleon:s1:e5",
-      "claim": {
-        "worker_id": "734c6fb06ad143e9a01f5dba70ed2eda-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:02:25.671472+00:00",
-        "lease_expires_at": "2026-11-24T18:02:25.671491+00:00"
-      },
       "source": {
         "source_id": "34345099",
         "source_url": "https://sdilej.cz/34345099/chameleon-s01e05-cz-dab.mp4",
@@ -915288,22 +915282,29 @@
         "display_name": "The Pretender S01E05 The Paper Clock SD CZ Dabing",
         "prepared_at": "2026-11-24T12:02:38.852599+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31334124",
-        "size_bytes": 238940138
-      },
-      "transfer_receipt": {
-        "target_video_id": "31334124",
-        "size_bytes": 238940138,
-        "source_bytes_read": 238940138,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31334124",
         "source_bytes_read": 238940138,
         "elapsed_seconds": 16.289,
         "finished_at": "2026-11-24T12:03:29.557622+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31334124",
+          "size_bytes": 238940138,
+          "source_bytes_read": 238940138,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345099",
+        "source_url": "https://sdilej.cz/34345099/chameleon-s01e05-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31334124",
+        "display_name": "The Pretender S01E05 The Paper Clock SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:03:44.099850+00:00"
       }
     }
   },
@@ -915312,7 +915313,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:03:38.295636+00:00",
+  "updated_at": "2026-11-24T12:03:44.099869+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
