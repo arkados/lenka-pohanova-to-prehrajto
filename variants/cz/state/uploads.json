@@ -893403,12 +893403,6 @@
     },
     "1435:1:6": {
       "episode_key": "magnum:s1:e6",
-      "claim": {
-        "worker_id": "c741315bca9e427dadc643ca55054aa7-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T00:47:25.476612+00:00",
-        "lease_expires_at": "2026-11-24T06:47:25.476627+00:00"
-      },
       "source": {
         "source_id": "30770269",
         "source_url": "https://sdilej.cz/30770269/magnum-s01e06.mkv",
@@ -893433,22 +893427,29 @@
         "display_name": "Magnum, P.I. S01E06 Skin Deep 1080p CZ Dabing",
         "prepared_at": "2026-11-24T00:47:37.933440+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31312794",
-        "size_bytes": 735355617
-      },
-      "transfer_receipt": {
-        "target_video_id": "31312794",
-        "size_bytes": 735355617,
-        "source_bytes_read": 735355617,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31312794",
         "source_bytes_read": 735355617,
         "elapsed_seconds": 55.947,
         "finished_at": "2026-11-24T00:48:59.159483+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31312794",
+          "size_bytes": 735355617,
+          "source_bytes_read": 735355617,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770269",
+        "source_url": "https://sdilej.cz/30770269/magnum-s01e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31312794",
+        "display_name": "Magnum, P.I. S01E06 Skin Deep 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T00:49:17.974065+00:00"
       }
     }
   },
@@ -893457,7 +893458,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T00:49:11.840632+00:00",
+  "updated_at": "2026-11-24T00:49:17.974085+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
