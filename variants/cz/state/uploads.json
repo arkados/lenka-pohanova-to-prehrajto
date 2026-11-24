@@ -927858,12 +927858,6 @@
     },
     "610:1:2": {
       "episode_key": "noční agent:s1:e2",
-      "claim": {
-        "worker_id": "c1e3b11794ee42ff980169c1cb837c11-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:55:21.318963+00:00",
-        "lease_expires_at": "2026-11-25T05:55:21.318984+00:00"
-      },
       "source": {
         "source_id": "33323933",
         "source_url": "https://sdilej.cz/33323933/nocni-agent-s01e02-1080p-cz-nove-volani.mkv",
@@ -927888,22 +927882,29 @@
         "display_name": "The Night Agent S01E02 Redial 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:55:56.795124+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353590",
-        "size_bytes": 473752031
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353590",
-        "size_bytes": 473752031,
-        "source_bytes_read": 473752031,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353590",
         "source_bytes_read": 473752031,
         "elapsed_seconds": 25.62,
         "finished_at": "2026-11-24T23:56:53.067840+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353590",
+          "size_bytes": 473752031,
+          "source_bytes_read": 473752031,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33323933",
+        "source_url": "https://sdilej.cz/33323933/nocni-agent-s01e02-1080p-cz-nove-volani.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353590",
+        "display_name": "The Night Agent S01E02 Redial 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T23:57:00.916920+00:00"
       }
     },
     "610:1:3": {
@@ -927949,7 +927950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:56:53.067860+00:00",
+  "updated_at": "2026-11-24T23:57:00.916938+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
