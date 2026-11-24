@@ -917347,12 +917347,6 @@
     },
     "570:4:11": {
       "episode_key": "chameleon:s4:e11",
-      "claim": {
-        "worker_id": "fbde5d071e1f43738608b68454d8017f-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:59:25.452420+00:00",
-        "lease_expires_at": "2026-11-24T18:59:25.452440+00:00"
-      },
       "source": {
         "source_id": "28443916",
         "source_url": "https://sdilej.cz/28443916/chameleon-4x11-brootsuv-sen.avi",
@@ -917377,22 +917371,29 @@
         "display_name": "The Pretender S04E11 Cold Dick SD CZ Dabing",
         "prepared_at": "2026-11-24T12:59:44.315187+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336298",
-        "size_bytes": 415307776
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336298",
-        "size_bytes": 415307776,
-        "source_bytes_read": 415307776,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336298",
         "source_bytes_read": 415307776,
         "elapsed_seconds": 27.864,
         "finished_at": "2026-11-24T13:00:50.495302+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336298",
+          "size_bytes": 415307776,
+          "source_bytes_read": 415307776,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28443916",
+        "source_url": "https://sdilej.cz/28443916/chameleon-4x11-brootsuv-sen.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336298",
+        "display_name": "The Pretender S04E11 Cold Dick SD CZ Dabing",
+        "uploaded_at": "2026-11-24T13:00:59.870147+00:00"
       }
     }
   },
@@ -917401,7 +917402,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T13:00:50.495322+00:00",
+  "updated_at": "2026-11-24T13:00:59.870164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
