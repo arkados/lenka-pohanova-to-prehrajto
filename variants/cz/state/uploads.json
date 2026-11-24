@@ -895478,12 +895478,6 @@
     },
     "1435:3:8": {
       "episode_key": "magnum:s3:e8",
-      "claim": {
-        "worker_id": "a553eec61b37435aa0094288e5034a50-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:48:00.118839+00:00",
-        "lease_expires_at": "2026-11-24T07:48:00.118853+00:00"
-      },
       "source": {
         "source_id": "30770640",
         "source_url": "https://sdilej.cz/30770640/magnum-s03e08.mkv",
@@ -895508,22 +895502,29 @@
         "display_name": "Magnum, P.I. S03E08 Foiled Again 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:48:18.538633+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31314754",
-        "size_bytes": 703806833
-      },
-      "transfer_receipt": {
-        "target_video_id": "31314754",
-        "size_bytes": 703806833,
-        "source_bytes_read": 703806833,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31314754",
         "source_bytes_read": 703806833,
         "elapsed_seconds": 43.431,
         "finished_at": "2026-11-24T01:49:34.978899+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31314754",
+          "size_bytes": 703806833,
+          "source_bytes_read": 703806833,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770640",
+        "source_url": "https://sdilej.cz/30770640/magnum-s03e08.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31314754",
+        "display_name": "Magnum, P.I. S03E08 Foiled Again 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:49:47.657282+00:00"
       }
     },
     "1435:3:9": {
@@ -895583,7 +895584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:49:42.082903+00:00",
+  "updated_at": "2026-11-24T01:49:47.657300+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
