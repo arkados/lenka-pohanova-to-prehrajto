@@ -912225,12 +912225,6 @@
     },
     "1035:3:2": {
       "episode_key": "dinosaurové:s3:e2",
-      "claim": {
-        "worker_id": "8df121d346a4481a9c7b6cb5f8c14d9e-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T10:19:42.527331+00:00",
-        "lease_expires_at": "2026-11-24T16:19:42.527344+00:00"
-      },
       "source": {
         "source_id": "24710717",
         "source_url": "https://sdilej.cz/24710717/dinosaurove-3x02-silna-slova.avi",
@@ -912255,22 +912249,29 @@
         "display_name": "Dinosaurs S03E02 Baby Talk SD CZ Dabing",
         "prepared_at": "2026-11-24T10:20:01.256378+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31331145",
-        "size_bytes": 183445504
-      },
-      "transfer_receipt": {
-        "target_video_id": "31331145",
-        "size_bytes": 183445504,
-        "source_bytes_read": 183445504,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31331145",
         "source_bytes_read": 183445504,
         "elapsed_seconds": 10.84,
         "finished_at": "2026-11-24T10:20:48.078560+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31331145",
+          "size_bytes": 183445504,
+          "source_bytes_read": 183445504,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24710717",
+        "source_url": "https://sdilej.cz/24710717/dinosaurove-3x02-silna-slova.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31331145",
+        "display_name": "Dinosaurs S03E02 Baby Talk SD CZ Dabing",
+        "uploaded_at": "2026-11-24T10:21:09.754624+00:00"
       }
     },
     "1035:3:3": {
@@ -912353,7 +912354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T10:21:04.200634+00:00",
+  "updated_at": "2026-11-24T10:21:09.754641+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
