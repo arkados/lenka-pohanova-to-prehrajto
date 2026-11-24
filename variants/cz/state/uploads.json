@@ -915864,12 +915864,6 @@
     },
     "570:1:20": {
       "episode_key": "chameleon:s1:e20",
-      "claim": {
-        "worker_id": "9fada0d6e5da4921abcd0a441e4347d0-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:21:19.986265+00:00",
-        "lease_expires_at": "2026-11-24T18:21:19.986281+00:00"
-      },
       "source": {
         "source_id": "34345127",
         "source_url": "https://sdilej.cz/34345127/chameleon-s01e20-cz-dab.mp4",
@@ -915894,22 +915888,29 @@
         "display_name": "The Pretender S01E20 Baby Love SD CZ Dabing",
         "prepared_at": "2026-11-24T12:21:36.842076+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31334755",
-        "size_bytes": 220688087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31334755",
-        "size_bytes": 220688087,
-        "source_bytes_read": 220688087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31334755",
         "source_bytes_read": 220688087,
         "elapsed_seconds": 15.942,
         "finished_at": "2026-11-24T12:22:26.084149+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31334755",
+          "size_bytes": 220688087,
+          "source_bytes_read": 220688087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345127",
+        "source_url": "https://sdilej.cz/34345127/chameleon-s01e20-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31334755",
+        "display_name": "The Pretender S01E20 Baby Love SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:22:33.955747+00:00"
       }
     }
   },
@@ -915918,7 +915919,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:22:26.084168+00:00",
+  "updated_at": "2026-11-24T12:22:33.955765+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
