@@ -909645,12 +909645,6 @@
     },
     "9684:3:23": {
       "episode_key": "tučňáci z madagaskaru:s3:e23",
-      "claim": {
-        "worker_id": "50a214c56dff49429c10af18df29c0f1-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:07:26.039863+00:00",
-        "lease_expires_at": "2026-11-24T15:07:26.040494+00:00"
-      },
       "source": {
         "source_id": "33134077",
         "source_url": "https://sdilej.cz/33134077/tucnaci-z-madagaskaru-3x23-bananovi-bandite.avi",
@@ -909675,22 +909669,29 @@
         "display_name": "The Penguins of Madagascar S03E23 Best Laid Plantains SD CZ Dabing",
         "prepared_at": "2026-11-24T09:07:44.519310+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31328983",
-        "size_bytes": 92282880
-      },
-      "transfer_receipt": {
-        "target_video_id": "31328983",
-        "size_bytes": 92282880,
-        "source_bytes_read": 92282880,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31328983",
         "source_bytes_read": 92282880,
         "elapsed_seconds": 7.904,
         "finished_at": "2026-11-24T09:08:29.321181+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31328983",
+          "size_bytes": 92282880,
+          "source_bytes_read": 92282880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33134077",
+        "source_url": "https://sdilej.cz/33134077/tucnaci-z-madagaskaru-3x23-bananovi-bandite.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31328983",
+        "display_name": "The Penguins of Madagascar S03E23 Best Laid Plantains SD CZ Dabing",
+        "uploaded_at": "2026-11-24T09:08:41.994122+00:00"
       }
     }
   },
@@ -909699,7 +909700,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:08:34.402510+00:00",
+  "updated_at": "2026-11-24T09:08:41.994138+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
