@@ -899725,12 +899725,6 @@
     },
     "1435:7:6": {
       "episode_key": "magnum:s7:e6",
-      "claim": {
-        "worker_id": "2d9351de80924c8594991167b2246148-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:45:55.188165+00:00",
-        "lease_expires_at": "2026-11-24T09:45:55.188177+00:00"
-      },
       "source": {
         "source_id": "30806389",
         "source_url": "https://sdilej.cz/30806389/magnum-s07e06.mkv",
@@ -899755,22 +899749,29 @@
         "display_name": "Magnum, P.I. S07E06 Death and Taxes 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:46:01.863287+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31318498",
-        "size_bytes": 532796860
-      },
-      "transfer_receipt": {
-        "target_video_id": "31318498",
-        "size_bytes": 532796860,
-        "source_bytes_read": 532796860,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31318498",
         "source_bytes_read": 532796860,
         "elapsed_seconds": 34.362,
         "finished_at": "2026-11-24T03:47:04.340271+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31318498",
+          "size_bytes": 532796860,
+          "source_bytes_read": 532796860,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30806389",
+        "source_url": "https://sdilej.cz/30806389/magnum-s07e06.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31318498",
+        "display_name": "Magnum, P.I. S07E06 Death and Taxes 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:47:23.695538+00:00"
       }
     },
     "1435:7:7": {
@@ -899816,7 +899817,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:47:13.527759+00:00",
+  "updated_at": "2026-11-24T03:47:23.695553+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
