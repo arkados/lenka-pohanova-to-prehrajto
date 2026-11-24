@@ -897838,12 +897838,6 @@
     },
     "1435:5:11": {
       "episode_key": "magnum:s5:e11",
-      "claim": {
-        "worker_id": "b46fbfe968ec403796e67fdac5f7e412-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:51:15.815191+00:00",
-        "lease_expires_at": "2026-11-24T08:51:15.815207+00:00"
-      },
       "source": {
         "source_id": "30771041",
         "source_url": "https://sdilej.cz/30771041/magnum-s05e11.mkv",
@@ -897868,22 +897862,29 @@
         "display_name": "Magnum, P.I. S05E11 Kiss of the Sabre 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:51:27.715026+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316841",
-        "size_bytes": 679559349
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316841",
-        "size_bytes": 679559349,
-        "source_bytes_read": 679559349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316841",
         "source_bytes_read": 679559349,
         "elapsed_seconds": 49.091,
         "finished_at": "2026-11-24T02:52:54.029195+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316841",
+          "size_bytes": 679559349,
+          "source_bytes_read": 679559349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30771041",
+        "source_url": "https://sdilej.cz/30771041/magnum-s05e11.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316841",
+        "display_name": "Magnum, P.I. S05E11 Kiss of the Sabre 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:53:05.228457+00:00"
       }
     },
     "1435:5:12": {
@@ -897962,7 +897963,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:52:59.365732+00:00",
+  "updated_at": "2026-11-24T02:53:05.228477+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
