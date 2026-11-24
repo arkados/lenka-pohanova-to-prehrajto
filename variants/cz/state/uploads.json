@@ -922441,12 +922441,6 @@
     },
     "9698:1:61": {
       "episode_key": "letohrátky:s1:e61",
-      "claim": {
-        "worker_id": "06ac1f9027f8453e8f5629de47c145a5-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:32:26.404557+00:00",
-        "lease_expires_at": "2026-11-24T21:32:26.404567+00:00"
-      },
       "source": {
         "source_id": "33756288",
         "source_url": "https://sdilej.cz/33756288/letohratky-s01e61-061-1991-fhd-ztraceny-los-s-.mp4",
@@ -922471,22 +922465,29 @@
         "display_name": "TaleSpin S01E61 Your Baloo's in the Mail 1080p CZ Dabing",
         "prepared_at": "2026-11-24T15:32:45.165077+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31341085",
-        "size_bytes": 477355952
-      },
-      "transfer_receipt": {
-        "target_video_id": "31341085",
-        "size_bytes": 477355952,
-        "source_bytes_read": 477355952,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31341085",
         "source_bytes_read": 477355952,
         "elapsed_seconds": 23.505,
         "finished_at": "2026-11-24T15:33:44.223315+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31341085",
+          "size_bytes": 477355952,
+          "source_bytes_read": 477355952,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756288",
+        "source_url": "https://sdilej.cz/33756288/letohratky-s01e61-061-1991-fhd-ztraceny-los-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31341085",
+        "display_name": "TaleSpin S01E61 Your Baloo's in the Mail 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T15:34:03.175194+00:00"
       }
     },
     "9698:1:63": {
@@ -922532,7 +922533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:33:57.336287+00:00",
+  "updated_at": "2026-11-24T15:34:03.175209+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
