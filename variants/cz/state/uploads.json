@@ -926361,12 +926361,6 @@
     },
     "9710:1:1": {
       "episode_key": "lego ninjago: dračí povstání:s1:e1",
-      "claim": {
-        "worker_id": "0e37be3cb63347eb936002c7936b1a56-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T22:54:20.820963+00:00",
-        "lease_expires_at": "2026-11-25T04:54:20.820977+00:00"
-      },
       "source": {
         "source_id": "32152525",
         "source_url": "https://sdilej.cz/32152525/lego-ninjago-draci-povstani-s01e01-slouceni-prvni-cast-1080p-nf-web-dl-cz-dab.mkv",
@@ -926390,7 +926384,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E01 The Merge (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T22:54:28.839117+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152525:https://sdilej.cz/32152525/lego-ninjago-draci-povstani-s01e01-slouceni-prvni-cast-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-24T22:54:45.706548+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T22:54:45.706591+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "9710:1:2": {
       "episode_key": "lego ninjago: dračí povstání:s1:e2",
@@ -926407,7 +926411,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T22:54:40.006433+00:00",
+  "updated_at": "2026-11-24T22:54:45.706601+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927301,6 +927305,14 @@
         }
       ],
       "retry_after": "2026-11-24T22:46:48.522906+00:00"
+    },
+    "9710": {
+      "recent_failures": [
+        {
+          "identity": "9710:1:1",
+          "at": "2026-11-24T22:54:45.706548+00:00"
+        }
+      ]
     }
   }
 }
