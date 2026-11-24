@@ -926436,12 +926436,6 @@
     },
     "9710:1:3": {
       "episode_key": "lego ninjago: dračí povstání:s1:e3",
-      "claim": {
-        "worker_id": "535d92facc5f404592a6a0cdfb39bce0-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T22:55:12.899559+00:00",
-        "lease_expires_at": "2026-11-25T04:55:12.899576+00:00"
-      },
       "source": {
         "source_id": "32152531",
         "source_url": "https://sdilej.cz/32152531/lego-ninjago-draci-povstani-s01e03-pout-na-rozcesti-1080p-nf-web-dl-cz-dab.mkv",
@@ -926465,7 +926459,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E03 Crossroads Carnival 1080p CZ Dabing",
         "prepared_at": "2026-11-24T22:55:21.240363+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152531:https://sdilej.cz/32152531/lego-ninjago-draci-povstani-s01e03-pout-na-rozcesti-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-24T22:55:38.292467+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T22:55:38.292543+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "9710:1:4": {
       "episode_key": "lego ninjago: dračí povstání:s1:e4",
@@ -926491,7 +926495,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T22:55:32.551997+00:00",
+  "updated_at": "2026-11-24T22:55:38.292549+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927395,8 +927399,13 @@
         {
           "identity": "9710:1:2",
           "at": "2026-11-24T22:55:07.321302+00:00"
+        },
+        {
+          "identity": "9710:1:3",
+          "at": "2026-11-24T22:55:38.292467+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-24T23:05:38.292467+00:00"
     }
   }
 }
