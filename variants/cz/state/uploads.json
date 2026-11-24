@@ -915391,12 +915391,6 @@
     },
     "570:1:11": {
       "episode_key": "chameleon:s1:e11",
-      "claim": {
-        "worker_id": "126e9837ef014527bfbfdcb67efd42be-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:04:50.070255+00:00",
-        "lease_expires_at": "2026-11-24T18:04:50.070273+00:00"
-      },
       "source": {
         "source_id": "34345109",
         "source_url": "https://sdilej.cz/34345109/chameleon-s01e11-cz-dab.mp4",
@@ -915421,22 +915415,29 @@
         "display_name": "The Pretender S01E11 Bomb Squad SD CZ Dabing",
         "prepared_at": "2026-11-24T12:05:09.665740+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31334213",
-        "size_bytes": 206690235
-      },
-      "transfer_receipt": {
-        "target_video_id": "31334213",
-        "size_bytes": 206690235,
-        "source_bytes_read": 206690235,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31334213",
         "source_bytes_read": 206690235,
         "elapsed_seconds": 16.364,
         "finished_at": "2026-11-24T12:06:06.269300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31334213",
+          "size_bytes": 206690235,
+          "source_bytes_read": 206690235,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34345109",
+        "source_url": "https://sdilej.cz/34345109/chameleon-s01e11-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31334213",
+        "display_name": "The Pretender S01E11 Bomb Squad SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:06:20.511261+00:00"
       }
     },
     "570:1:12": {
@@ -915478,7 +915479,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:06:13.152518+00:00",
+  "updated_at": "2026-11-24T12:06:20.511279+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
