@@ -911192,12 +911192,6 @@
     },
     "3953:1:5": {
       "episode_key": "castlevania: nokturno:s1:e5",
-      "claim": {
-        "worker_id": "153b0ac2c34e4f48985a14d3c06cb63c-worker-0",
-        "run_id": "45337238934",
-        "claimed_at": "2026-11-24T09:55:30.957970+00:00",
-        "lease_expires_at": "2026-11-24T15:55:30.957984+00:00"
-      },
       "source": {
         "source_id": "30721286",
         "source_url": "https://sdilej.cz/30721286/castlevania-nokturno-s01e05-castlevania-nocturne-s01e05-usa-2023-cz-dabing.mkv",
@@ -911222,22 +911216,29 @@
         "display_name": "Castlevania: Nocturne S01E05 The Natural Order 1080p CZ Dabing",
         "prepared_at": "2026-11-24T09:55:47.852533+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31330471",
-        "size_bytes": 1157594665
-      },
-      "transfer_receipt": {
-        "target_video_id": "31330471",
-        "size_bytes": 1157594665,
-        "source_bytes_read": 1157594665,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31330471",
         "source_bytes_read": 1157594665,
         "elapsed_seconds": 69.408,
         "finished_at": "2026-11-24T09:57:30.780912+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31330471",
+          "size_bytes": 1157594665,
+          "source_bytes_read": 1157594665,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30721286",
+        "source_url": "https://sdilej.cz/30721286/castlevania-nokturno-s01e05-castlevania-nocturne-s01e05-usa-2023-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31330471",
+        "display_name": "Castlevania: Nocturne S01E05 The Natural Order 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T09:57:39.722098+00:00"
       }
     },
     "3953:1:6": {
@@ -911283,7 +911284,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T09:57:30.780960+00:00",
+  "updated_at": "2026-11-24T09:57:39.722118+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
