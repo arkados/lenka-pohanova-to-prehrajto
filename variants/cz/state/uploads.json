@@ -898450,12 +898450,6 @@
     },
     "1435:6:1": {
       "episode_key": "magnum:s6:e1",
-      "claim": {
-        "worker_id": "4a67fab78494431887a53cdee10fd320-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:04:13.481110+00:00",
-        "lease_expires_at": "2026-11-24T09:04:13.481123+00:00"
-      },
       "source": {
         "source_id": "30772618",
         "source_url": "https://sdilej.cz/30772618/magnum-s06e01.mkv",
@@ -898480,22 +898474,29 @@
         "display_name": "Magnum, P.I. S06E01 Deja Vu (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:04:31.395017+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31317309",
-        "size_bytes": 1480524086
-      },
-      "transfer_receipt": {
-        "target_video_id": "31317309",
-        "size_bytes": 1480524086,
-        "source_bytes_read": 1480524086,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31317309",
         "source_bytes_read": 1480524086,
         "elapsed_seconds": 97.889,
         "finished_at": "2026-11-24T03:06:42.202490+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31317309",
+          "size_bytes": 1480524086,
+          "source_bytes_read": 1480524086,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30772618",
+        "source_url": "https://sdilej.cz/30772618/magnum-s06e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31317309",
+        "display_name": "Magnum, P.I. S06E01 Deja Vu (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:06:51.705639+00:00"
       }
     },
     "1435:6:2": {
@@ -898578,7 +898579,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:06:42.202514+00:00",
+  "updated_at": "2026-11-24T03:06:51.705656+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
