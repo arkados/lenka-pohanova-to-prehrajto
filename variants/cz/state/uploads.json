@@ -899623,12 +899623,6 @@
     },
     "1435:7:4": {
       "episode_key": "magnum:s7:e4",
-      "claim": {
-        "worker_id": "6dc19db18cf94668894e58c039f875e3-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T03:42:40.107872+00:00",
-        "lease_expires_at": "2026-11-24T09:42:40.107887+00:00"
-      },
       "source": {
         "source_id": "30806375",
         "source_url": "https://sdilej.cz/30806375/magnum-s07e04.mkv",
@@ -899653,22 +899647,29 @@
         "display_name": "Magnum, P.I. S07E04 Straight and Narrow 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:42:46.564734+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31318371",
-        "size_bytes": 566723350
-      },
-      "transfer_receipt": {
-        "target_video_id": "31318371",
-        "size_bytes": 566723350,
-        "source_bytes_read": 566723350,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31318371",
         "source_bytes_read": 566723350,
         "elapsed_seconds": 70.559,
         "finished_at": "2026-11-24T03:44:29.748919+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31318371",
+          "size_bytes": 566723350,
+          "source_bytes_read": 566723350,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30806375",
+        "source_url": "https://sdilej.cz/30806375/magnum-s07e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31318371",
+        "display_name": "Magnum, P.I. S07E04 Straight and Narrow 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T03:44:39.762023+00:00"
       }
     },
     "1435:7:5": {
@@ -899714,7 +899715,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T03:44:29.748937+00:00",
+  "updated_at": "2026-11-24T03:44:39.762038+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
