@@ -926871,12 +926871,6 @@
     },
     "1556:3:10": {
       "episode_key": "zákon gangu: mayové:s3:e10",
-      "claim": {
-        "worker_id": "7655202334824ef9ae6d5cd2164ae6b8-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:08:28.349543+00:00",
-        "lease_expires_at": "2026-11-25T05:08:28.349562+00:00"
-      },
       "source": {
         "source_id": "32830316",
         "source_url": "https://sdilej.cz/32830316/zakon-gangu-mayove-s03e10-cz-dabing.mkv",
@@ -926900,7 +926894,17 @@
         },
         "display_name": "Mayans M.C. S03E10 Chapter the Last, Nothing More to Write 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:08:46.628795+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32830316:https://sdilej.cz/32830316/zakon-gangu-mayove-s03e10-cz-dabing.mkv",
+        "at": "2026-11-24T23:09:01.000439+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T23:09:01.000510+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1556:4:1": {
       "episode_key": "zákon gangu: mayové:s4:e1",
@@ -926941,7 +926945,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:08:52.658597+00:00",
+  "updated_at": "2026-11-24T23:09:01.000516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -927797,19 +927801,19 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:3:7",
-          "at": "2026-11-24T23:06:41.556660+00:00"
-        },
-        {
           "identity": "1556:3:8",
           "at": "2026-11-24T23:06:55.519349+00:00"
         },
         {
           "identity": "1556:3:9",
           "at": "2026-11-24T23:08:39.563222+00:00"
+        },
+        {
+          "identity": "1556:3:10",
+          "at": "2026-11-24T23:09:01.000439+00:00"
         }
       ],
-      "retry_after": "2026-11-24T23:18:39.563222+00:00"
+      "retry_after": "2026-11-24T23:19:01.000439+00:00"
     },
     "410": {
       "recent_failures": [
