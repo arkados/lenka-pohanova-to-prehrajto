@@ -906077,12 +906077,6 @@
     },
     "9684:2:1": {
       "episode_key": "tučňáci z madagaskaru:s2:e1",
-      "claim": {
-        "worker_id": "e4de37b0c17f46f491447d7026a06a58-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T06:44:32.547176+00:00",
-        "lease_expires_at": "2026-11-24T12:44:32.547190+00:00"
-      },
       "source": {
         "source_id": "26834862",
         "source_url": "https://sdilej.cz/26834862/tucnaci-z-madagaskaru-the-penguins-of-madagascar-s02e01-hd-cz-dabing.mp4",
@@ -906107,22 +906101,29 @@
         "display_name": "The Penguins of Madagascar S02E01 The Red Squirrel 1080p CZ Dabing",
         "prepared_at": "2026-11-24T06:44:39.939551+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31324582",
-        "size_bytes": 1665396159
-      },
-      "transfer_receipt": {
-        "target_video_id": "31324582",
-        "size_bytes": 1665396159,
-        "source_bytes_read": 1665396159,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31324582",
         "source_bytes_read": 1665396159,
         "elapsed_seconds": 164.66,
         "finished_at": "2026-11-24T06:47:49.573724+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31324582",
+          "size_bytes": 1665396159,
+          "source_bytes_read": 1665396159,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26834862",
+        "source_url": "https://sdilej.cz/26834862/tucnaci-z-madagaskaru-the-penguins-of-madagascar-s02e01-hd-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31324582",
+        "display_name": "The Penguins of Madagascar S02E01 The Red Squirrel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T06:47:57.490079+00:00"
       }
     }
   },
@@ -906131,7 +906132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T06:47:49.573743+00:00",
+  "updated_at": "2026-11-24T06:47:57.490100+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
