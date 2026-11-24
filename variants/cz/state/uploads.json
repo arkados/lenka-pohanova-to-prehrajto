@@ -894064,12 +894064,6 @@
     },
     "1435:2:1": {
       "episode_key": "magnum:s2:e1",
-      "claim": {
-        "worker_id": "4f9b12946d5140008935b4cc61e5e90b-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T01:02:59.672138+00:00",
-        "lease_expires_at": "2026-11-24T07:02:59.672155+00:00"
-      },
       "source": {
         "source_id": "30770356",
         "source_url": "https://sdilej.cz/30770356/magnum-s02e01.mkv",
@@ -894094,22 +894088,29 @@
         "display_name": "Magnum, P.I. S02E01 Billy Joe Bob 1080p CZ Dabing",
         "prepared_at": "2026-11-24T01:03:07.702030+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31313305",
-        "size_bytes": 859729694
-      },
-      "transfer_receipt": {
-        "target_video_id": "31313305",
-        "size_bytes": 859729694,
-        "source_bytes_read": 859729694,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31313305",
         "source_bytes_read": 859729694,
         "elapsed_seconds": 100.789,
         "finished_at": "2026-11-24T01:05:19.882613+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31313305",
+          "size_bytes": 859729694,
+          "source_bytes_read": 859729694,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770356",
+        "source_url": "https://sdilej.cz/30770356/magnum-s02e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31313305",
+        "display_name": "Magnum, P.I. S02E01 Billy Joe Bob 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T01:05:31.737103+00:00"
       }
     },
     "1435:2:2": {
@@ -894192,7 +894193,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T01:05:19.882632+00:00",
+  "updated_at": "2026-11-24T01:05:31.737121+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
