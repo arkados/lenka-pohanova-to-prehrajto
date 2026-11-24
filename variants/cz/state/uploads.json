@@ -900292,12 +900292,6 @@
     },
     "1435:7:18": {
       "episode_key": "magnum:s7:e18",
-      "claim": {
-        "worker_id": "056dbe490842411a95f53e4f7a6e534c-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T03:59:19.675046+00:00",
-        "lease_expires_at": "2026-11-24T09:59:19.675060+00:00"
-      },
       "source": {
         "source_id": "30806480",
         "source_url": "https://sdilej.cz/30806480/magnum-s07e18.mkv",
@@ -900322,22 +900316,29 @@
         "display_name": "Magnum, P.I. S07E18 Laura 1080p CZ Dabing",
         "prepared_at": "2026-11-24T03:59:34.224818+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31319011",
-        "size_bytes": 556726660
-      },
-      "transfer_receipt": {
-        "target_video_id": "31319011",
-        "size_bytes": 556726660,
-        "source_bytes_read": 556726660,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31319011",
         "source_bytes_read": 556726660,
         "elapsed_seconds": 33.987,
         "finished_at": "2026-11-24T04:00:40.449584+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31319011",
+          "size_bytes": 556726660,
+          "source_bytes_read": 556726660,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30806480",
+        "source_url": "https://sdilej.cz/30806480/magnum-s07e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31319011",
+        "display_name": "Magnum, P.I. S07E18 Laura 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:00:52.305134+00:00"
       }
     },
     "1435:7:19": {
@@ -900383,7 +900384,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:00:45.189148+00:00",
+  "updated_at": "2026-11-24T04:00:52.305149+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
