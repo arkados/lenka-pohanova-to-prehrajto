@@ -903209,12 +903209,6 @@
     },
     "1556:1:4": {
       "episode_key": "zákon gangu: mayové:s1:e4",
-      "claim": {
-        "worker_id": "35c15ab2ba7e46e491d11e737b1cde38-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T05:30:10.875928+00:00",
-        "lease_expires_at": "2026-11-24T11:30:10.875943+00:00"
-      },
       "source": {
         "source_id": "32830900",
         "source_url": "https://sdilej.cz/32830900/zakon-gangu-mayove-s01e04-cz-dabing.mkv",
@@ -903238,7 +903232,17 @@
         },
         "display_name": "Mayans M.C. S01E04 Murciélago/Zotz 1080p CZ Dabing",
         "prepared_at": "2026-11-24T05:30:21.771593+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32830900:https://sdilej.cz/32830900/zakon-gangu-mayove-s01e04-cz-dabing.mkv",
+        "at": "2026-11-24T05:30:36.767968+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T05:30:36.768007+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -903246,7 +903250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T05:30:30.670119+00:00",
+  "updated_at": "2026-11-24T05:30:36.768010+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -904102,12 +904106,8 @@
     "1556": {
       "recent_failures": [
         {
-          "identity": "1556:1:1",
-          "at": "2026-11-24T05:24:18.101299+00:00"
-        },
-        {
-          "identity": "1556:1:2",
-          "at": "2026-11-24T05:24:52.784357+00:00"
+          "identity": "1556:1:4",
+          "at": "2026-11-24T05:30:36.767968+00:00"
         }
       ]
     }
