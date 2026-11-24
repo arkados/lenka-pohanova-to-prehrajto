@@ -901823,12 +901823,6 @@
     },
     "4693:3:3": {
       "episode_key": "mcdonaldová a dodds:s3:e3",
-      "claim": {
-        "worker_id": "ca9abff137bf44fcafecd666e470f599-worker-0",
-        "run_id": "45322699976",
-        "claimed_at": "2026-11-24T04:39:21.752221+00:00",
-        "lease_expires_at": "2026-11-24T10:39:21.752237+00:00"
-      },
       "source": {
         "source_id": "29666355",
         "source_url": "https://sdilej.cz/29666355/mcdonaldova-a-dodds-s03e03-cz-ve-stinu-mesice.mkv",
@@ -901853,22 +901847,29 @@
         "display_name": "McDonald & Dodds S03E03 The War of Rose 720p CZ Dabing",
         "prepared_at": "2026-11-24T04:39:50.409100+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31320681",
-        "size_bytes": 1901870124
-      },
-      "transfer_receipt": {
-        "target_video_id": "31320681",
-        "size_bytes": 1901870124,
-        "source_bytes_read": 1901870124,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31320681",
         "source_bytes_read": 1901870124,
         "elapsed_seconds": 143.524,
         "finished_at": "2026-11-24T04:42:45.876496+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31320681",
+          "size_bytes": 1901870124,
+          "source_bytes_read": 1901870124,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29666355",
+        "source_url": "https://sdilej.cz/29666355/mcdonaldova-a-dodds-s03e03-cz-ve-stinu-mesice.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31320681",
+        "display_name": "McDonald & Dodds S03E03 The War of Rose 720p CZ Dabing",
+        "uploaded_at": "2026-11-24T04:42:54.017015+00:00"
       }
     },
     "4693:4:1": {
@@ -901951,7 +901952,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T04:42:45.876518+00:00",
+  "updated_at": "2026-11-24T04:42:54.017035+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
