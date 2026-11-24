@@ -927772,12 +927772,6 @@
     },
     "9710:1:10": {
       "episode_key": "lego ninjago: dračí povstání:s1:e10",
-      "claim": {
-        "worker_id": "7dcc4b93965e43ce91d5be5d7ee2225b-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:54:29.854944+00:00",
-        "lease_expires_at": "2026-11-25T05:54:29.854961+00:00"
-      },
       "source": {
         "source_id": "32152557",
         "source_url": "https://sdilej.cz/32152557/lego-ninjago-draci-povstani-s01e10-bitva-druheho-klastera-1080p-nf-web-dl-cz-dab.mkv",
@@ -927801,7 +927795,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E10 The Battle of the Second Monastery 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:54:36.743296+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152557:https://sdilej.cz/32152557/lego-ninjago-draci-povstani-s01e10-bitva-druheho-klastera-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-24T23:54:55.378621+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-24T23:54:55.378691+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -927809,7 +927813,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:54:48.826516+00:00",
+  "updated_at": "2026-11-24T23:54:55.378698+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -928721,9 +928725,13 @@
         {
           "identity": "9710:1:2",
           "at": "2026-11-24T23:54:13.119210+00:00"
+        },
+        {
+          "identity": "9710:1:10",
+          "at": "2026-11-24T23:54:55.378621+00:00"
         }
       ],
-      "retry_after": "2026-11-24T23:50:33.482574+00:00"
+      "retry_after": "2026-11-25T00:04:55.378621+00:00"
     },
     "244": {
       "recent_failures": [
