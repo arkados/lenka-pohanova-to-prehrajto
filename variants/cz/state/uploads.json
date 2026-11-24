@@ -921472,12 +921472,6 @@
     },
     "9698:1:41": {
       "episode_key": "letohrátky:s1:e41",
-      "claim": {
-        "worker_id": "c55afc9e86314addb84f272b9f12d524-worker-0",
-        "run_id": "45415616062",
-        "claimed_at": "2026-11-24T15:03:10.755874+00:00",
-        "lease_expires_at": "2026-11-24T21:03:10.755886+00:00"
-      },
       "source": {
         "source_id": "33756156",
         "source_url": "https://sdilej.cz/33756156/letohratky-s01e41-041-1990-fhd-obcan-chan-s-.mp4",
@@ -921502,22 +921496,29 @@
         "display_name": "TaleSpin S01E41 Citizen Khan 1080p CZ Dabing",
         "prepared_at": "2026-11-24T15:03:28.301887+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31340306",
-        "size_bytes": 481186408
-      },
-      "transfer_receipt": {
-        "target_video_id": "31340306",
-        "size_bytes": 481186408,
-        "source_bytes_read": 481186408,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31340306",
         "source_bytes_read": 481186408,
         "elapsed_seconds": 29.955,
         "finished_at": "2026-11-24T15:04:40.501341+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31340306",
+          "size_bytes": 481186408,
+          "source_bytes_read": 481186408,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33756156",
+        "source_url": "https://sdilej.cz/33756156/letohratky-s01e41-041-1990-fhd-obcan-chan-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31340306",
+        "display_name": "TaleSpin S01E41 Citizen Khan 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T15:04:52.667691+00:00"
       }
     },
     "9698:1:42": {
@@ -921596,7 +921597,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T15:04:46.344987+00:00",
+  "updated_at": "2026-11-24T15:04:52.667705+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
