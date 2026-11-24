@@ -927678,12 +927678,6 @@
     },
     "6505:1:2": {
       "episode_key": "hitler a nacisté: zlo na lavici obžalovaných:s1:e2",
-      "claim": {
-        "worker_id": "8bc0dac664aa43dfb209cd04d1698ad4-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:49:09.377014+00:00",
-        "lease_expires_at": "2026-11-25T05:49:09.377031+00:00"
-      },
       "source": {
         "source_id": "29657710",
         "source_url": "https://sdilej.cz/29657710/hitler-a-naciste-zlo-na-lavici-obzalovanych-s01e002-zrod-treti-rise-dokument-www.dokumenty.tv-.mp4",
@@ -927708,22 +927702,29 @@
         "display_name": "Hitler and the Nazis: Evil on Trial S01E02 The Third Reich Rises 1080p CZ Dabing",
         "prepared_at": "2026-11-24T23:49:22.192357+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353401",
-        "size_bytes": 3618941465
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353401",
-        "size_bytes": 3618941465,
-        "source_bytes_read": 3618941465,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353401",
         "source_bytes_read": 3618941465,
         "elapsed_seconds": 250.684,
         "finished_at": "2026-11-24T23:54:05.672882+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353401",
+          "size_bytes": 3618941465,
+          "source_bytes_read": 3618941465,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29657710",
+        "source_url": "https://sdilej.cz/29657710/hitler-a-naciste-zlo-na-lavici-obzalovanych-s01e002-zrod-treti-rise-dokument-www.dokumenty.tv-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353401",
+        "display_name": "Hitler and the Nazis: Evil on Trial S01E02 The Third Reich Rises 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T23:54:20.487660+00:00"
       }
     },
     "6505:1:3": {
@@ -927769,7 +927770,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T23:54:13.119248+00:00",
+  "updated_at": "2026-11-24T23:54:20.487677+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
