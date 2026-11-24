@@ -916935,12 +916935,6 @@
     },
     "570:3:17": {
       "episode_key": "chameleon:s3:e17",
-      "claim": {
-        "worker_id": "0ffeb0e20fd74e1cb033cf737527aef4-worker-0",
-        "run_id": "45380167434",
-        "claimed_at": "2026-11-24T12:54:31.231859+00:00",
-        "lease_expires_at": "2026-11-24T18:54:31.231875+00:00"
-      },
       "source": {
         "source_id": "15062374",
         "source_url": "https://sdilej.cz/15062374/chameleon-3x17-pevne-pouto.avi",
@@ -916965,22 +916959,29 @@
         "display_name": "The Pretender S03E17 Ties That Bind SD CZ Dabing",
         "prepared_at": "2026-11-24T12:54:48.899977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31336151",
-        "size_bytes": 414695424
-      },
-      "transfer_receipt": {
-        "target_video_id": "31336151",
-        "size_bytes": 414695424,
-        "source_bytes_read": 414695424,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31336151",
         "source_bytes_read": 414695424,
         "elapsed_seconds": 39.578,
         "finished_at": "2026-11-24T12:56:10.227600+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31336151",
+          "size_bytes": 414695424,
+          "source_bytes_read": 414695424,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15062374",
+        "source_url": "https://sdilej.cz/15062374/chameleon-3x17-pevne-pouto.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31336151",
+        "display_name": "The Pretender S03E17 Ties That Bind SD CZ Dabing",
+        "uploaded_at": "2026-11-24T12:56:18.996029+00:00"
       }
     },
     "570:4:3": {
@@ -917077,7 +917078,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T12:56:10.227633+00:00",
+  "updated_at": "2026-11-24T12:56:18.996051+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
