@@ -897124,12 +897124,6 @@
     },
     "1435:4:18": {
       "episode_key": "magnum:s4:e18",
-      "claim": {
-        "worker_id": "016649f6345d4554bba250e7f3b0dac5-worker-0",
-        "run_id": "45268856620",
-        "claimed_at": "2026-11-24T02:34:10.354328+00:00",
-        "lease_expires_at": "2026-11-24T08:34:10.354342+00:00"
-      },
       "source": {
         "source_id": "30770920",
         "source_url": "https://sdilej.cz/30770920/magnum-s04e18.mkv",
@@ -897154,22 +897148,29 @@
         "display_name": "Magnum, P.I. S04E18 Holmes Is Where the Heart Is 1080p CZ Dabing",
         "prepared_at": "2026-11-24T02:34:33.765292+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31316315",
-        "size_bytes": 643557537
-      },
-      "transfer_receipt": {
-        "target_video_id": "31316315",
-        "size_bytes": 643557537,
-        "source_bytes_read": 643557537,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31316315",
         "source_bytes_read": 643557537,
         "elapsed_seconds": 44.313,
         "finished_at": "2026-11-24T02:35:59.441227+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31316315",
+          "size_bytes": 643557537,
+          "source_bytes_read": 643557537,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30770920",
+        "source_url": "https://sdilej.cz/30770920/magnum-s04e18.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31316315",
+        "display_name": "Magnum, P.I. S04E18 Holmes Is Where the Heart Is 1080p CZ Dabing",
+        "uploaded_at": "2026-11-24T02:36:08.095857+00:00"
       }
     }
   },
@@ -897178,7 +897179,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-24T02:35:59.441252+00:00",
+  "updated_at": "2026-11-24T02:36:08.095882+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
