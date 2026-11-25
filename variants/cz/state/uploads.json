@@ -941827,12 +941827,6 @@
     },
     "1017:9:15": {
       "episode_key": "americký táta:s9:e15",
-      "claim": {
-        "worker_id": "0f55220037db4be3b7919a68d6da5b61-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:07:50.691947+00:00",
-        "lease_expires_at": "2026-11-25T15:07:50.691959+00:00"
-      },
       "source": {
         "source_id": "32633685",
         "source_url": "https://sdilej.cz/32633685/americky-tata-s09e15-nemrava-cz-2012.mkv",
@@ -941857,22 +941851,29 @@
         "display_name": "American Dad! S09E15 The Missing Kink 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:08:04.546479+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31364978",
-        "size_bytes": 504625074
-      },
-      "transfer_receipt": {
-        "target_video_id": "31364978",
-        "size_bytes": 504625074,
-        "source_bytes_read": 504625074,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31364978",
         "source_bytes_read": 504625074,
         "elapsed_seconds": 36.585,
         "finished_at": "2026-11-25T09:09:19.227462+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31364978",
+          "size_bytes": 504625074,
+          "source_bytes_read": 504625074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633685",
+        "source_url": "https://sdilej.cz/32633685/americky-tata-s09e15-nemrava-cz-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31364978",
+        "display_name": "American Dad! S09E15 The Missing Kink 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:09:39.704137+00:00"
       }
     },
     "1017:9:16": {
@@ -941890,7 +941891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:09:33.132778+00:00",
+  "updated_at": "2026-11-25T09:09:39.704152+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
