@@ -938885,12 +938885,6 @@
     },
     "1017:6:1": {
       "episode_key": "americký táta:s6:e1",
-      "claim": {
-        "worker_id": "4ac047f9cffe4a0fbbc6a9c61a7d4bf5-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:06:21.774980+00:00",
-        "lease_expires_at": "2026-11-25T13:06:21.774991+00:00"
-      },
       "source": {
         "source_id": "32629570",
         "source_url": "https://sdilej.cz/32629570/americky-tata-s06e01-pevecky-klub-cz-2009.mkv",
@@ -938915,22 +938909,29 @@
         "display_name": "American Dad! S06E01 In Country… Club 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:06:45.626458+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361963",
-        "size_bytes": 587791785
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361963",
-        "size_bytes": 587791785,
-        "source_bytes_read": 587791785,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361963",
         "source_bytes_read": 587791785,
         "elapsed_seconds": 38.812,
         "finished_at": "2026-11-25T07:07:59.990135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361963",
+          "size_bytes": 587791785,
+          "source_bytes_read": 587791785,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32629570",
+        "source_url": "https://sdilej.cz/32629570/americky-tata-s06e01-pevecky-klub-cz-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361963",
+        "display_name": "American Dad! S06E01 In Country… Club 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:08:08.087311+00:00"
       }
     },
     "1017:6:2": {
@@ -939013,7 +939014,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:07:59.990154+00:00",
+  "updated_at": "2026-11-25T07:08:08.087328+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
