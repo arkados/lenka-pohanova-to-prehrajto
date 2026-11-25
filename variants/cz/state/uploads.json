@@ -943815,12 +943815,6 @@
     },
     "1017:19:6": {
       "episode_key": "americký táta:s19:e6",
-      "claim": {
-        "worker_id": "91b1beaef6664926aaf959eb579024dc-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T11:45:56.976774+00:00",
-        "lease_expires_at": "2026-11-25T17:45:56.976789+00:00"
-      },
       "source": {
         "source_id": "34774759",
         "source_url": "https://sdilej.cz/34774759/americky-tata-s19e06-americke-graffito-cz-dabing-2022-.mkv",
@@ -943845,22 +943839,29 @@
         "display_name": "American Dad! S19E06 American Dad Graffito 1080p CZ Dabing",
         "prepared_at": "2026-11-25T11:46:20.758042+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31368504",
-        "size_bytes": 629598928
-      },
-      "transfer_receipt": {
-        "target_video_id": "31368504",
-        "size_bytes": 629598928,
-        "source_bytes_read": 629598928,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31368504",
         "source_bytes_read": 629598928,
         "elapsed_seconds": 39.88,
         "finished_at": "2026-11-25T11:47:34.210789+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31368504",
+          "size_bytes": 629598928,
+          "source_bytes_read": 629598928,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34774759",
+        "source_url": "https://sdilej.cz/34774759/americky-tata-s19e06-americke-graffito-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31368504",
+        "display_name": "American Dad! S19E06 American Dad Graffito 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T11:47:53.570760+00:00"
       }
     }
   },
@@ -943869,7 +943870,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T11:47:47.881904+00:00",
+  "updated_at": "2026-11-25T11:47:53.570779+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
