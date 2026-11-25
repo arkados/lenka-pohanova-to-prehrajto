@@ -944077,12 +944077,6 @@
     },
     "1017:19:22": {
       "episode_key": "americký táta:s19:e22",
-      "claim": {
-        "worker_id": "dcda7694104845aa8848ce8e9782a87c-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T11:55:36.580467+00:00",
-        "lease_expires_at": "2026-11-25T17:55:36.580483+00:00"
-      },
       "source": {
         "source_id": "34775117",
         "source_url": "https://sdilej.cz/34775117/americky-tata-s19e22-vanocni-brucoun-cz-dabing-2022-.mkv",
@@ -944107,22 +944101,29 @@
         "display_name": "American Dad! S19E22 The Grounch 1080p CZ Dabing",
         "prepared_at": "2026-11-25T11:55:51.432428+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31368806",
-        "size_bytes": 609194128
-      },
-      "transfer_receipt": {
-        "target_video_id": "31368806",
-        "size_bytes": 609194128,
-        "source_bytes_read": 609194128,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31368806",
         "source_bytes_read": 609194128,
         "elapsed_seconds": 39.313,
         "finished_at": "2026-11-25T11:56:58.493704+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31368806",
+          "size_bytes": 609194128,
+          "source_bytes_read": 609194128,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34775117",
+        "source_url": "https://sdilej.cz/34775117/americky-tata-s19e22-vanocni-brucoun-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31368806",
+        "display_name": "American Dad! S19E22 The Grounch 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T11:57:20.082900+00:00"
       }
     }
   },
@@ -944131,7 +944132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T11:57:13.232044+00:00",
+  "updated_at": "2026-11-25T11:57:20.082918+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
