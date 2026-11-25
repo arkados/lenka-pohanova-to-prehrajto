@@ -907493,28 +907493,29 @@
           "at": "2026-11-25T02:29:05.812055+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1a281fc08d434ade901fd2a069a4aa42-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:29:12.148456+00:00",
-        "lease_expires_at": "2026-11-25T08:29:12.148470+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356472",
-        "size_bytes": 1796840322
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356472",
-        "size_bytes": 1796840322,
-        "source_bytes_read": 1796840322,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356472",
         "source_bytes_read": 1796840322,
         "elapsed_seconds": 209.624,
         "finished_at": "2026-11-25T02:33:30.389954+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356472",
+          "size_bytes": 1796840322,
+          "source_bytes_read": 1796840322,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772012",
+        "source_url": "https://sdilej.cz/34772012/mayans.m.c.-2021-.s03e01.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356472",
+        "display_name": "Mayans M.C. S03E01 Pap Struggles with the Death Angel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:33:47.376498+00:00"
       }
     },
     "9684:2:14": {
@@ -931476,7 +931477,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:33:41.687821+00:00",
+  "updated_at": "2026-11-25T02:33:47.376513+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
