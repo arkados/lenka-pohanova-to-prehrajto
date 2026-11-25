@@ -937041,12 +937041,6 @@
     },
     "1017:3:7": {
       "episode_key": "americký táta:s3:e7",
-      "claim": {
-        "worker_id": "92e62e91550c4a7784a215618d609fc9-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:01:38.479383+00:00",
-        "lease_expires_at": "2026-11-25T12:01:38.479399+00:00"
-      },
       "source": {
         "source_id": "32611801",
         "source_url": "https://sdilej.cz/32611801/americky-tata-s03e07-o-muzich-a-ledech-cz-2006.mkv",
@@ -937071,22 +937065,29 @@
         "display_name": "American Dad! S03E07 Of Ice and Men 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:01:56.639092+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360453",
-        "size_bytes": 665120439
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360453",
-        "size_bytes": 665120439,
-        "source_bytes_read": 665120439,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360453",
         "source_bytes_read": 665120439,
         "elapsed_seconds": 73.803,
         "finished_at": "2026-11-25T06:03:46.021721+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360453",
+          "size_bytes": 665120439,
+          "source_bytes_read": 665120439,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611801",
+        "source_url": "https://sdilej.cz/32611801/americky-tata-s03e07-o-muzich-a-ledech-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360453",
+        "display_name": "American Dad! S03E07 Of Ice and Men 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:04:09.929603+00:00"
       }
     },
     "1017:3:8": {
@@ -937230,7 +937231,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:04:04.021975+00:00",
+  "updated_at": "2026-11-25T06:04:09.929621+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
