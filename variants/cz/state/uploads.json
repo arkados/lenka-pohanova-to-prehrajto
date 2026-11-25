@@ -928203,28 +928203,29 @@
           "at": "2026-11-25T21:48:26.332269+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c446fbe3b10147a5b59810926e6b2df7-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T21:48:32.684712+00:00",
-        "lease_expires_at": "2026-11-26T03:48:32.684722+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31383632",
-        "size_bytes": 1065235361
-      },
-      "transfer_receipt": {
-        "target_video_id": "31383632",
-        "size_bytes": 1065235361,
-        "source_bytes_read": 1065235361,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31383632",
         "source_bytes_read": 1065235361,
         "elapsed_seconds": 77.786,
         "finished_at": "2026-11-25T21:50:44.306422+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31383632",
+          "size_bytes": 1065235361,
+          "source_bytes_read": 1065235361,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27420028",
+        "source_url": "https://sdilej.cz/27420028/lego-ninjago-dragons-rising-s01e08-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31383632",
+        "display_name": "LEGO Ninjago: Dragons Rising S01E08 I Will Be the Danger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T21:51:12.365002+00:00"
       }
     },
     "9710:1:9": {
@@ -949943,7 +949944,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T21:51:01.532176+00:00",
+  "updated_at": "2026-11-25T21:51:12.365017+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
