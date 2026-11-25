@@ -939093,12 +939093,6 @@
     },
     "1017:6:7": {
       "episode_key": "americký táta:s6:e7",
-      "claim": {
-        "worker_id": "83cc80b2a933437eb1a19937df17cb15-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:11:06.430825+00:00",
-        "lease_expires_at": "2026-11-25T13:11:06.430837+00:00"
-      },
       "source": {
         "source_id": "32612092",
         "source_url": "https://sdilej.cz/32612092/americky-tata-s06e07-my-morning-jacket-cz-2009.mkv",
@@ -939123,22 +939117,29 @@
         "display_name": "American Dad! S06E07 My Morning Straitjacket 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:11:41.884522+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31362053",
-        "size_bytes": 600059181
-      },
-      "transfer_receipt": {
-        "target_video_id": "31362053",
-        "size_bytes": 600059181,
-        "source_bytes_read": 600059181,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31362053",
         "source_bytes_read": 600059181,
         "elapsed_seconds": 45.122,
         "finished_at": "2026-11-25T07:13:04.789321+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31362053",
+          "size_bytes": 600059181,
+          "source_bytes_read": 600059181,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32612092",
+        "source_url": "https://sdilej.cz/32612092/americky-tata-s06e07-my-morning-jacket-cz-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31362053",
+        "display_name": "American Dad! S06E07 My Morning Straitjacket 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:13:31.776906+00:00"
       }
     },
     "1017:6:10": {
@@ -939249,7 +939250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:13:24.271354+00:00",
+  "updated_at": "2026-11-25T07:13:31.776922+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
