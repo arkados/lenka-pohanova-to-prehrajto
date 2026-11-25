@@ -928523,12 +928523,6 @@
     },
     "9710:1:11": {
       "episode_key": "lego ninjago: dračí povstání:s1:e11",
-      "claim": {
-        "worker_id": "36166f4221144dbc8d11aaaeffca094e-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:23:33.228569+00:00",
-        "lease_expires_at": "2026-11-25T06:23:33.228587+00:00"
-      },
       "source": {
         "source_id": "32152559",
         "source_url": "https://sdilej.cz/32152559/lego-ninjago-draci-povstani-s01e11-chram-a-draci-jadra-1080p-nf-web-dl-cz-dab.mkv",
@@ -928552,7 +928546,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E11 The Temple of the Dragon Cores 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:23:52.490096+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152559:https://sdilej.cz/32152559/lego-ninjago-draci-povstani-s01e11-chram-a-draci-jadra-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-25T00:24:13.258016+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T00:24:13.258095+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -928560,7 +928564,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:24:07.485655+00:00",
+  "updated_at": "2026-11-25T00:24:13.258104+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -929474,19 +929478,19 @@
     "9710": {
       "recent_failures": [
         {
-          "identity": "9710:1:8",
-          "at": "2026-11-25T00:22:42.844081+00:00"
-        },
-        {
           "identity": "9710:1:9",
           "at": "2026-11-25T00:23:05.528756+00:00"
         },
         {
           "identity": "9710:1:10",
           "at": "2026-11-25T00:23:45.710561+00:00"
+        },
+        {
+          "identity": "9710:1:11",
+          "at": "2026-11-25T00:24:13.258016+00:00"
         }
       ],
-      "retry_after": "2026-11-25T00:33:45.710561+00:00"
+      "retry_after": "2026-11-25T00:34:13.258016+00:00"
     },
     "244": {
       "recent_failures": [
