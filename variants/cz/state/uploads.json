@@ -942235,12 +942235,6 @@
     },
     "1017:10:8": {
       "episode_key": "americký táta:s10:e8",
-      "claim": {
-        "worker_id": "23fa4dfdd2fb4f58a2268f5c1c6efc28-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:23:31.541832+00:00",
-        "lease_expires_at": "2026-11-25T15:23:31.541840+00:00"
-      },
       "source": {
         "source_id": "32633744",
         "source_url": "https://sdilej.cz/32633744/americky-tata-s10e08-krampus-cz-2013.mkv",
@@ -942265,22 +942259,29 @@
         "display_name": "American Dad! S10E08 Minstrel Krampus 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:23:57.432960+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31365291",
-        "size_bytes": 622205021
-      },
-      "transfer_receipt": {
-        "target_video_id": "31365291",
-        "size_bytes": 622205021,
-        "source_bytes_read": 622205021,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31365291",
         "source_bytes_read": 622205021,
         "elapsed_seconds": 49.767,
         "finished_at": "2026-11-25T09:25:28.896687+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31365291",
+          "size_bytes": 622205021,
+          "source_bytes_read": 622205021,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633744",
+        "source_url": "https://sdilej.cz/32633744/americky-tata-s10e08-krampus-cz-2013.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31365291",
+        "display_name": "American Dad! S10E08 Minstrel Krampus 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:25:48.690187+00:00"
       }
     },
     "1017:10:10": {
@@ -942339,7 +942340,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:25:42.865546+00:00",
+  "updated_at": "2026-11-25T09:25:48.690224+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
