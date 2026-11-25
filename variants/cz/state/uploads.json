@@ -941109,12 +941109,6 @@
     },
     "1017:8:16": {
       "episode_key": "americký táta:s8:e16",
-      "claim": {
-        "worker_id": "12cc770ffa92473bb98a1ef3c7105c31-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T08:39:42.780641+00:00",
-        "lease_expires_at": "2026-11-25T14:39:42.780652+00:00"
-      },
       "source": {
         "source_id": "32633599",
         "source_url": "https://sdilej.cz/32633599/americky-tata-s08e16-cesta-do-minulosti-cz-2011.mkv",
@@ -941139,22 +941133,29 @@
         "display_name": "American Dad! S08E16 The Kidney Stays in the Picture 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:40:11.442136+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31364176",
-        "size_bytes": 568848177
-      },
-      "transfer_receipt": {
-        "target_video_id": "31364176",
-        "size_bytes": 568848177,
-        "source_bytes_read": 568848177,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31364176",
         "source_bytes_read": 568848177,
         "elapsed_seconds": 56.827,
         "finished_at": "2026-11-25T08:41:45.752841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31364176",
+          "size_bytes": 568848177,
+          "source_bytes_read": 568848177,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633599",
+        "source_url": "https://sdilej.cz/32633599/americky-tata-s08e16-cesta-do-minulosti-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31364176",
+        "display_name": "American Dad! S08E16 The Kidney Stays in the Picture 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:41:54.458233+00:00"
       }
     },
     "1017:8:17": {
@@ -941213,7 +941214,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:41:45.752861+00:00",
+  "updated_at": "2026-11-25T08:41:54.458247+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
