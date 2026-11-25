@@ -936939,12 +936939,6 @@
     },
     "1017:3:3": {
       "episode_key": "americký táta:s3:e3",
-      "claim": {
-        "worker_id": "62e9f1dc331c4d51b144ceed3c73eaa0-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:59:29.436345+00:00",
-        "lease_expires_at": "2026-11-25T11:59:29.436360+00:00"
-      },
       "source": {
         "source_id": "32611790",
         "source_url": "https://sdilej.cz/32611790/americky-tata-s03e03-prodejce-roku-cz-2006.mkv",
@@ -936969,22 +936963,29 @@
         "display_name": "American Dad! S03E03 Failure is Not a Factory-Installed Option 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:59:43.421097+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360393",
-        "size_bytes": 669568070
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360393",
-        "size_bytes": 669568070,
-        "source_bytes_read": 669568070,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360393",
         "source_bytes_read": 669568070,
         "elapsed_seconds": 49.298,
         "finished_at": "2026-11-25T06:01:10.686956+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360393",
+          "size_bytes": 669568070,
+          "source_bytes_read": 669568070,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611790",
+        "source_url": "https://sdilej.cz/32611790/americky-tata-s03e03-prodejce-roku-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360393",
+        "display_name": "American Dad! S03E03 Failure is Not a Factory-Installed Option 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:01:24.913418+00:00"
       }
     },
     "1017:3:6": {
@@ -937030,7 +937031,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:01:16.964875+00:00",
+  "updated_at": "2026-11-25T06:01:24.913437+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
