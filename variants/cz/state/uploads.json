@@ -941317,12 +941317,6 @@
     },
     "1017:9:2": {
       "episode_key": "americký táta:s9:e2",
-      "claim": {
-        "worker_id": "cf9cfe0842d74267a74efd3884fa8992-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T08:55:34.029435+00:00",
-        "lease_expires_at": "2026-11-25T14:55:34.029446+00:00"
-      },
       "source": {
         "source_id": "32633620",
         "source_url": "https://sdilej.cz/32633620/americky-tata-s09e02-pohodova-dovolena-cz-2012.mkv",
@@ -941347,22 +941341,29 @@
         "display_name": "American Dad! S09E02 Killer Vacation 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:55:47.992146+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31364579",
-        "size_bytes": 597392364
-      },
-      "transfer_receipt": {
-        "target_video_id": "31364579",
-        "size_bytes": 597392364,
-        "source_bytes_read": 597392364,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31364579",
         "source_bytes_read": 597392364,
         "elapsed_seconds": 39.659,
         "finished_at": "2026-11-25T08:57:12.229669+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31364579",
+          "size_bytes": 597392364,
+          "source_bytes_read": 597392364,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633620",
+        "source_url": "https://sdilej.cz/32633620/americky-tata-s09e02-pohodova-dovolena-cz-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31364579",
+        "display_name": "American Dad! S09E02 Killer Vacation 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:57:21.741009+00:00"
       }
     },
     "1017:9:3": {
@@ -941408,7 +941409,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:57:12.229688+00:00",
+  "updated_at": "2026-11-25T08:57:21.741022+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
