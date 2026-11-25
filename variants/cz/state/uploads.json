@@ -928136,12 +928136,6 @@
     },
     "244:1:11": {
       "episode_key": "proč? 13x proto:s1:e11",
-      "claim": {
-        "worker_id": "9855adb2079746518998a2977c65027c-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:02:34.368619+00:00",
-        "lease_expires_at": "2026-11-25T06:02:34.368637+00:00"
-      },
       "source": {
         "source_id": "13984380",
         "source_url": "https://sdilej.cz/13984380/13-reasons-why-s01e11-tape-6-side-a-1080p-x265-10bit-joy-cz-audio-.mkv",
@@ -928166,22 +928160,29 @@
         "display_name": "13 Reasons Why S01E11 Tape 6, Side A 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:02:41.174923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353758",
-        "size_bytes": 629924821
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353758",
-        "size_bytes": 629924821,
-        "source_bytes_read": 629924821,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353758",
         "source_bytes_read": 629924821,
         "elapsed_seconds": 37.915,
         "finished_at": "2026-11-25T00:04:06.376216+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353758",
+          "size_bytes": 629924821,
+          "source_bytes_read": 629924821,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13984380",
+        "source_url": "https://sdilej.cz/13984380/13-reasons-why-s01e11-tape-6-side-a-1080p-x265-10bit-joy-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353758",
+        "display_name": "13 Reasons Why S01E11 Tape 6, Side A 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:04:19.764052+00:00"
       }
     },
     "244:1:12": {
@@ -928300,7 +928301,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:04:12.219253+00:00",
+  "updated_at": "2026-11-25T00:04:19.764070+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
