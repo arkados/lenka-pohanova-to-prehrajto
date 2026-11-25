@@ -936578,12 +936578,6 @@
     },
     "266:1:9": {
       "episode_key": "záhadné sídlo bly:s1:e9",
-      "claim": {
-        "worker_id": "0171e4a9acf74ea88baf17e5782289a8-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:52:02.448804+00:00",
-        "lease_expires_at": "2026-11-25T11:52:02.448820+00:00"
-      },
       "source": {
         "source_id": "29296947",
         "source_url": "https://sdilej.cz/29296947/zahadne-sidlo-bly-s01e09-1080p-cz-dabing.mkv",
@@ -936608,22 +936602,29 @@
         "display_name": "The Haunting of Bly Manor S01E09 The Beast in the Jungle 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:52:22.663816+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360221",
-        "size_bytes": 617319349
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360221",
-        "size_bytes": 617319349,
-        "source_bytes_read": 617319349,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360221",
         "source_bytes_read": 617319349,
         "elapsed_seconds": 61.986,
         "finished_at": "2026-11-25T05:54:01.591848+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360221",
+          "size_bytes": 617319349,
+          "source_bytes_read": 617319349,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296947",
+        "source_url": "https://sdilej.cz/29296947/zahadne-sidlo-bly-s01e09-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360221",
+        "display_name": "The Haunting of Bly Manor S01E09 The Beast in the Jungle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T05:54:15.940095+00:00"
       }
     },
     "1017:1:1": {
@@ -936706,7 +936707,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T05:54:07.659448+00:00",
+  "updated_at": "2026-11-25T05:54:15.940114+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
