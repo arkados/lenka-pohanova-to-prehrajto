@@ -947971,12 +947971,6 @@
     },
     "1864:1:9": {
       "episode_key": "prezident v pořadí:s1:e9",
-      "claim": {
-        "worker_id": "67ce38ab1168440484a478bc0cc44e5a-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T14:49:20.979454+00:00",
-        "lease_expires_at": "2026-11-25T20:49:20.979471+00:00"
-      },
       "source": {
         "source_id": "34118445",
         "source_url": "https://sdilej.cz/34118445/prezident-v-poradi-s01e09-cz.mp4",
@@ -948000,7 +947994,17 @@
         },
         "display_name": "Designated Survivor S01E09 The Blueprint 720p CZ Dabing",
         "prepared_at": "2026-11-25T14:49:45.739867+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118445:https://sdilej.cz/34118445/prezident-v-poradi-s01e09-cz.mp4",
+        "at": "2026-11-25T14:50:06.928868+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T14:50:06.933675+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "381:1:4": {
       "episode_key": "právo podle lidie poët:s1:e4",
@@ -948017,7 +948021,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T14:50:00.826862+00:00",
+  "updated_at": "2026-11-25T14:50:06.933684+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -948987,19 +948991,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:1",
-          "at": "2026-11-25T14:48:58.669792+00:00"
-        },
-        {
           "identity": "1864:1:2",
           "at": "2026-11-25T14:49:05.094120+00:00"
         },
         {
           "identity": "1864:1:8",
           "at": "2026-11-25T14:49:33.172219+00:00"
+        },
+        {
+          "identity": "1864:1:9",
+          "at": "2026-11-25T14:50:06.928868+00:00"
         }
       ],
-      "retry_after": "2026-11-25T14:59:33.172219+00:00"
+      "retry_after": "2026-11-25T15:00:06.928868+00:00"
     }
   }
 }
