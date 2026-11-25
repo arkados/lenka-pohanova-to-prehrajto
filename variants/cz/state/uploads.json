@@ -929194,12 +929194,6 @@
     },
     "9710:1:17": {
       "episode_key": "lego ninjago: dračí povstání:s1:e17",
-      "claim": {
-        "worker_id": "724af5052e2044e5bddf3a74e624a5db-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:49:00.329947+00:00",
-        "lease_expires_at": "2026-11-25T06:49:00.329964+00:00"
-      },
       "source": {
         "source_id": "32152600",
         "source_url": "https://sdilej.cz/32152600/lego-ninjago-draci-povstani-s01e17-sprava-1080p-nf-web-dl-cz-dab.mkv",
@@ -929223,7 +929217,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E17 The Administration 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:49:07.107502+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152600:https://sdilej.cz/32152600/lego-ninjago-draci-povstani-s01e17-sprava-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-25T00:49:27.482565+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T00:49:27.482814+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "610:2:9": {
       "episode_key": "noční agent:s2:e9",
@@ -929264,7 +929268,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:49:20.627321+00:00",
+  "updated_at": "2026-11-25T00:49:27.482837+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -930166,19 +930170,19 @@
     "9710": {
       "recent_failures": [
         {
-          "identity": "9710:1:11",
-          "at": "2026-11-25T00:48:05.207303+00:00"
-        },
-        {
           "identity": "9710:1:15",
           "at": "2026-11-25T00:48:43.108044+00:00"
         },
         {
           "identity": "9710:1:16",
           "at": "2026-11-25T00:48:51.819678+00:00"
+        },
+        {
+          "identity": "9710:1:17",
+          "at": "2026-11-25T00:49:27.482565+00:00"
         }
       ],
-      "retry_after": "2026-11-25T00:58:51.819678+00:00"
+      "retry_after": "2026-11-25T00:59:27.482565+00:00"
     },
     "244": {
       "recent_failures": [
