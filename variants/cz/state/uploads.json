@@ -938126,12 +938126,6 @@
     },
     "1017:5:1": {
       "episode_key": "americký táta:s5:e1",
-      "claim": {
-        "worker_id": "1961218d9b734ddba1fde0af49205bfc-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:51:03.436690+00:00",
-        "lease_expires_at": "2026-11-25T12:51:03.436703+00:00"
-      },
       "source": {
         "source_id": "32611964",
         "source_url": "https://sdilej.cz/32611964/americky-tata-s05e01-tisic-sest-set-svicek-cz-2008.mkv",
@@ -938156,22 +938150,29 @@
         "display_name": "American Dad! S05E01 1600 Candles 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:51:21.491807+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361659",
-        "size_bytes": 507969499
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361659",
-        "size_bytes": 507969499,
-        "source_bytes_read": 507969499,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361659",
         "source_bytes_read": 507969499,
         "elapsed_seconds": 41.458,
         "finished_at": "2026-11-25T06:52:36.069651+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361659",
+          "size_bytes": 507969499,
+          "source_bytes_read": 507969499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611964",
+        "source_url": "https://sdilej.cz/32611964/americky-tata-s05e01-tisic-sest-set-svicek-cz-2008.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361659",
+        "display_name": "American Dad! S05E01 1600 Candles 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:52:53.480343+00:00"
       }
     },
     "1017:5:3": {
@@ -938230,7 +938231,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:52:48.229010+00:00",
+  "updated_at": "2026-11-25T06:52:53.480357+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
