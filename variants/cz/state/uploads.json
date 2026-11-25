@@ -928099,12 +928099,6 @@
     },
     "244:1:10": {
       "episode_key": "proč? 13x proto:s1:e10",
-      "claim": {
-        "worker_id": "40fd8317056b4fb5894892ccece29c06-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:02:19.591054+00:00",
-        "lease_expires_at": "2026-11-25T06:02:19.591072+00:00"
-      },
       "source": {
         "source_id": "32963217",
         "source_url": "https://sdilej.cz/32963217/proc-13x-proto-s01e10-cz-dabing-1080p.mkv",
@@ -928128,7 +928122,17 @@
         },
         "display_name": "13 Reasons Why S01E10 Tape 5, Side B 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:02:26.890416+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32963217:https://sdilej.cz/32963217/proc-13x-proto-s01e10-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T00:02:47.433937+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T00:02:47.434017+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "244:1:11": {
       "episode_key": "proč? 13x proto:s1:e11",
@@ -928169,7 +928173,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:02:41.174941+00:00",
+  "updated_at": "2026-11-25T00:02:47.434024+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -929094,9 +929098,13 @@
         {
           "identity": "244:1:9",
           "at": "2026-11-25T00:02:13.015874+00:00"
+        },
+        {
+          "identity": "244:1:10",
+          "at": "2026-11-25T00:02:47.433937+00:00"
         }
       ],
-      "retry_after": "2026-11-24T23:58:56.701048+00:00"
+      "retry_after": "2026-11-25T00:12:47.433937+00:00"
     }
   }
 }
