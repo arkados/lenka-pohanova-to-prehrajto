@@ -927162,28 +927162,29 @@
           "at": "2026-11-25T21:38:53.862823+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "96abc4a4afd345aea932a2ff051a770b-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T21:39:00.290366+00:00",
-        "lease_expires_at": "2026-11-26T03:39:00.290377+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31383352",
-        "size_bytes": 1064870575
-      },
-      "transfer_receipt": {
-        "target_video_id": "31383352",
-        "size_bytes": 1064870575,
-        "source_bytes_read": 1064870575,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31383352",
         "source_bytes_read": 1064870575,
         "elapsed_seconds": 112.201,
         "finished_at": "2026-11-25T21:41:33.624341+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31383352",
+          "size_bytes": 1064870575,
+          "source_bytes_read": 1064870575,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27419993",
+        "source_url": "https://sdilej.cz/27419993/lego-ninjago-dragons-rising-s01e03-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31383352",
+        "display_name": "LEGO Ninjago: Dragons Rising S01E03 Crossroads Carnival 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T21:41:49.170117+00:00"
       }
     },
     "9710:1:4": {
@@ -949803,7 +949804,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T21:41:40.014506+00:00",
+  "updated_at": "2026-11-25T21:41:49.170130+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
