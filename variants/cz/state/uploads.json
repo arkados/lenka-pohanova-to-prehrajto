@@ -924048,28 +924048,29 @@
           "at": "2026-11-25T21:35:27.651339+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5ba54e593a0241998f9773565ee0cdb4-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T21:35:33.656767+00:00",
-        "lease_expires_at": "2026-11-26T03:35:33.656777+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31383259",
-        "size_bytes": 657118547
-      },
-      "transfer_receipt": {
-        "target_video_id": "31383259",
-        "size_bytes": 657118547,
-        "source_bytes_read": 657118547,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31383259",
         "source_bytes_read": 657118547,
         "elapsed_seconds": 46.348,
         "finished_at": "2026-11-25T21:37:21.707946+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31383259",
+          "size_bytes": 657118547,
+          "source_bytes_read": 657118547,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34666025",
+        "source_url": "https://sdilej.cz/34666025/jizda-o-zivot-s01e07-zenevska-umluva.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31383259",
+        "display_name": "Ride or Die S01E07 The Geneva Convention 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T21:37:40.290356+00:00"
       }
     },
     "10465:1:8": {
@@ -949699,7 +949700,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T21:37:28.283560+00:00",
+  "updated_at": "2026-11-25T21:37:40.290372+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
