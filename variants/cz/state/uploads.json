@@ -947218,12 +947218,6 @@
     },
     "537:1:1": {
       "episode_key": "mělas to vědět:s1:e1",
-      "claim": {
-        "worker_id": "3242a41f69994bb3b7e2450859552684-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T14:07:42.882858+00:00",
-        "lease_expires_at": "2026-11-25T20:07:42.882874+00:00"
-      },
       "source": {
         "source_id": "15304868",
         "source_url": "https://sdilej.cz/15304868/melas-to-vedet-s01e01-2020-novinka-hd-cz-dabing.mkv",
@@ -947248,22 +947242,29 @@
         "display_name": "The Undoing S01E01 The Undoing 1080p CZ Dabing",
         "prepared_at": "2026-11-25T14:07:55.089899+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31372310",
-        "size_bytes": 607172862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31372310",
-        "size_bytes": 607172862,
-        "source_bytes_read": 607172862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31372310",
         "source_bytes_read": 607172862,
         "elapsed_seconds": 41.069,
         "finished_at": "2026-11-25T14:09:06.757739+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31372310",
+          "size_bytes": 607172862,
+          "source_bytes_read": 607172862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "15304868",
+        "source_url": "https://sdilej.cz/15304868/melas-to-vedet-s01e01-2020-novinka-hd-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31372310",
+        "display_name": "The Undoing S01E01 The Undoing 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T14:09:26.085838+00:00"
       }
     }
   },
@@ -947272,7 +947273,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T14:09:19.865834+00:00",
+  "updated_at": "2026-11-25T14:09:26.085855+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
