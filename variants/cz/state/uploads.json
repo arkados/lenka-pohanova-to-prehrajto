@@ -944950,12 +944950,6 @@
     },
     "9717:4:1": {
       "episode_key": "gumídci:s4:e1",
-      "claim": {
-        "worker_id": "68fcbe351b7f410fa94a018e5a8fa9d4-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:33:47.024042+00:00",
-        "lease_expires_at": "2026-11-25T18:33:47.024061+00:00"
-      },
       "source": {
         "source_id": "33743321",
         "source_url": "https://sdilej.cz/33743321/gumidci-s04e01-030-1988-fhd-sedm-statecnych-gumidku-s-.mp4",
@@ -944980,22 +944974,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S04E01 The Magnificent Seven Gummies 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:33:59.649468+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31369800",
-        "size_bytes": 483054041
-      },
-      "transfer_receipt": {
-        "target_video_id": "31369800",
-        "size_bytes": 483054041,
-        "source_bytes_read": 483054041,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31369800",
         "source_bytes_read": 483054041,
         "elapsed_seconds": 36.219,
         "finished_at": "2026-11-25T12:35:07.222601+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31369800",
+          "size_bytes": 483054041,
+          "source_bytes_read": 483054041,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743321",
+        "source_url": "https://sdilej.cz/33743321/gumidci-s04e01-030-1988-fhd-sedm-statecnych-gumidku-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31369800",
+        "display_name": "Disney's Adventures of the Gummi Bears S04E01 The Magnificent Seven Gummies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:35:14.137862+00:00"
       }
     },
     "9717:4:8": {
@@ -945041,7 +945042,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:35:07.222620+00:00",
+  "updated_at": "2026-11-25T12:35:14.137877+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
