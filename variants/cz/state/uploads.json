@@ -945866,12 +945866,6 @@
     },
     "9717:6:19": {
       "episode_key": "gumídci:s6:e19",
-      "claim": {
-        "worker_id": "8a9f4b62fdf14085ba30357ae0e2b990-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T13:03:00.472589+00:00",
-        "lease_expires_at": "2026-11-25T19:03:00.472602+00:00"
-      },
       "source": {
         "source_id": "33743462",
         "source_url": "https://sdilej.cz/33743462/gumidci-s06e19-067-1991-fhd-tradice-s-.mp4",
@@ -945896,22 +945890,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S06E19 The Rite Stuff 1080p CZ Dabing",
         "prepared_at": "2026-11-25T13:03:23.648781+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31370670",
-        "size_bytes": 478936793
-      },
-      "transfer_receipt": {
-        "target_video_id": "31370670",
-        "size_bytes": 478936793,
-        "source_bytes_read": 478936793,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31370670",
         "source_bytes_read": 478936793,
         "elapsed_seconds": 36.468,
         "finished_at": "2026-11-25T13:04:38.481329+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31370670",
+          "size_bytes": 478936793,
+          "source_bytes_read": 478936793,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743462",
+        "source_url": "https://sdilej.cz/33743462/gumidci-s06e19-067-1991-fhd-tradice-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31370670",
+        "display_name": "Disney's Adventures of the Gummi Bears S06E19 The Rite Stuff 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T13:04:51.527852+00:00"
       }
     },
     "1449:1:9": {
@@ -945990,7 +945991,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T13:04:44.924145+00:00",
+  "updated_at": "2026-11-25T13:04:51.527869+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
