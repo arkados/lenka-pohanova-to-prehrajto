@@ -936786,12 +936786,6 @@
     },
     "1017:1:5": {
       "episode_key": "americký táta:s1:e5",
-      "claim": {
-        "worker_id": "1d61d9d6c3244b9694eb0144263dc6f3-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:55:11.274596+00:00",
-        "lease_expires_at": "2026-11-25T11:55:11.274613+00:00"
-      },
       "source": {
         "source_id": "32611743",
         "source_url": "https://sdilej.cz/32611743/americky-tata-s01e05-roger-codger-cz-2005.mkv",
@@ -936816,22 +936810,29 @@
         "display_name": "American Dad! S01E05 Roger Codger 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:55:17.973193+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360282",
-        "size_bytes": 675571303
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360282",
-        "size_bytes": 675571303,
-        "source_bytes_read": 675571303,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360282",
         "source_bytes_read": 675571303,
         "elapsed_seconds": 70.494,
         "finished_at": "2026-11-25T05:57:02.069530+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360282",
+          "size_bytes": 675571303,
+          "source_bytes_read": 675571303,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611743",
+        "source_url": "https://sdilej.cz/32611743/americky-tata-s01e05-roger-codger-cz-2005.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360282",
+        "display_name": "American Dad! S01E05 Roger Codger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T05:57:22.529512+00:00"
       }
     }
   },
@@ -936840,7 +936841,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T05:57:15.194604+00:00",
+  "updated_at": "2026-11-25T05:57:22.529532+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
