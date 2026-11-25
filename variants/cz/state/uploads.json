@@ -944913,12 +944913,6 @@
     },
     "213:1:7": {
       "episode_key": "ahsoka:s1:e7",
-      "claim": {
-        "worker_id": "f8551c4ecb564f599223afaa24b15018-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:32:41.133521+00:00",
-        "lease_expires_at": "2026-11-25T18:32:41.133531+00:00"
-      },
       "source": {
         "source_id": "34933864",
         "source_url": "https://sdilej.cz/34933864/ahsoka-s01e07-cz-dabing.mkv",
@@ -944942,7 +944936,17 @@
         },
         "display_name": "Ahsoka S01E07 Part Seven: Dreams and Madness 4K CZ Dabing",
         "prepared_at": "2026-11-25T12:32:54.016517+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34933864:https://sdilej.cz/34933864/ahsoka-s01e07-cz-dabing.mkv",
+        "at": "2026-11-25T12:33:09.397017+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T12:33:09.397069+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -944950,7 +944954,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:33:00.570075+00:00",
+  "updated_at": "2026-11-25T12:33:09.397072+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -945885,9 +945889,13 @@
         {
           "identity": "213:1:6",
           "at": "2026-11-25T12:32:11.851805+00:00"
+        },
+        {
+          "identity": "213:1:7",
+          "at": "2026-11-25T12:33:09.397017+00:00"
         }
       ],
-      "retry_after": "2026-11-25T12:29:36.729970+00:00"
+      "retry_after": "2026-11-25T12:43:09.397017+00:00"
     }
   }
 }
