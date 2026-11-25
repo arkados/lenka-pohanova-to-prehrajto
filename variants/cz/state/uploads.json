@@ -937765,12 +937765,6 @@
     },
     "1017:4:10": {
       "episode_key": "americký táta:s4:e10",
-      "claim": {
-        "worker_id": "f9014605c03540dd8c8369c76d7ad1ea-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:33:23.977357+00:00",
-        "lease_expires_at": "2026-11-25T12:33:23.977369+00:00"
-      },
       "source": {
         "source_id": "32611840",
         "source_url": "https://sdilej.cz/32611840/americky-tata-s04e10-splneny-sen-cz-2007.mkv",
@@ -937795,22 +937789,29 @@
         "display_name": "American Dad! S04E10 Tearjerker 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:33:37.856127+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361380",
-        "size_bytes": 581979255
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361380",
-        "size_bytes": 581979255,
-        "source_bytes_read": 581979255,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361380",
         "source_bytes_read": 581979255,
         "elapsed_seconds": 52.805,
         "finished_at": "2026-11-25T06:35:02.182261+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361380",
+          "size_bytes": 581979255,
+          "source_bytes_read": 581979255,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611840",
+        "source_url": "https://sdilej.cz/32611840/americky-tata-s04e10-splneny-sen-cz-2007.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361380",
+        "display_name": "American Dad! S04E10 Tearjerker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:35:20.668364+00:00"
       }
     }
   },
@@ -937819,7 +937820,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:35:14.690555+00:00",
+  "updated_at": "2026-11-25T06:35:20.668381+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
