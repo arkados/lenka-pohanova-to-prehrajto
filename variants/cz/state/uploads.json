@@ -936343,12 +936343,6 @@
     },
     "266:1:4": {
       "episode_key": "záhadné sídlo bly:s1:e4",
-      "claim": {
-        "worker_id": "6d8394c9ee3f489689a3c96786b0f1f0-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:40:17.612830+00:00",
-        "lease_expires_at": "2026-11-25T11:40:17.612847+00:00"
-      },
       "source": {
         "source_id": "29296718",
         "source_url": "https://sdilej.cz/29296718/zahadne-sidlo-bly-s01e04-1080p-cz-dabing.mkv",
@@ -936373,22 +936367,29 @@
         "display_name": "The Haunting of Bly Manor S01E04 The Way It Came 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:40:36.236721+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31359999",
-        "size_bytes": 645109448
-      },
-      "transfer_receipt": {
-        "target_video_id": "31359999",
-        "size_bytes": 645109448,
-        "source_bytes_read": 645109448,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31359999",
         "source_bytes_read": 645109448,
         "elapsed_seconds": 40.244,
         "finished_at": "2026-11-25T05:41:54.721624+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31359999",
+          "size_bytes": 645109448,
+          "source_bytes_read": 645109448,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29296718",
+        "source_url": "https://sdilej.cz/29296718/zahadne-sidlo-bly-s01e04-1080p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31359999",
+        "display_name": "The Haunting of Bly Manor S01E04 The Way It Came 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T05:42:13.089819+00:00"
       }
     }
   },
@@ -936397,7 +936398,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T05:42:06.795478+00:00",
+  "updated_at": "2026-11-25T05:42:13.089839+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
