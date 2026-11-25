@@ -944536,12 +944536,6 @@
     },
     "9717:2:1": {
       "episode_key": "gumídci:s2:e1",
-      "claim": {
-        "worker_id": "d7f40840907948aeb5683720058f983f-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:20:32.836378+00:00",
-        "lease_expires_at": "2026-11-25T18:20:32.836391+00:00"
-      },
       "source": {
         "source_id": "33743253",
         "source_url": "https://sdilej.cz/33743253/gumidci-s02e01-014-1986-fhd-jen-vys-jen-dal-s-.mp4",
@@ -944566,22 +944560,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S02E01 Up, Up, and Away 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:20:45.339540+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31369471",
-        "size_bytes": 481220955
-      },
-      "transfer_receipt": {
-        "target_video_id": "31369471",
-        "size_bytes": 481220955,
-        "source_bytes_read": 481220955,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31369471",
         "source_bytes_read": 481220955,
         "elapsed_seconds": 36.585,
         "finished_at": "2026-11-25T12:21:51.768005+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31369471",
+          "size_bytes": 481220955,
+          "source_bytes_read": 481220955,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743253",
+        "source_url": "https://sdilej.cz/33743253/gumidci-s02e01-014-1986-fhd-jen-vys-jen-dal-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31369471",
+        "display_name": "Disney's Adventures of the Gummi Bears S02E01 Up, Up, and Away 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:22:06.426699+00:00"
       }
     }
   },
@@ -944590,7 +944591,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:21:58.265557+00:00",
+  "updated_at": "2026-11-25T12:22:06.426713+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
