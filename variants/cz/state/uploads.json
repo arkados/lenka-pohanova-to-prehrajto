@@ -940766,12 +940766,6 @@
     },
     "1017:8:9": {
       "episode_key": "americký táta:s8:e9",
-      "claim": {
-        "worker_id": "028c6490ad3844369a502ecd8b30ec89-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T08:09:46.522049+00:00",
-        "lease_expires_at": "2026-11-25T14:09:46.522059+00:00"
-      },
       "source": {
         "source_id": "32633564",
         "source_url": "https://sdilej.cz/32633564/americky-tata-s08e09-travicka-zelena-cz-2011.mkv",
@@ -940796,22 +940790,29 @@
         "display_name": "American Dad! S08E09 Stanny Tendergrass 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:09:59.222923+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31363479",
-        "size_bytes": 601600074
-      },
-      "transfer_receipt": {
-        "target_video_id": "31363479",
-        "size_bytes": 601600074,
-        "source_bytes_read": 601600074,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31363479",
         "source_bytes_read": 601600074,
         "elapsed_seconds": 38.27,
         "finished_at": "2026-11-25T08:11:02.960336+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31363479",
+          "size_bytes": 601600074,
+          "source_bytes_read": 601600074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633564",
+        "source_url": "https://sdilej.cz/32633564/americky-tata-s08e09-travicka-zelena-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31363479",
+        "display_name": "American Dad! S08E09 Stanny Tendergrass 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:11:10.029146+00:00"
       }
     }
   },
@@ -940820,7 +940821,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:11:02.960358+00:00",
+  "updated_at": "2026-11-25T08:11:10.029164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
