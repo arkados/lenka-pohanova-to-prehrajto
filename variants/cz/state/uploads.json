@@ -942349,12 +942349,6 @@
     },
     "1017:10:11": {
       "episode_key": "americký táta:s10:e11",
-      "claim": {
-        "worker_id": "16465df4ff98406295cb00407f8d7030-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:27:25.993305+00:00",
-        "lease_expires_at": "2026-11-25T15:27:25.993317+00:00"
-      },
       "source": {
         "source_id": "32633760",
         "source_url": "https://sdilej.cz/32633760/americky-tata-s10e11-namesicnik-cz-2013.mkv",
@@ -942379,22 +942373,29 @@
         "display_name": "American Dad! S10E11 Cock of the Sleepwalk 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:27:46.077758+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31365433",
-        "size_bytes": 541562366
-      },
-      "transfer_receipt": {
-        "target_video_id": "31365433",
-        "size_bytes": 541562366,
-        "source_bytes_read": 541562366,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31365433",
         "source_bytes_read": 541562366,
         "elapsed_seconds": 46.163,
         "finished_at": "2026-11-25T09:29:16.388841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31365433",
+          "size_bytes": 541562366,
+          "source_bytes_read": 541562366,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633760",
+        "source_url": "https://sdilej.cz/32633760/americky-tata-s10e11-namesicnik-cz-2013.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31365433",
+        "display_name": "American Dad! S10E11 Cock of the Sleepwalk 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:29:36.397745+00:00"
       }
     }
   },
@@ -942403,7 +942404,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:29:30.258519+00:00",
+  "updated_at": "2026-11-25T09:29:36.397759+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
