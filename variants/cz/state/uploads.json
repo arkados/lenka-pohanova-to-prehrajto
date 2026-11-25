@@ -946449,12 +946449,6 @@
     },
     "83:1:6": {
       "episode_key": "sabrinina děsivá dobrodružství:s1:e6",
-      "claim": {
-        "worker_id": "6e4f0442f9484a148c4075fc82aa4f6d-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T13:35:43.378011+00:00",
-        "lease_expires_at": "2026-11-25T19:35:43.378025+00:00"
-      },
       "source": {
         "source_id": "12936976",
         "source_url": "https://sdilej.cz/12936976/chilling.adventures.of.sabrina.s01e06.1080p.cz.web.x265.mkv",
@@ -946479,22 +946473,29 @@
         "display_name": "Chilling Adventures of Sabrina S01E06 Chapter Six: An Exorcism in Greendale 1080p CZ Dabing",
         "prepared_at": "2026-11-25T13:35:49.983589+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31371730",
-        "size_bytes": 1269472690
-      },
-      "transfer_receipt": {
-        "target_video_id": "31371730",
-        "size_bytes": 1269472690,
-        "source_bytes_read": 1269472690,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31371730",
         "source_bytes_read": 1269472690,
         "elapsed_seconds": 77.655,
         "finished_at": "2026-11-25T13:37:42.590738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31371730",
+          "size_bytes": 1269472690,
+          "source_bytes_read": 1269472690,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12936976",
+        "source_url": "https://sdilej.cz/12936976/chilling.adventures.of.sabrina.s01e06.1080p.cz.web.x265.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31371730",
+        "display_name": "Chilling Adventures of Sabrina S01E06 Chapter Six: An Exorcism in Greendale 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T13:38:01.975821+00:00"
       }
     }
   },
@@ -946503,7 +946504,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T13:37:56.103068+00:00",
+  "updated_at": "2026-11-25T13:38:01.975840+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
