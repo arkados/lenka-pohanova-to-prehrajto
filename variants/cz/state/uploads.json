@@ -938273,12 +938273,6 @@
     },
     "1017:5:5": {
       "episode_key": "americký táta:s5:e5",
-      "claim": {
-        "worker_id": "5fe7ba710b234be0a431acabc54091c7-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:54:42.700540+00:00",
-        "lease_expires_at": "2026-11-25T12:54:42.700553+00:00"
-      },
       "source": {
         "source_id": "32611975",
         "source_url": "https://sdilej.cz/32611975/americky-tata-s05e05-utek-z-pearl-bailey-cz-2008.mkv",
@@ -938303,22 +938297,29 @@
         "display_name": "American Dad! S05E05 Escape from Pearl Bailey 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:54:57.738915+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361734",
-        "size_bytes": 534678399
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361734",
-        "size_bytes": 534678399,
-        "source_bytes_read": 534678399,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361734",
         "source_bytes_read": 534678399,
         "elapsed_seconds": 40.104,
         "finished_at": "2026-11-25T06:56:10.107512+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361734",
+          "size_bytes": 534678399,
+          "source_bytes_read": 534678399,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611975",
+        "source_url": "https://sdilej.cz/32611975/americky-tata-s05e05-utek-z-pearl-bailey-cz-2008.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361734",
+        "display_name": "American Dad! S05E05 Escape from Pearl Bailey 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:56:21.533444+00:00"
       }
     },
     "1017:5:6": {
@@ -938397,7 +938398,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:56:15.505478+00:00",
+  "updated_at": "2026-11-25T06:56:21.533459+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
