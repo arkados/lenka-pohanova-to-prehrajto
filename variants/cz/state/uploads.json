@@ -938591,12 +938591,6 @@
     },
     "1017:5:12": {
       "episode_key": "americký táta:s5:e12",
-      "claim": {
-        "worker_id": "d126c9eaa5c64aac9c1bb075f77cd011-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:59:54.826197+00:00",
-        "lease_expires_at": "2026-11-25T12:59:54.826208+00:00"
-      },
       "source": {
         "source_id": "32612015",
         "source_url": "https://sdilej.cz/32612015/americky-tata-s05e12-odplata-cz-2008.mkv",
@@ -938621,22 +938615,29 @@
         "display_name": "American Dad! S05E12 Roy Rogers McFreely 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:00:01.122048+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361849",
-        "size_bytes": 539165227
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361849",
-        "size_bytes": 539165227,
-        "source_bytes_read": 539165227,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361849",
         "source_bytes_read": 539165227,
         "elapsed_seconds": 37.679,
         "finished_at": "2026-11-25T07:01:05.995737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361849",
+          "size_bytes": 539165227,
+          "source_bytes_read": 539165227,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32612015",
+        "source_url": "https://sdilej.cz/32612015/americky-tata-s05e12-odplata-cz-2008.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361849",
+        "display_name": "American Dad! S05E12 Roy Rogers McFreely 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:01:26.094249+00:00"
       }
     }
   },
@@ -938645,7 +938646,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:01:18.719466+00:00",
+  "updated_at": "2026-11-25T07:01:26.094277+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
