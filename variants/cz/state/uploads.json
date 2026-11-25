@@ -942847,12 +942847,6 @@
     },
     "1017:18:3": {
       "episode_key": "americký táta:s18:e3",
-      "claim": {
-        "worker_id": "bc17968e28714e75a265b0fd9b3b2b93-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T10:00:39.101639+00:00",
-        "lease_expires_at": "2026-11-25T16:00:39.101652+00:00"
-      },
       "source": {
         "source_id": "34772074",
         "source_url": "https://sdilej.cz/34772074/americky-tata-s18e03-fischerova-kniha-cz-dabing-2022-.mkv",
@@ -942877,22 +942871,29 @@
         "display_name": "American Dad! S18E03 Stan Moves to Chicago 1080p CZ Dabing",
         "prepared_at": "2026-11-25T10:01:01.459770+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31366107",
-        "size_bytes": 629373345
-      },
-      "transfer_receipt": {
-        "target_video_id": "31366107",
-        "size_bytes": 629373345,
-        "source_bytes_read": 629373345,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31366107",
         "source_bytes_read": 629373345,
         "elapsed_seconds": 53.67,
         "finished_at": "2026-11-25T10:02:39.381837+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31366107",
+          "size_bytes": 629373345,
+          "source_bytes_read": 629373345,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772074",
+        "source_url": "https://sdilej.cz/34772074/americky-tata-s18e03-fischerova-kniha-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31366107",
+        "display_name": "American Dad! S18E03 Stan Moves to Chicago 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T10:02:58.573991+00:00"
       }
     },
     "1017:18:4": {
@@ -942938,7 +942939,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T10:02:46.824833+00:00",
+  "updated_at": "2026-11-25T10:02:58.574005+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
