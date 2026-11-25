@@ -943204,12 +943204,6 @@
     },
     "1017:18:14": {
       "episode_key": "americký táta:s18:e14",
-      "claim": {
-        "worker_id": "394b65ed61d14711a5f108766a2422e8-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T10:11:04.239162+00:00",
-        "lease_expires_at": "2026-11-25T16:11:04.239174+00:00"
-      },
       "source": {
         "source_id": "34772176",
         "source_url": "https://sdilej.cz/34772176/americky-tata-s18e14-vetche-vitezstvi-cz-dabing-2022-.mkv",
@@ -943234,22 +943228,29 @@
         "display_name": "American Dad! S18E14 Flush After Reading 1080p CZ Dabing",
         "prepared_at": "2026-11-25T10:11:24.276581+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31366399",
-        "size_bytes": 619104481
-      },
-      "transfer_receipt": {
-        "target_video_id": "31366399",
-        "size_bytes": 619104481,
-        "source_bytes_read": 619104481,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31366399",
         "source_bytes_read": 619104481,
         "elapsed_seconds": 53.095,
         "finished_at": "2026-11-25T10:12:51.982487+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31366399",
+          "size_bytes": 619104481,
+          "source_bytes_read": 619104481,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772176",
+        "source_url": "https://sdilej.cz/34772176/americky-tata-s18e14-vetche-vitezstvi-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31366399",
+        "display_name": "American Dad! S18E14 Flush After Reading 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T10:13:10.866615+00:00"
       }
     },
     "1017:18:15": {
@@ -943331,7 +943332,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T10:12:59.168974+00:00",
+  "updated_at": "2026-11-25T10:13:10.866630+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
