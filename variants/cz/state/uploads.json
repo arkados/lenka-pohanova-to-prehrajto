@@ -932166,12 +932166,6 @@
     },
     "1556:5:3": {
       "episode_key": "zákon gangu: mayové:s5:e3",
-      "claim": {
-        "worker_id": "dbae60abfde84448a3e244088e43c032-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T03:05:08.953217+00:00",
-        "lease_expires_at": "2026-11-25T09:05:08.953232+00:00"
-      },
       "source": {
         "source_id": "27780682",
         "source_url": "https://sdilej.cz/27780682/zakon-gangu-mayove-s05e03-cz-dabing.mkv",
@@ -932196,22 +932190,29 @@
         "display_name": "Mayans M.C. S05E03 Do You Hear the Rain 1080p CZ Dabing",
         "prepared_at": "2026-11-25T03:05:15.243245+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31357173",
-        "size_bytes": 3545771142
-      },
-      "transfer_receipt": {
-        "target_video_id": "31357173",
-        "size_bytes": 3545771142,
-        "source_bytes_read": 3545771142,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31357173",
         "source_bytes_read": 3545771142,
         "elapsed_seconds": 279.908,
         "finished_at": "2026-11-25T03:10:23.363324+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31357173",
+          "size_bytes": 3545771142,
+          "source_bytes_read": 3545771142,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27780682",
+        "source_url": "https://sdilej.cz/27780682/zakon-gangu-mayove-s05e03-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31357173",
+        "display_name": "Mayans M.C. S05E03 Do You Hear the Rain 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T03:10:31.843982+00:00"
       }
     },
     "1556:5:4": {
@@ -932359,7 +932360,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T03:10:23.363346+00:00",
+  "updated_at": "2026-11-25T03:10:31.843999+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
