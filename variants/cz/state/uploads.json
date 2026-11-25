@@ -937555,12 +937555,6 @@
     },
     "1017:4:4": {
       "episode_key": "americký táta:s4:e4",
-      "claim": {
-        "worker_id": "3944795c02f3439ea2f9bb9476322818-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:17:29.109288+00:00",
-        "lease_expires_at": "2026-11-25T12:17:29.109299+00:00"
-      },
       "source": {
         "source_id": "32611827",
         "source_url": "https://sdilej.cz/32611827/americky-tata-s04e04-velke-trable-v-little-langley-cz-2007.mkv",
@@ -937585,22 +937579,29 @@
         "display_name": "American Dad! S04E04 Big Trouble in Little Langley 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:17:46.959826+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361024",
-        "size_bytes": 604910561
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361024",
-        "size_bytes": 604910561,
-        "source_bytes_read": 604910561,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361024",
         "source_bytes_read": 604910561,
         "elapsed_seconds": 46.65,
         "finished_at": "2026-11-25T06:19:11.070387+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361024",
+          "size_bytes": 604910561,
+          "source_bytes_read": 604910561,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611827",
+        "source_url": "https://sdilej.cz/32611827/americky-tata-s04e04-velke-trable-v-little-langley-cz-2007.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361024",
+        "display_name": "American Dad! S04E04 Big Trouble in Little Langley 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:19:35.486536+00:00"
       }
     },
     "1017:4:5": {
@@ -937678,7 +937679,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:19:29.459657+00:00",
+  "updated_at": "2026-11-25T06:19:35.486551+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
