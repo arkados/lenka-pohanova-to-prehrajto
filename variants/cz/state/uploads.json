@@ -928699,12 +928699,6 @@
     },
     "610:2:1": {
       "episode_key": "noční agent:s2:e1",
-      "claim": {
-        "worker_id": "6bb0c1c23ec1473585205d24de5bbfe8-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:38:31.501256+00:00",
-        "lease_expires_at": "2026-11-25T06:38:31.501278+00:00"
-      },
       "source": {
         "source_id": "34451851",
         "source_url": "https://sdilej.cz/34451851/nocni-agent-s02e01.cz.mkv",
@@ -928729,22 +928723,29 @@
         "display_name": "The Night Agent S02E01 Call Tracking 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:38:58.301026+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31354413",
-        "size_bytes": 1138255765
-      },
-      "transfer_receipt": {
-        "target_video_id": "31354413",
-        "size_bytes": 1138255765,
-        "source_bytes_read": 1138255765,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31354413",
         "source_bytes_read": 1138255765,
         "elapsed_seconds": 65.908,
         "finished_at": "2026-11-25T00:40:36.278135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31354413",
+          "size_bytes": 1138255765,
+          "source_bytes_read": 1138255765,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34451851",
+        "source_url": "https://sdilej.cz/34451851/nocni-agent-s02e01.cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31354413",
+        "display_name": "The Night Agent S02E01 Call Tracking 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:40:54.984511+00:00"
       }
     },
     "610:2:2": {
@@ -928826,7 +928827,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:40:48.291584+00:00",
+  "updated_at": "2026-11-25T00:40:54.984530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
