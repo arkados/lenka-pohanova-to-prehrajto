@@ -948990,12 +948990,6 @@
     },
     "575:1:1": {
       "episode_key": "stoupenci zla:s1:e1",
-      "claim": {
-        "worker_id": "cafa0566431b4ff9b9416fc9f3c2e100-worker-0",
-        "run_id": "45617814512",
-        "claimed_at": "2026-11-25T15:58:02.416552+00:00",
-        "lease_expires_at": "2026-11-25T21:58:02.416562+00:00"
-      },
       "source": {
         "source_id": "12114839",
         "source_url": "https://sdilej.cz/12114839/stoupenci-zla-cz-s01e01.avi",
@@ -949020,22 +949014,29 @@
         "display_name": "The Following S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-25T15:58:25.580867+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31374212",
-        "size_bytes": 593848426
-      },
-      "transfer_receipt": {
-        "target_video_id": "31374212",
-        "size_bytes": 593848426,
-        "source_bytes_read": 593848426,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31374212",
         "source_bytes_read": 593848426,
         "elapsed_seconds": 47.165,
         "finished_at": "2026-11-25T16:00:19.746188+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31374212",
+          "size_bytes": 593848426,
+          "source_bytes_read": 593848426,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12114839",
+        "source_url": "https://sdilej.cz/12114839/stoupenci-zla-cz-s01e01.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31374212",
+        "display_name": "The Following S01E01 Pilot SD CZ Dabing",
+        "uploaded_at": "2026-11-25T16:00:40.985343+00:00"
       }
     },
     "575:1:2": {
@@ -949094,7 +949095,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T16:00:34.889957+00:00",
+  "updated_at": "2026-11-25T16:00:40.985361+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
