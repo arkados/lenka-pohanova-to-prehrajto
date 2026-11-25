@@ -914798,28 +914798,29 @@
           "at": "2026-11-25T02:42:52.627574+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "d35ed9037a6140378963055d31554c6f-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:42:58.128413+00:00",
-        "lease_expires_at": "2026-11-25T08:42:58.128427+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356790",
-        "size_bytes": 1758088386
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356790",
-        "size_bytes": 1758088386,
-        "source_bytes_read": 1758088386,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356790",
         "source_bytes_read": 1758088386,
         "elapsed_seconds": 189.121,
         "finished_at": "2026-11-25T02:46:35.004404+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356790",
+          "size_bytes": 1758088386,
+          "source_bytes_read": 1758088386,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31643495",
+        "source_url": "https://sdilej.cz/31643495/zakon-gangu-mayove-2021-s03e05-czdab-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356790",
+        "display_name": "Mayans M.C. S03E05 Dark, Deep-Laid Plans 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:46:43.276009+00:00"
       }
     },
     "669:1:4": {
@@ -931622,7 +931623,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:46:35.004423+00:00",
+  "updated_at": "2026-11-25T02:46:43.276026+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
