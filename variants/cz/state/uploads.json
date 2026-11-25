@@ -928275,12 +928275,6 @@
     },
     "610:1:7": {
       "episode_key": "noční agent:s1:e7",
-      "claim": {
-        "worker_id": "1050e060f7a14725b9789401d35af4dc-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:03:46.458899+00:00",
-        "lease_expires_at": "2026-11-25T06:03:46.458915+00:00"
-      },
       "source": {
         "source_id": "25533812",
         "source_url": "https://sdilej.cz/25533812/nocni-agent-the-night-agent-s01e07-cz-dabing-2023.mkv",
@@ -928305,22 +928299,29 @@
         "display_name": "The Night Agent S01E07 Best Served Cold 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:04:00.287893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353782",
-        "size_bytes": 552220717
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353782",
-        "size_bytes": 552220717,
-        "source_bytes_read": 552220717,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353782",
         "source_bytes_read": 552220717,
         "elapsed_seconds": 38.981,
         "finished_at": "2026-11-25T00:05:19.634263+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353782",
+          "size_bytes": 552220717,
+          "source_bytes_read": 552220717,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25533812",
+        "source_url": "https://sdilej.cz/25533812/nocni-agent-the-night-agent-s01e07-cz-dabing-2023.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353782",
+        "display_name": "The Night Agent S01E07 Best Served Cold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:05:32.353105+00:00"
       }
     }
   },
@@ -928329,7 +928330,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:05:26.281044+00:00",
+  "updated_at": "2026-11-25T00:05:32.353119+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
