@@ -947141,12 +947141,6 @@
     },
     "83:2:9": {
       "episode_key": "sabrinina děsivá dobrodružství:s2:e9",
-      "claim": {
-        "worker_id": "4dc1d830c8234979a70cdc73737d3c7a-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T14:07:02.220804+00:00",
-        "lease_expires_at": "2026-11-25T20:07:02.220821+00:00"
-      },
       "source": {
         "source_id": "34022570",
         "source_url": "https://sdilej.cz/34022570/sabrinina-desiva-dobrodruzstvi-s02e09-cz.mkv",
@@ -947170,7 +947164,17 @@
         },
         "display_name": "Chilling Adventures of Sabrina S02E09 Chapter Twenty-Nine: The Eldritch Dark 1080p CZ Dabing",
         "prepared_at": "2026-11-25T14:07:15.834616+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34022570:https://sdilej.cz/34022570/sabrinina-desiva-dobrodruzstvi-s02e09-cz.mkv",
+        "at": "2026-11-25T14:07:32.454243+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T14:07:32.454271+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -947178,7 +947182,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T14:07:15.834634+00:00",
+  "updated_at": "2026-11-25T14:07:32.454275+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -948144,6 +948148,14 @@
         }
       ],
       "retry_after": "2026-11-25T14:13:37.590496+00:00"
+    },
+    "83": {
+      "recent_failures": [
+        {
+          "identity": "83:2:9",
+          "at": "2026-11-25T14:07:32.454243+00:00"
+        }
+      ]
     }
   }
 }
