@@ -942489,12 +942489,6 @@
     },
     "1017:10:14": {
       "episode_key": "americký táta:s10:e14",
-      "claim": {
-        "worker_id": "64e4b08637724d4794da1cc9244848a1-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:41:26.011120+00:00",
-        "lease_expires_at": "2026-11-25T15:41:26.011134+00:00"
-      },
       "source": {
         "source_id": "32633781",
         "source_url": "https://sdilej.cz/32633781/americky-tata-s10e14-stan-a-pilulka-cz-2013.mkv",
@@ -942519,22 +942513,29 @@
         "display_name": "American Dad! S10E14 Stan Goes on the Pill 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:41:47.032785+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31365780",
-        "size_bytes": 551851505
-      },
-      "transfer_receipt": {
-        "target_video_id": "31365780",
-        "size_bytes": 551851505,
-        "source_bytes_read": 551851505,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31365780",
         "source_bytes_read": 551851505,
         "elapsed_seconds": 45.32,
         "finished_at": "2026-11-25T09:43:13.466957+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31365780",
+          "size_bytes": 551851505,
+          "source_bytes_read": 551851505,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633781",
+        "source_url": "https://sdilej.cz/32633781/americky-tata-s10e14-stan-a-pilulka-cz-2013.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31365780",
+        "display_name": "American Dad! S10E14 Stan Goes on the Pill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:43:30.258138+00:00"
       }
     }
   },
@@ -942543,7 +942544,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:43:20.830028+00:00",
+  "updated_at": "2026-11-25T09:43:30.258153+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
