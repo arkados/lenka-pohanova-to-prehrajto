@@ -936888,12 +936888,6 @@
     },
     "1017:3:1": {
       "episode_key": "americký táta:s3:e1",
-      "claim": {
-        "worker_id": "1c73576812254f62932c49d27b3b7bb9-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:59:23.534330+00:00",
-        "lease_expires_at": "2026-11-25T11:59:23.534345+00:00"
-      },
       "source": {
         "source_id": "32611787",
         "source_url": "https://sdilej.cz/32611787/americky-tata-s03e01-uprchlicky-tabor-cz-2006.mkv",
@@ -936918,22 +936912,29 @@
         "display_name": "American Dad! S03E01 Camp Refoogee 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:59:51.227004+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360399",
-        "size_bytes": 649496314
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360399",
-        "size_bytes": 649496314,
-        "source_bytes_read": 649496314,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360399",
         "source_bytes_read": 649496314,
         "elapsed_seconds": 33.912,
         "finished_at": "2026-11-25T06:01:02.791672+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360399",
+          "size_bytes": 649496314,
+          "source_bytes_read": 649496314,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611787",
+        "source_url": "https://sdilej.cz/32611787/americky-tata-s03e01-uprchlicky-tabor-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360399",
+        "display_name": "American Dad! S03E01 Camp Refoogee 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:01:16.964857+00:00"
       }
     },
     "1017:3:3": {
@@ -937029,7 +937030,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:01:10.686978+00:00",
+  "updated_at": "2026-11-25T06:01:16.964875+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
