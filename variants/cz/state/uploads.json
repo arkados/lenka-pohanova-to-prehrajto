@@ -944608,12 +944608,6 @@
     },
     "9717:2:6": {
       "episode_key": "gumídci:s2:e6",
-      "claim": {
-        "worker_id": "15ce46473f0649d6b3b43287a6cb8241-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:23:46.829461+00:00",
-        "lease_expires_at": "2026-11-25T18:23:46.829475+00:00"
-      },
       "source": {
         "source_id": "33743272",
         "source_url": "https://sdilej.cz/33743272/gumidci-s02e06-019-1986-fhd-na-koho-to-kouzlo-plati-s-.mp4",
@@ -944638,22 +944632,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S02E06 The Crimson Avenger 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:23:58.178109+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31369598",
-        "size_bytes": 481827711
-      },
-      "transfer_receipt": {
-        "target_video_id": "31369598",
-        "size_bytes": 481827711,
-        "source_bytes_read": 481827711,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31369598",
         "source_bytes_read": 481827711,
         "elapsed_seconds": 33.077,
         "finished_at": "2026-11-25T12:25:01.798520+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31369598",
+          "size_bytes": 481827711,
+          "source_bytes_read": 481827711,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743272",
+        "source_url": "https://sdilej.cz/33743272/gumidci-s02e06-019-1986-fhd-na-koho-to-kouzlo-plati-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31369598",
+        "display_name": "Disney's Adventures of the Gummi Bears S02E06 The Crimson Avenger 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:25:14.104248+00:00"
       }
     }
   },
@@ -944662,7 +944663,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:25:08.382629+00:00",
+  "updated_at": "2026-11-25T12:25:14.104262+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
