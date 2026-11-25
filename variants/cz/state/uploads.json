@@ -930951,12 +930951,6 @@
     },
     "9710:1:19": {
       "episode_key": "lego ninjago: dračí povstání:s1:e19",
-      "claim": {
-        "worker_id": "f6f6026a3c8643548de472ab8c871aaf-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:00:31.391049+00:00",
-        "lease_expires_at": "2026-11-25T08:00:31.391061+00:00"
-      },
       "source": {
         "source_id": "32152604",
         "source_url": "https://sdilej.cz/32152604/lego-ninjago-draci-povstani-s01e19-vsichni-jsme-draci-1080p-nf-web-dl-cz-dab.mkv",
@@ -930980,7 +930974,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E19 We Are All Dragons 1080p CZ Dabing",
         "prepared_at": "2026-11-25T02:00:39.519505+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152604:https://sdilej.cz/32152604/lego-ninjago-draci-povstani-s01e19-vsichni-jsme-draci-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-25T02:00:57.588021+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T02:00:57.588055+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -930988,7 +930992,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:00:51.679314+00:00",
+  "updated_at": "2026-11-25T02:00:57.588060+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -931892,6 +931896,10 @@
         {
           "identity": "9710:1:18",
           "at": "2026-11-25T02:00:04.838752+00:00"
+        },
+        {
+          "identity": "9710:1:19",
+          "at": "2026-11-25T02:00:57.588021+00:00"
         }
       ],
       "retry_after": "2026-11-25T01:58:59.938807+00:00"
