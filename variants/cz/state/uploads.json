@@ -947368,12 +947368,6 @@
     },
     "537:1:4": {
       "episode_key": "mělas to vědět:s1:e4",
-      "claim": {
-        "worker_id": "c98962b247ed4ee1933b0c4d82574252-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T14:22:51.841447+00:00",
-        "lease_expires_at": "2026-11-25T20:22:51.841465+00:00"
-      },
       "source": {
         "source_id": "34060163",
         "source_url": "https://sdilej.cz/34060163/melas-to-vedet-s01e04-cz-dabing-1080p-full-hd.mkv",
@@ -947397,7 +947391,17 @@
         },
         "display_name": "The Undoing S01E04 See No Evil 1080p CZ Dabing",
         "prepared_at": "2026-11-25T14:22:58.724747+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34060163:https://sdilej.cz/34060163/melas-to-vedet-s01e04-cz-dabing-1080p-full-hd.mkv",
+        "at": "2026-11-25T14:23:17.235482+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T14:23:17.235510+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -947405,7 +947409,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T14:23:11.354381+00:00",
+  "updated_at": "2026-11-25T14:23:17.235516+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -948377,6 +948381,14 @@
         {
           "identity": "83:2:9",
           "at": "2026-11-25T14:07:32.454243+00:00"
+        }
+      ]
+    },
+    "537": {
+      "recent_failures": [
+        {
+          "identity": "537:1:4",
+          "at": "2026-11-25T14:23:17.235482+00:00"
         }
       ]
     }
