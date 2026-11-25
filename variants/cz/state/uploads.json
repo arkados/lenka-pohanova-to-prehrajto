@@ -934062,12 +934062,6 @@
     },
     "244:2:3": {
       "episode_key": "proč? 13x proto:s2:e3",
-      "claim": {
-        "worker_id": "f020d6da00434ddaad66d9d1305685e6-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T04:11:34.806381+00:00",
-        "lease_expires_at": "2026-11-25T10:11:34.806393+00:00"
-      },
       "source": {
         "source_id": "32963905",
         "source_url": "https://sdilej.cz/32963905/proc-13x-proto-s02e03-cz-dabing-1080p.mkv",
@@ -934091,7 +934085,17 @@
         },
         "display_name": "13 Reasons Why S02E03 The Drunk Slut 1080p CZ Dabing",
         "prepared_at": "2026-11-25T04:11:45.574945+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32963905:https://sdilej.cz/32963905/proc-13x-proto-s02e03-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T04:12:02.154648+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T04:12:02.154683+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -934099,7 +934103,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T04:11:56.593359+00:00",
+  "updated_at": "2026-11-25T04:12:02.154688+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -935012,6 +935016,10 @@
         {
           "identity": "244:2:2",
           "at": "2026-11-25T04:11:01.110580+00:00"
+        },
+        {
+          "identity": "244:2:3",
+          "at": "2026-11-25T04:12:02.154648+00:00"
         }
       ],
       "retry_after": "2026-11-25T04:09:49.298968+00:00"
