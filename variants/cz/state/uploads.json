@@ -936990,12 +936990,6 @@
     },
     "1017:3:6": {
       "episode_key": "americký táta:s3:e6",
-      "claim": {
-        "worker_id": "d91b6e58da384a7d91357a6ef0259f55-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:00:08.634323+00:00",
-        "lease_expires_at": "2026-11-25T12:00:08.634344+00:00"
-      },
       "source": {
         "source_id": "32611795",
         "source_url": "https://sdilej.cz/32611795/americky-tata-s03e06-syndrom-prazdneho-hnizda-cz-2006.mkv",
@@ -937020,22 +937014,29 @@
         "display_name": "American Dad! S03E06 Iced, Iced Babies 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:00:26.960811+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360419",
-        "size_bytes": 644958608
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360419",
-        "size_bytes": 644958608,
-        "source_bytes_read": 644958608,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360419",
         "source_bytes_read": 644958608,
         "elapsed_seconds": 36.269,
         "finished_at": "2026-11-25T06:01:30.874434+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360419",
+          "size_bytes": 644958608,
+          "source_bytes_read": 644958608,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611795",
+        "source_url": "https://sdilej.cz/32611795/americky-tata-s03e06-syndrom-prazdneho-hnizda-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360419",
+        "display_name": "American Dad! S03E06 Iced, Iced Babies 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:01:44.362938+00:00"
       }
     },
     "1017:3:7": {
@@ -937053,7 +937054,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:01:38.479406+00:00",
+  "updated_at": "2026-11-25T06:01:44.362954+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
