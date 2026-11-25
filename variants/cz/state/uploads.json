@@ -941776,12 +941776,6 @@
     },
     "1017:9:12": {
       "episode_key": "americký táta:s9:e12",
-      "claim": {
-        "worker_id": "bbfe5cf1b0eb4b169d99be6ff1dc35d7-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:07:02.893127+00:00",
-        "lease_expires_at": "2026-11-25T15:07:02.893137+00:00"
-      },
       "source": {
         "source_id": "32633670",
         "source_url": "https://sdilej.cz/32633670/americky-tata-s09e12-naha-mile-cz-2012.mkv",
@@ -941806,22 +941800,29 @@
         "display_name": "American Dad! S09E12 Naked to the Limit, One More Time 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:07:10.472330+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31364952",
-        "size_bytes": 594596315
-      },
-      "transfer_receipt": {
-        "target_video_id": "31364952",
-        "size_bytes": 594596315,
-        "source_bytes_read": 594596315,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31364952",
         "source_bytes_read": 594596315,
         "elapsed_seconds": 44.371,
         "finished_at": "2026-11-25T09:08:47.975651+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31364952",
+          "size_bytes": 594596315,
+          "source_bytes_read": 594596315,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633670",
+        "source_url": "https://sdilej.cz/32633670/americky-tata-s09e12-naha-mile-cz-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31364952",
+        "display_name": "American Dad! S09E12 Naked to the Limit, One More Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:08:57.311911+00:00"
       }
     },
     "1017:9:15": {
@@ -941867,7 +941868,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:08:47.975668+00:00",
+  "updated_at": "2026-11-25T09:08:57.311925+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
