@@ -940358,12 +940358,6 @@
     },
     "1017:7:19": {
       "episode_key": "americký táta:s7:e19",
-      "claim": {
-        "worker_id": "8fb649164321412aa26b6a3993685e33-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T08:02:28.262962+00:00",
-        "lease_expires_at": "2026-11-25T14:02:28.262977+00:00"
-      },
       "source": {
         "source_id": "32633523",
         "source_url": "https://sdilej.cz/32633523/americky-tata-s07e19-gorili-vybeh-cz-2010.mkv",
@@ -940388,22 +940382,29 @@
         "display_name": "American Dad! S07E19 Gorillas in the Mist 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:02:35.661731+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31363250",
-        "size_bytes": 622419089
-      },
-      "transfer_receipt": {
-        "target_video_id": "31363250",
-        "size_bytes": 622419089,
-        "source_bytes_read": 622419089,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31363250",
         "source_bytes_read": 622419089,
         "elapsed_seconds": 45.038,
         "finished_at": "2026-11-25T08:03:52.843305+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31363250",
+          "size_bytes": 622419089,
+          "source_bytes_read": 622419089,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633523",
+        "source_url": "https://sdilej.cz/32633523/americky-tata-s07e19-gorili-vybeh-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31363250",
+        "display_name": "American Dad! S07E19 Gorillas in the Mist 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:04:12.041375+00:00"
       }
     },
     "1017:8:1": {
@@ -940445,7 +940446,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:04:04.758116+00:00",
+  "updated_at": "2026-11-25T08:04:12.041393+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
