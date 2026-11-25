@@ -930153,12 +930153,6 @@
     },
     "610:3:10": {
       "episode_key": "noční agent:s3:e10",
-      "claim": {
-        "worker_id": "7ee23f7c13a24c6fa5352a1648c33764-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T01:37:18.588777+00:00",
-        "lease_expires_at": "2026-11-25T07:37:18.588788+00:00"
-      },
       "source": {
         "source_id": "33324149",
         "source_url": "https://sdilej.cz/33324149/nocni-agent-s03e10-1080p-cz-smrst.mkv",
@@ -930183,22 +930177,29 @@
         "display_name": "The Night Agent S03E10 Razzmatazz 1080p CZ Dabing",
         "prepared_at": "2026-11-25T01:37:30.744358+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31355484",
-        "size_bytes": 406998401
-      },
-      "transfer_receipt": {
-        "target_video_id": "31355484",
-        "size_bytes": 406998401,
-        "source_bytes_read": 406998401,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31355484",
         "source_bytes_read": 406998401,
         "elapsed_seconds": 34.543,
         "finished_at": "2026-11-25T01:38:35.019961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31355484",
+          "size_bytes": 406998401,
+          "source_bytes_read": 406998401,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33324149",
+        "source_url": "https://sdilej.cz/33324149/nocni-agent-s03e10-1080p-cz-smrst.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31355484",
+        "display_name": "The Night Agent S03E10 Razzmatazz 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T01:38:51.567476+00:00"
       }
     }
   },
@@ -930207,7 +930208,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T01:38:45.817013+00:00",
+  "updated_at": "2026-11-25T01:38:51.567492+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
