@@ -945491,12 +945491,6 @@
     },
     "9717:6:12": {
       "episode_key": "gumídci:s6:e12",
-      "claim": {
-        "worker_id": "acd6a56b06f34077926af59dde7b0800-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:50:50.128082+00:00",
-        "lease_expires_at": "2026-11-25T18:50:50.128100+00:00"
-      },
       "source": {
         "source_id": "33743439",
         "source_url": "https://sdilej.cz/33743439/gumidci-s06e12-060-1990-fhd-kral-ignor-i.-s-.mp4",
@@ -945521,22 +945515,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S06E12 King Igthorn (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:51:21.543614+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31370294",
-        "size_bytes": 478507611
-      },
-      "transfer_receipt": {
-        "target_video_id": "31370294",
-        "size_bytes": 478507611,
-        "source_bytes_read": 478507611,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31370294",
         "source_bytes_read": 478507611,
         "elapsed_seconds": 34.428,
         "finished_at": "2026-11-25T12:52:23.404625+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31370294",
+          "size_bytes": 478507611,
+          "source_bytes_read": 478507611,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743439",
+        "source_url": "https://sdilej.cz/33743439/gumidci-s06e12-060-1990-fhd-kral-ignor-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31370294",
+        "display_name": "Disney's Adventures of the Gummi Bears S06E12 King Igthorn (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:52:37.488529+00:00"
       }
     },
     "9717:6:13": {
@@ -945633,7 +945634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:52:31.961884+00:00",
+  "updated_at": "2026-11-25T12:52:37.488544+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
