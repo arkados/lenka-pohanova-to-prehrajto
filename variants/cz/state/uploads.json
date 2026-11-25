@@ -940307,12 +940307,6 @@
     },
     "1017:7:17": {
       "episode_key": "americký táta:s7:e17",
-      "claim": {
-        "worker_id": "23255470f57646759fb5050b90cd7931-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T08:01:32.022125+00:00",
-        "lease_expires_at": "2026-11-25T14:01:32.022137+00:00"
-      },
       "source": {
         "source_id": "32633515",
         "source_url": "https://sdilej.cz/32633515/americky-tata-s07e17-to-je-moje-pulka-cz-2010.mkv",
@@ -940337,22 +940331,29 @@
         "display_name": "American Dad! S07E17 Home Wrecker 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:01:50.114098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31363225",
-        "size_bytes": 564598291
-      },
-      "transfer_receipt": {
-        "target_video_id": "31363225",
-        "size_bytes": 564598291,
-        "source_bytes_read": 564598291,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31363225",
         "source_bytes_read": 564598291,
         "elapsed_seconds": 47.495,
         "finished_at": "2026-11-25T08:03:17.344690+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31363225",
+          "size_bytes": 564598291,
+          "source_bytes_read": 564598291,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633515",
+        "source_url": "https://sdilej.cz/32633515/americky-tata-s07e17-to-je-moje-pulka-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31363225",
+        "display_name": "American Dad! S07E17 Home Wrecker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:03:27.270650+00:00"
       }
     },
     "1017:7:19": {
@@ -940398,7 +940399,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:03:17.344712+00:00",
+  "updated_at": "2026-11-25T08:03:27.270667+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
