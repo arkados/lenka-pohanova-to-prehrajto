@@ -944455,12 +944455,6 @@
     },
     "4234:1:4": {
       "episode_key": "toxické město:s1:e4",
-      "claim": {
-        "worker_id": "7ce21f56dc4149b484db72ce8641f117-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:19:56.007008+00:00",
-        "lease_expires_at": "2026-11-25T18:19:56.007022+00:00"
-      },
       "source": {
         "source_id": "30717657",
         "source_url": "https://sdilej.cz/30717657/toxicke-mesto-2025-s01e04-cz-dabing.mkv",
@@ -944485,22 +944479,29 @@
         "display_name": "Toxic Town S01E04 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:20:13.539503+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31369448",
-        "size_bytes": 3478650284
-      },
-      "transfer_receipt": {
-        "target_video_id": "31369448",
-        "size_bytes": 3478650284,
-        "source_bytes_read": 3478650284,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31369448",
         "source_bytes_read": 3478650284,
         "elapsed_seconds": 220.33,
         "finished_at": "2026-11-25T12:24:24.523637+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31369448",
+          "size_bytes": 3478650284,
+          "source_bytes_read": 3478650284,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30717657",
+        "source_url": "https://sdilej.cz/30717657/toxicke-mesto-2025-s01e04-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31369448",
+        "display_name": "Toxic Town S01E04 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:24:41.628397+00:00"
       }
     },
     "9717:1:3": {
@@ -944648,7 +944649,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:24:36.153344+00:00",
+  "updated_at": "2026-11-25T12:24:41.628413+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
