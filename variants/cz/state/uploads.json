@@ -924123,28 +924123,29 @@
           "at": "2026-11-25T21:36:04.389979+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c5de08ce0b65469c91c7460d1fd9784f-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T21:36:10.708843+00:00",
-        "lease_expires_at": "2026-11-26T03:36:10.708855+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31383281",
-        "size_bytes": 1096181609
-      },
-      "transfer_receipt": {
-        "target_video_id": "31383281",
-        "size_bytes": 1096181609,
-        "source_bytes_read": 1096181609,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31383281",
         "source_bytes_read": 1096181609,
         "elapsed_seconds": 84.332,
         "finished_at": "2026-11-25T21:38:29.916449+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31383281",
+          "size_bytes": 1096181609,
+          "source_bytes_read": 1096181609,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34883804",
+        "source_url": "https://sdilej.cz/34883804/ride-or-die-s01e08-hdr10-4k-cz-dabing-1-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31383281",
+        "display_name": "Ride or Die S01E08 The Song of Deborah 1440p CZ Dabing",
+        "uploaded_at": "2026-11-25T21:38:39.408198+00:00"
       }
     },
     "239:1:1": {
@@ -949729,7 +949730,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T21:38:29.916467+00:00",
+  "updated_at": "2026-11-25T21:38:39.408214+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
