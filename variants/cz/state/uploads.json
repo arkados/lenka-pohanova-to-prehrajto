@@ -929902,12 +929902,6 @@
     },
     "244:2:1": {
       "episode_key": "proč? 13x proto:s2:e1",
-      "claim": {
-        "worker_id": "ca4ca486e9fc404e81e04d5c773e83ee-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T01:04:54.483958+00:00",
-        "lease_expires_at": "2026-11-25T07:04:54.483972+00:00"
-      },
       "source": {
         "source_id": "32963831",
         "source_url": "https://sdilej.cz/32963831/proc-13x-proto-s02e01-cz-dabing-1080p.mkv",
@@ -929931,7 +929925,17 @@
         },
         "display_name": "13 Reasons Why S02E01 The First Polaroid 1080p CZ Dabing",
         "prepared_at": "2026-11-25T01:05:18.522167+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32963831:https://sdilej.cz/32963831/proc-13x-proto-s02e01-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T01:05:37.182999+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T01:05:37.183071+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "244:2:2": {
       "episode_key": "proč? 13x proto:s2:e2",
@@ -929972,7 +929976,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T01:05:28.523144+00:00",
+  "updated_at": "2026-11-25T01:05:37.183079+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -930893,9 +930897,13 @@
         {
           "identity": "244:1:12",
           "at": "2026-11-25T01:04:41.449813+00:00"
+        },
+        {
+          "identity": "244:2:1",
+          "at": "2026-11-25T01:05:37.182999+00:00"
         }
       ],
-      "retry_after": "2026-11-25T01:02:06.085002+00:00"
+      "retry_after": "2026-11-25T01:15:37.182999+00:00"
     },
     "610": {
       "recent_failures": [
