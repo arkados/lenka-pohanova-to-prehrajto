@@ -936547,12 +936547,6 @@
     },
     "266:1:8": {
       "episode_key": "záhadné sídlo bly:s1:e8",
-      "claim": {
-        "worker_id": "133074d102154aefb6bd9bc0f375198b-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:50:57.285474+00:00",
-        "lease_expires_at": "2026-11-25T11:50:57.285490+00:00"
-      },
       "source": {
         "source_id": "32953629",
         "source_url": "https://sdilej.cz/32953629/the-haunting-of-bly-manor-s01e08-cz-dabing.mkv",
@@ -936576,7 +936570,17 @@
         },
         "display_name": "The Haunting of Bly Manor S01E08 The Romance of Certain Old Clothes 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:51:18.099117+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32953629:https://sdilej.cz/32953629/the-haunting-of-bly-manor-s01e08-cz-dabing.mkv",
+        "at": "2026-11-25T05:51:40.878930+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T05:51:40.878958+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -936584,7 +936588,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T05:51:32.287941+00:00",
+  "updated_at": "2026-11-25T05:51:40.878963+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -937541,6 +937545,14 @@
         }
       ],
       "retry_after": "2026-11-25T05:58:18.852859+00:00"
+    },
+    "266": {
+      "recent_failures": [
+        {
+          "identity": "266:1:8",
+          "at": "2026-11-25T05:51:40.878930+00:00"
+        }
+      ]
     }
   }
 }
