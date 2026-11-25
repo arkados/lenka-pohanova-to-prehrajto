@@ -931832,12 +931832,6 @@
     },
     "1556:4:7": {
       "episode_key": "zákon gangu: mayové:s4:e7",
-      "claim": {
-        "worker_id": "85cacf7017e04479a5429166f5b849a2-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:54:04.992027+00:00",
-        "lease_expires_at": "2026-11-25T08:54:04.992039+00:00"
-      },
       "source": {
         "source_id": "34256636",
         "source_url": "https://sdilej.cz/34256636/mayans-m.c.-s04e07-1080p-cz-en.mkv",
@@ -931862,22 +931856,29 @@
         "display_name": "Mayans M.C. S04E07 Dialogue with the Mirror 1080p CZ Dabing",
         "prepared_at": "2026-11-25T02:54:17.335624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31356977",
-        "size_bytes": 1557138902
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356977",
-        "size_bytes": 1557138902,
-        "source_bytes_read": 1557138902,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356977",
         "source_bytes_read": 1557138902,
         "elapsed_seconds": 131.04,
         "finished_at": "2026-11-25T02:56:50.413604+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356977",
+          "size_bytes": 1557138902,
+          "source_bytes_read": 1557138902,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34256636",
+        "source_url": "https://sdilej.cz/34256636/mayans-m.c.-s04e07-1080p-cz-en.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356977",
+        "display_name": "Mayans M.C. S04E07 Dialogue with the Mirror 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:57:01.088248+00:00"
       }
     }
   },
@@ -931886,7 +931887,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:56:50.413624+00:00",
+  "updated_at": "2026-11-25T02:57:01.088265+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
