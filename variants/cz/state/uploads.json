@@ -929396,12 +929396,6 @@
     },
     "610:3:3": {
       "episode_key": "noční agent:s3:e3",
-      "claim": {
-        "worker_id": "aafab703b87045bc8ea121120a00e259-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:52:23.796638+00:00",
-        "lease_expires_at": "2026-11-25T06:52:23.796659+00:00"
-      },
       "source": {
         "source_id": "33324107",
         "source_url": "https://sdilej.cz/33324107/nocni-agent-s03e03-1080p-cz-co-oci-nevidi.mkv",
@@ -929426,22 +929420,29 @@
         "display_name": "The Night Agent S03E03 Dark Matters 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:52:43.316964+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31354653",
-        "size_bytes": 395638725
-      },
-      "transfer_receipt": {
-        "target_video_id": "31354653",
-        "size_bytes": 395638725,
-        "source_bytes_read": 395638725,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31354653",
         "source_bytes_read": 395638725,
         "elapsed_seconds": 33.649,
         "finished_at": "2026-11-25T00:54:03.089457+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31354653",
+          "size_bytes": 395638725,
+          "source_bytes_read": 395638725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33324107",
+        "source_url": "https://sdilej.cz/33324107/nocni-agent-s03e03-1080p-cz-co-oci-nevidi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31354653",
+        "display_name": "The Night Agent S03E03 Dark Matters 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:54:23.668301+00:00"
       }
     },
     "610:3:2": {
@@ -929538,7 +929539,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:54:17.103069+00:00",
+  "updated_at": "2026-11-25T00:54:23.668320+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
