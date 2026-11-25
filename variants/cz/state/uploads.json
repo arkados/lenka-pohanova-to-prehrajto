@@ -939742,12 +939742,6 @@
     },
     "1017:7:3": {
       "episode_key": "americký táta:s7:e3",
-      "claim": {
-        "worker_id": "85a9647769aa4ee6a1b0ce7625ad3dac-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:39:19.410327+00:00",
-        "lease_expires_at": "2026-11-25T13:39:19.410345+00:00"
-      },
       "source": {
         "source_id": "32631413",
         "source_url": "https://sdilej.cz/32631413/americky-tata-s07e03-nejstrasidelnejsi-dum-v-langley-falls-cz-2010.mkv",
@@ -939772,22 +939766,29 @@
         "display_name": "American Dad! S07E03 Best Little Horror House in Langley Falls 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:39:32.755537+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31362624",
-        "size_bytes": 653143348
-      },
-      "transfer_receipt": {
-        "target_video_id": "31362624",
-        "size_bytes": 653143348,
-        "source_bytes_read": 653143348,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31362624",
         "source_bytes_read": 653143348,
         "elapsed_seconds": 35.564,
         "finished_at": "2026-11-25T07:40:50.693705+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31362624",
+          "size_bytes": 653143348,
+          "source_bytes_read": 653143348,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32631413",
+        "source_url": "https://sdilej.cz/32631413/americky-tata-s07e03-nejstrasidelnejsi-dum-v-langley-falls-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31362624",
+        "display_name": "American Dad! S07E03 Best Little Horror House in Langley Falls 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:41:05.770280+00:00"
       }
     }
   },
@@ -939796,7 +939797,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:40:57.052572+00:00",
+  "updated_at": "2026-11-25T07:41:05.770300+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
