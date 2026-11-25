@@ -949252,12 +949252,6 @@
     },
     "575:1:4": {
       "episode_key": "stoupenci zla:s1:e4",
-      "claim": {
-        "worker_id": "9a8a7fd3dbf247998f2c05c1b8feba1d-worker-0",
-        "run_id": "45617814512",
-        "claimed_at": "2026-11-25T16:13:31.977654+00:00",
-        "lease_expires_at": "2026-11-25T22:13:31.977666+00:00"
-      },
       "source": {
         "source_id": "12114844",
         "source_url": "https://sdilej.cz/12114844/stoupenci-zla-cz-s01e04.mkv",
@@ -949282,22 +949276,29 @@
         "display_name": "The Following S01E04 Mad Love SD CZ Dabing",
         "prepared_at": "2026-11-25T16:13:52.966665+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31374651",
-        "size_bytes": 409968456
-      },
-      "transfer_receipt": {
-        "target_video_id": "31374651",
-        "size_bytes": 409968456,
-        "source_bytes_read": 409968456,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31374651",
         "source_bytes_read": 409968456,
         "elapsed_seconds": 18.703,
         "finished_at": "2026-11-25T16:15:02.334623+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31374651",
+          "size_bytes": 409968456,
+          "source_bytes_read": 409968456,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12114844",
+        "source_url": "https://sdilej.cz/12114844/stoupenci-zla-cz-s01e04.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31374651",
+        "display_name": "The Following S01E04 Mad Love SD CZ Dabing",
+        "uploaded_at": "2026-11-25T16:15:34.772190+00:00"
       }
     }
   },
@@ -949306,7 +949307,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T16:15:26.918482+00:00",
+  "updated_at": "2026-11-25T16:15:34.772206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
