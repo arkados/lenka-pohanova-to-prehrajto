@@ -942904,12 +942904,6 @@
     },
     "1017:18:4": {
       "episode_key": "americký táta:s18:e4",
-      "claim": {
-        "worker_id": "15487f17afb8463cbe5d75a436bacfeb-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T10:01:33.349680+00:00",
-        "lease_expires_at": "2026-11-25T16:01:33.349692+00:00"
-      },
       "source": {
         "source_id": "34772283",
         "source_url": "https://sdilej.cz/34772283/americky-tata-s18e04-rogeruv-pribeh-cz-dabing-2022-.mkv",
@@ -942934,22 +942928,29 @@
         "display_name": "American Dad! S18E04 Shakedown Steve 1080p CZ Dabing",
         "prepared_at": "2026-11-25T10:01:52.958386+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31366122",
-        "size_bytes": 587948106
-      },
-      "transfer_receipt": {
-        "target_video_id": "31366122",
-        "size_bytes": 587948106,
-        "source_bytes_read": 587948106,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31366122",
         "source_bytes_read": 587948106,
         "elapsed_seconds": 54.95,
         "finished_at": "2026-11-25T10:03:25.659927+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31366122",
+          "size_bytes": 587948106,
+          "source_bytes_read": 587948106,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772283",
+        "source_url": "https://sdilej.cz/34772283/americky-tata-s18e04-rogeruv-pribeh-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31366122",
+        "display_name": "American Dad! S18E04 Shakedown Steve 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T10:03:38.486644+00:00"
       }
     }
   },
@@ -942958,7 +942959,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T10:03:31.727781+00:00",
+  "updated_at": "2026-11-25T10:03:38.486664+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
