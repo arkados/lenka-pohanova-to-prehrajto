@@ -928843,20 +928843,18 @@
       },
       "source_repair_requested": {
         "base": "33671074:https://sdilej.cz/33671074/the-night-agent-s02e03-cz-dabing-1080p.mkv",
-        "at": "2026-11-25T00:40:48.291549+00:00"
+        "at": "2026-11-25T00:56:48.211450+00:00"
       },
       "attempts": [
         {
           "at": "2026-11-25T00:40:48.291578+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-25T00:56:48.211523+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "90a3111358924f268a0b19518167d289-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:56:09.508452+00:00",
-        "lease_expires_at": "2026-11-25T06:56:09.508468+00:00"
-      }
+      ]
     },
     "610:2:4": {
       "episode_key": "noční agent:s2:e4",
@@ -929684,7 +929682,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:56:39.670112+00:00",
+  "updated_at": "2026-11-25T00:56:48.211532+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -930626,8 +930624,13 @@
         {
           "identity": "610:3:6",
           "at": "2026-11-25T00:55:45.254080+00:00"
+        },
+        {
+          "identity": "610:2:3",
+          "at": "2026-11-25T00:56:48.211450+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-25T01:06:48.211450+00:00"
     }
   }
 }
