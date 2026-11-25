@@ -944122,12 +944122,6 @@
     },
     "213:1:1": {
       "episode_key": "ahsoka:s1:e1",
-      "claim": {
-        "worker_id": "b997146ad9a240058dc7fa4d2ef5e280-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:00:35.101611+00:00",
-        "lease_expires_at": "2026-11-25T18:00:35.101625+00:00"
-      },
       "source": {
         "source_id": "34933787",
         "source_url": "https://sdilej.cz/34933787/ahsoka-s01e01-cz-dabing.mkv",
@@ -944151,7 +944145,17 @@
         },
         "display_name": "Ahsoka S01E01 Part One: Master and Apprentice 4K CZ Dabing",
         "prepared_at": "2026-11-25T12:00:48.116810+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34933787:https://sdilej.cz/34933787/ahsoka-s01e01-cz-dabing.mkv",
+        "at": "2026-11-25T12:01:06.505582+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T12:01:06.505609+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "213:1:2": {
       "episode_key": "ahsoka:s1:e2",
@@ -944168,7 +944172,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:01:01.094162+00:00",
+  "updated_at": "2026-11-25T12:01:06.505614+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -945115,6 +945119,14 @@
         {
           "identity": "266:1:8",
           "at": "2026-11-25T11:40:40.946487+00:00"
+        }
+      ]
+    },
+    "213": {
+      "recent_failures": [
+        {
+          "identity": "213:1:1",
+          "at": "2026-11-25T12:01:06.505582+00:00"
         }
       ]
     }
