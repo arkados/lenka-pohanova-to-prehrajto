@@ -907186,28 +907186,29 @@
           "at": "2026-11-25T02:24:30.828305+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "4179696a208a4076886428c3b050607d-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:24:37.755783+00:00",
-        "lease_expires_at": "2026-11-25T08:24:37.755796+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356320",
-        "size_bytes": 1382877689
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356320",
-        "size_bytes": 1382877689,
-        "source_bytes_read": 1382877689,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356320",
         "source_bytes_read": 1382877689,
         "elapsed_seconds": 108.547,
         "finished_at": "2026-11-25T02:27:35.958775+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356320",
+          "size_bytes": 1382877689,
+          "source_bytes_read": 1382877689,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34813219",
+        "source_url": "https://sdilej.cz/34813219/zakon.gangu.mayove-mayans.m.c.2019.s02e07.1080p.10bit.webrip.ac3.x265.hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356320",
+        "display_name": "Mayans M.C. S02E07 Tohil 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:27:52.609143+00:00"
       }
     },
     "1556:2:8": {
@@ -931379,7 +931380,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:27:47.058960+00:00",
+  "updated_at": "2026-11-25T02:27:52.609173+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
