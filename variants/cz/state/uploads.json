@@ -929359,12 +929359,6 @@
     },
     "610:3:1": {
       "episode_key": "noční agent:s3:e1",
-      "claim": {
-        "worker_id": "a5cc53f1bea1459da7a88d4d7f232c3b-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:52:16.155175+00:00",
-        "lease_expires_at": "2026-11-25T06:52:16.155195+00:00"
-      },
       "source": {
         "source_id": "33671183",
         "source_url": "https://sdilej.cz/33671183/the-night-agent-s03e01-cz-dabing-1080p.mkv",
@@ -929388,7 +929382,17 @@
         },
         "display_name": "The Night Agent S03E01 Call Waiting 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:52:37.287370+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33671183:https://sdilej.cz/33671183/the-night-agent-s03e01-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T00:53:10.132224+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T00:53:10.132281+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "610:3:3": {
       "episode_key": "noční agent:s3:e3",
@@ -929468,7 +929472,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:53:02.651286+00:00",
+  "updated_at": "2026-11-25T00:53:10.132289+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -930404,12 +930408,8 @@
     "610": {
       "recent_failures": [
         {
-          "identity": "610:2:3",
-          "at": "2026-11-25T00:40:48.291549+00:00"
-        },
-        {
-          "identity": "610:2:4",
-          "at": "2026-11-25T00:41:46.576400+00:00"
+          "identity": "610:3:1",
+          "at": "2026-11-25T00:53:10.132224+00:00"
         }
       ]
     }
