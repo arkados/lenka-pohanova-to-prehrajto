@@ -927243,28 +927243,29 @@
           "at": "2026-11-25T21:40:49.991722+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "9aaa8ff6901d4c6eba26cef3ba3b2070-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T21:40:55.905025+00:00",
-        "lease_expires_at": "2026-11-26T03:40:55.905039+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31383424",
-        "size_bytes": 1060776501
-      },
-      "transfer_receipt": {
-        "target_video_id": "31383424",
-        "size_bytes": 1060776501,
-        "source_bytes_read": 1060776501,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31383424",
         "source_bytes_read": 1060776501,
         "elapsed_seconds": 85.909,
         "finished_at": "2026-11-25T21:43:15.471621+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31383424",
+          "size_bytes": 1060776501,
+          "source_bytes_read": 1060776501,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27420000",
+        "source_url": "https://sdilej.cz/27420000/lego-ninjago-dragons-rising-s01e04-hd-5.1-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31383424",
+        "display_name": "LEGO Ninjago: Dragons Rising S01E04 Beyond Madness 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T21:43:31.261486+00:00"
       }
     },
     "9710:1:5": {
@@ -949839,7 +949840,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T21:43:24.478724+00:00",
+  "updated_at": "2026-11-25T21:43:31.261501+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
