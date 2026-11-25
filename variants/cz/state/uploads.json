@@ -937300,12 +937300,6 @@
     },
     "1017:3:16": {
       "episode_key": "americký táta:s3:e16",
-      "claim": {
-        "worker_id": "4131fdfa2eb249ffa9ee1e7a2a32b529-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:05:58.495279+00:00",
-        "lease_expires_at": "2026-11-25T12:05:58.495297+00:00"
-      },
       "source": {
         "source_id": "32611818",
         "source_url": "https://sdilej.cz/32611818/americky-tata-s03e16-kdyz-stan-miluje-zenu-cz-2006.mkv",
@@ -937330,22 +937324,29 @@
         "display_name": "American Dad! S03E16 When a Stan Loves a Woman 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:06:11.369186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360531",
-        "size_bytes": 616925514
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360531",
-        "size_bytes": 616925514,
-        "source_bytes_read": 616925514,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360531",
         "source_bytes_read": 616925514,
         "elapsed_seconds": 75.109,
         "finished_at": "2026-11-25T06:08:11.016285+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360531",
+          "size_bytes": 616925514,
+          "source_bytes_read": 616925514,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611818",
+        "source_url": "https://sdilej.cz/32611818/americky-tata-s03e16-kdyz-stan-miluje-zenu-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360531",
+        "display_name": "American Dad! S03E16 When a Stan Loves a Woman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:08:25.334273+00:00"
       }
     },
     "1017:3:17": {
@@ -937405,7 +937406,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:08:16.399635+00:00",
+  "updated_at": "2026-11-25T06:08:25.334291+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
