@@ -948562,12 +948562,6 @@
     },
     "1864:1:10": {
       "episode_key": "prezident v pořadí:s1:e10",
-      "claim": {
-        "worker_id": "6775cab97fce42f998e18e00eb91c976-worker-0",
-        "run_id": "45617814512",
-        "claimed_at": "2026-11-25T15:26:28.385038+00:00",
-        "lease_expires_at": "2026-11-25T21:26:28.385068+00:00"
-      },
       "source": {
         "source_id": "34118460",
         "source_url": "https://sdilej.cz/34118460/prezident-v-poradi-s01e10-cz.mp4",
@@ -948591,7 +948585,17 @@
         },
         "display_name": "Designated Survivor S01E10 The Oath 720p CZ Dabing",
         "prepared_at": "2026-11-25T15:26:41.497271+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118460:https://sdilej.cz/34118460/prezident-v-poradi-s01e10-cz.mp4",
+        "at": "2026-11-25T15:27:01.056173+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T15:27:01.056232+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "381:3:2": {
       "episode_key": "právo podle lidie poët:s3:e2",
@@ -948632,7 +948636,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T15:26:55.121112+00:00",
+  "updated_at": "2026-11-25T15:27:01.056238+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -949610,19 +949614,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:1",
-          "at": "2026-11-25T15:25:34.675773+00:00"
-        },
-        {
           "identity": "1864:1:8",
           "at": "2026-11-25T15:26:22.496850+00:00"
         },
         {
           "identity": "1864:1:9",
           "at": "2026-11-25T15:26:35.616247+00:00"
+        },
+        {
+          "identity": "1864:1:10",
+          "at": "2026-11-25T15:27:01.056173+00:00"
         }
       ],
-      "retry_after": "2026-11-25T15:36:35.616247+00:00"
+      "retry_after": "2026-11-25T15:37:01.056173+00:00"
     }
   }
 }
