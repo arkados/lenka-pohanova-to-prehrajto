@@ -912455,28 +912455,29 @@
           "at": "2026-11-25T02:38:50.042086+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "c79d4897131b48bc9449ccfb80b3c2aa-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:38:55.177840+00:00",
-        "lease_expires_at": "2026-11-25T08:38:55.177853+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356692",
-        "size_bytes": 1776226638
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356692",
-        "size_bytes": 1776226638,
-        "source_bytes_read": 1776226638,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356692",
         "source_bytes_read": 1776226638,
         "elapsed_seconds": 240.457,
         "finished_at": "2026-11-25T02:43:49.583004+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356692",
+          "size_bytes": 1776226638,
+          "source_bytes_read": 1776226638,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772025",
+        "source_url": "https://sdilej.cz/34772025/mayans.m.c.-2021-.s03e03.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356692",
+        "display_name": "Mayans M.C. S03E03 Overreaching Don't Pay 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:43:58.374911+00:00"
       }
     },
     "1556:3:4": {
@@ -931576,7 +931577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:43:49.583025+00:00",
+  "updated_at": "2026-11-25T02:43:58.374929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
