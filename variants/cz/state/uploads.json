@@ -943918,12 +943918,6 @@
     },
     "1017:19:9": {
       "episode_key": "americký táta:s19:e9",
-      "claim": {
-        "worker_id": "5b355bd32d774d0fa905b4d370e2879c-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T11:50:05.106924+00:00",
-        "lease_expires_at": "2026-11-25T17:50:05.106941+00:00"
-      },
       "source": {
         "source_id": "34786311",
         "source_url": "https://sdilej.cz/34786311/americky-tata-s19e09-podivuhodny-pripad-stare-tune-cz-dabing-2022-.mkv",
@@ -943948,22 +943942,29 @@
         "display_name": "American Dad! S19E09 The Curious Case of the Old Hole 1080p CZ Dabing",
         "prepared_at": "2026-11-25T11:50:23.134577+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31368630",
-        "size_bytes": 616016378
-      },
-      "transfer_receipt": {
-        "target_video_id": "31368630",
-        "size_bytes": 616016378,
-        "source_bytes_read": 616016378,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31368630",
         "source_bytes_read": 616016378,
         "elapsed_seconds": 49.804,
         "finished_at": "2026-11-25T11:51:58.413533+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31368630",
+          "size_bytes": 616016378,
+          "source_bytes_read": 616016378,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786311",
+        "source_url": "https://sdilej.cz/34786311/americky-tata-s19e09-podivuhodny-pripad-stare-tune-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31368630",
+        "display_name": "American Dad! S19E09 The Curious Case of the Old Hole 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T11:52:12.753121+00:00"
       }
     }
   },
@@ -943972,7 +943973,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T11:52:07.103477+00:00",
+  "updated_at": "2026-11-25T11:52:12.753139+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
