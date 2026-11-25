@@ -948927,12 +948927,6 @@
     },
     "4329:1:2": {
       "episode_key": "alias charlie sheen:s1:e2",
-      "claim": {
-        "worker_id": "bae88685ba094ddf90041fad446f35c2-worker-0",
-        "run_id": "45617814512",
-        "claimed_at": "2026-11-25T15:52:00.600494+00:00",
-        "lease_expires_at": "2026-11-25T21:52:00.600507+00:00"
-      },
       "source": {
         "source_id": "31914484",
         "source_url": "https://sdilej.cz/31914484/alias-charlie-sheen-s01e02-2025-cz-dabing-full-hd-1080p-.mp4",
@@ -948957,22 +948951,29 @@
         "display_name": "aka Charlie Sheen S01E02 Part Deux 1080p CZ Dabing",
         "prepared_at": "2026-11-25T15:52:38.174570+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31374090",
-        "size_bytes": 1599130212
-      },
-      "transfer_receipt": {
-        "target_video_id": "31374090",
-        "size_bytes": 1599130212,
-        "source_bytes_read": 1599130212,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31374090",
         "source_bytes_read": 1599130212,
         "elapsed_seconds": 94.874,
         "finished_at": "2026-11-25T15:54:54.040674+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31374090",
+          "size_bytes": 1599130212,
+          "source_bytes_read": 1599130212,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31914484",
+        "source_url": "https://sdilej.cz/31914484/alias-charlie-sheen-s01e02-2025-cz-dabing-full-hd-1080p-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31374090",
+        "display_name": "aka Charlie Sheen S01E02 Part Deux 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T15:55:01.562100+00:00"
       }
     }
   },
@@ -948981,7 +948982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T15:54:54.040689+00:00",
+  "updated_at": "2026-11-25T15:55:01.562115+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
