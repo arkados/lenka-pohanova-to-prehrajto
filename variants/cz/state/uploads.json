@@ -906855,28 +906855,29 @@
           "at": "2026-11-25T02:12:47.620951+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "53f1d69fa2674877879a2ebe608eee62-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:12:52.978574+00:00",
-        "lease_expires_at": "2026-11-25T08:12:52.978587+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356110",
-        "size_bytes": 1488433815
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356110",
-        "size_bytes": 1488433815,
-        "source_bytes_read": 1488433815,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356110",
         "source_bytes_read": 1488433815,
         "elapsed_seconds": 171.68,
         "finished_at": "2026-11-25T02:16:26.861146+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356110",
+          "size_bytes": 1488433815,
+          "source_bytes_read": 1488433815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34813218",
+        "source_url": "https://sdilej.cz/34813218/zakon.gangu.mayove-mayans.m.c.2019.s02e06.1080p.10bit.webrip.ac3.x265.hevc-jdm-czaudio.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356110",
+        "display_name": "Mayans M.C. S02E06 Muluc 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:16:46.235561+00:00"
       }
     },
     "9684:2:5": {
@@ -931318,7 +931319,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:16:40.535673+00:00",
+  "updated_at": "2026-11-25T02:16:46.235578+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
