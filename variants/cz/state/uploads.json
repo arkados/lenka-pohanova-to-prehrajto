@@ -940613,12 +940613,6 @@
     },
     "1017:8:5": {
       "episode_key": "americký táta:s8:e5",
-      "claim": {
-        "worker_id": "96de68dc61bf4e05b613ee8d66371d48-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T08:07:47.120209+00:00",
-        "lease_expires_at": "2026-11-25T14:07:47.120224+00:00"
-      },
       "source": {
         "source_id": "33980310",
         "source_url": "https://sdilej.cz/33980310/americky-tata-s08e05-virtualni-nepricetnost-cz-2011.mkv",
@@ -940643,22 +940637,29 @@
         "display_name": "American Dad! S08E05 Virtual In-Stanity 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:08:04.315345+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31363447",
-        "size_bytes": 615111263
-      },
-      "transfer_receipt": {
-        "target_video_id": "31363447",
-        "size_bytes": 615111263,
-        "source_bytes_read": 615111263,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31363447",
         "source_bytes_read": 615111263,
         "elapsed_seconds": 53.149,
         "finished_at": "2026-11-25T08:09:33.142322+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31363447",
+          "size_bytes": 615111263,
+          "source_bytes_read": 615111263,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33980310",
+        "source_url": "https://sdilej.cz/33980310/americky-tata-s08e05-virtualni-nepricetnost-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31363447",
+        "display_name": "American Dad! S08E05 Virtual In-Stanity 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:09:52.123652+00:00"
       }
     },
     "1017:8:6": {
@@ -940777,7 +940778,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:09:46.522067+00:00",
+  "updated_at": "2026-11-25T08:09:52.123668+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
