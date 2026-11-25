@@ -943414,12 +943414,6 @@
     },
     "1017:18:18": {
       "episode_key": "americký táta:s18:e18",
-      "claim": {
-        "worker_id": "a75dfff114f342f0862f6f7cfea5c4f5-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T10:14:45.468648+00:00",
-        "lease_expires_at": "2026-11-25T16:14:45.468659+00:00"
-      },
       "source": {
         "source_id": "34772219",
         "source_url": "https://sdilej.cz/34772219/americky-tata-s18e18-jeff-ma-radost-ze-dela-radost-cz-dabing-2022-.mkv",
@@ -943444,22 +943438,29 @@
         "display_name": "American Dad! S18E18 Dr. Sunderson's SunSuckers 1080p CZ Dabing",
         "prepared_at": "2026-11-25T10:15:05.316712+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31366509",
-        "size_bytes": 611325676
-      },
-      "transfer_receipt": {
-        "target_video_id": "31366509",
-        "size_bytes": 611325676,
-        "source_bytes_read": 611325676,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31366509",
         "source_bytes_read": 611325676,
         "elapsed_seconds": 71.962,
         "finished_at": "2026-11-25T10:17:00.831459+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31366509",
+          "size_bytes": 611325676,
+          "source_bytes_read": 611325676,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772219",
+        "source_url": "https://sdilej.cz/34772219/americky-tata-s18e18-jeff-ma-radost-ze-dela-radost-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31366509",
+        "display_name": "American Dad! S18E18 Dr. Sunderson's SunSuckers 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T10:17:12.897941+00:00"
       }
     }
   },
@@ -943468,7 +943469,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T10:17:06.684714+00:00",
+  "updated_at": "2026-11-25T10:17:12.897956+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
