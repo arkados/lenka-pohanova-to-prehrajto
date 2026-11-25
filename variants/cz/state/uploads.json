@@ -944819,12 +944819,6 @@
     },
     "213:1:5": {
       "episode_key": "ahsoka:s1:e5",
-      "claim": {
-        "worker_id": "5f5c49cfbca74551bcf52c484a0944ec-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:31:36.773421+00:00",
-        "lease_expires_at": "2026-11-25T18:31:36.773435+00:00"
-      },
       "source": {
         "source_id": "34933822",
         "source_url": "https://sdilej.cz/34933822/ahsoka-s01e05-cz-dabing.mkv",
@@ -944848,7 +944842,17 @@
         },
         "display_name": "Ahsoka S01E05 Part Five: Shadow Warrior 4K CZ Dabing",
         "prepared_at": "2026-11-25T12:31:45.345975+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34933822:https://sdilej.cz/34933822/ahsoka-s01e05-cz-dabing.mkv",
+        "at": "2026-11-25T12:32:02.513539+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T12:32:02.513577+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "213:1:6": {
       "episode_key": "ahsoka:s1:e6",
@@ -944889,7 +944893,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:31:57.512216+00:00",
+  "updated_at": "2026-11-25T12:32:02.513581+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -945826,16 +945830,8 @@
     "213": {
       "recent_failures": [
         {
-          "identity": "213:1:1",
-          "at": "2026-11-25T12:19:05.735533+00:00"
-        },
-        {
-          "identity": "213:1:3",
-          "at": "2026-11-25T12:19:12.062093+00:00"
-        },
-        {
-          "identity": "213:1:4",
-          "at": "2026-11-25T12:19:36.729970+00:00"
+          "identity": "213:1:5",
+          "at": "2026-11-25T12:32:02.513539+00:00"
         }
       ],
       "retry_after": "2026-11-25T12:29:36.729970+00:00"
