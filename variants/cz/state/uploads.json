@@ -945052,12 +945052,6 @@
     },
     "9717:5:8": {
       "episode_key": "gumídci:s5:e8",
-      "claim": {
-        "worker_id": "1fb4fb25da404f62aca2941624f7a707-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:36:39.175421+00:00",
-        "lease_expires_at": "2026-11-25T18:36:39.175436+00:00"
-      },
       "source": {
         "source_id": "33743485",
         "source_url": "https://sdilej.cz/33743485/gumidci-s05e08-047-1989-fhd-...-s-.mp4",
@@ -945082,22 +945076,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S05E08 Ogre For A Day 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:37:02.701035+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31369841",
-        "size_bytes": 484938215
-      },
-      "transfer_receipt": {
-        "target_video_id": "31369841",
-        "size_bytes": 484938215,
-        "source_bytes_read": 484938215,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31369841",
         "source_bytes_read": 484938215,
         "elapsed_seconds": 34.182,
         "finished_at": "2026-11-25T12:38:18.592451+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31369841",
+          "size_bytes": 484938215,
+          "source_bytes_read": 484938215,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743485",
+        "source_url": "https://sdilej.cz/33743485/gumidci-s05e08-047-1989-fhd-...-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31369841",
+        "display_name": "Disney's Adventures of the Gummi Bears S05E08 Ogre For A Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:38:30.637497+00:00"
       }
     }
   },
@@ -945106,7 +945107,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:38:25.303626+00:00",
+  "updated_at": "2026-11-25T12:38:30.637512+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
