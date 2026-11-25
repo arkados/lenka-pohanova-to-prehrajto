@@ -939640,12 +939640,6 @@
     },
     "1017:7:1": {
       "episode_key": "americký táta:s7:e1",
-      "claim": {
-        "worker_id": "72d38f517ff5462e8848de4a986a4775-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:37:57.863231+00:00",
-        "lease_expires_at": "2026-11-25T13:37:57.863250+00:00"
-      },
       "source": {
         "source_id": "32631304",
         "source_url": "https://sdilej.cz/32631304/americky-tata-s07e01-l.p.-100-cz-2010.mkv",
@@ -939670,22 +939664,29 @@
         "display_name": "American Dad! S07E01 100 A.D. (1) 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:38:12.697836+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31362596",
-        "size_bytes": 583005982
-      },
-      "transfer_receipt": {
-        "target_video_id": "31362596",
-        "size_bytes": 583005982,
-        "source_bytes_read": 583005982,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31362596",
         "source_bytes_read": 583005982,
         "elapsed_seconds": 53.087,
         "finished_at": "2026-11-25T07:39:46.033806+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31362596",
+          "size_bytes": 583005982,
+          "source_bytes_read": 583005982,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32631304",
+        "source_url": "https://sdilej.cz/32631304/americky-tata-s07e01-l.p.-100-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31362596",
+        "display_name": "American Dad! S07E01 100 A.D. (1) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:40:02.115215+00:00"
       }
     },
     "1017:7:2": {
@@ -939767,7 +939768,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:39:52.579427+00:00",
+  "updated_at": "2026-11-25T07:40:02.115233+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
