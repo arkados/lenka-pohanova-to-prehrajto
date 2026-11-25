@@ -928601,13 +928601,9 @@
       },
       "source_repair_requested": {
         "base": "32963427:https://sdilej.cz/32963427/proc-13x-proto-s01e05-cz-dabing-1080p.mkv",
-        "at": "2026-11-25T17:11:30.735104+00:00"
+        "at": "2026-11-25T22:12:13.831479+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-25T16:07:47.067354+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-25T17:11:30.735140+00:00",
           "error": "SourceUnavailable"
@@ -928615,14 +928611,12 @@
         {
           "at": "2026-11-25T21:53:12.538947+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-25T22:12:13.831505+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "36828a87bf80431abe71d4c2fb7b133a-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T22:11:25.964373+00:00",
-        "lease_expires_at": "2026-11-26T04:11:25.964383+00:00"
-      }
+      ]
     },
     "244:1:6": {
       "episode_key": "proč? 13x proto:s1:e6",
@@ -949944,7 +949938,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T22:12:06.382808+00:00",
+  "updated_at": "2026-11-25T22:12:13.831514+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -950845,6 +950839,10 @@
         {
           "identity": "244:1:6",
           "at": "2026-11-25T22:12:06.382760+00:00"
+        },
+        {
+          "identity": "244:1:5",
+          "at": "2026-11-25T22:12:13.831479+00:00"
         }
       ],
       "retry_after": "2026-11-25T19:34:34.060555+00:00"
