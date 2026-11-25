@@ -929288,12 +929288,6 @@
     },
     "610:2:10": {
       "episode_key": "noční agent:s2:e10",
-      "claim": {
-        "worker_id": "facf7d6a930c4b6cbc24ace464dd4875-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:49:49.139897+00:00",
-        "lease_expires_at": "2026-11-25T06:49:49.139914+00:00"
-      },
       "source": {
         "source_id": "33324088",
         "source_url": "https://sdilej.cz/33324088/nocni-agent-s02e10-1080p-cz-spatna-investice.mkv",
@@ -929318,22 +929312,29 @@
         "display_name": "The Night Agent S02E10 Buyer's Remorse 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:49:56.083338+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31354590",
-        "size_bytes": 398844390
-      },
-      "transfer_receipt": {
-        "target_video_id": "31354590",
-        "size_bytes": 398844390,
-        "source_bytes_read": 398844390,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31354590",
         "source_bytes_read": 398844390,
         "elapsed_seconds": 27.826,
         "finished_at": "2026-11-25T00:50:47.915016+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31354590",
+          "size_bytes": 398844390,
+          "source_bytes_read": 398844390,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33324088",
+        "source_url": "https://sdilej.cz/33324088/nocni-agent-s02e10-1080p-cz-spatna-investice.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31354590",
+        "display_name": "The Night Agent S02E10 Buyer's Remorse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:51:02.121647+00:00"
       }
     }
   },
@@ -929342,7 +929343,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:50:55.013618+00:00",
+  "updated_at": "2026-11-25T00:51:02.121663+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
