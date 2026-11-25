@@ -928875,12 +928875,6 @@
     },
     "610:2:5": {
       "episode_key": "noční agent:s2:e5",
-      "claim": {
-        "worker_id": "da8dc8510a384e53bedc3786273ddef9-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:41:26.529065+00:00",
-        "lease_expires_at": "2026-11-25T06:41:26.529080+00:00"
-      },
       "source": {
         "source_id": "33324066",
         "source_url": "https://sdilej.cz/33324066/nocni-agent-s02e05-1080p-cz-rodinna-zalezitost.mkv",
@@ -928905,22 +928899,29 @@
         "display_name": "The Night Agent S02E05 A Family Matter 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:41:34.461178+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31354455",
-        "size_bytes": 454679032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31354455",
-        "size_bytes": 454679032,
-        "source_bytes_read": 454679032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31354455",
         "source_bytes_read": 454679032,
         "elapsed_seconds": 31.475,
         "finished_at": "2026-11-25T00:42:48.725239+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31354455",
+          "size_bytes": 454679032,
+          "source_bytes_read": 454679032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33324066",
+        "source_url": "https://sdilej.cz/33324066/nocni-agent-s02e05-1080p-cz-rodinna-zalezitost.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31354455",
+        "display_name": "The Night Agent S02E05 A Family Matter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:43:01.165932+00:00"
       }
     }
   },
@@ -928929,7 +928930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:42:55.362458+00:00",
+  "updated_at": "2026-11-25T00:43:01.165949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
