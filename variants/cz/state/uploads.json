@@ -942184,12 +942184,6 @@
     },
     "1017:10:6": {
       "episode_key": "americký táta:s10:e6",
-      "claim": {
-        "worker_id": "3a4d65582e6246dda8c555cc4152f174-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:21:57.775556+00:00",
-        "lease_expires_at": "2026-11-25T15:21:57.775567+00:00"
-      },
       "source": {
         "source_id": "32633734",
         "source_url": "https://sdilej.cz/32633734/americky-tata-s10e06-nezavisly-film-cz-2013.mkv",
@@ -942214,22 +942208,29 @@
         "display_name": "American Dad! S10E06 Independent Movie 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:22:17.032778+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31365255",
-        "size_bytes": 626850692
-      },
-      "transfer_receipt": {
-        "target_video_id": "31365255",
-        "size_bytes": 626850692,
-        "source_bytes_read": 626850692,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31365255",
         "source_bytes_read": 626850692,
         "elapsed_seconds": 43.838,
         "finished_at": "2026-11-25T09:23:37.541853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31365255",
+          "size_bytes": 626850692,
+          "source_bytes_read": 626850692,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633734",
+        "source_url": "https://sdilej.cz/32633734/americky-tata-s10e06-nezavisly-film-cz-2013.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31365255",
+        "display_name": "American Dad! S10E06 Independent Movie 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:23:51.275345+00:00"
       }
     },
     "1017:10:8": {
@@ -942256,7 +942257,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:23:44.742767+00:00",
+  "updated_at": "2026-11-25T09:23:51.275359+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
