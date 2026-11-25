@@ -935921,12 +935921,6 @@
     },
     "782:1:2": {
       "episode_key": "malá velká británie v usa:s1:e2",
-      "claim": {
-        "worker_id": "c74fb8098a02421baa925ff6fad6a611-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T05:16:38.753452+00:00",
-        "lease_expires_at": "2026-11-25T11:16:38.753464+00:00"
-      },
       "source": {
         "source_id": "33671063",
         "source_url": "https://sdilej.cz/33671063/mala-velka-britanie-v-usa-s01e02-czdab.mp4",
@@ -935951,22 +935945,29 @@
         "display_name": "Little Britain USA S01E02 1080p CZ Dabing",
         "prepared_at": "2026-11-25T05:16:44.870803+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31359559",
-        "size_bytes": 1036846427
-      },
-      "transfer_receipt": {
-        "target_video_id": "31359559",
-        "size_bytes": 1036846427,
-        "source_bytes_read": 1036846427,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31359559",
         "source_bytes_read": 1036846427,
         "elapsed_seconds": 58.902,
         "finished_at": "2026-11-25T05:18:22.079014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31359559",
+          "size_bytes": 1036846427,
+          "source_bytes_read": 1036846427,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33671063",
+        "source_url": "https://sdilej.cz/33671063/mala-velka-britanie-v-usa-s01e02-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31359559",
+        "display_name": "Little Britain USA S01E02 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T05:18:30.032884+00:00"
       }
     },
     "782:1:3": {
@@ -936012,7 +936013,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T05:18:22.079033+00:00",
+  "updated_at": "2026-11-25T05:18:30.032900+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
