@@ -928837,12 +928837,6 @@
     },
     "610:2:4": {
       "episode_key": "noční agent:s2:e4",
-      "claim": {
-        "worker_id": "98ebfa2a04f549e0be6baafb01ed9e27-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:41:11.518261+00:00",
-        "lease_expires_at": "2026-11-25T06:41:11.518278+00:00"
-      },
       "source": {
         "source_id": "33671086",
         "source_url": "https://sdilej.cz/33671086/the-night-agent-s02e04-cz-dabing-1080p.mkv",
@@ -928866,7 +928860,17 @@
         },
         "display_name": "The Night Agent S02E04 Desperate Measures 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:41:19.312834+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "33671086:https://sdilej.cz/33671086/the-night-agent-s02e04-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T00:41:46.576400+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T00:41:46.576439+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "610:2:5": {
       "episode_key": "noční agent:s2:e5",
@@ -928907,7 +928911,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:41:40.623456+00:00",
+  "updated_at": "2026-11-25T00:41:46.576445+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -929853,6 +929857,10 @@
         {
           "identity": "610:2:3",
           "at": "2026-11-25T00:40:48.291549+00:00"
+        },
+        {
+          "identity": "610:2:4",
+          "at": "2026-11-25T00:41:46.576400+00:00"
         }
       ]
     }
