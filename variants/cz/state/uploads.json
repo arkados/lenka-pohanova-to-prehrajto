@@ -943618,12 +943618,6 @@
     },
     "1017:19:1": {
       "episode_key": "americký táta:s19:e1",
-      "claim": {
-        "worker_id": "d5ccfadc19c449d49faa91a5a8207652-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T10:28:52.127094+00:00",
-        "lease_expires_at": "2026-11-25T16:28:52.127106+00:00"
-      },
       "source": {
         "source_id": "34786209",
         "source_url": "https://sdilej.cz/34786209/americky-tata-s19e01-makler-z-langley-cz-dabing-2022-.mkv",
@@ -943648,22 +943642,29 @@
         "display_name": "American Dad! S19E01 Langley Dollar Listings 1080p CZ Dabing",
         "prepared_at": "2026-11-25T10:29:21.436499+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31366695",
-        "size_bytes": 639193570
-      },
-      "transfer_receipt": {
-        "target_video_id": "31366695",
-        "size_bytes": 639193570,
-        "source_bytes_read": 639193570,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31366695",
         "source_bytes_read": 639193570,
         "elapsed_seconds": 74.755,
         "finished_at": "2026-11-25T10:31:15.910797+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31366695",
+          "size_bytes": 639193570,
+          "source_bytes_read": 639193570,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34786209",
+        "source_url": "https://sdilej.cz/34786209/americky-tata-s19e01-makler-z-langley-cz-dabing-2022-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31366695",
+        "display_name": "American Dad! S19E01 Langley Dollar Listings 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T10:31:28.221481+00:00"
       }
     }
   },
@@ -943672,7 +943673,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T10:31:21.644400+00:00",
+  "updated_at": "2026-11-25T10:31:28.221495+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
