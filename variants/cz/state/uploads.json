@@ -940001,12 +940001,6 @@
     },
     "1017:7:9": {
       "episode_key": "americký táta:s7:e9",
-      "claim": {
-        "worker_id": "1d76c3d32a6047b6acdf75abc990bd44-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:53:42.260460+00:00",
-        "lease_expires_at": "2026-11-25T13:53:42.260474+00:00"
-      },
       "source": {
         "source_id": "32633466",
         "source_url": "https://sdilej.cz/32633466/americky-tata-s07e09-zamoreny-hotel-cz-2010.mkv",
@@ -940031,22 +940025,29 @@
         "display_name": "American Dad! S07E09 Fart-break Hotel 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:53:59.604173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31362902",
-        "size_bytes": 600693254
-      },
-      "transfer_receipt": {
-        "target_video_id": "31362902",
-        "size_bytes": 600693254,
-        "source_bytes_read": 600693254,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31362902",
         "source_bytes_read": 600693254,
         "elapsed_seconds": 37.414,
         "finished_at": "2026-11-25T07:55:13.302329+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31362902",
+          "size_bytes": 600693254,
+          "source_bytes_read": 600693254,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633466",
+        "source_url": "https://sdilej.cz/32633466/americky-tata-s07e09-zamoreny-hotel-cz-2010.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31362902",
+        "display_name": "American Dad! S07E09 Fart-break Hotel 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:55:27.988132+00:00"
       }
     },
     "1017:7:11": {
@@ -940088,7 +940089,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:55:21.613212+00:00",
+  "updated_at": "2026-11-25T07:55:27.988146+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
