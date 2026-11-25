@@ -944856,12 +944856,6 @@
     },
     "213:1:6": {
       "episode_key": "ahsoka:s1:e6",
-      "claim": {
-        "worker_id": "28de6179eaf9407f973ef2fc76aeb6d6-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:31:51.356966+00:00",
-        "lease_expires_at": "2026-11-25T18:31:51.356981+00:00"
-      },
       "source": {
         "source_id": "34933845",
         "source_url": "https://sdilej.cz/34933845/ahsoka-s01e06-cz-dabing.mkv",
@@ -944885,7 +944879,17 @@
         },
         "display_name": "Ahsoka S01E06 Part Six: Far, Far Away 4K CZ Dabing",
         "prepared_at": "2026-11-25T12:31:57.512198+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34933845:https://sdilej.cz/34933845/ahsoka-s01e06-cz-dabing.mkv",
+        "at": "2026-11-25T12:32:11.851805+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T12:32:11.851837+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -944893,7 +944897,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:32:02.513581+00:00",
+  "updated_at": "2026-11-25T12:32:11.851841+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -945832,6 +945836,10 @@
         {
           "identity": "213:1:5",
           "at": "2026-11-25T12:32:02.513539+00:00"
+        },
+        {
+          "identity": "213:1:6",
+          "at": "2026-11-25T12:32:11.851805+00:00"
         }
       ],
       "retry_after": "2026-11-25T12:29:36.729970+00:00"
