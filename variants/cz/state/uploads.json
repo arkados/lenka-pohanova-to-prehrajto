@@ -941006,12 +941006,6 @@
     },
     "1017:8:12": {
       "episode_key": "americký táta:s8:e12",
-      "claim": {
-        "worker_id": "5fac0c482d19434e9be1928d6a09d773-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T08:22:41.701864+00:00",
-        "lease_expires_at": "2026-11-25T14:22:41.701874+00:00"
-      },
       "source": {
         "source_id": "32633575",
         "source_url": "https://sdilej.cz/32633575/americky-tata-s08e12-zapasnik-cz-2011.mkv",
@@ -941036,22 +941030,29 @@
         "display_name": "American Dad! S08E12 The Wrestler 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:23:02.748022+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31363763",
-        "size_bytes": 579658862
-      },
-      "transfer_receipt": {
-        "target_video_id": "31363763",
-        "size_bytes": 579658862,
-        "source_bytes_read": 579658862,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31363763",
         "source_bytes_read": 579658862,
         "elapsed_seconds": 39.199,
         "finished_at": "2026-11-25T08:24:23.600614+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31363763",
+          "size_bytes": 579658862,
+          "source_bytes_read": 579658862,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633575",
+        "source_url": "https://sdilej.cz/32633575/americky-tata-s08e12-zapasnik-cz-2011.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31363763",
+        "display_name": "American Dad! S08E12 The Wrestler 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:24:43.674551+00:00"
       }
     }
   },
@@ -941060,7 +941061,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:24:37.584353+00:00",
+  "updated_at": "2026-11-25T08:24:43.674566+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
