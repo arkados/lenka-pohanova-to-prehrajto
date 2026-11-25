@@ -939050,12 +939050,6 @@
     },
     "1017:6:5": {
       "episode_key": "americký táta:s6:e5",
-      "claim": {
-        "worker_id": "d7349419905f4bc9b0ca7e4a407c5c1a-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:08:21.032435+00:00",
-        "lease_expires_at": "2026-11-25T13:08:21.032449+00:00"
-      },
       "source": {
         "source_id": "32612083",
         "source_url": "https://sdilej.cz/32612083/americky-tata-s06e05-muz-ve-skakajicim-hradu-cz-2009.mkv",
@@ -939080,22 +939074,29 @@
         "display_name": "American Dad! S06E05 Man in the Moonbounce 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:08:27.467854+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361990",
-        "size_bytes": 536257315
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361990",
-        "size_bytes": 536257315,
-        "source_bytes_read": 536257315,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361990",
         "source_bytes_read": 536257315,
         "elapsed_seconds": 35.828,
         "finished_at": "2026-11-25T07:09:38.773537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361990",
+          "size_bytes": 536257315,
+          "source_bytes_read": 536257315,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32612083",
+        "source_url": "https://sdilej.cz/32612083/americky-tata-s06e05-muz-ve-skakajicim-hradu-cz-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361990",
+        "display_name": "American Dad! S06E05 Man in the Moonbounce 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:09:50.427113+00:00"
       }
     }
   },
@@ -939104,7 +939105,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:09:44.464805+00:00",
+  "updated_at": "2026-11-25T07:09:50.427127+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
