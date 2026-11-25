@@ -929555,12 +929555,6 @@
     },
     "610:3:5": {
       "episode_key": "noční agent:s3:e5",
-      "claim": {
-        "worker_id": "9632a092fce94e09b71e1b9a10053178-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-25T00:54:33.430418+00:00",
-        "lease_expires_at": "2026-11-25T06:54:33.430437+00:00"
-      },
       "source": {
         "source_id": "33306950",
         "source_url": "https://sdilej.cz/33306950/nocni-agent-s03e05-cz-dab-1080p.mp4",
@@ -929585,22 +929579,29 @@
         "display_name": "The Night Agent S03E05 The Isolation Play 1080p CZ Dabing",
         "prepared_at": "2026-11-25T00:54:51.765708+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31354699",
-        "size_bytes": 700464252
-      },
-      "transfer_receipt": {
-        "target_video_id": "31354699",
-        "size_bytes": 700464252,
-        "source_bytes_read": 700464252,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31354699",
         "source_bytes_read": 700464252,
         "elapsed_seconds": 37.619,
         "finished_at": "2026-11-25T00:56:15.932247+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31354699",
+          "size_bytes": 700464252,
+          "source_bytes_read": 700464252,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33306950",
+        "source_url": "https://sdilej.cz/33306950/nocni-agent-s03e05-cz-dab-1080p.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31354699",
+        "display_name": "The Night Agent S03E05 The Isolation Play 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T00:56:39.670094+00:00"
       }
     },
     "610:3:6": {
@@ -929683,7 +929684,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:56:33.328528+00:00",
+  "updated_at": "2026-11-25T00:56:39.670112+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
