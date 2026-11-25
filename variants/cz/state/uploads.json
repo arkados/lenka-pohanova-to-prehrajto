@@ -941419,12 +941419,6 @@
     },
     "1017:9:4": {
       "episode_key": "americký táta:s9:e4",
-      "claim": {
-        "worker_id": "6aa5148266f64cbf8984849db04d29eb-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T08:57:28.468561+00:00",
-        "lease_expires_at": "2026-11-25T14:57:28.468574+00:00"
-      },
       "source": {
         "source_id": "32633628",
         "source_url": "https://sdilej.cz/32633628/americky-tata-s09e04-nevlastni-otec-cz-2012.mkv",
@@ -941449,22 +941443,29 @@
         "display_name": "American Dad! S09E04 American Stepdad 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:57:37.283097+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31364640",
-        "size_bytes": 619532071
-      },
-      "transfer_receipt": {
-        "target_video_id": "31364640",
-        "size_bytes": 619532071,
-        "source_bytes_read": 619532071,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31364640",
         "source_bytes_read": 619532071,
         "elapsed_seconds": 72.794,
         "finished_at": "2026-11-25T08:59:35.803728+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31364640",
+          "size_bytes": 619532071,
+          "source_bytes_read": 619532071,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633628",
+        "source_url": "https://sdilej.cz/32633628/americky-tata-s09e04-nevlastni-otec-cz-2012.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31364640",
+        "display_name": "American Dad! S09E04 American Stepdad 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T08:59:47.127441+00:00"
       }
     },
     "1017:9:5": {
@@ -941547,7 +941548,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:59:35.803746+00:00",
+  "updated_at": "2026-11-25T08:59:47.127458+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
