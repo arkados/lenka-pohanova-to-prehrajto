@@ -934397,12 +934397,6 @@
     },
     "244:2:5": {
       "episode_key": "proč? 13x proto:s2:e5",
-      "claim": {
-        "worker_id": "192ec068fa8d4b70a6d9ca2f1d8d6be8-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T04:27:00.837985+00:00",
-        "lease_expires_at": "2026-11-25T10:27:00.838000+00:00"
-      },
       "source": {
         "source_id": "32963984",
         "source_url": "https://sdilej.cz/32963984/proc-13x-proto-s02e05-cz-dabing-1080p.mkv",
@@ -934426,7 +934420,17 @@
         },
         "display_name": "13 Reasons Why S02E05 The Chalk Machine 1080p CZ Dabing",
         "prepared_at": "2026-11-25T04:27:17.533285+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32963984:https://sdilej.cz/32963984/proc-13x-proto-s02e05-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T04:27:38.827066+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T04:27:38.827102+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -934434,7 +934438,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T04:27:32.751236+00:00",
+  "updated_at": "2026-11-25T04:27:38.827107+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -935361,16 +935365,8 @@
     "244": {
       "recent_failures": [
         {
-          "identity": "244:2:2",
-          "at": "2026-11-25T04:11:01.110580+00:00"
-        },
-        {
-          "identity": "244:2:3",
-          "at": "2026-11-25T04:12:02.154648+00:00"
-        },
-        {
-          "identity": "244:2:4",
-          "at": "2026-11-25T04:13:07.706889+00:00"
+          "identity": "244:2:5",
+          "at": "2026-11-25T04:27:38.827066+00:00"
         }
       ],
       "retry_after": "2026-11-25T04:23:07.706889+00:00"
