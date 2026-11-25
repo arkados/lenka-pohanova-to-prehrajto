@@ -940817,12 +940817,6 @@
     },
     "244:2:8": {
       "episode_key": "proč? 13x proto:s2:e8",
-      "claim": {
-        "worker_id": "5df655106d8242769edb10caf51b9f78-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T08:15:46.893625+00:00",
-        "lease_expires_at": "2026-11-25T14:15:46.893636+00:00"
-      },
       "source": {
         "source_id": "32964103",
         "source_url": "https://sdilej.cz/32964103/proc-13x-proto-s02e08-cz-dabing-1080p.mkv",
@@ -940846,7 +940840,17 @@
         },
         "display_name": "13 Reasons Why S02E08 The Little Girl 1080p CZ Dabing",
         "prepared_at": "2026-11-25T08:16:05.744809+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32964103:https://sdilej.cz/32964103/proc-13x-proto-s02e08-cz-dabing-1080p.mkv",
+        "at": "2026-11-25T08:16:30.104817+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T08:16:30.104896+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "244:2:9": {
       "episode_key": "proč? 13x proto:s2:e9",
@@ -940890,7 +940894,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T08:16:23.717987+00:00",
+  "updated_at": "2026-11-25T08:16:30.104904+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -941793,19 +941797,19 @@
     "244": {
       "recent_failures": [
         {
-          "identity": "244:1:7",
-          "at": "2026-11-25T08:15:23.461434+00:00"
-        },
-        {
           "identity": "244:1:6",
           "at": "2026-11-25T08:15:31.085195+00:00"
         },
         {
           "identity": "244:2:5",
           "at": "2026-11-25T08:16:17.430767+00:00"
+        },
+        {
+          "identity": "244:2:8",
+          "at": "2026-11-25T08:16:30.104817+00:00"
         }
       ],
-      "retry_after": "2026-11-25T08:26:17.430767+00:00"
+      "retry_after": "2026-11-25T08:26:30.104817+00:00"
     },
     "610": {
       "recent_failures": [
