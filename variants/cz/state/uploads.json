@@ -927443,28 +927443,29 @@
           "at": "2026-11-25T02:49:04.680331+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1dc760e10b68430dbba97e6c24821291-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:49:10.356111+00:00",
-        "lease_expires_at": "2026-11-25T08:49:10.356127+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31356904",
-        "size_bytes": 2064732839
-      },
-      "transfer_receipt": {
-        "target_video_id": "31356904",
-        "size_bytes": 2064732839,
-        "source_bytes_read": 2064732839,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31356904",
         "source_bytes_read": 2064732839,
         "elapsed_seconds": 166.198,
         "finished_at": "2026-11-25T02:52:49.720603+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31356904",
+          "size_bytes": 2064732839,
+          "source_bytes_read": 2064732839,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34772066",
+        "source_url": "https://sdilej.cz/34772066/mayans.m.c.-2021-.s03e09.1080p.10bit.amzn.web-dl.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31356904",
+        "display_name": "Mayans M.C. S03E09 The House of Death Floats By 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T02:52:57.360230+00:00"
       }
     },
     "1556:3:10": {
@@ -931746,7 +931747,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:52:49.720625+00:00",
+  "updated_at": "2026-11-25T02:52:57.360248+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
