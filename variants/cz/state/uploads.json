@@ -942598,12 +942598,6 @@
     },
     "1017:10:18": {
       "episode_key": "americký táta:s10:e18",
-      "claim": {
-        "worker_id": "c68cf8db665948e5ac56cb77c10b9beb-worker-0",
-        "run_id": "45574150585",
-        "claimed_at": "2026-11-25T09:53:55.154912+00:00",
-        "lease_expires_at": "2026-11-25T15:53:55.154925+00:00"
-      },
       "source": {
         "source_id": "32633799",
         "source_url": "https://sdilej.cz/32633799/americky-tata-s10e18-nova-prace-cz-2013.mkv",
@@ -942628,22 +942622,29 @@
         "display_name": "American Dad! S10E18 Permanent Record Wrecker 1080p CZ Dabing",
         "prepared_at": "2026-11-25T09:54:10.181147+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31365975",
-        "size_bytes": 515471712
-      },
-      "transfer_receipt": {
-        "target_video_id": "31365975",
-        "size_bytes": 515471712,
-        "source_bytes_read": 515471712,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31365975",
         "source_bytes_read": 515471712,
         "elapsed_seconds": 37.15,
         "finished_at": "2026-11-25T09:55:21.355041+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31365975",
+          "size_bytes": 515471712,
+          "source_bytes_read": 515471712,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32633799",
+        "source_url": "https://sdilej.cz/32633799/americky-tata-s10e18-nova-prace-cz-2013.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31365975",
+        "display_name": "American Dad! S10E18 Permanent Record Wrecker 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T09:55:35.775340+00:00"
       }
     }
   },
@@ -942652,7 +942653,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T09:55:30.111079+00:00",
+  "updated_at": "2026-11-25T09:55:35.775355+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
