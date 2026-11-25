@@ -934634,12 +934634,6 @@
     },
     "569:5:2": {
       "episode_key": "sex ve městě:s5:e2",
-      "claim": {
-        "worker_id": "a47da922700e460fa2c3b00e67aa7f44-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T04:35:00.397345+00:00",
-        "lease_expires_at": "2026-11-25T10:35:00.397362+00:00"
-      },
       "source": {
         "source_id": "34847142",
         "source_url": "https://sdilej.cz/34847142/sex-ve-meste-s05e02-068-2002-fhd-prvotni-hrich-s-.mp4",
@@ -934664,22 +934658,29 @@
         "display_name": "Sex and the City S05E02 Unoriginal Sin 1080p CZ Dabing",
         "prepared_at": "2026-11-25T04:35:12.016133+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31358750",
-        "size_bytes": 607649132
-      },
-      "transfer_receipt": {
-        "target_video_id": "31358750",
-        "size_bytes": 607649132,
-        "source_bytes_read": 607649132,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31358750",
         "source_bytes_read": 607649132,
         "elapsed_seconds": 26.539,
         "finished_at": "2026-11-25T04:36:16.179961+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31358750",
+          "size_bytes": 607649132,
+          "source_bytes_read": 607649132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34847142",
+        "source_url": "https://sdilej.cz/34847142/sex-ve-meste-s05e02-068-2002-fhd-prvotni-hrich-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31358750",
+        "display_name": "Sex and the City S05E02 Unoriginal Sin 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T04:36:29.099074+00:00"
       }
     }
   },
@@ -934688,7 +934689,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T04:36:23.973817+00:00",
+  "updated_at": "2026-11-25T04:36:29.099092+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
