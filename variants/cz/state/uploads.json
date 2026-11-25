@@ -696713,15 +696713,15 @@
     "1628:2:3": {
       "attempts": [
         {
-          "at": "2026-11-25T16:32:56.012748+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-25T17:33:59.168209+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-25T18:36:19.279905+00:00",
+          "error": "RetryError"
+        },
+        {
+          "at": "2026-11-25T19:00:13.706491+00:00",
           "error": "RetryError"
         }
       ],
@@ -696753,12 +696753,6 @@
       "source_repair_requested": {
         "base": "33734265:https://sdilej.cz/33734265/tri-musketyri-s02e03-cz-dabing-full-hd.mkv",
         "at": "2026-11-25T17:33:59.168174+00:00"
-      },
-      "claim": {
-        "worker_id": "5257ea306cec43cf89c33f0f4c0b7553-worker-0",
-        "run_id": "45678591527",
-        "claimed_at": "2026-11-25T18:58:28.101319+00:00",
-        "lease_expires_at": "2026-11-26T00:58:28.101328+00:00"
       }
     },
     "1628:2:5": {
@@ -949590,7 +949584,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T19:00:07.458982+00:00",
+  "updated_at": "2026-11-25T19:00:13.706509+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
