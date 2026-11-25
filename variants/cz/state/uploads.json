@@ -938936,12 +938936,6 @@
     },
     "1017:6:2": {
       "episode_key": "americký táta:s6:e2",
-      "claim": {
-        "worker_id": "40860f5c38b94e9eb7c8e8078c837a96-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T07:07:05.422027+00:00",
-        "lease_expires_at": "2026-11-25T13:07:05.422038+00:00"
-      },
       "source": {
         "source_id": "32629522",
         "source_url": "https://sdilej.cz/32629522/americky-tata-s06e02-mesic-nad-ostrovem-isla-cz-2009.mkv",
@@ -938966,22 +938960,29 @@
         "display_name": "American Dad! S06E02 Moon Over Isla Island 1080p CZ Dabing",
         "prepared_at": "2026-11-25T07:07:23.257844+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31361966",
-        "size_bytes": 534526718
-      },
-      "transfer_receipt": {
-        "target_video_id": "31361966",
-        "size_bytes": 534526718,
-        "source_bytes_read": 534526718,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31361966",
         "source_bytes_read": 534526718,
         "elapsed_seconds": 45.103,
         "finished_at": "2026-11-25T07:08:48.436575+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31361966",
+          "size_bytes": 534526718,
+          "source_bytes_read": 534526718,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32629522",
+        "source_url": "https://sdilej.cz/32629522/americky-tata-s06e02-mesic-nad-ostrovem-isla-cz-2009.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31361966",
+        "display_name": "American Dad! S06E02 Moon Over Isla Island 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T07:09:10.017584+00:00"
       }
     },
     "1017:6:3": {
@@ -939078,7 +939079,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T07:09:04.109151+00:00",
+  "updated_at": "2026-11-25T07:09:10.017600+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
