@@ -947549,12 +947549,6 @@
     },
     "1864:1:2": {
       "episode_key": "prezident v pořadí:s1:e2",
-      "claim": {
-        "worker_id": "577b23fa47c3476fa531c67ccfb994e5-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T14:25:39.178721+00:00",
-        "lease_expires_at": "2026-11-25T20:25:39.178736+00:00"
-      },
       "source": {
         "source_id": "34118356",
         "source_url": "https://sdilej.cz/34118356/prezident-v-poradi-s01e02-cz.mp4",
@@ -947578,7 +947572,17 @@
         },
         "display_name": "Designated Survivor S01E02 The First Day 720p CZ Dabing",
         "prepared_at": "2026-11-25T14:25:53.645826+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118356:https://sdilej.cz/34118356/prezident-v-poradi-s01e02-cz.mp4",
+        "at": "2026-11-25T14:26:11.642741+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T14:26:11.642772+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -947586,7 +947590,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T14:26:04.961366+00:00",
+  "updated_at": "2026-11-25T14:26:11.642776+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -948574,6 +948578,10 @@
         {
           "identity": "1864:1:1",
           "at": "2026-11-25T14:24:41.575144+00:00"
+        },
+        {
+          "identity": "1864:1:2",
+          "at": "2026-11-25T14:26:11.642741+00:00"
         }
       ]
     }
