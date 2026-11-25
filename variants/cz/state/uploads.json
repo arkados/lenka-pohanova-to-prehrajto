@@ -945593,12 +945593,6 @@
     },
     "9717:6:14": {
       "episode_key": "gumídci:s6:e14",
-      "claim": {
-        "worker_id": "28d2006e4bdc4965860e7e0bca3fd52b-worker-0",
-        "run_id": "45607160833",
-        "claimed_at": "2026-11-25T12:51:10.069184+00:00",
-        "lease_expires_at": "2026-11-25T18:51:10.069202+00:00"
-      },
       "source": {
         "source_id": "33743442",
         "source_url": "https://sdilej.cz/33743442/gumidci-s06e14-062-1991-fhd-trable-s-brumlou-s-.mp4",
@@ -945623,22 +945617,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S06E14 Tummi Trouble 1080p CZ Dabing",
         "prepared_at": "2026-11-25T12:51:38.422383+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31370310",
-        "size_bytes": 479019799
-      },
-      "transfer_receipt": {
-        "target_video_id": "31370310",
-        "size_bytes": 479019799,
-        "source_bytes_read": 479019799,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31370310",
         "source_bytes_read": 479019799,
         "elapsed_seconds": 30.763,
         "finished_at": "2026-11-25T12:52:42.665696+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31370310",
+          "size_bytes": 479019799,
+          "source_bytes_read": 479019799,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743442",
+        "source_url": "https://sdilej.cz/33743442/gumidci-s06e14-062-1991-fhd-trable-s-brumlou-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31370310",
+        "display_name": "Disney's Adventures of the Gummi Bears S06E14 Tummi Trouble 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T12:52:55.773737+00:00"
       }
     }
   },
@@ -945647,7 +945648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T12:52:47.833540+00:00",
+  "updated_at": "2026-11-25T12:52:55.773755+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
