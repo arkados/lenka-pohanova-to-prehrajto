@@ -930976,12 +930976,6 @@
     },
     "9710:1:20": {
       "episode_key": "lego ninjago: dračí povstání:s1:e20",
-      "claim": {
-        "worker_id": "2bfba722ebae4aa0b2cd3c9382ec4942-worker-0",
-        "run_id": "45523478113",
-        "claimed_at": "2026-11-25T02:01:19.771179+00:00",
-        "lease_expires_at": "2026-11-25T08:01:19.771190+00:00"
-      },
       "source": {
         "source_id": "32152607",
         "source_url": "https://sdilej.cz/32152607/lego-ninjago-draci-povstani-s01e20-vnitrni-sila-1080p-nf-web-dl-cz-dab.mkv",
@@ -931005,7 +930999,17 @@
         },
         "display_name": "LEGO Ninjago: Dragons Rising S01E20 The Power Within 1080p CZ Dabing",
         "prepared_at": "2026-11-25T02:01:41.440657+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32152607:https://sdilej.cz/32152607/lego-ninjago-draci-povstani-s01e20-vnitrni-sila-1080p-nf-web-dl-cz-dab.mkv",
+        "at": "2026-11-25T02:02:12.742741+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-25T02:02:12.743116+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "569:2:6": {
       "episode_key": "sex ve městě:s2:e6",
@@ -931059,7 +931063,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T02:02:06.795594+00:00",
+  "updated_at": "2026-11-25T02:02:12.743126+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -931967,9 +931971,13 @@
         {
           "identity": "9710:1:19",
           "at": "2026-11-25T02:00:57.588021+00:00"
+        },
+        {
+          "identity": "9710:1:20",
+          "at": "2026-11-25T02:02:12.742741+00:00"
         }
       ],
-      "retry_after": "2026-11-25T01:58:59.938807+00:00"
+      "retry_after": "2026-11-25T02:12:12.742741+00:00"
     },
     "244": {
       "recent_failures": [
