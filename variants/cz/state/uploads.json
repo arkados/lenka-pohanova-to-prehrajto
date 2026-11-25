@@ -937402,12 +937402,6 @@
     },
     "1017:3:18": {
       "episode_key": "americký táta:s3:e18",
-      "claim": {
-        "worker_id": "7a74bfeed56a48d09979a3e838863925-worker-0",
-        "run_id": "45532976957",
-        "claimed_at": "2026-11-25T06:11:23.797608+00:00",
-        "lease_expires_at": "2026-11-25T12:11:23.797619+00:00"
-      },
       "source": {
         "source_id": "32611821",
         "source_url": "https://sdilej.cz/32611821/americky-tata-s03e18-velky-steven-cz-2006.mkv",
@@ -937432,22 +937426,29 @@
         "display_name": "American Dad! S03E18 The Magnificent Steven 1080p CZ Dabing",
         "prepared_at": "2026-11-25T06:11:42.960988+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31360672",
-        "size_bytes": 667972687
-      },
-      "transfer_receipt": {
-        "target_video_id": "31360672",
-        "size_bytes": 667972687,
-        "source_bytes_read": 667972687,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31360672",
         "source_bytes_read": 667972687,
         "elapsed_seconds": 86.171,
         "finished_at": "2026-11-25T06:13:47.428367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31360672",
+          "size_bytes": 667972687,
+          "source_bytes_read": 667972687,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32611821",
+        "source_url": "https://sdilej.cz/32611821/americky-tata-s03e18-velky-steven-cz-2006.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31360672",
+        "display_name": "American Dad! S03E18 The Magnificent Steven 1080p CZ Dabing",
+        "uploaded_at": "2026-11-25T06:13:56.700816+00:00"
       }
     },
     "1017:3:19": {
@@ -937530,7 +937531,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T06:13:47.428387+00:00",
+  "updated_at": "2026-11-25T06:13:56.700834+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
