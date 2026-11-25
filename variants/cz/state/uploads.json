@@ -927821,12 +927821,6 @@
     },
     "610:1:1": {
       "episode_key": "noční agent:s1:e1",
-      "claim": {
-        "worker_id": "0197f45341b648b0b55e6e2d90b0be66-worker-0",
-        "run_id": "45492915353",
-        "claimed_at": "2026-11-24T23:55:14.806966+00:00",
-        "lease_expires_at": "2026-11-25T05:55:14.806982+00:00"
-      },
       "source": {
         "source_id": "25863011",
         "source_url": "https://sdilej.cz/25863011/nocni-agent-the.night.agent.s01e01.2160p.nf.web-dl.hybrid.hdr.dv.hevc.ddpa5.1.english-hone-cz-eng-audio-.mkv",
@@ -927851,22 +927845,29 @@
         "display_name": "The Night Agent S01E01 The Call 4K CZ Dabing",
         "prepared_at": "2026-11-24T23:55:38.432660+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31353579",
-        "size_bytes": 4601498156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31353579",
-        "size_bytes": 4601498156,
-        "source_bytes_read": 4601498156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31353579",
         "source_bytes_read": 4601498156,
         "elapsed_seconds": 329.995,
         "finished_at": "2026-11-25T00:01:44.321852+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31353579",
+          "size_bytes": 4601498156,
+          "source_bytes_read": 4601498156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25863011",
+        "source_url": "https://sdilej.cz/25863011/nocni-agent-the.night.agent.s01e01.2160p.nf.web-dl.hybrid.hdr.dv.hevc.ddpa5.1.english-hone-cz-eng-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31353579",
+        "display_name": "The Night Agent S01E01 The Call 4K CZ Dabing",
+        "uploaded_at": "2026-11-25T00:02:05.435547+00:00"
       }
     },
     "610:1:2": {
@@ -928098,7 +928099,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T00:01:58.740821+00:00",
+  "updated_at": "2026-11-25T00:02:05.435567+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
