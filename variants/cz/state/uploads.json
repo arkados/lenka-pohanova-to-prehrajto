@@ -950505,12 +950505,6 @@
     },
     "575:2:6": {
       "episode_key": "stoupenci zla:s2:e6",
-      "claim": {
-        "worker_id": "b02b3c4386ce46d19a660a082be25429-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-25T23:52:10.742159+00:00",
-        "lease_expires_at": "2026-11-26T05:52:10.742179+00:00"
-      },
       "source": {
         "source_id": "13839816",
         "source_url": "https://sdilej.cz/13839816/stoupenci-zla-s02e06-odlet-cz-dabing.avi",
@@ -950535,22 +950529,29 @@
         "display_name": "The Following S02E06 Fly Away SD CZ Dabing",
         "prepared_at": "2026-11-25T23:52:24.771075+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31386685",
-        "size_bytes": 400950154
-      },
-      "transfer_receipt": {
-        "target_video_id": "31386685",
-        "size_bytes": 400950154,
-        "source_bytes_read": 400950154,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31386685",
         "source_bytes_read": 400950154,
         "elapsed_seconds": 34.794,
         "finished_at": "2026-11-25T23:53:40.512779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31386685",
+          "size_bytes": 400950154,
+          "source_bytes_read": 400950154,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13839816",
+        "source_url": "https://sdilej.cz/13839816/stoupenci-zla-s02e06-odlet-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31386685",
+        "display_name": "The Following S02E06 Fly Away SD CZ Dabing",
+        "uploaded_at": "2026-11-25T23:53:49.004696+00:00"
       }
     },
     "575:2:7": {
@@ -950633,7 +950634,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-25T23:53:40.512800+00:00",
+  "updated_at": "2026-11-25T23:53:49.004717+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
