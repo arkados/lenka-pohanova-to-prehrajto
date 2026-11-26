@@ -967506,12 +967506,12 @@
     },
     "1787:7:11": {
       "episode_key": "havaj 5-0:s7:e11",
-      "claim": {
-        "worker_id": "07bf78e659af49d9ba971bf7e22bac95-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:59:30.570799+00:00",
-        "lease_expires_at": "2026-11-26T22:59:30.570808+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-26T17:01:22.810250+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -967519,7 +967519,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:01:16.471720+00:00",
+  "updated_at": "2026-11-26T17:01:22.810268+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
