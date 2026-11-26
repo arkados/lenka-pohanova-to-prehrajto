@@ -967748,12 +967748,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "66d26f097d2843c492d4b2206b8f1595-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:15:13.229408+00:00",
-        "lease_expires_at": "2026-11-26T23:15:13.229417+00:00"
-      },
       "source": {
         "source_id": "8635347",
         "source_url": "https://sdilej.cz/8635347/dva.z.queensu.09x11.hdtv.cz.avi",
@@ -967778,22 +967772,29 @@
         "display_name": "The King of Queens S09E11 Single Spaced SD CZ Dabing",
         "prepared_at": "2026-11-26T17:15:33.837525+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421480",
-        "size_bytes": 326021552
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421480",
-        "size_bytes": 326021552,
-        "source_bytes_read": 326021552,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421480",
         "source_bytes_read": 326021552,
         "elapsed_seconds": 27.962,
         "finished_at": "2026-11-26T17:16:37.540912+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421480",
+          "size_bytes": 326021552,
+          "source_bytes_read": 326021552,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8635347",
+        "source_url": "https://sdilej.cz/8635347/dva.z.queensu.09x11.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421480",
+        "display_name": "The King of Queens S09E11 Single Spaced SD CZ Dabing",
+        "uploaded_at": "2026-11-26T17:16:52.358370+00:00"
       }
     },
     "1408:9:10": {
@@ -968262,7 +968263,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:16:44.184277+00:00",
+  "updated_at": "2026-11-26T17:16:52.358386+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
