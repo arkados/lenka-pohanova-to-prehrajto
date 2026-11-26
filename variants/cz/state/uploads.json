@@ -954079,12 +954079,6 @@
     },
     "1864:1:19": {
       "episode_key": "prezident v pořadí:s1:e19",
-      "claim": {
-        "worker_id": "6c4927d55da3467cbef1d04c63d62afa-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T03:51:54.722934+00:00",
-        "lease_expires_at": "2026-11-26T09:51:54.722944+00:00"
-      },
       "source": {
         "source_id": "34118579",
         "source_url": "https://sdilej.cz/34118579/prezident-v-poradi-s01e19-cz.mp4",
@@ -954108,7 +954102,17 @@
         },
         "display_name": "Designated Survivor S01E19 Misalliance 720p CZ Dabing",
         "prepared_at": "2026-11-26T03:52:14.247088+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118579:https://sdilej.cz/34118579/prezident-v-poradi-s01e19-cz.mp4",
+        "at": "2026-11-26T03:52:31.840794+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T03:52:31.841135+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -954116,7 +954120,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T03:52:26.096483+00:00",
+  "updated_at": "2026-11-26T03:52:31.841144+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -955102,19 +955106,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:15",
-          "at": "2026-11-26T03:50:37.818330+00:00"
-        },
-        {
           "identity": "1864:1:6",
           "at": "2026-11-26T03:52:19.870295+00:00"
         },
         {
           "identity": "1864:1:18",
           "at": "2026-11-26T03:52:26.095637+00:00"
+        },
+        {
+          "identity": "1864:1:19",
+          "at": "2026-11-26T03:52:31.840794+00:00"
         }
       ],
-      "retry_after": "2026-11-26T04:02:26.095637+00:00"
+      "retry_after": "2026-11-26T04:02:31.840794+00:00"
     },
     "1408": {
       "recent_failures": [
