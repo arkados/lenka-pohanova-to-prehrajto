@@ -959840,12 +959840,6 @@
     },
     "1864:2:10": {
       "episode_key": "prezident v pořadí:s2:e10",
-      "claim": {
-        "worker_id": "c1c2a59023a740bba8c88c1132f91fe6-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:07:05.981415+00:00",
-        "lease_expires_at": "2026-11-26T20:07:05.981422+00:00"
-      },
       "source": {
         "source_id": "34118741",
         "source_url": "https://sdilej.cz/34118741/prezident-v-poradi-s02e10-cz.mp4",
@@ -959869,7 +959863,18 @@
         },
         "display_name": "Designated Survivor S02E10 Line of Fire 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:07:37.916914+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118741:https://sdilej.cz/34118741/prezident-v-poradi-s02e10-cz.mp4",
+        "at": "2026-11-26T14:07:45.866696+00:00",
+        "retry_after": "2026-11-26T20:07:45.866696+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:07:45.866903+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -959877,7 +959882,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:07:37.916934+00:00",
+  "updated_at": "2026-11-26T14:07:45.866912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960853,9 +960858,13 @@
         {
           "identity": "1864:2:9",
           "at": "2026-11-26T14:07:20.473340+00:00"
+        },
+        {
+          "identity": "1864:2:10",
+          "at": "2026-11-26T14:07:45.866696+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:02:46.260248+00:00"
+      "retry_after": "2026-11-26T14:17:45.866696+00:00"
     },
     "1408": {
       "recent_failures": [
