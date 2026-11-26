@@ -955511,12 +955511,6 @@
     },
     "244:3:13": {
       "episode_key": "proč? 13x proto:s3:e13",
-      "claim": {
-        "worker_id": "961b1909137e49e49d4476658f7b5207-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T05:49:41.652149+00:00",
-        "lease_expires_at": "2026-11-26T11:49:41.652166+00:00"
-      },
       "source": {
         "source_id": "32965336",
         "source_url": "https://sdilej.cz/32965336/proc-13x-proto-s03e13-cz-dabing-1080p.mkv",
@@ -955540,7 +955534,17 @@
         },
         "display_name": "13 Reasons Why S03E13 Let the Dead Bury the Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-26T05:49:54.980387+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32965336:https://sdilej.cz/32965336/proc-13x-proto-s03e13-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T05:50:09.702239+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T05:50:09.702276+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -955548,7 +955552,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T05:50:01.610059+00:00",
+  "updated_at": "2026-11-26T05:50:09.702282+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -956473,6 +956477,10 @@
         {
           "identity": "244:3:4",
           "at": "2026-11-26T05:49:15.766450+00:00"
+        },
+        {
+          "identity": "244:3:13",
+          "at": "2026-11-26T05:50:09.702239+00:00"
         }
       ],
       "retry_after": "2026-11-26T05:40:23.121751+00:00"
