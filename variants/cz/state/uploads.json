@@ -952418,12 +952418,6 @@
     },
     "1408:2:5": {
       "episode_key": "dva z queensu:s2:e5",
-      "claim": {
-        "worker_id": "f9670fe16e9c4317bd83d53b0d71bff2-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:04:04.528197+00:00",
-        "lease_expires_at": "2026-11-26T08:04:04.528209+00:00"
-      },
       "source": {
         "source_id": "33522951",
         "source_url": "https://sdilej.cz/33522951/dva-z-queensu-s02e05-dire-strayts-cz-dabing.avi",
@@ -952448,22 +952442,29 @@
         "display_name": "The King of Queens S02E05 Tube Steaks SD CZ Dabing",
         "prepared_at": "2026-11-26T02:04:34.183658+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395768",
-        "size_bytes": 205504512
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395768",
-        "size_bytes": 205504512,
-        "source_bytes_read": 205504512,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395768",
         "source_bytes_read": 205504512,
         "elapsed_seconds": 10.164,
         "finished_at": "2026-11-26T02:05:19.467074+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395768",
+          "size_bytes": 205504512,
+          "source_bytes_read": 205504512,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33522951",
+        "source_url": "https://sdilej.cz/33522951/dva-z-queensu-s02e05-dire-strayts-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395768",
+        "display_name": "The King of Queens S02E05 Tube Steaks SD CZ Dabing",
+        "uploaded_at": "2026-11-26T02:05:27.164347+00:00"
       }
     },
     "1408:2:2": {
@@ -952509,7 +952510,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:05:19.467093+00:00",
+  "updated_at": "2026-11-26T02:05:27.164364+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
