@@ -964384,12 +964384,6 @@
     },
     "1864:3:7": {
       "episode_key": "prezident v pořadí:s3:e7",
-      "claim": {
-        "worker_id": "388064f93c9949e4be0811acab11e97f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:36:19.087488+00:00",
-        "lease_expires_at": "2026-11-26T21:36:19.087504+00:00"
-      },
       "source": {
         "source_id": "34118891",
         "source_url": "https://sdilej.cz/34118891/prezident-v-poradi-s03e07-cz.mp4",
@@ -964413,7 +964407,18 @@
         },
         "display_name": "Designated Survivor S03E07 #identity/crisis 720p CZ Dabing",
         "prepared_at": "2026-11-26T15:36:32.653433+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118891:https://sdilej.cz/34118891/prezident-v-poradi-s03e07-cz.mp4",
+        "at": "2026-11-26T15:36:40.749028+00:00",
+        "retry_after": "2026-11-26T21:36:40.749028+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T15:36:40.749073+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -964421,7 +964426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:36:32.653453+00:00",
+  "updated_at": "2026-11-26T15:36:40.749077+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -965391,16 +965396,8 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:3:4",
-          "at": "2026-11-26T14:57:43.420016+00:00"
-        },
-        {
-          "identity": "1864:3:5",
-          "at": "2026-11-26T14:57:50.029216+00:00"
-        },
-        {
-          "identity": "1864:3:6",
-          "at": "2026-11-26T14:58:42.234216+00:00"
+          "identity": "1864:3:7",
+          "at": "2026-11-26T15:36:40.749028+00:00"
         }
       ],
       "retry_after": "2026-11-26T15:08:42.234216+00:00"
