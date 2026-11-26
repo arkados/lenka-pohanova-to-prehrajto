@@ -931347,13 +931347,10 @@
       },
       "source_repair_requested": {
         "base": "32963831:https://sdilej.cz/32963831/proc-13x-proto-s02e01-cz-dabing-1080p.mkv",
-        "at": "2026-11-26T11:49:33.887433+00:00"
+        "at": "2026-11-26T12:54:55.092573+00:00",
+        "retry_after": "2026-11-26T18:54:55.092573+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T09:46:21.716430+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T10:48:29.707454+00:00",
           "error": "SourceUnavailable"
@@ -931361,14 +931358,12 @@
         {
           "at": "2026-11-26T11:49:33.887494+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T12:54:55.092655+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "a6784db32f6d4cf29b7a99d0a085a126-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:54:13.527216+00:00",
-        "lease_expires_at": "2026-11-26T18:54:13.527228+00:00"
-      }
+      ]
     },
     "244:2:2": {
       "episode_key": "proč? 13x proto:s2:e2",
@@ -957001,7 +956996,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T12:54:48.630586+00:00",
+  "updated_at": "2026-11-26T12:54:55.092663+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957922,9 +957917,13 @@
         {
           "identity": "244:1:12",
           "at": "2026-11-26T12:54:20.403915+00:00"
+        },
+        {
+          "identity": "244:2:1",
+          "at": "2026-11-26T12:54:55.092573+00:00"
         }
       ],
-      "retry_after": "2026-11-26T12:52:36.580823+00:00"
+      "retry_after": "2026-11-26T13:04:55.092573+00:00"
     },
     "610": {
       "recent_failures": [
