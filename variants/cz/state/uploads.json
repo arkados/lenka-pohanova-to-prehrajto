@@ -955626,12 +955626,6 @@
     },
     "244:4:1": {
       "episode_key": "proč? 13x proto:s4:e1",
-      "claim": {
-        "worker_id": "01bd1f741d5540a2a3b94a0cdd3060e9-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T06:42:20.252866+00:00",
-        "lease_expires_at": "2026-11-26T12:42:20.252894+00:00"
-      },
       "source": {
         "source_id": "32965376",
         "source_url": "https://sdilej.cz/32965376/proc-13x-proto-s04e01-cz-dabing-1080p.mkv",
@@ -955655,7 +955649,17 @@
         },
         "display_name": "13 Reasons Why S04E01 Winter Break 1080p CZ Dabing",
         "prepared_at": "2026-11-26T06:42:33.840233+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32965376:https://sdilej.cz/32965376/proc-13x-proto-s04e01-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T06:42:55.165034+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T06:42:55.165112+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -955663,7 +955667,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T06:42:49.109941+00:00",
+  "updated_at": "2026-11-26T06:42:55.165121+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -956586,19 +956590,19 @@
     "244": {
       "recent_failures": [
         {
-          "identity": "244:3:4",
-          "at": "2026-11-26T06:41:53.611150+00:00"
-        },
-        {
           "identity": "244:3:13",
           "at": "2026-11-26T06:42:14.249358+00:00"
         },
         {
           "identity": "244:3:6",
           "at": "2026-11-26T06:42:26.949842+00:00"
+        },
+        {
+          "identity": "244:4:1",
+          "at": "2026-11-26T06:42:55.165034+00:00"
         }
       ],
-      "retry_after": "2026-11-26T06:52:26.949842+00:00"
+      "retry_after": "2026-11-26T06:52:55.165034+00:00"
     },
     "610": {
       "recent_failures": [
