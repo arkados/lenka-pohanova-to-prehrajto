@@ -960582,12 +960582,6 @@
     },
     "1864:2:14": {
       "episode_key": "prezident v pořadí:s2:e14",
-      "claim": {
-        "worker_id": "574f7d283d324b6396a5eeb44fa27c1c-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:19:31.884002+00:00",
-        "lease_expires_at": "2026-11-26T20:19:31.884010+00:00"
-      },
       "source": {
         "source_id": "34118763",
         "source_url": "https://sdilej.cz/34118763/prezident-v-poradi-s02e14-cz.mp4",
@@ -960611,7 +960605,18 @@
         },
         "display_name": "Designated Survivor S02E14 In the Dark 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:19:57.929061+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118763:https://sdilej.cz/34118763/prezident-v-poradi-s02e14-cz.mp4",
+        "at": "2026-11-26T14:20:11.037878+00:00",
+        "retry_after": "2026-11-26T20:20:11.037878+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:20:11.037917+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -960619,7 +960624,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:20:04.333173+00:00",
+  "updated_at": "2026-11-26T14:20:11.037922+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -961591,6 +961596,10 @@
         {
           "identity": "1864:2:13",
           "at": "2026-11-26T14:20:04.333124+00:00"
+        },
+        {
+          "identity": "1864:2:14",
+          "at": "2026-11-26T14:20:11.037878+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:18:38.020644+00:00"
