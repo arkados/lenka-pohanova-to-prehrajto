@@ -964643,12 +964643,6 @@
     },
     "1408:6:21": {
       "episode_key": "dva z queensu:s6:e21",
-      "claim": {
-        "worker_id": "9f9dd201a3564855994c2d1c0d0b30e9-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:41:09.403958+00:00",
-        "lease_expires_at": "2026-11-26T21:41:09.403972+00:00"
-      },
       "source": {
         "source_id": "28350805",
         "source_url": "https://sdilej.cz/28350805/dva.z.queensu.06x21.hdtv.cz.avi",
@@ -964673,22 +964667,29 @@
         "display_name": "The King of Queens S06E21 Tank Heaven SD CZ Dabing",
         "prepared_at": "2026-11-26T15:41:26.557694+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419297",
-        "size_bytes": 333626762
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419297",
-        "size_bytes": 333626762,
-        "source_bytes_read": 333626762,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419297",
         "source_bytes_read": 333626762,
         "elapsed_seconds": 20.816,
         "finished_at": "2026-11-26T15:42:16.822479+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419297",
+          "size_bytes": 333626762,
+          "source_bytes_read": 333626762,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28350805",
+        "source_url": "https://sdilej.cz/28350805/dva.z.queensu.06x21.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419297",
+        "display_name": "The King of Queens S06E21 Tank Heaven SD CZ Dabing",
+        "uploaded_at": "2026-11-26T15:42:32.277193+00:00"
       }
     }
   },
@@ -964697,7 +964698,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:42:23.005534+00:00",
+  "updated_at": "2026-11-26T15:42:32.277206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
