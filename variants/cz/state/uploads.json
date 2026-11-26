@@ -979700,12 +979700,6 @@
     },
     "1967:20:5": {
       "episode_key": "vraždy v midsomeru:s20:e5",
-      "claim": {
-        "worker_id": "cc54b7c45d334db19112d3628c50fc65-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-26T23:48:59.679387+00:00",
-        "lease_expires_at": "2026-11-27T05:48:59.679403+00:00"
-      },
       "source": {
         "source_id": "28739942",
         "source_url": "https://sdilej.cz/28739942/vrazdy-v-midsomeru-s20e05-121-2020-hd-dokud-nas-smrt-nerozdeli-sd-.mp4",
@@ -979730,22 +979724,29 @@
         "display_name": "Midsomer Murders S20E05 Till Death Do Us Part 720p CZ Dabing",
         "prepared_at": "2026-11-26T23:49:13.122956+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31430051",
-        "size_bytes": 1172518527
-      },
-      "transfer_receipt": {
-        "target_video_id": "31430051",
-        "size_bytes": 1172518527,
-        "source_bytes_read": 1172518527,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31430051",
         "source_bytes_read": 1172518527,
         "elapsed_seconds": 124.916,
         "finished_at": "2026-11-26T23:51:58.067482+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31430051",
+          "size_bytes": 1172518527,
+          "source_bytes_read": 1172518527,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28739942",
+        "source_url": "https://sdilej.cz/28739942/vrazdy-v-midsomeru-s20e05-121-2020-hd-dokud-nas-smrt-nerozdeli-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31430051",
+        "display_name": "Midsomer Murders S20E05 Till Death Do Us Part 720p CZ Dabing",
+        "uploaded_at": "2026-11-26T23:52:10.777604+00:00"
       }
     },
     "1382:1:2": {
@@ -979791,7 +979792,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T23:51:58.067506+00:00",
+  "updated_at": "2026-11-26T23:52:10.777620+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
