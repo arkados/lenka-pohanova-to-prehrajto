@@ -953941,12 +953941,6 @@
     },
     "1408:5:5": {
       "episode_key": "dva z queensu:s5:e5",
-      "claim": {
-        "worker_id": "11d8811fddbc47af982b72b255ca3192-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T03:08:17.720499+00:00",
-        "lease_expires_at": "2026-11-26T09:08:17.720512+00:00"
-      },
       "source": {
         "source_id": "32659053",
         "source_url": "https://sdilej.cz/32659053/dva-z-queensu-s05e05-cz-dabing-.avi",
@@ -953970,7 +953964,17 @@
         },
         "display_name": "The King of Queens S05E05 Mammary Lane SD CZ Dabing",
         "prepared_at": "2026-11-26T03:08:24.550236+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659053:https://sdilej.cz/32659053/dva-z-queensu-s05e05-cz-dabing-.avi",
+        "at": "2026-11-26T03:08:44.092194+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T03:08:44.092228+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -953978,7 +953982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T03:08:38.137526+00:00",
+  "updated_at": "2026-11-26T03:08:44.092233+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -954967,6 +954971,10 @@
         {
           "identity": "1408:4:2",
           "at": "2026-11-26T03:06:35.372120+00:00"
+        },
+        {
+          "identity": "1408:5:5",
+          "at": "2026-11-26T03:08:44.092194+00:00"
         }
       ],
       "retry_after": "2026-11-26T02:38:18.602957+00:00"
