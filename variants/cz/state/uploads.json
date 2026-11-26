@@ -955671,12 +955671,6 @@
     },
     "1408:6:7": {
       "episode_key": "dva z queensu:s6:e7",
-      "claim": {
-        "worker_id": "fdb902603e4942efa228db75d9a72114-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T06:45:18.292302+00:00",
-        "lease_expires_at": "2026-11-26T12:45:18.292319+00:00"
-      },
       "source": {
         "source_id": "32659121",
         "source_url": "https://sdilej.cz/32659121/dva-z-queensu-s06e07-cz-dabing-.avi",
@@ -955700,7 +955694,17 @@
         },
         "display_name": "The King of Queens S06E07 Secret Garden SD CZ Dabing",
         "prepared_at": "2026-11-26T06:45:41.365692+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659121:https://sdilej.cz/32659121/dva-z-queensu-s06e07-cz-dabing-.avi",
+        "at": "2026-11-26T06:46:03.054609+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T06:46:03.054667+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -955708,7 +955712,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T06:45:55.185932+00:00",
+  "updated_at": "2026-11-26T06:46:03.054674+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -956721,9 +956725,13 @@
         {
           "identity": "1408:5:22",
           "at": "2026-11-26T06:45:55.185870+00:00"
+        },
+        {
+          "identity": "1408:6:7",
+          "at": "2026-11-26T06:46:03.054609+00:00"
         }
       ],
-      "retry_after": "2026-11-26T06:41:40.443774+00:00"
+      "retry_after": "2026-11-26T06:56:03.054609+00:00"
     }
   }
 }
