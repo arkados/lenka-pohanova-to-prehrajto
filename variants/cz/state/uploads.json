@@ -966177,12 +966177,6 @@
     },
     "1787:4:1": {
       "episode_key": "havaj 5-0:s4:e1",
-      "claim": {
-        "worker_id": "ce909b6654834450a60166cf8dc4d946-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:12:23.030453+00:00",
-        "lease_expires_at": "2026-11-26T22:12:23.030467+00:00"
-      },
       "source": {
         "source_id": "34604451",
         "source_url": "https://sdilej.cz/34604451/havaj-5-0-s04e01-cz.mp4",
@@ -966207,22 +966201,29 @@
         "display_name": "Hawaii Five-0 S04E01 Aloha Ke Kahi I Ke Kahi (We Need Each Another) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T16:12:58.682765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31420001",
-        "size_bytes": 2342135162
-      },
-      "transfer_receipt": {
-        "target_video_id": "31420001",
-        "size_bytes": 2342135162,
-        "source_bytes_read": 2342135162,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31420001",
         "source_bytes_read": 2342135162,
         "elapsed_seconds": 168.03,
         "finished_at": "2026-11-26T16:16:29.815183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31420001",
+          "size_bytes": 2342135162,
+          "source_bytes_read": 2342135162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34604451",
+        "source_url": "https://sdilej.cz/34604451/havaj-5-0-s04e01-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31420001",
+        "display_name": "Hawaii Five-0 S04E01 Aloha Ke Kahi I Ke Kahi (We Need Each Another) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T16:16:45.440035+00:00"
       }
     },
     "1787:3:24": {
@@ -966319,7 +966320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:16:38.759792+00:00",
+  "updated_at": "2026-11-26T16:16:45.440050+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
