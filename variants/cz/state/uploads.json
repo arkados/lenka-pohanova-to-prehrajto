@@ -961895,12 +961895,6 @@
     },
     "1408:5:24": {
       "episode_key": "dva z queensu:s5:e24",
-      "claim": {
-        "worker_id": "0ac2f474701d4a4ebac1dc5a24672c41-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:46:44.522868+00:00",
-        "lease_expires_at": "2026-11-26T20:46:44.522879+00:00"
-      },
       "source": {
         "source_id": "24574420",
         "source_url": "https://sdilej.cz/24574420/dva.z.queensu.05x24.hdtv.cz.avi",
@@ -961925,22 +961919,29 @@
         "display_name": "The King of Queens S05E24 Taste Buds SD CZ Dabing",
         "prepared_at": "2026-11-26T14:46:59.366267+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31418072",
-        "size_bytes": 315805520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31418072",
-        "size_bytes": 315805520,
-        "source_bytes_read": 315805520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31418072",
         "source_bytes_read": 315805520,
         "elapsed_seconds": 24.137,
         "finished_at": "2026-11-26T14:47:58.471246+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31418072",
+          "size_bytes": 315805520,
+          "source_bytes_read": 315805520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24574420",
+        "source_url": "https://sdilej.cz/24574420/dva.z.queensu.05x24.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31418072",
+        "display_name": "The King of Queens S05E24 Taste Buds SD CZ Dabing",
+        "uploaded_at": "2026-11-26T14:48:08.583968+00:00"
       }
     }
   },
@@ -961949,7 +961950,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:47:58.471266+00:00",
+  "updated_at": "2026-11-26T14:48:08.583985+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
