@@ -953348,12 +953348,6 @@
     },
     "1408:4:7": {
       "episode_key": "dva z queensu:s4:e7",
-      "claim": {
-        "worker_id": "f902d2d8c29340d7ae70013eedcafcb1-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:53:47.611456+00:00",
-        "lease_expires_at": "2026-11-26T08:53:47.611466+00:00"
-      },
       "source": {
         "source_id": "32658986",
         "source_url": "https://sdilej.cz/32658986/dva-z-queensu-s04e07-cz-dabing-.avi",
@@ -953377,7 +953371,17 @@
         },
         "display_name": "The King of Queens S04E07 Lyin' Hearted SD CZ Dabing",
         "prepared_at": "2026-11-26T02:54:13.513760+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658986:https://sdilej.cz/32658986/dva-z-queensu-s04e07-cz-dabing-.avi",
+        "at": "2026-11-26T02:54:38.214594+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T02:54:38.214629+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:4:11": {
       "episode_key": "dva z queensu:s4:e11",
@@ -953422,7 +953426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:54:32.221840+00:00",
+  "updated_at": "2026-11-26T02:54:38.214634+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -954427,6 +954431,10 @@
         {
           "identity": "1408:4:3",
           "at": "2026-11-26T02:53:35.334231+00:00"
+        },
+        {
+          "identity": "1408:4:7",
+          "at": "2026-11-26T02:54:38.214594+00:00"
         }
       ],
       "retry_after": "2026-11-26T02:38:18.602957+00:00"
