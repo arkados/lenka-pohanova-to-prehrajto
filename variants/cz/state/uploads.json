@@ -967303,12 +967303,6 @@
     },
     "1787:7:6": {
       "episode_key": "havaj 5-0:s7:e6",
-      "claim": {
-        "worker_id": "a119e615fae84f28b706b9c999653960-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:37:00.041387+00:00",
-        "lease_expires_at": "2026-11-26T22:37:00.041403+00:00"
-      },
       "source": {
         "source_id": "34609512",
         "source_url": "https://sdilej.cz/34609512/havaj-5-0-s07e06-cz.mp4",
@@ -967349,7 +967343,13 @@
         "elapsed_seconds": 371.827,
         "finished_at": "2026-11-26T16:44:04.392519+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:45:56.422739+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1787:7:7": {
       "episode_key": "havaj 5-0:s7:e7",
@@ -967416,7 +967416,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:44:36.896727+00:00",
+  "updated_at": "2026-11-26T16:45:56.422756+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
