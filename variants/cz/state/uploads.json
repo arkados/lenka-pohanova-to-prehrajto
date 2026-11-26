@@ -959119,12 +959119,6 @@
     },
     "1864:2:7": {
       "episode_key": "prezident v pořadí:s2:e7",
-      "claim": {
-        "worker_id": "87c43fed97d5441da9b39a8a6a5a5c1a-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:52:04.740535+00:00",
-        "lease_expires_at": "2026-11-26T19:52:04.740546+00:00"
-      },
       "source": {
         "source_id": "34118704",
         "source_url": "https://sdilej.cz/34118704/prezident-v-poradi-s02e07-cz.mp4",
@@ -959148,7 +959142,18 @@
         },
         "display_name": "Designated Survivor S02E07 Family Ties 720p CZ Dabing",
         "prepared_at": "2026-11-26T13:52:35.029279+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118704:https://sdilej.cz/34118704/prezident-v-poradi-s02e07-cz.mp4",
+        "at": "2026-11-26T13:52:46.260248+00:00",
+        "retry_after": "2026-11-26T19:52:46.260248+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T13:52:46.260322+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -959156,7 +959161,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:52:35.029295+00:00",
+  "updated_at": "2026-11-26T13:52:46.260329+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960126,19 +960131,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:4",
-          "at": "2026-11-26T13:51:35.955489+00:00"
-        },
-        {
           "identity": "1864:2:5",
           "at": "2026-11-26T13:52:22.631628+00:00"
         },
         {
           "identity": "1864:2:6",
           "at": "2026-11-26T13:52:28.615862+00:00"
+        },
+        {
+          "identity": "1864:2:7",
+          "at": "2026-11-26T13:52:46.260248+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:02:28.615862+00:00"
+      "retry_after": "2026-11-26T14:02:46.260248+00:00"
     },
     "1408": {
       "recent_failures": [
