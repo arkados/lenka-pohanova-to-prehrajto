@@ -964956,12 +964956,6 @@
     },
     "1408:7:3": {
       "episode_key": "dva z queensu:s7:e3",
-      "claim": {
-        "worker_id": "cca9f24035fc403398e66b5388cdd66d-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:47:37.841859+00:00",
-        "lease_expires_at": "2026-11-26T21:47:37.841873+00:00"
-      },
       "source": {
         "source_id": "8558137",
         "source_url": "https://sdilej.cz/8558137/dva.z.queensu.07x03.hdtv.cz.avi",
@@ -964986,22 +964980,29 @@
         "display_name": "The King of Queens S07E03 Furious Gorge SD CZ Dabing",
         "prepared_at": "2026-11-26T15:48:04.154642+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419438",
-        "size_bytes": 337301130
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419438",
-        "size_bytes": 337301130,
-        "source_bytes_read": 337301130,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419438",
         "source_bytes_read": 337301130,
         "elapsed_seconds": 24.753,
         "finished_at": "2026-11-26T15:49:04.656103+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419438",
+          "size_bytes": 337301130,
+          "source_bytes_read": 337301130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8558137",
+        "source_url": "https://sdilej.cz/8558137/dva.z.queensu.07x03.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419438",
+        "display_name": "The King of Queens S07E03 Furious Gorge SD CZ Dabing",
+        "uploaded_at": "2026-11-26T15:49:20.816015+00:00"
       }
     },
     "1864:3:10": {
@@ -965084,7 +965085,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:49:12.936233+00:00",
+  "updated_at": "2026-11-26T15:49:20.816037+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
