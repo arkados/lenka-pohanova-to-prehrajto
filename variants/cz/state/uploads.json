@@ -966960,12 +966960,6 @@
     },
     "1787:6:15": {
       "episode_key": "havaj 5-0:s6:e15",
-      "claim": {
-        "worker_id": "559c9a0883ee45cb9ee014f509ac24af-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:31:21.893052+00:00",
-        "lease_expires_at": "2026-11-26T22:31:21.893063+00:00"
-      },
       "source": {
         "source_id": "34606016",
         "source_url": "https://sdilej.cz/34606016/havaj-5-0-s06e15-cz.mp4",
@@ -966990,22 +966984,29 @@
         "display_name": "Hawaii Five-0 S06E15 Ke Koa Lokomaika`i (The Good Soldier) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T16:31:29.749735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31420441",
-        "size_bytes": 1460295286
-      },
-      "transfer_receipt": {
-        "target_video_id": "31420441",
-        "size_bytes": 1460295286,
-        "source_bytes_read": 1460295286,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31420441",
         "source_bytes_read": 1460295286,
         "elapsed_seconds": 177.538,
         "finished_at": "2026-11-26T16:35:02.954461+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31420441",
+          "size_bytes": 1460295286,
+          "source_bytes_read": 1460295286,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34606016",
+        "source_url": "https://sdilej.cz/34606016/havaj-5-0-s06e15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31420441",
+        "display_name": "Hawaii Five-0 S06E15 Ke Koa Lokomaika`i (The Good Soldier) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T16:35:16.868450+00:00"
       }
     },
     "1408:8:10": {
@@ -967085,7 +967086,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:35:10.593268+00:00",
+  "updated_at": "2026-11-26T16:35:16.868464+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
