@@ -961738,12 +961738,6 @@
     },
     "1864:3:1": {
       "episode_key": "prezident v pořadí:s3:e1",
-      "claim": {
-        "worker_id": "9758123845ed4eb8b4369f1d362f491f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:44:31.725673+00:00",
-        "lease_expires_at": "2026-11-26T20:44:31.725689+00:00"
-      },
       "source": {
         "source_id": "34118834",
         "source_url": "https://sdilej.cz/34118834/prezident-v-poradi-s03e01-cz.mp4",
@@ -961767,7 +961761,18 @@
         },
         "display_name": "Designated Survivor S03E01 #thesystemisbroken 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:44:38.901481+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118834:https://sdilej.cz/34118834/prezident-v-poradi-s03e01-cz.mp4",
+        "at": "2026-11-26T14:44:51.227173+00:00",
+        "retry_after": "2026-11-26T20:44:51.227173+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:44:51.227213+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -961775,7 +961780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:44:44.824121+00:00",
+  "updated_at": "2026-11-26T14:44:51.227218+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -962747,6 +962752,10 @@
         {
           "identity": "1864:2:22",
           "at": "2026-11-26T14:44:19.694380+00:00"
+        },
+        {
+          "identity": "1864:3:1",
+          "at": "2026-11-26T14:44:51.227173+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:43:42.638624+00:00"
