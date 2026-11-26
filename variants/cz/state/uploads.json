@@ -958220,12 +958220,6 @@
     },
     "1408:2:11": {
       "episode_key": "dva z queensu:s2:e11",
-      "claim": {
-        "worker_id": "c06a868ae2044ca8b32179729a56a35f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:37:30.112478+00:00",
-        "lease_expires_at": "2026-11-26T19:37:30.112491+00:00"
-      },
       "source": {
         "source_id": "27329988",
         "source_url": "https://sdilej.cz/27329988/dva.z.queensu.02x11.hdtv.cz.avi",
@@ -958250,22 +958244,29 @@
         "display_name": "The King of Queens S02E11 Sparing Carrie SD CZ Dabing",
         "prepared_at": "2026-11-26T13:37:54.116845+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31416612",
-        "size_bytes": 358229404
-      },
-      "transfer_receipt": {
-        "target_video_id": "31416612",
-        "size_bytes": 358229404,
-        "source_bytes_read": 358229404,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31416612",
         "source_bytes_read": 358229404,
         "elapsed_seconds": 24.264,
         "finished_at": "2026-11-26T13:38:59.027228+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31416612",
+          "size_bytes": 358229404,
+          "source_bytes_read": 358229404,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27329988",
+        "source_url": "https://sdilej.cz/27329988/dva.z.queensu.02x11.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31416612",
+        "display_name": "The King of Queens S02E11 Sparing Carrie SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:39:18.073435+00:00"
       }
     }
   },
@@ -958274,7 +958275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:39:11.411461+00:00",
+  "updated_at": "2026-11-26T13:39:18.073450+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
