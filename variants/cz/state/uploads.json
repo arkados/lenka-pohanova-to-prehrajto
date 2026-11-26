@@ -961788,12 +961788,6 @@
     },
     "1864:3:2": {
       "episode_key": "prezident v pořadí:s3:e2",
-      "claim": {
-        "worker_id": "1d1f207686324ac49aee8f285ea51db3-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:45:27.255853+00:00",
-        "lease_expires_at": "2026-11-26T20:45:27.255862+00:00"
-      },
       "source": {
         "source_id": "34118840",
         "source_url": "https://sdilej.cz/34118840/prezident-v-poradi-s03e02-cz.mp4",
@@ -961817,7 +961811,18 @@
         },
         "display_name": "Designated Survivor S03E02 #slipperyslope 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:45:35.482541+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118840:https://sdilej.cz/34118840/prezident-v-poradi-s03e02-cz.mp4",
+        "at": "2026-11-26T14:45:48.546268+00:00",
+        "retry_after": "2026-11-26T20:45:48.546268+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:45:48.546374+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -961825,7 +961830,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:45:42.272410+00:00",
+  "updated_at": "2026-11-26T14:45:48.546382+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -962801,9 +962806,13 @@
         {
           "identity": "1864:3:1",
           "at": "2026-11-26T14:44:51.227173+00:00"
+        },
+        {
+          "identity": "1864:3:2",
+          "at": "2026-11-26T14:45:48.546268+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:43:42.638624+00:00"
+      "retry_after": "2026-11-26T14:55:48.546268+00:00"
     },
     "1408": {
       "recent_failures": [
