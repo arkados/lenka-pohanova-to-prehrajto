@@ -955141,12 +955141,6 @@
     },
     "244:3:5": {
       "episode_key": "proč? 13x proto:s3:e5",
-      "claim": {
-        "worker_id": "695d99c4007c4fb1b0c5d98e9909e92e-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T05:40:47.878321+00:00",
-        "lease_expires_at": "2026-11-26T11:40:47.878337+00:00"
-      },
       "source": {
         "source_id": "32585857",
         "source_url": "https://sdilej.cz/32585857/proc-13x-proto-s03e05-nikdo-neni-cisty-2019-1080p-cz-eng-dabing.mkv",
@@ -955171,22 +955165,29 @@
         "display_name": "13 Reasons Why S03E05 Nobody's Clean 1080p CZ Dabing",
         "prepared_at": "2026-11-26T05:41:09.098493+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31400389",
-        "size_bytes": 1092517269
-      },
-      "transfer_receipt": {
-        "target_video_id": "31400389",
-        "size_bytes": 1092517269,
-        "source_bytes_read": 1092517269,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31400389",
         "source_bytes_read": 1092517269,
         "elapsed_seconds": 99.537,
         "finished_at": "2026-11-26T05:43:30.232721+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31400389",
+          "size_bytes": 1092517269,
+          "source_bytes_read": 1092517269,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585857",
+        "source_url": "https://sdilej.cz/32585857/proc-13x-proto-s03e05-nikdo-neni-cisty-2019-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31400389",
+        "display_name": "13 Reasons Why S03E05 Nobody's Clean 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T05:43:46.640366+00:00"
       }
     },
     "244:3:6": {
@@ -955319,7 +955320,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T05:43:36.821369+00:00",
+  "updated_at": "2026-11-26T05:43:46.640381+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
