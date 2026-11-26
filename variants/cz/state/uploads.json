@@ -966983,12 +966983,6 @@
     },
     "1408:8:10": {
       "episode_key": "dva z queensu:s8:e10",
-      "claim": {
-        "worker_id": "66df83281887492fa9c319bed9b12cc8-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:34:17.435677+00:00",
-        "lease_expires_at": "2026-11-26T22:34:17.435689+00:00"
-      },
       "source": {
         "source_id": "32659259",
         "source_url": "https://sdilej.cz/32659259/dva-z-queensu-s08e10-cz-dabing-.avi",
@@ -967012,7 +967006,18 @@
         },
         "display_name": "The King of Queens S08E10 Raygin Bulls SD CZ Dabing",
         "prepared_at": "2026-11-26T16:34:25.319783+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659259:https://sdilej.cz/32659259/dva-z-queensu-s08e10-cz-dabing-.avi",
+        "at": "2026-11-26T16:34:33.263940+00:00",
+        "retry_after": "2026-11-26T22:34:33.263940+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:34:33.263985+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -967020,7 +967025,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:34:25.319799+00:00",
+  "updated_at": "2026-11-26T16:34:33.263991+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -967999,16 +968004,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:8:6",
-          "at": "2026-11-26T16:22:57.772785+00:00"
-        },
-        {
-          "identity": "1408:8:8",
-          "at": "2026-11-26T16:23:34.965548+00:00"
-        },
-        {
-          "identity": "1408:8:9",
-          "at": "2026-11-26T16:23:59.004352+00:00"
+          "identity": "1408:8:10",
+          "at": "2026-11-26T16:34:33.263940+00:00"
         }
       ],
       "retry_after": "2026-11-26T16:33:59.004352+00:00"
