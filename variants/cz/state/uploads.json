@@ -966050,12 +966050,6 @@
     },
     "1787:3:15": {
       "episode_key": "havaj 5-0:s3:e15",
-      "claim": {
-        "worker_id": "217003ca00ba483987584497ce64456e-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:09:08.845157+00:00",
-        "lease_expires_at": "2026-11-26T22:09:08.845166+00:00"
-      },
       "source": {
         "source_id": "25775887",
         "source_url": "https://sdilej.cz/25775887/havaj-5-0-s03e15-cz-dabing-hawaii-five-0.mkv",
@@ -966080,22 +966074,29 @@
         "display_name": "Hawaii Five-0 S03E15 Hookman SD CZ Dabing",
         "prepared_at": "2026-11-26T16:09:25.047097+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419933",
-        "size_bytes": 522064558
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419933",
-        "size_bytes": 522064558,
-        "source_bytes_read": 522064558,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419933",
         "source_bytes_read": 522064558,
         "elapsed_seconds": 93.96,
         "finished_at": "2026-11-26T16:11:29.071486+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419933",
+          "size_bytes": 522064558,
+          "source_bytes_read": 522064558,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25775887",
+        "source_url": "https://sdilej.cz/25775887/havaj-5-0-s03e15-cz-dabing-hawaii-five-0.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419933",
+        "display_name": "Hawaii Five-0 S03E15 Hookman SD CZ Dabing",
+        "uploaded_at": "2026-11-26T16:11:54.484356+00:00"
       }
     },
     "1787:3:21": {
@@ -966155,7 +966156,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:11:46.903312+00:00",
+  "updated_at": "2026-11-26T16:11:54.484370+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
