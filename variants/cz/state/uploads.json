@@ -594555,13 +594555,10 @@
       },
       "source_repair_requested": {
         "base": "35339704:https://sdilej.cz/35339704/9-1-1-s03e14-cz-dabing.mkv",
-        "at": "2026-11-26T12:10:45.812864+00:00"
+        "at": "2026-11-26T13:12:37.492583+00:00",
+        "retry_after": "2026-11-26T19:12:37.492583+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T10:08:10.551290+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T11:09:29.925422+00:00",
           "error": "SourceUnavailable"
@@ -594569,14 +594566,12 @@
         {
           "at": "2026-11-26T12:10:45.812931+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T13:12:37.492663+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "b42f3d14a61a4f2bbf05f8915d30bcc8-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:11:47.617042+00:00",
-        "lease_expires_at": "2026-11-26T19:11:47.617053+00:00"
-      }
+      ]
     },
     "1765:3:15": {
       "episode_key": "záchranáři l. a.:s3:e15",
@@ -957337,7 +957332,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:12:30.457355+00:00",
+  "updated_at": "2026-11-26T13:12:37.492671+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957777,9 +957772,13 @@
         {
           "identity": "1765:3:11",
           "at": "2026-11-26T13:11:29.510918+00:00"
+        },
+        {
+          "identity": "1765:3:14",
+          "at": "2026-11-26T13:12:37.492583+00:00"
         }
       ],
-      "retry_after": "2026-11-26T13:08:43.691446+00:00"
+      "retry_after": "2026-11-26T13:22:37.492583+00:00"
     },
     "792": {
       "recent_failures": [
