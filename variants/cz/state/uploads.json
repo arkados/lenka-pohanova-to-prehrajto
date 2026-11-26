@@ -955990,12 +955990,6 @@
     },
     "1864:2:1": {
       "episode_key": "prezident v pořadí:s2:e1",
-      "claim": {
-        "worker_id": "f7672bb74cb24faba1be88e4fbd3a389-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T07:42:55.693021+00:00",
-        "lease_expires_at": "2026-11-26T13:42:55.693036+00:00"
-      },
       "source": {
         "source_id": "34118625",
         "source_url": "https://sdilej.cz/34118625/prezident-v-poradi-s02e01-cz.mp4",
@@ -956019,7 +956013,17 @@
         },
         "display_name": "Designated Survivor S02E01 One Year In 720p CZ Dabing",
         "prepared_at": "2026-11-26T07:43:09.863504+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118625:https://sdilej.cz/34118625/prezident-v-poradi-s02e01-cz.mp4",
+        "at": "2026-11-26T07:43:30.267159+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T07:43:30.267222+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -956027,7 +956031,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T07:43:24.784220+00:00",
+  "updated_at": "2026-11-26T07:43:30.267228+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957017,19 +957021,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:1",
-          "at": "2026-11-26T07:41:40.307833+00:00"
-        },
-        {
           "identity": "1864:1:20",
           "at": "2026-11-26T07:42:49.309502+00:00"
         },
         {
           "identity": "1864:1:21",
           "at": "2026-11-26T07:43:02.227783+00:00"
+        },
+        {
+          "identity": "1864:2:1",
+          "at": "2026-11-26T07:43:30.267159+00:00"
         }
       ],
-      "retry_after": "2026-11-26T07:53:02.227783+00:00"
+      "retry_after": "2026-11-26T07:53:30.267159+00:00"
     },
     "1408": {
       "recent_failures": [
