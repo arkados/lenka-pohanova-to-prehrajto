@@ -966578,12 +966578,6 @@
     },
     "1408:8:8": {
       "episode_key": "dva z queensu:s8:e8",
-      "claim": {
-        "worker_id": "f41545a8dc6b43f7b378d3e192753f59-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:23:03.776489+00:00",
-        "lease_expires_at": "2026-11-26T22:23:03.776498+00:00"
-      },
       "source": {
         "source_id": "32659250",
         "source_url": "https://sdilej.cz/32659250/dva-z-queensu-s08e08-cz-dabing-.avi",
@@ -966607,7 +966601,18 @@
         },
         "display_name": "The King of Queens S08E08 Move Doubt SD CZ Dabing",
         "prepared_at": "2026-11-26T16:23:18.498730+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659250:https://sdilej.cz/32659250/dva-z-queensu-s08e08-cz-dabing-.avi",
+        "at": "2026-11-26T16:23:34.965548+00:00",
+        "retry_after": "2026-11-26T22:23:34.965548+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:23:34.965630+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:8:9": {
       "episode_key": "dva z queensu:s8:e9",
@@ -966633,7 +966638,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:23:28.537301+00:00",
+  "updated_at": "2026-11-26T16:23:34.965636+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -967612,19 +967617,19 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:8:5",
-          "at": "2026-11-26T16:22:33.951454+00:00"
-        },
-        {
           "identity": "1408:8:4",
           "at": "2026-11-26T16:22:40.821606+00:00"
         },
         {
           "identity": "1408:8:6",
           "at": "2026-11-26T16:22:57.772785+00:00"
+        },
+        {
+          "identity": "1408:8:8",
+          "at": "2026-11-26T16:23:34.965548+00:00"
         }
       ],
-      "retry_after": "2026-11-26T16:32:57.772785+00:00"
+      "retry_after": "2026-11-26T16:33:34.965548+00:00"
     }
   }
 }
