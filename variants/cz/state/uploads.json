@@ -952607,12 +952607,6 @@
     },
     "1408:2:22": {
       "episode_key": "dva z queensu:s2:e22",
-      "claim": {
-        "worker_id": "e1d99b34a359480888c30e29332d2796-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:06:37.150468+00:00",
-        "lease_expires_at": "2026-11-26T08:06:37.150477+00:00"
-      },
       "source": {
         "source_id": "32658892",
         "source_url": "https://sdilej.cz/32658892/dva-z-queensu-s02e22-cz-dabing-.avi",
@@ -952636,7 +952630,17 @@
         },
         "display_name": "The King of Queens S02E22 Soft Touch SD CZ Dabing",
         "prepared_at": "2026-11-26T02:06:43.225682+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658892:https://sdilej.cz/32658892/dva-z-queensu-s02e22-cz-dabing-.avi",
+        "at": "2026-11-26T02:06:58.922407+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T02:06:58.922441+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -952644,7 +952648,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:06:53.391466+00:00",
+  "updated_at": "2026-11-26T02:06:58.922446+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -953633,6 +953637,10 @@
         {
           "identity": "1408:2:13",
           "at": "2026-11-26T02:06:11.660353+00:00"
+        },
+        {
+          "identity": "1408:2:22",
+          "at": "2026-11-26T02:06:58.922407+00:00"
         }
       ],
       "retry_after": "2026-11-26T02:03:15.601807+00:00"
