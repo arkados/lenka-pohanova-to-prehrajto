@@ -967436,12 +967436,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "768a71c3f2a040b9beb8e5f710d9ae5d-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:08:01.320925+00:00",
-        "lease_expires_at": "2026-11-26T23:08:01.320938+00:00"
-      },
       "source": {
         "source_id": "8628969",
         "source_url": "https://sdilej.cz/8628969/dva.z.queensu.09x02.hdtv.cz.avi",
@@ -967466,22 +967460,29 @@
         "display_name": "The King of Queens S09E02 Affair Trade SD CZ Dabing",
         "prepared_at": "2026-11-26T17:08:17.795266+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421300",
-        "size_bytes": 327021912
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421300",
-        "size_bytes": 327021912,
-        "source_bytes_read": 327021912,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421300",
         "source_bytes_read": 327021912,
         "elapsed_seconds": 39.588,
         "finished_at": "2026-11-26T17:09:42.710359+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421300",
+          "size_bytes": 327021912,
+          "source_bytes_read": 327021912,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8628969",
+        "source_url": "https://sdilej.cz/8628969/dva.z.queensu.09x02.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421300",
+        "display_name": "The King of Queens S09E02 Affair Trade SD CZ Dabing",
+        "uploaded_at": "2026-11-26T17:09:57.825133+00:00"
       }
     },
     "1408:8:23": {
@@ -967873,7 +967874,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:09:49.074005+00:00",
+  "updated_at": "2026-11-26T17:09:57.825149+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
