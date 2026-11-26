@@ -967643,12 +967643,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "2c831e8532b44c24a135231d0c31db55-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:11:36.192282+00:00",
-        "lease_expires_at": "2026-11-26T23:11:36.192290+00:00"
-      },
       "source": {
         "source_id": "8628982",
         "source_url": "https://sdilej.cz/8628982/dva.z.queensu.09x05.hdtv.cz.avi",
@@ -967673,22 +967667,29 @@
         "display_name": "The King of Queens S09E05 Ruff Goin' SD CZ Dabing",
         "prepared_at": "2026-11-26T17:11:43.859384+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421373",
-        "size_bytes": 328494330
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421373",
-        "size_bytes": 328494330,
-        "source_bytes_read": 328494330,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421373",
         "source_bytes_read": 328494330,
         "elapsed_seconds": 21.741,
         "finished_at": "2026-11-26T17:12:31.038415+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421373",
+          "size_bytes": 328494330,
+          "source_bytes_read": 328494330,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8628982",
+        "source_url": "https://sdilej.cz/8628982/dva.z.queensu.09x05.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421373",
+        "display_name": "The King of Queens S09E05 Ruff Goin' SD CZ Dabing",
+        "uploaded_at": "2026-11-26T17:12:45.178060+00:00"
       }
     },
     "1408:9:11": {
@@ -967982,7 +967983,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:12:37.329183+00:00",
+  "updated_at": "2026-11-26T17:12:45.178078+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
