@@ -962039,12 +962039,6 @@
     },
     "1408:6:1": {
       "episode_key": "dva z queensu:s6:e1",
-      "claim": {
-        "worker_id": "1be95d6e81bc4e64890ba86863569817-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:49:37.139316+00:00",
-        "lease_expires_at": "2026-11-26T20:49:37.139332+00:00"
-      },
       "source": {
         "source_id": "24587798",
         "source_url": "https://sdilej.cz/24587798/dva.z.queensu.06x01.hdtv.cz.avi",
@@ -962069,22 +962063,29 @@
         "display_name": "The King of Queens S06E01 Doug Less (1) SD CZ Dabing",
         "prepared_at": "2026-11-26T14:49:47.749741+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31418127",
-        "size_bytes": 334411946
-      },
-      "transfer_receipt": {
-        "target_video_id": "31418127",
-        "size_bytes": 334411946,
-        "source_bytes_read": 334411946,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31418127",
         "source_bytes_read": 334411946,
         "elapsed_seconds": 29.083,
         "finished_at": "2026-11-26T14:50:46.536012+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31418127",
+          "size_bytes": 334411946,
+          "source_bytes_read": 334411946,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24587798",
+        "source_url": "https://sdilej.cz/24587798/dva.z.queensu.06x01.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31418127",
+        "display_name": "The King of Queens S06E01 Doug Less (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-26T14:51:12.094038+00:00"
       }
     },
     "1408:6:3": {
@@ -962129,7 +962130,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:51:04.377051+00:00",
+  "updated_at": "2026-11-26T14:51:12.094057+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
