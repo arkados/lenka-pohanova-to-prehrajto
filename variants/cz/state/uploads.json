@@ -953122,12 +953122,6 @@
     },
     "1408:3:24": {
       "episode_key": "dva z queensu:s3:e24",
-      "claim": {
-        "worker_id": "c21038a8857d43549f7556c6aff42a9c-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:45:35.316510+00:00",
-        "lease_expires_at": "2026-11-26T08:45:35.316521+00:00"
-      },
       "source": {
         "source_id": "24563110",
         "source_url": "https://sdilej.cz/24563110/dva.z.queensu.03x24.hdtv.cz.avi",
@@ -953152,22 +953146,29 @@
         "display_name": "The King of Queens S03E24 Pregnant Pause (1) SD CZ Dabing",
         "prepared_at": "2026-11-26T02:45:52.484838+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31396603",
-        "size_bytes": 361392832
-      },
-      "transfer_receipt": {
-        "target_video_id": "31396603",
-        "size_bytes": 361392832,
-        "source_bytes_read": 361392832,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31396603",
         "source_bytes_read": 361392832,
         "elapsed_seconds": 26.14,
         "finished_at": "2026-11-26T02:46:43.623515+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31396603",
+          "size_bytes": 361392832,
+          "source_bytes_read": 361392832,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24563110",
+        "source_url": "https://sdilej.cz/24563110/dva.z.queensu.03x24.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31396603",
+        "display_name": "The King of Queens S03E24 Pregnant Pause (1) SD CZ Dabing",
+        "uploaded_at": "2026-11-26T02:47:01.561211+00:00"
       }
     },
     "1408:4:2": {
@@ -953209,7 +953210,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:46:55.354806+00:00",
+  "updated_at": "2026-11-26T02:47:01.561225+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
