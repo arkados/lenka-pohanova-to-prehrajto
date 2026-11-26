@@ -953261,12 +953261,6 @@
     },
     "1408:4:3": {
       "episode_key": "dva z queensu:s4:e3",
-      "claim": {
-        "worker_id": "1990ef03373b42299cf1031d23707995-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:53:00.515295+00:00",
-        "lease_expires_at": "2026-11-26T08:53:00.515306+00:00"
-      },
       "source": {
         "source_id": "32658976",
         "source_url": "https://sdilej.cz/32658976/dva-z-queensu-s04e03-cz-dabing-.avi",
@@ -953290,7 +953284,17 @@
         },
         "display_name": "The King of Queens S04E03 Mean Streak SD CZ Dabing",
         "prepared_at": "2026-11-26T02:53:17.820914+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658976:https://sdilej.cz/32658976/dva-z-queensu-s04e03-cz-dabing-.avi",
+        "at": "2026-11-26T02:53:35.334231+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T02:53:35.334261+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:4:6": {
       "episode_key": "dva z queensu:s4:e6",
@@ -953331,7 +953335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:53:29.165763+00:00",
+  "updated_at": "2026-11-26T02:53:35.334266+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -954334,8 +954338,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:4:2",
-          "at": "2026-11-26T02:47:10.567197+00:00"
+          "identity": "1408:4:3",
+          "at": "2026-11-26T02:53:35.334231+00:00"
         }
       ],
       "retry_after": "2026-11-26T02:38:18.602957+00:00"
