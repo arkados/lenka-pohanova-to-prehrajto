@@ -953230,12 +953230,6 @@
     },
     "1864:1:18": {
       "episode_key": "prezident v pořadí:s1:e18",
-      "claim": {
-        "worker_id": "3e9f2e6666c040ee877381392b584e95-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:52:17.182059+00:00",
-        "lease_expires_at": "2026-11-26T08:52:17.182070+00:00"
-      },
       "source": {
         "source_id": "34118560",
         "source_url": "https://sdilej.cz/34118560/prezident-v-poradi-s01e18-cz.mp4",
@@ -953259,7 +953253,17 @@
         },
         "display_name": "Designated Survivor S01E18 Lazarus 720p CZ Dabing",
         "prepared_at": "2026-11-26T02:52:35.588848+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118560:https://sdilej.cz/34118560/prezident-v-poradi-s01e18-cz.mp4",
+        "at": "2026-11-26T02:52:55.263744+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T02:52:55.263805+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -953267,7 +953271,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:52:50.046011+00:00",
+  "updated_at": "2026-11-26T02:52:55.263810+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -954253,19 +954257,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:7",
-          "at": "2026-11-26T02:51:51.206555+00:00"
-        },
-        {
           "identity": "1864:1:14",
           "at": "2026-11-26T02:52:29.207885+00:00"
         },
         {
           "identity": "1864:1:11",
           "at": "2026-11-26T02:52:42.277065+00:00"
+        },
+        {
+          "identity": "1864:1:18",
+          "at": "2026-11-26T02:52:55.263744+00:00"
         }
       ],
-      "retry_after": "2026-11-26T03:02:42.277065+00:00"
+      "retry_after": "2026-11-26T03:02:55.263744+00:00"
     },
     "1408": {
       "recent_failures": [
