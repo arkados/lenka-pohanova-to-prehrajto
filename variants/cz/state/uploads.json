@@ -965587,12 +965587,6 @@
     },
     "1408:7:15": {
       "episode_key": "dva z queensu:s7:e15",
-      "claim": {
-        "worker_id": "bf9cc150ca4a4fd397f9629bcd6ab49e-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T15:59:04.892812+00:00",
-        "lease_expires_at": "2026-11-26T21:59:04.892825+00:00"
-      },
       "source": {
         "source_id": "24654759",
         "source_url": "https://sdilej.cz/24654759/dva.z.queensu.07x15.hdtv.cz.avi",
@@ -965633,7 +965627,13 @@
         "elapsed_seconds": 20.807,
         "finished_at": "2026-11-26T16:00:35.092741+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:02:10.627471+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1408:7:16": {
       "episode_key": "dva z queensu:s7:e16",
@@ -965691,7 +965691,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:02:03.162988+00:00",
+  "updated_at": "2026-11-26T16:02:10.627488+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
