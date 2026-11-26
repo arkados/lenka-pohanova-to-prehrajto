@@ -951362,12 +951362,6 @@
     },
     "575:3:7": {
       "episode_key": "stoupenci zla:s3:e7",
-      "claim": {
-        "worker_id": "cf61a25efa8147ac8cb0df11b04b2c7e-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:52:52.468531+00:00",
-        "lease_expires_at": "2026-11-26T06:52:52.468550+00:00"
-      },
       "source": {
         "source_id": "12114818",
         "source_url": "https://sdilej.cz/12114818/stoupenci-zla-3x07.-webrip-cz-ss23-bt-.mkv",
@@ -951392,22 +951386,29 @@
         "display_name": "The Following S03E07 The Hunt 720p CZ Dabing",
         "prepared_at": "2026-11-26T00:53:12.490897+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31394341",
-        "size_bytes": 1007785651
-      },
-      "transfer_receipt": {
-        "target_video_id": "31394341",
-        "size_bytes": 1007785651,
-        "source_bytes_read": 1007785651,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31394341",
         "source_bytes_read": 1007785651,
         "elapsed_seconds": 172.189,
         "finished_at": "2026-11-26T00:56:41.268910+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31394341",
+          "size_bytes": 1007785651,
+          "source_bytes_read": 1007785651,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12114818",
+        "source_url": "https://sdilej.cz/12114818/stoupenci-zla-3x07.-webrip-cz-ss23-bt-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31394341",
+        "display_name": "The Following S03E07 The Hunt 720p CZ Dabing",
+        "uploaded_at": "2026-11-26T00:56:56.960305+00:00"
       }
     },
     "575:3:10": {
@@ -951625,7 +951626,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:56:48.814030+00:00",
+  "updated_at": "2026-11-26T00:56:56.960325+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
