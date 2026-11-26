@@ -956250,12 +956250,6 @@
     },
     "1408:6:15": {
       "episode_key": "dva z queensu:s6:e15",
-      "claim": {
-        "worker_id": "6ccee239ac1840adb31a08d7e1a0d286-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T08:16:55.698395+00:00",
-        "lease_expires_at": "2026-11-26T14:16:55.698409+00:00"
-      },
       "source": {
         "source_id": "24590707",
         "source_url": "https://sdilej.cz/24590707/dva.z.queensu.06x15.hdtv.cz.avi",
@@ -956280,22 +956274,29 @@
         "display_name": "The King of Queens S06E15 Cheap Saks SD CZ Dabing",
         "prepared_at": "2026-11-26T08:17:15.429992+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31403237",
-        "size_bytes": 336128140
-      },
-      "transfer_receipt": {
-        "target_video_id": "31403237",
-        "size_bytes": 336128140,
-        "source_bytes_read": 336128140,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31403237",
         "source_bytes_read": 336128140,
         "elapsed_seconds": 15.895,
         "finished_at": "2026-11-26T08:18:14.682900+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31403237",
+          "size_bytes": 336128140,
+          "source_bytes_read": 336128140,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24590707",
+        "source_url": "https://sdilej.cz/24590707/dva.z.queensu.06x15.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31403237",
+        "display_name": "The King of Queens S06E15 Cheap Saks SD CZ Dabing",
+        "uploaded_at": "2026-11-26T08:18:30.059702+00:00"
       }
     }
   },
@@ -956304,7 +956305,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T08:18:21.206343+00:00",
+  "updated_at": "2026-11-26T08:18:30.059717+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
