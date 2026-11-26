@@ -955739,12 +955739,6 @@
     },
     "244:4:3": {
       "episode_key": "proč? 13x proto:s4:e3",
-      "claim": {
-        "worker_id": "8a17eba8f72a4e80afc2b3cea20c4499-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T06:53:14.528141+00:00",
-        "lease_expires_at": "2026-11-26T12:53:14.528161+00:00"
-      },
       "source": {
         "source_id": "32585939",
         "source_url": "https://sdilej.cz/32585939/proc-13x-proto-s04e03-valentyn-2020-1080p-cz-eng-dabing.mkv",
@@ -955769,22 +955763,29 @@
         "display_name": "13 Reasons Why S04E03 Valentine's Day 1080p CZ Dabing",
         "prepared_at": "2026-11-26T06:53:29.057437+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31401640",
-        "size_bytes": 1076159636
-      },
-      "transfer_receipt": {
-        "target_video_id": "31401640",
-        "size_bytes": 1076159636,
-        "source_bytes_read": 1076159636,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31401640",
         "source_bytes_read": 1076159636,
         "elapsed_seconds": 79.495,
         "finished_at": "2026-11-26T06:55:33.277633+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31401640",
+          "size_bytes": 1076159636,
+          "source_bytes_read": 1076159636,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585939",
+        "source_url": "https://sdilej.cz/32585939/proc-13x-proto-s04e03-valentyn-2020-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31401640",
+        "display_name": "13 Reasons Why S04E03 Valentine's Day 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T06:55:48.629244+00:00"
       }
     },
     "244:4:4": {
@@ -955829,7 +955830,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T06:55:40.151507+00:00",
+  "updated_at": "2026-11-26T06:55:48.629261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
