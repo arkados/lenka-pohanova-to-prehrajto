@@ -958666,12 +958666,6 @@
     },
     "244:4:10": {
       "episode_key": "proč? 13x proto:s4:e10",
-      "claim": {
-        "worker_id": "b82bb49f2f8a4aad8e4ca3b9825ef825-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:45:51.349476+00:00",
-        "lease_expires_at": "2026-11-26T19:45:51.349483+00:00"
-      },
       "source": {
         "source_id": "32970824",
         "source_url": "https://sdilej.cz/32970824/proc-13x-proto-s04e10-cz-dabing-1080p.mkv",
@@ -958695,7 +958689,18 @@
         },
         "display_name": "13 Reasons Why S04E10 Graduation 1080p CZ Dabing",
         "prepared_at": "2026-11-26T13:46:06.753462+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32970824:https://sdilej.cz/32970824/proc-13x-proto-s04e10-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T13:46:25.675114+00:00",
+        "retry_after": "2026-11-26T19:46:25.675114+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T13:46:25.675150+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -958703,7 +958708,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:46:18.763921+00:00",
+  "updated_at": "2026-11-26T13:46:25.675154+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -959608,6 +959613,10 @@
         {
           "identity": "244:4:8",
           "at": "2026-11-26T13:46:13.043870+00:00"
+        },
+        {
+          "identity": "244:4:10",
+          "at": "2026-11-26T13:46:25.675114+00:00"
         }
       ],
       "retry_after": "2026-11-26T13:44:27.667785+00:00"
