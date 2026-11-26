@@ -965999,12 +965999,6 @@
     },
     "1408:8:3": {
       "episode_key": "dva z queensu:s8:e3",
-      "claim": {
-        "worker_id": "ce3fba13fb444be48abdbece49dfe0c9-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:08:51.914111+00:00",
-        "lease_expires_at": "2026-11-26T22:08:51.914121+00:00"
-      },
       "source": {
         "source_id": "8588668",
         "source_url": "https://sdilej.cz/8588668/dva.z.queensu.08x03.hdtv.cz.avi",
@@ -966029,22 +966023,29 @@
         "display_name": "The King of Queens S08E03 Consummate Professional SD CZ Dabing",
         "prepared_at": "2026-11-26T16:09:02.731624+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419927",
-        "size_bytes": 336268460
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419927",
-        "size_bytes": 336268460,
-        "source_bytes_read": 336268460,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419927",
         "source_bytes_read": 336268460,
         "elapsed_seconds": 27.259,
         "finished_at": "2026-11-26T16:10:05.897292+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419927",
+          "size_bytes": 336268460,
+          "source_bytes_read": 336268460,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8588668",
+        "source_url": "https://sdilej.cz/8588668/dva.z.queensu.08x03.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419927",
+        "display_name": "The King of Queens S08E03 Consummate Professional SD CZ Dabing",
+        "uploaded_at": "2026-11-26T16:10:14.407579+00:00"
       }
     },
     "1787:3:15": {
@@ -966090,7 +966091,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:10:05.897313+00:00",
+  "updated_at": "2026-11-26T16:10:14.407596+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
