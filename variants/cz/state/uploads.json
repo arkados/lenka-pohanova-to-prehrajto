@@ -960895,12 +960895,6 @@
     },
     "1408:5:7": {
       "episode_key": "dva z queensu:s5:e7",
-      "claim": {
-        "worker_id": "ddcf71fb33e740c9829f2d3f9e2ddf53-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:23:50.697990+00:00",
-        "lease_expires_at": "2026-11-26T20:23:50.697997+00:00"
-      },
       "source": {
         "source_id": "8503743",
         "source_url": "https://sdilej.cz/8503743/dva.z.queensu.05x07.hdtv.cz.avi",
@@ -960925,22 +960919,29 @@
         "display_name": "The King of Queens S05E07 Flame Resistant SD CZ Dabing",
         "prepared_at": "2026-11-26T14:24:03.911560+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31417653",
-        "size_bytes": 347339388
-      },
-      "transfer_receipt": {
-        "target_video_id": "31417653",
-        "size_bytes": 347339388,
-        "source_bytes_read": 347339388,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31417653",
         "source_bytes_read": 347339388,
         "elapsed_seconds": 29.759,
         "finished_at": "2026-11-26T14:25:20.672290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31417653",
+          "size_bytes": 347339388,
+          "source_bytes_read": 347339388,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8503743",
+        "source_url": "https://sdilej.cz/8503743/dva.z.queensu.05x07.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31417653",
+        "display_name": "The King of Queens S05E07 Flame Resistant SD CZ Dabing",
+        "uploaded_at": "2026-11-26T14:25:42.930480+00:00"
       }
     },
     "1408:5:9": {
@@ -960986,7 +960987,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:25:37.057663+00:00",
+  "updated_at": "2026-11-26T14:25:42.930494+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
