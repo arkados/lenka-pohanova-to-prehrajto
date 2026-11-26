@@ -951107,12 +951107,6 @@
     },
     "575:3:2": {
       "episode_key": "stoupenci zla:s3:e2",
-      "claim": {
-        "worker_id": "44f737111e3848cbb8efc653f5abb238-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:06:08.498364+00:00",
-        "lease_expires_at": "2026-11-26T06:06:08.498384+00:00"
-      },
       "source": {
         "source_id": "13947875",
         "source_url": "https://sdilej.cz/13947875/stoupenci-zla-s03e02-v-uzkych-cz-dabing.avi",
@@ -951137,22 +951131,29 @@
         "display_name": "The Following S03E02 Boxed In 720p CZ Dabing",
         "prepared_at": "2026-11-26T00:06:23.326808+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31387778",
-        "size_bytes": 1031926328
-      },
-      "transfer_receipt": {
-        "target_video_id": "31387778",
-        "size_bytes": 1031926328,
-        "source_bytes_read": 1031926328,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31387778",
         "source_bytes_read": 1031926328,
         "elapsed_seconds": 133.28,
         "finished_at": "2026-11-26T00:09:14.071220+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31387778",
+          "size_bytes": 1031926328,
+          "source_bytes_read": 1031926328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13947875",
+        "source_url": "https://sdilej.cz/13947875/stoupenci-zla-s03e02-v-uzkych-cz-dabing.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31387778",
+        "display_name": "The Following S03E02 Boxed In 720p CZ Dabing",
+        "uploaded_at": "2026-11-26T00:09:24.201220+00:00"
       }
     },
     "575:3:3": {
@@ -951212,7 +951213,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:09:14.071250+00:00",
+  "updated_at": "2026-11-26T00:09:24.201242+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
