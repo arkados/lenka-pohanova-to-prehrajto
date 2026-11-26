@@ -955827,12 +955827,6 @@
     },
     "244:4:5": {
       "episode_key": "proč? 13x proto:s4:e5",
-      "claim": {
-        "worker_id": "9fd77a6f47554022b9ed92d50c4daf78-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T06:55:54.696525+00:00",
-        "lease_expires_at": "2026-11-26T12:55:54.696538+00:00"
-      },
       "source": {
         "source_id": "32966005",
         "source_url": "https://sdilej.cz/32966005/proc-13x-proto-s04e05-cz-dabing-1080p.mkv",
@@ -955856,7 +955850,17 @@
         },
         "display_name": "13 Reasons Why S04E05 House Party 1080p CZ Dabing",
         "prepared_at": "2026-11-26T06:56:08.065140+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32966005:https://sdilej.cz/32966005/proc-13x-proto-s04e05-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T06:56:27.703819+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T06:56:27.703900+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "244:4:6": {
       "episode_key": "proč? 13x proto:s4:e6",
@@ -955897,7 +955901,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T06:56:21.264631+00:00",
+  "updated_at": "2026-11-26T06:56:27.703909+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -956822,9 +956826,13 @@
         {
           "identity": "244:4:2",
           "at": "2026-11-26T06:53:54.540938+00:00"
+        },
+        {
+          "identity": "244:4:5",
+          "at": "2026-11-26T06:56:27.703819+00:00"
         }
       ],
-      "retry_after": "2026-11-26T06:52:55.165034+00:00"
+      "retry_after": "2026-11-26T07:06:27.703819+00:00"
     },
     "610": {
       "recent_failures": [
