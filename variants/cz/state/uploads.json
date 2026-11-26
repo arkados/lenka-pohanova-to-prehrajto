@@ -959916,12 +959916,6 @@
     },
     "1864:2:12": {
       "episode_key": "prezident v pořadí:s2:e12",
-      "claim": {
-        "worker_id": "e481a363f02a45fc8290798023590b3f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:07:59.412983+00:00",
-        "lease_expires_at": "2026-11-26T20:07:59.412997+00:00"
-      },
       "source": {
         "source_id": "34118755",
         "source_url": "https://sdilej.cz/34118755/prezident-v-poradi-s02e12-cz.mp4",
@@ -959945,7 +959939,18 @@
         },
         "display_name": "Designated Survivor S02E12 The Final Frontier 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:08:23.465780+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118755:https://sdilej.cz/34118755/prezident-v-poradi-s02e12-cz.mp4",
+        "at": "2026-11-26T14:08:38.020644+00:00",
+        "retry_after": "2026-11-26T20:08:38.020644+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:08:38.025821+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1787:2:2": {
       "episode_key": "havaj 5-0:s2:e2",
@@ -959962,7 +959967,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:08:30.433013+00:00",
+  "updated_at": "2026-11-26T14:08:38.025839+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960932,19 +960937,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:9",
-          "at": "2026-11-26T14:07:20.473340+00:00"
-        },
-        {
           "identity": "1864:2:10",
           "at": "2026-11-26T14:07:45.866696+00:00"
         },
         {
           "identity": "1864:2:11",
           "at": "2026-11-26T14:08:30.432939+00:00"
+        },
+        {
+          "identity": "1864:2:12",
+          "at": "2026-11-26T14:08:38.020644+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:18:30.432939+00:00"
+      "retry_after": "2026-11-26T14:18:38.020644+00:00"
     },
     "1408": {
       "recent_failures": [
