@@ -930958,28 +930958,29 @@
           "at": "2026-11-26T15:39:11.437266+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "689d8e3f60084314ad591c8d66683b95-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:39:17.863339+00:00",
-        "lease_expires_at": "2026-11-26T21:39:17.863357+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31419257",
-        "size_bytes": 2624558841
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419257",
-        "size_bytes": 2624558841,
-        "source_bytes_read": 2624558841,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419257",
         "source_bytes_read": 2624558841,
         "elapsed_seconds": 164.052,
         "finished_at": "2026-11-26T15:42:38.437871+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419257",
+          "size_bytes": 2624558841,
+          "source_bytes_read": 2624558841,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35211748",
+        "source_url": "https://sdilej.cz/35211748/nocni-agent-s03e01-cekani-na-hovor.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419257",
+        "display_name": "The Night Agent S03E01 Call Waiting 4K CZ Dabing",
+        "uploaded_at": "2026-11-26T15:43:13.727449+00:00"
       }
     },
     "610:3:3": {
@@ -964722,7 +964723,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:43:03.344403+00:00",
+  "updated_at": "2026-11-26T15:43:13.727464+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
