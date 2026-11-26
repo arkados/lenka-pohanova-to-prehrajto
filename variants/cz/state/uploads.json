@@ -956992,12 +956992,6 @@
     },
     "575:3:13": {
       "episode_key": "stoupenci zla:s3:e13",
-      "claim": {
-        "worker_id": "bac2632fa85149dcaecb38b92436aa91-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:55:48.890489+00:00",
-        "lease_expires_at": "2026-11-26T18:55:48.890504+00:00"
-      },
       "source": {
         "source_id": "22440736",
         "source_url": "https://sdilej.cz/22440736/stoupenci-zla-s03e13-czdab.mp4",
@@ -957022,22 +957016,29 @@
         "display_name": "The Following S03E13 A Simple Trade SD CZ Dabing",
         "prepared_at": "2026-11-26T12:56:10.493799+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31415722",
-        "size_bytes": 296645771
-      },
-      "transfer_receipt": {
-        "target_video_id": "31415722",
-        "size_bytes": 296645771,
-        "source_bytes_read": 296645771,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31415722",
         "source_bytes_read": 296645771,
         "elapsed_seconds": 27.037,
         "finished_at": "2026-11-26T12:57:27.474896+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31415722",
+          "size_bytes": 296645771,
+          "source_bytes_read": 296645771,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22440736",
+        "source_url": "https://sdilej.cz/22440736/stoupenci-zla-s03e13-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31415722",
+        "display_name": "The Following S03E13 A Simple Trade SD CZ Dabing",
+        "uploaded_at": "2026-11-26T12:57:45.250635+00:00"
       }
     }
   },
@@ -957046,7 +957047,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T12:57:39.093963+00:00",
+  "updated_at": "2026-11-26T12:57:45.250648+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
