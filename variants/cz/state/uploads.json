@@ -954163,12 +954163,6 @@
     },
     "1408:5:10": {
       "episode_key": "dva z queensu:s5:e10",
-      "claim": {
-        "worker_id": "9288b1391348451c89cfc0c13b888b90-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T03:53:40.294732+00:00",
-        "lease_expires_at": "2026-11-26T09:53:40.294744+00:00"
-      },
       "source": {
         "source_id": "32659066",
         "source_url": "https://sdilej.cz/32659066/dva-z-queensu-s05e10-cz-dabing-.avi",
@@ -954192,7 +954186,17 @@
         },
         "display_name": "The King of Queens S05E10 Loaner Car SD CZ Dabing",
         "prepared_at": "2026-11-26T03:53:59.227988+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659066:https://sdilej.cz/32659066/dva-z-queensu-s05e10-cz-dabing-.avi",
+        "at": "2026-11-26T03:54:16.358647+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T03:54:16.359293+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:5:11": {
       "episode_key": "dva z queensu:s5:e11",
@@ -954233,7 +954237,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T03:54:10.167015+00:00",
+  "updated_at": "2026-11-26T03:54:16.359302+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -955234,9 +955238,13 @@
         {
           "identity": "1408:5:5",
           "at": "2026-11-26T03:53:30.117106+00:00"
+        },
+        {
+          "identity": "1408:5:10",
+          "at": "2026-11-26T03:54:16.358647+00:00"
         }
       ],
-      "retry_after": "2026-11-26T03:51:27.831335+00:00"
+      "retry_after": "2026-11-26T04:04:16.358647+00:00"
     }
   }
 }
