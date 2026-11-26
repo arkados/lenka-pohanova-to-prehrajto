@@ -953803,13 +953803,10 @@
       },
       "source_repair_requested": {
         "base": "32658976:https://sdilej.cz/32658976/dva-z-queensu-s04e03-cz-dabing-.avi",
-        "at": "2026-11-26T12:05:18.116329+00:00"
+        "at": "2026-11-26T14:00:26.775508+00:00",
+        "retry_after": "2026-11-26T20:00:26.775508+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T09:50:36.909484+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T10:54:53.658494+00:00",
           "error": "SourceUnavailable"
@@ -953817,14 +953814,12 @@
         {
           "at": "2026-11-26T12:05:18.116413+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T14:00:26.775548+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "907aafa7fa10414bb64e2ada50a38934-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:59:59.988074+00:00",
-        "lease_expires_at": "2026-11-26T19:59:59.988105+00:00"
-      }
+      ]
     },
     "1408:4:6": {
       "episode_key": "dva z queensu:s4:e6",
@@ -959568,7 +959563,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:00:18.225047+00:00",
+  "updated_at": "2026-11-26T14:00:26.775553+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960557,6 +960552,10 @@
         {
           "identity": "1408:4:2",
           "at": "2026-11-26T13:58:54.792999+00:00"
+        },
+        {
+          "identity": "1408:4:3",
+          "at": "2026-11-26T14:00:26.775508+00:00"
         }
       ],
       "retry_after": "2026-11-26T12:27:49.270909+00:00"
