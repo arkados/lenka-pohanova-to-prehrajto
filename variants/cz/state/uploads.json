@@ -962525,12 +962525,6 @@
     },
     "1864:3:6": {
       "episode_key": "prezident v pořadí:s3:e6",
-      "claim": {
-        "worker_id": "4107e93d585b4dac8c30a64c8c5205d7-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:57:58.909583+00:00",
-        "lease_expires_at": "2026-11-26T20:57:58.909594+00:00"
-      },
       "source": {
         "source_id": "34118884",
         "source_url": "https://sdilej.cz/34118884/prezident-v-poradi-s03e06-cz.mp4",
@@ -962554,7 +962548,18 @@
         },
         "display_name": "Designated Survivor S03E06 #whocares 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:58:17.938328+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118884:https://sdilej.cz/34118884/prezident-v-poradi-s03e06-cz.mp4",
+        "at": "2026-11-26T14:58:42.234216+00:00",
+        "retry_after": "2026-11-26T20:58:42.234216+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:58:42.234286+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:6:17": {
       "episode_key": "dva z queensu:s6:e17",
@@ -962595,7 +962600,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:58:35.856891+00:00",
+  "updated_at": "2026-11-26T14:58:42.234292+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -963565,19 +963570,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:3:3",
-          "at": "2026-11-26T14:56:46.228662+00:00"
-        },
-        {
           "identity": "1864:3:4",
           "at": "2026-11-26T14:57:43.420016+00:00"
         },
         {
           "identity": "1864:3:5",
           "at": "2026-11-26T14:57:50.029216+00:00"
+        },
+        {
+          "identity": "1864:3:6",
+          "at": "2026-11-26T14:58:42.234216+00:00"
         }
       ],
-      "retry_after": "2026-11-26T15:07:50.029216+00:00"
+      "retry_after": "2026-11-26T15:08:42.234216+00:00"
     },
     "1408": {
       "recent_failures": [
