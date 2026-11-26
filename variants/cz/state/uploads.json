@@ -952483,12 +952483,6 @@
     },
     "1408:2:2": {
       "episode_key": "dva z queensu:s2:e2",
-      "claim": {
-        "worker_id": "6e5ac92874ca4dd093c2eb58a25ba47c-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:04:10.213064+00:00",
-        "lease_expires_at": "2026-11-26T08:04:10.213074+00:00"
-      },
       "source": {
         "source_id": "27329876",
         "source_url": "https://sdilej.cz/27329876/dva.z.queensu.02x02.hdtv.cz.avi",
@@ -952513,22 +952507,29 @@
         "display_name": "The King of Queens S02E02 Female Problems SD CZ Dabing",
         "prepared_at": "2026-11-26T02:04:17.156753+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395764",
-        "size_bytes": 358597814
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395764",
-        "size_bytes": 358597814,
-        "source_bytes_read": 358597814,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395764",
         "source_bytes_read": 358597814,
         "elapsed_seconds": 140.299,
         "finished_at": "2026-11-26T02:07:11.902862+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395764",
+          "size_bytes": 358597814,
+          "source_bytes_read": 358597814,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27329876",
+        "source_url": "https://sdilej.cz/27329876/dva.z.queensu.02x02.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395764",
+        "display_name": "The King of Queens S02E02 Female Problems SD CZ Dabing",
+        "uploaded_at": "2026-11-26T02:07:27.171016+00:00"
       }
     },
     "1408:2:13": {
@@ -952671,7 +952672,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:07:20.827148+00:00",
+  "updated_at": "2026-11-26T02:07:27.171050+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
