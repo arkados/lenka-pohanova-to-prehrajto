@@ -965699,12 +965699,6 @@
     },
     "1408:7:20": {
       "episode_key": "dva z queensu:s7:e20",
-      "claim": {
-        "worker_id": "d5e46bce803b4373b31b6c4eecaae746-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:03:45.422859+00:00",
-        "lease_expires_at": "2026-11-26T22:03:45.422875+00:00"
-      },
       "source": {
         "source_id": "32659218",
         "source_url": "https://sdilej.cz/32659218/dva-z-queensu-s07e20-cz-dabing-.avi",
@@ -965728,7 +965722,18 @@
         },
         "display_name": "The King of Queens S07E20 Catching Hell SD CZ Dabing",
         "prepared_at": "2026-11-26T16:04:19.800305+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659218:https://sdilej.cz/32659218/dva-z-queensu-s07e20-cz-dabing-.avi",
+        "at": "2026-11-26T16:04:46.393358+00:00",
+        "retry_after": "2026-11-26T22:04:46.393358+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:04:46.393406+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:7:19": {
       "episode_key": "dva z queensu:s7:e19",
@@ -965773,7 +965778,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:04:39.122448+00:00",
+  "updated_at": "2026-11-26T16:04:46.393411+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -966752,8 +966757,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:7:13",
-          "at": "2026-11-26T15:57:28.971181+00:00"
+          "identity": "1408:7:20",
+          "at": "2026-11-26T16:04:46.393358+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:35:48.773989+00:00"
