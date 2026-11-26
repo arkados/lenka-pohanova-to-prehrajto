@@ -956367,12 +956367,6 @@
     },
     "244:4:8": {
       "episode_key": "proč? 13x proto:s4:e8",
-      "claim": {
-        "worker_id": "bf58121187284397922de9748a58327a-worker-0",
-        "run_id": "45786847553",
-        "claimed_at": "2026-11-26T09:08:46.479938+00:00",
-        "lease_expires_at": "2026-11-26T15:08:46.479947+00:00"
-      },
       "source": {
         "source_id": "32970086",
         "source_url": "https://sdilej.cz/32970086/proc-13x-proto-s04e08-cz-dabing-1080p.mkv",
@@ -956396,7 +956390,17 @@
         },
         "display_name": "13 Reasons Why S04E08 Acceptance/Rejection 1080p CZ Dabing",
         "prepared_at": "2026-11-26T09:09:01.114461+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32970086:https://sdilej.cz/32970086/proc-13x-proto-s04e08-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T09:09:23.018614+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T09:09:23.018681+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -956404,7 +956408,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T09:09:16.746956+00:00",
+  "updated_at": "2026-11-26T09:09:23.018689+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957307,19 +957311,19 @@
     "244": {
       "recent_failures": [
         {
-          "identity": "244:2:4",
-          "at": "2026-11-26T09:07:24.713123+00:00"
-        },
-        {
           "identity": "244:3:13",
           "at": "2026-11-26T09:07:55.680348+00:00"
         },
         {
           "identity": "244:4:1",
           "at": "2026-11-26T09:08:40.073753+00:00"
+        },
+        {
+          "identity": "244:4:8",
+          "at": "2026-11-26T09:09:23.018614+00:00"
         }
       ],
-      "retry_after": "2026-11-26T09:18:40.073753+00:00"
+      "retry_after": "2026-11-26T09:19:23.018614+00:00"
     },
     "610": {
       "recent_failures": [
