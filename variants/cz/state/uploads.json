@@ -954194,12 +954194,6 @@
     },
     "1408:5:11": {
       "episode_key": "dva z queensu:s5:e11",
-      "claim": {
-        "worker_id": "f12f16f4eac2402e803cde8127e67515-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T03:53:52.583146+00:00",
-        "lease_expires_at": "2026-11-26T09:53:52.583158+00:00"
-      },
       "source": {
         "source_id": "32659067",
         "source_url": "https://sdilej.cz/32659067/dva-z-queensu-s05e11-cz-dabing-.avi",
@@ -954223,7 +954217,17 @@
         },
         "display_name": "The King of Queens S05E11 Mentalo Case SD CZ Dabing",
         "prepared_at": "2026-11-26T03:54:10.166998+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659067:https://sdilej.cz/32659067/dva-z-queensu-s05e11-cz-dabing-.avi",
+        "at": "2026-11-26T03:54:28.366649+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T03:54:28.366717+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -954231,7 +954235,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T03:54:22.010365+00:00",
+  "updated_at": "2026-11-26T03:54:28.366723+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -955226,19 +955230,19 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:5:8",
-          "at": "2026-11-26T03:53:22.504699+00:00"
-        },
-        {
           "identity": "1408:5:5",
           "at": "2026-11-26T03:53:30.117106+00:00"
         },
         {
           "identity": "1408:5:10",
           "at": "2026-11-26T03:54:16.358647+00:00"
+        },
+        {
+          "identity": "1408:5:11",
+          "at": "2026-11-26T03:54:28.366649+00:00"
         }
       ],
-      "retry_after": "2026-11-26T04:04:16.358647+00:00"
+      "retry_after": "2026-11-26T04:04:28.366649+00:00"
     }
   }
 }
