@@ -979598,12 +979598,6 @@
     },
     "394:3:8": {
       "episode_key": "griffinovi:s3:e8",
-      "claim": {
-        "worker_id": "d667625b2985477592a67baa77a4e274-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-26T23:47:26.498355+00:00",
-        "lease_expires_at": "2026-11-27T05:47:26.498368+00:00"
-      },
       "source": {
         "source_id": "31562452",
         "source_url": "https://sdilej.cz/31562452/griffinovi-s03e08-polibek-ktery-obletel-svet-1080p-cz.mkv",
@@ -979628,22 +979622,29 @@
         "display_name": "Family Guy S03E08 The Kiss Seen Around the World 1080p CZ Dabing",
         "prepared_at": "2026-11-26T23:47:43.510323+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31430022",
-        "size_bytes": 518867268
-      },
-      "transfer_receipt": {
-        "target_video_id": "31430022",
-        "size_bytes": 518867268,
-        "source_bytes_read": 518867268,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31430022",
         "source_bytes_read": 518867268,
         "elapsed_seconds": 64.034,
         "finished_at": "2026-11-26T23:49:33.628984+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31430022",
+          "size_bytes": 518867268,
+          "source_bytes_read": 518867268,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31562452",
+        "source_url": "https://sdilej.cz/31562452/griffinovi-s03e08-polibek-ktery-obletel-svet-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31430022",
+        "display_name": "Family Guy S03E08 The Kiss Seen Around the World 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T23:49:49.588413+00:00"
       }
     },
     "1967:19:1": {
@@ -979726,7 +979727,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T23:49:41.288856+00:00",
+  "updated_at": "2026-11-26T23:49:49.588429+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
