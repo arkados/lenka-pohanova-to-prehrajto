@@ -965125,12 +965125,6 @@
     },
     "1408:7:5": {
       "episode_key": "dva z queensu:s7:e5",
-      "claim": {
-        "worker_id": "b03ea76603884f7f9c4c1d54e997e736-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:50:47.783899+00:00",
-        "lease_expires_at": "2026-11-26T21:50:47.783910+00:00"
-      },
       "source": {
         "source_id": "32659175",
         "source_url": "https://sdilej.cz/32659175/dva-z-queensu-s07e05-cz-dabing-.avi",
@@ -965154,7 +965148,18 @@
         },
         "display_name": "The King of Queens S07E05 Name Dropper SD CZ Dabing",
         "prepared_at": "2026-11-26T15:51:13.058454+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659175:https://sdilej.cz/32659175/dva-z-queensu-s07e05-cz-dabing-.avi",
+        "at": "2026-11-26T15:51:26.426375+00:00",
+        "retry_after": "2026-11-26T21:51:26.426375+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T15:51:26.426411+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:7:6": {
       "episode_key": "dva z queensu:s7:e6",
@@ -965200,7 +965205,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:51:20.027544+00:00",
+  "updated_at": "2026-11-26T15:51:26.426416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -966181,6 +966186,10 @@
         {
           "identity": "1408:7:6",
           "at": "2026-11-26T15:51:20.027503+00:00"
+        },
+        {
+          "identity": "1408:7:5",
+          "at": "2026-11-26T15:51:26.426375+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:35:48.773989+00:00"
