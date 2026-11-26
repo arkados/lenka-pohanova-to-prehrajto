@@ -958699,12 +958699,6 @@
     },
     "1408:2:24": {
       "episode_key": "dva z queensu:s2:e24",
-      "claim": {
-        "worker_id": "a177f38c926d4680b1cc150497cc95a4-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:46:41.030638+00:00",
-        "lease_expires_at": "2026-11-26T19:46:41.030646+00:00"
-      },
       "source": {
         "source_id": "27330147",
         "source_url": "https://sdilej.cz/27330147/dva.z.queensu.02x24.hdtv.cz.avi",
@@ -958729,22 +958723,29 @@
         "display_name": "The King of Queens S02E24 Flower Power SD CZ Dabing",
         "prepared_at": "2026-11-26T13:47:03.346337+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31416838",
-        "size_bytes": 362508130
-      },
-      "transfer_receipt": {
-        "target_video_id": "31416838",
-        "size_bytes": 362508130,
-        "source_bytes_read": 362508130,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31416838",
         "source_bytes_read": 362508130,
         "elapsed_seconds": 32.148,
         "finished_at": "2026-11-26T13:48:24.543183+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31416838",
+          "size_bytes": 362508130,
+          "source_bytes_read": 362508130,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27330147",
+        "source_url": "https://sdilej.cz/27330147/dva.z.queensu.02x24.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31416838",
+        "display_name": "The King of Queens S02E24 Flower Power SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:48:34.109813+00:00"
       }
     },
     "1408:2:25": {
@@ -958840,7 +958841,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:48:24.543201+00:00",
+  "updated_at": "2026-11-26T13:48:34.109829+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
