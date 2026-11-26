@@ -929620,13 +929620,10 @@
       },
       "source_repair_requested": {
         "base": "32963629:https://sdilej.cz/32963629/proc-13x-proto-s01e12-cz-dabing-1080p.mkv",
-        "at": "2026-11-26T11:49:11.308786+00:00"
+        "at": "2026-11-26T12:54:20.403915+00:00",
+        "retry_after": "2026-11-26T18:54:20.403915+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T09:46:37.487617+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T10:47:58.615718+00:00",
           "error": "SourceUnavailable"
@@ -929634,14 +929631,12 @@
         {
           "at": "2026-11-26T11:49:11.308858+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T12:54:20.403952+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "c56e011d9deb43ecab1611fbe05b210b-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:53:52.198128+00:00",
-        "lease_expires_at": "2026-11-26T18:53:52.198142+00:00"
-      }
+      ]
     },
     "610:1:6": {
       "episode_key": "noční agent:s1:e6",
@@ -956994,7 +956989,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T12:54:13.527237+00:00",
+  "updated_at": "2026-11-26T12:54:20.403957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957911,6 +957906,10 @@
         {
           "identity": "244:1:10",
           "at": "2026-11-26T12:53:45.586717+00:00"
+        },
+        {
+          "identity": "244:1:12",
+          "at": "2026-11-26T12:54:20.403915+00:00"
         }
       ],
       "retry_after": "2026-11-26T12:52:36.580823+00:00"
