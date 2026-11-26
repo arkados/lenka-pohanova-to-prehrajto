@@ -955941,12 +955941,6 @@
     },
     "1864:1:21": {
       "episode_key": "prezident v pořadí:s1:e21",
-      "claim": {
-        "worker_id": "9baa9a7c59ef45d5a3452807e366878d-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T07:42:36.033750+00:00",
-        "lease_expires_at": "2026-11-26T13:42:36.033766+00:00"
-      },
       "source": {
         "source_id": "34118611",
         "source_url": "https://sdilej.cz/34118611/prezident-v-poradi-s01e21-cz.mp4",
@@ -955970,7 +955964,17 @@
         },
         "display_name": "Designated Survivor S01E21 Brace for Impact 720p CZ Dabing",
         "prepared_at": "2026-11-26T07:42:43.104643+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118611:https://sdilej.cz/34118611/prezident-v-poradi-s01e21-cz.mp4",
+        "at": "2026-11-26T07:43:02.227783+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T07:43:02.227864+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1864:2:1": {
       "episode_key": "prezident v pořadí:s2:e1",
@@ -955987,7 +955991,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T07:42:55.693046+00:00",
+  "updated_at": "2026-11-26T07:43:02.227872+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -956983,9 +956987,13 @@
         {
           "identity": "1864:1:20",
           "at": "2026-11-26T07:42:49.309502+00:00"
+        },
+        {
+          "identity": "1864:1:21",
+          "at": "2026-11-26T07:43:02.227783+00:00"
         }
       ],
-      "retry_after": "2026-11-26T07:40:00.746621+00:00"
+      "retry_after": "2026-11-26T07:53:02.227783+00:00"
     },
     "1408": {
       "recent_failures": [
