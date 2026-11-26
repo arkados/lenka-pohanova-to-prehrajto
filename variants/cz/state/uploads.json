@@ -961259,12 +961259,6 @@
     },
     "1864:2:21": {
       "episode_key": "prezident v pořadí:s2:e21",
-      "claim": {
-        "worker_id": "59105b9b0f7148539d39a802889def70-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:33:21.978311+00:00",
-        "lease_expires_at": "2026-11-26T20:33:21.978319+00:00"
-      },
       "source": {
         "source_id": "34118819",
         "source_url": "https://sdilej.cz/34118819/prezident-v-poradi-s02e21-cz.mp4",
@@ -961288,7 +961282,18 @@
         },
         "display_name": "Designated Survivor S02E21 Target 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:33:29.019807+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118819:https://sdilej.cz/34118819/prezident-v-poradi-s02e21-cz.mp4",
+        "at": "2026-11-26T14:33:42.638624+00:00",
+        "retry_after": "2026-11-26T20:33:42.638624+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:33:42.638682+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1787:3:11": {
       "episode_key": "havaj 5-0:s3:e11",
@@ -961305,7 +961310,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:33:36.305133+00:00",
+  "updated_at": "2026-11-26T14:33:42.638686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -962275,19 +962280,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:18",
-          "at": "2026-11-26T14:32:46.804944+00:00"
-        },
-        {
           "identity": "1864:2:20",
           "at": "2026-11-26T14:33:08.366036+00:00"
         },
         {
           "identity": "1864:2:19",
           "at": "2026-11-26T14:33:14.584004+00:00"
+        },
+        {
+          "identity": "1864:2:21",
+          "at": "2026-11-26T14:33:42.638624+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:43:14.584004+00:00"
+      "retry_after": "2026-11-26T14:43:42.638624+00:00"
     },
     "1408": {
       "recent_failures": [
