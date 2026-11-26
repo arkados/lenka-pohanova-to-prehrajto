@@ -952381,12 +952381,6 @@
     },
     "1408:1:21": {
       "episode_key": "dva z queensu:s1:e21",
-      "claim": {
-        "worker_id": "0b8c2a8010384ff6881cedcb4f04df50-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:03:58.680225+00:00",
-        "lease_expires_at": "2026-11-26T08:03:58.680237+00:00"
-      },
       "source": {
         "source_id": "27328860",
         "source_url": "https://sdilej.cz/27328860/dva.z.queensu.01x21.hdtv.cz.avi",
@@ -952411,22 +952405,29 @@
         "display_name": "The King of Queens S01E21 Hungry Man SD CZ Dabing",
         "prepared_at": "2026-11-26T02:04:23.253315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395766",
-        "size_bytes": 349649162
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395766",
-        "size_bytes": 349649162,
-        "source_bytes_read": 349649162,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395766",
         "source_bytes_read": 349649162,
         "elapsed_seconds": 29.445,
         "finished_at": "2026-11-26T02:05:33.061298+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395766",
+          "size_bytes": 349649162,
+          "source_bytes_read": 349649162,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27328860",
+        "source_url": "https://sdilej.cz/27328860/dva.z.queensu.01x21.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395766",
+        "display_name": "The King of Queens S01E21 Hungry Man SD CZ Dabing",
+        "uploaded_at": "2026-11-26T02:05:41.342609+00:00"
       }
     },
     "1408:2:5": {
@@ -952523,7 +952524,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:05:33.061319+00:00",
+  "updated_at": "2026-11-26T02:05:41.342623+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
