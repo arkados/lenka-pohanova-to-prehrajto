@@ -958614,12 +958614,6 @@
     },
     "1408:2:21": {
       "episode_key": "dva z queensu:s2:e21",
-      "claim": {
-        "worker_id": "06a11bd2274a4b4e8295dc9618b00282-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:44:09.757654+00:00",
-        "lease_expires_at": "2026-11-26T19:44:09.757662+00:00"
-      },
       "source": {
         "source_id": "22276576",
         "source_url": "https://sdilej.cz/22276576/dva.z.queensu.02x21.hdtv.cz.avi",
@@ -958644,22 +958638,29 @@
         "display_name": "The King of Queens S02E21 Big Dougie SD CZ Dabing",
         "prepared_at": "2026-11-26T13:44:26.442858+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31416761",
-        "size_bytes": 362162742
-      },
-      "transfer_receipt": {
-        "target_video_id": "31416761",
-        "size_bytes": 362162742,
-        "source_bytes_read": 362162742,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31416761",
         "source_bytes_read": 362162742,
         "elapsed_seconds": 30.352,
         "finished_at": "2026-11-26T13:45:25.134109+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31416761",
+          "size_bytes": 362162742,
+          "source_bytes_read": 362162742,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22276576",
+        "source_url": "https://sdilej.cz/22276576/dva.z.queensu.02x21.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31416761",
+        "display_name": "The King of Queens S02E21 Big Dougie SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:45:45.314033+00:00"
       }
     }
   },
@@ -958668,7 +958669,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:45:38.571553+00:00",
+  "updated_at": "2026-11-26T13:45:45.314049+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
