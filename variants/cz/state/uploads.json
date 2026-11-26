@@ -967443,14 +967443,12 @@
         {
           "at": "2026-11-26T16:49:33.480706+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-26T17:07:54.614732+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "16bd74eb9a0041edbe18c553595e6516-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:07:33.208267+00:00",
-        "lease_expires_at": "2026-11-26T23:07:33.208279+00:00"
-      },
       "source": {
         "source_id": "32659302",
         "source_url": "https://sdilej.cz/32659302/dva-z-queensu-s08e23-cz-dabing-.avi",
@@ -967474,6 +967472,11 @@
         },
         "display_name": "The King of Queens S08E23 Acting Out SD CZ Dabing",
         "prepared_at": "2026-11-26T17:07:46.443557+00:00"
+      },
+      "source_repair_requested": {
+        "base": "32659302:https://sdilej.cz/32659302/dva-z-queensu-s08e23-cz-dabing-.avi",
+        "at": "2026-11-26T17:07:54.614690+00:00",
+        "retry_after": "2026-11-26T23:07:54.614690+00:00"
       }
     },
     "1408:8:22": {
@@ -967735,7 +967738,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:07:46.443576+00:00",
+  "updated_at": "2026-11-26T17:07:54.614737+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -968716,6 +968719,10 @@
         {
           "identity": "1408:8:22",
           "at": "2026-11-26T17:07:40.580514+00:00"
+        },
+        {
+          "identity": "1408:8:23",
+          "at": "2026-11-26T17:07:54.614690+00:00"
         }
       ],
       "retry_after": "2026-11-26T16:46:37.645872+00:00"
