@@ -972168,12 +972168,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "4fe8d7bfdedd4fb190b8752a401ad1de-worker-0",
-        "run_id": "45883873407",
-        "claimed_at": "2026-11-26T20:07:07.543852+00:00",
-        "lease_expires_at": "2026-11-27T02:07:07.543861+00:00"
-      },
       "source": {
         "source_id": "33547836",
         "source_url": "https://sdilej.cz/33547836/zakon-a-poradek-utvar-pro-zvlastni-obeti-s14e07-prehlidka-marnivosti.mkv",
@@ -972198,22 +972192,29 @@
         "display_name": "Law & Order: Special Victims Unit S14E07 Vanity's Bonfire 1080p CZ Dabing",
         "prepared_at": "2026-11-26T20:07:24.926229+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31425155",
-        "size_bytes": 2580770126
-      },
-      "transfer_receipt": {
-        "target_video_id": "31425155",
-        "size_bytes": 2580770126,
-        "source_bytes_read": 2580770126,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31425155",
         "source_bytes_read": 2580770126,
         "elapsed_seconds": 168.167,
         "finished_at": "2026-11-26T20:10:49.726421+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31425155",
+          "size_bytes": 2580770126,
+          "source_bytes_read": 2580770126,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33547836",
+        "source_url": "https://sdilej.cz/33547836/zakon-a-poradek-utvar-pro-zvlastni-obeti-s14e07-prehlidka-marnivosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31425155",
+        "display_name": "Law & Order: Special Victims Unit S14E07 Vanity's Bonfire 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T20:11:04.589314+00:00"
       }
     },
     "1402:14:5": {
@@ -972315,7 +972316,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T20:10:56.413286+00:00",
+  "updated_at": "2026-11-26T20:11:04.589331+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
