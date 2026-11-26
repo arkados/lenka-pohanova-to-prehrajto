@@ -960544,12 +960544,6 @@
     },
     "1864:2:13": {
       "episode_key": "prezident v pořadí:s2:e13",
-      "claim": {
-        "worker_id": "f3187d2bd4b2461897567a739e9579f2-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:19:25.185433+00:00",
-        "lease_expires_at": "2026-11-26T20:19:25.185441+00:00"
-      },
       "source": {
         "source_id": "34118758",
         "source_url": "https://sdilej.cz/34118758/prezident-v-poradi-s02e13-cz.mp4",
@@ -960573,7 +960567,18 @@
         },
         "display_name": "Designated Survivor S02E13 Original Sin 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:19:45.161181+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118758:https://sdilej.cz/34118758/prezident-v-poradi-s02e13-cz.mp4",
+        "at": "2026-11-26T14:20:04.333124+00:00",
+        "retry_after": "2026-11-26T20:20:04.333124+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:20:04.333169+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1864:2:14": {
       "episode_key": "prezident v pořadí:s2:e14",
@@ -960614,7 +960619,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:19:57.929074+00:00",
+  "updated_at": "2026-11-26T14:20:04.333173+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -961584,16 +961589,8 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:10",
-          "at": "2026-11-26T14:07:45.866696+00:00"
-        },
-        {
-          "identity": "1864:2:11",
-          "at": "2026-11-26T14:08:30.432939+00:00"
-        },
-        {
-          "identity": "1864:2:12",
-          "at": "2026-11-26T14:08:38.020644+00:00"
+          "identity": "1864:2:13",
+          "at": "2026-11-26T14:20:04.333124+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:18:38.020644+00:00"
