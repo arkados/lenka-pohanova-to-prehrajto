@@ -966361,12 +966361,6 @@
     },
     "1787:4:4": {
       "episode_key": "havaj 5-0:s4:e4",
-      "claim": {
-        "worker_id": "43148b612c8f4b0bb707d5450509b345-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:17:52.306687+00:00",
-        "lease_expires_at": "2026-11-26T22:17:52.306696+00:00"
-      },
       "source": {
         "source_id": "34604465",
         "source_url": "https://sdilej.cz/34604465/havaj-5-0-s04e04-cz.mp4",
@@ -966391,22 +966385,29 @@
         "display_name": "Hawaii Five-0 S04E04 A Ia La Aku (From This Day Forward) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T16:18:07.310518+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31420129",
-        "size_bytes": 2291369179
-      },
-      "transfer_receipt": {
-        "target_video_id": "31420129",
-        "size_bytes": 2291369179,
-        "source_bytes_read": 2291369179,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31420129",
         "source_bytes_read": 2291369179,
         "elapsed_seconds": 153.928,
         "finished_at": "2026-11-26T16:21:17.591459+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31420129",
+          "size_bytes": 2291369179,
+          "source_bytes_read": 2291369179,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34604465",
+        "source_url": "https://sdilej.cz/34604465/havaj-5-0-s04e04-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31420129",
+        "display_name": "Hawaii Five-0 S04E04 A Ia La Aku (From This Day Forward) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T16:21:27.371874+00:00"
       }
     },
     "1787:5:6": {
@@ -966452,7 +966453,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:21:17.591481+00:00",
+  "updated_at": "2026-11-26T16:21:27.371891+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
