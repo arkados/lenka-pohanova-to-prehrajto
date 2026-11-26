@@ -967466,12 +967466,12 @@
     },
     "1408:9:11": {
       "episode_key": "dva z queensu:s9:e11",
-      "claim": {
-        "worker_id": "7ce48ca990c94435a195636113796940-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:56:01.306507+00:00",
-        "lease_expires_at": "2026-11-26T22:56:01.306516+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-26T16:58:00.385548+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1408:9:10": {
       "episode_key": "dva z queensu:s9:e10",
@@ -967497,7 +967497,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:57:53.742473+00:00",
+  "updated_at": "2026-11-26T16:58:00.385567+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
