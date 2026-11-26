@@ -958163,12 +958163,6 @@
     },
     "1408:2:10": {
       "episode_key": "dva z queensu:s2:e10",
-      "claim": {
-        "worker_id": "601aa5b0dc644314992b06c3add41e05-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:37:09.882166+00:00",
-        "lease_expires_at": "2026-11-26T19:37:09.882180+00:00"
-      },
       "source": {
         "source_id": "22276447",
         "source_url": "https://sdilej.cz/22276447/dva.z.queensu.02x10.hdtv.cz.avi",
@@ -958193,22 +958187,29 @@
         "display_name": "The King of Queens S02E10 Roamin' Holiday SD CZ Dabing",
         "prepared_at": "2026-11-26T13:37:23.815977+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31416601",
-        "size_bytes": 361856356
-      },
-      "transfer_receipt": {
-        "target_video_id": "31416601",
-        "size_bytes": 361856356,
-        "source_bytes_read": 361856356,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31416601",
         "source_bytes_read": 361856356,
         "elapsed_seconds": 28.87,
         "finished_at": "2026-11-26T13:38:37.057200+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31416601",
+          "size_bytes": 361856356,
+          "source_bytes_read": 361856356,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22276447",
+        "source_url": "https://sdilej.cz/22276447/dva.z.queensu.02x10.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31416601",
+        "display_name": "The King of Queens S02E10 Roamin' Holiday SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:38:46.035369+00:00"
       }
     },
     "1408:2:11": {
@@ -958254,7 +958255,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:38:37.057222+00:00",
+  "updated_at": "2026-11-26T13:38:46.035384+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
