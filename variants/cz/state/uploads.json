@@ -955229,12 +955229,6 @@
     },
     "244:3:7": {
       "episode_key": "proč? 13x proto:s3:e7",
-      "claim": {
-        "worker_id": "7d717043fca340d488d8bde0e5c13c35-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T05:41:38.219372+00:00",
-        "lease_expires_at": "2026-11-26T11:41:38.219390+00:00"
-      },
       "source": {
         "source_id": "32585876",
         "source_url": "https://sdilej.cz/32585876/proc-13x-proto-s03e07-clay-jensen-ma-spoustu-problemu-2019-1080p-cz-eng-dabing.mkv",
@@ -955259,22 +955253,29 @@
         "display_name": "13 Reasons Why S03E07 There Are a Number of Problems with Clay Jensen 1080p CZ Dabing",
         "prepared_at": "2026-11-26T05:41:58.833106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31400396",
-        "size_bytes": 812837780
-      },
-      "transfer_receipt": {
-        "target_video_id": "31400396",
-        "size_bytes": 812837780,
-        "source_bytes_read": 812837780,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31400396",
         "source_bytes_read": 812837780,
         "elapsed_seconds": 64.825,
         "finished_at": "2026-11-26T05:43:36.821343+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31400396",
+          "size_bytes": 812837780,
+          "source_bytes_read": 812837780,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585876",
+        "source_url": "https://sdilej.cz/32585876/proc-13x-proto-s03e07-clay-jensen-ma-spoustu-problemu-2019-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31400396",
+        "display_name": "13 Reasons Why S03E07 There Are a Number of Problems with Clay Jensen 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T05:43:52.537263+00:00"
       }
     },
     "244:3:8": {
@@ -955320,7 +955321,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T05:43:46.640381+00:00",
+  "updated_at": "2026-11-26T05:43:52.537281+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
