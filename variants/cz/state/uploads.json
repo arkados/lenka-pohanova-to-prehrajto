@@ -952520,12 +952520,6 @@
     },
     "1408:2:13": {
       "episode_key": "dva z queensu:s2:e13",
-      "claim": {
-        "worker_id": "edabc57f97ae483da42cb124ed004011-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:05:47.231875+00:00",
-        "lease_expires_at": "2026-11-26T08:05:47.231885+00:00"
-      },
       "source": {
         "source_id": "32658859",
         "source_url": "https://sdilej.cz/32658859/dva-z-queensu-s02e13-cz-dabing-.avi",
@@ -952549,7 +952543,17 @@
         },
         "display_name": "The King of Queens S02E13 Party Favor SD CZ Dabing",
         "prepared_at": "2026-11-26T02:05:54.240881+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658859:https://sdilej.cz/32658859/dva-z-queensu-s02e13-cz-dabing-.avi",
+        "at": "2026-11-26T02:06:11.660353+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T02:06:11.660391+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:2:18": {
       "episode_key": "dva z queensu:s2:e18",
@@ -952590,7 +952594,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:06:06.244700+00:00",
+  "updated_at": "2026-11-26T02:06:11.660396+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -953577,16 +953581,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:1:2",
-          "at": "2026-11-26T01:52:12.971217+00:00"
-        },
-        {
-          "identity": "1408:1:6",
-          "at": "2026-11-26T01:52:18.904291+00:00"
-        },
-        {
-          "identity": "1408:1:13",
-          "at": "2026-11-26T01:53:15.601807+00:00"
+          "identity": "1408:2:13",
+          "at": "2026-11-26T02:06:11.660353+00:00"
         }
       ],
       "retry_after": "2026-11-26T02:03:15.601807+00:00"
