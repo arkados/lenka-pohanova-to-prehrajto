@@ -935028,28 +935028,29 @@
           "at": "2026-11-26T14:05:40.906215+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1aa168a077244ebfbf3c04203a02a6b1-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:05:47.619589+00:00",
-        "lease_expires_at": "2026-11-26T20:05:47.619601+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31417284",
-        "size_bytes": 466639572
-      },
-      "transfer_receipt": {
-        "target_video_id": "31417284",
-        "size_bytes": 466639572,
-        "source_bytes_read": 466639572,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31417284",
         "source_bytes_read": 466639572,
         "elapsed_seconds": 36.225,
         "finished_at": "2026-11-26T14:07:13.183877+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31417284",
+          "size_bytes": 466639572,
+          "source_bytes_read": 466639572,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25961186",
+        "source_url": "https://sdilej.cz/25961186/13.reasons.why.s02e04.cz.webrip.720p.h265.hevc.c4u.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31417284",
+        "display_name": "13 Reasons Why S02E04 The Second Polaroid 720p CZ Dabing",
+        "uploaded_at": "2026-11-26T14:07:28.079377+00:00"
       }
     },
     "569:4:12": {
@@ -959852,7 +959853,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:07:20.473381+00:00",
+  "updated_at": "2026-11-26T14:07:28.079390+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
