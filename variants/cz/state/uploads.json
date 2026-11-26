@@ -970280,12 +970280,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "8b070b78c39e400793bd3a0a4d6f1e3b-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T18:13:19.353354+00:00",
-        "lease_expires_at": "2026-11-27T00:13:19.353365+00:00"
-      },
       "source": {
         "source_id": "33547586",
         "source_url": "https://sdilej.cz/33547586/zakon-a-poradek-utvar-pro-zvlastni-obeti-s13e01-spalena-zeme.mkv",
@@ -970310,22 +970304,29 @@
         "display_name": "Law & Order: Special Victims Unit S13E01 Scorched Earth 1080p CZ Dabing",
         "prepared_at": "2026-11-26T18:13:26.984140+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31422666",
-        "size_bytes": 2614593724
-      },
-      "transfer_receipt": {
-        "target_video_id": "31422666",
-        "size_bytes": 2614593724,
-        "source_bytes_read": 2614593724,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31422666",
         "source_bytes_read": 2614593724,
         "elapsed_seconds": 400.574,
         "finished_at": "2026-11-26T18:20:34.590924+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31422666",
+          "size_bytes": 2614593724,
+          "source_bytes_read": 2614593724,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33547586",
+        "source_url": "https://sdilej.cz/33547586/zakon-a-poradek-utvar-pro-zvlastni-obeti-s13e01-spalena-zeme.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31422666",
+        "display_name": "Law & Order: Special Victims Unit S13E01 Scorched Earth 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T18:20:53.675638+00:00"
       }
     },
     "1402:13:12": {
@@ -970852,7 +970853,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T18:20:46.305056+00:00",
+  "updated_at": "2026-11-26T18:20:53.675654+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
