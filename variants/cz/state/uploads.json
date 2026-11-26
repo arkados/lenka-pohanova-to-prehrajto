@@ -930374,28 +930374,29 @@
           "at": "2026-11-26T15:35:17.442381+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e85f51c7cf6a45f886b7dbad54db527d-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:35:24.470719+00:00",
-        "lease_expires_at": "2026-11-26T21:35:24.470731+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31419181",
-        "size_bytes": 2540144109
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419181",
-        "size_bytes": 2540144109,
-        "source_bytes_read": 2540144109,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419181",
         "source_bytes_read": 2540144109,
         "elapsed_seconds": 244.299,
         "finished_at": "2026-11-26T15:40:23.370749+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419181",
+          "size_bytes": 2540144109,
+          "source_bytes_read": 2540144109,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35191646",
+        "source_url": "https://sdilej.cz/35191646/nocni-agent-s02e04-zoufala-snaha.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419181",
+        "display_name": "The Night Agent S02E04 Desperate Measures 4K CZ Dabing",
+        "uploaded_at": "2026-11-26T15:40:32.776815+00:00"
       }
     },
     "610:2:5": {
@@ -964581,7 +964582,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:40:23.370767+00:00",
+  "updated_at": "2026-11-26T15:40:32.776833+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
