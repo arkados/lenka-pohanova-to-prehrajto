@@ -967799,12 +967799,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "4229d880d3a146e5874dc1cdaafe9a34-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:13:15.373380+00:00",
-        "lease_expires_at": "2026-11-26T23:13:15.373394+00:00"
-      },
       "source": {
         "source_id": "8635323",
         "source_url": "https://sdilej.cz/8635323/dva.z.queensu.09x08.hdtv.cz.avi",
@@ -967829,22 +967823,29 @@
         "display_name": "The King of Queens S09E08 Offensive Fowl SD CZ Dabing",
         "prepared_at": "2026-11-26T17:13:41.536893+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421425",
-        "size_bytes": 328285674
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421425",
-        "size_bytes": 328285674,
-        "source_bytes_read": 328285674,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421425",
         "source_bytes_read": 328285674,
         "elapsed_seconds": 23.694,
         "finished_at": "2026-11-26T17:14:47.036469+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421425",
+          "size_bytes": 328285674,
+          "source_bytes_read": 328285674,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8635323",
+        "source_url": "https://sdilej.cz/8635323/dva.z.queensu.09x08.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421425",
+        "display_name": "The King of Queens S09E08 Offensive Fowl SD CZ Dabing",
+        "uploaded_at": "2026-11-26T17:14:55.860848+00:00"
       }
     },
     "1408:9:12": {
@@ -968126,7 +968127,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:14:47.036490+00:00",
+  "updated_at": "2026-11-26T17:14:55.860862+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
