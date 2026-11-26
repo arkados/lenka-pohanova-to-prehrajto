@@ -1,6 +1,7 @@
 """Variant-isolated durable upload histories bound to the Lenka account."""
 
 from lenka_sync.series.pipeline import EpisodeState
+from lenka_sync.series.source_detail import SourceDetailUnavailable
 from lenka_sync.series.source_transfer import SourceUnavailable
 from lenka_sync.series.models import Episode
 from datetime import UTC, datetime, timedelta
@@ -64,10 +65,18 @@ class VariantState(EpisodeState):
 
     def retry_deferred_identities(self):
         deferred = super().retry_deferred_identities()
+        now = datetime.now(UTC).isoformat()
         with self._lock:
-            return {identity for identity in deferred
-                    if self.data["episodes"][identity]["attempts"][-1]["at"]
-                    > self.data["episodes"][identity].get("source_retry_reset_at", "")}
+            deferred = {
+                identity for identity in deferred
+                if self.data["episodes"][identity]["attempts"][-1]["at"]
+                > self.data["episodes"][identity].get("source_retry_reset_at", "")
+            }
+            deferred.update(
+                identity for identity, record in self.data["episodes"].items()
+                if not record.get("upload") and record.get("source_repair_requested", {}).get("retry_after", "") > now
+            )
+            return deferred
 
     def activate_source_repair(self, row):
         from .source_repair import has_new_repair, source_key
@@ -108,6 +117,8 @@ class VariantState(EpisodeState):
 
                 now = datetime.now(UTC)
                 record["source_repair_requested"] = {"base": source_key(record["source"]), "at": now.isoformat()}
+                if isinstance(error.__cause__, SourceDetailUnavailable):
+                    record["source_repair_requested"]["retry_after"] = (now + timedelta(hours=6)).isoformat()
                 series_id = str(episode.series_id)
                 outage = self.data.setdefault("source_outages", {}).setdefault(series_id, {})
                 recent = {

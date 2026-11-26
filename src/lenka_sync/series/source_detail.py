@@ -15,6 +15,10 @@ from lenka_sync.media import sdilej
 MIN_ORIGINAL_BYTES = 1024 * 1024
 
 
+class SourceDetailUnavailable(sdilej.SdilejError):
+    """Sdilej explicitly reported that it could not load a file detail."""
+
+
 def request_time_modified(headers):
     """Some download handlers emit request time as Last-Modified on every GET."""
     try:
@@ -69,7 +73,7 @@ def parse_detail_html(html_text, candidate):
                       if ' '.join(a.stripped_strings).casefold() == 'stáhnout rychle'), None)
     if not fast_link:
         if 'detail souboru se nepodařilo načíst' in text.casefold():
-            raise sdilej.SdilejError('Source detail is temporarily unavailable; no original download link')
+            raise SourceDetailUnavailable('Source detail is temporarily unavailable; no original download link')
         raise sdilej.SdilejError('Authenticated fast download link is unavailable; premium login is required')
     if urlparse(fast_link).scheme not in ('http', 'https'):
         raise sdilej.SdilejError('Fast download link is not an HTTP media address')

@@ -39,3 +39,26 @@ def test_wrong_episode_numbering_cannot_supply_name(tmp_path, monkeypatch):
     monkeypatch.setattr(api, "get", lambda *_, **__: {"season_number": 2, "episodes": []})
     with pytest.raises(MetadataUnavailable):
         api.resolve_episode({"season": 1, "episode": 1}, {"tmdb_id": 10, "original_language": "en"})
+
+
+def test_title_budget_prioritizes_unchecked_episodes_and_skips_unchanged_checkpoints(tmp_path, monkeypatch):
+    api = Metadata(tmp_path, api_key="test")
+    api.data["series"] = {
+        "1": {"status": "unresolved", "retry_after": "2000-01-01"},
+        "2": {"original_title": "Known Series", "original_language": "en", "tmdb_id": 10},
+    }
+    api.data["episodes"]["2:1:1"] = {"original_title": "Pilot"}
+    catalog = [dict(series_id=series, season=1, episode=number) for series, number in ((1, 1), (2, 1), (2, 2))]
+    saves = []
+    monkeypatch.setattr("lenka_sync.metadata.rows", lambda _: catalog)
+    monkeypatch.setattr(api, "save", lambda: saves.append(True))
+    monkeypatch.setattr(api, "resolve_series", lambda _: pytest.fail("Series retry used the title budget"))
+
+    def resolve_episode(row, _):
+        assert row["episode"] == 2
+        return {"original_title": "Second Episode"}
+
+    monkeypatch.setattr(api, "resolve_episode", resolve_episode)
+    assert api.resolve(limit=1)["checked"] == 1
+    assert api.data["episodes"]["2:1:2"]["original_title"] == "Second Episode"
+    assert len(saves) == 1

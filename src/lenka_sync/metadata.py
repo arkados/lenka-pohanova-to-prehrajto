@@ -125,6 +125,16 @@ class Metadata:
         deadline = time.monotonic() + runtime_minutes * 60
         checked, resolved = 0, 0
         snapshot = self.snapshot()
+
+        def priority(row):
+            key = str(row["series_id"])
+            series = snapshot["series"].get(key, {})
+            episode = snapshot["episodes"].get(f"{key}:{row['season']}:{row['episode']}", {})
+            return (bool(series.get("retry_after") or episode.get("retry_after")), not series.get("original_title"))
+
+        # Spend the request budget on unchecked titles that can unlock selected
+        # episodes before retrying previously unsuccessful lookups.
+        catalog.sort(key=priority)
         for row in catalog:
             if checked >= limit or time.monotonic() >= deadline:
                 break
@@ -133,6 +143,7 @@ class Metadata:
             identity = f"{key}:{row['season']}:{row['episode']}"
             now = datetime.now(UTC)
             episode = snapshot["episodes"].get(identity, {})
+            changed = False
             if not series.get("original_title"):
                 if series.get("retry_after", "") > now.isoformat():
                     continue
@@ -141,6 +152,7 @@ class Metadata:
                     series = self.resolve_series(row)
                     self.data["series"][key] = snapshot["series"][key] = series
                     resolved += 1
+                    changed = True
                 except MetadataUnavailable:
                     self.data["series"][key] = snapshot["series"][key] = dict(
                         status="unresolved", retry_after=(now + timedelta(hours=6)).isoformat()
@@ -181,7 +193,9 @@ class Metadata:
                         status="deferred", retry_after=(now + timedelta(hours=6)).isoformat()
                     )
                 snapshot["episodes"][identity] = self.data["episodes"][identity]
-            self.save()
+                changed = True
+            if changed:
+                self.save()
         return dict(
             checked=checked,
             resolved_series=resolved,

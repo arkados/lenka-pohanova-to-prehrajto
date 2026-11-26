@@ -11,7 +11,7 @@ import time
 from lenka_sync.series.episodes import episode_match, runtime_acceptable
 from lenka_sync.series.models import Episode
 from lenka_sync.series.quality import resolution_rank
-from lenka_sync.series.source_detail import parse_detail_html, resolve_original
+from lenka_sync.series.source_detail import SourceDetailUnavailable, parse_detail_html, resolve_original
 from lenka_sync.series.subtitle_media import extract_original, run_media, SubtitleUnavailable, normalize_srt
 from lenka_sync.media.models import LanguageTier, MatchTier
 from lenka_sync.media.sdilej import SdilejError
@@ -187,12 +187,8 @@ class CzechDiscovery(EnglishDiscovery):
                 raise SdilejError("Czech replacement verification did not complete")
             try:
                 detail = self.inspect_media(episode, candidate)
-            except SdilejError as error:
-                # Missing detail pages are not available alternatives. Probe/audio
-                # uncertainty still defers selection rather than downgrading it.
-                if str(error) == "Source detail is temporarily unavailable; no original download link":
-                    continue
-                raise
+            except SourceDetailUnavailable:
+                continue
             if detail is not None:
                 inspected.append(detail)
         inspected.sort(key=lambda item: (-resolution_rank(item.width, item.height), item.size_bytes, item.source_id))

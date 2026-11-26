@@ -5,7 +5,7 @@ import time
 import requests
 from lenka_sync.media.sdilej import SdilejError
 
-from .source_detail import MIN_ORIGINAL_BYTES
+from .source_detail import MIN_ORIGINAL_BYTES, SourceDetailUnavailable
 
 
 class SourceUnavailable(RuntimeError):
@@ -76,7 +76,7 @@ class FreshSourceSession:
                 except (SdilejError, requests.RequestException) as error:
                     if response is not None:
                         response.close()
-                    if attempt == 2:
+                    if isinstance(error, SourceDetailUnavailable) or attempt == 2:
                         raise SourceUnavailable('Original stream unavailable before target allocation') from error
                     print(f'source_open_retry={attempt + 1} error={type(error).__name__}', flush=True)
                     time.sleep(2 ** (attempt + 1))

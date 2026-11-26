@@ -11,6 +11,7 @@ from lenka_sync.media.sdilej import SdilejError
 from lenka_sync.pipeline import planned
 from lenka_sync.policy import VARIANTS
 from lenka_sync.series.models import Episode
+from lenka_sync.series.source_detail import SourceDetailUnavailable
 from lenka_sync.series.source_transfer import SourceUnavailable
 from lenka_sync.source_repair import (
     FEED_PATH, REPAIR_POLICY, find_replacements, has_new_repair, repair_key,
@@ -18,6 +19,7 @@ from lenka_sync.source_repair import (
 )
 from lenka_sync.state import VariantState
 from lenka_sync.storage import atomic_json, read_json, write_rows
+from lenka_sync.transfer import prepare_source
 
 
 def replacement(row, source_id="456", width=3840, size=300_000_000):
@@ -97,6 +99,32 @@ def test_new_repair_can_bypass_old_source_backoff_but_not_its_own_failure(tmp_pa
     assert not has_new_repair(row, state.row(episode))
     assert planned(queue, titles, states, repairs=feed) == []
     assert len(state.row(episode)["attempts"]) == 2
+
+
+def test_unavailable_detail_waits_for_repair_without_repeated_preflight(tmp_path, czech_row, titles):
+    state = VariantState(tmp_path / "cz.json", "cz")
+    episode = Episode.from_dict(czech_row["episode"])
+    candidate = Candidate.from_dict(czech_row["selected"])
+    state.prepared(episode, candidate, "Previous source")
+    preflights = []
+
+    def refresh(*_, **__):
+        preflights.append(True)
+        raise SourceDetailUnavailable("Unavailable")
+
+    provider = SimpleNamespace(refresh=refresh, session=None)
+    with pytest.raises(SourceUnavailable) as failure:
+        prepare_source(provider, candidate, True)
+    assert len(preflights) == 1
+    state.failure(episode, failure.value)
+    record = state.row(episode)
+    record["attempts"][-1]["at"] = (datetime.now(UTC) - timedelta(hours=2)).isoformat()
+    queue, states = {"cz": [czech_row]}, {"cz": state}
+    assert planned(queue, titles, states) == []
+    feed = feed_for(czech_row, replacement(czech_row))
+    repaired = planned(queue, titles, states, repairs=feed)[0]
+    assert state.activate_source_repair(repaired)
+    assert state.claim(episode, "worker")
 
 
 def test_successive_repairs_are_bound_to_the_latest_failed_source(tmp_path, czech_row):
@@ -192,7 +220,7 @@ def test_czech_repair_skips_missing_details_but_defers_uncertain_better_media(cz
 
     def verify(_, candidate):
         if candidate.source_id == "2":
-            raise SdilejError("Source detail is temporarily unavailable; no original download link")
+            raise SourceDetailUnavailable("Unavailable")
         return candidate
 
     discovery.inspect_media = verify

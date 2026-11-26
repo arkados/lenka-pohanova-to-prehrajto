@@ -27,6 +27,7 @@ from .policy import upload_eligible
 from .naming import target_text
 from .scheduling import execution_environment
 from lenka_sync.series.git_state import CheckpointError
+from lenka_sync.series.source_detail import SourceDetailUnavailable
 from lenka_sync.series.source_transfer import FreshSourceSession, SourceUnavailable
 from lenka_sync.series.resilience import (
     TargetPending, error_evidence, receipt_matches, transient_http,
@@ -158,7 +159,7 @@ def prepare_source(provider, candidate, require_original_size):
                     raise RuntimeError("Recovery original size changed; source requires review")
             return refreshed
         except (SdilejError, requests.RequestException) as error:
-            if attempt == 2:
+            if isinstance(error, SourceDetailUnavailable) or attempt == 2:
                 raise SourceUnavailable("Source preparation failed before target allocation") from error
             print(f"source_retry={attempt + 1} error={type(error).__name__}", flush=True)
             time.sleep(2 ** (attempt + 1))
@@ -564,7 +565,8 @@ def upload_continuously(
                         if target_deferred
                         else "upload_failed"
                     )
-                    print(f"{outcome} identity={row.get('identity')} error={error_evidence(error)}", flush=True)
+                    diagnostic = error.__cause__ if source_deferred and error.__cause__ else error
+                    print(f"{outcome} identity={row.get('identity')} error={error_evidence(diagnostic)}", flush=True)
                 finally:
                     with queue_condition:
                         in_flight -= 1
