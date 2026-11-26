@@ -957047,12 +957047,6 @@
     },
     "575:3:14": {
       "episode_key": "stoupenci zla:s3:e14",
-      "claim": {
-        "worker_id": "a6b1484fe0d047aa8bf8e633efec74ea-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:58:24.683571+00:00",
-        "lease_expires_at": "2026-11-26T18:58:24.683580+00:00"
-      },
       "source": {
         "source_id": "6288942",
         "source_url": "https://sdilej.cz/6288942/stoupenci-zla-s03e14-cz-dabing-by-led.avi",
@@ -957077,22 +957071,29 @@
         "display_name": "The Following S03E14 Dead or Alive SD CZ Dabing",
         "prepared_at": "2026-11-26T12:58:37.826649+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31415783",
-        "size_bytes": 408774170
-      },
-      "transfer_receipt": {
-        "target_video_id": "31415783",
-        "size_bytes": 408774170,
-        "source_bytes_read": 408774170,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31415783",
         "source_bytes_read": 408774170,
         "elapsed_seconds": 40.101,
         "finished_at": "2026-11-26T13:00:04.357737+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31415783",
+          "size_bytes": 408774170,
+          "source_bytes_read": 408774170,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6288942",
+        "source_url": "https://sdilej.cz/6288942/stoupenci-zla-s03e14-cz-dabing-by-led.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31415783",
+        "display_name": "The Following S03E14 Dead or Alive SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:00:18.818365+00:00"
       }
     },
     "575:3:15": {
@@ -957138,7 +957139,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:00:12.312871+00:00",
+  "updated_at": "2026-11-26T13:00:18.818380+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
