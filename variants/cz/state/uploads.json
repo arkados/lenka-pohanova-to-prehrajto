@@ -965472,12 +965472,6 @@
     },
     "1408:7:12": {
       "episode_key": "dva z queensu:s7:e12",
-      "claim": {
-        "worker_id": "9a22501ca61c48549e1671a9ab4929fb-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T15:56:48.742008+00:00",
-        "lease_expires_at": "2026-11-26T21:56:48.742020+00:00"
-      },
       "source": {
         "source_id": "24654534",
         "source_url": "https://sdilej.cz/24654534/dva.z.queensu.07x12.hdtv.cz.avi",
@@ -965502,22 +965496,29 @@
         "display_name": "The King of Queens S07E12 Gym Neighbors SD CZ Dabing",
         "prepared_at": "2026-11-26T15:57:09.629054+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419683",
-        "size_bytes": 340700302
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419683",
-        "size_bytes": 340700302,
-        "source_bytes_read": 340700302,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419683",
         "source_bytes_read": 340700302,
         "elapsed_seconds": 29.545,
         "finished_at": "2026-11-26T15:58:21.412801+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419683",
+          "size_bytes": 340700302,
+          "source_bytes_read": 340700302,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "24654534",
+        "source_url": "https://sdilej.cz/24654534/dva.z.queensu.07x12.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419683",
+        "display_name": "The King of Queens S07E12 Gym Neighbors SD CZ Dabing",
+        "uploaded_at": "2026-11-26T15:58:47.493670+00:00"
       }
     },
     "1408:7:14": {
@@ -965576,7 +965577,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:58:41.399754+00:00",
+  "updated_at": "2026-11-26T15:58:47.493684+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
