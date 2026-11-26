@@ -967389,21 +967389,19 @@
       },
       "source_repair_requested": {
         "base": "32659285:https://sdilej.cz/32659285/dva-z-queensu-s08e16-cz-dabing-.avi",
-        "at": "2026-11-26T16:35:50.706933+00:00",
-        "retry_after": "2026-11-26T22:35:50.706933+00:00"
+        "at": "2026-11-26T22:52:52.389163+00:00",
+        "retry_after": "2026-11-27T04:52:52.389163+00:00"
       },
       "attempts": [
         {
           "at": "2026-11-26T16:35:50.707064+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T22:52:52.389206+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "8f01b4043f9542788a0ed7949710dcde-worker-0",
-        "run_id": "45883873407",
-        "claimed_at": "2026-11-26T22:52:22.088947+00:00",
-        "lease_expires_at": "2026-11-27T04:52:22.088954+00:00"
-      }
+      ]
     },
     "1408:8:17": {
       "episode_key": "dva z queensu:s8:e17",
@@ -977337,7 +977335,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T22:52:46.549243+00:00",
+  "updated_at": "2026-11-26T22:52:52.389212+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -978330,6 +978328,10 @@
         {
           "identity": "1408:8:15",
           "at": "2026-11-26T22:51:57.373504+00:00"
+        },
+        {
+          "identity": "1408:8:16",
+          "at": "2026-11-26T22:52:52.389163+00:00"
         }
       ],
       "retry_after": "2026-11-26T22:51:09.760058+00:00"
