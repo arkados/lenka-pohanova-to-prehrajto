@@ -978425,12 +978425,6 @@
     },
     "1967:7:4": {
       "episode_key": "vraždy v midsomeru:s7:e4",
-      "claim": {
-        "worker_id": "fc86a6da4c7b4a73a66f8654be7069ec-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-26T23:16:55.493696+00:00",
-        "lease_expires_at": "2026-11-27T05:16:55.493705+00:00"
-      },
       "source": {
         "source_id": "27570494",
         "source_url": "https://sdilej.cz/27570494/vrazdy-v-midsomeru-s07e04-hrisna-porota.mkv",
@@ -978455,22 +978449,29 @@
         "display_name": "Midsomer Murders S07E04 Sins of Commission 1080p CZ Dabing",
         "prepared_at": "2026-11-26T23:17:03.503850+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31429451",
-        "size_bytes": 2068391428
-      },
-      "transfer_receipt": {
-        "target_video_id": "31429451",
-        "size_bytes": 2068391428,
-        "source_bytes_read": 2068391428,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31429451",
         "source_bytes_read": 2068391428,
         "elapsed_seconds": 176.707,
         "finished_at": "2026-11-26T23:20:33.297749+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31429451",
+          "size_bytes": 2068391428,
+          "source_bytes_read": 2068391428,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27570494",
+        "source_url": "https://sdilej.cz/27570494/vrazdy-v-midsomeru-s07e04-hrisna-porota.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31429451",
+        "display_name": "Midsomer Murders S07E04 Sins of Commission 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T23:20:49.086646+00:00"
       }
     },
     "1402:24:11": {
@@ -978603,7 +978604,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T23:20:39.936315+00:00",
+  "updated_at": "2026-11-26T23:20:49.086676+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
