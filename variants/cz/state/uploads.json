@@ -968319,12 +968319,6 @@
     },
     "1787:10:5": {
       "episode_key": "havaj 5-0:s10:e5",
-      "claim": {
-        "worker_id": "cdd6b4271f4f41cc8c18704f0ff74ac3-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:16:15.526910+00:00",
-        "lease_expires_at": "2026-11-26T23:16:15.526920+00:00"
-      },
       "source": {
         "source_id": "34625638",
         "source_url": "https://sdilej.cz/34625638/havaj-5-0-s10e05-cz.mp4",
@@ -968349,22 +968343,29 @@
         "display_name": "Hawaii Five-0 S10E05 He `oi`o kuhihewa; he kaka ola i `ike `ia e ka makaula (Don’t Blame Ghosts and Spirits for One's Troubles; A Human Is Responsible) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T17:16:30.762186+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421506",
-        "size_bytes": 2277952063
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421506",
-        "size_bytes": 2277952063,
-        "source_bytes_read": 2277952063,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421506",
         "source_bytes_read": 2277952063,
         "elapsed_seconds": 150.574,
         "finished_at": "2026-11-26T17:19:41.594568+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421506",
+          "size_bytes": 2277952063,
+          "source_bytes_read": 2277952063,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34625638",
+        "source_url": "https://sdilej.cz/34625638/havaj-5-0-s10e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421506",
+        "display_name": "Hawaii Five-0 S10E05 He `oi`o kuhihewa; he kaka ola i `ike `ia e ka makaula (Don’t Blame Ghosts and Spirits for One's Troubles; A Human Is Responsible) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T17:19:51.287781+00:00"
       }
     }
   },
@@ -968373,7 +968374,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:19:41.594584+00:00",
+  "updated_at": "2026-11-26T17:19:51.287799+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
