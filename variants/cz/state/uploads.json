@@ -952322,12 +952322,6 @@
     },
     "1787:3:19": {
       "episode_key": "havaj 5-0:s3:e19",
-      "claim": {
-        "worker_id": "9d229c86752b4374890ceab4b1eef574-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T02:01:17.639015+00:00",
-        "lease_expires_at": "2026-11-26T08:01:17.639025+00:00"
-      },
       "source": {
         "source_id": "25776013",
         "source_url": "https://sdilej.cz/25776013/havaj-5-0-s03e19-cz-dabing-hawaii-five-0.mkv",
@@ -952352,22 +952346,29 @@
         "display_name": "Hawaii Five-0 S03E19 Hoa Pili (Close Friends) SD CZ Dabing",
         "prepared_at": "2026-11-26T02:01:37.041860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395728",
-        "size_bytes": 534858161
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395728",
-        "size_bytes": 534858161,
-        "source_bytes_read": 534858161,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395728",
         "source_bytes_read": 534858161,
         "elapsed_seconds": 29.602,
         "finished_at": "2026-11-26T02:02:37.725360+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395728",
+          "size_bytes": 534858161,
+          "source_bytes_read": 534858161,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25776013",
+        "source_url": "https://sdilej.cz/25776013/havaj-5-0-s03e19-cz-dabing-hawaii-five-0.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395728",
+        "display_name": "Hawaii Five-0 S03E19 Hoa Pili (Close Friends) SD CZ Dabing",
+        "uploaded_at": "2026-11-26T02:02:50.324993+00:00"
       }
     }
   },
@@ -952376,7 +952377,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:02:44.765283+00:00",
+  "updated_at": "2026-11-26T02:02:50.325007+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
