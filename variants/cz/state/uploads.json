@@ -964041,12 +964041,6 @@
     },
     "1967:8:4": {
       "episode_key": "vraždy v midsomeru:s8:e4",
-      "claim": {
-        "worker_id": "1eeb760c026944198a97b5c85bd21e4d-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:26:16.258696+00:00",
-        "lease_expires_at": "2026-11-26T21:26:16.258712+00:00"
-      },
       "source": {
         "source_id": "27571820",
         "source_url": "https://sdilej.cz/27571820/vrazdy-v-midsomeru-s08e04-bantling-boy.mkv",
@@ -964071,22 +964065,29 @@
         "display_name": "Midsomer Murders S08E04 Orchis Fatalis 1080p CZ Dabing",
         "prepared_at": "2026-11-26T15:26:25.173757+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31418981",
-        "size_bytes": 2057734067
-      },
-      "transfer_receipt": {
-        "target_video_id": "31418981",
-        "size_bytes": 2057734067,
-        "source_bytes_read": 2057734067,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31418981",
         "source_bytes_read": 2057734067,
         "elapsed_seconds": 138.047,
         "finished_at": "2026-11-26T15:29:17.345926+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31418981",
+          "size_bytes": 2057734067,
+          "source_bytes_read": 2057734067,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27571820",
+        "source_url": "https://sdilej.cz/27571820/vrazdy-v-midsomeru-s08e04-bantling-boy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31418981",
+        "display_name": "Midsomer Murders S08E04 Orchis Fatalis 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T15:29:36.789777+00:00"
       }
     },
     "1967:9:1": {
@@ -964132,7 +964133,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:29:24.969864+00:00",
+  "updated_at": "2026-11-26T15:29:36.789793+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
