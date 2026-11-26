@@ -968024,12 +968024,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "cad33c94a6ad4cbd8a6bc53f9cad7994-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:19:57.493769+00:00",
-        "lease_expires_at": "2026-11-26T23:19:57.493777+00:00"
-      },
       "source": {
         "source_id": "34609554",
         "source_url": "https://sdilej.cz/34609554/havaj-5-0-s07e11-cz.mp4",
@@ -968054,22 +968048,29 @@
         "display_name": "Hawaii Five-0 S07E11 Ka`ili aku (Snatchback) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T17:20:05.907390+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421609",
-        "size_bytes": 2130100495
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421609",
-        "size_bytes": 2130100495,
-        "source_bytes_read": 2130100495,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421609",
         "source_bytes_read": 2130100495,
         "elapsed_seconds": 157.118,
         "finished_at": "2026-11-26T17:23:17.715388+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421609",
+          "size_bytes": 2130100495,
+          "source_bytes_read": 2130100495,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34609554",
+        "source_url": "https://sdilej.cz/34609554/havaj-5-0-s07e11-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421609",
+        "display_name": "Hawaii Five-0 S07E11 Ka`ili aku (Snatchback) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T17:23:32.614424+00:00"
       }
     },
     "1787:7:24": {
@@ -968522,7 +968523,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:23:25.671290+00:00",
+  "updated_at": "2026-11-26T17:23:32.614440+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
