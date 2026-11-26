@@ -952112,12 +952112,6 @@
     },
     "1408:1:18": {
       "episode_key": "dva z queensu:s1:e18",
-      "claim": {
-        "worker_id": "7d8da448cbc34d7a9426b836994c0d52-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T01:52:44.648939+00:00",
-        "lease_expires_at": "2026-11-26T07:52:44.648951+00:00"
-      },
       "source": {
         "source_id": "27328762",
         "source_url": "https://sdilej.cz/27328762/dva.z.queensu.01x18.hdtv.cz.avi",
@@ -952142,22 +952136,29 @@
         "display_name": "The King of Queens S01E18 White Collar SD CZ Dabing",
         "prepared_at": "2026-11-26T01:52:57.431732+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395563",
-        "size_bytes": 348234486
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395563",
-        "size_bytes": 348234486,
-        "source_bytes_read": 348234486,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395563",
         "source_bytes_read": 348234486,
         "elapsed_seconds": 24.948,
         "finished_at": "2026-11-26T01:53:58.641729+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395563",
+          "size_bytes": 348234486,
+          "source_bytes_read": 348234486,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27328762",
+        "source_url": "https://sdilej.cz/27328762/dva.z.queensu.01x18.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395563",
+        "display_name": "The King of Queens S01E18 White Collar SD CZ Dabing",
+        "uploaded_at": "2026-11-26T01:54:12.374713+00:00"
       }
     }
   },
@@ -952166,7 +952167,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T01:54:04.205985+00:00",
+  "updated_at": "2026-11-26T01:54:12.374731+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
