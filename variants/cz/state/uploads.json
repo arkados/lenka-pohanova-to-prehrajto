@@ -965923,12 +965923,6 @@
     },
     "1408:8:1": {
       "episode_key": "dva z queensu:s8:e1",
-      "claim": {
-        "worker_id": "e88df4fb91054b1392db80412194eb57-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:08:02.675868+00:00",
-        "lease_expires_at": "2026-11-26T22:08:02.675876+00:00"
-      },
       "source": {
         "source_id": "32659226",
         "source_url": "https://sdilej.cz/32659226/dva-z-queensu-s08e01-cz-dabing-.avi",
@@ -965952,7 +965946,18 @@
         },
         "display_name": "The King of Queens S08E01 Pole Lox SD CZ Dabing",
         "prepared_at": "2026-11-26T16:08:13.751548+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659226:https://sdilej.cz/32659226/dva-z-queensu-s08e01-cz-dabing-.avi",
+        "at": "2026-11-26T16:08:28.844058+00:00",
+        "retry_after": "2026-11-26T22:08:28.844058+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:08:28.844099+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:8:2": {
       "episode_key": "dva z queensu:s8:e2",
@@ -965969,7 +965974,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:08:19.925468+00:00",
+  "updated_at": "2026-11-26T16:08:28.844105+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -966950,6 +966955,10 @@
         {
           "identity": "1408:7:20",
           "at": "2026-11-26T16:04:46.393358+00:00"
+        },
+        {
+          "identity": "1408:8:1",
+          "at": "2026-11-26T16:08:28.844058+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:35:48.773989+00:00"
