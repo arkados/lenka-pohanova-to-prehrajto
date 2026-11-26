@@ -960107,12 +960107,6 @@
     },
     "1408:4:8": {
       "episode_key": "dva z queensu:s4:e8",
-      "claim": {
-        "worker_id": "c5b66057f3ca48fd8c676f750ef2f317-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:11:59.779481+00:00",
-        "lease_expires_at": "2026-11-26T20:11:59.779489+00:00"
-      },
       "source": {
         "source_id": "27337181",
         "source_url": "https://sdilej.cz/27337181/dva.z.queensu.04x08.hdtv.cz.avi",
@@ -960137,22 +960131,29 @@
         "display_name": "The King of Queens S04E08 Life Sentence SD CZ Dabing",
         "prepared_at": "2026-11-26T14:12:07.255040+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31417424",
-        "size_bytes": 346667422
-      },
-      "transfer_receipt": {
-        "target_video_id": "31417424",
-        "size_bytes": 346667422,
-        "source_bytes_read": 346667422,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31417424",
         "source_bytes_read": 346667422,
         "elapsed_seconds": 57.14,
         "finished_at": "2026-11-26T14:13:45.509176+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31417424",
+          "size_bytes": 346667422,
+          "source_bytes_read": 346667422,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27337181",
+        "source_url": "https://sdilej.cz/27337181/dva.z.queensu.04x08.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31417424",
+        "display_name": "The King of Queens S04E08 Life Sentence SD CZ Dabing",
+        "uploaded_at": "2026-11-26T14:14:05.091790+00:00"
       }
     },
     "1408:4:10": {
@@ -960235,7 +960236,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:13:58.365922+00:00",
+  "updated_at": "2026-11-26T14:14:05.091805+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
