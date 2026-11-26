@@ -979904,12 +979904,6 @@
     },
     "1382:2:5": {
       "episode_key": "smrtonosná zbraň:s2:e5",
-      "claim": {
-        "worker_id": "c720c7f613a3424c99c7b2f3194e8466-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-26T23:53:15.772351+00:00",
-        "lease_expires_at": "2026-11-27T05:53:15.772364+00:00"
-      },
       "source": {
         "source_id": "29875915",
         "source_url": "https://sdilej.cz/29875915/smrtonosna-zbran-s02e05.mp4",
@@ -979934,22 +979928,29 @@
         "display_name": "Lethal Weapon S02E05 Let It Ride 1080p CZ Dabing",
         "prepared_at": "2026-11-26T23:53:35.218148+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31430119",
-        "size_bytes": 1084640062
-      },
-      "transfer_receipt": {
-        "target_video_id": "31430119",
-        "size_bytes": 1084640062,
-        "source_bytes_read": 1084640062,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31430119",
         "source_bytes_read": 1084640062,
         "elapsed_seconds": 111.15,
         "finished_at": "2026-11-26T23:56:05.017969+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31430119",
+          "size_bytes": 1084640062,
+          "source_bytes_read": 1084640062,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29875915",
+        "source_url": "https://sdilej.cz/29875915/smrtonosna-zbran-s02e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31430119",
+        "display_name": "Lethal Weapon S02E05 Let It Ride 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T23:56:20.928862+00:00"
       }
     },
     "1402:27:17": {
@@ -979994,7 +979995,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T23:56:12.092251+00:00",
+  "updated_at": "2026-11-26T23:56:20.928879+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
