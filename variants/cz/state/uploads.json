@@ -965158,12 +965158,6 @@
     },
     "1408:7:6": {
       "episode_key": "dva z queensu:s7:e6",
-      "claim": {
-        "worker_id": "ab5ed4be19874a7abbf5bea86cb0412f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:50:58.230040+00:00",
-        "lease_expires_at": "2026-11-26T21:50:58.230050+00:00"
-      },
       "source": {
         "source_id": "32659177",
         "source_url": "https://sdilej.cz/32659177/dva-z-queensu-s07e06-cz-dabing-.avi",
@@ -965187,7 +965181,18 @@
         },
         "display_name": "The King of Queens S07E06 Offtrack… Bedding SD CZ Dabing",
         "prepared_at": "2026-11-26T15:51:06.245878+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659177:https://sdilej.cz/32659177/dva-z-queensu-s07e06-cz-dabing-.avi",
+        "at": "2026-11-26T15:51:20.027503+00:00",
+        "retry_after": "2026-11-26T21:51:20.027503+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T15:51:20.027539+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -965195,7 +965200,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:51:13.058470+00:00",
+  "updated_at": "2026-11-26T15:51:20.027544+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -966174,8 +966179,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:6:16",
-          "at": "2026-11-26T14:58:47.884141+00:00"
+          "identity": "1408:7:6",
+          "at": "2026-11-26T15:51:20.027503+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:35:48.773989+00:00"
