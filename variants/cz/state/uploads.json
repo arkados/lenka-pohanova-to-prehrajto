@@ -927507,28 +927507,29 @@
           "at": "2026-11-26T04:29:24.551871+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "858926cadb78410b8526eb8716b29a6f-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T04:29:30.538658+00:00",
-        "lease_expires_at": "2026-11-26T10:29:30.538670+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31399044",
-        "size_bytes": 1395054621
-      },
-      "transfer_receipt": {
-        "target_video_id": "31399044",
-        "size_bytes": 1395054621,
-        "source_bytes_read": 1395054621,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31399044",
         "source_bytes_read": 1395054621,
         "elapsed_seconds": 64.989,
         "finished_at": "2026-11-26T04:31:18.122308+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31399044",
+          "size_bytes": 1395054621,
+          "source_bytes_read": 1395054621,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32570034",
+        "source_url": "https://sdilej.cz/32570034/proc-13x-proto-s01e02-prvni-kazeta-druha-strana.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31399044",
+        "display_name": "13 Reasons Why S01E02 Tape 1, Side B 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T04:31:32.525204+00:00"
       }
     },
     "723:1:1": {
@@ -954750,7 +954751,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T04:31:24.738600+00:00",
+  "updated_at": "2026-11-26T04:31:32.525220+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
