@@ -955911,13 +955911,10 @@
       },
       "source_repair_requested": {
         "base": "32965409:https://sdilej.cz/32965409/proc-13x-proto-s04e02-cz-dabing-1080p.mkv",
-        "at": "2026-11-26T11:49:46.913692+00:00"
+        "at": "2026-11-26T13:34:03.201324+00:00",
+        "retry_after": "2026-11-26T19:34:03.201324+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T08:56:05.676495+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T10:48:44.000346+00:00",
           "error": "SourceUnavailable"
@@ -955925,14 +955922,12 @@
         {
           "at": "2026-11-26T11:49:46.913755+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T13:34:03.201366+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "90c5fefe6cc440b3988ba31a738d2ef4-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:33:25.259695+00:00",
-        "lease_expires_at": "2026-11-26T19:33:25.259703+00:00"
-      }
+      ]
     },
     "244:4:3": {
       "episode_key": "proč? 13x proto:s4:e3",
@@ -957978,7 +957973,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:33:53.286400+00:00",
+  "updated_at": "2026-11-26T13:34:03.201373+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -958883,6 +958878,10 @@
         {
           "identity": "244:4:1",
           "at": "2026-11-26T13:32:55.304119+00:00"
+        },
+        {
+          "identity": "244:4:2",
+          "at": "2026-11-26T13:34:03.201324+00:00"
         }
       ],
       "retry_after": "2026-11-26T13:31:30.322415+00:00"
