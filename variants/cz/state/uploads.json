@@ -951500,12 +951500,6 @@
     },
     "1408:1:1": {
       "episode_key": "dva z queensu:s1:e1",
-      "claim": {
-        "worker_id": "bffacbaa7e0c4d4fa6c65fe92dc78ae3-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:55:30.188191+00:00",
-        "lease_expires_at": "2026-11-26T06:55:30.188215+00:00"
-      },
       "source": {
         "source_id": "32658755",
         "source_url": "https://sdilej.cz/32658755/dva-z-queensu-s01e01-cz-dabing-.avi",
@@ -951529,7 +951523,17 @@
         },
         "display_name": "The King of Queens S01E01 Pilot SD CZ Dabing",
         "prepared_at": "2026-11-26T00:55:38.003299+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658755:https://sdilej.cz/32658755/dva-z-queensu-s01e01-cz-dabing-.avi",
+        "at": "2026-11-26T00:55:53.348333+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T00:55:53.348369+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -951537,7 +951541,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:55:44.683458+00:00",
+  "updated_at": "2026-11-26T00:55:53.348375+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -952524,6 +952528,14 @@
         }
       ],
       "retry_after": "2026-11-26T01:02:21.845061+00:00"
+    },
+    "1408": {
+      "recent_failures": [
+        {
+          "identity": "1408:1:1",
+          "at": "2026-11-26T00:55:53.348333+00:00"
+        }
+      ]
     }
   }
 }
