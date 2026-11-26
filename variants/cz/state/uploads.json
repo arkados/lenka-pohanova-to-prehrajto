@@ -952034,12 +952034,6 @@
     },
     "1864:1:16": {
       "episode_key": "prezident v pořadí:s1:e16",
-      "claim": {
-        "worker_id": "bc92543a70eb4551bdaa17d336b994b6-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T01:46:01.597754+00:00",
-        "lease_expires_at": "2026-11-26T07:46:01.597773+00:00"
-      },
       "source": {
         "source_id": "34118531",
         "source_url": "https://sdilej.cz/34118531/prezident-v-poradi-s01e16-cz.mp4",
@@ -952063,7 +952057,17 @@
         },
         "display_name": "Designated Survivor S01E16 Party Lines 720p CZ Dabing",
         "prepared_at": "2026-11-26T01:46:16.832095+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118531:https://sdilej.cz/34118531/prezident-v-poradi-s01e16-cz.mp4",
+        "at": "2026-11-26T01:46:39.818644+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T01:46:39.818714+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -952071,7 +952075,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T01:46:33.515904+00:00",
+  "updated_at": "2026-11-26T01:46:39.818720+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -953053,19 +953057,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:11",
-          "at": "2026-11-26T01:44:59.297820+00:00"
-        },
-        {
           "identity": "1864:1:14",
           "at": "2026-11-26T01:45:29.627950+00:00"
         },
         {
           "identity": "1864:1:15",
           "at": "2026-11-26T01:46:08.531324+00:00"
+        },
+        {
+          "identity": "1864:1:16",
+          "at": "2026-11-26T01:46:39.818644+00:00"
         }
       ],
-      "retry_after": "2026-11-26T01:56:08.531324+00:00"
+      "retry_after": "2026-11-26T01:56:39.818644+00:00"
     },
     "1408": {
       "recent_failures": [
