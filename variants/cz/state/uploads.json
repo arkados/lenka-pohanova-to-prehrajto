@@ -965303,12 +965303,6 @@
     },
     "1408:7:9": {
       "episode_key": "dva z queensu:s7:e9",
-      "claim": {
-        "worker_id": "07fc2167528e46a09ebd0505d0a4cda5-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:53:25.786306+00:00",
-        "lease_expires_at": "2026-11-26T21:53:25.786313+00:00"
-      },
       "source": {
         "source_id": "27344250",
         "source_url": "https://sdilej.cz/27344250/dva.z.queensu.07x09.hdtv.cz.avi",
@@ -965333,22 +965327,29 @@
         "display_name": "The King of Queens S07E09 Cologne Ranger SD CZ Dabing",
         "prepared_at": "2026-11-26T15:53:42.052180+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419581",
-        "size_bytes": 339714940
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419581",
-        "size_bytes": 339714940,
-        "source_bytes_read": 339714940,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419581",
         "source_bytes_read": 339714940,
         "elapsed_seconds": 26.829,
         "finished_at": "2026-11-26T15:54:45.916853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419581",
+          "size_bytes": 339714940,
+          "source_bytes_read": 339714940,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27344250",
+        "source_url": "https://sdilej.cz/27344250/dva.z.queensu.07x09.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419581",
+        "display_name": "The King of Queens S07E09 Cologne Ranger SD CZ Dabing",
+        "uploaded_at": "2026-11-26T15:55:00.036858+00:00"
       }
     },
     "1408:7:10": {
@@ -965408,7 +965409,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:54:53.520748+00:00",
+  "updated_at": "2026-11-26T15:55:00.036875+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
