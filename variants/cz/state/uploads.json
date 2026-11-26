@@ -955437,12 +955437,6 @@
     },
     "244:3:11": {
       "episode_key": "proč? 13x proto:s3:e11",
-      "claim": {
-        "worker_id": "0a91db953f8b4dd4b49f5bcf90fb1b68-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T05:48:42.859312+00:00",
-        "lease_expires_at": "2026-11-26T11:48:42.859334+00:00"
-      },
       "source": {
         "source_id": "32585881",
         "source_url": "https://sdilej.cz/32585881/proc-13x-proto-s03e11-par-veci-ktere-jsem-ti-nerekla-2019-1080p-cz-eng-dabing.mkv",
@@ -955467,22 +955461,29 @@
         "display_name": "13 Reasons Why S03E11 There Are a Few Things I Haven't Told You 1080p CZ Dabing",
         "prepared_at": "2026-11-26T05:48:54.486190+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31400495",
-        "size_bytes": 879188104
-      },
-      "transfer_receipt": {
-        "target_video_id": "31400495",
-        "size_bytes": 879188104,
-        "source_bytes_read": 879188104,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31400495",
         "source_bytes_read": 879188104,
         "elapsed_seconds": 38.855,
         "finished_at": "2026-11-26T05:50:21.212963+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31400495",
+          "size_bytes": 879188104,
+          "source_bytes_read": 879188104,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585881",
+        "source_url": "https://sdilej.cz/32585881/proc-13x-proto-s03e11-par-veci-ktere-jsem-ti-nerekla-2019-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31400495",
+        "display_name": "13 Reasons Why S03E11 There Are a Few Things I Haven't Told You 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T05:50:30.305772+00:00"
       }
     },
     "244:3:12": {
@@ -955565,7 +955566,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T05:50:21.212986+00:00",
+  "updated_at": "2026-11-26T05:50:30.305789+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
