@@ -964194,12 +964194,6 @@
     },
     "1967:23:1": {
       "episode_key": "vraždy v midsomeru:s23:e1",
-      "claim": {
-        "worker_id": "77b983f39b324ff99adaf96945487683-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T15:30:06.089044+00:00",
-        "lease_expires_at": "2026-11-26T21:30:06.089056+00:00"
-      },
       "source": {
         "source_id": "33668835",
         "source_url": "https://sdilej.cz/33668835/vrazdy-v-midsomeru-s23e01-proroctvi-z-cerneho-lesa-2022-krimi-gb.mp4",
@@ -964224,22 +964218,29 @@
         "display_name": "Midsomer Murders S23E01 The Blacktrees Prophecy 720p CZ Dabing",
         "prepared_at": "2026-11-26T15:30:20.274880+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31419048",
-        "size_bytes": 1047069339
-      },
-      "transfer_receipt": {
-        "target_video_id": "31419048",
-        "size_bytes": 1047069339,
-        "source_bytes_read": 1047069339,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31419048",
         "source_bytes_read": 1047069339,
         "elapsed_seconds": 76.074,
         "finished_at": "2026-11-26T15:32:04.527976+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31419048",
+          "size_bytes": 1047069339,
+          "source_bytes_read": 1047069339,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33668835",
+        "source_url": "https://sdilej.cz/33668835/vrazdy-v-midsomeru-s23e01-proroctvi-z-cerneho-lesa-2022-krimi-gb.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31419048",
+        "display_name": "Midsomer Murders S23E01 The Blacktrees Prophecy 720p CZ Dabing",
+        "uploaded_at": "2026-11-26T15:32:23.436543+00:00"
       }
     },
     "1783:3:2": {
@@ -964281,7 +964282,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:32:17.375050+00:00",
+  "updated_at": "2026-11-26T15:32:23.436558+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
