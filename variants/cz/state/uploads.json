@@ -951983,12 +951983,6 @@
     },
     "1864:1:15": {
       "episode_key": "prezident v pořadí:s1:e15",
-      "claim": {
-        "worker_id": "0d30ab3dfe544cdbb90f34dbd9fdbb58-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T01:22:16.148091+00:00",
-        "lease_expires_at": "2026-11-26T07:22:16.148117+00:00"
-      },
       "source": {
         "source_id": "34118522",
         "source_url": "https://sdilej.cz/34118522/prezident-v-poradi-s01e15-cz.mp4",
@@ -952012,7 +952006,17 @@
         },
         "display_name": "Designated Survivor S01E15 One Hundred Days 720p CZ Dabing",
         "prepared_at": "2026-11-26T01:22:30.220971+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118522:https://sdilej.cz/34118522/prezident-v-poradi-s01e15-cz.mp4",
+        "at": "2026-11-26T01:22:46.085527+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T01:22:46.085564+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -952020,7 +952024,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T01:22:38.340700+00:00",
+  "updated_at": "2026-11-26T01:22:46.085569+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -953000,6 +953004,10 @@
         {
           "identity": "1864:1:8",
           "at": "2026-11-26T01:21:45.758337+00:00"
+        },
+        {
+          "identity": "1864:1:15",
+          "at": "2026-11-26T01:22:46.085527+00:00"
         }
       ],
       "retry_after": "2026-11-26T01:17:08.948852+00:00"
