@@ -967427,12 +967427,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "0ca40ad6726c413da2a6341cb741e3e9-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:18:21.677151+00:00",
-        "lease_expires_at": "2026-11-26T23:18:21.677159+00:00"
-      },
       "source": {
         "source_id": "34609541",
         "source_url": "https://sdilej.cz/34609541/havaj-5-0-s07e09-cz.mp4",
@@ -967457,22 +967451,29 @@
         "display_name": "Hawaii Five-0 S07E09 Elua la ma Nowemapa (Two Days in November) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T17:18:29.151379+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31421563",
-        "size_bytes": 2084083266
-      },
-      "transfer_receipt": {
-        "target_video_id": "31421563",
-        "size_bytes": 2084083266,
-        "source_bytes_read": 2084083266,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31421563",
         "source_bytes_read": 2084083266,
         "elapsed_seconds": 119.808,
         "finished_at": "2026-11-26T17:20:57.745300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31421563",
+          "size_bytes": 2084083266,
+          "source_bytes_read": 2084083266,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34609541",
+        "source_url": "https://sdilej.cz/34609541/havaj-5-0-s07e09-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31421563",
+        "display_name": "Hawaii Five-0 S07E09 Elua la ma Nowemapa (Two Days in November) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T17:21:06.153887+00:00"
       }
     },
     "1408:9:2": {
@@ -968458,7 +968459,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:20:57.745319+00:00",
+  "updated_at": "2026-11-26T17:21:06.153903+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
