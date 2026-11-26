@@ -946259,28 +946259,29 @@
           "at": "2026-11-26T16:16:16.100012+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8380d045d417407c9251e6f6e1ae8a32-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:16:23.295203+00:00",
-        "lease_expires_at": "2026-11-26T22:16:23.295220+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31420098",
-        "size_bytes": 2245122871
-      },
-      "transfer_receipt": {
-        "target_video_id": "31420098",
-        "size_bytes": 2245122871,
-        "source_bytes_read": 2245122871,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31420098",
         "source_bytes_read": 2245122871,
         "elapsed_seconds": 233.7,
         "finished_at": "2026-11-26T16:21:08.297762+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31420098",
+          "size_bytes": 2245122871,
+          "source_bytes_read": 2245122871,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33682882",
+        "source_url": "https://sdilej.cz/33682882/ahsoka-s01e07-cast-7-sny-a-silenstvi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31420098",
+        "display_name": "Ahsoka S01E07 Part Seven: Dreams and Madness 4K CZ Dabing",
+        "uploaded_at": "2026-11-26T16:21:34.579109+00:00"
       }
     },
     "9717:4:1": {
@@ -966453,7 +966454,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:21:27.371891+00:00",
+  "updated_at": "2026-11-26T16:21:34.579125+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
