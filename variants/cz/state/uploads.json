@@ -959678,12 +959678,6 @@
     },
     "1864:2:8": {
       "episode_key": "prezident v pořadí:s2:e8",
-      "claim": {
-        "worker_id": "c478b9ba54564b458ba1fbeb28401f09-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:02:57.298707+00:00",
-        "lease_expires_at": "2026-11-26T20:02:57.298719+00:00"
-      },
       "source": {
         "source_id": "34118725",
         "source_url": "https://sdilej.cz/34118725/prezident-v-poradi-s02e08-cz.mp4",
@@ -959707,7 +959701,18 @@
         },
         "display_name": "Designated Survivor S02E08 Home 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:03:19.919317+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118725:https://sdilej.cz/34118725/prezident-v-poradi-s02e08-cz.mp4",
+        "at": "2026-11-26T14:03:33.620276+00:00",
+        "retry_after": "2026-11-26T20:03:33.620276+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:03:33.620322+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -959715,7 +959720,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:03:26.490321+00:00",
+  "updated_at": "2026-11-26T14:03:33.620327+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960685,16 +960690,8 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:5",
-          "at": "2026-11-26T13:52:22.631628+00:00"
-        },
-        {
-          "identity": "1864:2:6",
-          "at": "2026-11-26T13:52:28.615862+00:00"
-        },
-        {
-          "identity": "1864:2:7",
-          "at": "2026-11-26T13:52:46.260248+00:00"
+          "identity": "1864:2:8",
+          "at": "2026-11-26T14:03:33.620276+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:02:46.260248+00:00"
