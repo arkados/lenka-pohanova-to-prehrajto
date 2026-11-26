@@ -955796,12 +955796,6 @@
     },
     "244:4:4": {
       "episode_key": "proč? 13x proto:s4:e4",
-      "claim": {
-        "worker_id": "f40a1349521046e69e6d22deeafd8f22-worker-0",
-        "run_id": "45758895775",
-        "claimed_at": "2026-11-26T06:55:14.924442+00:00",
-        "lease_expires_at": "2026-11-26T12:55:14.924458+00:00"
-      },
       "source": {
         "source_id": "32585941",
         "source_url": "https://sdilej.cz/32585941/proc-13x-proto-s04e04-skolni-vylet-2020-1080p-cz-eng-dabing.mkv",
@@ -955826,22 +955820,29 @@
         "display_name": "13 Reasons Why S04E04 Senior Camping Trip 1080p CZ Dabing",
         "prepared_at": "2026-11-26T06:55:26.644376+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31401668",
-        "size_bytes": 1076264503
-      },
-      "transfer_receipt": {
-        "target_video_id": "31401668",
-        "size_bytes": 1076264503,
-        "source_bytes_read": 1076264503,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31401668",
         "source_bytes_read": 1076264503,
         "elapsed_seconds": 58.815,
         "finished_at": "2026-11-26T06:57:07.176403+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31401668",
+          "size_bytes": 1076264503,
+          "source_bytes_read": 1076264503,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585941",
+        "source_url": "https://sdilej.cz/32585941/proc-13x-proto-s04e04-skolni-vylet-2020-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31401668",
+        "display_name": "13 Reasons Why S04E04 Senior Camping Trip 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T06:57:15.922137+00:00"
       }
     },
     "244:4:5": {
@@ -955924,7 +955925,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T06:57:07.176420+00:00",
+  "updated_at": "2026-11-26T06:57:15.922153+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
