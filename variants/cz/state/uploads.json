@@ -962613,12 +962613,6 @@
     },
     "2352:7:3": {
       "episode_key": "bořiči mýtů:s7:e3",
-      "claim": {
-        "worker_id": "ddf1ac45fba64652a80c9f8b3444e93d-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:59:03.570641+00:00",
-        "lease_expires_at": "2026-11-26T20:59:03.570651+00:00"
-      },
       "source": {
         "source_id": "28259943",
         "source_url": "https://sdilej.cz/28259943/borici-mytu-s07e03-cz-dab-hd-tv-rip.avi",
@@ -962643,22 +962637,29 @@
         "display_name": "MythBusters S07E03 Banana Slip/Double Dip SD CZ Dabing",
         "prepared_at": "2026-11-26T14:59:35.342735+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31418312",
-        "size_bytes": 422169406
-      },
-      "transfer_receipt": {
-        "target_video_id": "31418312",
-        "size_bytes": 422169406,
-        "source_bytes_read": 422169406,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31418312",
         "source_bytes_read": 422169406,
         "elapsed_seconds": 45.007,
         "finished_at": "2026-11-26T15:00:53.808562+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31418312",
+          "size_bytes": 422169406,
+          "source_bytes_read": 422169406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28259943",
+        "source_url": "https://sdilej.cz/28259943/borici-mytu-s07e03-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31418312",
+        "display_name": "MythBusters S07E03 Banana Slip/Double Dip SD CZ Dabing",
+        "uploaded_at": "2026-11-26T15:01:18.832459+00:00"
       }
     },
     "2352:7:6": {
@@ -962751,7 +962752,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T15:01:11.486501+00:00",
+  "updated_at": "2026-11-26T15:01:18.832476+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
