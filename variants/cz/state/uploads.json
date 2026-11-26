@@ -952214,12 +952214,6 @@
     },
     "1787:2:14": {
       "episode_key": "havaj 5-0:s2:e14",
-      "claim": {
-        "worker_id": "566aa9fbac3941cb9280caa43765faa6-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T01:55:24.236331+00:00",
-        "lease_expires_at": "2026-11-26T07:55:24.236341+00:00"
-      },
       "source": {
         "source_id": "34596959",
         "source_url": "https://sdilej.cz/34596959/havaj-5-0-s02e14-cz.mp4",
@@ -952244,22 +952238,29 @@
         "display_name": "Hawaii Five-0 S02E14 Pu‘olo (The Package) 1080p CZ Dabing",
         "prepared_at": "2026-11-26T01:55:48.217842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31395616",
-        "size_bytes": 2291600406
-      },
-      "transfer_receipt": {
-        "target_video_id": "31395616",
-        "size_bytes": 2291600406,
-        "source_bytes_read": 2291600406,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31395616",
         "source_bytes_read": 2291600406,
         "elapsed_seconds": 303.749,
         "finished_at": "2026-11-26T02:01:24.161186+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31395616",
+          "size_bytes": 2291600406,
+          "source_bytes_read": 2291600406,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596959",
+        "source_url": "https://sdilej.cz/34596959/havaj-5-0-s02e14-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31395616",
+        "display_name": "Hawaii Five-0 S02E14 Pu‘olo (The Package) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T02:01:31.746346+00:00"
       }
     },
     "1787:3:18": {
@@ -952328,7 +952329,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T02:01:24.161203+00:00",
+  "updated_at": "2026-11-26T02:01:31.746359+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
