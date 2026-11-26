@@ -954458,12 +954458,6 @@
     },
     "1408:5:22": {
       "episode_key": "dva z queensu:s5:e22",
-      "claim": {
-        "worker_id": "1b153734104b45eaa64b6f0457867a92-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T04:07:05.810851+00:00",
-        "lease_expires_at": "2026-11-26T10:07:05.810863+00:00"
-      },
       "source": {
         "source_id": "32659091",
         "source_url": "https://sdilej.cz/32659091/dva-z-queensu-s05e22-cz-dabing-.avi",
@@ -954487,7 +954481,17 @@
         },
         "display_name": "The King of Queens S05E22 Queens'bro Bridge SD CZ Dabing",
         "prepared_at": "2026-11-26T04:07:28.856119+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659091:https://sdilej.cz/32659091/dva-z-queensu-s05e22-cz-dabing-.avi",
+        "at": "2026-11-26T04:07:47.144500+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T04:07:47.144535+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:6:2": {
       "episode_key": "dva z queensu:s6:e2",
@@ -954504,7 +954508,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T04:07:42.060845+00:00",
+  "updated_at": "2026-11-26T04:07:47.144540+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -955485,6 +955489,10 @@
         {
           "identity": "1408:5:17",
           "at": "2026-11-26T04:07:42.060801+00:00"
+        },
+        {
+          "identity": "1408:5:22",
+          "at": "2026-11-26T04:07:47.144500+00:00"
         }
       ],
       "retry_after": "2026-11-26T04:04:28.366649+00:00"
