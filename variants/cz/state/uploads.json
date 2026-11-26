@@ -956392,12 +956392,6 @@
     },
     "1408:6:16": {
       "episode_key": "dva z queensu:s6:e16",
-      "claim": {
-        "worker_id": "fa9bb7f9f79f4a82878853002441f19b-worker-0",
-        "run_id": "45786847553",
-        "claimed_at": "2026-11-26T09:28:59.328572+00:00",
-        "lease_expires_at": "2026-11-26T15:28:59.328585+00:00"
-      },
       "source": {
         "source_id": "32659143",
         "source_url": "https://sdilej.cz/32659143/dva-z-queensu-s06e16-cz-dabing-.avi",
@@ -956421,7 +956415,17 @@
         },
         "display_name": "The King of Queens S06E16 Damned Yanky SD CZ Dabing",
         "prepared_at": "2026-11-26T09:29:22.233647+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659143:https://sdilej.cz/32659143/dva-z-queensu-s06e16-cz-dabing-.avi",
+        "at": "2026-11-26T09:29:43.398581+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T09:29:43.398642+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -956429,7 +956433,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T09:29:36.465327+00:00",
+  "updated_at": "2026-11-26T09:29:43.398647+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957430,6 +957434,10 @@
         {
           "identity": "1408:1:13",
           "at": "2026-11-26T09:29:36.465278+00:00"
+        },
+        {
+          "identity": "1408:6:16",
+          "at": "2026-11-26T09:29:43.398581+00:00"
         }
       ],
       "retry_after": "2026-11-26T09:23:01.592841+00:00"
