@@ -961216,12 +961216,6 @@
     },
     "1864:2:20": {
       "episode_key": "prezident v pořadí:s2:e20",
-      "claim": {
-        "worker_id": "6c08e83c59f74503ad34d84a22437d0f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:32:40.082216+00:00",
-        "lease_expires_at": "2026-11-26T20:32:40.082225+00:00"
-      },
       "source": {
         "source_id": "34118811",
         "source_url": "https://sdilej.cz/34118811/prezident-v-poradi-s02e20-cz.mp4",
@@ -961245,7 +961239,18 @@
         },
         "display_name": "Designated Survivor S02E20 Bad Reception 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:32:54.068208+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118811:https://sdilej.cz/34118811/prezident-v-poradi-s02e20-cz.mp4",
+        "at": "2026-11-26T14:33:08.366036+00:00",
+        "retry_after": "2026-11-26T20:33:08.366036+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:33:08.366072+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -961253,7 +961258,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:33:02.201231+00:00",
+  "updated_at": "2026-11-26T14:33:08.366076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -962225,6 +962230,10 @@
         {
           "identity": "1864:2:18",
           "at": "2026-11-26T14:32:46.804944+00:00"
+        },
+        {
+          "identity": "1864:2:20",
+          "at": "2026-11-26T14:33:08.366036+00:00"
         }
       ],
       "retry_after": "2026-11-26T14:31:13.629254+00:00"
