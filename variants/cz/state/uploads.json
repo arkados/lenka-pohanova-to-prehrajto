@@ -957485,12 +957485,6 @@
     },
     "1408:1:11": {
       "episode_key": "dva z queensu:s1:e11",
-      "claim": {
-        "worker_id": "254f59d0d40f427d9da50de7401f73b9-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:18:31.832404+00:00",
-        "lease_expires_at": "2026-11-26T19:18:31.832413+00:00"
-      },
       "source": {
         "source_id": "32658802",
         "source_url": "https://sdilej.cz/32658802/dva-z-queensu-s01e11-cz-dabing-.avi",
@@ -957514,7 +957508,18 @@
         },
         "display_name": "The King of Queens S01E11 Noel Cowards SD CZ Dabing",
         "prepared_at": "2026-11-26T13:18:38.650715+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658802:https://sdilej.cz/32658802/dva-z-queensu-s01e11-cz-dabing-.avi",
+        "at": "2026-11-26T13:18:57.368720+00:00",
+        "retry_after": "2026-11-26T19:18:57.368720+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T13:18:57.368758+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -957522,7 +957527,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:18:51.581494+00:00",
+  "updated_at": "2026-11-26T13:18:57.368763+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -958519,6 +958524,10 @@
         {
           "identity": "1408:1:6",
           "at": "2026-11-26T13:16:39.957026+00:00"
+        },
+        {
+          "identity": "1408:1:11",
+          "at": "2026-11-26T13:18:57.368720+00:00"
         }
       ],
       "retry_after": "2026-11-26T12:27:49.270909+00:00"
