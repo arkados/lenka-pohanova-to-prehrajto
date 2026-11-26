@@ -978373,12 +978373,6 @@
     },
     "1967:23:4": {
       "episode_key": "vraždy v midsomeru:s23:e4",
-      "claim": {
-        "worker_id": "7dd1faeeed4a445da33733a48b20411c-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-26T23:14:53.296499+00:00",
-        "lease_expires_at": "2026-11-27T05:14:53.296510+00:00"
-      },
       "source": {
         "source_id": "34192565",
         "source_url": "https://sdilej.cz/34192565/vrazdy-v-midsomeru-s23e04-04-2022-cz-dab-1080p-kralovna-na-zabiti.mp4",
@@ -978404,22 +978398,29 @@
         "display_name": "Midsomer Murders S23E04 Dressed to Kill 1080p CZ Dabing",
         "prepared_at": "2026-11-26T23:15:01.083152+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31429413",
-        "size_bytes": 2161966085
-      },
-      "transfer_receipt": {
-        "target_video_id": "31429413",
-        "size_bytes": 2161966085,
-        "source_bytes_read": 2161966085,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31429413",
         "source_bytes_read": 2161966085,
         "elapsed_seconds": 215.953,
         "finished_at": "2026-11-26T23:19:07.556576+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31429413",
+          "size_bytes": 2161966085,
+          "source_bytes_read": 2161966085,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34192565",
+        "source_url": "https://sdilej.cz/34192565/vrazdy-v-midsomeru-s23e04-04-2022-cz-dab-1080p-kralovna-na-zabiti.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31429413",
+        "display_name": "Midsomer Murders S23E04 Dressed to Kill 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T23:19:17.291595+00:00"
       }
     },
     "1967:7:4": {
@@ -978502,7 +978503,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T23:19:07.556598+00:00",
+  "updated_at": "2026-11-26T23:19:17.291613+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
