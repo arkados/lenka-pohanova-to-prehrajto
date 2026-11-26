@@ -966464,12 +966464,6 @@
     },
     "1408:8:4": {
       "episode_key": "dva z queensu:s8:e4",
-      "claim": {
-        "worker_id": "9c29cff98b974358929895b77fef2eca-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:22:00.565093+00:00",
-        "lease_expires_at": "2026-11-26T22:22:00.565103+00:00"
-      },
       "source": {
         "source_id": "32659234",
         "source_url": "https://sdilej.cz/32659234/dva-z-queensu-s08e04-cz-dabing-.avi",
@@ -966493,7 +966487,18 @@
         },
         "display_name": "The King of Queens S08E04 Like Hell SD CZ Dabing",
         "prepared_at": "2026-11-26T16:22:27.724012+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659234:https://sdilej.cz/32659234/dva-z-queensu-s08e04-cz-dabing-.avi",
+        "at": "2026-11-26T16:22:40.821606+00:00",
+        "retry_after": "2026-11-26T22:22:40.821606+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:22:40.821644+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:8:5": {
       "episode_key": "dva z queensu:s8:e5",
@@ -966548,7 +966553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:22:33.951507+00:00",
+  "updated_at": "2026-11-26T16:22:40.821649+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -967529,6 +967534,10 @@
         {
           "identity": "1408:8:5",
           "at": "2026-11-26T16:22:33.951454+00:00"
+        },
+        {
+          "identity": "1408:8:4",
+          "at": "2026-11-26T16:22:40.821606+00:00"
         }
       ],
       "retry_after": "2026-11-26T16:18:45.387790+00:00"
