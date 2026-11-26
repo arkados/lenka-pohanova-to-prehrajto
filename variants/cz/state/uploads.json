@@ -951042,12 +951042,6 @@
     },
     "575:3:1": {
       "episode_key": "stoupenci zla:s3:e1",
-      "claim": {
-        "worker_id": "a657b24eafc543afa140163a6b1b2606-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:04:23.859199+00:00",
-        "lease_expires_at": "2026-11-26T06:04:23.859221+00:00"
-      },
       "source": {
         "source_id": "6288922",
         "source_url": "https://sdilej.cz/6288922/stoupenci-zla-s03e01-cz-dabing-by-led.avi",
@@ -951072,22 +951066,29 @@
         "display_name": "The Following S03E01 New Blood SD CZ Dabing",
         "prepared_at": "2026-11-26T00:04:37.756261+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31387017",
-        "size_bytes": 412554972
-      },
-      "transfer_receipt": {
-        "target_video_id": "31387017",
-        "size_bytes": 412554972,
-        "source_bytes_read": 412554972,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31387017",
         "source_bytes_read": 412554972,
         "elapsed_seconds": 31.202,
         "finished_at": "2026-11-26T00:05:43.071006+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31387017",
+          "size_bytes": 412554972,
+          "source_bytes_read": 412554972,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6288922",
+        "source_url": "https://sdilej.cz/6288922/stoupenci-zla-s03e01-cz-dabing-by-led.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31387017",
+        "display_name": "The Following S03E01 New Blood SD CZ Dabing",
+        "uploaded_at": "2026-11-26T00:05:57.771838+00:00"
       }
     }
   },
@@ -951096,7 +951097,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:05:51.389385+00:00",
+  "updated_at": "2026-11-26T00:05:57.771859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
