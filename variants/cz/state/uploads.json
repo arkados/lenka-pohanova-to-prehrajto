@@ -954827,13 +954827,10 @@
       },
       "source_repair_requested": {
         "base": "32659066:https://sdilej.cz/32659066/dva-z-queensu-s05e10-cz-dabing-.avi",
-        "at": "2026-11-26T12:17:12.788290+00:00"
+        "at": "2026-11-26T14:25:48.773989+00:00",
+        "retry_after": "2026-11-26T20:25:48.773989+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T10:02:17.358927+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T11:07:04.884938+00:00",
           "error": "SourceUnavailable"
@@ -954841,14 +954838,12 @@
         {
           "at": "2026-11-26T12:17:12.788317+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T14:25:48.774049+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "07ec77d294694ce5bf36bc8200e0441a-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:25:07.533460+00:00",
-        "lease_expires_at": "2026-11-26T20:25:07.533468+00:00"
-      }
+      ]
     },
     "1408:5:11": {
       "episode_key": "dva z queensu:s5:e11",
@@ -960987,7 +960982,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:25:42.930494+00:00",
+  "updated_at": "2026-11-26T14:25:48.774054+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -961980,9 +961975,13 @@
         {
           "identity": "1408:5:5",
           "at": "2026-11-26T14:24:44.799697+00:00"
+        },
+        {
+          "identity": "1408:5:10",
+          "at": "2026-11-26T14:25:48.773989+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:11:11.034030+00:00"
+      "retry_after": "2026-11-26T14:35:48.773989+00:00"
     }
   }
 }
