@@ -959656,12 +959656,6 @@
     },
     "1787:1:1": {
       "episode_key": "havaj 5-0:s1:e1",
-      "claim": {
-        "worker_id": "bd6db25bfcc24a85b7831225c787f4f2-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:01:27.030747+00:00",
-        "lease_expires_at": "2026-11-26T20:01:27.030757+00:00"
-      },
       "source": {
         "source_id": "34596185",
         "source_url": "https://sdilej.cz/34596185/havaj-5-0-s01e01-cz.mp4",
@@ -959686,22 +959680,29 @@
         "display_name": "Hawaii Five-0 S01E01 Pilot 1080p CZ Dabing",
         "prepared_at": "2026-11-26T14:01:46.163326+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31417177",
-        "size_bytes": 2338732146
-      },
-      "transfer_receipt": {
-        "target_video_id": "31417177",
-        "size_bytes": 2338732146,
-        "source_bytes_read": 2338732146,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31417177",
         "source_bytes_read": 2338732146,
         "elapsed_seconds": 171.691,
         "finished_at": "2026-11-26T14:05:19.019534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31417177",
+          "size_bytes": 2338732146,
+          "source_bytes_read": 2338732146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596185",
+        "source_url": "https://sdilej.cz/34596185/havaj-5-0-s01e01-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31417177",
+        "display_name": "Hawaii Five-0 S01E01 Pilot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T14:05:29.985626+00:00"
       }
     },
     "1864:2:8": {
@@ -959748,7 +959749,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:05:19.019553+00:00",
+  "updated_at": "2026-11-26T14:05:29.985642+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
