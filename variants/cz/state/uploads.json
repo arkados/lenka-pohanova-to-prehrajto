@@ -959081,12 +959081,6 @@
     },
     "1864:2:6": {
       "episode_key": "prezident v pořadí:s2:e6",
-      "claim": {
-        "worker_id": "0dfc3ec5096b4a45a7b13c9a2bff708f-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:51:43.845361+00:00",
-        "lease_expires_at": "2026-11-26T19:51:43.845369+00:00"
-      },
       "source": {
         "source_id": "34118692",
         "source_url": "https://sdilej.cz/34118692/prezident-v-poradi-s02e06-cz.mp4",
@@ -959110,7 +959104,18 @@
         },
         "display_name": "Designated Survivor S02E06 Two Ships 720p CZ Dabing",
         "prepared_at": "2026-11-26T13:52:12.033221+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118692:https://sdilej.cz/34118692/prezident-v-poradi-s02e06-cz.mp4",
+        "at": "2026-11-26T13:52:28.615862+00:00",
+        "retry_after": "2026-11-26T19:52:28.615862+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T13:52:28.615919+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1864:2:7": {
       "episode_key": "prezident v pořadí:s2:e7",
@@ -959127,7 +959132,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:52:22.631668+00:00",
+  "updated_at": "2026-11-26T13:52:28.615923+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -960103,9 +960108,13 @@
         {
           "identity": "1864:2:5",
           "at": "2026-11-26T13:52:22.631628+00:00"
+        },
+        {
+          "identity": "1864:2:6",
+          "at": "2026-11-26T13:52:28.615862+00:00"
         }
       ],
-      "retry_after": "2026-11-26T13:50:44.282518+00:00"
+      "retry_after": "2026-11-26T14:02:28.615862+00:00"
     },
     "1408": {
       "recent_failures": [
