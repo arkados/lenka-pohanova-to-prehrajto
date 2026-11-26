@@ -950814,12 +950814,6 @@
     },
     "1864:1:14": {
       "episode_key": "prezident v pořadí:s1:e14",
-      "claim": {
-        "worker_id": "2cc972d6b9da4721af31918e8a9e4234-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:00:54.302368+00:00",
-        "lease_expires_at": "2026-11-26T06:00:54.302390+00:00"
-      },
       "source": {
         "source_id": "34118510",
         "source_url": "https://sdilej.cz/34118510/prezident-v-poradi-s01e14-cz.mp4",
@@ -950843,7 +950837,17 @@
         },
         "display_name": "Designated Survivor S01E14 Commander-in-Chief 720p CZ Dabing",
         "prepared_at": "2026-11-26T00:01:09.075494+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118510:https://sdilej.cz/34118510/prezident-v-poradi-s01e14-cz.mp4",
+        "at": "2026-11-26T00:01:30.023134+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T00:01:30.023224+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -950851,7 +950855,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:01:22.595260+00:00",
+  "updated_at": "2026-11-26T00:01:30.023230+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -951821,19 +951825,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:1:6",
-          "at": "2026-11-26T00:00:28.850869+00:00"
-        },
-        {
           "identity": "1864:1:7",
           "at": "2026-11-26T00:00:35.491084+00:00"
         },
         {
           "identity": "1864:1:13",
           "at": "2026-11-26T00:01:22.595172+00:00"
+        },
+        {
+          "identity": "1864:1:14",
+          "at": "2026-11-26T00:01:30.023134+00:00"
         }
       ],
-      "retry_after": "2026-11-26T00:11:22.595172+00:00"
+      "retry_after": "2026-11-26T00:11:30.023134+00:00"
     }
   }
 }
