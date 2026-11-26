@@ -958404,12 +958404,6 @@
     },
     "1408:2:14": {
       "episode_key": "dva z queensu:s2:e14",
-      "claim": {
-        "worker_id": "56fcf1c5603d433ca6571f83ed97ced1-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T13:41:10.409246+00:00",
-        "lease_expires_at": "2026-11-26T19:41:10.409260+00:00"
-      },
       "source": {
         "source_id": "8440799",
         "source_url": "https://sdilej.cz/8440799/dva.z.queensu.02x14.hdtv.cz.avi",
@@ -958434,22 +958428,29 @@
         "display_name": "The King of Queens S02E14 Block Buster SD CZ Dabing",
         "prepared_at": "2026-11-26T13:41:39.793633+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31416668",
-        "size_bytes": 345626094
-      },
-      "transfer_receipt": {
-        "target_video_id": "31416668",
-        "size_bytes": 345626094,
-        "source_bytes_read": 345626094,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31416668",
         "source_bytes_read": 345626094,
         "elapsed_seconds": 22.733,
         "finished_at": "2026-11-26T13:42:45.604305+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31416668",
+          "size_bytes": 345626094,
+          "source_bytes_read": 345626094,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "8440799",
+        "source_url": "https://sdilej.cz/8440799/dva.z.queensu.02x14.hdtv.cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31416668",
+        "display_name": "The King of Queens S02E14 Block Buster SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:42:59.813448+00:00"
       }
     },
     "1408:2:15": {
@@ -958495,7 +958496,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:42:51.782283+00:00",
+  "updated_at": "2026-11-26T13:42:59.813463+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
