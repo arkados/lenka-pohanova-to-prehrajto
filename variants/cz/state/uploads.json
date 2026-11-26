@@ -929430,28 +929430,29 @@
           "at": "2026-11-26T04:47:10.192921+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "37a2d19f646d4a0eb50f2b918b8a768d-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T04:47:16.881360+00:00",
-        "lease_expires_at": "2026-11-26T10:47:16.881372+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31399370",
-        "size_bytes": 1665167923
-      },
-      "transfer_receipt": {
-        "target_video_id": "31399370",
-        "size_bytes": 1665167923,
-        "source_bytes_read": 1665167923,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31399370",
         "source_bytes_read": 1665167923,
         "elapsed_seconds": 107.53,
         "finished_at": "2026-11-26T04:49:55.420170+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31399370",
+          "size_bytes": 1665167923,
+          "source_bytes_read": 1665167923,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32580675",
+        "source_url": "https://sdilej.cz/32580675/proc-13x-proto-s01e09-pata-kazeta-prvni-strana-2017-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31399370",
+        "display_name": "13 Reasons Why S01E09 Tape 5, Side A 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T04:50:13.116750+00:00"
       }
     },
     "244:1:10": {
@@ -954966,7 +954967,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T04:50:07.024395+00:00",
+  "updated_at": "2026-11-26T04:50:13.116762+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
