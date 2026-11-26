@@ -960696,12 +960696,6 @@
     },
     "1864:2:17": {
       "episode_key": "prezident v pořadí:s2:e17",
-      "claim": {
-        "worker_id": "ea007ed00cf84c2c8f784ed054bf8d2e-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:20:31.769591+00:00",
-        "lease_expires_at": "2026-11-26T20:20:31.769600+00:00"
-      },
       "source": {
         "source_id": "34118784",
         "source_url": "https://sdilej.cz/34118784/prezident-v-poradi-s02e17-cz.mp4",
@@ -960725,7 +960719,18 @@
         },
         "display_name": "Designated Survivor S02E17 Overkill 720p CZ Dabing",
         "prepared_at": "2026-11-26T14:21:00.561126+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34118784:https://sdilej.cz/34118784/prezident-v-poradi-s02e17-cz.mp4",
+        "at": "2026-11-26T14:21:13.629254+00:00",
+        "retry_after": "2026-11-26T20:21:13.629254+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T14:21:13.629534+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -960733,7 +960738,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:21:07.167019+00:00",
+  "updated_at": "2026-11-26T14:21:13.629546+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -961703,19 +961708,19 @@
     "1864": {
       "recent_failures": [
         {
-          "identity": "1864:2:14",
-          "at": "2026-11-26T14:20:11.037878+00:00"
-        },
-        {
           "identity": "1864:2:15",
           "at": "2026-11-26T14:20:53.868826+00:00"
         },
         {
           "identity": "1864:2:16",
           "at": "2026-11-26T14:21:07.166946+00:00"
+        },
+        {
+          "identity": "1864:2:17",
+          "at": "2026-11-26T14:21:13.629254+00:00"
         }
       ],
-      "retry_after": "2026-11-26T14:31:07.166946+00:00"
+      "retry_after": "2026-11-26T14:31:13.629254+00:00"
     },
     "1408": {
       "recent_failures": [
