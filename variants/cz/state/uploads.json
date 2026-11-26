@@ -951538,12 +951538,6 @@
     },
     "1408:1:2": {
       "episode_key": "dva z queensu:s1:e2",
-      "claim": {
-        "worker_id": "ec4426ac59244863aa3fb152980c10e5-worker-0",
-        "run_id": "45712132399",
-        "claimed_at": "2026-11-26T00:56:12.530825+00:00",
-        "lease_expires_at": "2026-11-26T06:56:12.530846+00:00"
-      },
       "source": {
         "source_id": "32658759",
         "source_url": "https://sdilej.cz/32658759/dva-z-queensu-s01e02-cz-dabing-.avi",
@@ -951567,7 +951561,17 @@
         },
         "display_name": "The King of Queens S01E02 Fat City SD CZ Dabing",
         "prepared_at": "2026-11-26T00:56:20.235440+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32658759:https://sdilej.cz/32658759/dva-z-queensu-s01e02-cz-dabing-.avi",
+        "at": "2026-11-26T00:56:34.849665+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T00:56:34.849702+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:1:6": {
       "episode_key": "dva z queensu:s1:e6",
@@ -951584,7 +951588,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T00:56:26.937836+00:00",
+  "updated_at": "2026-11-26T00:56:34.849707+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -952577,6 +952581,10 @@
         {
           "identity": "1408:1:1",
           "at": "2026-11-26T00:55:53.348333+00:00"
+        },
+        {
+          "identity": "1408:1:2",
+          "at": "2026-11-26T00:56:34.849665+00:00"
         }
       ]
     }
