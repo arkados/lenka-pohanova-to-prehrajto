@@ -928790,28 +928790,29 @@
           "at": "2026-11-26T04:41:10.939358+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "b37ec3b39fa542d9bfb63c9ab2110c70-worker-0",
-        "run_id": "45713805772",
-        "claimed_at": "2026-11-26T04:41:16.553294+00:00",
-        "lease_expires_at": "2026-11-26T10:41:16.553306+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31399258",
-        "size_bytes": 1312668260
-      },
-      "transfer_receipt": {
-        "target_video_id": "31399258",
-        "size_bytes": 1312668260,
-        "source_bytes_read": 1312668260,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31399258",
         "source_bytes_read": 1312668260,
         "elapsed_seconds": 85.729,
         "finished_at": "2026-11-26T04:43:11.174158+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31399258",
+          "size_bytes": 1312668260,
+          "source_bytes_read": 1312668260,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32580658",
+        "source_url": "https://sdilej.cz/32580658/proc-13x-proto-s01e06-treti-kazeta-druha-strana-2017-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31399258",
+        "display_name": "13 Reasons Why S01E06 Tape 3, Side B 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T04:43:18.205514+00:00"
       }
     },
     "244:1:7": {
@@ -954842,7 +954843,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T04:43:11.174175+00:00",
+  "updated_at": "2026-11-26T04:43:18.205530+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
