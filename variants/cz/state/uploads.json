@@ -946248,28 +946248,29 @@
           "at": "2026-11-26T14:45:10.384238+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "24b07e9de548423d9a0796a92a1f1cd5-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T14:45:17.433591+00:00",
-        "lease_expires_at": "2026-11-26T20:45:17.433605+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31418046",
-        "size_bytes": 1949293358
-      },
-      "transfer_receipt": {
-        "target_video_id": "31418046",
-        "size_bytes": 1949293358,
-        "source_bytes_read": 1949293358,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31418046",
         "source_bytes_read": 1949293358,
         "elapsed_seconds": 142.755,
         "finished_at": "2026-11-26T14:48:45.540965+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31418046",
+          "size_bytes": 1949293358,
+          "source_bytes_read": 1949293358,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32585245",
+        "source_url": "https://sdilej.cz/32585245/proc-13x-proto-s02e13-sbohem-2018-1080p-cz-eng-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31418046",
+        "display_name": "13 Reasons Why S02E13 Bye 1080p CZ Dabing",
+        "uploaded_at": "2026-11-26T14:49:14.901207+00:00"
       }
     },
     "213:1:8": {
@@ -962011,7 +962012,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T14:49:07.113571+00:00",
+  "updated_at": "2026-11-26T14:49:14.901222+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
