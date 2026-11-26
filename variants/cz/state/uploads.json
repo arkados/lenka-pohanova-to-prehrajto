@@ -957093,12 +957093,6 @@
     },
     "575:3:15": {
       "episode_key": "stoupenci zla:s3:e15",
-      "claim": {
-        "worker_id": "db2ea44b59e64ae08dcdf2d9c82b3149-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:58:49.971978+00:00",
-        "lease_expires_at": "2026-11-26T18:58:49.971985+00:00"
-      },
       "source": {
         "source_id": "22440769",
         "source_url": "https://sdilej.cz/22440769/stoupenci-zla-s03e15-czdab.mp4",
@@ -957123,22 +957117,29 @@
         "display_name": "The Following S03E15 The Reckoning SD CZ Dabing",
         "prepared_at": "2026-11-26T12:59:03.403831+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31415793",
-        "size_bytes": 328199717
-      },
-      "transfer_receipt": {
-        "target_video_id": "31415793",
-        "size_bytes": 328199717,
-        "source_bytes_read": 328199717,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31415793",
         "source_bytes_read": 328199717,
         "elapsed_seconds": 28.14,
         "finished_at": "2026-11-26T13:00:24.978841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31415793",
+          "size_bytes": 328199717,
+          "source_bytes_read": 328199717,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "22440769",
+        "source_url": "https://sdilej.cz/22440769/stoupenci-zla-s03e15-czdab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31415793",
+        "display_name": "The Following S03E15 The Reckoning SD CZ Dabing",
+        "uploaded_at": "2026-11-26T13:00:40.185343+00:00"
       }
     }
   },
@@ -957147,7 +957148,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T13:00:30.981799+00:00",
+  "updated_at": "2026-11-26T13:00:40.185358+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
