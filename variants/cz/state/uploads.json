@@ -956318,12 +956318,6 @@
     },
     "244:4:7": {
       "episode_key": "proč? 13x proto:s4:e7",
-      "claim": {
-        "worker_id": "28b52fa75fa04932bc6f6bda699cc62c-worker-0",
-        "run_id": "45786847553",
-        "claimed_at": "2026-11-26T08:55:28.672686+00:00",
-        "lease_expires_at": "2026-11-26T14:55:28.672700+00:00"
-      },
       "source": {
         "source_id": "32966466",
         "source_url": "https://sdilej.cz/32966466/proc-13x-proto-s04e07-cz-dabing-1080p.mkv",
@@ -956347,7 +956341,17 @@
         },
         "display_name": "13 Reasons Why S04E07 College Interview 1080p CZ Dabing",
         "prepared_at": "2026-11-26T08:55:51.127008+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32966466:https://sdilej.cz/32966466/proc-13x-proto-s04e07-cz-dabing-1080p.mkv",
+        "at": "2026-11-26T08:56:12.783044+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T08:56:12.783114+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -956355,7 +956359,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T08:56:05.676504+00:00",
+  "updated_at": "2026-11-26T08:56:12.783122+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957270,19 +957274,19 @@
     "244": {
       "recent_failures": [
         {
-          "identity": "244:3:4",
-          "at": "2026-11-26T08:55:05.248372+00:00"
-        },
-        {
           "identity": "244:4:5",
           "at": "2026-11-26T08:55:58.369524+00:00"
         },
         {
           "identity": "244:4:2",
           "at": "2026-11-26T08:56:05.676421+00:00"
+        },
+        {
+          "identity": "244:4:7",
+          "at": "2026-11-26T08:56:12.783044+00:00"
         }
       ],
-      "retry_after": "2026-11-26T09:06:05.676421+00:00"
+      "retry_after": "2026-11-26T09:06:12.783044+00:00"
     },
     "610": {
       "recent_failures": [
