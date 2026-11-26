@@ -787902,13 +787902,10 @@
       },
       "source_repair_requested": {
         "base": "33692774:https://sdilej.cz/33692774/holky-z-vejsky-s02e01-cz-dabing.mp4",
-        "at": "2026-11-26T11:44:57.338157+00:00"
+        "at": "2026-11-26T12:49:12.744068+00:00",
+        "retry_after": "2026-11-26T18:49:12.744068+00:00"
       },
       "attempts": [
-        {
-          "at": "2026-11-26T09:42:23.907867+00:00",
-          "error": "SourceUnavailable"
-        },
         {
           "at": "2026-11-26T10:43:56.325524+00:00",
           "error": "SourceUnavailable"
@@ -787916,14 +787913,12 @@
         {
           "at": "2026-11-26T11:44:57.338197+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-26T12:49:12.744119+00:00",
+          "error": "SourceUnavailable"
         }
-      ],
-      "claim": {
-        "worker_id": "788b1205eaf3466d9ee0313a2dd06b1c-worker-0",
-        "run_id": "45819082027",
-        "claimed_at": "2026-11-26T12:48:34.976593+00:00",
-        "lease_expires_at": "2026-11-26T18:48:34.976601+00:00"
-      }
+      ]
     },
     "2372:2:2": {
       "episode_key": "holky z vejšky:s2:e2",
@@ -956931,7 +956926,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T12:49:06.320022+00:00",
+  "updated_at": "2026-11-26T12:49:12.744124+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -957564,6 +957559,10 @@
         {
           "identity": "2372:2:5",
           "at": "2026-11-26T12:49:06.319974+00:00"
+        },
+        {
+          "identity": "2372:2:1",
+          "at": "2026-11-26T12:49:12.744068+00:00"
         }
       ],
       "retry_after": "2026-11-26T12:47:48.640628+00:00"
