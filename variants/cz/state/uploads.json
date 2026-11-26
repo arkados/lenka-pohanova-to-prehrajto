@@ -967049,12 +967049,6 @@
     },
     "1408:8:15": {
       "episode_key": "dva z queensu:s8:e15",
-      "claim": {
-        "worker_id": "c98e05d2edfe4b50ad4ecbc0641cff25-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T16:34:56.303937+00:00",
-        "lease_expires_at": "2026-11-26T22:34:56.303946+00:00"
-      },
       "source": {
         "source_id": "32659283",
         "source_url": "https://sdilej.cz/32659283/dva-z-queensu-s08e15-cz-dabing-.avi",
@@ -967078,7 +967072,18 @@
         },
         "display_name": "The King of Queens S08E15 Buggie Nights SD CZ Dabing",
         "prepared_at": "2026-11-26T16:35:10.593251+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32659283:https://sdilej.cz/32659283/dva-z-queensu-s08e15-cz-dabing-.avi",
+        "at": "2026-11-26T16:35:30.692313+00:00",
+        "retry_after": "2026-11-26T22:35:30.692313+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-26T16:35:30.692347+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1408:8:16": {
       "episode_key": "dva z queensu:s8:e16",
@@ -967095,7 +967100,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T16:35:23.106577+00:00",
+  "updated_at": "2026-11-26T16:35:30.692353+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -968076,6 +968081,10 @@
         {
           "identity": "1408:8:10",
           "at": "2026-11-26T16:34:33.263940+00:00"
+        },
+        {
+          "identity": "1408:8:15",
+          "at": "2026-11-26T16:35:30.692313+00:00"
         }
       ],
       "retry_after": "2026-11-26T16:33:59.004352+00:00"
