@@ -967458,14 +967458,12 @@
         {
           "at": "2026-11-26T16:49:46.013791+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-26T17:07:40.580562+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "1b563a718e69419d8c35ae3268ed6fbb-worker-0",
-        "run_id": "45846963364",
-        "claimed_at": "2026-11-26T17:07:19.128045+00:00",
-        "lease_expires_at": "2026-11-26T23:07:19.128055+00:00"
-      },
       "source": {
         "source_id": "32659301",
         "source_url": "https://sdilej.cz/32659301/dva-z-queensu-s08e22-cz-dabing-.avi",
@@ -967489,6 +967487,11 @@
         },
         "display_name": "The King of Queens S08E22 Fight Schlub SD CZ Dabing",
         "prepared_at": "2026-11-26T17:07:26.781960+00:00"
+      },
+      "source_repair_requested": {
+        "base": "32659301:https://sdilej.cz/32659301/dva-z-queensu-s08e22-cz-dabing-.avi",
+        "at": "2026-11-26T17:07:40.580514+00:00",
+        "retry_after": "2026-11-26T23:07:40.580514+00:00"
       }
     },
     "1408:9:4": {
@@ -967708,7 +967711,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-26T17:07:33.208290+00:00",
+  "updated_at": "2026-11-26T17:07:40.580568+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -968687,16 +968690,8 @@
     "1408": {
       "recent_failures": [
         {
-          "identity": "1408:8:16",
-          "at": "2026-11-26T16:35:50.706933+00:00"
-        },
-        {
-          "identity": "1408:8:17",
-          "at": "2026-11-26T16:36:17.345875+00:00"
-        },
-        {
-          "identity": "1408:8:19",
-          "at": "2026-11-26T16:36:37.645872+00:00"
+          "identity": "1408:8:22",
+          "at": "2026-11-26T17:07:40.580514+00:00"
         }
       ],
       "retry_after": "2026-11-26T16:46:37.645872+00:00"
