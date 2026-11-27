@@ -996535,12 +996535,6 @@
     },
     "4704:4:16": {
       "episode_key": "západní křídlo:s4:e16",
-      "claim": {
-        "worker_id": "e307c64382a74764a6b0662a23142877-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T12:11:23.860738+00:00",
-        "lease_expires_at": "2026-11-27T18:11:23.860746+00:00"
-      },
       "source": {
         "source_id": "34862222",
         "source_url": "https://sdilej.cz/34862222/zapadni-kridlo-s04e16-082-2003-hd-kalifornsky-47.-kongresovy-okrsek-s-.mp4",
@@ -996565,22 +996559,29 @@
         "display_name": "The West Wing S04E16 The California 47th 720p CZ Dabing",
         "prepared_at": "2026-11-27T12:11:30.871298+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31466046",
-        "size_bytes": 861812893
-      },
-      "transfer_receipt": {
-        "target_video_id": "31466046",
-        "size_bytes": 861812893,
-        "source_bytes_read": 861812893,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31466046",
         "source_bytes_read": 861812893,
         "elapsed_seconds": 733.622,
         "finished_at": "2026-11-27T12:24:13.467609+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31466046",
+          "size_bytes": 861812893,
+          "source_bytes_read": 861812893,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862222",
+        "source_url": "https://sdilej.cz/34862222/zapadni-kridlo-s04e16-082-2003-hd-kalifornsky-47.-kongresovy-okrsek-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31466046",
+        "display_name": "The West Wing S04E16 The California 47th 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T12:24:23.315710+00:00"
       }
     },
     "4704:4:17": {
@@ -996779,7 +996780,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T12:24:13.467628+00:00",
+  "updated_at": "2026-11-27T12:24:23.315725+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
