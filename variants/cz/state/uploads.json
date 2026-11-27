@@ -987169,12 +987169,6 @@
     },
     "1967:15:3": {
       "episode_key": "vraždy v midsomeru:s15:e3",
-      "claim": {
-        "worker_id": "9596cc0d38a046d7bd6ed720a63612b8-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:11:19.533210+00:00",
-        "lease_expires_at": "2026-11-27T10:11:19.533221+00:00"
-      },
       "source": {
         "source_id": "27588427",
         "source_url": "https://sdilej.cz/27588427/vrazdy-v-midsomeru-s15e03-vrazdy-podle-horoskopu.mkv",
@@ -987199,22 +987193,29 @@
         "display_name": "Midsomer Murders S15E03 Written in the Stars 1080p CZ Dabing",
         "prepared_at": "2026-11-27T04:11:32.129047+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455442",
-        "size_bytes": 1944247863
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455442",
-        "size_bytes": 1944247863,
-        "source_bytes_read": 1944247863,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455442",
         "source_bytes_read": 1944247863,
         "elapsed_seconds": 215.518,
         "finished_at": "2026-11-27T04:15:36.163208+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455442",
+          "size_bytes": 1944247863,
+          "source_bytes_read": 1944247863,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27588427",
+        "source_url": "https://sdilej.cz/27588427/vrazdy-v-midsomeru-s15e03-vrazdy-podle-horoskopu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455442",
+        "display_name": "Midsomer Murders S15E03 Written in the Stars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:15:48.235145+00:00"
       }
     },
     "1967:15:4": {
@@ -987260,7 +987261,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:15:41.415043+00:00",
+  "updated_at": "2026-11-27T04:15:48.235164+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
