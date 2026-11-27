@@ -1002576,12 +1002576,6 @@
     },
     "1783:9:5": {
       "episode_key": "smrt v ráji:s9:e5",
-      "claim": {
-        "worker_id": "352a16596c3140dcbf9d4788e2210387-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:02:43.341368+00:00",
-        "lease_expires_at": "2026-11-28T01:02:43.341372+00:00"
-      },
       "source": {
         "source_id": "35411471",
         "source_url": "https://sdilej.cz/35411471/smrt-v-raji-09x05.mp4",
@@ -1002606,22 +1002600,29 @@
         "display_name": "Death in Paradise S09E05 Switcharoo 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:03:15.475116+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475064",
-        "size_bytes": 1048495725
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475064",
-        "size_bytes": 1048495725,
-        "source_bytes_read": 1048495725,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475064",
         "source_bytes_read": 1048495725,
         "elapsed_seconds": 89.358,
         "finished_at": "2026-11-27T19:05:18.437656+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475064",
+          "size_bytes": 1048495725,
+          "source_bytes_read": 1048495725,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35411471",
+        "source_url": "https://sdilej.cz/35411471/smrt-v-raji-09x05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475064",
+        "display_name": "Death in Paradise S09E05 Switcharoo 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:05:28.559437+00:00"
       }
     },
     "1783:9:6": {
@@ -1002667,7 +1002668,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:05:18.437672+00:00",
+  "updated_at": "2026-11-27T19:05:28.559452+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
