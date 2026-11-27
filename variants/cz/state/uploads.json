@@ -990374,12 +990374,6 @@
     },
     "4704:2:10": {
       "episode_key": "západní křídlo:s2:e10",
-      "claim": {
-        "worker_id": "f5571bcdd4e04180b277e0c0ea096dda-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:36:22.051866+00:00",
-        "lease_expires_at": "2026-11-27T11:36:22.051877+00:00"
-      },
       "source": {
         "source_id": "34861862",
         "source_url": "https://sdilej.cz/34861862/zapadni-kridlo-s02e10-032-2000-hd-vanocni-svatky-s-.mp4",
@@ -990404,22 +990398,29 @@
         "display_name": "The West Wing S02E10 Noël 720p CZ Dabing",
         "prepared_at": "2026-11-27T05:36:44.522359+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457595",
-        "size_bytes": 859085722
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457595",
-        "size_bytes": 859085722,
-        "source_bytes_read": 859085722,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457595",
         "source_bytes_read": 859085722,
         "elapsed_seconds": 118.073,
         "finished_at": "2026-11-27T05:39:19.167782+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457595",
+          "size_bytes": 859085722,
+          "source_bytes_read": 859085722,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861862",
+        "source_url": "https://sdilej.cz/34861862/zapadni-kridlo-s02e10-032-2000-hd-vanocni-svatky-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457595",
+        "display_name": "The West Wing S02E10 Noël 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:39:40.191355+00:00"
       }
     },
     "4704:2:11": {
@@ -990548,7 +990549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:39:34.764297+00:00",
+  "updated_at": "2026-11-27T05:39:40.191377+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
