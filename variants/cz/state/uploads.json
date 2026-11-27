@@ -980764,12 +980764,6 @@
     },
     "1461:1:1": {
       "episode_key": "closer: nové případy:s1:e1",
-      "claim": {
-        "worker_id": "03d2eaadb41b4d5f91e6ad50476e14b9-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T00:24:57.009812+00:00",
-        "lease_expires_at": "2026-11-27T06:24:57.009827+00:00"
-      },
       "source": {
         "source_id": "10597395",
         "source_url": "https://sdilej.cz/10597395/closer-nove-pripady-s01e01-cz-dabing-major-crimes.mp4",
@@ -980794,22 +980788,29 @@
         "display_name": "Major Crimes S01E01 Reloaded 720p CZ Dabing",
         "prepared_at": "2026-11-27T00:25:04.685969+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31449511",
-        "size_bytes": 434085876
-      },
-      "transfer_receipt": {
-        "target_video_id": "31449511",
-        "size_bytes": 434085876,
-        "source_bytes_read": 434085876,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31449511",
         "source_bytes_read": 434085876,
         "elapsed_seconds": 35.557,
         "finished_at": "2026-11-27T00:26:06.017790+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31449511",
+          "size_bytes": 434085876,
+          "source_bytes_read": 434085876,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "10597395",
+        "source_url": "https://sdilej.cz/10597395/closer-nove-pripady-s01e01-cz-dabing-major-crimes.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31449511",
+        "display_name": "Major Crimes S01E01 Reloaded 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T00:26:21.588903+00:00"
       }
     },
     "1461:1:10": {
@@ -980851,7 +980852,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T00:26:12.783149+00:00",
+  "updated_at": "2026-11-27T00:26:21.588921+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
