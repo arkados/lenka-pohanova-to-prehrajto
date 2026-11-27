@@ -992174,12 +992174,6 @@
     },
     "2889:10:3": {
       "episode_key": "jak funguje vesmír:s10:e3",
-      "claim": {
-        "worker_id": "2514a86369a3449790deb40b555bdbda-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T09:32:11.245082+00:00",
-        "lease_expires_at": "2026-11-27T15:32:11.245092+00:00"
-      },
       "source": {
         "source_id": "28479103",
         "source_url": "https://sdilej.cz/28479103/jak-funguje-vesmir-s10e3-temna-historie-zeme-.mp4",
@@ -992204,22 +992198,29 @@
         "display_name": "How the Universe Works S10E03 Hunt for Dark Matter 1080p CZ Dabing",
         "prepared_at": "2026-11-27T09:32:18.911562+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31462402",
-        "size_bytes": 3484721946
-      },
-      "transfer_receipt": {
-        "target_video_id": "31462402",
-        "size_bytes": 3484721946,
-        "source_bytes_read": 3484721946,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31462402",
         "source_bytes_read": 3484721946,
         "elapsed_seconds": 905.6,
         "finished_at": "2026-11-27T09:47:47.854615+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31462402",
+          "size_bytes": 3484721946,
+          "source_bytes_read": 3484721946,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28479103",
+        "source_url": "https://sdilej.cz/28479103/jak-funguje-vesmir-s10e3-temna-historie-zeme-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31462402",
+        "display_name": "How the Universe Works S10E03 Hunt for Dark Matter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T09:47:55.900079+00:00"
       }
     }
   },
@@ -992228,7 +992229,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T09:47:47.854636+00:00",
+  "updated_at": "2026-11-27T09:47:55.900096+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
