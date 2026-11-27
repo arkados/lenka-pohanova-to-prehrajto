@@ -1004922,12 +1004922,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "4b8416c04823439d9155c7c469b5db97-worker-0",
-        "run_id": "46053269009",
-        "claimed_at": "2026-11-27T21:08:14.297124+00:00",
-        "lease_expires_at": "2026-11-28T03:08:14.297131+00:00"
-      },
       "source": {
         "source_id": "28260123",
         "source_url": "https://sdilej.cz/28260123/borici-mytu-s09e15-cz-dab-hd-tv-rip.avi",
@@ -1004952,22 +1004946,29 @@
         "display_name": "MythBusters S09E15 Walk a Straight Line SD CZ Dabing",
         "prepared_at": "2026-11-27T21:08:27.787268+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31477913",
-        "size_bytes": 411002880
-      },
-      "transfer_receipt": {
-        "target_video_id": "31477913",
-        "size_bytes": 411002880,
-        "source_bytes_read": 411002880,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31477913",
         "source_bytes_read": 411002880,
         "elapsed_seconds": 45.623,
         "finished_at": "2026-11-27T21:09:46.316135+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31477913",
+          "size_bytes": 411002880,
+          "source_bytes_read": 411002880,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28260123",
+        "source_url": "https://sdilej.cz/28260123/borici-mytu-s09e15-cz-dab-hd-tv-rip.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31477913",
+        "display_name": "MythBusters S09E15 Walk a Straight Line SD CZ Dabing",
+        "uploaded_at": "2026-11-27T21:10:00.994263+00:00"
       }
     },
     "2352:9:16": {
@@ -1005064,7 +1005065,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T21:09:53.557474+00:00",
+  "updated_at": "2026-11-27T21:10:00.994277+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
