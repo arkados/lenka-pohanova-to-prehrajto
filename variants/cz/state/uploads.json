@@ -1001771,12 +1001771,6 @@
     },
     "462:3:3": {
       "episode_key": "ženatý se závazky:s3:e3",
-      "claim": {
-        "worker_id": "023d3b788d5b4b6796fa59fb8afe6f3b-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T18:33:40.768841+00:00",
-        "lease_expires_at": "2026-11-28T00:33:40.768845+00:00"
-      },
       "source": {
         "source_id": "35326464",
         "source_url": "https://sdilej.cz/35326464/zenaty-se-zavazky-s03e03-mir-vysoko.mkv",
@@ -1001801,22 +1001795,29 @@
         "display_name": "Married… with Children S03E03 Poke High 1080p CZ Dabing",
         "prepared_at": "2026-11-27T18:33:54.048173+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31474299",
-        "size_bytes": 531761727
-      },
-      "transfer_receipt": {
-        "target_video_id": "31474299",
-        "size_bytes": 531761727,
-        "source_bytes_read": 531761727,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31474299",
         "source_bytes_read": 531761727,
         "elapsed_seconds": 32.962,
         "finished_at": "2026-11-27T18:35:00.361218+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31474299",
+          "size_bytes": 531761727,
+          "source_bytes_read": 531761727,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326464",
+        "source_url": "https://sdilej.cz/35326464/zenaty-se-zavazky-s03e03-mir-vysoko.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31474299",
+        "display_name": "Married… with Children S03E03 Poke High 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T18:35:22.440210+00:00"
       }
     },
     "462:3:5": {
@@ -1001909,7 +1001910,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T18:35:16.741233+00:00",
+  "updated_at": "2026-11-27T18:35:22.440227+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
