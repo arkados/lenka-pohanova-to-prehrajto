@@ -986436,12 +986436,6 @@
     },
     "1967:13:4": {
       "episode_key": "vraždy v midsomeru:s13:e4",
-      "claim": {
-        "worker_id": "b1fdbd57018f4e33b0dfe289ee35a826-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:46:36.843841+00:00",
-        "lease_expires_at": "2026-11-27T09:46:36.843852+00:00"
-      },
       "source": {
         "source_id": "27583897",
         "source_url": "https://sdilej.cz/27583897/vrazdy-v-midsomeru-s13e04-mrtve-ticho.mkv",
@@ -986466,22 +986460,29 @@
         "display_name": "Midsomer Murders S13E04 The Silent Land 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:46:49.242051+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454808",
-        "size_bytes": 1940717360
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454808",
-        "size_bytes": 1940717360,
-        "source_bytes_read": 1940717360,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454808",
         "source_bytes_read": 1940717360,
         "elapsed_seconds": 316.556,
         "finished_at": "2026-11-27T03:52:26.236229+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454808",
+          "size_bytes": 1940717360,
+          "source_bytes_read": 1940717360,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27583897",
+        "source_url": "https://sdilej.cz/27583897/vrazdy-v-midsomeru-s13e04-mrtve-ticho.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454808",
+        "display_name": "Midsomer Murders S13E04 The Silent Land 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:52:33.504918+00:00"
       }
     },
     "1967:13:5": {
@@ -986564,7 +986565,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:52:26.236250+00:00",
+  "updated_at": "2026-11-27T03:52:33.504944+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
