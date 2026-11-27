@@ -999563,12 +999563,6 @@
     },
     "673:15:14": {
       "episode_key": "městečko south park:s15:e14",
-      "claim": {
-        "worker_id": "5bbc160ca19e44f1bb8fc8d180b933c4-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T14:19:20.724033+00:00",
-        "lease_expires_at": "2026-11-27T20:19:20.724047+00:00"
-      },
       "source": {
         "source_id": "32893080",
         "source_url": "https://sdilej.cz/32893080/mestecko-south-park-s15e14-14-2011-cz-dab-1080p-chude-dite.mkv",
@@ -999594,22 +999588,29 @@
         "display_name": "South Park S15E14 The Poor Kid 4K CZ Dabing",
         "prepared_at": "2026-11-27T14:19:44.901600+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31469607",
-        "size_bytes": 248370193
-      },
-      "transfer_receipt": {
-        "target_video_id": "31469607",
-        "size_bytes": 248370193,
-        "source_bytes_read": 248370193,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31469607",
         "source_bytes_read": 248370193,
         "elapsed_seconds": 39.621,
         "finished_at": "2026-11-27T14:21:11.269386+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31469607",
+          "size_bytes": 248370193,
+          "source_bytes_read": 248370193,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32893080",
+        "source_url": "https://sdilej.cz/32893080/mestecko-south-park-s15e14-14-2011-cz-dab-1080p-chude-dite.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31469607",
+        "display_name": "South Park S15E14 The Poor Kid 4K CZ Dabing",
+        "uploaded_at": "2026-11-27T14:21:21.291386+00:00"
       }
     },
     "673:11:4": {
@@ -999655,7 +999656,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T14:21:11.269405+00:00",
+  "updated_at": "2026-11-27T14:21:21.291401+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
