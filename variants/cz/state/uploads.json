@@ -990833,12 +990833,6 @@
     },
     "907:1:8": {
       "episode_key": "star wars: klonové války:s1:e8",
-      "claim": {
-        "worker_id": "bb370b5f569b40d5a5f3318ad45f8240-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:04:36.822600+00:00",
-        "lease_expires_at": "2026-11-27T14:04:36.822613+00:00"
-      },
       "source": {
         "source_id": "29363635",
         "source_url": "https://sdilej.cz/29363635/star-wars.klonove-valky.s01e08.uzasny-jedi.hd.mkv",
@@ -990863,22 +990857,29 @@
         "display_name": "Star Wars: The Clone Wars S01E08 Bombad Jedi 1080p CZ Dabing",
         "prepared_at": "2026-11-27T08:05:16.915392+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31460688",
-        "size_bytes": 365293778
-      },
-      "transfer_receipt": {
-        "target_video_id": "31460688",
-        "size_bytes": 365293778,
-        "source_bytes_read": 365293778,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31460688",
         "source_bytes_read": 365293778,
         "elapsed_seconds": 32.668,
         "finished_at": "2026-11-27T08:06:28.242534+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31460688",
+          "size_bytes": 365293778,
+          "source_bytes_read": 365293778,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29363635",
+        "source_url": "https://sdilej.cz/29363635/star-wars.klonove-valky.s01e08.uzasny-jedi.hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31460688",
+        "display_name": "Star Wars: The Clone Wars S01E08 Bombad Jedi 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T08:06:37.907950+00:00"
       }
     },
     "907:1:4": {
@@ -990961,7 +990962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:06:28.242556+00:00",
+  "updated_at": "2026-11-27T08:06:37.907967+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
