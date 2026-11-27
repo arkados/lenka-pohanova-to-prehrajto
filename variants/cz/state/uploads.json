@@ -987272,12 +987272,6 @@
     },
     "1967:15:5": {
       "episode_key": "vraždy v midsomeru:s15:e5",
-      "claim": {
-        "worker_id": "8e57e2c8fa9b416fb5df651d646d80cd-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:16:45.497430+00:00",
-        "lease_expires_at": "2026-11-27T10:16:45.497439+00:00"
-      },
       "source": {
         "source_id": "27588854",
         "source_url": "https://sdilej.cz/27588854/vrazdy-v-midsomeru-s15e05-sicilska-obrana.mkv",
@@ -987302,22 +987296,29 @@
         "display_name": "Midsomer Murders S15E05 Death and the Divas 1080p CZ Dabing",
         "prepared_at": "2026-11-27T04:16:57.086478+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455554",
-        "size_bytes": 1960340150
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455554",
-        "size_bytes": 1960340150,
-        "source_bytes_read": 1960340150,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455554",
         "source_bytes_read": 1960340150,
         "elapsed_seconds": 262.94,
         "finished_at": "2026-11-27T04:21:51.126112+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455554",
+          "size_bytes": 1960340150,
+          "source_bytes_read": 1960340150,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27588854",
+        "source_url": "https://sdilej.cz/27588854/vrazdy-v-midsomeru-s15e05-sicilska-obrana.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455554",
+        "display_name": "Midsomer Murders S15E05 Death and the Divas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:22:05.858997+00:00"
       }
     },
     "1967:15:6": {
@@ -987413,7 +987414,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:21:58.891021+00:00",
+  "updated_at": "2026-11-27T04:22:05.859019+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
