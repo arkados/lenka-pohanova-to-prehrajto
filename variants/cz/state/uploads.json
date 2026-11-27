@@ -986381,12 +986381,6 @@
     },
     "1967:13:3": {
       "episode_key": "vraždy v midsomeru:s13:e3",
-      "claim": {
-        "worker_id": "b6014b47ad344f59b927acddd27a9b14-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:46:07.346754+00:00",
-        "lease_expires_at": "2026-11-27T09:46:07.346762+00:00"
-      },
       "source": {
         "source_id": "29269553",
         "source_url": "https://sdilej.cz/29269553/vrazdy-v-midsomeru-s13e03-krvave-sedlo.mkv",
@@ -986411,22 +986405,29 @@
         "display_name": "Midsomer Murders S13E03 Blood on the Saddle 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:46:18.383276+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454795",
-        "size_bytes": 1949743791
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454795",
-        "size_bytes": 1949743791,
-        "source_bytes_read": 1949743791,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454795",
         "source_bytes_read": 1949743791,
         "elapsed_seconds": 258.357,
         "finished_at": "2026-11-27T03:51:06.744006+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454795",
+          "size_bytes": 1949743791,
+          "source_bytes_read": 1949743791,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29269553",
+        "source_url": "https://sdilej.cz/29269553/vrazdy-v-midsomeru-s13e03-krvave-sedlo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454795",
+        "display_name": "Midsomer Murders S13E03 Blood on the Saddle 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:51:14.720091+00:00"
       }
     },
     "1967:13:4": {
@@ -986509,7 +986510,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:51:06.744030+00:00",
+  "updated_at": "2026-11-27T03:51:14.720110+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
