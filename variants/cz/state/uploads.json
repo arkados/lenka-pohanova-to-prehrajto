@@ -995617,12 +995617,6 @@
     },
     "4704:3:19": {
       "episode_key": "západní křídlo:s3:e19",
-      "claim": {
-        "worker_id": "2bd4761eea174f7885d9db06ddfc07d0-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:34:55.618440+00:00",
-        "lease_expires_at": "2026-11-27T17:34:55.618448+00:00"
-      },
       "source": {
         "source_id": "34862081",
         "source_url": "https://sdilej.cz/34862081/zapadni-kridlo-s03e19-063-2002-hd-nepratele-cizi-a-domaci-s-.mp4",
@@ -995647,22 +995641,29 @@
         "display_name": "The West Wing S03E19 The Black Vera Wang 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:35:03.224667+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31465245",
-        "size_bytes": 846733999
-      },
-      "transfer_receipt": {
-        "target_video_id": "31465245",
-        "size_bytes": 846733999,
-        "source_bytes_read": 846733999,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31465245",
         "source_bytes_read": 846733999,
         "elapsed_seconds": 296.586,
         "finished_at": "2026-11-27T11:40:23.317620+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31465245",
+          "size_bytes": 846733999,
+          "source_bytes_read": 846733999,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862081",
+        "source_url": "https://sdilej.cz/34862081/zapadni-kridlo-s03e19-063-2002-hd-nepratele-cizi-a-domaci-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31465245",
+        "display_name": "The West Wing S03E19 The Black Vera Wang 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:40:43.015245+00:00"
       }
     },
     "4704:3:2": {
@@ -995792,7 +995793,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:40:36.464850+00:00",
+  "updated_at": "2026-11-27T11:40:43.015261+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
