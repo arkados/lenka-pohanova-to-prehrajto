@@ -988589,12 +988589,6 @@
     },
     "1967:7:6": {
       "episode_key": "vraždy v midsomeru:s7:e6",
-      "claim": {
-        "worker_id": "579de5d789e44167ba78d39f2a3c521b-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:00:13.244125+00:00",
-        "lease_expires_at": "2026-11-27T11:00:13.244142+00:00"
-      },
       "source": {
         "source_id": "27570870",
         "source_url": "https://sdilej.cz/27570870/vrazdy-v-midsomeru-s07e06-carodejnice.mkv",
@@ -988619,22 +988613,29 @@
         "display_name": "Midsomer Murders S07E06 The Straw Woman 1080p CZ Dabing",
         "prepared_at": "2026-11-27T05:00:21.115668+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456778",
-        "size_bytes": 2075691103
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456778",
-        "size_bytes": 2075691103,
-        "source_bytes_read": 2075691103,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456778",
         "source_bytes_read": 2075691103,
         "elapsed_seconds": 311.582,
         "finished_at": "2026-11-27T05:05:57.485932+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456778",
+          "size_bytes": 2075691103,
+          "source_bytes_read": 2075691103,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27570870",
+        "source_url": "https://sdilej.cz/27570870/vrazdy-v-midsomeru-s07e06-carodejnice.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456778",
+        "display_name": "Midsomer Murders S07E06 The Straw Woman 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:06:08.424040+00:00"
       }
     },
     "1967:9:8": {
@@ -988717,7 +988718,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:05:57.485956+00:00",
+  "updated_at": "2026-11-27T05:06:08.424062+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
