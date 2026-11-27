@@ -989710,12 +989710,6 @@
     },
     "28:9:7": {
       "episode_key": "rick a morty:s9:e7",
-      "claim": {
-        "worker_id": "16f2ca4e50d54ed396ea2ed0c24d9343-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:25:08.475353+00:00",
-        "lease_expires_at": "2026-11-27T11:25:08.475368+00:00"
-      },
       "source": {
         "source_id": "34889941",
         "source_url": "https://sdilej.cz/34889941/rick-a-morty-s09e07-mortgully-posledni-dectny-rickles-cz.mkv",
@@ -989740,22 +989734,29 @@
         "display_name": "Rick and Morty S09E07 Mortgully: The Last Rickforest 1080p CZ Dabing",
         "prepared_at": "2026-11-27T05:25:20.988411+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457332",
-        "size_bytes": 412491575
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457332",
-        "size_bytes": 412491575,
-        "source_bytes_read": 412491575,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457332",
         "source_bytes_read": 412491575,
         "elapsed_seconds": 22.996,
         "finished_at": "2026-11-27T05:26:35.620274+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457332",
+          "size_bytes": 412491575,
+          "source_bytes_read": 412491575,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34889941",
+        "source_url": "https://sdilej.cz/34889941/rick-a-morty-s09e07-mortgully-posledni-dectny-rickles-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457332",
+        "display_name": "Rick and Morty S09E07 Mortgully: The Last Rickforest 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:26:48.435144+00:00"
       }
     },
     "28:9:8": {
@@ -989838,7 +989839,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:26:41.007151+00:00",
+  "updated_at": "2026-11-27T05:26:48.435165+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
