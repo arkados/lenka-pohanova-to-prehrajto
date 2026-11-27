@@ -991148,12 +991148,6 @@
     },
     "171:2:2": {
       "episode_key": "x-men '97:s2:e2",
-      "claim": {
-        "worker_id": "6e46c5f122ff4b63a9b6fceba65b4a83-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:12:23.300960+00:00",
-        "lease_expires_at": "2026-11-27T14:12:23.300972+00:00"
-      },
       "source": {
         "source_id": "34998315",
         "source_url": "https://sdilej.cz/34998315/x-men-97-s02e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -991177,7 +991171,17 @@
         },
         "display_name": "X-Men '97 S02E02 A Force to Be Reckoned With 1080p CZ Dabing",
         "prepared_at": "2026-11-27T08:12:30.650573+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34998315:https://sdilej.cz/34998315/x-men-97-s02e02-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "at": "2026-11-27T08:12:51.676645+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-27T08:12:51.676670+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -991185,7 +991189,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:12:45.320671+00:00",
+  "updated_at": "2026-11-27T08:12:51.676675+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -992199,6 +992203,14 @@
         {
           "identity": "746:2:2",
           "at": "2026-11-27T08:08:15.033171+00:00"
+        }
+      ]
+    },
+    "171": {
+      "recent_failures": [
+        {
+          "identity": "171:2:2",
+          "at": "2026-11-27T08:12:51.676645+00:00"
         }
       ]
     }
