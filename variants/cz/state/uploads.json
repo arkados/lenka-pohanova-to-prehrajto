@@ -998269,12 +998269,6 @@
     },
     "4704:5:9": {
       "episode_key": "západní křídlo:s5:e9",
-      "claim": {
-        "worker_id": "edd14ec73e4f4dc7966acd1e924cd7af-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T13:46:20.679549+00:00",
-        "lease_expires_at": "2026-11-27T19:46:20.679564+00:00"
-      },
       "source": {
         "source_id": "34862297",
         "source_url": "https://sdilej.cz/34862297/zapadni-kridlo-s05e09-098-2003-hd-abu-el-banat-s-.mp4",
@@ -998299,22 +998293,29 @@
         "display_name": "The West Wing S05E09 Abu el Banat 720p CZ Dabing",
         "prepared_at": "2026-11-27T13:46:41.349682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31468487",
-        "size_bytes": 843768463
-      },
-      "transfer_receipt": {
-        "target_video_id": "31468487",
-        "size_bytes": 843768463,
-        "source_bytes_read": 843768463,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31468487",
         "source_bytes_read": 843768463,
         "elapsed_seconds": 84.541,
         "finished_at": "2026-11-27T13:48:48.666048+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31468487",
+          "size_bytes": 843768463,
+          "source_bytes_read": 843768463,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862297",
+        "source_url": "https://sdilej.cz/34862297/zapadni-kridlo-s05e09-098-2003-hd-abu-el-banat-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31468487",
+        "display_name": "The West Wing S05E09 Abu el Banat 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T13:48:58.547290+00:00"
       }
     },
     "4704:6:1": {
@@ -998411,7 +998412,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T13:48:48.666064+00:00",
+  "updated_at": "2026-11-27T13:48:58.547305+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
