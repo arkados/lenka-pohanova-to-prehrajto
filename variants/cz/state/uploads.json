@@ -1002633,12 +1002633,6 @@
     },
     "1783:9:6": {
       "episode_key": "smrt v ráji:s9:e6",
-      "claim": {
-        "worker_id": "cbd9043cb8ec46258c3246c096b640c3-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:02:49.073620+00:00",
-        "lease_expires_at": "2026-11-28T01:02:49.073624+00:00"
-      },
       "source": {
         "source_id": "35411476",
         "source_url": "https://sdilej.cz/35411476/smrt-v-raji-09x06.mp4",
@@ -1002663,22 +1002657,29 @@
         "display_name": "Death in Paradise S09E06 Murder on Mosquito Island 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:03:20.689324+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475069",
-        "size_bytes": 1064422819
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475069",
-        "size_bytes": 1064422819,
-        "source_bytes_read": 1064422819,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475069",
         "source_bytes_read": 1064422819,
         "elapsed_seconds": 99.332,
         "finished_at": "2026-11-27T19:05:44.286347+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475069",
+          "size_bytes": 1064422819,
+          "source_bytes_read": 1064422819,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35411476",
+        "source_url": "https://sdilej.cz/35411476/smrt-v-raji-09x06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475069",
+        "display_name": "Death in Paradise S09E06 Murder on Mosquito Island 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:05:55.374989+00:00"
       }
     }
   },
@@ -1002687,7 +1002688,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:05:49.997065+00:00",
+  "updated_at": "2026-11-27T19:05:55.375003+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
