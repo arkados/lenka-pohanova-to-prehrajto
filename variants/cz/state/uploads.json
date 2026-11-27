@@ -1002870,12 +1002870,6 @@
     },
     "1783:10:3": {
       "episode_key": "smrt v ráji:s10:e3",
-      "claim": {
-        "worker_id": "cd76de22d9f143c69f8890aab45e015f-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:09:00.462522+00:00",
-        "lease_expires_at": "2026-11-28T01:09:00.462526+00:00"
-      },
       "source": {
         "source_id": "35411496",
         "source_url": "https://sdilej.cz/35411496/smrt-v-raji-10x03.mp4",
@@ -1002900,22 +1002894,29 @@
         "display_name": "Death in Paradise S10E03 Lucky in Love 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:09:07.210308+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475200",
-        "size_bytes": 1051393800
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475200",
-        "size_bytes": 1051393800,
-        "source_bytes_read": 1051393800,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475200",
         "source_bytes_read": 1051393800,
         "elapsed_seconds": 61.22,
         "finished_at": "2026-11-27T19:10:39.716740+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475200",
+          "size_bytes": 1051393800,
+          "source_bytes_read": 1051393800,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35411496",
+        "source_url": "https://sdilej.cz/35411496/smrt-v-raji-10x03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475200",
+        "display_name": "Death in Paradise S10E03 Lucky in Love 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:10:51.218908+00:00"
       }
     },
     "1783:10:7": {
@@ -1002961,7 +1002962,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:10:44.654731+00:00",
+  "updated_at": "2026-11-27T19:10:51.218929+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
