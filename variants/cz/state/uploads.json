@@ -984364,12 +984364,6 @@
     },
     "1787:1:5": {
       "episode_key": "havaj 5-0:s1:e5",
-      "claim": {
-        "worker_id": "a6f32cb67cdb4876af16db56b84d1d29-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T02:22:27.798582+00:00",
-        "lease_expires_at": "2026-11-27T08:22:27.798591+00:00"
-      },
       "source": {
         "source_id": "34596365",
         "source_url": "https://sdilej.cz/34596365/havaj-5-0-s01e05-cz.mp4",
@@ -984394,22 +984388,29 @@
         "display_name": "Hawaii Five-0 S01E05 Nalowale (Forgotten/Missing) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T02:22:48.614966+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31452659",
-        "size_bytes": 2157816540
-      },
-      "transfer_receipt": {
-        "target_video_id": "31452659",
-        "size_bytes": 2157816540,
-        "source_bytes_read": 2157816540,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31452659",
         "source_bytes_read": 2157816540,
         "elapsed_seconds": 237.423,
         "finished_at": "2026-11-27T02:27:21.547245+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31452659",
+          "size_bytes": 2157816540,
+          "source_bytes_read": 2157816540,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596365",
+        "source_url": "https://sdilej.cz/34596365/havaj-5-0-s01e05-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31452659",
+        "display_name": "Hawaii Five-0 S01E05 Nalowale (Forgotten/Missing) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T02:27:38.243910+00:00"
       }
     },
     "1787:1:6": {
@@ -984506,7 +984507,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T02:27:27.998081+00:00",
+  "updated_at": "2026-11-27T02:27:38.243939+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
