@@ -985914,12 +985914,6 @@
     },
     "1967:11:6": {
       "episode_key": "vraždy v midsomeru:s11:e6",
-      "claim": {
-        "worker_id": "db60abeda4af4fb898824b1375f1a89f-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:26:02.197405+00:00",
-        "lease_expires_at": "2026-11-27T09:26:02.197418+00:00"
-      },
       "source": {
         "source_id": "32410832",
         "source_url": "https://sdilej.cz/32410832/vrazdy-v-midsomeru-11x06-dny-bezvladi.mkv",
@@ -985944,22 +985938,29 @@
         "display_name": "Midsomer Murders S11E06 Days of Misrule 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:26:08.272377+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454292",
-        "size_bytes": 2267239827
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454292",
-        "size_bytes": 2267239827,
-        "source_bytes_read": 2267239827,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454292",
         "source_bytes_read": 2267239827,
         "elapsed_seconds": 324.59,
         "finished_at": "2026-11-27T03:31:53.598894+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454292",
+          "size_bytes": 2267239827,
+          "source_bytes_read": 2267239827,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32410832",
+        "source_url": "https://sdilej.cz/32410832/vrazdy-v-midsomeru-11x06-dny-bezvladi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454292",
+        "display_name": "Midsomer Murders S11E06 Days of Misrule 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:32:01.961999+00:00"
       }
     },
     "1967:12:1": {
@@ -986042,7 +986043,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:31:53.598914+00:00",
+  "updated_at": "2026-11-27T03:32:01.962017+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
