@@ -991390,12 +991390,6 @@
     },
     "2558:10:1": {
       "episode_key": "hercule poirot:s10:e1",
-      "claim": {
-        "worker_id": "ab8c8475ddf9448bbc8b0f014fa94db0-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:17:46.874277+00:00",
-        "lease_expires_at": "2026-11-27T14:17:46.874286+00:00"
-      },
       "source": {
         "source_id": "30855120",
         "source_url": "https://sdilej.cz/30855120/hercule-poirot-s10e01-zahada-modreho-expresu-cz-1080p-.ts",
@@ -991420,22 +991414,29 @@
         "display_name": "Agatha Christie's Poirot S10E01 The Mystery of the Blue Train 1080p CZ Dabing",
         "prepared_at": "2026-11-27T08:17:54.305018+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31460944",
-        "size_bytes": 4444139520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31460944",
-        "size_bytes": 4444139520,
-        "source_bytes_read": 4444139520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31460944",
         "source_bytes_read": 4444139520,
         "elapsed_seconds": 956.987,
         "finished_at": "2026-11-27T08:34:14.747320+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31460944",
+          "size_bytes": 4444139520,
+          "source_bytes_read": 4444139520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30855120",
+        "source_url": "https://sdilej.cz/30855120/hercule-poirot-s10e01-zahada-modreho-expresu-cz-1080p-.ts",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31460944",
+        "display_name": "Agatha Christie's Poirot S10E01 The Mystery of the Blue Train 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T08:34:23.311952+00:00"
       }
     },
     "2558:1:6": {
@@ -991884,7 +991885,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:34:14.747340+00:00",
+  "updated_at": "2026-11-27T08:34:23.311970+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
