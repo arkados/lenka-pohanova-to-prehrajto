@@ -997708,12 +997708,6 @@
     },
     "4704:5:19": {
       "episode_key": "západní křídlo:s5:e19",
-      "claim": {
-        "worker_id": "9a00e2d8881a47f494f745fb2c5c643e-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T13:13:40.462906+00:00",
-        "lease_expires_at": "2026-11-27T19:13:40.462919+00:00"
-      },
       "source": {
         "source_id": "29264367",
         "source_url": "https://sdilej.cz/29264367/zapadni-kridlo-s05e19.mkv",
@@ -997738,22 +997732,29 @@
         "display_name": "The West Wing S05E19 Talking Points 720p CZ Dabing",
         "prepared_at": "2026-11-27T13:13:48.246857+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31467444",
-        "size_bytes": 566311783
-      },
-      "transfer_receipt": {
-        "target_video_id": "31467444",
-        "size_bytes": 566311783,
-        "source_bytes_read": 566311783,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31467444",
         "source_bytes_read": 566311783,
         "elapsed_seconds": 180.488,
         "finished_at": "2026-11-27T13:17:23.220707+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31467444",
+          "size_bytes": 566311783,
+          "source_bytes_read": 566311783,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29264367",
+        "source_url": "https://sdilej.cz/29264367/zapadni-kridlo-s05e19.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31467444",
+        "display_name": "The West Wing S05E19 Talking Points 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T13:17:32.120843+00:00"
       }
     },
     "4704:5:2": {
@@ -997836,7 +997837,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T13:17:23.220726+00:00",
+  "updated_at": "2026-11-27T13:17:32.120859+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
