@@ -1002762,12 +1002762,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "1641c12503f941faa3f49a69b41ebb41-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:10:59.982909+00:00",
-        "lease_expires_at": "2026-11-28T01:10:59.982913+00:00"
-      },
       "source": {
         "source_id": "35412905",
         "source_url": "https://sdilej.cz/35412905/smrt-v-raji-08x06.mp4",
@@ -1002792,22 +1002786,29 @@
         "display_name": "Death in Paradise S08E06 Beyond the Shining Sea (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:11:06.540842+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475244",
-        "size_bytes": 1054203792
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475244",
-        "size_bytes": 1054203792,
-        "source_bytes_read": 1054203792,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475244",
         "source_bytes_read": 1054203792,
         "elapsed_seconds": 52.599,
         "finished_at": "2026-11-27T19:12:24.206795+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475244",
+          "size_bytes": 1054203792,
+          "source_bytes_read": 1054203792,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35412905",
+        "source_url": "https://sdilej.cz/35412905/smrt-v-raji-08x06.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475244",
+        "display_name": "Death in Paradise S08E06 Beyond the Shining Sea (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:12:36.702262+00:00"
       }
     },
     "1783:9:7": {
@@ -1003071,7 +1003072,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:12:29.510600+00:00",
+  "updated_at": "2026-11-27T19:12:36.702274+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
