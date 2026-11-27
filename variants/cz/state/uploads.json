@@ -995107,12 +995107,6 @@
     },
     "4704:2:22": {
       "episode_key": "západní křídlo:s2:e22",
-      "claim": {
-        "worker_id": "4cdae82953df4919ac52d2527d7acb7a-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:23:49.423234+00:00",
-        "lease_expires_at": "2026-11-27T17:23:49.423241+00:00"
-      },
       "source": {
         "source_id": "34861941",
         "source_url": "https://sdilej.cz/34861941/zapadni-kridlo-s02e22-044-2001-hd-dve-katedraly-s-.mp4",
@@ -995137,22 +995131,29 @@
         "display_name": "The West Wing S02E22 Two Cathedrals 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:23:56.532755+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31465031",
-        "size_bytes": 853471774
-      },
-      "transfer_receipt": {
-        "target_video_id": "31465031",
-        "size_bytes": 853471774,
-        "source_bytes_read": 853471774,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31465031",
         "source_bytes_read": 853471774,
         "elapsed_seconds": 183.77,
         "finished_at": "2026-11-27T11:27:36.735558+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31465031",
+          "size_bytes": 853471774,
+          "source_bytes_read": 853471774,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861941",
+        "source_url": "https://sdilej.cz/34861941/zapadni-kridlo-s02e22-044-2001-hd-dve-katedraly-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31465031",
+        "display_name": "The West Wing S02E22 Two Cathedrals 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:27:45.550328+00:00"
       }
     },
     "4704:3:1": {
@@ -995286,7 +995287,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:27:36.735580+00:00",
+  "updated_at": "2026-11-27T11:27:45.550342+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
