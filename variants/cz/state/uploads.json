@@ -1001006,12 +1001006,6 @@
     },
     "82:1:3": {
       "episode_key": "narcos:s1:e3",
-      "claim": {
-        "worker_id": "9509f05ecfc641318448af45b6ff05e5-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T18:06:02.135826+00:00",
-        "lease_expires_at": "2026-11-28T00:06:02.135829+00:00"
-      },
       "source": {
         "source_id": "13369592",
         "source_url": "https://sdilej.cz/13369592/narcos-s01e03-cz-dabing-720p..avi",
@@ -1001036,22 +1001030,29 @@
         "display_name": "Narcos S01E03 The Men of Always 720p CZ Dabing",
         "prepared_at": "2026-11-27T18:06:35.505956+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31473886",
-        "size_bytes": 555595736
-      },
-      "transfer_receipt": {
-        "target_video_id": "31473886",
-        "size_bytes": 555595736,
-        "source_bytes_read": 555595736,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31473886",
         "source_bytes_read": 555595736,
         "elapsed_seconds": 235.635,
         "finished_at": "2026-11-27T18:11:06.038466+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31473886",
+          "size_bytes": 555595736,
+          "source_bytes_read": 555595736,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "13369592",
+        "source_url": "https://sdilej.cz/13369592/narcos-s01e03-cz-dabing-720p..avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31473886",
+        "display_name": "Narcos S01E03 The Men of Always 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T18:11:14.018713+00:00"
       }
     },
     "2336:1:1": {
@@ -1001134,7 +1001135,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T18:11:06.038489+00:00",
+  "updated_at": "2026-11-27T18:11:14.018744+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
