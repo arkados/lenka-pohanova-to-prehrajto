@@ -1004835,12 +1004835,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "e4df7a9bfe984290961e6f83c921a8cf-worker-0",
-        "run_id": "46053269009",
-        "claimed_at": "2026-11-27T21:07:08.074046+00:00",
-        "lease_expires_at": "2026-11-28T03:07:08.074054+00:00"
-      },
       "source": {
         "source_id": "11744267",
         "source_url": "https://sdilej.cz/11744267/borici-mytu-s08e20-bug-special-dvb-t.avi",
@@ -1004865,22 +1004859,29 @@
         "display_name": "MythBusters S08E20 Bug Special SD CZ Dabing",
         "prepared_at": "2026-11-27T21:07:44.188860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31477900",
-        "size_bytes": 408997888
-      },
-      "transfer_receipt": {
-        "target_video_id": "31477900",
-        "size_bytes": 408997888,
-        "source_bytes_read": 408997888,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31477900",
         "source_bytes_read": 408997888,
         "elapsed_seconds": 41.774,
         "finished_at": "2026-11-27T21:09:03.181666+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31477900",
+          "size_bytes": 408997888,
+          "source_bytes_read": 408997888,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11744267",
+        "source_url": "https://sdilej.cz/11744267/borici-mytu-s08e20-bug-special-dvb-t.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31477900",
+        "display_name": "MythBusters S08E20 Bug Special SD CZ Dabing",
+        "uploaded_at": "2026-11-27T21:09:17.863806+00:00"
       }
     },
     "2352:9:15": {
@@ -1005016,7 +1005017,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T21:09:11.396787+00:00",
+  "updated_at": "2026-11-27T21:09:17.863820+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
