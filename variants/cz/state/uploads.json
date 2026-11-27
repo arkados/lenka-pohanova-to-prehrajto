@@ -999193,12 +999193,6 @@
     },
     "4704:6:5": {
       "episode_key": "západní křídlo:s6:e5",
-      "claim": {
-        "worker_id": "3e9b777a5933422ab2af642bc56c518e-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T14:06:55.075188+00:00",
-        "lease_expires_at": "2026-11-27T20:06:55.075203+00:00"
-      },
       "source": {
         "source_id": "29271318",
         "source_url": "https://sdilej.cz/29271318/zapadni-kridlo-s06e05.mkv",
@@ -999223,22 +999217,29 @@
         "display_name": "The West Wing S06E05 The Hubbert Peak 720p CZ Dabing",
         "prepared_at": "2026-11-27T14:07:04.383397+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31469338",
-        "size_bytes": 552678907
-      },
-      "transfer_receipt": {
-        "target_video_id": "31469338",
-        "size_bytes": 552678907,
-        "source_bytes_read": 552678907,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31469338",
         "source_bytes_read": 552678907,
         "elapsed_seconds": 86.886,
         "finished_at": "2026-11-27T14:09:00.269224+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31469338",
+          "size_bytes": 552678907,
+          "source_bytes_read": 552678907,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29271318",
+        "source_url": "https://sdilej.cz/29271318/zapadni-kridlo-s06e05.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31469338",
+        "display_name": "The West Wing S06E05 The Hubbert Peak 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T14:09:14.151979+00:00"
       }
     },
     "4704:6:6": {
@@ -999284,7 +999285,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T14:09:07.507393+00:00",
+  "updated_at": "2026-11-27T14:09:14.151996+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
