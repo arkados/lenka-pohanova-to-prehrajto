@@ -1002605,12 +1002605,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "dee2e496d644454aa1dd416c6dbe901d-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:08:12.899942+00:00",
-        "lease_expires_at": "2026-11-28T01:08:12.899946+00:00"
-      },
       "source": {
         "source_id": "35411415",
         "source_url": "https://sdilej.cz/35411415/smrt-v-raji-08x01.mp4",
@@ -1002635,22 +1002629,29 @@
         "display_name": "Death in Paradise S08E01 Murder on the Honore Express 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:08:25.148451+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475179",
-        "size_bytes": 1411499156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475179",
-        "size_bytes": 1411499156,
-        "source_bytes_read": 1411499156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475179",
         "source_bytes_read": 1411499156,
         "elapsed_seconds": 62.419,
         "finished_at": "2026-11-27T19:09:53.338645+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475179",
+          "size_bytes": 1411499156,
+          "source_bytes_read": 1411499156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35411415",
+        "source_url": "https://sdilej.cz/35411415/smrt-v-raji-08x01.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475179",
+        "display_name": "Death in Paradise S08E01 Murder on the Honore Express 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:10:05.021682+00:00"
       }
     },
     "1783:8:5": {
@@ -1002912,7 +1002913,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:09:58.507000+00:00",
+  "updated_at": "2026-11-27T19:10:05.021697+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
