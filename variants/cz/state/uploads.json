@@ -987897,12 +987897,6 @@
     },
     "1967:19:4": {
       "episode_key": "vraždy v midsomeru:s19:e4",
-      "claim": {
-        "worker_id": "287038af676f42e1955a6ef8f83cfb56-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:41:38.248497+00:00",
-        "lease_expires_at": "2026-11-27T10:41:38.248509+00:00"
-      },
       "source": {
         "source_id": "28738779",
         "source_url": "https://sdilej.cz/28738779/vrazdy-v-midsomeru-s19e04-114-2017-hd-smrt-na-vystavisti-sd-.mp4",
@@ -987927,22 +987921,29 @@
         "display_name": "Midsomer Murders S19E04 Red in Tooth & Claw 720p CZ Dabing",
         "prepared_at": "2026-11-27T04:41:44.452728+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456368",
-        "size_bytes": 1169906926
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456368",
-        "size_bytes": 1169906926,
-        "source_bytes_read": 1169906926,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456368",
         "source_bytes_read": 1169906926,
         "elapsed_seconds": 163.219,
         "finished_at": "2026-11-27T04:44:52.386156+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456368",
+          "size_bytes": 1169906926,
+          "source_bytes_read": 1169906926,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28738779",
+        "source_url": "https://sdilej.cz/28738779/vrazdy-v-midsomeru-s19e04-114-2017-hd-smrt-na-vystavisti-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456368",
+        "display_name": "Midsomer Murders S19E04 Red in Tooth & Claw 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:45:01.550734+00:00"
       }
     },
     "1967:19:5": {
@@ -988026,7 +988027,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:44:52.386179+00:00",
+  "updated_at": "2026-11-27T04:45:01.550753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
