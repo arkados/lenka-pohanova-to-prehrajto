@@ -991984,12 +991984,6 @@
     },
     "2558:8:1": {
       "episode_key": "hercule poirot:s8:e1",
-      "claim": {
-        "worker_id": "75287320b60b40099b02ea4603d4440f-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T09:03:41.348018+00:00",
-        "lease_expires_at": "2026-11-27T15:03:41.348030+00:00"
-      },
       "source": {
         "source_id": "30854900",
         "source_url": "https://sdilej.cz/30854900/hercule-poirot-s08e01-zlo-pod-sluncem-cz-1080p-.ts",
@@ -992014,22 +992008,29 @@
         "display_name": "Agatha Christie's Poirot S08E01 Evil Under the Sun 1080p CZ Dabing",
         "prepared_at": "2026-11-27T09:03:55.589446+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31461778",
-        "size_bytes": 4667346092
-      },
-      "transfer_receipt": {
-        "target_video_id": "31461778",
-        "size_bytes": 4667346092,
-        "source_bytes_read": 4667346092,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31461778",
         "source_bytes_read": 4667346092,
         "elapsed_seconds": 1632.831,
         "finished_at": "2026-11-27T09:31:40.922884+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31461778",
+          "size_bytes": 4667346092,
+          "source_bytes_read": 4667346092,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30854900",
+        "source_url": "https://sdilej.cz/30854900/hercule-poirot-s08e01-zlo-pod-sluncem-cz-1080p-.ts",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31461778",
+        "display_name": "Agatha Christie's Poirot S08E01 Evil Under the Sun 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T09:31:51.646232+00:00"
       }
     },
     "2558:8:2": {
@@ -992163,7 +992164,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T09:31:40.922904+00:00",
+  "updated_at": "2026-11-27T09:31:51.646248+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
