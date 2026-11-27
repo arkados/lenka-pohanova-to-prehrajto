@@ -1006260,12 +1006260,6 @@
     },
     "2489:3:4": {
       "episode_key": "legenda korry:s3:e4",
-      "claim": {
-        "worker_id": "b211908c94ff44bcb84b1e111a4c6e10-worker-0",
-        "run_id": "46053269009",
-        "claimed_at": "2026-11-27T21:40:43.626216+00:00",
-        "lease_expires_at": "2026-11-28T03:40:43.626228+00:00"
-      },
       "source": {
         "source_id": "25409300",
         "source_url": "https://sdilej.cz/25409300/legenda-korry-the-legend-of-korra-s03e04-hd-cz-dabing.mp4",
@@ -1006290,22 +1006284,29 @@
         "display_name": "The Legend of Korra S03E04 In Harm's Way 1080p CZ Dabing",
         "prepared_at": "2026-11-27T21:41:17.274815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31478557",
-        "size_bytes": 1371895815
-      },
-      "transfer_receipt": {
-        "target_video_id": "31478557",
-        "size_bytes": 1371895815,
-        "source_bytes_read": 1371895815,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31478557",
         "source_bytes_read": 1371895815,
         "elapsed_seconds": 98.017,
         "finished_at": "2026-11-27T21:43:30.675447+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31478557",
+          "size_bytes": 1371895815,
+          "source_bytes_read": 1371895815,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25409300",
+        "source_url": "https://sdilej.cz/25409300/legenda-korry-the-legend-of-korra-s03e04-hd-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31478557",
+        "display_name": "The Legend of Korra S03E04 In Harm's Way 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T21:43:39.968716+00:00"
       }
     }
   },
@@ -1006314,7 +1006315,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T21:43:30.675468+00:00",
+  "updated_at": "2026-11-27T21:43:39.968732+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
