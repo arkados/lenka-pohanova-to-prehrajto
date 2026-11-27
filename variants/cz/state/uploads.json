@@ -993263,12 +993263,6 @@
     },
     "2889:7:1": {
       "episode_key": "jak funguje vesmír:s7:e1",
-      "claim": {
-        "worker_id": "92ae0f82de34410bb11186496579f880-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T10:22:00.265004+00:00",
-        "lease_expires_at": "2026-11-27T16:22:00.265013+00:00"
-      },
       "source": {
         "source_id": "34453461",
         "source_url": "https://sdilej.cz/34453461/how-the-universe-works-s07e01-nocne-mory-neutronovych-hviezd.mkv",
@@ -993293,22 +993287,29 @@
         "display_name": "How the Universe Works S07E01 Nightmares of Neutron Stars 1080p CZ Dabing",
         "prepared_at": "2026-11-27T10:22:08.351736+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31463399",
-        "size_bytes": 1543482472
-      },
-      "transfer_receipt": {
-        "target_video_id": "31463399",
-        "size_bytes": 1543482472,
-        "source_bytes_read": 1543482472,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31463399",
         "source_bytes_read": 1543482472,
         "elapsed_seconds": 604.735,
         "finished_at": "2026-11-27T10:32:36.588505+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31463399",
+          "size_bytes": 1543482472,
+          "source_bytes_read": 1543482472,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34453461",
+        "source_url": "https://sdilej.cz/34453461/how-the-universe-works-s07e01-nocne-mory-neutronovych-hviezd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31463399",
+        "display_name": "How the Universe Works S07E01 Nightmares of Neutron Stars 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T10:32:44.863010+00:00"
       }
     },
     "2889:7:10": {
@@ -993493,7 +993494,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T10:32:36.588524+00:00",
+  "updated_at": "2026-11-27T10:32:44.863026+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
