@@ -991339,12 +991339,6 @@
     },
     "1967:24:2": {
       "episode_key": "vraždy v midsomeru:s24:e2",
-      "claim": {
-        "worker_id": "d418f3713a4447b1b16baeaad62a33c5-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:14:30.636902+00:00",
-        "lease_expires_at": "2026-11-27T14:14:30.636908+00:00"
-      },
       "source": {
         "source_id": "33444550",
         "source_url": "https://sdilej.cz/33444550/vrazdy-v-midsomeru-s24e02-kniha-smrti-2023-krimi-gb.mkv",
@@ -991369,22 +991363,29 @@
         "display_name": "Midsomer Murders S24E02 Book of the Dead SD CZ Dabing",
         "prepared_at": "2026-11-27T08:14:37.910265+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31460881",
-        "size_bytes": 861272700
-      },
-      "transfer_receipt": {
-        "target_video_id": "31460881",
-        "size_bytes": 861272700,
-        "source_bytes_read": 861272700,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31460881",
         "source_bytes_read": 861272700,
         "elapsed_seconds": 357.83,
         "finished_at": "2026-11-27T08:21:08.219587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31460881",
+          "size_bytes": 861272700,
+          "source_bytes_read": 861272700,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33444550",
+        "source_url": "https://sdilej.cz/33444550/vrazdy-v-midsomeru-s24e02-kniha-smrti-2023-krimi-gb.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31460881",
+        "display_name": "Midsomer Murders S24E02 Book of the Dead SD CZ Dabing",
+        "uploaded_at": "2026-11-27T08:21:25.785990+00:00"
       }
     },
     "2558:10:1": {
@@ -991480,7 +991481,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:21:14.638905+00:00",
+  "updated_at": "2026-11-27T08:21:25.786004+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
