@@ -999475,12 +999475,6 @@
     },
     "4704:7:11": {
       "episode_key": "západní křídlo:s7:e11",
-      "claim": {
-        "worker_id": "e05e92b0c33e40f2a5c6d834fa818be1-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T14:13:36.120609+00:00",
-        "lease_expires_at": "2026-11-27T20:13:36.120620+00:00"
-      },
       "source": {
         "source_id": "34862509",
         "source_url": "https://sdilej.cz/34862509/zapadni-kridlo-s07e11-144-2006-hd-vnitrni-presuny-s-.mp4",
@@ -999505,22 +999499,29 @@
         "display_name": "The West Wing S07E11 Internal Displacement 720p CZ Dabing",
         "prepared_at": "2026-11-27T14:14:00.835242+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31469495",
-        "size_bytes": 850460200
-      },
-      "transfer_receipt": {
-        "target_video_id": "31469495",
-        "size_bytes": 850460200,
-        "source_bytes_read": 850460200,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31469495",
         "source_bytes_read": 850460200,
         "elapsed_seconds": 77.745,
         "finished_at": "2026-11-27T14:16:26.792819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31469495",
+          "size_bytes": 850460200,
+          "source_bytes_read": 850460200,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862509",
+        "source_url": "https://sdilej.cz/34862509/zapadni-kridlo-s07e11-144-2006-hd-vnitrni-presuny-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31469495",
+        "display_name": "The West Wing S07E11 Internal Displacement 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T14:16:49.114589+00:00"
       }
     }
   },
@@ -999529,7 +999530,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T14:16:42.239760+00:00",
+  "updated_at": "2026-11-27T14:16:49.114605+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
