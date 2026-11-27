@@ -994950,12 +994950,6 @@
     },
     "4704:2:19": {
       "episode_key": "západní křídlo:s2:e19",
-      "claim": {
-        "worker_id": "ed5fbd873fbc4162bba779f0b6d1255c-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:17:52.101739+00:00",
-        "lease_expires_at": "2026-11-27T17:17:52.101744+00:00"
-      },
       "source": {
         "source_id": "34861918",
         "source_url": "https://sdilej.cz/34861918/zapadni-kridlo-s02e19-041-2001-hd-mracna-se-stahuji-s-.mp4",
@@ -994980,22 +994974,29 @@
         "display_name": "The West Wing S02E19 Bad Moon Rising 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:18:31.636298+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31464910",
-        "size_bytes": 833085566
-      },
-      "transfer_receipt": {
-        "target_video_id": "31464910",
-        "size_bytes": 833085566,
-        "source_bytes_read": 833085566,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31464910",
         "source_bytes_read": 833085566,
         "elapsed_seconds": 238.233,
         "finished_at": "2026-11-27T11:23:02.380263+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31464910",
+          "size_bytes": 833085566,
+          "source_bytes_read": 833085566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861918",
+        "source_url": "https://sdilej.cz/34861918/zapadni-kridlo-s02e19-041-2001-hd-mracna-se-stahuji-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31464910",
+        "display_name": "The West Wing S02E19 Bad Moon Rising 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:23:18.290219+00:00"
       }
     },
     "4704:2:20": {
@@ -995091,7 +995092,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:23:10.980516+00:00",
+  "updated_at": "2026-11-27T11:23:18.290231+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
