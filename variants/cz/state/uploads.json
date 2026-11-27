@@ -991640,12 +991640,6 @@
     },
     "2558:2:8": {
       "episode_key": "hercule poirot:s2:e8",
-      "claim": {
-        "worker_id": "3479c6805c51432a819d3865031feac3-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:26:01.185803+00:00",
-        "lease_expires_at": "2026-11-27T14:26:01.185820+00:00"
-      },
       "source": {
         "source_id": "34799112",
         "source_url": "https://sdilej.cz/34799112/hercule-poirot-s02e08-18-1990-sd-zahada-zapadni-hvezdy-sd-.mp4",
@@ -991670,22 +991664,29 @@
         "display_name": "Agatha Christie's Poirot S02E08 The Kidnapped Prime Minister SD CZ Dabing",
         "prepared_at": "2026-11-27T08:26:08.019637+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31461098",
-        "size_bytes": 410189521
-      },
-      "transfer_receipt": {
-        "target_video_id": "31461098",
-        "size_bytes": 410189521,
-        "source_bytes_read": 410189521,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31461098",
         "source_bytes_read": 410189521,
         "elapsed_seconds": 108.146,
         "finished_at": "2026-11-27T08:28:23.059174+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31461098",
+          "size_bytes": 410189521,
+          "source_bytes_read": 410189521,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799112",
+        "source_url": "https://sdilej.cz/34799112/hercule-poirot-s02e08-18-1990-sd-zahada-zapadni-hvezdy-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31461098",
+        "display_name": "Agatha Christie's Poirot S02E08 The Kidnapped Prime Minister SD CZ Dabing",
+        "uploaded_at": "2026-11-27T08:28:37.664903+00:00"
       }
     },
     "2558:3:2": {
@@ -991730,7 +991731,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:28:29.382491+00:00",
+  "updated_at": "2026-11-27T08:28:37.664921+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
