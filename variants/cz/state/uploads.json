@@ -991691,12 +991691,6 @@
     },
     "2558:3:2": {
       "episode_key": "hercule poirot:s3:e2",
-      "claim": {
-        "worker_id": "09f4e127c636454382df51729e042af8-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:28:09.402483+00:00",
-        "lease_expires_at": "2026-11-27T14:28:09.402495+00:00"
-      },
       "source": {
         "source_id": "34799122",
         "source_url": "https://sdilej.cz/34799122/hercule-poirot-s03e02-21-1991-sd-a-co-tvoje-zahradka-sd-.mp4",
@@ -991721,22 +991715,29 @@
         "display_name": "Agatha Christie's Poirot S03E02 How Does Your Garden Grow? SD CZ Dabing",
         "prepared_at": "2026-11-27T08:28:16.771762+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31461142",
-        "size_bytes": 415133565
-      },
-      "transfer_receipt": {
-        "target_video_id": "31461142",
-        "size_bytes": 415133565,
-        "source_bytes_read": 415133565,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31461142",
         "source_bytes_read": 415133565,
         "elapsed_seconds": 176.207,
         "finished_at": "2026-11-27T08:31:46.939328+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31461142",
+          "size_bytes": 415133565,
+          "source_bytes_read": 415133565,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34799122",
+        "source_url": "https://sdilej.cz/34799122/hercule-poirot-s03e02-21-1991-sd-a-co-tvoje-zahradka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31461142",
+        "display_name": "Agatha Christie's Poirot S03E02 How Does Your Garden Grow? SD CZ Dabing",
+        "uploaded_at": "2026-11-27T08:31:57.901409+00:00"
       }
     },
     "2558:3:6": {
@@ -991782,7 +991783,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:31:46.939348+00:00",
+  "updated_at": "2026-11-27T08:31:57.901426+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
