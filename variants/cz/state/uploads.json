@@ -997351,12 +997351,6 @@
     },
     "4704:5:10": {
       "episode_key": "západní křídlo:s5:e10",
-      "claim": {
-        "worker_id": "50adf9abacb94a048855832b3af1cc83-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T12:59:01.814070+00:00",
-        "lease_expires_at": "2026-11-27T18:59:01.814079+00:00"
-      },
       "source": {
         "source_id": "34862300",
         "source_url": "https://sdilej.cz/34862300/zapadni-kridlo-s05e10-099-2004-hd-bourliva-soucasnost-s-.mp4",
@@ -997381,22 +997375,29 @@
         "display_name": "The West Wing S05E10 The Stormy Present 720p CZ Dabing",
         "prepared_at": "2026-11-27T12:59:08.654928+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31467246",
-        "size_bytes": 839997190
-      },
-      "transfer_receipt": {
-        "target_video_id": "31467246",
-        "size_bytes": 839997190,
-        "source_bytes_read": 839997190,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31467246",
         "source_bytes_read": 839997190,
         "elapsed_seconds": 48.175,
         "finished_at": "2026-11-27T13:00:32.366802+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31467246",
+          "size_bytes": 839997190,
+          "source_bytes_read": 839997190,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862300",
+        "source_url": "https://sdilej.cz/34862300/zapadni-kridlo-s05e10-099-2004-hd-bourliva-soucasnost-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31467246",
+        "display_name": "The West Wing S05E10 The Stormy Present 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T13:00:52.675879+00:00"
       }
     },
     "4704:5:11": {
@@ -997475,7 +997476,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T13:00:45.086322+00:00",
+  "updated_at": "2026-11-27T13:00:52.675896+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
