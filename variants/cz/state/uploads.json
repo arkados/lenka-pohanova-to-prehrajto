@@ -985849,12 +985849,6 @@
     },
     "1967:11:5": {
       "episode_key": "vraždy v midsomeru:s11:e5",
-      "claim": {
-        "worker_id": "6bc8e89e829847ad879a29cb70d69a3d-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:22:31.431305+00:00",
-        "lease_expires_at": "2026-11-27T09:22:31.431309+00:00"
-      },
       "source": {
         "source_id": "27579111",
         "source_url": "https://sdilej.cz/27579111/vrazdy-v-midsomeru-s11e05-carodejuv-synovec.mkv",
@@ -985879,22 +985873,29 @@
         "display_name": "Midsomer Murders S11E05 The Magician's Nephew 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:22:37.681024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454192",
-        "size_bytes": 2048618826
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454192",
-        "size_bytes": 2048618826,
-        "source_bytes_read": 2048618826,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454192",
         "source_bytes_read": 2048618826,
         "elapsed_seconds": 284.436,
         "finished_at": "2026-11-27T03:27:42.873863+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454192",
+          "size_bytes": 2048618826,
+          "source_bytes_read": 2048618826,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579111",
+        "source_url": "https://sdilej.cz/27579111/vrazdy-v-midsomeru-s11e05-carodejuv-synovec.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454192",
+        "display_name": "Midsomer Murders S11E05 The Magician's Nephew 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:27:51.676338+00:00"
       }
     },
     "1967:11:6": {
@@ -985940,7 +985941,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:27:42.873884+00:00",
+  "updated_at": "2026-11-27T03:27:51.676355+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
