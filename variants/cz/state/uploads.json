@@ -1002955,12 +1002955,6 @@
     },
     "1783:10:7": {
       "episode_key": "smrt v ráji:s10:e7",
-      "claim": {
-        "worker_id": "52f9dcde3eaf49b597d479a82306f450-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:09:41.906448+00:00",
-        "lease_expires_at": "2026-11-28T01:09:41.906454+00:00"
-      },
       "source": {
         "source_id": "35413136",
         "source_url": "https://sdilej.cz/35413136/smrt-v-raji-10x07.mp4",
@@ -1002985,22 +1002979,29 @@
         "display_name": "Death in Paradise S10E07 Somewhere in Time 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:09:48.212933+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475215",
-        "size_bytes": 1058188874
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475215",
-        "size_bytes": 1058188874,
-        "source_bytes_read": 1058188874,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475215",
         "source_bytes_read": 1058188874,
         "elapsed_seconds": 70.319,
         "finished_at": "2026-11-27T19:11:31.607779+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475215",
+          "size_bytes": 1058188874,
+          "source_bytes_read": 1058188874,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35413136",
+        "source_url": "https://sdilej.cz/35413136/smrt-v-raji-10x07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475215",
+        "display_name": "Death in Paradise S10E07 Somewhere in Time 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:11:38.792507+00:00"
       }
     }
   },
@@ -1003009,7 +1003010,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:11:31.607799+00:00",
+  "updated_at": "2026-11-27T19:11:38.792523+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
