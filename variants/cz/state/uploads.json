@@ -985184,12 +985184,6 @@
     },
     "1787:2:6": {
       "episode_key": "havaj 5-0:s2:e6",
-      "claim": {
-        "worker_id": "63740504022c405c97ff77b54ade75d9-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T02:56:31.348366+00:00",
-        "lease_expires_at": "2026-11-27T08:56:31.348375+00:00"
-      },
       "source": {
         "source_id": "34596651",
         "source_url": "https://sdilej.cz/34596651/havaj-5-0-s02e06-cz.mp4",
@@ -985214,22 +985208,29 @@
         "display_name": "Hawaii Five-0 S02E06 Ka Hakaka Maika‘i (The Good Fight) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T02:56:37.710848+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31453493",
-        "size_bytes": 2204440846
-      },
-      "transfer_receipt": {
-        "target_video_id": "31453493",
-        "size_bytes": 2204440846,
-        "source_bytes_read": 2204440846,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31453493",
         "source_bytes_read": 2204440846,
         "elapsed_seconds": 349.43,
         "finished_at": "2026-11-27T03:02:49.082763+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31453493",
+          "size_bytes": 2204440846,
+          "source_bytes_read": 2204440846,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596651",
+        "source_url": "https://sdilej.cz/34596651/havaj-5-0-s02e06-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31453493",
+        "display_name": "Hawaii Five-0 S02E06 Ka Hakaka Maika‘i (The Good Fight) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:02:56.386987+00:00"
       }
     },
     "1787:2:9": {
@@ -985312,7 +985313,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:02:49.082792+00:00",
+  "updated_at": "2026-11-27T03:02:56.387007+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
