@@ -988800,12 +988800,6 @@
     },
     "2889:2:2": {
       "episode_key": "jak funguje vesmír:s2:e2",
-      "claim": {
-        "worker_id": "f7bcff18d726479388fb59776ae64a90-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:07:52.293317+00:00",
-        "lease_expires_at": "2026-11-27T11:07:52.293336+00:00"
-      },
       "source": {
         "source_id": "30900001",
         "source_url": "https://sdilej.cz/30900001/jak-funguje-vesmir-s02e02-zavan-zivota-cz-en-576p-.mkv",
@@ -988830,22 +988824,29 @@
         "display_name": "How the Universe Works S02E02 Megastorms - The Winds of Creation SD CZ Dabing",
         "prepared_at": "2026-11-27T05:08:05.463151+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456941",
-        "size_bytes": 568551783
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456941",
-        "size_bytes": 568551783,
-        "source_bytes_read": 568551783,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456941",
         "source_bytes_read": 568551783,
         "elapsed_seconds": 62.198,
         "finished_at": "2026-11-27T05:09:32.987259+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456941",
+          "size_bytes": 568551783,
+          "source_bytes_read": 568551783,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30900001",
+        "source_url": "https://sdilej.cz/30900001/jak-funguje-vesmir-s02e02-zavan-zivota-cz-en-576p-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456941",
+        "display_name": "How the Universe Works S02E02 Megastorms - The Winds of Creation SD CZ Dabing",
+        "uploaded_at": "2026-11-27T05:09:43.284106+00:00"
       }
     }
   },
@@ -988854,7 +988855,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:09:32.987285+00:00",
+  "updated_at": "2026-11-27T05:09:43.284127+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
