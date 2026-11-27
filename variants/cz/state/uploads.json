@@ -999136,12 +999136,6 @@
     },
     "4704:6:4": {
       "episode_key": "západní křídlo:s6:e4",
-      "claim": {
-        "worker_id": "be5f440d269642d1897a13849f6ab4a8-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T14:05:42.192757+00:00",
-        "lease_expires_at": "2026-11-27T20:05:42.192768+00:00"
-      },
       "source": {
         "source_id": "34862357",
         "source_url": "https://sdilej.cz/34862357/zapadni-kridlo-s06e04-115-2004-hd-start-s-.mp4",
@@ -999166,22 +999160,29 @@
         "display_name": "The West Wing S06E04 Liftoff 720p CZ Dabing",
         "prepared_at": "2026-11-27T14:05:50.389786+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31469312",
-        "size_bytes": 845053236
-      },
-      "transfer_receipt": {
-        "target_video_id": "31469312",
-        "size_bytes": 845053236,
-        "source_bytes_read": 845053236,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31469312",
         "source_bytes_read": 845053236,
         "elapsed_seconds": 114.166,
         "finished_at": "2026-11-27T14:08:13.670173+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31469312",
+          "size_bytes": 845053236,
+          "source_bytes_read": 845053236,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862357",
+        "source_url": "https://sdilej.cz/34862357/zapadni-kridlo-s06e04-115-2004-hd-start-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31469312",
+        "display_name": "The West Wing S06E04 Liftoff 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T14:08:27.805282+00:00"
       }
     },
     "4704:6:5": {
@@ -999260,7 +999261,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T14:08:20.737571+00:00",
+  "updated_at": "2026-11-27T14:08:27.805299+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
