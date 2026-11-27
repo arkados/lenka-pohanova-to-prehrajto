@@ -987590,12 +987590,6 @@
     },
     "1967:17:1": {
       "episode_key": "vraždy v midsomeru:s17:e1",
-      "claim": {
-        "worker_id": "55643d2f9201451293332aac12373dc2-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:29:39.651479+00:00",
-        "lease_expires_at": "2026-11-27T10:29:39.651499+00:00"
-      },
       "source": {
         "source_id": "32411021",
         "source_url": "https://sdilej.cz/32411021/vrazdy-v-midsomeru-17x01-daggeruv-klub.mkv",
@@ -987620,22 +987614,29 @@
         "display_name": "Midsomer Murders S17E01 The Dagger Club 1080p CZ Dabing",
         "prepared_at": "2026-11-27T04:29:47.745214+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455962",
-        "size_bytes": 2080738962
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455962",
-        "size_bytes": 2080738962,
-        "source_bytes_read": 2080738962,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455962",
         "source_bytes_read": 2080738962,
         "elapsed_seconds": 340.477,
         "finished_at": "2026-11-27T04:36:10.705780+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455962",
+          "size_bytes": 2080738962,
+          "source_bytes_read": 2080738962,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411021",
+        "source_url": "https://sdilej.cz/32411021/vrazdy-v-midsomeru-17x01-daggeruv-klub.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455962",
+        "display_name": "Midsomer Murders S17E01 The Dagger Club 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:36:30.910572+00:00"
       }
     },
     "1967:17:2": {
@@ -987782,7 +987783,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:36:25.558297+00:00",
+  "updated_at": "2026-11-27T04:36:30.910591+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
