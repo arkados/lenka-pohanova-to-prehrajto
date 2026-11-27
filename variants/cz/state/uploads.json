@@ -993930,12 +993930,6 @@
     },
     "3401:2:13": {
       "episode_key": "soví dům:s2:e13",
-      "claim": {
-        "worker_id": "06cdcbe468bc478f9391ca0c22989e82-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T10:48:33.476276+00:00",
-        "lease_expires_at": "2026-11-27T16:48:33.476283+00:00"
-      },
       "source": {
         "source_id": "25233999",
         "source_url": "https://sdilej.cz/25233999/sovi-dum-s02e13-cz.mkv",
@@ -993960,22 +993954,29 @@
         "display_name": "The Owl House S02E13 Any Sport in a Storm 720p CZ Dabing",
         "prepared_at": "2026-11-27T10:48:54.971098+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31464099",
-        "size_bytes": 472451028
-      },
-      "transfer_receipt": {
-        "target_video_id": "31464099",
-        "size_bytes": 472451028,
-        "source_bytes_read": 472451028,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31464099",
         "source_bytes_read": 472451028,
         "elapsed_seconds": 69.664,
         "finished_at": "2026-11-27T10:50:45.828853+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31464099",
+          "size_bytes": 472451028,
+          "source_bytes_read": 472451028,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25233999",
+        "source_url": "https://sdilej.cz/25233999/sovi-dum-s02e13-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31464099",
+        "display_name": "The Owl House S02E13 Any Sport in a Storm 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T10:50:55.253616+00:00"
       }
     },
     "3401:2:14": {
@@ -994072,7 +994073,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T10:50:45.828874+00:00",
+  "updated_at": "2026-11-27T10:50:55.253628+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
