@@ -987652,12 +987652,6 @@
     },
     "1967:17:3": {
       "episode_key": "vraždy v midsomeru:s17:e3",
-      "claim": {
-        "worker_id": "62f83a8b1b4640e6997bb1d6ea42a3dc-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:30:02.217977+00:00",
-        "lease_expires_at": "2026-11-27T10:30:02.217991+00:00"
-      },
       "source": {
         "source_id": "29132995",
         "source_url": "https://sdilej.cz/29132995/vrazdy-v-midsomeru-s17e03-103-2015-hd-balada-o-midsomerskem-hrabstvi-sd-.mp4",
@@ -987682,22 +987676,29 @@
         "display_name": "Midsomer Murders S17E03 The Ballad of Midsomer County 720p CZ Dabing",
         "prepared_at": "2026-11-27T04:30:14.378571+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455975",
-        "size_bytes": 1170535423
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455975",
-        "size_bytes": 1170535423,
-        "source_bytes_read": 1170535423,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455975",
         "source_bytes_read": 1170535423,
         "elapsed_seconds": 219.789,
         "finished_at": "2026-11-27T04:34:21.849346+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455975",
+          "size_bytes": 1170535423,
+          "source_bytes_read": 1170535423,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29132995",
+        "source_url": "https://sdilej.cz/29132995/vrazdy-v-midsomeru-s17e03-103-2015-hd-balada-o-midsomerskem-hrabstvi-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455975",
+        "display_name": "Midsomer Murders S17E03 The Ballad of Midsomer County 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:34:35.291696+00:00"
       }
     }
   },
@@ -987706,7 +987707,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:34:21.849369+00:00",
+  "updated_at": "2026-11-27T04:34:35.291716+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
