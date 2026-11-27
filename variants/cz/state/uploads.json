@@ -990017,12 +990017,6 @@
     },
     "4704:1:16": {
       "episode_key": "západní křídlo:s1:e16",
-      "claim": {
-        "worker_id": "f728fac59ae24175891fd5fb1284189c-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:29:17.739902+00:00",
-        "lease_expires_at": "2026-11-27T11:29:17.739909+00:00"
-      },
       "source": {
         "source_id": "34861735",
         "source_url": "https://sdilej.cz/34861735/zapadni-kridlo-s01e16-016-2000-hd-20-hodin-v-los-angeles-s-.mp4",
@@ -990047,22 +990041,29 @@
         "display_name": "The West Wing S01E16 20 Hours in L. A. 720p CZ Dabing",
         "prepared_at": "2026-11-27T05:29:30.679588+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457425",
-        "size_bytes": 842584300
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457425",
-        "size_bytes": 842584300,
-        "source_bytes_read": 842584300,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457425",
         "source_bytes_read": 842584300,
         "elapsed_seconds": 204.643,
         "finished_at": "2026-11-27T05:33:18.681913+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457425",
+          "size_bytes": 842584300,
+          "source_bytes_read": 842584300,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861735",
+        "source_url": "https://sdilej.cz/34861735/zapadni-kridlo-s01e16-016-2000-hd-20-hodin-v-los-angeles-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457425",
+        "display_name": "The West Wing S01E16 20 Hours in L. A. 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:33:26.884649+00:00"
       }
     },
     "4704:1:17": {
@@ -990196,7 +990197,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:33:18.681936+00:00",
+  "updated_at": "2026-11-27T05:33:26.884679+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
