@@ -1006719,12 +1006719,6 @@
     },
     "2562:4:4": {
       "episode_key": "drsný šerif:s4:e4",
-      "claim": {
-        "worker_id": "b37af5fe6a5f488d8087ff6048b346ca-worker-0",
-        "run_id": "46053269009",
-        "claimed_at": "2026-11-27T21:52:10.006797+00:00",
-        "lease_expires_at": "2026-11-28T03:52:10.006804+00:00"
-      },
       "source": {
         "source_id": "12968841",
         "source_url": "https://sdilej.cz/12968841/longmire.s04e04.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
@@ -1006749,22 +1006743,29 @@
         "display_name": "Longmire S04E04 Four Arrows 1080p CZ Dabing",
         "prepared_at": "2026-11-27T21:52:21.902494+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31478772",
-        "size_bytes": 1821357028
-      },
-      "transfer_receipt": {
-        "target_video_id": "31478772",
-        "size_bytes": 1821357028,
-        "source_bytes_read": 1821357028,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31478772",
         "source_bytes_read": 1821357028,
         "elapsed_seconds": 189.142,
         "finished_at": "2026-11-27T21:55:57.645145+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31478772",
+          "size_bytes": 1821357028,
+          "source_bytes_read": 1821357028,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12968841",
+        "source_url": "https://sdilej.cz/12968841/longmire.s04e04.1080p.10bit.bluray.ac3.x265.hevc-jdm-czaudio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31478772",
+        "display_name": "Longmire S04E04 Four Arrows 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T21:56:06.200281+00:00"
       }
     },
     "681:2:5": {
@@ -1006847,7 +1006848,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T21:55:57.645164+00:00",
+  "updated_at": "2026-11-27T21:56:06.200296+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
