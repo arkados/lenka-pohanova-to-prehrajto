@@ -1001057,12 +1001057,6 @@
     },
     "2336:1:1": {
       "episode_key": "sedmilhářky:s1:e1",
-      "claim": {
-        "worker_id": "f16c6fe0792a41e581b94f7da5297009-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T18:06:07.248561+00:00",
-        "lease_expires_at": "2026-11-28T00:06:07.248565+00:00"
-      },
       "source": {
         "source_id": "21645509",
         "source_url": "https://sdilej.cz/21645509/sedmilharky-big.little.lies.s01e01.somebodys.dead.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
@@ -1001087,22 +1001081,29 @@
         "display_name": "Big Little Lies S01E01 Somebody's Dead 1080p CZ Dabing",
         "prepared_at": "2026-11-27T18:06:19.601315+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31473878",
-        "size_bytes": 2413275265
-      },
-      "transfer_receipt": {
-        "target_video_id": "31473878",
-        "size_bytes": 2413275265,
-        "source_bytes_read": 2413275265,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31473878",
         "source_bytes_read": 2413275265,
         "elapsed_seconds": 1010.918,
         "finished_at": "2026-11-27T18:23:43.585062+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31473878",
+          "size_bytes": 2413275265,
+          "source_bytes_read": 2413275265,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "21645509",
+        "source_url": "https://sdilej.cz/21645509/sedmilharky-big.little.lies.s01e01.somebodys.dead.1080p.hmax.web-dl.ddp5.1.x265-cz-audio-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31473878",
+        "display_name": "Big Little Lies S01E01 Somebody's Dead 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T18:23:51.400102+00:00"
       }
     },
     "2336:1:2": {
@@ -1001185,7 +1001186,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T18:23:43.585076+00:00",
+  "updated_at": "2026-11-27T18:23:51.400113+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
