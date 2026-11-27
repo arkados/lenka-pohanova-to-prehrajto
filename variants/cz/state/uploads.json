@@ -995640,12 +995640,6 @@
     },
     "4704:3:2": {
       "episode_key": "západní křídlo:s3:e2",
-      "claim": {
-        "worker_id": "f4185c9648d34b8e895d257517bf9ada-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:35:46.555186+00:00",
-        "lease_expires_at": "2026-11-27T17:35:46.555193+00:00"
-      },
       "source": {
         "source_id": "34861955",
         "source_url": "https://sdilej.cz/34861955/zapadni-kridlo-s03e02-046-2001-hd-manchester-i.-s-.mp4",
@@ -995670,22 +995664,29 @@
         "display_name": "The West Wing S03E02 Manchester (2) 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:35:54.213096+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31465263",
-        "size_bytes": 843126678
-      },
-      "transfer_receipt": {
-        "target_video_id": "31465263",
-        "size_bytes": 843126678,
-        "source_bytes_read": 843126678,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31465263",
         "source_bytes_read": 843126678,
         "elapsed_seconds": 98.727,
         "finished_at": "2026-11-27T11:37:56.691931+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31465263",
+          "size_bytes": 843126678,
+          "source_bytes_read": 843126678,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861955",
+        "source_url": "https://sdilej.cz/34861955/zapadni-kridlo-s03e02-046-2001-hd-manchester-i.-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31465263",
+        "display_name": "The West Wing S03E02 Manchester (2) 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:38:05.118398+00:00"
       }
     }
   },
@@ -995694,7 +995695,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:37:56.691949+00:00",
+  "updated_at": "2026-11-27T11:38:05.118412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
