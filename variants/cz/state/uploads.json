@@ -982002,12 +982002,6 @@
     },
     "1461:4:12": {
       "episode_key": "closer: nové případy:s4:e12",
-      "claim": {
-        "worker_id": "8fc54e53eeaa4a84b8adec4ddc06b1c3-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T00:59:48.675334+00:00",
-        "lease_expires_at": "2026-11-27T06:59:48.675354+00:00"
-      },
       "source": {
         "source_id": "29107056",
         "source_url": "https://sdilej.cz/29107056/closer-nove-pripady-s04e12-060-2015-sd-vypadek-sd-.mp4",
@@ -982032,22 +982026,29 @@
         "display_name": "Major Crimes S04E12 Blackout SD CZ Dabing",
         "prepared_at": "2026-11-27T01:00:02.761466+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31450874",
-        "size_bytes": 382254802
-      },
-      "transfer_receipt": {
-        "target_video_id": "31450874",
-        "size_bytes": 382254802,
-        "source_bytes_read": 382254802,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31450874",
         "source_bytes_read": 382254802,
         "elapsed_seconds": 63.73,
         "finished_at": "2026-11-27T01:01:42.242367+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31450874",
+          "size_bytes": 382254802,
+          "source_bytes_read": 382254802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29107056",
+        "source_url": "https://sdilej.cz/29107056/closer-nove-pripady-s04e12-060-2015-sd-vypadek-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31450874",
+        "display_name": "Major Crimes S04E12 Blackout SD CZ Dabing",
+        "uploaded_at": "2026-11-27T01:02:03.542850+00:00"
       }
     },
     "1461:4:13": {
@@ -982143,7 +982144,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T01:01:56.531024+00:00",
+  "updated_at": "2026-11-27T01:02:03.542871+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
