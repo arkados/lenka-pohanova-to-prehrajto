@@ -987846,12 +987846,6 @@
     },
     "1967:19:3": {
       "episode_key": "vraždy v midsomeru:s19:e3",
-      "claim": {
-        "worker_id": "8794c214546b40d7b63decef4d38ad77-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:37:00.802834+00:00",
-        "lease_expires_at": "2026-11-27T10:37:00.802848+00:00"
-      },
       "source": {
         "source_id": "32411101",
         "source_url": "https://sdilej.cz/32411101/vrazdy-v-midsomeru-19x03-posledni-odpal.mkv",
@@ -987876,22 +987870,29 @@
         "display_name": "Midsomer Murders S19E03 Last Man Out 1080p CZ Dabing",
         "prepared_at": "2026-11-27T04:37:10.666631+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456229",
-        "size_bytes": 2086505279
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456229",
-        "size_bytes": 2086505279,
-        "source_bytes_read": 2086505279,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456229",
         "source_bytes_read": 2086505279,
         "elapsed_seconds": 334.46,
         "finished_at": "2026-11-27T04:43:22.307014+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456229",
+          "size_bytes": 2086505279,
+          "source_bytes_read": 2086505279,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32411101",
+        "source_url": "https://sdilej.cz/32411101/vrazdy-v-midsomeru-19x03-posledni-odpal.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456229",
+        "display_name": "Midsomer Murders S19E03 Last Man Out 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:43:31.997701+00:00"
       }
     },
     "1967:19:4": {
@@ -987974,7 +987975,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:43:22.307036+00:00",
+  "updated_at": "2026-11-27T04:43:31.997724+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
