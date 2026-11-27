@@ -981390,12 +981390,6 @@
     },
     "1461:2:19": {
       "episode_key": "closer: nové případy:s2:e19",
-      "claim": {
-        "worker_id": "c5e1fb8e25024f1bbeef496574362af4-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T00:50:39.254526+00:00",
-        "lease_expires_at": "2026-11-27T06:50:39.254555+00:00"
-      },
       "source": {
         "source_id": "29106668",
         "source_url": "https://sdilej.cz/29106668/closer-nove-pripady-s02e19-029-2014-sd-hra-s-ohnem-ii.-sd-.mp4",
@@ -981420,22 +981414,29 @@
         "display_name": "Major Crimes S02E19 Return to Sender (2) SD CZ Dabing",
         "prepared_at": "2026-11-27T00:50:53.809633+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31450516",
-        "size_bytes": 399896591
-      },
-      "transfer_receipt": {
-        "target_video_id": "31450516",
-        "size_bytes": 399896591,
-        "source_bytes_read": 399896591,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31450516",
         "source_bytes_read": 399896591,
         "elapsed_seconds": 41.096,
         "finished_at": "2026-11-27T00:52:24.559845+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31450516",
+          "size_bytes": 399896591,
+          "source_bytes_read": 399896591,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29106668",
+        "source_url": "https://sdilej.cz/29106668/closer-nove-pripady-s02e19-029-2014-sd-hra-s-ohnem-ii.-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31450516",
+        "display_name": "Major Crimes S02E19 Return to Sender (2) SD CZ Dabing",
+        "uploaded_at": "2026-11-27T00:52:41.564443+00:00"
       }
     },
     "1461:2:2": {
@@ -981517,7 +981518,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T00:52:31.137934+00:00",
+  "updated_at": "2026-11-27T00:52:41.564462+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
