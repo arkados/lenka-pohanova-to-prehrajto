@@ -986699,12 +986699,6 @@
     },
     "1967:14:1": {
       "episode_key": "vraždy v midsomeru:s14:e1",
-      "claim": {
-        "worker_id": "ed7c5233f8554bb0831c162d5df74150-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:55:29.904996+00:00",
-        "lease_expires_at": "2026-11-27T09:55:29.905008+00:00"
-      },
       "source": {
         "source_id": "27585678",
         "source_url": "https://sdilej.cz/27585678/vrazdy-v-midsomeru-s14e01-smrt-v-pomalem-pruhu-smrt-zavodnika-.mkv",
@@ -986729,22 +986723,29 @@
         "display_name": "Midsomer Murders S14E01 Death in the Slow Lane 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:55:36.706277+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455080",
-        "size_bytes": 1909335256
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455080",
-        "size_bytes": 1909335256,
-        "source_bytes_read": 1909335256,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455080",
         "source_bytes_read": 1909335256,
         "elapsed_seconds": 234.599,
         "finished_at": "2026-11-27T03:59:52.564344+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455080",
+          "size_bytes": 1909335256,
+          "source_bytes_read": 1909335256,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27585678",
+        "source_url": "https://sdilej.cz/27585678/vrazdy-v-midsomeru-s14e01-smrt-v-pomalem-pruhu-smrt-zavodnika-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455080",
+        "display_name": "Midsomer Murders S14E01 Death in the Slow Lane 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:00:06.719062+00:00"
       }
     },
     "1967:14:2": {
@@ -986827,7 +986828,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:59:58.283358+00:00",
+  "updated_at": "2026-11-27T04:00:06.719081+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
