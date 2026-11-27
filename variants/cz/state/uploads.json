@@ -986538,12 +986538,6 @@
     },
     "1967:13:6": {
       "episode_key": "vraždy v midsomeru:s13:e6",
-      "claim": {
-        "worker_id": "2ce4362426554ca6b46c951ba64900c1-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:51:47.969156+00:00",
-        "lease_expires_at": "2026-11-27T09:51:47.969170+00:00"
-      },
       "source": {
         "source_id": "27585324",
         "source_url": "https://sdilej.cz/27585324/vrazdy-v-midsomeru-s13e06-proklety-box.mkv",
@@ -986568,22 +986562,29 @@
         "display_name": "Midsomer Murders S13E06 The Noble Art 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:51:54.350991+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454960",
-        "size_bytes": 1933587074
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454960",
-        "size_bytes": 1933587074,
-        "source_bytes_read": 1933587074,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454960",
         "source_bytes_read": 1933587074,
         "elapsed_seconds": 173.65,
         "finished_at": "2026-11-27T03:55:09.886062+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454960",
+          "size_bytes": 1933587074,
+          "source_bytes_read": 1933587074,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27585324",
+        "source_url": "https://sdilej.cz/27585324/vrazdy-v-midsomeru-s13e06-proklety-box.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454960",
+        "display_name": "Midsomer Murders S13E06 The Noble Art 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:55:19.848608+00:00"
       }
     },
     "1967:13:7": {
@@ -986666,7 +986667,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:55:09.886084+00:00",
+  "updated_at": "2026-11-27T03:55:19.848626+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
