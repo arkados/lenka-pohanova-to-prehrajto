@@ -594700,24 +594700,18 @@
       },
       "attempts": [
         {
-          "at": "2026-11-27T01:30:19.571138+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-27T07:30:46.652070+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-27T13:32:30.777062+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-27T19:43:33.307612+00:00",
+          "error": "RetryError"
         }
-      ],
-      "claim": {
-        "worker_id": "88ba9ab37f654d3888468a19f70e0063-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:41:38.672153+00:00",
-        "lease_expires_at": "2026-11-28T01:41:38.672164+00:00"
-      }
+      ]
     },
     "1217:3:10": {
       "episode_key": "pustiny:s3:e10",
@@ -1003450,7 +1003444,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:43:27.444674+00:00",
+  "updated_at": "2026-11-27T19:43:33.307637+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
