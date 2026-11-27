@@ -987948,12 +987948,6 @@
     },
     "1967:19:5": {
       "episode_key": "vraždy v midsomeru:s19:e5",
-      "claim": {
-        "worker_id": "ed26e79ff857407ba1d9b678a5b54b97-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:42:39.073180+00:00",
-        "lease_expires_at": "2026-11-27T10:42:39.073195+00:00"
-      },
       "source": {
         "source_id": "28738600",
         "source_url": "https://sdilej.cz/28738600/vrazdy-v-midsomeru-s19e05-115-2018-hd-smrt-bez-rozumu-a-citu-sd-.mp4",
@@ -987978,22 +987972,29 @@
         "display_name": "Midsomer Murders S19E05 Death by Persuasion 720p CZ Dabing",
         "prepared_at": "2026-11-27T04:42:45.638763+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456392",
-        "size_bytes": 1167984964
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456392",
-        "size_bytes": 1167984964,
-        "source_bytes_read": 1167984964,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456392",
         "source_bytes_read": 1167984964,
         "elapsed_seconds": 162.388,
         "finished_at": "2026-11-27T04:45:51.257299+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456392",
+          "size_bytes": 1167984964,
+          "source_bytes_read": 1167984964,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28738600",
+        "source_url": "https://sdilej.cz/28738600/vrazdy-v-midsomeru-s19e05-115-2018-hd-smrt-bez-rozumu-a-citu-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456392",
+        "display_name": "Midsomer Murders S19E05 Death by Persuasion 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:46:00.599289+00:00"
       }
     },
     "1967:19:6": {
@@ -988077,7 +988078,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:45:51.257320+00:00",
+  "updated_at": "2026-11-27T04:46:00.599403+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
