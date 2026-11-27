@@ -1002491,12 +1002491,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "cc5e4e4c1b0b42c6bd4ad19bda9db69f-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:06:14.126891+00:00",
-        "lease_expires_at": "2026-11-28T01:06:14.126895+00:00"
-      },
       "source": {
         "source_id": "35412684",
         "source_url": "https://sdilej.cz/35412684/smrt-v-raji-06x03.mp4",
@@ -1002521,22 +1002515,29 @@
         "display_name": "Death in Paradise S06E03 The Impossible Murder 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:06:40.963733+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475152",
-        "size_bytes": 1030222905
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475152",
-        "size_bytes": 1030222905,
-        "source_bytes_read": 1030222905,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475152",
         "source_bytes_read": 1030222905,
         "elapsed_seconds": 85.974,
         "finished_at": "2026-11-27T19:08:37.785116+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475152",
+          "size_bytes": 1030222905,
+          "source_bytes_read": 1030222905,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35412684",
+        "source_url": "https://sdilej.cz/35412684/smrt-v-raji-06x03.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475152",
+        "display_name": "Death in Paradise S06E03 The Impossible Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:08:51.071817+00:00"
       }
     },
     "1783:6:7": {
@@ -1002811,7 +1002812,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:08:43.505365+00:00",
+  "updated_at": "2026-11-27T19:08:51.071831+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
