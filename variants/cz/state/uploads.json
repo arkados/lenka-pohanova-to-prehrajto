@@ -985353,12 +985353,6 @@
     },
     "1787:3:6": {
       "episode_key": "havaj 5-0:s3:e6",
-      "claim": {
-        "worker_id": "d114cba8fe5e42a7a57cc28ea8f6107d-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:05:07.401710+00:00",
-        "lease_expires_at": "2026-11-27T09:05:07.401721+00:00"
-      },
       "source": {
         "source_id": "34596775",
         "source_url": "https://sdilej.cz/34596775/havaj-5-0-s03e06-cz.mp4",
@@ -985383,22 +985377,29 @@
         "display_name": "Hawaii Five-0 S03E06 I Ka Wa Mamua (In a Time Past) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:05:27.239925+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31453721",
-        "size_bytes": 2344206520
-      },
-      "transfer_receipt": {
-        "target_video_id": "31453721",
-        "size_bytes": 2344206520,
-        "source_bytes_read": 2344206520,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31453721",
         "source_bytes_read": 2344206520,
         "elapsed_seconds": 272.139,
         "finished_at": "2026-11-27T03:10:28.530735+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31453721",
+          "size_bytes": 2344206520,
+          "source_bytes_read": 2344206520,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596775",
+        "source_url": "https://sdilej.cz/34596775/havaj-5-0-s03e06-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31453721",
+        "display_name": "Hawaii Five-0 S03E06 I Ka Wa Mamua (In a Time Past) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:10:41.249400+00:00"
       }
     },
     "1787:4:20": {
@@ -985532,7 +985533,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:10:34.166335+00:00",
+  "updated_at": "2026-11-27T03:10:41.249420+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
