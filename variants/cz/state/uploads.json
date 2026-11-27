@@ -990411,12 +990411,6 @@
     },
     "4704:2:11": {
       "episode_key": "západní křídlo:s2:e11",
-      "claim": {
-        "worker_id": "5774fe5399134f9c8e5a6502aec5ffb8-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:36:33.119690+00:00",
-        "lease_expires_at": "2026-11-27T11:36:33.119699+00:00"
-      },
       "source": {
         "source_id": "34861871",
         "source_url": "https://sdilej.cz/34861871/zapadni-kridlo-s02e11-033-2001-hd-snidane-s-opozici-s-.mp4",
@@ -990441,22 +990435,29 @@
         "display_name": "The West Wing S02E11 The Leadership Breakfast 720p CZ Dabing",
         "prepared_at": "2026-11-27T05:36:53.504673+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457598",
-        "size_bytes": 840408280
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457598",
-        "size_bytes": 840408280,
-        "source_bytes_read": 840408280,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457598",
         "source_bytes_read": 840408280,
         "elapsed_seconds": 74.027,
         "finished_at": "2026-11-27T05:38:43.330914+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457598",
+          "size_bytes": 840408280,
+          "source_bytes_read": 840408280,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861871",
+        "source_url": "https://sdilej.cz/34861871/zapadni-kridlo-s02e11-033-2001-hd-snidane-s-opozici-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457598",
+        "display_name": "The West Wing S02E11 The Leadership Breakfast 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:38:51.588824+00:00"
       }
     }
   },
@@ -990465,7 +990466,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:38:43.330939+00:00",
+  "updated_at": "2026-11-27T05:38:51.588850+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
