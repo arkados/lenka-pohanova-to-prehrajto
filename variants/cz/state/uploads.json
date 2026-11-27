@@ -985965,12 +985965,6 @@
     },
     "1967:12:1": {
       "episode_key": "vraždy v midsomeru:s12:e1",
-      "claim": {
-        "worker_id": "281f0bf5f6054151aac563ab9a4f4a99-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:29:11.434411+00:00",
-        "lease_expires_at": "2026-11-27T09:29:11.434417+00:00"
-      },
       "source": {
         "source_id": "27579420",
         "source_url": "https://sdilej.cz/27579420/vrazdy-v-midsomeru-s12e01-osudna-trinacta-jamka.mkv",
@@ -985995,22 +985989,29 @@
         "display_name": "Midsomer Murders S12E01 The Dogleg Murders 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:29:22.944706+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454334",
-        "size_bytes": 2035187667
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454334",
-        "size_bytes": 2035187667,
-        "source_bytes_read": 2035187667,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454334",
         "source_bytes_read": 2035187667,
         "elapsed_seconds": 318.981,
         "finished_at": "2026-11-27T03:35:12.771788+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454334",
+          "size_bytes": 2035187667,
+          "source_bytes_read": 2035187667,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27579420",
+        "source_url": "https://sdilej.cz/27579420/vrazdy-v-midsomeru-s12e01-osudna-trinacta-jamka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454334",
+        "display_name": "Midsomer Murders S12E01 The Dogleg Murders 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:35:25.626207+00:00"
       }
     },
     "1967:12:2": {
@@ -986107,7 +986108,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:35:20.374079+00:00",
+  "updated_at": "2026-11-27T03:35:25.626224+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
