@@ -986626,12 +986626,6 @@
     },
     "1967:13:8": {
       "episode_key": "vraždy v midsomeru:s13:e8",
-      "claim": {
-        "worker_id": "8b85b5a4e1be4e1ca5f7db2aa7be9c75-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:53:41.920045+00:00",
-        "lease_expires_at": "2026-11-27T09:53:41.920058+00:00"
-      },
       "source": {
         "source_id": "27584749",
         "source_url": "https://sdilej.cz/27584749/vrazdy-v-midsomeru-s13e08-fit-pro-vrazdu.mkv",
@@ -986656,22 +986650,29 @@
         "display_name": "Midsomer Murders S13E08 Fit for Murder 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:53:48.039154+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455022",
-        "size_bytes": 1949228488
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455022",
-        "size_bytes": 1949228488,
-        "source_bytes_read": 1949228488,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455022",
         "source_bytes_read": 1949228488,
         "elapsed_seconds": 154.739,
         "finished_at": "2026-11-27T03:56:43.543053+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455022",
+          "size_bytes": 1949228488,
+          "source_bytes_read": 1949228488,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27584749",
+        "source_url": "https://sdilej.cz/27584749/vrazdy-v-midsomeru-s13e08-fit-pro-vrazdu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455022",
+        "display_name": "Midsomer Murders S13E08 Fit for Murder 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:56:52.300005+00:00"
       }
     },
     "1967:14:1": {
@@ -986717,7 +986718,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:56:43.543075+00:00",
+  "updated_at": "2026-11-27T03:56:52.300028+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
