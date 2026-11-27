@@ -982155,12 +982155,6 @@
     },
     "1461:4:15": {
       "episode_key": "closer: nové případy:s4:e15",
-      "claim": {
-        "worker_id": "ae86952ea45f4209b231c54c6d52cbef-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T01:02:22.555474+00:00",
-        "lease_expires_at": "2026-11-27T07:02:22.555487+00:00"
-      },
       "source": {
         "source_id": "11396523",
         "source_url": "https://sdilej.cz/11396523/closer-nove-pripady-04x15-web-dl-cz.avi",
@@ -982185,22 +982179,29 @@
         "display_name": "Major Crimes S04E15 The Jumping Off Point SD CZ Dabing",
         "prepared_at": "2026-11-27T01:02:42.314701+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31450939",
-        "size_bytes": 370458798
-      },
-      "transfer_receipt": {
-        "target_video_id": "31450939",
-        "size_bytes": 370458798,
-        "source_bytes_read": 370458798,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31450939",
         "source_bytes_read": 370458798,
         "elapsed_seconds": 36.191,
         "finished_at": "2026-11-27T01:04:00.371978+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31450939",
+          "size_bytes": 370458798,
+          "source_bytes_read": 370458798,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "11396523",
+        "source_url": "https://sdilej.cz/11396523/closer-nove-pripady-04x15-web-dl-cz.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31450939",
+        "display_name": "Major Crimes S04E15 The Jumping Off Point SD CZ Dabing",
+        "uploaded_at": "2026-11-27T01:04:11.548300+00:00"
       }
     },
     "1461:4:16": {
@@ -982246,7 +982247,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T01:04:00.371998+00:00",
+  "updated_at": "2026-11-27T01:04:11.548316+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
