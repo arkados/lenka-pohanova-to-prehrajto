@@ -433014,28 +433014,22 @@
       },
       "attempts": [
         {
-          "at": "2026-11-27T00:46:55.818208+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-27T06:47:33.885514+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-27T12:50:04.110628+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-27T18:58:15.446158+00:00",
+          "error": "RetryError"
         }
       ],
       "source_repair_requested": {
         "base": "33547929:https://sdilej.cz/33547929/phineas.a.ferb.1x11.letozimka.720p.cz.batmaster.mkv",
         "at": "2026-11-27T12:50:04.110568+00:00",
         "retry_after": "2026-11-27T18:50:04.110568+00:00"
-      },
-      "claim": {
-        "worker_id": "c82856bdfc1e47e78b61cac518bfa0f8-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T18:56:20.966399+00:00",
-        "lease_expires_at": "2026-11-28T00:56:20.966402+00:00"
       }
     },
     "1021:1:1": {
@@ -1002555,7 +1002549,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T18:58:09.162196+00:00",
+  "updated_at": "2026-11-27T18:58:15.446177+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
