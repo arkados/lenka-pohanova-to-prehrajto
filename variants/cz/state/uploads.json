@@ -982498,12 +982498,6 @@
     },
     "1461:4:3": {
       "episode_key": "closer: nové případy:s4:e3",
-      "claim": {
-        "worker_id": "efd42dbfd0224f4390103652f585634b-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T01:14:49.018853+00:00",
-        "lease_expires_at": "2026-11-27T07:14:49.018870+00:00"
-      },
       "source": {
         "source_id": "31967776",
         "source_url": "https://sdilej.cz/31967776/closer-nove-pripady-s04e03-051-2015-sd-otevrena-linka-sd-.mp4",
@@ -982528,22 +982522,29 @@
         "display_name": "Major Crimes S04E03 Open Line SD CZ Dabing",
         "prepared_at": "2026-11-27T01:14:56.669024+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31451167",
-        "size_bytes": 381119136
-      },
-      "transfer_receipt": {
-        "target_video_id": "31451167",
-        "size_bytes": 381119136,
-        "source_bytes_read": 381119136,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31451167",
         "source_bytes_read": 381119136,
         "elapsed_seconds": 40.813,
         "finished_at": "2026-11-27T01:16:07.882966+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31451167",
+          "size_bytes": 381119136,
+          "source_bytes_read": 381119136,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31967776",
+        "source_url": "https://sdilej.cz/31967776/closer-nove-pripady-s04e03-051-2015-sd-otevrena-linka-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31451167",
+        "display_name": "Major Crimes S04E03 Open Line SD CZ Dabing",
+        "uploaded_at": "2026-11-27T01:16:20.236881+00:00"
       }
     }
   },
@@ -982552,7 +982553,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T01:16:07.882986+00:00",
+  "updated_at": "2026-11-27T01:16:20.236904+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
