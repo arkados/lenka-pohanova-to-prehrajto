@@ -989324,12 +989324,6 @@
     },
     "2889:4:4": {
       "episode_key": "jak funguje vesmír:s4:e4",
-      "claim": {
-        "worker_id": "ce519b56be47460c9fa771ba8532bf2e-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:16:22.881530+00:00",
-        "lease_expires_at": "2026-11-27T11:16:22.881551+00:00"
-      },
       "source": {
         "source_id": "20730517",
         "source_url": "https://sdilej.cz/20730517/jak-funguje-vesmir-s04e04-na-kraji-slunecni-soustavy.mkv",
@@ -989354,22 +989348,29 @@
         "display_name": "How the Universe Works S04E04 Edge of the Solar System 1080p CZ Dabing",
         "prepared_at": "2026-11-27T05:16:35.828992+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457117",
-        "size_bytes": 1199581372
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457117",
-        "size_bytes": 1199581372,
-        "source_bytes_read": 1199581372,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457117",
         "source_bytes_read": 1199581372,
         "elapsed_seconds": 95.706,
         "finished_at": "2026-11-27T05:18:37.405553+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457117",
+          "size_bytes": 1199581372,
+          "source_bytes_read": 1199581372,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "20730517",
+        "source_url": "https://sdilej.cz/20730517/jak-funguje-vesmir-s04e04-na-kraji-slunecni-soustavy.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457117",
+        "display_name": "How the Universe Works S04E04 Edge of the Solar System 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:18:45.813391+00:00"
       }
     }
   },
@@ -989378,7 +989379,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:18:37.405582+00:00",
+  "updated_at": "2026-11-27T05:18:45.813412+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
