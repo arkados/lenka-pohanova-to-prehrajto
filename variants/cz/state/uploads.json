@@ -1007521,12 +1007521,6 @@
     },
     "907:3:3": {
       "episode_key": "star wars: klonové války:s3:e3",
-      "claim": {
-        "worker_id": "e4e0e92df88541c8beac24b69812483d-worker-0",
-        "run_id": "46053269009",
-        "claimed_at": "2026-11-27T22:09:13.289082+00:00",
-        "lease_expires_at": "2026-11-28T04:09:13.289093+00:00"
-      },
       "source": {
         "source_id": "29363855",
         "source_url": "https://sdilej.cz/29363855/star-wars.klonove-valky.s03e03.zasobovaci-linie.hd.mkv",
@@ -1007551,22 +1007545,29 @@
         "display_name": "Star Wars: The Clone Wars S03E03 Supply Lines 1080p CZ Dabing",
         "prepared_at": "2026-11-27T22:09:43.684349+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31479276",
-        "size_bytes": 386661328
-      },
-      "transfer_receipt": {
-        "target_video_id": "31479276",
-        "size_bytes": 386661328,
-        "source_bytes_read": 386661328,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31479276",
         "source_bytes_read": 386661328,
         "elapsed_seconds": 28.589,
         "finished_at": "2026-11-27T22:10:47.226510+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31479276",
+          "size_bytes": 386661328,
+          "source_bytes_read": 386661328,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "29363855",
+        "source_url": "https://sdilej.cz/29363855/star-wars.klonove-valky.s03e03.zasobovaci-linie.hd.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31479276",
+        "display_name": "Star Wars: The Clone Wars S03E03 Supply Lines 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T22:11:14.039428+00:00"
       }
     },
     "907:3:4": {
@@ -1007621,7 +1007622,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T22:11:07.546271+00:00",
+  "updated_at": "2026-11-27T22:11:14.039441+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
