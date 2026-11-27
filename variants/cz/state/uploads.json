@@ -995260,12 +995260,6 @@
     },
     "4704:3:11": {
       "episode_key": "západní křídlo:s3:e11",
-      "claim": {
-        "worker_id": "6922b11a72a24bc4b56963932784c8d5-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:27:05.546912+00:00",
-        "lease_expires_at": "2026-11-27T17:27:05.546920+00:00"
-      },
       "source": {
         "source_id": "34862012",
         "source_url": "https://sdilej.cz/34862012/zapadni-kridlo-s03e11-055-2001-hd-vysloveni-neduvery-s-.mp4",
@@ -995290,22 +995284,29 @@
         "display_name": "The West Wing S03E11 100,000 Airplanes 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:27:12.771064+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31465091",
-        "size_bytes": 840174706
-      },
-      "transfer_receipt": {
-        "target_video_id": "31465091",
-        "size_bytes": 840174706,
-        "source_bytes_read": 840174706,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31465091",
         "source_bytes_read": 840174706,
         "elapsed_seconds": 142.838,
         "finished_at": "2026-11-27T11:29:59.573815+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31465091",
+          "size_bytes": 840174706,
+          "source_bytes_read": 840174706,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862012",
+        "source_url": "https://sdilej.cz/34862012/zapadni-kridlo-s03e11-055-2001-hd-vysloveni-neduvery-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31465091",
+        "display_name": "The West Wing S03E11 100,000 Airplanes 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:30:08.961350+00:00"
       }
     },
     "4704:3:12": {
@@ -995388,7 +995389,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:29:59.573832+00:00",
+  "updated_at": "2026-11-27T11:30:08.961364+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
