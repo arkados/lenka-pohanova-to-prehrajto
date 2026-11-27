@@ -989463,12 +989463,6 @@
     },
     "2889:4:7": {
       "episode_key": "jak funguje vesmír:s4:e7",
-      "claim": {
-        "worker_id": "5f47bc1291144939821fbd903982c4f3-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:19:10.923492+00:00",
-        "lease_expires_at": "2026-11-27T11:19:10.923509+00:00"
-      },
       "source": {
         "source_id": "30900078",
         "source_url": "https://sdilej.cz/30900078/jak-funguje-vesmir-s04e07-tajna-historie-mesice-cz-en-576p-.mkv",
@@ -989493,22 +989487,29 @@
         "display_name": "How the Universe Works S04E07 The First Oceans SD CZ Dabing",
         "prepared_at": "2026-11-27T05:19:42.485054+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457181",
-        "size_bytes": 574394270
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457181",
-        "size_bytes": 574394270,
-        "source_bytes_read": 574394270,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457181",
         "source_bytes_read": 574394270,
         "elapsed_seconds": 56.325,
         "finished_at": "2026-11-27T05:21:11.405066+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457181",
+          "size_bytes": 574394270,
+          "source_bytes_read": 574394270,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30900078",
+        "source_url": "https://sdilej.cz/30900078/jak-funguje-vesmir-s04e07-tajna-historie-mesice-cz-en-576p-.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457181",
+        "display_name": "How the Universe Works S04E07 The First Oceans SD CZ Dabing",
+        "uploaded_at": "2026-11-27T05:21:24.748313+00:00"
       }
     }
   },
@@ -989517,7 +989518,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:21:18.464350+00:00",
+  "updated_at": "2026-11-27T05:21:24.748336+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
