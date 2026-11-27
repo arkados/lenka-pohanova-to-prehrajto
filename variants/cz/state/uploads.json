@@ -983828,12 +983828,6 @@
     },
     "1787:1:15": {
       "episode_key": "havaj 5-0:s1:e15",
-      "claim": {
-        "worker_id": "23ee5ce412f2409bb0ff15202bc231ae-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T01:53:28.661772+00:00",
-        "lease_expires_at": "2026-11-27T07:53:28.661789+00:00"
-      },
       "source": {
         "source_id": "34596542",
         "source_url": "https://sdilej.cz/34596542/havaj-5-0-s01e15-cz.mp4",
@@ -983858,22 +983852,29 @@
         "display_name": "Hawaii Five-0 S01E15 Kai e‘e (Tidal Wave) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T01:54:07.667575+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31452126",
-        "size_bytes": 2196282818
-      },
-      "transfer_receipt": {
-        "target_video_id": "31452126",
-        "size_bytes": 2196282818,
-        "source_bytes_read": 2196282818,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31452126",
         "source_bytes_read": 2196282818,
         "elapsed_seconds": 207.778,
         "finished_at": "2026-11-27T01:58:19.690632+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31452126",
+          "size_bytes": 2196282818,
+          "source_bytes_read": 2196282818,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596542",
+        "source_url": "https://sdilej.cz/34596542/havaj-5-0-s01e15-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31452126",
+        "display_name": "Hawaii Five-0 S01E15 Kai e‘e (Tidal Wave) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T01:58:36.382569+00:00"
       }
     }
   },
@@ -983882,7 +983883,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T01:58:29.185195+00:00",
+  "updated_at": "2026-11-27T01:58:36.382587+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
