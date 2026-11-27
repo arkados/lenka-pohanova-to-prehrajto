@@ -988487,12 +988487,6 @@
     },
     "1967:22:5": {
       "episode_key": "vraždy v midsomeru:s22:e5",
-      "claim": {
-        "worker_id": "4555842233414d26bd8f0eb5e79a59f9-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:58:59.935223+00:00",
-        "lease_expires_at": "2026-11-27T10:58:59.935235+00:00"
-      },
       "source": {
         "source_id": "28753158",
         "source_url": "https://sdilej.cz/28753158/vrazdy-v-midsomeru-s22e05-131-2023-hd-priprava-na-smrt-sd-.mp4",
@@ -988517,22 +988511,29 @@
         "display_name": "Midsomer Murders S22E05 For Death Prepare 720p CZ Dabing",
         "prepared_at": "2026-11-27T04:59:12.913041+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31456750",
-        "size_bytes": 1162407577
-      },
-      "transfer_receipt": {
-        "target_video_id": "31456750",
-        "size_bytes": 1162407577,
-        "source_bytes_read": 1162407577,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31456750",
         "source_bytes_read": 1162407577,
         "elapsed_seconds": 177.807,
         "finished_at": "2026-11-27T05:02:39.482221+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31456750",
+          "size_bytes": 1162407577,
+          "source_bytes_read": 1162407577,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28753158",
+        "source_url": "https://sdilej.cz/28753158/vrazdy-v-midsomeru-s22e05-131-2023-hd-priprava-na-smrt-sd-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31456750",
+        "display_name": "Midsomer Murders S22E05 For Death Prepare 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:02:48.775010+00:00"
       }
     },
     "1967:7:5": {
@@ -988615,7 +988616,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:02:39.482244+00:00",
+  "updated_at": "2026-11-27T05:02:48.775032+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
