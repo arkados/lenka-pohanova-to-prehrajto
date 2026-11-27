@@ -991515,12 +991515,6 @@
     },
     "171:2:5": {
       "episode_key": "x-men '97:s2:e5",
-      "claim": {
-        "worker_id": "88fb13e6a60f48788e70899dc3c0d9b3-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T08:24:15.413997+00:00",
-        "lease_expires_at": "2026-11-27T14:24:15.414012+00:00"
-      },
       "source": {
         "source_id": "34998332",
         "source_url": "https://sdilej.cz/34998332/x-men-97-s02e05-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
@@ -991544,7 +991538,17 @@
         },
         "display_name": "X-Men '97 S02E05 Weapon X, Lies, and DVDs 1080p CZ Dabing",
         "prepared_at": "2026-11-27T08:24:22.936714+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "34998332:https://sdilej.cz/34998332/x-men-97-s02e05-1080p-10bit-webrip-6ch-x265-cz-dabing.mkv",
+        "at": "2026-11-27T08:24:37.945279+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-27T08:24:37.945319+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -991552,7 +991556,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T08:24:22.936742+00:00",
+  "updated_at": "2026-11-27T08:24:37.945324+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -992568,16 +992572,8 @@
     "171": {
       "recent_failures": [
         {
-          "identity": "171:2:2",
-          "at": "2026-11-27T08:12:51.676645+00:00"
-        },
-        {
-          "identity": "171:2:3",
-          "at": "2026-11-27T08:13:30.196942+00:00"
-        },
-        {
-          "identity": "171:2:4",
-          "at": "2026-11-27T08:14:05.147779+00:00"
+          "identity": "171:2:5",
+          "at": "2026-11-27T08:24:37.945279+00:00"
         }
       ],
       "retry_after": "2026-11-27T08:24:05.147779+00:00"
