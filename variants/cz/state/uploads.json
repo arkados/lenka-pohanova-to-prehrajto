@@ -987119,12 +987119,6 @@
     },
     "1967:15:2": {
       "episode_key": "vraždy v midsomeru:s15:e2",
-      "claim": {
-        "worker_id": "e6a6efbf80374c1eb49fe7bd8acb42a7-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T04:11:13.382440+00:00",
-        "lease_expires_at": "2026-11-27T10:11:13.382450+00:00"
-      },
       "source": {
         "source_id": "27588272",
         "source_url": "https://sdilej.cz/27588272/vrazdy-v-midsomeru-s15e02-vrazda-nevinnosti.mkv",
@@ -987149,22 +987143,29 @@
         "display_name": "Midsomer Murders S15E02 Murder of Innocence 1080p CZ Dabing",
         "prepared_at": "2026-11-27T04:11:26.243036+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31455438",
-        "size_bytes": 1942714601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31455438",
-        "size_bytes": 1942714601,
-        "source_bytes_read": 1942714601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31455438",
         "source_bytes_read": 1942714601,
         "elapsed_seconds": 223.371,
         "finished_at": "2026-11-27T04:15:41.415019+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31455438",
+          "size_bytes": 1942714601,
+          "source_bytes_read": 1942714601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27588272",
+        "source_url": "https://sdilej.cz/27588272/vrazdy-v-midsomeru-s15e02-vrazda-nevinnosti.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31455438",
+        "display_name": "Midsomer Murders S15E02 Murder of Innocence 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T04:15:53.529067+00:00"
       }
     },
     "1967:15:3": {
@@ -987261,7 +987262,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T04:15:48.235164+00:00",
+  "updated_at": "2026-11-27T04:15:53.529085+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
