@@ -1002548,12 +1002548,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "22712e7afd0743bbb8f137d6cf9c3739-worker-0",
-        "run_id": "46038211571",
-        "claimed_at": "2026-11-27T19:07:41.769515+00:00",
-        "lease_expires_at": "2026-11-28T01:07:41.769520+00:00"
-      },
       "source": {
         "source_id": "35412710",
         "source_url": "https://sdilej.cz/35412710/smrt-v-raji-06x07.mp4",
@@ -1002578,22 +1002572,29 @@
         "display_name": "Death in Paradise S06E07 In the Footsteps of a Killer 1080p CZ Dabing",
         "prepared_at": "2026-11-27T19:07:53.224902+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31475173",
-        "size_bytes": 1054309198
-      },
-      "transfer_receipt": {
-        "target_video_id": "31475173",
-        "size_bytes": 1054309198,
-        "source_bytes_read": 1054309198,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31475173",
         "source_bytes_read": 1054309198,
         "elapsed_seconds": 49.359,
         "finished_at": "2026-11-27T19:09:13.805537+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31475173",
+          "size_bytes": 1054309198,
+          "source_bytes_read": 1054309198,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35412710",
+        "source_url": "https://sdilej.cz/35412710/smrt-v-raji-06x07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31475173",
+        "display_name": "Death in Paradise S06E07 In the Footsteps of a Killer 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T19:09:26.620715+00:00"
       }
     },
     "1783:8:1": {
@@ -1002861,7 +1002862,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T19:09:20.010891+00:00",
+  "updated_at": "2026-11-27T19:09:26.620737+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
