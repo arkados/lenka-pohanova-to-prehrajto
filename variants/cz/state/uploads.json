@@ -995858,12 +995858,6 @@
     },
     "4704:3:4": {
       "episode_key": "západní křídlo:s3:e4",
-      "claim": {
-        "worker_id": "2cabbf3d92b64d5a8931cd27eb8259b2-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:42:34.202883+00:00",
-        "lease_expires_at": "2026-11-27T17:42:34.202890+00:00"
-      },
       "source": {
         "source_id": "34861968",
         "source_url": "https://sdilej.cz/34861968/zapadni-kridlo-s03e04-048-2001-hd-cesty-a-zpusoby-s-.mp4",
@@ -995888,22 +995882,29 @@
         "display_name": "The West Wing S03E04 On the Day Before 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:42:41.491882+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31465398",
-        "size_bytes": 848361845
-      },
-      "transfer_receipt": {
-        "target_video_id": "31465398",
-        "size_bytes": 848361845,
-        "source_bytes_read": 848361845,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31465398",
         "source_bytes_read": 848361845,
         "elapsed_seconds": 203.498,
         "finished_at": "2026-11-27T11:46:32.073676+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31465398",
+          "size_bytes": 848361845,
+          "source_bytes_read": 848361845,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861968",
+        "source_url": "https://sdilej.cz/34861968/zapadni-kridlo-s03e04-048-2001-hd-cesty-a-zpusoby-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31465398",
+        "display_name": "The West Wing S03E04 On the Day Before 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:46:46.233554+00:00"
       }
     },
     "4704:3:5": {
@@ -995948,7 +995949,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:46:38.527839+00:00",
+  "updated_at": "2026-11-27T11:46:46.233567+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
