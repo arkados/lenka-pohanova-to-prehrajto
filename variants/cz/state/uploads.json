@@ -986279,12 +986279,6 @@
     },
     "1967:13:1": {
       "episode_key": "vraždy v midsomeru:s13:e1",
-      "claim": {
-        "worker_id": "46d603fa87ab4c60840f9b814e0fa6bc-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T03:41:17.155322+00:00",
-        "lease_expires_at": "2026-11-27T09:41:17.155327+00:00"
-      },
       "source": {
         "source_id": "27583194",
         "source_url": "https://sdilej.cz/27583194/vrazdy-v-midsomeru-s13e01-guillaumuv-mec.mkv",
@@ -986309,22 +986303,29 @@
         "display_name": "Midsomer Murders S13E01 The Sword of Guillaume 1080p CZ Dabing",
         "prepared_at": "2026-11-27T03:41:23.176986+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31454644",
-        "size_bytes": 1944493347
-      },
-      "transfer_receipt": {
-        "target_video_id": "31454644",
-        "size_bytes": 1944493347,
-        "source_bytes_read": 1944493347,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31454644",
         "source_bytes_read": 1944493347,
         "elapsed_seconds": 262.552,
         "finished_at": "2026-11-27T03:46:12.327371+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31454644",
+          "size_bytes": 1944493347,
+          "source_bytes_read": 1944493347,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27583194",
+        "source_url": "https://sdilej.cz/27583194/vrazdy-v-midsomeru-s13e01-guillaumuv-mec.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31454644",
+        "display_name": "Midsomer Murders S13E01 The Sword of Guillaume 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T03:46:23.260334+00:00"
       }
     },
     "1967:13:2": {
@@ -986403,7 +986404,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T03:46:18.383298+00:00",
+  "updated_at": "2026-11-27T03:46:23.260349+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
