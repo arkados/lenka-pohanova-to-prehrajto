@@ -992035,12 +992035,6 @@
     },
     "2558:8:2": {
       "episode_key": "hercule poirot:s8:e2",
-      "claim": {
-        "worker_id": "d1dedb4dbd5c44d1803c74c3b1f82617-worker-0",
-        "run_id": "45949795904",
-        "claimed_at": "2026-11-27T09:03:47.983171+00:00",
-        "lease_expires_at": "2026-11-27T15:03:47.983244+00:00"
-      },
       "source": {
         "source_id": "34449573",
         "source_url": "https://sdilej.cz/34449573/hercule-poirot-s08e02-vrazda-v-mezopotamii-cz-1080p-webrip-.ts",
@@ -992065,22 +992059,29 @@
         "display_name": "Agatha Christie's Poirot S08E02 Murder in Mesopotamia 1080p CZ Dabing",
         "prepared_at": "2026-11-27T09:04:02.071690+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31461781",
-        "size_bytes": 4675268036
-      },
-      "transfer_receipt": {
-        "target_video_id": "31461781",
-        "size_bytes": 4675268036,
-        "source_bytes_read": 4675268036,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31461781",
         "source_bytes_read": 4675268036,
         "elapsed_seconds": 2069.362,
         "finished_at": "2026-11-27T09:39:03.885369+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31461781",
+          "size_bytes": 4675268036,
+          "source_bytes_read": 4675268036,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34449573",
+        "source_url": "https://sdilej.cz/34449573/hercule-poirot-s08e02-vrazda-v-mezopotamii-cz-1080p-webrip-.ts",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31461781",
+        "display_name": "Agatha Christie's Poirot S08E02 Murder in Mesopotamia 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T09:39:11.887661+00:00"
       }
     },
     "2558:9:3": {
@@ -992214,7 +992215,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T09:39:03.885387+00:00",
+  "updated_at": "2026-11-27T09:39:11.887677+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
