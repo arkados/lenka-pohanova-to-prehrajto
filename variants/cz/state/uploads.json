@@ -984285,12 +984285,6 @@
     },
     "1787:1:24": {
       "episode_key": "havaj 5-0:s1:e24",
-      "claim": {
-        "worker_id": "9b99a699f3aa4acda16fcd0309f45b9b-worker-0",
-        "run_id": "45908224634",
-        "claimed_at": "2026-11-27T02:14:57.141373+00:00",
-        "lease_expires_at": "2026-11-27T08:14:57.141387+00:00"
-      },
       "source": {
         "source_id": "34596790",
         "source_url": "https://sdilej.cz/34596790/havaj-5-0-s01e24-cz.mp4",
@@ -984315,22 +984309,29 @@
         "display_name": "Hawaii Five-0 S01E24 Oia‘i‘o (Trust) 1080p CZ Dabing",
         "prepared_at": "2026-11-27T02:15:17.231865+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31452532",
-        "size_bytes": 2247459955
-      },
-      "transfer_receipt": {
-        "target_video_id": "31452532",
-        "size_bytes": 2247459955,
-        "source_bytes_read": 2247459955,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31452532",
         "source_bytes_read": 2247459955,
         "elapsed_seconds": 250.988,
         "finished_at": "2026-11-27T02:20:01.063985+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31452532",
+          "size_bytes": 2247459955,
+          "source_bytes_read": 2247459955,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34596790",
+        "source_url": "https://sdilej.cz/34596790/havaj-5-0-s01e24-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31452532",
+        "display_name": "Hawaii Five-0 S01E24 Oia‘i‘o (Trust) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T02:20:12.698249+00:00"
       }
     }
   },
@@ -984339,7 +984340,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T02:20:01.064004+00:00",
+  "updated_at": "2026-11-27T02:20:12.698268+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
