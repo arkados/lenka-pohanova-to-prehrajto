@@ -998377,12 +998377,6 @@
     },
     "4704:6:10": {
       "episode_key": "západní křídlo:s6:e10",
-      "claim": {
-        "worker_id": "1640a5b7aa6e451780e1adfc88fe5d6f-worker-0",
-        "run_id": "46007361754",
-        "claimed_at": "2026-11-27T13:47:24.141861+00:00",
-        "lease_expires_at": "2026-11-27T19:47:24.141876+00:00"
-      },
       "source": {
         "source_id": "34862392",
         "source_url": "https://sdilej.cz/34862392/zapadni-kridlo-s06e10-121-2005-hd-program-zalozeny-na-vire-s-.mp4",
@@ -998407,22 +998401,29 @@
         "display_name": "The West Wing S06E10 Faith Based Initiative 720p CZ Dabing",
         "prepared_at": "2026-11-27T13:47:38.534726+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31468533",
-        "size_bytes": 845914090
-      },
-      "transfer_receipt": {
-        "target_video_id": "31468533",
-        "size_bytes": 845914090,
-        "source_bytes_read": 845914090,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31468533",
         "source_bytes_read": 845914090,
         "elapsed_seconds": 73.72,
         "finished_at": "2026-11-27T13:49:29.161015+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31468533",
+          "size_bytes": 845914090,
+          "source_bytes_read": 845914090,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34862392",
+        "source_url": "https://sdilej.cz/34862392/zapadni-kridlo-s06e10-121-2005-hd-program-zalozeny-na-vire-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31468533",
+        "display_name": "The West Wing S06E10 Faith Based Initiative 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T13:49:51.439897+00:00"
       }
     }
   },
@@ -998431,7 +998432,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T13:49:43.812114+00:00",
+  "updated_at": "2026-11-27T13:49:51.439913+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
