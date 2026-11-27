@@ -994899,12 +994899,6 @@
     },
     "4704:2:18": {
       "episode_key": "západní křídlo:s2:e18",
-      "claim": {
-        "worker_id": "ff3a9efd6c6342f3a831c2f10c2d7c55-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:14:32.250640+00:00",
-        "lease_expires_at": "2026-11-27T17:14:32.250648+00:00"
-      },
       "source": {
         "source_id": "34861912",
         "source_url": "https://sdilej.cz/34861912/zapadni-kridlo-s02e18-040-2001-hd-17-osob-s-.mp4",
@@ -994929,22 +994923,29 @@
         "display_name": "The West Wing S02E18 17 People 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:14:39.137139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31464803",
-        "size_bytes": 855097205
-      },
-      "transfer_receipt": {
-        "target_video_id": "31464803",
-        "size_bytes": 855097205,
-        "source_bytes_read": 855097205,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31464803",
         "source_bytes_read": 855097205,
         "elapsed_seconds": 159.058,
         "finished_at": "2026-11-27T11:17:43.841042+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31464803",
+          "size_bytes": 855097205,
+          "source_bytes_read": 855097205,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34861912",
+        "source_url": "https://sdilej.cz/34861912/zapadni-kridlo-s02e18-040-2001-hd-17-osob-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31464803",
+        "display_name": "The West Wing S02E18 17 People 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:17:58.982192+00:00"
       }
     },
     "4704:2:19": {
@@ -994962,7 +994963,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:17:52.101750+00:00",
+  "updated_at": "2026-11-27T11:17:58.982206+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
