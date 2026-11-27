@@ -989761,12 +989761,6 @@
     },
     "28:9:8": {
       "episode_key": "rick a morty:s9:e8",
-      "claim": {
-        "worker_id": "efd7aab07a2145f097d56d51bddad1d0-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:25:54.576031+00:00",
-        "lease_expires_at": "2026-11-27T11:25:54.576044+00:00"
-      },
       "source": {
         "source_id": "35329576",
         "source_url": "https://sdilej.cz/35329576/rick-a-morty-s09e08-1080p-cz.mkv",
@@ -989792,22 +989786,29 @@
         "display_name": "Rick and Morty S09E08 Rickuiem Mort a Dream 1080p CZ Dabing",
         "prepared_at": "2026-11-27T05:26:06.842713+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457341",
-        "size_bytes": 329509660
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457341",
-        "size_bytes": 329509660,
-        "source_bytes_read": 329509660,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457341",
         "source_bytes_read": 329509660,
         "elapsed_seconds": 49.492,
         "finished_at": "2026-11-27T05:27:28.409436+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457341",
+          "size_bytes": 329509660,
+          "source_bytes_read": 329509660,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35329576",
+        "source_url": "https://sdilej.cz/35329576/rick-a-morty-s09e08-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457341",
+        "display_name": "Rick and Morty S09E08 Rickuiem Mort a Dream 1080p CZ Dabing",
+        "uploaded_at": "2026-11-27T05:27:41.751723+00:00"
       }
     },
     "28:9:9": {
@@ -989890,7 +989891,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:27:34.009858+00:00",
+  "updated_at": "2026-11-27T05:27:41.751744+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
