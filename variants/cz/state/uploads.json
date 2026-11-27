@@ -994644,12 +994644,6 @@
     },
     "3401:2:7": {
       "episode_key": "soví dům:s2:e7",
-      "claim": {
-        "worker_id": "9d1b4bcc6a0546b4bcf12be1db99dd86-worker-0",
-        "run_id": "45965983271",
-        "claimed_at": "2026-11-27T11:09:17.895243+00:00",
-        "lease_expires_at": "2026-11-27T17:09:17.895251+00:00"
-      },
       "source": {
         "source_id": "25230250",
         "source_url": "https://sdilej.cz/25230250/sovi-dum-s02e07-cz.mkv",
@@ -994674,22 +994668,29 @@
         "display_name": "The Owl House S02E07 Eda's Requiem 720p CZ Dabing",
         "prepared_at": "2026-11-27T11:09:57.591246+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31464655",
-        "size_bytes": 401062737
-      },
-      "transfer_receipt": {
-        "target_video_id": "31464655",
-        "size_bytes": 401062737,
-        "source_bytes_read": 401062737,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31464655",
         "source_bytes_read": 401062737,
         "elapsed_seconds": 71.901,
         "finished_at": "2026-11-27T11:11:38.956235+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31464655",
+          "size_bytes": 401062737,
+          "source_bytes_read": 401062737,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "25230250",
+        "source_url": "https://sdilej.cz/25230250/sovi-dum-s02e07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31464655",
+        "display_name": "The Owl House S02E07 Eda's Requiem 720p CZ Dabing",
+        "uploaded_at": "2026-11-27T11:11:49.282309+00:00"
       }
     },
     "3401:2:8": {
@@ -994735,7 +994736,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T11:11:38.956252+00:00",
+  "updated_at": "2026-11-27T11:11:49.282323+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
