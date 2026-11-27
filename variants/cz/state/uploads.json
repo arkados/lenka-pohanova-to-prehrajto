@@ -989171,12 +989171,6 @@
     },
     "2889:3:4": {
       "episode_key": "jak funguje vesmír:s3:e4",
-      "claim": {
-        "worker_id": "e339d4fb49004b35a13fcd48586d9841-worker-0",
-        "run_id": "45913466130",
-        "claimed_at": "2026-11-27T05:14:14.501018+00:00",
-        "lease_expires_at": "2026-11-27T11:14:14.501029+00:00"
-      },
       "source": {
         "source_id": "28938860",
         "source_url": "https://sdilej.cz/28938860/jak-funguje-vesmir-s03e04-jak-zacal-velky-tresk-cz-dabing-angel-.mp4",
@@ -989201,22 +989195,29 @@
         "display_name": "How the Universe Works S03E04 First Second of the Big Bang SD CZ Dabing",
         "prepared_at": "2026-11-27T05:14:26.805815+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31457073",
-        "size_bytes": 450872381
-      },
-      "transfer_receipt": {
-        "target_video_id": "31457073",
-        "size_bytes": 450872381,
-        "source_bytes_read": 450872381,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31457073",
         "source_bytes_read": 450872381,
         "elapsed_seconds": 38.5,
         "finished_at": "2026-11-27T05:15:35.401087+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31457073",
+          "size_bytes": 450872381,
+          "source_bytes_read": 450872381,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28938860",
+        "source_url": "https://sdilej.cz/28938860/jak-funguje-vesmir-s03e04-jak-zacal-velky-tresk-cz-dabing-angel-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31457073",
+        "display_name": "How the Universe Works S03E04 First Second of the Big Bang SD CZ Dabing",
+        "uploaded_at": "2026-11-27T05:15:47.839364+00:00"
       }
     },
     "2889:4:2": {
@@ -989267,7 +989268,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-27T05:15:41.355801+00:00",
+  "updated_at": "2026-11-27T05:15:47.839392+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
