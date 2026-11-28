@@ -953535,28 +953535,29 @@
           "at": "2026-11-28T12:37:33.611781+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "8ac43e4941444d379f499aad886ae476-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:37:39.622484+00:00",
-        "lease_expires_at": "2026-11-28T18:37:39.622488+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500105",
-        "size_bytes": 797640573
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500105",
-        "size_bytes": 797640573,
-        "source_bytes_read": 797640573,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500105",
         "source_bytes_read": 797640573,
         "elapsed_seconds": 57.314,
         "finished_at": "2026-11-28T12:39:49.729653+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500105",
+          "size_bytes": 797640573,
+          "source_bytes_read": 797640573,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961360",
+        "source_url": "https://sdilej.cz/32961360/prezident-v-poradi-s01e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500105",
+        "display_name": "Designated Survivor S01E15 One Hundred Days 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:40:19.828182+00:00"
       }
     },
     "1864:1:16": {
@@ -1028039,7 +1028040,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:40:10.544123+00:00",
+  "updated_at": "2026-11-28T12:40:19.828197+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
