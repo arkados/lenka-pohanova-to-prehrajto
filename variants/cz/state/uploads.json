@@ -966407,28 +966407,29 @@
           "at": "2026-11-28T14:25:21.977846+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "cf3e72ee997d48248bf5ac3c3253b113-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T14:25:28.047787+00:00",
-        "lease_expires_at": "2026-11-28T20:25:28.047871+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31501357",
-        "size_bytes": 955337112
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501357",
-        "size_bytes": 955337112,
-        "source_bytes_read": 955337112,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501357",
         "source_bytes_read": 955337112,
         "elapsed_seconds": 50.342,
         "finished_at": "2026-11-28T14:27:12.870841+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501357",
+          "size_bytes": 955337112,
+          "source_bytes_read": 955337112,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961686",
+        "source_url": "https://sdilej.cz/32961686/prezident-v-poradi-s03e07.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501357",
+        "display_name": "Designated Survivor S03E07 #identity/crisis 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T14:27:27.157292+00:00"
       }
     },
     "1864:3:8": {
@@ -1030944,7 +1030945,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:27:19.744739+00:00",
+  "updated_at": "2026-11-28T14:27:27.157312+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
