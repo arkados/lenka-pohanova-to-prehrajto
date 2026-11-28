@@ -1024394,12 +1024394,6 @@
     },
     "108:7:1": {
       "episode_key": "m a s h:s7:e1",
-      "claim": {
-        "worker_id": "a250f0bfa5ab4dbf8edf5b5535cb40f4-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:00:07.108662+00:00",
-        "lease_expires_at": "2026-11-28T17:00:07.108670+00:00"
-      },
       "source": {
         "source_id": "28258278",
         "source_url": "https://sdilej.cz/28258278/mash-s07e01-148-.velitel-pierce.mkv",
@@ -1024424,22 +1024418,29 @@
         "display_name": "M*A*S*H S07E01 Commander Pierce 1080p CZ Dabing",
         "prepared_at": "2026-11-28T11:00:20.252029+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31497494",
-        "size_bytes": 156892446
-      },
-      "transfer_receipt": {
-        "target_video_id": "31497494",
-        "size_bytes": 156892446,
-        "source_bytes_read": 156892446,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31497494",
         "source_bytes_read": 156892446,
         "elapsed_seconds": 14.079,
         "finished_at": "2026-11-28T11:01:05.042444+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31497494",
+          "size_bytes": 156892446,
+          "source_bytes_read": 156892446,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258278",
+        "source_url": "https://sdilej.cz/28258278/mash-s07e01-148-.velitel-pierce.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31497494",
+        "display_name": "M*A*S*H S07E01 Commander Pierce 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T11:01:11.947663+00:00"
       }
     }
   },
@@ -1024448,7 +1024449,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:01:05.042468+00:00",
+  "updated_at": "2026-11-28T11:01:11.947682+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
