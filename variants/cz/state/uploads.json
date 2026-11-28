@@ -950317,28 +950317,29 @@
           "at": "2026-11-28T12:32:44.394015+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "eaa4559fb9894b318bedd23dc8c8cb52-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:32:51.011049+00:00",
-        "lease_expires_at": "2026-11-28T18:32:51.011057+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500031",
-        "size_bytes": 777121950
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500031",
-        "size_bytes": 777121950,
-        "source_bytes_read": 777121950,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500031",
         "source_bytes_read": 777121950,
         "elapsed_seconds": 41.137,
         "finished_at": "2026-11-28T12:34:26.011857+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500031",
+          "size_bytes": 777121950,
+          "source_bytes_read": 777121950,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961328",
+        "source_url": "https://sdilej.cz/32961328/prezident-v-poradi-s01e10.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500031",
+        "display_name": "Designated Survivor S01E10 The Oath 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:34:44.373102+00:00"
       }
     },
     "381:3:2": {
@@ -1027852,7 +1027853,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:34:37.199194+00:00",
+  "updated_at": "2026-11-28T12:34:44.373119+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
