@@ -1044403,12 +1044403,6 @@
     },
     "9717:1:1": {
       "episode_key": "gumídci:s1:e1",
-      "claim": {
-        "worker_id": "801e98e47c9d44a49ca5c51e4e4af854-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T23:11:13.554905+00:00",
-        "lease_expires_at": "2026-11-29T05:11:13.554915+00:00"
-      },
       "source": {
         "source_id": "33743192",
         "source_url": "https://sdilej.cz/33743192/gumidci-s01e01-001-1985-fhd-novy-zacatek-s-.mp4",
@@ -1044433,22 +1044427,29 @@
         "display_name": "Disney's Adventures of the Gummi Bears S01E01 A New Beginning 1080p CZ Dabing",
         "prepared_at": "2026-11-28T23:11:22.854590+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31515438",
-        "size_bytes": 482927601
-      },
-      "transfer_receipt": {
-        "target_video_id": "31515438",
-        "size_bytes": 482927601,
-        "source_bytes_read": 482927601,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31515438",
         "source_bytes_read": 482927601,
         "elapsed_seconds": 36.969,
         "finished_at": "2026-11-28T23:12:37.169148+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31515438",
+          "size_bytes": 482927601,
+          "source_bytes_read": 482927601,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33743192",
+        "source_url": "https://sdilej.cz/33743192/gumidci-s01e01-001-1985-fhd-novy-zacatek-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31515438",
+        "display_name": "Disney's Adventures of the Gummi Bears S01E01 A New Beginning 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T23:12:51.916634+00:00"
       }
     },
     "9717:1:6": {
@@ -1044527,7 +1044528,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T23:12:45.407619+00:00",
+  "updated_at": "2026-11-28T23:12:51.916650+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
