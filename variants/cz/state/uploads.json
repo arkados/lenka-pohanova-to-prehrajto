@@ -1022058,12 +1022058,6 @@
     },
     "394:2:13": {
       "episode_key": "griffinovi:s2:e13",
-      "claim": {
-        "worker_id": "7de1916f56074038a4872df87ca2670c-worker-0",
-        "run_id": "46119895061",
-        "claimed_at": "2026-11-28T10:01:58.485368+00:00",
-        "lease_expires_at": "2026-11-28T16:01:58.485383+00:00"
-      },
       "source": {
         "source_id": "31562414",
         "source_url": "https://sdilej.cz/31562414/griffinovi-s02e13-cesta-na-rhode-island-1080p-cz.mkv",
@@ -1022088,22 +1022082,29 @@
         "display_name": "Family Guy S02E13 Road to Rhode Island 1080p CZ Dabing",
         "prepared_at": "2026-11-28T10:02:06.499747+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31495911",
-        "size_bytes": 508157032
-      },
-      "transfer_receipt": {
-        "target_video_id": "31495911",
-        "size_bytes": 508157032,
-        "source_bytes_read": 508157032,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31495911",
         "source_bytes_read": 508157032,
         "elapsed_seconds": 167.987,
         "finished_at": "2026-11-28T10:05:17.141695+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31495911",
+          "size_bytes": 508157032,
+          "source_bytes_read": 508157032,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31562414",
+        "source_url": "https://sdilej.cz/31562414/griffinovi-s02e13-cesta-na-rhode-island-1080p-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31495911",
+        "display_name": "Family Guy S02E13 Road to Rhode Island 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T10:05:38.286480+00:00"
       }
     }
   },
@@ -1022112,7 +1022113,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T10:05:32.402150+00:00",
+  "updated_at": "2026-11-28T10:05:38.286497+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
