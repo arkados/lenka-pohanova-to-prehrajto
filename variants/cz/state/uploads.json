@@ -489349,15 +489349,15 @@
       },
       "attempts": [
         {
-          "at": "2026-11-28T07:33:41.934876+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-28T13:34:59.505718+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-28T19:43:15.393266+00:00",
+          "error": "RetryError"
+        },
+        {
+          "at": "2026-11-28T20:03:10.479842+00:00",
           "error": "RetryError"
         }
       ],
@@ -489365,12 +489365,6 @@
         "base": "33473094:https://sdilej.cz/33473094/wu-tang-americka-saga-s02e09-10-2021-cz-dab-krem.mkv",
         "at": "2026-11-28T13:34:59.505675+00:00",
         "retry_after": "2026-11-28T19:34:59.505675+00:00"
-      },
-      "claim": {
-        "worker_id": "edc6049b8b0145369f864815f1f4cc12-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T20:01:30.196068+00:00",
-        "lease_expires_at": "2026-11-29T02:01:30.196078+00:00"
       }
     },
     "1491:2:10": {
@@ -1040936,7 +1040930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T20:01:30.196087+00:00",
+  "updated_at": "2026-11-28T20:03:10.479861+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
