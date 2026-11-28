@@ -1044249,12 +1044249,6 @@
     },
     "1017:4:9": {
       "episode_key": "americký táta:s4:e9",
-      "claim": {
-        "worker_id": "48b0b529fbf04078bf3432877f100815-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T23:07:15.183483+00:00",
-        "lease_expires_at": "2026-11-29T05:07:15.183492+00:00"
-      },
       "source": {
         "source_id": "35082486",
         "source_url": "https://sdilej.cz/35082486/american-dad-s04e09-frannie-911.mkv",
@@ -1044279,22 +1044273,29 @@
         "display_name": "American Dad! S04E09 Frannie 911 1080p CZ Dabing",
         "prepared_at": "2026-11-28T23:07:22.770972+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31515341",
-        "size_bytes": 239787764
-      },
-      "transfer_receipt": {
-        "target_video_id": "31515341",
-        "size_bytes": 239787764,
-        "source_bytes_read": 239787764,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31515341",
         "source_bytes_read": 239787764,
         "elapsed_seconds": 24.662,
         "finished_at": "2026-11-28T23:08:33.748529+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31515341",
+          "size_bytes": 239787764,
+          "source_bytes_read": 239787764,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35082486",
+        "source_url": "https://sdilej.cz/35082486/american-dad-s04e09-frannie-911.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31515341",
+        "display_name": "American Dad! S04E09 Frannie 911 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T23:08:51.015509+00:00"
       }
     }
   },
@@ -1044303,7 +1044304,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T23:08:42.502465+00:00",
+  "updated_at": "2026-11-28T23:08:51.015526+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
