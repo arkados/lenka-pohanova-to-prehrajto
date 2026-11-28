@@ -1025825,12 +1025825,6 @@
     },
     "1098:3:23": {
       "episode_key": "jak prosté:s3:e23",
-      "claim": {
-        "worker_id": "202c0c19a1504e36af3f23fa32d0f87b-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:30:06.824805+00:00",
-        "lease_expires_at": "2026-11-28T17:30:06.824808+00:00"
-      },
       "source": {
         "source_id": "34435724",
         "source_url": "https://sdilej.cz/34435724/jak-proste-2015-s03e23-czdab.1080p-zhrouceni-vcelstev.mkv",
@@ -1025855,22 +1025849,29 @@
         "display_name": "Elementary S03E23 Absconded 1080p CZ Dabing",
         "prepared_at": "2026-11-28T11:30:13.623964+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31498273",
-        "size_bytes": 702929801
-      },
-      "transfer_receipt": {
-        "target_video_id": "31498273",
-        "size_bytes": 702929801,
-        "source_bytes_read": 702929801,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31498273",
         "source_bytes_read": 702929801,
         "elapsed_seconds": 191.05,
         "finished_at": "2026-11-28T11:33:50.368067+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31498273",
+          "size_bytes": 702929801,
+          "source_bytes_read": 702929801,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34435724",
+        "source_url": "https://sdilej.cz/34435724/jak-proste-2015-s03e23-czdab.1080p-zhrouceni-vcelstev.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31498273",
+        "display_name": "Elementary S03E23 Absconded 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T11:33:59.124378+00:00"
       }
     },
     "1098:4:8": {
@@ -1025954,7 +1025955,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:33:50.368094+00:00",
+  "updated_at": "2026-11-28T11:33:59.124398+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
