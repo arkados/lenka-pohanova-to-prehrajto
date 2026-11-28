@@ -964448,28 +964448,29 @@
           "at": "2026-11-28T14:21:52.297126+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "351db926fbf6434fa0d38583dc79e633-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T14:22:01.488941+00:00",
-        "lease_expires_at": "2026-11-28T20:22:01.488954+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31501312",
-        "size_bytes": 927127471
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501312",
-        "size_bytes": 927127471,
-        "source_bytes_read": 927127471,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501312",
         "source_bytes_read": 927127471,
         "elapsed_seconds": 58.977,
         "finished_at": "2026-11-28T14:24:22.038666+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501312",
+          "size_bytes": 927127471,
+          "source_bytes_read": 927127471,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961647",
+        "source_url": "https://sdilej.cz/32961647/prezident-v-poradi-s03e04.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501312",
+        "display_name": "Designated Survivor S03E04 #makehistory 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T14:24:40.915070+00:00"
       }
     },
     "1864:3:5": {
@@ -1030870,7 +1030871,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:24:29.377388+00:00",
+  "updated_at": "2026-11-28T14:24:40.915088+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
