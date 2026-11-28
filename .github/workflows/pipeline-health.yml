@@ -48,3 +48,23 @@ jobs:
           fi
           echo "No active upload run; resuming the continuous uploader"
           gh workflow run upload.yml --repo "$GITHUB_REPOSITORY" -f mode=continuous -f limit=3 -f workers=3 -f variant=all
+
+      - name: Resume source producers after a missed hourly start
+        if: ${{ !cancelled() }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          cutoff=$(date -u -d '1 hour ago' +%Y-%m-%dT%H:%M:%SZ)
+          for workflow in prepare.yml repair.yml; do
+            runs=$(gh run list --repo "$GITHUB_REPOSITORY" --workflow "$workflow" \
+              --branch main --limit 30 --json status,createdAt)
+            if jq -e --arg cutoff "$cutoff" \
+              'any(.[]; .status != "completed" or .createdAt >= $cutoff)' <<<"$runs" >/dev/null; then
+              echo "$workflow is active or started within the last hour"
+              continue
+            fi
+            echo "$workflow missed its hourly start; resuming"
+            gh workflow run "$workflow" --repo "$GITHUB_REPOSITORY" --ref main
+          done
