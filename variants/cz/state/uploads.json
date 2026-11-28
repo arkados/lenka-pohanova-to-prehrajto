@@ -1027239,12 +1027239,6 @@
     },
     "10477:1:3": {
       "episode_key": "neagleyová:s1:e3",
-      "claim": {
-        "worker_id": "06686a8b32c846048877a9a07d0709b4-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:22:33.558807+00:00",
-        "lease_expires_at": "2026-11-28T18:22:33.558821+00:00"
-      },
       "source": {
         "source_id": "35153599",
         "source_url": "https://sdilej.cz/35153599/neagleyova-s01e03-hammer-time.mkv",
@@ -1027269,22 +1027263,29 @@
         "display_name": "Neagley S01E03 Hammer Time 4K CZ Dabing",
         "prepared_at": "2026-11-28T12:22:41.929520+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31499837",
-        "size_bytes": 2414368770
-      },
-      "transfer_receipt": {
-        "target_video_id": "31499837",
-        "size_bytes": 2414368770,
-        "source_bytes_read": 2414368770,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31499837",
         "source_bytes_read": 2414368770,
         "elapsed_seconds": 127.79,
         "finished_at": "2026-11-28T12:25:23.874212+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31499837",
+          "size_bytes": 2414368770,
+          "source_bytes_read": 2414368770,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35153599",
+        "source_url": "https://sdilej.cz/35153599/neagleyova-s01e03-hammer-time.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31499837",
+        "display_name": "Neagley S01E03 Hammer Time 4K CZ Dabing",
+        "uploaded_at": "2026-11-28T12:25:46.931369+00:00"
       }
     },
     "1089:6:2": {
@@ -1027394,7 +1027395,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:25:41.033547+00:00",
+  "updated_at": "2026-11-28T12:25:46.931386+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
