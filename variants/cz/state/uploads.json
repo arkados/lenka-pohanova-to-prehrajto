@@ -1040133,12 +1040133,6 @@
     },
     "117:1:4": {
       "episode_key": "sandman:s1:e4",
-      "claim": {
-        "worker_id": "1710c60b167f412f9b29e425c18fb5a0-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T18:30:00.202733+00:00",
-        "lease_expires_at": "2026-11-29T00:30:00.202745+00:00"
-      },
       "source": {
         "source_id": "35385819",
         "source_url": "https://sdilej.cz/35385819/sandman-s01e04-nadeje-v-pekle-cz-dabing-2160p-uhd.mkv",
@@ -1040162,7 +1040156,18 @@
         },
         "display_name": "The Sandman S01E04 A Hope in Hell 4K CZ Dabing",
         "prepared_at": "2026-11-28T18:30:07.565908+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35385819:https://sdilej.cz/35385819/sandman-s01e04-nadeje-v-pekle-cz-dabing-2160p-uhd.mkv",
+        "at": "2026-11-28T18:30:15.178504+00:00",
+        "retry_after": "2026-11-29T00:30:15.178504+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T18:30:15.178539+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1040170,7 +1040175,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T18:30:07.565925+00:00",
+  "updated_at": "2026-11-28T18:30:15.178544+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1041235,6 +1041240,14 @@
         {
           "identity": "1405:13:14",
           "at": "2026-11-28T16:35:17.179153+00:00"
+        }
+      ]
+    },
+    "117": {
+      "recent_failures": [
+        {
+          "identity": "117:1:4",
+          "at": "2026-11-28T18:30:15.178504+00:00"
         }
       ]
     }
