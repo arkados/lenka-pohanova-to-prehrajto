@@ -963211,28 +963211,29 @@
           "at": "2026-11-28T14:10:45.021506+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "7d482a738637428f9a4800b795cc2fd2-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T14:10:50.866336+00:00",
-        "lease_expires_at": "2026-11-28T20:10:50.866345+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31501137",
-        "size_bytes": 792736096
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501137",
-        "size_bytes": 792736096,
-        "source_bytes_read": 792736096,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501137",
         "source_bytes_read": 792736096,
         "elapsed_seconds": 57.198,
         "finished_at": "2026-11-28T14:12:32.412172+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501137",
+          "size_bytes": 792736096,
+          "source_bytes_read": 792736096,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32953558",
+        "source_url": "https://sdilej.cz/32953558/prezident-v-poradi-s02e20.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501137",
+        "display_name": "Designated Survivor S02E20 Bad Reception 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T14:12:40.314212+00:00"
       }
     },
     "1864:2:21": {
@@ -1030682,7 +1030683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:12:32.412195+00:00",
+  "updated_at": "2026-11-28T14:12:40.314230+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
