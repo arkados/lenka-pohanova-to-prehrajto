@@ -1017220,12 +1017220,6 @@
     },
     "394:3:16": {
       "episode_key": "griffinovi:s3:e16",
-      "claim": {
-        "worker_id": "8f5384e8b3864211ad439a9e9a5b3bf9-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T03:40:32.766199+00:00",
-        "lease_expires_at": "2026-11-28T09:40:32.766215+00:00"
-      },
       "source": {
         "source_id": "35157229",
         "source_url": "https://sdilej.cz/35157229/griffinovi-s03e16-vanocni-silenstvi-cz.mkv",
@@ -1017250,22 +1017244,29 @@
         "display_name": "Family Guy S03E16 A Very Special Family Guy Freakin' Christmas 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:41:05.395236+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31485193",
-        "size_bytes": 1045366892
-      },
-      "transfer_receipt": {
-        "target_video_id": "31485193",
-        "size_bytes": 1045366892,
-        "source_bytes_read": 1045366892,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31485193",
         "source_bytes_read": 1045366892,
         "elapsed_seconds": 139.403,
         "finished_at": "2026-11-28T03:43:53.764411+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31485193",
+          "size_bytes": 1045366892,
+          "source_bytes_read": 1045366892,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35157229",
+        "source_url": "https://sdilej.cz/35157229/griffinovi-s03e16-vanocni-silenstvi-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31485193",
+        "display_name": "Family Guy S03E16 A Very Special Family Guy Freakin' Christmas 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:44:01.769060+00:00"
       }
     }
   },
@@ -1017274,7 +1017275,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:43:53.764431+00:00",
+  "updated_at": "2026-11-28T03:44:01.769076+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
