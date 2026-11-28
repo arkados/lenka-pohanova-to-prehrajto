@@ -1023885,12 +1023885,6 @@
     },
     "108:5:20": {
       "episode_key": "m a s h:s5:e20",
-      "claim": {
-        "worker_id": "93c01d7a81394d19bb1fa0b23117e33c-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T10:47:45.103151+00:00",
-        "lease_expires_at": "2026-11-28T16:47:45.103155+00:00"
-      },
       "source": {
         "source_id": "28258202",
         "source_url": "https://sdilej.cz/28258202/mash-s05e20-117-.zloutenka.mkv",
@@ -1023915,22 +1023909,29 @@
         "display_name": "M*A*S*H S05E20 The General's Practitioner 1080p CZ Dabing",
         "prepared_at": "2026-11-28T10:47:51.387900+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31497181",
-        "size_bytes": 137805831
-      },
-      "transfer_receipt": {
-        "target_video_id": "31497181",
-        "size_bytes": 137805831,
-        "source_bytes_read": 137805831,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31497181",
         "source_bytes_read": 137805831,
         "elapsed_seconds": 11.548,
         "finished_at": "2026-11-28T10:48:29.141883+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31497181",
+          "size_bytes": 137805831,
+          "source_bytes_read": 137805831,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258202",
+        "source_url": "https://sdilej.cz/28258202/mash-s05e20-117-.zloutenka.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31497181",
+        "display_name": "M*A*S*H S05E20 The General's Practitioner 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T10:48:56.505298+00:00"
       }
     },
     "108:5:21": {
@@ -1023972,7 +1023973,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T10:48:50.157876+00:00",
+  "updated_at": "2026-11-28T10:48:56.505314+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
