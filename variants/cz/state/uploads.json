@@ -1023325,12 +1023325,6 @@
     },
     "108:3:23": {
       "episode_key": "m a s h:s3:e23",
-      "claim": {
-        "worker_id": "8faa265827954501af61c887f3bf75f8-worker-0",
-        "run_id": "46119895061",
-        "claimed_at": "2026-11-28T10:35:04.005382+00:00",
-        "lease_expires_at": "2026-11-28T16:35:04.005400+00:00"
-      },
       "source": {
         "source_id": "28258064",
         "source_url": "https://sdilej.cz/28258064/mash-s03e23-071-.bile-zlato.mkv",
@@ -1023355,22 +1023349,29 @@
         "display_name": "M*A*S*H S03E23 White Gold 1080p CZ Dabing",
         "prepared_at": "2026-11-28T10:35:16.676987+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31496872",
-        "size_bytes": 157516132
-      },
-      "transfer_receipt": {
-        "target_video_id": "31496872",
-        "size_bytes": 157516132,
-        "source_bytes_read": 157516132,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31496872",
         "source_bytes_read": 157516132,
         "elapsed_seconds": 18.992,
         "finished_at": "2026-11-28T10:36:11.238132+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31496872",
+          "size_bytes": 157516132,
+          "source_bytes_read": 157516132,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258064",
+        "source_url": "https://sdilej.cz/28258064/mash-s03e23-071-.bile-zlato.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31496872",
+        "display_name": "M*A*S*H S03E23 White Gold 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T10:36:35.051895+00:00"
       }
     },
     "108:4:10": {
@@ -1023425,7 +1023426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T10:36:27.808722+00:00",
+  "updated_at": "2026-11-28T10:36:35.051912+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
