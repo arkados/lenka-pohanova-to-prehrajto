@@ -1020247,12 +1020247,6 @@
     },
     "394:6:5": {
       "episode_key": "griffinovi:s6:e5",
-      "claim": {
-        "worker_id": "c1bb37fc7d1048a8bc74743fda1148f4-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T04:59:29.419687+00:00",
-        "lease_expires_at": "2026-11-28T10:59:29.419695+00:00"
-      },
       "source": {
         "source_id": "28752512",
         "source_url": "https://sdilej.cz/28752512/griffinovi-s06e05-cz-en-dabing-1080p.mkv",
@@ -1020277,22 +1020271,29 @@
         "display_name": "Family Guy S06E05 Lois Kills Stewie (2) 1080p CZ Dabing",
         "prepared_at": "2026-11-28T04:59:42.347894+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31487140",
-        "size_bytes": 882514173
-      },
-      "transfer_receipt": {
-        "target_video_id": "31487140",
-        "size_bytes": 882514173,
-        "source_bytes_read": 882514173,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31487140",
         "source_bytes_read": 882514173,
         "elapsed_seconds": 108.266,
         "finished_at": "2026-11-28T05:02:12.121719+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31487140",
+          "size_bytes": 882514173,
+          "source_bytes_read": 882514173,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28752512",
+        "source_url": "https://sdilej.cz/28752512/griffinovi-s06e05-cz-en-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31487140",
+        "display_name": "Family Guy S06E05 Lois Kills Stewie (2) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T05:02:26.818091+00:00"
       }
     },
     "394:6:6": {
@@ -1020388,7 +1020389,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T05:02:18.984603+00:00",
+  "updated_at": "2026-11-28T05:02:26.818106+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
