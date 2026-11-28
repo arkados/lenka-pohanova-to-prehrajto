@@ -1035414,12 +1035414,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "a78d01457cb64e218e10e0a96d414816-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T16:15:37.807793+00:00",
-        "lease_expires_at": "2026-11-28T22:15:37.807805+00:00"
-      },
       "source": {
         "source_id": "30836508",
         "source_url": "https://sdilej.cz/30836508/namorni-vysetrovaci-sluzba-s11e03.mkv",
@@ -1035444,22 +1035438,29 @@
         "display_name": "NCIS S11E03 Under the Radar 1080p CZ Dabing",
         "prepared_at": "2026-11-28T16:15:46.550114+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31503002",
-        "size_bytes": 975230394
-      },
-      "transfer_receipt": {
-        "target_video_id": "31503002",
-        "size_bytes": 975230394,
-        "source_bytes_read": 975230394,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31503002",
         "source_bytes_read": 975230394,
         "elapsed_seconds": 138.279,
         "finished_at": "2026-11-28T16:18:35.813618+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31503002",
+          "size_bytes": 975230394,
+          "source_bytes_read": 975230394,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836508",
+        "source_url": "https://sdilej.cz/30836508/namorni-vysetrovaci-sluzba-s11e03.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31503002",
+        "display_name": "NCIS S11E03 Under the Radar 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T16:18:50.306077+00:00"
       }
     },
     "1405:11:6": {
@@ -1036067,7 +1036068,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T16:18:42.587870+00:00",
+  "updated_at": "2026-11-28T16:18:50.306099+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
