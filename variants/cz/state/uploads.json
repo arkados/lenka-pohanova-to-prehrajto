@@ -1039479,12 +1039479,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "e43e646bcc2341c99940697f76b2de2d-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T18:11:23.174166+00:00",
-        "lease_expires_at": "2026-11-29T00:11:23.174180+00:00"
-      },
       "source": {
         "source_id": "17830799",
         "source_url": "https://sdilej.cz/17830799/young-royals-s01e06-cz-dabing.mp4",
@@ -1039509,22 +1039503,29 @@
         "display_name": "Young Royals S01E06 720p CZ Dabing",
         "prepared_at": "2026-11-28T18:11:32.132106+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31506885",
-        "size_bytes": 494382981
-      },
-      "transfer_receipt": {
-        "target_video_id": "31506885",
-        "size_bytes": 494382981,
-        "source_bytes_read": 494382981,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31506885",
         "source_bytes_read": 494382981,
         "elapsed_seconds": 411.322,
         "finished_at": "2026-11-28T18:19:10.930338+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31506885",
+          "size_bytes": 494382981,
+          "source_bytes_read": 494382981,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "17830799",
+        "source_url": "https://sdilej.cz/17830799/young-royals-s01e06-cz-dabing.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31506885",
+        "display_name": "Young Royals S01E06 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T18:19:23.702127+00:00"
       }
     },
     "1320:3:9": {
@@ -1039749,7 +1039750,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T18:19:10.930359+00:00",
+  "updated_at": "2026-11-28T18:19:23.702160+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
