@@ -1026276,12 +1026276,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "ce2fc92f58cf4d22ae89ad9490086916-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:04:44.284906+00:00",
-        "lease_expires_at": "2026-11-28T18:04:44.284911+00:00"
-      },
       "source": {
         "source_id": "34860130",
         "source_url": "https://sdilej.cz/34860130/vrazdy-v-brokenwoodu-s01e04-04-2014-cz-dab-1080p-hon-na-jelena.mp4",
@@ -1026307,22 +1026301,29 @@
         "display_name": "The Brokenwood Mysteries S01E04 Hunting the Stag 1080p CZ Dabing",
         "prepared_at": "2026-11-28T12:05:11.076514+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31499344",
-        "size_bytes": 2139612866
-      },
-      "transfer_receipt": {
-        "target_video_id": "31499344",
-        "size_bytes": 2139612866,
-        "source_bytes_read": 2139612866,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31499344",
         "source_bytes_read": 2139612866,
         "elapsed_seconds": 266.665,
         "finished_at": "2026-11-28T12:10:08.968399+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31499344",
+          "size_bytes": 2139612866,
+          "source_bytes_read": 2139612866,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34860130",
+        "source_url": "https://sdilej.cz/34860130/vrazdy-v-brokenwoodu-s01e04-04-2014-cz-dab-1080p-hon-na-jelena.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31499344",
+        "display_name": "The Brokenwood Mysteries S01E04 Hunting the Stag 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:10:17.631237+00:00"
       }
     },
     "2409:1:2": {
@@ -1026649,7 +1026650,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:10:08.968419+00:00",
+  "updated_at": "2026-11-28T12:10:17.631252+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
