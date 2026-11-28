@@ -1042004,12 +1042004,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "919a9f972ecc46e6a2a1e66b2109c8b9-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T22:14:32.510453+00:00",
-        "lease_expires_at": "2026-11-29T04:14:32.510463+00:00"
-      },
       "source": {
         "source_id": "34663794",
         "source_url": "https://sdilej.cz/34663794/kominskeho-metoda-s02e03-011-2019-fhd-prichazi-podivny-par-s-.mp4",
@@ -1042034,22 +1042028,29 @@
         "display_name": "The Kominsky Method S02E03 Chapter 11. An Odd Couple Occurs 1080p CZ Dabing",
         "prepared_at": "2026-11-28T22:14:45.788313+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31514164",
-        "size_bytes": 607829757
-      },
-      "transfer_receipt": {
-        "target_video_id": "31514164",
-        "size_bytes": 607829757,
-        "source_bytes_read": 607829757,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31514164",
         "source_bytes_read": 607829757,
         "elapsed_seconds": 156.709,
         "finished_at": "2026-11-28T22:17:58.837567+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31514164",
+          "size_bytes": 607829757,
+          "source_bytes_read": 607829757,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34663794",
+        "source_url": "https://sdilej.cz/34663794/kominskeho-metoda-s02e03-011-2019-fhd-prichazi-podivny-par-s-.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31514164",
+        "display_name": "The Kominsky Method S02E03 Chapter 11. An Odd Couple Occurs 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T22:18:19.308084+00:00"
       }
     },
     "604:2:1": {
@@ -1042472,7 +1042473,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T22:18:12.617821+00:00",
+  "updated_at": "2026-11-28T22:18:19.308099+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
