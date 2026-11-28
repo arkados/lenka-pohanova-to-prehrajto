@@ -1016495,12 +1016495,6 @@
     },
     "394:22:10": {
       "episode_key": "griffinovi:s22:e10",
-      "claim": {
-        "worker_id": "1f83ae086b7a49768c483250f352c0f0-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T03:19:37.212081+00:00",
-        "lease_expires_at": "2026-11-28T09:19:37.212093+00:00"
-      },
       "source": {
         "source_id": "35324545",
         "source_url": "https://sdilej.cz/35324545/griffinovi-s22e10-dusno-na-chate.mkv",
@@ -1016525,22 +1016519,29 @@
         "display_name": "Family Guy S22E10 Cabin Pressure 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:20:10.420765+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31484828",
-        "size_bytes": 473886566
-      },
-      "transfer_receipt": {
-        "target_video_id": "31484828",
-        "size_bytes": 473886566,
-        "source_bytes_read": 473886566,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31484828",
         "source_bytes_read": 473886566,
         "elapsed_seconds": 51.121,
         "finished_at": "2026-11-28T03:21:34.639561+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31484828",
+          "size_bytes": 473886566,
+          "source_bytes_read": 473886566,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35324545",
+        "source_url": "https://sdilej.cz/35324545/griffinovi-s22e10-dusno-na-chate.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31484828",
+        "display_name": "Family Guy S22E10 Cabin Pressure 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:21:55.618454+00:00"
       }
     }
   },
@@ -1016549,7 +1016550,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:21:49.225448+00:00",
+  "updated_at": "2026-11-28T03:21:55.618471+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
