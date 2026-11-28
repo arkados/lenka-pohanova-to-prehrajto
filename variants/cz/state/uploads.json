@@ -1038817,12 +1038817,6 @@
     },
     "1405:14:7": {
       "episode_key": "námořní vyšetřovací služba:s14:e7",
-      "claim": {
-        "worker_id": "9949e50d22a643cb8b3b0c907cac2467-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T17:19:57.782871+00:00",
-        "lease_expires_at": "2026-11-28T23:19:57.782886+00:00"
-      },
       "source": {
         "source_id": "30836762",
         "source_url": "https://sdilej.cz/30836762/namorni-vysetrovaci-sluzba-s14e07.mkv",
@@ -1038847,22 +1038841,29 @@
         "display_name": "NCIS S14E07 Home of the Brave 1080p CZ Dabing",
         "prepared_at": "2026-11-28T17:20:05.783737+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31505008",
-        "size_bytes": 443711068
-      },
-      "transfer_receipt": {
-        "target_video_id": "31505008",
-        "size_bytes": 443711068,
-        "source_bytes_read": 443711068,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31505008",
         "source_bytes_read": 443711068,
         "elapsed_seconds": 72.788,
         "finished_at": "2026-11-28T17:21:53.804958+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31505008",
+          "size_bytes": 443711068,
+          "source_bytes_read": 443711068,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836762",
+        "source_url": "https://sdilej.cz/30836762/namorni-vysetrovaci-sluzba-s14e07.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31505008",
+        "display_name": "NCIS S14E07 Home of the Brave 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T17:22:07.416027+00:00"
       }
     }
   },
@@ -1038871,7 +1038872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T17:22:01.394981+00:00",
+  "updated_at": "2026-11-28T17:22:07.416048+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
