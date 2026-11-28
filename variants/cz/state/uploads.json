@@ -1017656,12 +1017656,6 @@
     },
     "394:4:11": {
       "episode_key": "griffinovi:s4:e11",
-      "claim": {
-        "worker_id": "8a056b9e1ded40538024c2498311c8dc-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T03:51:03.759283+00:00",
-        "lease_expires_at": "2026-11-28T09:51:03.759302+00:00"
-      },
       "source": {
         "source_id": "35171968",
         "source_url": "https://sdilej.cz/35171968/griffinovi-s04e11-pratelstvi-nade-vse-cz.mkv",
@@ -1017686,22 +1017680,29 @@
         "display_name": "Family Guy S04E11 Peter's Got Woods 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:51:12.887994+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31485374",
-        "size_bytes": 862216644
-      },
-      "transfer_receipt": {
-        "target_video_id": "31485374",
-        "size_bytes": 862216644,
-        "source_bytes_read": 862216644,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31485374",
         "source_bytes_read": 862216644,
         "elapsed_seconds": 171.92,
         "finished_at": "2026-11-28T03:54:43.225653+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31485374",
+          "size_bytes": 862216644,
+          "source_bytes_read": 862216644,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35171968",
+        "source_url": "https://sdilej.cz/35171968/griffinovi-s04e11-pratelstvi-nade-vse-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31485374",
+        "display_name": "Family Guy S04E11 Peter's Got Woods 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:54:56.874059+00:00"
       }
     },
     "394:4:12": {
@@ -1017834,7 +1017835,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:54:49.867255+00:00",
+  "updated_at": "2026-11-28T03:54:56.874074+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
