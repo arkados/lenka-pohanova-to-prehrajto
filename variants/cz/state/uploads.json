@@ -1041820,12 +1041820,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "6921eb7b708d4907ae3d073f6fea87d2-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T22:09:44.956871+00:00",
-        "lease_expires_at": "2026-11-29T04:09:44.956881+00:00"
-      },
       "source": {
         "source_id": "27646564",
         "source_url": "https://sdilej.cz/27646564/policajti-z-l.-a.-s03e05-cz.mkv",
@@ -1041850,22 +1041844,29 @@
         "display_name": "Southland S03E05 The Winds 1080p CZ Dabing",
         "prepared_at": "2026-11-28T22:10:06.487438+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31514058",
-        "size_bytes": 734182161
-      },
-      "transfer_receipt": {
-        "target_video_id": "31514058",
-        "size_bytes": 734182161,
-        "source_bytes_read": 734182161,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31514058",
         "source_bytes_read": 734182161,
         "elapsed_seconds": 52.759,
         "finished_at": "2026-11-28T22:11:32.236587+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31514058",
+          "size_bytes": 734182161,
+          "source_bytes_read": 734182161,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "27646564",
+        "source_url": "https://sdilej.cz/27646564/policajti-z-l.-a.-s03e05-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31514058",
+        "display_name": "Southland S03E05 The Winds 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T22:11:42.958038+00:00"
       }
     },
     "2413:3:7": {
@@ -1042140,7 +1042141,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T22:11:32.236608+00:00",
+  "updated_at": "2026-11-28T22:11:42.958055+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
