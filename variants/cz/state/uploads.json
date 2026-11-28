@@ -1016176,12 +1016176,6 @@
     },
     "394:21:4": {
       "episode_key": "griffinovi:s21:e4",
-      "claim": {
-        "worker_id": "ec441b9be70842a0bcfde410d5409499-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T03:14:06.706360+00:00",
-        "lease_expires_at": "2026-11-28T09:14:06.706367+00:00"
-      },
       "source": {
         "source_id": "32700571",
         "source_url": "https://sdilej.cz/32700571/family-guy-s21e04-cz-dabing.mkv",
@@ -1016205,7 +1016199,18 @@
         },
         "display_name": "Family Guy S21E04 The Munchurian Candidate 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:14:32.761292+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32700571:https://sdilej.cz/32700571/family-guy-s21e04-cz-dabing.mkv",
+        "at": "2026-11-28T03:14:47.259674+00:00",
+        "retry_after": "2026-11-28T09:14:47.259674+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T03:14:47.259716+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1016213,7 +1016218,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:14:39.814993+00:00",
+  "updated_at": "2026-11-28T03:14:47.259720+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1017274,8 +1017279,8 @@
     "394": {
       "recent_failures": [
         {
-          "identity": "394:21:12",
-          "at": "2026-11-28T03:08:00.188966+00:00"
+          "identity": "394:21:4",
+          "at": "2026-11-28T03:14:47.259674+00:00"
         }
       ]
     }
