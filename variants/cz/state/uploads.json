@@ -1035088,12 +1035088,6 @@
     },
     "1405:11:6": {
       "episode_key": "námořní vyšetřovací služba:s11:e6",
-      "claim": {
-        "worker_id": "e7fd47a6898942d1b0ab0b9bf936dc77-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T16:02:39.400243+00:00",
-        "lease_expires_at": "2026-11-28T22:02:39.400266+00:00"
-      },
       "source": {
         "source_id": "32703312",
         "source_url": "https://sdilej.cz/32703312/namorni-vysetrovaci-sluzba-ncis-s11e06-cz-dabing.avi",
@@ -1035117,7 +1035111,18 @@
         },
         "display_name": "NCIS S11E06 Oil & Water 720p CZ Dabing",
         "prepared_at": "2026-11-28T16:03:04.778795+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32703312:https://sdilej.cz/32703312/namorni-vysetrovaci-sluzba-ncis-s11e06-cz-dabing.avi",
+        "at": "2026-11-28T16:03:25.389707+00:00",
+        "retry_after": "2026-11-28T22:03:25.389707+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T16:03:25.389751+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1405:11:7": {
       "episode_key": "námořní vyšetřovací služba:s11:e7",
@@ -1035143,7 +1035148,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T16:03:19.277283+00:00",
+  "updated_at": "2026-11-28T16:03:25.389757+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1036210,6 +1036215,14 @@
         }
       ],
       "retry_after": "2026-11-28T05:37:56.669883+00:00"
+    },
+    "1405": {
+      "recent_failures": [
+        {
+          "identity": "1405:11:6",
+          "at": "2026-11-28T16:03:25.389707+00:00"
+        }
+      ]
     }
   }
 }
