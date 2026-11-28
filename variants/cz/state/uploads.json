@@ -1026662,12 +1026662,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "949cf4ba1b82476599d972a3a2680f6e-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:12:35.039849+00:00",
-        "lease_expires_at": "2026-11-28T18:12:35.039853+00:00"
-      },
       "source": {
         "source_id": "6147332",
         "source_url": "https://sdilej.cz/6147332/tyrant-s01e02.mkv",
@@ -1026692,22 +1026686,29 @@
         "display_name": "Tyrant S01E02 State of Emergency 1080p CZ Dabing",
         "prepared_at": "2026-11-28T12:12:41.789327+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31499560",
-        "size_bytes": 1816097750
-      },
-      "transfer_receipt": {
-        "target_video_id": "31499560",
-        "size_bytes": 1816097750,
-        "source_bytes_read": 1816097750,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31499560",
         "source_bytes_read": 1816097750,
         "elapsed_seconds": 285.675,
         "finished_at": "2026-11-28T12:17:49.744808+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31499560",
+          "size_bytes": 1816097750,
+          "source_bytes_read": 1816097750,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "6147332",
+        "source_url": "https://sdilej.cz/6147332/tyrant-s01e02.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31499560",
+        "display_name": "Tyrant S01E02 State of Emergency 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:18:02.704767+00:00"
       }
     },
     "643:2:2": {
@@ -1026936,7 +1026937,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:17:49.744822+00:00",
+  "updated_at": "2026-11-28T12:18:02.704784+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
