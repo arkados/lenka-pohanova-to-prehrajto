@@ -1011358,12 +1011358,6 @@
     },
     "394:8:1": {
       "episode_key": "griffinovi:s8:e1",
-      "claim": {
-        "worker_id": "5d56032b921a4b208fc034c429dbf195-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T01:24:50.793000+00:00",
-        "lease_expires_at": "2026-11-28T07:24:50.793008+00:00"
-      },
       "source": {
         "source_id": "35185010",
         "source_url": "https://sdilej.cz/35185010/griffinovi-s08e01-den-musli-cz.mkv",
@@ -1011388,22 +1011382,29 @@
         "display_name": "Family Guy S08E01 Road to the Multiverse 1080p CZ Dabing",
         "prepared_at": "2026-11-28T01:25:19.496760+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483161",
-        "size_bytes": 650341843
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483161",
-        "size_bytes": 650341843,
-        "source_bytes_read": 650341843,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483161",
         "source_bytes_read": 650341843,
         "elapsed_seconds": 51.723,
         "finished_at": "2026-11-28T01:26:52.768747+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483161",
+          "size_bytes": 650341843,
+          "source_bytes_read": 650341843,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35185010",
+        "source_url": "https://sdilej.cz/35185010/griffinovi-s08e01-den-musli-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483161",
+        "display_name": "Family Guy S08E01 Road to the Multiverse 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T01:27:11.365194+00:00"
       }
     },
     "394:8:2": {
@@ -1011500,7 +1011501,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T01:27:05.477530+00:00",
+  "updated_at": "2026-11-28T01:27:11.365211+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
