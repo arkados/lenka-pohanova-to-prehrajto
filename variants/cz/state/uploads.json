@@ -1026305,12 +1026305,12 @@
     },
     "1163:1:4": {
       "episode_key": "tyran:s1:e4",
-      "claim": {
-        "worker_id": "d9a0e3290d2b481686a311097315af05-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:54:51.870690+00:00",
-        "lease_expires_at": "2026-11-28T17:54:51.870696+00:00"
-      }
+      "attempts": [
+        {
+          "at": "2026-11-28T11:56:47.483731+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "1163:2:3": {
       "episode_key": "tyran:s2:e3",
@@ -1026327,7 +1026327,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:56:41.904859+00:00",
+  "updated_at": "2026-11-28T11:56:47.483749+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
