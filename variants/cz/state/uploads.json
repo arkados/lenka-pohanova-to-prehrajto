@@ -1012639,12 +1012639,6 @@
     },
     "1411:19:18": {
       "episode_key": "případy detektiva murdocha:s19:e18",
-      "claim": {
-        "worker_id": "9b009ce4e59848e1b9c40e6a9468bc6f-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T02:01:06.119961+00:00",
-        "lease_expires_at": "2026-11-28T08:01:06.119969+00:00"
-      },
       "source": {
         "source_id": "35381043",
         "source_url": "https://sdilej.cz/35381043/pripady-detektiva-murdocha-s19e18-dalsi-cihla-ve-zdi.mkv",
@@ -1012669,22 +1012663,29 @@
         "display_name": "Murdoch Mysteries S19E18 Another Brick in the Wall 1080p CZ Dabing",
         "prepared_at": "2026-11-28T02:01:19.509860+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483592",
-        "size_bytes": 957954013
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483592",
-        "size_bytes": 957954013,
-        "source_bytes_read": 957954013,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483592",
         "source_bytes_read": 957954013,
         "elapsed_seconds": 77.594,
         "finished_at": "2026-11-28T02:03:14.409319+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483592",
+          "size_bytes": 957954013,
+          "source_bytes_read": 957954013,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35381043",
+        "source_url": "https://sdilej.cz/35381043/pripady-detektiva-murdocha-s19e18-dalsi-cihla-ve-zdi.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483592",
+        "display_name": "Murdoch Mysteries S19E18 Another Brick in the Wall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T02:03:29.241667+00:00"
       }
     }
   },
@@ -1012693,7 +1012694,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T02:03:22.435247+00:00",
+  "updated_at": "2026-11-28T02:03:29.241686+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
