@@ -343384,15 +343384,15 @@
       },
       "attempts": [
         {
-          "at": "2026-11-28T07:15:35.639613+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-28T13:16:26.777129+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-28T19:42:24.989702+00:00",
+          "error": "RetryError"
+        },
+        {
+          "at": "2026-11-28T19:59:46.782749+00:00",
           "error": "RetryError"
         }
       ],
@@ -343400,12 +343400,6 @@
         "base": "33547951:https://sdilej.cz/33547951/phineas.a.ferb.1x16.svetu.hracky.720p.cz.batmaster.mkv",
         "at": "2026-11-28T13:16:26.777088+00:00",
         "retry_after": "2026-11-28T19:16:26.777088+00:00"
-      },
-      "claim": {
-        "worker_id": "12d03864292c4d48b15fe049b0fc4c2e-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T19:57:52.704613+00:00",
-        "lease_expires_at": "2026-11-29T01:57:52.704618+00:00"
       }
     },
     "1410:1:17": {
@@ -1040936,7 +1040930,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T19:58:06.969698+00:00",
+  "updated_at": "2026-11-28T19:59:46.782765+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
