@@ -963689,28 +963689,29 @@
           "at": "2026-11-28T14:12:45.492410+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "1a50d2955c8240909cc906d586de3836-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T14:12:51.997421+00:00",
-        "lease_expires_at": "2026-11-28T20:12:51.997427+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31501170",
-        "size_bytes": 787569289
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501170",
-        "size_bytes": 787569289,
-        "source_bytes_read": 787569289,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501170",
         "source_bytes_read": 787569289,
         "elapsed_seconds": 51.983,
         "finished_at": "2026-11-28T14:14:36.279561+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501170",
+          "size_bytes": 787569289,
+          "source_bytes_read": 787569289,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961601",
+        "source_url": "https://sdilej.cz/32961601/prezident-v-poradi-s02e22.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501170",
+        "display_name": "Designated Survivor S02E22 Run 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T14:14:49.752590+00:00"
       }
     },
     "1864:3:1": {
@@ -1030741,7 +1030742,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:14:42.723212+00:00",
+  "updated_at": "2026-11-28T14:14:49.752607+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
