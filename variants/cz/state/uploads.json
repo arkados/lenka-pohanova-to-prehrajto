@@ -1039607,12 +1039607,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "76910d9a3c574cdfa817689785f5cc19-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T18:20:05.996072+00:00",
-        "lease_expires_at": "2026-11-29T00:20:05.996090+00:00"
-      },
       "source": {
         "source_id": "5744910",
         "source_url": "https://sdilej.cz/5744910/doktorka-z-dixie-s02e02-posedla.avi",
@@ -1039637,22 +1039631,29 @@
         "display_name": "Hart of Dixie S02E02 Always on My Mind SD CZ Dabing",
         "prepared_at": "2026-11-28T18:20:23.636986+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31507180",
-        "size_bytes": 357861376
-      },
-      "transfer_receipt": {
-        "target_video_id": "31507180",
-        "size_bytes": 357861376,
-        "source_bytes_read": 357861376,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31507180",
         "source_bytes_read": 357861376,
         "elapsed_seconds": 104.322,
         "finished_at": "2026-11-28T18:22:46.393801+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31507180",
+          "size_bytes": 357861376,
+          "source_bytes_read": 357861376,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "5744910",
+        "source_url": "https://sdilej.cz/5744910/doktorka-z-dixie-s02e02-posedla.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31507180",
+        "display_name": "Hart of Dixie S02E02 Always on My Mind SD CZ Dabing",
+        "uploaded_at": "2026-11-28T18:22:55.538506+00:00"
       }
     },
     "1320:2:7": {
@@ -1039893,7 +1039894,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T18:22:46.393822+00:00",
+  "updated_at": "2026-11-28T18:22:55.538523+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
