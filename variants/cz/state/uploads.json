@@ -1044096,12 +1044096,6 @@
     },
     "1017:1:4": {
       "episode_key": "americký táta:s1:e4",
-      "claim": {
-        "worker_id": "ce777b578bd0475b9cce0c5e81fd0022-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T23:05:05.425653+00:00",
-        "lease_expires_at": "2026-11-29T05:05:05.425661+00:00"
-      },
       "source": {
         "source_id": "35080089",
         "source_url": "https://sdilej.cz/35080089/american-dad-s01e04-francine-s-flashback.mkv",
@@ -1044126,22 +1044120,29 @@
         "display_name": "American Dad! S01E04 Francine's Flashback 1080p CZ Dabing",
         "prepared_at": "2026-11-28T23:05:12.563644+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31515294",
-        "size_bytes": 355022637
-      },
-      "transfer_receipt": {
-        "target_video_id": "31515294",
-        "size_bytes": 355022637,
-        "source_bytes_read": 355022637,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31515294",
         "source_bytes_read": 355022637,
         "elapsed_seconds": 35.094,
         "finished_at": "2026-11-28T23:06:33.654924+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31515294",
+          "size_bytes": 355022637,
+          "source_bytes_read": 355022637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35080089",
+        "source_url": "https://sdilej.cz/35080089/american-dad-s01e04-francine-s-flashback.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31515294",
+        "display_name": "American Dad! S01E04 Francine's Flashback 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T23:06:43.549780+00:00"
       }
     },
     "1017:4:1": {
@@ -1044224,7 +1044225,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T23:06:33.654944+00:00",
+  "updated_at": "2026-11-28T23:06:43.549798+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
