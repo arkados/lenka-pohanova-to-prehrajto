@@ -1044098,12 +1044098,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "0f6b1d0c86ad4590908d16990cb974ef-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T23:09:51.258452+00:00",
-        "lease_expires_at": "2026-11-29T05:09:51.258460+00:00"
-      },
       "source": {
         "source_id": "28216775",
         "source_url": "https://sdilej.cz/28216775/tucnaci-z-madagaskaru-s02e31-cz.mkv",
@@ -1044128,22 +1044122,29 @@
         "display_name": "The Penguins of Madagascar S02E31 The All Nighter Before Christmas 720p CZ Dabing",
         "prepared_at": "2026-11-28T23:10:20.640660+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31515416",
-        "size_bytes": 517114167
-      },
-      "transfer_receipt": {
-        "target_video_id": "31515416",
-        "size_bytes": 517114167,
-        "source_bytes_read": 517114167,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31515416",
         "source_bytes_read": 517114167,
         "elapsed_seconds": 40.074,
         "finished_at": "2026-11-28T23:11:43.332314+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31515416",
+          "size_bytes": 517114167,
+          "source_bytes_read": 517114167,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28216775",
+        "source_url": "https://sdilej.cz/28216775/tucnaci-z-madagaskaru-s02e31-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31515416",
+        "display_name": "The Penguins of Madagascar S02E31 The All Nighter Before Christmas 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T23:12:06.639782+00:00"
       }
     },
     "9684:2:36": {
@@ -1044476,7 +1044477,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T23:11:59.630054+00:00",
+  "updated_at": "2026-11-28T23:12:06.639797+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
