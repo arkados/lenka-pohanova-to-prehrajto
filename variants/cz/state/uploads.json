@@ -1015539,12 +1015539,6 @@
     },
     "394:21:1": {
       "episode_key": "griffinovi:s21:e1",
-      "claim": {
-        "worker_id": "36d0572acaab48dabe4c3bbddbeb9f7f-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T03:02:46.936725+00:00",
-        "lease_expires_at": "2026-11-28T09:02:46.936732+00:00"
-      },
       "source": {
         "source_id": "31416314",
         "source_url": "https://sdilej.cz/31416314/griffinovi-s21e01-oskari.mkv",
@@ -1015569,22 +1015563,29 @@
         "display_name": "Family Guy S21E01 Oscars Guy 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:03:00.727978+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31484590",
-        "size_bytes": 257046031
-      },
-      "transfer_receipt": {
-        "target_video_id": "31484590",
-        "size_bytes": 257046031,
-        "source_bytes_read": 257046031,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31484590",
         "source_bytes_read": 257046031,
         "elapsed_seconds": 23.678,
         "finished_at": "2026-11-28T03:04:11.265505+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31484590",
+          "size_bytes": 257046031,
+          "source_bytes_read": 257046031,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31416314",
+        "source_url": "https://sdilej.cz/31416314/griffinovi-s21e01-oskari.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31484590",
+        "display_name": "Family Guy S21E01 Oscars Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:04:27.157331+00:00"
       }
     }
   },
@@ -1015593,7 +1015594,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:04:19.342262+00:00",
+  "updated_at": "2026-11-28T03:04:27.157346+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
