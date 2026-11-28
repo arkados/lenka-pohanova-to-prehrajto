@@ -1023195,12 +1023195,6 @@
     },
     "108:3:20": {
       "episode_key": "m a s h:s3:e20",
-      "claim": {
-        "worker_id": "3c1bcbadd37f4931bf44305ff79ea9e2-worker-0",
-        "run_id": "46119895061",
-        "claimed_at": "2026-11-28T10:32:28.802834+00:00",
-        "lease_expires_at": "2026-11-28T16:32:28.802842+00:00"
-      },
       "source": {
         "source_id": "28258055",
         "source_url": "https://sdilej.cz/28258055/mash-s03e20-068-.laska-a-svatba.mkv",
@@ -1023225,22 +1023219,29 @@
         "display_name": "M*A*S*H S03E20 Love and Marriage 1080p CZ Dabing",
         "prepared_at": "2026-11-28T10:32:41.733746+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31496795",
-        "size_bytes": 152190903
-      },
-      "transfer_receipt": {
-        "target_video_id": "31496795",
-        "size_bytes": 152190903,
-        "source_bytes_read": 152190903,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31496795",
         "source_bytes_read": 152190903,
         "elapsed_seconds": 14.06,
         "finished_at": "2026-11-28T10:33:31.835937+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31496795",
+          "size_bytes": 152190903,
+          "source_bytes_read": 152190903,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258055",
+        "source_url": "https://sdilej.cz/28258055/mash-s03e20-068-.laska-a-svatba.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31496795",
+        "display_name": "M*A*S*H S03E20 Love and Marriage 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T10:33:40.839944+00:00"
       }
     }
   },
@@ -1023249,7 +1023250,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T10:33:31.835958+00:00",
+  "updated_at": "2026-11-28T10:33:40.839961+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
