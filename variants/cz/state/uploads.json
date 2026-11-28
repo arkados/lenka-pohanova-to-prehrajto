@@ -1025951,12 +1025951,6 @@
     },
     "1765:3:10": {
       "episode_key": "záchranáři l. a.:s3:e10",
-      "claim": {
-        "worker_id": "146845221db4472aa6b5eb2647a26efb-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:34:04.945697+00:00",
-        "lease_expires_at": "2026-11-28T17:34:04.945711+00:00"
-      },
       "source": {
         "source_id": "35339687",
         "source_url": "https://sdilej.cz/35339687/9-1-1-s03e10-cz-dabing.mkv",
@@ -1025980,7 +1025974,18 @@
         },
         "display_name": "9-1-1 S03E10 Christmas Spirit 720p CZ Dabing",
         "prepared_at": "2026-11-28T11:34:11.640481+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35339687:https://sdilej.cz/35339687/9-1-1-s03e10-cz-dabing.mkv",
+        "at": "2026-11-28T11:34:18.802819+00:00",
+        "retry_after": "2026-11-28T17:34:18.802819+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T11:34:18.802864+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1025988,7 +1025993,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:34:11.640502+00:00",
+  "updated_at": "2026-11-28T11:34:18.802868+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1026432,6 +1026437,10 @@
         {
           "identity": "1765:3:9",
           "at": "2026-11-28T11:33:41.727436+00:00"
+        },
+        {
+          "identity": "1765:3:10",
+          "at": "2026-11-28T11:34:18.802819+00:00"
         }
       ],
       "retry_after": "2026-11-28T08:29:50.619274+00:00"
