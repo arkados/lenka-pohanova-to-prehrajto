@@ -1019144,12 +1019144,6 @@
     },
     "394:5:12": {
       "episode_key": "griffinovi:s5:e12",
-      "claim": {
-        "worker_id": "547a35245da24c0db1c63502f4bcb61e-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T04:28:09.954205+00:00",
-        "lease_expires_at": "2026-11-28T10:28:09.954222+00:00"
-      },
       "source": {
         "source_id": "35173682",
         "source_url": "https://sdilej.cz/35173682/griffinovi-s05e12-letiste-07-cz.mkv",
@@ -1019174,22 +1019168,29 @@
         "display_name": "Family Guy S05E12 Airport '07 1080p CZ Dabing",
         "prepared_at": "2026-11-28T04:28:43.439610+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31486230",
-        "size_bytes": 999726625
-      },
-      "transfer_receipt": {
-        "target_video_id": "31486230",
-        "size_bytes": 999726625,
-        "source_bytes_read": 999726625,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31486230",
         "source_bytes_read": 999726625,
         "elapsed_seconds": 78.0,
         "finished_at": "2026-11-28T04:30:32.430913+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31486230",
+          "size_bytes": 999726625,
+          "source_bytes_read": 999726625,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35173682",
+        "source_url": "https://sdilej.cz/35173682/griffinovi-s05e12-letiste-07-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31486230",
+        "display_name": "Family Guy S05E12 Airport '07 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T04:30:42.842932+00:00"
       }
     }
   },
@@ -1019198,7 +1019199,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T04:30:32.430933+00:00",
+  "updated_at": "2026-11-28T04:30:42.842949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
