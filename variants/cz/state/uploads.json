@@ -961342,28 +961342,29 @@
           "at": "2026-11-28T13:01:01.059852+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "48423ee505e14686a3a661456469dc33-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T13:01:10.711767+00:00",
-        "lease_expires_at": "2026-11-28T19:01:10.711770+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500363",
-        "size_bytes": 788851836
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500363",
-        "size_bytes": 788851836,
-        "source_bytes_read": 788851836,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500363",
         "source_bytes_read": 788851836,
         "elapsed_seconds": 53.329,
         "finished_at": "2026-11-28T13:02:55.796193+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500363",
+          "size_bytes": 788851836,
+          "source_bytes_read": 788851836,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961478",
+        "source_url": "https://sdilej.cz/32961478/prezident-v-poradi-s02e08.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500363",
+        "display_name": "Designated Survivor S02E08 Home 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T13:03:14.788638+00:00"
       }
     },
     "1864:2:9": {
@@ -1028914,7 +1028915,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T13:03:09.019337+00:00",
+  "updated_at": "2026-11-28T13:03:14.788658+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
