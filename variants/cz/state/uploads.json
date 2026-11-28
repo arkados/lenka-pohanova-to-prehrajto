@@ -1040689,12 +1040689,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "d072935e9f8d4f17bef7c8986c3bf71f-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T20:04:54.879602+00:00",
-        "lease_expires_at": "2026-11-29T02:04:54.879619+00:00"
-      },
       "source": {
         "source_id": "35210357",
         "source_url": "https://sdilej.cz/35210357/griffinovi-s11e12-den-svateho-valentyna-cz.mkv",
@@ -1040719,22 +1040713,29 @@
         "display_name": "Family Guy S11E12 Valentine's Day in Quahog 1080p CZ Dabing",
         "prepared_at": "2026-11-28T20:05:23.368674+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31510720",
-        "size_bytes": 993203802
-      },
-      "transfer_receipt": {
-        "target_video_id": "31510720",
-        "size_bytes": 993203802,
-        "source_bytes_read": 993203802,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31510720",
         "source_bytes_read": 993203802,
         "elapsed_seconds": 297.835,
         "finished_at": "2026-11-28T20:11:02.238598+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31510720",
+          "size_bytes": 993203802,
+          "source_bytes_read": 993203802,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35210357",
+        "source_url": "https://sdilej.cz/35210357/griffinovi-s11e12-den-svateho-valentyna-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31510720",
+        "display_name": "Family Guy S11E12 Valentine's Day in Quahog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T20:11:10.637257+00:00"
       }
     },
     "394:11:11": {
@@ -1041081,7 +1041082,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T20:11:02.238617+00:00",
+  "updated_at": "2026-11-28T20:11:10.637273+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
