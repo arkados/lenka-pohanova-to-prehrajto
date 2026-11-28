@@ -963066,16 +963066,16 @@
       },
       "attempts": [
         {
-          "at": "2026-11-27T22:29:28.305148+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-28T04:38:56.938706+00:00",
           "error": "SourceUnavailable"
         },
         {
           "at": "2026-11-28T13:06:12.960265+00:00",
           "error": "SourceUnavailable"
+        },
+        {
+          "at": "2026-11-28T13:52:45.645889+00:00",
+          "error": "RetryError"
         }
       ],
       "source_retry_reset_at": "2026-11-28T13:50:44.906809+00:00",
@@ -963087,13 +963087,7 @@
           "replacement": "32953553:https://sdilej.cz/32953553/prezident-v-poradi-s02e19.mp4",
           "at": "2026-11-28T13:50:44.906809+00:00"
         }
-      ],
-      "claim": {
-        "worker_id": "b61c615ff7d94faf9d81b3671679ee1c-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T13:50:50.401064+00:00",
-        "lease_expires_at": "2026-11-28T19:50:50.401073+00:00"
-      }
+      ]
     },
     "1864:2:20": {
       "episode_key": "prezident v pořadí:s2:e20",
@@ -1030581,7 +1030575,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T13:52:40.278641+00:00",
+  "updated_at": "2026-11-28T13:52:45.645908+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
