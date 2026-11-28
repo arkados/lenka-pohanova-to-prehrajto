@@ -1015387,12 +1015387,6 @@
     },
     "394:20:5": {
       "episode_key": "griffinovi:s20:e5",
-      "claim": {
-        "worker_id": "415d0d8279464a7aa20562d1d3ae739b-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T03:00:54.755834+00:00",
-        "lease_expires_at": "2026-11-28T09:00:54.755841+00:00"
-      },
       "source": {
         "source_id": "31416160",
         "source_url": "https://sdilej.cz/31416160/griffinovi-s20e05-slipari.mkv",
@@ -1015417,22 +1015411,29 @@
         "display_name": "Family Guy S20E05 Brief Encounter 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:01:12.738877+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31484561",
-        "size_bytes": 250254034
-      },
-      "transfer_receipt": {
-        "target_video_id": "31484561",
-        "size_bytes": 250254034,
-        "source_bytes_read": 250254034,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31484561",
         "source_bytes_read": 250254034,
         "elapsed_seconds": 15.323,
         "finished_at": "2026-11-28T03:02:03.327908+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31484561",
+          "size_bytes": 250254034,
+          "source_bytes_read": 250254034,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31416160",
+        "source_url": "https://sdilej.cz/31416160/griffinovi-s20e05-slipari.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31484561",
+        "display_name": "Family Guy S20E05 Brief Encounter 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:02:23.199383+00:00"
       }
     }
   },
@@ -1015441,7 +1015442,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:02:15.916510+00:00",
+  "updated_at": "2026-11-28T03:02:23.199399+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
