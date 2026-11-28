@@ -344141,15 +344141,15 @@
       },
       "attempts": [
         {
-          "at": "2026-11-28T12:46:59.320953+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-28T19:42:55.739475+00:00",
           "error": "RetryError"
         },
         {
           "at": "2026-11-28T20:03:24.428893+00:00",
+          "error": "RetryError"
+        },
+        {
+          "at": "2026-11-28T20:43:35.169937+00:00",
           "error": "RetryError"
         }
       ],
@@ -344157,12 +344157,6 @@
         "base": "33547975:https://sdilej.cz/33547975/phineas.a.ferb.1x18.bahenni-.bahenni-.bahenni-.bahenni.svet.720p.cz.batmaster.mkv",
         "at": "2026-11-28T12:46:59.320924+00:00",
         "retry_after": "2026-11-28T18:46:59.320924+00:00"
-      },
-      "claim": {
-        "worker_id": "6274047cf5cb4b65b303dda67979b501-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T20:41:36.480848+00:00",
-        "lease_expires_at": "2026-11-29T02:41:36.480854+00:00"
       }
     },
     "1410:1:31": {
@@ -1041369,7 +1041363,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T20:43:28.952015+00:00",
+  "updated_at": "2026-11-28T20:43:35.169957+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
