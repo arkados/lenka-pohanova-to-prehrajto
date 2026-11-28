@@ -1040315,12 +1040315,6 @@
     },
     "1198:12:11": {
       "episode_key": "chirurgové:s12:e11",
-      "claim": {
-        "worker_id": "6af566b510c74cb2ad88c81602370b9a-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T18:36:38.806477+00:00",
-        "lease_expires_at": "2026-11-29T00:36:38.806484+00:00"
-      },
       "source": {
         "source_id": "27699293",
         "source_url": "https://sdilej.cz/27699293/chirurgove-s12e11-cz.mkv",
@@ -1040361,7 +1040355,13 @@
         "elapsed_seconds": 270.785,
         "finished_at": "2026-11-28T18:41:41.627360+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T18:43:14.304373+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -1040369,7 +1040369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T18:42:19.971739+00:00",
+  "updated_at": "2026-11-28T18:43:14.304392+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
