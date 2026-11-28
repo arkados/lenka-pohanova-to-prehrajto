@@ -343338,15 +343338,15 @@
       },
       "attempts": [
         {
-          "at": "2026-11-28T12:47:05.089911+00:00",
-          "error": "SourceUnavailable"
-        },
-        {
           "at": "2026-11-28T19:39:16.004266+00:00",
           "error": "RetryError"
         },
         {
           "at": "2026-11-28T19:56:27.023722+00:00",
+          "error": "RetryError"
+        },
+        {
+          "at": "2026-11-28T20:43:28.951996+00:00",
           "error": "RetryError"
         }
       ],
@@ -343354,12 +343354,6 @@
         "base": "33547941:https://sdilej.cz/33547941/phineas.a.ferb.1x14.a.prijizdi.betty.720p.cz.batmaster.mkv",
         "at": "2026-11-28T12:47:05.089720+00:00",
         "retry_after": "2026-11-28T18:47:05.089720+00:00"
-      },
-      "claim": {
-        "worker_id": "fd624579025c485bbecf21dcf928be86-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T20:41:42.961877+00:00",
-        "lease_expires_at": "2026-11-29T02:41:42.961885+00:00"
       }
     },
     "1410:1:16": {
@@ -1041375,7 +1041369,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T20:41:49.276627+00:00",
+  "updated_at": "2026-11-28T20:43:28.952015+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
