@@ -1017401,12 +1017401,6 @@
     },
     "394:3:20": {
       "episode_key": "griffinovi:s3:e20",
-      "claim": {
-        "worker_id": "6a23bb07a30d4386b6ee962b7ccb111f-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T03:46:11.010270+00:00",
-        "lease_expires_at": "2026-11-28T09:46:11.010280+00:00"
-      },
       "source": {
         "source_id": "35158257",
         "source_url": "https://sdilej.cz/35158257/griffinovi-s03e20-cesta-do-evropy-cz.mkv",
@@ -1017431,22 +1017425,29 @@
         "display_name": "Family Guy S03E20 Road to Europe 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:46:30.080208+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31485273",
-        "size_bytes": 972937243
-      },
-      "transfer_receipt": {
-        "target_video_id": "31485273",
-        "size_bytes": 972937243,
-        "source_bytes_read": 972937243,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31485273",
         "source_bytes_read": 972937243,
         "elapsed_seconds": 152.611,
         "finished_at": "2026-11-28T03:49:37.373933+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31485273",
+          "size_bytes": 972937243,
+          "source_bytes_read": 972937243,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35158257",
+        "source_url": "https://sdilej.cz/35158257/griffinovi-s03e20-cesta-do-evropy-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31485273",
+        "display_name": "Family Guy S03E20 Road to Europe 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:49:52.209424+00:00"
       }
     },
     "394:3:21": {
@@ -1017579,7 +1017580,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:49:44.019934+00:00",
+  "updated_at": "2026-11-28T03:49:52.209439+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
