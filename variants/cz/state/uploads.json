@@ -1021332,12 +1021332,6 @@
     },
     "617:4:6": {
       "episode_key": "star trek: podivné nové světy:s4:e6",
-      "claim": {
-        "worker_id": "de8a9a7a79734ce1aacfa17eb22f6b64-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T05:27:00.405016+00:00",
-        "lease_expires_at": "2026-11-28T11:27:00.405026+00:00"
-      },
       "source": {
         "source_id": "35284339",
         "source_url": "https://sdilej.cz/35284339/star-trek-podivne-nove-svety-s04e06-cz-dabing-2160p.mkv",
@@ -1021361,7 +1021355,18 @@
         },
         "display_name": "Star Trek: Strange New Worlds S04E06 Off-Hour 4K CZ Dabing",
         "prepared_at": "2026-11-28T05:27:08.478072+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35284339:https://sdilej.cz/35284339/star-trek-podivne-nove-svety-s04e06-cz-dabing-2160p.mkv",
+        "at": "2026-11-28T05:27:16.304466+00:00",
+        "retry_after": "2026-11-28T11:27:16.304466+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T05:27:16.304504+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1021369,7 +1021374,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T05:27:08.478089+00:00",
+  "updated_at": "2026-11-28T05:27:16.304510+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1022440,6 +1022445,10 @@
         {
           "identity": "617:4:10",
           "at": "2026-11-28T05:26:49.382789+00:00"
+        },
+        {
+          "identity": "617:4:6",
+          "at": "2026-11-28T05:27:16.304466+00:00"
         }
       ]
     }
