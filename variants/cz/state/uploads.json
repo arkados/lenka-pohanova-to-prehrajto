@@ -950927,28 +950927,29 @@
           "at": "2026-11-28T12:35:06.054468+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "104947dd814149739053c07f94a381db-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:35:11.503684+00:00",
-        "lease_expires_at": "2026-11-28T18:35:11.503688+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500066",
-        "size_bytes": 783728857
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500066",
-        "size_bytes": 783728857,
-        "source_bytes_read": 783728857,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500066",
         "source_bytes_read": 783728857,
         "elapsed_seconds": 41.78,
         "finished_at": "2026-11-28T12:37:03.900088+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500066",
+          "size_bytes": 783728857,
+          "source_bytes_read": 783728857,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961339",
+        "source_url": "https://sdilej.cz/32961339/prezident-v-poradi-s01e12.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500066",
+        "display_name": "Designated Survivor S01E12 The End of the Beginning 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:37:17.903750+00:00"
       }
     },
     "1864:1:13": {
@@ -1027940,7 +1027941,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:37:11.124087+00:00",
+  "updated_at": "2026-11-28T12:37:17.903767+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
