@@ -1013347,12 +1013347,6 @@
     },
     "394:14:1": {
       "episode_key": "griffinovi:s14:e1",
-      "claim": {
-        "worker_id": "6688b448d463400ea02d3571f1d23d18-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T02:23:51.793775+00:00",
-        "lease_expires_at": "2026-11-28T08:23:51.793784+00:00"
-      },
       "source": {
         "source_id": "35271663",
         "source_url": "https://sdilej.cz/35271663/griffinovi-s14e01-pilulomanie-cz.mkv",
@@ -1013377,22 +1013371,29 @@
         "display_name": "Family Guy S14E01 Pilling Them Softly 1080p CZ Dabing",
         "prepared_at": "2026-11-28T02:23:58.878697+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483978",
-        "size_bytes": 814082114
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483978",
-        "size_bytes": 814082114,
-        "source_bytes_read": 814082114,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483978",
         "source_bytes_read": 814082114,
         "elapsed_seconds": 82.661,
         "finished_at": "2026-11-28T02:25:49.643838+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483978",
+          "size_bytes": 814082114,
+          "source_bytes_read": 814082114,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35271663",
+        "source_url": "https://sdilej.cz/35271663/griffinovi-s14e01-pilulomanie-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483978",
+        "display_name": "Family Guy S14E01 Pilling Them Softly 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T02:26:08.738286+00:00"
       }
     },
     "394:15:6": {
@@ -1013410,7 +1013411,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T02:26:01.566504+00:00",
+  "updated_at": "2026-11-28T02:26:08.738302+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
