@@ -1025491,12 +1025491,6 @@
     },
     "108:11:10": {
       "episode_key": "m a s h:s11:e10",
-      "claim": {
-        "worker_id": "fdbc913f5570412588e8bd4ec4671c00-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:17:34.760485+00:00",
-        "lease_expires_at": "2026-11-28T17:17:34.760493+00:00"
-      },
       "source": {
         "source_id": "28258597",
         "source_url": "https://sdilej.cz/28258597/mash-s11e10-250-.osn-noc-a-hudba.mkv",
@@ -1025521,22 +1025515,29 @@
         "display_name": "M*A*S*H S11E10 U.N., the Night and the Music 1080p CZ Dabing",
         "prepared_at": "2026-11-28T11:17:41.369723+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31497941",
-        "size_bytes": 139074063
-      },
-      "transfer_receipt": {
-        "target_video_id": "31497941",
-        "size_bytes": 139074063,
-        "source_bytes_read": 139074063,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31497941",
         "source_bytes_read": 139074063,
         "elapsed_seconds": 11.858,
         "finished_at": "2026-11-28T11:18:14.988676+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31497941",
+          "size_bytes": 139074063,
+          "source_bytes_read": 139074063,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28258597",
+        "source_url": "https://sdilej.cz/28258597/mash-s11e10-250-.osn-noc-a-hudba.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31497941",
+        "display_name": "M*A*S*H S11E10 U.N., the Night and the Music 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T11:18:23.311205+00:00"
       }
     }
   },
@@ -1025545,7 +1025546,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:18:14.988696+00:00",
+  "updated_at": "2026-11-28T11:18:23.311223+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
