@@ -1011460,12 +1011460,6 @@
     },
     "394:8:4": {
       "episode_key": "griffinovi:s8:e4",
-      "claim": {
-        "worker_id": "9c88882f3ad241ce836a0cfae0641f1a-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T01:26:24.355251+00:00",
-        "lease_expires_at": "2026-11-28T07:26:24.355265+00:00"
-      },
       "source": {
         "source_id": "35185056",
         "source_url": "https://sdilej.cz/35185056/griffinovi-s08e04-brianova-nova-baba-cz.mkv",
@@ -1011490,22 +1011484,29 @@
         "display_name": "Family Guy S08E04 Brian's Got a Brand New Bag 1080p CZ Dabing",
         "prepared_at": "2026-11-28T01:26:31.861441+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483178",
-        "size_bytes": 678277100
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483178",
-        "size_bytes": 678277100,
-        "source_bytes_read": 678277100,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483178",
         "source_bytes_read": 678277100,
         "elapsed_seconds": 51.475,
         "finished_at": "2026-11-28T01:28:05.071300+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483178",
+          "size_bytes": 678277100,
+          "source_bytes_read": 678277100,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35185056",
+        "source_url": "https://sdilej.cz/35185056/griffinovi-s08e04-brianova-nova-baba-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483178",
+        "display_name": "Family Guy S08E04 Brian's Got a Brand New Bag 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T01:28:30.874177+00:00"
       }
     },
     "394:8:6": {
@@ -1011588,7 +1011589,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T01:28:20.744511+00:00",
+  "updated_at": "2026-11-28T01:28:30.874191+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
