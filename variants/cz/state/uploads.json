@@ -1011772,12 +1011772,6 @@
     },
     "1421:1:4": {
       "episode_key": "cromwell:s1:e4",
-      "claim": {
-        "worker_id": "07beb8bf48e24e9e9ee13d65d7a5ff2c-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T01:32:08.249692+00:00",
-        "lease_expires_at": "2026-11-28T07:32:08.249699+00:00"
-      },
       "source": {
         "source_id": "7554087",
         "source_url": "https://sdilej.cz/7554087/wolf-hall-s01e04-dablova-slina.avi",
@@ -1011802,22 +1011796,29 @@
         "display_name": "Wolf Hall S01E04 The Devil's Spit SD CZ Dabing",
         "prepared_at": "2026-11-28T01:32:32.687696+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483296",
-        "size_bytes": 578638878
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483296",
-        "size_bytes": 578638878,
-        "source_bytes_read": 578638878,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483296",
         "source_bytes_read": 578638878,
         "elapsed_seconds": 43.272,
         "finished_at": "2026-11-28T01:33:50.485149+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483296",
+          "size_bytes": 578638878,
+          "source_bytes_read": 578638878,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "7554087",
+        "source_url": "https://sdilej.cz/7554087/wolf-hall-s01e04-dablova-slina.avi",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483296",
+        "display_name": "Wolf Hall S01E04 The Devil's Spit SD CZ Dabing",
+        "uploaded_at": "2026-11-28T01:34:10.640093+00:00"
       }
     }
   },
@@ -1011826,7 +1011827,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T01:34:03.110341+00:00",
+  "updated_at": "2026-11-28T01:34:10.640106+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
