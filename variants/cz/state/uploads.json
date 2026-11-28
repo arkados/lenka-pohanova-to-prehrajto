@@ -1035020,12 +1035020,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "4e1bf0f7dfa4463d804213a777b06bd0-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T16:09:56.511062+00:00",
-        "lease_expires_at": "2026-11-28T22:09:56.511080+00:00"
-      },
       "source": {
         "source_id": "30658942",
         "source_url": "https://sdilej.cz/30658942/namorni-vysetrovaci-sluzba-s11e01.mkv",
@@ -1035050,22 +1035044,29 @@
         "display_name": "NCIS S11E01 Whiskey Tango Foxtrot 1080p CZ Dabing",
         "prepared_at": "2026-11-28T16:10:09.178527+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31502872",
-        "size_bytes": 995419087
-      },
-      "transfer_receipt": {
-        "target_video_id": "31502872",
-        "size_bytes": 995419087,
-        "source_bytes_read": 995419087,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31502872",
         "source_bytes_read": 995419087,
         "elapsed_seconds": 52.227,
         "finished_at": "2026-11-28T16:11:43.921145+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31502872",
+          "size_bytes": 995419087,
+          "source_bytes_read": 995419087,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30658942",
+        "source_url": "https://sdilej.cz/30658942/namorni-vysetrovaci-sluzba-s11e01.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31502872",
+        "display_name": "NCIS S11E01 Whiskey Tango Foxtrot 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T16:11:52.934518+00:00"
       }
     },
     "1405:10:18": {
@@ -1035725,7 +1035726,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T16:11:43.921162+00:00",
+  "updated_at": "2026-11-28T16:11:52.934538+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
