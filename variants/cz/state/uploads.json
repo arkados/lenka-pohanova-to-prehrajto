@@ -1043009,12 +1043009,6 @@
     },
     "3016:1:9": {
       "episode_key": "berlínská mise:s1:e9",
-      "claim": {
-        "worker_id": "35ed7efb3e8344d8ad8609f108dd6f6d-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T22:34:23.464379+00:00",
-        "lease_expires_at": "2026-11-29T04:34:23.464388+00:00"
-      },
       "source": {
         "source_id": "32194008",
         "source_url": "https://sdilej.cz/32194008/berlin-station-s01e09.mp4",
@@ -1043039,22 +1043033,29 @@
         "display_name": "Berlin Station S01E09 Thomas Shaw 1080p CZ Dabing",
         "prepared_at": "2026-11-28T22:34:33.078074+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31514652",
-        "size_bytes": 832396499
-      },
-      "transfer_receipt": {
-        "target_video_id": "31514652",
-        "size_bytes": 832396499,
-        "source_bytes_read": 832396499,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31514652",
         "source_bytes_read": 832396499,
         "elapsed_seconds": 90.173,
         "finished_at": "2026-11-28T22:36:45.090026+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31514652",
+          "size_bytes": 832396499,
+          "source_bytes_read": 832396499,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32194008",
+        "source_url": "https://sdilej.cz/32194008/berlin-station-s01e09.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31514652",
+        "display_name": "Berlin Station S01E09 Thomas Shaw 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T22:36:55.504589+00:00"
       }
     },
     "3016:2:4": {
@@ -1043137,7 +1043138,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T22:36:45.090045+00:00",
+  "updated_at": "2026-11-28T22:36:55.504604+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
