@@ -1039280,12 +1039280,6 @@
     },
     "1405:16:14": {
       "episode_key": "námořní vyšetřovací služba:s16:e14",
-      "claim": {
-        "worker_id": "c5e38afac85b41cb91fc4be53a86bc8f-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T17:30:54.823026+00:00",
-        "lease_expires_at": "2026-11-28T23:30:54.823040+00:00"
-      },
       "source": {
         "source_id": "34603654",
         "source_url": "https://sdilej.cz/34603654/ncis-s16e14-cz.mp4",
@@ -1039326,7 +1039320,13 @@
         "elapsed_seconds": 277.457,
         "finished_at": "2026-11-28T17:36:04.931679+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T17:37:40.594734+00:00",
+          "error": "RetryError"
+        }
+      ]
     }
   },
   "binding": {
@@ -1039334,7 +1039334,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T17:37:05.263091+00:00",
+  "updated_at": "2026-11-28T17:37:40.594753+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
