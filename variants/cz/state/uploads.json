@@ -1019556,12 +1019556,6 @@
     },
     "394:5:3": {
       "episode_key": "griffinovi:s5:e3",
-      "claim": {
-        "worker_id": "8ee7da2997b6435b8f9c607bb772f616-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T04:45:54.511643+00:00",
-        "lease_expires_at": "2026-11-28T10:45:54.511652+00:00"
-      },
       "source": {
         "source_id": "34495866",
         "source_url": "https://sdilej.cz/34495866/griffinovi-s05e03-zlo-prichazi-do-quahogu-1080p.mkv",
@@ -1019586,22 +1019580,29 @@
         "display_name": "Family Guy S05E03 Hell Comes to Quahog 1080p CZ Dabing",
         "prepared_at": "2026-11-28T04:46:08.609984+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31486745",
-        "size_bytes": 890627156
-      },
-      "transfer_receipt": {
-        "target_video_id": "31486745",
-        "size_bytes": 890627156,
-        "source_bytes_read": 890627156,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31486745",
         "source_bytes_read": 890627156,
         "elapsed_seconds": 37.568,
         "finished_at": "2026-11-28T04:47:15.508819+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31486745",
+          "size_bytes": 890627156,
+          "source_bytes_read": 890627156,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34495866",
+        "source_url": "https://sdilej.cz/34495866/griffinovi-s05e03-zlo-prichazi-do-quahogu-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31486745",
+        "display_name": "Family Guy S05E03 Hell Comes to Quahog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T04:47:23.836827+00:00"
       }
     }
   },
@@ -1019610,7 +1019611,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T04:47:15.508838+00:00",
+  "updated_at": "2026-11-28T04:47:23.836842+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
