@@ -1011599,12 +1011599,6 @@
     },
     "462:1:4": {
       "episode_key": "ženatý se závazky:s1:e4",
-      "claim": {
-        "worker_id": "7de4ecc104e247aa9098ae0067a3fe9d-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T01:28:43.604819+00:00",
-        "lease_expires_at": "2026-11-28T07:28:43.604827+00:00"
-      },
       "source": {
         "source_id": "35326402",
         "source_url": "https://sdilej.cz/35326402/zenaty-se-zavazky-s01e04-koho-bude-ta-mistnost.mkv",
@@ -1011629,22 +1011623,29 @@
         "display_name": "Married… with Children S01E04 Whose Room Is It Anyway 720p CZ Dabing",
         "prepared_at": "2026-11-28T01:28:51.896139+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31483230",
-        "size_bytes": 211154707
-      },
-      "transfer_receipt": {
-        "target_video_id": "31483230",
-        "size_bytes": 211154707,
-        "source_bytes_read": 211154707,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31483230",
         "source_bytes_read": 211154707,
         "elapsed_seconds": 13.834,
         "finished_at": "2026-11-28T01:29:30.853397+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31483230",
+          "size_bytes": 211154707,
+          "source_bytes_read": 211154707,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35326402",
+        "source_url": "https://sdilej.cz/35326402/zenaty-se-zavazky-s01e04-koho-bude-ta-mistnost.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31483230",
+        "display_name": "Married… with Children S01E04 Whose Room Is It Anyway 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T01:29:46.149954+00:00"
       }
     }
   },
@@ -1011653,7 +1011654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T01:29:37.966735+00:00",
+  "updated_at": "2026-11-28T01:29:46.149970+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
