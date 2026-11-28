@@ -1036889,12 +1036889,6 @@
     },
     "1405:13:14": {
       "episode_key": "námořní vyšetřovací služba:s13:e14",
-      "claim": {
-        "worker_id": "d030d054f06846fbb76ce4f4a83e30c1-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T16:34:51.414315+00:00",
-        "lease_expires_at": "2026-11-28T22:34:51.414328+00:00"
-      },
       "source": {
         "source_id": "32703728",
         "source_url": "https://sdilej.cz/32703728/namorni-vysetrovaci-sluzba-ncis-s13e14-cz-dabing.mkv",
@@ -1036918,7 +1036912,18 @@
         },
         "display_name": "NCIS S13E14 Decompressed SD CZ Dabing",
         "prepared_at": "2026-11-28T16:34:59.231638+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "32703728:https://sdilej.cz/32703728/namorni-vysetrovaci-sluzba-ncis-s13e14-cz-dabing.mkv",
+        "at": "2026-11-28T16:35:17.179153+00:00",
+        "retry_after": "2026-11-28T22:35:17.179153+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T16:35:17.179197+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     },
     "1405:13:15": {
       "episode_key": "námořní vyšetřovací služba:s13:e15",
@@ -1036935,7 +1036940,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T16:35:11.202444+00:00",
+  "updated_at": "2026-11-28T16:35:17.179202+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1038006,8 +1038011,8 @@
     "1405": {
       "recent_failures": [
         {
-          "identity": "1405:11:6",
-          "at": "2026-11-28T16:03:25.389707+00:00"
+          "identity": "1405:13:14",
+          "at": "2026-11-28T16:35:17.179153+00:00"
         }
       ]
     }
