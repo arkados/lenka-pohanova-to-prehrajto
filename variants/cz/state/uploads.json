@@ -1013689,12 +1013689,6 @@
     },
     "394:19:1": {
       "episode_key": "griffinovi:s19:e1",
-      "claim": {
-        "worker_id": "accbd55cbe064324a71e9675bdc2cecf-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T02:36:56.648233+00:00",
-        "lease_expires_at": "2026-11-28T08:36:56.648249+00:00"
-      },
       "source": {
         "source_id": "31416067",
         "source_url": "https://sdilej.cz/31416067/griffinovi-s19e01-stewieho-prvni-slovo.mkv",
@@ -1013719,22 +1013713,29 @@
         "display_name": "Family Guy S19E01 Stewie's First Word 1080p CZ Dabing",
         "prepared_at": "2026-11-28T02:37:03.479456+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31484218",
-        "size_bytes": 229334027
-      },
-      "transfer_receipt": {
-        "target_video_id": "31484218",
-        "size_bytes": 229334027,
-        "source_bytes_read": 229334027,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31484218",
         "source_bytes_read": 229334027,
         "elapsed_seconds": 14.329,
         "finished_at": "2026-11-28T02:37:41.088290+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31484218",
+          "size_bytes": 229334027,
+          "source_bytes_read": 229334027,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "31416067",
+        "source_url": "https://sdilej.cz/31416067/griffinovi-s19e01-stewieho-prvni-slovo.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31484218",
+        "display_name": "Family Guy S19E01 Stewie's First Word 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T02:37:57.162670+00:00"
       }
     }
   },
@@ -1013743,7 +1013744,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T02:37:47.881588+00:00",
+  "updated_at": "2026-11-28T02:37:57.162684+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
