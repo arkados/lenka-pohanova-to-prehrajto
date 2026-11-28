@@ -1042599,12 +1042599,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "ca1adf6d1db149f6af4033027529e4d8-worker-0",
-        "run_id": "46178500005",
-        "claimed_at": "2026-11-28T22:19:50.638872+00:00",
-        "lease_expires_at": "2026-11-29T04:19:50.638881+00:00"
-      },
       "source": {
         "source_id": "12992790",
         "source_url": "https://sdilej.cz/12992790/grimm.s04e12.1080p.bluray.x265-heteam-cz.mkv",
@@ -1042629,22 +1042623,29 @@
         "display_name": "Grimm S04E12 Maréchaussée 1080p CZ Dabing",
         "prepared_at": "2026-11-28T22:20:10.358874+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31514327",
-        "size_bytes": 513771723
-      },
-      "transfer_receipt": {
-        "target_video_id": "31514327",
-        "size_bytes": 513771723,
-        "source_bytes_read": 513771723,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31514327",
         "source_bytes_read": 513771723,
         "elapsed_seconds": 41.145,
         "finished_at": "2026-11-28T22:21:25.471233+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31514327",
+          "size_bytes": 513771723,
+          "source_bytes_read": 513771723,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "12992790",
+        "source_url": "https://sdilej.cz/12992790/grimm.s04e12.1080p.bluray.x265-heteam-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31514327",
+        "display_name": "Grimm S04E12 Maréchaussée 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T22:21:46.272599+00:00"
       }
     }
   },
@@ -1042653,7 +1042654,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T22:21:39.304859+00:00",
+  "updated_at": "2026-11-28T22:21:46.272616+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
