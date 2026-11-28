@@ -954873,28 +954873,29 @@
           "at": "2026-11-28T12:39:56.177321+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "49953f62f35e4b5490992032be34f151-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:40:01.578551+00:00",
-        "lease_expires_at": "2026-11-28T18:40:01.578556+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500131",
-        "size_bytes": 775988511
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500131",
-        "size_bytes": 775988511,
-        "source_bytes_read": 775988511,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500131",
         "source_bytes_read": 775988511,
         "elapsed_seconds": 41.663,
         "finished_at": "2026-11-28T12:41:31.179738+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500131",
+          "size_bytes": 775988511,
+          "source_bytes_read": 775988511,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961388",
+        "source_url": "https://sdilej.cz/32961388/prezident-v-poradi-s01e18.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500131",
+        "display_name": "Designated Survivor S01E18 Lazarus 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:41:47.544624+00:00"
       }
     },
     "1408:4:3": {
@@ -1028091,7 +1028092,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:41:42.007888+00:00",
+  "updated_at": "2026-11-28T12:41:47.544642+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
