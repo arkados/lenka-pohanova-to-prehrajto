@@ -1032299,12 +1032299,6 @@
     },
     "1270:3:24": {
       "episode_key": "takoví normální mimozemšťané:s3:e24",
-      "claim": {
-        "worker_id": "c25368fe88af4558b3fe7cb8bee99a07-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T14:55:18.889983+00:00",
-        "lease_expires_at": "2026-11-28T20:55:18.889999+00:00"
-      },
       "source": {
         "source_id": "26291593",
         "source_url": "https://sdilej.cz/26291593/takovi-normalni-mimozemstane-s03e24-cz-dab.mp4",
@@ -1032329,22 +1032323,29 @@
         "display_name": "3rd Rock from the Sun S03E24 Sally and Don's First Kiss SD CZ Dabing",
         "prepared_at": "2026-11-28T14:55:39.107682+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31501719",
-        "size_bytes": 220043179
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501719",
-        "size_bytes": 220043179,
-        "source_bytes_read": 220043179,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501719",
         "source_bytes_read": 220043179,
         "elapsed_seconds": 13.642,
         "finished_at": "2026-11-28T14:56:24.016126+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501719",
+          "size_bytes": 220043179,
+          "source_bytes_read": 220043179,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "26291593",
+        "source_url": "https://sdilej.cz/26291593/takovi-normalni-mimozemstane-s03e24-cz-dab.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501719",
+        "display_name": "3rd Rock from the Sun S03E24 Sally and Don's First Kiss SD CZ Dabing",
+        "uploaded_at": "2026-11-28T14:56:36.974118+00:00"
       }
     }
   },
@@ -1032353,7 +1032354,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:56:31.209220+00:00",
+  "updated_at": "2026-11-28T14:56:36.974134+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
