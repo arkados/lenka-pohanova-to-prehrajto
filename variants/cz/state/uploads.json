@@ -1040968,12 +1040968,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "f59a0ece0f7840519789fcc172e409f2-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T20:04:37.461175+00:00",
-        "lease_expires_at": "2026-11-29T02:04:37.461188+00:00"
-      },
       "source": {
         "source_id": "35245673",
         "source_url": "https://sdilej.cz/35245673/griffinovi-s12e08-vanocni-pout-cz.mkv",
@@ -1040998,22 +1040992,29 @@
         "display_name": "Family Guy S12E08 Christmas Guy 1080p CZ Dabing",
         "prepared_at": "2026-11-28T20:05:02.435700+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31510708",
-        "size_bytes": 760693717
-      },
-      "transfer_receipt": {
-        "target_video_id": "31510708",
-        "size_bytes": 760693717,
-        "source_bytes_read": 760693717,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31510708",
         "source_bytes_read": 760693717,
         "elapsed_seconds": 395.023,
         "finished_at": "2026-11-28T20:12:19.382753+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31510708",
+          "size_bytes": 760693717,
+          "source_bytes_read": 760693717,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35245673",
+        "source_url": "https://sdilej.cz/35245673/griffinovi-s12e08-vanocni-pout-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31510708",
+        "display_name": "Family Guy S12E08 Christmas Guy 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T20:12:30.130457+00:00"
       }
     },
     "394:12:13": {
@@ -1041129,7 +1041130,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T20:12:19.382771+00:00",
+  "updated_at": "2026-11-28T20:12:30.130472+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
