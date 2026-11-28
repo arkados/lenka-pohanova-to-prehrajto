@@ -1021294,12 +1021294,6 @@
     },
     "617:4:10": {
       "episode_key": "star trek: podivné nové světy:s4:e10",
-      "claim": {
-        "worker_id": "0780089279204854b0c05e1d1078d96e-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T05:26:20.475889+00:00",
-        "lease_expires_at": "2026-11-28T11:26:20.475901+00:00"
-      },
       "source": {
         "source_id": "35284513",
         "source_url": "https://sdilej.cz/35284513/star-trek-podivne-nove-svety-s04e10-cz-dabing-2160p.mkv",
@@ -1021323,7 +1021317,18 @@
         },
         "display_name": "Star Trek: Strange New Worlds S04E10 Tomorrow's Enterprise 4K CZ Dabing",
         "prepared_at": "2026-11-28T05:26:40.310366+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35284513:https://sdilej.cz/35284513/star-trek-podivne-nove-svety-s04e10-cz-dabing-2160p.mkv",
+        "at": "2026-11-28T05:26:49.382789+00:00",
+        "retry_after": "2026-11-28T11:26:49.382789+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T05:26:49.382822+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1021331,7 +1021336,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T05:26:40.310383+00:00",
+  "updated_at": "2026-11-28T05:26:49.382827+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1022394,6 +1022399,14 @@
         {
           "identity": "394:4:6",
           "at": "2026-11-28T05:12:17.935701+00:00"
+        }
+      ]
+    },
+    "617": {
+      "recent_failures": [
+        {
+          "identity": "617:4:10",
+          "at": "2026-11-28T05:26:49.382789+00:00"
         }
       ]
     }
