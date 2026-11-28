@@ -960658,28 +960658,29 @@
           "at": "2026-11-28T12:50:09.550425+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "0fa15682fd7345369d2b01ffa09f9cf4-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:50:15.408768+00:00",
-        "lease_expires_at": "2026-11-28T18:50:15.408773+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500257",
-        "size_bytes": 786530459
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500257",
-        "size_bytes": 786530459,
-        "source_bytes_read": 786530459,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500257",
         "source_bytes_read": 786530459,
         "elapsed_seconds": 41.853,
         "finished_at": "2026-11-28T12:51:45.963863+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500257",
+          "size_bytes": 786530459,
+          "source_bytes_read": 786530459,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961453",
+        "source_url": "https://sdilej.cz/32961453/prezident-v-poradi-s02e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500257",
+        "display_name": "Designated Survivor S02E05 Suckers 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:51:59.346633+00:00"
       }
     },
     "1864:2:6": {
@@ -1028318,7 +1028319,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:51:52.056066+00:00",
+  "updated_at": "2026-11-28T12:51:59.346652+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
