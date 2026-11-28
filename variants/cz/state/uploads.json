@@ -1029676,12 +1029676,6 @@
     },
     "1733:5:1": {
       "episode_key": "vyvolení:s5:e1",
-      "claim": {
-        "worker_id": "45896297f4034025b129e92ac1ce4e04-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T13:24:43.776383+00:00",
-        "lease_expires_at": "2026-11-28T19:24:43.776388+00:00"
-      },
       "source": {
         "source_id": "33690405",
         "source_url": "https://sdilej.cz/33690405/the-chosen-s05e01-prijezd-2025-720p-cz-dabing.mkv",
@@ -1029706,22 +1029700,29 @@
         "display_name": "The Chosen S05E01 Entry SD CZ Dabing",
         "prepared_at": "2026-11-28T13:24:52.020387+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31500628",
-        "size_bytes": 1198387506
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500628",
-        "size_bytes": 1198387506,
-        "source_bytes_read": 1198387506,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500628",
         "source_bytes_read": 1198387506,
         "elapsed_seconds": 60.674,
         "finished_at": "2026-11-28T13:26:15.372870+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500628",
+          "size_bytes": 1198387506,
+          "source_bytes_read": 1198387506,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "33690405",
+        "source_url": "https://sdilej.cz/33690405/the-chosen-s05e01-prijezd-2025-720p-cz-dabing.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500628",
+        "display_name": "The Chosen S05E01 Entry SD CZ Dabing",
+        "uploaded_at": "2026-11-28T13:26:25.010597+00:00"
       }
     }
   },
@@ -1029730,7 +1029731,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T13:26:15.372891+00:00",
+  "updated_at": "2026-11-28T13:26:25.010614+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
