@@ -1038297,12 +1038297,6 @@
     },
     "1405:14:19": {
       "episode_key": "námořní vyšetřovací služba:s14:e19",
-      "claim": {
-        "worker_id": "9c556f3173bc4e6b98a2467d83ba86a7-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T17:05:45.070727+00:00",
-        "lease_expires_at": "2026-11-28T23:05:45.070743+00:00"
-      },
       "source": {
         "source_id": "30836786",
         "source_url": "https://sdilej.cz/30836786/namorni-vysetrovaci-sluzba-s14e19.mkv",
@@ -1038327,22 +1038321,29 @@
         "display_name": "NCIS S14E19 The Wall 1080p CZ Dabing",
         "prepared_at": "2026-11-28T17:05:53.157260+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31504493",
-        "size_bytes": 473884831
-      },
-      "transfer_receipt": {
-        "target_video_id": "31504493",
-        "size_bytes": 473884831,
-        "source_bytes_read": 473884831,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31504493",
         "source_bytes_read": 473884831,
         "elapsed_seconds": 318.587,
         "finished_at": "2026-11-28T17:11:42.298980+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31504493",
+          "size_bytes": 473884831,
+          "source_bytes_read": 473884831,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "30836786",
+        "source_url": "https://sdilej.cz/30836786/namorni-vysetrovaci-sluzba-s14e19.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31504493",
+        "display_name": "NCIS S14E19 The Wall 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T17:11:50.491870+00:00"
       }
     },
     "1405:14:2": {
@@ -1038527,7 +1038528,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T17:11:42.299001+00:00",
+  "updated_at": "2026-11-28T17:11:50.491891+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
