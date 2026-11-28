@@ -1026054,12 +1026054,6 @@
     },
     "2234:1:7": {
       "episode_key": "směr jih:s1:e7",
-      "claim": {
-        "worker_id": "026b7728fca4406b8b518f94afaf52c5-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T11:34:38.728130+00:00",
-        "lease_expires_at": "2026-11-28T17:34:38.728138+00:00"
-      },
       "source": {
         "source_id": "33647053",
         "source_url": "https://sdilej.cz/33647053/smer-jih-01x07-cz.mp4",
@@ -1026100,7 +1026094,13 @@
         "elapsed_seconds": 345.194,
         "finished_at": "2026-11-28T11:41:08.221853+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T11:42:40.810076+00:00",
+          "error": "RetryError"
+        }
+      ]
     },
     "4726:3:6": {
       "episode_key": "návrat na výsluní:s3:e6",
@@ -1026205,7 +1026205,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T11:41:08.221876+00:00",
+  "updated_at": "2026-11-28T11:42:40.810095+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
