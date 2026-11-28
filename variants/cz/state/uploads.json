@@ -1036228,12 +1036228,6 @@
     },
     "1405:12:22": {
       "episode_key": "námořní vyšetřovací služba:s12:e22",
-      "claim": {
-        "worker_id": "4462b0fda4ae4c4892d5c52f79954dd7-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T16:22:22.902740+00:00",
-        "lease_expires_at": "2026-11-28T22:22:22.902751+00:00"
-      },
       "source": {
         "source_id": "30836677",
         "source_url": "https://sdilej.cz/30836677/namorni-vysetrovaci-sluzba-s12e22.mkv",
@@ -1036274,7 +1036268,13 @@
         "elapsed_seconds": 51.882,
         "finished_at": "2026-11-28T16:24:12.177872+00:00",
         "environment": "github_actions"
-      }
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T16:24:24.929519+00:00",
+          "error": "ConnectionError"
+        }
+      ]
     },
     "1405:12:23": {
       "episode_key": "námořní vyšetřovací služba:s12:e23",
@@ -1036332,7 +1036332,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T16:24:18.569150+00:00",
+  "updated_at": "2026-11-28T16:24:24.929543+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
