@@ -964523,28 +964523,29 @@
           "at": "2026-11-28T14:22:14.436896+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "49a8b63613c04407ad6b29a8381f30d3-worker-0",
-        "run_id": "46153774286",
-        "claimed_at": "2026-11-28T14:22:20.638692+00:00",
-        "lease_expires_at": "2026-11-28T20:22:20.638702+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31501314",
-        "size_bytes": 944873146
-      },
-      "transfer_receipt": {
-        "target_video_id": "31501314",
-        "size_bytes": 944873146,
-        "source_bytes_read": 944873146,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31501314",
         "source_bytes_read": 944873146,
         "elapsed_seconds": 54.219,
         "finished_at": "2026-11-28T14:24:29.377364+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31501314",
+          "size_bytes": 944873146,
+          "source_bytes_read": 944873146,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961658",
+        "source_url": "https://sdilej.cz/32961658/prezident-v-poradi-s03e05.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31501314",
+        "display_name": "Designated Survivor S03E05 #nothingpersonal 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T14:24:49.910463+00:00"
       }
     },
     "1864:3:6": {
@@ -1030871,7 +1030872,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T14:24:40.915088+00:00",
+  "updated_at": "2026-11-28T14:24:49.910478+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
