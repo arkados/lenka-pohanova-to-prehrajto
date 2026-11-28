@@ -1040470,12 +1040470,6 @@
           "error": "RetryError"
         }
       ],
-      "claim": {
-        "worker_id": "a8b6f13b620c4bb79c9e1c4054035156-worker-0",
-        "run_id": "46172321231",
-        "claimed_at": "2026-11-28T19:13:52.320279+00:00",
-        "lease_expires_at": "2026-11-29T01:13:52.320293+00:00"
-      },
       "source": {
         "source_id": "35210268",
         "source_url": "https://sdilej.cz/35210268/griffinovi-s11e07-kamaradi-bez-vyhod-cz.mkv",
@@ -1040500,22 +1040494,29 @@
         "display_name": "Family Guy S11E07 Friends Without Benefits 1080p CZ Dabing",
         "prepared_at": "2026-11-28T19:14:00.351751+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31508893",
-        "size_bytes": 735825913
-      },
-      "transfer_receipt": {
-        "target_video_id": "31508893",
-        "size_bytes": 735825913,
-        "source_bytes_read": 735825913,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31508893",
         "source_bytes_read": 735825913,
         "elapsed_seconds": 163.865,
         "finished_at": "2026-11-28T19:17:23.374228+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31508893",
+          "size_bytes": 735825913,
+          "source_bytes_read": 735825913,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35210268",
+        "source_url": "https://sdilej.cz/35210268/griffinovi-s11e07-kamaradi-bez-vyhod-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31508893",
+        "display_name": "Family Guy S11E07 Friends Without Benefits 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T19:17:33.906275+00:00"
       }
     },
     "394:11:9": {
@@ -1040713,7 +1040714,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T19:17:23.374248+00:00",
+  "updated_at": "2026-11-28T19:17:33.906290+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
