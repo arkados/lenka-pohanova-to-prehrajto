@@ -1017554,12 +1017554,6 @@
     },
     "394:4:1": {
       "episode_key": "griffinovi:s4:e1",
-      "claim": {
-        "worker_id": "bfda2469c9e14fb0ac2efd7e9761728a-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T03:49:24.555084+00:00",
-        "lease_expires_at": "2026-11-28T09:49:24.555102+00:00"
-      },
       "source": {
         "source_id": "35171521",
         "source_url": "https://sdilej.cz/35171521/griffinovi-s04e01-na-sever-severni-linkou-cz.mkv",
@@ -1017584,22 +1017578,29 @@
         "display_name": "Family Guy S04E01 North by North Quahog 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:49:31.242909+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31485333",
-        "size_bytes": 1086546759
-      },
-      "transfer_receipt": {
-        "target_video_id": "31485333",
-        "size_bytes": 1086546759,
-        "source_bytes_read": 1086546759,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31485333",
         "source_bytes_read": 1086546759,
         "elapsed_seconds": 79.159,
         "finished_at": "2026-11-28T03:51:29.886818+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31485333",
+          "size_bytes": 1086546759,
+          "source_bytes_read": 1086546759,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35171521",
+        "source_url": "https://sdilej.cz/35171521/griffinovi-s04e01-na-sever-severni-linkou-cz.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31485333",
+        "display_name": "Family Guy S04E01 North by North Quahog 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:51:43.984195+00:00"
       }
     },
     "394:4:10": {
@@ -1017682,7 +1017683,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:51:36.027176+00:00",
+  "updated_at": "2026-11-28T03:51:43.984211+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
