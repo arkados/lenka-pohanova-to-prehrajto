@@ -955956,28 +955956,29 @@
           "at": "2026-11-28T12:42:05.812359+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "5a3e3a477e0f404b86963f045612a52d-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:42:11.237707+00:00",
-        "lease_expires_at": "2026-11-28T18:42:11.237711+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500155",
-        "size_bytes": 765330544
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500155",
-        "size_bytes": 765330544,
-        "source_bytes_read": 765330544,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500155",
         "source_bytes_read": 765330544,
         "elapsed_seconds": 48.314,
         "finished_at": "2026-11-28T12:43:44.876423+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500155",
+          "size_bytes": 765330544,
+          "source_bytes_read": 765330544,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961406",
+        "source_url": "https://sdilej.cz/32961406/prezident-v-poradi-s01e20.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500155",
+        "display_name": "Designated Survivor S01E20 Bombshell 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T12:43:55.595920+00:00"
       }
     },
     "1408:5:14": {
@@ -1028151,7 +1028152,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:43:50.337183+00:00",
+  "updated_at": "2026-11-28T12:43:55.595934+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
