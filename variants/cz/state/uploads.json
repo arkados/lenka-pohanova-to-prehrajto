@@ -1026590,14 +1026590,12 @@
         {
           "at": "2026-11-28T11:53:19.754668+00:00",
           "error": "RetryError"
+        },
+        {
+          "at": "2026-11-28T12:12:24.992703+00:00",
+          "error": "SourceUnavailable"
         }
       ],
-      "claim": {
-        "worker_id": "07753ecec69d49059c3c89669c4c6411-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T12:12:08.630078+00:00",
-        "lease_expires_at": "2026-11-28T18:12:08.630082+00:00"
-      },
       "source": {
         "source_id": "33940534",
         "source_url": "https://sdilej.cz/33940534/bila-kralovna-s01e02-cz-dabing-1080p-full-hd.mp4",
@@ -1026621,6 +1026619,11 @@
         },
         "display_name": "The White Queen S01E02 The Price of Power 1080p CZ Dabing",
         "prepared_at": "2026-11-28T12:12:18.049376+00:00"
+      },
+      "source_repair_requested": {
+        "base": "33940534:https://sdilej.cz/33940534/bila-kralovna-s01e02-cz-dabing-1080p-full-hd.mp4",
+        "at": "2026-11-28T12:12:24.992657+00:00",
+        "retry_after": "2026-11-28T18:12:24.992657+00:00"
       }
     },
     "1163:1:2": {
@@ -1026809,7 +1026812,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T12:12:18.049395+00:00",
+  "updated_at": "2026-11-28T12:12:24.992709+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1027449,16 +1027452,8 @@
     "668": {
       "recent_failures": [
         {
-          "identity": "668:1:5",
-          "at": "2026-11-21T23:17:16.844241+00:00"
-        },
-        {
-          "identity": "668:1:9",
-          "at": "2026-11-21T23:17:22.320923+00:00"
-        },
-        {
-          "identity": "668:1:10",
-          "at": "2026-11-21T23:17:47.130299+00:00"
+          "identity": "668:1:2",
+          "at": "2026-11-28T12:12:24.992657+00:00"
         }
       ],
       "retry_after": "2026-11-21T23:27:47.130299+00:00"
