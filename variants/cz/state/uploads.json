@@ -962428,28 +962428,29 @@
           "at": "2026-11-28T13:16:55.706673+00:00"
         }
       ],
-      "claim": {
-        "worker_id": "e32b044047a842c3861a76e9708eced1-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T13:17:01.343688+00:00",
-        "lease_expires_at": "2026-11-28T19:17:01.343697+00:00"
-      },
-      "prepared_target": {
-        "target_video_id": "31500533",
-        "size_bytes": 772890637
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500533",
-        "size_bytes": 772890637,
-        "source_bytes_read": 772890637,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500533",
         "source_bytes_read": 772890637,
         "elapsed_seconds": 39.935,
         "finished_at": "2026-11-28T13:18:44.021162+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500533",
+          "size_bytes": 772890637,
+          "source_bytes_read": 772890637,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "32961524",
+        "source_url": "https://sdilej.cz/32961524/prezident-v-poradi-s02e15.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500533",
+        "display_name": "Designated Survivor S02E15 Summit 720p CZ Dabing",
+        "uploaded_at": "2026-11-28T13:19:03.838399+00:00"
       }
     },
     "1864:2:16": {
@@ -1029488,7 +1029489,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T13:18:56.559458+00:00",
+  "updated_at": "2026-11-28T13:19:03.838416+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
