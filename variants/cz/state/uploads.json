@@ -1016928,12 +1016928,6 @@
     },
     "394:22:9": {
       "episode_key": "griffinovi:s22:e9",
-      "claim": {
-        "worker_id": "e6783595cfd6416d9702c27e064c97d5-worker-0",
-        "run_id": "46085885414",
-        "claimed_at": "2026-11-28T03:27:56.761608+00:00",
-        "lease_expires_at": "2026-11-28T09:27:56.761622+00:00"
-      },
       "source": {
         "source_id": "35324537",
         "source_url": "https://sdilej.cz/35324537/griffinovi-s22e09-navrat-krale-queensu.mkv",
@@ -1016958,22 +1016952,29 @@
         "display_name": "Family Guy S22E09 The Return of the King (of Queens) 1080p CZ Dabing",
         "prepared_at": "2026-11-28T03:28:10.792521+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31485006",
-        "size_bytes": 482763856
-      },
-      "transfer_receipt": {
-        "target_video_id": "31485006",
-        "size_bytes": 482763856,
-        "source_bytes_read": 482763856,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31485006",
         "source_bytes_read": 482763856,
         "elapsed_seconds": 56.117,
         "finished_at": "2026-11-28T03:29:42.979242+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31485006",
+          "size_bytes": 482763856,
+          "source_bytes_read": 482763856,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "35324537",
+        "source_url": "https://sdilej.cz/35324537/griffinovi-s22e09-navrat-krale-queensu.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31485006",
+        "display_name": "Family Guy S22E09 The Return of the King (of Queens) 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T03:29:53.023646+00:00"
       }
     }
   },
@@ -1016982,7 +1016983,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T03:29:42.979261+00:00",
+  "updated_at": "2026-11-28T03:29:53.023660+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
