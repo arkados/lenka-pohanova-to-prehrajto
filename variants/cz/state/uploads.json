@@ -1018801,12 +1018801,6 @@
     },
     "394:4:6": {
       "episode_key": "griffinovi:s4:e6",
-      "claim": {
-        "worker_id": "113e5f271d49450a8b3e8dea37468415-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T04:19:57.751802+00:00",
-        "lease_expires_at": "2026-11-28T10:19:57.751813+00:00"
-      },
       "source": {
         "source_id": "35171775",
         "source_url": "https://sdilej.cz/35171775/griffinovi-s04e06-petardace-cz.mkv",
@@ -1018830,7 +1018824,17 @@
         },
         "display_name": "Family Guy S04E06 Petarded 1080p CZ Dabing",
         "prepared_at": "2026-11-28T04:20:10.973028+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35171775:https://sdilej.cz/35171775/griffinovi-s04e06-petardace-cz.mkv",
+        "at": "2026-11-28T04:20:26.051552+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T04:20:26.051613+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1018838,7 +1018842,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T04:20:18.090996+00:00",
+  "updated_at": "2026-11-28T04:20:26.051620+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1019895,8 +1019899,8 @@
     "394": {
       "recent_failures": [
         {
-          "identity": "394:21:4",
-          "at": "2026-11-28T03:14:47.259674+00:00"
+          "identity": "394:4:6",
+          "at": "2026-11-28T04:20:26.051552+00:00"
         }
       ]
     }
