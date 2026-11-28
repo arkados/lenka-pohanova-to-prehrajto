@@ -1030149,12 +1030149,6 @@
     },
     "1405:21:4": {
       "episode_key": "námořní vyšetřovací služba:s21:e4",
-      "claim": {
-        "worker_id": "5dfef3736954422ab165286a6aec7899-worker-0",
-        "run_id": "46135087182",
-        "claimed_at": "2026-11-28T13:32:45.081562+00:00",
-        "lease_expires_at": "2026-11-28T19:32:45.081573+00:00"
-      },
       "source": {
         "source_id": "34809235",
         "source_url": "https://sdilej.cz/34809235/ncis-s21e04-cz.mp4",
@@ -1030179,22 +1030173,29 @@
         "display_name": "NCIS S21E04 Left Unsaid 1080p CZ Dabing",
         "prepared_at": "2026-11-28T13:32:52.293859+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31500725",
-        "size_bytes": 895111251
-      },
-      "transfer_receipt": {
-        "target_video_id": "31500725",
-        "size_bytes": 895111251,
-        "source_bytes_read": 895111251,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31500725",
         "source_bytes_read": 895111251,
         "elapsed_seconds": 53.416,
         "finished_at": "2026-11-28T13:34:25.677976+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31500725",
+          "size_bytes": 895111251,
+          "source_bytes_read": 895111251,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "34809235",
+        "source_url": "https://sdilej.cz/34809235/ncis-s21e04-cz.mp4",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31500725",
+        "display_name": "NCIS S21E04 Left Unsaid 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T13:34:33.483404+00:00"
       }
     },
     "1405:21:5": {
@@ -1030240,7 +1030241,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T13:34:25.677995+00:00",
+  "updated_at": "2026-11-28T13:34:33.483422+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
