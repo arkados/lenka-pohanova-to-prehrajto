@@ -1020400,12 +1020400,6 @@
     },
     "394:6:8": {
       "episode_key": "griffinovi:s6:e8",
-      "claim": {
-        "worker_id": "6a957ce7449640af8518bbe6972ef017-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T05:02:57.392113+00:00",
-        "lease_expires_at": "2026-11-28T11:02:57.392121+00:00"
-      },
       "source": {
         "source_id": "28752639",
         "source_url": "https://sdilej.cz/28752639/griffinovi-s06e08-cz-en-dabing-1080p.mkv",
@@ -1020430,22 +1020424,29 @@
         "display_name": "Family Guy S06E08 McStroke 1080p CZ Dabing",
         "prepared_at": "2026-11-28T05:03:10.818628+00:00"
       },
-      "prepared_target": {
-        "target_video_id": "31487224",
-        "size_bytes": 936681719
-      },
-      "transfer_receipt": {
-        "target_video_id": "31487224",
-        "size_bytes": 936681719,
-        "source_bytes_read": 936681719,
-        "http_status": 201
-      },
       "transfer_statistics": {
         "target_video_id": "31487224",
         "source_bytes_read": 936681719,
         "elapsed_seconds": 81.66,
         "finished_at": "2026-11-28T05:05:04.881813+00:00",
         "environment": "github_actions"
+      },
+      "completion_evidence": {
+        "receipt": {
+          "target_video_id": "31487224",
+          "size_bytes": 936681719,
+          "source_bytes_read": 936681719,
+          "http_status": 201
+        },
+        "variant": "cz",
+        "source_id": "28752639",
+        "source_url": "https://sdilej.cz/28752639/griffinovi-s06e08-cz-en-dabing-1080p.mkv",
+        "audio_language": "cs"
+      },
+      "upload": {
+        "target_video_id": "31487224",
+        "display_name": "Family Guy S06E08 McStroke 1080p CZ Dabing",
+        "uploaded_at": "2026-11-28T05:05:15.389460+00:00"
       }
     },
     "394:6:9": {
@@ -1020528,7 +1020529,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T05:05:04.881835+00:00",
+  "updated_at": "2026-11-28T05:05:15.389477+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
