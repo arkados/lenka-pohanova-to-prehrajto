@@ -1021384,12 +1021384,6 @@
     },
     "617:4:9": {
       "episode_key": "star trek: podivné nové světy:s4:e9",
-      "claim": {
-        "worker_id": "2b295c27b3a64897a4b0177699906ce4-worker-0",
-        "run_id": "46103833532",
-        "claimed_at": "2026-11-28T05:27:27.844411+00:00",
-        "lease_expires_at": "2026-11-28T11:27:27.844429+00:00"
-      },
       "source": {
         "source_id": "35284468",
         "source_url": "https://sdilej.cz/35284468/star-trek-podivne-nove-svety-s04e09-cz-dabing-2160p.mkv",
@@ -1021413,7 +1021407,18 @@
         },
         "display_name": "Star Trek: Strange New Worlds S04E09 Once La'an a Time 4K CZ Dabing",
         "prepared_at": "2026-11-28T05:27:42.400190+00:00"
-      }
+      },
+      "source_repair_requested": {
+        "base": "35284468:https://sdilej.cz/35284468/star-trek-podivne-nove-svety-s04e09-cz-dabing-2160p.mkv",
+        "at": "2026-11-28T05:27:56.669883+00:00",
+        "retry_after": "2026-11-28T11:27:56.669883+00:00"
+      },
+      "attempts": [
+        {
+          "at": "2026-11-28T05:27:56.669943+00:00",
+          "error": "SourceUnavailable"
+        }
+      ]
     }
   },
   "binding": {
@@ -1021421,7 +1021426,7 @@
     "variant": "cz",
     "policy": "lenka-series-variants-v1"
   },
-  "updated_at": "2026-11-28T05:27:50.011605+00:00",
+  "updated_at": "2026-11-28T05:27:56.669949+00:00",
   "source_outages": {
     "673": {
       "recent_failures": [
@@ -1022496,8 +1022501,13 @@
         {
           "identity": "617:4:6",
           "at": "2026-11-28T05:27:16.304466+00:00"
+        },
+        {
+          "identity": "617:4:9",
+          "at": "2026-11-28T05:27:56.669883+00:00"
         }
-      ]
+      ],
+      "retry_after": "2026-11-28T05:37:56.669883+00:00"
     }
   }
 }
